@@ -11,7 +11,7 @@ from extract_repo_skills.git_evidence import verify_git_evidence
 from test_contracts import CATALOG_PATH, make_report
 
 
-class GitEvidenceTests(unittest.TestCase):
+class GitRepositoryFixture:
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -43,6 +43,8 @@ class GitEvidenceTests(unittest.TestCase):
     def write(self, path, content):
         (self.repo / path).write_text(content, encoding="utf-8")
 
+
+class GitEvidenceTests(GitRepositoryFixture, unittest.TestCase):
     def test_added_lines_and_removed_lines(self):
         self.assertEqual(verify_git_evidence(self.report, self.catalog, self.repo), 1)
         self.evidence.update(side="before", start_line=3, end_line=3)

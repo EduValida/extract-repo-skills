@@ -48,18 +48,25 @@ def _unique_object(pairs: list[tuple[str, object]]) -> dict:
     return result
 
 
-def read_json(path: str | Path) -> dict:
+def parse_json(text: str) -> dict:
     def reject_constant(value: str) -> None:
         raise ValidationError(f"JSON: invalid constant {value}")
 
     try:
         return json.loads(
-            Path(path).read_text(encoding="utf-8"),
+            text,
             object_pairs_hook=_unique_object,
             parse_constant=reject_constant,
         )
-    except (json.JSONDecodeError, UnicodeError) as exc:
-        raise ValidationError(f"Invalid JSON in {path}: {exc}") from exc
+    except json.JSONDecodeError as exc:
+        raise ValidationError(f"Invalid JSON: {exc.msg}") from exc
+
+
+def read_json(path: str | Path) -> dict:
+    try:
+        return parse_json(Path(path).read_text(encoding="utf-8"))
+    except UnicodeError as exc:
+        raise ValidationError(f"Invalid UTF-8 JSON in {path}") from exc
 
 
 def validate_catalog(catalog: dict) -> dict:

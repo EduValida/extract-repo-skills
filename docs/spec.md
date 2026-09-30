@@ -71,19 +71,67 @@ Commands:
 - `catalog`: validate and display catalog entries and the exact catalog identity.
 - `validate-report`: validate a manually authored or extractor-produced report;
   with `--repo`, also check cited changes and commit attribution in local Git.
+- `analyze-commit`: collect one attributed commit, request a semantic assessment,
+  and validate the resulting report. `--dry-run` previews model input offline.
 
 Validation without `--repo` must explicitly report that Git evidence was not
 verified. The caller is responsible for choosing the checkout corresponding to the
 report's repository identifier; this version does not authenticate remote identity.
+
+## Single-commit semantic assessment
+
+The first extractor collects all changed regular text files in one commit with
+five context lines around each hunk. It resolves a supplied revision to an immutable
+SHA before inference. Shared Git helpers ensure collection and verification use
+the same attribution rules and diff settings. Only committed content is collected;
+untracked files and working-tree modifications are excluded.
+
+The entire catalog, commit message, patches, and explicit changed-line intervals
+are supplied to the model. Repository content is untrusted data, not instructions.
+The prompt asks for substantive evidence, explicitly permits abstention, and rules
+out technology-stack attribution, inherited skills, and proficiency labels.
+
+The first provider adapter uses DeepSeek Chat Completions through the compatible,
+optional OpenAI Python SDK. It requests JSON Output and supplies the assessment
+schema in the prompt; JSON mode itself does not enforce that schema. The default
+model is `deepseek-flash`, configurable through `--model` or `DEEPSEEK_MODEL`;
+the caller configures `DEEPSEEK_API_KEY`. The client explicitly targets
+`https://api.deepseek.com`. There are no automatic retries, requests time out after
+60 seconds, thinking is disabled, and output has a configurable token limit.
+Other providers can supply the same
+assessment object to the provider-independent validation layer.
+
+The model supplies only the assessments array. Application code fixes repository,
+contributor, and catalog metadata. The output schema describes allowed skill IDs, commit,
+paths, sides, and decision values. Local validation checks the entire report and
+every citation, including a check that evidence belongs to the single requested
+commit. No report is accepted on refusal, incomplete output, malformed JSON,
+invented IDs, or unverifiable citations. Semantic correctness remains unproven
+until human review and evaluation.
+
+The CLI emits a version-1 report and separate run metadata, preserving compatibility
+with manually authored reports. Metadata records provider/model, response ID,
+usage, prompt version, input digest, resolved commit, catalog identity, and the
+need for human review. It does not persist raw model input automatically. Neither
+catalog digests nor input digests guarantee deterministic model behavior.
+
+The initial limits are 50 changed paths and 60,000 characters for the complete
+model input, including the catalog, instructions, and output schema. Character
+limits are not token counts. Oversized inputs fail before inference rather than
+being silently truncated. Unsupported changes (binary, mode-only, empty-file,
+symlink, or submodule changes) make the entire commit require manual review.
+Empty commits are rejected. Text that is generated, vendored, or copied still
+requires semantic review; automatic origin detection is not implemented.
 
 ## Next milestones
 
 1. Review and broaden the reference subset; manually annotate 20–30 contributions,
    including CSS-only work in Django repositories, documentation, tests, dependency
    updates, and generated code. Keep fixtures separate from real evaluation data.
-2. Collect bounded contributor changes from local Git and retain relevant context.
-3. Retrieve candidate catalog entries, evaluate evidence using a baseline and an
-   LLM-based experiment, and validate all outputs against the same contract.
+2. Evaluate the single-commit LLM flow against the reviewed examples and a simple
+   baseline, tracking errors without relying on schema validity as a quality score.
+3. Extend collection to bounded commit ranges and add candidate retrieval as the
+   catalog grows; preserve evidence and attribution during aggregation.
 4. Evaluate unsupported assignments, incorrect citations, missed supported skills,
    appropriate abstention, and catalog coverage separately. Candidate retrieval
    accuracy and final assignment accuracy must also be measured separately.
