@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "roadmap-css-starter",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "id": "css.media-queries",
+      "name": "CSS media queries",
+      "description": "Adapt CSS behavior to viewport or other media conditions.",
+      "aliases": ["Media queries"],
+      "evidence_criteria": [
+        "The contributor implements or meaningfully changes a media condition or the styles it controls, with an explainable effect on page behavior.",
+        "A media-query mention, unchanged surrounding CSS, or a formatting-only edit is insufficient."
+      ],
+      "sources": [
+        {
+          "source": "roadmap.sh",
+          "topic_id": "css/1-VTjOseACNKca6TU07aM",
+          "url": "https://github.com/nilbuild/developer-roadmap/blob/d7e10906113f703eadbc2f8d2889576f93050edf/roadmaps/css/content/media-queries@1-VTjOseACNKca6TU07aM.md",
+          "revision": "d7e10906113f703eadbc2f8d2889576f93050edf"
+        }
+      ]
+    },
+    {
+      "id": "css.flexbox",
+      "name": "CSS Flexbox",
+      "description": "Control layout through flex containers and their items.",
+      "aliases": ["Flexbox", "Flexible box layout"],
+      "evidence_criteria": [
+        "The contributor implements or meaningfully changes flex container or item behavior, explaining its effect on alignment, sizing, ordering, or wrapping.",
+        "The presence of flex styles elsewhere in the repository, documentation mentions, and formatting-only edits are insufficient."
+      ],
+      "sources": [
+        {
+          "source": "roadmap.sh",
+          "topic_id": "css/Xa8oKhrZ2Y_Fsx3PjdMrt",
+          "url": "https://github.com/nilbuild/developer-roadmap/blob/d7e10906113f703eadbc2f8d2889576f93050edf/roadmaps/css/content/flexbox@Xa8oKhrZ2Y_Fsx3PjdMrt.md",
+          "revision": "d7e10906113f703eadbc2f8d2889576f93050edf"
+        }
+      ]
+    },
+    {
+      "id": "css.grid",
+      "name": "CSS Grid",
+      "description": "Arrange content using grid tracks, areas, and item placement.",
+      "aliases": ["Grid layout", "CSS Grid Layout"],
+      "evidence_criteria": [
+        "The contributor implements or meaningfully changes grid layout behavior through track definitions, areas, placement, or alignment.",
+        "A grid-related class name or library dependency alone is insufficient; the changed code must demonstrate the layout behavior."
+      ],
+      "sources": [
+        {
+          "source": "roadmap.sh",
+          "topic_id": "css/6nemkEmghB_0SWBOHyI7a",
+          "url": "https://github.com/nilbuild/developer-roadmap/blob/d7e10906113f703eadbc2f8d2889576f93050edf/roadmaps/css/content/grid@6nemkEmghB_0SWBOHyI7a.md",
+          "revision": "d7e10906113f703eadbc2f8d2889576f93050edf"
+        }
+      ]
+    }
+  ]
+}
