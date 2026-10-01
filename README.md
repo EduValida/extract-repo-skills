@@ -11,9 +11,10 @@ catalog, with verifiable evidence for each assignment. See the [project spec](do
 - Distinguish supported skills, insufficient evidence, and catalog coverage gaps.
 - Optionally verify commit authorship and cited changed lines in a local Git checkout.
 - Collect one commit and ask an LLM to propose evidence-linked catalog assessments.
-- Preview model input offline and validate generated reports before saving them.
+- Resolve an explicit GitHub commit or single-commit PR URL, or a local commit.
+- Preview model input and validate generated reports before saving them.
 
-Reports can be authored manually or proposed by an LLM through `analyze-commit`.
+Reports can be authored manually or proposed by an LLM through `analyze`.
 The first model adapter uses DeepSeek, with a configurable model ID. LLM conclusions
 require human review. Validation checks structure and
 citation provenance, not whether the cited change truly demonstrates the skill.
@@ -69,7 +70,47 @@ PYTHONPATH=src python3.14 -m extract_repo_skills catalog catalogs/roadmap-starte
 PYTHONPATH=src python3.14 examples/create_demo.py /tmp/skill-demo
 ```
 
-## Analyze a commit with an LLM
+## Analyze a contribution
+
+Use `analyze` for the normal workflow. After configuring the API key below:
+
+```sh
+uv run --extra llm extract-repo-skills analyze https://github.com/OWNER/REPO/pull/123
+uv run --extra llm extract-repo-skills analyze https://github.com/OWNER/REPO/commit/COMMIT_SHA
+uv run --extra llm extract-repo-skills analyze COMMIT_SHA --repo /path/to/local/checkout
+```
+
+The command uses the bundled `roadmap-starter` catalog (0.2.0), derives the
+contributor email from the selected commit's recorded author, and prints a summary.
+It saves the validated report and run metadata under `reports/`, using a unique
+filename. That directory is ignored by Git. `--catalog`, `--contributor-email`,
+and `--output` allow explicit overrides. An author override must match the commit;
+the PR opener and the local Git user are not used for attribution.
+
+URL mode supports public GitHub contributions. It resolves the specific commit
+through the GitHub API, fetches that commit and its parent into a temporary Git
+repository, and removes it when finished. It does not check out or run source code.
+Only the selected contribution's changes are assessed. With `--repo`, the resolved
+commit must already exist locally; the URL still requires the GitHub API. Private
+contributions can be analyzed using a SHA and a local checkout.
+
+A PR must currently contain exactly one commit. The original PR commit is analyzed,
+not the merge commit. Multi-commit PRs are rejected; analyze each commit separately
+until attribution and aggregation across commits are implemented.
+
+Preview the input without calling the LLM:
+
+```sh
+uv run extract-repo-skills analyze HEAD --repo /tmp/skill-demo/repo --dry-run
+```
+
+Local previews are offline. URL previews still need GitHub access to retrieve the
+contribution. `--dry-run` prints JSON to stdout and does not save a report.
+
+### Configuration and debug commands
+
+The existing `analyze-commit`, `catalog`, and `validate-report` commands remain
+available with their existing options and JSON output for debugging.
 
 First inspect exactly what would be supplied to the model. This command uses no
 credentials, optional SDK, or network. It resolves `HEAD` to a full commit SHA,
@@ -94,13 +135,13 @@ DEEPSEEK_MODEL=deepseek-flash
 The CLI uses `python-dotenv` to load `.env` from the current working directory
 before resolving the model. Run commands from this project's root when using its
 `.env`. It does not search parent directories or load a file from `--repo`.
-Exported environment variables take precedence. `analyze-commit`
+Exported environment variables take precedence. The debug command `analyze-commit`
 also accepts `--model`, which overrides both the environment and `.env`.
 `.env` and its local variants are ignored by Git;
 `.env.example` contains no credentials and is tracked.
 
 The default model is `deepseek-flash`; `DEEPSEEK_MODEL` selects a different DeepSeek
-model with JSON Output support. For explicit configuration:
+model with JSON Output support. For explicit debug configuration:
 
 ```sh
 uv sync --extra llm
@@ -129,14 +170,15 @@ decision consistency, exact commit scope, author, file paths, and changed lines.
 Refusals, incomplete responses, malformed output, and invalid citations fail the
 command without writing a report. Unsupported API models produce an error.
 
-On success, the command creates two new files:
+With `--output /tmp/skill-demo/llm-report.json`, the command creates two new files:
 
 - `llm-report.json`: the existing report format, accepted by `validate-report`.
 - `llm-report.json.run.json`: requested and returned model IDs, response ID, token
   usage, prompt version, input digest, commit, catalog identity, and review status.
 
-Existing output files are never overwritten. Without `--output`, the report goes
-to stdout and run metadata goes to stderr. Human review is required even when all
+Existing output files are never overwritten. With `analyze-commit` and no `--output`,
+the report goes to stdout and run metadata goes to stderr; `analyze` saves files
+automatically and prints a summary. Human review is required even when all
 citations validate. The input digest identifies the request; it does not imply
 that repeated LLM calls produce identical conclusions.
 
@@ -144,7 +186,7 @@ This first version processes the entire supplied catalog and all text changes in
 one commit, with five lines of context around each hunk. It reads committed content
 only. It rejects commits with more than 50 changed paths and input over 60,000
 characters instead of silently truncating them. `--max-input-chars` and
-`--max-output-tokens` adjust the character and output-token limits; the character
+`--max-output-tokens` on `analyze-commit` adjust the character and output-token limits; the character
 limit is not an exact token estimate. Empty commits, binary changes, mode-only or
 empty-file changes, symlinks, submodules, merges, and coauthorship require manual
 review. A mixed commit containing unsupported changes is also rejected in full.
@@ -161,6 +203,9 @@ uv run --extra llm extract-repo-skills analyze-commit \
   --contributor-email your-author-email@example.com \
   --catalog catalogs/roadmap-starter.json --output rust-assessment.json
 ```
+
+For the simpler workflow, use `analyze YOUR_COMMIT_SHA --repo /path/to/rust-repository`
+or the single-commit PR URL; the bundled catalog already includes Rust.
 
 If the contribution demonstrates no Rust-language behavior, the expected result is
 no supported `rust.programming` assignment. The model may omit that unrelated skill,

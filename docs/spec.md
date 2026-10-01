@@ -37,6 +37,11 @@ catalog (0.1.0) remains available unchanged to validate earlier reports.
 New entries and changes to criteria require catalog review outside extraction.
 An extractor can only emit IDs already present in the selected catalog version.
 
+The default catalog is bundled as `src/extract_repo_skills/data/roadmap-starter.json`
+so installed commands work outside the project checkout. It must match the reviewed
+`catalogs/roadmap-starter.json`; a test checks this equality. Catalog updates must
+update both copies and respect version immutability.
+
 ## Assessment contract
 
 Each report records its schema version, exact catalog identity, repository
@@ -75,11 +80,49 @@ before use in evaluations. No network or model calls occur during validation.
 
 Commands:
 
+- `analyze CONTRIBUTION`: the primary workflow, accepting a GitHub commit URL,
+  single-commit PR URL, or local commit SHA/revision. Select the bundled catalog,
+  derive the recorded commit author, save report files, and print a summary.
 - `catalog`: validate and display catalog entries and the exact catalog identity.
 - `validate-report`: validate a manually authored or extractor-produced report;
   with `--repo`, also check cited changes and commit attribution in local Git.
 - `analyze-commit`: collect one attributed commit, request a semantic assessment,
   and validate the resulting report. `--dry-run` previews model input offline.
+
+The existing commands and their options remain available as debug tools.
+
+## Contribution-first CLI
+
+The unit of analysis is the explicitly selected contribution. The repository
+locates Git objects needed for patches and evidence verification; its overall
+technology stack does not establish skills.
+
+For a local SHA or revision, `--repo` selects the checkout and defaults to the
+current directory. For a public GitHub URL, resolve the immutable commit SHA
+through the GitHub API. Without `--repo`, fetch that commit and its parent into a
+temporary Git repository, without checking out or executing source code, and keep
+the objects until evidence validation finishes. With `--repo`, use the existing
+local objects. URL mode still needs the GitHub API and does not support authenticated
+private repositories; use a local SHA for private contributions.
+
+PR URLs initially support exactly one original PR commit. Do not substitute the
+merge commit or silently select one commit from a multi-commit PR. Multi-commit PRs
+fail with instructions to analyze commits individually. Range aggregation remains
+a separate milestone.
+
+Derive contributor email from the commit author, not the PR opener or local Git
+configuration. An explicit `--contributor-email` asserts an expected author and
+must pass the same attribution checks. `--catalog` overrides the bundled reference.
+Model selection uses `DEEPSEEK_MODEL`; explicit provider and limit controls remain
+in `analyze-commit`.
+
+The primary command saves reports to unique files in `reports/` by default, or to
+an explicit `--output`, without overwriting existing files. Print supported skill
+names and rationales, counts for insufficient evidence and catalog gaps, output
+paths, and the need for human review. Run metadata also records the original
+contribution reference. `analyze-commit` retains its JSON stdout/stderr behavior.
+`--dry-run` previews JSON without calling the LLM or writing report files; local
+previews need no network, while URL previews still resolve and fetch the contribution.
 
 Validation without `--repo` must explicitly report that Git evidence was not
 verified. The caller is responsible for choosing the checkout corresponding to the

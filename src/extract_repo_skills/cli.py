@@ -6,13 +6,47 @@ import os
 import sys
 from collections import Counter
 from pathlib import Path
+from uuid import uuid4
 
 from dotenv import load_dotenv
 
 from .analysis import prepare_analysis, validate_assessment
 from .contracts import ValidationError, catalog_identity, read_json, validate_catalog, validate_report
+from .contribution_source import resolve_contribution
 from .deepseek_provider import DEFAULT_MODEL
 from .git_evidence import verify_git_evidence
+
+
+DEFAULT_CATALOG = Path(__file__).parent / "data" / "roadmap-starter.json"
+
+
+def _print_summary(report: dict, catalog: dict, path: Path) -> None:
+    names = {skill["id"]: skill["name"] for skill in catalog["skills"]}
+    supported = [item for item in report["assessments"] if item["decision"] == "supported"]
+    print(f"Contributor: {report['contributor_email']}")
+    if supported:
+        print("Skills supported by this contribution:")
+        for item in supported:
+            print(f"  {names[item['skill_id']]}: {item['rationale']}")
+    else:
+        print("No supported skills were proposed for this contribution.")
+    counts = Counter(item["decision"] for item in report["assessments"])
+    print(f"Insufficient evidence: {counts['insufficient_evidence']}; catalog gaps: {counts['catalog_gap']}")
+    print(f"Report: {path}\nRun metadata: {path}.run.json\nHuman review required.")
+
+
+def _analyze_contribution(args: argparse.Namespace, catalog: dict) -> None:
+    with resolve_contribution(args.contribution, args.repo) as source:
+        args.repo = source.repo
+        args.commit = source.commit
+        args.repository = source.repository
+        args.contributor_email = args.contributor_email or source.contributor_email
+        args.source_reference = source.reference
+        if args.output is None and not args.dry_run:
+            directory = Path("reports")
+            directory.mkdir(exist_ok=True)
+            args.output = directory / f"{source.commit[:12]}-{uuid4().hex[:8]}.json"
+        _analyze(args, catalog)
 
 
 def _positive_int(text: str) -> int:
@@ -45,11 +79,16 @@ def _analyze(args: argparse.Namespace, catalog: dict) -> None:
     assessment, run = assess(prepared, args.model, max_output_tokens=args.max_output_tokens)
     report = validate_assessment(assessment, prepared, catalog, args.repo)
     run["git_evidence_verified"] = True
+    if getattr(args, "source_reference", None):
+        run["contribution"] = args.source_reference
     if args.output:
         for path, value in ((args.output, report), (run_path, run)):
             with path.open("x", encoding="utf-8") as output:
                 output.write(json.dumps(value, indent=2, ensure_ascii=False) + "\n")
-        print(f"Report: {args.output}\nRun metadata: {run_path}\nHuman review required.", file=sys.stderr)
+        if getattr(args, "simple_output", False):
+            _print_summary(report, catalog, args.output)
+        else:
+            print(f"Report: {args.output}\nRun metadata: {run_path}\nHuman review required.", file=sys.stderr)
     else:
         print(json.dumps(report, indent=2, ensure_ascii=False))
         print(json.dumps({"run": run}, ensure_ascii=False), file=sys.stderr)
@@ -60,13 +99,24 @@ def main() -> None:
     load_dotenv(dotenv_path=Path.cwd() / ".env", override=False)
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
-    catalog_parser = commands.add_parser("catalog", help="Validate and display a reference catalog")
+    simple_parser = commands.add_parser("analyze", help="Assess a contribution by commit SHA, commit URL, or single-commit PR URL")
+    simple_parser.add_argument("contribution", help="GitHub commit/PR URL, or a local commit SHA or revision")
+    simple_parser.add_argument("--repo", help="Local checkout; defaults to current directory for a local commit")
+    simple_parser.add_argument("--catalog", default=str(DEFAULT_CATALOG), help="Override the bundled reference catalog")
+    simple_parser.add_argument("--contributor-email", help="Require this author instead of using the recorded commit author")
+    simple_parser.add_argument("--output", type=Path, help="New report path; defaults to reports/COMMIT-RUN.json")
+    simple_parser.add_argument("--dry-run", action="store_true", help="Preview model input without calling the LLM")
+    simple_parser.set_defaults(
+        model=os.environ.get("DEEPSEEK_MODEL", DEFAULT_MODEL), max_input_chars=60_000,
+        max_output_tokens=8_000, simple_output=True,
+    )
+    catalog_parser = commands.add_parser("catalog", help="Debug: validate and display a reference catalog")
     catalog_parser.add_argument("catalog", help="Catalog JSON file")
-    report_parser = commands.add_parser("validate-report", help="Validate catalog assignments and evidence references")
+    report_parser = commands.add_parser("validate-report", help="Debug: validate catalog assignments and evidence references")
     report_parser.add_argument("report", help="Report JSON file")
     report_parser.add_argument("--catalog", required=True, help="Exact reference catalog JSON file")
     report_parser.add_argument("--repo", help="Local Git checkout for citation and authorship verification")
-    analyze_parser = commands.add_parser("analyze-commit", help="Propose catalog skills for one commit using an LLM")
+    analyze_parser = commands.add_parser("analyze-commit", help="Debug: assess one local commit with explicit configuration")
     analyze_parser.add_argument("--repo", required=True, help="Local Git checkout")
     analyze_parser.add_argument("--commit", required=True, help="Commit SHA or revision, e.g. HEAD")
     analyze_parser.add_argument("--contributor-email", required=True, help="Exact author email to assess")
@@ -83,6 +133,9 @@ def main() -> None:
     args = parser.parse_args()
     try:
         catalog = validate_catalog(read_json(args.catalog))
+        if args.command == "analyze":
+            _analyze_contribution(args, catalog)
+            return
         if args.command == "analyze-commit":
             _analyze(args, catalog)
             return
