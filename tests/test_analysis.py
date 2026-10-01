@@ -44,6 +44,34 @@ class AnalysisTests(GitRepositoryFixture, unittest.TestCase):
         self.assertEqual(contribution["files"][0]["changed_lines"]["before"], [[1, 7]])
         self.assertEqual(contribution["files"][0]["changed_lines"]["after"], [])
 
+    def test_docs_only_commit_in_rust_repository_keeps_rust_as_a_candidate_not_evidence(self):
+        (self.repo / "src").mkdir()
+        self.write("src/main.rs", 'fn main() { println!("hello"); }\n')
+        self.write("Cargo.toml", '[package]\nname = "rust-demo"\nversion = "0.1.0"\n')
+        self.write("README.md", "A Rust project.\n")
+        self.git("add", ".")
+        self.git("commit", "-q", "-m", "Add Rust application")
+        self.write("README.md", "A Rust project.\nPlease report documentation typos in an issue.\n")
+        self.git("add", "README.md")
+        self.git("commit", "-q", "-m", "Clarify documentation feedback")
+
+        prepared = self.prepare()
+        payload = json.loads(prepared["request"]["messages"][1]["content"])
+        self.assertIn("rust.programming", [skill["id"] for skill in payload["catalog"]["skills"]])
+        self.assertEqual([file["path"] for file in payload["contribution"]["files"]], ["README.md"])
+        self.assertNotIn("fn main", prepared["request"]["messages"][1]["content"])
+        expected = {"assessments": [{
+            "decision": "insufficient_evidence", "skill_id": "rust.programming",
+            "rationale": "The change adds prose about reporting typos; it demonstrates no Rust-language behavior.",
+            "evidence": [{
+                "commit": prepared["commit"], "path": "README.md", "side": "after",
+                "start_line": 2, "end_line": 2,
+            }],
+        }]}
+        # This checks the evaluation plumbing, not whether an actual LLM abstains.
+        report = validate_assessment(expected, prepared, self.catalog, self.repo)
+        self.assertEqual(report["assessments"], expected["assessments"])
+
     def test_preflight_limits_and_authorship(self):
         with self.assertRaisesRegex(ValidationError, "exceeds"):
             self.prepare(max_input_chars=50)

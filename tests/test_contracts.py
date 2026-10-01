@@ -9,7 +9,7 @@ from extract_repo_skills.contracts import (
 )
 
 
-CATALOG_PATH = Path(__file__).resolve().parents[1] / "catalogs/roadmap-css-starter.json"
+CATALOG_PATH = Path(__file__).resolve().parents[1] / "catalogs/roadmap-starter.json"
 
 
 def make_report(catalog: dict, commit: str = "a" * 40) -> dict:
@@ -35,6 +35,15 @@ class ContractTests(unittest.TestCase):
     def test_starter_catalog_and_report(self):
         validate_catalog(self.catalog)
         validate_report(self.report, self.catalog)
+
+    def test_legacy_reports_keep_their_original_catalog_identity(self):
+        legacy = read_json(CATALOG_PATH.with_name("roadmap-css-starter.json"))
+        report = make_report(legacy)
+        validate_report(report, legacy)
+        with self.assertRaisesRegex(ValidationError, "does not match"):
+            validate_report(report, self.catalog)
+        self.assertEqual(self.catalog["skills"][:-1], legacy["skills"])
+        self.assertEqual(self.catalog["skills"][-1]["id"], "rust.programming")
 
     def test_unknown_skill_is_not_an_assignment(self):
         self.report["assessments"][0]["skill_id"] = "python.django"

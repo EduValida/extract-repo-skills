@@ -37,7 +37,7 @@ def main() -> None:
     git("add", "style.css", "README.md")
     git("commit", "-q", "-m", "Adapt card width on small screens and document previewing")
     commit = git("rev-parse", "HEAD")
-    catalog_path = Path(__file__).resolve().parents[1] / "catalogs/roadmap-css-starter.json"
+    catalog_path = Path(__file__).resolve().parents[1] / "catalogs/roadmap-starter.json"
     catalog = read_json(catalog_path)
     css_evidence = {"commit": commit, "path": "style.css", "side": "after", "start_line": 2, "end_line": 4}
     report = {
@@ -61,7 +61,7 @@ def main() -> None:
             {
                 "decision": "catalog_gap",
                 "skill_id": None,
-                "rationale": "The added preview instructions are outside this CSS-only catalog; no skill is assigned.",
+                "rationale": "The added preview instructions are outside this catalog of CSS and Rust skills; no skill is assigned.",
                 "evidence": [{"commit": commit, "path": "README.md", "side": "after", "start_line": 1, "end_line": 1}],
             },
         ],

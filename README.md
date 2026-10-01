@@ -20,17 +20,27 @@ citation provenance, not whether the cited change truly demonstrates the skill.
 Multi-commit aggregation, candidate retrieval, and evaluation on human-reviewed
 real contributions remain future work.
 
-The three-entry [starter catalog](catalogs/roadmap-css-starter.json) references CSS
-media queries, Flexbox, and Grid from roadmap.sh at a pinned source commit. Its
-descriptions and evidence criteria are project-authored and need domain review.
-It demonstrates the catalog contract and is not a comprehensive skills reference.
+The four-entry [starter catalog](catalogs/roadmap-starter.json), version 0.2.0,
+references CSS media queries, Flexbox, Grid, and Rust from roadmap.sh at a pinned
+source commit. Its descriptions and evidence criteria are project-authored and
+need domain review. It is not a comprehensive skills reference.
+
+Rust uses the ID `rust.programming`. Its criteria require evidence of Rust-language
+behavior in the contribution itself. An accepted PR in a Rust repository, unchanged
+Rust files, or edits limited to prose or unrelated configuration do not establish
+this skill. File extensions are not decisive: a meaningful Rust code example in
+documentation can qualify, while a comment-only change in a `.rs` file may not.
+
+The original [CSS catalog](catalogs/roadmap-css-starter.json), ID
+`roadmap-css-starter`, version 0.1.0, remains unchanged for old reports. The expanded
+catalog has ID `roadmap-starter`; use the exact catalog referenced by each report.
 
 ## Run
 
 Requires Python 3.14+ and Git for evidence verification. With uv:
 
 ```sh
-uv run extract-repo-skills catalog catalogs/roadmap-css-starter.json
+uv run extract-repo-skills catalog catalogs/roadmap-starter.json
 ```
 
 Create a synthetic repository and manually annotated report in a **new directory**:
@@ -38,7 +48,7 @@ Create a synthetic repository and manually annotated report in a **new directory
 ```sh
 uv run python examples/create_demo.py /tmp/skill-demo
 uv run extract-repo-skills validate-report /tmp/skill-demo/report.json \
-  --catalog catalogs/roadmap-css-starter.json --repo /tmp/skill-demo/repo
+  --catalog catalogs/roadmap-starter.json --repo /tmp/skill-demo/repo
 ```
 
 The demo covers all three assessment decisions. It is a fixture, not evaluation
@@ -55,7 +65,7 @@ For an existing Python 3.14 installation, the same commands can run without uv o
 installing dependencies:
 
 ```sh
-PYTHONPATH=src python3.14 -m extract_repo_skills catalog catalogs/roadmap-css-starter.json
+PYTHONPATH=src python3.14 -m extract_repo_skills catalog catalogs/roadmap-starter.json
 PYTHONPATH=src python3.14 examples/create_demo.py /tmp/skill-demo
 ```
 
@@ -69,7 +79,7 @@ checks the specified author, and prepares the catalog, patches, and output schem
 uv run extract-repo-skills analyze-commit \
   --repo /tmp/skill-demo/repo --commit HEAD \
   --contributor-email demo@example.invalid \
-  --catalog catalogs/roadmap-css-starter.json --dry-run
+  --catalog catalogs/roadmap-starter.json --dry-run
 ```
 
 To request a real assessment, install the optional SDK and configure a DeepSeek API
@@ -84,7 +94,7 @@ export DEEPSEEK_MODEL="deepseek-flash"
 uv run --extra llm extract-repo-skills analyze-commit \
   --repo /tmp/skill-demo/repo --commit HEAD \
   --contributor-email demo@example.invalid \
-  --catalog catalogs/roadmap-css-starter.json \
+  --catalog catalogs/roadmap-starter.json \
   --output /tmp/skill-demo/llm-report.json
 ```
 
@@ -126,6 +136,23 @@ empty-file changes, symlinks, submodules, merges, and coauthorship require manua
 review. A mixed commit containing unsupported changes is also rejected in full.
 Generated or copied text is not automatically detected; the model is instructed to
 consider it, and its judgment must be reviewed.
+
+To evaluate a contribution without Rust code in a Rust repository, use the expanded
+catalog and the SHA of the original PR commit (or the single-parent squash commit),
+not a merge commit with two parents:
+
+```sh
+uv run --extra llm extract-repo-skills analyze-commit \
+  --repo /path/to/rust-repository --commit YOUR_COMMIT_SHA \
+  --contributor-email your-author-email@example.com \
+  --catalog catalogs/roadmap-starter.json --output rust-assessment.json
+```
+
+If the contribution demonstrates no Rust-language behavior, the expected result is
+no supported `rust.programming` assignment. The model may omit that unrelated skill,
+mark it `insufficient_evidence` if considered relevant, or identify a catalog gap
+for the actual work. This is an expectation for semantic evaluation, not a guarantee
+enforced by file-extension rules or by citation validation.
 
 ## Report format
 

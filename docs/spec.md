@@ -27,6 +27,13 @@ added. Equivalent topics should map to one internal entry with multiple referenc
 Related but distinct topics must remain separate. Roadmap ordering does not imply
 skill inheritance, prerequisites demonstrated, role completion, or proficiency.
 
+The expanded `roadmap-starter` catalog (0.2.0) includes the original CSS entries
+and `rust.programming`, referenced to the Rust language-basics topic. Rust criteria
+require the contribution itself to demonstrate language behavior. A merged PR in
+a Rust repository is not evidence by itself. Meaningful Rust examples in documentation
+can qualify; an `.rs` extension alone cannot. The original `roadmap-css-starter`
+catalog (0.1.0) remains available unchanged to validate earlier reports.
+
 New entries and changes to criteria require catalog review outside extraction.
 An extractor can only emit IDs already present in the selected catalog version.
 
