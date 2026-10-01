@@ -7,6 +7,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 from .analysis import prepare_analysis, validate_assessment
 from .contracts import ValidationError, catalog_identity, read_json, validate_catalog, validate_report
 from .deepseek_provider import DEFAULT_MODEL
@@ -54,6 +56,8 @@ def _analyze(args: argparse.Namespace, catalog: dict) -> None:
 
 
 def main() -> None:
+    # Use the caller's configuration, never search the repository being assessed.
+    load_dotenv(dotenv_path=Path.cwd() / ".env", override=False)
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
     catalog_parser = commands.add_parser("catalog", help="Validate and display a reference catalog")

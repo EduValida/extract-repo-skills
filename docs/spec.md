@@ -68,7 +68,7 @@ judgment. A syntactically valid assignment is not automatically a correct one.
 
 ## Initial implementation
 
-Provide dependency-free Python catalog and report validation, a small starter
+Provide Python catalog and report validation, a small starter
 catalog, a CLI, and optional read-only citation verification against a local Git
 checkout. The starter catalog is deliberately limited and requires domain review
 before use in evaluations. No network or model calls occur during validation.
@@ -107,6 +107,12 @@ the caller configures `DEEPSEEK_API_KEY`. The client explicitly targets
 60 seconds, thinking is disabled, and output has a configurable token limit.
 Other providers can supply the same
 assessment object to the provider-independent validation layer.
+
+The CLI uses the core dependency `python-dotenv` to load `.env` from the current
+working directory before resolving settings. Existing environment variables are
+not overwritten; an explicit `--model` has highest precedence. No parent-directory
+search or automatic loading from the analyzed repository takes place. The local
+`.env` is ignored by Git and `.env.example` documents the supported settings.
 
 The model supplies only the assessments array. Application code fixes repository,
 contributor, and catalog metadata. The output schema describes allowed skill IDs, commit,

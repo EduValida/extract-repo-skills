@@ -7,7 +7,9 @@ authors = [
     { name = "Lucas Telles", email = "lucas.telles@inf.ufrgs.br" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.2.3",
+]
 
 [project.scripts]
 extract-repo-skills = "extract_repo_skills:main"

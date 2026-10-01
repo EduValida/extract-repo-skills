@@ -61,8 +61,8 @@ Git verification accepts only exact author-email matches and changed-line citati
 merges and commits with coauthor trailers require review and are rejected for now.
 Both added and removed lines can be cited. Unchanged context cannot be evidence.
 
-For an existing Python 3.14 installation, the same commands can run without uv or
-installing dependencies:
+For an existing Python 3.14 environment with the project's dependencies installed,
+the same commands can run without uv:
 
 ```sh
 PYTHONPATH=src python3.14 -m extract_repo_skills catalog catalogs/roadmap-starter.json
@@ -83,13 +83,27 @@ uv run extract-repo-skills analyze-commit \
 ```
 
 To request a real assessment, install the optional SDK and configure a DeepSeek API
-key. The default model is `deepseek-flash`; `DEEPSEEK_MODEL` or `--model` selects a
-different DeepSeek model with JSON Output support. Replace the API key placeholder:
+key in `.env`. Copy `.env.example` to `.env` if you do not already have one, then
+fill it in:
+
+```dotenv
+DEEPSEEK_API_KEY=YOUR_DEEPSEEK_API_KEY
+DEEPSEEK_MODEL=deepseek-flash
+```
+
+The CLI uses `python-dotenv` to load `.env` from the current working directory
+before resolving the model. Run commands from this project's root when using its
+`.env`. It does not search parent directories or load a file from `--repo`.
+Exported environment variables take precedence. `analyze-commit`
+also accepts `--model`, which overrides both the environment and `.env`.
+`.env` and its local variants are ignored by Git;
+`.env.example` contains no credentials and is tracked.
+
+The default model is `deepseek-flash`; `DEEPSEEK_MODEL` selects a different DeepSeek
+model with JSON Output support. For explicit configuration:
 
 ```sh
 uv sync --extra llm
-export DEEPSEEK_API_KEY="YOUR_DEEPSEEK_API_KEY"
-export DEEPSEEK_MODEL="deepseek-flash"
 
 uv run --extra llm extract-repo-skills analyze-commit \
   --repo /tmp/skill-demo/repo --commit HEAD \
@@ -103,8 +117,8 @@ message, changed file paths, patches, and surrounding context to the configured
 DeepSeek endpoint (`https://api.deepseek.com`). It makes one request with a 60-second
 timeout, automatic retries disabled, thinking disabled, and a default output limit
 of 8,000 tokens. The adapter passes `DEEPSEEK_API_KEY` explicitly to the compatible
-`openai` SDK; it does not use an OpenAI key or endpoint. Environment files are not
-loaded automatically. The SDK is the optional `llm` dependency.
+`openai` SDK; it does not use an OpenAI key or endpoint. `python-dotenv` is a core
+dependency; the SDK is in the optional `llm` extra.
 
 The adapter follows [DeepSeek JSON Output](https://api-docs.deepseek.com/guides/json_mode/)
 and [Chat Completions](https://api-docs.deepseek.com/api/create-chat-completion/),
