@@ -130,19 +130,55 @@ from an otherwise unsupported commit.
    bytes are not bytes authored by the contributor; deleted files are absent from
    that snapshot summary. The denominator is classified regular UTF-8 text bytes
    after exclusions, including recognizable documentation/configuration formats.
+   `line_counts` additionally records cloc code/comment/blank counts by file and
+   language, with a separate touched-snapshot-files summary and percentages whose
+   denominator is code lines, not bytes.
 4. `project-context.json`: snapshot tree with object IDs, modes and sizes, plus
    committed manifests and build/test/CI configuration with source paths/IDs.
 5. `contribution-context.json`: before/after snippets around changed lines, with
    snapshot/blob IDs and LF-based line numbers. Unchanged snippet lines are context.
+   `function_metrics` records Lizard results before/after for functions intersecting
+   the changed-line ranges and their same-name counterparts, with source IDs and
+   function line ranges. Metrics include NLOC, cyclomatic complexity, tokens and
+   parameter count. Deltas require a unique same-name match within the same path;
+   ambiguous or unmatched functions have no delta and are not assumed to be
+   additions, removals or refactorings. Unsupported languages, absent files and
+   no detected functions are distinguished explicitly.
 
 The MVP's language classifier uses Pygments filename/content heuristics, recording
-the installed classifier version and `static-artifacts-v1` policy. It is not
+the installed classifier version and `static-artifacts-v2` policy. It is not
 equivalent to Linguist. Directory/name exclusions cover vendor, node_modules,
 dist, build, target, generated, selected lockfiles, and minified JS/CSS suffixes.
 These exclusions are heuristics, not proof of origin. Binary/non-UTF-8 and
 unclassified files are recorded separately; `.gitattributes` overrides are not
 applied. Actual generated/copied content still needs semantic review. Linguist
 can later implement the classifier contract without changing artifact roles.
+
+cloc is a separately installed server executable (tested with 2.10); its path may
+be configured with `EXTRACT_CLOC_EXECUTABLE`. Missing cloc is a 503 error before
+inference. The counter receives only regular UTF-8 blobs after the common path
+exclusions, independently of Pygments recognition. Each blob is copied into a
+separate numeric directory in the owned temporary workspace. Unsafe/non-ASCII
+basename characters are replaced by underscores for cloc JSON compatibility;
+original repository paths and blob IDs are restored in the result. This may affect
+basename-specific classification and is recorded in the configuration.
+
+cloc uses an empty configuration, JSON/by-file output, counts duplicate-content
+files independently and disables its internal per-file timeout to avoid silent
+timeout skips; the entire cloc process still has a 30-second deadline. Files not
+counted by cloc are listed explicitly, and malformed/inconsistent output is
+rejected. Timing, generated timestamps and temporary paths are excluded from
+the persisted artifact. Byte and line classifiers may disagree; their results
+remain separate and neither establishes attributable skills.
+
+Lizard is a Python dependency and parses committed text in memory. Its collector
+ignores repository `lizard forgive` and `GENERATED CODE` suppression directives,
+retaining comment line positions. Partial-analysis diagnostics reject the result.
+The installed version, configuration and function-matching policy are recorded.
+Neither count/complexity scores nor their deltas demonstrate a catalog competency
+without substantive changed-line evidence. All added metrics remain within the
+existing five artifacts and complete model-input budget. The new prompt is
+`repository-artifacts-v2`; report and manifest schema versions remain compatible.
 
 A separate version-1 manifest records repository, user, requested/resolved
 reference, policy/tool versions, limits, exact selection, exclusion reasons,

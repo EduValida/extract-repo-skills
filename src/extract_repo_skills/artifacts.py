@@ -5,7 +5,7 @@ import json
 import re
 from collections import Counter
 from dataclasses import asdict, dataclass
-from pathlib import PurePosixPath
+from pathlib import Path, PurePosixPath
 
 import pygit2
 import pygments
@@ -13,6 +13,7 @@ from pygments.lexers import get_lexer_for_filename
 from pygments.util import ClassNotFound
 
 from .repository import AnalysisError, GitRepositoryReader
+from .static_metrics import cloc_snapshot, lizard_change, lizard_metadata
 
 ARTIFACT_NAMES = (
     "git-log.json",
@@ -21,7 +22,7 @@ ARTIFACT_NAMES = (
     "project-context.json",
     "contribution-context.json",
 )
-POLICY_VERSION = "static-artifacts-v1"
+POLICY_VERSION = "static-artifacts-v2"
 
 
 def canonical(value: object) -> str:
@@ -68,7 +69,11 @@ def _ranges(lines: list[int]) -> list[list[int]]:
 
 
 def collect_change(
-    reader: GitRepositoryReader, metadata: dict, limits: CollectionLimits
+    reader: GitRepositoryReader,
+    metadata: dict,
+    limits: CollectionLimits,
+    *,
+    function_metrics: list | None = None,
 ) -> tuple[list, list]:
     commit, parents = metadata["commit"], metadata["parents"]
     paths = reader.changed_paths(commit, parents)
@@ -133,6 +138,30 @@ def collect_change(
                 "Commit includes a change with no citable text lines",
             )
         changes.append({"path": path, "changed_lines": intervals, "patch": patch.text})
+        if function_metrics is not None:
+            sources = {}
+            for side in ("before", "after"):
+                entry = snapshots[side].get(path)
+                sources[side] = (
+                    {
+                        "text": contents[path, side],
+                        "blob": entry.oid,
+                        "snapshot": parents[0] if side == "before" else commit,
+                    }
+                    if entry
+                    else None
+                )
+            function_metrics.append(
+                {
+                    "commit": commit,
+                    **lizard_change(
+                        path,
+                        sources["before"],
+                        sources["after"],
+                        intervals,
+                    ),
+                }
+            )
         for side, ranges in intervals.items():
             if not ranges:
                 continue
@@ -247,6 +276,9 @@ def snapshot_context(
     commit: str,
     touched: set[str],
     limits: CollectionLimits,
+    *,
+    cloc_executable: str = "cloc",
+    workspace: Path | None = None,
 ) -> tuple[dict, dict]:
     entries = reader.entries(commit, limits.max_tree_files)
     if (
@@ -255,6 +287,7 @@ def snapshot_context(
     ):
         raise AnalysisError("snapshot_limit", "Snapshot exceeds the byte limit", 413)
     counts, modified_counts, excluded, manifests = Counter(), Counter(), [], []
+    cloc_inputs = {}
     for entry in entries:
         reason = (
             "non_regular_file"
@@ -266,6 +299,8 @@ def snapshot_context(
             text = _text(reader.blob(entry, limits.max_blob_bytes))
             if text is None:
                 reason = "binary_or_non_utf8"
+        if text is not None:
+            cloc_inputs[entry.path] = (entry.oid, text)
         if not reason:
             try:
                 name = get_lexer_for_filename(entry.path, code=text).name
@@ -319,6 +354,12 @@ def snapshot_context(
         "tree": [asdict(entry) for entry in entries],
         "manifests": manifests,
     }
+    language["line_counts"] = cloc_snapshot(
+        cloc_inputs,
+        touched,
+        executable=cloc_executable,
+        workspace=workspace,
+    )
     return language, project
 
 
@@ -329,6 +370,9 @@ def collect_bundle(
     ref: str,
     max_commits: int,
     limits: CollectionLimits,
+    *,
+    cloc_executable: str = "cloc",
+    workspace: Path | None = None,
 ) -> dict:
     resolved = reader.resolve(ref)
     history = reader.history(resolved, limits.max_history)
@@ -337,6 +381,7 @@ def collect_bundle(
         key=lambda item: (-item["author"]["timestamp"], item["commit"]),
     )
     selected, excluded, patches, contexts = [], [], [], []
+    functions = []
     for item in matching[:max_commits]:
         reason = None
         if len(item["parents"]) > 1:
@@ -349,7 +394,10 @@ def collect_bundle(
             excluded.append({"commit": item["commit"], "reason": reason})
             continue
         try:
-            files, snippets = collect_change(reader, item, limits)
+            commit_functions = []
+            files, snippets = collect_change(
+                reader, item, limits, function_metrics=commit_functions
+            )
         except AnalysisError as exc:
             if exc.status != 422 or exc.code not in {
                 "empty_commit",
@@ -365,8 +413,16 @@ def collect_bundle(
         selected.append(item)
         patches.append({"commit": item["commit"], "files": files})
         contexts.extend(snippets)
+        functions.extend(commit_functions)
     touched = {file["path"] for item in patches for file in item["files"]}
-    languages, project = snapshot_context(reader, resolved, touched, limits)
+    languages, project = snapshot_context(
+        reader,
+        resolved,
+        touched,
+        limits,
+        cloc_executable=cloc_executable,
+        workspace=workspace,
+    )
     artifacts = dict(
         zip(
             ARTIFACT_NAMES,
@@ -375,7 +431,11 @@ def collect_bundle(
                 {"commits": patches},
                 languages,
                 project,
-                {"role": "context_only", "entries": contexts},
+                {
+                    "role": "context_only",
+                    "entries": contexts,
+                    "function_metrics": {**lizard_metadata(), "files": functions},
+                },
             ],
             strict=True,
         )

@@ -40,13 +40,30 @@ catalog has ID `roadmap-starter`; use the exact catalog referenced by each repor
 
 ## Repository/user API (phase 1)
 
-Requires Python 3.14+ and Git. Object reading uses pygit2/libgit2; language context
-uses Pygments. The API extra adds FastAPI/Uvicorn; normal inference also needs the
+Requires Python 3.14+, Git and the external `cloc` executable. Object reading uses
+pygit2/libgit2; language byte context uses Pygments, line counts use cloc, and
+function metrics use Lizard (installed with the Python dependencies).
+The API extra adds FastAPI/Uvicorn; normal inference also needs the
 LLM extra and `DEEPSEEK_API_KEY`. Preview needs no model credentials.
 
 ```sh
 uv sync --extra api --extra llm --extra dev
 ```
+
+Install cloc with your OS package manager, or install the tested 2.10 release into
+the virtual environment (requires Perl). Python dependency installation does not
+install this external executable:
+
+```sh
+curl --fail --silent --show-error --location https://raw.githubusercontent.com/AlDanial/cloc/v2.10/cloc --output .venv/bin/cloc
+chmod +x .venv/bin/cloc
+.venv/bin/cloc --version
+```
+
+The service searches PATH, then beside the running Python executable. Use
+`EXTRACT_CLOC_EXECUTABLE=/absolute/path/to/cloc` for another server installation.
+Missing cloc returns `503 cloc_unavailable`; it does not silently omit metrics.
+The existing single-commit CLI does not require cloc.
 
 Configure registered local repositories or allowed remote hosts in `.env`, using
 the absolute paths appropriate to your server:
@@ -97,6 +114,27 @@ Language percentages and unchanged project context cannot support skill citation
 Pygments classification/exclusions are explicit heuristics and are not equivalent
 to Linguist. The touched-files summary counts whole files at HEAD, not authored
 bytes. No repository code, tests, hooks or build/install scripts are executed.
+
+`languages.json.line_counts` adds cloc counts of code, comments and blank lines,
+including code-line percentages and a separate touched-snapshot-files summary.
+These percentages use a different denominator from Pygments byte percentages.
+Counts include duplicate-content files and record original paths/blob IDs;
+unrecognized files are listed explicitly. Tool timing and temporary paths are
+removed so repeated previews remain reproducible.
+
+`contribution-context.json.function_metrics` adds Lizard metrics for functions
+intersecting changed lines and their baseline counterparts: code lines, cyclomatic
+complexity, tokens and parameters. Before/after records identify commit, snapshot,
+blob, file, function and line range. Deltas are computed only for unique same-name
+functions in the same path; ambiguous or unmatched functions have no delta.
+Unsupported languages, absent files and no detected functions have distinct statuses.
+Source suppression/generated-code directives cannot hide functions from the collector.
+All metrics are context, and neither volume nor complexity establishes a skill.
+Both tools' versions/configuration are recorded; the current artifact policy and
+prompt are version 2. cloc runs on isolated copies of selected UTF-8 Git blobs,
+with an empty configuration and a 30-second process timeout. Lizard parses text
+in memory. Source files are never imported or executed. The five-artifact count,
+complete-input budget and existing citation rules remain intact.
 
 Merges, coauthorship, binary/non-UTF-8 changes, symlinks, submodules and changes
 without citable text require review and exclude the whole commit, with a reason.

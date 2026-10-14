@@ -23,7 +23,7 @@ from .contracts import (
 from .repository import AnalysisError, open_repository
 
 DEFAULT_CATALOG = Path(__file__).parent / "data" / "roadmap-starter.json"
-PROMPT_VERSION = "repository-artifacts-v1"
+PROMPT_VERSION = "repository-artifacts-v2"
 
 
 @dataclass(frozen=True)
@@ -100,9 +100,17 @@ class ServiceSettings:
     max_output_tokens: int = 8_000
     timeout_seconds: int = 120
     max_concurrency: int = 2
+    cloc_executable: str = "cloc"
     limits: CollectionLimits = field(default_factory=CollectionLimits)
 
     def __post_init__(self):
+        if (
+            not isinstance(self.cloc_executable, str)
+            or not self.cloc_executable.strip()
+        ):
+            raise ValueError(
+                "Configure a nonempty cloc executable path or command name"
+            )
         if not isinstance(self.local_repositories, dict) or any(
             not isinstance(key, str)
             or not re.fullmatch(r"[A-Za-z0-9_.-]+", key)
@@ -140,6 +148,7 @@ class ServiceSettings:
             max_output_tokens=int(os.getenv("EXTRACT_MAX_OUTPUT_TOKENS", "8000")),
             timeout_seconds=int(os.getenv("EXTRACT_TIMEOUT_SECONDS", "120")),
             max_concurrency=int(os.getenv("EXTRACT_MAX_CONCURRENCY", "2")),
+            cloc_executable=os.getenv("EXTRACT_CLOC_EXECUTABLE", "cloc"),
             limits=CollectionLimits(
                 max_input_chars=int(os.getenv("EXTRACT_MAX_INPUT_CHARS", "60000"))
             ),
@@ -190,6 +199,11 @@ project-context.json and contribution-context.json supply context only; do not
 attribute their unchanged contents to the contributor. The contributor may have
 multiple explicitly selected author emails. Assess only the selected commits.
 Report limited coverage and abstain when context does not support a conclusion.
+cloc line counts use a different denominator from byte-based language percentages.
+Neither code volume nor Lizard complexity, function size, tokens or parameters
+establish a skill or proficiency. Function comparisons are heuristic context;
+unmatched/ambiguous functions are not proven additions, removals or refactorings.
+Tool coverage gaps and no functions detected do not establish missing skills.
 """
         + "\nReturn JSON matching this schema:\n"
         + canonical(schema)
@@ -326,6 +340,8 @@ def analyze_repository(
             request.ref,
             request.max_commits,
             settings.limits,
+            cloc_executable=settings.cloc_executable,
+            workspace=workspace,
         )
         prepared = prepare_repository_analysis(
             bundle, catalog, settings.limits.max_input_chars

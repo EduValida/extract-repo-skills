@@ -16,9 +16,9 @@ Nenhum código, teste, instalação ou script do repositório analisado será ex
 | --- | --- | --- |
 | `git-log.json` | SHAs, pais, autoria registrada, datas e mensagens dos commits selecionados. | Histórico, seleção e rastreabilidade; mensagens não comprovam habilidades. |
 | `git-diff.json` | Patches de cada commit contra seu pai, caminhos e intervalos de linhas alteradas antes/depois. | Evidência principal do trabalho do usuário; preservar cada commit, sem substituir por um diff acumulado. |
-| `languages.json` | Bytes e porcentagens por linguagem no snapshot do projeto, além de um resumo separado dos arquivos alterados pelo usuário. | Contexto tecnológico; porcentagens não estabelecem habilidades. |
+| `languages.json` | Bytes e porcentagens por linguagem com Pygments; linhas de código/comentários/em branco com cloc, além de resumos separados dos arquivos alterados pelo usuário. | Contexto tecnológico; percentuais por bytes e por linhas ficam separados e não estabelecem habilidades. |
 | `project-context.json` | Árvore resumida, manifests de dependências e configuração de build, testes e CI, com caminhos e SHAs de origem. | Contexto de arquitetura e ferramentas; presença de uma dependência não estabelece habilidade. |
-| `contribution-context.json` | Trechos limitados dos arquivos afetados, nos snapshots anterior/posterior: funções, testes, documentação e configuração relevantes às alterações. | Interpretar os patches; linhas inalteradas são contexto, não evidência atribuível. |
+| `contribution-context.json` | Trechos dos arquivos afetados e métricas Lizard das funções relevantes antes/depois, com origem e intervalos de linhas. | Interpretar os patches; linhas inalteradas e métricas de complexidade/volume são contexto, não evidência atribuível. |
 
 O pacote terá um manifesto de controle, separado dos cinco artefatos, com versão
 do schema, repositório, identidade do usuário, SHA de referência, commits
@@ -64,7 +64,9 @@ Um artefato sem conteúdo deve registrar essa condição explicitamente.
 Escolha da fase 1: `pygit2` como backend de objetos; Git CLI preserva a política de
 diff existente e pygit2 faz o parsing das linhas. As fixtures comparam os patches
 e citações aos do fluxo anterior. Pygments classifica o contexto de linguagens,
-sem exigir Ruby/Linguist no MVP. As demais bibliotecas continuam candidatas.
+sem exigir Ruby/Linguist no MVP. cloc acrescenta contagens por linhas; Lizard
+acrescenta métricas das funções afetadas. cloc é um executável externo configurável
+e Lizard entra nas dependências Python. As demais bibliotecas continuam candidatas.
 Não será necessário implementar todos os backends ou instalar todas as opções.
 
 | Dependência | Uso possível | Consideração |

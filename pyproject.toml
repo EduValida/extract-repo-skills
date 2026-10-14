@@ -11,6 +11,7 @@ dependencies = [
     "python-dotenv>=1.2.3",
     "pygit2>=1.20.1,<2",
     "pygments>=2.19,<3",
+    "lizard>=1.23,<2",
 ]
 
 [project.scripts]

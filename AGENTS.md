@@ -6,7 +6,7 @@ The analysis must focus on the contributor's actual work and link each inferred 
 
 This module focuses on skill extraction from repository contributions. Extracting skills from course syllabi belongs to a separate module.
 
-Phase 1 uses Python, FastAPI, pygit2/libgit2 for Git objects, C Git for controlled diffs, Pygments for language context, and an interchangeable LLM adapter. The five static artifacts and API contracts are documented in docs/spec.md. Phase 2's versioned competency graph is planned in docs/architecture-plan.md. Static classification and structural validation do not establish semantic skill correctness.
+Phase 1 uses Python, FastAPI, pygit2/libgit2 for Git objects, C Git for controlled diffs, Pygments for language byte context, cloc for line counts, Lizard for changed-function metrics, and an interchangeable LLM adapter. The five static artifacts and API contracts are documented in docs/spec.md. Phase 2's versioned competency graph is planned in docs/architecture-plan.md. Static classification, volume/complexity metrics, and structural validation do not establish semantic skill correctness.
 
 ## Skill Reference Catalog
 
