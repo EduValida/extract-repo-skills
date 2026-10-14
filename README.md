@@ -1,6 +1,6 @@
 # extract-repo-skills
 
-Part of GT-EduValida. Map a contributor's repository changes to a versioned skill
+Part of GT-EduValida. Map a contributor's Git repository changes to a versioned skill
 catalog, with verifiable evidence for each assignment. See the [project spec](docs/spec.md).
 
 ## Current functionality
@@ -13,13 +13,15 @@ catalog, with verifiable evidence for each assignment. See the [project spec](do
 - Collect one commit and ask an LLM to propose evidence-linked catalog assessments.
 - Resolve an explicit GitHub commit or single-commit PR URL, or a local commit.
 - Preview model input and validate generated reports before saving them.
+- Analyze multiple commits for explicitly selected author emails through FastAPI,
+  using five static artifacts from local or remote Git repositories without forge APIs.
 
 Reports can be authored manually or proposed by an LLM through `analyze`.
 The first model adapter uses DeepSeek, with a configurable model ID. LLM conclusions
 require human review. Validation checks structure and
 citation provenance, not whether the cited change truly demonstrates the skill.
-Multi-commit aggregation, candidate retrieval, and evaluation on human-reviewed
-real contributions remain future work.
+Graph-based candidate retrieval and evaluation on human-reviewed real
+contributions remain future work.
 
 The four-entry [starter catalog](catalogs/roadmap-starter.json), version 0.2.0,
 references CSS media queries, Flexbox, Grid, and Rust from roadmap.sh at a pinned
@@ -36,7 +38,97 @@ The original [CSS catalog](catalogs/roadmap-css-starter.json), ID
 `roadmap-css-starter`, version 0.1.0, remains unchanged for old reports. The expanded
 catalog has ID `roadmap-starter`; use the exact catalog referenced by each report.
 
-## Run
+## Repository/user API (phase 1)
+
+Requires Python 3.14+ and Git. Object reading uses pygit2/libgit2; language context
+uses Pygments. The API extra adds FastAPI/Uvicorn; normal inference also needs the
+LLM extra and `DEEPSEEK_API_KEY`. Preview needs no model credentials.
+
+```sh
+uv sync --extra api --extra llm --extra dev
+```
+
+Configure registered local repositories or allowed remote hosts in `.env`, using
+the absolute paths appropriate to your server:
+
+```dotenv
+EXTRACT_LOCAL_REPOSITORIES='{"demo":"/tmp/skill-demo/repo"}'
+EXTRACT_REMOTE_HOSTS=git.example.org,github.com,gitlab.com
+EXTRACT_TIMEOUT_SECONDS=120
+EXTRACT_MAX_CONCURRENCY=2
+EXTRACT_MAX_INPUT_CHARS=60000
+```
+
+Create the existing synthetic demo if that destination is new:
+
+```sh
+uv run python examples/create_demo.py /tmp/skill-demo
+uv run --extra api --extra llm uvicorn extract_repo_skills.api:create_app --factory --env-file .env --host 127.0.0.1 --port 8000
+```
+
+Open `http://127.0.0.1:8000/docs` to inspect the request/response schema. Preview
+the exact artifacts and model input:
+
+```sh
+curl --fail --silent --show-error http://127.0.0.1:8000/analyses \
+  -H 'Content-Type: application/json' \
+  -d '{"repository":"local:demo","user":{"emails":["demo@example.invalid"]},"dry_run":true}'
+```
+
+For a normal assessment, set `dry_run` to `false` and configure the model key.
+`repository` can also be an HTTPS or SSH Git URL, for example
+`https://git.example.org/team/project.git` or
+`ssh://git@git.example.org/team/project.git`. Enable its hostname in
+`EXTRACT_REMOTE_HOSTS`. HTTPS access is public; SSH uses the server's
+noninteractive identity. GitHub/GitLab APIs, platform logins, embedded credentials,
+arbitrary client filesystem paths and SCP-style URLs are not part of this API.
+
+Only `repository` and `user.emails` are required. `ref` defaults to HEAD and
+`max_commits` defaults to 50 (maximum 100). Selection uses descending author date
+with SHA as a tie-breaker within the resolved reference's reachable history.
+Commits on unrelated branches are not automatically included. Several exact
+author emails may be associated explicitly with the same user; this is recorded
+Git attribution, not proof of personal identity or original work.
+
+The five artifacts are Git log, per-commit diffs, language byte percentages,
+project structure/manifests, and contribution context. The manifesto records
+SHAs, hashes, tool versions, selected/excluded commits, limits and coverage.
+Language percentages and unchanged project context cannot support skill citations.
+Pygments classification/exclusions are explicit heuristics and are not equivalent
+to Linguist. The touched-files summary counts whole files at HEAD, not authored
+bytes. No repository code, tests, hooks or build/install scripts are executed.
+
+Merges, coauthorship, binary/non-UTF-8 changes, symlinks, submodules and changes
+without citable text require review and exclude the whole commit, with a reason.
+Excluded commits occupy a selection slot. Size/history limits fail before
+inference without silent truncation. Shallow repositories are unsupported; the
+new object reader currently supports SHA-1 repositories. See the spec for all
+limits and artifact policies.
+
+Responses have `status` equal to `preview`, `completed`, or
+`no_eligible_contributions`. Completed responses include a version-2 report and
+run metadata, with validated catalog IDs and changed-line evidence. No eligible
+contributions return an empty report without calling the LLM. Reports remain
+proposals requiring human review. The API does not persist report files; save the
+response yourself when needed. Existing CLI validation supports both versions.
+
+Each analysis runs in a separate process and is terminated on timeout. The
+concurrency setting applies per Uvicorn worker; excess requests receive 429.
+Structured errors distinguish invalid input, source access, collection limits,
+provider rejection and timeout. `GET /health` checks the service without remote
+or model calls. Serve this API within your intended access boundary; authentication
+and a durable job queue are not included in phase 1.
+
+Run the regression and API tests (LLM responses are simulated):
+
+```sh
+uv run --extra api --extra llm --extra dev python -m unittest discover -s tests -v
+```
+
+The reference graph and competency/technology records are scheduled for phase 2
+in the [architecture plan](docs/architecture-plan.md).
+
+## Run the existing CLI
 
 Requires Python 3.14+ and Git for evidence verification. With uv:
 

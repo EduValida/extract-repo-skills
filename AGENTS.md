@@ -1,12 +1,12 @@
 ## Project Context
 
-This project is part of GT-EduValida and aims to infer a person's technical skills from their contributions to GitHub repositories.
+This project is part of GT-EduValida and aims to infer a person's technical skills from their contributions to Git repositories, independently of the hosting platform.
 
 The analysis must focus on the contributor's actual work and link each inferred skill to verifiable evidence. A repository's technology stack alone does not justify attributing skills to a contributor. For example, modifying only CSS or documentation in a Django project does not demonstrate proficiency in Django or Python.
 
 This module focuses on skill extraction from repository contributions. Extracting skills from course syllabi belongs to a separate module.
 
-The architecture and technology stack have not yet been defined. Potential approaches include code analysis, machine learning, transformers, and LLMs. Static rules may support the analysis, but their ability to generalize is a concern.
+Phase 1 uses Python, FastAPI, pygit2/libgit2 for Git objects, C Git for controlled diffs, Pygments for language context, and an interchangeable LLM adapter. The five static artifacts and API contracts are documented in docs/spec.md. Phase 2's versioned competency graph is planned in docs/architecture-plan.md. Static classification and structural validation do not establish semantic skill correctness.
 
 ## Skill Reference Catalog
 

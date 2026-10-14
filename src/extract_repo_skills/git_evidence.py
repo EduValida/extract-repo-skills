@@ -74,6 +74,15 @@ def changed_ranges(patch: str) -> dict:
 def verify_git_evidence(report: dict, catalog: dict, repo: str | Path) -> int:
     """Verify changed-line references and author attribution, not skill semantics."""
     validate_report(report, catalog)
+    if report["schema_version"] == 2:
+        from .repository import Pygit2Reader
+        from .repository_analysis import verify_repository_evidence
+
+        reader = Pygit2Reader(Path(repo))
+        try:
+            return verify_repository_evidence(report, catalog, reader)
+        finally:
+            reader.close()
     root = Path(_git(Path(repo), "rev-parse", "--show-toplevel").strip())
     metadata_by_commit = {}
     ranges_by_file = {}

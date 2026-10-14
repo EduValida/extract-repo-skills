@@ -111,7 +111,7 @@ def catalog_identity(catalog: dict) -> dict:
     }
 
 
-def validate_report(report: dict, catalog: dict) -> dict:
+def _validate_v1_report(report: dict, catalog: dict) -> dict:
     identity = catalog_identity(catalog)
     _object(report, {"schema_version", "catalog", "repository", "contributor_email", "assessments"}, "report")
     _version(report["schema_version"], "report.schema_version")
@@ -149,4 +149,66 @@ def validate_report(report: dict, catalog: dict) -> dict:
             start, end = evidence["start_line"], evidence["end_line"]
             _require(type(start) is int and type(end) is int, f"{context}: line numbers must be integers")
             _require(1 <= start <= end, f"{context}: invalid line range")
+    return report
+
+
+def validate_report(report: dict, catalog: dict) -> dict:
+    """Accept legacy single-email reports and explicit repository/user reports."""
+    if not isinstance(report, dict) or type(report.get("schema_version")) is not int or report["schema_version"] != 2:
+        return _validate_v1_report(report, catalog)
+    _object(report, {"schema_version", "catalog", "repository", "user", "reference", "selection", "assessments"}, "report")
+    user = report["user"]
+    _object(user, {"emails", "attribution"}, "report.user")
+    _items(user["emails"], "report.user.emails")
+    for email in user["emails"]:
+        _text(email, "report.user.emails")
+        _require(bool(re.fullmatch(r"[^\s@]{1,200}@[^\s@]{1,200}", email)), "report.user: invalid author email")
+    _require(len(user["emails"]) <= 20 and len(set(user["emails"])) == len(user["emails"]), "report.user: invalid email selection")
+    _require(user["attribution"] == "exact_recorded_author_email", "report.user: unsupported attribution policy")
+    reference = report["reference"]
+    _object(reference, {"requested", "resolved"}, "report.reference")
+    _text(reference["requested"], "report.reference.requested")
+
+    def sha(value):
+        _require(isinstance(value, str) and bool(re.fullmatch(r"[0-9a-f]{40}|[0-9a-f]{64}", value)), "Expected a full commit SHA")
+
+    sha(reference["resolved"])
+    selection = report["selection"]
+    _object(selection, {"max_commits", "order", "reachable_commits", "matching_commits", "considered_commits",
+                        "omitted_by_commit_limit", "selected", "excluded", "coverage_complete"}, "report.selection")
+    for key in ("max_commits", "reachable_commits", "matching_commits", "considered_commits", "omitted_by_commit_limit"):
+        _require(type(selection[key]) is int and selection[key] >= 0, "report.selection: invalid count")
+    _require(1 <= selection["max_commits"] <= 100, "report.selection: invalid max_commits")
+    _require(selection["order"] == "author_timestamp_desc_then_sha_asc", "report.selection: invalid ordering")
+    _require(selection["matching_commits"] <= selection["reachable_commits"], "report.selection: invalid coverage counts")
+    _require(selection["considered_commits"] == min(selection["matching_commits"], selection["max_commits"]), "report.selection: invalid considered count")
+    _require(selection["omitted_by_commit_limit"] == selection["matching_commits"] - selection["considered_commits"], "report.selection: invalid omitted count")
+    _items(selection["selected"], "report.selection.selected", nonempty=False)
+    _items(selection["excluded"], "report.selection.excluded", nonempty=False)
+    _require(len(selection["selected"]) + len(selection["excluded"]) == selection["considered_commits"], "report.selection: missing decisions")
+    ids = set()
+    selected_ids = set()
+    for item in selection["selected"]:
+        _object(item, {"commit", "author_email"}, "report.selection.selected")
+        sha(item["commit"])
+        _text(item["author_email"], "report.selection.author_email")
+        _require(item["author_email"] in user["emails"], "report.selection: author outside requested identities")
+        _require(item["commit"] not in ids, "report.selection: duplicate commit")
+        ids.add(item["commit"])
+        selected_ids.add(item["commit"])
+    for item in selection["excluded"]:
+        _object(item, {"commit", "reason"}, "report.selection.excluded")
+        sha(item["commit"])
+        _text(item["reason"], "report.selection.excluded.reason")
+        _require(item["commit"] not in ids, "report.selection: duplicate commit")
+        ids.add(item["commit"])
+    complete = selection["omitted_by_commit_limit"] == 0 and not selection["excluded"]
+    _require(type(selection["coverage_complete"]) is bool and selection["coverage_complete"] == complete,
+             "report.selection: inconsistent coverage flag")
+    _validate_v1_report({"schema_version": 1, "catalog": report["catalog"],
+                         "repository": report["repository"], "contributor_email": user["emails"][0],
+                         "assessments": report["assessments"]}, catalog)
+    for assessment in report["assessments"]:
+        for evidence in assessment["evidence"]:
+            _require(evidence["commit"] in selected_ids, "Citation is outside the analyzed selection")
     return report

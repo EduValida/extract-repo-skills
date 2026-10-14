@@ -53,7 +53,11 @@ def assess(prepared: dict, model: str, *, max_output_tokens: int = 8_000) -> tup
         "response_id": response.id,
         "usage": response.usage.model_dump() if response.usage else None,
         "prompt_version": prepared["prompt_version"], "input_sha256": prepared["input_sha256"],
-        "commit": prepared["commit"], "catalog": prepared["report_context"]["catalog"],
+        "catalog": prepared["report_context"]["catalog"],
         "human_review_required": True,
     }
+    if "commits" in prepared:
+        run["commits"] = prepared["commits"]
+    else:
+        run["commit"] = prepared["commit"]
     return result, run

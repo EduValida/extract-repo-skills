@@ -55,6 +55,14 @@ class DeepSeekProviderTests(unittest.TestCase):
         self.assertTrue(run["human_review_required"])
         self.assertNotIn("git_evidence_verified", run)
 
+    def test_repository_preparation_records_multiple_commits(self):
+        del self.prepared["commit"]
+        self.prepared["commits"] = ["a" * 40, "b" * 40]
+        result, run = assess(self.prepared, "chosen-model")
+        self.assertEqual(result, {"assessments": []})
+        self.assertEqual(run["commits"], self.prepared["commits"])
+        self.assertNotIn("commit", run)
+
     def test_incomplete_refused_empty_and_invalid_output_are_rejected(self):
         for reason, refusal, text in (
             ("length", None, '{"assessments": []}'),
