@@ -1,15 +1,51 @@
-# Repository contribution skill mapping
+# Local preparation of repository contribution evidence
 
 ## Objective
 
-Map a contributor's actual Git repository work to an explicit, versioned skill
-catalog. Every assignment must include verifiable contribution evidence and an
-explanation of how that evidence satisfies the catalog entry's criteria. Repository
-dependencies, file extensions, and technology names can inform candidate selection;
-they cannot establish a skill assignment on their own.
+Prepare the local input/output for the static and semantic preparation stages
+of repository contribution analysis. This project collects a contributor's actual
+Git work, organizes evidence and context, associates candidates from an explicit,
+versioned skill catalog, and exports a traceable package for a separate inference
+project. Repository dependencies, file extensions, and technology names can
+inform candidate selection; they cannot establish a skill assignment on their own.
+
+Sending requests to an LLM, processing its responses, and producing final skill
+assessments are responsibilities of that separate project. Existing code for those
+operations is legacy outside this scope; documenting it below does not make it
+a required deliverable. Its removal or migration has not yet been implemented.
 
 Course syllabi are outside this module's scope. The initial implementation does not
 assign proficiency levels or infer that someone lacks an unobserved skill.
+
+## Local input/output boundary and current status
+
+Inputs are a Git source, explicitly selected author emails, a reference/history
+scope, collection limits, and an exact versioned reference catalog. The intended
+output is a provider-independent package containing the five static artifacts,
+the provenance/coverage manifest, and local semantic preparation: catalog
+candidates linked to an evidence registry, with supporting contribution context.
+Candidates remain proposals, not confirmed skills. Unknown catalog entries must
+not be created during preparation. Insufficient evidence and missing catalog
+coverage must remain distinguishable; neither means absence of a person's skill.
+
+Implemented today: `collect_bundle()` produces `{manifest, artifacts}` with five
+artifacts, changed-line ranges, context, metrics, selection/exclusion reasons,
+tool versions, and hashes. `POST /analyses` with `dry_run: true` exposes that bundle
+and `prepared` without model credentials or calls. Local repositories need no
+remote access; remote Git collection still uses network access.
+
+The current `prepare_repository_analysis()` serializes the entire catalog and
+bundle into model messages, with instructions and an expected response schema.
+It does not perform candidate retrieval or build competency/evidence records.
+Graph-based retrieval, an evidence registry, an independent versioned semantic
+package schema, and a dedicated export interface remain to be implemented.
+The existing single-commit CLI uses a different collection path.
+
+Local validation owns input correctness, catalog membership, evidence provenance,
+package structure, coverage, and limits. It does not process model responses or
+certify semantic skill correctness. The current API defaults to `dry_run: false`
+and can still invoke inference; making preparation/export its primary behavior
+requires an implementation change, not just this scope clarification.
 
 ## Reference catalog
 
@@ -42,7 +78,7 @@ so installed commands work outside the project checkout. It must match the revie
 `catalogs/roadmap-starter.json`; a test checks this equality. Catalog updates must
 update both copies and respect version immutability.
 
-## Assessment contract
+## Legacy assessment contract (external-project responsibility)
 
 Each report records its schema version, exact catalog identity, repository
 identifier, contributor email, and a list of assessments. Each assessment records:
@@ -73,8 +109,10 @@ judgment. A syntactically valid assignment is not automatically a correct one.
 
 ## Repository/user service (phase 1)
 
-The new primary API analyzes a contributor across a bounded set of commits in a
-Git repository, independently of GitHub, GitLab, or another hosting platform.
+The existing API collects a contributor's work across a bounded set of commits
+in a Git repository, independently of GitHub, GitLab, or another hosting platform.
+Its preparation mode is the current interface for this project's local output;
+its inference/report mode is legacy outside the intended boundary.
 The existing contribution-first CLI and version-1 reports remain supported.
 The phase-2 reference graph and structured competency records are planned in
 `docs/architecture-plan.md`; they are not part of this implementation.
@@ -195,7 +233,7 @@ messages have a separate aggregate budget of 5,000,000 characters. Limits fail
 explicitly before inference and do not truncate or sample an oversized artifact.
 Character budgets are not token counts.
 
-### Inference, results and HTTP lifecycle
+### Current preparation interface, legacy inference, and HTTP lifecycle
 
 The service prepares all five artifacts together with the exact reviewed catalog,
 assessment schema and versioned instructions. All repository content is untrusted
@@ -240,7 +278,7 @@ before use in evaluations. No network or model calls occur during validation.
 
 Commands:
 
-- `analyze CONTRIBUTION`: the primary workflow, accepting a GitHub commit URL,
+- `analyze CONTRIBUTION`: the legacy inference workflow, accepting a GitHub commit URL,
   single-commit PR URL, or local commit SHA/revision. Select the bundled catalog,
   derive the recorded commit author, save report files, and print a summary.
 - `catalog`: validate and display catalog entries and the exact catalog identity.
@@ -251,7 +289,7 @@ Commands:
 
 The existing commands and their options remain available as debug tools.
 
-## Contribution-first CLI
+## Legacy contribution-first CLI
 
 The unit of analysis is the explicitly selected contribution. The repository
 locates Git objects needed for patches and evidence verification; its overall
@@ -276,7 +314,7 @@ must pass the same attribution checks. `--catalog` overrides the bundled referen
 Model selection uses `DEEPSEEK_MODEL`; explicit provider and limit controls remain
 in `analyze-commit`.
 
-The primary command saves reports to unique files in `reports/` by default, or to
+The legacy `analyze` command saves reports to unique files in `reports/` by default, or to
 an explicit `--output`, without overwriting existing files. Print supported skill
 names and rationales, counts for insufficient evidence and catalog gaps, output
 paths, and the need for human review. Run metadata also records the original
@@ -288,7 +326,7 @@ Validation without `--repo` must explicitly report that Git evidence was not
 verified. The caller is responsible for choosing the checkout corresponding to the
 report's repository identifier; this version does not authenticate remote identity.
 
-## Single-commit semantic assessment
+## Legacy single-commit semantic assessment
 
 The first extractor collects all changed regular text files in one commit with
 five context lines around each hunk. It resolves a supplied revision to an immutable
@@ -341,17 +379,21 @@ requires semantic review; automatic origin detection is not implemented.
 
 ## Next milestones
 
-1. Review and broaden the reference subset; manually annotate 20–30 contributions,
+1. Define and version the local preparation input/output contracts independently
+   of model messages, provider settings, response schemas, and final reports.
+   Make preparation/export a first-class operation and separate the existing
+   inference/report integration into the consuming project.
+2. Preserve the five-artifact collector and manifest; validate and export their
+   exact content, scope, provenance, exclusions, coverage, and limits.
+3. Review and broaden the reference subset, then implement versioned graph-based
+   candidate retrieval and an evidence registry. Define the semantic preparation
+   envelope and candidate records described in `docs/architecture-plan.md`.
+4. Evaluate collection and candidate retrieval on human-reviewed contributions,
    including CSS-only work in Django repositories, documentation, tests, dependency
-   updates, and generated code. Keep fixtures separate from real evaluation data.
-2. Evaluate the single-commit LLM flow against the reviewed examples and a simple
-   baseline, tracking errors without relying on schema validity as a quality score.
-3. Evaluate the repository/user phase-1 flow on bounded real contribution sets.
-   Add graph-based candidate retrieval in phase 2 as the catalog grows; preserve
-   evidence and attribution during aggregation.
-4. Evaluate unsupported assignments, incorrect citations, missed supported skills,
-   appropriate abstention, and catalog coverage separately. Candidate retrieval
-   accuracy and final assignment accuracy must also be measured separately.
+   updates, and generated code. Check candidate relevance, missed candidates,
+   invalid references, and catalog gaps without equating package validity with
+   semantic correctness. Keep fixtures separate from real evaluation data.
 
-The first end-to-end milestone is a reviewable report for one contributor in one
-repository, with only catalog skill IDs and traceable supporting evidence.
+The end-to-end deliverable of this project is a reviewable, versioned local package
+for a contributor's bounded repository work, ready for consumption by the separate
+inference project. Acceptance does not require an LLM call or a final skill report.

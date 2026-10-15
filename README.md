@@ -1,9 +1,31 @@
 # extract-repo-skills
 
-Part of GT-EduValida. Map a contributor's Git repository changes to a versioned skill
-catalog, with verifiable evidence for each assignment. See the [project spec](docs/spec.md).
+Part of GT-EduValida. Prepare the local input/output for static and semantic
+analysis of a contributor's Git repository work: evidence, context, catalog
+candidates, and a versioned package for a separate inference project.
+See the [project spec](docs/spec.md).
 
-## Current functionality
+## Project boundary and implementation status
+
+This repository owns collection, local preparation, package validation, and
+export. LLM calls, response processing, and final skill assessments belong to
+another project. Semantic preparation here means organizing candidate catalog
+entries and their evidence; candidates are not confirmed skills.
+
+The five-artifact collector and provenance manifest are implemented. The current
+API's `dry_run: true` exposes the local bundle without model credentials or calls.
+Graph-based candidate retrieval, an evidence registry, and an independent local
+package/export contract remain planned. The current `prepared` object is still
+shaped as model messages plus an expected response schema; it is not that future
+provider-independent contract. The single-commit CLI uses a separate collection
+path and does not export the repository API's five-artifact bundle.
+
+Inference and report functionality described below remains in the current code
+as legacy functionality outside the project boundary. These instructions describe
+existing behavior, not the intended scope or future milestones. Code separation
+has not yet been implemented.
+
+## Existing functionality (including legacy inference)
 
 - Validate a catalog with stable skill IDs, aliases, evidence criteria, and versioned
   external references.

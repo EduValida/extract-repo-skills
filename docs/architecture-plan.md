@@ -1,13 +1,21 @@
-# Proposta: análise por repositório e usuário via FastAPI
+# Arquitetura: preparação local por repositório e usuário
 
-Status: fase 1 implementada; fase 2 planejada. Contratos e execução: `docs/spec.md` e `README.md`.
-Branch: `feat/repository-user-artifacts-api`.
+Status: coleta estática e preview implementados; contrato independente de preparação,
+separação da inferência e fase 2 semântica planejados. Contratos e execução:
+`docs/spec.md` e `README.md`.
 
 ## Objetivo
 
-Receber um repositório Git e um usuário, coletar suas contribuições em um
-recorte explícito, gerar cinco artefatos estáticos e fornecer esse pacote à LLM.
-O resultado continua limitado ao catálogo versionado e a evidências verificáveis.
+Preparar exclusivamente o I/O local das etapas estática e de preparação semântica:
+receber um repositório Git, identidades de autoria, recorte e catálogo versionado;
+coletar contribuições; organizar contexto e candidatos com evidências; validar e
+exportar um pacote para outro projeto consumir.
+
+O envio à LLM, o processamento de sua resposta e a produção de avaliações finais
+pertencem ao projeto consumidor. A integração existente neste repositório é legado
+a separar, não uma entrega deste plano. A saída local contém propostas rastreáveis,
+não habilidades confirmadas. A preparação semântica deve usar somente entradas
+existentes na referência versionada.
 Nenhum código, teste, instalação ou script do repositório analisado será executado.
 
 ## Cinco artefatos
@@ -28,7 +36,13 @@ Um artefato sem conteúdo deve registrar essa condição explicitamente.
 
 ## Fluxo e componentes
 
-`FastAPI → resolução de identidade/recorte → coleta → pacote → LLM → validação → relatório`
+`entrada local/API → identidade e recorte → cinco artefatos + manifesto → preparação semântica local → validação do pacote → exportação`
+
+O projeto consumidor recebe o pacote exportado e assume a inferência. Atualmente,
+`collect_bundle()` já entrega artefatos e manifesto. `dry_run: true` expõe esse
+pacote e uma requisição preparada sem chamar a LLM. Essa requisição ainda contém
+mensagens e schema de resposta; o contrato independente de exportação e os
+registros semânticos abaixo ainda não foram implementados.
 
 - A API valida o pedido e chama um serviço independente de HTTP, reutilizável pela CLI.
 - O núcleo aceita repositórios Git locais ou remotos, independentemente de
@@ -51,13 +65,16 @@ Um artefato sem conteúdo deve registrar essa condição explicitamente.
   classificador e política de exclusão versionados. O MVP usa Pygments local,
   com denominador/exclusões explícitos; Linguist é uma possível evolução e não
   exige integração com a API GitHub.
-- O empacotador aplica limites antes da inferência. No MVP, um pacote grande
+- O empacotador aplica limites antes da exportação. No MVP, um pacote grande
   demais falha de forma explícita; divisão em lotes será uma evolução.
-- O adaptador LLM continua intercambiável. DeepSeek permanece como primeira
-  integração, com um novo prompt que distingue evidência e contexto.
-- O validador aceita somente IDs do catálogo e citações às linhas alteradas dos
-  commits enviados. A checagem usa as identidades selecionadas e a autoria Git
-  registrada, permitindo vários e-mails explicitamente associados ao usuário.
+- A preparação semântica recupera candidatos da referência e organiza evidências
+  por candidato. Métricas, tecnologias e relações do grafo não confirmam habilidades.
+- O validador local aceita somente IDs da referência e evidências atribuíveis às
+  linhas alteradas dos commits selecionados. A checagem usa as identidades
+  selecionadas e a autoria Git registrada, permitindo vários e-mails explicitamente
+  associados ao usuário. Não recebe respostas de modelos para avaliação.
+- O exportador expõe um contrato versionado independente de provedor, formato de
+  mensagens, credenciais ou schema de avaliação final.
 
 ## Bibliotecas candidatas
 
@@ -79,11 +96,11 @@ Não será necessário implementar todos os backends ou instalar todas as opçõ
 | `tree-sitter` e gramáticas selecionadas | Encontrar funções e outros blocos sintáticos ao redor das linhas alteradas. | Evolução do contexto das contribuições; fallback para trechos por linhas em linguagens não cobertas. Não determina habilidades. |
 
 Definir um contrato `GitRepositoryReader` para resolver referências, percorrer
-commits, ler árvores/blobs e obter alterações. Coletores, prompt e relatórios não
+commits, ler árvores/blobs e obter alterações. Coletores e pacotes exportados não
 devem receber objetos específicos de uma biblioteca. A origem do repositório e
 os adaptadores de identidade ficam separados do leitor de objetos Git.
 
-## API proposta
+## API existente e adaptação necessária
 
 `POST /analyses`
 
@@ -110,14 +127,19 @@ limitado, sem apresentar o resultado como análise de todo o histórico.
 Filtros de período podem ser adicionados ao contrato inicial, com semântica
 explícita de data de autoria.
 
-Com `dry_run`, devolver manifesto e os cinco artefatos sem chamar a LLM. Na análise
-normal, devolver relatório, resumo de cobertura e metadados da execução.
-Nenhuma contribuição elegível produz um resultado vazio com motivo explícito.
+Hoje `dry_run: true` devolve manifesto, cinco artefatos e a requisição preparada,
+sem chamar a LLM. O padrão `false` ainda aciona o fluxo legado de inferência e
+relatório. A interface deve ser adaptada para tornar preparação/exportação sua
+operação principal e devolver o pacote independente descrito neste plano.
+O contrato dessa adaptação ainda precisa ser definido e versionado; o exemplo
+acima documenta a API atual, não um endpoint novo já implementado.
+Nenhuma contribuição elegível deve gerar um pacote com seleção vazia e motivo
+explícito, sem concluir que a pessoa não possui habilidades.
 
 `GET /health` verifica a disponibilidade do serviço sem acessar remotos ou LLM.
 
 Proposta para o MVP: resposta síncrona com limites de coleta, concorrência e timeout
-total, retornando erros estruturados para identidade, acesso, limite e provedor.
+total, retornando erros estruturados para identidade, acesso, coleta e limites.
 Fila durável e endpoints de acompanhamento ficam para a etapa seguinte se o
 tempo de execução exigir. Não tratar tarefas em memória como fila persistente.
 
@@ -128,19 +150,21 @@ por e-mail estão implementadas; adaptadores de contas de hospedagem são extens
 
 ## Contratos e compatibilidade
 
-- Criar contratos versionados para pedido, pacote e relatório por usuário.
-- O relatório novo registra seletor de identidade e sua origem, conta de
+- Criar contratos versionados para pedido, pacote estático e preparação semântica.
+- O envelope exportado registra seletor de identidade e sua origem, conta de
   hospedagem quando disponível, referência resolvida, recorte, autoria por commit,
-  catálogo e citações. Cada habilidade continua exigindo
-  evidência própria; contexto não autoriza atribuição.
-- Preservar `supported`, `insufficient_evidence` e `catalog_gap`, sem níveis de
-  proficiência ou criação automática de entradas no catálogo.
-- Manter validação dos relatórios v1 e comandos existentes; o fluxo novo usa v2
-  quando necessário para representar identidade e cobertura sem ambiguidade.
+  catálogo e evidências. Cada candidato precisa de vínculos explícitos;
+  contexto não autoriza atribuição de habilidade.
+- Distinguir evidência insuficiente de lacuna da referência, sem níveis de
+  proficiência ou criação automática de entradas. As decisões finais
+  `supported`, `insufficient_evidence` e `catalog_gap` são do projeto consumidor.
+- Planejar a migração do fluxo legado de inferência e relatórios para o consumidor;
+  não apresentar os contratos de relatório v1/v2 como a saída local deste projeto.
 - Reaproveitar os helpers de diff, intervalos de linhas e validação do catálogo.
-  Generalizar a preparação da inferência e a verificação restrita a um commit.
+  Generalizar a preparação local e a verificação de evidências restrita a um commit.
 - Manter conteúdo coletado como dado não confiável e registrar hashes do pacote,
-  catálogo, prompt e resposta/metadados. Não confundir hashes com determinismo da LLM.
+  catálogo e configuração de preparação. Hashes identificam dados e configuração;
+  não comprovam correção semântica dos candidatos.
 
 ## Entregas — fase 1: coleta Git e API
 
@@ -150,16 +174,18 @@ por e-mail estão implementadas; adaptadores de contas de hospedagem são extens
    repositório/usuário e coleta de múltiplos commits, com fixtures locais e
    um remoto Git de teste independente de APIs de hospedagem.
 3. Implementar os cinco coletores, manifesto e preview reproduzível.
-4. Adaptar prompt, provedor e validação de citações para o pacote.
+4. Definir contrato independente de I/O, validação local e exportação do pacote;
+   separar a chamada ao provedor e o processamento da resposta.
 5. Adicionar FastAPI, configuração, documentação de execução e testes HTTP.
 
 Critérios de aceite: receber repositório e identidades Git sem depender de GitHub;
 produzir exatamente cinco
 artefatos; expor cobertura e exclusões; suportar vários commits/e-mails com
-atribuição rastreável; rejeitar IDs inventados e citações externas ao recorte;
-preservar a CLI; concluir um fluxo HTTP com LLM simulada e validar casos de
-CSS/documentação em projetos de outras tecnologias. Uma avaliação humana
-separada verificará a qualidade semântica das inferências.
+atribuição rastreável; validar referências e linhas de evidência; concluir coleta
+e exportação sem dependências ou credenciais de modelo. Casos de CSS/documentação
+em projetos de outras tecnologias devem preservar a separação entre trabalho
+atribuível e contexto. A aceitação desta fase não depende de chamadas à LLM,
+respostas simuladas ou relatórios finais.
 
 ## Fase 2: referência em grafo e competências estruturadas para a LLM
 
@@ -185,7 +211,7 @@ uma evolução do catálogo explícito, com suporte a outras fontes, sem acoplam
   a LLM. Percorrer uma aresta não autoriza atribuir uma competência, subcompetência,
   pré-requisito ou papel profissional: cada atribuição exige evidência própria.
 
-### Saída estruturada da preparação, enviada à LLM
+### Saída estruturada da preparação, exportada ao projeto consumidor
 
 A saída desta etapa será uma lista de registros no formato solicitado, preparada
 a partir dos cinco artefatos e vinculada aos candidatos do catálogo/grafo:
@@ -206,8 +232,8 @@ catálogo inicial nem uma avaliação real.
 - `competência` é o nome de uma entrada existente; seu ID estável acompanha o
   registro no envelope de controle, evitando ambiguidade entre nomes e versões.
 - `nível: presente` expressa presença proposta com evidências no recorte, não
-  proficiência. Como o registro é entrada da LLM, a proposta ainda pode ser
-  rejeitada na avaliação; não tratá-la como conclusão confirmada antes dessa etapa.
+  proficiência. A avaliação no projeto consumidor ainda pode rejeitar a proposta;
+  este projeto não a transforma em conclusão confirmada.
 - `tecnologias` contém nomes controlados ligados às evidências do trabalho do
   usuário. Linguagens, dependências ou tecnologias do projeto sem contribuição
   pertinente não bastam para preencher esse campo.
@@ -217,32 +243,32 @@ catálogo inicial nem uma avaliação real.
 - O envelope registra schema, catálogo/grafo, IDs dos candidatos, identidade,
   recorte, hashes dos artefatos e estado de proposta. Ele e a referência em grafo
   são dados de controle, mantendo exatamente cinco artefatos de coleta.
-- Ausência de um registro `presente` não significa ausência de habilidade. O
-  resultado validado mantém `insufficient_evidence` e `catalog_gap` distintos,
-  além de `supported`, com justificativas e sem novas entradas automáticas.
+- Ausência de um registro `presente` não significa ausência de habilidade.
+  A preparação explicita evidência insuficiente e lacunas da referência sem
+  criar novas entradas. Decisões de avaliação final pertencem ao consumidor.
 
 Fluxo da fase 2:
 
-`cinco artefatos → recuperação de candidatos no grafo → registros de competência
-com evidências → avaliação pela LLM → validação de IDs, decisões e citações`
+`cinco artefatos → recuperação de candidatos no grafo → registros candidatos
+com evidências → validação local de IDs e referências → exportação`
 
 ### Entregas e aceite da fase 2
 
 1. Definir schema de nós, tecnologias e arestas; importar e revisar um subconjunto
    do roadmap.sh com referências fixadas.
-2. Implementar busca de candidatos no grafo e o contrato dos registros enviados
-   à LLM, incluindo o registro de evidências e os IDs no envelope.
-3. Adaptar prompt e validação para avaliar as propostas sem herdar competências
-   pelas relações do grafo.
-4. Avaliar recuperação e decisão separadamente com exemplos revisados: tecnologia
+2. Implementar busca de candidatos no grafo e o contrato dos registros exportados,
+   incluindo o registro de evidências e os IDs no envelope.
+3. Validar o pacote e suas propostas sem atribuir habilidades pelas relações do
+   grafo ou depender do formato de resposta de uma LLM.
+4. Avaliar recuperação de candidatos e vínculos de evidência com exemplos revisados: tecnologia
    apenas nas dependências, evidência de uma subcompetência sem evidência do pai,
    referências inválidas e lacunas do catálogo.
 
 Aceite: preview da entrada estruturada; reprodução do mesmo snapshot de referência;
 rejeição de rótulos/IDs desconhecidos e evidências inválidas; rastreabilidade de
 tecnologias e competências; nenhuma atribuição automática pela hierarquia;
-preservação das distinções entre presença sustentada, evidência insuficiente e
-lacuna de cobertura. Níveis de proficiência permanecem fora desta fase.
+distinção entre candidatos, evidência insuficiente e lacuna de cobertura;
+exportação completa sem inferência. Níveis de proficiência permanecem fora desta fase.
 
 ## Referências consultadas
 
