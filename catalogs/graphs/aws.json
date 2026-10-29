@@ -1,0 +1,3507 @@
+{
+  "metadata": {
+    "slug": "aws",
+    "title": "AWS Roadmap",
+    "description": "Step by step guide to learning AWS in 2026",
+    "extracted_at": "2026-10-29T01:03:44.797113+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/aws",
+    "total_topics": 18,
+    "total_subtopics": 83
+  },
+  "tree": {
+    "title": "AWS Roadmap",
+    "slug": "aws",
+    "topics": [
+      {
+        "id": "Py9nst2FDJ1_hoXeX_qSF",
+        "name": "Introduction",
+        "type": "topic",
+        "description": "AWS (Amazon Web Services) is a cloud computing platform provided by Amazon. It offers on-demand access to computing power, storage, databases, networking, and hundreds of other services over the internet. Companies use AWS to run applications, store data, and build infrastructure without managing physical hardware.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Documentation",
+            "url": "https://docs.aws.amazon.com/"
+          },
+          {
+            "type": "official",
+            "title": "Introduction of AWS",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+          },
+          {
+            "type": "article",
+            "title": "How to Create an AWS Account",
+            "url": "https://grapplingdev.com/tutorials/how-to-create-aws-account"
+          },
+          {
+            "type": "video",
+            "title": "AWS Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/introduction@Py9nst2FDJ1_hoXeX_qSF.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+            "name": "What is Cloud Computing?",
+            "type": "subtopic",
+            "description": "Cloud Computing refers to the delivery of computing services over the internet instead of using local servers. It offers reliable, scalable, and inexpensive cloud computing services which include data storage, databases, applications, analytics, machine learning, and even setting up virtual servers. The biggest names providing cloud computing services are Amazon Web Services (AWS), Microsoft Azure, Google Cloud, and others. The main selling point is that you only pay for the services you use, helping you manage your expenses more effectively.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Cloud Computing Roadmap",
+                "url": "https://roadmap.sh/cloud-computing"
+              },
+              {
+                "type": "article",
+                "title": "What is Cloud Computing - IBM",
+                "url": "https://www.ibm.com/topics/cloud-computing"
+              },
+              {
+                "type": "article",
+                "title": "Cloud Computing - AWS",
+                "url": "https://aws.amazon.com/what-is-cloud-computing/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/what-is-cloud-computing@74JxgfJ_1qmVNZ_QRp9Ne.md"
+          },
+          {
+            "id": "i4ijY3T5gLgNz0XqRipXe",
+            "name": "IaaS vs PaaS vs SaaS",
+            "type": "subtopic",
+            "description": "These are the three main cloud service models. IaaS (Infrastructure as a Service) gives you raw compute, storage, and networking, and you manage everything above the OS. PaaS (Platform as a Service) provides a managed environment for deploying applications, abstracting away the underlying infrastructure. SaaS (Software as a Service) delivers fully managed applications accessed through a browser or API, with no infrastructure responsibility on the user's side.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Types of Cloud Computing",
+                "url": "https://aws.amazon.com/types-of-cloud-computing/?nc1=h_ls"
+              },
+              {
+                "type": "video",
+                "title": "IaaS vs PaaS vs SaaS cloud service models",
+                "url": "https://youtu.be/9CVBohl6w0Q?si=cEDnXpd1sGkpf0K2"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/iaas-vs-paas-vs-saas@i4ijY3T5gLgNz0XqRipXe.md"
+          },
+          {
+            "id": "3hatcMVLDbMuz73uTx-9P",
+            "name": "Public vs Private vs Hybrid Cloud",
+            "type": "subtopic",
+            "description": "Public cloud refers to infrastructure shared across many customers and operated by a provider like AWS. Private cloud is dedicated infrastructure run by a single organization, either on-premises or hosted. Hybrid cloud combines both, allowing workloads to move between environments depending on cost, compliance, or performance requirements.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Cloud Computing Roadmap",
+                "url": "https://roadmap.sh/cloud-computing"
+              },
+              {
+                "type": "article",
+                "title": "Types of Cloud Computing",
+                "url": "https://www.redhat.com/en/topics/cloud-computing/public-cloud-vs-private-cloud-and-hybrid-cloud"
+              },
+              {
+                "type": "article",
+                "title": "Selecting the right cloud for workloads",
+                "url": "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/public-vs-private-vs-hybrid-cloud@3hatcMVLDbMuz73uTx-9P.md"
+          },
+          {
+            "id": "Dg1v9TV-wGSNLPfAals_y",
+            "name": "Introduction to AWS",
+            "type": "subtopic",
+            "description": "AWS is organized into regions and availability zones around the world, each hosting a range of services. You access AWS through the console, CLI, or SDKs, and most services are billed based on actual usage. Getting familiar with the core concepts like accounts, IAM, and regions is the starting point for working with AWS.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Documentation",
+                "url": "https://docs.aws.amazon.com/"
+              },
+              {
+                "type": "official",
+                "title": "Introduction of AWS",
+                "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+              },
+              {
+                "type": "video",
+                "title": "AWS Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/introduction-to-aws@Dg1v9TV-wGSNLPfAals_y.md"
+          }
+        ]
+      },
+      {
+        "id": "cL7vis8H5L2vv6LqJ5wvC",
+        "name": "EC2",
+        "type": "topic",
+        "description": "Amazon Elastic Compute Cloud (EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. EC2 enables you to scale your compute capacity, develop and deploy applications faster, and run applications on AWS's reliable computing environment. You have the control of your computing resources and can access various configurations of CPU, Memory, Storage, and Networking capacity for your instances.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "EC2 - User Guide",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Amazon EC2",
+            "url": "https://www.youtube.com/watch?v=eaicwmnSdCs"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/ec2@cL7vis8H5L2vv6LqJ5wvC.md",
+        "subtopics_count": 13,
+        "subtopics": [
+          {
+            "id": "VHD2ISW9WoSWjp8Hh6Zft",
+            "name": "Instance Types",
+            "type": "subtopic",
+            "description": "EC2 instance types determine the hardware profile of a virtual machine, covering combinations of CPU, memory, storage, and networking capacity. They are grouped into families optimized for different workloads: general purpose, compute optimized, memory optimized, storage optimized, and accelerated computing. Choosing the right instance type affects both performance and cost.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS EC2 Instance Types",
+                "url": "https://aws.amazon.com/ec2/instance-types"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/instance-types@VHD2ISW9WoSWjp8Hh6Zft.md"
+          },
+          {
+            "id": "_U2bKjxIrAAk7TMrPttpb",
+            "name": "CPU Credits",
+            "type": "subtopic",
+            "description": "CPU credits apply to burstable instance types in the T family. These instances earn credits when running below their baseline CPU threshold and spend credits when bursting above it. When credits run out, performance is throttled to the baseline, unless unlimited mode is enabled.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Burstable Performance Instances and CPU Credits",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/cpu-credits@_U2bKjxIrAAk7TMrPttpb.md"
+          },
+          {
+            "id": "A0u7CJwj5ULAMiAm12vZI",
+            "name": "Storage / Volumes",
+            "type": "subtopic",
+            "description": "EC2 instances use EBS (Elastic Block Store) volumes as their primary block storage. EBS volumes persist independently of the instance lifecycle and can be snapshotted for backup. You can attach multiple volumes to an instance and choose volume types based on IOPS and throughput requirements.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Elastic Block Store",
+                "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/storage--volumes@A0u7CJwj5ULAMiAm12vZI.md"
+          },
+          {
+            "id": "wFT-fddGn__DRoqG0joFk",
+            "name": "Keypairs",
+            "type": "subtopic",
+            "description": "Key pairs are part of Amazon EC2 and are used to securely log into your instances. A key pair consists of a public key and a private key. Amazon EC2 generates the key pair and gives you the private key, whereas the public key is stored with AWS. When you launch an EC2 instance, you specify the name of the key pair. You can then use the private key to securely connect to your instance. Key pairs are region-specific, meaning you need to create separate key pairs for each region in which you operate your instances.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "EC2 - Keypairs",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/keypairs@wFT-fddGn__DRoqG0joFk.md"
+          },
+          {
+            "id": "DCvkZSp25pjaimG0THLTu",
+            "name": "Elastic IP",
+            "type": "subtopic",
+            "description": "\"Elastic IP\" in AWS EC2 is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is associated with your AWS account not a particular instance, and you control that address until you choose to explicitly release it. Unlike traditional static IP addresses, however, Elastic IP addresses allow you to mask the failure of an instance or software by rapidly remapping the address to another instance in your account.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Elastic IP Addresses",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/elastic-ip@DCvkZSp25pjaimG0THLTu.md"
+          },
+          {
+            "id": "ZKjjgXZ89zV2atWcSal-s",
+            "name": "User Data Scripts",
+            "type": "subtopic",
+            "description": "\"User Data Scripts\" in EC2 instances are used to perform common automated configuration tasks and even run scripts after the instance starts. These scripts run as the root user, and can be used to install software or download files from an S3 bucket. You can pass up to 16 KB of data to an instance, either as plain text or base64-encoded. The User Data script is executed only one time when the instance is first launched. If you stop and start the instance, the script does not run again. However, it will run on every boot if the instance reboots.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "User Data Scripts EC2",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/user-data-scripts@ZKjjgXZ89zV2atWcSal-s.md"
+          },
+          {
+            "id": "8v9T6Y6JC7qaqIgkbT-nr",
+            "name": "Purchasing Options",
+            "type": "subtopic",
+            "description": "EC2 offers several purchasing models to balance cost and flexibility. On-Demand instances are billed per second with no commitment. Reserved Instances offer significant discounts in exchange for a one- or three-year commitment. Spot Instances let you bid on unused capacity at steep discounts, but can be interrupted with short notice. Savings Plans offer flexible discount commitments that apply across instance families.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Purchasing Options",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/purchasing-options@8v9T6Y6JC7qaqIgkbT-nr.md"
+          },
+          {
+            "id": "kG7tlZjv_hJbHGooBkxS0",
+            "name": "Sandbox / Sending Limits",
+            "type": "subtopic",
+            "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Sandbox / Sending Limits",
+                "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/sandbox--sending-limits@kG7tlZjv_hJbHGooBkxS0.md"
+          },
+          {
+            "id": "cwGuOrmbSTcSoH80skLTk",
+            "name": "Identity-based",
+            "type": "subtopic",
+            "description": "Identity-based policies are attached to IAM identities: users, groups, or roles. They define what actions that identity is allowed to perform across AWS services and resources. These are the most common type of IAM policy.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Identity Based Policies",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/identity-based@cwGuOrmbSTcSoH80skLTk.md"
+          },
+          {
+            "id": "bTCVHXPG-LtaaFmgiB2SL",
+            "name": "Identity Verification",
+            "type": "subtopic",
+            "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Identity Verification",
+                "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/identity-verification@bTCVHXPG-LtaaFmgiB2SL.md"
+          },
+          {
+            "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+            "name": "Resource-based",
+            "type": "subtopic",
+            "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Identity Based Policies",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/resource-based@v_YmmlOk-DkzJ8mI5Ftgr.md"
+          },
+          {
+            "id": "zwVd1vNm1ks6MdHZoi-5W",
+            "name": "DKIM Setup",
+            "type": "subtopic",
+            "description": "DKIM (DomainKeys Identified Mail) adds a cryptographic signature to outgoing emails that recipients can verify. Setting up DKIM in SES involves publishing DNS records with a public key that SES uses to sign your messages. Proper DKIM configuration improves deliverability and is required for compliance with modern email authentication standards.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "DKIM",
+                "url": "https://dkim.org/"
+              },
+              {
+                "type": "article",
+                "title": "DKIM - Cloudflare",
+                "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/dkim-setup@zwVd1vNm1ks6MdHZoi-5W.md"
+          },
+          {
+            "id": "i7X1GfOx5AZYFskepW4Zr",
+            "name": "Instance Profiles",
+            "type": "subtopic",
+            "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Instance Profiles",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/instance-profiles@i7X1GfOx5AZYFskepW4Zr.md"
+          }
+        ]
+      },
+      {
+        "id": "Sv2aT8eI1RvJhvoKVYQEX",
+        "name": "VPC",
+        "type": "topic",
+        "description": "Amazon VPC (Virtual Private Cloud) is a service that lets you launch AWS resources in a logically isolated virtual network that you define. It provides advanced security features such as security groups and network access control lists to enable inbound and outbound filtering at the instance and subnet level. Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC to leverage the AWS cloud as an extension of your corporate datacenter.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "VPC",
+            "url": "https://aws.amazon.com/vpc/"
+          },
+          {
+            "type": "video",
+            "title": "AWS VPC Beginner to Advanced uses",
+            "url": "https://www.youtube.com/watch?v=g2JOHLHh4rI"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/vpc@Sv2aT8eI1RvJhvoKVYQEX.md",
+        "subtopics_count": 11,
+        "subtopics": [
+          {
+            "id": "z9R1BWUGalmnw0E7QqiW6",
+            "name": "AWS Global Infrastructure",
+            "type": "subtopic",
+            "description": "AWS Global Infrastructure refers to the layout of AWS regions and availability zones around the world. A region is a geographical area, each consisting of two or more availability zones (AZs) which are engineered to be isolated from failures in other AZs. AZs provide inexpensive, low-latency network connectivity to other AZs in the same region. In addition to the regions and AZs, AWS also includes edge locations for content delivery and regional edge caches, enhancing user experience by reducing latency. AWS currently operates in many geographic regions around the world.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Global Infrastructure",
+                "url": "https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=0"
+              },
+              {
+                "type": "official",
+                "title": "AWS Regions / Availability Zones",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/aws-global-infrastructure@z9R1BWUGalmnw0E7QqiW6.md"
+          },
+          {
+            "id": "0flGtxZmxQKxO3c3sguwp",
+            "name": "Shared Responsibility Model",
+            "type": "subtopic",
+            "description": "The shared responsibility model defines what AWS secures and what the customer is responsible for. AWS manages the security of the cloud, meaning the physical infrastructure, hardware, and managed services. The customer is responsible for security in the cloud, which includes data, access control, application configuration, and operating system patching.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Shared Responsibility Model",
+                "url": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/shared-responsibility-model@0flGtxZmxQKxO3c3sguwp.md"
+          },
+          {
+            "id": "eKuC7VmkGVYFnbC2Rvn8D",
+            "name": "Well Architected Framework",
+            "type": "subtopic",
+            "description": "AWS Well-Architected Framework is a set of strategic guidelines provided by Amazon Web Services. It is designed to provide high-performing and resilient systems while maintaining cost efficiency. The framework divides the architectural best practices across six pillars which include operational excellence, security, reliability, performance efficiency, cost optimization and the sustainability. With this framework, you can assess and improve your cloud-based architectures and applications by leveraging AWS technologies.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Well-Architected",
+                "url": "https://aws.amazon.com/architecture/well-architected"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/well-architected-framework@eKuC7VmkGVYFnbC2Rvn8D.md"
+          },
+          {
+            "id": "2hFBv2fhKDYBN-9ITs82J",
+            "name": "CIDR Blocks",
+            "type": "subtopic",
+            "description": "\"CIDR\" stands for Classless Inter-Domain Routing. In AWS VPC, a CIDR block is the IP address block from which private IPv4 addresses and public IPv4 addresses are allocated when you create a VPC. The CIDR block can range from /28 (16 IP addresses) to /16 (65,536 IP addresses). It represents a network segment and is associated with a network boundary. Upon creation, you cannot change the CIDR block of your VPC, but you can add additional CIDR blocks to it if needed. A VPC's CIDR block should not overlap with any of the existing network's CIDR blocks.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "cidr.xyz: Interactive CIDR range visualizer",
+                "url": "https://cidr.xyz/"
+              },
+              {
+                "type": "official",
+                "title": "VPC - CIRD Blocks",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/cidr-blocks@2hFBv2fhKDYBN-9ITs82J.md"
+          },
+          {
+            "id": "Y64TE0U20kllmykjdfhHp",
+            "name": "Subnets",
+            "type": "subtopic",
+            "description": "Subnets divide a VPC's IP address range into smaller segments, each tied to a specific availability zone. Resources in a subnet inherit its routing configuration, which determines whether they can reach the internet or stay private. A VPC can have many subnets spread across multiple availability zones.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Subnets",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/subnets@Y64TE0U20kllmykjdfhHp.md"
+          },
+          {
+            "id": "ymuURDwW8JG3NSIXcl0FL",
+            "name": "Private Subnet",
+            "type": "subtopic",
+            "description": "Private subnets in AWS are isolated network segments within your VPC that do not have direct access to the internet. You can use private subnets to run services and applications that should not be directly accessible from the outside world, but still need to communicate with other resources within your VPC. Any instances launched in a private subnet cannot directly send traffic to the internet without routing through a NAT device.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Subnets",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/private-subnet@ymuURDwW8JG3NSIXcl0FL.md"
+          },
+          {
+            "id": "ABCH1rATHmecyWHyK3n-m",
+            "name": "Public Subnet",
+            "type": "subtopic",
+            "description": "A public subnet has a route to an Internet Gateway, making resources inside it reachable from the internet when they have a public IP. Load balancers and bastion hosts are commonly placed in public subnets. Instances in a public subnet still require a security group configured to allow inbound traffic.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Subnets",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/public-subnet@ABCH1rATHmecyWHyK3n-m.md"
+          },
+          {
+            "id": "FCdOnwQubhOnCFFnF8uJN",
+            "name": "Route Tables",
+            "type": "subtopic",
+            "description": "A _Route Table_ in AWS VPC is a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the traffic for the subnet. By default, your VPC has a main route table that you can modify. You can also create additional custom route tables for your VPC. A subnet can only be associated with one route table at a time, but you can change the association.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Route Tables",
+                "url": "https://docs.aws.amazon.com/quicksight/latest/user/vpc-route-table.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/route-tables@FCdOnwQubhOnCFFnF8uJN.md"
+          },
+          {
+            "id": "Cd9gdbkCFdrTLrnJMy5F3",
+            "name": "Security Groups",
+            "type": "subtopic",
+            "description": "Security groups act as virtual firewalls for EC2 instances and other resources. They control inbound and outbound traffic using rules based on protocol, port, and source or destination. Security groups are stateful, meaning return traffic for allowed connections is automatically permitted.",
+            "resources": [
+              {
+                "type": "course",
+                "title": "Cloud Network Exposure: Hands-on Security Group Exercise",
+                "url": "https://ransomleak.com/exercises/cloud-network-exposure/"
+              },
+              {
+                "type": "official",
+                "title": "Security Groups",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/security-groups@Cd9gdbkCFdrTLrnJMy5F3.md"
+          },
+          {
+            "id": "Le8yOJzpzxH1xgd7XEU2B",
+            "name": "Internet Gateway",
+            "type": "subtopic",
+            "description": "An Internet Gateway is a horizontally scaled, redundant component that connects a VPC to the internet. Attaching one to a VPC and adding a route in a public subnet's route table enables resources with public IPs to send and receive internet traffic. Each VPC can have one Internet Gateway attached.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Internet Gateway",
+                "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/internet-gateway@Le8yOJzpzxH1xgd7XEU2B.md"
+          },
+          {
+            "id": "6D-gs32jrCyvMVhr9PSAY",
+            "name": "NAT Gateway",
+            "type": "subtopic",
+            "description": "A NAT Gateway allows resources in a private subnet to initiate outbound connections to the internet without being directly reachable from it. It is placed in a public subnet and translates the private IP addresses of outgoing traffic to its own public IP. NAT Gateways are managed by AWS and scale automatically.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "NAT Gateway",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+          }
+        ]
+      },
+      {
+        "id": "xmKeB4hEi2DunmhAsvS1X",
+        "name": "IAM",
+        "type": "topic",
+        "description": "IAM (Identity and Access Management) controls who can access AWS services and what actions they can perform. It manages users, groups, roles, and the policies attached to them. Every API call made to AWS is authenticated and authorized through IAM.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Over-Permissive IAM: Hands-on Privilege Escalation Exercise",
+            "url": "https://ransomleak.com/exercises/over-permissive-iam/"
+          },
+          {
+            "type": "official",
+            "title": "IAM - User Guide",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/iam@xmKeB4hEi2DunmhAsvS1X.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "eQAn3e-k9WNufPqOnwY_K",
+            "name": "Policies",
+            "type": "subtopic",
+            "description": "IAM policies are JSON documents that define permissions. A policy specifies which actions are allowed or denied on which resources, and under what conditions. Policies are attached to users, groups, or roles to grant or restrict access.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Permissions and Policies",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_access-management.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/policies@eQAn3e-k9WNufPqOnwY_K.md"
+          },
+          {
+            "id": "Nn2zawk6A31NwZa40jOhX",
+            "name": "Users / User Groups",
+            "type": "subtopic",
+            "description": "IAM users represent individual people or applications that need programmatic or console access to AWS. User groups let you apply the same set of policies to multiple users at once, simplifying access management. For most real-world deployments, roles are preferred over long-lived IAM user credentials.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "IAM - AWS",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/users--user-groups@Nn2zawk6A31NwZa40jOhX.md"
+          },
+          {
+            "id": "7nI202hX41mI5ms9LZonh",
+            "name": "Roles",
+            "type": "subtopic",
+            "description": "IAM Roles in AWS are a form of secure access control that do not directly associate with specific users or groups. Instead, trusted entities such as AWS users, applications or services (like EC2) can take on roles to obtain temporary security credentials for making AWS API requests. The structure of roles lets you delegate access with defined permissions, helping to keep your environment secure. Moreover, because roles yield temporary credentials for navigation within AWS, you won't have to deal with long-term keys.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Create Your First Role",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-roles.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/roles@7nI202hX41mI5ms9LZonh.md"
+          }
+        ]
+      },
+      {
+        "id": "dOAZG-NbjWiVdPKYEhWxj",
+        "name": "Auto-Scaling",
+        "type": "topic",
+        "description": "AWS Auto Scaling is a service that automatically scales resources to meet the demands of your applications. It uses policies, health status, and schedules to determine when to add more instances, ensuring that your application always has the right amount of capacity. AWS Auto Scaling can scale resources across multiple services and manage the scaling process in real time. It optimizes for cost and performance, and with the help of Amazon CloudWatch, it adjusts capacity based on the demand patterns of your workloads.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Autoscaling",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/auto-scaling@dOAZG-NbjWiVdPKYEhWxj.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "AfagmWcllSi81D2XIQz0V",
+            "name": "AMIs",
+            "type": "subtopic",
+            "description": "Amazon Machine Images (AMIs) are pre-configured templates for EC2 instances. When you launch an instance in EC2, you start with an AMI. An AMI includes details such as the operating system to use, applications to install, and the volume type and size. AMIs can be either public or private — public AMIs are available for anyone to use, while private AMIs are only available to specific AWS accounts. You can create your own custom AMIs, enabling you to quickly start and replicate a known configuration for your EC2 instances.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AMIs",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/amis@AfagmWcllSi81D2XIQz0V.md"
+          },
+          {
+            "id": "K0GCk5_HDvP0_ZqsUc3tG",
+            "name": "Launch Templates",
+            "type": "subtopic",
+            "description": "\"Launch Templates\" in AWS Auto Scaling are configurations that an Auto Scaling group uses to launch EC2 instances. They store the configuration information necessary to launch an instance, which includes the ID of the Amazon Machine Image (AMI), the instance type, a key pair, security groups, and the storage configuration. It helps in setting up new instances quickly and prevent configuration inconsistencies across instances. These templates can also be versioned, allowing updates and roll backs to previous configurations.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Launch Templates",
+                "url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-launch-templates-for-amazon-ec2-instances/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/launch-templates@K0GCk5_HDvP0_ZqsUc3tG.md"
+          },
+          {
+            "id": "gBKHVG7FvlCEgINKmw00s",
+            "name": "Auto-Scaling Groups",
+            "type": "subtopic",
+            "description": "An Auto Scaling group manages a collection of EC2 instances as a unit. You define a minimum, maximum, and desired capacity, and the group maintains that count by launching or terminating instances as needed. It integrates with load balancers and CloudWatch to respond to real demand.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Auto Scaling Groups",
+                "url": "https://docs.aws.amazon.com/eks/latest/best-practices/cas.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/auto-scaling-groups@gBKHVG7FvlCEgINKmw00s.md"
+          },
+          {
+            "id": "fRBaiw8Qx8kapzCphmM4v",
+            "name": "Scaling Policies",
+            "type": "subtopic",
+            "description": "Scaling policies determine when and how an Auto Scaling group changes its capacity. Target tracking policies adjust instance count to keep a metric like CPU utilization at a target value. Step scaling and simple scaling policies respond to CloudWatch alarms with predefined capacity changes.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Autoscaling Policy",
+                "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/scaling-policies@fRBaiw8Qx8kapzCphmM4v.md"
+          },
+          {
+            "id": "YAZPKMbmrxYNqF6alXMyL",
+            "name": "Elastic Load Balancers",
+            "type": "subtopic",
+            "description": "Elastic Load Balancing distributes incoming traffic across multiple EC2 instances or targets. AWS offers three types: Application Load Balancer for HTTP/HTTPS traffic with content-based routing, Network Load Balancer for high-performance TCP/UDP routing, and Gateway Load Balancer for traffic inspection appliances. Load balancers also perform health checks and route traffic only to healthy targets.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Elastic Load Balancers",
+                "url": "https://aws.amazon.com/elasticloadbalancing/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/elastic-load-balancers@YAZPKMbmrxYNqF6alXMyL.md"
+          }
+        ]
+      },
+      {
+        "id": "PN3xAYfQ-_QgZCRCnsEca",
+        "name": "S3",
+        "type": "topic",
+        "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Public S3 Buckets: Hands-on Exercise",
+            "url": "https://ransomleak.com/exercises/public-storage-buckets/"
+          },
+          {
+            "type": "official",
+            "title": "S3",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/s3@PN3xAYfQ-_QgZCRCnsEca.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "0IMdO7g_5El1elvDXJJ_0",
+            "name": "Assuming Roles",
+            "type": "subtopic",
+            "description": "Assuming a role means temporarily taking on a different set of permissions defined by that role. This is done using the STS AssumeRole API call, which returns short-lived credentials. It is commonly used for cross-account access, least-privilege application permissions, and federated identity scenarios.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Assuming Roles",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/assuming-roles@0IMdO7g_5El1elvDXJJ_0.md"
+          },
+          {
+            "id": "rTgjDj5HqbjRpcJ7PR-EC",
+            "name": "Buckets / Objects",
+            "type": "subtopic",
+            "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Bucket / Object",
+                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/buckets--objects@rTgjDj5HqbjRpcJ7PR-EC.md"
+          },
+          {
+            "id": "8i6zpjkMC_Pg-tDNmrx4n",
+            "name": "Bucket / Object Lifecycle",
+            "type": "subtopic",
+            "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Bucket / Object Lifecycle",
+                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/bucket--object-lifecycle@8i6zpjkMC_Pg-tDNmrx4n.md"
+          }
+        ]
+      },
+      {
+        "id": "-bwXo6xvF1yzyWEm5oZhJ",
+        "name": "SES",
+        "type": "topic",
+        "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SES",
+            "url": "https://aws.amazon.com/ses/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/ses@-bwXo6xvF1yzyWEm5oZhJ.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "0NWTFssjg9SbDXQRkN5kF",
+            "name": "Feedback Handling",
+            "type": "subtopic",
+            "description": "SES can receive delivery notifications, bounces, and complaint feedback from recipient mail servers. These events are delivered via SNS or SQS and should be processed to remove invalid addresses and maintain a clean sending list. Ignoring bounce and complaint feedback leads to reputation damage and account suspension.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Feedbacks",
+                "url": "https://aws.amazon.com/ses/faqs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/feedback-handling@0NWTFssjg9SbDXQRkN5kF.md"
+          },
+          {
+            "id": "4svXYQYmqjUZU39z8OyhD",
+            "name": "Configuration Sets",
+            "type": "subtopic",
+            "description": "Configuration sets in SES are groups of rules applied to outgoing emails. They enable tracking of events like sends, bounces, complaints, and clicks by routing data to CloudWatch, SNS, Kinesis, or S3. You can also use them to apply dedicated IP pools or TLS settings.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "SES",
+                "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/configuration-sets@4svXYQYmqjUZU39z8OyhD.md"
+          },
+          {
+            "id": "Vo_PBfB7LxYL27nBBVoVp",
+            "name": "Sender Reputation",
+            "type": "subtopic",
+            "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Sender Reputation",
+                "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/sender-reputation@Vo_PBfB7LxYL27nBBVoVp.md"
+          },
+          {
+            "id": "pnX1dfkjS8woWc4KGXlh_",
+            "name": "Dedicated IP",
+            "type": "subtopic",
+            "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Dedicated IP",
+                "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/dedicated-ip@pnX1dfkjS8woWc4KGXlh_.md"
+          }
+        ]
+      },
+      {
+        "id": "f89qL7Cg9R_LTxBEG4jUK",
+        "name": "Route53",
+        "type": "topic",
+        "description": "Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service. It translates human-readable domain names into the numerical IP addresses that computers use to connect to each other, while also performing health checks to route traffic to healthy endpoints and managing domain name registrations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Route53",
+            "url": "https://aws.amazon.com/route53/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/route53@f89qL7Cg9R_LTxBEG4jUK.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "z-o-2cGYSM6KW_CNJyw3p",
+            "name": "Hosted Zones",
+            "type": "subtopic",
+            "description": "Route53 routing policies determine how DNS queries are answered when multiple records exist. Simple routing returns a single value. Weighted routing splits traffic across records by percentage. Latency-based, geolocation, failover, and multi-value routing provide additional control over where requests are directed.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Hosted Zones",
+                "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/hosted-zones@z-o-2cGYSM6KW_CNJyw3p.md"
+          },
+          {
+            "id": "IQhPG1La7dZeSXnX23D1n",
+            "name": "Routing Policies",
+            "type": "subtopic",
+            "description": "Route53 routing policies determine how DNS queries are answered when multiple records exist. Simple routing returns a single value. Weighted routing splits traffic across records by percentage. Latency-based, geolocation, failover, and multi-value routing provide additional control over where requests are directed.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Routing Policies",
+                "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/routing-policies@IQhPG1La7dZeSXnX23D1n.md"
+          },
+          {
+            "id": "LXG_znJ3XzPAlDxUH2-Xp",
+            "name": "Health Checks",
+            "type": "subtopic",
+            "description": "Route53 health checks monitor the availability of endpoints by sending periodic requests and checking the response. If an endpoint fails its health check, Route53 can stop routing traffic to it, which is central to failover routing policies. Health checks can target IP addresses, domain names, or other CloudWatch alarms.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Route53 Health Checks",
+                "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-health-checks.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/health-checks@LXG_znJ3XzPAlDxUH2-Xp.md"
+          }
+        ]
+      },
+      {
+        "id": "PJaAqax4fABnkObY5UwNp",
+        "name": "Storage Types",
+        "type": "topic",
+        "description": "Amazon S3 provides three storage classes: S3 Standard, S3 Intelligent-Tiering, and S3 Glacier. `S3 Standard` is designed for frequently accessed data. It delivers low latency and high throughput. `S3 Intelligent-Tiering` is automated storage class that optimizes costs. It moves objects between two access tiers (frequent and infrequent access) based on changing access patterns. `S3 Glacier` is for long-term backup and archives. It has two retrieval modes: Expedited (for quick access) and Bulk (for largest and less time-sensitive retrievals).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Storage Types",
+            "url": "https://aws.amazon.com/s3/storage-classes/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/storage-types@PJaAqax4fABnkObY5UwNp.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "Ll5FPCtkpYq_niJd7WoTC",
+            "name": "Standard",
+            "type": "subtopic",
+            "description": "Amazon S3 Standard storage is designed for general-purpose storage of frequently accessed data. It provides low latency and high throughput, making it suitable for a wide variety of use cases, including cloud applications, dynamic websites, content distribution, mobile and gaming applications, and big data analytics. S3 Standard offers high durability, availability, and performance object storage for both small and large objects. You have immediate access to your data and can retrieve it at any time, making it a versatile choice for many different AWS workloads.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS S3 Standard",
+                "url": "https://aws.amazon.com/s3/pricing/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/standard@Ll5FPCtkpYq_niJd7WoTC.md"
+          },
+          {
+            "id": "JlkLNQ8wRzGkjaootNKOD",
+            "name": "S3-IA",
+            "type": "subtopic",
+            "description": "Amazon S3 Infrequent Access (S3 IA) is a storage class in Amazon S3 designed for data that is accessed less frequently, but requires rapid access when needed. S3 IA offers the high durability, high throughput, and low latency of Amazon S3 Standard, with a lower cost per GB for storage and a per GB retrieval fee. This makes S3 IA suitable for long-term storage, backups, and as a data store for disaster recovery files.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS S3-IA",
+                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/s3-ia@JlkLNQ8wRzGkjaootNKOD.md"
+          },
+          {
+            "id": "IikKYP58sT2H1lM8glm-g",
+            "name": "Glacier",
+            "type": "subtopic",
+            "description": "AWS Glacier is a secure, durable, and extremely low-cost storage service for data archiving and long-term backup. It is designed to reliably store data for as long as you need. Its main features are optimized for infrequently accessed data where retrieval time of minutes is acceptable. AWS Glacier supports the archiving of data that is not needed in real-time but might be required for future reference or are legally required to be maintained. AWS Glacier is used when there is no immediate need for data and substantial retrieval time is acceptable, due to its low storage cost.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Glacier",
+                "url": "https://aws.amazon.com/s3/storage-classes/glacier/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/glacier@IikKYP58sT2H1lM8glm-g.md"
+          }
+        ]
+      },
+      {
+        "id": "VAYxwJH10PFjGS8poKd9-",
+        "name": "Cloudwatch",
+        "type": "topic",
+        "description": "CloudWatch is AWS's monitoring and observability service. It collects metrics, logs, and events from AWS services and custom applications. You use it to set alarms, visualize performance data, and trigger automated responses to operational issues.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Cloudwatch",
+            "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/cloudwatch@VAYxwJH10PFjGS8poKd9-.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "2vQPmVNk1QpMM-15RKG8b",
+            "name": "Metrics",
+            "type": "subtopic",
+            "description": "In Amazon CloudWatch, **metrics** are fundamental concepts that you work with. A metric is the fundamental concept in CloudWatch and represents a time-ordered set of data points that are published to CloudWatch. Think of a metric as a variable to monitor, and the data points as representing the values of that variable over time. Metrics are uniquely defined by a name, a namespace, and zero or more dimensions up to 30 dimensions per metric. Every data point must have a timestamp. You can retrieve statistics about those data points as an ordered set of time-series data. CloudWatch provides metrics for every service in AWS.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "CloudWatch Metrics",
+                "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/metrics@2vQPmVNk1QpMM-15RKG8b.md"
+          },
+          {
+            "id": "tHQ6NRVDPCPEOmzgjQDLX",
+            "name": "Events",
+            "type": "subtopic",
+            "description": "CloudWatch Events (now part of EventBridge) lets you respond to changes in your AWS environment by routing events to targets like Lambda functions, SQS queues, or SNS topics. You can trigger actions on a schedule using cron expressions or react to events like an EC2 instance stopping or an S3 object being created.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon Cloudwatch Events",
+                "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/cloudwatch-events.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/events@tHQ6NRVDPCPEOmzgjQDLX.md"
+          },
+          {
+            "id": "oC6KIjWAXw0hLl4FwkB9F",
+            "name": "Logs",
+            "type": "subtopic",
+            "description": "AWS CloudWatch Logs service allows you to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, and other sources. It centralizes the logs from all your systems, applications, and AWS services that you use, into a single, highly scalable service. You can then easily view them, search through them, set alarms, and correlate them to other operational data. It also integrates with AWS Lambda, providing the ability to respond quickly to critical operational events.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon Cloudwatch Logs",
+                "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/logs@oC6KIjWAXw0hLl4FwkB9F.md"
+          }
+        ]
+      },
+      {
+        "id": "fkMF-2PQZ00UdwxhQt1ds",
+        "name": "RDS",
+        "type": "topic",
+        "description": "RDS (Relational Database Service) is a managed service for running relational databases on AWS. It supports engines including MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora. RDS handles provisioning, patching, backups, and failover, so you can focus on the database schema and queries.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon RDS",
+            "url": "https://aws.amazon.com/rds/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/rds@fkMF-2PQZ00UdwxhQt1ds.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "uo5HIyePegnJooortvWLu",
+            "name": "General Purpose",
+            "type": "subtopic",
+            "description": "General Purpose SSD storage in RDS uses gp2 or gp3 volumes and is suitable for most database workloads. gp3 lets you provision IOPS and throughput independently from storage size, offering better cost control. This storage type is a good starting point unless your application has specific high-IOPS requirements.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "General Purpose Storage",
+                "url": "https://aws.amazon.com/ebs/general-purpose/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/general-purpose@uo5HIyePegnJooortvWLu.md"
+          },
+          {
+            "id": "l9oq3LiEd8ZrPtupPk-Fn",
+            "name": "DB Instances",
+            "type": "subtopic",
+            "description": "The term \"DB Instance\" is used within the context of Amazon's Relational Database Service (RDS). A DB Instance is essentially an isolated database environment in the cloud, run within Amazon RDS. A DB Instance can contain multiple user-created databases, and can be accessed using the same tools and applications that you might use with a stand-alone database instance. You can create and manage a DB Instance via the AWS Management Console, the AWS RDS Command Line Interface, or through simple API calls.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "DB Instances - RDS",
+                "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/db-instances@l9oq3LiEd8ZrPtupPk-Fn.md"
+          },
+          {
+            "id": "3l1ji4JToj277vpgONmLw",
+            "name": "Provisioned IOPS",
+            "type": "subtopic",
+            "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Provisioned IOPS",
+                "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/provisioned-iops@3l1ji4JToj277vpgONmLw.md"
+          },
+          {
+            "id": "Xs057ESpvxXg2r_rDQnOa",
+            "name": "Storage Types",
+            "type": "subtopic",
+            "description": "RDS supports three storage types. General Purpose SSD (gp2/gp3) is the default for most workloads, balancing cost and performance. Provisioned IOPS SSD is designed for I/O-intensive applications that require consistent, high throughput. Magnetic storage is a legacy option, rarely used for new deployments.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "RDS Storage Types",
+                "url": "https://aws.amazon.com/rds/instance-types/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/storage-types@Xs057ESpvxXg2r_rDQnOa.md"
+          },
+          {
+            "id": "y0CoNcEFHyz350f7pNddt",
+            "name": "Magnetic",
+            "type": "subtopic",
+            "description": "\"Magnetic\" in AWS refers to Magnetic storage, also known as Amazon EBS (Elastic Block Store) Magnetic volumes. These storage types are designed for workloads where data is accessed infrequently, and sceneries where the lowest storage cost is important. Magnetic volumes offer cost-effective storage for applications with moderate or bursty I/O requirements. Though magnetic storage provides the lowest cost per gigabyte of all EBS volume types, it has the poorest performance capability and a higher latency compared to solid-state drive storage options.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Magnetic Storage",
+                "url": "https://aws.amazon.com/ebs/previous-generation/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/magnetic@y0CoNcEFHyz350f7pNddt.md"
+          },
+          {
+            "id": "tBKc7tHOiJaTmwEl3q--Y",
+            "name": "Backup / Restore",
+            "type": "subtopic",
+            "description": "RDS performs automated backups of the database and transaction logs within a configurable retention window of up to 35 days. You can restore to any point in time within that window. Manual snapshots can also be created and kept indefinitely, independent of the retention policy.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Backup & Restore - RDS",
+                "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/backup--restore@tBKc7tHOiJaTmwEl3q--Y.md"
+          }
+        ]
+      },
+      {
+        "id": "wGb0TEDnSe_bmv9Krx4qB",
+        "name": "DynamoDB",
+        "type": "topic",
+        "description": "Amazon DynamoDB is a fully managed NoSQL database solution that provides fast and predictable performance with seamless scalability. It is a key-value and document database that delivers single-digit millisecond performance at any scale. DynamoDB can handle more than 10 trillion requests per day and support peaks of more than 20 million requests per second. It maintains high durability of data via automatic replication across three different zones in an Amazon defined region.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon DynamoDB",
+            "url": "https://aws.amazon.com/dynamodb/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/dynamodb@wGb0TEDnSe_bmv9Krx4qB.md",
+        "subtopics_count": 8,
+        "subtopics": [
+          {
+            "id": "DN_iuLo9gYDqU8JleE1WJ",
+            "name": "Tables / Items / Attributes",
+            "type": "subtopic",
+            "description": "In Amazon DynamoDB, tables are a collection of items. An item is a group of attributes that is identified by a primary key. Items are similar to rows or records in other database systems. Each item in a table is uniquely identifiable by a primary key. This key can be simple (partition key only) or composite (partition key and sort key). Every attribute in an item is a name-value pair. The name of the attribute is a string and the value of an attribute can be of the following types: String, Number, Binary, Boolean, Null, List, Map, String Set, Number Set, and Binary Set.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon DynamoDB",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/tables--items--attributes@DN_iuLo9gYDqU8JleE1WJ.md"
+          },
+          {
+            "id": "oWtWgaFznTPJhQIyfIIQf",
+            "name": "Primary Keys / Secondary Indexes",
+            "type": "subtopic",
+            "description": "Every DynamoDB table requires a primary key, which uniquely identifies each item. A simple primary key uses just a partition key; a composite primary key uses a partition key and a sort key together. Secondary indexes, both local and global, allow querying the table on attributes other than the primary key.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Primary Keys / Secondary Indexes",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/primary-keys--secondary-indexes@oWtWgaFznTPJhQIyfIIQf.md"
+          },
+          {
+            "id": "aU1lv80xXNkQTD41Qfln5",
+            "name": "Data Modeling",
+            "type": "subtopic",
+            "description": "Data modeling in DynamoDB requires a different approach than relational databases. Because DynamoDB does not support joins, related data is often stored together in a single table using a single-table design pattern. Access patterns must be defined upfront to design the primary key and indexes correctly.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Data Modeling",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/data-modeling@aU1lv80xXNkQTD41Qfln5.md"
+          },
+          {
+            "id": "0C3GCGdSXozJK2MNeWerg",
+            "name": "Streams",
+            "type": "subtopic",
+            "description": "DynamoDB Streams captures a time-ordered sequence of item-level changes in a table. Each stream record contains information about what changed, including the old and new item state. Streams are commonly used to trigger Lambda functions for event-driven processing or to replicate data to other systems.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Streams",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/streams@0C3GCGdSXozJK2MNeWerg.md"
+          },
+          {
+            "id": "KtXww9J0znwzTwL7GKfaY",
+            "name": "Capacity Settings",
+            "type": "subtopic",
+            "description": "DynamoDB offers two capacity modes. Provisioned mode requires you to specify read and write capacity units in advance, and you can enable Auto Scaling to adjust them automatically. On-Demand mode charges per request and scales instantly without capacity planning, suited for unpredictable workloads.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Capacity Settings",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/capacity-settings@KtXww9J0znwzTwL7GKfaY.md"
+          },
+          {
+            "id": "0ctJa-V6aenimSr5h303J",
+            "name": "Limits",
+            "type": "subtopic",
+            "description": "DynamoDB has several limits to be aware of. Item size is capped at 400KB. A single partition can handle up to 3,000 read capacity units or 1,000 write capacity units per second. Query and scan operations can return up to 1MB of data per call, requiring pagination for larger result sets.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Limit Settings",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/limits@0ctJa-V6aenimSr5h303J.md"
+          },
+          {
+            "id": "NWvasq-AcwxmOKZPDv3ue",
+            "name": "Backup / Restore",
+            "type": "subtopic",
+            "description": "DynamoDB supports on-demand backups that create full snapshots of a table at any point in time, stored without affecting table performance. Point-in-time recovery (PITR) lets you restore a table to any second within the last 35 days. Backups are stored in AWS-managed infrastructure and do not count against your table's storage.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Backup & Restore",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/backup--restore@NWvasq-AcwxmOKZPDv3ue.md"
+          },
+          {
+            "id": "yauCWo1VoG-X483-4mfdn",
+            "name": "DynamoDB Local",
+            "type": "subtopic",
+            "description": "DynamoDB Local is a downloadable version of Amazon DynamoDB that lets you write and test applications without accessing the real AWS services. It mimics the actual DynamoDB service. You can write code while sitting in a place where internet isn't available as you don't need internet connectivity to use DynamoDB Local. It supports the same API as DynamoDB and works with your existing DynamoDB API calls. The data is stored locally in your system, not on a network, and persists between restarts of DynamoDB Local.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "DynamoDB Local",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/dynamodb-local@yauCWo1VoG-X483-4mfdn.md"
+          }
+        ]
+      },
+      {
+        "id": "9TcYdsdmvKWWHoyE6uNbC",
+        "name": "ElastiCache",
+        "type": "topic",
+        "description": "ElastiCache is a managed in-memory caching service that supports Redis and Memcached. It is used to reduce database load and improve response times by storing frequently accessed data in memory. ElastiCache handles provisioning, patching, and failure detection.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon ElastiCache",
+            "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/elasticache@9TcYdsdmvKWWHoyE6uNbC.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "PYgs4niQRlLKCBMfM4qf9",
+            "name": "Quotas",
+            "type": "subtopic",
+            "description": "AWS ElastiCache quotas define the limit on the maximum number of clusters, nodes, parameter groups, and subnet groups you can create in an AWS account. These quotas vary by region and can be increased upon request to the AWS Service team. Quotas for ElastiCache are implemented to prevent unintentional overconsumption of resources. It's important to monitor your current usage and understand the quotas of your account to efficiently manage your ElastiCache resources.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon ElastiCache Quotas",
+                "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/quota-limits.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/quotas@PYgs4niQRlLKCBMfM4qf9.md"
+          },
+          {
+            "id": "PphzNicIJawVElmY5rn8f",
+            "name": "Clusters / ECS Container Agents",
+            "type": "subtopic",
+            "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Clusters",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
+              },
+              {
+                "type": "official",
+                "title": "ECS Container Agents",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/clusters--ecs-container-agents@PphzNicIJawVElmY5rn8f.md"
+          },
+          {
+            "id": "1lHXxpoF11yE3rfoQCbTG",
+            "name": "Tasks",
+            "type": "subtopic",
+            "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Tasks in ECS",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/tasks@1lHXxpoF11yE3rfoQCbTG.md"
+          },
+          {
+            "id": "1r2FL3OEOh0S9ee0OVnrN",
+            "name": "Launch Config / Autoscaling Groups",
+            "type": "subtopic",
+            "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Launch Config in EC2",
+                "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/launch-config--autoscaling-groups@1r2FL3OEOh0S9ee0OVnrN.md"
+          }
+        ]
+      },
+      {
+        "id": "_c_Wq84yIu4ac7e0RzDtC",
+        "name": "ECR",
+        "type": "topic",
+        "description": "AWS Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. ECR hosts your images in a highly available and scalable architecture, allowing you to reliably deploy containers for your applications. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Elastic Container Registry (ECR)",
+            "url": "https://aws.amazon.com/ecr/"
+          },
+          {
+            "type": "official",
+            "title": "Concepts of Amazon ECR",
+            "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/concept-and-components.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/ecr@_c_Wq84yIu4ac7e0RzDtC.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "zFgnu2fL0EUKIMz9tVH1j",
+        "name": "Cloudfront",
+        "type": "topic",
+        "description": "CloudFront is AWS's content delivery network (CDN). It caches content at edge locations around the world, reducing latency for end users by serving requests from the location closest to them. CloudFront works with S3, EC2, load balancers, and custom origins.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Cloudfront",
+            "url": "https://aws.amazon.com/cloudfront/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/cloudfront@zFgnu2fL0EUKIMz9tVH1j.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "fAK7GRKunmoidlD32OBma",
+            "name": "Distributions",
+            "type": "subtopic",
+            "description": "A CloudFront distribution is the configuration that defines how content is delivered. It specifies the origin (where CloudFront fetches content), cache behaviors, supported protocols, and geographic restrictions. You create one distribution per website or application, and it gets a unique CloudFront domain name.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Cloudfront Distribution",
+                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-working-with.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/distributions@fAK7GRKunmoidlD32OBma.md"
+          },
+          {
+            "id": "dO9ZfUyNia7L_fCh4d0n7",
+            "name": "Policies",
+            "type": "subtopic",
+            "description": "CloudFront policies control what gets cached and how. Cache policies define which headers, cookies, and query strings CloudFront includes in the cache key and forwards to the origin. Origin request policies control what is forwarded to the origin without affecting the cache key. Response headers policies control the HTTP headers added to viewer responses.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Cloudfront IAM",
+                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/security-iam.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/policies@dO9ZfUyNia7L_fCh4d0n7.md"
+          },
+          {
+            "id": "hRXbAADgRTXEFwbBXeNu7",
+            "name": "Invalidations",
+            "type": "subtopic",
+            "description": "`Invalidations` in AWS CloudFront is a concept where you remove files (objects) from CloudFront cache before it hits the expiration period. AWS CloudFront, like any other CDN, stores copies of your website’s static files in its cache until and unless it reaches its TTL (time to live) duration. But in some situations, you might want to remove or replace these files. For instance, these could be changes in CSS or JS files. This is where Invalidations come to the scene. With this, you can immediately remove objects or files from edge locations.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Invalidations Cloudfront",
+                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/invalidations@hRXbAADgRTXEFwbBXeNu7.md"
+          }
+        ]
+      },
+      {
+        "id": "EqUT0wpdPRDGtGAZ7nneY",
+        "name": "ECS",
+        "type": "topic",
+        "description": "ECS (Elastic Container Service) is AWS's container orchestration service. It runs Docker containers on a cluster of EC2 instances or on Fargate without managing servers. ECS handles scheduling, scaling, and integrating containers with other AWS services.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Elastic Container Service (ECS)",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/ecs@EqUT0wpdPRDGtGAZ7nneY.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "zSiSbIdBgFLBBAnp4I9vX",
+            "name": "Services",
+            "type": "subtopic",
+            "description": "AWS ECS Services are defined as a set of part or all of your task definitions that run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster. If any of your tasks should fail or stop for any reason, the Amazon ECS service scheduler launches another instance of your task definition to replace it and maintain the desired count of tasks, ensuring the service's reliability and availability. ECS services can be scaled manually or with automated scaling policies based on CloudWatch alarms. In addition, ECS service scheduling options define how Amazon ECS places and terminates tasks.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Services in ECS",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/services@zSiSbIdBgFLBBAnp4I9vX.md"
+          }
+        ]
+      },
+      {
+        "id": "kvHzEDZQV72AUjqisg8PB",
+        "name": "EKS",
+        "type": "topic",
+        "description": "EKS (Elastic Kubernetes Service) is a managed Kubernetes service that runs the Kubernetes control plane on AWS. It handles upgrades, patching, and high availability of the control plane, while you manage the worker nodes or use Fargate for serverless pods. EKS is compatible with standard Kubernetes tooling and APIs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Elastic Kubernetes Service (EKS)",
+            "url": "https://aws.amazon.com/eks/"
+          },
+          {
+            "type": "official",
+            "title": "Concepts of Amazon EKS",
+            "url": "https://docs.aws.amazon.com/eks/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/eks@kvHzEDZQV72AUjqisg8PB.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "741vsAPTXJLVUlazFg0q4",
+        "name": "Lambda",
+        "type": "topic",
+        "description": "Lambda is AWS's serverless compute service. You upload a function, configure a trigger, and AWS runs the code in response to events without provisioning or managing servers. You pay only for the compute time consumed during execution.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/lambda@741vsAPTXJLVUlazFg0q4.md",
+        "subtopics_count": 9,
+        "subtopics": [
+          {
+            "id": "SdCNevKjyhFcreMSWY6BT",
+            "name": "Creating / Invoking Functions",
+            "type": "subtopic",
+            "description": "A Lambda function is created by uploading code and specifying a runtime, handler, and execution role. Functions can be invoked synchronously (waiting for a response), asynchronously (fire and forget), or through event source mappings that poll queues and streams. The function handler is the entry point that receives the event and context objects.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Create Your First Lambda Function",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html"
+              },
+              {
+                "type": "video",
+                "title": "First AWS Lambda Function",
+                "url": "https://www.youtube.com/watch?v=e1tkFsFOBHA"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/creating--invoking-functions@SdCNevKjyhFcreMSWY6BT.md"
+          },
+          {
+            "id": "KWjIAakMIlxn_jso22h0M",
+            "name": "Custom Runtimes",
+            "type": "subtopic",
+            "description": "Lambda provides managed runtimes for languages like Python, Node.js, Java, and Go. For unsupported languages or custom configurations, you can provide a custom runtime using the Lambda Runtime API. The runtime is responsible for fetching events from Lambda and returning responses.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Lambda Runtimes",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/custom-runtimes@KWjIAakMIlxn_jso22h0M.md"
+          },
+          {
+            "id": "CL93C0NGFQmScVnftnRtO",
+            "name": "Layers",
+            "type": "subtopic",
+            "description": "Lambda layers are archives containing libraries, dependencies, or custom runtimes that can be shared across multiple functions. Instead of bundling dependencies in each deployment package, you attach a layer and Lambda makes its contents available to the function at runtime. Each function can use up to five layers.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Lambda Layers",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html"
+              },
+              {
+                "type": "video",
+                "title": "Create and Use Lambda Layers",
+                "url": "https://www.youtube.com/watch?v=jyuZDkiHe2Q"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/layers@CL93C0NGFQmScVnftnRtO.md"
+          },
+          {
+            "id": "75ZjuGozDfoZPLj32P2t2",
+            "name": "Versioning / Aliases",
+            "type": "subtopic",
+            "description": "Lambda supports versioning, which lets you publish immutable snapshots of a function. Each version has its own ARN and configuration. Aliases are named pointers to specific versions and can be used to route traffic between versions, enabling blue-green deployments or canary releases.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Lambda Versioning",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/versioning--aliases@75ZjuGozDfoZPLj32P2t2.md"
+          },
+          {
+            "id": "0CUfDEMwCwSHVdqkP8lOG",
+            "name": "Event Bridge / Scheduled Execution",
+            "type": "subtopic",
+            "description": "EventBridge (formerly CloudWatch Events) is a serverless event bus that connects Lambda to AWS services and custom applications. You can configure rules to invoke Lambda functions on a schedule using cron or rate expressions, or in response to events from AWS services like S3, EC2, or CodePipeline.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon EventBridge",
+                "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/event-bridge--scheduled-execution@0CUfDEMwCwSHVdqkP8lOG.md"
+          },
+          {
+            "id": "EuOv19jDSj56Cy7PqvtNv",
+            "name": "Cold Start and Limitations",
+            "type": "subtopic",
+            "description": "A cold start happens when Lambda initializes a new execution environment for a function that has not been run recently. During initialization, the runtime and your code are loaded, which adds latency to the first invocation. Limitations include a maximum execution timeout of 15 minutes, a 10GB memory limit, and a 250MB deployment package size limit (unzipped).",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Cold Start and Limitations",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md"
+          },
+          {
+            "id": "OI8y54RhFpfS_l1L9VTZe",
+            "name": "Fargate",
+            "type": "subtopic",
+            "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon Fargate",
+                "url": "https://aws.amazon.com/fargate/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/fargate@OI8y54RhFpfS_l1L9VTZe.md"
+          },
+          {
+            "id": "5SF5nO94NFDkHY8UJoeAY",
+            "name": "Lambda@Edge",
+            "type": "subtopic",
+            "description": "Lambda Edge is a feature of AWS Lambda that allows you to run coding functions at AWS edge locations, closest to your customers. This can result in lower latency response times and better customer experiences. It allows you to customize the content that CloudFront delivers, executing the code after the CloudFront response or request. Lambda@Edge scales automatically, from a few requests per day to thousands per second.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Lambda Edge",
+                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/lambdaedge@5SF5nO94NFDkHY8UJoeAY.md"
+          },
+          {
+            "id": "T0dvezPWX6rAiKweT0TkG",
+            "name": "API Gateway",
+            "type": "subtopic",
+            "description": "API Gateway is a fully managed service for creating, deploying, and securing APIs at scale. It supports REST, HTTP, and WebSocket APIs and integrates directly with Lambda, making it a common entry point for serverless backends. It handles request routing, authentication, rate limiting, and response transformation.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS API Gateway",
+                "url": "https://aws.amazon.com/api-gateway/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/api-gateway@T0dvezPWX6rAiKweT0TkG.md"
+          }
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "Py9nst2FDJ1_hoXeX_qSF",
+        "name": "Introduction",
+        "type": "topic",
+        "description": "AWS (Amazon Web Services) is a cloud computing platform provided by Amazon. It offers on-demand access to computing power, storage, databases, networking, and hundreds of other services over the internet. Companies use AWS to run applications, store data, and build infrastructure without managing physical hardware.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Documentation",
+            "url": "https://docs.aws.amazon.com/"
+          },
+          {
+            "type": "official",
+            "title": "Introduction of AWS",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+          },
+          {
+            "type": "article",
+            "title": "How to Create an AWS Account",
+            "url": "https://grapplingdev.com/tutorials/how-to-create-aws-account"
+          },
+          {
+            "type": "video",
+            "title": "AWS Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+          }
+        ]
+      },
+      {
+        "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+        "name": "What is Cloud Computing?",
+        "type": "subtopic",
+        "description": "Cloud Computing refers to the delivery of computing services over the internet instead of using local servers. It offers reliable, scalable, and inexpensive cloud computing services which include data storage, databases, applications, analytics, machine learning, and even setting up virtual servers. The biggest names providing cloud computing services are Amazon Web Services (AWS), Microsoft Azure, Google Cloud, and others. The main selling point is that you only pay for the services you use, helping you manage your expenses more effectively.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Cloud Computing Roadmap",
+            "url": "https://roadmap.sh/cloud-computing"
+          },
+          {
+            "type": "article",
+            "title": "What is Cloud Computing - IBM",
+            "url": "https://www.ibm.com/topics/cloud-computing"
+          },
+          {
+            "type": "article",
+            "title": "Cloud Computing - AWS",
+            "url": "https://aws.amazon.com/what-is-cloud-computing/"
+          }
+        ]
+      },
+      {
+        "id": "i4ijY3T5gLgNz0XqRipXe",
+        "name": "IaaS vs PaaS vs SaaS",
+        "type": "subtopic",
+        "description": "These are the three main cloud service models. IaaS (Infrastructure as a Service) gives you raw compute, storage, and networking, and you manage everything above the OS. PaaS (Platform as a Service) provides a managed environment for deploying applications, abstracting away the underlying infrastructure. SaaS (Software as a Service) delivers fully managed applications accessed through a browser or API, with no infrastructure responsibility on the user's side.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Types of Cloud Computing",
+            "url": "https://aws.amazon.com/types-of-cloud-computing/?nc1=h_ls"
+          },
+          {
+            "type": "video",
+            "title": "IaaS vs PaaS vs SaaS cloud service models",
+            "url": "https://youtu.be/9CVBohl6w0Q?si=cEDnXpd1sGkpf0K2"
+          }
+        ]
+      },
+      {
+        "id": "3hatcMVLDbMuz73uTx-9P",
+        "name": "Public vs Private vs Hybrid Cloud",
+        "type": "subtopic",
+        "description": "Public cloud refers to infrastructure shared across many customers and operated by a provider like AWS. Private cloud is dedicated infrastructure run by a single organization, either on-premises or hosted. Hybrid cloud combines both, allowing workloads to move between environments depending on cost, compliance, or performance requirements.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Cloud Computing Roadmap",
+            "url": "https://roadmap.sh/cloud-computing"
+          },
+          {
+            "type": "article",
+            "title": "Types of Cloud Computing",
+            "url": "https://www.redhat.com/en/topics/cloud-computing/public-cloud-vs-private-cloud-and-hybrid-cloud"
+          },
+          {
+            "type": "article",
+            "title": "Selecting the right cloud for workloads",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html"
+          }
+        ]
+      },
+      {
+        "id": "Dg1v9TV-wGSNLPfAals_y",
+        "name": "Introduction to AWS",
+        "type": "subtopic",
+        "description": "AWS is organized into regions and availability zones around the world, each hosting a range of services. You access AWS through the console, CLI, or SDKs, and most services are billed based on actual usage. Getting familiar with the core concepts like accounts, IAM, and regions is the starting point for working with AWS.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Documentation",
+            "url": "https://docs.aws.amazon.com/"
+          },
+          {
+            "type": "official",
+            "title": "Introduction of AWS",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+          },
+          {
+            "type": "video",
+            "title": "AWS Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+          }
+        ]
+      },
+      {
+        "id": "cL7vis8H5L2vv6LqJ5wvC",
+        "name": "EC2",
+        "type": "topic",
+        "description": "Amazon Elastic Compute Cloud (EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. EC2 enables you to scale your compute capacity, develop and deploy applications faster, and run applications on AWS's reliable computing environment. You have the control of your computing resources and can access various configurations of CPU, Memory, Storage, and Networking capacity for your instances.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "EC2 - User Guide",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Amazon EC2",
+            "url": "https://www.youtube.com/watch?v=eaicwmnSdCs"
+          }
+        ]
+      },
+      {
+        "id": "VHD2ISW9WoSWjp8Hh6Zft",
+        "name": "Instance Types",
+        "type": "subtopic",
+        "description": "EC2 instance types determine the hardware profile of a virtual machine, covering combinations of CPU, memory, storage, and networking capacity. They are grouped into families optimized for different workloads: general purpose, compute optimized, memory optimized, storage optimized, and accelerated computing. Choosing the right instance type affects both performance and cost.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS EC2 Instance Types",
+            "url": "https://aws.amazon.com/ec2/instance-types"
+          }
+        ]
+      },
+      {
+        "id": "_U2bKjxIrAAk7TMrPttpb",
+        "name": "CPU Credits",
+        "type": "subtopic",
+        "description": "CPU credits apply to burstable instance types in the T family. These instances earn credits when running below their baseline CPU threshold and spend credits when bursting above it. When credits run out, performance is throttled to the baseline, unless unlimited mode is enabled.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Burstable Performance Instances and CPU Credits",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html"
+          }
+        ]
+      },
+      {
+        "id": "A0u7CJwj5ULAMiAm12vZI",
+        "name": "Storage / Volumes",
+        "type": "subtopic",
+        "description": "EC2 instances use EBS (Elastic Block Store) volumes as their primary block storage. EBS volumes persist independently of the instance lifecycle and can be snapshotted for backup. You can attach multiple volumes to an instance and choose volume types based on IOPS and throughput requirements.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Elastic Block Store",
+            "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html"
+          }
+        ]
+      },
+      {
+        "id": "wFT-fddGn__DRoqG0joFk",
+        "name": "Keypairs",
+        "type": "subtopic",
+        "description": "Key pairs are part of Amazon EC2 and are used to securely log into your instances. A key pair consists of a public key and a private key. Amazon EC2 generates the key pair and gives you the private key, whereas the public key is stored with AWS. When you launch an EC2 instance, you specify the name of the key pair. You can then use the private key to securely connect to your instance. Key pairs are region-specific, meaning you need to create separate key pairs for each region in which you operate your instances.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "EC2 - Keypairs",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html"
+          }
+        ]
+      },
+      {
+        "id": "DCvkZSp25pjaimG0THLTu",
+        "name": "Elastic IP",
+        "type": "subtopic",
+        "description": "\"Elastic IP\" in AWS EC2 is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is associated with your AWS account not a particular instance, and you control that address until you choose to explicitly release it. Unlike traditional static IP addresses, however, Elastic IP addresses allow you to mask the failure of an instance or software by rapidly remapping the address to another instance in your account.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Elastic IP Addresses",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html"
+          }
+        ]
+      },
+      {
+        "id": "ZKjjgXZ89zV2atWcSal-s",
+        "name": "User Data Scripts",
+        "type": "subtopic",
+        "description": "\"User Data Scripts\" in EC2 instances are used to perform common automated configuration tasks and even run scripts after the instance starts. These scripts run as the root user, and can be used to install software or download files from an S3 bucket. You can pass up to 16 KB of data to an instance, either as plain text or base64-encoded. The User Data script is executed only one time when the instance is first launched. If you stop and start the instance, the script does not run again. However, it will run on every boot if the instance reboots.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "User Data Scripts EC2",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"
+          }
+        ]
+      },
+      {
+        "id": "8v9T6Y6JC7qaqIgkbT-nr",
+        "name": "Purchasing Options",
+        "type": "subtopic",
+        "description": "EC2 offers several purchasing models to balance cost and flexibility. On-Demand instances are billed per second with no commitment. Reserved Instances offer significant discounts in exchange for a one- or three-year commitment. Spot Instances let you bid on unused capacity at steep discounts, but can be interrupted with short notice. Savings Plans offer flexible discount commitments that apply across instance families.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Purchasing Options",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html"
+          }
+        ]
+      },
+      {
+        "id": "kG7tlZjv_hJbHGooBkxS0",
+        "name": "Sandbox / Sending Limits",
+        "type": "subtopic",
+        "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Sandbox / Sending Limits",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
+          }
+        ]
+      },
+      {
+        "id": "cwGuOrmbSTcSoH80skLTk",
+        "name": "Identity-based",
+        "type": "subtopic",
+        "description": "Identity-based policies are attached to IAM identities: users, groups, or roles. They define what actions that identity is allowed to perform across AWS services and resources. These are the most common type of IAM policy.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Identity Based Policies",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+          }
+        ]
+      },
+      {
+        "id": "bTCVHXPG-LtaaFmgiB2SL",
+        "name": "Identity Verification",
+        "type": "subtopic",
+        "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Identity Verification",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+        "name": "Resource-based",
+        "type": "subtopic",
+        "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Identity Based Policies",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+          }
+        ]
+      },
+      {
+        "id": "zwVd1vNm1ks6MdHZoi-5W",
+        "name": "DKIM Setup",
+        "type": "subtopic",
+        "description": "DKIM (DomainKeys Identified Mail) adds a cryptographic signature to outgoing emails that recipients can verify. Setting up DKIM in SES involves publishing DNS records with a public key that SES uses to sign your messages. Proper DKIM configuration improves deliverability and is required for compliance with modern email authentication standards.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "DKIM",
+            "url": "https://dkim.org/"
+          },
+          {
+            "type": "article",
+            "title": "DKIM - Cloudflare",
+            "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
+          }
+        ]
+      },
+      {
+        "id": "i7X1GfOx5AZYFskepW4Zr",
+        "name": "Instance Profiles",
+        "type": "subtopic",
+        "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Instance Profiles",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
+          }
+        ]
+      },
+      {
+        "id": "Sv2aT8eI1RvJhvoKVYQEX",
+        "name": "VPC",
+        "type": "topic",
+        "description": "Amazon VPC (Virtual Private Cloud) is a service that lets you launch AWS resources in a logically isolated virtual network that you define. It provides advanced security features such as security groups and network access control lists to enable inbound and outbound filtering at the instance and subnet level. Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC to leverage the AWS cloud as an extension of your corporate datacenter.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "VPC",
+            "url": "https://aws.amazon.com/vpc/"
+          },
+          {
+            "type": "video",
+            "title": "AWS VPC Beginner to Advanced uses",
+            "url": "https://www.youtube.com/watch?v=g2JOHLHh4rI"
+          }
+        ]
+      },
+      {
+        "id": "z9R1BWUGalmnw0E7QqiW6",
+        "name": "AWS Global Infrastructure",
+        "type": "subtopic",
+        "description": "AWS Global Infrastructure refers to the layout of AWS regions and availability zones around the world. A region is a geographical area, each consisting of two or more availability zones (AZs) which are engineered to be isolated from failures in other AZs. AZs provide inexpensive, low-latency network connectivity to other AZs in the same region. In addition to the regions and AZs, AWS also includes edge locations for content delivery and regional edge caches, enhancing user experience by reducing latency. AWS currently operates in many geographic regions around the world.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Global Infrastructure",
+            "url": "https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=0"
+          },
+          {
+            "type": "official",
+            "title": "AWS Regions / Availability Zones",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
+          }
+        ]
+      },
+      {
+        "id": "0flGtxZmxQKxO3c3sguwp",
+        "name": "Shared Responsibility Model",
+        "type": "subtopic",
+        "description": "The shared responsibility model defines what AWS secures and what the customer is responsible for. AWS manages the security of the cloud, meaning the physical infrastructure, hardware, and managed services. The customer is responsible for security in the cloud, which includes data, access control, application configuration, and operating system patching.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Shared Responsibility Model",
+            "url": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+          }
+        ]
+      },
+      {
+        "id": "eKuC7VmkGVYFnbC2Rvn8D",
+        "name": "Well Architected Framework",
+        "type": "subtopic",
+        "description": "AWS Well-Architected Framework is a set of strategic guidelines provided by Amazon Web Services. It is designed to provide high-performing and resilient systems while maintaining cost efficiency. The framework divides the architectural best practices across six pillars which include operational excellence, security, reliability, performance efficiency, cost optimization and the sustainability. With this framework, you can assess and improve your cloud-based architectures and applications by leveraging AWS technologies.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Well-Architected",
+            "url": "https://aws.amazon.com/architecture/well-architected"
+          }
+        ]
+      },
+      {
+        "id": "2hFBv2fhKDYBN-9ITs82J",
+        "name": "CIDR Blocks",
+        "type": "subtopic",
+        "description": "\"CIDR\" stands for Classless Inter-Domain Routing. In AWS VPC, a CIDR block is the IP address block from which private IPv4 addresses and public IPv4 addresses are allocated when you create a VPC. The CIDR block can range from /28 (16 IP addresses) to /16 (65,536 IP addresses). It represents a network segment and is associated with a network boundary. Upon creation, you cannot change the CIDR block of your VPC, but you can add additional CIDR blocks to it if needed. A VPC's CIDR block should not overlap with any of the existing network's CIDR blocks.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "cidr.xyz: Interactive CIDR range visualizer",
+            "url": "https://cidr.xyz/"
+          },
+          {
+            "type": "official",
+            "title": "VPC - CIRD Blocks",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html"
+          }
+        ]
+      },
+      {
+        "id": "Y64TE0U20kllmykjdfhHp",
+        "name": "Subnets",
+        "type": "subtopic",
+        "description": "Subnets divide a VPC's IP address range into smaller segments, each tied to a specific availability zone. Resources in a subnet inherit its routing configuration, which determines whether they can reach the internet or stay private. A VPC can have many subnets spread across multiple availability zones.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Subnets",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+          }
+        ]
+      },
+      {
+        "id": "ymuURDwW8JG3NSIXcl0FL",
+        "name": "Private Subnet",
+        "type": "subtopic",
+        "description": "Private subnets in AWS are isolated network segments within your VPC that do not have direct access to the internet. You can use private subnets to run services and applications that should not be directly accessible from the outside world, but still need to communicate with other resources within your VPC. Any instances launched in a private subnet cannot directly send traffic to the internet without routing through a NAT device.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Subnets",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+          }
+        ]
+      },
+      {
+        "id": "ABCH1rATHmecyWHyK3n-m",
+        "name": "Public Subnet",
+        "type": "subtopic",
+        "description": "A public subnet has a route to an Internet Gateway, making resources inside it reachable from the internet when they have a public IP. Load balancers and bastion hosts are commonly placed in public subnets. Instances in a public subnet still require a security group configured to allow inbound traffic.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Subnets",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+          }
+        ]
+      },
+      {
+        "id": "FCdOnwQubhOnCFFnF8uJN",
+        "name": "Route Tables",
+        "type": "subtopic",
+        "description": "A _Route Table_ in AWS VPC is a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the traffic for the subnet. By default, your VPC has a main route table that you can modify. You can also create additional custom route tables for your VPC. A subnet can only be associated with one route table at a time, but you can change the association.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Route Tables",
+            "url": "https://docs.aws.amazon.com/quicksight/latest/user/vpc-route-table.html"
+          }
+        ]
+      },
+      {
+        "id": "Cd9gdbkCFdrTLrnJMy5F3",
+        "name": "Security Groups",
+        "type": "subtopic",
+        "description": "Security groups act as virtual firewalls for EC2 instances and other resources. They control inbound and outbound traffic using rules based on protocol, port, and source or destination. Security groups are stateful, meaning return traffic for allowed connections is automatically permitted.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Cloud Network Exposure: Hands-on Security Group Exercise",
+            "url": "https://ransomleak.com/exercises/cloud-network-exposure/"
+          },
+          {
+            "type": "official",
+            "title": "Security Groups",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html"
+          }
+        ]
+      },
+      {
+        "id": "Le8yOJzpzxH1xgd7XEU2B",
+        "name": "Internet Gateway",
+        "type": "subtopic",
+        "description": "An Internet Gateway is a horizontally scaled, redundant component that connects a VPC to the internet. Attaching one to a VPC and adding a route in a public subnet's route table enables resources with public IPs to send and receive internet traffic. Each VPC can have one Internet Gateway attached.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Internet Gateway",
+            "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html"
+          }
+        ]
+      },
+      {
+        "id": "6D-gs32jrCyvMVhr9PSAY",
+        "name": "NAT Gateway",
+        "type": "subtopic",
+        "description": "A NAT Gateway allows resources in a private subnet to initiate outbound connections to the internet without being directly reachable from it. It is placed in a public subnet and translates the private IP addresses of outgoing traffic to its own public IP. NAT Gateways are managed by AWS and scale automatically.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "NAT Gateway",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
+          }
+        ]
+      },
+      {
+        "id": "xmKeB4hEi2DunmhAsvS1X",
+        "name": "IAM",
+        "type": "topic",
+        "description": "IAM (Identity and Access Management) controls who can access AWS services and what actions they can perform. It manages users, groups, roles, and the policies attached to them. Every API call made to AWS is authenticated and authorized through IAM.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Over-Permissive IAM: Hands-on Privilege Escalation Exercise",
+            "url": "https://ransomleak.com/exercises/over-permissive-iam/"
+          },
+          {
+            "type": "official",
+            "title": "IAM - User Guide",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+          }
+        ]
+      },
+      {
+        "id": "eQAn3e-k9WNufPqOnwY_K",
+        "name": "Policies",
+        "type": "subtopic",
+        "description": "IAM policies are JSON documents that define permissions. A policy specifies which actions are allowed or denied on which resources, and under what conditions. Policies are attached to users, groups, or roles to grant or restrict access.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Permissions and Policies",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_access-management.html"
+          }
+        ]
+      },
+      {
+        "id": "Nn2zawk6A31NwZa40jOhX",
+        "name": "Users / User Groups",
+        "type": "subtopic",
+        "description": "IAM users represent individual people or applications that need programmatic or console access to AWS. User groups let you apply the same set of policies to multiple users at once, simplifying access management. For most real-world deployments, roles are preferred over long-lived IAM user credentials.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "IAM - AWS",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+          }
+        ]
+      },
+      {
+        "id": "7nI202hX41mI5ms9LZonh",
+        "name": "Roles",
+        "type": "subtopic",
+        "description": "IAM Roles in AWS are a form of secure access control that do not directly associate with specific users or groups. Instead, trusted entities such as AWS users, applications or services (like EC2) can take on roles to obtain temporary security credentials for making AWS API requests. The structure of roles lets you delegate access with defined permissions, helping to keep your environment secure. Moreover, because roles yield temporary credentials for navigation within AWS, you won't have to deal with long-term keys.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Create Your First Role",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-roles.html"
+          }
+        ]
+      },
+      {
+        "id": "dOAZG-NbjWiVdPKYEhWxj",
+        "name": "Auto-Scaling",
+        "type": "topic",
+        "description": "AWS Auto Scaling is a service that automatically scales resources to meet the demands of your applications. It uses policies, health status, and schedules to determine when to add more instances, ensuring that your application always has the right amount of capacity. AWS Auto Scaling can scale resources across multiple services and manage the scaling process in real time. It optimizes for cost and performance, and with the help of Amazon CloudWatch, it adjusts capacity based on the demand patterns of your workloads.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Autoscaling",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+          }
+        ]
+      },
+      {
+        "id": "AfagmWcllSi81D2XIQz0V",
+        "name": "AMIs",
+        "type": "subtopic",
+        "description": "Amazon Machine Images (AMIs) are pre-configured templates for EC2 instances. When you launch an instance in EC2, you start with an AMI. An AMI includes details such as the operating system to use, applications to install, and the volume type and size. AMIs can be either public or private — public AMIs are available for anyone to use, while private AMIs are only available to specific AWS accounts. You can create your own custom AMIs, enabling you to quickly start and replicate a known configuration for your EC2 instances.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AMIs",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html"
+          }
+        ]
+      },
+      {
+        "id": "K0GCk5_HDvP0_ZqsUc3tG",
+        "name": "Launch Templates",
+        "type": "subtopic",
+        "description": "\"Launch Templates\" in AWS Auto Scaling are configurations that an Auto Scaling group uses to launch EC2 instances. They store the configuration information necessary to launch an instance, which includes the ID of the Amazon Machine Image (AMI), the instance type, a key pair, security groups, and the storage configuration. It helps in setting up new instances quickly and prevent configuration inconsistencies across instances. These templates can also be versioned, allowing updates and roll backs to previous configurations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Launch Templates",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-launch-templates-for-amazon-ec2-instances/"
+          }
+        ]
+      },
+      {
+        "id": "gBKHVG7FvlCEgINKmw00s",
+        "name": "Auto-Scaling Groups",
+        "type": "subtopic",
+        "description": "An Auto Scaling group manages a collection of EC2 instances as a unit. You define a minimum, maximum, and desired capacity, and the group maintains that count by launching or terminating instances as needed. It integrates with load balancers and CloudWatch to respond to real demand.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Auto Scaling Groups",
+            "url": "https://docs.aws.amazon.com/eks/latest/best-practices/cas.html"
+          }
+        ]
+      },
+      {
+        "id": "fRBaiw8Qx8kapzCphmM4v",
+        "name": "Scaling Policies",
+        "type": "subtopic",
+        "description": "Scaling policies determine when and how an Auto Scaling group changes its capacity. Target tracking policies adjust instance count to keep a metric like CPU utilization at a target value. Step scaling and simple scaling policies respond to CloudWatch alarms with predefined capacity changes.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Autoscaling Policy",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+          }
+        ]
+      },
+      {
+        "id": "YAZPKMbmrxYNqF6alXMyL",
+        "name": "Elastic Load Balancers",
+        "type": "subtopic",
+        "description": "Elastic Load Balancing distributes incoming traffic across multiple EC2 instances or targets. AWS offers three types: Application Load Balancer for HTTP/HTTPS traffic with content-based routing, Network Load Balancer for high-performance TCP/UDP routing, and Gateway Load Balancer for traffic inspection appliances. Load balancers also perform health checks and route traffic only to healthy targets.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Elastic Load Balancers",
+            "url": "https://aws.amazon.com/elasticloadbalancing/"
+          }
+        ]
+      },
+      {
+        "id": "PN3xAYfQ-_QgZCRCnsEca",
+        "name": "S3",
+        "type": "topic",
+        "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Public S3 Buckets: Hands-on Exercise",
+            "url": "https://ransomleak.com/exercises/public-storage-buckets/"
+          },
+          {
+            "type": "official",
+            "title": "S3",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "0IMdO7g_5El1elvDXJJ_0",
+        "name": "Assuming Roles",
+        "type": "subtopic",
+        "description": "Assuming a role means temporarily taking on a different set of permissions defined by that role. This is done using the STS AssumeRole API call, which returns short-lived credentials. It is commonly used for cross-account access, least-privilege application permissions, and federated identity scenarios.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Assuming Roles",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
+          }
+        ]
+      },
+      {
+        "id": "rTgjDj5HqbjRpcJ7PR-EC",
+        "name": "Buckets / Objects",
+        "type": "subtopic",
+        "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Bucket / Object",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
+          }
+        ]
+      },
+      {
+        "id": "8i6zpjkMC_Pg-tDNmrx4n",
+        "name": "Bucket / Object Lifecycle",
+        "type": "subtopic",
+        "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Bucket / Object Lifecycle",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
+          }
+        ]
+      },
+      {
+        "id": "-bwXo6xvF1yzyWEm5oZhJ",
+        "name": "SES",
+        "type": "topic",
+        "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SES",
+            "url": "https://aws.amazon.com/ses/"
+          }
+        ]
+      },
+      {
+        "id": "0NWTFssjg9SbDXQRkN5kF",
+        "name": "Feedback Handling",
+        "type": "subtopic",
+        "description": "SES can receive delivery notifications, bounces, and complaint feedback from recipient mail servers. These events are delivered via SNS or SQS and should be processed to remove invalid addresses and maintain a clean sending list. Ignoring bounce and complaint feedback leads to reputation damage and account suspension.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Feedbacks",
+            "url": "https://aws.amazon.com/ses/faqs"
+          }
+        ]
+      },
+      {
+        "id": "4svXYQYmqjUZU39z8OyhD",
+        "name": "Configuration Sets",
+        "type": "subtopic",
+        "description": "Configuration sets in SES are groups of rules applied to outgoing emails. They enable tracking of events like sends, bounces, complaints, and clicks by routing data to CloudWatch, SNS, Kinesis, or S3. You can also use them to apply dedicated IP pools or TLS settings.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SES",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
+          }
+        ]
+      },
+      {
+        "id": "Vo_PBfB7LxYL27nBBVoVp",
+        "name": "Sender Reputation",
+        "type": "subtopic",
+        "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Sender Reputation",
+            "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
+          }
+        ]
+      },
+      {
+        "id": "pnX1dfkjS8woWc4KGXlh_",
+        "name": "Dedicated IP",
+        "type": "subtopic",
+        "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Dedicated IP",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
+          }
+        ]
+      },
+      {
+        "id": "f89qL7Cg9R_LTxBEG4jUK",
+        "name": "Route53",
+        "type": "topic",
+        "description": "Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service. It translates human-readable domain names into the numerical IP addresses that computers use to connect to each other, while also performing health checks to route traffic to healthy endpoints and managing domain name registrations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Route53",
+            "url": "https://aws.amazon.com/route53/"
+          }
+        ]
+      },
+      {
+        "id": "z-o-2cGYSM6KW_CNJyw3p",
+        "name": "Hosted Zones",
+        "type": "subtopic",
+        "description": "Route53 routing policies determine how DNS queries are answered when multiple records exist. Simple routing returns a single value. Weighted routing splits traffic across records by percentage. Latency-based, geolocation, failover, and multi-value routing provide additional control over where requests are directed.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Hosted Zones",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html"
+          }
+        ]
+      },
+      {
+        "id": "IQhPG1La7dZeSXnX23D1n",
+        "name": "Routing Policies",
+        "type": "subtopic",
+        "description": "Route53 routing policies determine how DNS queries are answered when multiple records exist. Simple routing returns a single value. Weighted routing splits traffic across records by percentage. Latency-based, geolocation, failover, and multi-value routing provide additional control over where requests are directed.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Routing Policies",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html"
+          }
+        ]
+      },
+      {
+        "id": "LXG_znJ3XzPAlDxUH2-Xp",
+        "name": "Health Checks",
+        "type": "subtopic",
+        "description": "Route53 health checks monitor the availability of endpoints by sending periodic requests and checking the response. If an endpoint fails its health check, Route53 can stop routing traffic to it, which is central to failover routing policies. Health checks can target IP addresses, domain names, or other CloudWatch alarms.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Route53 Health Checks",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-health-checks.html"
+          }
+        ]
+      },
+      {
+        "id": "PJaAqax4fABnkObY5UwNp",
+        "name": "Storage Types",
+        "type": "topic",
+        "description": "Amazon S3 provides three storage classes: S3 Standard, S3 Intelligent-Tiering, and S3 Glacier. `S3 Standard` is designed for frequently accessed data. It delivers low latency and high throughput. `S3 Intelligent-Tiering` is automated storage class that optimizes costs. It moves objects between two access tiers (frequent and infrequent access) based on changing access patterns. `S3 Glacier` is for long-term backup and archives. It has two retrieval modes: Expedited (for quick access) and Bulk (for largest and less time-sensitive retrievals).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Storage Types",
+            "url": "https://aws.amazon.com/s3/storage-classes/"
+          }
+        ]
+      },
+      {
+        "id": "Ll5FPCtkpYq_niJd7WoTC",
+        "name": "Standard",
+        "type": "subtopic",
+        "description": "Amazon S3 Standard storage is designed for general-purpose storage of frequently accessed data. It provides low latency and high throughput, making it suitable for a wide variety of use cases, including cloud applications, dynamic websites, content distribution, mobile and gaming applications, and big data analytics. S3 Standard offers high durability, availability, and performance object storage for both small and large objects. You have immediate access to your data and can retrieve it at any time, making it a versatile choice for many different AWS workloads.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS S3 Standard",
+            "url": "https://aws.amazon.com/s3/pricing/"
+          }
+        ]
+      },
+      {
+        "id": "JlkLNQ8wRzGkjaootNKOD",
+        "name": "S3-IA",
+        "type": "subtopic",
+        "description": "Amazon S3 Infrequent Access (S3 IA) is a storage class in Amazon S3 designed for data that is accessed less frequently, but requires rapid access when needed. S3 IA offers the high durability, high throughput, and low latency of Amazon S3 Standard, with a lower cost per GB for storage and a per GB retrieval fee. This makes S3 IA suitable for long-term storage, backups, and as a data store for disaster recovery files.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS S3-IA",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+          }
+        ]
+      },
+      {
+        "id": "IikKYP58sT2H1lM8glm-g",
+        "name": "Glacier",
+        "type": "subtopic",
+        "description": "AWS Glacier is a secure, durable, and extremely low-cost storage service for data archiving and long-term backup. It is designed to reliably store data for as long as you need. Its main features are optimized for infrequently accessed data where retrieval time of minutes is acceptable. AWS Glacier supports the archiving of data that is not needed in real-time but might be required for future reference or are legally required to be maintained. AWS Glacier is used when there is no immediate need for data and substantial retrieval time is acceptable, due to its low storage cost.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Glacier",
+            "url": "https://aws.amazon.com/s3/storage-classes/glacier/"
+          }
+        ]
+      },
+      {
+        "id": "VAYxwJH10PFjGS8poKd9-",
+        "name": "Cloudwatch",
+        "type": "topic",
+        "description": "CloudWatch is AWS's monitoring and observability service. It collects metrics, logs, and events from AWS services and custom applications. You use it to set alarms, visualize performance data, and trigger automated responses to operational issues.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Cloudwatch",
+            "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"
+          }
+        ]
+      },
+      {
+        "id": "2vQPmVNk1QpMM-15RKG8b",
+        "name": "Metrics",
+        "type": "subtopic",
+        "description": "In Amazon CloudWatch, **metrics** are fundamental concepts that you work with. A metric is the fundamental concept in CloudWatch and represents a time-ordered set of data points that are published to CloudWatch. Think of a metric as a variable to monitor, and the data points as representing the values of that variable over time. Metrics are uniquely defined by a name, a namespace, and zero or more dimensions up to 30 dimensions per metric. Every data point must have a timestamp. You can retrieve statistics about those data points as an ordered set of time-series data. CloudWatch provides metrics for every service in AWS.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "CloudWatch Metrics",
+            "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html"
+          }
+        ]
+      },
+      {
+        "id": "tHQ6NRVDPCPEOmzgjQDLX",
+        "name": "Events",
+        "type": "subtopic",
+        "description": "CloudWatch Events (now part of EventBridge) lets you respond to changes in your AWS environment by routing events to targets like Lambda functions, SQS queues, or SNS topics. You can trigger actions on a schedule using cron expressions or react to events like an EC2 instance stopping or an S3 object being created.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Cloudwatch Events",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/cloudwatch-events.html"
+          }
+        ]
+      },
+      {
+        "id": "oC6KIjWAXw0hLl4FwkB9F",
+        "name": "Logs",
+        "type": "subtopic",
+        "description": "AWS CloudWatch Logs service allows you to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, and other sources. It centralizes the logs from all your systems, applications, and AWS services that you use, into a single, highly scalable service. You can then easily view them, search through them, set alarms, and correlate them to other operational data. It also integrates with AWS Lambda, providing the ability to respond quickly to critical operational events.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Cloudwatch Logs",
+            "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html"
+          }
+        ]
+      },
+      {
+        "id": "fkMF-2PQZ00UdwxhQt1ds",
+        "name": "RDS",
+        "type": "topic",
+        "description": "RDS (Relational Database Service) is a managed service for running relational databases on AWS. It supports engines including MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora. RDS handles provisioning, patching, backups, and failover, so you can focus on the database schema and queries.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon RDS",
+            "url": "https://aws.amazon.com/rds/"
+          }
+        ]
+      },
+      {
+        "id": "uo5HIyePegnJooortvWLu",
+        "name": "General Purpose",
+        "type": "subtopic",
+        "description": "General Purpose SSD storage in RDS uses gp2 or gp3 volumes and is suitable for most database workloads. gp3 lets you provision IOPS and throughput independently from storage size, offering better cost control. This storage type is a good starting point unless your application has specific high-IOPS requirements.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "General Purpose Storage",
+            "url": "https://aws.amazon.com/ebs/general-purpose/"
+          }
+        ]
+      },
+      {
+        "id": "l9oq3LiEd8ZrPtupPk-Fn",
+        "name": "DB Instances",
+        "type": "subtopic",
+        "description": "The term \"DB Instance\" is used within the context of Amazon's Relational Database Service (RDS). A DB Instance is essentially an isolated database environment in the cloud, run within Amazon RDS. A DB Instance can contain multiple user-created databases, and can be accessed using the same tools and applications that you might use with a stand-alone database instance. You can create and manage a DB Instance via the AWS Management Console, the AWS RDS Command Line Interface, or through simple API calls.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "DB Instances - RDS",
+            "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.html"
+          }
+        ]
+      },
+      {
+        "id": "3l1ji4JToj277vpgONmLw",
+        "name": "Provisioned IOPS",
+        "type": "subtopic",
+        "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Provisioned IOPS",
+            "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
+          }
+        ]
+      },
+      {
+        "id": "Xs057ESpvxXg2r_rDQnOa",
+        "name": "Storage Types",
+        "type": "subtopic",
+        "description": "RDS supports three storage types. General Purpose SSD (gp2/gp3) is the default for most workloads, balancing cost and performance. Provisioned IOPS SSD is designed for I/O-intensive applications that require consistent, high throughput. Magnetic storage is a legacy option, rarely used for new deployments.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "RDS Storage Types",
+            "url": "https://aws.amazon.com/rds/instance-types/"
+          }
+        ]
+      },
+      {
+        "id": "y0CoNcEFHyz350f7pNddt",
+        "name": "Magnetic",
+        "type": "subtopic",
+        "description": "\"Magnetic\" in AWS refers to Magnetic storage, also known as Amazon EBS (Elastic Block Store) Magnetic volumes. These storage types are designed for workloads where data is accessed infrequently, and sceneries where the lowest storage cost is important. Magnetic volumes offer cost-effective storage for applications with moderate or bursty I/O requirements. Though magnetic storage provides the lowest cost per gigabyte of all EBS volume types, it has the poorest performance capability and a higher latency compared to solid-state drive storage options.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Magnetic Storage",
+            "url": "https://aws.amazon.com/ebs/previous-generation/"
+          }
+        ]
+      },
+      {
+        "id": "tBKc7tHOiJaTmwEl3q--Y",
+        "name": "Backup / Restore",
+        "type": "subtopic",
+        "description": "RDS performs automated backups of the database and transaction logs within a configurable retention window of up to 35 days. You can restore to any point in time within that window. Manual snapshots can also be created and kept indefinitely, independent of the retention policy.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Backup & Restore - RDS",
+            "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html"
+          }
+        ]
+      },
+      {
+        "id": "wGb0TEDnSe_bmv9Krx4qB",
+        "name": "DynamoDB",
+        "type": "topic",
+        "description": "Amazon DynamoDB is a fully managed NoSQL database solution that provides fast and predictable performance with seamless scalability. It is a key-value and document database that delivers single-digit millisecond performance at any scale. DynamoDB can handle more than 10 trillion requests per day and support peaks of more than 20 million requests per second. It maintains high durability of data via automatic replication across three different zones in an Amazon defined region.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon DynamoDB",
+            "url": "https://aws.amazon.com/dynamodb/"
+          }
+        ]
+      },
+      {
+        "id": "DN_iuLo9gYDqU8JleE1WJ",
+        "name": "Tables / Items / Attributes",
+        "type": "subtopic",
+        "description": "In Amazon DynamoDB, tables are a collection of items. An item is a group of attributes that is identified by a primary key. Items are similar to rows or records in other database systems. Each item in a table is uniquely identifiable by a primary key. This key can be simple (partition key only) or composite (partition key and sort key). Every attribute in an item is a name-value pair. The name of the attribute is a string and the value of an attribute can be of the following types: String, Number, Binary, Boolean, Null, List, Map, String Set, Number Set, and Binary Set.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon DynamoDB",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html"
+          }
+        ]
+      },
+      {
+        "id": "oWtWgaFznTPJhQIyfIIQf",
+        "name": "Primary Keys / Secondary Indexes",
+        "type": "subtopic",
+        "description": "Every DynamoDB table requires a primary key, which uniquely identifies each item. A simple primary key uses just a partition key; a composite primary key uses a partition key and a sort key together. Secondary indexes, both local and global, allow querying the table on attributes other than the primary key.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Primary Keys / Secondary Indexes",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html"
+          }
+        ]
+      },
+      {
+        "id": "aU1lv80xXNkQTD41Qfln5",
+        "name": "Data Modeling",
+        "type": "subtopic",
+        "description": "Data modeling in DynamoDB requires a different approach than relational databases. Because DynamoDB does not support joins, related data is often stored together in a single table using a single-table design pattern. Access patterns must be defined upfront to design the primary key and indexes correctly.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Data Modeling",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html"
+          }
+        ]
+      },
+      {
+        "id": "0C3GCGdSXozJK2MNeWerg",
+        "name": "Streams",
+        "type": "subtopic",
+        "description": "DynamoDB Streams captures a time-ordered sequence of item-level changes in a table. Each stream record contains information about what changed, including the old and new item state. Streams are commonly used to trigger Lambda functions for event-driven processing or to replicate data to other systems.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Streams",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
+          }
+        ]
+      },
+      {
+        "id": "KtXww9J0znwzTwL7GKfaY",
+        "name": "Capacity Settings",
+        "type": "subtopic",
+        "description": "DynamoDB offers two capacity modes. Provisioned mode requires you to specify read and write capacity units in advance, and you can enable Auto Scaling to adjust them automatically. On-Demand mode charges per request and scales instantly without capacity planning, suited for unpredictable workloads.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Capacity Settings",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html"
+          }
+        ]
+      },
+      {
+        "id": "0ctJa-V6aenimSr5h303J",
+        "name": "Limits",
+        "type": "subtopic",
+        "description": "DynamoDB has several limits to be aware of. Item size is capped at 400KB. A single partition can handle up to 3,000 read capacity units or 1,000 write capacity units per second. Query and scan operations can return up to 1MB of data per call, requiring pagination for larger result sets.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Limit Settings",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
+          }
+        ]
+      },
+      {
+        "id": "NWvasq-AcwxmOKZPDv3ue",
+        "name": "Backup / Restore",
+        "type": "subtopic",
+        "description": "DynamoDB supports on-demand backups that create full snapshots of a table at any point in time, stored without affecting table performance. Point-in-time recovery (PITR) lets you restore a table to any second within the last 35 days. Backups are stored in AWS-managed infrastructure and do not count against your table's storage.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Backup & Restore",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
+          }
+        ]
+      },
+      {
+        "id": "yauCWo1VoG-X483-4mfdn",
+        "name": "DynamoDB Local",
+        "type": "subtopic",
+        "description": "DynamoDB Local is a downloadable version of Amazon DynamoDB that lets you write and test applications without accessing the real AWS services. It mimics the actual DynamoDB service. You can write code while sitting in a place where internet isn't available as you don't need internet connectivity to use DynamoDB Local. It supports the same API as DynamoDB and works with your existing DynamoDB API calls. The data is stored locally in your system, not on a network, and persists between restarts of DynamoDB Local.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "DynamoDB Local",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
+          }
+        ]
+      },
+      {
+        "id": "9TcYdsdmvKWWHoyE6uNbC",
+        "name": "ElastiCache",
+        "type": "topic",
+        "description": "ElastiCache is a managed in-memory caching service that supports Redis and Memcached. It is used to reduce database load and improve response times by storing frequently accessed data in memory. ElastiCache handles provisioning, patching, and failure detection.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon ElastiCache",
+            "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html"
+          }
+        ]
+      },
+      {
+        "id": "PYgs4niQRlLKCBMfM4qf9",
+        "name": "Quotas",
+        "type": "subtopic",
+        "description": "AWS ElastiCache quotas define the limit on the maximum number of clusters, nodes, parameter groups, and subnet groups you can create in an AWS account. These quotas vary by region and can be increased upon request to the AWS Service team. Quotas for ElastiCache are implemented to prevent unintentional overconsumption of resources. It's important to monitor your current usage and understand the quotas of your account to efficiently manage your ElastiCache resources.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon ElastiCache Quotas",
+            "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/quota-limits.html"
+          }
+        ]
+      },
+      {
+        "id": "PphzNicIJawVElmY5rn8f",
+        "name": "Clusters / ECS Container Agents",
+        "type": "subtopic",
+        "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Clusters",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
+          },
+          {
+            "type": "official",
+            "title": "ECS Container Agents",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
+          }
+        ]
+      },
+      {
+        "id": "1lHXxpoF11yE3rfoQCbTG",
+        "name": "Tasks",
+        "type": "subtopic",
+        "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Tasks in ECS",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
+          }
+        ]
+      },
+      {
+        "id": "1r2FL3OEOh0S9ee0OVnrN",
+        "name": "Launch Config / Autoscaling Groups",
+        "type": "subtopic",
+        "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Launch Config in EC2",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
+          }
+        ]
+      },
+      {
+        "id": "_c_Wq84yIu4ac7e0RzDtC",
+        "name": "ECR",
+        "type": "topic",
+        "description": "AWS Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. ECR hosts your images in a highly available and scalable architecture, allowing you to reliably deploy containers for your applications. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Elastic Container Registry (ECR)",
+            "url": "https://aws.amazon.com/ecr/"
+          },
+          {
+            "type": "official",
+            "title": "Concepts of Amazon ECR",
+            "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/concept-and-components.html"
+          }
+        ]
+      },
+      {
+        "id": "zFgnu2fL0EUKIMz9tVH1j",
+        "name": "Cloudfront",
+        "type": "topic",
+        "description": "CloudFront is AWS's content delivery network (CDN). It caches content at edge locations around the world, reducing latency for end users by serving requests from the location closest to them. CloudFront works with S3, EC2, load balancers, and custom origins.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Cloudfront",
+            "url": "https://aws.amazon.com/cloudfront/"
+          }
+        ]
+      },
+      {
+        "id": "fAK7GRKunmoidlD32OBma",
+        "name": "Distributions",
+        "type": "subtopic",
+        "description": "A CloudFront distribution is the configuration that defines how content is delivered. It specifies the origin (where CloudFront fetches content), cache behaviors, supported protocols, and geographic restrictions. You create one distribution per website or application, and it gets a unique CloudFront domain name.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Cloudfront Distribution",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-working-with.html"
+          }
+        ]
+      },
+      {
+        "id": "dO9ZfUyNia7L_fCh4d0n7",
+        "name": "Policies",
+        "type": "subtopic",
+        "description": "CloudFront policies control what gets cached and how. Cache policies define which headers, cookies, and query strings CloudFront includes in the cache key and forwards to the origin. Origin request policies control what is forwarded to the origin without affecting the cache key. Response headers policies control the HTTP headers added to viewer responses.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Cloudfront IAM",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/security-iam.html"
+          }
+        ]
+      },
+      {
+        "id": "hRXbAADgRTXEFwbBXeNu7",
+        "name": "Invalidations",
+        "type": "subtopic",
+        "description": "`Invalidations` in AWS CloudFront is a concept where you remove files (objects) from CloudFront cache before it hits the expiration period. AWS CloudFront, like any other CDN, stores copies of your website’s static files in its cache until and unless it reaches its TTL (time to live) duration. But in some situations, you might want to remove or replace these files. For instance, these could be changes in CSS or JS files. This is where Invalidations come to the scene. With this, you can immediately remove objects or files from edge locations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Invalidations Cloudfront",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html"
+          }
+        ]
+      },
+      {
+        "id": "EqUT0wpdPRDGtGAZ7nneY",
+        "name": "ECS",
+        "type": "topic",
+        "description": "ECS (Elastic Container Service) is AWS's container orchestration service. It runs Docker containers on a cluster of EC2 instances or on Fargate without managing servers. ECS handles scheduling, scaling, and integrating containers with other AWS services.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Elastic Container Service (ECS)",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "zSiSbIdBgFLBBAnp4I9vX",
+        "name": "Services",
+        "type": "subtopic",
+        "description": "AWS ECS Services are defined as a set of part or all of your task definitions that run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster. If any of your tasks should fail or stop for any reason, the Amazon ECS service scheduler launches another instance of your task definition to replace it and maintain the desired count of tasks, ensuring the service's reliability and availability. ECS services can be scaled manually or with automated scaling policies based on CloudWatch alarms. In addition, ECS service scheduling options define how Amazon ECS places and terminates tasks.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Services in ECS",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html"
+          }
+        ]
+      },
+      {
+        "id": "kvHzEDZQV72AUjqisg8PB",
+        "name": "EKS",
+        "type": "topic",
+        "description": "EKS (Elastic Kubernetes Service) is a managed Kubernetes service that runs the Kubernetes control plane on AWS. It handles upgrades, patching, and high availability of the control plane, while you manage the worker nodes or use Fargate for serverless pods. EKS is compatible with standard Kubernetes tooling and APIs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Elastic Kubernetes Service (EKS)",
+            "url": "https://aws.amazon.com/eks/"
+          },
+          {
+            "type": "official",
+            "title": "Concepts of Amazon EKS",
+            "url": "https://docs.aws.amazon.com/eks/"
+          }
+        ]
+      },
+      {
+        "id": "741vsAPTXJLVUlazFg0q4",
+        "name": "Lambda",
+        "type": "topic",
+        "description": "Lambda is AWS's serverless compute service. You upload a function, configure a trigger, and AWS runs the code in response to events without provisioning or managing servers. You pay only for the compute time consumed during execution.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "SdCNevKjyhFcreMSWY6BT",
+        "name": "Creating / Invoking Functions",
+        "type": "subtopic",
+        "description": "A Lambda function is created by uploading code and specifying a runtime, handler, and execution role. Functions can be invoked synchronously (waiting for a response), asynchronously (fire and forget), or through event source mappings that poll queues and streams. The function handler is the entry point that receives the event and context objects.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Create Your First Lambda Function",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html"
+          },
+          {
+            "type": "video",
+            "title": "First AWS Lambda Function",
+            "url": "https://www.youtube.com/watch?v=e1tkFsFOBHA"
+          }
+        ]
+      },
+      {
+        "id": "KWjIAakMIlxn_jso22h0M",
+        "name": "Custom Runtimes",
+        "type": "subtopic",
+        "description": "Lambda provides managed runtimes for languages like Python, Node.js, Java, and Go. For unsupported languages or custom configurations, you can provide a custom runtime using the Lambda Runtime API. The runtime is responsible for fetching events from Lambda and returning responses.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda Runtimes",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
+          }
+        ]
+      },
+      {
+        "id": "CL93C0NGFQmScVnftnRtO",
+        "name": "Layers",
+        "type": "subtopic",
+        "description": "Lambda layers are archives containing libraries, dependencies, or custom runtimes that can be shared across multiple functions. Instead of bundling dependencies in each deployment package, you attach a layer and Lambda makes its contents available to the function at runtime. Each function can use up to five layers.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda Layers",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html"
+          },
+          {
+            "type": "video",
+            "title": "Create and Use Lambda Layers",
+            "url": "https://www.youtube.com/watch?v=jyuZDkiHe2Q"
+          }
+        ]
+      },
+      {
+        "id": "75ZjuGozDfoZPLj32P2t2",
+        "name": "Versioning / Aliases",
+        "type": "subtopic",
+        "description": "Lambda supports versioning, which lets you publish immutable snapshots of a function. Each version has its own ARN and configuration. Aliases are named pointers to specific versions and can be used to route traffic between versions, enabling blue-green deployments or canary releases.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda Versioning",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html"
+          }
+        ]
+      },
+      {
+        "id": "0CUfDEMwCwSHVdqkP8lOG",
+        "name": "Event Bridge / Scheduled Execution",
+        "type": "subtopic",
+        "description": "EventBridge (formerly CloudWatch Events) is a serverless event bus that connects Lambda to AWS services and custom applications. You can configure rules to invoke Lambda functions on a schedule using cron or rate expressions, or in response to events from AWS services like S3, EC2, or CodePipeline.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon EventBridge",
+            "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"
+          }
+        ]
+      },
+      {
+        "id": "EuOv19jDSj56Cy7PqvtNv",
+        "name": "Cold Start and Limitations",
+        "type": "subtopic",
+        "description": "A cold start happens when Lambda initializes a new execution environment for a function that has not been run recently. During initialization, the runtime and your code are loaded, which adds latency to the first invocation. Limitations include a maximum execution timeout of 15 minutes, a 10GB memory limit, and a 250MB deployment package size limit (unzipped).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Cold Start and Limitations",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html"
+          }
+        ]
+      },
+      {
+        "id": "OI8y54RhFpfS_l1L9VTZe",
+        "name": "Fargate",
+        "type": "subtopic",
+        "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Fargate",
+            "url": "https://aws.amazon.com/fargate/"
+          }
+        ]
+      },
+      {
+        "id": "5SF5nO94NFDkHY8UJoeAY",
+        "name": "Lambda@Edge",
+        "type": "subtopic",
+        "description": "Lambda Edge is a feature of AWS Lambda that allows you to run coding functions at AWS edge locations, closest to your customers. This can result in lower latency response times and better customer experiences. It allows you to customize the content that CloudFront delivers, executing the code after the CloudFront response or request. Lambda@Edge scales automatically, from a few requests per day to thousands per second.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda Edge",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html"
+          }
+        ]
+      },
+      {
+        "id": "T0dvezPWX6rAiKweT0TkG",
+        "name": "API Gateway",
+        "type": "subtopic",
+        "description": "API Gateway is a fully managed service for creating, deploying, and securing APIs at scale. It supports REST, HTTP, and WebSocket APIs and integrates directly with Lambda, making it a common entry point for serverless backends. It handles request routing, authentication, rate limiting, and response transformation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS API Gateway",
+            "url": "https://aws.amazon.com/api-gateway/"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "cL7vis8H5L2vv6LqJ5wvC",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "Sv2aT8eI1RvJhvoKVYQEX",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "xmKeB4hEi2DunmhAsvS1X",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "dOAZG-NbjWiVdPKYEhWxj",
+        "target": "PN3xAYfQ-_QgZCRCnsEca",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "PN3xAYfQ-_QgZCRCnsEca",
+        "target": "-bwXo6xvF1yzyWEm5oZhJ",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "fkMF-2PQZ00UdwxhQt1ds",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "wGb0TEDnSe_bmv9Krx4qB",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "zFgnu2fL0EUKIMz9tVH1j",
+        "target": "9TcYdsdmvKWWHoyE6uNbC",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "9TcYdsdmvKWWHoyE6uNbC",
+        "target": "_c_Wq84yIu4ac7e0RzDtC",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "_c_Wq84yIu4ac7e0RzDtC",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "EqUT0wpdPRDGtGAZ7nneY",
+        "target": "kvHzEDZQV72AUjqisg8PB",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "kvHzEDZQV72AUjqisg8PB",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "74JxgfJ_1qmVNZ_QRp9Ne",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i4ijY3T5gLgNz0XqRipXe",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3hatcMVLDbMuz73uTx-9P",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dg1v9TV-wGSNLPfAals_y",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VHD2ISW9WoSWjp8Hh6Zft",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2hFBv2fhKDYBN-9ITs82J",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eQAn3e-k9WNufPqOnwY_K",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rTgjDj5HqbjRpcJ7PR-EC",
+        "target": "PN3xAYfQ-_QgZCRCnsEca",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IQhPG1La7dZeSXnX23D1n",
+        "target": "f89qL7Cg9R_LTxBEG4jUK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "z-o-2cGYSM6KW_CNJyw3p",
+        "target": "f89qL7Cg9R_LTxBEG4jUK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LXG_znJ3XzPAlDxUH2-Xp",
+        "target": "f89qL7Cg9R_LTxBEG4jUK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tHQ6NRVDPCPEOmzgjQDLX",
+        "target": "VAYxwJH10PFjGS8poKd9-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2vQPmVNk1QpMM-15RKG8b",
+        "target": "VAYxwJH10PFjGS8poKd9-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oC6KIjWAXw0hLl4FwkB9F",
+        "target": "VAYxwJH10PFjGS8poKd9-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aU1lv80xXNkQTD41Qfln5",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oWtWgaFznTPJhQIyfIIQf",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DN_iuLo9gYDqU8JleE1WJ",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KtXww9J0znwzTwL7GKfaY",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0ctJa-V6aenimSr5h303J",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yauCWo1VoG-X483-4mfdn",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "75ZjuGozDfoZPLj32P2t2",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KWjIAakMIlxn_jso22h0M",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SdCNevKjyhFcreMSWY6BT",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0CUfDEMwCwSHVdqkP8lOG",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EuOv19jDSj56Cy7PqvtNv",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5SF5nO94NFDkHY8UJoeAY",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dO9ZfUyNia7L_fCh4d0n7",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fAK7GRKunmoidlD32OBma",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hRXbAADgRTXEFwbBXeNu7",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PYgs4niQRlLKCBMfM4qf9",
+        "target": "9TcYdsdmvKWWHoyE6uNbC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ll5FPCtkpYq_niJd7WoTC",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JlkLNQ8wRzGkjaootNKOD",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IikKYP58sT2H1lM8glm-g",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Y64TE0U20kllmykjdfhHp",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FCdOnwQubhOnCFFnF8uJN",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ymuURDwW8JG3NSIXcl0FL",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ABCH1rATHmecyWHyK3n-m",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "z9R1BWUGalmnw0E7QqiW6",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0flGtxZmxQKxO3c3sguwp",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eKuC7VmkGVYFnbC2Rvn8D",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_U2bKjxIrAAk7TMrPttpb",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A0u7CJwj5ULAMiAm12vZI",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wFT-fddGn__DRoqG0joFk",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DCvkZSp25pjaimG0THLTu",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZKjjgXZ89zV2atWcSal-s",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8v9T6Y6JC7qaqIgkbT-nr",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Cd9gdbkCFdrTLrnJMy5F3",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Le8yOJzpzxH1xgd7XEU2B",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6D-gs32jrCyvMVhr9PSAY",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Nn2zawk6A31NwZa40jOhX",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7nI202hX41mI5ms9LZonh",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8i6zpjkMC_Pg-tDNmrx4n",
+        "target": "PN3xAYfQ-_QgZCRCnsEca",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0C3GCGdSXozJK2MNeWerg",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NWvasq-AcwxmOKZPDv3ue",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CL93C0NGFQmScVnftnRtO",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "T0dvezPWX6rAiKweT0TkG",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cwGuOrmbSTcSoH80skLTk",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v_YmmlOk-DkzJ8mI5Ftgr",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i7X1GfOx5AZYFskepW4Zr",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0IMdO7g_5El1elvDXJJ_0",
+        "target": "PN3xAYfQ-_QgZCRCnsEca",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AfagmWcllSi81D2XIQz0V",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "K0GCk5_HDvP0_ZqsUc3tG",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gBKHVG7FvlCEgINKmw00s",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fRBaiw8Qx8kapzCphmM4v",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YAZPKMbmrxYNqF6alXMyL",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kG7tlZjv_hJbHGooBkxS0",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bTCVHXPG-LtaaFmgiB2SL",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zwVd1vNm1ks6MdHZoi-5W",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0NWTFssjg9SbDXQRkN5kF",
+        "target": "-bwXo6xvF1yzyWEm5oZhJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4svXYQYmqjUZU39z8OyhD",
+        "target": "-bwXo6xvF1yzyWEm5oZhJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Vo_PBfB7LxYL27nBBVoVp",
+        "target": "-bwXo6xvF1yzyWEm5oZhJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pnX1dfkjS8woWc4KGXlh_",
+        "target": "-bwXo6xvF1yzyWEm5oZhJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "l9oq3LiEd8ZrPtupPk-Fn",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Xs057ESpvxXg2r_rDQnOa",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tBKc7tHOiJaTmwEl3q--Y",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uo5HIyePegnJooortvWLu",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3l1ji4JToj277vpgONmLw",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y0CoNcEFHyz350f7pNddt",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PphzNicIJawVElmY5rn8f",
+        "target": "9TcYdsdmvKWWHoyE6uNbC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1lHXxpoF11yE3rfoQCbTG",
+        "target": "9TcYdsdmvKWWHoyE6uNbC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zSiSbIdBgFLBBAnp4I9vX",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1r2FL3OEOh0S9ee0OVnrN",
+        "target": "9TcYdsdmvKWWHoyE6uNbC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OI8y54RhFpfS_l1L9VTZe",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      }
+    ]
+  }
+}

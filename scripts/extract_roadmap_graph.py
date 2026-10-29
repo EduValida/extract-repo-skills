@@ -350,6 +350,8 @@ def print_tree_summary(result: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Extract structured roadmap graph and trees from roadmap.sh")
     parser.add_argument("--slug", default="python", help="Roadmap slug (e.g., python, css, rust, docker)")
+    parser.add_argument("--all", action="store_true", help="Extract all roadmaps available in developer-roadmap submodule")
+    parser.add_argument("--force", action="store_true", help="Overwrite existing extracted catalog files when using --all")
     parser.add_argument("--input", help="Optional local JSON file of roadmap.sh API response")
     parser.add_argument("--content-dir", help="Path to developer-roadmap/roadmaps/{slug}/content")
     parser.add_argument("--output", help="Output path for generated JSON (default: catalogs/graphs/{slug}.json)")
@@ -366,6 +368,67 @@ def main() -> None:
         print(f"Available roadmaps in submodule ({len(slugs)} total):")
         for s in slugs:
             print(f"  - {s}")
+        return
+
+    graphs_dir = Path("catalogs/graphs")
+    graphs_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.all:
+        import time
+
+        if not submodule_roadmaps.exists():
+            print("Submodule developer-roadmap/roadmaps not found.", file=sys.stderr)
+            sys.exit(1)
+
+        slugs = sorted([d.name for d in submodule_roadmaps.iterdir() if d.is_dir()])
+        print(f"🌐 Batch extracting {len(slugs)} roadmaps to {graphs_dir}...")
+
+        success_count = 0
+        skipped_count = 0
+        failed = []
+        index_entries = []
+
+        for i, slug in enumerate(slugs, 1):
+            out_file = graphs_dir / f"{slug}.json"
+            if out_file.exists() and not args.force:
+                print(f"[{i}/{len(slugs)}] ⏩ Skipping {slug} (already exists)")
+                skipped_count += 1
+                try:
+                    with open(out_file, encoding="utf-8") as f:
+                        cached = json.load(f)
+                    index_entries.append(cached.get("metadata", {"slug": slug}))
+                except Exception:
+                    pass
+                continue
+
+            content_dir = submodule_roadmaps / slug / "content"
+            print(f"[{i}/{len(slugs)}] 📥 Fetching and processing: {slug}...", end=" ", flush=True)
+            try:
+                result = extract_roadmap(slug, content_dir=content_dir)
+                with open(out_file, "w", encoding="utf-8") as f:
+                    json.dump(result, f, indent=2, ensure_ascii=False)
+                meta = result.get("metadata", {})
+                index_entries.append(meta)
+                print(f"✅ OK ({meta.get('total_topics', 0)} topics, {meta.get('total_subtopics', 0)} subtopics)")
+                success_count += 1
+                time.sleep(0.3)
+            except Exception as e:
+                print(f"❌ Failed: {e}")
+                failed.append((slug, str(e)))
+
+        index_file = graphs_dir / "index.json"
+        with open(index_file, "w", encoding="utf-8") as f:
+            json.dump({
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "total_catalogs": len(index_entries),
+                "catalogs": sorted(index_entries, key=lambda x: x.get("slug", "")),
+            }, f, indent=2, ensure_ascii=False)
+
+        print(f"\n🎉 Finished batch extraction!")
+        print(f"   Success: {success_count} | Skipped: {skipped_count} | Failed: {len(failed)}")
+        print(f"   Catalog Index saved to: {index_file}")
+        if failed:
+            print(f"   Failed slugs: {[s for s, _ in failed]}")
         return
 
     content_dir = Path(args.content_dir) if args.content_dir else submodule_roadmaps / args.slug / "content"

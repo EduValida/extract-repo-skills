@@ -1,0 +1,3797 @@
+{
+  "metadata": {
+    "slug": "react-native",
+    "title": "React Native Developer",
+    "description": "Step by step guide to becoming a React Native developer in 2026",
+    "extracted_at": "2026-10-29T01:04:33.698926+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/react-native",
+    "total_topics": 17,
+    "total_subtopics": 78
+  },
+  "tree": {
+    "title": "React Native Developer",
+    "slug": "react-native",
+    "topics": [
+      {
+        "id": "JfXwzkN29UGz17FYHHE3A",
+        "name": "Introduction",
+        "type": "topic",
+        "description": "React Native is an open-source framework developed by Facebook that allows developers to build mobile applications using JavaScript (or TypeScript) and React. It enables building apps for both iOS and Android platforms by offering a shared codebase, which significantly reduces development time and effort.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "React Native",
+            "url": "https://reactnative.dev/"
+          },
+          {
+            "type": "official",
+            "title": "Getting Started with React Native",
+            "url": "https://reactnative.dev/docs/getting-started"
+          },
+          {
+            "type": "video",
+            "title": "React Native Course for Beginners in 2025 | Build a Full Stack React Native App",
+            "url": "https://www.youtube.com/watch?v=f8Z9JyB2EIE"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/introduction@JfXwzkN29UGz17FYHHE3A.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "cMfsRtvzvDZZJ0TqeUOxm",
+            "name": "What is React Native?",
+            "type": "subtopic",
+            "description": "React Native is an open-source framework created by Meta that allows developers to build mobile applications for iOS and Android using JavaScript and React. It enables the creation of apps that provide a native look and feel by leveraging native platform components rather than using web views. Because it shares a single codebase, developers can efficiently maintain and deploy applications across multiple mobile platforms simultaneously.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Getting Started with React Native",
+                "url": "https://reactnative.dev/docs/getting-started"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/what-is-react-native@cMfsRtvzvDZZJ0TqeUOxm.md"
+          },
+          {
+            "id": "2rlmLn_yQQV-7DpX1qT98",
+            "name": "Why use React Native?",
+            "type": "subtopic",
+            "description": "React Native allows developers to build mobile applications for both iOS and Android using a single codebase written in JavaScript and React. It achieves this by bridging your code to native platform components, which provides a smooth user experience and performance similar to apps built with platform-specific languages. This approach reduces development time and maintenance costs because most of the logic is shared across different mobile platforms.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "React Native: What is it? and, Why is it used?",
+                "url": "https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/why-use-react-native@2rlmLn_yQQV-7DpX1qT98.md"
+          },
+          {
+            "id": "ODQ8zrHc2rsc8PN-APKvz",
+            "name": "React Native Alternatives",
+            "type": "subtopic",
+            "description": "React Native is a popular choice for cross-platform application development, but there are other options available. Some of the common alternatives to React Native are Flutter, Ionic and Xamarin. Flutter being the most popular alternative to React Native.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Flutter",
+                "url": "https://flutter.dev/"
+              },
+              {
+                "type": "official",
+                "title": "Ionic",
+                "url": "https://ionicframework.com/"
+              },
+              {
+                "type": "official",
+                "title": "Xamarin",
+                "url": "https://dotnet.microsoft.com/apps/xamarin"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-alternatives@ODQ8zrHc2rsc8PN-APKvz.md"
+          }
+        ]
+      },
+      {
+        "id": "cSXsu17F1Oy34Wp6J-N3C",
+        "name": "Learn the Pre-requisites",
+        "type": "topic",
+        "description": "Before you start learning React Native, you should have a basic knowledge of JavaScript and React. You don't need to fully master these topics, but you should be familiar with them. Learn the basics of JavaScript (e.g. topics marked for beginners in JavaScript Roadmap and continue with React Native.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          },
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated React Roadmap",
+            "url": "https://roadmap.sh/react"
+          },
+          {
+            "type": "official",
+            "title": "React Native Basics",
+            "url": "https://reactnative.dev/docs/getting-started"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/learn-the-pre-requisites@cSXsu17F1Oy34Wp6J-N3C.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "1oUJXtHGQ29ZZU9sxwGo2",
+            "name": "JavaScript Basics",
+            "type": "subtopic",
+            "description": "JavaScript is a versatile programming language that serves as the foundation for building interactive and dynamic applications. It enables developers to manipulate content, control multimedia, animate elements, and handle complex logic within a codebase. In the React Native environment, a solid understanding of JavaScript syntax, functions, objects, and asynchronous operations is essential for creating mobile components and managing application data flow.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated JavaScript Roadmap",
+                "url": "https://roadmap.sh/javascript"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/javascript-basics@1oUJXtHGQ29ZZU9sxwGo2.md"
+          },
+          {
+            "id": "SnF3xtzBh-x4Z_qUQUg7H",
+            "name": "CSS Basics",
+            "type": "subtopic",
+            "description": "CSS is a stylesheet language used for describing the look and formatting of a document written in HTML or XML. It is primarily used for styling web pages and user interfaces written in HTML and XHTML. React native uses CSS to style its components. You can learn some CSS basics to get started with React Native and learn more as you go.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated CSS Roadmap",
+                "url": "https://roadmap.sh/css"
+              },
+              {
+                "type": "official",
+                "title": "CSS - W3.org",
+                "url": "https://www.w3.org/Style/CSS/Overview.en.html"
+              },
+              {
+                "type": "official",
+                "title": "CSS - MDN",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/css-basics@SnF3xtzBh-x4Z_qUQUg7H.md"
+          },
+          {
+            "id": "k9_hVOBd9ZmC4HLuAf46v",
+            "name": "Components",
+            "type": "subtopic",
+            "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Components",
+                "url": "https://react.dev/learn/your-first-component"
+              },
+              {
+                "type": "official",
+                "title": "Props",
+                "url": "https://react.dev/learn/passing-props-to-a-component"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/components@k9_hVOBd9ZmC4HLuAf46v.md"
+          },
+          {
+            "id": "s5YKenJY2Xv_PZBSxegEm",
+            "name": "JSX",
+            "type": "subtopic",
+            "description": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code. It was developed to be used with React and has become an integral part of working with React.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Components",
+                "url": "https://react.dev/learn/your-first-component"
+              },
+              {
+                "type": "official",
+                "title": "Writing Markup with JSX",
+                "url": "https://react.dev/learn/writing-markup-with-jsx"
+              },
+              {
+                "type": "official",
+                "title": "JavaScript in JSX with Curly Braces",
+                "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/jsx@s5YKenJY2Xv_PZBSxegEm.md"
+          },
+          {
+            "id": "V7r1Hqk9IXTfjkjAg7-BT",
+            "name": "State",
+            "type": "subtopic",
+            "description": "State is an object that holds data managed within a React component. It allows components to become dynamic and interactive by keeping track of its data changes. When the state of a component changes, React re-renders the component and updates the DOM accordingly.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Component State",
+                "url": "https://react.dev/learn/managing-state"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/state@V7r1Hqk9IXTfjkjAg7-BT.md"
+          },
+          {
+            "id": "0gH7vI_Hy7s9hO2TF6hR3",
+            "name": "Props",
+            "type": "subtopic",
+            "description": "In React, **props** are short for _properties_ and are used to pass data from a parent component to a child component. They are similar to function arguments, and they help make components reusable and maintainable.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Components",
+                "url": "https://react.dev/learn/your-first-component"
+              },
+              {
+                "type": "official",
+                "title": "Props",
+                "url": "https://react.dev/learn/passing-props-to-a-component"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/props@0gH7vI_Hy7s9hO2TF6hR3.md"
+          }
+        ]
+      },
+      {
+        "id": "lNmddXrT8IHVtWobh3-oq",
+        "name": "Environment Setup",
+        "type": "topic",
+        "description": "Environment setup involves configuring your local machine with the necessary tools, software, and dependencies required to build, run, and test mobile applications. This process typically includes installing Node.js, the React Native CLI or Expo CLI, and the specific software development kits for platforms like Android and iOS, such as Android Studio or Xcode. Properly configuring these tools ensures that your development environment can communicate effectively with emulators, simulators, or physical devices during the coding process.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Set Up Your Environment",
+            "url": "https://reactnative.dev/docs/set-up-your-environment"
+          },
+          {
+            "type": "official",
+            "title": "Get Started Without a Framework",
+            "url": "https://reactnative.dev/docs/getting-started-without-a-framework"
+          },
+          {
+            "type": "official",
+            "title": "Create a project with Expo",
+            "url": "https://docs.expo.dev/get-started/create-a-project/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/environment-setup@lNmddXrT8IHVtWobh3-oq.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "bxWLf0RDAl9Zaczkon9Rl",
+            "name": "React Native CLI",
+            "type": "subtopic",
+            "description": "The React Native Community CLI (`@react-native-community/cli`) is the command-line tool for creating and running React Native apps without a framework such as Expo. This method requires you to manually set up the native development environment and tools needed for iOS and Android app development.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get Started Without a Framework",
+                "url": "https://reactnative.dev/docs/getting-started-without-a-framework"
+              },
+              {
+                "type": "opensource",
+                "title": "React Native Community CLI",
+                "url": "https://github.com/react-native-community/cli"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-cli@bxWLf0RDAl9Zaczkon9Rl.md"
+          },
+          {
+            "id": "VhSEH_RoWFt1z2lial7xZ",
+            "name": "Metro Bundler",
+            "type": "subtopic",
+            "description": "Metro Bundler is the default bundler for React Native applications. It's a JavaScript module bundler that takes all your application code and dependencies, and bundles them together into a single JavaScript file or multiple files (based on platform).",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Metro Bundler",
+                "url": "https://metrobundler.dev/"
+              },
+              {
+                "type": "official",
+                "title": "Metro in React Native",
+                "url": "https://reactnative.dev/docs/metro"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/metro-bundler@VhSEH_RoWFt1z2lial7xZ.md"
+          },
+          {
+            "id": "yW7nDDJbjmm8XKJI0hq3Q",
+            "name": "Expo",
+            "type": "subtopic",
+            "description": "Expo is a framework and platform for React Native that simplifies the development process by providing a set of tools and services that abstract away complex native code configurations. It allows developers to build, test, and deploy applications across iOS, Android, and the web using a unified codebase. By managing the underlying build environment, Expo enables users to focus on writing JavaScript or TypeScript code without needing to constantly interact with Xcode or Android Studio.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Expo Documentation",
+                "url": "https://docs.expo.dev/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo@yW7nDDJbjmm8XKJI0hq3Q.md"
+          },
+          {
+            "id": "uLH9eo2G09wGO80XtFI5x",
+            "name": "create-expo-app",
+            "type": "subtopic",
+            "description": "`create-expo-app` is a command line tool that generates a React Native project that works out of the box with Expo. It is the easiest way to get started building a new React Native application.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Create Expo App",
+                "url": "https://docs.expo.dev/tutorial/create-your-first-app/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/create-expo-app@uLH9eo2G09wGO80XtFI5x.md"
+          },
+          {
+            "id": "9eOwhh2k59nvH-ztuDNjg",
+            "name": "Expo Snack",
+            "type": "subtopic",
+            "description": "Expo Snack is an online playground and development environment for creating and testing React Native projects. With Snack, you can easily edit and preview your code changes directly in your browser or on a mobile device using the Expo Go app. It offers a fast, easy, and convenient way to develop, test, and share your projects without needing to set up a local development environment.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Expo Snack",
+                "url": "https://snack.expo.dev/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-snack@9eOwhh2k59nvH-ztuDNjg.md"
+          },
+          {
+            "id": "zzOyoDcAQYkNNv07TIKeZ",
+            "name": "Expo Tradeoffs",
+            "type": "subtopic",
+            "description": "Expo is a managed framework that simplifies React Native development by providing a set of pre-built tools, libraries, and services. While it offers a faster development cycle and easier configuration, it comes with specific limitations regarding native code control. Developers using Expo cannot easily add custom native modules that require direct modification of the Android or iOS project files without using the \"eject\" process or development builds. Furthermore, the reliance on the Expo SDK means that project updates must align with their release schedule, which can occasionally lead to dependency conflicts when using highly specific third-party native libraries.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Should you use Expo or Bare React Native?",
+                "url": "https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md"
+          }
+        ]
+      },
+      {
+        "id": "T4AhL9Zls2iNZMituGdtl",
+        "name": "Development Workflow",
+        "type": "topic",
+        "description": "The development workflow in React Native involves a continuous cycle of writing code, testing components, and refining the user interface across both iOS and Android platforms. Developers typically utilize tools like Metro Bundler to compile JavaScript code in real-time, allowing for immediate feedback through features like Fast Refresh. This process integrates version control systems, debugging",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device"
+          },
+          {
+            "type": "article",
+            "title": "Continuous Integration and Deployment for React Native Apps",
+            "url": "https://dev.to/medaimane/continuous-integration-and-deployment-for-react-native-apps-streamlining-development-workflow-4i04"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/development-workflow@T4AhL9Zls2iNZMituGdtl.md",
+        "subtopics_count": 9,
+        "subtopics": [
+          {
+            "id": "KyKMZ8Aa5XUAIWelGTiSt",
+            "name": "Running on Device",
+            "type": "subtopic",
+            "description": "Running your React Native application on a physical device allows you to test your code in a real-world environment, providing a more accurate representation of performance, touch interactions, and hardware integration compared to an emulator or simulator. To achieve this, you connect your mobile device to your development machine via USB or a local Wi-Fi network and use tools like Metro Bundler to transmit the application bundle directly to the device. This process enables developers to utilize features like Fast Refresh to see code changes instantly on their phone screen, ensuring that the user experience remains consistent across different hardware configurations.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Running on Device",
+                "url": "https://reactnative.dev/docs/running-on-device"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/running-on-device@KyKMZ8Aa5XUAIWelGTiSt.md"
+          },
+          {
+            "id": "tOt_vvmnBtOUbgokmVa5P",
+            "name": "In-App Developer Menu",
+            "type": "subtopic",
+            "description": "The In-App Developer Menu is a built-in interface in React Native that provides essential tools for debugging and development. By triggering this menu through a specific gesture or keyboard shortcut, you can access features such as refreshing the application, enabling fast refresh, inspecting elements, and toggling performance monitors. It serves as a central control panel that allows you to manage your app's state and development settings directly on the device or simulator while you write your code.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Debugging",
+                "url": "https://reactnative.dev/docs/debugging"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/in-app-developer-menu@tOt_vvmnBtOUbgokmVa5P.md"
+          },
+          {
+            "id": "UqCpoPzYio3ng3RFlbvZ7",
+            "name": "SafeAreaView",
+            "type": "subtopic",
+            "description": "SafeAreaView is a component designed to render content within the safe area boundaries of a device screen. It automatically applies padding to ensure that your UI elements, such as text or buttons, are not obscured by system notches, home indicators, or rounded corners found on modern smartphones. By wrapping your content in this component, you maintain a clean layout that remains visible and accessible across different device models.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "SafeAreaView",
+                "url": "https://reactnative.dev/docs/safeareaview"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/safeareaview@UqCpoPzYio3ng3RFlbvZ7.md"
+          },
+          {
+            "id": "wWwaEdnvBsvj6jD9LJ4Jj",
+            "name": "Enabling Fast Refresh",
+            "type": "subtopic",
+            "description": "Fast Refresh is a React Native feature that allows you to get near-instant feedback while making changes in your code. It achieves this by reloading only the portion of the app that was changed, without losing the current state. This makes the development process a lot smoother as you don't have to wait for the entire app to rebuild after making a change.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Fast Refresh",
+                "url": "https://reactnative.dev/docs/fast-refresh"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/enabling-fast-refresh@wWwaEdnvBsvj6jD9LJ4Jj.md"
+          },
+          {
+            "id": "GrFL32pZ_eOmdJRzSlH8b",
+            "name": "View",
+            "type": "subtopic",
+            "description": "`View` is the fundamental layout container in React Native, similar to a `div` in web development. It supports flexbox layout, styling, touch handling, and nesting, and is the building block for nearly every screen and component.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "View",
+                "url": "https://reactnative.dev/docs/view"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/view@GrFL32pZ_eOmdJRzSlH8b.md"
+          },
+          {
+            "id": "8bn1PFd9h0ek6_T-cl1cS",
+            "name": "KeyboardAvoidingView",
+            "type": "subtopic",
+            "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "KeyboardAvoidingView",
+                "url": "https://reactnative.dev/docs/keyboardavoidingview"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/keyboardavoidingview@8bn1PFd9h0ek6_T-cl1cS.md"
+          },
+          {
+            "id": "Tz-bRjQVkZedphelhAlWM",
+            "name": "LogBox",
+            "type": "subtopic",
+            "description": "LogBox is React Native's in-app display for logs, warnings, and errors during development. It groups and formats them, with stack traces for errors, so problems are easier to spot and address in your code.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Debugging LogBox",
+                "url": "https://reactnative.dev/docs/debugging#logbox"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/logbox@Tz-bRjQVkZedphelhAlWM.md"
+          },
+          {
+            "id": "Dq490IqEJXoFZRnBFJI8N",
+            "name": "Sourcemaps",
+            "type": "subtopic",
+            "description": "Sourcemaps are files that act as a bridge between your bundled, minified JavaScript code and the original source code you actually wrote. When an error occurs in a production environment, the stack trace typically points to the transformed bundle, which is difficult to read. By using sourcemaps, developer tools can map these obfuscated locations back to the exact files and line numbers in your original project, making it much easier to identify and fix bugs.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "SourceMaps",
+                "url": "https://reactnative.dev/docs/debugging-release-builds#enabling-source-maps"
+              },
+              {
+                "type": "article",
+                "title": "Source Maps (MDN)",
+                "url": "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/sourcemaps@Dq490IqEJXoFZRnBFJI8N.md"
+          },
+          {
+            "id": "HHx3VSfV7xf6RqACrxjBf",
+            "name": "DevTools",
+            "type": "subtopic",
+            "description": "React Native DevTools is the modern, built-in debugging experience for React Native. It is designed for debugging React app concerns, such as inspecting components, stepping through JavaScript, and profiling, while the native layers are still debugged with the tools in Android Studio and Xcode.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "React Native DevTools",
+                "url": "https://reactnative.dev/docs/react-native-devtools"
+              },
+              {
+                "type": "official",
+                "title": "React DevTools",
+                "url": "https://reactnative.dev/docs/react-devtools"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/devtools@HHx3VSfV7xf6RqACrxjBf.md"
+          }
+        ]
+      },
+      {
+        "id": "fnujIq6QAFB6bmTisuZ3T",
+        "name": "Core Components",
+        "type": "topic",
+        "description": "Core Components are the fundamental building blocks provided by React Native that map directly to native platform UI elements. Instead of using standard web elements like `<div>` or `<span>`, React Native uses components such as `<View>` for layout, `<Text>` for displaying strings, and `<Image>` for rendering pictures. These components translate to their respective native counterparts on iOS and Android, allowing developers to create authentic mobile experiences using JavaScript and React.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Core Components and APIs",
+            "url": "https://reactnative.dev/docs/components-and-apis"
+          },
+          {
+            "type": "official",
+            "title": "Core Components and Native Components",
+            "url": "https://reactnative.dev/docs/intro-react-native-components"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/core-components@fnujIq6QAFB6bmTisuZ3T.md",
+        "subtopics_count": 11,
+        "subtopics": [
+          {
+            "id": "Frz1RYp3y9OwRb-3t2e85",
+            "name": "Text Input",
+            "type": "subtopic",
+            "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Text Input",
+                "url": "https://reactnative.dev/docs/textinput"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/text-input@Frz1RYp3y9OwRb-3t2e85.md"
+          },
+          {
+            "id": "OFhyYyxtrCBy_UUb5YBv5",
+            "name": "Text",
+            "type": "subtopic",
+            "description": "The `Text` component is a basic element in React Native used to display text content on the screen. While it has some basic styling properties, you usually nest it inside other components (e.g., `View`) to create more complex UIs.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Text",
+                "url": "https://reactnative.dev/docs/text"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/text@OFhyYyxtrCBy_UUb5YBv5.md"
+          },
+          {
+            "id": "E7N8tSg2amZW-vc-X46JU",
+            "name": "Image",
+            "type": "subtopic",
+            "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Image",
+                "url": "https://reactnative.dev/docs/image"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/image@E7N8tSg2amZW-vc-X46JU.md"
+          },
+          {
+            "id": "kkH9H9Qh1FD7sLItoWw69",
+            "name": "Button",
+            "type": "subtopic",
+            "description": "A `Button` is a built-in React Native component used to create clickable buttons. It is a simple, customizable and easy-to-use component that captures touches and triggers an `onPress` event when pressed.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Button",
+                "url": "https://reactnative.dev/docs/button"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/button@kkH9H9Qh1FD7sLItoWw69.md"
+          },
+          {
+            "id": "x-OZCZcX6uhN3Yr5BAATn",
+            "name": "Listings",
+            "type": "subtopic",
+            "description": "Listings in React Native — primarily `FlatList` and `SectionList` — are the core components for rendering scrollable lists. They are optimized for large data sets with lazy row rendering, pull-to-refresh, header and footer support, and per-row memoization for better performance.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Using List Views",
+                "url": "https://reactnative.dev/docs/using-a-listview"
+              },
+              {
+                "type": "official",
+                "title": "FlatList",
+                "url": "https://reactnative.dev/docs/flatlist"
+              },
+              {
+                "type": "official",
+                "title": "SectionList",
+                "url": "https://reactnative.dev/docs/sectionlist"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/listings@x-OZCZcX6uhN3Yr5BAATn.md"
+          },
+          {
+            "id": "ouNTekf4VpZv-Vja8_bfM",
+            "name": "Switch",
+            "type": "subtopic",
+            "description": "A Switch is a visual component in React Native that provides a toggle interface for users to switch between two states, typically on and off. It functions as a controlled component, meaning it relies on a boolean value passed through properties to determine its current state and a callback function to handle changes when the user interacts with it. This component is commonly used in settings menus or forms where a binary selection is required.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Switch",
+                "url": "https://reactnative.dev/docs/switch"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/switch@ouNTekf4VpZv-Vja8_bfM.md"
+          },
+          {
+            "id": "GFGhnx5xUer2DdRI-SO4D",
+            "name": "ImageBackground",
+            "type": "subtopic",
+            "description": "`ImageBackground` is a React Native core component that allows you to display an image as a background while still being able to place content inside the component. This helps in creating beautiful layouts with images and text or other content on top.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Image Background",
+                "url": "https://reactnative.dev/docs/imagebackground"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/imagebackground@GFGhnx5xUer2DdRI-SO4D.md"
+          },
+          {
+            "id": "hHFR59RrdMIWxcQe72qCs",
+            "name": "ActivityIndicator",
+            "type": "subtopic",
+            "description": "The `ActivityIndicator` is a core component in React Native that provides a simple visual indication of some ongoing activity or loading state within your application. It shows a spinning animation, which gives the user feedback that something is happening in the background. This component is particularly useful when fetching data from an external source, like a server, or while performing time-consuming operations.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Activity Indicator",
+                "url": "https://reactnative.dev/docs/activityindicator"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/activityindicator@hHFR59RrdMIWxcQe72qCs.md"
+          },
+          {
+            "id": "QOOZs9qtz49agfZwi6k1B",
+            "name": "StatusBar",
+            "type": "subtopic",
+            "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "StatusBar",
+                "url": "https://reactnative.dev/docs/statusbar"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/statusbar@QOOZs9qtz49agfZwi6k1B.md"
+          },
+          {
+            "id": "V34mZCkpoT49o-74XoATS",
+            "name": "Modal",
+            "type": "subtopic",
+            "description": "A `Modal` is a component that displays content on top of the current view, creating an overlay that can be used for various purposes, such as displaying additional information, confirmation messages, or a selection menu.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Modal",
+                "url": "https://reactnative.dev/docs/modal"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/modal@V34mZCkpoT49o-74XoATS.md"
+          },
+          {
+            "id": "4BgVq-cZYEXgqktvlNnet",
+            "name": "Pressable",
+            "type": "subtopic",
+            "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Pressable",
+                "url": "https://reactnative.dev/docs/pressable"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/pressable@4BgVq-cZYEXgqktvlNnet.md"
+          }
+        ]
+      },
+      {
+        "id": "HiUbRfOv8OttFd85pDUHN",
+        "name": "Writing Platform Specific Code",
+        "type": "topic",
+        "description": "Writing platform-specific code involves using specialized techniques to implement features or UI components that behave differently on iOS and Android. React Native provides tools like the `Platform` module to detect the operating system at runtime and file extensions such as `.ios.js` or `.android.js` to separate implementation files. This approach allows developers to access native APIs unique to a single platform while maintaining a shared codebase for the rest of the application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code"
+          },
+          {
+            "type": "official",
+            "title": "App Extensions",
+            "url": "https://reactnative.dev/docs/app-extensions"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/writing-platform-specific-code@HiUbRfOv8OttFd85pDUHN.md",
+        "subtopics_count": 8,
+        "subtopics": [
+          {
+            "id": "yN283SRWoALOEZh9iTn-L",
+            "name": "ScrollView",
+            "type": "subtopic",
+            "description": "In React Native, the `ScrollView` is a generic scrolling container used to provide a scrollable view to its child components. It is useful when you need to display scrollable content larger than the screen, such as lists, images, or text. A `ScrollView` must have a bounded height in order to properly work.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "ScrollView",
+                "url": "https://reactnative.dev/docs/ScrollView"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/scrollview@yN283SRWoALOEZh9iTn-L.md"
+          },
+          {
+            "id": "h3ypxGxeHDCTxURHg6D2d",
+            "name": "ListViews",
+            "type": "subtopic",
+            "description": "`ListView` was the original list component in React Native, now superseded by the more efficient `FlatList` and `SectionList`. These components render data in a performant, scrollable way by only mounting rows near the viewport, and support features like separators, empty states, and pull-to-refresh.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Using List Views",
+                "url": "https://reactnative.dev/docs/using-a-listview"
+              },
+              {
+                "type": "official",
+                "title": "FlatList",
+                "url": "https://reactnative.dev/docs/flatlist"
+              },
+              {
+                "type": "official",
+                "title": "SectionList",
+                "url": "https://reactnative.dev/docs/sectionlist"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/listviews@h3ypxGxeHDCTxURHg6D2d.md"
+          },
+          {
+            "id": "CYqLNGyOe9f9hVhbyUnTX",
+            "name": "FlatList",
+            "type": "subtopic",
+            "description": "`FlatList` is a `React Native` core component that displays a scrolling list of changing, but similarly structured, data. It is an efficient list component that makes use of a limited scrolling `renderWindow`, reducing the memory footprint and creating smooth scrolling. Additionally, `FlatList` supports-Headers, Footers, Pull-to-refresh, and Horizontal scrolling, among other things.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "FlatList",
+                "url": "https://reactnative.dev/docs/flatlist"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/flatlist@CYqLNGyOe9f9hVhbyUnTX.md"
+          },
+          {
+            "id": "gLJMD9X7chy8OxdALht8g",
+            "name": "SectionList",
+            "type": "subtopic",
+            "description": "`SectionList` is a component used to render sections and headers in a scroll view. It helps to manage and optimize a large list of items divided into categories. It is one of the List View components provided by React Native along with FlatList.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "SectionList",
+                "url": "https://reactnative.dev/docs/sectionlist"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/sectionlist@gLJMD9X7chy8OxdALht8g.md"
+          },
+          {
+            "id": "m8Nu71Y61Ha_fLxdtWTkn",
+            "name": "RefreshControl",
+            "type": "subtopic",
+            "description": "`RefreshControl` is a component in React Native that is used to provide pull-to-refresh functionality for scrollable components like `ScrollView`, `ListView`, and `FlatList`.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Refresh Control",
+                "url": "https://reactnative.dev/docs/refreshcontrol"
+              },
+              {
+                "type": "official",
+                "title": "ScrollView",
+                "url": "https://reactnative.dev/docs/ScrollView"
+              },
+              {
+                "type": "official",
+                "title": "FlatList",
+                "url": "https://reactnative.dev/docs/FlatList"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/refreshcontrol@m8Nu71Y61Ha_fLxdtWTkn.md"
+          },
+          {
+            "id": "KZIrRSYq_I-YzpFaYLuWi",
+            "name": "Platform Module",
+            "type": "subtopic",
+            "description": "The Platform module in React Native provides a simple way to detect the operating system on which your application is currently running. It exposes a constant that allows you to branch your code logic based on whether the app is executing on iOS, Android, or other supported platforms. Developers use this module to apply platform-specific styles, components, or behaviors to ensure the user interface behaves appropriately for each environment.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Platform",
+                "url": "https://reactnative.dev/docs/platform"
+              },
+              {
+                "type": "official",
+                "title": "Platform-Specific Code",
+                "url": "https://reactnative.dev/docs/platform-specific-code"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/platform-module@KZIrRSYq_I-YzpFaYLuWi.md"
+          },
+          {
+            "id": "LLANnVosxOUCPTtuBfNgu",
+            "name": "File Extensions",
+            "type": "subtopic",
+            "description": "File extensions like `.ios.js` and `.android.js` allow React Native to automatically select the correct implementation based on the platform where the application is running. When you import a module with these specific extensions, the packager detects the operating system and loads the file that matches the target platform. This mechanism enables developers to maintain separate logic or UI components for iOS and Android within the same codebase while keeping imports clean and simple.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Platform-Specific Code",
+                "url": "https://reactnative.dev/docs/platform-specific-code"
+              },
+              {
+                "type": "official",
+                "title": "App Extensions",
+                "url": "https://reactnative.dev/docs/app-extensions"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/file-extensions@LLANnVosxOUCPTtuBfNgu.md"
+          },
+          {
+            "id": "UQpyXrC2cs_jDXxVTlQOu",
+            "name": "react-native-web",
+            "type": "subtopic",
+            "description": "React Native for Web is a library that allows developers to run React Native components and APIs on the web using React DOM. It maps React Native components, such as Views and Text, to their equivalent HTML elements, enabling the reuse of a single codebase across mobile and browser platforms. This integration ensures that styles and interactions defined in React Native are translated effectively into standard web technologies.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "react-native-web - npm",
+                "url": "https://www.npmjs.com/package/react-native-web"
+              },
+              {
+                "type": "article",
+                "title": "Complete Guide to React Native for Web",
+                "url": "https://blog.logrocket.com/complete-guide-react-native-web/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-web@UQpyXrC2cs_jDXxVTlQOu.md"
+          }
+        ]
+      },
+      {
+        "id": "ervpuL89myBW3oR9r-4lH",
+        "name": "Styling",
+        "type": "topic",
+        "description": "Styling in React Native is handled using a system that closely resembles CSS but is implemented through JavaScript objects. Developers define styles using the `StyleSheet.create` method, which organizes layout properties such as flexbox, colors, and spacing to determine how components appear on the screen. Because React Native uses a subset of standard CSS properties, it relies heavily on the Flexbox layout engine to manage the positioning and alignment of elements within a mobile interface.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Styling",
+            "url": "https://reactnative.dev/docs/style"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/styling@ervpuL89myBW3oR9r-4lH.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "wB0D9koC6jpt1rzX8F07F",
+            "name": "Stylesheets",
+            "type": "subtopic",
+            "description": "In React Native, stylesheets are objects that define the appearance of components. They provide a way to separate styling from the component's logic. Stylesheets are created using `StyleSheet.create` method, which ensures a standardized and efficient way to manage styles for your components.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Stylesheets",
+                "url": "https://reactnative.dev/docs/stylesheet"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/stylesheets@wB0D9koC6jpt1rzX8F07F.md"
+          },
+          {
+            "id": "e-r3tuRZ3PzhFegES0oOm",
+            "name": "Layouts & Flexbox",
+            "type": "subtopic",
+            "description": "Layouts and Flexbox in React Native provide a system for arranging elements on the screen. It is based on the CSS Flexbox algorithm, which allows you to define how components are positioned, spaced, and sized within a container. By using properties like `flexDirection`, `justifyContent`, and `alignItems`, you can create responsive designs that adapt to different screen sizes and orientations.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Flexbox",
+                "url": "https://reactnative.dev/docs/flexbox"
+              },
+              {
+                "type": "official",
+                "title": "Layout Props",
+                "url": "https://reactnative.dev/docs/layout-props"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/layouts--flexbox@e-r3tuRZ3PzhFegES0oOm.md"
+          },
+          {
+            "id": "KoXTwQUqPt_ZhOFuaelny",
+            "name": "Accessibility",
+            "type": "subtopic",
+            "description": "Accessibility (often abbreviated as a11y) in React Native is a crucial aspect of application development that ensures your applications are usable by everyone, including individuals with disabilities. This commitment to inclusivity is not just a legal requirement in many jurisdictions but also a moral imperative that enhances the user experience for all. React Native provides a comprehensive set of accessibility features, attributes, and APIs that allow developers to create applications that cater to diverse user needs. By implementing these features, developers can ensure that their applications are navigable and usable by individuals with visual, auditory, motor, or cognitive impairments.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Accessibility",
+                "url": "https://reactnative.dev/docs/accessibility"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/accessibility@KoXTwQUqPt_ZhOFuaelny.md"
+          }
+        ]
+      },
+      {
+        "id": "7GBV5sfOaGxHwpkNUvFWE",
+        "name": "Networking",
+        "type": "topic",
+        "description": "Networking in React Native allows applications to communicate with remote servers to fetch or send data using standard web protocols. Developers typically utilize the built-in Fetch API to perform HTTP requests, which handles asynchronous data retrieval in a way that is consistent with modern web standards. For more complex requirements, such as managing cookies, handling authentication headers, or tracking upload progress, libraries like Axios are commonly integrated into projects to simplify request configuration and response handling.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Networking",
+            "url": "https://reactnative.dev/docs/network"
+          },
+          {
+            "type": "official",
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          },
+          {
+            "type": "official",
+            "title": "Axios",
+            "url": "https://axios-http.com/docs/intro"
+          },
+          {
+            "type": "article",
+            "title": "Managing network connection status in React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/networking@7GBV5sfOaGxHwpkNUvFWE.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "k7uVPyhbPgvO6HxAfxxYZ",
+            "name": "Connectivity Status",
+            "type": "subtopic",
+            "description": "Connectivity refers to the mechanisms that allow data transfer between your React Native app and external resources through various means of communication. It is essential to ensure efficient communication with APIs, servers, and external systems, to update your app's data, fetching content or enabling real-time interactions. The community NetInfo package reports the device's connection type and whether the internet is reachable, and lets you subscribe to changes so the app can react when the user goes offline.",
+            "resources": [
+              {
+                "type": "opensource",
+                "title": "React Native NetInfo",
+                "url": "https://github.com/react-native-netinfo/react-native-netinfo"
+              },
+              {
+                "type": "article",
+                "title": "Managing network connection status in React Native",
+                "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/connectivity-status@k7uVPyhbPgvO6HxAfxxYZ.md"
+          },
+          {
+            "id": "aSCgax1M4wlmzkJSZV_fv",
+            "name": "WebSockets",
+            "type": "subtopic",
+            "description": "WebSockets are a protocol that allows full-duplex communication between a client and a server over a single, long-lived connection. They are useful when real-time communication is needed, such as in chat applications, online gaming, or financial trading platforms. React Native ships with a built-in `WebSocket` implementation that follows the same API as the browser.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Networking: WebSocket Support",
+                "url": "https://reactnative.dev/docs/network"
+              },
+              {
+                "type": "article",
+                "title": "The WebSocket API (WebSockets) - Web APIs",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+              },
+              {
+                "type": "article",
+                "title": "WebSocket vs HTTP: Which Protocol Should You Use?",
+                "url": "https://roadmap.sh/network-engineer/websocket-vs-http"
+              },
+              {
+                "type": "article",
+                "title": "WebSocket vs. SSE: Full Comparison for Real-Time Apps",
+                "url": "https://roadmap.sh/network-engineer/websocket-vs-sse"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/websockets@aSCgax1M4wlmzkJSZV_fv.md"
+          },
+          {
+            "id": "f7KFPFS2-EA90pumYHM9T",
+            "name": "Fetch",
+            "type": "subtopic",
+            "description": "_Fetch_ is a JavaScript function available in React Native that is used to make network requests, similar to XMLHttpRequest in web applications. It allows you to handle requests and retrieve data from APIs or other sources. The Fetch API is built on Promises, making it simple to handle success and error cases.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Networking",
+                "url": "https://reactnative.dev/docs/network"
+              },
+              {
+                "type": "official",
+                "title": "Fetch API",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/fetch@f7KFPFS2-EA90pumYHM9T.md"
+          }
+        ]
+      },
+      {
+        "id": "CAQJaGs24wx1SqKOU44aB",
+        "name": "Push Notifications",
+        "type": "topic",
+        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PushNotificationIOS",
+            "url": "https://reactnative.dev/docs/pushnotificationios"
+          },
+          {
+            "type": "official",
+            "title": "Expo Notifications",
+            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/"
+          },
+          {
+            "type": "article",
+            "title": "Expo push notifications setup",
+            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/"
+          },
+          {
+            "type": "video",
+            "title": "Expo Notifications with EAS | Complete Guide",
+            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/push-notifications@CAQJaGs24wx1SqKOU44aB.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "GYdz9a1yLiewAeMRSyfLr",
+        "name": "Interactions",
+        "type": "topic",
+        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/interactions@GYdz9a1yLiewAeMRSyfLr.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "A7ZIe8nlQnHU5g3LM3Eif",
+            "name": "Touchables",
+            "type": "subtopic",
+            "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Handling Touches",
+                "url": "https://reactnative.dev/docs/handling-touches"
+              },
+              {
+                "type": "official",
+                "title": "TouchableOpacity",
+                "url": "https://reactnative.dev/docs/touchableopacity"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/touchables@A7ZIe8nlQnHU5g3LM3Eif.md"
+          },
+          {
+            "id": "xf7L5J42yQq3LE7lG2plp",
+            "name": "Gesture Handling",
+            "type": "subtopic",
+            "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Animations",
+                "url": "https://reactnative.dev/docs/animations"
+              },
+              {
+                "type": "official",
+                "title": "LayoutAnimations",
+                "url": "https://reactnative.dev/docs/layoutanimation"
+              },
+              {
+                "type": "official",
+                "title": "Animated",
+                "url": "https://reactnative.dev/docs/animated"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/gesture-handling@xf7L5J42yQq3LE7lG2plp.md"
+          },
+          {
+            "id": "nk6zdVNRz_xE71mVUOFsi",
+            "name": "Scrolling & Swiping",
+            "type": "subtopic",
+            "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Handling Touches",
+                "url": "https://reactnative.dev/docs/handling-touches"
+              },
+              {
+                "type": "official",
+                "title": "Using a ScrollView",
+                "url": "https://reactnative.dev/docs/using-a-scrollview"
+              },
+              {
+                "type": "article",
+                "title": "React Native Gesture Handler: Swipe, long-press, and more",
+                "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/scrolling--swiping@nk6zdVNRz_xE71mVUOFsi.md"
+          },
+          {
+            "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+            "name": "Screen Navigation",
+            "type": "subtopic",
+            "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "React Navigation",
+                "url": "https://reactnavigation.org/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/screen-navigation@Jr2iuQqyCbx6CyTJj4Qz2.md"
+          },
+          {
+            "id": "3NLcPO-hqQV1EacoPLVrv",
+            "name": "Animations",
+            "type": "subtopic",
+            "description": "Animations in React Native allow developers to create smooth, fluid, and dynamic user interfaces by changing the properties of components over time. The framework provides the Animated API to handle simple, high-performance transitions, as well as the LayoutAnimation API for animating global layout changes. These tools enable the transformation of elements through movements, scaling, opacity changes, and rotations to provide visual feedback and enhance the overall user experience within a mobile application.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Animations",
+                "url": "https://reactnative.dev/docs/animations"
+              },
+              {
+                "type": "official",
+                "title": "LayoutAnimations",
+                "url": "https://reactnative.dev/docs/layoutanimation"
+              },
+              {
+                "type": "official",
+                "title": "Animated",
+                "url": "https://reactnative.dev/docs/animated"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/animations@3NLcPO-hqQV1EacoPLVrv.md"
+          }
+        ]
+      },
+      {
+        "id": "dckRzKDKj-mLB3-OxwjPh",
+        "name": "DeepLinking",
+        "type": "topic",
+        "description": "Deep linking in React Native allows your app to open and navigate to a specific screen or content when a user clicks on a URL or a custom URI scheme. It essentially creates a direct pathway into a particular section of your application, bypassing the typical app launch sequence and providing a more seamless user experience. This is useful for scenarios like opening a product page from a marketing email or directing users to a specific profile from a shared link.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Understanding deep linking in React Native",
+            "url": "https://blog.logrocket.com/understanding-deep-linking-in-react-native/"
+          },
+          {
+            "type": "article",
+            "title": "Deep Linking in React Native: Navigating to Specific App Screens",
+            "url": "https://clouddevs.com/react-native/deep-linking/"
+          },
+          {
+            "type": "article",
+            "title": "A Complete Guide to Deep Linking with Custom domain in React Native",
+            "url": "https://dev.to/amitkumar13/a-complete-guide-to-deep-linking-with-custom-domain-in-react-native-bj3"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/deeplinking@dckRzKDKj-mLB3-OxwjPh.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "CGtVwhVGc8Vea5RfzJvQG",
+        "name": "Security",
+        "type": "topic",
+        "description": "Security is a vital consideration in React Native application development, as it helps protect user data and sensitive information. Key best practices include using secure storage solutions for sensitive data, such as authentication tokens and user credentials, with libraries like `react-native-keychain` and `react-native-encrypted-storage`. For secure communication, always use HTTPS for API interactions to ensure that data exchanged between the client and server is encrypted. Additionally, minimize permissions by requesting only those necessary for the app's functionality, ideally at runtime, using libraries like `react-native-permissions`. Validating and sanitizing user input is crucial to prevent threats like SQL injection and cross-site scripting (XSS), which can be achieved with validation libraries such as `Yup`. Lastly, keeping dependencies up to date is essential to avoid known security vulnerabilities; tools like `npm audit` and Dependabot can assist in this process. By adhering to these best practices, developers can enhance the security of their React Native applications, safeguarding both application data and user information.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Security",
+            "url": "https://reactnative.dev/docs/security"
+          },
+          {
+            "type": "article",
+            "title": "Secure Authentication and Authorization in React Native",
+            "url": "https://medium.com/@christopherobocha/secure-authentication-and-authorisation-in-react-native-a260f1787a89"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/security@CGtVwhVGc8Vea5RfzJvQG.md",
+        "subtopics_count": 9,
+        "subtopics": [
+          {
+            "id": "LRBHwYiT0Yyi18PwR49rc",
+            "name": "Authentication",
+            "type": "subtopic",
+            "description": "Authentication is the process of verifying the identity of a user before granting them access to specific features or data within a mobile application. In React Native, this typically involves managing secure user sessions through methods like OAuth, JWT (JSON Web Tokens), or biometric authentication. Developers integrate these systems to ensure that sensitive user information remains protected and that only authorized individuals can interact with private parts of the application.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Authentication and Deep Linking",
+                "url": "https://reactnative.dev/docs/security#authentication-and-deep-linking"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/authentication@LRBHwYiT0Yyi18PwR49rc.md"
+          },
+          {
+            "id": "ee4QqFTosXNcTgoQIok8i",
+            "name": "Networking",
+            "type": "subtopic",
+            "description": "Networking security in React Native involves protecting the data transmitted between your application and a backend server to prevent unauthorized access or interception. This is primarily achieved through the use of HTTPS (SSL/TLS) to encrypt communication, alongside best practices like implementing certificate pinning to verify the server's identity and validating all incoming data from API responses. Developers also use techniques such as secure token management and request authentication to ensure that only authorized users can exchange sensitive information with the application.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Networking",
+                "url": "https://reactnative.dev/docs/network"
+              },
+              {
+                "type": "article",
+                "title": "Efficient Network Communication",
+                "url": "https://medium.com/@Blochware/efficient-network-communication-best-practices-for-handling-api-calls-in-react-native-b5bebbc8ba71"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/networking@ee4QqFTosXNcTgoQIok8i.md"
+          },
+          {
+            "id": "WsJGiMjHSQ6MpPd5wuP9h",
+            "name": "react-native-async-storage",
+            "type": "subtopic",
+            "description": "Async Storage is an unencrypted, asynchronous, persistent key-value storage system for React Native. It was removed from React Native core and now lives in the community package `@react-native-async-storage/async-storage`. It is primarily used for persisting small amounts of data offline, such as user preferences or session data.",
+            "resources": [
+              {
+                "type": "opensource",
+                "title": "Async Storage",
+                "url": "https://github.com/react-native-async-storage/async-storage"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-async-storage@WsJGiMjHSQ6MpPd5wuP9h.md"
+          },
+          {
+            "id": "NdjmP1bZNYriV08vb-iRw",
+            "name": "Storage",
+            "type": "subtopic",
+            "description": "Storage in React Native refers to the various methods used to save data persistently on a mobile device so that information remains available even after the application is closed. Developers typically choose between options like AsyncStorage for simple key-value pairs, SQLite for structured relational data, or Encrypted Storage for sensitive information. Because mobile devices are susceptible to physical access and local file system vulnerabilities, choosing the correct storage mechanism is essential for protecting user privacy and preventing unauthorized data extraction.",
+            "resources": [
+              {
+                "type": "opensource",
+                "title": "Async Storage",
+                "url": "https://github.com/react-native-async-storage/async-storage"
+              },
+              {
+                "type": "article",
+                "title": "Best Data Storage Option for React Native Apps",
+                "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/storage@NdjmP1bZNYriV08vb-iRw.md"
+          },
+          {
+            "id": "sPITeu8bS7n04NdEiBibY",
+            "name": "Permissions",
+            "type": "subtopic",
+            "description": "Permissions in React Native are how your app requests access to sensitive user data or device features, like the camera, microphone, or location. When your app needs to use one of these features, it must first ask the user for permission. This is done through native modules that interact with the underlying operating system (iOS or Android) to display a permission request dialog. The user can then grant or deny the request, and your app needs to handle both scenarios gracefully.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "PermissionsAndroid",
+                "url": "https://reactnative.dev/docs/permissionsandroid"
+              },
+              {
+                "type": "opensource",
+                "title": "react-native-permissions",
+                "url": "https://github.com/zoontek/react-native-permissions"
+              },
+              {
+                "type": "article",
+                "title": "Managing app permissions in React Native",
+                "url": "https://blog.logrocket.com/react-native-permissions/"
+              },
+              {
+                "type": "article",
+                "title": "Mastering Permission handling in React Native",
+                "url": "https://medium.com/@uddishverma22/mastering-permission-handling-in-react-native-2076862c7e7b"
+              },
+              {
+                "type": "video",
+                "title": "React Native Permissions Tutorial (react-native-permissions)",
+                "url": "https://www.youtube.com/watch?v=ZQzcVY3CoFQ"
+              },
+              {
+                "type": "video",
+                "title": "React Native Permissions: A Guide to Implementation",
+                "url": "https://www.youtube.com/watch?v=cUWGLik3nYQ"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/permissions@sPITeu8bS7n04NdEiBibY.md"
+          },
+          {
+            "id": "JgBfwmOgcVi_a96L5NGwr",
+            "name": "expo-secure-store",
+            "type": "subtopic",
+            "description": "Expo Secure Store is a built-in package provided by the Expo SDK to store encrypted data securely on users' devices. It is a key-value storage system, but it is not designed to store larger amounts of data such as app databases or complex data structures. It is most appropriate for storing secret keys, access tokens, and small user preferences.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "secure-store",
+                "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
+              },
+              {
+                "type": "opensource",
+                "title": "expo-secure-store package",
+                "url": "https://www.npmjs.com/package/expo-secure-store?activeTab=readme"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-secure-store@JgBfwmOgcVi_a96L5NGwr.md"
+          },
+          {
+            "id": "9pvrXH5Drdsa1cr93UBdc",
+            "name": "expo-file-system",
+            "type": "subtopic",
+            "description": "Expo File System is a universal module that provides access to the file system on the device. Using this module, you can perform various file operations like reading, writing, copying, moving, and deleting files and folders. It also supports reading file metadata and querying file URI.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Expo File System",
+                "url": "https://docs.expo.dev/versions/latest/sdk/filesystem/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-file-system@9pvrXH5Drdsa1cr93UBdc.md"
+          },
+          {
+            "id": "oK8z23a_CjcDjBJ843_Jn",
+            "name": "expo-sqlite",
+            "type": "subtopic",
+            "description": "expo-sqlite is a module that provides an interface for a local SQLite database in React Native applications. It allows developers to store, query, and manage structured data directly on a device using standard SQL commands. This library is designed to work seamlessly within the Expo ecosystem, providing a reliable way to persist data offline without needing to configure complex native database drivers.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "expo-sqlite",
+                "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+          },
+          {
+            "id": "vZMsm-MtsqmQMD-MG6zJY",
+            "name": "Other Storage Options",
+            "type": "subtopic",
+            "description": "Beyond basic local storage solutions, React Native applications often require more specialized ways to manage data. These options include libraries like SQLite for relational database management, Realm for high-performance object-oriented storage, or WatermelonDB for reactive data synchronization. These tools are typically used when an application needs to handle complex data structures, perform advanced queries, or maintain large datasets locally on the device.",
+            "resources": [
+              {
+                "type": "opensource",
+                "title": "Async Storage",
+                "url": "https://github.com/react-native-async-storage/async-storage"
+              },
+              {
+                "type": "opensource",
+                "title": "Realm - GitHub",
+                "url": "https://github.com/realm/realm-js"
+              },
+              {
+                "type": "article",
+                "title": "Firebase Realtime Database",
+                "url": "https://firebase.google.com/docs/database"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/other-storage-options@vZMsm-MtsqmQMD-MG6zJY.md"
+          }
+        ]
+      },
+      {
+        "id": "w0WW1kg_0BEMeLa1l2gb5",
+        "name": "Storage",
+        "type": "topic",
+        "description": "React Native offers several methods for persisting data locally within applications, each catering to different storage needs and use cases. The primary options include Async Storage, which provides a simple key-value storage system suitable for small-scale data; Expo Secure Store, designed for securely storing sensitive information; Expo File System, which allows for file management and storage; and Expo SQLite, which supports more complex data storage and querying capabilities. When selecting a storage option, it's essential to consider the specific requirements of your app.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Best Data Storage Option for React Native Apps",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/storage@w0WW1kg_0BEMeLa1l2gb5.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "06gsRokwjxVa2xyLY4qAb",
+            "name": "Jest",
+            "type": "subtopic",
+            "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Jest",
+                "url": "https://jestjs.io/"
+              },
+              {
+                "type": "official",
+                "title": "Jest Documentation",
+                "url": "https://jestjs.io/docs/getting-started"
+              },
+              {
+                "type": "video",
+                "title": "Jest Crash Course - Unit Testing in JavaScript",
+                "url": "https://www.youtube.com/watch?v=7r4xVDI2vho"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/jest@06gsRokwjxVa2xyLY4qAb.md"
+          }
+        ]
+      },
+      {
+        "id": "G15Aey-Spax_iUHpm1v38",
+        "name": "Testing",
+        "type": "topic",
+        "description": "Testing a React Native app usually combines Jest for unit and component tests, React Native Testing Library for rendering components and interacting with them the way a user would, and an end-to-end tool such as Detox, Appium, or Maestro that drives the app on a simulator or device.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Testing Overview",
+            "url": "https://reactnative.dev/docs/testing-overview"
+          },
+          {
+            "type": "official",
+            "title": "Detox",
+            "url": "https://wix.github.io/Detox/"
+          },
+          {
+            "type": "opensource",
+            "title": "React Native Testing Library",
+            "url": "https://github.com/callstack/react-native-testing-library"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/testing@G15Aey-Spax_iUHpm1v38.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "-b4LfjCjkSZ6ZsSv3eFm6",
+            "name": "React Native Testing Library",
+            "type": "subtopic",
+            "description": "React Native Testing Library (RNTL) is a collection of tools and utilities to test React Native components. It is built on top of the Testing Library ecosystem, designed to work seamlessly with Jest and other testing frameworks. Its primary goal is to enable efficient and effective testing by providing simple and intuitive APIs that promote best practices, like testing UI components in isolation and promoting accessibility checks.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "React Native Testing Library",
+                "url": "https://callstack.github.io/react-native-testing-library/"
+              },
+              {
+                "type": "article",
+                "title": "React Native Testing Library (Docs)",
+                "url": "https://testing-library.com/docs/react-native-testing-library/intro/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-testing-library@-b4LfjCjkSZ6ZsSv3eFm6.md"
+          },
+          {
+            "id": "3m7ANLJvtx3zie4y86MNU",
+            "name": "Detox",
+            "type": "subtopic",
+            "description": "Detox is an end-to-end testing framework for React Native applications. It enables you to run tests on an actual device or in a simulator/emulator environment. The goal of Detox is to maintain a high level of confidence in your application's behavior while allowing for quick test runs and easy debugging.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Detox Documentation",
+                "url": "https://wix.github.io/Detox/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/detox@3m7ANLJvtx3zie4y86MNU.md"
+          },
+          {
+            "id": "81tmis0km2h1zsjS2HsP5",
+            "name": "React Test Renderer",
+            "type": "subtopic",
+            "description": "React Test Renderer is a library provided by the React team that allows you to render React components as JavaScript objects without depending on the DOM or a native mobile environment. The package is now deprecated, and the React team recommends migrating tests to React Native Testing Library instead.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "react-test-renderer Deprecation Warnings",
+                "url": "https://react.dev/warnings/react-test-renderer"
+              },
+              {
+                "type": "official",
+                "title": "Testing React Native Apps with Jest",
+                "url": "https://jestjs.io/docs/tutorial-react-native"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-test-renderer@81tmis0km2h1zsjS2HsP5.md"
+          },
+          {
+            "id": "spTzJMS7cE0cNa7tVQhVQ",
+            "name": "Appium",
+            "type": "subtopic",
+            "description": "Appium is an open-source test automation framework for mobile devices, targeting native, hybrid, or mobile-web apps for iOS, Android, and Windows platforms. Appium works with multiple programming languages, including JavaScript, Ruby, Python, Java, and C#. Appium uses the WebDriver protocol, which allows you to write tests that can interact with your app through a series of commands. The WebDriver protocol interprets these commands into actions that are then performed on the app.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Appium Documentation",
+                "url": "https://appium.io/docs/en/latest/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/appium@spTzJMS7cE0cNa7tVQhVQ.md"
+          }
+        ]
+      },
+      {
+        "id": "NIJzKzWlsciAjxUpm4K2v",
+        "name": "Performance",
+        "type": "topic",
+        "description": "Performance is a crucial aspect of any application, and React Native is no exception. Optimizing performance in your React Native apps will not only lead to a better user experience but also lessen the load on device resources.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Performance",
+            "url": "https://reactnative.dev/docs/performance"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/performance@NIJzKzWlsciAjxUpm4K2v.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "1U3AiCDWEVEKsofWtqavi",
+            "name": "Understand Frame Rates",
+            "type": "subtopic",
+            "description": "Frame rate measures the frequency at which individual images, known as frames, are displayed on a screen to create the illusion of motion. In React Native applications, maintaining a consistent frame rate—typically 60 frames per second—is essential for ensuring that animations and transitions feel smooth and responsive to the user. When the frame rate drops, the interface experiences stuttering or lag, which occurs if the JavaScript thread or the UI thread becomes overwhelmed by heavy computations or inefficient rendering cycles.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Performance Overview",
+                "url": "https://reactnative.dev/docs/performance"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/understand-frame-rates@1U3AiCDWEVEKsofWtqavi.md"
+          },
+          {
+            "id": "afwB90L-q2hIwrA0LtWbG",
+            "name": "Common Problem Sources",
+            "type": "subtopic",
+            "description": "Performance issues in React Native often stem from an overloaded JavaScript thread, which handles business logic, API calls, and state management. When this thread becomes blocked by heavy computations or excessive re-renders, the user interface feels unresponsive or choppy. Other frequent causes include inefficient list rendering, large image assets that consume excessive memory, and unnecessary communication overhead between the JavaScript bridge and the native modules. Identifying these bottlenecks involves analyzing how components update their state and ensuring that resource-intensive tasks are offloaded to native code or handled asynchronously.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Performance Problems",
+                "url": "https://reactnative.dev/docs/performance#common-sources-of-performance-problems"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/common-problem-sources@afwB90L-q2hIwrA0LtWbG.md"
+          },
+          {
+            "id": "LL2ZkB7BuELyY2mPQhkAj",
+            "name": "Speeding up Builds",
+            "type": "subtopic",
+            "description": "Building your React Native app could be expensive and take several minutes of developers time. This can be problematic as your project grows and generally in bigger organizations with multiple React Native developers.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Speeding up your Build phase",
+                "url": "https://reactnative.dev/docs/build-speed"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/speeding-up-builds@LL2ZkB7BuELyY2mPQhkAj.md"
+          },
+          {
+            "id": "PyPjHnKIWpnFHal8RuSmX",
+            "name": "Optimizing Flatlist Config",
+            "type": "subtopic",
+            "description": "Optimizing Flatlist configuration involves fine-tuning the properties of the Flatlist component to improve scrolling performance and memory usage in large data lists. By leveraging props such as `initialNumToRender`, `maxToRenderPerBatch`, `windowSize`, and `removeClippedSubviews`, developers can control how many items are rendered at once and how off-screen elements are handled. Adjusting these settings reduces the workload on the JavaScript bridge and helps maintain a smooth frame rate during complex list interactions.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Optimizing Flatlist Configuration",
+                "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/optimizing-flatlist-config@PyPjHnKIWpnFHal8RuSmX.md"
+          },
+          {
+            "id": "u5I-EOnA_yt6AQsRX-qr0",
+            "name": "RAM Bundles + Inline Requires",
+            "type": "subtopic",
+            "description": "Inline requires defer loading a module until it is first used instead of at startup, which trims the time to interactive for apps with many screens or rarely used features. Random Access Module (RAM) bundles are an older format that served the same purpose by loading modules on demand, but they are not supported with Hermes, whose bytecode gives the same or better startup performance. On current React Native versions, prefer Hermes, lazy-loading screen-level components, and inline requires, which the React Native CLI applies automatically.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Optimizing JavaScript loading",
+                "url": "https://reactnative.dev/docs/optimizing-javascript-loading"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/ram-bundles--inline-requires@u5I-EOnA_yt6AQsRX-qr0.md"
+          },
+          {
+            "id": "apXv-E6LvOuOMj3EpzwuA",
+            "name": "Profiling",
+            "type": "subtopic",
+            "description": "Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu. For iOS, Instruments is an invaluable tool, and on Android you should learn to use `systrace`.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Profiling React Native",
+                "url": "https://reactnative.dev/docs/profiling"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/profiling@apXv-E6LvOuOMj3EpzwuA.md"
+          }
+        ]
+      },
+      {
+        "id": "0BMpZDc-1rSvETwX82zON",
+        "name": "Using Native Modules",
+        "type": "topic",
+        "description": "Native Modules allow React Native applications to access platform-specific features and native APIs that are not available through the default JavaScript bridge. By writing custom code in languages like Swift or Objective-C for iOS, and Java or Kotlin for Android, developers can integrate high-performance native libraries or device-specific hardware functionality directly into their applications. This mechanism enables the execution of complex tasks that require direct interaction with the underlying operating system.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Native Modules Introduction",
+            "url": "https://reactnative.dev/docs/native-platform"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/using-native-modules@0BMpZDc-1rSvETwX82zON.md",
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "b-1-JcwLSGMyH3gXS59lY",
+            "name": "For iOS",
+            "type": "subtopic",
+            "description": "iOS native modules in React Native allow developers to tap into the rich ecosystem of iOS features and functionalities that are not directly accessible through the standard React Native APIs. For instance, a Camera module can be implemented using the AVFoundation framework, enabling developers to capture photos and videos directly from their applications.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "iOS Native Modules",
+                "url": "https://reactnative.dev/docs/legacy/native-modules-ios"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/for-ios@b-1-JcwLSGMyH3gXS59lY.md"
+          },
+          {
+            "id": "wMxTB8WgU6e-oYMtQFCDY",
+            "name": "For Android",
+            "type": "subtopic",
+            "description": "Native modules in React Native provide a powerful way to access device-specific features and capabilities that are not available through the standard React Native APIs. For example, a Bluetooth module can be created using the Android Bluetooth API, allowing applications to scan for nearby Bluetooth devices, connect to them, and transfer data.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Android Native Modules",
+                "url": "https://reactnative.dev/docs/legacy/native-modules-android"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/for-android@wMxTB8WgU6e-oYMtQFCDY.md"
+          }
+        ]
+      },
+      {
+        "id": "4U-HZQGH7kaWCB94Xy8Mh",
+        "name": "Publishing Apps",
+        "type": "topic",
+        "description": "Publishing React Native apps is the process of deploying your application on various app stores so that users can download and use your app. The two most popular app stores for publishing are the Apple App Store (iOS) and the Google Play Store (Android).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Publishing to Apple App Store",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store"
+          },
+          {
+            "type": "official",
+            "title": "Publishing to Google Play Store",
+            "url": "https://reactnative.dev/docs/signed-apk-android"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md",
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "1s9Y1dUtjpW9pu74ipX99",
+            "name": "Apple App store",
+            "type": "subtopic",
+            "description": "The App Store is Apple's official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Publishing to Apple App Store",
+                "url": "https://reactnative.dev/docs/publishing-to-app-store"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/apple-app-store@1s9Y1dUtjpW9pu74ipX99.md"
+          },
+          {
+            "id": "D8T9cZ5zKi_KZDr9tDpCf",
+            "name": "Google Play Store",
+            "type": "subtopic",
+            "description": "Google Play Store is a digital distribution platform that allows developers to publish and release their React Native applications to Android users worldwide. To distribute an app, developers must create a Google Play Console account, sign their application with a secure keystore file, and generate an Android App Bundle (AAB). Once the bundle is uploaded, the app undergoes a review process by Google to ensure it meets safety and quality standards before it becomes available for download on the store.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Publishing to Google Play Store",
+                "url": "https://reactnative.dev/docs/signed-apk-android"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/google-play-store@D8T9cZ5zKi_KZDr9tDpCf.md"
+          }
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "JfXwzkN29UGz17FYHHE3A",
+        "name": "Introduction",
+        "type": "topic",
+        "description": "React Native is an open-source framework developed by Facebook that allows developers to build mobile applications using JavaScript (or TypeScript) and React. It enables building apps for both iOS and Android platforms by offering a shared codebase, which significantly reduces development time and effort.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "React Native",
+            "url": "https://reactnative.dev/"
+          },
+          {
+            "type": "official",
+            "title": "Getting Started with React Native",
+            "url": "https://reactnative.dev/docs/getting-started"
+          },
+          {
+            "type": "video",
+            "title": "React Native Course for Beginners in 2025 | Build a Full Stack React Native App",
+            "url": "https://www.youtube.com/watch?v=f8Z9JyB2EIE"
+          }
+        ]
+      },
+      {
+        "id": "cMfsRtvzvDZZJ0TqeUOxm",
+        "name": "What is React Native?",
+        "type": "subtopic",
+        "description": "React Native is an open-source framework created by Meta that allows developers to build mobile applications for iOS and Android using JavaScript and React. It enables the creation of apps that provide a native look and feel by leveraging native platform components rather than using web views. Because it shares a single codebase, developers can efficiently maintain and deploy applications across multiple mobile platforms simultaneously.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Getting Started with React Native",
+            "url": "https://reactnative.dev/docs/getting-started"
+          }
+        ]
+      },
+      {
+        "id": "2rlmLn_yQQV-7DpX1qT98",
+        "name": "Why use React Native?",
+        "type": "subtopic",
+        "description": "React Native allows developers to build mobile applications for both iOS and Android using a single codebase written in JavaScript and React. It achieves this by bridging your code to native platform components, which provides a smooth user experience and performance similar to apps built with platform-specific languages. This approach reduces development time and maintenance costs because most of the logic is shared across different mobile platforms.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Native: What is it? and, Why is it used?",
+            "url": "https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df"
+          }
+        ]
+      },
+      {
+        "id": "ODQ8zrHc2rsc8PN-APKvz",
+        "name": "React Native Alternatives",
+        "type": "subtopic",
+        "description": "React Native is a popular choice for cross-platform application development, but there are other options available. Some of the common alternatives to React Native are Flutter, Ionic and Xamarin. Flutter being the most popular alternative to React Native.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Flutter",
+            "url": "https://flutter.dev/"
+          },
+          {
+            "type": "official",
+            "title": "Ionic",
+            "url": "https://ionicframework.com/"
+          },
+          {
+            "type": "official",
+            "title": "Xamarin",
+            "url": "https://dotnet.microsoft.com/apps/xamarin"
+          }
+        ]
+      },
+      {
+        "id": "cSXsu17F1Oy34Wp6J-N3C",
+        "name": "Learn the Pre-requisites",
+        "type": "topic",
+        "description": "Before you start learning React Native, you should have a basic knowledge of JavaScript and React. You don't need to fully master these topics, but you should be familiar with them. Learn the basics of JavaScript (e.g. topics marked for beginners in JavaScript Roadmap and continue with React Native.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          },
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated React Roadmap",
+            "url": "https://roadmap.sh/react"
+          },
+          {
+            "type": "official",
+            "title": "React Native Basics",
+            "url": "https://reactnative.dev/docs/getting-started"
+          }
+        ]
+      },
+      {
+        "id": "1oUJXtHGQ29ZZU9sxwGo2",
+        "name": "JavaScript Basics",
+        "type": "subtopic",
+        "description": "JavaScript is a versatile programming language that serves as the foundation for building interactive and dynamic applications. It enables developers to manipulate content, control multimedia, animate elements, and handle complex logic within a codebase. In the React Native environment, a solid understanding of JavaScript syntax, functions, objects, and asynchronous operations is essential for creating mobile components and managing application data flow.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          }
+        ]
+      },
+      {
+        "id": "SnF3xtzBh-x4Z_qUQUg7H",
+        "name": "CSS Basics",
+        "type": "subtopic",
+        "description": "CSS is a stylesheet language used for describing the look and formatting of a document written in HTML or XML. It is primarily used for styling web pages and user interfaces written in HTML and XHTML. React native uses CSS to style its components. You can learn some CSS basics to get started with React Native and learn more as you go.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated CSS Roadmap",
+            "url": "https://roadmap.sh/css"
+          },
+          {
+            "type": "official",
+            "title": "CSS - W3.org",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html"
+          },
+          {
+            "type": "official",
+            "title": "CSS - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          }
+        ]
+      },
+      {
+        "id": "k9_hVOBd9ZmC4HLuAf46v",
+        "name": "Components",
+        "type": "subtopic",
+        "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component"
+          },
+          {
+            "type": "official",
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component"
+          }
+        ]
+      },
+      {
+        "id": "s5YKenJY2Xv_PZBSxegEm",
+        "name": "JSX",
+        "type": "subtopic",
+        "description": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code. It was developed to be used with React and has become an integral part of working with React.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component"
+          },
+          {
+            "type": "official",
+            "title": "Writing Markup with JSX",
+            "url": "https://react.dev/learn/writing-markup-with-jsx"
+          },
+          {
+            "type": "official",
+            "title": "JavaScript in JSX with Curly Braces",
+            "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+          }
+        ]
+      },
+      {
+        "id": "V7r1Hqk9IXTfjkjAg7-BT",
+        "name": "State",
+        "type": "subtopic",
+        "description": "State is an object that holds data managed within a React component. It allows components to become dynamic and interactive by keeping track of its data changes. When the state of a component changes, React re-renders the component and updates the DOM accordingly.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Component State",
+            "url": "https://react.dev/learn/managing-state"
+          }
+        ]
+      },
+      {
+        "id": "0gH7vI_Hy7s9hO2TF6hR3",
+        "name": "Props",
+        "type": "subtopic",
+        "description": "In React, **props** are short for _properties_ and are used to pass data from a parent component to a child component. They are similar to function arguments, and they help make components reusable and maintainable.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component"
+          },
+          {
+            "type": "official",
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component"
+          }
+        ]
+      },
+      {
+        "id": "lNmddXrT8IHVtWobh3-oq",
+        "name": "Environment Setup",
+        "type": "topic",
+        "description": "Environment setup involves configuring your local machine with the necessary tools, software, and dependencies required to build, run, and test mobile applications. This process typically includes installing Node.js, the React Native CLI or Expo CLI, and the specific software development kits for platforms like Android and iOS, such as Android Studio or Xcode. Properly configuring these tools ensures that your development environment can communicate effectively with emulators, simulators, or physical devices during the coding process.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Set Up Your Environment",
+            "url": "https://reactnative.dev/docs/set-up-your-environment"
+          },
+          {
+            "type": "official",
+            "title": "Get Started Without a Framework",
+            "url": "https://reactnative.dev/docs/getting-started-without-a-framework"
+          },
+          {
+            "type": "official",
+            "title": "Create a project with Expo",
+            "url": "https://docs.expo.dev/get-started/create-a-project/"
+          }
+        ]
+      },
+      {
+        "id": "bxWLf0RDAl9Zaczkon9Rl",
+        "name": "React Native CLI",
+        "type": "subtopic",
+        "description": "The React Native Community CLI (`@react-native-community/cli`) is the command-line tool for creating and running React Native apps without a framework such as Expo. This method requires you to manually set up the native development environment and tools needed for iOS and Android app development.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get Started Without a Framework",
+            "url": "https://reactnative.dev/docs/getting-started-without-a-framework"
+          },
+          {
+            "type": "opensource",
+            "title": "React Native Community CLI",
+            "url": "https://github.com/react-native-community/cli"
+          }
+        ]
+      },
+      {
+        "id": "VhSEH_RoWFt1z2lial7xZ",
+        "name": "Metro Bundler",
+        "type": "subtopic",
+        "description": "Metro Bundler is the default bundler for React Native applications. It's a JavaScript module bundler that takes all your application code and dependencies, and bundles them together into a single JavaScript file or multiple files (based on platform).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Metro Bundler",
+            "url": "https://metrobundler.dev/"
+          },
+          {
+            "type": "official",
+            "title": "Metro in React Native",
+            "url": "https://reactnative.dev/docs/metro"
+          }
+        ]
+      },
+      {
+        "id": "yW7nDDJbjmm8XKJI0hq3Q",
+        "name": "Expo",
+        "type": "subtopic",
+        "description": "Expo is a framework and platform for React Native that simplifies the development process by providing a set of tools and services that abstract away complex native code configurations. It allows developers to build, test, and deploy applications across iOS, Android, and the web using a unified codebase. By managing the underlying build environment, Expo enables users to focus on writing JavaScript or TypeScript code without needing to constantly interact with Xcode or Android Studio.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Expo Documentation",
+            "url": "https://docs.expo.dev/"
+          }
+        ]
+      },
+      {
+        "id": "uLH9eo2G09wGO80XtFI5x",
+        "name": "create-expo-app",
+        "type": "subtopic",
+        "description": "`create-expo-app` is a command line tool that generates a React Native project that works out of the box with Expo. It is the easiest way to get started building a new React Native application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Create Expo App",
+            "url": "https://docs.expo.dev/tutorial/create-your-first-app/"
+          }
+        ]
+      },
+      {
+        "id": "9eOwhh2k59nvH-ztuDNjg",
+        "name": "Expo Snack",
+        "type": "subtopic",
+        "description": "Expo Snack is an online playground and development environment for creating and testing React Native projects. With Snack, you can easily edit and preview your code changes directly in your browser or on a mobile device using the Expo Go app. It offers a fast, easy, and convenient way to develop, test, and share your projects without needing to set up a local development environment.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Expo Snack",
+            "url": "https://snack.expo.dev/"
+          }
+        ]
+      },
+      {
+        "id": "zzOyoDcAQYkNNv07TIKeZ",
+        "name": "Expo Tradeoffs",
+        "type": "subtopic",
+        "description": "Expo is a managed framework that simplifies React Native development by providing a set of pre-built tools, libraries, and services. While it offers a faster development cycle and easier configuration, it comes with specific limitations regarding native code control. Developers using Expo cannot easily add custom native modules that require direct modification of the Android or iOS project files without using the \"eject\" process or development builds. Furthermore, the reliance on the Expo SDK means that project updates must align with their release schedule, which can occasionally lead to dependency conflicts when using highly specific third-party native libraries.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Should you use Expo or Bare React Native?",
+            "url": "https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468/"
+          }
+        ]
+      },
+      {
+        "id": "T4AhL9Zls2iNZMituGdtl",
+        "name": "Development Workflow",
+        "type": "topic",
+        "description": "The development workflow in React Native involves a continuous cycle of writing code, testing components, and refining the user interface across both iOS and Android platforms. Developers typically utilize tools like Metro Bundler to compile JavaScript code in real-time, allowing for immediate feedback through features like Fast Refresh. This process integrates version control systems, debugging",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device"
+          },
+          {
+            "type": "article",
+            "title": "Continuous Integration and Deployment for React Native Apps",
+            "url": "https://dev.to/medaimane/continuous-integration-and-deployment-for-react-native-apps-streamlining-development-workflow-4i04"
+          }
+        ]
+      },
+      {
+        "id": "KyKMZ8Aa5XUAIWelGTiSt",
+        "name": "Running on Device",
+        "type": "subtopic",
+        "description": "Running your React Native application on a physical device allows you to test your code in a real-world environment, providing a more accurate representation of performance, touch interactions, and hardware integration compared to an emulator or simulator. To achieve this, you connect your mobile device to your development machine via USB or a local Wi-Fi network and use tools like Metro Bundler to transmit the application bundle directly to the device. This process enables developers to utilize features like Fast Refresh to see code changes instantly on their phone screen, ensuring that the user experience remains consistent across different hardware configurations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device"
+          }
+        ]
+      },
+      {
+        "id": "tOt_vvmnBtOUbgokmVa5P",
+        "name": "In-App Developer Menu",
+        "type": "subtopic",
+        "description": "The In-App Developer Menu is a built-in interface in React Native that provides essential tools for debugging and development. By triggering this menu through a specific gesture or keyboard shortcut, you can access features such as refreshing the application, enabling fast refresh, inspecting elements, and toggling performance monitors. It serves as a central control panel that allows you to manage your app's state and development settings directly on the device or simulator while you write your code.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Debugging",
+            "url": "https://reactnative.dev/docs/debugging"
+          }
+        ]
+      },
+      {
+        "id": "UqCpoPzYio3ng3RFlbvZ7",
+        "name": "SafeAreaView",
+        "type": "subtopic",
+        "description": "SafeAreaView is a component designed to render content within the safe area boundaries of a device screen. It automatically applies padding to ensure that your UI elements, such as text or buttons, are not obscured by system notches, home indicators, or rounded corners found on modern smartphones. By wrapping your content in this component, you maintain a clean layout that remains visible and accessible across different device models.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SafeAreaView",
+            "url": "https://reactnative.dev/docs/safeareaview"
+          }
+        ]
+      },
+      {
+        "id": "wWwaEdnvBsvj6jD9LJ4Jj",
+        "name": "Enabling Fast Refresh",
+        "type": "subtopic",
+        "description": "Fast Refresh is a React Native feature that allows you to get near-instant feedback while making changes in your code. It achieves this by reloading only the portion of the app that was changed, without losing the current state. This makes the development process a lot smoother as you don't have to wait for the entire app to rebuild after making a change.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Fast Refresh",
+            "url": "https://reactnative.dev/docs/fast-refresh"
+          }
+        ]
+      },
+      {
+        "id": "GrFL32pZ_eOmdJRzSlH8b",
+        "name": "View",
+        "type": "subtopic",
+        "description": "`View` is the fundamental layout container in React Native, similar to a `div` in web development. It supports flexbox layout, styling, touch handling, and nesting, and is the building block for nearly every screen and component.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "View",
+            "url": "https://reactnative.dev/docs/view"
+          }
+        ]
+      },
+      {
+        "id": "8bn1PFd9h0ek6_T-cl1cS",
+        "name": "KeyboardAvoidingView",
+        "type": "subtopic",
+        "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "KeyboardAvoidingView",
+            "url": "https://reactnative.dev/docs/keyboardavoidingview"
+          }
+        ]
+      },
+      {
+        "id": "Tz-bRjQVkZedphelhAlWM",
+        "name": "LogBox",
+        "type": "subtopic",
+        "description": "LogBox is React Native's in-app display for logs, warnings, and errors during development. It groups and formats them, with stack traces for errors, so problems are easier to spot and address in your code.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Debugging LogBox",
+            "url": "https://reactnative.dev/docs/debugging#logbox"
+          }
+        ]
+      },
+      {
+        "id": "Dq490IqEJXoFZRnBFJI8N",
+        "name": "Sourcemaps",
+        "type": "subtopic",
+        "description": "Sourcemaps are files that act as a bridge between your bundled, minified JavaScript code and the original source code you actually wrote. When an error occurs in a production environment, the stack trace typically points to the transformed bundle, which is difficult to read. By using sourcemaps, developer tools can map these obfuscated locations back to the exact files and line numbers in your original project, making it much easier to identify and fix bugs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SourceMaps",
+            "url": "https://reactnative.dev/docs/debugging-release-builds#enabling-source-maps"
+          },
+          {
+            "type": "article",
+            "title": "Source Maps (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map"
+          }
+        ]
+      },
+      {
+        "id": "HHx3VSfV7xf6RqACrxjBf",
+        "name": "DevTools",
+        "type": "subtopic",
+        "description": "React Native DevTools is the modern, built-in debugging experience for React Native. It is designed for debugging React app concerns, such as inspecting components, stepping through JavaScript, and profiling, while the native layers are still debugged with the tools in Android Studio and Xcode.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "React Native DevTools",
+            "url": "https://reactnative.dev/docs/react-native-devtools"
+          },
+          {
+            "type": "official",
+            "title": "React DevTools",
+            "url": "https://reactnative.dev/docs/react-devtools"
+          }
+        ]
+      },
+      {
+        "id": "fnujIq6QAFB6bmTisuZ3T",
+        "name": "Core Components",
+        "type": "topic",
+        "description": "Core Components are the fundamental building blocks provided by React Native that map directly to native platform UI elements. Instead of using standard web elements like `<div>` or `<span>`, React Native uses components such as `<View>` for layout, `<Text>` for displaying strings, and `<Image>` for rendering pictures. These components translate to their respective native counterparts on iOS and Android, allowing developers to create authentic mobile experiences using JavaScript and React.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Core Components and APIs",
+            "url": "https://reactnative.dev/docs/components-and-apis"
+          },
+          {
+            "type": "official",
+            "title": "Core Components and Native Components",
+            "url": "https://reactnative.dev/docs/intro-react-native-components"
+          }
+        ]
+      },
+      {
+        "id": "Frz1RYp3y9OwRb-3t2e85",
+        "name": "Text Input",
+        "type": "subtopic",
+        "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Text Input",
+            "url": "https://reactnative.dev/docs/textinput"
+          }
+        ]
+      },
+      {
+        "id": "OFhyYyxtrCBy_UUb5YBv5",
+        "name": "Text",
+        "type": "subtopic",
+        "description": "The `Text` component is a basic element in React Native used to display text content on the screen. While it has some basic styling properties, you usually nest it inside other components (e.g., `View`) to create more complex UIs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Text",
+            "url": "https://reactnative.dev/docs/text"
+          }
+        ]
+      },
+      {
+        "id": "E7N8tSg2amZW-vc-X46JU",
+        "name": "Image",
+        "type": "subtopic",
+        "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Image",
+            "url": "https://reactnative.dev/docs/image"
+          }
+        ]
+      },
+      {
+        "id": "kkH9H9Qh1FD7sLItoWw69",
+        "name": "Button",
+        "type": "subtopic",
+        "description": "A `Button` is a built-in React Native component used to create clickable buttons. It is a simple, customizable and easy-to-use component that captures touches and triggers an `onPress` event when pressed.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Button",
+            "url": "https://reactnative.dev/docs/button"
+          }
+        ]
+      },
+      {
+        "id": "x-OZCZcX6uhN3Yr5BAATn",
+        "name": "Listings",
+        "type": "subtopic",
+        "description": "Listings in React Native — primarily `FlatList` and `SectionList` — are the core components for rendering scrollable lists. They are optimized for large data sets with lazy row rendering, pull-to-refresh, header and footer support, and per-row memoization for better performance.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Using List Views",
+            "url": "https://reactnative.dev/docs/using-a-listview"
+          },
+          {
+            "type": "official",
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/flatlist"
+          },
+          {
+            "type": "official",
+            "title": "SectionList",
+            "url": "https://reactnative.dev/docs/sectionlist"
+          }
+        ]
+      },
+      {
+        "id": "ouNTekf4VpZv-Vja8_bfM",
+        "name": "Switch",
+        "type": "subtopic",
+        "description": "A Switch is a visual component in React Native that provides a toggle interface for users to switch between two states, typically on and off. It functions as a controlled component, meaning it relies on a boolean value passed through properties to determine its current state and a callback function to handle changes when the user interacts with it. This component is commonly used in settings menus or forms where a binary selection is required.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Switch",
+            "url": "https://reactnative.dev/docs/switch"
+          }
+        ]
+      },
+      {
+        "id": "GFGhnx5xUer2DdRI-SO4D",
+        "name": "ImageBackground",
+        "type": "subtopic",
+        "description": "`ImageBackground` is a React Native core component that allows you to display an image as a background while still being able to place content inside the component. This helps in creating beautiful layouts with images and text or other content on top.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Image Background",
+            "url": "https://reactnative.dev/docs/imagebackground"
+          }
+        ]
+      },
+      {
+        "id": "hHFR59RrdMIWxcQe72qCs",
+        "name": "ActivityIndicator",
+        "type": "subtopic",
+        "description": "The `ActivityIndicator` is a core component in React Native that provides a simple visual indication of some ongoing activity or loading state within your application. It shows a spinning animation, which gives the user feedback that something is happening in the background. This component is particularly useful when fetching data from an external source, like a server, or while performing time-consuming operations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Activity Indicator",
+            "url": "https://reactnative.dev/docs/activityindicator"
+          }
+        ]
+      },
+      {
+        "id": "QOOZs9qtz49agfZwi6k1B",
+        "name": "StatusBar",
+        "type": "subtopic",
+        "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "StatusBar",
+            "url": "https://reactnative.dev/docs/statusbar"
+          }
+        ]
+      },
+      {
+        "id": "V34mZCkpoT49o-74XoATS",
+        "name": "Modal",
+        "type": "subtopic",
+        "description": "A `Modal` is a component that displays content on top of the current view, creating an overlay that can be used for various purposes, such as displaying additional information, confirmation messages, or a selection menu.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Modal",
+            "url": "https://reactnative.dev/docs/modal"
+          }
+        ]
+      },
+      {
+        "id": "4BgVq-cZYEXgqktvlNnet",
+        "name": "Pressable",
+        "type": "subtopic",
+        "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Pressable",
+            "url": "https://reactnative.dev/docs/pressable"
+          }
+        ]
+      },
+      {
+        "id": "HiUbRfOv8OttFd85pDUHN",
+        "name": "Writing Platform Specific Code",
+        "type": "topic",
+        "description": "Writing platform-specific code involves using specialized techniques to implement features or UI components that behave differently on iOS and Android. React Native provides tools like the `Platform` module to detect the operating system at runtime and file extensions such as `.ios.js` or `.android.js` to separate implementation files. This approach allows developers to access native APIs unique to a single platform while maintaining a shared codebase for the rest of the application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code"
+          },
+          {
+            "type": "official",
+            "title": "App Extensions",
+            "url": "https://reactnative.dev/docs/app-extensions"
+          }
+        ]
+      },
+      {
+        "id": "yN283SRWoALOEZh9iTn-L",
+        "name": "ScrollView",
+        "type": "subtopic",
+        "description": "In React Native, the `ScrollView` is a generic scrolling container used to provide a scrollable view to its child components. It is useful when you need to display scrollable content larger than the screen, such as lists, images, or text. A `ScrollView` must have a bounded height in order to properly work.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "ScrollView",
+            "url": "https://reactnative.dev/docs/ScrollView"
+          }
+        ]
+      },
+      {
+        "id": "h3ypxGxeHDCTxURHg6D2d",
+        "name": "ListViews",
+        "type": "subtopic",
+        "description": "`ListView` was the original list component in React Native, now superseded by the more efficient `FlatList` and `SectionList`. These components render data in a performant, scrollable way by only mounting rows near the viewport, and support features like separators, empty states, and pull-to-refresh.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Using List Views",
+            "url": "https://reactnative.dev/docs/using-a-listview"
+          },
+          {
+            "type": "official",
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/flatlist"
+          },
+          {
+            "type": "official",
+            "title": "SectionList",
+            "url": "https://reactnative.dev/docs/sectionlist"
+          }
+        ]
+      },
+      {
+        "id": "CYqLNGyOe9f9hVhbyUnTX",
+        "name": "FlatList",
+        "type": "subtopic",
+        "description": "`FlatList` is a `React Native` core component that displays a scrolling list of changing, but similarly structured, data. It is an efficient list component that makes use of a limited scrolling `renderWindow`, reducing the memory footprint and creating smooth scrolling. Additionally, `FlatList` supports-Headers, Footers, Pull-to-refresh, and Horizontal scrolling, among other things.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/flatlist"
+          }
+        ]
+      },
+      {
+        "id": "gLJMD9X7chy8OxdALht8g",
+        "name": "SectionList",
+        "type": "subtopic",
+        "description": "`SectionList` is a component used to render sections and headers in a scroll view. It helps to manage and optimize a large list of items divided into categories. It is one of the List View components provided by React Native along with FlatList.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SectionList",
+            "url": "https://reactnative.dev/docs/sectionlist"
+          }
+        ]
+      },
+      {
+        "id": "m8Nu71Y61Ha_fLxdtWTkn",
+        "name": "RefreshControl",
+        "type": "subtopic",
+        "description": "`RefreshControl` is a component in React Native that is used to provide pull-to-refresh functionality for scrollable components like `ScrollView`, `ListView`, and `FlatList`.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Refresh Control",
+            "url": "https://reactnative.dev/docs/refreshcontrol"
+          },
+          {
+            "type": "official",
+            "title": "ScrollView",
+            "url": "https://reactnative.dev/docs/ScrollView"
+          },
+          {
+            "type": "official",
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/FlatList"
+          }
+        ]
+      },
+      {
+        "id": "KZIrRSYq_I-YzpFaYLuWi",
+        "name": "Platform Module",
+        "type": "subtopic",
+        "description": "The Platform module in React Native provides a simple way to detect the operating system on which your application is currently running. It exposes a constant that allows you to branch your code logic based on whether the app is executing on iOS, Android, or other supported platforms. Developers use this module to apply platform-specific styles, components, or behaviors to ensure the user interface behaves appropriately for each environment.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Platform",
+            "url": "https://reactnative.dev/docs/platform"
+          },
+          {
+            "type": "official",
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code"
+          }
+        ]
+      },
+      {
+        "id": "LLANnVosxOUCPTtuBfNgu",
+        "name": "File Extensions",
+        "type": "subtopic",
+        "description": "File extensions like `.ios.js` and `.android.js` allow React Native to automatically select the correct implementation based on the platform where the application is running. When you import a module with these specific extensions, the packager detects the operating system and loads the file that matches the target platform. This mechanism enables developers to maintain separate logic or UI components for iOS and Android within the same codebase while keeping imports clean and simple.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code"
+          },
+          {
+            "type": "official",
+            "title": "App Extensions",
+            "url": "https://reactnative.dev/docs/app-extensions"
+          }
+        ]
+      },
+      {
+        "id": "UQpyXrC2cs_jDXxVTlQOu",
+        "name": "react-native-web",
+        "type": "subtopic",
+        "description": "React Native for Web is a library that allows developers to run React Native components and APIs on the web using React DOM. It maps React Native components, such as Views and Text, to their equivalent HTML elements, enabling the reuse of a single codebase across mobile and browser platforms. This integration ensures that styles and interactions defined in React Native are translated effectively into standard web technologies.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "react-native-web - npm",
+            "url": "https://www.npmjs.com/package/react-native-web"
+          },
+          {
+            "type": "article",
+            "title": "Complete Guide to React Native for Web",
+            "url": "https://blog.logrocket.com/complete-guide-react-native-web/"
+          }
+        ]
+      },
+      {
+        "id": "ervpuL89myBW3oR9r-4lH",
+        "name": "Styling",
+        "type": "topic",
+        "description": "Styling in React Native is handled using a system that closely resembles CSS but is implemented through JavaScript objects. Developers define styles using the `StyleSheet.create` method, which organizes layout properties such as flexbox, colors, and spacing to determine how components appear on the screen. Because React Native uses a subset of standard CSS properties, it relies heavily on the Flexbox layout engine to manage the positioning and alignment of elements within a mobile interface.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Styling",
+            "url": "https://reactnative.dev/docs/style"
+          }
+        ]
+      },
+      {
+        "id": "wB0D9koC6jpt1rzX8F07F",
+        "name": "Stylesheets",
+        "type": "subtopic",
+        "description": "In React Native, stylesheets are objects that define the appearance of components. They provide a way to separate styling from the component's logic. Stylesheets are created using `StyleSheet.create` method, which ensures a standardized and efficient way to manage styles for your components.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Stylesheets",
+            "url": "https://reactnative.dev/docs/stylesheet"
+          }
+        ]
+      },
+      {
+        "id": "e-r3tuRZ3PzhFegES0oOm",
+        "name": "Layouts & Flexbox",
+        "type": "subtopic",
+        "description": "Layouts and Flexbox in React Native provide a system for arranging elements on the screen. It is based on the CSS Flexbox algorithm, which allows you to define how components are positioned, spaced, and sized within a container. By using properties like `flexDirection`, `justifyContent`, and `alignItems`, you can create responsive designs that adapt to different screen sizes and orientations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Flexbox",
+            "url": "https://reactnative.dev/docs/flexbox"
+          },
+          {
+            "type": "official",
+            "title": "Layout Props",
+            "url": "https://reactnative.dev/docs/layout-props"
+          }
+        ]
+      },
+      {
+        "id": "KoXTwQUqPt_ZhOFuaelny",
+        "name": "Accessibility",
+        "type": "subtopic",
+        "description": "Accessibility (often abbreviated as a11y) in React Native is a crucial aspect of application development that ensures your applications are usable by everyone, including individuals with disabilities. This commitment to inclusivity is not just a legal requirement in many jurisdictions but also a moral imperative that enhances the user experience for all. React Native provides a comprehensive set of accessibility features, attributes, and APIs that allow developers to create applications that cater to diverse user needs. By implementing these features, developers can ensure that their applications are navigable and usable by individuals with visual, auditory, motor, or cognitive impairments.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Accessibility",
+            "url": "https://reactnative.dev/docs/accessibility"
+          }
+        ]
+      },
+      {
+        "id": "7GBV5sfOaGxHwpkNUvFWE",
+        "name": "Networking",
+        "type": "topic",
+        "description": "Networking in React Native allows applications to communicate with remote servers to fetch or send data using standard web protocols. Developers typically utilize the built-in Fetch API to perform HTTP requests, which handles asynchronous data retrieval in a way that is consistent with modern web standards. For more complex requirements, such as managing cookies, handling authentication headers, or tracking upload progress, libraries like Axios are commonly integrated into projects to simplify request configuration and response handling.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Networking",
+            "url": "https://reactnative.dev/docs/network"
+          },
+          {
+            "type": "official",
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          },
+          {
+            "type": "official",
+            "title": "Axios",
+            "url": "https://axios-http.com/docs/intro"
+          },
+          {
+            "type": "article",
+            "title": "Managing network connection status in React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/"
+          }
+        ]
+      },
+      {
+        "id": "k7uVPyhbPgvO6HxAfxxYZ",
+        "name": "Connectivity Status",
+        "type": "subtopic",
+        "description": "Connectivity refers to the mechanisms that allow data transfer between your React Native app and external resources through various means of communication. It is essential to ensure efficient communication with APIs, servers, and external systems, to update your app's data, fetching content or enabling real-time interactions. The community NetInfo package reports the device's connection type and whether the internet is reachable, and lets you subscribe to changes so the app can react when the user goes offline.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "React Native NetInfo",
+            "url": "https://github.com/react-native-netinfo/react-native-netinfo"
+          },
+          {
+            "type": "article",
+            "title": "Managing network connection status in React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/"
+          }
+        ]
+      },
+      {
+        "id": "aSCgax1M4wlmzkJSZV_fv",
+        "name": "WebSockets",
+        "type": "subtopic",
+        "description": "WebSockets are a protocol that allows full-duplex communication between a client and a server over a single, long-lived connection. They are useful when real-time communication is needed, such as in chat applications, online gaming, or financial trading platforms. React Native ships with a built-in `WebSocket` implementation that follows the same API as the browser.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Networking: WebSocket Support",
+            "url": "https://reactnative.dev/docs/network"
+          },
+          {
+            "type": "article",
+            "title": "The WebSocket API (WebSockets) - Web APIs",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+          },
+          {
+            "type": "article",
+            "title": "WebSocket vs HTTP: Which Protocol Should You Use?",
+            "url": "https://roadmap.sh/network-engineer/websocket-vs-http"
+          },
+          {
+            "type": "article",
+            "title": "WebSocket vs. SSE: Full Comparison for Real-Time Apps",
+            "url": "https://roadmap.sh/network-engineer/websocket-vs-sse"
+          }
+        ]
+      },
+      {
+        "id": "f7KFPFS2-EA90pumYHM9T",
+        "name": "Fetch",
+        "type": "subtopic",
+        "description": "_Fetch_ is a JavaScript function available in React Native that is used to make network requests, similar to XMLHttpRequest in web applications. It allows you to handle requests and retrieve data from APIs or other sources. The Fetch API is built on Promises, making it simple to handle success and error cases.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Networking",
+            "url": "https://reactnative.dev/docs/network"
+          },
+          {
+            "type": "official",
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
+        "id": "CAQJaGs24wx1SqKOU44aB",
+        "name": "Push Notifications",
+        "type": "topic",
+        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PushNotificationIOS",
+            "url": "https://reactnative.dev/docs/pushnotificationios"
+          },
+          {
+            "type": "official",
+            "title": "Expo Notifications",
+            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/"
+          },
+          {
+            "type": "article",
+            "title": "Expo push notifications setup",
+            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/"
+          },
+          {
+            "type": "video",
+            "title": "Expo Notifications with EAS | Complete Guide",
+            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE"
+          }
+        ]
+      },
+      {
+        "id": "GYdz9a1yLiewAeMRSyfLr",
+        "name": "Interactions",
+        "type": "topic",
+        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          }
+        ]
+      },
+      {
+        "id": "A7ZIe8nlQnHU5g3LM3Eif",
+        "name": "Touchables",
+        "type": "subtopic",
+        "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Handling Touches",
+            "url": "https://reactnative.dev/docs/handling-touches"
+          },
+          {
+            "type": "official",
+            "title": "TouchableOpacity",
+            "url": "https://reactnative.dev/docs/touchableopacity"
+          }
+        ]
+      },
+      {
+        "id": "xf7L5J42yQq3LE7lG2plp",
+        "name": "Gesture Handling",
+        "type": "subtopic",
+        "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          },
+          {
+            "type": "official",
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated"
+          }
+        ]
+      },
+      {
+        "id": "nk6zdVNRz_xE71mVUOFsi",
+        "name": "Scrolling & Swiping",
+        "type": "subtopic",
+        "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Handling Touches",
+            "url": "https://reactnative.dev/docs/handling-touches"
+          },
+          {
+            "type": "official",
+            "title": "Using a ScrollView",
+            "url": "https://reactnative.dev/docs/using-a-scrollview"
+          },
+          {
+            "type": "article",
+            "title": "React Native Gesture Handler: Swipe, long-press, and more",
+            "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/"
+          }
+        ]
+      },
+      {
+        "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+        "name": "Screen Navigation",
+        "type": "subtopic",
+        "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "React Navigation",
+            "url": "https://reactnavigation.org/"
+          }
+        ]
+      },
+      {
+        "id": "3NLcPO-hqQV1EacoPLVrv",
+        "name": "Animations",
+        "type": "subtopic",
+        "description": "Animations in React Native allow developers to create smooth, fluid, and dynamic user interfaces by changing the properties of components over time. The framework provides the Animated API to handle simple, high-performance transitions, as well as the LayoutAnimation API for animating global layout changes. These tools enable the transformation of elements through movements, scaling, opacity changes, and rotations to provide visual feedback and enhance the overall user experience within a mobile application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          },
+          {
+            "type": "official",
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated"
+          }
+        ]
+      },
+      {
+        "id": "dckRzKDKj-mLB3-OxwjPh",
+        "name": "DeepLinking",
+        "type": "topic",
+        "description": "Deep linking in React Native allows your app to open and navigate to a specific screen or content when a user clicks on a URL or a custom URI scheme. It essentially creates a direct pathway into a particular section of your application, bypassing the typical app launch sequence and providing a more seamless user experience. This is useful for scenarios like opening a product page from a marketing email or directing users to a specific profile from a shared link.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Understanding deep linking in React Native",
+            "url": "https://blog.logrocket.com/understanding-deep-linking-in-react-native/"
+          },
+          {
+            "type": "article",
+            "title": "Deep Linking in React Native: Navigating to Specific App Screens",
+            "url": "https://clouddevs.com/react-native/deep-linking/"
+          },
+          {
+            "type": "article",
+            "title": "A Complete Guide to Deep Linking with Custom domain in React Native",
+            "url": "https://dev.to/amitkumar13/a-complete-guide-to-deep-linking-with-custom-domain-in-react-native-bj3"
+          }
+        ]
+      },
+      {
+        "id": "CGtVwhVGc8Vea5RfzJvQG",
+        "name": "Security",
+        "type": "topic",
+        "description": "Security is a vital consideration in React Native application development, as it helps protect user data and sensitive information. Key best practices include using secure storage solutions for sensitive data, such as authentication tokens and user credentials, with libraries like `react-native-keychain` and `react-native-encrypted-storage`. For secure communication, always use HTTPS for API interactions to ensure that data exchanged between the client and server is encrypted. Additionally, minimize permissions by requesting only those necessary for the app's functionality, ideally at runtime, using libraries like `react-native-permissions`. Validating and sanitizing user input is crucial to prevent threats like SQL injection and cross-site scripting (XSS), which can be achieved with validation libraries such as `Yup`. Lastly, keeping dependencies up to date is essential to avoid known security vulnerabilities; tools like `npm audit` and Dependabot can assist in this process. By adhering to these best practices, developers can enhance the security of their React Native applications, safeguarding both application data and user information.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Security",
+            "url": "https://reactnative.dev/docs/security"
+          },
+          {
+            "type": "article",
+            "title": "Secure Authentication and Authorization in React Native",
+            "url": "https://medium.com/@christopherobocha/secure-authentication-and-authorisation-in-react-native-a260f1787a89"
+          }
+        ]
+      },
+      {
+        "id": "LRBHwYiT0Yyi18PwR49rc",
+        "name": "Authentication",
+        "type": "subtopic",
+        "description": "Authentication is the process of verifying the identity of a user before granting them access to specific features or data within a mobile application. In React Native, this typically involves managing secure user sessions through methods like OAuth, JWT (JSON Web Tokens), or biometric authentication. Developers integrate these systems to ensure that sensitive user information remains protected and that only authorized individuals can interact with private parts of the application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Authentication and Deep Linking",
+            "url": "https://reactnative.dev/docs/security#authentication-and-deep-linking"
+          }
+        ]
+      },
+      {
+        "id": "ee4QqFTosXNcTgoQIok8i",
+        "name": "Networking",
+        "type": "subtopic",
+        "description": "Networking security in React Native involves protecting the data transmitted between your application and a backend server to prevent unauthorized access or interception. This is primarily achieved through the use of HTTPS (SSL/TLS) to encrypt communication, alongside best practices like implementing certificate pinning to verify the server's identity and validating all incoming data from API responses. Developers also use techniques such as secure token management and request authentication to ensure that only authorized users can exchange sensitive information with the application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Networking",
+            "url": "https://reactnative.dev/docs/network"
+          },
+          {
+            "type": "article",
+            "title": "Efficient Network Communication",
+            "url": "https://medium.com/@Blochware/efficient-network-communication-best-practices-for-handling-api-calls-in-react-native-b5bebbc8ba71"
+          }
+        ]
+      },
+      {
+        "id": "WsJGiMjHSQ6MpPd5wuP9h",
+        "name": "react-native-async-storage",
+        "type": "subtopic",
+        "description": "Async Storage is an unencrypted, asynchronous, persistent key-value storage system for React Native. It was removed from React Native core and now lives in the community package `@react-native-async-storage/async-storage`. It is primarily used for persisting small amounts of data offline, such as user preferences or session data.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "Async Storage",
+            "url": "https://github.com/react-native-async-storage/async-storage"
+          }
+        ]
+      },
+      {
+        "id": "NdjmP1bZNYriV08vb-iRw",
+        "name": "Storage",
+        "type": "subtopic",
+        "description": "Storage in React Native refers to the various methods used to save data persistently on a mobile device so that information remains available even after the application is closed. Developers typically choose between options like AsyncStorage for simple key-value pairs, SQLite for structured relational data, or Encrypted Storage for sensitive information. Because mobile devices are susceptible to physical access and local file system vulnerabilities, choosing the correct storage mechanism is essential for protecting user privacy and preventing unauthorized data extraction.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "Async Storage",
+            "url": "https://github.com/react-native-async-storage/async-storage"
+          },
+          {
+            "type": "article",
+            "title": "Best Data Storage Option for React Native Apps",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k"
+          }
+        ]
+      },
+      {
+        "id": "sPITeu8bS7n04NdEiBibY",
+        "name": "Permissions",
+        "type": "subtopic",
+        "description": "Permissions in React Native are how your app requests access to sensitive user data or device features, like the camera, microphone, or location. When your app needs to use one of these features, it must first ask the user for permission. This is done through native modules that interact with the underlying operating system (iOS or Android) to display a permission request dialog. The user can then grant or deny the request, and your app needs to handle both scenarios gracefully.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PermissionsAndroid",
+            "url": "https://reactnative.dev/docs/permissionsandroid"
+          },
+          {
+            "type": "opensource",
+            "title": "react-native-permissions",
+            "url": "https://github.com/zoontek/react-native-permissions"
+          },
+          {
+            "type": "article",
+            "title": "Managing app permissions in React Native",
+            "url": "https://blog.logrocket.com/react-native-permissions/"
+          },
+          {
+            "type": "article",
+            "title": "Mastering Permission handling in React Native",
+            "url": "https://medium.com/@uddishverma22/mastering-permission-handling-in-react-native-2076862c7e7b"
+          },
+          {
+            "type": "video",
+            "title": "React Native Permissions Tutorial (react-native-permissions)",
+            "url": "https://www.youtube.com/watch?v=ZQzcVY3CoFQ"
+          },
+          {
+            "type": "video",
+            "title": "React Native Permissions: A Guide to Implementation",
+            "url": "https://www.youtube.com/watch?v=cUWGLik3nYQ"
+          }
+        ]
+      },
+      {
+        "id": "JgBfwmOgcVi_a96L5NGwr",
+        "name": "expo-secure-store",
+        "type": "subtopic",
+        "description": "Expo Secure Store is a built-in package provided by the Expo SDK to store encrypted data securely on users' devices. It is a key-value storage system, but it is not designed to store larger amounts of data such as app databases or complex data structures. It is most appropriate for storing secret keys, access tokens, and small user preferences.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "secure-store",
+            "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
+          },
+          {
+            "type": "opensource",
+            "title": "expo-secure-store package",
+            "url": "https://www.npmjs.com/package/expo-secure-store?activeTab=readme"
+          }
+        ]
+      },
+      {
+        "id": "9pvrXH5Drdsa1cr93UBdc",
+        "name": "expo-file-system",
+        "type": "subtopic",
+        "description": "Expo File System is a universal module that provides access to the file system on the device. Using this module, you can perform various file operations like reading, writing, copying, moving, and deleting files and folders. It also supports reading file metadata and querying file URI.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Expo File System",
+            "url": "https://docs.expo.dev/versions/latest/sdk/filesystem/"
+          }
+        ]
+      },
+      {
+        "id": "oK8z23a_CjcDjBJ843_Jn",
+        "name": "expo-sqlite",
+        "type": "subtopic",
+        "description": "expo-sqlite is a module that provides an interface for a local SQLite database in React Native applications. It allows developers to store, query, and manage structured data directly on a device using standard SQL commands. This library is designed to work seamlessly within the Expo ecosystem, providing a reliable way to persist data offline without needing to configure complex native database drivers.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "expo-sqlite",
+            "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/"
+          }
+        ]
+      },
+      {
+        "id": "vZMsm-MtsqmQMD-MG6zJY",
+        "name": "Other Storage Options",
+        "type": "subtopic",
+        "description": "Beyond basic local storage solutions, React Native applications often require more specialized ways to manage data. These options include libraries like SQLite for relational database management, Realm for high-performance object-oriented storage, or WatermelonDB for reactive data synchronization. These tools are typically used when an application needs to handle complex data structures, perform advanced queries, or maintain large datasets locally on the device.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "Async Storage",
+            "url": "https://github.com/react-native-async-storage/async-storage"
+          },
+          {
+            "type": "opensource",
+            "title": "Realm - GitHub",
+            "url": "https://github.com/realm/realm-js"
+          },
+          {
+            "type": "article",
+            "title": "Firebase Realtime Database",
+            "url": "https://firebase.google.com/docs/database"
+          }
+        ]
+      },
+      {
+        "id": "w0WW1kg_0BEMeLa1l2gb5",
+        "name": "Storage",
+        "type": "topic",
+        "description": "React Native offers several methods for persisting data locally within applications, each catering to different storage needs and use cases. The primary options include Async Storage, which provides a simple key-value storage system suitable for small-scale data; Expo Secure Store, designed for securely storing sensitive information; Expo File System, which allows for file management and storage; and Expo SQLite, which supports more complex data storage and querying capabilities. When selecting a storage option, it's essential to consider the specific requirements of your app.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Best Data Storage Option for React Native Apps",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k"
+          }
+        ]
+      },
+      {
+        "id": "06gsRokwjxVa2xyLY4qAb",
+        "name": "Jest",
+        "type": "subtopic",
+        "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Jest",
+            "url": "https://jestjs.io/"
+          },
+          {
+            "type": "official",
+            "title": "Jest Documentation",
+            "url": "https://jestjs.io/docs/getting-started"
+          },
+          {
+            "type": "video",
+            "title": "Jest Crash Course - Unit Testing in JavaScript",
+            "url": "https://www.youtube.com/watch?v=7r4xVDI2vho"
+          }
+        ]
+      },
+      {
+        "id": "G15Aey-Spax_iUHpm1v38",
+        "name": "Testing",
+        "type": "topic",
+        "description": "Testing a React Native app usually combines Jest for unit and component tests, React Native Testing Library for rendering components and interacting with them the way a user would, and an end-to-end tool such as Detox, Appium, or Maestro that drives the app on a simulator or device.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Testing Overview",
+            "url": "https://reactnative.dev/docs/testing-overview"
+          },
+          {
+            "type": "official",
+            "title": "Detox",
+            "url": "https://wix.github.io/Detox/"
+          },
+          {
+            "type": "opensource",
+            "title": "React Native Testing Library",
+            "url": "https://github.com/callstack/react-native-testing-library"
+          }
+        ]
+      },
+      {
+        "id": "-b4LfjCjkSZ6ZsSv3eFm6",
+        "name": "React Native Testing Library",
+        "type": "subtopic",
+        "description": "React Native Testing Library (RNTL) is a collection of tools and utilities to test React Native components. It is built on top of the Testing Library ecosystem, designed to work seamlessly with Jest and other testing frameworks. Its primary goal is to enable efficient and effective testing by providing simple and intuitive APIs that promote best practices, like testing UI components in isolation and promoting accessibility checks.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Native Testing Library",
+            "url": "https://callstack.github.io/react-native-testing-library/"
+          },
+          {
+            "type": "article",
+            "title": "React Native Testing Library (Docs)",
+            "url": "https://testing-library.com/docs/react-native-testing-library/intro/"
+          }
+        ]
+      },
+      {
+        "id": "3m7ANLJvtx3zie4y86MNU",
+        "name": "Detox",
+        "type": "subtopic",
+        "description": "Detox is an end-to-end testing framework for React Native applications. It enables you to run tests on an actual device or in a simulator/emulator environment. The goal of Detox is to maintain a high level of confidence in your application's behavior while allowing for quick test runs and easy debugging.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Detox Documentation",
+            "url": "https://wix.github.io/Detox/"
+          }
+        ]
+      },
+      {
+        "id": "81tmis0km2h1zsjS2HsP5",
+        "name": "React Test Renderer",
+        "type": "subtopic",
+        "description": "React Test Renderer is a library provided by the React team that allows you to render React components as JavaScript objects without depending on the DOM or a native mobile environment. The package is now deprecated, and the React team recommends migrating tests to React Native Testing Library instead.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "react-test-renderer Deprecation Warnings",
+            "url": "https://react.dev/warnings/react-test-renderer"
+          },
+          {
+            "type": "official",
+            "title": "Testing React Native Apps with Jest",
+            "url": "https://jestjs.io/docs/tutorial-react-native"
+          }
+        ]
+      },
+      {
+        "id": "spTzJMS7cE0cNa7tVQhVQ",
+        "name": "Appium",
+        "type": "subtopic",
+        "description": "Appium is an open-source test automation framework for mobile devices, targeting native, hybrid, or mobile-web apps for iOS, Android, and Windows platforms. Appium works with multiple programming languages, including JavaScript, Ruby, Python, Java, and C#. Appium uses the WebDriver protocol, which allows you to write tests that can interact with your app through a series of commands. The WebDriver protocol interprets these commands into actions that are then performed on the app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Appium Documentation",
+            "url": "https://appium.io/docs/en/latest/"
+          }
+        ]
+      },
+      {
+        "id": "NIJzKzWlsciAjxUpm4K2v",
+        "name": "Performance",
+        "type": "topic",
+        "description": "Performance is a crucial aspect of any application, and React Native is no exception. Optimizing performance in your React Native apps will not only lead to a better user experience but also lessen the load on device resources.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Performance",
+            "url": "https://reactnative.dev/docs/performance"
+          }
+        ]
+      },
+      {
+        "id": "1U3AiCDWEVEKsofWtqavi",
+        "name": "Understand Frame Rates",
+        "type": "subtopic",
+        "description": "Frame rate measures the frequency at which individual images, known as frames, are displayed on a screen to create the illusion of motion. In React Native applications, maintaining a consistent frame rate—typically 60 frames per second—is essential for ensuring that animations and transitions feel smooth and responsive to the user. When the frame rate drops, the interface experiences stuttering or lag, which occurs if the JavaScript thread or the UI thread becomes overwhelmed by heavy computations or inefficient rendering cycles.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Performance Overview",
+            "url": "https://reactnative.dev/docs/performance"
+          }
+        ]
+      },
+      {
+        "id": "afwB90L-q2hIwrA0LtWbG",
+        "name": "Common Problem Sources",
+        "type": "subtopic",
+        "description": "Performance issues in React Native often stem from an overloaded JavaScript thread, which handles business logic, API calls, and state management. When this thread becomes blocked by heavy computations or excessive re-renders, the user interface feels unresponsive or choppy. Other frequent causes include inefficient list rendering, large image assets that consume excessive memory, and unnecessary communication overhead between the JavaScript bridge and the native modules. Identifying these bottlenecks involves analyzing how components update their state and ensuring that resource-intensive tasks are offloaded to native code or handled asynchronously.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Performance Problems",
+            "url": "https://reactnative.dev/docs/performance#common-sources-of-performance-problems"
+          }
+        ]
+      },
+      {
+        "id": "LL2ZkB7BuELyY2mPQhkAj",
+        "name": "Speeding up Builds",
+        "type": "subtopic",
+        "description": "Building your React Native app could be expensive and take several minutes of developers time. This can be problematic as your project grows and generally in bigger organizations with multiple React Native developers.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Speeding up your Build phase",
+            "url": "https://reactnative.dev/docs/build-speed"
+          }
+        ]
+      },
+      {
+        "id": "PyPjHnKIWpnFHal8RuSmX",
+        "name": "Optimizing Flatlist Config",
+        "type": "subtopic",
+        "description": "Optimizing Flatlist configuration involves fine-tuning the properties of the Flatlist component to improve scrolling performance and memory usage in large data lists. By leveraging props such as `initialNumToRender`, `maxToRenderPerBatch`, `windowSize`, and `removeClippedSubviews`, developers can control how many items are rendered at once and how off-screen elements are handled. Adjusting these settings reduces the workload on the JavaScript bridge and helps maintain a smooth frame rate during complex list interactions.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Optimizing Flatlist Configuration",
+            "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration"
+          }
+        ]
+      },
+      {
+        "id": "u5I-EOnA_yt6AQsRX-qr0",
+        "name": "RAM Bundles + Inline Requires",
+        "type": "subtopic",
+        "description": "Inline requires defer loading a module until it is first used instead of at startup, which trims the time to interactive for apps with many screens or rarely used features. Random Access Module (RAM) bundles are an older format that served the same purpose by loading modules on demand, but they are not supported with Hermes, whose bytecode gives the same or better startup performance. On current React Native versions, prefer Hermes, lazy-loading screen-level components, and inline requires, which the React Native CLI applies automatically.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Optimizing JavaScript loading",
+            "url": "https://reactnative.dev/docs/optimizing-javascript-loading"
+          }
+        ]
+      },
+      {
+        "id": "apXv-E6LvOuOMj3EpzwuA",
+        "name": "Profiling",
+        "type": "subtopic",
+        "description": "Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu. For iOS, Instruments is an invaluable tool, and on Android you should learn to use `systrace`.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Profiling React Native",
+            "url": "https://reactnative.dev/docs/profiling"
+          }
+        ]
+      },
+      {
+        "id": "0BMpZDc-1rSvETwX82zON",
+        "name": "Using Native Modules",
+        "type": "topic",
+        "description": "Native Modules allow React Native applications to access platform-specific features and native APIs that are not available through the default JavaScript bridge. By writing custom code in languages like Swift or Objective-C for iOS, and Java or Kotlin for Android, developers can integrate high-performance native libraries or device-specific hardware functionality directly into their applications. This mechanism enables the execution of complex tasks that require direct interaction with the underlying operating system.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Native Modules Introduction",
+            "url": "https://reactnative.dev/docs/native-platform"
+          }
+        ]
+      },
+      {
+        "id": "b-1-JcwLSGMyH3gXS59lY",
+        "name": "For iOS",
+        "type": "subtopic",
+        "description": "iOS native modules in React Native allow developers to tap into the rich ecosystem of iOS features and functionalities that are not directly accessible through the standard React Native APIs. For instance, a Camera module can be implemented using the AVFoundation framework, enabling developers to capture photos and videos directly from their applications.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "iOS Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-ios"
+          }
+        ]
+      },
+      {
+        "id": "wMxTB8WgU6e-oYMtQFCDY",
+        "name": "For Android",
+        "type": "subtopic",
+        "description": "Native modules in React Native provide a powerful way to access device-specific features and capabilities that are not available through the standard React Native APIs. For example, a Bluetooth module can be created using the Android Bluetooth API, allowing applications to scan for nearby Bluetooth devices, connect to them, and transfer data.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Android Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-android"
+          }
+        ]
+      },
+      {
+        "id": "4U-HZQGH7kaWCB94Xy8Mh",
+        "name": "Publishing Apps",
+        "type": "topic",
+        "description": "Publishing React Native apps is the process of deploying your application on various app stores so that users can download and use your app. The two most popular app stores for publishing are the Apple App Store (iOS) and the Google Play Store (Android).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Publishing to Apple App Store",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store"
+          },
+          {
+            "type": "official",
+            "title": "Publishing to Google Play Store",
+            "url": "https://reactnative.dev/docs/signed-apk-android"
+          }
+        ]
+      },
+      {
+        "id": "1s9Y1dUtjpW9pu74ipX99",
+        "name": "Apple App store",
+        "type": "subtopic",
+        "description": "The App Store is Apple's official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Publishing to Apple App Store",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store"
+          }
+        ]
+      },
+      {
+        "id": "D8T9cZ5zKi_KZDr9tDpCf",
+        "name": "Google Play Store",
+        "type": "subtopic",
+        "description": "Google Play Store is a digital distribution platform that allows developers to publish and release their React Native applications to Android users worldwide. To distribute an app, developers must create a Google Play Console account, sign their application with a secure keystore file, and generate an Android App Bundle (AAB). Once the bundle is uploaded, the app undergoes a review process by Google to ensure it meets safety and quality standards before it becomes available for download on the store.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Publishing to Google Play Store",
+            "url": "https://reactnative.dev/docs/signed-apk-android"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "cSXsu17F1Oy34Wp6J-N3C",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "lNmddXrT8IHVtWobh3-oq",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "T4AhL9Zls2iNZMituGdtl",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "HiUbRfOv8OttFd85pDUHN",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ervpuL89myBW3oR9r-4lH",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "7GBV5sfOaGxHwpkNUvFWE",
+        "target": "CAQJaGs24wx1SqKOU44aB",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "CAQJaGs24wx1SqKOU44aB",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "GYdz9a1yLiewAeMRSyfLr",
+        "target": "dckRzKDKj-mLB3-OxwjPh",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "dckRzKDKj-mLB3-OxwjPh",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "CGtVwhVGc8Vea5RfzJvQG",
+        "target": "w0WW1kg_0BEMeLa1l2gb5",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "w0WW1kg_0BEMeLa1l2gb5",
+        "target": "G15Aey-Spax_iUHpm1v38",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "G15Aey-Spax_iUHpm1v38",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "NIJzKzWlsciAjxUpm4K2v",
+        "target": "0BMpZDc-1rSvETwX82zON",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "0BMpZDc-1rSvETwX82zON",
+        "target": "4U-HZQGH7kaWCB94Xy8Mh",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "2rlmLn_yQQV-7DpX1qT98",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cMfsRtvzvDZZJ0TqeUOxm",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ODQ8zrHc2rsc8PN-APKvz",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SnF3xtzBh-x4Z_qUQUg7H",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1oUJXtHGQ29ZZU9sxwGo2",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VhSEH_RoWFt1z2lial7xZ",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bxWLf0RDAl9Zaczkon9Rl",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yW7nDDJbjmm8XKJI0hq3Q",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KyKMZ8Aa5XUAIWelGTiSt",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GFGhnx5xUer2DdRI-SO4D",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kkH9H9Qh1FD7sLItoWw69",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OFhyYyxtrCBy_UUb5YBv5",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hHFR59RrdMIWxcQe72qCs",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V34mZCkpoT49o-74XoATS",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "x-OZCZcX6uhN3Yr5BAATn",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wB0D9koC6jpt1rzX8F07F",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nk6zdVNRz_xE71mVUOFsi",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Jr2iuQqyCbx6CyTJj4Qz2",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xf7L5J42yQq3LE7lG2plp",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3NLcPO-hqQV1EacoPLVrv",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A7ZIe8nlQnHU5g3LM3Eif",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NdjmP1bZNYriV08vb-iRw",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ee4QqFTosXNcTgoQIok8i",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LRBHwYiT0Yyi18PwR49rc",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LL2ZkB7BuELyY2mPQhkAj",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PyPjHnKIWpnFHal8RuSmX",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "afwB90L-q2hIwrA0LtWbG",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1U3AiCDWEVEKsofWtqavi",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "u5I-EOnA_yt6AQsRX-qr0",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "apXv-E6LvOuOMj3EpzwuA",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1s9Y1dUtjpW9pu74ipX99",
+        "target": "4U-HZQGH7kaWCB94Xy8Mh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sPITeu8bS7n04NdEiBibY",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "81tmis0km2h1zsjS2HsP5",
+        "target": "G15Aey-Spax_iUHpm1v38",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-b4LfjCjkSZ6ZsSv3eFm6",
+        "target": "G15Aey-Spax_iUHpm1v38",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3m7ANLJvtx3zie4y86MNU",
+        "target": "G15Aey-Spax_iUHpm1v38",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "spTzJMS7cE0cNa7tVQhVQ",
+        "target": "G15Aey-Spax_iUHpm1v38",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JgBfwmOgcVi_a96L5NGwr",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9pvrXH5Drdsa1cr93UBdc",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oK8z23a_CjcDjBJ843_Jn",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vZMsm-MtsqmQMD-MG6zJY",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CYqLNGyOe9f9hVhbyUnTX",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gLJMD9X7chy8OxdALht8g",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "m8Nu71Y61Ha_fLxdtWTkn",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tOt_vvmnBtOUbgokmVa5P",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wWwaEdnvBsvj6jD9LJ4Jj",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Tz-bRjQVkZedphelhAlWM",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dq490IqEJXoFZRnBFJI8N",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HHx3VSfV7xf6RqACrxjBf",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uLH9eo2G09wGO80XtFI5x",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9eOwhh2k59nvH-ztuDNjg",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zzOyoDcAQYkNNv07TIKeZ",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k9_hVOBd9ZmC4HLuAf46v",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V7r1Hqk9IXTfjkjAg7-BT",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "s5YKenJY2Xv_PZBSxegEm",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0gH7vI_Hy7s9hO2TF6hR3",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Frz1RYp3y9OwRb-3t2e85",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "E7N8tSg2amZW-vc-X46JU",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ouNTekf4VpZv-Vja8_bfM",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QOOZs9qtz49agfZwi6k1B",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4BgVq-cZYEXgqktvlNnet",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "h3ypxGxeHDCTxURHg6D2d",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "e-r3tuRZ3PzhFegES0oOm",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KoXTwQUqPt_ZhOFuaelny",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "D8T9cZ5zKi_KZDr9tDpCf",
+        "target": "4U-HZQGH7kaWCB94Xy8Mh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yN283SRWoALOEZh9iTn-L",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GrFL32pZ_eOmdJRzSlH8b",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UqCpoPzYio3ng3RFlbvZ7",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8bn1PFd9h0ek6_T-cl1cS",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KZIrRSYq_I-YzpFaYLuWi",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LLANnVosxOUCPTtuBfNgu",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UQpyXrC2cs_jDXxVTlQOu",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k7uVPyhbPgvO6HxAfxxYZ",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aSCgax1M4wlmzkJSZV_fv",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "f7KFPFS2-EA90pumYHM9T",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WsJGiMjHSQ6MpPd5wuP9h",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "06gsRokwjxVa2xyLY4qAb",
+        "target": "w0WW1kg_0BEMeLa1l2gb5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "b-1-JcwLSGMyH3gXS59lY",
+        "target": "0BMpZDc-1rSvETwX82zON",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wMxTB8WgU6e-oYMtQFCDY",
+        "target": "0BMpZDc-1rSvETwX82zON",
+        "type": "subtopic_of"
+      }
+    ]
+  }
+}
