@@ -1,12 +1,12 @@
 ## Project Context
 
-This project is part of GT-EduValida and aims to infer a person's technical skills from their contributions to GitHub repositories.
+This project is part of GT-EduValida and aims to infer a person's technical skills from their contributions to Git repositories, independently of the hosting platform.
 
 The analysis must focus on the contributor's actual work and link each inferred skill to verifiable evidence. A repository's technology stack alone does not justify attributing skills to a contributor. For example, modifying only CSS or documentation in a Django project does not demonstrate proficiency in Django or Python.
 
-This module focuses on skill extraction from repository contributions. Extracting skills from course syllabi belongs to a separate module.
+This module focuses exclusively on preparing the local input/output of the static and semantic preparation stages for repository contributions: collect evidence and context, organize catalog candidates, and export a versioned package for a separate inference project. Sending requests to an LLM, processing its responses, and producing final skill assessments belong to that other project. Existing inference/report code is legacy outside the intended scope. Extracting skills from course syllabi belongs to a separate module.
 
-The architecture and technology stack have not yet been defined. Potential approaches include code analysis, machine learning, transformers, and LLMs. Static rules may support the analysis, but their ability to generalize is a concern.
+Phase 1 uses Python, FastAPI, pygit2/libgit2 for Git objects, C Git for controlled diffs, Pygments for language byte context, cloc for line counts, and Lizard for changed-function metrics. The five static artifacts and current API contracts are documented in docs/spec.md. Phase 2's versioned competency graph and local semantic preparation are planned in docs/architecture-plan.md. Static classification, volume/complexity metrics, candidate retrieval, and structural validation do not establish semantic skill correctness.
 
 ## Skill Reference Catalog
 

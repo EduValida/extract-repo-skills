@@ -9,14 +9,22 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "python-dotenv>=1.2.3",
+    "pygit2>=1.20.1,<2",
+    "pygments>=2.19,<3",
+    "lizard>=1.23,<2",
 ]
-
-[project.scripts]
-extract-repo-skills = "extract_repo_skills:main"
 
 [project.optional-dependencies]
 llm = [
     "openai>=3.22.1",
+]
+api = [
+    "fastapi>=0.119,<1",
+    "uvicorn>=0.37,<1",
+]
+dev = [
+    "httpx>=0.28,<1",
+    "ruff>=0.14,<1",
 ]
 
 [build-system]

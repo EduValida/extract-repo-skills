@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "slug": "code-review",
+    "title": "Code Review Pyramid",
+    "description": "Learn what to focus on when conducting a code review.",
+    "extracted_at": "2026-10-29T01:03:51.795595+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/code-review",
+    "total_topics": 3,
+    "total_subtopics": 2
+  },
+  "tree": {
+    "title": "Code Review Pyramid",
+    "slug": "code-review",
+    "topics": [
+      {
+        "id": "NpsaEW0R2Q70E9sDWkb5u",
+        "name": "Documentation",
+        "type": "topic",
+        "description": "",
+        "resources": [],
+        "file_path": null,
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "ANbBMKHS6CtWDDY0tpiSh",
+            "name": "Code Styles",
+            "type": "subtopic",
+            "description": "",
+            "resources": [],
+            "file_path": null
+          },
+          {
+            "id": "UDHO5T8xijJUCoX0CCvZD",
+            "name": "Tests",
+            "type": "subtopic",
+            "description": "",
+            "resources": [],
+            "file_path": null
+          }
+        ]
+      },
+      {
+        "id": "PRgkDV4rFasYnHItL5ubS",
+        "name": "Implementation Semantics",
+        "type": "topic",
+        "description": "",
+        "resources": [],
+        "file_path": null,
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "-VG9gkmIG2V6r7er-sYjY",
+        "name": "API Semantics",
+        "type": "topic",
+        "description": "",
+        "resources": [],
+        "file_path": null,
+        "subtopics_count": 0,
+        "subtopics": []
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "NpsaEW0R2Q70E9sDWkb5u",
+        "name": "Documentation",
+        "type": "topic",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "ANbBMKHS6CtWDDY0tpiSh",
+        "name": "Code Styles",
+        "type": "subtopic",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "UDHO5T8xijJUCoX0CCvZD",
+        "name": "Tests",
+        "type": "subtopic",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "PRgkDV4rFasYnHItL5ubS",
+        "name": "Implementation Semantics",
+        "type": "topic",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "-VG9gkmIG2V6r7er-sYjY",
+        "name": "API Semantics",
+        "type": "topic",
+        "description": "",
+        "resources": []
+      }
+    ],
+    "edges": [
+      {
+        "source": "ANbBMKHS6CtWDDY0tpiSh",
+        "target": "NpsaEW0R2Q70E9sDWkb5u",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UDHO5T8xijJUCoX0CCvZD",
+        "target": "NpsaEW0R2Q70E9sDWkb5u",
+        "type": "subtopic_of"
+      }
+    ]
+  }
+}

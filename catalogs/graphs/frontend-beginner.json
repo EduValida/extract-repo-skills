@@ -1,0 +1,619 @@
+{
+  "metadata": {
+    "slug": "frontend-beginner",
+    "title": "Frontend Beginner",
+    "description": "Step by step guide to becoming a frontend developer in 2026",
+    "extracted_at": "2026-10-29T01:04:06.444788+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/frontend-beginner",
+    "total_topics": 9,
+    "total_subtopics": 0
+  },
+  "tree": {
+    "title": "Frontend Beginner",
+    "slug": "frontend-beginner",
+    "topics": [
+      {
+        "id": "yWG2VUkaF5IJVVut6AiSy",
+        "name": "HTML",
+        "type": "topic",
+        "description": "HTML is the standard language for creating web pages. It uses tags to structure content like headings, paragraphs, images, and links, telling the web browser how to display the information. Think of it as the skeleton of a website, providing the basic structure and content that users see.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the dedicated HTML roadmap",
+            "url": "https://roadmap.sh/html"
+          },
+          {
+            "type": "article",
+            "title": "Responsive Web Design Certification - Co-Learn HTML & CSS with guided projects",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+          },
+          {
+            "type": "video",
+            "title": "HTML Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=mJgBOIoGihA"
+          },
+          {
+            "type": "video",
+            "title": "HTML Full Course - Build a Website Tutorial",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/html@yWG2VUkaF5IJVVut6AiSy.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "ZhJhf1M2OphYbEmduFq-9",
+        "name": "CSS",
+        "type": "topic",
+        "description": "CSS, or Cascading Style Sheets, is a language used to describe the look and formatting of a document written in HTML. It controls things like the colors, fonts, layout, and overall visual presentation of a website, ensuring it's both appealing and easy to navigate for users. Think of it as the makeup artist for your website, taking the basic structure provided by HTML and making it beautiful.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Visit the Dedicated CSS Roadmap",
+            "url": "https://roadmap.sh/css"
+          },
+          {
+            "type": "article",
+            "title": "HTML & CSS: design and build websites",
+            "url": "https://sites.math.duke.edu/courses/math_everywhere/assets/techRefs/HTML%20and%20CSS-%20Design%20and%20Build%20Websites_Jon%20Duckett_2011.pdf"
+          },
+          {
+            "type": "article",
+            "title": "CSS MDN Docs",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS"
+          },
+          {
+            "type": "article",
+            "title": "CSS | Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/CSS"
+          },
+          {
+            "type": "video",
+            "title": "SS Tutorial – Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/css@ZhJhf1M2OphYbEmduFq-9.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "ODcfFEorkfJNupoQygM53",
+        "name": "JavaScript",
+        "type": "topic",
+        "description": "JavaScript is a programming language that makes websites interactive. It lets you add dynamic content, control multimedia, animate images, and pretty much everything else that makes a webpage more than just static text. It runs in web browsers, allowing you to create engaging experiences for users.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          },
+          {
+            "type": "book",
+            "title": "JavaScript from Beginner to Professional",
+            "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+          },
+          {
+            "type": "article",
+            "title": "The Modern JavaScript Tutorial",
+            "url": "https://javascript.info/"
+          },
+          {
+            "type": "article",
+            "title": "Build 30 Javascript projects in 30 days",
+            "url": "https://javascript30.com/"
+          },
+          {
+            "type": "video",
+            "title": "JavaScript Crash Course For Beginners",
+            "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/javascript@ODcfFEorkfJNupoQygM53.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "R_I4SGYqLk5zze5I1zS_E",
+        "name": "Git",
+        "type": "topic",
+        "description": "Git is a system that helps developers track changes to their code. It lets you save different versions of your files so you can see what changed, go back to earlier versions if something breaks, and work with other people on the same project without overwriting each other's work.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "article",
+            "title": "Learn Git with Tutorials, News and Tips - Atlassian",
+            "url": "https://www.atlassian.com/git"
+          },
+          {
+            "type": "article",
+            "title": "Git Cheat Sheet",
+            "url": "https://cs.fyi/guide/git-cheatsheet"
+          },
+          {
+            "type": "video",
+            "title": "Git & GitHub Crash Course For Beginners",
+            "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/git@R_I4SGYqLk5zze5I1zS_E.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "qmTVMJDsEhNIkiwE_UTYu",
+        "name": "GitHub",
+        "type": "topic",
+        "description": "GitHub is a website and service that helps developers store and manage their code. Think of it like a cloud-based folder where you can keep all your project files. It also allows multiple people to work on the same project at the same time without messing each other's work up, using a system called version control. This makes it easier to collaborate and track changes to your code.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitHub Documentation",
+            "url": "https://docs.github.com/en/get-started/quickstart"
+          },
+          {
+            "type": "video",
+            "title": "What is GitHub?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/github@qmTVMJDsEhNIkiwE_UTYu.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "ib_FHinhrw8VuSet-xMF7",
+        "name": "npm",
+        "type": "topic",
+        "description": "npm is like a personal assistant for your coding projects. It's a tool that helps you easily manage and share code packages (like pre-written bits of code that do specific things) in your projects. Think of it as an app store, but for code. You can use it to install, update, and uninstall these packages, making it much easier to use other people's code and share your own.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "NPM Website",
+            "url": "https://www.npmjs.com/"
+          },
+          {
+            "type": "official",
+            "title": "NPM Documentation",
+            "url": "https://docs.npmjs.com/"
+          },
+          {
+            "type": "opensource",
+            "title": "How to NPM",
+            "url": "https://github.com/workshopper/how-to-npm"
+          },
+          {
+            "type": "article",
+            "title": "Modern JavaScript for Dinosaurs",
+            "url": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+          },
+          {
+            "type": "video",
+            "title": "NPM Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/npm@ib_FHinhrw8VuSet-xMF7.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "tG5v3O4lNIFc2uCnacPak",
+        "name": "React",
+        "type": "topic",
+        "description": "React is a JavaScript library for building user interfaces. It lets you break down complex UIs into smaller, reusable components. These components manage their own data and can be composed together to create larger applications. React uses a declarative approach, meaning you describe what you want the UI to look like, and React takes care of updating the DOM efficiently.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated React Roadmap",
+            "url": "https://roadmap.sh/react"
+          },
+          {
+            "type": "official",
+            "title": "React Website",
+            "url": "https://react.dev"
+          },
+          {
+            "type": "video",
+            "title": "Full Stack React Developer Course",
+            "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/react@tG5v3O4lNIFc2uCnacPak.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "eghnfG4p7i-EDWfp3CQXC",
+        "name": "Tailwind",
+        "type": "topic",
+        "description": "Tailwind CSS is a utility-first CSS framework. Instead of providing pre-designed components like buttons or navigation bars, it gives you a set of pre-defined CSS classes that you can use directly in your HTML to style your elements. This allows for highly customized designs without writing custom CSS from scratch, offering a faster and more flexible way to style your web pages.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Tailwind CSS Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+          },
+          {
+            "type": "official",
+            "title": "Tailwind Website",
+            "url": "https://tailwindcss.com"
+          },
+          {
+            "type": "official",
+            "title": "Online Playground",
+            "url": "https://play.tailwindcss.com"
+          },
+          {
+            "type": "video",
+            "title": "Should You Use Tailwind CSS?",
+            "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+          },
+          {
+            "type": "video",
+            "title": "Official Screencasts",
+            "url": "https://www.youtube.com/c/TailwindLabs/videos"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/tailwind@eghnfG4p7i-EDWfp3CQXC.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "hVQ89f6G0LXEgHIOKHDYq",
+        "name": "Vitest",
+        "type": "topic",
+        "description": "Vitest is a testing framework powered by Vite. It's designed to be fast and easy to use, especially for projects that already use Vite for development. Vitest allows you to write unit tests and integration tests for your frontend code, ensuring that your components and functions work as expected. It offers features like hot module replacement (HMR) during testing, a watch mode for automatically re-running tests on file changes, and compatibility with popular testing libraries like Jest.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Vitest - Next Generation Testing Framework",
+            "url": "https://vitest.dev/"
+          },
+          {
+            "type": "official",
+            "title": "Vitest Documentation",
+            "url": "https://vitest.dev/guide/"
+          },
+          {
+            "type": "video",
+            "title": "Vitest Simplified",
+            "url": "https://www.youtube.com/watch?v=snCLQmINqCU"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/frontend-beginner/content/vitest@hVQ89f6G0LXEgHIOKHDYq.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "yWG2VUkaF5IJVVut6AiSy",
+        "name": "HTML",
+        "type": "topic",
+        "description": "HTML is the standard language for creating web pages. It uses tags to structure content like headings, paragraphs, images, and links, telling the web browser how to display the information. Think of it as the skeleton of a website, providing the basic structure and content that users see.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the dedicated HTML roadmap",
+            "url": "https://roadmap.sh/html"
+          },
+          {
+            "type": "article",
+            "title": "Responsive Web Design Certification - Co-Learn HTML & CSS with guided projects",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+          },
+          {
+            "type": "video",
+            "title": "HTML Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=mJgBOIoGihA"
+          },
+          {
+            "type": "video",
+            "title": "HTML Full Course - Build a Website Tutorial",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+          }
+        ]
+      },
+      {
+        "id": "ZhJhf1M2OphYbEmduFq-9",
+        "name": "CSS",
+        "type": "topic",
+        "description": "CSS, or Cascading Style Sheets, is a language used to describe the look and formatting of a document written in HTML. It controls things like the colors, fonts, layout, and overall visual presentation of a website, ensuring it's both appealing and easy to navigate for users. Think of it as the makeup artist for your website, taking the basic structure provided by HTML and making it beautiful.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Visit the Dedicated CSS Roadmap",
+            "url": "https://roadmap.sh/css"
+          },
+          {
+            "type": "article",
+            "title": "HTML & CSS: design and build websites",
+            "url": "https://sites.math.duke.edu/courses/math_everywhere/assets/techRefs/HTML%20and%20CSS-%20Design%20and%20Build%20Websites_Jon%20Duckett_2011.pdf"
+          },
+          {
+            "type": "article",
+            "title": "CSS MDN Docs",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS"
+          },
+          {
+            "type": "article",
+            "title": "CSS | Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/CSS"
+          },
+          {
+            "type": "video",
+            "title": "SS Tutorial – Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+          }
+        ]
+      },
+      {
+        "id": "ODcfFEorkfJNupoQygM53",
+        "name": "JavaScript",
+        "type": "topic",
+        "description": "JavaScript is a programming language that makes websites interactive. It lets you add dynamic content, control multimedia, animate images, and pretty much everything else that makes a webpage more than just static text. It runs in web browsers, allowing you to create engaging experiences for users.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          },
+          {
+            "type": "book",
+            "title": "JavaScript from Beginner to Professional",
+            "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+          },
+          {
+            "type": "article",
+            "title": "The Modern JavaScript Tutorial",
+            "url": "https://javascript.info/"
+          },
+          {
+            "type": "article",
+            "title": "Build 30 Javascript projects in 30 days",
+            "url": "https://javascript30.com/"
+          },
+          {
+            "type": "video",
+            "title": "JavaScript Crash Course For Beginners",
+            "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+          }
+        ]
+      },
+      {
+        "id": "R_I4SGYqLk5zze5I1zS_E",
+        "name": "Git",
+        "type": "topic",
+        "description": "Git is a system that helps developers track changes to their code. It lets you save different versions of your files so you can see what changed, go back to earlier versions if something breaks, and work with other people on the same project without overwriting each other's work.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "article",
+            "title": "Learn Git with Tutorials, News and Tips - Atlassian",
+            "url": "https://www.atlassian.com/git"
+          },
+          {
+            "type": "article",
+            "title": "Git Cheat Sheet",
+            "url": "https://cs.fyi/guide/git-cheatsheet"
+          },
+          {
+            "type": "video",
+            "title": "Git & GitHub Crash Course For Beginners",
+            "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+          }
+        ]
+      },
+      {
+        "id": "qmTVMJDsEhNIkiwE_UTYu",
+        "name": "GitHub",
+        "type": "topic",
+        "description": "GitHub is a website and service that helps developers store and manage their code. Think of it like a cloud-based folder where you can keep all your project files. It also allows multiple people to work on the same project at the same time without messing each other's work up, using a system called version control. This makes it easier to collaborate and track changes to your code.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitHub Documentation",
+            "url": "https://docs.github.com/en/get-started/quickstart"
+          },
+          {
+            "type": "video",
+            "title": "What is GitHub?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+          }
+        ]
+      },
+      {
+        "id": "ib_FHinhrw8VuSet-xMF7",
+        "name": "npm",
+        "type": "topic",
+        "description": "npm is like a personal assistant for your coding projects. It's a tool that helps you easily manage and share code packages (like pre-written bits of code that do specific things) in your projects. Think of it as an app store, but for code. You can use it to install, update, and uninstall these packages, making it much easier to use other people's code and share your own.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "NPM Website",
+            "url": "https://www.npmjs.com/"
+          },
+          {
+            "type": "official",
+            "title": "NPM Documentation",
+            "url": "https://docs.npmjs.com/"
+          },
+          {
+            "type": "opensource",
+            "title": "How to NPM",
+            "url": "https://github.com/workshopper/how-to-npm"
+          },
+          {
+            "type": "article",
+            "title": "Modern JavaScript for Dinosaurs",
+            "url": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+          },
+          {
+            "type": "video",
+            "title": "NPM Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+          }
+        ]
+      },
+      {
+        "id": "tG5v3O4lNIFc2uCnacPak",
+        "name": "React",
+        "type": "topic",
+        "description": "React is a JavaScript library for building user interfaces. It lets you break down complex UIs into smaller, reusable components. These components manage their own data and can be composed together to create larger applications. React uses a declarative approach, meaning you describe what you want the UI to look like, and React takes care of updating the DOM efficiently.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated React Roadmap",
+            "url": "https://roadmap.sh/react"
+          },
+          {
+            "type": "official",
+            "title": "React Website",
+            "url": "https://react.dev"
+          },
+          {
+            "type": "video",
+            "title": "Full Stack React Developer Course",
+            "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk"
+          }
+        ]
+      },
+      {
+        "id": "eghnfG4p7i-EDWfp3CQXC",
+        "name": "Tailwind",
+        "type": "topic",
+        "description": "Tailwind CSS is a utility-first CSS framework. Instead of providing pre-designed components like buttons or navigation bars, it gives you a set of pre-defined CSS classes that you can use directly in your HTML to style your elements. This allows for highly customized designs without writing custom CSS from scratch, offering a faster and more flexible way to style your web pages.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Tailwind CSS Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+          },
+          {
+            "type": "official",
+            "title": "Tailwind Website",
+            "url": "https://tailwindcss.com"
+          },
+          {
+            "type": "official",
+            "title": "Online Playground",
+            "url": "https://play.tailwindcss.com"
+          },
+          {
+            "type": "video",
+            "title": "Should You Use Tailwind CSS?",
+            "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+          },
+          {
+            "type": "video",
+            "title": "Official Screencasts",
+            "url": "https://www.youtube.com/c/TailwindLabs/videos"
+          }
+        ]
+      },
+      {
+        "id": "hVQ89f6G0LXEgHIOKHDYq",
+        "name": "Vitest",
+        "type": "topic",
+        "description": "Vitest is a testing framework powered by Vite. It's designed to be fast and easy to use, especially for projects that already use Vite for development. Vitest allows you to write unit tests and integration tests for your frontend code, ensuring that your components and functions work as expected. It offers features like hot module replacement (HMR) during testing, a watch mode for automatically re-running tests on file changes, and compatibility with popular testing libraries like Jest.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Vitest - Next Generation Testing Framework",
+            "url": "https://vitest.dev/"
+          },
+          {
+            "type": "official",
+            "title": "Vitest Documentation",
+            "url": "https://vitest.dev/guide/"
+          },
+          {
+            "type": "video",
+            "title": "Vitest Simplified",
+            "url": "https://www.youtube.com/watch?v=snCLQmINqCU"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "yWG2VUkaF5IJVVut6AiSy",
+        "target": "ZhJhf1M2OphYbEmduFq-9",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ZhJhf1M2OphYbEmduFq-9",
+        "target": "ODcfFEorkfJNupoQygM53",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ODcfFEorkfJNupoQygM53",
+        "target": "R_I4SGYqLk5zze5I1zS_E",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ODcfFEorkfJNupoQygM53",
+        "target": "qmTVMJDsEhNIkiwE_UTYu",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "R_I4SGYqLk5zze5I1zS_E",
+        "target": "ib_FHinhrw8VuSet-xMF7",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "qmTVMJDsEhNIkiwE_UTYu",
+        "target": "ib_FHinhrw8VuSet-xMF7",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ib_FHinhrw8VuSet-xMF7",
+        "target": "tG5v3O4lNIFc2uCnacPak",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "tG5v3O4lNIFc2uCnacPak",
+        "target": "eghnfG4p7i-EDWfp3CQXC",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "eghnfG4p7i-EDWfp3CQXC",
+        "target": "hVQ89f6G0LXEgHIOKHDYq",
+        "type": "next_in_flow"
+      }
+    ]
+  }
+}

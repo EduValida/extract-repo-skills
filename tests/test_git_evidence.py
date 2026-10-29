@@ -1,7 +1,5 @@
-import json
 import os
 import subprocess
-import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -113,22 +111,3 @@ class GitEvidenceTests(GitRepositoryFixture, unittest.TestCase):
         self.write(".gitattributes", "*.css diff=testdriver\n")
         self.assertEqual(verify_git_evidence(self.report, self.catalog, self.repo), 1)
         self.assertFalse(marker.exists())
-
-    def test_cli_distinguishes_contract_and_git_verification(self):
-        path = Path(self.temp.name) / "report.json"
-        path.write_text(json.dumps(self.report), encoding="utf-8")
-        command = [sys.executable, "-m", "extract_repo_skills", "validate-report", str(path), "--catalog", str(CATALOG_PATH)]
-        result = subprocess.run(command, capture_output=True, text=True, check=True)
-        output = json.loads(result.stdout)
-        self.assertFalse(output["git_evidence_verified"])
-        self.assertFalse(output["skill_semantics_verified"])
-        result = subprocess.run([*command, "--repo", str(self.repo)], capture_output=True, text=True, check=True)
-        output = json.loads(result.stdout)
-        self.assertTrue(output["git_evidence_verified"])
-        self.assertEqual(output["citations_checked"], 1)
-        self.report["assessments"][0]["skill_id"] = "invented.skill"
-        path.write_text(json.dumps(self.report), encoding="utf-8")
-        result = subprocess.run(command, capture_output=True, text=True)
-        self.assertEqual(result.returncode, 1)
-        self.assertEqual(result.stdout, "")
-        self.assertIn("unknown skill ID", result.stderr)

@@ -1,0 +1,3394 @@
+{
+  "metadata": {
+    "slug": "datastructures-and-algorithms",
+    "title": "Data Structures & Algorithms",
+    "description": "Step by step guide to learn Data Structures and Algorithms in 2026",
+    "extracted_at": "2026-10-29T01:03:56.898990+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/datastructures-and-algorithms",
+    "total_topics": 15,
+    "total_subtopics": 92
+  },
+  "tree": {
+    "title": "Data Structures & Algorithms",
+    "slug": "datastructures-and-algorithms",
+    "topics": [
+      {
+        "id": "Z4uVzAoNzcAkyjd-lp3_M",
+        "name": "Pick a Language",
+        "type": "topic",
+        "description": "Choosing a language is the first step before studying data structures and algorithms. Most learners pick Python for its readable syntax, Java or C# for their strong typing and interview prevalence, C++ for performance and competitive programming, or JavaScript for versatility. The language matters less than consistency; pick one and stick with it throughout your studies.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/pick-a-language@Z4uVzAoNzcAkyjd-lp3_M.md",
+        "subtopics_count": 8,
+        "subtopics": [
+          {
+            "id": "HVD9G3JlLBsAg111vQILj",
+            "name": "JavaScript",
+            "type": "subtopic",
+            "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Apart from being used on the frontend in browsers, there is Node.js which is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated JavaScript Roadmap",
+                "url": "https://roadmap.sh/javascript"
+              },
+              {
+                "type": "official",
+                "title": "Official Documentation",
+                "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+              },
+              {
+                "type": "article",
+                "title": "The Modern JavaScript Tutorial",
+                "url": "https://javascript.info/"
+              },
+              {
+                "type": "video",
+                "title": "JavaScript Crash Course for Beginners",
+                "url": "https://youtu.be/hdI2bqOjy3c"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/javascript@HVD9G3JlLBsAg111vQILj.md"
+          },
+          {
+            "id": "BZvNEZjCNuHPg5SkX90bt",
+            "name": "C#",
+            "type": "subtopic",
+            "description": "C# is a statically typed, object-oriented language developed by Microsoft. It is widely used in enterprise software and game development with Unity. Its syntax is similar to Java, making it a solid choice for learners who want strong tooling and type safety while practicing algorithms.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "C# Learning Path",
+                "url": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website"
+              },
+              {
+                "type": "article",
+                "title": "Introduction to C#",
+                "url": "https://docs.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha"
+              },
+              {
+                "type": "video",
+                "title": "C# tutorials",
+                "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/c@BZvNEZjCNuHPg5SkX90bt.md"
+          },
+          {
+            "id": "gjZZOwmYkXQHPfg9Ynz80",
+            "name": "Java",
+            "type": "subtopic",
+            "description": "Java is a statically typed, object-oriented language that runs on the JVM. It is heavily used in software engineering interviews and large-scale systems. Its verbose but explicit syntax helps learners understand types, generics, and object relationships when implementing data structures from scratch.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Java Roadmap",
+                "url": "https://roadmap.sh/java"
+              },
+              {
+                "type": "official",
+                "title": "Java Website",
+                "url": "https://www.java.com/"
+              },
+              {
+                "type": "video",
+                "title": "Java Crash Course",
+                "url": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+              },
+              {
+                "type": "video",
+                "title": "Complete Java course",
+                "url": "https://www.youtube.com/watch?v=xk4_1vDrzzo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/java@gjZZOwmYkXQHPfg9Ynz80.md"
+          },
+          {
+            "id": "IWmq4UFB5j6O3UJfarh1u",
+            "name": "C++",
+            "type": "subtopic",
+            "description": "C++ is a compiled, statically typed language known for its speed and fine-grained control over memory. It is the dominant language in competitive programming because of its performance and rich standard library (STL), which includes built-in implementations of common data structures and algorithms.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Visit Dedicated C++ Roadmap",
+                "url": "https://roadmap.sh/cpp"
+              },
+              {
+                "type": "article",
+                "title": "Learn Cpp",
+                "url": "https://learncpp.com/"
+              },
+              {
+                "type": "article",
+                "title": "C++ Reference",
+                "url": "https://en.cppreference.com/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/c@IWmq4UFB5j6O3UJfarh1u.md"
+          },
+          {
+            "id": "OkdM_PJge70j5tsjT2Esl",
+            "name": "Go",
+            "type": "subtopic",
+            "description": "Go is a statically typed, compiled language designed for simplicity and concurrency. It has a small standard library and explicit syntax, which makes it suitable for learners who want to understand how things work without relying on abstractions. Go is increasingly common in backend engineering interviews.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Go Roadmap",
+                "url": "https://roadmap.sh/golang"
+              },
+              {
+                "type": "official",
+                "title": "A Tour of Go – Go Basics",
+                "url": "https://go.dev/tour/welcome/1"
+              },
+              {
+                "type": "official",
+                "title": "Go Reference Documentation",
+                "url": "https://go.dev/doc/"
+              },
+              {
+                "type": "article",
+                "title": "Go, the Programming Language of the Cloud",
+                "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/go@OkdM_PJge70j5tsjT2Esl.md"
+          },
+          {
+            "id": "XyRCXhZjQFcDNaUSNNQV-",
+            "name": "Python",
+            "type": "subtopic",
+            "description": "Python is a dynamically typed, interpreted language with a concise and readable syntax. It is popular for learning DSA because less boilerplate code means the logic of an algorithm stays visible. Its built-in list, dict, and set types cover many common data structure needs out of the box.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Python Roadmap",
+                "url": "https://roadmap.sh/python"
+              },
+              {
+                "type": "official",
+                "title": "Visit Dedicated Python for Data Analysis Roadmap",
+                "url": "https://roadmap.sh/python-data-analysis"
+              },
+              {
+                "type": "official",
+                "title": "Python Getting Started",
+                "url": "https://www.python.org/about/gettingstarted/"
+              },
+              {
+                "type": "article",
+                "title": "An Introduction to Python for Non-Programmers",
+                "url": "https://thenewstack.io/an-introduction-to-python-for-non-programmers/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/python@XyRCXhZjQFcDNaUSNNQV-.md"
+          },
+          {
+            "id": "9h1mz0xAUvPrnRm9VndJF",
+            "name": "Ruby",
+            "type": "subtopic",
+            "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Ruby Website",
+                "url": "https://www.ruby-lang.org/en/"
+              },
+              {
+                "type": "article",
+                "title": "Learn Ruby in 20 minutes",
+                "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
+              },
+              {
+                "type": "article",
+                "title": "Ruby, An Introduction to a Programmer’s Best Friend",
+                "url": "https://thenewstack.io/ruby-a-programmers-best-friend/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/ruby@9h1mz0xAUvPrnRm9VndJF.md"
+          },
+          {
+            "id": "acgRMEuL4ZGGRHpZ7kXSo",
+            "name": "Rust",
+            "type": "subtopic",
+            "description": "Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "The Rust Programming Language - online book",
+                "url": "https://doc.rust-lang.org/book/"
+              },
+              {
+                "type": "article",
+                "title": "Rust by Example - collection of runnable examples",
+                "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+              },
+              {
+                "type": "article",
+                "title": "Rust vs. Go: Why They’re Better Together",
+                "url": "https://thenewstack.io/rust-vs-go-why-theyre-better-together/"
+              },
+              {
+                "type": "article",
+                "title": "Rust by the Numbers: The Rust Programming Language in 2021",
+                "url": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/rust@acgRMEuL4ZGGRHpZ7kXSo.md"
+          }
+        ]
+      },
+      {
+        "id": "ebQdTOAOV54WBToHmFtBk",
+        "name": "Programming Fundamentals",
+        "type": "topic",
+        "description": "Programming Fundamentals are the basic concepts and principles that form the foundation of any computer programming language. These include understanding variables, which store data for processing, control structures such as loops and conditional statements that direct the flow of a program, data structures which organize and store data efficiently, and algorithms which step by step instructions to solve specific problems or perform specific tasks. Mastery of these fundamentals forms the basis for learning any specific programming language and for writing efficient, effective code.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/programming-fundamentals@ebQdTOAOV54WBToHmFtBk.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "kE6qddRhO8C5ur3JbeuhF",
+            "name": "Language Syntax",
+            "type": "subtopic",
+            "description": "Language syntax refers to the set of rules that define how code must be written in a given programming language. It covers how to declare variables, write expressions, define functions, and structure a program so the compiler or interpreter can parse it. Every language has its own syntax, but the underlying patterns are similar across most of them.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/language-syntax@kE6qddRhO8C5ur3JbeuhF.md"
+          },
+          {
+            "id": "G74Xp8_EMZO2oEzNTRAli",
+            "name": "Control Structures",
+            "type": "subtopic",
+            "description": "Control structures direct the flow of execution in a program. They include conditionals like `if/else`, which run code only when a condition is true, and loops like `for` and `while`, which repeat a block of code. Most algorithmic logic depends on these constructs to make decisions and iterate over data.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/control-structures@G74Xp8_EMZO2oEzNTRAli.md"
+          },
+          {
+            "id": "tvy3Vic8Vp-Ie2x_OyZ5b",
+            "name": "Pseudo Code",
+            "type": "subtopic",
+            "description": "Pseudocode is an informal way to describe an algorithm using plain language and simple structure, without following the syntax rules of any specific programming language. It helps plan logic before writing real code and is commonly used in textbooks, interviews, and design discussions. Reading and writing pseudocode is a practical skill for thinking through problems.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/pseudo-code@tvy3Vic8Vp-Ie2x_OyZ5b.md"
+          },
+          {
+            "id": "Cu08m5JOfvrPUDGony144",
+            "name": "Functions",
+            "type": "subtopic",
+            "description": "A function is a named, reusable block of code that takes inputs, performs a task, and optionally returns a result. Functions let you break a program into smaller, manageable pieces and avoid repeating the same code in multiple places. Most algorithms are expressed as functions, and understanding how they receive arguments and return values is fundamental.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/functions@Cu08m5JOfvrPUDGony144.md"
+          },
+          {
+            "id": "QFR1FMOf2OV3n3jcDnOCP",
+            "name": "OOP Basics",
+            "type": "subtopic",
+            "description": "Object-oriented programming (OOP) organizes code around objects, which combine data (fields) and behavior (methods). The four main principles are encapsulation, abstraction, inheritance, and polymorphism. Many data structure implementations, especially in languages like Java and C#, are expressed using classes and objects.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Object-Oriented Programming (Simplified)",
+                "url": "https://youtu.be/pTB0EiLXUC8?si=I8rV2K5fhpoqmixX"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/oop-basics@QFR1FMOf2OV3n3jcDnOCP.md"
+          }
+        ]
+      },
+      {
+        "id": "jvWuYXWRtt_ePawc4q1Tg",
+        "name": "What are Data Structures?",
+        "type": "topic",
+        "description": "A data structure is a way of organizing and storing data in memory so it can be accessed and modified efficiently. Different data structures are suited to different kinds of problems: arrays work well for indexed access, linked lists for frequent insertions, and hash tables for fast lookups. Choosing the right one affects the speed and memory usage of an algorithm.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "What an Algorithms and More(MIT)",
+            "url": "https://youtu.be/Zc54gFhdpLA?si=F_1QRigN_h2t2nSp&t=133"
+          },
+          {
+            "type": "video",
+            "title": "What Are Data Structures?",
+            "url": "https://www.youtube.com/watch?v=bum_19loj9A"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Algorithms",
+            "url": "https://www.youtube.com/watch?v=0IAPZzGSbME"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/what-are-data-structures@jvWuYXWRtt_ePawc4q1Tg.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "8_GkF9zhRL8tvT2qu-bGj",
+        "name": "Why are Data Structures Important?",
+        "type": "topic",
+        "description": "The choice of data structure directly affects how fast and memory-efficient a program is. Using the wrong structure can turn an operation that should take milliseconds into one that takes seconds. Understanding data structures lets developers write code that scales and performs well under real-world conditions.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "What are Data Structures? Why is it Important?",
+            "url": "https://www.youtube.com/watch?v=18V8Avz2OH8"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/why-are-data-structures-important@8_GkF9zhRL8tvT2qu-bGj.md",
+        "subtopics_count": 7,
+        "subtopics": [
+          {
+            "id": "nqnO1Wz3gYIMR98_BnF2V",
+            "name": "Common Runtimes",
+            "type": "subtopic",
+            "description": "Common runtimes describe the typical growth rates seen in algorithms, ordered from fastest to slowest: O(1), O(log n), O(n), O(n log n), O(n²), O(2ⁿ), and O(n!). Recognizing these patterns helps predict an algorithm's scalability and compare alternatives quickly.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/common-runtimes@nqnO1Wz3gYIMR98_BnF2V.md"
+          },
+          {
+            "id": "_bpV8MkVOY8ZatTXYaEE4",
+            "name": "Constant",
+            "type": "subtopic",
+            "description": "An algorithm with constant time complexity, O(1), takes the same amount of time regardless of input size. Accessing an array element by index or looking up a value in a hash table are O(1) operations. Constant time is the best possible complexity.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/constant@_bpV8MkVOY8ZatTXYaEE4.md"
+          },
+          {
+            "id": "Cnceet0yroFHzn8npAir8",
+            "name": "Logarithmic",
+            "type": "subtopic",
+            "description": "Logarithmic time complexity (O(log n)) often indicates that the algorithm halves the size of the input at each step. It's more efficient compared to linear time complexity. Binary search is a classic example of logarithmic time complexity where at every step, the algorithm breaks the list into half until it finds the desired element. As the size of the input increases, the growth of the time taken by an algorithm with logarithmic complexity grows slowly because it divides the problem into smaller parts in each step.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/logarithmic@Cnceet0yroFHzn8npAir8.md"
+          },
+          {
+            "id": "HOpL-4jYhOe0LNrrkPrET",
+            "name": "Linear",
+            "type": "subtopic",
+            "description": "Linear time complexity, denoted as O(n), is one of the best possible algorithmic performance situations. An algorithm is said to have a linear time complexity when the running time increases at most linearly with the size of the input data. This means that if you double the size of the input, the running time will at most double as well. In an ideal situation, every single element in the data set should be viewed exactly once. Sorting algorithms such as counting sort and bucket sort have linear time complexity under certain conditions.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/linear@HOpL-4jYhOe0LNrrkPrET.md"
+          },
+          {
+            "id": "QKhmM_IG1FkBudfdrf1aT",
+            "name": "Polynomial",
+            "type": "subtopic",
+            "description": "Polynomial time complexity, denoted as O(n^k), is a class of time complexity that represents the amount of time an algorithm takes to run as being proportional to the size of the input data raised to a constant power 'k'. Polynomial time complexity includes runtimes like O(n), O(n^2), O(n^3), etc. The value 'n' is a representation of the size of the input, while 'k' represents a constant. Algorithms running in polynomial time are considered to be reasonably efficient for small and medium-sized inputs, but can become impractical for large input sizes due to the rapid growth rate of function.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/polynomial@QKhmM_IG1FkBudfdrf1aT.md"
+          },
+          {
+            "id": "xqzaYJBvlsNtT6qZ59ktv",
+            "name": "Exponential",
+            "type": "subtopic",
+            "description": "Exponential time complexity is denoted as `O(2^n)`, where a growth in `n` leads to an exponential growth in the number of steps required to complete a task. It means that the time complexity will double with every additional element in the input set. This is seen in many recursive algorithms, where a problem is divided into two sub-problems of the same type. Examples of such algorithms include the naive recursive approach for the Fibonacci sequence or the Towers of Hanoi problem. Although exponential time complexity solutions are often simpler to implement, they are inefficient for larger input sizes.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/exponential@xqzaYJBvlsNtT6qZ59ktv.md"
+          },
+          {
+            "id": "wclY3cmt1fBNYjLsmijdW",
+            "name": "Factorial",
+            "type": "subtopic",
+            "description": "Factorial complexity, O(n!), grows faster than exponential and represents the number of permutations of n elements. Algorithms that generate every possible ordering of a set, such as brute-force permutation search, run in factorial time. This is only feasible for very small inputs.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/factorial@wclY3cmt1fBNYjLsmijdW.md"
+          }
+        ]
+      },
+      {
+        "id": "iTlpa9A7h33FkUAv0UaVZ",
+        "name": "Basic Data Structures",
+        "type": "topic",
+        "description": "Basic data structures are the foundational building blocks used in most programs and algorithms. They include arrays, linked lists, stacks, queues, and hash tables. Learning how each one stores data, what operations it supports, and what trade-offs it makes is the starting point for understanding more advanced structures.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/basic-data-structures@iTlpa9A7h33FkUAv0UaVZ.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "bRu9u8pEAQ1TmKygjIjyI",
+            "name": "Linked Lists",
+            "type": "subtopic",
+            "description": "A linked list is a sequence of nodes where each node stores a value and a reference to the next node. Unlike arrays, linked lists do not require contiguous memory, making insertions and deletions at the head or middle efficient. The trade-off is that accessing an element by index requires traversing from the start.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Linked Lists vs Python Lists: When to Use Each",
+                "url": "https://roadmap.sh/python/linked-list"
+              },
+              {
+                "type": "video",
+                "title": "Introduction To Linked List",
+                "url": "https://youtu.be/Nq7ok-OyEpg?si=xttaGoYKcoJ09Ln2"
+              },
+              {
+                "type": "video",
+                "title": "Python Linked List",
+                "url": "https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=4&ab_channel=codebasics"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/linked-lists@bRu9u8pEAQ1TmKygjIjyI.md"
+          },
+          {
+            "id": "lxY3ErxJ_D3zkSAXIBUpv",
+            "name": "Array",
+            "type": "subtopic",
+            "description": "An array is a collection of elements stored in contiguous memory locations, accessed by index. It supports constant-time reads and writes by position but requires shifting elements when inserting or deleting in the middle. Arrays are one of the most widely used data structures because of their simplicity and cache efficiency.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Arrays in Python",
+                "url": "https://www.youtube.com/watch?v=gDqQf4Ekr2A&ab_channel=codebasics"
+              },
+              {
+                "type": "video",
+                "title": "Arrays in Java",
+                "url": "https://www.youtube.com/watch?v=ei_4Nt7XWOw&ab_channel=BroCode"
+              },
+              {
+                "type": "video",
+                "title": "Arrays in Javascript",
+                "url": "https://www.youtube.com/watch?v=yQ1fz8LY354"
+              },
+              {
+                "type": "video",
+                "title": "Arrays in GoLang",
+                "url": "https://www.youtube.com/watch?v=e-oBn806Pzc&pp=ygUIYXJyYXkgZ28%3D"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/array@lxY3ErxJ_D3zkSAXIBUpv.md"
+          },
+          {
+            "id": "jvKRykGNy140FlquF2fcK",
+            "name": "Stacks",
+            "type": "subtopic",
+            "description": "A stack is a linear data structure that follows the last-in, first-out (LIFO) principle. Elements are added and removed from the same end, called the top. Stacks are used to manage function call frames, evaluate expressions, and implement undo functionality.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Leetcode",
+                "url": "https://leetcode.com/problems/valid-parentheses/"
+              },
+              {
+                "type": "video",
+                "title": "Stacks",
+                "url": "https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=69&ab_channel=takeUforward"
+              },
+              {
+                "type": "video",
+                "title": "Stack Data Structure Tutorial",
+                "url": "https://www.youtube.com/watch?v=O1KeXo8lE8A"
+              },
+              {
+                "type": "video",
+                "title": "Python Stacks",
+                "url": "https://www.youtube.com/watch?v=zwb3GmNAtFk"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/stacks@jvKRykGNy140FlquF2fcK.md"
+          },
+          {
+            "id": "v0phjC75jhmE1z-f9ZMck",
+            "name": "Queues",
+            "type": "subtopic",
+            "description": "A queue is a linear data structure that follows the first-in, first-out (FIFO) principle. Elements are added at the back and removed from the front. Queues are used in scheduling, breadth-first search, and any scenario where order of arrival matters.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Queue",
+                "url": "https://www.youtube.com/watch?v=M6GnoUDpqEE"
+              },
+              {
+                "type": "video",
+                "title": "Python Queue",
+                "url": "https://www.youtube.com/watch?v=rUUrmGKYwHw"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/queues@v0phjC75jhmE1z-f9ZMck.md"
+          },
+          {
+            "id": "kSy-8ubESdmIX4Fyl8TSu",
+            "name": "Hash Tables",
+            "type": "subtopic",
+            "description": "A hash table stores key-value pairs and uses a hash function to compute the index where a value is stored. This allows average constant-time lookups, insertions, and deletions. Collisions, where two keys hash to the same index, are handled through chaining or open addressing.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Hashmaps in Python: Master Implementation and Use Cases",
+                "url": "https://roadmap.sh/python/hashmap"
+              },
+              {
+                "type": "video",
+                "title": "Hash Table",
+                "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g&ab_channel=takeUforward"
+              },
+              {
+                "type": "video",
+                "title": "Python Hash Table Part 1",
+                "url": "https://www.youtube.com/watch?v=ea8BRGxGmlA"
+              },
+              {
+                "type": "video",
+                "title": "Python Hash Table Part 2",
+                "url": "https://www.youtube.com/watch?v=54iv1si4YCM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/hash-tables@kSy-8ubESdmIX4Fyl8TSu.md"
+          }
+        ]
+      },
+      {
+        "id": "VotdHk0_bI3CeoIf-KoKu",
+        "name": "Algorithmic Complexity",
+        "type": "topic",
+        "description": "Algorithmic complexity describes how the runtime or memory usage of an algorithm grows as the input size increases. It is the primary tool for comparing algorithms and predicting how they will perform at scale. Complexity is typically expressed using Big-O notation, which captures the worst-case growth rate.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/algorithmic-complexity@VotdHk0_bI3CeoIf-KoKu.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "unaYmPzK761Eh_iZMLeRC",
+            "name": "Time vs Space Complexity",
+            "type": "subtopic",
+            "description": "Time complexity measures how many operations an algorithm performs relative to input size. Space complexity measures how much memory it uses. These two factors often trade off against each other: an algorithm can be made faster by using more memory, or more memory-efficient by doing more computation.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Cheat Sheet",
+                "url": "https://www.bigocheatsheet.com/"
+              },
+              {
+                "type": "article",
+                "title": "Big-O Notation",
+                "url": "https://roadmap.sh/guides/big-o-notation"
+              },
+              {
+                "type": "video",
+                "title": "Big O Notation — Calculating Time Complexity",
+                "url": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+              },
+              {
+                "type": "video",
+                "title": "Free Code Camp Big-O Tutorial",
+                "url": "https://youtu.be/Mo4vesaut8g?si=1jyb-EkfCLf9PNND"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/time-vs-space-complexity@unaYmPzK761Eh_iZMLeRC.md"
+          },
+          {
+            "id": "HosRc0hczubBHrWxCzEJj",
+            "name": "How to Calculate Complexity?",
+            "type": "subtopic",
+            "description": "Calculating complexity involves identifying the dominant operations in an algorithm and counting how many times they run as input size grows. For a single loop over n elements, the time complexity is O(n). Nested loops multiply, recursive calls add up through recurrence relations, and constant-time operations are ignored.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Time & Space Complexity",
+                "url": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+              },
+              {
+                "type": "video",
+                "title": "How Write and Analyze Algorithm",
+                "url": "https://www.youtube.com/watch?v=xGYsEqe9Vl0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/how-to-calculate-complexity@HosRc0hczubBHrWxCzEJj.md"
+          },
+          {
+            "id": "v0LrabYYOKzV4oCXOK2Rs",
+            "name": "Asymptotic Notation",
+            "type": "subtopic",
+            "description": "Asymptotic notation is a way to describe the limiting behavior of a function, typically representing the time or space complexity of an algorithm, as the input size grows. It focuses on the dominant terms and ignores constant factors and lower-order terms, providing a simplified and generalized way to compare the efficiency of different algorithms. Common notations include Big O, Big Omega, and Big Theta, which represent upper bound, lower bound, and tight bound, respectively.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Asymptotic Analysis: Big-O Notation and More",
+                "url": "https://www.programiz.com/dsa/asymptotic-notations"
+              },
+              {
+                "type": "article",
+                "title": "The Big O Notation",
+                "url": "https://towardsdatascience.com/big-o-notation-32fb458e5260/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/asymptotic-notation@v0LrabYYOKzV4oCXOK2Rs.md"
+          },
+          {
+            "id": "oylTfop_JDPHJ3jYuA2Nq",
+            "name": "Big-O Notation",
+            "type": "subtopic",
+            "description": "Big-O notation describes the upper bound of an algorithm's growth rate, representing the worst-case scenario. An algorithm that is O(n²) will take at most quadratic time for any input of size n. It is the most commonly used notation in practice because worst-case guarantees matter most for reliability.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Big-O Cheat Sheet",
+                "url": "https://www.bigocheatsheet.com/"
+              },
+              {
+                "type": "video",
+                "title": "Introduction to Big O Notation and Time Complexity",
+                "url": "https://www.youtube.com/watch?v=D6xkbGLQesk"
+              },
+              {
+                "type": "video",
+                "title": "Big-O Notation",
+                "url": "https://www.youtube.com/watch?v=BgLTDT03QtU"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/big-o-notation@oylTfop_JDPHJ3jYuA2Nq.md"
+          },
+          {
+            "id": "Ex6tzu6gwrarWm1CNFufO",
+            "name": "Big-θ Notation",
+            "type": "subtopic",
+            "description": "Big-Θ (Theta) notation describes a tight bound, meaning the algorithm grows at exactly that rate in both the best and worst case. If an algorithm is Θ(n log n), its runtime is always proportional to n log n, not just bounded by it. It gives the most precise characterization of an algorithm's complexity.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/big--notation@Ex6tzu6gwrarWm1CNFufO.md"
+          },
+          {
+            "id": "CkUi93TvTkEm2_isHNvqr",
+            "name": "Big-Ω Notation",
+            "type": "subtopic",
+            "description": "Big-Ω (Omega) notation describes the lower bound of an algorithm's growth, representing the best-case scenario. If an algorithm is Ω(n), it will always take at least linear time. It is less commonly used than Big-O but useful when analyzing minimum guaranteed performance.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/big--notation@CkUi93TvTkEm2_isHNvqr.md"
+          }
+        ]
+      },
+      {
+        "id": "WzFkdkcbL8ea9DBkjfSwa",
+        "name": "Sorting Algorithms",
+        "type": "topic",
+        "description": "Sorting algorithms arrange elements of a list in a defined order, typically ascending or descending. Sorting is one of the most studied problems in computer science because it underlies searching, data processing, and many other algorithms. Different sorting algorithms offer different trade-offs in time complexity, space, and stability.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/sorting-algorithms@WzFkdkcbL8ea9DBkjfSwa.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "zUDKCJCQHLW4c_6A349R3",
+            "name": "Bubble Sort",
+            "type": "subtopic",
+            "description": "Bubble sort repeatedly compares adjacent elements and swaps them if they are out of order, moving the largest unsorted element to its correct position in each pass. It runs in O(n²) time in the average and worst case, making it inefficient for large lists. It is primarily taught as an introductory algorithm because its logic is easy to visualize.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Bubble Sort Visualize",
+                "url": "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/"
+              },
+              {
+                "type": "video",
+                "title": "Bubble Sort",
+                "url": "https://www.youtube.com/watch?v=Jdtq5uKz-w4"
+              },
+              {
+                "type": "video",
+                "title": "Bubble Sort",
+                "url": "https://www.youtube.com/watch?v=p__ETf2CKY4"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/bubble-sort@zUDKCJCQHLW4c_6A349R3.md"
+          },
+          {
+            "id": "k0UBAj3hOYab4mUziOYyW",
+            "name": "Merge Sort",
+            "type": "subtopic",
+            "description": "Merge sort divides a list in half, recursively sorts each half, and then merges the two sorted halves into one sorted list. It runs in O(n log n) time in all cases and is stable, preserving the relative order of equal elements. The trade-off is O(n) additional memory for the merge step.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+                "url": "https://roadmap.sh/python/merge-sort"
+              },
+              {
+                "type": "article",
+                "title": "Merge Sort Visualize",
+                "url": "https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/"
+              },
+              {
+                "type": "video",
+                "title": "Merge Sort",
+                "url": "https://www.youtube.com/watch?v=4VqmGXwpLqc"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/merge-sort@k0UBAj3hOYab4mUziOYyW.md"
+          },
+          {
+            "id": "liJfTV5ajAFZcfwBdVGpU",
+            "name": "Insertion Sort",
+            "type": "subtopic",
+            "description": "Insertion sort builds a sorted list one element at a time by taking each new element and inserting it into its correct position among the already-sorted elements. It runs in O(n²) in the worst case but is efficient for small or nearly sorted lists, where it approaches O(n). It is also the basis for more advanced algorithms like Timsort.",
+            "resources": [
+              {
+                "type": "course",
+                "title": "Insertion Sort",
+                "url": "https://youtu.be/JU767SDMDvA"
+              },
+              {
+                "type": "article",
+                "title": "Insertion Sort Visualization",
+                "url": "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/insertion-sort@liJfTV5ajAFZcfwBdVGpU.md"
+          },
+          {
+            "id": "LgEV0Wm4avrOqR8bV5GXW",
+            "name": "Quick Sort",
+            "type": "subtopic",
+            "description": "Quicksort selects a pivot element and partitions the list so that all elements smaller than the pivot come before it and all larger elements come after. It then recursively sorts each partition. Average-case performance is O(n log n), but worst-case is O(n²) if the pivot is consistently poorly chosen. In practice, quicksort is often the fastest general-purpose sorting algorithm.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Quick Sort Visualize",
+                "url": "https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/"
+              },
+              {
+                "type": "video",
+                "title": "A Complete Overview of Quicksort",
+                "url": "https://www.youtube.com/watch?v=0SkOjNaO1XY"
+              },
+              {
+                "type": "video",
+                "title": "QuickSort",
+                "url": "https://www.youtube.com/watch?v=7h1s2SojIRw"
+              },
+              {
+                "type": "video",
+                "title": "QuickSort Analysis",
+                "url": "https://www.youtube.com/watch?v=-qOVVRIZzao"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/quick-sort@LgEV0Wm4avrOqR8bV5GXW.md"
+          },
+          {
+            "id": "SMgBHvqXLD6Cgr2nix4wR",
+            "name": "Selection Sort",
+            "type": "subtopic",
+            "description": "Selection sort repeatedly finds the minimum element in the unsorted portion of the list and moves it to the correct position. It always performs O(n²) comparisons regardless of input order. While simple to implement, it is generally slower than insertion sort in practice and is mainly used for educational purposes.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Selection Sort Visualize",
+                "url": "https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/practice-problems/"
+              },
+              {
+                "type": "video",
+                "title": "Selection sort in 3 minutes",
+                "url": "https://www.youtube.com/watch?v=g-PGLbMth_g&t=5s"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/selection-sort@SMgBHvqXLD6Cgr2nix4wR.md"
+          },
+          {
+            "id": "yMv9Oa3hsgT8Adx6m_rdL",
+            "name": "Heap Sort",
+            "type": "subtopic",
+            "description": "Heap sort uses a binary heap data structure to sort elements. It first builds a max-heap from the input, then repeatedly extracts the maximum element and places it at the end of the sorted portion. It runs in O(n log n) time with O(1) extra space, making it memory-efficient compared to merge sort.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Heap Sort Visualize",
+                "url": "https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/"
+              },
+              {
+                "type": "video",
+                "title": "Heap sort in 4 minutes",
+                "url": "https://www.youtube.com/watch?v=2DmK_H7IdTo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+          }
+        ]
+      },
+      {
+        "id": "z_Cf_alLAYSCyYtNviRcO",
+        "name": "Search Algorithms",
+        "type": "topic",
+        "description": "Search algorithms are techniques used for finding a specific item or group of items among a collection of data. The primary types of search algorithms are linear search, binary search, depth-first search, and breadth-first search. Linear and binary search are explained in this section. The other two types in a next section of this roadmap.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/search-algorithms@z_Cf_alLAYSCyYtNviRcO.md",
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "Wt74MRKaZcs8lYvfqjffT",
+            "name": "Binary Search",
+            "type": "subtopic",
+            "description": "Binary search finds a target value in a sorted list by repeatedly halving the search space. It compares the target to the middle element and discards the half that cannot contain the target. It runs in O(log n) time, making it far more efficient than linear search for large sorted datasets.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Binary search in Python 101: Implementation and use cases",
+                "url": "https://roadmap.sh/python/binary-search"
+              },
+              {
+                "type": "video",
+                "title": "Learn Binary Search in 10 minutes",
+                "url": "https://www.youtube.com/watch?v=xrMppTpoqdw"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/binary-search@Wt74MRKaZcs8lYvfqjffT.md"
+          },
+          {
+            "id": "AtX-PeI8nY4-5bA-xLla0",
+            "name": "Linear Search",
+            "type": "subtopic",
+            "description": "Linear search is one of the simplest search algorithms. In this method, every element in an array is checked sequentially starting from the first until a match is found or all elements have been checked. It is also known as sequential search. It works on both sorted and unsorted lists, and does not need any preconditioned list for the operation. However, its efficiency is lesser as compared to other search algorithms since it checks all elements one by one.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Learn Linear Search in 3 minutes",
+                "url": "https://www.youtube.com/watch?v=246V51AWwZM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/linear-search@AtX-PeI8nY4-5bA-xLla0.md"
+          }
+        ]
+      },
+      {
+        "id": "r2Jagzbx0qOG-VtxBY-mz",
+        "name": "Tree Data Structures",
+        "type": "topic",
+        "description": "A tree is a hierarchical data structure made of nodes connected by edges, with one root node at the top and child nodes branching below. Trees represent hierarchical relationships naturally, such as file systems, organizational charts, and HTML documents. Many specialized trees exist to optimize for specific operations like searching, sorting, or range queries.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/tree-data-structures@r2Jagzbx0qOG-VtxBY-mz.md",
+        "subtopics_count": 12,
+        "subtopics": [
+          {
+            "id": "YJsAQWJpLwVN6oCxNwNAn",
+            "name": "Search Algorithms",
+            "type": "subtopic",
+            "description": "Tree search algorithms locate a specific node or value within a tree structure. The two primary strategies are breadth-first search, which explores level by level, and depth-first search, which explores as far down a branch as possible before backtracking. The right choice depends on the tree's shape and what is being searched for.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/search-algorithms@YJsAQWJpLwVN6oCxNwNAn.md"
+          },
+          {
+            "id": "2Od5lNc6fCM6Gyj_axj4n",
+            "name": "Tree Traversal",
+            "type": "subtopic",
+            "description": "Tree traversal refers to visiting every node in a tree in a specific order. The three common strategies for binary trees are in-order, pre-order, and post-order, each visiting nodes in a different sequence relative to the root. The correct traversal depends on the operation: in-order produces sorted output from a BST, while pre-order is used for copying a tree.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/tree-traversal@2Od5lNc6fCM6Gyj_axj4n.md"
+          },
+          {
+            "id": "RPU5CGp2Li5lk0UB-zNHT",
+            "name": "Binary Trees",
+            "type": "subtopic",
+            "description": "A binary tree is a tree where each node has at most two children, referred to as the left and right child. It is the foundation for more specialized structures like binary search trees and heaps. The shape and balance of a binary tree directly affect the efficiency of operations performed on it.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Binary Tree",
+                "url": "https://youtu.be/4r_XR9fUPhQ?si=PBsRjix_Z9kVHgMM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/binary-trees@RPU5CGp2Li5lk0UB-zNHT.md"
+          },
+          {
+            "id": "pfg-qclOpvlsGMdlZ1aoj",
+            "name": "Breadth First Search",
+            "type": "subtopic",
+            "description": "Breadth-first search (BFS) explores a tree level by level, visiting all nodes at the current depth before moving deeper. It uses a queue to track nodes to visit next. BFS is useful for finding the shortest path in unweighted graphs and for level-order traversal of trees.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/breadth-first-search@pfg-qclOpvlsGMdlZ1aoj.md"
+          },
+          {
+            "id": "UYm7unZfXd9Ge5EYV4odb",
+            "name": "Binary Search Trees",
+            "type": "subtopic",
+            "description": "A binary search tree (BST) is a binary tree where every node's left subtree contains only values less than the node, and the right subtree contains only values greater. This property allows efficient search, insertion, and deletion in O(log n) average time. Performance degrades to O(n) when the tree becomes unbalanced.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Binary Search Tree Part-1",
+                "url": "https://youtu.be/lFq5mYUWEBk?si=GKRm1O278NCetnry"
+              },
+              {
+                "type": "video",
+                "title": "Binary Search Tree Part-2",
+                "url": "https://youtu.be/JnrbMQyGLiU?si=1pfKn2akKXWLshY6"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/binary-search-trees@UYm7unZfXd9Ge5EYV4odb.md"
+          },
+          {
+            "id": "iCA7UKZih4ItDmDNEC8Q-",
+            "name": "In-Order Traversal",
+            "type": "subtopic",
+            "description": "In-order traversal visits the left subtree first, then the current node, then the right subtree. For a binary search tree, this produces nodes in ascending sorted order. It is commonly used to retrieve data from a BST in a meaningful sequence.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/in-order-traversal@iCA7UKZih4ItDmDNEC8Q-.md"
+          },
+          {
+            "id": "gR8KcOIADUxS8hdiEaGZy",
+            "name": "Depth First Search",
+            "type": "subtopic",
+            "description": "Depth-first search on a graph explores as far as possible along each path before backtracking. It is used to detect cycles, find connected components, and perform topological sorting. A visited set prevents infinite loops when the graph contains cycles.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/depth-first-search@gR8KcOIADUxS8hdiEaGZy.md"
+          },
+          {
+            "id": "BMEoO65zsX51H4Js1gcWI",
+            "name": "Pre-Order Traversal",
+            "type": "subtopic",
+            "description": "Pre Order Traversal is a very specific kind of tree traversal in data structures. In this method of traversal, the process starts from the root node, then proceeds to the left subtree, and finally to the right subtree. To put it concisely, the order of traversal is Root, Left, and Right (often abbreviated as R-L-R). This makes it particularly useful in scenarios where it's important to duplicate or clone a tree, or to get a prefix expression (Polish notation) of a binary expression tree.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/pre-order-traversal@BMEoO65zsX51H4Js1gcWI.md"
+          },
+          {
+            "id": "5MCgKpylPzDZaGBEUU51r",
+            "name": "AVL Trees",
+            "type": "subtopic",
+            "description": "An AVL tree is a self-balancing binary search tree where the height difference between the left and right subtrees of any node, called the balance factor, is at most one. After each insertion or deletion, rotations are performed to restore balance. This guarantees O(log n) time for all operations.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "AVL trees in 5 minutes — Intro & Search",
+                "url": "https://www.youtube.com/watch?v=DB1HFCEdLxA"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/avl-trees@5MCgKpylPzDZaGBEUU51r.md"
+          },
+          {
+            "id": "j6_DyKiyG1wBuygQkxWB7",
+            "name": "Post-Order Traversal",
+            "type": "subtopic",
+            "description": "Post Order Traversal is a technique used in Binary Tree structure where each node is processed after its child nodes. As the name suggests, it first traverses the left subtree, then the right subtree, and finally the root node. The process is recursively repeated for each subtree until the entire tree has been traversed. This traversal method is often used for calculations that require that all child nodes be processed before the parent, such as evaluating a mathematical expression represented in a tree structure.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/post-order-traversal@j6_DyKiyG1wBuygQkxWB7.md"
+          },
+          {
+            "id": "2F6BcbAzICynOK3oEj-Is",
+            "name": "B-Trees",
+            "type": "subtopic",
+            "description": "A B-tree is a self-balancing search tree designed for systems that read and write large blocks of data, such as databases and file systems. Unlike binary trees, each node can have many children and keys, reducing the height of the tree and minimizing disk accesses. B-trees maintain sorted data and allow efficient search, insertion, and deletion.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "B-trees in 4 minutes — Intro",
+                "url": "https://www.youtube.com/watch?v=FgWbADOG44s"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/b-trees@2F6BcbAzICynOK3oEj-Is.md"
+          },
+          {
+            "id": "R3Coq0TG1_cSOXzXWgpuI",
+            "name": "Heap",
+            "type": "subtopic",
+            "description": "A heap is a complete binary tree that satisfies the heap property: in a max-heap, every parent node is greater than or equal to its children; in a min-heap, every parent is less than or equal to its children. The top element is always the maximum or minimum, enabling O(1) access to the extreme value. Heaps are commonly used to implement priority queues and heap sort.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Heap Data Structure",
+                "url": "https://www.programiz.com/dsa/heap-data-structure"
+              },
+              {
+                "type": "video",
+                "title": "Heap Data Structure",
+                "url": "https://www.youtube.com/watch?v=t0Cq6tVNRBA"
+              },
+              {
+                "type": "video",
+                "title": "Heaps and Priority Queues",
+                "url": "https://www.youtube.com/watch?v=B7hVxCmfPtM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/heap@R3Coq0TG1_cSOXzXWgpuI.md"
+          }
+        ]
+      },
+      {
+        "id": "j_r1tB16bA7R3yDAWN7Oj",
+        "name": "Graph Data Structures",
+        "type": "topic",
+        "description": "A graph is a collection of nodes (vertices) connected by edges. Graphs model relationships between entities, such as social networks, road maps, and dependencies. They come in many forms depending on whether edges have direction or weight, and they require different traversal and search strategies than trees.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md",
+        "subtopics_count": 10,
+        "subtopics": [
+          {
+            "id": "XVw2_dL3uN0SOWmjH1Uao",
+            "name": "Directed Graph",
+            "type": "subtopic",
+            "description": "A **Directed Graph**, also known as a DiGraph, is a set of vertices and a collection of directed edges. Each directed edge has an initial vertex, also called the tail, and a terminal vertex, also known as the head. The directed edge is said to point from the tail to the head. To visualize this, think of a graph where the nodes are cities and the edges are one-way roads. Directed graphs are often used to represent relationships between objects where direction does matter, such as a sequence of events in a workflow.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/directed-graph@XVw2_dL3uN0SOWmjH1Uao.md"
+          },
+          {
+            "id": "VnKm_j7McUW9Lo0iKyPUp",
+            "name": "Undirected Graph",
+            "type": "subtopic",
+            "description": "An **Undirected Graph** is a type of graph in which the edges are not directed. That is, they do not point in any specific direction and are not ordered pairs. They cannot be referred to as originating or ending node, instead, they are endpoints of the edges. In this type of graph, the edges essentially represent a two-way relationship, in the sense that, a travel can be made back and forth between the two vertices without any restriction. Every edge of the undirected graph always connects two different vertices or nodes.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/undirected-graph@VnKm_j7McUW9Lo0iKyPUp.md"
+          },
+          {
+            "id": "LW5HZMca4lvhbbA8KYaOa",
+            "name": "Search Algorithms",
+            "type": "subtopic",
+            "description": "Graph search algorithms explore nodes and edges to find paths, detect connectivity, or locate specific nodes. BFS and DFS are the two foundational strategies, each suited to different problems. Unlike tree search, graph search must track visited nodes to avoid infinite loops caused by cycles.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/search-algorithms@LW5HZMca4lvhbbA8KYaOa.md"
+          },
+          {
+            "id": "c7LdXJPv-5M-NPKSCXYuB",
+            "name": "Breadth First Search",
+            "type": "subtopic",
+            "description": "Breadth-first search on a graph visits all neighbors of a node before moving to the next level, using a queue to track the order. It finds the shortest path in unweighted graphs and can determine whether two nodes are connected. Visited nodes are marked to prevent revisiting.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/breadth-first-search@c7LdXJPv-5M-NPKSCXYuB.md"
+          },
+          {
+            "id": "NrPO7vF8Z1WzmA9Ca3Y_E",
+            "name": "Depth First Search",
+            "type": "subtopic",
+            "description": "Depth-first search on a graph explores as far as possible along each path before backtracking. It is used to detect cycles, find connected components, and perform topological sorting. A visited set prevents infinite loops when the graph contains cycles.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Learn Depth First Search in 7 minutes",
+                "url": "https://youtu.be/by93qH4ACxo?si=FXcUfuwB5atV5SIY"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/depth-first-search@NrPO7vF8Z1WzmA9Ca3Y_E.md"
+          },
+          {
+            "id": "N-qvYirxpORcaTslvlOL0",
+            "name": "Shortest Path Algorithms",
+            "type": "subtopic",
+            "description": "Shortest path algorithms find the minimum-cost route between two nodes in a weighted graph. Different algorithms suit different scenarios: Dijkstra's handles non-negative weights, Bellman-Ford handles negative weights, and A\\* uses heuristics for faster pathfinding. These algorithms underlie GPS navigation, network routing, and game AI.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/shortest-path-algorithms@N-qvYirxpORcaTslvlOL0.md"
+          },
+          {
+            "id": "87UugvReiywF0E7Acos9U",
+            "name": "Dijkstra's Algorithm",
+            "type": "subtopic",
+            "description": "Dijkstra's algorithm finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights. It uses a priority queue to always process the nearest unvisited node. The result is a set of shortest distances and the corresponding paths from the source.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/dijkstras-algorithm@87UugvReiywF0E7Acos9U.md"
+          },
+          {
+            "id": "7CgGwdwHnOmISmEPtJegN",
+            "name": "Bellman-Ford Algoritm",
+            "type": "subtopic",
+            "description": "The Bellman-Ford algorithm finds the shortest paths from a source node in a weighted graph, including graphs with negative edge weights. It works by relaxing all edges repeatedly for n-1 iterations, where n is the number of nodes. It can also detect negative weight cycles, which make shortest paths undefined.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/bellman-ford-algoritm@7CgGwdwHnOmISmEPtJegN.md"
+          },
+          {
+            "id": "AabJqPUwFVBVS02YPDPvL",
+            "name": "A* Algorithm",
+            "type": "subtopic",
+            "description": "A\\* is a shortest path algorithm that uses a heuristic to guide its search toward the goal, making it faster than Dijkstra's in practice. The heuristic estimates the cost from the current node to the destination, helping the algorithm prioritize more promising paths. It is widely used in game pathfinding and robotics.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/a-algorithm@AabJqPUwFVBVS02YPDPvL.md"
+          },
+          {
+            "id": "Ktqau1VkVrnnVYByqcacM",
+            "name": "Minimum Spanning Tree",
+            "type": "subtopic",
+            "description": "A minimum spanning tree (MST) is a subset of a graph's edges that connects all vertices with the minimum total edge weight and no cycles. MSTs are used in network design, clustering, and approximation algorithms. Two classic algorithms for finding them are Kruskal's and Prim's.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/minimum-spanning-tree@Ktqau1VkVrnnVYByqcacM.md"
+          }
+        ]
+      },
+      {
+        "id": "KnyUHDvpDTUO0EkAs9pT8",
+        "name": "Advanced Data Structures",
+        "type": "topic",
+        "description": "Advanced data structures extend beyond the basics to handle more specialized use cases with better performance characteristics. They include structures like tries, segment trees, Fenwick trees, and disjoint sets, each designed to solve specific problems efficiently. Knowing when and how to use them is a mark of experienced algorithm design.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/advanced-data-structures@KnyUHDvpDTUO0EkAs9pT8.md",
+        "subtopics_count": 7,
+        "subtopics": [
+          {
+            "id": "zy3wpb1MjizfUfx9_rZy2",
+            "name": "Trie",
+            "type": "subtopic",
+            "description": "A trie, also called a prefix tree, is a tree-like structure where each node represents a character, and paths from root to leaf represent strings. It allows fast prefix lookups and is commonly used in autocomplete, spell checkers, and IP routing tables. Search and insertion both run in O(m) time, where m is the length of the string.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/trie@zy3wpb1MjizfUfx9_rZy2.md"
+          },
+          {
+            "id": "iFNS3x9wVRIjpixct6H7x",
+            "name": "Segment Trees",
+            "type": "subtopic",
+            "description": "A segment tree is a binary tree used to answer range queries, such as the sum or minimum of elements in a subarray, in O(log n) time. It also supports point and range updates efficiently. Segment trees are common in competitive programming and database query optimization.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/segment-trees@iFNS3x9wVRIjpixct6H7x.md"
+          },
+          {
+            "id": "V9SWO58kaMsU1NT7q26WG",
+            "name": "Fenwick Trees",
+            "type": "subtopic",
+            "description": "A Fenwick tree, also called a binary indexed tree (BIT), is a data structure that supports prefix sum queries and point updates in O(log n) time. It is more memory-efficient and simpler to implement than a segment tree for problems involving cumulative sums. It is commonly used in problems requiring frequent updates and sum queries over ranges.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/fenwick-trees@V9SWO58kaMsU1NT7q26WG.md"
+          },
+          {
+            "id": "La8XAT0BWvqRCrvQxtZIp",
+            "name": "Disjoint Set (Union-Find)",
+            "type": "subtopic",
+            "description": "A disjoint set, or union-find structure, tracks a collection of non-overlapping sets and supports two operations: union, which merges two sets, and find, which identifies which set an element belongs to. With path compression and union by rank, both operations run in nearly constant time. It is used in Kruskal's algorithm and cycle detection.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/disjoint-set-union-find@La8XAT0BWvqRCrvQxtZIp.md"
+          },
+          {
+            "id": "yEWnYjW0ZLVhsLc9rH4ae",
+            "name": "Prim's Algorithm",
+            "type": "subtopic",
+            "description": "Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/prims-algorithm@yEWnYjW0ZLVhsLc9rH4ae.md"
+          },
+          {
+            "id": "zprVkxpojaxNo0LQar3Ex",
+            "name": "Suffix Trees and Arrays",
+            "type": "subtopic",
+            "description": "**Suffix Trees and Arrays** are advanced data structures used primarily for string manipulation and searches. A **Suffix Tree** is a compressed trie containing all the suffixes of a given text as their keys and positions as their values. On the other hand, a **Suffix Array** is a sorted array of all possible suffixes of a given text. Both these data structures provide an efficient way to store and search substrings in a text, but differ in terms of space complexity and time complexity.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/suffix-trees-and-arrays@zprVkxpojaxNo0LQar3Ex.md"
+          },
+          {
+            "id": "F3bPbwIdCNMzL7QXEYJK3",
+            "name": "Kruskal's Algorithm",
+            "type": "subtopic",
+            "description": "Kruskal's algorithm builds a minimum spanning tree by sorting all edges by weight and adding each edge to the MST if it does not create a cycle. It uses a union-find structure to efficiently check for cycles. The result is the set of edges with the lowest total weight that connects all nodes.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/kruskals-algorithm@F3bPbwIdCNMzL7QXEYJK3.md"
+          }
+        ]
+      },
+      {
+        "id": "kSpgFuAHyzySWlGBLOHZR",
+        "name": "Complex Data Structures",
+        "type": "topic",
+        "description": "Complex data structures are specialized structures designed for particular performance requirements or problem types. They typically combine simpler structures or introduce non-obvious ordering and balancing strategies. Examples include 2-3 trees, B+ trees, skip lists, and ISAM, each offering specific trade-offs in access speed, memory use, and update cost.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/complex-data-structures@kSpgFuAHyzySWlGBLOHZR.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "o0fNAhJ1LsCdmGzY2ni_x",
+            "name": "2-3 Trees",
+            "type": "subtopic",
+            "description": "A 2-3 tree is a balanced search tree where every internal node has either two or three children, and all leaves are at the same depth. This guarantees O(log n) time for search, insertion, and deletion. It is a conceptual precursor to B-trees and red-black trees.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/2-3-trees@o0fNAhJ1LsCdmGzY2ni_x.md"
+          },
+          {
+            "id": "2G6vn7K11_mPQQ7_IXJ96",
+            "name": "B/B+ Trees",
+            "type": "subtopic",
+            "description": "A B+ tree is a variant of the B-tree where all data is stored in leaf nodes, and internal nodes contain only keys used for navigation. Leaf nodes are linked together, making range queries efficient. B+ trees are the dominant structure used in relational database indexes.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "B Trees and B+ Trees. How they are useful in Databases",
+                "url": "https://www.youtube.com/watch?v=aZjYr87r1b8"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/bb-trees@2G6vn7K11_mPQQ7_IXJ96.md"
+          },
+          {
+            "id": "TQu-OBpvR-aQfMByUcwyM",
+            "name": "Skip List",
+            "type": "subtopic",
+            "description": "A skip list is a probabilistic data structure built from multiple linked lists layered on top of each other, where higher layers allow fast skipping over elements. It achieves O(log n) average-case time for search, insertion, and deletion without the complexity of tree rotations. Skip lists are used in databases and memory management systems.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Skip Lists",
+                "url": "https://www.youtube.com/watch?v=NDGpsfwAaqo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/skip-list@TQu-OBpvR-aQfMByUcwyM.md"
+          },
+          {
+            "id": "uxErZ4gLeKqwhrUG88InQ",
+            "name": "ISAM",
+            "type": "subtopic",
+            "description": "ISAM (Indexed Sequential Access Method) is a disk-based file organization method that stores records in sorted order and maintains a static index for fast access. It supports efficient sequential and random reads but handles insertions poorly once the structure is built. ISAM was widely used in early database systems and influenced the design of modern indexes.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "DBMS - Index Sequential Access Method (ISAM)",
+                "url": "https://www.youtube.com/watch?v=EiW1VVPor10"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/isam@uxErZ4gLeKqwhrUG88InQ.md"
+          }
+        ]
+      },
+      {
+        "id": "Ar7GEGfI9O_dLPbIEVhF_",
+        "name": "Indexing",
+        "type": "topic",
+        "description": "Indexing is a technique for organizing data to speed up retrieval operations. Instead of scanning every record, an index provides a faster path to the data. Different indexing strategies suit different data layouts and query types, and choosing the right index can dramatically reduce query time.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/indexing@Ar7GEGfI9O_dLPbIEVhF_.md",
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "4noav5w_8GrMTXN1Lxm5h",
+            "name": "Linear",
+            "type": "subtopic",
+            "description": "Linear indexing stores index entries in a sequential structure, where each entry maps directly to a record position. It works well for small datasets and simple range scans but becomes slower as data grows because lookups may require scanning the index itself. It is one of the simplest indexing strategies.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/linear@4noav5w_8GrMTXN1Lxm5h.md"
+          },
+          {
+            "id": "ZXUfeyfC5oSKkGktXuK8t",
+            "name": "Tree-Based",
+            "type": "subtopic",
+            "description": "Tree-based indexing uses a tree structure, typically a B-tree or B+ tree, to organize index entries. It supports efficient range queries, equality lookups, and sorted access in O(log n) time. Most relational databases use tree-based indexes as their default indexing strategy.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/tree-based@ZXUfeyfC5oSKkGktXuK8t.md"
+          }
+        ]
+      },
+      {
+        "id": "Y1Uz6XRbR1YqFtO4akiPA",
+        "name": "Problem Solving Techniques",
+        "type": "topic",
+        "description": "Problem solving techniques are general strategies for approaching algorithm problems. They provide reusable patterns that apply across many different problems, reducing the need to invent a new approach from scratch each time. Mastering these techniques allows developers to recognize problem structures and select an appropriate method quickly.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/problem-solving-techniques@Y1Uz6XRbR1YqFtO4akiPA.md",
+        "subtopics_count": 18,
+        "subtopics": [
+          {
+            "id": "mKoC5o__gLSTjAlq8iXkV",
+            "name": "Backtracking",
+            "type": "subtopic",
+            "description": "Backtracking builds a solution incrementally and abandons a path as soon as it determines the path cannot lead to a valid solution. It explores possibilities using recursion and prunes branches early to reduce the search space. Common uses include solving puzzles like Sudoku, generating permutations, and the N-Queens problem.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "What is backtracking?",
+                "url": "https://www.youtube.com/watch?v=Peo7k2osVVs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/backtracking@mKoC5o__gLSTjAlq8iXkV.md"
+          },
+          {
+            "id": "5T2y6Iqi-I_zOtLkeSPzY",
+            "name": "Brute Force",
+            "type": "subtopic",
+            "description": "Brute force solves a problem by trying every possible solution and returning the one that works. It requires no insight into the problem structure and always finds a correct answer if one exists. The trade-off is poor efficiency: brute force is often exponential or factorial in time and only practical for small inputs.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Brute Force Technique in Algorithms",
+                "url": "https://medium.com/@shraddharao_/brute-force-technique-in-algorithms-34bac04bde8a"
+              },
+              {
+                "type": "video",
+                "title": "Brute Force Algorithm Explained With C++ Examples",
+                "url": "https://www.youtube.com/watch?v=BYWf6-tpQ4k"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/brute-force@5T2y6Iqi-I_zOtLkeSPzY.md"
+          },
+          {
+            "id": "qUlqyTjk3XKF9DEm6Lsgb",
+            "name": "Greedy Algorithms",
+            "type": "subtopic",
+            "description": "Greedy algorithms make the locally optimal choice at each step with the hope that this leads to a globally optimal solution. They are fast and simple but do not always produce the best result. Problems where greedy works correctly include activity selection, Huffman encoding, and finding minimum spanning trees.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Greedy Algorithms Tutorial",
+                "url": "https://www.youtube.com/watch?v=bC7o8P_Ste4"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/greedy-algorithms@qUlqyTjk3XKF9DEm6Lsgb.md"
+          },
+          {
+            "id": "RiS8KZs3YBE6mKWPHszMp",
+            "name": "Randomised Algorithms",
+            "type": "subtopic",
+            "description": "Randomized algorithms use random numbers as part of their logic, either to avoid worst-case behavior or to approximate solutions. Quicksort with a random pivot is a classic example: randomization makes the worst case very unlikely in practice. Monte Carlo and Las Vegas algorithms are the two main categories.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Algorithm Classification Randomized Algorithm",
+                "url": "https://www.youtube.com/watch?v=J_EVG6yCOz0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/randomised-algorithms@RiS8KZs3YBE6mKWPHszMp.md"
+          },
+          {
+            "id": "q9qLI6HzOJ0vYaIVrZ5CU",
+            "name": "Island traversal",
+            "type": "subtopic",
+            "description": "Island traversal refers to problems where a 2D grid is searched to identify and count connected regions, often called islands, surrounded by water or empty space. It is typically solved using DFS or BFS starting from unvisited land cells, marking each reachable cell as visited. This pattern generalizes to many connected-component problems.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+          },
+          {
+            "id": "xchWhsizaKgYuHPC4Tz9H",
+            "name": "Divide and Conquer",
+            "type": "subtopic",
+            "description": "Divide and conquer is a powerful algorithm design technique that solves a problem by breaking it down into smaller and easier-to-manage sub-problems, until these become simple enough to be solved directly. This approach is usually carried out recursively for most problems. Once all the sub-problems are solved, the solutions are combined to give a solution to the original problem. It is a common strategy that significantly reduces the complexity of the problem.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+                "url": "https://roadmap.sh/python/merge-sort"
+              },
+              {
+                "type": "video",
+                "title": "Divide & Conquer Algorithm In 3 Minutes",
+                "url": "https://www.youtube.com/watch?v=YOh6hBtX5l0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/divide-and-conquer@xchWhsizaKgYuHPC4Tz9H.md"
+          },
+          {
+            "id": "gaaRAL3HR48Qj9rz1CkDU",
+            "name": "Multi-threaded",
+            "type": "subtopic",
+            "description": "Multi-threaded algorithms divide work across multiple threads running concurrently, using parallelism to reduce total execution time. Designing them correctly requires managing shared state to avoid race conditions and deadlocks. Parallel merge sort and parallel BFS are examples where multi-threading provides meaningful speedups.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Python Multithreading: The Most Practical Intro",
+                "url": "https://roadmap.sh/python/multithreading"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/multi-threaded@gaaRAL3HR48Qj9rz1CkDU.md"
+          },
+          {
+            "id": "waM_j5mbe_XoA7h8u4vFN",
+            "name": "Leetcode",
+            "type": "subtopic",
+            "description": "LeetCode is the most widely used platform for technical interview preparation. It offers thousands of problems categorized by topic and difficulty, with a built-in code editor and test runner. Many interview candidates use LeetCode's problem sets specifically because they reflect the style and content of questions asked at major tech companies.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Leetcode Roadmap",
+                "url": "https://roadmap.sh/leetcode"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/leetcode@waM_j5mbe_XoA7h8u4vFN.md"
+          },
+          {
+            "id": "4ZAzcwP0oPGZ9Rw042V8-",
+            "name": "Recursion",
+            "type": "subtopic",
+            "description": "Recursion is a technique where a function calls itself with a smaller version of the problem until reaching a base case. It maps naturally to problems with recursive structure, such as tree traversal, divide and conquer, and backtracking. Understanding the call stack and how recursive calls unwind is key to using recursion correctly.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Recursion in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=rf60MejMz3E"
+              },
+              {
+                "type": "article",
+                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+                "url": "https://roadmap.sh/python/merge-sort"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/recursion@4ZAzcwP0oPGZ9Rw042V8-.md"
+          },
+          {
+            "id": "JcchUF_U99zkFpXp3VT2R",
+            "name": "Kth Element",
+            "type": "subtopic",
+            "description": "The Kth element problem asks for the k-th smallest or largest element in an unsorted array without fully sorting it. Efficient solutions include using a min-heap or max-heap of size k, or the quickselect algorithm, which runs in O(n) average time. This problem pattern appears frequently in data stream processing.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/kth-element@JcchUF_U99zkFpXp3VT2R.md"
+          },
+          {
+            "id": "MGb8ufztTK75aXAyEAuaf",
+            "name": "Two Heaps",
+            "type": "subtopic",
+            "description": "The two heaps technique uses a max-heap and a min-heap together to efficiently track the median or partition a dataset. One heap holds the lower half of elements and the other holds the upper half, keeping them balanced so the median is always accessible in O(1). It is used in problems that require continuous median tracking over a data stream.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Two Heaps — A Coding Pattern for Median-finding (Emre Bolat)",
+                "url": "https://emre.me/coding-patterns/two-heaps/"
+              },
+              {
+                "type": "video",
+                "title": "Coding Pattern - Two Heaps",
+                "url": "https://www.youtube.com/watch?v=9P7W5aEaatQ"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/two-heaps@MGb8ufztTK75aXAyEAuaf.md"
+          },
+          {
+            "id": "8-7phxPp1D1mv2yubpLBo",
+            "name": "Edabit",
+            "type": "subtopic",
+            "description": "Edabit is a coding practice platform that focuses on smaller, beginner-friendly challenges designed to build programming fluency quickly. Problems are shorter and more approachable than those on LeetCode, making it a good starting point for learners who are still developing confidence with code before moving to interview-style questions.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/edabit@8-7phxPp1D1mv2yubpLBo.md"
+          },
+          {
+            "id": "jKAZNybU9cxufNBdFsqsP",
+            "name": "Dynamic Programming",
+            "type": "subtopic",
+            "description": "Dynamic programming solves problems by breaking them into overlapping subproblems and storing the results to avoid redundant computation. It applies when a problem has optimal substructure and overlapping subproblems. Classic examples include the Fibonacci sequence, knapsack problem, and longest common subsequence.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Getting Started with Dynamic Programming in Data Structures and Algorithms",
+                "url": "https://medium.com/@PythonicPioneer/getting-started-with-dynamic-programming-in-data-structures-and-algorithms-126c7a16775c"
+              },
+              {
+                "type": "video",
+                "title": "What Is Dynamic Programming and How To Use It",
+                "url": "https://www.youtube.com/watch?v=vYquumk4nWw&t=4s"
+              },
+              {
+                "type": "video",
+                "title": "5 Simple Steps for Solving Dynamic Programming Problems",
+                "url": "https://www.youtube.com/watch?v=aPQY__2H3tE"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/dynamic-programming@jKAZNybU9cxufNBdFsqsP.md"
+          },
+          {
+            "id": "S2mBvlFTd673XcXxisD5P",
+            "name": "Merge Intervals",
+            "type": "subtopic",
+            "description": "Merge intervals is a technique for solving problems involving overlapping ranges. The typical approach sorts intervals by start time, then iterates through them, merging any that overlap with the previous one. It is used in calendar scheduling, resource allocation, and range consolidation problems.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/merge-intervals@S2mBvlFTd673XcXxisD5P.md"
+          },
+          {
+            "id": "itvhUXbe9dr9JN5ga2jYy",
+            "name": "Two Pointer Technique",
+            "type": "subtopic",
+            "description": "The two pointer technique uses two indices that move through an array or list to solve problems more efficiently than nested loops. One common pattern starts both pointers at opposite ends and moves them inward. It is used to find pairs with a target sum, remove duplicates, and solve partitioning problems in O(n) time.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Two Pointers Technique",
+                "url": "https://medium.com/@johnnyJK/data-structures-and-algorithms-907a63d691c1"
+              },
+              {
+                "type": "article",
+                "title": "Mastering the Two Pointers Technique: An In-Depth Guide",
+                "url": "https://lordkonadu.medium.com/mastering-the-two-pointers-technique-an-in-depth-guide-3c2167584ccc"
+              },
+              {
+                "type": "video",
+                "title": "Visual introduction Two Pointer Algorithm",
+                "url": "https://www.youtube.com/watch?v=On03HWe2tZM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/two-pointer-technique@itvhUXbe9dr9JN5ga2jYy.md"
+          },
+          {
+            "id": "L1FIJAluyxG6CGaVLM20O",
+            "name": "Cyclic Sort",
+            "type": "subtopic",
+            "description": "Cyclic sort is a sorting technique for arrays whose values fall in a known, contiguous range, typically `1` to `n`. Each element is swapped to the position matching its value, placing everything correctly in O(n) time and O(1) space — ideal as a building block for problems such as finding missing or duplicate numbers.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/cyclic-sort@L1FIJAluyxG6CGaVLM20O.md"
+          },
+          {
+            "id": "gbHVR-ojRxv9I0E5eSlWy",
+            "name": "Sliding Window Technique",
+            "type": "subtopic",
+            "description": "The sliding window technique maintains a subset of elements within a fixed or variable-size window that moves across a sequence. As the window slides, elements are added at one end and removed from the other, avoiding the need to recompute results from scratch. It is used to find maximum subarrays, longest substrings, and other contiguous subset problems in O(n) time.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Mastering Sliding Window Techniques",
+                "url": "https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7"
+              },
+              {
+                "type": "video",
+                "title": "Sliding window technique",
+                "url": "https://www.youtube.com/watch?v=p-ss2JNynmw"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/sliding-window-technique@gbHVR-ojRxv9I0E5eSlWy.md"
+          },
+          {
+            "id": "J_No8GTa92DcwPtua30wL",
+            "name": "Fast and Slow Pointers",
+            "type": "subtopic",
+            "description": "The fast and slow pointers pattern uses two pointers that traverse a data structure at different speeds. It is commonly used to detect cycles in linked lists, find the middle of a list, or locate the kth element from the end, running in O(n) time with constant space.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/fast-and-slow-pointers@J_No8GTa92DcwPtua30wL.md"
+          }
+        ]
+      },
+      {
+        "id": "VMV4F-SPKWn9CtpHXEjeN",
+        "name": "Platforms to Practice",
+        "type": "topic",
+        "description": "Practice platforms provide coding problems, judge submissions automatically, and track progress over time. Regular practice on these platforms builds problem-solving speed and familiarity with common patterns. Consistent repetition across a variety of problem types is the most reliable way to prepare for technical interviews.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/datastructures-and-algorithms/content/platforms-to-practice@VMV4F-SPKWn9CtpHXEjeN.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "Z4uVzAoNzcAkyjd-lp3_M",
+        "name": "Pick a Language",
+        "type": "topic",
+        "description": "Choosing a language is the first step before studying data structures and algorithms. Most learners pick Python for its readable syntax, Java or C# for their strong typing and interview prevalence, C++ for performance and competitive programming, or JavaScript for versatility. The language matters less than consistency; pick one and stick with it throughout your studies.",
+        "resources": []
+      },
+      {
+        "id": "HVD9G3JlLBsAg111vQILj",
+        "name": "JavaScript",
+        "type": "subtopic",
+        "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Apart from being used on the frontend in browsers, there is Node.js which is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          },
+          {
+            "type": "official",
+            "title": "Official Documentation",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+          },
+          {
+            "type": "article",
+            "title": "The Modern JavaScript Tutorial",
+            "url": "https://javascript.info/"
+          },
+          {
+            "type": "video",
+            "title": "JavaScript Crash Course for Beginners",
+            "url": "https://youtu.be/hdI2bqOjy3c"
+          }
+        ]
+      },
+      {
+        "id": "BZvNEZjCNuHPg5SkX90bt",
+        "name": "C#",
+        "type": "subtopic",
+        "description": "C# is a statically typed, object-oriented language developed by Microsoft. It is widely used in enterprise software and game development with Unity. Its syntax is similar to Java, making it a solid choice for learners who want strong tooling and type safety while practicing algorithms.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "C# Learning Path",
+            "url": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website"
+          },
+          {
+            "type": "article",
+            "title": "Introduction to C#",
+            "url": "https://docs.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha"
+          },
+          {
+            "type": "video",
+            "title": "C# tutorials",
+            "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+          }
+        ]
+      },
+      {
+        "id": "gjZZOwmYkXQHPfg9Ynz80",
+        "name": "Java",
+        "type": "subtopic",
+        "description": "Java is a statically typed, object-oriented language that runs on the JVM. It is heavily used in software engineering interviews and large-scale systems. Its verbose but explicit syntax helps learners understand types, generics, and object relationships when implementing data structures from scratch.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Java Roadmap",
+            "url": "https://roadmap.sh/java"
+          },
+          {
+            "type": "official",
+            "title": "Java Website",
+            "url": "https://www.java.com/"
+          },
+          {
+            "type": "video",
+            "title": "Java Crash Course",
+            "url": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+          },
+          {
+            "type": "video",
+            "title": "Complete Java course",
+            "url": "https://www.youtube.com/watch?v=xk4_1vDrzzo"
+          }
+        ]
+      },
+      {
+        "id": "IWmq4UFB5j6O3UJfarh1u",
+        "name": "C++",
+        "type": "subtopic",
+        "description": "C++ is a compiled, statically typed language known for its speed and fine-grained control over memory. It is the dominant language in competitive programming because of its performance and rich standard library (STL), which includes built-in implementations of common data structures and algorithms.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Visit Dedicated C++ Roadmap",
+            "url": "https://roadmap.sh/cpp"
+          },
+          {
+            "type": "article",
+            "title": "Learn Cpp",
+            "url": "https://learncpp.com/"
+          },
+          {
+            "type": "article",
+            "title": "C++ Reference",
+            "url": "https://en.cppreference.com/"
+          }
+        ]
+      },
+      {
+        "id": "OkdM_PJge70j5tsjT2Esl",
+        "name": "Go",
+        "type": "subtopic",
+        "description": "Go is a statically typed, compiled language designed for simplicity and concurrency. It has a small standard library and explicit syntax, which makes it suitable for learners who want to understand how things work without relying on abstractions. Go is increasingly common in backend engineering interviews.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Go Roadmap",
+            "url": "https://roadmap.sh/golang"
+          },
+          {
+            "type": "official",
+            "title": "A Tour of Go – Go Basics",
+            "url": "https://go.dev/tour/welcome/1"
+          },
+          {
+            "type": "official",
+            "title": "Go Reference Documentation",
+            "url": "https://go.dev/doc/"
+          },
+          {
+            "type": "article",
+            "title": "Go, the Programming Language of the Cloud",
+            "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+          }
+        ]
+      },
+      {
+        "id": "XyRCXhZjQFcDNaUSNNQV-",
+        "name": "Python",
+        "type": "subtopic",
+        "description": "Python is a dynamically typed, interpreted language with a concise and readable syntax. It is popular for learning DSA because less boilerplate code means the logic of an algorithm stays visible. Its built-in list, dict, and set types cover many common data structure needs out of the box.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Python Roadmap",
+            "url": "https://roadmap.sh/python"
+          },
+          {
+            "type": "official",
+            "title": "Visit Dedicated Python for Data Analysis Roadmap",
+            "url": "https://roadmap.sh/python-data-analysis"
+          },
+          {
+            "type": "official",
+            "title": "Python Getting Started",
+            "url": "https://www.python.org/about/gettingstarted/"
+          },
+          {
+            "type": "article",
+            "title": "An Introduction to Python for Non-Programmers",
+            "url": "https://thenewstack.io/an-introduction-to-python-for-non-programmers/"
+          }
+        ]
+      },
+      {
+        "id": "9h1mz0xAUvPrnRm9VndJF",
+        "name": "Ruby",
+        "type": "subtopic",
+        "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Ruby Website",
+            "url": "https://www.ruby-lang.org/en/"
+          },
+          {
+            "type": "article",
+            "title": "Learn Ruby in 20 minutes",
+            "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
+          },
+          {
+            "type": "article",
+            "title": "Ruby, An Introduction to a Programmer’s Best Friend",
+            "url": "https://thenewstack.io/ruby-a-programmers-best-friend/"
+          }
+        ]
+      },
+      {
+        "id": "acgRMEuL4ZGGRHpZ7kXSo",
+        "name": "Rust",
+        "type": "subtopic",
+        "description": "Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "The Rust Programming Language - online book",
+            "url": "https://doc.rust-lang.org/book/"
+          },
+          {
+            "type": "article",
+            "title": "Rust by Example - collection of runnable examples",
+            "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+          },
+          {
+            "type": "article",
+            "title": "Rust vs. Go: Why They’re Better Together",
+            "url": "https://thenewstack.io/rust-vs-go-why-theyre-better-together/"
+          },
+          {
+            "type": "article",
+            "title": "Rust by the Numbers: The Rust Programming Language in 2021",
+            "url": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/"
+          }
+        ]
+      },
+      {
+        "id": "ebQdTOAOV54WBToHmFtBk",
+        "name": "Programming Fundamentals",
+        "type": "topic",
+        "description": "Programming Fundamentals are the basic concepts and principles that form the foundation of any computer programming language. These include understanding variables, which store data for processing, control structures such as loops and conditional statements that direct the flow of a program, data structures which organize and store data efficiently, and algorithms which step by step instructions to solve specific problems or perform specific tasks. Mastery of these fundamentals forms the basis for learning any specific programming language and for writing efficient, effective code.",
+        "resources": []
+      },
+      {
+        "id": "kE6qddRhO8C5ur3JbeuhF",
+        "name": "Language Syntax",
+        "type": "subtopic",
+        "description": "Language syntax refers to the set of rules that define how code must be written in a given programming language. It covers how to declare variables, write expressions, define functions, and structure a program so the compiler or interpreter can parse it. Every language has its own syntax, but the underlying patterns are similar across most of them.",
+        "resources": []
+      },
+      {
+        "id": "G74Xp8_EMZO2oEzNTRAli",
+        "name": "Control Structures",
+        "type": "subtopic",
+        "description": "Control structures direct the flow of execution in a program. They include conditionals like `if/else`, which run code only when a condition is true, and loops like `for` and `while`, which repeat a block of code. Most algorithmic logic depends on these constructs to make decisions and iterate over data.",
+        "resources": []
+      },
+      {
+        "id": "tvy3Vic8Vp-Ie2x_OyZ5b",
+        "name": "Pseudo Code",
+        "type": "subtopic",
+        "description": "Pseudocode is an informal way to describe an algorithm using plain language and simple structure, without following the syntax rules of any specific programming language. It helps plan logic before writing real code and is commonly used in textbooks, interviews, and design discussions. Reading and writing pseudocode is a practical skill for thinking through problems.",
+        "resources": []
+      },
+      {
+        "id": "Cu08m5JOfvrPUDGony144",
+        "name": "Functions",
+        "type": "subtopic",
+        "description": "A function is a named, reusable block of code that takes inputs, performs a task, and optionally returns a result. Functions let you break a program into smaller, manageable pieces and avoid repeating the same code in multiple places. Most algorithms are expressed as functions, and understanding how they receive arguments and return values is fundamental.",
+        "resources": []
+      },
+      {
+        "id": "QFR1FMOf2OV3n3jcDnOCP",
+        "name": "OOP Basics",
+        "type": "subtopic",
+        "description": "Object-oriented programming (OOP) organizes code around objects, which combine data (fields) and behavior (methods). The four main principles are encapsulation, abstraction, inheritance, and polymorphism. Many data structure implementations, especially in languages like Java and C#, are expressed using classes and objects.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Object-Oriented Programming (Simplified)",
+            "url": "https://youtu.be/pTB0EiLXUC8?si=I8rV2K5fhpoqmixX"
+          }
+        ]
+      },
+      {
+        "id": "jvWuYXWRtt_ePawc4q1Tg",
+        "name": "What are Data Structures?",
+        "type": "topic",
+        "description": "A data structure is a way of organizing and storing data in memory so it can be accessed and modified efficiently. Different data structures are suited to different kinds of problems: arrays work well for indexed access, linked lists for frequent insertions, and hash tables for fast lookups. Choosing the right one affects the speed and memory usage of an algorithm.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "What an Algorithms and More(MIT)",
+            "url": "https://youtu.be/Zc54gFhdpLA?si=F_1QRigN_h2t2nSp&t=133"
+          },
+          {
+            "type": "video",
+            "title": "What Are Data Structures?",
+            "url": "https://www.youtube.com/watch?v=bum_19loj9A"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Algorithms",
+            "url": "https://www.youtube.com/watch?v=0IAPZzGSbME"
+          }
+        ]
+      },
+      {
+        "id": "8_GkF9zhRL8tvT2qu-bGj",
+        "name": "Why are Data Structures Important?",
+        "type": "topic",
+        "description": "The choice of data structure directly affects how fast and memory-efficient a program is. Using the wrong structure can turn an operation that should take milliseconds into one that takes seconds. Understanding data structures lets developers write code that scales and performs well under real-world conditions.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "What are Data Structures? Why is it Important?",
+            "url": "https://www.youtube.com/watch?v=18V8Avz2OH8"
+          }
+        ]
+      },
+      {
+        "id": "nqnO1Wz3gYIMR98_BnF2V",
+        "name": "Common Runtimes",
+        "type": "subtopic",
+        "description": "Common runtimes describe the typical growth rates seen in algorithms, ordered from fastest to slowest: O(1), O(log n), O(n), O(n log n), O(n²), O(2ⁿ), and O(n!). Recognizing these patterns helps predict an algorithm's scalability and compare alternatives quickly.",
+        "resources": []
+      },
+      {
+        "id": "_bpV8MkVOY8ZatTXYaEE4",
+        "name": "Constant",
+        "type": "subtopic",
+        "description": "An algorithm with constant time complexity, O(1), takes the same amount of time regardless of input size. Accessing an array element by index or looking up a value in a hash table are O(1) operations. Constant time is the best possible complexity.",
+        "resources": []
+      },
+      {
+        "id": "Cnceet0yroFHzn8npAir8",
+        "name": "Logarithmic",
+        "type": "subtopic",
+        "description": "Logarithmic time complexity (O(log n)) often indicates that the algorithm halves the size of the input at each step. It's more efficient compared to linear time complexity. Binary search is a classic example of logarithmic time complexity where at every step, the algorithm breaks the list into half until it finds the desired element. As the size of the input increases, the growth of the time taken by an algorithm with logarithmic complexity grows slowly because it divides the problem into smaller parts in each step.",
+        "resources": []
+      },
+      {
+        "id": "HOpL-4jYhOe0LNrrkPrET",
+        "name": "Linear",
+        "type": "subtopic",
+        "description": "Linear time complexity, denoted as O(n), is one of the best possible algorithmic performance situations. An algorithm is said to have a linear time complexity when the running time increases at most linearly with the size of the input data. This means that if you double the size of the input, the running time will at most double as well. In an ideal situation, every single element in the data set should be viewed exactly once. Sorting algorithms such as counting sort and bucket sort have linear time complexity under certain conditions.",
+        "resources": []
+      },
+      {
+        "id": "QKhmM_IG1FkBudfdrf1aT",
+        "name": "Polynomial",
+        "type": "subtopic",
+        "description": "Polynomial time complexity, denoted as O(n^k), is a class of time complexity that represents the amount of time an algorithm takes to run as being proportional to the size of the input data raised to a constant power 'k'. Polynomial time complexity includes runtimes like O(n), O(n^2), O(n^3), etc. The value 'n' is a representation of the size of the input, while 'k' represents a constant. Algorithms running in polynomial time are considered to be reasonably efficient for small and medium-sized inputs, but can become impractical for large input sizes due to the rapid growth rate of function.",
+        "resources": []
+      },
+      {
+        "id": "xqzaYJBvlsNtT6qZ59ktv",
+        "name": "Exponential",
+        "type": "subtopic",
+        "description": "Exponential time complexity is denoted as `O(2^n)`, where a growth in `n` leads to an exponential growth in the number of steps required to complete a task. It means that the time complexity will double with every additional element in the input set. This is seen in many recursive algorithms, where a problem is divided into two sub-problems of the same type. Examples of such algorithms include the naive recursive approach for the Fibonacci sequence or the Towers of Hanoi problem. Although exponential time complexity solutions are often simpler to implement, they are inefficient for larger input sizes.",
+        "resources": []
+      },
+      {
+        "id": "wclY3cmt1fBNYjLsmijdW",
+        "name": "Factorial",
+        "type": "subtopic",
+        "description": "Factorial complexity, O(n!), grows faster than exponential and represents the number of permutations of n elements. Algorithms that generate every possible ordering of a set, such as brute-force permutation search, run in factorial time. This is only feasible for very small inputs.",
+        "resources": []
+      },
+      {
+        "id": "iTlpa9A7h33FkUAv0UaVZ",
+        "name": "Basic Data Structures",
+        "type": "topic",
+        "description": "Basic data structures are the foundational building blocks used in most programs and algorithms. They include arrays, linked lists, stacks, queues, and hash tables. Learning how each one stores data, what operations it supports, and what trade-offs it makes is the starting point for understanding more advanced structures.",
+        "resources": []
+      },
+      {
+        "id": "bRu9u8pEAQ1TmKygjIjyI",
+        "name": "Linked Lists",
+        "type": "subtopic",
+        "description": "A linked list is a sequence of nodes where each node stores a value and a reference to the next node. Unlike arrays, linked lists do not require contiguous memory, making insertions and deletions at the head or middle efficient. The trade-off is that accessing an element by index requires traversing from the start.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linked Lists vs Python Lists: When to Use Each",
+            "url": "https://roadmap.sh/python/linked-list"
+          },
+          {
+            "type": "video",
+            "title": "Introduction To Linked List",
+            "url": "https://youtu.be/Nq7ok-OyEpg?si=xttaGoYKcoJ09Ln2"
+          },
+          {
+            "type": "video",
+            "title": "Python Linked List",
+            "url": "https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=4&ab_channel=codebasics"
+          }
+        ]
+      },
+      {
+        "id": "lxY3ErxJ_D3zkSAXIBUpv",
+        "name": "Array",
+        "type": "subtopic",
+        "description": "An array is a collection of elements stored in contiguous memory locations, accessed by index. It supports constant-time reads and writes by position but requires shifting elements when inserting or deleting in the middle. Arrays are one of the most widely used data structures because of their simplicity and cache efficiency.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Arrays in Python",
+            "url": "https://www.youtube.com/watch?v=gDqQf4Ekr2A&ab_channel=codebasics"
+          },
+          {
+            "type": "video",
+            "title": "Arrays in Java",
+            "url": "https://www.youtube.com/watch?v=ei_4Nt7XWOw&ab_channel=BroCode"
+          },
+          {
+            "type": "video",
+            "title": "Arrays in Javascript",
+            "url": "https://www.youtube.com/watch?v=yQ1fz8LY354"
+          },
+          {
+            "type": "video",
+            "title": "Arrays in GoLang",
+            "url": "https://www.youtube.com/watch?v=e-oBn806Pzc&pp=ygUIYXJyYXkgZ28%3D"
+          }
+        ]
+      },
+      {
+        "id": "jvKRykGNy140FlquF2fcK",
+        "name": "Stacks",
+        "type": "subtopic",
+        "description": "A stack is a linear data structure that follows the last-in, first-out (LIFO) principle. Elements are added and removed from the same end, called the top. Stacks are used to manage function call frames, evaluate expressions, and implement undo functionality.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Leetcode",
+            "url": "https://leetcode.com/problems/valid-parentheses/"
+          },
+          {
+            "type": "video",
+            "title": "Stacks",
+            "url": "https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=69&ab_channel=takeUforward"
+          },
+          {
+            "type": "video",
+            "title": "Stack Data Structure Tutorial",
+            "url": "https://www.youtube.com/watch?v=O1KeXo8lE8A"
+          },
+          {
+            "type": "video",
+            "title": "Python Stacks",
+            "url": "https://www.youtube.com/watch?v=zwb3GmNAtFk"
+          }
+        ]
+      },
+      {
+        "id": "v0phjC75jhmE1z-f9ZMck",
+        "name": "Queues",
+        "type": "subtopic",
+        "description": "A queue is a linear data structure that follows the first-in, first-out (FIFO) principle. Elements are added at the back and removed from the front. Queues are used in scheduling, breadth-first search, and any scenario where order of arrival matters.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Queue",
+            "url": "https://www.youtube.com/watch?v=M6GnoUDpqEE"
+          },
+          {
+            "type": "video",
+            "title": "Python Queue",
+            "url": "https://www.youtube.com/watch?v=rUUrmGKYwHw"
+          }
+        ]
+      },
+      {
+        "id": "kSy-8ubESdmIX4Fyl8TSu",
+        "name": "Hash Tables",
+        "type": "subtopic",
+        "description": "A hash table stores key-value pairs and uses a hash function to compute the index where a value is stored. This allows average constant-time lookups, insertions, and deletions. Collisions, where two keys hash to the same index, are handled through chaining or open addressing.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Hashmaps in Python: Master Implementation and Use Cases",
+            "url": "https://roadmap.sh/python/hashmap"
+          },
+          {
+            "type": "video",
+            "title": "Hash Table",
+            "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g&ab_channel=takeUforward"
+          },
+          {
+            "type": "video",
+            "title": "Python Hash Table Part 1",
+            "url": "https://www.youtube.com/watch?v=ea8BRGxGmlA"
+          },
+          {
+            "type": "video",
+            "title": "Python Hash Table Part 2",
+            "url": "https://www.youtube.com/watch?v=54iv1si4YCM"
+          }
+        ]
+      },
+      {
+        "id": "VotdHk0_bI3CeoIf-KoKu",
+        "name": "Algorithmic Complexity",
+        "type": "topic",
+        "description": "Algorithmic complexity describes how the runtime or memory usage of an algorithm grows as the input size increases. It is the primary tool for comparing algorithms and predicting how they will perform at scale. Complexity is typically expressed using Big-O notation, which captures the worst-case growth rate.",
+        "resources": []
+      },
+      {
+        "id": "unaYmPzK761Eh_iZMLeRC",
+        "name": "Time vs Space Complexity",
+        "type": "subtopic",
+        "description": "Time complexity measures how many operations an algorithm performs relative to input size. Space complexity measures how much memory it uses. These two factors often trade off against each other: an algorithm can be made faster by using more memory, or more memory-efficient by doing more computation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Cheat Sheet",
+            "url": "https://www.bigocheatsheet.com/"
+          },
+          {
+            "type": "article",
+            "title": "Big-O Notation",
+            "url": "https://roadmap.sh/guides/big-o-notation"
+          },
+          {
+            "type": "video",
+            "title": "Big O Notation — Calculating Time Complexity",
+            "url": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+          },
+          {
+            "type": "video",
+            "title": "Free Code Camp Big-O Tutorial",
+            "url": "https://youtu.be/Mo4vesaut8g?si=1jyb-EkfCLf9PNND"
+          }
+        ]
+      },
+      {
+        "id": "HosRc0hczubBHrWxCzEJj",
+        "name": "How to Calculate Complexity?",
+        "type": "subtopic",
+        "description": "Calculating complexity involves identifying the dominant operations in an algorithm and counting how many times they run as input size grows. For a single loop over n elements, the time complexity is O(n). Nested loops multiply, recursive calls add up through recurrence relations, and constant-time operations are ignored.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Time & Space Complexity",
+            "url": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+          },
+          {
+            "type": "video",
+            "title": "How Write and Analyze Algorithm",
+            "url": "https://www.youtube.com/watch?v=xGYsEqe9Vl0"
+          }
+        ]
+      },
+      {
+        "id": "v0LrabYYOKzV4oCXOK2Rs",
+        "name": "Asymptotic Notation",
+        "type": "subtopic",
+        "description": "Asymptotic notation is a way to describe the limiting behavior of a function, typically representing the time or space complexity of an algorithm, as the input size grows. It focuses on the dominant terms and ignores constant factors and lower-order terms, providing a simplified and generalized way to compare the efficiency of different algorithms. Common notations include Big O, Big Omega, and Big Theta, which represent upper bound, lower bound, and tight bound, respectively.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Asymptotic Analysis: Big-O Notation and More",
+            "url": "https://www.programiz.com/dsa/asymptotic-notations"
+          },
+          {
+            "type": "article",
+            "title": "The Big O Notation",
+            "url": "https://towardsdatascience.com/big-o-notation-32fb458e5260/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+          }
+        ]
+      },
+      {
+        "id": "oylTfop_JDPHJ3jYuA2Nq",
+        "name": "Big-O Notation",
+        "type": "subtopic",
+        "description": "Big-O notation describes the upper bound of an algorithm's growth rate, representing the worst-case scenario. An algorithm that is O(n²) will take at most quadratic time for any input of size n. It is the most commonly used notation in practice because worst-case guarantees matter most for reliability.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Big-O Cheat Sheet",
+            "url": "https://www.bigocheatsheet.com/"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Big O Notation and Time Complexity",
+            "url": "https://www.youtube.com/watch?v=D6xkbGLQesk"
+          },
+          {
+            "type": "video",
+            "title": "Big-O Notation",
+            "url": "https://www.youtube.com/watch?v=BgLTDT03QtU"
+          }
+        ]
+      },
+      {
+        "id": "Ex6tzu6gwrarWm1CNFufO",
+        "name": "Big-θ Notation",
+        "type": "subtopic",
+        "description": "Big-Θ (Theta) notation describes a tight bound, meaning the algorithm grows at exactly that rate in both the best and worst case. If an algorithm is Θ(n log n), its runtime is always proportional to n log n, not just bounded by it. It gives the most precise characterization of an algorithm's complexity.",
+        "resources": []
+      },
+      {
+        "id": "CkUi93TvTkEm2_isHNvqr",
+        "name": "Big-Ω Notation",
+        "type": "subtopic",
+        "description": "Big-Ω (Omega) notation describes the lower bound of an algorithm's growth, representing the best-case scenario. If an algorithm is Ω(n), it will always take at least linear time. It is less commonly used than Big-O but useful when analyzing minimum guaranteed performance.",
+        "resources": []
+      },
+      {
+        "id": "WzFkdkcbL8ea9DBkjfSwa",
+        "name": "Sorting Algorithms",
+        "type": "topic",
+        "description": "Sorting algorithms arrange elements of a list in a defined order, typically ascending or descending. Sorting is one of the most studied problems in computer science because it underlies searching, data processing, and many other algorithms. Different sorting algorithms offer different trade-offs in time complexity, space, and stability.",
+        "resources": []
+      },
+      {
+        "id": "zUDKCJCQHLW4c_6A349R3",
+        "name": "Bubble Sort",
+        "type": "subtopic",
+        "description": "Bubble sort repeatedly compares adjacent elements and swaps them if they are out of order, moving the largest unsorted element to its correct position in each pass. It runs in O(n²) time in the average and worst case, making it inefficient for large lists. It is primarily taught as an introductory algorithm because its logic is easy to visualize.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Bubble Sort Visualize",
+            "url": "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/"
+          },
+          {
+            "type": "video",
+            "title": "Bubble Sort",
+            "url": "https://www.youtube.com/watch?v=Jdtq5uKz-w4"
+          },
+          {
+            "type": "video",
+            "title": "Bubble Sort",
+            "url": "https://www.youtube.com/watch?v=p__ETf2CKY4"
+          }
+        ]
+      },
+      {
+        "id": "k0UBAj3hOYab4mUziOYyW",
+        "name": "Merge Sort",
+        "type": "subtopic",
+        "description": "Merge sort divides a list in half, recursively sorts each half, and then merges the two sorted halves into one sorted list. It runs in O(n log n) time in all cases and is stable, preserving the relative order of equal elements. The trade-off is O(n) additional memory for the merge step.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+            "url": "https://roadmap.sh/python/merge-sort"
+          },
+          {
+            "type": "article",
+            "title": "Merge Sort Visualize",
+            "url": "https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/"
+          },
+          {
+            "type": "video",
+            "title": "Merge Sort",
+            "url": "https://www.youtube.com/watch?v=4VqmGXwpLqc"
+          }
+        ]
+      },
+      {
+        "id": "liJfTV5ajAFZcfwBdVGpU",
+        "name": "Insertion Sort",
+        "type": "subtopic",
+        "description": "Insertion sort builds a sorted list one element at a time by taking each new element and inserting it into its correct position among the already-sorted elements. It runs in O(n²) in the worst case but is efficient for small or nearly sorted lists, where it approaches O(n). It is also the basis for more advanced algorithms like Timsort.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Insertion Sort",
+            "url": "https://youtu.be/JU767SDMDvA"
+          },
+          {
+            "type": "article",
+            "title": "Insertion Sort Visualization",
+            "url": "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/"
+          }
+        ]
+      },
+      {
+        "id": "LgEV0Wm4avrOqR8bV5GXW",
+        "name": "Quick Sort",
+        "type": "subtopic",
+        "description": "Quicksort selects a pivot element and partitions the list so that all elements smaller than the pivot come before it and all larger elements come after. It then recursively sorts each partition. Average-case performance is O(n log n), but worst-case is O(n²) if the pivot is consistently poorly chosen. In practice, quicksort is often the fastest general-purpose sorting algorithm.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Quick Sort Visualize",
+            "url": "https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/"
+          },
+          {
+            "type": "video",
+            "title": "A Complete Overview of Quicksort",
+            "url": "https://www.youtube.com/watch?v=0SkOjNaO1XY"
+          },
+          {
+            "type": "video",
+            "title": "QuickSort",
+            "url": "https://www.youtube.com/watch?v=7h1s2SojIRw"
+          },
+          {
+            "type": "video",
+            "title": "QuickSort Analysis",
+            "url": "https://www.youtube.com/watch?v=-qOVVRIZzao"
+          }
+        ]
+      },
+      {
+        "id": "SMgBHvqXLD6Cgr2nix4wR",
+        "name": "Selection Sort",
+        "type": "subtopic",
+        "description": "Selection sort repeatedly finds the minimum element in the unsorted portion of the list and moves it to the correct position. It always performs O(n²) comparisons regardless of input order. While simple to implement, it is generally slower than insertion sort in practice and is mainly used for educational purposes.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Selection Sort Visualize",
+            "url": "https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/practice-problems/"
+          },
+          {
+            "type": "video",
+            "title": "Selection sort in 3 minutes",
+            "url": "https://www.youtube.com/watch?v=g-PGLbMth_g&t=5s"
+          }
+        ]
+      },
+      {
+        "id": "yMv9Oa3hsgT8Adx6m_rdL",
+        "name": "Heap Sort",
+        "type": "subtopic",
+        "description": "Heap sort uses a binary heap data structure to sort elements. It first builds a max-heap from the input, then repeatedly extracts the maximum element and places it at the end of the sorted portion. It runs in O(n log n) time with O(1) extra space, making it memory-efficient compared to merge sort.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Heap Sort Visualize",
+            "url": "https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/"
+          },
+          {
+            "type": "video",
+            "title": "Heap sort in 4 minutes",
+            "url": "https://www.youtube.com/watch?v=2DmK_H7IdTo"
+          }
+        ]
+      },
+      {
+        "id": "z_Cf_alLAYSCyYtNviRcO",
+        "name": "Search Algorithms",
+        "type": "topic",
+        "description": "Search algorithms are techniques used for finding a specific item or group of items among a collection of data. The primary types of search algorithms are linear search, binary search, depth-first search, and breadth-first search. Linear and binary search are explained in this section. The other two types in a next section of this roadmap.",
+        "resources": []
+      },
+      {
+        "id": "Wt74MRKaZcs8lYvfqjffT",
+        "name": "Binary Search",
+        "type": "subtopic",
+        "description": "Binary search finds a target value in a sorted list by repeatedly halving the search space. It compares the target to the middle element and discards the half that cannot contain the target. It runs in O(log n) time, making it far more efficient than linear search for large sorted datasets.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Binary search in Python 101: Implementation and use cases",
+            "url": "https://roadmap.sh/python/binary-search"
+          },
+          {
+            "type": "video",
+            "title": "Learn Binary Search in 10 minutes",
+            "url": "https://www.youtube.com/watch?v=xrMppTpoqdw"
+          }
+        ]
+      },
+      {
+        "id": "AtX-PeI8nY4-5bA-xLla0",
+        "name": "Linear Search",
+        "type": "subtopic",
+        "description": "Linear search is one of the simplest search algorithms. In this method, every element in an array is checked sequentially starting from the first until a match is found or all elements have been checked. It is also known as sequential search. It works on both sorted and unsorted lists, and does not need any preconditioned list for the operation. However, its efficiency is lesser as compared to other search algorithms since it checks all elements one by one.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Learn Linear Search in 3 minutes",
+            "url": "https://www.youtube.com/watch?v=246V51AWwZM"
+          }
+        ]
+      },
+      {
+        "id": "r2Jagzbx0qOG-VtxBY-mz",
+        "name": "Tree Data Structures",
+        "type": "topic",
+        "description": "A tree is a hierarchical data structure made of nodes connected by edges, with one root node at the top and child nodes branching below. Trees represent hierarchical relationships naturally, such as file systems, organizational charts, and HTML documents. Many specialized trees exist to optimize for specific operations like searching, sorting, or range queries.",
+        "resources": []
+      },
+      {
+        "id": "YJsAQWJpLwVN6oCxNwNAn",
+        "name": "Search Algorithms",
+        "type": "subtopic",
+        "description": "Tree search algorithms locate a specific node or value within a tree structure. The two primary strategies are breadth-first search, which explores level by level, and depth-first search, which explores as far down a branch as possible before backtracking. The right choice depends on the tree's shape and what is being searched for.",
+        "resources": []
+      },
+      {
+        "id": "2Od5lNc6fCM6Gyj_axj4n",
+        "name": "Tree Traversal",
+        "type": "subtopic",
+        "description": "Tree traversal refers to visiting every node in a tree in a specific order. The three common strategies for binary trees are in-order, pre-order, and post-order, each visiting nodes in a different sequence relative to the root. The correct traversal depends on the operation: in-order produces sorted output from a BST, while pre-order is used for copying a tree.",
+        "resources": []
+      },
+      {
+        "id": "RPU5CGp2Li5lk0UB-zNHT",
+        "name": "Binary Trees",
+        "type": "subtopic",
+        "description": "A binary tree is a tree where each node has at most two children, referred to as the left and right child. It is the foundation for more specialized structures like binary search trees and heaps. The shape and balance of a binary tree directly affect the efficiency of operations performed on it.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Binary Tree",
+            "url": "https://youtu.be/4r_XR9fUPhQ?si=PBsRjix_Z9kVHgMM"
+          }
+        ]
+      },
+      {
+        "id": "pfg-qclOpvlsGMdlZ1aoj",
+        "name": "Breadth First Search",
+        "type": "subtopic",
+        "description": "Breadth-first search (BFS) explores a tree level by level, visiting all nodes at the current depth before moving deeper. It uses a queue to track nodes to visit next. BFS is useful for finding the shortest path in unweighted graphs and for level-order traversal of trees.",
+        "resources": []
+      },
+      {
+        "id": "UYm7unZfXd9Ge5EYV4odb",
+        "name": "Binary Search Trees",
+        "type": "subtopic",
+        "description": "A binary search tree (BST) is a binary tree where every node's left subtree contains only values less than the node, and the right subtree contains only values greater. This property allows efficient search, insertion, and deletion in O(log n) average time. Performance degrades to O(n) when the tree becomes unbalanced.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Binary Search Tree Part-1",
+            "url": "https://youtu.be/lFq5mYUWEBk?si=GKRm1O278NCetnry"
+          },
+          {
+            "type": "video",
+            "title": "Binary Search Tree Part-2",
+            "url": "https://youtu.be/JnrbMQyGLiU?si=1pfKn2akKXWLshY6"
+          }
+        ]
+      },
+      {
+        "id": "iCA7UKZih4ItDmDNEC8Q-",
+        "name": "In-Order Traversal",
+        "type": "subtopic",
+        "description": "In-order traversal visits the left subtree first, then the current node, then the right subtree. For a binary search tree, this produces nodes in ascending sorted order. It is commonly used to retrieve data from a BST in a meaningful sequence.",
+        "resources": []
+      },
+      {
+        "id": "gR8KcOIADUxS8hdiEaGZy",
+        "name": "Depth First Search",
+        "type": "subtopic",
+        "description": "Depth-first search on a graph explores as far as possible along each path before backtracking. It is used to detect cycles, find connected components, and perform topological sorting. A visited set prevents infinite loops when the graph contains cycles.",
+        "resources": []
+      },
+      {
+        "id": "BMEoO65zsX51H4Js1gcWI",
+        "name": "Pre-Order Traversal",
+        "type": "subtopic",
+        "description": "Pre Order Traversal is a very specific kind of tree traversal in data structures. In this method of traversal, the process starts from the root node, then proceeds to the left subtree, and finally to the right subtree. To put it concisely, the order of traversal is Root, Left, and Right (often abbreviated as R-L-R). This makes it particularly useful in scenarios where it's important to duplicate or clone a tree, or to get a prefix expression (Polish notation) of a binary expression tree.",
+        "resources": []
+      },
+      {
+        "id": "5MCgKpylPzDZaGBEUU51r",
+        "name": "AVL Trees",
+        "type": "subtopic",
+        "description": "An AVL tree is a self-balancing binary search tree where the height difference between the left and right subtrees of any node, called the balance factor, is at most one. After each insertion or deletion, rotations are performed to restore balance. This guarantees O(log n) time for all operations.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "AVL trees in 5 minutes — Intro & Search",
+            "url": "https://www.youtube.com/watch?v=DB1HFCEdLxA"
+          }
+        ]
+      },
+      {
+        "id": "j6_DyKiyG1wBuygQkxWB7",
+        "name": "Post-Order Traversal",
+        "type": "subtopic",
+        "description": "Post Order Traversal is a technique used in Binary Tree structure where each node is processed after its child nodes. As the name suggests, it first traverses the left subtree, then the right subtree, and finally the root node. The process is recursively repeated for each subtree until the entire tree has been traversed. This traversal method is often used for calculations that require that all child nodes be processed before the parent, such as evaluating a mathematical expression represented in a tree structure.",
+        "resources": []
+      },
+      {
+        "id": "2F6BcbAzICynOK3oEj-Is",
+        "name": "B-Trees",
+        "type": "subtopic",
+        "description": "A B-tree is a self-balancing search tree designed for systems that read and write large blocks of data, such as databases and file systems. Unlike binary trees, each node can have many children and keys, reducing the height of the tree and minimizing disk accesses. B-trees maintain sorted data and allow efficient search, insertion, and deletion.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "B-trees in 4 minutes — Intro",
+            "url": "https://www.youtube.com/watch?v=FgWbADOG44s"
+          }
+        ]
+      },
+      {
+        "id": "R3Coq0TG1_cSOXzXWgpuI",
+        "name": "Heap",
+        "type": "subtopic",
+        "description": "A heap is a complete binary tree that satisfies the heap property: in a max-heap, every parent node is greater than or equal to its children; in a min-heap, every parent is less than or equal to its children. The top element is always the maximum or minimum, enabling O(1) access to the extreme value. Heaps are commonly used to implement priority queues and heap sort.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Heap Data Structure",
+            "url": "https://www.programiz.com/dsa/heap-data-structure"
+          },
+          {
+            "type": "video",
+            "title": "Heap Data Structure",
+            "url": "https://www.youtube.com/watch?v=t0Cq6tVNRBA"
+          },
+          {
+            "type": "video",
+            "title": "Heaps and Priority Queues",
+            "url": "https://www.youtube.com/watch?v=B7hVxCmfPtM"
+          }
+        ]
+      },
+      {
+        "id": "j_r1tB16bA7R3yDAWN7Oj",
+        "name": "Graph Data Structures",
+        "type": "topic",
+        "description": "A graph is a collection of nodes (vertices) connected by edges. Graphs model relationships between entities, such as social networks, road maps, and dependencies. They come in many forms depending on whether edges have direction or weight, and they require different traversal and search strategies than trees.",
+        "resources": []
+      },
+      {
+        "id": "XVw2_dL3uN0SOWmjH1Uao",
+        "name": "Directed Graph",
+        "type": "subtopic",
+        "description": "A **Directed Graph**, also known as a DiGraph, is a set of vertices and a collection of directed edges. Each directed edge has an initial vertex, also called the tail, and a terminal vertex, also known as the head. The directed edge is said to point from the tail to the head. To visualize this, think of a graph where the nodes are cities and the edges are one-way roads. Directed graphs are often used to represent relationships between objects where direction does matter, such as a sequence of events in a workflow.",
+        "resources": []
+      },
+      {
+        "id": "VnKm_j7McUW9Lo0iKyPUp",
+        "name": "Undirected Graph",
+        "type": "subtopic",
+        "description": "An **Undirected Graph** is a type of graph in which the edges are not directed. That is, they do not point in any specific direction and are not ordered pairs. They cannot be referred to as originating or ending node, instead, they are endpoints of the edges. In this type of graph, the edges essentially represent a two-way relationship, in the sense that, a travel can be made back and forth between the two vertices without any restriction. Every edge of the undirected graph always connects two different vertices or nodes.",
+        "resources": []
+      },
+      {
+        "id": "LW5HZMca4lvhbbA8KYaOa",
+        "name": "Search Algorithms",
+        "type": "subtopic",
+        "description": "Graph search algorithms explore nodes and edges to find paths, detect connectivity, or locate specific nodes. BFS and DFS are the two foundational strategies, each suited to different problems. Unlike tree search, graph search must track visited nodes to avoid infinite loops caused by cycles.",
+        "resources": []
+      },
+      {
+        "id": "c7LdXJPv-5M-NPKSCXYuB",
+        "name": "Breadth First Search",
+        "type": "subtopic",
+        "description": "Breadth-first search on a graph visits all neighbors of a node before moving to the next level, using a queue to track the order. It finds the shortest path in unweighted graphs and can determine whether two nodes are connected. Visited nodes are marked to prevent revisiting.",
+        "resources": []
+      },
+      {
+        "id": "NrPO7vF8Z1WzmA9Ca3Y_E",
+        "name": "Depth First Search",
+        "type": "subtopic",
+        "description": "Depth-first search on a graph explores as far as possible along each path before backtracking. It is used to detect cycles, find connected components, and perform topological sorting. A visited set prevents infinite loops when the graph contains cycles.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Learn Depth First Search in 7 minutes",
+            "url": "https://youtu.be/by93qH4ACxo?si=FXcUfuwB5atV5SIY"
+          }
+        ]
+      },
+      {
+        "id": "N-qvYirxpORcaTslvlOL0",
+        "name": "Shortest Path Algorithms",
+        "type": "subtopic",
+        "description": "Shortest path algorithms find the minimum-cost route between two nodes in a weighted graph. Different algorithms suit different scenarios: Dijkstra's handles non-negative weights, Bellman-Ford handles negative weights, and A\\* uses heuristics for faster pathfinding. These algorithms underlie GPS navigation, network routing, and game AI.",
+        "resources": []
+      },
+      {
+        "id": "87UugvReiywF0E7Acos9U",
+        "name": "Dijkstra's Algorithm",
+        "type": "subtopic",
+        "description": "Dijkstra's algorithm finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights. It uses a priority queue to always process the nearest unvisited node. The result is a set of shortest distances and the corresponding paths from the source.",
+        "resources": []
+      },
+      {
+        "id": "7CgGwdwHnOmISmEPtJegN",
+        "name": "Bellman-Ford Algoritm",
+        "type": "subtopic",
+        "description": "The Bellman-Ford algorithm finds the shortest paths from a source node in a weighted graph, including graphs with negative edge weights. It works by relaxing all edges repeatedly for n-1 iterations, where n is the number of nodes. It can also detect negative weight cycles, which make shortest paths undefined.",
+        "resources": []
+      },
+      {
+        "id": "AabJqPUwFVBVS02YPDPvL",
+        "name": "A* Algorithm",
+        "type": "subtopic",
+        "description": "A\\* is a shortest path algorithm that uses a heuristic to guide its search toward the goal, making it faster than Dijkstra's in practice. The heuristic estimates the cost from the current node to the destination, helping the algorithm prioritize more promising paths. It is widely used in game pathfinding and robotics.",
+        "resources": []
+      },
+      {
+        "id": "Ktqau1VkVrnnVYByqcacM",
+        "name": "Minimum Spanning Tree",
+        "type": "subtopic",
+        "description": "A minimum spanning tree (MST) is a subset of a graph's edges that connects all vertices with the minimum total edge weight and no cycles. MSTs are used in network design, clustering, and approximation algorithms. Two classic algorithms for finding them are Kruskal's and Prim's.",
+        "resources": []
+      },
+      {
+        "id": "KnyUHDvpDTUO0EkAs9pT8",
+        "name": "Advanced Data Structures",
+        "type": "topic",
+        "description": "Advanced data structures extend beyond the basics to handle more specialized use cases with better performance characteristics. They include structures like tries, segment trees, Fenwick trees, and disjoint sets, each designed to solve specific problems efficiently. Knowing when and how to use them is a mark of experienced algorithm design.",
+        "resources": []
+      },
+      {
+        "id": "zy3wpb1MjizfUfx9_rZy2",
+        "name": "Trie",
+        "type": "subtopic",
+        "description": "A trie, also called a prefix tree, is a tree-like structure where each node represents a character, and paths from root to leaf represent strings. It allows fast prefix lookups and is commonly used in autocomplete, spell checkers, and IP routing tables. Search and insertion both run in O(m) time, where m is the length of the string.",
+        "resources": []
+      },
+      {
+        "id": "iFNS3x9wVRIjpixct6H7x",
+        "name": "Segment Trees",
+        "type": "subtopic",
+        "description": "A segment tree is a binary tree used to answer range queries, such as the sum or minimum of elements in a subarray, in O(log n) time. It also supports point and range updates efficiently. Segment trees are common in competitive programming and database query optimization.",
+        "resources": []
+      },
+      {
+        "id": "V9SWO58kaMsU1NT7q26WG",
+        "name": "Fenwick Trees",
+        "type": "subtopic",
+        "description": "A Fenwick tree, also called a binary indexed tree (BIT), is a data structure that supports prefix sum queries and point updates in O(log n) time. It is more memory-efficient and simpler to implement than a segment tree for problems involving cumulative sums. It is commonly used in problems requiring frequent updates and sum queries over ranges.",
+        "resources": []
+      },
+      {
+        "id": "La8XAT0BWvqRCrvQxtZIp",
+        "name": "Disjoint Set (Union-Find)",
+        "type": "subtopic",
+        "description": "A disjoint set, or union-find structure, tracks a collection of non-overlapping sets and supports two operations: union, which merges two sets, and find, which identifies which set an element belongs to. With path compression and union by rank, both operations run in nearly constant time. It is used in Kruskal's algorithm and cycle detection.",
+        "resources": []
+      },
+      {
+        "id": "yEWnYjW0ZLVhsLc9rH4ae",
+        "name": "Prim's Algorithm",
+        "type": "subtopic",
+        "description": "Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.",
+        "resources": []
+      },
+      {
+        "id": "zprVkxpojaxNo0LQar3Ex",
+        "name": "Suffix Trees and Arrays",
+        "type": "subtopic",
+        "description": "**Suffix Trees and Arrays** are advanced data structures used primarily for string manipulation and searches. A **Suffix Tree** is a compressed trie containing all the suffixes of a given text as their keys and positions as their values. On the other hand, a **Suffix Array** is a sorted array of all possible suffixes of a given text. Both these data structures provide an efficient way to store and search substrings in a text, but differ in terms of space complexity and time complexity.",
+        "resources": []
+      },
+      {
+        "id": "F3bPbwIdCNMzL7QXEYJK3",
+        "name": "Kruskal's Algorithm",
+        "type": "subtopic",
+        "description": "Kruskal's algorithm builds a minimum spanning tree by sorting all edges by weight and adding each edge to the MST if it does not create a cycle. It uses a union-find structure to efficiently check for cycles. The result is the set of edges with the lowest total weight that connects all nodes.",
+        "resources": []
+      },
+      {
+        "id": "kSpgFuAHyzySWlGBLOHZR",
+        "name": "Complex Data Structures",
+        "type": "topic",
+        "description": "Complex data structures are specialized structures designed for particular performance requirements or problem types. They typically combine simpler structures or introduce non-obvious ordering and balancing strategies. Examples include 2-3 trees, B+ trees, skip lists, and ISAM, each offering specific trade-offs in access speed, memory use, and update cost.",
+        "resources": []
+      },
+      {
+        "id": "o0fNAhJ1LsCdmGzY2ni_x",
+        "name": "2-3 Trees",
+        "type": "subtopic",
+        "description": "A 2-3 tree is a balanced search tree where every internal node has either two or three children, and all leaves are at the same depth. This guarantees O(log n) time for search, insertion, and deletion. It is a conceptual precursor to B-trees and red-black trees.",
+        "resources": []
+      },
+      {
+        "id": "2G6vn7K11_mPQQ7_IXJ96",
+        "name": "B/B+ Trees",
+        "type": "subtopic",
+        "description": "A B+ tree is a variant of the B-tree where all data is stored in leaf nodes, and internal nodes contain only keys used for navigation. Leaf nodes are linked together, making range queries efficient. B+ trees are the dominant structure used in relational database indexes.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "B Trees and B+ Trees. How they are useful in Databases",
+            "url": "https://www.youtube.com/watch?v=aZjYr87r1b8"
+          }
+        ]
+      },
+      {
+        "id": "TQu-OBpvR-aQfMByUcwyM",
+        "name": "Skip List",
+        "type": "subtopic",
+        "description": "A skip list is a probabilistic data structure built from multiple linked lists layered on top of each other, where higher layers allow fast skipping over elements. It achieves O(log n) average-case time for search, insertion, and deletion without the complexity of tree rotations. Skip lists are used in databases and memory management systems.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Skip Lists",
+            "url": "https://www.youtube.com/watch?v=NDGpsfwAaqo"
+          }
+        ]
+      },
+      {
+        "id": "uxErZ4gLeKqwhrUG88InQ",
+        "name": "ISAM",
+        "type": "subtopic",
+        "description": "ISAM (Indexed Sequential Access Method) is a disk-based file organization method that stores records in sorted order and maintains a static index for fast access. It supports efficient sequential and random reads but handles insertions poorly once the structure is built. ISAM was widely used in early database systems and influenced the design of modern indexes.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "DBMS - Index Sequential Access Method (ISAM)",
+            "url": "https://www.youtube.com/watch?v=EiW1VVPor10"
+          }
+        ]
+      },
+      {
+        "id": "Ar7GEGfI9O_dLPbIEVhF_",
+        "name": "Indexing",
+        "type": "topic",
+        "description": "Indexing is a technique for organizing data to speed up retrieval operations. Instead of scanning every record, an index provides a faster path to the data. Different indexing strategies suit different data layouts and query types, and choosing the right index can dramatically reduce query time.",
+        "resources": []
+      },
+      {
+        "id": "4noav5w_8GrMTXN1Lxm5h",
+        "name": "Linear",
+        "type": "subtopic",
+        "description": "Linear indexing stores index entries in a sequential structure, where each entry maps directly to a record position. It works well for small datasets and simple range scans but becomes slower as data grows because lookups may require scanning the index itself. It is one of the simplest indexing strategies.",
+        "resources": []
+      },
+      {
+        "id": "ZXUfeyfC5oSKkGktXuK8t",
+        "name": "Tree-Based",
+        "type": "subtopic",
+        "description": "Tree-based indexing uses a tree structure, typically a B-tree or B+ tree, to organize index entries. It supports efficient range queries, equality lookups, and sorted access in O(log n) time. Most relational databases use tree-based indexes as their default indexing strategy.",
+        "resources": []
+      },
+      {
+        "id": "Y1Uz6XRbR1YqFtO4akiPA",
+        "name": "Problem Solving Techniques",
+        "type": "topic",
+        "description": "Problem solving techniques are general strategies for approaching algorithm problems. They provide reusable patterns that apply across many different problems, reducing the need to invent a new approach from scratch each time. Mastering these techniques allows developers to recognize problem structures and select an appropriate method quickly.",
+        "resources": []
+      },
+      {
+        "id": "mKoC5o__gLSTjAlq8iXkV",
+        "name": "Backtracking",
+        "type": "subtopic",
+        "description": "Backtracking builds a solution incrementally and abandons a path as soon as it determines the path cannot lead to a valid solution. It explores possibilities using recursion and prunes branches early to reduce the search space. Common uses include solving puzzles like Sudoku, generating permutations, and the N-Queens problem.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "What is backtracking?",
+            "url": "https://www.youtube.com/watch?v=Peo7k2osVVs"
+          }
+        ]
+      },
+      {
+        "id": "5T2y6Iqi-I_zOtLkeSPzY",
+        "name": "Brute Force",
+        "type": "subtopic",
+        "description": "Brute force solves a problem by trying every possible solution and returning the one that works. It requires no insight into the problem structure and always finds a correct answer if one exists. The trade-off is poor efficiency: brute force is often exponential or factorial in time and only practical for small inputs.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Brute Force Technique in Algorithms",
+            "url": "https://medium.com/@shraddharao_/brute-force-technique-in-algorithms-34bac04bde8a"
+          },
+          {
+            "type": "video",
+            "title": "Brute Force Algorithm Explained With C++ Examples",
+            "url": "https://www.youtube.com/watch?v=BYWf6-tpQ4k"
+          }
+        ]
+      },
+      {
+        "id": "qUlqyTjk3XKF9DEm6Lsgb",
+        "name": "Greedy Algorithms",
+        "type": "subtopic",
+        "description": "Greedy algorithms make the locally optimal choice at each step with the hope that this leads to a globally optimal solution. They are fast and simple but do not always produce the best result. Problems where greedy works correctly include activity selection, Huffman encoding, and finding minimum spanning trees.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Greedy Algorithms Tutorial",
+            "url": "https://www.youtube.com/watch?v=bC7o8P_Ste4"
+          }
+        ]
+      },
+      {
+        "id": "RiS8KZs3YBE6mKWPHszMp",
+        "name": "Randomised Algorithms",
+        "type": "subtopic",
+        "description": "Randomized algorithms use random numbers as part of their logic, either to avoid worst-case behavior or to approximate solutions. Quicksort with a random pivot is a classic example: randomization makes the worst case very unlikely in practice. Monte Carlo and Las Vegas algorithms are the two main categories.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Algorithm Classification Randomized Algorithm",
+            "url": "https://www.youtube.com/watch?v=J_EVG6yCOz0"
+          }
+        ]
+      },
+      {
+        "id": "q9qLI6HzOJ0vYaIVrZ5CU",
+        "name": "Island traversal",
+        "type": "subtopic",
+        "description": "Island traversal refers to problems where a 2D grid is searched to identify and count connected regions, often called islands, surrounded by water or empty space. It is typically solved using DFS or BFS starting from unvisited land cells, marking each reachable cell as visited. This pattern generalizes to many connected-component problems.",
+        "resources": []
+      },
+      {
+        "id": "xchWhsizaKgYuHPC4Tz9H",
+        "name": "Divide and Conquer",
+        "type": "subtopic",
+        "description": "Divide and conquer is a powerful algorithm design technique that solves a problem by breaking it down into smaller and easier-to-manage sub-problems, until these become simple enough to be solved directly. This approach is usually carried out recursively for most problems. Once all the sub-problems are solved, the solutions are combined to give a solution to the original problem. It is a common strategy that significantly reduces the complexity of the problem.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+            "url": "https://roadmap.sh/python/merge-sort"
+          },
+          {
+            "type": "video",
+            "title": "Divide & Conquer Algorithm In 3 Minutes",
+            "url": "https://www.youtube.com/watch?v=YOh6hBtX5l0"
+          }
+        ]
+      },
+      {
+        "id": "gaaRAL3HR48Qj9rz1CkDU",
+        "name": "Multi-threaded",
+        "type": "subtopic",
+        "description": "Multi-threaded algorithms divide work across multiple threads running concurrently, using parallelism to reduce total execution time. Designing them correctly requires managing shared state to avoid race conditions and deadlocks. Parallel merge sort and parallel BFS are examples where multi-threading provides meaningful speedups.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Python Multithreading: The Most Practical Intro",
+            "url": "https://roadmap.sh/python/multithreading"
+          }
+        ]
+      },
+      {
+        "id": "waM_j5mbe_XoA7h8u4vFN",
+        "name": "Leetcode",
+        "type": "subtopic",
+        "description": "LeetCode is the most widely used platform for technical interview preparation. It offers thousands of problems categorized by topic and difficulty, with a built-in code editor and test runner. Many interview candidates use LeetCode's problem sets specifically because they reflect the style and content of questions asked at major tech companies.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Leetcode Roadmap",
+            "url": "https://roadmap.sh/leetcode"
+          }
+        ]
+      },
+      {
+        "id": "4ZAzcwP0oPGZ9Rw042V8-",
+        "name": "Recursion",
+        "type": "subtopic",
+        "description": "Recursion is a technique where a function calls itself with a smaller version of the problem until reaching a base case. It maps naturally to problems with recursive structure, such as tree traversal, divide and conquer, and backtracking. Understanding the call stack and how recursive calls unwind is key to using recursion correctly.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Recursion in 100 Seconds",
+            "url": "https://www.youtube.com/watch?v=rf60MejMz3E"
+          },
+          {
+            "type": "article",
+            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+            "url": "https://roadmap.sh/python/merge-sort"
+          }
+        ]
+      },
+      {
+        "id": "JcchUF_U99zkFpXp3VT2R",
+        "name": "Kth Element",
+        "type": "subtopic",
+        "description": "The Kth element problem asks for the k-th smallest or largest element in an unsorted array without fully sorting it. Efficient solutions include using a min-heap or max-heap of size k, or the quickselect algorithm, which runs in O(n) average time. This problem pattern appears frequently in data stream processing.",
+        "resources": []
+      },
+      {
+        "id": "MGb8ufztTK75aXAyEAuaf",
+        "name": "Two Heaps",
+        "type": "subtopic",
+        "description": "The two heaps technique uses a max-heap and a min-heap together to efficiently track the median or partition a dataset. One heap holds the lower half of elements and the other holds the upper half, keeping them balanced so the median is always accessible in O(1). It is used in problems that require continuous median tracking over a data stream.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Two Heaps — A Coding Pattern for Median-finding (Emre Bolat)",
+            "url": "https://emre.me/coding-patterns/two-heaps/"
+          },
+          {
+            "type": "video",
+            "title": "Coding Pattern - Two Heaps",
+            "url": "https://www.youtube.com/watch?v=9P7W5aEaatQ"
+          }
+        ]
+      },
+      {
+        "id": "8-7phxPp1D1mv2yubpLBo",
+        "name": "Edabit",
+        "type": "subtopic",
+        "description": "Edabit is a coding practice platform that focuses on smaller, beginner-friendly challenges designed to build programming fluency quickly. Problems are shorter and more approachable than those on LeetCode, making it a good starting point for learners who are still developing confidence with code before moving to interview-style questions.",
+        "resources": []
+      },
+      {
+        "id": "jKAZNybU9cxufNBdFsqsP",
+        "name": "Dynamic Programming",
+        "type": "subtopic",
+        "description": "Dynamic programming solves problems by breaking them into overlapping subproblems and storing the results to avoid redundant computation. It applies when a problem has optimal substructure and overlapping subproblems. Classic examples include the Fibonacci sequence, knapsack problem, and longest common subsequence.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Getting Started with Dynamic Programming in Data Structures and Algorithms",
+            "url": "https://medium.com/@PythonicPioneer/getting-started-with-dynamic-programming-in-data-structures-and-algorithms-126c7a16775c"
+          },
+          {
+            "type": "video",
+            "title": "What Is Dynamic Programming and How To Use It",
+            "url": "https://www.youtube.com/watch?v=vYquumk4nWw&t=4s"
+          },
+          {
+            "type": "video",
+            "title": "5 Simple Steps for Solving Dynamic Programming Problems",
+            "url": "https://www.youtube.com/watch?v=aPQY__2H3tE"
+          }
+        ]
+      },
+      {
+        "id": "S2mBvlFTd673XcXxisD5P",
+        "name": "Merge Intervals",
+        "type": "subtopic",
+        "description": "Merge intervals is a technique for solving problems involving overlapping ranges. The typical approach sorts intervals by start time, then iterates through them, merging any that overlap with the previous one. It is used in calendar scheduling, resource allocation, and range consolidation problems.",
+        "resources": []
+      },
+      {
+        "id": "itvhUXbe9dr9JN5ga2jYy",
+        "name": "Two Pointer Technique",
+        "type": "subtopic",
+        "description": "The two pointer technique uses two indices that move through an array or list to solve problems more efficiently than nested loops. One common pattern starts both pointers at opposite ends and moves them inward. It is used to find pairs with a target sum, remove duplicates, and solve partitioning problems in O(n) time.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Two Pointers Technique",
+            "url": "https://medium.com/@johnnyJK/data-structures-and-algorithms-907a63d691c1"
+          },
+          {
+            "type": "article",
+            "title": "Mastering the Two Pointers Technique: An In-Depth Guide",
+            "url": "https://lordkonadu.medium.com/mastering-the-two-pointers-technique-an-in-depth-guide-3c2167584ccc"
+          },
+          {
+            "type": "video",
+            "title": "Visual introduction Two Pointer Algorithm",
+            "url": "https://www.youtube.com/watch?v=On03HWe2tZM"
+          }
+        ]
+      },
+      {
+        "id": "L1FIJAluyxG6CGaVLM20O",
+        "name": "Cyclic Sort",
+        "type": "subtopic",
+        "description": "Cyclic sort is a sorting technique for arrays whose values fall in a known, contiguous range, typically `1` to `n`. Each element is swapped to the position matching its value, placing everything correctly in O(n) time and O(1) space — ideal as a building block for problems such as finding missing or duplicate numbers.",
+        "resources": []
+      },
+      {
+        "id": "gbHVR-ojRxv9I0E5eSlWy",
+        "name": "Sliding Window Technique",
+        "type": "subtopic",
+        "description": "The sliding window technique maintains a subset of elements within a fixed or variable-size window that moves across a sequence. As the window slides, elements are added at one end and removed from the other, avoiding the need to recompute results from scratch. It is used to find maximum subarrays, longest substrings, and other contiguous subset problems in O(n) time.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Mastering Sliding Window Techniques",
+            "url": "https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7"
+          },
+          {
+            "type": "video",
+            "title": "Sliding window technique",
+            "url": "https://www.youtube.com/watch?v=p-ss2JNynmw"
+          }
+        ]
+      },
+      {
+        "id": "J_No8GTa92DcwPtua30wL",
+        "name": "Fast and Slow Pointers",
+        "type": "subtopic",
+        "description": "The fast and slow pointers pattern uses two pointers that traverse a data structure at different speeds. It is commonly used to detect cycles in linked lists, find the middle of a list, or locate the kth element from the end, running in O(n) time with constant space.",
+        "resources": []
+      },
+      {
+        "id": "VMV4F-SPKWn9CtpHXEjeN",
+        "name": "Platforms to Practice",
+        "type": "topic",
+        "description": "Practice platforms provide coding problems, judge submissions automatically, and track progress over time. Regular practice on these platforms builds problem-solving speed and familiarity with common patterns. Consistent repetition across a variety of problem types is the most reliable way to prepare for technical interviews.",
+        "resources": []
+      }
+    ],
+    "edges": [
+      {
+        "source": "ebQdTOAOV54WBToHmFtBk",
+        "target": "jvWuYXWRtt_ePawc4q1Tg",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "iTlpa9A7h33FkUAv0UaVZ",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "VotdHk0_bI3CeoIf-KoKu",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "r2Jagzbx0qOG-VtxBY-mz",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "kSpgFuAHyzySWlGBLOHZR",
+        "target": "Ar7GEGfI9O_dLPbIEVhF_",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "HVD9G3JlLBsAg111vQILj",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gjZZOwmYkXQHPfg9Ynz80",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OkdM_PJge70j5tsjT2Esl",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9h1mz0xAUvPrnRm9VndJF",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tvy3Vic8Vp-Ie2x_OyZ5b",
+        "target": "ebQdTOAOV54WBToHmFtBk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kE6qddRhO8C5ur3JbeuhF",
+        "target": "ebQdTOAOV54WBToHmFtBk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "G74Xp8_EMZO2oEzNTRAli",
+        "target": "ebQdTOAOV54WBToHmFtBk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Cu08m5JOfvrPUDGony144",
+        "target": "ebQdTOAOV54WBToHmFtBk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QFR1FMOf2OV3n3jcDnOCP",
+        "target": "ebQdTOAOV54WBToHmFtBk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jvKRykGNy140FlquF2fcK",
+        "target": "iTlpa9A7h33FkUAv0UaVZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kSy-8ubESdmIX4Fyl8TSu",
+        "target": "iTlpa9A7h33FkUAv0UaVZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bRu9u8pEAQ1TmKygjIjyI",
+        "target": "iTlpa9A7h33FkUAv0UaVZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "unaYmPzK761Eh_iZMLeRC",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HosRc0hczubBHrWxCzEJj",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v0LrabYYOKzV4oCXOK2Rs",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VnKm_j7McUW9Lo0iKyPUp",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iFNS3x9wVRIjpixct6H7x",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zy3wpb1MjizfUfx9_rZy2",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V9SWO58kaMsU1NT7q26WG",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "La8XAT0BWvqRCrvQxtZIp",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zprVkxpojaxNo0LQar3Ex",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "o0fNAhJ1LsCdmGzY2ni_x",
+        "target": "kSpgFuAHyzySWlGBLOHZR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2G6vn7K11_mPQQ7_IXJ96",
+        "target": "kSpgFuAHyzySWlGBLOHZR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TQu-OBpvR-aQfMByUcwyM",
+        "target": "kSpgFuAHyzySWlGBLOHZR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uxErZ4gLeKqwhrUG88InQ",
+        "target": "kSpgFuAHyzySWlGBLOHZR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4noav5w_8GrMTXN1Lxm5h",
+        "target": "Ar7GEGfI9O_dLPbIEVhF_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZXUfeyfC5oSKkGktXuK8t",
+        "target": "Ar7GEGfI9O_dLPbIEVhF_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mKoC5o__gLSTjAlq8iXkV",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qUlqyTjk3XKF9DEm6Lsgb",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RiS8KZs3YBE6mKWPHszMp",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xchWhsizaKgYuHPC4Tz9H",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4ZAzcwP0oPGZ9Rw042V8-",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jKAZNybU9cxufNBdFsqsP",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "itvhUXbe9dr9JN5ga2jYy",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gbHVR-ojRxv9I0E5eSlWy",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2Od5lNc6fCM6Gyj_axj4n",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YJsAQWJpLwVN6oCxNwNAn",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iCA7UKZih4ItDmDNEC8Q-",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BMEoO65zsX51H4Js1gcWI",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "j6_DyKiyG1wBuygQkxWB7",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pfg-qclOpvlsGMdlZ1aoj",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gR8KcOIADUxS8hdiEaGZy",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oylTfop_JDPHJ3jYuA2Nq",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ex6tzu6gwrarWm1CNFufO",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CkUi93TvTkEm2_isHNvqr",
+        "target": "VotdHk0_bI3CeoIf-KoKu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nqnO1Wz3gYIMR98_BnF2V",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_bpV8MkVOY8ZatTXYaEE4",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Cnceet0yroFHzn8npAir8",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HOpL-4jYhOe0LNrrkPrET",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QKhmM_IG1FkBudfdrf1aT",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xqzaYJBvlsNtT6qZ59ktv",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wclY3cmt1fBNYjLsmijdW",
+        "target": "8_GkF9zhRL8tvT2qu-bGj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LW5HZMca4lvhbbA8KYaOa",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "c7LdXJPv-5M-NPKSCXYuB",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NrPO7vF8Z1WzmA9Ca3Y_E",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "N-qvYirxpORcaTslvlOL0",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "87UugvReiywF0E7Acos9U",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7CgGwdwHnOmISmEPtJegN",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ktqau1VkVrnnVYByqcacM",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AabJqPUwFVBVS02YPDPvL",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yEWnYjW0ZLVhsLc9rH4ae",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "F3bPbwIdCNMzL7QXEYJK3",
+        "target": "KnyUHDvpDTUO0EkAs9pT8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BZvNEZjCNuHPg5SkX90bt",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IWmq4UFB5j6O3UJfarh1u",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XyRCXhZjQFcDNaUSNNQV-",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "acgRMEuL4ZGGRHpZ7kXSo",
+        "target": "Z4uVzAoNzcAkyjd-lp3_M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "lxY3ErxJ_D3zkSAXIBUpv",
+        "target": "iTlpa9A7h33FkUAv0UaVZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v0phjC75jhmE1z-f9ZMck",
+        "target": "iTlpa9A7h33FkUAv0UaVZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RPU5CGp2Li5lk0UB-zNHT",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UYm7unZfXd9Ge5EYV4odb",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5MCgKpylPzDZaGBEUU51r",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2F6BcbAzICynOK3oEj-Is",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XVw2_dL3uN0SOWmjH1Uao",
+        "target": "j_r1tB16bA7R3yDAWN7Oj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5T2y6Iqi-I_zOtLkeSPzY",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "J_No8GTa92DcwPtua30wL",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "L1FIJAluyxG6CGaVLM20O",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "S2mBvlFTd673XcXxisD5P",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JcchUF_U99zkFpXp3VT2R",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MGb8ufztTK75aXAyEAuaf",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gaaRAL3HR48Qj9rz1CkDU",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "q9qLI6HzOJ0vYaIVrZ5CU",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "R3Coq0TG1_cSOXzXWgpuI",
+        "target": "r2Jagzbx0qOG-VtxBY-mz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zUDKCJCQHLW4c_6A349R3",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k0UBAj3hOYab4mUziOYyW",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "liJfTV5ajAFZcfwBdVGpU",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LgEV0Wm4avrOqR8bV5GXW",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SMgBHvqXLD6Cgr2nix4wR",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yMv9Oa3hsgT8Adx6m_rdL",
+        "target": "WzFkdkcbL8ea9DBkjfSwa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AtX-PeI8nY4-5bA-xLla0",
+        "target": "z_Cf_alLAYSCyYtNviRcO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Wt74MRKaZcs8lYvfqjffT",
+        "target": "z_Cf_alLAYSCyYtNviRcO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "waM_j5mbe_XoA7h8u4vFN",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8-7phxPp1D1mv2yubpLBo",
+        "target": "Y1Uz6XRbR1YqFtO4akiPA",
+        "type": "subtopic_of"
+      }
+    ]
+  }
+}

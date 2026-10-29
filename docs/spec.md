@@ -1,15 +1,51 @@
-# Repository contribution skill mapping
+# Local preparation of repository contribution evidence
 
 ## Objective
 
-Map a contributor's actual GitHub repository work to an explicit, versioned skill
-catalog. Every assignment must include verifiable contribution evidence and an
-explanation of how that evidence satisfies the catalog entry's criteria. Repository
-dependencies, file extensions, and technology names can inform candidate selection;
-they cannot establish a skill assignment on their own.
+Prepare the local input/output for the static and semantic preparation stages
+of repository contribution analysis. This project collects a contributor's actual
+Git work, organizes evidence and context, associates candidates from an explicit,
+versioned skill catalog, and exports a traceable package for a separate inference
+project. Repository dependencies, file extensions, and technology names can
+inform candidate selection; they cannot establish a skill assignment on their own.
+
+Sending requests to an LLM, processing its responses, and producing final skill
+assessments are responsibilities of that separate project. Existing code for those
+operations is legacy outside this scope; documenting it below does not make it
+a required deliverable. Its removal or migration has not yet been implemented.
 
 Course syllabi are outside this module's scope. The initial implementation does not
 assign proficiency levels or infer that someone lacks an unobserved skill.
+
+## Local input/output boundary and current status
+
+Inputs are a Git source, explicitly selected author emails, a reference/history
+scope, collection limits, and an exact versioned reference catalog. The intended
+output is a provider-independent package containing the five static artifacts,
+the provenance/coverage manifest, and local semantic preparation: catalog
+candidates linked to an evidence registry, with supporting contribution context.
+Candidates remain proposals, not confirmed skills. Unknown catalog entries must
+not be created during preparation. Insufficient evidence and missing catalog
+coverage must remain distinguishable; neither means absence of a person's skill.
+
+Implemented today: `collect_bundle()` produces `{manifest, artifacts}` with five
+artifacts, changed-line ranges, context, metrics, selection/exclusion reasons,
+tool versions, and hashes. `POST /analyses` with `dry_run: true` exposes that bundle
+and `prepared` without model credentials or calls. Local repositories need no
+remote access; remote Git collection still uses network access.
+
+The current `prepare_repository_analysis()` serializes the entire catalog and
+bundle into model messages, with instructions and an expected response schema.
+It does not perform candidate retrieval or build competency/evidence records.
+Graph-based retrieval, an evidence registry, an independent versioned semantic
+package schema, and a dedicated export interface remain to be implemented.
+The existing single-commit CLI uses a different collection path.
+
+Local validation owns input correctness, catalog membership, evidence provenance,
+package structure, coverage, and limits. It does not process model responses or
+certify semantic skill correctness. The current API defaults to `dry_run: false`
+and can still invoke inference; making preparation/export its primary behavior
+requires an implementation change, not just this scope clarification.
 
 ## Reference catalog
 
@@ -42,7 +78,7 @@ so installed commands work outside the project checkout. It must match the revie
 `catalogs/roadmap-starter.json`; a test checks this equality. Catalog updates must
 update both copies and respect version immutability.
 
-## Assessment contract
+## Legacy assessment contract (external-project responsibility)
 
 Each report records its schema version, exact catalog identity, repository
 identifier, contributor email, and a list of assessments. Each assessment records:
@@ -71,7 +107,169 @@ that a change demonstrates a skill; this remains a reviewer or extractor judgmen
 Generated, vendored, copied, and mechanical changes must be considered during that
 judgment. A syntactically valid assignment is not automatically a correct one.
 
-## Initial implementation
+## Repository/user service (phase 1)
+
+The existing API collects a contributor's work across a bounded set of commits
+in a Git repository, independently of GitHub, GitLab, or another hosting platform.
+Its preparation mode is the current interface for this project's local output;
+its inference/report mode is legacy outside the intended boundary.
+The existing contribution-first CLI and version-1 reports remain supported.
+The phase-2 reference graph and structured competency records are planned in
+`docs/architecture-plan.md`; they are not part of this implementation.
+
+### Inputs and attribution
+
+`POST /analyses` accepts `repository`, `user.emails`, and optional `ref`,
+`max_commits` (default 50, range 1–100), and `dry_run` (default false).
+Emails are explicit, unique identities matched exactly against recorded commit
+authors. A name, committer, forge login, or `.mailmap` does not implicitly change
+attribution. This matching records Git authorship; it does not authenticate a
+person, prove email ownership, or establish original work.
+
+`local:NAME` refers to an absolute repository path registered by the server.
+The HTTP caller cannot request arbitrary local paths. Remotes use HTTPS or SSH
+Git URLs; their hostnames must be enabled in the server configuration. Embedded
+passwords/tokens and arbitrary Git protocols are not accepted. HTTPS remotes in
+this version are public; SSH can use the server's configured noninteractive
+identity. No forge API is called, and SSH/HTTPS access remains a Git operation.
+Nondefault ports and SCP-style SSH URLs are outside the initial input contract.
+
+Without `ref`, use the local HEAD or the remote's advertised HEAD. Resolve it to
+an immutable commit before collection. Remotes are fetched into a temporary bare
+repository, including HEAD and branch history, without tags, checkout, recursive
+submodules, repository execution or automatic LFS downloads. Shallow histories
+are rejected. Only commits reachable from the resolved reference are considered.
+PR-only and unrelated branch work is outside that scope.
+
+Read Git objects through `GitRepositoryReader`, implemented with pygit2/libgit2.
+Diffs use C Git with the established explicit Myers/no-renames/no-textconv policy;
+pygit2 parses individual added/removed lines. Both regular and bare repositories
+are supported. The new reader uses the Git object formats supported by libgit2
+(SHA-1 in this release); unsupported formats fail rather than fabricate evidence.
+The legacy CLI's contracts remain unchanged.
+
+Scan at most 10,000 reachable commits. Order matching authors by descending
+author timestamp and ascending SHA for ties. Consider the first `max_commits`
+matches. Skip merges, coauthored commits, empty commits, and commits containing
+unsupported changes, recording a reason for each. A skipped commit occupies a
+slot and is not silently replaced by older work. Binary/non-UTF-8 changes,
+symlinks, submodules, and changes without citable text lines require review.
+Exclusion applies to the whole commit; supported paths are not silently extracted
+from an otherwise unsupported commit.
+
+### Five static artifacts
+
+1. `git-log.json`: selected SHAs, parents, recorded author identities/times and
+   messages. Messages contextualize work but cannot establish a skill.
+2. `git-diff.json`: per-commit/per-file patches and inclusive changed-line ranges
+   on each side. These are the only attributable citation locations.
+3. `languages.json`: byte-based breakdown at the resolved snapshot, plus a
+   separate breakdown of snapshot files touched in selected commits. Whole-file
+   bytes are not bytes authored by the contributor; deleted files are absent from
+   that snapshot summary. The denominator is classified regular UTF-8 text bytes
+   after exclusions, including recognizable documentation/configuration formats.
+   `line_counts` additionally records cloc code/comment/blank counts by file and
+   language, with a separate touched-snapshot-files summary and percentages whose
+   denominator is code lines, not bytes.
+4. `project-context.json`: snapshot tree with object IDs, modes and sizes, plus
+   committed manifests and build/test/CI configuration with source paths/IDs.
+5. `contribution-context.json`: before/after snippets around changed lines, with
+   snapshot/blob IDs and LF-based line numbers. Unchanged snippet lines are context.
+   `function_metrics` records Lizard results before/after for functions intersecting
+   the changed-line ranges and their same-name counterparts, with source IDs and
+   function line ranges. Metrics include NLOC, cyclomatic complexity, tokens and
+   parameter count. Deltas require a unique same-name match within the same path;
+   ambiguous or unmatched functions have no delta and are not assumed to be
+   additions, removals or refactorings. Unsupported languages, absent files and
+   no detected functions are distinguished explicitly.
+
+The MVP's language classifier uses Pygments filename/content heuristics, recording
+the installed classifier version and `static-artifacts-v2` policy. It is not
+equivalent to Linguist. Directory/name exclusions cover vendor, node_modules,
+dist, build, target, generated, selected lockfiles, and minified JS/CSS suffixes.
+These exclusions are heuristics, not proof of origin. Binary/non-UTF-8 and
+unclassified files are recorded separately; `.gitattributes` overrides are not
+applied. Actual generated/copied content still needs semantic review. Linguist
+can later implement the classifier contract without changing artifact roles.
+
+cloc is a separately installed server executable (tested with 2.10); its path may
+be configured with `EXTRACT_CLOC_EXECUTABLE`. Missing cloc is a 503 error before
+inference. The counter receives only regular UTF-8 blobs after the common path
+exclusions, independently of Pygments recognition. Each blob is copied into a
+separate numeric directory in the owned temporary workspace. Unsafe/non-ASCII
+basename characters are replaced by underscores for cloc JSON compatibility;
+original repository paths and blob IDs are restored in the result. This may affect
+basename-specific classification and is recorded in the configuration.
+
+cloc uses an empty configuration, JSON/by-file output, counts duplicate-content
+files independently and disables its internal per-file timeout to avoid silent
+timeout skips; the entire cloc process still has a 30-second deadline. Files not
+counted by cloc are listed explicitly, and malformed/inconsistent output is
+rejected. Timing, generated timestamps and temporary paths are excluded from
+the persisted artifact. Byte and line classifiers may disagree; their results
+remain separate and neither establishes attributable skills.
+
+Lizard is a Python dependency and parses committed text in memory. Its collector
+ignores repository `lizard forgive` and `GENERATED CODE` suppression directives,
+retaining comment line positions. Partial-analysis diagnostics reject the result.
+The installed version, configuration and function-matching policy are recorded.
+Neither count/complexity scores nor their deltas demonstrate a catalog competency
+without substantive changed-line evidence. All added metrics remain within the
+existing five artifacts and complete model-input budget. The new prompt is
+`repository-artifacts-v2`; report and manifest schema versions remain compatible.
+
+A separate version-1 manifest records repository, user, requested/resolved
+reference, policy/tool versions, limits, exact selection, exclusion reasons,
+coverage counts and SHA-256 hashes of each canonical JSON artifact. Coverage is
+complete only when no matching commit was omitted by the cap or excluded. Empty
+arrays mean no content was found for that artifact/field; they are not negative
+skill assessments.
+
+Limits default to 5,000 snapshot files, 50 changed paths per commit, 1,000,000
+bytes per required regular blob, 20,000,000 regular bytes per snapshot, 8,000
+characters of context per file/side, and 60,000 characters for the complete model
+request, including reference catalog, manifest, schema and instructions. History
+messages have a separate aggregate budget of 5,000,000 characters. Limits fail
+explicitly before inference and do not truncate or sample an oversized artifact.
+Character budgets are not token counts.
+
+### Current preparation interface, legacy inference, and HTTP lifecycle
+
+The service prepares all five artifacts together with the exact reviewed catalog,
+assessment schema and versioned instructions. All repository content is untrusted
+data. The model returns only assessments; the application fixes identity, catalog
+and scope. Context/technology percentages do not demonstrate competencies.
+
+The version-2 report contains `schema_version`, `catalog`, `repository`, `user`,
+`reference`, `selection`, and `assessments`. Assessment decisions, rationale,
+catalog IDs and changed-line citations retain their version-1 semantics. A citation
+must refer to a selected commit by one of the requested recorded authors and cite
+actual changed lines. Catalog labels are never invented. Both report versions
+can be checked by `validate-report`, including `--repo` Git verification.
+
+`dry_run` returns `status: preview`, the bundle and the complete prepared model
+request, without LLM credentials/calls. Normal analysis returns `status: completed`,
+the validated report and run metadata including provider/model/usage, input/bundle
+digests, artifact hashes and the human-review requirement. Nothing is written to
+report files automatically. No eligible commits return
+`status: no_eligible_contributions`, an empty report and an explicit reason, without
+calling the model. This is not a finding that the person lacks skills.
+
+FastAPI starts a separate process per request, with a default 120-second total
+deadline and a default capacity of two analyses per server process. A Git command
+has a 30-second timeout. Timeouts/cancellation terminate the analysis and its
+descendant processes before cleaning temporary objects. There is no durable queue
+or background job state. API workers must be sized with this per-process capacity
+in mind. `GET /health` does not access remotes or an LLM.
+
+Errors use `{ "error": { "code": "...", "message": "..." } }`, with 422 for
+invalid input/reference, 403 for a disabled remote host, 404 for an unregistered
+local source, 413 for limits, 429 for busy service, 502 for Git retrieval or rejected
+provider assessments, and 504 for timeout. Provider/Git diagnostics containing
+source text or credentials are not returned. `/docs` and `/openapi.json` document
+the typed request/response contracts. See README for configuration and execution.
+
+## Legacy single-contribution implementation
 
 Provide Python catalog and report validation, a small starter
 catalog, a CLI, and optional read-only citation verification against a local Git
@@ -80,7 +278,7 @@ before use in evaluations. No network or model calls occur during validation.
 
 Commands:
 
-- `analyze CONTRIBUTION`: the primary workflow, accepting a GitHub commit URL,
+- `analyze CONTRIBUTION`: the legacy inference workflow, accepting a GitHub commit URL,
   single-commit PR URL, or local commit SHA/revision. Select the bundled catalog,
   derive the recorded commit author, save report files, and print a summary.
 - `catalog`: validate and display catalog entries and the exact catalog identity.
@@ -91,7 +289,7 @@ Commands:
 
 The existing commands and their options remain available as debug tools.
 
-## Contribution-first CLI
+## Legacy contribution-first CLI
 
 The unit of analysis is the explicitly selected contribution. The repository
 locates Git objects needed for patches and evidence verification; its overall
@@ -116,7 +314,7 @@ must pass the same attribution checks. `--catalog` overrides the bundled referen
 Model selection uses `DEEPSEEK_MODEL`; explicit provider and limit controls remain
 in `analyze-commit`.
 
-The primary command saves reports to unique files in `reports/` by default, or to
+The legacy `analyze` command saves reports to unique files in `reports/` by default, or to
 an explicit `--output`, without overwriting existing files. Print supported skill
 names and rationales, counts for insufficient evidence and catalog gaps, output
 paths, and the need for human review. Run metadata also records the original
@@ -128,7 +326,7 @@ Validation without `--repo` must explicitly report that Git evidence was not
 verified. The caller is responsible for choosing the checkout corresponding to the
 report's repository identifier; this version does not authenticate remote identity.
 
-## Single-commit semantic assessment
+## Legacy single-commit semantic assessment
 
 The first extractor collects all changed regular text files in one commit with
 five context lines around each hunk. It resolves a supplied revision to an immutable
@@ -181,16 +379,21 @@ requires semantic review; automatic origin detection is not implemented.
 
 ## Next milestones
 
-1. Review and broaden the reference subset; manually annotate 20–30 contributions,
+1. Define and version the local preparation input/output contracts independently
+   of model messages, provider settings, response schemas, and final reports.
+   Make preparation/export a first-class operation and separate the existing
+   inference/report integration into the consuming project.
+2. Preserve the five-artifact collector and manifest; validate and export their
+   exact content, scope, provenance, exclusions, coverage, and limits.
+3. Review and broaden the reference subset, then implement versioned graph-based
+   candidate retrieval and an evidence registry. Define the semantic preparation
+   envelope and candidate records described in `docs/architecture-plan.md`.
+4. Evaluate collection and candidate retrieval on human-reviewed contributions,
    including CSS-only work in Django repositories, documentation, tests, dependency
-   updates, and generated code. Keep fixtures separate from real evaluation data.
-2. Evaluate the single-commit LLM flow against the reviewed examples and a simple
-   baseline, tracking errors without relying on schema validity as a quality score.
-3. Extend collection to bounded commit ranges and add candidate retrieval as the
-   catalog grows; preserve evidence and attribution during aggregation.
-4. Evaluate unsupported assignments, incorrect citations, missed supported skills,
-   appropriate abstention, and catalog coverage separately. Candidate retrieval
-   accuracy and final assignment accuracy must also be measured separately.
+   updates, and generated code. Check candidate relevance, missed candidates,
+   invalid references, and catalog gaps without equating package validity with
+   semantic correctness. Keep fixtures separate from real evaluation data.
 
-The first end-to-end milestone is a reviewable report for one contributor in one
-repository, with only catalog skill IDs and traceable supporting evidence.
+The end-to-end deliverable of this project is a reviewable, versioned local package
+for a contributor's bounded repository work, ready for consumption by the separate
+inference project. Acceptance does not require an LLM call or a final skill report.

@@ -1,0 +1,1799 @@
+{
+  "metadata": {
+    "slug": "technical-writer",
+    "title": "Technical Writer",
+    "description": "Roadmap for anyone looking for a career in technical writing in 2026",
+    "extracted_at": "2026-10-29T01:04:45.445737+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/technical-writer",
+    "total_topics": 21,
+    "total_subtopics": 63
+  },
+  "tree": {
+    "title": "Technical Writer",
+    "slug": "technical-writer",
+    "topics": [
+      {
+        "id": "HlUUGj3dOZ68t4gIjerXh",
+        "name": "Introduction",
+        "type": "topic",
+        "description": "Technical writing is a profession focused on creating clear, accurate documentation for technical products, processes, and systems. Writers in this field translate complex information into content that specific audiences can understand and use. The role exists across industries including software, hardware, healthcare, finance, and engineering.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/introduction@HlUUGj3dOZ68t4gIjerXh.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "ZRGsokU313Ky-anWbWK6q",
+            "name": "Who is a Technical Writer?",
+            "type": "subtopic",
+            "description": "A technical writer produces documentation that helps users understand and work with technical products or processes. They work alongside engineers, product managers, and designers to gather information and turn it into structured content like guides, manuals, or API references. The role requires both strong writing ability and enough technical literacy to engage with subject matter experts.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What Is a Technical Writer?",
+                "url": "https://web.archive.org/web/20250114032850/https://boffin.education/introduction-to-technical-writing/#2-what-is-a-technical-writer"
+              },
+              {
+                "type": "article",
+                "title": "A Day in the Life of a Technical Writer",
+                "url": "https://web.archive.org/web/20250114022932/https://boffin.education/technical-writing-roles-and-responsibilities/#4-a-day-in-the-life-of-a-technical-writer"
+              },
+              {
+                "type": "article",
+                "title": "Glossary of Technical Writing Terms: \"Technical Writer\"",
+                "url": "https://web.archive.org/web/20250214134718/https://boffin.education/glossary-of-technical-writing-terms/#technical-writer"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/who-is-a-technical-writer@ZRGsokU313Ky-anWbWK6q.md"
+          },
+          {
+            "id": "jl1FsQ5-WGKeFyaILNt_p",
+            "name": "What is Technical Writing?",
+            "type": "subtopic",
+            "description": "Technical writing is the practice of creating documentation that communicates specialized or complex information clearly to a defined audience. It covers a wide range of content types, from user manuals and tutorials to API references and release notes. The goal is always clarity and usability, not style or persuasion.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Indeed: What Is Technical Writing?",
+                "url": "https://www.indeed.com/career-advice/career-development/technical-writing"
+              },
+              {
+                "type": "article",
+                "title": "TechWhirl: What Is Technical Writing?",
+                "url": "https://techwhirl.com/what-is-technical-writing/"
+              },
+              {
+                "type": "video",
+                "title": "Amruta Ranade: What do Technical Writers do?",
+                "url": "https://www.youtube.com/watch?v=biocrCx5T_k"
+              },
+              {
+                "type": "video",
+                "title": "Technical Writer HQ: What is Technical Writing?",
+                "url": "https://www.youtube.com/watch?v=KEI5JzBp2Io"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/what-is-technical-writing@jl1FsQ5-WGKeFyaILNt_p.md"
+          },
+          {
+            "id": "j69erqfosSZMDlmKcnnn0",
+            "name": "Role of Technical Writers inOrganizations",
+            "type": "subtopic",
+            "description": "The role of a **Technical Writer** is primarily to translate complex technical information into simpler language that is easy to understand for a non-technical audience. They design, write, edit, and rewrite technical pieces like operating instructions, FAQs, installation guides, and more. Apart from this, they also gather and disseminate technical information among customers, designers, and manufacturers. Essentially, their job involves communicating technical terminologies and a clear understanding of complex information to those who need it in an easy-to-understand format.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/role-of-technical-writers-inorganizations@j69erqfosSZMDlmKcnnn0.md"
+          },
+          {
+            "id": "cNeT1dJDfgn0ndPzSxhSL",
+            "name": "Forms of Technical Writing",
+            "type": "subtopic",
+            "description": "Technical writing takes many forms depending on the audience and purpose. Common formats include user guides, API documentation, tutorials, release notes, white papers, process documentation, and in-product copy. Each format has its own conventions for structure, tone, and depth.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/forms-of-technical-writing@cNeT1dJDfgn0ndPzSxhSL.md"
+          },
+          {
+            "id": "FVxNjbDBxgf6vkZWw1Awt",
+            "name": "Growth as a Technical Writer",
+            "type": "subtopic",
+            "description": "The growth phase in the field of technical writing is intriguing. As a technical writer gains experience and demonstrates excellent work consistently, they are likely to encounter many opportunities for growth. This can include taking on more complex projects, managing teams, or even moving toward strategic roles. Career advancement may involve specializing in specific industries or gaining fluency in cutting-edge tools and formats. Technical writers may also grow by expanding their skill set to encompass related fields like data analysis, UX writing, content management, or project coordination.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/growth-as-a-technical-writer@FVxNjbDBxgf6vkZWw1Awt.md"
+          }
+        ]
+      },
+      {
+        "id": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "name": "Required Skills",
+        "type": "topic",
+        "description": "Technical writers need a combination of writing ability, research skills, and technical understanding. They must communicate clearly across different formats and audiences, manage multiple projects, and work effectively with subject matter experts. Familiarity with documentation tools, version control, and publishing platforms is increasingly expected.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/required-skills@8rjUZ9NZPGwVRGmk6Dlyb.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "DubLTESNn3wvEH_bKQZbP",
+            "name": "Technology Expertise",
+            "type": "subtopic",
+            "description": "Technology expertise is the writer's ability to understand the products and systems they document. This does not always require deep engineering knowledge, but writers need enough technical grounding to follow developer conversations, test features, and evaluate the accuracy of their own content. Specializations often develop around domains like cloud infrastructure, APIs, or hardware.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/technology-expertise@DubLTESNn3wvEH_bKQZbP.md"
+          },
+          {
+            "id": "kNIiAJrvrNoOAllUbRtUB",
+            "name": "Language Proficiency",
+            "type": "subtopic",
+            "description": "Language proficiency refers to the writer's command of the language they write in, typically English in global technical contexts. This includes grammar, vocabulary, syntax, and an understanding of how language choices affect readability. Writers working in international contexts also need awareness of localization and plain language principles.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/language-proficiency@kNIiAJrvrNoOAllUbRtUB.md"
+          },
+          {
+            "id": "7-3tqRUpntoQP4nK_nul5",
+            "name": "Written Communication Proficiency",
+            "type": "subtopic",
+            "description": "Written communication proficiency means producing text that is clear, concise, and appropriate for the intended audience. For technical writers, this includes structuring information logically, maintaining consistent tone, and editing for accuracy. Strong writers know when to simplify and when to preserve technical precision.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Formal, permanent, clear business communication through writing",
+                "url": "https://www.scribd.com/document/546030656/Unit-3-Written-Communication"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/written-communication-proficiency@7-3tqRUpntoQP4nK_nul5.md"
+          }
+        ]
+      },
+      {
+        "id": "_5xFbl2BHx0f2u9HmSVS8",
+        "name": "Tooling",
+        "type": "topic",
+        "description": "Technical writers use a range of tools to research, write, manage, and publish documentation. The specific tools vary by organization and documentation type, but most workflows involve some combination of writing environments, version control, publishing platforms, and content management systems.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/tooling@_5xFbl2BHx0f2u9HmSVS8.md",
+        "subtopics_count": 8,
+        "subtopics": [
+          {
+            "id": "0XWiraeoicNBbaGYQnNZr",
+            "name": "Research Tools",
+            "type": "subtopic",
+            "description": "Research tools help technical writers gather accurate information about the products and topics they document. These include internal wikis, issue trackers, API explorers, and direct access to source code or staging environments. Writers also use external sources like official documentation, academic papers, and community forums to supplement product knowledge.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/research-tools@0XWiraeoicNBbaGYQnNZr.md"
+          },
+          {
+            "id": "sdoFe4A3y_-Zp3mlrJ5r8",
+            "name": "Blogging Platforms",
+            "type": "subtopic",
+            "description": "Blogging platforms like Medium, Dev.to, Ghost, and WordPress are sometimes used by technical writers to publish tutorials, thought leadership, or product-focused content. They offer simple publishing workflows without requiring infrastructure setup. Some organizations use them for developer outreach or community content alongside formal documentation.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/blogging-platforms@sdoFe4A3y_-Zp3mlrJ5r8.md"
+          },
+          {
+            "id": "jC3ZrpskBqzxiV6SKf4Uf",
+            "name": "Publishing Tools",
+            "type": "subtopic",
+            "description": "Publishing tools convert written content into documentation sites, PDFs, or other distributable formats. Common examples include static site generators like Docusaurus, MkDocs, and Hugo, as well as hosted platforms like GitBook and Readme.io. The choice of tool affects how content is structured, versioned, and maintained.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/publishing-tools@jC3ZrpskBqzxiV6SKf4Uf.md"
+          },
+          {
+            "id": "FD-8LQ_g2_O_i2Qwp-Gpv",
+            "name": "SEO Tools",
+            "type": "subtopic",
+            "description": "SEO tools help technical writers identify how audiences search for topics and evaluate whether content is discoverable. Tools like Ahrefs, Semrush, and Google Search Console show search volume, keyword rankings, and traffic data. Writers use this information to optimize titles, headings, and content structure for search visibility.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/seo-tools@FD-8LQ_g2_O_i2Qwp-Gpv.md"
+          },
+          {
+            "id": "cSZbTOB0FPPOlGzy-MkSi",
+            "name": "Plagiarism Checker",
+            "type": "subtopic",
+            "description": "Plagiarism checkers scan written content to detect text that duplicates existing published sources. In technical writing they are used to ensure originality, particularly when producing content that draws from multiple references or is published externally. Tools like Copyscape, Grammarly, and Turnitin are commonly used for this purpose.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/plagiarism-checker@cSZbTOB0FPPOlGzy-MkSi.md"
+          },
+          {
+            "id": "Am_ocP3r0HM45LYfMcQxM",
+            "name": "Editing Tools",
+            "type": "subtopic",
+            "description": "Editing tools assist with grammar, spelling, clarity, and style. Grammarly, Hemingway Editor, and Vale are commonly used in technical writing workflows. Some tools can be integrated into writing environments or CI pipelines to enforce style guides automatically.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/editing-tools@Am_ocP3r0HM45LYfMcQxM.md"
+          },
+          {
+            "id": "ffJyulu9GPB_TDqjeJYyV",
+            "name": "Git / Version Control",
+            "type": "subtopic",
+            "description": "Git is a distributed version control system that tracks changes to files over time. Technical writers use it to manage documentation alongside code, enabling collaboration, change history, and review workflows through pull requests. Docs-as-code workflows rely on Git to bring documentation into the same development pipeline as software.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/git--version-control@ffJyulu9GPB_TDqjeJYyV.md"
+          },
+          {
+            "id": "TJ1iuzQ9u_WbrllRQkgm_",
+            "name": "Markdown",
+            "type": "subtopic",
+            "description": "Markdown is a lightweight markup language that uses plain text formatting syntax to define headings, lists, code blocks, links, and other elements. It is widely used in technical documentation because it is readable as plain text and converts easily to HTML. Most modern documentation platforms and static site generators support Markdown natively.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/markdown@TJ1iuzQ9u_WbrllRQkgm_.md"
+          }
+        ]
+      },
+      {
+        "id": "yYLsG2LuPaNUuhXSVev_0",
+        "name": "Best Practices",
+        "type": "topic",
+        "description": "Best practices in technical writing cover the standards and habits that produce consistent, high-quality documentation. They span content structure, audience awareness, tone, and maintenance. Following established practices makes documentation easier to read, find, and keep up to date.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/best-practices@yYLsG2LuPaNUuhXSVev_0.md",
+        "subtopics_count": 9,
+        "subtopics": [
+          {
+            "id": "27muFD1Ld1gF6hhIh22sG",
+            "name": "Story Telling",
+            "type": "subtopic",
+            "description": "Storytelling in technical writing means structuring content around the user's situation, goal, and solution rather than simply listing features or steps. It gives documentation a logical flow that matches how users think about their problem. This approach makes content feel more useful and easier to follow, especially for tutorials and conceptual guides.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/story-telling@27muFD1Ld1gF6hhIh22sG.md"
+          },
+          {
+            "id": "lxSSjgtqJk-PtRp4hARDw",
+            "name": "Subtle Selling",
+            "type": "subtopic",
+            "description": "Subtle selling refers to framing technical content in ways that reinforce a product's value without reading as marketing copy. Writers do this by emphasizing outcomes, highlighting time savings, and positioning features in terms of user benefit. The goal is to support user confidence without compromising the neutral, factual tone documentation requires.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/subtle-selling@lxSSjgtqJk-PtRp4hARDw.md"
+          },
+          {
+            "id": "Ezz2e4lYLD_bdNNwvsV_y",
+            "name": "Content Structure",
+            "type": "subtopic",
+            "description": "Content structure is the organization of information within a document or documentation set. Good structure uses headings, sections, and progression to guide readers through content in the order they need it. Technical writers consider structure at both the page level and the information architecture level across an entire docs site.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-structure@Ezz2e4lYLD_bdNNwvsV_y.md"
+          },
+          {
+            "id": "a1ChwDwztjZBi79y38AGa",
+            "name": "Call to Actions",
+            "type": "subtopic",
+            "description": "A call to action (CTA) in documentation directs the reader to a next step, whether that is reading a related guide, trying a feature, or contacting support. CTAs help users move through a documentation system without getting stuck. They are especially useful at the end of tutorials or conceptual articles.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/call-to-actions@a1ChwDwztjZBi79y38AGa.md"
+          },
+          {
+            "id": "8qSL2esjsA3YYuB4d7B9z",
+            "name": "References",
+            "type": "subtopic",
+            "description": "References in technical documentation point readers to related content, external standards, or source material. They add credibility to technical claims and help readers find deeper information without bloating the main content. Well-placed references also reduce duplication across a documentation set.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/references@8qSL2esjsA3YYuB4d7B9z.md"
+          },
+          {
+            "id": "WmOvQYlnedX0QgC5Adeen",
+            "name": "Crafting Great Titles",
+            "type": "subtopic",
+            "description": "A strong document title tells the reader exactly what the content covers and matches the language they use when searching for it. Good titles are specific, action-oriented where appropriate, and avoid vague or marketing-style phrasing. For documentation, titles often follow patterns like \"How to X,\" \"X Reference,\" or simply the name of the concept being explained.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/crafting-great-titles@WmOvQYlnedX0QgC5Adeen.md"
+          },
+          {
+            "id": "7FGMPztd6ouvqemcGhIol",
+            "name": "Content Objectives & Intent",
+            "type": "subtopic",
+            "description": "Content objectives define what a piece of documentation is meant to accomplish and for whom. Understanding intent helps writers choose the right format, depth, and tone for a given topic. A tutorial, a reference page, and a conceptual guide all have different objectives even when they cover the same subject.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-objectives--intent@7FGMPztd6ouvqemcGhIol.md"
+          },
+          {
+            "id": "UuV51vM2JT_LFFXORSwru",
+            "name": "User Persona",
+            "type": "subtopic",
+            "description": "A user persona is a representation of a target reader based on their role, technical background, goals, and pain points. Technical writers use personas to make decisions about vocabulary, assumed knowledge, and content depth. Documentation aimed at a developer persona differs significantly from content written for a non-technical end user.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/user-persona@UuV51vM2JT_LFFXORSwru.md"
+          },
+          {
+            "id": "cnEVPsqZqs9ZdyqmOuLGA",
+            "name": "Writing Style Guides",
+            "type": "subtopic",
+            "description": "A writing style guide defines the rules and conventions a team follows when producing documentation. It covers tone, vocabulary, formatting, grammar preferences, and how to handle specific content patterns. Style guides like the Google Developer Documentation Style Guide or Microsoft Writing Style Guide are widely used as a starting point.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/writing-style-guides@cnEVPsqZqs9ZdyqmOuLGA.md"
+          }
+        ]
+      },
+      {
+        "id": "O-dZEkmU0tP3dUIUPM6YJ",
+        "name": "Content Research",
+        "type": "topic",
+        "description": "Content research is the process of gathering the information needed to write accurate, complete documentation. This includes interviewing subject matter experts, testing the product, reading source code, reviewing support tickets, and consulting existing internal resources. Strong research habits are what separate accurate documentation from guesswork.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-research@O-dZEkmU0tP3dUIUPM6YJ.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "SX4vL_JEHrwqHdThyqKKO",
+            "name": "Topic Score",
+            "type": "subtopic",
+            "description": "Topic score is a metric used in content strategy to evaluate how well a piece of content covers a subject relative to competing pages or a defined standard. Tools like MarketMuse and Clearscope calculate topic scores by analyzing keyword coverage and semantic relevance. Writers use topic scores to identify gaps in existing content and prioritize updates.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/topic-score@SX4vL_JEHrwqHdThyqKKO.md"
+          },
+          {
+            "id": "JtFLW5WwH5Ixmnb0qikia",
+            "name": "Keyword Volume",
+            "type": "subtopic",
+            "description": "Keyword volume refers to the number of times a specific search term is queried in a given period, typically measured monthly. Writers and content strategists use keyword volume data to prioritize which topics to cover and how to title content. High-volume keywords indicate strong audience interest and potential for organic traffic.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/keyword-volume@JtFLW5WwH5Ixmnb0qikia.md"
+          },
+          {
+            "id": "QMehC1tmWPVWaTsiV9sFC",
+            "name": "Communities & Forums",
+            "type": "subtopic",
+            "description": "Communities and forums are online spaces where practitioners discuss problems, share solutions, and ask questions. For technical writers, monitoring communities like Stack Overflow, Reddit, and product-specific forums reveals real user pain points and common misunderstandings. This input helps identify gaps in documentation and shape content priorities.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/communities--forums@QMehC1tmWPVWaTsiV9sFC.md"
+          },
+          {
+            "id": "IZqyEqkrBoEfLBwIQwJl6",
+            "name": "Search Trends",
+            "type": "subtopic",
+            "description": "Search trends show how interest in specific topics changes over time. Tools like Google Trends and keyword platforms surface rising queries that signal emerging user needs. Technical writers use trend data to time content production around growing topics before the market becomes saturated.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/search-trends@IZqyEqkrBoEfLBwIQwJl6.md"
+          },
+          {
+            "id": "xFMsHYYxC0hLueY9xxART",
+            "name": "Support Request Evaluation",
+            "type": "subtopic",
+            "description": "Support request evaluation involves reviewing incoming customer support tickets, chat logs, and help center searches to identify where users are struggling. Patterns in support data point to gaps or weaknesses in existing documentation. Many technical writing teams use support request volume as a direct signal for what to write or improve next.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/support-request-evaluation@xFMsHYYxC0hLueY9xxART.md"
+          }
+        ]
+      },
+      {
+        "id": "xV8mox1WnSbl2jAGqQpeg",
+        "name": "Types of Technical Content",
+        "type": "topic",
+        "description": "Technical content encompasses many different document types, each serving a distinct purpose in the user's journey. The type of content produced depends on the audience, the product, and the stage of adoption. Writers often work across multiple content types within a single role.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/types-of-technical-content@xV8mox1WnSbl2jAGqQpeg.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "d9mTdwqx6QWKYO5PA_rDH",
+            "name": "Product Content",
+            "type": "subtopic",
+            "description": "Product content is documentation written specifically to help users understand and get value from a product. It includes feature descriptions, release notes, onboarding materials, and in-product tooltips. Writers producing product content work closely with product and design teams to ensure accuracy and alignment with the user experience.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/product-content@d9mTdwqx6QWKYO5PA_rDH.md"
+          },
+          {
+            "id": "UFuMiHtWq1M8dS8547lOp",
+            "name": "General Product Prose",
+            "type": "subtopic",
+            "description": "General product prose covers descriptive content that explains what a product or feature is and what it does, without being a step-by-step guide. It appears in landing pages, product overviews, and introductory sections of documentation. The tone is informative and factual, avoiding marketing language while still communicating value.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/general-product-prose@UFuMiHtWq1M8dS8547lOp.md"
+          },
+          {
+            "id": "C-eVVtF6Yabp2a6XvMeh_",
+            "name": "How-to Guides",
+            "type": "subtopic",
+            "description": "How-to guides walk users through completing a specific task step by step. They assume the reader has a goal and focus on the actions needed to achieve it, rather than explaining underlying concepts in depth. A well-written how-to guide is goal-oriented, concise, and structured around numbered steps.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/how-to-guides@C-eVVtF6Yabp2a6XvMeh_.md"
+          }
+        ]
+      },
+      {
+        "id": "e8oNoXw1KLY4jDzojIXyk",
+        "name": "Developer Docs",
+        "type": "topic",
+        "description": "Developer documentation is written for software developers who are building with, integrating, or extending a product. It covers APIs, SDKs, authentication, data models, and code-level workflows. The audience expects precision, working code examples, and clear reference material alongside conceptual explanations.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/developer-docs@e8oNoXw1KLY4jDzojIXyk.md",
+        "subtopics_count": 8,
+        "subtopics": [
+          {
+            "id": "FgyBWRtE34VNqBt_5QhAf",
+            "name": "User Goals",
+            "type": "subtopic",
+            "description": "User goals in developer documentation refer to what the developer is trying to accomplish with the product. Understanding goals helps writers structure docs around real use cases rather than feature lists. Documentation organized around goals is easier to navigate and more directly useful.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/user-goals@FgyBWRtE34VNqBt_5QhAf.md"
+          },
+          {
+            "id": "iBBeZopD8SNo7sWTohMim",
+            "name": "Docs Generation Tools",
+            "type": "subtopic",
+            "description": "Docs generation tools automatically produce API reference documentation from code annotations, type definitions, or specification files. Examples include Swagger UI, Redoc, Javadoc, and Typedoc. These tools reduce manual effort and help keep reference content accurate as code changes.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/docs-generation-tools@iBBeZopD8SNo7sWTohMim.md"
+          },
+          {
+            "id": "8fJcJi96Ige6z2PBuTquC",
+            "name": "Troubleshooting",
+            "type": "subtopic",
+            "description": "Troubleshooting documentation helps users identify and resolve errors or unexpected behavior. It typically presents problems alongside their likely causes and step-by-step fixes. Good troubleshooting content is organized around symptoms the user actually experiences rather than internal system logic.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/troubleshooting@8fJcJi96Ige6z2PBuTquC.md"
+          },
+          {
+            "id": "2pNW7wDGih_m73lhGZRg6",
+            "name": "Developer Journey",
+            "type": "subtopic",
+            "description": "The developer journey maps the progression a developer follows from discovering a product to successfully building with it. Documentation should support each stage of this journey, from initial setup and authentication to advanced integration patterns. Understanding the journey helps writers prioritize what content to create and in what order.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/developer-journey@2pNW7wDGih_m73lhGZRg6.md"
+          },
+          {
+            "id": "co-35BsWMrD6PXohpFqba",
+            "name": "API Definitions",
+            "type": "subtopic",
+            "description": "API definitions are machine-readable descriptions of an API's structure, endpoints, parameters, and responses. Formats like OpenAPI (formerly Swagger), RAML, and GraphQL schemas are common standards. Technical writers work with API definitions to generate reference docs, validate examples, and ensure consistency between documentation and the actual API behavior.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/api-definitions@co-35BsWMrD6PXohpFqba.md"
+          },
+          {
+            "id": "7w1SjK-LV9SBZJ673eAUd",
+            "name": "Developer Support",
+            "type": "subtopic",
+            "description": "Developer support content addresses the technical questions that arise when developers build with an API, SDK, or platform. It includes code samples, integration guides, error message explanations, and common debugging patterns. Writers producing this content need enough technical depth to anticipate where developers get stuck.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/developer-support@7w1SjK-LV9SBZJ673eAUd.md"
+          },
+          {
+            "id": "jYhfx6RETFgDulyNqdTBy",
+            "name": "Docs Structure",
+            "type": "subtopic",
+            "description": "Docs structure refers to the way documentation is organized at the site or repository level. A clear structure separates conceptual guides, tutorials, how-to content, and reference material so users can find what they need based on their intent. The Diátaxis framework is one widely adopted approach to organizing technical documentation.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/docs-structure@jYhfx6RETFgDulyNqdTBy.md"
+          },
+          {
+            "id": "How-4Re1NhxPLDoshUM-G",
+            "name": "Platform Support",
+            "type": "subtopic",
+            "description": "Platform support documentation covers how a product behaves across different operating systems, browsers, environments, or hardware configurations. It helps users understand compatibility requirements and resolve platform-specific issues. This content is especially important for products with broad deployment contexts.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/platform-support@How-4Re1NhxPLDoshUM-G.md"
+          }
+        ]
+      },
+      {
+        "id": "z5_73Q7dWbBd4m_OrdZlH",
+        "name": "API Reference",
+        "type": "topic",
+        "description": "An API reference is a complete, structured description of every endpoint, parameter, request format, and response a web API exposes. It gives developers the precise technical detail they need to make calls and handle responses correctly. API references are typically generated from code or specification files like OpenAPI and kept in sync with the live API.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/api-reference@z5_73Q7dWbBd4m_OrdZlH.md",
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "2wjRA_pQ9cCG9Ww994FEM",
+            "name": "Comparative Posts",
+            "type": "subtopic",
+            "description": "\"Comparative posts\" are articles that focus on comparing different products, services, or tools. In these posts, the technical writer analyzes each item's features, application, and usability, sometimes even their prices, to help clients make informed decisions. It's imperative to note, comparative posts don't just pinpoint 'which is better?'. Instead, they delve deep into the specifics of ‘why and how’ an aspect of a product or service outshines the other. This kind of technical write-up is typically unbiased, comprehensive, and objective to maintain credibility and usefulness.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/comparative-posts@2wjRA_pQ9cCG9Ww994FEM.md"
+          },
+          {
+            "id": "K459CcDrcPMJCimIcCzM6",
+            "name": "Tutorials",
+            "type": "subtopic",
+            "description": "Tutorials guide readers through completing a meaningful task while also teaching the concepts behind it. Unlike how-to guides, tutorials are designed as learning experiences rather than pure reference material. They assume less prior knowledge and build understanding progressively through worked examples.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/tutorials@K459CcDrcPMJCimIcCzM6.md"
+          }
+        ]
+      },
+      {
+        "id": "e_bsYrZ0eQqduURg2ybX4",
+        "name": "Help Content",
+        "type": "topic",
+        "description": "Help content is documentation designed to answer specific questions or resolve issues users encounter while using a product. It typically lives in a help center or knowledge base and is organized around common tasks and problems. Effective help content is scannable, task-focused, and written in plain language.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/help-content@e_bsYrZ0eQqduURg2ybX4.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "mJ1s5-SGd_tj8y0LLZxYg",
+        "name": "Technical Content Marketing",
+        "type": "topic",
+        "description": "Technical content marketing uses in-depth, accurate technical content to attract and educate a developer or engineering audience. It includes tutorials, comparison articles, architecture guides, and blog posts that address real technical problems. The goal is to build trust and awareness with a technical audience rather than to sell directly.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/technical-content-marketing@mJ1s5-SGd_tj8y0LLZxYg.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "O1apL6I_g9DQl8VbL3X4W",
+            "name": "ICP & Buyer Persona",
+            "type": "subtopic",
+            "description": "An ideal customer profile (ICP) defines the type of organization most likely to benefit from and purchase a product. A buyer persona represents the specific individual within that organization who evaluates or champions the purchase. Technical writers use ICP and persona definitions to calibrate content depth, assumed context, and messaging throughout documentation and content marketing.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/icp--buyer-persona@O1apL6I_g9DQl8VbL3X4W.md"
+          },
+          {
+            "id": "EhhKxYPtoLztZXBXl3ZGl",
+            "name": "Buyer Journey & Content Funnel",
+            "type": "subtopic",
+            "description": "The buyer journey describes the stages a potential customer moves through before making a purchase decision: awareness, consideration, and decision. Technical content maps to this funnel differently than marketing copy, with tutorials and guides serving awareness, and comparison or integration content supporting consideration. Writers producing funnel-aligned content balance technical accuracy with strategic positioning.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/buyer-journey--content-funnel@EhhKxYPtoLztZXBXl3ZGl.md"
+          },
+          {
+            "id": "eAioe6b7w8pV2Dvawl_fw",
+            "name": "Short-tail Keywords",
+            "type": "subtopic",
+            "description": "Short-tail keywords are broad, high-volume search terms typically consisting of one or two words, such as \"docker\" or \"API security.\" They attract large audiences but face more competition and often represent lower specificity of intent. Technical content teams use short-tail keywords to identify high-level topic areas rather than targeting them directly in individual documents.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/short-tail-keywords@eAioe6b7w8pV2Dvawl_fw.md"
+          },
+          {
+            "id": "2LAvq7W11WMIubSprlK_l",
+            "name": "Long-Tail Keywords",
+            "type": "subtopic",
+            "description": "Top-funnel content targets users who are early in their discovery process and may not yet know a specific product or solution. It educates on broad problems, concepts, and trends rather than promoting a specific tool. For technical audiences, this includes introductory tutorials, explainer articles, and research reports.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/long-tail-keywords@2LAvq7W11WMIubSprlK_l.md"
+          },
+          {
+            "id": "UphVii3y4T_PkRMqFJ4r_",
+            "name": "Backlinking",
+            "type": "subtopic",
+            "description": "Backlinking refers to earning links from other websites that point to your content. In technical content strategy, backlinks from credible sources like developer communities, open source projects, and industry publications signal authority to search engines. Writers build backlinks by producing content genuinely useful enough for others to cite and share.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/backlinking@UphVii3y4T_PkRMqFJ4r_.md"
+          },
+          {
+            "id": "IA6TuXmOZr_-Y3HLHqxp0",
+            "name": "SEO Keywords",
+            "type": "subtopic",
+            "description": "SEO keywords are the terms and phrases users type into search engines when looking for information. Writers research keywords to understand what their audience is searching for and align content topics and titles accordingly. Effective keyword use improves content discoverability without making the text feel unnatural or keyword-stuffed.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/seo-keywords@IA6TuXmOZr_-Y3HLHqxp0.md"
+          }
+        ]
+      },
+      {
+        "id": "-IBL9S4DelIi07w_fmrX3",
+        "name": "Content SEO",
+        "type": "topic",
+        "description": "Content SEO is the practice of optimizing written content to rank in search engine results for relevant queries. For technical writers, this involves choosing topics with search demand, using target keywords naturally in headings and body text, and structuring content to match how search engines evaluate relevance. SEO-aware documentation is more discoverable and drives organic traffic.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-seo@-IBL9S4DelIi07w_fmrX3.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "5dnZe0oCIzb5qGwgI6pwH",
+        "name": "Top-funnel Content",
+        "type": "topic",
+        "description": "Top-funnel content targets users who are early in their discovery process and may not yet know a specific product or solution. It educates on broad problems, concepts, and trends rather than promoting a specific tool. For technical audiences, this includes introductory tutorials, explainer articles, and research reports.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/top-funnel-content@5dnZe0oCIzb5qGwgI6pwH.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "wBDjGa2PgdmeXxHnILFjY",
+            "name": "Pillar Content",
+            "type": "subtopic",
+            "description": "Pillar content is a comprehensive, authoritative piece that covers a broad topic in depth and links out to more specific related articles. It serves as a hub in a content cluster strategy, improving both SEO and site navigation. In technical writing, a pillar page might cover an entire technology area like \"containerization\" and link to detailed guides on Docker, Kubernetes, and related topics.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/pillar-content@wBDjGa2PgdmeXxHnILFjY.md"
+          },
+          {
+            "id": "7S2lymeBZSMBZSsmei7us",
+            "name": "Awareness Blog Posts",
+            "type": "subtopic",
+            "description": "Awareness blog posts introduce readers to a problem, concept, or technology they may not have encountered before. They are written for a broad audience and prioritize clarity and accessibility over depth. For technical content teams, these posts are often used to establish authority in a topic area and attract new readers from search.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/awareness-blog-posts@7S2lymeBZSMBZSsmei7us.md"
+          },
+          {
+            "id": "HoNQSWy82ybT0YmejCzRb",
+            "name": "Research Reports",
+            "type": "subtopic",
+            "description": "Research reports present original data, survey findings, or analysis on a topic relevant to the target audience. In developer and technical contexts, they often cover industry trends, tooling adoption, or benchmark results. Research reports build credibility and generate backlinks when they contain original insights not available elsewhere.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/research-reports@HoNQSWy82ybT0YmejCzRb.md"
+          }
+        ]
+      },
+      {
+        "id": "Q2KD70IKwBXAH3UQgeZpp",
+        "name": "Mid-funnel Content",
+        "type": "topic",
+        "description": "Mid-funnel content targets users who are aware of a problem and are evaluating possible solutions. It helps readers compare options, understand tradeoffs, and assess whether a specific product fits their needs. For technical audiences, mid-funnel content includes integration guides, feature comparisons, and use-case walkthroughs.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/mid-funnel-content@Q2KD70IKwBXAH3UQgeZpp.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "XDX2QxMUkUok2fcS3tFki",
+            "name": "Generic Gated Content",
+            "type": "subtopic",
+            "description": "Generic gated content is downloadable material, such as white papers or eBooks, offered in exchange for contact information. It sits at the mid-funnel stage and is designed to capture leads who are interested enough to share their details. In technical content strategies, gated content works best when it offers analysis or depth not available in free articles.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/generic-gated-content@XDX2QxMUkUok2fcS3tFki.md"
+          },
+          {
+            "id": "Xa7yBWcbP2aPs4u0C4cLJ",
+            "name": "White-papers",
+            "type": "subtopic",
+            "description": "White papers are authoritative reports or guides that help readers comprehend an issue, solve a problem, or make a decision. As a technical writer, crafting white papers comprise primarily of intricately marrying data with insightful commentary. These documents are usually more detailed and lengthier than blogs or articles, often extending to multiple pages. They have a formal tone, due to their informational and problem-solving nature, and they may include graphs, charts, or other visual aids to help explain the information presented, along with a detailed methodology and analysis.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/white-papers@Xa7yBWcbP2aPs4u0C4cLJ.md"
+          },
+          {
+            "id": "5zQpravkqwafvwXVOuNPX",
+            "name": "eBook",
+            "type": "subtopic",
+            "description": "An eBook is a longer-form educational resource that covers a topic in a structured, chapter-based format. In technical content marketing, eBooks are often used as lead magnets targeting mid-funnel audiences. They tend to be more accessible in tone than white papers and focus on practical guidance over formal analysis.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/ebook@5zQpravkqwafvwXVOuNPX.md"
+          }
+        ]
+      },
+      {
+        "id": "vo1udIIRpxNZCpA3g32F3",
+        "name": "Bottom-funnel Content",
+        "type": "topic",
+        "description": "\"Bottom funnel\" refers to the final stage in the marketing funnel where potential customers are ready to make a purchase. This phase typically includes actions like negotiations, sales calls, and the final transaction. For a technical writer, understanding the \"bottom funnel\" can be crucial as it could influence the type of technical content they create. For instance, they might need to create in-depth product guides, FAQs, or troubleshooting articles that potential customers could use during the decision-making process. The main goal during the \"bottom funnel\" stage is to convince the potential customer to finalize their purchase and become an actual customer.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/bottom-funnel-content@vo1udIIRpxNZCpA3g32F3.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "-GZXLc9RjY6eWkKC1K_Rg",
+        "name": "Release Notes / Product Announcements",
+        "type": "topic",
+        "description": "Release notes and product announcements are documents that communicate new features, improvements, and bug fixes to end users. These documents serve as a bridge between the development team and the user base, detailing changes in a specific software version to ensure users understand how updates impact their workflow. They typically provide a chronological summary of functional changes, known issues, and actionable information, helping stakeholders stay informed about the evolution of a product.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/release-notes--product-announcements@-GZXLc9RjY6eWkKC1K_Rg.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "W44q1iEj7RKM55-9jabMJ",
+        "name": "Customer Case-Studies",
+        "type": "topic",
+        "description": "\"Case Studies\" are in-depth analyses often used by technical writers. They offer a detailed investigation into a specific subject, typically presenting real-world applications or scenarios. By employing a systematic approach, case studies can provide valuable insights which might not be achieved with other methods. They may contain extensive research, including interviews, observations, and data collection for quantitative and qualitative assessment. Case studies can encompass unique perspectives or complex matters, offering a rich understanding of the subject matter. They are often used in scientific, academic, and business contexts.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/customer-case-studies@W44q1iEj7RKM55-9jabMJ.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "tAFenZA0MFhMPE5cevNuD",
+        "name": "Technical Website Copy",
+        "type": "topic",
+        "description": "Technical website copy is the written content on a product's marketing or documentation site aimed at a technical audience. It covers product pages, feature descriptions, landing pages, and navigation labels. Effective technical copy is precise and jargon-aware, reflecting how the target audience thinks about the problem being solved.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/technical-website-copy@tAFenZA0MFhMPE5cevNuD.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "XyFEYDJvJpGZ7qSdoSZeI",
+        "name": "Content Optimization",
+        "type": "topic",
+        "description": "Content optimization is the process of improving existing documentation or articles to increase their effectiveness, whether measured by search ranking, time on page, task completion, or user satisfaction. It involves updating outdated information, improving clarity, refining keyword targeting, and restructuring content for better readability. Optimization is an ongoing responsibility rather than a one-time task.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-optimization@XyFEYDJvJpGZ7qSdoSZeI.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "TbSBCITdLswhVB82fErTP",
+        "name": "Content Analysis",
+        "type": "topic",
+        "description": "Content analysis is the evaluation of existing documentation or articles to assess quality, relevance, and performance. Writers use quantitative metrics like page views and search rankings alongside qualitative reviews to identify what is working and what needs improvement. Regular analysis helps teams prioritize documentation work based on actual user behavior.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-analysis@TbSBCITdLswhVB82fErTP.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "qpOfqbgLy5TzlNQEyt6DG",
+            "name": "Link Shorteners / Tracking",
+            "type": "subtopic",
+            "description": "Link shorteners create compact URLs that redirect to longer destinations, often with tracking parameters attached. In content distribution, they are used to monitor how many clicks a specific link receives across different channels. Tools like Bitly and UTM parameters help teams attribute traffic to individual campaigns or content pieces.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/link-shorteners--tracking@qpOfqbgLy5TzlNQEyt6DG.md"
+          },
+          {
+            "id": "hlhBgI3SvU3tMtNaHtu8k",
+            "name": "Platform Tracking and Metrics",
+            "type": "subtopic",
+            "description": "Platform tracking involves using analytics tools to monitor how users interact with documentation or content sites. Metrics like page views, bounce rate, session duration, and search queries reveal which content is being used and where users drop off. This data informs decisions about what to improve, expand, or restructure.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/platform-tracking-and-metrics@hlhBgI3SvU3tMtNaHtu8k.md"
+          },
+          {
+            "id": "UiXn-CnPcLWAflKJzaJ2a",
+            "name": "Conversion Tracking",
+            "type": "subtopic",
+            "description": "Conversion tracking measures whether users who read a piece of content go on to take a desired action, such as signing up, starting a trial, or completing a task. In technical content, this connects documentation or blog traffic to business outcomes. Writers and content teams use conversion data to evaluate which content types and topics drive meaningful engagement.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/conversion-tracking@UiXn-CnPcLWAflKJzaJ2a.md"
+          },
+          {
+            "id": "JgdrXG7MX1gGuNG9uyubA",
+            "name": "Content Aging & Timelines",
+            "type": "subtopic",
+            "description": "Content aging refers to the process by which documentation becomes outdated as products evolve, technologies change, or information becomes inaccurate. Managing content aging means establishing review cycles, tracking when pages were last updated, and flagging content that has drifted from current reality. A content timeline helps teams plan audits and prioritize updates before documentation becomes misleading.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-aging--timelines@JgdrXG7MX1gGuNG9uyubA.md"
+          }
+        ]
+      },
+      {
+        "id": "pgrKfp1trcIxhDdvLk95g",
+        "name": "Frequently Asked Questions",
+        "type": "topic",
+        "description": "\"FAQs\" stands for \"Frequently Asked Questions\". This is a crucial part of any technical document or user guide that compiles a list of common questions (with their respective answers) that users might have about a particular product, service, or topic. Good FAQs are clear, concise, and organized in a logical way. Typically, they are updated regularly based on user queries and feedback to remain helpful and relevant. FAQs can include instructions to resolve common user problems, terms and definitions, links to related resources, and other information useful for understanding and using the product or service effectively.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/frequently-asked-questions@pgrKfp1trcIxhDdvLk95g.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "mrqBxsNRl1CQEKtuYSy9F",
+        "name": "Content Distribution",
+        "type": "topic",
+        "description": "Content distribution is the process of getting published content in front of the right audience through appropriate channels. It includes organic search, social media, newsletters, developer communities, and content syndication. Distribution strategy determines how much reach a piece of content achieves beyond its initial publication.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-distribution@mrqBxsNRl1CQEKtuYSy9F.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "NIxIhMEOxrUR8nbjbF_Fp",
+            "name": "Canonical Link",
+            "type": "subtopic",
+            "description": "A canonical link is an HTML tag that tells search engines which version of a page is the authoritative one when similar or duplicate content exists at multiple URLs. Technical writers and SEO teams use canonical tags to prevent duplicate content from fragmenting search rankings. Proper canonicalization is especially relevant when content is syndicated across multiple platforms.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/canonical-link@NIxIhMEOxrUR8nbjbF_Fp.md"
+          },
+          {
+            "id": "AarJ887P-SFRnKaOOv9yw",
+            "name": "OpenGraph Data",
+            "type": "subtopic",
+            "description": "OpenGraph data is metadata embedded in a web page's HTML that controls how the page appears when shared on social media platforms. It defines the title, description, and image that platforms like LinkedIn, X, and Slack display in link previews. Technical writers and content teams configure OpenGraph tags to ensure shared content looks accurate and appealing.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/opengraph-data@AarJ887P-SFRnKaOOv9yw.md"
+          },
+          {
+            "id": "m9-DqsQfeukmhjhIfCph-",
+            "name": "Content Distribution Channels",
+            "type": "subtopic",
+            "description": "Content distribution channels are the platforms and methods used to share and promote content. For technical content, common channels include developer newsletters, GitHub, Hacker News, Reddit, LinkedIn, and product-specific communities. The best channels depend on where the target audience spends time and how they prefer to discover new content.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-distribution-channels@m9-DqsQfeukmhjhIfCph-.md"
+          },
+          {
+            "id": "_cAGbAswDhOqpoiiikPbD",
+            "name": "Content Distribution Amplification Strategies",
+            "type": "subtopic",
+            "description": "Amplification strategies are deliberate tactics used to extend the reach of content beyond its initial audience. They include community seeding, influencer outreach, newsletter features, cross-posting, and paid promotion. For technical content, amplification often focuses on developer communities and trusted aggregators rather than broad advertising.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/technical-writer/content/content-distribution-amplification-strategies@_cAGbAswDhOqpoiiikPbD.md"
+          }
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "HlUUGj3dOZ68t4gIjerXh",
+        "name": "Introduction",
+        "type": "topic",
+        "description": "Technical writing is a profession focused on creating clear, accurate documentation for technical products, processes, and systems. Writers in this field translate complex information into content that specific audiences can understand and use. The role exists across industries including software, hardware, healthcare, finance, and engineering.",
+        "resources": []
+      },
+      {
+        "id": "ZRGsokU313Ky-anWbWK6q",
+        "name": "Who is a Technical Writer?",
+        "type": "subtopic",
+        "description": "A technical writer produces documentation that helps users understand and work with technical products or processes. They work alongside engineers, product managers, and designers to gather information and turn it into structured content like guides, manuals, or API references. The role requires both strong writing ability and enough technical literacy to engage with subject matter experts.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What Is a Technical Writer?",
+            "url": "https://web.archive.org/web/20250114032850/https://boffin.education/introduction-to-technical-writing/#2-what-is-a-technical-writer"
+          },
+          {
+            "type": "article",
+            "title": "A Day in the Life of a Technical Writer",
+            "url": "https://web.archive.org/web/20250114022932/https://boffin.education/technical-writing-roles-and-responsibilities/#4-a-day-in-the-life-of-a-technical-writer"
+          },
+          {
+            "type": "article",
+            "title": "Glossary of Technical Writing Terms: \"Technical Writer\"",
+            "url": "https://web.archive.org/web/20250214134718/https://boffin.education/glossary-of-technical-writing-terms/#technical-writer"
+          }
+        ]
+      },
+      {
+        "id": "jl1FsQ5-WGKeFyaILNt_p",
+        "name": "What is Technical Writing?",
+        "type": "subtopic",
+        "description": "Technical writing is the practice of creating documentation that communicates specialized or complex information clearly to a defined audience. It covers a wide range of content types, from user manuals and tutorials to API references and release notes. The goal is always clarity and usability, not style or persuasion.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Indeed: What Is Technical Writing?",
+            "url": "https://www.indeed.com/career-advice/career-development/technical-writing"
+          },
+          {
+            "type": "article",
+            "title": "TechWhirl: What Is Technical Writing?",
+            "url": "https://techwhirl.com/what-is-technical-writing/"
+          },
+          {
+            "type": "video",
+            "title": "Amruta Ranade: What do Technical Writers do?",
+            "url": "https://www.youtube.com/watch?v=biocrCx5T_k"
+          },
+          {
+            "type": "video",
+            "title": "Technical Writer HQ: What is Technical Writing?",
+            "url": "https://www.youtube.com/watch?v=KEI5JzBp2Io"
+          }
+        ]
+      },
+      {
+        "id": "j69erqfosSZMDlmKcnnn0",
+        "name": "Role of Technical Writers inOrganizations",
+        "type": "subtopic",
+        "description": "The role of a **Technical Writer** is primarily to translate complex technical information into simpler language that is easy to understand for a non-technical audience. They design, write, edit, and rewrite technical pieces like operating instructions, FAQs, installation guides, and more. Apart from this, they also gather and disseminate technical information among customers, designers, and manufacturers. Essentially, their job involves communicating technical terminologies and a clear understanding of complex information to those who need it in an easy-to-understand format.",
+        "resources": []
+      },
+      {
+        "id": "cNeT1dJDfgn0ndPzSxhSL",
+        "name": "Forms of Technical Writing",
+        "type": "subtopic",
+        "description": "Technical writing takes many forms depending on the audience and purpose. Common formats include user guides, API documentation, tutorials, release notes, white papers, process documentation, and in-product copy. Each format has its own conventions for structure, tone, and depth.",
+        "resources": []
+      },
+      {
+        "id": "FVxNjbDBxgf6vkZWw1Awt",
+        "name": "Growth as a Technical Writer",
+        "type": "subtopic",
+        "description": "The growth phase in the field of technical writing is intriguing. As a technical writer gains experience and demonstrates excellent work consistently, they are likely to encounter many opportunities for growth. This can include taking on more complex projects, managing teams, or even moving toward strategic roles. Career advancement may involve specializing in specific industries or gaining fluency in cutting-edge tools and formats. Technical writers may also grow by expanding their skill set to encompass related fields like data analysis, UX writing, content management, or project coordination.",
+        "resources": []
+      },
+      {
+        "id": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "name": "Required Skills",
+        "type": "topic",
+        "description": "Technical writers need a combination of writing ability, research skills, and technical understanding. They must communicate clearly across different formats and audiences, manage multiple projects, and work effectively with subject matter experts. Familiarity with documentation tools, version control, and publishing platforms is increasingly expected.",
+        "resources": []
+      },
+      {
+        "id": "DubLTESNn3wvEH_bKQZbP",
+        "name": "Technology Expertise",
+        "type": "subtopic",
+        "description": "Technology expertise is the writer's ability to understand the products and systems they document. This does not always require deep engineering knowledge, but writers need enough technical grounding to follow developer conversations, test features, and evaluate the accuracy of their own content. Specializations often develop around domains like cloud infrastructure, APIs, or hardware.",
+        "resources": []
+      },
+      {
+        "id": "kNIiAJrvrNoOAllUbRtUB",
+        "name": "Language Proficiency",
+        "type": "subtopic",
+        "description": "Language proficiency refers to the writer's command of the language they write in, typically English in global technical contexts. This includes grammar, vocabulary, syntax, and an understanding of how language choices affect readability. Writers working in international contexts also need awareness of localization and plain language principles.",
+        "resources": []
+      },
+      {
+        "id": "7-3tqRUpntoQP4nK_nul5",
+        "name": "Written Communication Proficiency",
+        "type": "subtopic",
+        "description": "Written communication proficiency means producing text that is clear, concise, and appropriate for the intended audience. For technical writers, this includes structuring information logically, maintaining consistent tone, and editing for accuracy. Strong writers know when to simplify and when to preserve technical precision.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Formal, permanent, clear business communication through writing",
+            "url": "https://www.scribd.com/document/546030656/Unit-3-Written-Communication"
+          }
+        ]
+      },
+      {
+        "id": "_5xFbl2BHx0f2u9HmSVS8",
+        "name": "Tooling",
+        "type": "topic",
+        "description": "Technical writers use a range of tools to research, write, manage, and publish documentation. The specific tools vary by organization and documentation type, but most workflows involve some combination of writing environments, version control, publishing platforms, and content management systems.",
+        "resources": []
+      },
+      {
+        "id": "0XWiraeoicNBbaGYQnNZr",
+        "name": "Research Tools",
+        "type": "subtopic",
+        "description": "Research tools help technical writers gather accurate information about the products and topics they document. These include internal wikis, issue trackers, API explorers, and direct access to source code or staging environments. Writers also use external sources like official documentation, academic papers, and community forums to supplement product knowledge.",
+        "resources": []
+      },
+      {
+        "id": "sdoFe4A3y_-Zp3mlrJ5r8",
+        "name": "Blogging Platforms",
+        "type": "subtopic",
+        "description": "Blogging platforms like Medium, Dev.to, Ghost, and WordPress are sometimes used by technical writers to publish tutorials, thought leadership, or product-focused content. They offer simple publishing workflows without requiring infrastructure setup. Some organizations use them for developer outreach or community content alongside formal documentation.",
+        "resources": []
+      },
+      {
+        "id": "jC3ZrpskBqzxiV6SKf4Uf",
+        "name": "Publishing Tools",
+        "type": "subtopic",
+        "description": "Publishing tools convert written content into documentation sites, PDFs, or other distributable formats. Common examples include static site generators like Docusaurus, MkDocs, and Hugo, as well as hosted platforms like GitBook and Readme.io. The choice of tool affects how content is structured, versioned, and maintained.",
+        "resources": []
+      },
+      {
+        "id": "FD-8LQ_g2_O_i2Qwp-Gpv",
+        "name": "SEO Tools",
+        "type": "subtopic",
+        "description": "SEO tools help technical writers identify how audiences search for topics and evaluate whether content is discoverable. Tools like Ahrefs, Semrush, and Google Search Console show search volume, keyword rankings, and traffic data. Writers use this information to optimize titles, headings, and content structure for search visibility.",
+        "resources": []
+      },
+      {
+        "id": "cSZbTOB0FPPOlGzy-MkSi",
+        "name": "Plagiarism Checker",
+        "type": "subtopic",
+        "description": "Plagiarism checkers scan written content to detect text that duplicates existing published sources. In technical writing they are used to ensure originality, particularly when producing content that draws from multiple references or is published externally. Tools like Copyscape, Grammarly, and Turnitin are commonly used for this purpose.",
+        "resources": []
+      },
+      {
+        "id": "Am_ocP3r0HM45LYfMcQxM",
+        "name": "Editing Tools",
+        "type": "subtopic",
+        "description": "Editing tools assist with grammar, spelling, clarity, and style. Grammarly, Hemingway Editor, and Vale are commonly used in technical writing workflows. Some tools can be integrated into writing environments or CI pipelines to enforce style guides automatically.",
+        "resources": []
+      },
+      {
+        "id": "ffJyulu9GPB_TDqjeJYyV",
+        "name": "Git / Version Control",
+        "type": "subtopic",
+        "description": "Git is a distributed version control system that tracks changes to files over time. Technical writers use it to manage documentation alongside code, enabling collaboration, change history, and review workflows through pull requests. Docs-as-code workflows rely on Git to bring documentation into the same development pipeline as software.",
+        "resources": []
+      },
+      {
+        "id": "TJ1iuzQ9u_WbrllRQkgm_",
+        "name": "Markdown",
+        "type": "subtopic",
+        "description": "Markdown is a lightweight markup language that uses plain text formatting syntax to define headings, lists, code blocks, links, and other elements. It is widely used in technical documentation because it is readable as plain text and converts easily to HTML. Most modern documentation platforms and static site generators support Markdown natively.",
+        "resources": []
+      },
+      {
+        "id": "yYLsG2LuPaNUuhXSVev_0",
+        "name": "Best Practices",
+        "type": "topic",
+        "description": "Best practices in technical writing cover the standards and habits that produce consistent, high-quality documentation. They span content structure, audience awareness, tone, and maintenance. Following established practices makes documentation easier to read, find, and keep up to date.",
+        "resources": []
+      },
+      {
+        "id": "27muFD1Ld1gF6hhIh22sG",
+        "name": "Story Telling",
+        "type": "subtopic",
+        "description": "Storytelling in technical writing means structuring content around the user's situation, goal, and solution rather than simply listing features or steps. It gives documentation a logical flow that matches how users think about their problem. This approach makes content feel more useful and easier to follow, especially for tutorials and conceptual guides.",
+        "resources": []
+      },
+      {
+        "id": "lxSSjgtqJk-PtRp4hARDw",
+        "name": "Subtle Selling",
+        "type": "subtopic",
+        "description": "Subtle selling refers to framing technical content in ways that reinforce a product's value without reading as marketing copy. Writers do this by emphasizing outcomes, highlighting time savings, and positioning features in terms of user benefit. The goal is to support user confidence without compromising the neutral, factual tone documentation requires.",
+        "resources": []
+      },
+      {
+        "id": "Ezz2e4lYLD_bdNNwvsV_y",
+        "name": "Content Structure",
+        "type": "subtopic",
+        "description": "Content structure is the organization of information within a document or documentation set. Good structure uses headings, sections, and progression to guide readers through content in the order they need it. Technical writers consider structure at both the page level and the information architecture level across an entire docs site.",
+        "resources": []
+      },
+      {
+        "id": "a1ChwDwztjZBi79y38AGa",
+        "name": "Call to Actions",
+        "type": "subtopic",
+        "description": "A call to action (CTA) in documentation directs the reader to a next step, whether that is reading a related guide, trying a feature, or contacting support. CTAs help users move through a documentation system without getting stuck. They are especially useful at the end of tutorials or conceptual articles.",
+        "resources": []
+      },
+      {
+        "id": "8qSL2esjsA3YYuB4d7B9z",
+        "name": "References",
+        "type": "subtopic",
+        "description": "References in technical documentation point readers to related content, external standards, or source material. They add credibility to technical claims and help readers find deeper information without bloating the main content. Well-placed references also reduce duplication across a documentation set.",
+        "resources": []
+      },
+      {
+        "id": "WmOvQYlnedX0QgC5Adeen",
+        "name": "Crafting Great Titles",
+        "type": "subtopic",
+        "description": "A strong document title tells the reader exactly what the content covers and matches the language they use when searching for it. Good titles are specific, action-oriented where appropriate, and avoid vague or marketing-style phrasing. For documentation, titles often follow patterns like \"How to X,\" \"X Reference,\" or simply the name of the concept being explained.",
+        "resources": []
+      },
+      {
+        "id": "7FGMPztd6ouvqemcGhIol",
+        "name": "Content Objectives & Intent",
+        "type": "subtopic",
+        "description": "Content objectives define what a piece of documentation is meant to accomplish and for whom. Understanding intent helps writers choose the right format, depth, and tone for a given topic. A tutorial, a reference page, and a conceptual guide all have different objectives even when they cover the same subject.",
+        "resources": []
+      },
+      {
+        "id": "UuV51vM2JT_LFFXORSwru",
+        "name": "User Persona",
+        "type": "subtopic",
+        "description": "A user persona is a representation of a target reader based on their role, technical background, goals, and pain points. Technical writers use personas to make decisions about vocabulary, assumed knowledge, and content depth. Documentation aimed at a developer persona differs significantly from content written for a non-technical end user.",
+        "resources": []
+      },
+      {
+        "id": "cnEVPsqZqs9ZdyqmOuLGA",
+        "name": "Writing Style Guides",
+        "type": "subtopic",
+        "description": "A writing style guide defines the rules and conventions a team follows when producing documentation. It covers tone, vocabulary, formatting, grammar preferences, and how to handle specific content patterns. Style guides like the Google Developer Documentation Style Guide or Microsoft Writing Style Guide are widely used as a starting point.",
+        "resources": []
+      },
+      {
+        "id": "O-dZEkmU0tP3dUIUPM6YJ",
+        "name": "Content Research",
+        "type": "topic",
+        "description": "Content research is the process of gathering the information needed to write accurate, complete documentation. This includes interviewing subject matter experts, testing the product, reading source code, reviewing support tickets, and consulting existing internal resources. Strong research habits are what separate accurate documentation from guesswork.",
+        "resources": []
+      },
+      {
+        "id": "SX4vL_JEHrwqHdThyqKKO",
+        "name": "Topic Score",
+        "type": "subtopic",
+        "description": "Topic score is a metric used in content strategy to evaluate how well a piece of content covers a subject relative to competing pages or a defined standard. Tools like MarketMuse and Clearscope calculate topic scores by analyzing keyword coverage and semantic relevance. Writers use topic scores to identify gaps in existing content and prioritize updates.",
+        "resources": []
+      },
+      {
+        "id": "JtFLW5WwH5Ixmnb0qikia",
+        "name": "Keyword Volume",
+        "type": "subtopic",
+        "description": "Keyword volume refers to the number of times a specific search term is queried in a given period, typically measured monthly. Writers and content strategists use keyword volume data to prioritize which topics to cover and how to title content. High-volume keywords indicate strong audience interest and potential for organic traffic.",
+        "resources": []
+      },
+      {
+        "id": "QMehC1tmWPVWaTsiV9sFC",
+        "name": "Communities & Forums",
+        "type": "subtopic",
+        "description": "Communities and forums are online spaces where practitioners discuss problems, share solutions, and ask questions. For technical writers, monitoring communities like Stack Overflow, Reddit, and product-specific forums reveals real user pain points and common misunderstandings. This input helps identify gaps in documentation and shape content priorities.",
+        "resources": []
+      },
+      {
+        "id": "IZqyEqkrBoEfLBwIQwJl6",
+        "name": "Search Trends",
+        "type": "subtopic",
+        "description": "Search trends show how interest in specific topics changes over time. Tools like Google Trends and keyword platforms surface rising queries that signal emerging user needs. Technical writers use trend data to time content production around growing topics before the market becomes saturated.",
+        "resources": []
+      },
+      {
+        "id": "xFMsHYYxC0hLueY9xxART",
+        "name": "Support Request Evaluation",
+        "type": "subtopic",
+        "description": "Support request evaluation involves reviewing incoming customer support tickets, chat logs, and help center searches to identify where users are struggling. Patterns in support data point to gaps or weaknesses in existing documentation. Many technical writing teams use support request volume as a direct signal for what to write or improve next.",
+        "resources": []
+      },
+      {
+        "id": "xV8mox1WnSbl2jAGqQpeg",
+        "name": "Types of Technical Content",
+        "type": "topic",
+        "description": "Technical content encompasses many different document types, each serving a distinct purpose in the user's journey. The type of content produced depends on the audience, the product, and the stage of adoption. Writers often work across multiple content types within a single role.",
+        "resources": []
+      },
+      {
+        "id": "d9mTdwqx6QWKYO5PA_rDH",
+        "name": "Product Content",
+        "type": "subtopic",
+        "description": "Product content is documentation written specifically to help users understand and get value from a product. It includes feature descriptions, release notes, onboarding materials, and in-product tooltips. Writers producing product content work closely with product and design teams to ensure accuracy and alignment with the user experience.",
+        "resources": []
+      },
+      {
+        "id": "UFuMiHtWq1M8dS8547lOp",
+        "name": "General Product Prose",
+        "type": "subtopic",
+        "description": "General product prose covers descriptive content that explains what a product or feature is and what it does, without being a step-by-step guide. It appears in landing pages, product overviews, and introductory sections of documentation. The tone is informative and factual, avoiding marketing language while still communicating value.",
+        "resources": []
+      },
+      {
+        "id": "C-eVVtF6Yabp2a6XvMeh_",
+        "name": "How-to Guides",
+        "type": "subtopic",
+        "description": "How-to guides walk users through completing a specific task step by step. They assume the reader has a goal and focus on the actions needed to achieve it, rather than explaining underlying concepts in depth. A well-written how-to guide is goal-oriented, concise, and structured around numbered steps.",
+        "resources": []
+      },
+      {
+        "id": "e8oNoXw1KLY4jDzojIXyk",
+        "name": "Developer Docs",
+        "type": "topic",
+        "description": "Developer documentation is written for software developers who are building with, integrating, or extending a product. It covers APIs, SDKs, authentication, data models, and code-level workflows. The audience expects precision, working code examples, and clear reference material alongside conceptual explanations.",
+        "resources": []
+      },
+      {
+        "id": "FgyBWRtE34VNqBt_5QhAf",
+        "name": "User Goals",
+        "type": "subtopic",
+        "description": "User goals in developer documentation refer to what the developer is trying to accomplish with the product. Understanding goals helps writers structure docs around real use cases rather than feature lists. Documentation organized around goals is easier to navigate and more directly useful.",
+        "resources": []
+      },
+      {
+        "id": "iBBeZopD8SNo7sWTohMim",
+        "name": "Docs Generation Tools",
+        "type": "subtopic",
+        "description": "Docs generation tools automatically produce API reference documentation from code annotations, type definitions, or specification files. Examples include Swagger UI, Redoc, Javadoc, and Typedoc. These tools reduce manual effort and help keep reference content accurate as code changes.",
+        "resources": []
+      },
+      {
+        "id": "8fJcJi96Ige6z2PBuTquC",
+        "name": "Troubleshooting",
+        "type": "subtopic",
+        "description": "Troubleshooting documentation helps users identify and resolve errors or unexpected behavior. It typically presents problems alongside their likely causes and step-by-step fixes. Good troubleshooting content is organized around symptoms the user actually experiences rather than internal system logic.",
+        "resources": []
+      },
+      {
+        "id": "2pNW7wDGih_m73lhGZRg6",
+        "name": "Developer Journey",
+        "type": "subtopic",
+        "description": "The developer journey maps the progression a developer follows from discovering a product to successfully building with it. Documentation should support each stage of this journey, from initial setup and authentication to advanced integration patterns. Understanding the journey helps writers prioritize what content to create and in what order.",
+        "resources": []
+      },
+      {
+        "id": "co-35BsWMrD6PXohpFqba",
+        "name": "API Definitions",
+        "type": "subtopic",
+        "description": "API definitions are machine-readable descriptions of an API's structure, endpoints, parameters, and responses. Formats like OpenAPI (formerly Swagger), RAML, and GraphQL schemas are common standards. Technical writers work with API definitions to generate reference docs, validate examples, and ensure consistency between documentation and the actual API behavior.",
+        "resources": []
+      },
+      {
+        "id": "7w1SjK-LV9SBZJ673eAUd",
+        "name": "Developer Support",
+        "type": "subtopic",
+        "description": "Developer support content addresses the technical questions that arise when developers build with an API, SDK, or platform. It includes code samples, integration guides, error message explanations, and common debugging patterns. Writers producing this content need enough technical depth to anticipate where developers get stuck.",
+        "resources": []
+      },
+      {
+        "id": "jYhfx6RETFgDulyNqdTBy",
+        "name": "Docs Structure",
+        "type": "subtopic",
+        "description": "Docs structure refers to the way documentation is organized at the site or repository level. A clear structure separates conceptual guides, tutorials, how-to content, and reference material so users can find what they need based on their intent. The Diátaxis framework is one widely adopted approach to organizing technical documentation.",
+        "resources": []
+      },
+      {
+        "id": "How-4Re1NhxPLDoshUM-G",
+        "name": "Platform Support",
+        "type": "subtopic",
+        "description": "Platform support documentation covers how a product behaves across different operating systems, browsers, environments, or hardware configurations. It helps users understand compatibility requirements and resolve platform-specific issues. This content is especially important for products with broad deployment contexts.",
+        "resources": []
+      },
+      {
+        "id": "z5_73Q7dWbBd4m_OrdZlH",
+        "name": "API Reference",
+        "type": "topic",
+        "description": "An API reference is a complete, structured description of every endpoint, parameter, request format, and response a web API exposes. It gives developers the precise technical detail they need to make calls and handle responses correctly. API references are typically generated from code or specification files like OpenAPI and kept in sync with the live API.",
+        "resources": []
+      },
+      {
+        "id": "2wjRA_pQ9cCG9Ww994FEM",
+        "name": "Comparative Posts",
+        "type": "subtopic",
+        "description": "\"Comparative posts\" are articles that focus on comparing different products, services, or tools. In these posts, the technical writer analyzes each item's features, application, and usability, sometimes even their prices, to help clients make informed decisions. It's imperative to note, comparative posts don't just pinpoint 'which is better?'. Instead, they delve deep into the specifics of ‘why and how’ an aspect of a product or service outshines the other. This kind of technical write-up is typically unbiased, comprehensive, and objective to maintain credibility and usefulness.",
+        "resources": []
+      },
+      {
+        "id": "K459CcDrcPMJCimIcCzM6",
+        "name": "Tutorials",
+        "type": "subtopic",
+        "description": "Tutorials guide readers through completing a meaningful task while also teaching the concepts behind it. Unlike how-to guides, tutorials are designed as learning experiences rather than pure reference material. They assume less prior knowledge and build understanding progressively through worked examples.",
+        "resources": []
+      },
+      {
+        "id": "e_bsYrZ0eQqduURg2ybX4",
+        "name": "Help Content",
+        "type": "topic",
+        "description": "Help content is documentation designed to answer specific questions or resolve issues users encounter while using a product. It typically lives in a help center or knowledge base and is organized around common tasks and problems. Effective help content is scannable, task-focused, and written in plain language.",
+        "resources": []
+      },
+      {
+        "id": "mJ1s5-SGd_tj8y0LLZxYg",
+        "name": "Technical Content Marketing",
+        "type": "topic",
+        "description": "Technical content marketing uses in-depth, accurate technical content to attract and educate a developer or engineering audience. It includes tutorials, comparison articles, architecture guides, and blog posts that address real technical problems. The goal is to build trust and awareness with a technical audience rather than to sell directly.",
+        "resources": []
+      },
+      {
+        "id": "O1apL6I_g9DQl8VbL3X4W",
+        "name": "ICP & Buyer Persona",
+        "type": "subtopic",
+        "description": "An ideal customer profile (ICP) defines the type of organization most likely to benefit from and purchase a product. A buyer persona represents the specific individual within that organization who evaluates or champions the purchase. Technical writers use ICP and persona definitions to calibrate content depth, assumed context, and messaging throughout documentation and content marketing.",
+        "resources": []
+      },
+      {
+        "id": "EhhKxYPtoLztZXBXl3ZGl",
+        "name": "Buyer Journey & Content Funnel",
+        "type": "subtopic",
+        "description": "The buyer journey describes the stages a potential customer moves through before making a purchase decision: awareness, consideration, and decision. Technical content maps to this funnel differently than marketing copy, with tutorials and guides serving awareness, and comparison or integration content supporting consideration. Writers producing funnel-aligned content balance technical accuracy with strategic positioning.",
+        "resources": []
+      },
+      {
+        "id": "eAioe6b7w8pV2Dvawl_fw",
+        "name": "Short-tail Keywords",
+        "type": "subtopic",
+        "description": "Short-tail keywords are broad, high-volume search terms typically consisting of one or two words, such as \"docker\" or \"API security.\" They attract large audiences but face more competition and often represent lower specificity of intent. Technical content teams use short-tail keywords to identify high-level topic areas rather than targeting them directly in individual documents.",
+        "resources": []
+      },
+      {
+        "id": "2LAvq7W11WMIubSprlK_l",
+        "name": "Long-Tail Keywords",
+        "type": "subtopic",
+        "description": "Top-funnel content targets users who are early in their discovery process and may not yet know a specific product or solution. It educates on broad problems, concepts, and trends rather than promoting a specific tool. For technical audiences, this includes introductory tutorials, explainer articles, and research reports.",
+        "resources": []
+      },
+      {
+        "id": "UphVii3y4T_PkRMqFJ4r_",
+        "name": "Backlinking",
+        "type": "subtopic",
+        "description": "Backlinking refers to earning links from other websites that point to your content. In technical content strategy, backlinks from credible sources like developer communities, open source projects, and industry publications signal authority to search engines. Writers build backlinks by producing content genuinely useful enough for others to cite and share.",
+        "resources": []
+      },
+      {
+        "id": "IA6TuXmOZr_-Y3HLHqxp0",
+        "name": "SEO Keywords",
+        "type": "subtopic",
+        "description": "SEO keywords are the terms and phrases users type into search engines when looking for information. Writers research keywords to understand what their audience is searching for and align content topics and titles accordingly. Effective keyword use improves content discoverability without making the text feel unnatural or keyword-stuffed.",
+        "resources": []
+      },
+      {
+        "id": "-IBL9S4DelIi07w_fmrX3",
+        "name": "Content SEO",
+        "type": "topic",
+        "description": "Content SEO is the practice of optimizing written content to rank in search engine results for relevant queries. For technical writers, this involves choosing topics with search demand, using target keywords naturally in headings and body text, and structuring content to match how search engines evaluate relevance. SEO-aware documentation is more discoverable and drives organic traffic.",
+        "resources": []
+      },
+      {
+        "id": "5dnZe0oCIzb5qGwgI6pwH",
+        "name": "Top-funnel Content",
+        "type": "topic",
+        "description": "Top-funnel content targets users who are early in their discovery process and may not yet know a specific product or solution. It educates on broad problems, concepts, and trends rather than promoting a specific tool. For technical audiences, this includes introductory tutorials, explainer articles, and research reports.",
+        "resources": []
+      },
+      {
+        "id": "wBDjGa2PgdmeXxHnILFjY",
+        "name": "Pillar Content",
+        "type": "subtopic",
+        "description": "Pillar content is a comprehensive, authoritative piece that covers a broad topic in depth and links out to more specific related articles. It serves as a hub in a content cluster strategy, improving both SEO and site navigation. In technical writing, a pillar page might cover an entire technology area like \"containerization\" and link to detailed guides on Docker, Kubernetes, and related topics.",
+        "resources": []
+      },
+      {
+        "id": "7S2lymeBZSMBZSsmei7us",
+        "name": "Awareness Blog Posts",
+        "type": "subtopic",
+        "description": "Awareness blog posts introduce readers to a problem, concept, or technology they may not have encountered before. They are written for a broad audience and prioritize clarity and accessibility over depth. For technical content teams, these posts are often used to establish authority in a topic area and attract new readers from search.",
+        "resources": []
+      },
+      {
+        "id": "HoNQSWy82ybT0YmejCzRb",
+        "name": "Research Reports",
+        "type": "subtopic",
+        "description": "Research reports present original data, survey findings, or analysis on a topic relevant to the target audience. In developer and technical contexts, they often cover industry trends, tooling adoption, or benchmark results. Research reports build credibility and generate backlinks when they contain original insights not available elsewhere.",
+        "resources": []
+      },
+      {
+        "id": "Q2KD70IKwBXAH3UQgeZpp",
+        "name": "Mid-funnel Content",
+        "type": "topic",
+        "description": "Mid-funnel content targets users who are aware of a problem and are evaluating possible solutions. It helps readers compare options, understand tradeoffs, and assess whether a specific product fits their needs. For technical audiences, mid-funnel content includes integration guides, feature comparisons, and use-case walkthroughs.",
+        "resources": []
+      },
+      {
+        "id": "XDX2QxMUkUok2fcS3tFki",
+        "name": "Generic Gated Content",
+        "type": "subtopic",
+        "description": "Generic gated content is downloadable material, such as white papers or eBooks, offered in exchange for contact information. It sits at the mid-funnel stage and is designed to capture leads who are interested enough to share their details. In technical content strategies, gated content works best when it offers analysis or depth not available in free articles.",
+        "resources": []
+      },
+      {
+        "id": "Xa7yBWcbP2aPs4u0C4cLJ",
+        "name": "White-papers",
+        "type": "subtopic",
+        "description": "White papers are authoritative reports or guides that help readers comprehend an issue, solve a problem, or make a decision. As a technical writer, crafting white papers comprise primarily of intricately marrying data with insightful commentary. These documents are usually more detailed and lengthier than blogs or articles, often extending to multiple pages. They have a formal tone, due to their informational and problem-solving nature, and they may include graphs, charts, or other visual aids to help explain the information presented, along with a detailed methodology and analysis.",
+        "resources": []
+      },
+      {
+        "id": "5zQpravkqwafvwXVOuNPX",
+        "name": "eBook",
+        "type": "subtopic",
+        "description": "An eBook is a longer-form educational resource that covers a topic in a structured, chapter-based format. In technical content marketing, eBooks are often used as lead magnets targeting mid-funnel audiences. They tend to be more accessible in tone than white papers and focus on practical guidance over formal analysis.",
+        "resources": []
+      },
+      {
+        "id": "vo1udIIRpxNZCpA3g32F3",
+        "name": "Bottom-funnel Content",
+        "type": "topic",
+        "description": "\"Bottom funnel\" refers to the final stage in the marketing funnel where potential customers are ready to make a purchase. This phase typically includes actions like negotiations, sales calls, and the final transaction. For a technical writer, understanding the \"bottom funnel\" can be crucial as it could influence the type of technical content they create. For instance, they might need to create in-depth product guides, FAQs, or troubleshooting articles that potential customers could use during the decision-making process. The main goal during the \"bottom funnel\" stage is to convince the potential customer to finalize their purchase and become an actual customer.",
+        "resources": []
+      },
+      {
+        "id": "-GZXLc9RjY6eWkKC1K_Rg",
+        "name": "Release Notes / Product Announcements",
+        "type": "topic",
+        "description": "Release notes and product announcements are documents that communicate new features, improvements, and bug fixes to end users. These documents serve as a bridge between the development team and the user base, detailing changes in a specific software version to ensure users understand how updates impact their workflow. They typically provide a chronological summary of functional changes, known issues, and actionable information, helping stakeholders stay informed about the evolution of a product.",
+        "resources": []
+      },
+      {
+        "id": "W44q1iEj7RKM55-9jabMJ",
+        "name": "Customer Case-Studies",
+        "type": "topic",
+        "description": "\"Case Studies\" are in-depth analyses often used by technical writers. They offer a detailed investigation into a specific subject, typically presenting real-world applications or scenarios. By employing a systematic approach, case studies can provide valuable insights which might not be achieved with other methods. They may contain extensive research, including interviews, observations, and data collection for quantitative and qualitative assessment. Case studies can encompass unique perspectives or complex matters, offering a rich understanding of the subject matter. They are often used in scientific, academic, and business contexts.",
+        "resources": []
+      },
+      {
+        "id": "tAFenZA0MFhMPE5cevNuD",
+        "name": "Technical Website Copy",
+        "type": "topic",
+        "description": "Technical website copy is the written content on a product's marketing or documentation site aimed at a technical audience. It covers product pages, feature descriptions, landing pages, and navigation labels. Effective technical copy is precise and jargon-aware, reflecting how the target audience thinks about the problem being solved.",
+        "resources": []
+      },
+      {
+        "id": "XyFEYDJvJpGZ7qSdoSZeI",
+        "name": "Content Optimization",
+        "type": "topic",
+        "description": "Content optimization is the process of improving existing documentation or articles to increase their effectiveness, whether measured by search ranking, time on page, task completion, or user satisfaction. It involves updating outdated information, improving clarity, refining keyword targeting, and restructuring content for better readability. Optimization is an ongoing responsibility rather than a one-time task.",
+        "resources": []
+      },
+      {
+        "id": "TbSBCITdLswhVB82fErTP",
+        "name": "Content Analysis",
+        "type": "topic",
+        "description": "Content analysis is the evaluation of existing documentation or articles to assess quality, relevance, and performance. Writers use quantitative metrics like page views and search rankings alongside qualitative reviews to identify what is working and what needs improvement. Regular analysis helps teams prioritize documentation work based on actual user behavior.",
+        "resources": []
+      },
+      {
+        "id": "qpOfqbgLy5TzlNQEyt6DG",
+        "name": "Link Shorteners / Tracking",
+        "type": "subtopic",
+        "description": "Link shorteners create compact URLs that redirect to longer destinations, often with tracking parameters attached. In content distribution, they are used to monitor how many clicks a specific link receives across different channels. Tools like Bitly and UTM parameters help teams attribute traffic to individual campaigns or content pieces.",
+        "resources": []
+      },
+      {
+        "id": "hlhBgI3SvU3tMtNaHtu8k",
+        "name": "Platform Tracking and Metrics",
+        "type": "subtopic",
+        "description": "Platform tracking involves using analytics tools to monitor how users interact with documentation or content sites. Metrics like page views, bounce rate, session duration, and search queries reveal which content is being used and where users drop off. This data informs decisions about what to improve, expand, or restructure.",
+        "resources": []
+      },
+      {
+        "id": "UiXn-CnPcLWAflKJzaJ2a",
+        "name": "Conversion Tracking",
+        "type": "subtopic",
+        "description": "Conversion tracking measures whether users who read a piece of content go on to take a desired action, such as signing up, starting a trial, or completing a task. In technical content, this connects documentation or blog traffic to business outcomes. Writers and content teams use conversion data to evaluate which content types and topics drive meaningful engagement.",
+        "resources": []
+      },
+      {
+        "id": "JgdrXG7MX1gGuNG9uyubA",
+        "name": "Content Aging & Timelines",
+        "type": "subtopic",
+        "description": "Content aging refers to the process by which documentation becomes outdated as products evolve, technologies change, or information becomes inaccurate. Managing content aging means establishing review cycles, tracking when pages were last updated, and flagging content that has drifted from current reality. A content timeline helps teams plan audits and prioritize updates before documentation becomes misleading.",
+        "resources": []
+      },
+      {
+        "id": "pgrKfp1trcIxhDdvLk95g",
+        "name": "Frequently Asked Questions",
+        "type": "topic",
+        "description": "\"FAQs\" stands for \"Frequently Asked Questions\". This is a crucial part of any technical document or user guide that compiles a list of common questions (with their respective answers) that users might have about a particular product, service, or topic. Good FAQs are clear, concise, and organized in a logical way. Typically, they are updated regularly based on user queries and feedback to remain helpful and relevant. FAQs can include instructions to resolve common user problems, terms and definitions, links to related resources, and other information useful for understanding and using the product or service effectively.",
+        "resources": []
+      },
+      {
+        "id": "mrqBxsNRl1CQEKtuYSy9F",
+        "name": "Content Distribution",
+        "type": "topic",
+        "description": "Content distribution is the process of getting published content in front of the right audience through appropriate channels. It includes organic search, social media, newsletters, developer communities, and content syndication. Distribution strategy determines how much reach a piece of content achieves beyond its initial publication.",
+        "resources": []
+      },
+      {
+        "id": "NIxIhMEOxrUR8nbjbF_Fp",
+        "name": "Canonical Link",
+        "type": "subtopic",
+        "description": "A canonical link is an HTML tag that tells search engines which version of a page is the authoritative one when similar or duplicate content exists at multiple URLs. Technical writers and SEO teams use canonical tags to prevent duplicate content from fragmenting search rankings. Proper canonicalization is especially relevant when content is syndicated across multiple platforms.",
+        "resources": []
+      },
+      {
+        "id": "AarJ887P-SFRnKaOOv9yw",
+        "name": "OpenGraph Data",
+        "type": "subtopic",
+        "description": "OpenGraph data is metadata embedded in a web page's HTML that controls how the page appears when shared on social media platforms. It defines the title, description, and image that platforms like LinkedIn, X, and Slack display in link previews. Technical writers and content teams configure OpenGraph tags to ensure shared content looks accurate and appealing.",
+        "resources": []
+      },
+      {
+        "id": "m9-DqsQfeukmhjhIfCph-",
+        "name": "Content Distribution Channels",
+        "type": "subtopic",
+        "description": "Content distribution channels are the platforms and methods used to share and promote content. For technical content, common channels include developer newsletters, GitHub, Hacker News, Reddit, LinkedIn, and product-specific communities. The best channels depend on where the target audience spends time and how they prefer to discover new content.",
+        "resources": []
+      },
+      {
+        "id": "_cAGbAswDhOqpoiiikPbD",
+        "name": "Content Distribution Amplification Strategies",
+        "type": "subtopic",
+        "description": "Amplification strategies are deliberate tactics used to extend the reach of content beyond its initial audience. They include community seeding, influencer outreach, newsletter features, cross-posting, and paid promotion. For technical content, amplification often focuses on developer communities and trusted aggregators rather than broad advertising.",
+        "resources": []
+      }
+    ],
+    "edges": [
+      {
+        "source": "HlUUGj3dOZ68t4gIjerXh",
+        "target": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "_5xFbl2BHx0f2u9HmSVS8",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "yYLsG2LuPaNUuhXSVev_0",
+        "target": "O-dZEkmU0tP3dUIUPM6YJ",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "O-dZEkmU0tP3dUIUPM6YJ",
+        "target": "xV8mox1WnSbl2jAGqQpeg",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "xV8mox1WnSbl2jAGqQpeg",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "mJ1s5-SGd_tj8y0LLZxYg",
+        "target": "-IBL9S4DelIi07w_fmrX3",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "-IBL9S4DelIi07w_fmrX3",
+        "target": "5dnZe0oCIzb5qGwgI6pwH",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "5dnZe0oCIzb5qGwgI6pwH",
+        "target": "Q2KD70IKwBXAH3UQgeZpp",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "Q2KD70IKwBXAH3UQgeZpp",
+        "target": "vo1udIIRpxNZCpA3g32F3",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "XyFEYDJvJpGZ7qSdoSZeI",
+        "target": "TbSBCITdLswhVB82fErTP",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "TbSBCITdLswhVB82fErTP",
+        "target": "mrqBxsNRl1CQEKtuYSy9F",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ZRGsokU313Ky-anWbWK6q",
+        "target": "HlUUGj3dOZ68t4gIjerXh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jl1FsQ5-WGKeFyaILNt_p",
+        "target": "HlUUGj3dOZ68t4gIjerXh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "j69erqfosSZMDlmKcnnn0",
+        "target": "HlUUGj3dOZ68t4gIjerXh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cNeT1dJDfgn0ndPzSxhSL",
+        "target": "HlUUGj3dOZ68t4gIjerXh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FVxNjbDBxgf6vkZWw1Awt",
+        "target": "HlUUGj3dOZ68t4gIjerXh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7-3tqRUpntoQP4nK_nul5",
+        "target": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jC3ZrpskBqzxiV6SKf4Uf",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cSZbTOB0FPPOlGzy-MkSi",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ffJyulu9GPB_TDqjeJYyV",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0XWiraeoicNBbaGYQnNZr",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "27muFD1Ld1gF6hhIh22sG",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "lxSSjgtqJk-PtRp4hARDw",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ezz2e4lYLD_bdNNwvsV_y",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "a1ChwDwztjZBi79y38AGa",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8qSL2esjsA3YYuB4d7B9z",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WmOvQYlnedX0QgC5Adeen",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7FGMPztd6ouvqemcGhIol",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UuV51vM2JT_LFFXORSwru",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cnEVPsqZqs9ZdyqmOuLGA",
+        "target": "yYLsG2LuPaNUuhXSVev_0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "C-eVVtF6Yabp2a6XvMeh_",
+        "target": "xV8mox1WnSbl2jAGqQpeg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SX4vL_JEHrwqHdThyqKKO",
+        "target": "O-dZEkmU0tP3dUIUPM6YJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wBDjGa2PgdmeXxHnILFjY",
+        "target": "5dnZe0oCIzb5qGwgI6pwH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XDX2QxMUkUok2fcS3tFki",
+        "target": "Q2KD70IKwBXAH3UQgeZpp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JgdrXG7MX1gGuNG9uyubA",
+        "target": "TbSBCITdLswhVB82fErTP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NIxIhMEOxrUR8nbjbF_Fp",
+        "target": "mrqBxsNRl1CQEKtuYSy9F",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "m9-DqsQfeukmhjhIfCph-",
+        "target": "mrqBxsNRl1CQEKtuYSy9F",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_cAGbAswDhOqpoiiikPbD",
+        "target": "mrqBxsNRl1CQEKtuYSy9F",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FgyBWRtE34VNqBt_5QhAf",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2pNW7wDGih_m73lhGZRg6",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jYhfx6RETFgDulyNqdTBy",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iBBeZopD8SNo7sWTohMim",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "co-35BsWMrD6PXohpFqba",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8fJcJi96Ige6z2PBuTquC",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7w1SjK-LV9SBZJ673eAUd",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "How-4Re1NhxPLDoshUM-G",
+        "target": "e8oNoXw1KLY4jDzojIXyk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kNIiAJrvrNoOAllUbRtUB",
+        "target": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Am_ocP3r0HM45LYfMcQxM",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TJ1iuzQ9u_WbrllRQkgm_",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sdoFe4A3y_-Zp3mlrJ5r8",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FD-8LQ_g2_O_i2Qwp-Gpv",
+        "target": "_5xFbl2BHx0f2u9HmSVS8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JtFLW5WwH5Ixmnb0qikia",
+        "target": "O-dZEkmU0tP3dUIUPM6YJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QMehC1tmWPVWaTsiV9sFC",
+        "target": "O-dZEkmU0tP3dUIUPM6YJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IZqyEqkrBoEfLBwIQwJl6",
+        "target": "O-dZEkmU0tP3dUIUPM6YJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xFMsHYYxC0hLueY9xxART",
+        "target": "O-dZEkmU0tP3dUIUPM6YJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UFuMiHtWq1M8dS8547lOp",
+        "target": "xV8mox1WnSbl2jAGqQpeg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7S2lymeBZSMBZSsmei7us",
+        "target": "5dnZe0oCIzb5qGwgI6pwH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HoNQSWy82ybT0YmejCzRb",
+        "target": "5dnZe0oCIzb5qGwgI6pwH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Xa7yBWcbP2aPs4u0C4cLJ",
+        "target": "Q2KD70IKwBXAH3UQgeZpp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5zQpravkqwafvwXVOuNPX",
+        "target": "Q2KD70IKwBXAH3UQgeZpp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UiXn-CnPcLWAflKJzaJ2a",
+        "target": "TbSBCITdLswhVB82fErTP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AarJ887P-SFRnKaOOv9yw",
+        "target": "mrqBxsNRl1CQEKtuYSy9F",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DubLTESNn3wvEH_bKQZbP",
+        "target": "8rjUZ9NZPGwVRGmk6Dlyb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "d9mTdwqx6QWKYO5PA_rDH",
+        "target": "xV8mox1WnSbl2jAGqQpeg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hlhBgI3SvU3tMtNaHtu8k",
+        "target": "TbSBCITdLswhVB82fErTP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qpOfqbgLy5TzlNQEyt6DG",
+        "target": "TbSBCITdLswhVB82fErTP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "O1apL6I_g9DQl8VbL3X4W",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EhhKxYPtoLztZXBXl3ZGl",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UphVii3y4T_PkRMqFJ4r_",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eAioe6b7w8pV2Dvawl_fw",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2LAvq7W11WMIubSprlK_l",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IA6TuXmOZr_-Y3HLHqxp0",
+        "target": "mJ1s5-SGd_tj8y0LLZxYg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2wjRA_pQ9cCG9Ww994FEM",
+        "target": "z5_73Q7dWbBd4m_OrdZlH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "K459CcDrcPMJCimIcCzM6",
+        "target": "z5_73Q7dWbBd4m_OrdZlH",
+        "type": "subtopic_of"
+      }
+    ]
+  }
+}

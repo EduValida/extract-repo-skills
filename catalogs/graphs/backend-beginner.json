@@ -1,0 +1,1677 @@
+{
+  "metadata": {
+    "slug": "backend-beginner",
+    "title": "Backend Beginner",
+    "description": "Step by step guide to becoming a backend developer in 2026",
+    "extracted_at": "2026-10-29T01:03:46.151006+00:00",
+    "source_api": "https://roadmap.sh/api/v1-official-roadmap/backend-beginner",
+    "total_topics": 8,
+    "total_subtopics": 18
+  },
+  "tree": {
+    "title": "Backend Beginner",
+    "slug": "backend-beginner",
+    "topics": [
+      {
+        "id": "2f0ZO6GJElfZ2Eis28Hzg",
+        "name": "Pick a Language",
+        "type": "topic",
+        "description": "Web development divides into Frontend (HTML, CSS, JavaScript) and Backend Development. Backend uses server-side languages like Python, Java, or Node.js, complemented by databases, frameworks, and web servers for website functionality. Choose a language based on project needs and preferences.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/pick-a-language@2f0ZO6GJElfZ2Eis28Hzg.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "8-lO-v6jCYYoklEJXULxN",
+            "name": "JavaScript",
+            "type": "subtopic",
+            "description": "JavaScript is a versatile, high-level language for web interactivity and dynamic features. Runs client-side in browsers and server-side with Node.js for full-stack development. Supports multiple programming styles with a rich ecosystem of frameworks like React, Angular, and Vue.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated JavaScript Roadmap",
+                "url": "https://roadmap.sh/javascript"
+              },
+              {
+                "type": "book",
+                "title": "JavaScript from Beginner to Professional",
+                "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+              },
+              {
+                "type": "article",
+                "title": "The Modern JavaScript Tutorial",
+                "url": "https://javascript.info/"
+              },
+              {
+                "type": "article",
+                "title": "Build 30 Javascript projects in 30 days",
+                "url": "https://javascript30.com/"
+              },
+              {
+                "type": "video",
+                "title": "JavaScript Crash Course For Beginners",
+                "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/javascript@8-lO-v6jCYYoklEJXULxN.md"
+          },
+          {
+            "id": "BdXbcz4-ar3XOX0wIKzBp",
+            "name": "Go",
+            "type": "subtopic",
+            "description": "Go (Golang) is Google's statically typed, compiled language combining efficiency with ease of use. Features built-in concurrency via goroutines and channels, simple syntax, fast compilation, and a comprehensive standard library. Popular for microservices, web servers, and cloud-native development.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Go Roadmap",
+                "url": "https://roadmap.sh/golang"
+              },
+              {
+                "type": "official",
+                "title": "Go Reference Documentation",
+                "url": "https://go.dev/doc/"
+              },
+              {
+                "type": "article",
+                "title": "Go by Example - annotated example programs",
+                "url": "https://gobyexample.com/"
+              },
+              {
+                "type": "article",
+                "title": "Go, the Programming Language of the Cloud",
+                "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+              },
+              {
+                "type": "video",
+                "title": "Go Programming – Golang Course with Bonus Projects",
+                "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/go@BdXbcz4-ar3XOX0wIKzBp.md"
+          },
+          {
+            "id": "J_sVHsD72Yzyqb9KCIvAY",
+            "name": "Python",
+            "type": "subtopic",
+            "description": "Python is a popular programming language that is easy to learn and read. It is used for building web applications, analyzing data, automating tasks, and creating intelligent systems. Python has a large community and many libraries that make it powerful and flexible for various types of projects.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Python Roadmap",
+                "url": "https://roadmap.sh/python"
+              },
+              {
+                "type": "official",
+                "title": "Python",
+                "url": "https://www.python.org/"
+              },
+              {
+                "type": "article",
+                "title": "Real Python",
+                "url": "https://realpython.com/"
+              },
+              {
+                "type": "article",
+                "title": "Automate the Boring Stuff with Python",
+                "url": "https://automatetheboringstuff.com/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/python@J_sVHsD72Yzyqb9KCIvAY.md"
+          }
+        ]
+      },
+      {
+        "id": "ezdqQW9wTUw93F6kjOzku",
+        "name": "Version Control Systems",
+        "type": "topic",
+        "description": "Version control systems (VCS) are tools that track changes to code and files over time, enabling multiple users to collaborate on projects, maintain history, and manage different versions of codebases. They help in tracking modifications, merging changes, and resolving conflicts. There are two main types of VCS: centralized and distributed. Centralized systems (like Subversion and CVS) rely on a single central repository, while distributed systems (like Git and Mercurial) allow each user to have a complete copy of the repository, including its history. Distributed VCSs, such as Git, are particularly popular for their flexibility, branching capabilities, and robust support for collaborative workflows.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "Git",
+            "url": "https://git-scm.com/"
+          },
+          {
+            "type": "official",
+            "title": "Mercurial",
+            "url": "https://www.mercurial-scm.org/"
+          },
+          {
+            "type": "official",
+            "title": "Subversion",
+            "url": "https://subversion.apache.org/"
+          },
+          {
+            "type": "article",
+            "title": "What is Version Control?",
+            "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+          },
+          {
+            "type": "video",
+            "title": "Version Control System (VCS)",
+            "url": "https://www.youtube.com/watch?v=SVkuliabq4g"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/version-control-systems@ezdqQW9wTUw93F6kjOzku.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "_I1E__wCIVrhjMk6IMieE",
+            "name": "Git",
+            "type": "subtopic",
+            "description": "Git is a distributed version control system used to track changes in source code during software development. It enables multiple developers to collaborate on a project by managing versions of code, allowing for branching, merging, and tracking of revisions. Git ensures that changes are recorded with a complete history, enabling rollback to previous versions if necessary. It supports distributed workflows, meaning each developer has a complete local copy of the project’s history, facilitating seamless collaboration, conflict resolution, and efficient management of code across different teams or environments.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Git & GitHub Roadmap",
+                "url": "https://roadmap.sh/git-github"
+              },
+              {
+                "type": "article",
+                "title": "Learn Git with Tutorials, News and Tips - Atlassian",
+                "url": "https://www.atlassian.com/git"
+              },
+              {
+                "type": "article",
+                "title": "Getting Started with Git and GitHub: A Complete Tutorial for Beginner",
+                "url": "https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+              },
+              {
+                "type": "article",
+                "title": "Git Cheat Sheet",
+                "url": "https://cs.fyi/guide/git-cheatsheet"
+              },
+              {
+                "type": "video",
+                "title": "Git & GitHub Crash Course For Beginners",
+                "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/git@_I1E__wCIVrhjMk6IMieE.md"
+          }
+        ]
+      },
+      {
+        "id": "NvUcSDWBhzJZ31nzT4UlE",
+        "name": "Repo hosting services",
+        "type": "topic",
+        "description": "Repo hosting services provide storage, management, and collaboration tools for version-controlled code repositories. Support Git, Mercurial, Subversion with features like branching, pull requests, issue tracking, code review, and CI/CD integration. Popular services: GitHub, GitLab, Bitbucket.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitLab",
+            "url": "https://about.gitlab.com/"
+          },
+          {
+            "type": "official",
+            "title": "BitBucket",
+            "url": "https://bitbucket.org/product/guides/getting-started/overview"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/repo-hosting-services@NvUcSDWBhzJZ31nzT4UlE.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "ptD8EVqwFUYr4W5A_tABY",
+            "name": "Github",
+            "type": "subtopic",
+            "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Git & GitHub Roadmap",
+                "url": "https://roadmap.sh/git-github"
+              },
+              {
+                "type": "official",
+                "title": "GitHub",
+                "url": "https://github.com"
+              },
+              {
+                "type": "official",
+                "title": "GitHub Docs",
+                "url": "https://docs.github.com/en/get-started/quickstart"
+              },
+              {
+                "type": "article",
+                "title": "Comprehensive Guide to GitHub for Data Scientists",
+                "url": "https://towardsdatascience.com/comprehensive-guide-to-github-for-data-scientist-d3f71bd320da/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+              },
+              {
+                "type": "video",
+                "title": "What is GitHub?",
+                "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/github@ptD8EVqwFUYr4W5A_tABY.md"
+          }
+        ]
+      },
+      {
+        "id": "r45b461NxLN6wBODJ5CNP",
+        "name": "Relational Databases",
+        "type": "topic",
+        "description": "Relational databases organize data into structured tables with rows and columns, using SQL for querying. Enforce data integrity through keys and constraints, handle complex queries and transactions efficiently. Examples: MySQL, PostgreSQL, Oracle. Used for structured data storage and strong consistency.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated SQL Roadmap",
+            "url": "https://roadmap.sh/sql"
+          },
+          {
+            "type": "course",
+            "title": "Visit the Dedicated SQL Master Course",
+            "url": "https://roadmap.sh/courses/sql"
+          },
+          {
+            "type": "course",
+            "title": "Databases and SQL",
+            "url": "https://www.edx.org/course/databases-5-sql"
+          },
+          {
+            "type": "article",
+            "title": "Relational Databases",
+            "url": "https://www.ibm.com/cloud/learn/relational-databases"
+          },
+          {
+            "type": "article",
+            "title": "Intro To Relational Databases",
+            "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+          },
+          {
+            "type": "video",
+            "title": "What is Relational Database",
+            "url": "https://youtu.be/OqjJjpjDRLc"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/relational-databases@r45b461NxLN6wBODJ5CNP.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "FihTrMO56kj9jT8O_pO2T",
+            "name": "PostgreSQL",
+            "type": "subtopic",
+            "description": "PostgreSQL is an advanced, open-source RDBMS known for robustness, extensibility, and standards compliance. Supports complex queries, custom data types, full-text search, and ACID properties. Highly extensible with strong concurrency support, suitable for web apps to data warehousing.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated PostgreSQL DBA Roadmap",
+                "url": "https://roadmap.sh/postgresql-dba"
+              },
+              {
+                "type": "official",
+                "title": "Official Website",
+                "url": "https://www.postgresql.org/"
+              },
+              {
+                "type": "article",
+                "title": "Learn PostgreSQL - Full Tutorial for Beginners",
+                "url": "https://www.postgresqltutorial.com/"
+              },
+              {
+                "type": "video",
+                "title": "PostgreSQL in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=n2Fluyr3lbc"
+              },
+              {
+                "type": "video",
+                "title": "Postgres tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/postgresql@FihTrMO56kj9jT8O_pO2T.md"
+          }
+        ]
+      },
+      {
+        "id": "EwvLPSI6AlZ4TnNIJTZA4",
+        "name": "Learn about APIs",
+        "type": "topic",
+        "description": "API (Application Programming Interface) defines rules and protocols for software applications to communicate. Provides standardized access to functionalities without understanding internal workings. Includes endpoints, request methods (GET, POST, PUT), and data formats (JSON, XML).",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated API Design Roadmap",
+            "url": "https://roadmap.sh/api-design"
+          },
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated API Security Best Practices",
+            "url": "https://roadmap.sh/api-security-best-practices"
+          },
+          {
+            "type": "article",
+            "title": "What is an API?",
+            "url": "https://aws.amazon.com/what-is/api/"
+          },
+          {
+            "type": "video",
+            "title": "What is an API (in 5 minutes)",
+            "url": "https://www.youtube.com/watch?v=ByGJQzlzxQg"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/learn-about-apis@EwvLPSI6AlZ4TnNIJTZA4.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "lfNFDZZNdrB0lbEaMtU71",
+            "name": "REST",
+            "type": "subtopic",
+            "description": "REST API is an architectural style using standard HTTP methods (GET, POST, PUT, DELETE) to interact with URI-represented resources. It's stateless, requiring complete request information, uses HTTP status codes, and typically communicates via JSON/XML. Popular for simplicity and scalability.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is a REST API?",
+                "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+              },
+              {
+                "type": "article",
+                "title": "Best practices for RESTful web API design",
+                "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+              },
+              {
+                "type": "article",
+                "title": "Roy Fieldings dissertation chapter, Representational State Transfer (REST)",
+                "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+              },
+              {
+                "type": "article",
+                "title": "Learn REST: A RESTful Tutorial",
+                "url": "https://restapitutorial.com/"
+              },
+              {
+                "type": "video",
+                "title": "What is a REST API?",
+                "url": "https://www.youtube.com/watch?v=-mN3VyJuCjM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/rest@lfNFDZZNdrB0lbEaMtU71.md"
+          },
+          {
+            "id": "sNceS4MpSIjRkWhNDmrFg",
+            "name": "JSON APIs",
+            "type": "subtopic",
+            "description": "JSON (JavaScript Object Notation) is an encoding scheme eliminating ad-hoc code for server communication. JSON API provides a standardized implementation for data stores and structures, including entity types, bundles, and fields with defined communication protocols.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "JSON API",
+                "url": "https://jsonapi.org/"
+              },
+              {
+                "type": "official",
+                "title": "JSON API Recommendations and Best Practices",
+                "url": "https://jsonapi.org/recommendations/"
+              },
+              {
+                "type": "article",
+                "title": "JSON.org - Introducing JSON",
+                "url": "https://www.json.org/json-en.html"
+              },
+              {
+                "type": "article",
+                "title": "What is JSON API?",
+                "url": "https://medium.com/@niranjan.cs/what-is-json-api-3b824fba2788"
+              },
+              {
+                "type": "video",
+                "title": "JSON API: Explained in 4 minutes",
+                "url": "https://www.youtube.com/watch?v=N-4prIh7t38"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/json-apis@sNceS4MpSIjRkWhNDmrFg.md"
+          },
+          {
+            "id": "PY9G7KQy8bF6eIdr1ydHf",
+            "name": "Authentication",
+            "type": "subtopic",
+            "description": "API authentication verifies client identity to ensure only authorized access to resources. Common methods include API keys, OAuth 2.0, JWT, and basic auth. It protects data, prevents unauthorized access, enables usage tracking, and provides granular control over API resources.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Basic Authentication",
+                "url": "https://roadmap.sh/guides/basic-authentication"
+              },
+              {
+                "type": "article",
+                "title": "Session Based Authentication",
+                "url": "https://roadmap.sh/guides/session-based-authentication"
+              },
+              {
+                "type": "article",
+                "title": "Token Based Authentication",
+                "url": "https://roadmap.sh/guides/token-authentication"
+              },
+              {
+                "type": "article",
+                "title": "JWT Authentication",
+                "url": "https://roadmap.sh/guides/jwt-authentication"
+              },
+              {
+                "type": "article",
+                "title": "OAuth - Open Authorization",
+                "url": "https://roadmap.sh/guides/oauth"
+              },
+              {
+                "type": "article",
+                "title": "SSO - Single Sign On",
+                "url": "https://roadmap.sh/guides/sso"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/authentication@PY9G7KQy8bF6eIdr1ydHf.md"
+          }
+        ]
+      },
+      {
+        "id": "ELj8af7Mi38kUbaPJfCUR",
+        "name": "Caching",
+        "type": "topic",
+        "description": "Caching stores frequently accessed data in faster locations to improve performance by reducing latency and server load. It operates at the browser, application, and database levels using strategies like LRU and time-based expiration. Balances speed gains with data consistency challenges.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Caching - AWS",
+            "url": "https://aws.amazon.com/caching/"
+          },
+          {
+            "type": "article",
+            "title": "Caching - Cloudflare",
+            "url": "https://www.cloudflare.com/learning/cdn/what-is-caching/"
+          },
+          {
+            "type": "article",
+            "title": "Caching Strategies and How to Choose the Right One",
+            "url": "https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/"
+          },
+          {
+            "type": "article",
+            "title": "Top Caching Strategies Explained",
+            "url": "https://blog.bytebytego.com/p/top-caching-strategies"
+          },
+          {
+            "type": "video",
+            "title": "Cache Systems Every Developer Should Know",
+            "url": "https://www.youtube.com/watch?v=dGAgxozNWFE"
+          },
+          {
+            "type": "video",
+            "title": "Caching Complete Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=1XJG34mewts"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/caching@ELj8af7Mi38kUbaPJfCUR.md",
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "g8GjkJAhvnSxXTZks0V1g",
+            "name": "Redis",
+            "type": "subtopic",
+            "description": "Redis is an open-source, in-memory data structure store supporting strings, lists, sets, hashes, and sorted sets. Used for caching, session management, real-time analytics, and message brokering. Offers persistence, replication, clustering, and low-latency high-throughput performance.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Redis Roadmap",
+                "url": "https://roadmap.sh/redis"
+              },
+              {
+                "type": "course",
+                "title": "Redis Crash Course",
+                "url": "https://www.youtube.com/watch?v=XCsS_NVAa1g"
+              },
+              {
+                "type": "official",
+                "title": "Redis",
+                "url": "https://redis.io/"
+              },
+              {
+                "type": "official",
+                "title": "Redis Documentation",
+                "url": "https://redis.io/docs/latest/"
+              },
+              {
+                "type": "video",
+                "title": "Redis in 100 Seconds",
+                "url": "https://www.youtube.com/watch?v=G1rOthIU-uo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/redis@g8GjkJAhvnSxXTZks0V1g.md"
+          },
+          {
+            "id": "UxS_mzVUjLigEwKrXnEeB",
+            "name": "JWT",
+            "type": "subtopic",
+            "description": "JWT (JSON Web Token) securely transmits information as JSON objects with three parts: header (token type/algorithm), payload (claims/data), and signature (integrity verification). Used for authentication and authorization in web/mobile apps. Compact, self-contained, and HTTP header-friendly.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "jwt.io Website",
+                "url": "https://jwt.io/"
+              },
+              {
+                "type": "article",
+                "title": "What is JWT?",
+                "url": "https://www.akana.com/blog/what-is-jwt"
+              },
+              {
+                "type": "article",
+                "title": "JWT Security Best Practices",
+                "url": "https://curity.io/resources/learn/jwt-best-practices/"
+              },
+              {
+                "type": "video",
+                "title": "What Is JWT and Why Should You Use JWT",
+                "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/jwt@UxS_mzVUjLigEwKrXnEeB.md"
+          }
+        ]
+      },
+      {
+        "id": "LJt27onEOeIBomiEMTyKd",
+        "name": "More about Databases",
+        "type": "topic",
+        "description": "A database is a structured collection of useful data that serves as an organizational asset. A database management system (DBMS) is software designed to maintain and extract large data collections efficiently and timely.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Oracle: What is a Database?",
+            "url": "https://www.oracle.com/database/what-is-database/"
+          },
+          {
+            "type": "article",
+            "title": "Prisma.io: What are Databases?",
+            "url": "https://www.prisma.io/dataguide/intro/what-are-databases"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/more-about-databases@LJt27onEOeIBomiEMTyKd.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "Z7jp_Juj5PffSxV7UZcBb",
+            "name": "ORMs",
+            "type": "subtopic",
+            "description": "ORM (Object-Relational Mapping) allows developers to interact with databases using object-oriented concepts. Maps database tables to classes and rows to objects, eliminating raw SQL queries. Simplifies data manipulation and improves maintainability. Popular ORMs: Hibernate (Java), Entity Framework (.NET), SQLAlchemy (Python).",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is an ORM, how does it work, and how should I use one?",
+                "url": "https://stackoverflow.com/a/1279678"
+              },
+              {
+                "type": "article",
+                "title": "What is an ORM",
+                "url": "https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/"
+              },
+              {
+                "type": "video",
+                "title": "Why Use an ORM?",
+                "url": "https://www.youtube.com/watch?v=vHt2LC1EM3Q"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/orms@Z7jp_Juj5PffSxV7UZcBb.md"
+          },
+          {
+            "id": "qSAdfaGUfn8mtmDjHJi3z",
+            "name": "ACID",
+            "type": "subtopic",
+            "description": "ACID represents four database transaction properties: Atomicity (all-or-nothing execution), Consistency (valid state maintenance), Isolation (concurrent transaction separation), and Durability (permanent commit survival). These principles ensure reliable data processing and integrity in database systems, crucial for financial and e-commerce applications.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is ACID Compliant Database?",
+                "url": "https://retool.com/blog/whats-an-acid-compliant-database/"
+              },
+              {
+                "type": "article",
+                "title": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+                "url": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+              },
+              {
+                "type": "article",
+                "title": "A Beginner's Guide to ACID and Database Transactions",
+                "url": "https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/"
+              },
+              {
+                "type": "video",
+                "title": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+                "url": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+              },
+              {
+                "type": "video",
+                "title": "ACID Transactions (Explained by Example)",
+                "url": "https://www.youtube.com/watch?v=pomxJOFVcQs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/acid@qSAdfaGUfn8mtmDjHJi3z.md"
+          },
+          {
+            "id": "rq_y_OBMD9AH_4aoecvAi",
+            "name": "Transactions",
+            "type": "subtopic",
+            "description": "Database transactions are a series of operations executed as atomic units to ensure data integrity. Follow ACID properties: Atomicity (all-or-nothing), Consistency (valid state), Isolation (no interference), Durability (permanent changes). Ensure reliable concurrent operations and data consistency.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What are Transactions?",
+                "url": "https://fauna.com/blog/database-transaction"
+              },
+              {
+                "type": "video",
+                "title": "What is a Database transaction?",
+                "url": "https://www.youtube.com/watch?v=wHUOeXbZCYA"
+              },
+              {
+                "type": "video",
+                "title": "ACID Properties in Databases With Examples",
+                "url": "https://www.youtube.com/watch?v=GAe5oB742dw"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/transactions@rq_y_OBMD9AH_4aoecvAi.md"
+          },
+          {
+            "id": "bQnOAu863hsHdyNMNyJop",
+            "name": "N+1 Problem",
+            "type": "subtopic",
+            "description": "The N+1 problem occurs when an application retrieves a list then performs additional queries for each item's related data. Results in inefficient query multiplication (1 + N queries instead of optimized joins). Severely impacts performance with larger datasets. Solved through query optimization, joins, or batching techniques.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "In Detail Explanation of N+1 Problem",
+                "url": "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89"
+              },
+              {
+                "type": "article",
+                "title": "What is the N+1 Problem",
+                "url": "https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it"
+              },
+              {
+                "type": "article",
+                "title": "Solving N+1 Problem: For Java Backend Developers",
+                "url": "https://dev.to/jackynote/solving-the-notorious-n1-problem-optimizing-database-queries-for-java-backend-developers-2o0p"
+              },
+              {
+                "type": "video",
+                "title": "SQLite and the N+1 (no) problem",
+                "url": "https://www.youtube.com/watch?v=qPfAQY_RahA"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/n1-problem@bQnOAu863hsHdyNMNyJop.md"
+          }
+        ]
+      },
+      {
+        "id": "STQQbPa7PE3gbjMdL6P-t",
+        "name": "Testing",
+        "type": "topic",
+        "description": "Testing systematically evaluates software functionality, performance, and quality against requirements. Includes unit, integration, system, and acceptance testing levels. Can be manual or automated to identify defects, validate features, and ensure reliable performance before deployment.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Software Testing?",
+            "url": "https://www.guru99.com/software-testing-introduction-importance.html"
+          },
+          {
+            "type": "article",
+            "title": "Testing Pyramid",
+            "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/backend-beginner/content/testing@STQQbPa7PE3gbjMdL6P-t.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "381Kw1IMRv7CJp-Uf--qd",
+            "name": "Integration Testing",
+            "type": "subtopic",
+            "description": "Integration testing verifies interactions between software components to ensure they work together correctly. Tests module communication via APIs, databases, and third-party services. Catches integration issues like data mismatches and protocol errors that unit tests miss.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Integration Testing",
+                "url": "https://www.guru99.com/integration-testing.html"
+              },
+              {
+                "type": "article",
+                "title": "How to Integrate and Test Your Tech Stack",
+                "url": "https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/"
+              },
+              {
+                "type": "video",
+                "title": "What is Integration Testing?",
+                "url": "https://www.youtube.com/watch?v=kRD6PA6uxiY"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/integration-testing@381Kw1IMRv7CJp-Uf--qd.md"
+          },
+          {
+            "id": "3OYm6b9f6WOrKi4KTOZYK",
+            "name": "Unit Testing",
+            "type": "subtopic",
+            "description": "Unit testing tests individual components or units in isolation to ensure correct functionality. Focuses on the smallest testable parts like functions with predefined inputs and expected outcomes. Automated tests written by developers during coding to catch bugs early and improve reliability.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Unit Testing",
+                "url": "https://en.wikipedia.org/wiki/Unit_testing"
+              },
+              {
+                "type": "article",
+                "title": "What is Unit Testing?",
+                "url": "https://www.guru99.com/unit-testing-guide.html"
+              },
+              {
+                "type": "video",
+                "title": "What is Unit Testing?",
+                "url": "https://youtu.be/x95ez7_V7rA?si=JhCVhcEN7zZOkxdp"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/unit-testing@3OYm6b9f6WOrKi4KTOZYK.md"
+          },
+          {
+            "id": "NAGisfq2CgeK3SsuRjnMw",
+            "name": "Functional Testing",
+            "type": "subtopic",
+            "description": "Functional testing ensures software meets functional requirements through black box testing. Testers provide input and compare expected vs actual output without understanding the source code. Contrasts with non-functional testing (performance, load, scalability).",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is Functional Testing?",
+                "url": "https://www.guru99.com/functional-testing.html"
+              },
+              {
+                "type": "video",
+                "title": "Functional Testing vs Non-Functional Testing",
+                "url": "https://www.youtube.com/watch?v=NgQT7miTP9M"
+              },
+              {
+                "type": "video",
+                "title": "Software Testing Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=u6QfIXgjwGQ"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/backend-beginner/content/functional-testing@NAGisfq2CgeK3SsuRjnMw.md"
+          }
+        ]
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "2f0ZO6GJElfZ2Eis28Hzg",
+        "name": "Pick a Language",
+        "type": "topic",
+        "description": "Web development divides into Frontend (HTML, CSS, JavaScript) and Backend Development. Backend uses server-side languages like Python, Java, or Node.js, complemented by databases, frameworks, and web servers for website functionality. Choose a language based on project needs and preferences.",
+        "resources": []
+      },
+      {
+        "id": "8-lO-v6jCYYoklEJXULxN",
+        "name": "JavaScript",
+        "type": "subtopic",
+        "description": "JavaScript is a versatile, high-level language for web interactivity and dynamic features. Runs client-side in browsers and server-side with Node.js for full-stack development. Supports multiple programming styles with a rich ecosystem of frameworks like React, Angular, and Vue.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          },
+          {
+            "type": "book",
+            "title": "JavaScript from Beginner to Professional",
+            "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+          },
+          {
+            "type": "article",
+            "title": "The Modern JavaScript Tutorial",
+            "url": "https://javascript.info/"
+          },
+          {
+            "type": "article",
+            "title": "Build 30 Javascript projects in 30 days",
+            "url": "https://javascript30.com/"
+          },
+          {
+            "type": "video",
+            "title": "JavaScript Crash Course For Beginners",
+            "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+          }
+        ]
+      },
+      {
+        "id": "BdXbcz4-ar3XOX0wIKzBp",
+        "name": "Go",
+        "type": "subtopic",
+        "description": "Go (Golang) is Google's statically typed, compiled language combining efficiency with ease of use. Features built-in concurrency via goroutines and channels, simple syntax, fast compilation, and a comprehensive standard library. Popular for microservices, web servers, and cloud-native development.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Go Roadmap",
+            "url": "https://roadmap.sh/golang"
+          },
+          {
+            "type": "official",
+            "title": "Go Reference Documentation",
+            "url": "https://go.dev/doc/"
+          },
+          {
+            "type": "article",
+            "title": "Go by Example - annotated example programs",
+            "url": "https://gobyexample.com/"
+          },
+          {
+            "type": "article",
+            "title": "Go, the Programming Language of the Cloud",
+            "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+          },
+          {
+            "type": "video",
+            "title": "Go Programming – Golang Course with Bonus Projects",
+            "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
+          }
+        ]
+      },
+      {
+        "id": "J_sVHsD72Yzyqb9KCIvAY",
+        "name": "Python",
+        "type": "subtopic",
+        "description": "Python is a popular programming language that is easy to learn and read. It is used for building web applications, analyzing data, automating tasks, and creating intelligent systems. Python has a large community and many libraries that make it powerful and flexible for various types of projects.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Python Roadmap",
+            "url": "https://roadmap.sh/python"
+          },
+          {
+            "type": "official",
+            "title": "Python",
+            "url": "https://www.python.org/"
+          },
+          {
+            "type": "article",
+            "title": "Real Python",
+            "url": "https://realpython.com/"
+          },
+          {
+            "type": "article",
+            "title": "Automate the Boring Stuff with Python",
+            "url": "https://automatetheboringstuff.com/"
+          }
+        ]
+      },
+      {
+        "id": "ezdqQW9wTUw93F6kjOzku",
+        "name": "Version Control Systems",
+        "type": "topic",
+        "description": "Version control systems (VCS) are tools that track changes to code and files over time, enabling multiple users to collaborate on projects, maintain history, and manage different versions of codebases. They help in tracking modifications, merging changes, and resolving conflicts. There are two main types of VCS: centralized and distributed. Centralized systems (like Subversion and CVS) rely on a single central repository, while distributed systems (like Git and Mercurial) allow each user to have a complete copy of the repository, including its history. Distributed VCSs, such as Git, are particularly popular for their flexibility, branching capabilities, and robust support for collaborative workflows.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "Git",
+            "url": "https://git-scm.com/"
+          },
+          {
+            "type": "official",
+            "title": "Mercurial",
+            "url": "https://www.mercurial-scm.org/"
+          },
+          {
+            "type": "official",
+            "title": "Subversion",
+            "url": "https://subversion.apache.org/"
+          },
+          {
+            "type": "article",
+            "title": "What is Version Control?",
+            "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+          },
+          {
+            "type": "video",
+            "title": "Version Control System (VCS)",
+            "url": "https://www.youtube.com/watch?v=SVkuliabq4g"
+          }
+        ]
+      },
+      {
+        "id": "_I1E__wCIVrhjMk6IMieE",
+        "name": "Git",
+        "type": "subtopic",
+        "description": "Git is a distributed version control system used to track changes in source code during software development. It enables multiple developers to collaborate on a project by managing versions of code, allowing for branching, merging, and tracking of revisions. Git ensures that changes are recorded with a complete history, enabling rollback to previous versions if necessary. It supports distributed workflows, meaning each developer has a complete local copy of the project’s history, facilitating seamless collaboration, conflict resolution, and efficient management of code across different teams or environments.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "article",
+            "title": "Learn Git with Tutorials, News and Tips - Atlassian",
+            "url": "https://www.atlassian.com/git"
+          },
+          {
+            "type": "article",
+            "title": "Getting Started with Git and GitHub: A Complete Tutorial for Beginner",
+            "url": "https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+          },
+          {
+            "type": "article",
+            "title": "Git Cheat Sheet",
+            "url": "https://cs.fyi/guide/git-cheatsheet"
+          },
+          {
+            "type": "video",
+            "title": "Git & GitHub Crash Course For Beginners",
+            "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+          }
+        ]
+      },
+      {
+        "id": "NvUcSDWBhzJZ31nzT4UlE",
+        "name": "Repo hosting services",
+        "type": "topic",
+        "description": "Repo hosting services provide storage, management, and collaboration tools for version-controlled code repositories. Support Git, Mercurial, Subversion with features like branching, pull requests, issue tracking, code review, and CI/CD integration. Popular services: GitHub, GitLab, Bitbucket.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitLab",
+            "url": "https://about.gitlab.com/"
+          },
+          {
+            "type": "official",
+            "title": "BitBucket",
+            "url": "https://bitbucket.org/product/guides/getting-started/overview"
+          }
+        ]
+      },
+      {
+        "id": "ptD8EVqwFUYr4W5A_tABY",
+        "name": "Github",
+        "type": "subtopic",
+        "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitHub Docs",
+            "url": "https://docs.github.com/en/get-started/quickstart"
+          },
+          {
+            "type": "article",
+            "title": "Comprehensive Guide to GitHub for Data Scientists",
+            "url": "https://towardsdatascience.com/comprehensive-guide-to-github-for-data-scientist-d3f71bd320da/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+          },
+          {
+            "type": "video",
+            "title": "What is GitHub?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+          }
+        ]
+      },
+      {
+        "id": "r45b461NxLN6wBODJ5CNP",
+        "name": "Relational Databases",
+        "type": "topic",
+        "description": "Relational databases organize data into structured tables with rows and columns, using SQL for querying. Enforce data integrity through keys and constraints, handle complex queries and transactions efficiently. Examples: MySQL, PostgreSQL, Oracle. Used for structured data storage and strong consistency.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated SQL Roadmap",
+            "url": "https://roadmap.sh/sql"
+          },
+          {
+            "type": "course",
+            "title": "Visit the Dedicated SQL Master Course",
+            "url": "https://roadmap.sh/courses/sql"
+          },
+          {
+            "type": "course",
+            "title": "Databases and SQL",
+            "url": "https://www.edx.org/course/databases-5-sql"
+          },
+          {
+            "type": "article",
+            "title": "Relational Databases",
+            "url": "https://www.ibm.com/cloud/learn/relational-databases"
+          },
+          {
+            "type": "article",
+            "title": "Intro To Relational Databases",
+            "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+          },
+          {
+            "type": "video",
+            "title": "What is Relational Database",
+            "url": "https://youtu.be/OqjJjpjDRLc"
+          }
+        ]
+      },
+      {
+        "id": "FihTrMO56kj9jT8O_pO2T",
+        "name": "PostgreSQL",
+        "type": "subtopic",
+        "description": "PostgreSQL is an advanced, open-source RDBMS known for robustness, extensibility, and standards compliance. Supports complex queries, custom data types, full-text search, and ACID properties. Highly extensible with strong concurrency support, suitable for web apps to data warehousing.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated PostgreSQL DBA Roadmap",
+            "url": "https://roadmap.sh/postgresql-dba"
+          },
+          {
+            "type": "official",
+            "title": "Official Website",
+            "url": "https://www.postgresql.org/"
+          },
+          {
+            "type": "article",
+            "title": "Learn PostgreSQL - Full Tutorial for Beginners",
+            "url": "https://www.postgresqltutorial.com/"
+          },
+          {
+            "type": "video",
+            "title": "PostgreSQL in 100 Seconds",
+            "url": "https://www.youtube.com/watch?v=n2Fluyr3lbc"
+          },
+          {
+            "type": "video",
+            "title": "Postgres tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk"
+          }
+        ]
+      },
+      {
+        "id": "EwvLPSI6AlZ4TnNIJTZA4",
+        "name": "Learn about APIs",
+        "type": "topic",
+        "description": "API (Application Programming Interface) defines rules and protocols for software applications to communicate. Provides standardized access to functionalities without understanding internal workings. Includes endpoints, request methods (GET, POST, PUT), and data formats (JSON, XML).",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated API Design Roadmap",
+            "url": "https://roadmap.sh/api-design"
+          },
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated API Security Best Practices",
+            "url": "https://roadmap.sh/api-security-best-practices"
+          },
+          {
+            "type": "article",
+            "title": "What is an API?",
+            "url": "https://aws.amazon.com/what-is/api/"
+          },
+          {
+            "type": "video",
+            "title": "What is an API (in 5 minutes)",
+            "url": "https://www.youtube.com/watch?v=ByGJQzlzxQg"
+          }
+        ]
+      },
+      {
+        "id": "lfNFDZZNdrB0lbEaMtU71",
+        "name": "REST",
+        "type": "subtopic",
+        "description": "REST API is an architectural style using standard HTTP methods (GET, POST, PUT, DELETE) to interact with URI-represented resources. It's stateless, requiring complete request information, uses HTTP status codes, and typically communicates via JSON/XML. Popular for simplicity and scalability.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is a REST API?",
+            "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+          },
+          {
+            "type": "article",
+            "title": "Best practices for RESTful web API design",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+          },
+          {
+            "type": "article",
+            "title": "Roy Fieldings dissertation chapter, Representational State Transfer (REST)",
+            "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+          },
+          {
+            "type": "article",
+            "title": "Learn REST: A RESTful Tutorial",
+            "url": "https://restapitutorial.com/"
+          },
+          {
+            "type": "video",
+            "title": "What is a REST API?",
+            "url": "https://www.youtube.com/watch?v=-mN3VyJuCjM"
+          }
+        ]
+      },
+      {
+        "id": "sNceS4MpSIjRkWhNDmrFg",
+        "name": "JSON APIs",
+        "type": "subtopic",
+        "description": "JSON (JavaScript Object Notation) is an encoding scheme eliminating ad-hoc code for server communication. JSON API provides a standardized implementation for data stores and structures, including entity types, bundles, and fields with defined communication protocols.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "JSON API",
+            "url": "https://jsonapi.org/"
+          },
+          {
+            "type": "official",
+            "title": "JSON API Recommendations and Best Practices",
+            "url": "https://jsonapi.org/recommendations/"
+          },
+          {
+            "type": "article",
+            "title": "JSON.org - Introducing JSON",
+            "url": "https://www.json.org/json-en.html"
+          },
+          {
+            "type": "article",
+            "title": "What is JSON API?",
+            "url": "https://medium.com/@niranjan.cs/what-is-json-api-3b824fba2788"
+          },
+          {
+            "type": "video",
+            "title": "JSON API: Explained in 4 minutes",
+            "url": "https://www.youtube.com/watch?v=N-4prIh7t38"
+          }
+        ]
+      },
+      {
+        "id": "PY9G7KQy8bF6eIdr1ydHf",
+        "name": "Authentication",
+        "type": "subtopic",
+        "description": "API authentication verifies client identity to ensure only authorized access to resources. Common methods include API keys, OAuth 2.0, JWT, and basic auth. It protects data, prevents unauthorized access, enables usage tracking, and provides granular control over API resources.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Basic Authentication",
+            "url": "https://roadmap.sh/guides/basic-authentication"
+          },
+          {
+            "type": "article",
+            "title": "Session Based Authentication",
+            "url": "https://roadmap.sh/guides/session-based-authentication"
+          },
+          {
+            "type": "article",
+            "title": "Token Based Authentication",
+            "url": "https://roadmap.sh/guides/token-authentication"
+          },
+          {
+            "type": "article",
+            "title": "JWT Authentication",
+            "url": "https://roadmap.sh/guides/jwt-authentication"
+          },
+          {
+            "type": "article",
+            "title": "OAuth - Open Authorization",
+            "url": "https://roadmap.sh/guides/oauth"
+          },
+          {
+            "type": "article",
+            "title": "SSO - Single Sign On",
+            "url": "https://roadmap.sh/guides/sso"
+          }
+        ]
+      },
+      {
+        "id": "ELj8af7Mi38kUbaPJfCUR",
+        "name": "Caching",
+        "type": "topic",
+        "description": "Caching stores frequently accessed data in faster locations to improve performance by reducing latency and server load. It operates at the browser, application, and database levels using strategies like LRU and time-based expiration. Balances speed gains with data consistency challenges.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Caching - AWS",
+            "url": "https://aws.amazon.com/caching/"
+          },
+          {
+            "type": "article",
+            "title": "Caching - Cloudflare",
+            "url": "https://www.cloudflare.com/learning/cdn/what-is-caching/"
+          },
+          {
+            "type": "article",
+            "title": "Caching Strategies and How to Choose the Right One",
+            "url": "https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/"
+          },
+          {
+            "type": "article",
+            "title": "Top Caching Strategies Explained",
+            "url": "https://blog.bytebytego.com/p/top-caching-strategies"
+          },
+          {
+            "type": "video",
+            "title": "Cache Systems Every Developer Should Know",
+            "url": "https://www.youtube.com/watch?v=dGAgxozNWFE"
+          },
+          {
+            "type": "video",
+            "title": "Caching Complete Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=1XJG34mewts"
+          }
+        ]
+      },
+      {
+        "id": "g8GjkJAhvnSxXTZks0V1g",
+        "name": "Redis",
+        "type": "subtopic",
+        "description": "Redis is an open-source, in-memory data structure store supporting strings, lists, sets, hashes, and sorted sets. Used for caching, session management, real-time analytics, and message brokering. Offers persistence, replication, clustering, and low-latency high-throughput performance.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Redis Roadmap",
+            "url": "https://roadmap.sh/redis"
+          },
+          {
+            "type": "course",
+            "title": "Redis Crash Course",
+            "url": "https://www.youtube.com/watch?v=XCsS_NVAa1g"
+          },
+          {
+            "type": "official",
+            "title": "Redis",
+            "url": "https://redis.io/"
+          },
+          {
+            "type": "official",
+            "title": "Redis Documentation",
+            "url": "https://redis.io/docs/latest/"
+          },
+          {
+            "type": "video",
+            "title": "Redis in 100 Seconds",
+            "url": "https://www.youtube.com/watch?v=G1rOthIU-uo"
+          }
+        ]
+      },
+      {
+        "id": "UxS_mzVUjLigEwKrXnEeB",
+        "name": "JWT",
+        "type": "subtopic",
+        "description": "JWT (JSON Web Token) securely transmits information as JSON objects with three parts: header (token type/algorithm), payload (claims/data), and signature (integrity verification). Used for authentication and authorization in web/mobile apps. Compact, self-contained, and HTTP header-friendly.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "jwt.io Website",
+            "url": "https://jwt.io/"
+          },
+          {
+            "type": "article",
+            "title": "What is JWT?",
+            "url": "https://www.akana.com/blog/what-is-jwt"
+          },
+          {
+            "type": "article",
+            "title": "JWT Security Best Practices",
+            "url": "https://curity.io/resources/learn/jwt-best-practices/"
+          },
+          {
+            "type": "video",
+            "title": "What Is JWT and Why Should You Use JWT",
+            "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM"
+          }
+        ]
+      },
+      {
+        "id": "LJt27onEOeIBomiEMTyKd",
+        "name": "More about Databases",
+        "type": "topic",
+        "description": "A database is a structured collection of useful data that serves as an organizational asset. A database management system (DBMS) is software designed to maintain and extract large data collections efficiently and timely.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Oracle: What is a Database?",
+            "url": "https://www.oracle.com/database/what-is-database/"
+          },
+          {
+            "type": "article",
+            "title": "Prisma.io: What are Databases?",
+            "url": "https://www.prisma.io/dataguide/intro/what-are-databases"
+          }
+        ]
+      },
+      {
+        "id": "Z7jp_Juj5PffSxV7UZcBb",
+        "name": "ORMs",
+        "type": "subtopic",
+        "description": "ORM (Object-Relational Mapping) allows developers to interact with databases using object-oriented concepts. Maps database tables to classes and rows to objects, eliminating raw SQL queries. Simplifies data manipulation and improves maintainability. Popular ORMs: Hibernate (Java), Entity Framework (.NET), SQLAlchemy (Python).",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is an ORM, how does it work, and how should I use one?",
+            "url": "https://stackoverflow.com/a/1279678"
+          },
+          {
+            "type": "article",
+            "title": "What is an ORM",
+            "url": "https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/"
+          },
+          {
+            "type": "video",
+            "title": "Why Use an ORM?",
+            "url": "https://www.youtube.com/watch?v=vHt2LC1EM3Q"
+          }
+        ]
+      },
+      {
+        "id": "qSAdfaGUfn8mtmDjHJi3z",
+        "name": "ACID",
+        "type": "subtopic",
+        "description": "ACID represents four database transaction properties: Atomicity (all-or-nothing execution), Consistency (valid state maintenance), Isolation (concurrent transaction separation), and Durability (permanent commit survival). These principles ensure reliable data processing and integrity in database systems, crucial for financial and e-commerce applications.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is ACID Compliant Database?",
+            "url": "https://retool.com/blog/whats-an-acid-compliant-database/"
+          },
+          {
+            "type": "article",
+            "title": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+            "url": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+          },
+          {
+            "type": "article",
+            "title": "A Beginner's Guide to ACID and Database Transactions",
+            "url": "https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/"
+          },
+          {
+            "type": "video",
+            "title": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+            "url": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+          },
+          {
+            "type": "video",
+            "title": "ACID Transactions (Explained by Example)",
+            "url": "https://www.youtube.com/watch?v=pomxJOFVcQs"
+          }
+        ]
+      },
+      {
+        "id": "rq_y_OBMD9AH_4aoecvAi",
+        "name": "Transactions",
+        "type": "subtopic",
+        "description": "Database transactions are a series of operations executed as atomic units to ensure data integrity. Follow ACID properties: Atomicity (all-or-nothing), Consistency (valid state), Isolation (no interference), Durability (permanent changes). Ensure reliable concurrent operations and data consistency.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What are Transactions?",
+            "url": "https://fauna.com/blog/database-transaction"
+          },
+          {
+            "type": "video",
+            "title": "What is a Database transaction?",
+            "url": "https://www.youtube.com/watch?v=wHUOeXbZCYA"
+          },
+          {
+            "type": "video",
+            "title": "ACID Properties in Databases With Examples",
+            "url": "https://www.youtube.com/watch?v=GAe5oB742dw"
+          }
+        ]
+      },
+      {
+        "id": "bQnOAu863hsHdyNMNyJop",
+        "name": "N+1 Problem",
+        "type": "subtopic",
+        "description": "The N+1 problem occurs when an application retrieves a list then performs additional queries for each item's related data. Results in inefficient query multiplication (1 + N queries instead of optimized joins). Severely impacts performance with larger datasets. Solved through query optimization, joins, or batching techniques.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "In Detail Explanation of N+1 Problem",
+            "url": "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89"
+          },
+          {
+            "type": "article",
+            "title": "What is the N+1 Problem",
+            "url": "https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it"
+          },
+          {
+            "type": "article",
+            "title": "Solving N+1 Problem: For Java Backend Developers",
+            "url": "https://dev.to/jackynote/solving-the-notorious-n1-problem-optimizing-database-queries-for-java-backend-developers-2o0p"
+          },
+          {
+            "type": "video",
+            "title": "SQLite and the N+1 (no) problem",
+            "url": "https://www.youtube.com/watch?v=qPfAQY_RahA"
+          }
+        ]
+      },
+      {
+        "id": "STQQbPa7PE3gbjMdL6P-t",
+        "name": "Testing",
+        "type": "topic",
+        "description": "Testing systematically evaluates software functionality, performance, and quality against requirements. Includes unit, integration, system, and acceptance testing levels. Can be manual or automated to identify defects, validate features, and ensure reliable performance before deployment.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Software Testing?",
+            "url": "https://www.guru99.com/software-testing-introduction-importance.html"
+          },
+          {
+            "type": "article",
+            "title": "Testing Pyramid",
+            "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+          }
+        ]
+      },
+      {
+        "id": "381Kw1IMRv7CJp-Uf--qd",
+        "name": "Integration Testing",
+        "type": "subtopic",
+        "description": "Integration testing verifies interactions between software components to ensure they work together correctly. Tests module communication via APIs, databases, and third-party services. Catches integration issues like data mismatches and protocol errors that unit tests miss.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Integration Testing",
+            "url": "https://www.guru99.com/integration-testing.html"
+          },
+          {
+            "type": "article",
+            "title": "How to Integrate and Test Your Tech Stack",
+            "url": "https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/"
+          },
+          {
+            "type": "video",
+            "title": "What is Integration Testing?",
+            "url": "https://www.youtube.com/watch?v=kRD6PA6uxiY"
+          }
+        ]
+      },
+      {
+        "id": "3OYm6b9f6WOrKi4KTOZYK",
+        "name": "Unit Testing",
+        "type": "subtopic",
+        "description": "Unit testing tests individual components or units in isolation to ensure correct functionality. Focuses on the smallest testable parts like functions with predefined inputs and expected outcomes. Automated tests written by developers during coding to catch bugs early and improve reliability.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Unit Testing",
+            "url": "https://en.wikipedia.org/wiki/Unit_testing"
+          },
+          {
+            "type": "article",
+            "title": "What is Unit Testing?",
+            "url": "https://www.guru99.com/unit-testing-guide.html"
+          },
+          {
+            "type": "video",
+            "title": "What is Unit Testing?",
+            "url": "https://youtu.be/x95ez7_V7rA?si=JhCVhcEN7zZOkxdp"
+          }
+        ]
+      },
+      {
+        "id": "NAGisfq2CgeK3SsuRjnMw",
+        "name": "Functional Testing",
+        "type": "subtopic",
+        "description": "Functional testing ensures software meets functional requirements through black box testing. Testers provide input and compare expected vs actual output without understanding the source code. Contrasts with non-functional testing (performance, load, scalability).",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Functional Testing?",
+            "url": "https://www.guru99.com/functional-testing.html"
+          },
+          {
+            "type": "video",
+            "title": "Functional Testing vs Non-Functional Testing",
+            "url": "https://www.youtube.com/watch?v=NgQT7miTP9M"
+          },
+          {
+            "type": "video",
+            "title": "Software Testing Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=u6QfIXgjwGQ"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2f0ZO6GJElfZ2Eis28Hzg",
+        "target": "ezdqQW9wTUw93F6kjOzku",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "NvUcSDWBhzJZ31nzT4UlE",
+        "target": "r45b461NxLN6wBODJ5CNP",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "r45b461NxLN6wBODJ5CNP",
+        "target": "EwvLPSI6AlZ4TnNIJTZA4",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "EwvLPSI6AlZ4TnNIJTZA4",
+        "target": "ELj8af7Mi38kUbaPJfCUR",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ELj8af7Mi38kUbaPJfCUR",
+        "target": "LJt27onEOeIBomiEMTyKd",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "LJt27onEOeIBomiEMTyKd",
+        "target": "STQQbPa7PE3gbjMdL6P-t",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "3OYm6b9f6WOrKi4KTOZYK",
+        "target": "STQQbPa7PE3gbjMdL6P-t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "381Kw1IMRv7CJp-Uf--qd",
+        "target": "STQQbPa7PE3gbjMdL6P-t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NAGisfq2CgeK3SsuRjnMw",
+        "target": "STQQbPa7PE3gbjMdL6P-t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8-lO-v6jCYYoklEJXULxN",
+        "target": "2f0ZO6GJElfZ2Eis28Hzg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BdXbcz4-ar3XOX0wIKzBp",
+        "target": "2f0ZO6GJElfZ2Eis28Hzg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "J_sVHsD72Yzyqb9KCIvAY",
+        "target": "2f0ZO6GJElfZ2Eis28Hzg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_I1E__wCIVrhjMk6IMieE",
+        "target": "ezdqQW9wTUw93F6kjOzku",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ptD8EVqwFUYr4W5A_tABY",
+        "target": "NvUcSDWBhzJZ31nzT4UlE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FihTrMO56kj9jT8O_pO2T",
+        "target": "r45b461NxLN6wBODJ5CNP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "lfNFDZZNdrB0lbEaMtU71",
+        "target": "EwvLPSI6AlZ4TnNIJTZA4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sNceS4MpSIjRkWhNDmrFg",
+        "target": "EwvLPSI6AlZ4TnNIJTZA4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PY9G7KQy8bF6eIdr1ydHf",
+        "target": "EwvLPSI6AlZ4TnNIJTZA4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "g8GjkJAhvnSxXTZks0V1g",
+        "target": "ELj8af7Mi38kUbaPJfCUR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Z7jp_Juj5PffSxV7UZcBb",
+        "target": "LJt27onEOeIBomiEMTyKd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qSAdfaGUfn8mtmDjHJi3z",
+        "target": "LJt27onEOeIBomiEMTyKd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rq_y_OBMD9AH_4aoecvAi",
+        "target": "LJt27onEOeIBomiEMTyKd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bQnOAu863hsHdyNMNyJop",
+        "target": "LJt27onEOeIBomiEMTyKd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UxS_mzVUjLigEwKrXnEeB",
+        "target": "ELj8af7Mi38kUbaPJfCUR",
+        "type": "subtopic_of"
+      }
+    ]
+  }
+}
