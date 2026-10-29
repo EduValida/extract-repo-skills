@@ -58,7 +58,10 @@ class RepositoryAnalysisTests(GitRepositoryFixture, unittest.TestCase):
     def analyze(self, provider=None, **options):
         return analyze_repository(
             RepositoryAnalysisRequest(
-                "local:fixture", options.pop("emails", [self.email]), **options
+                "local:fixture",
+                options.pop("emails", [self.email]),
+                options.pop("skill", "css"),
+                **options,
             ),
             self.settings,
             Path(self.temp.name),
@@ -382,7 +385,7 @@ class RepositoryAnalysisTests(GitRepositoryFixture, unittest.TestCase):
                 self.assertRaises(AnalysisError) as caught,
             ):
                 analyze_repository(
-                    RepositoryAnalysisRequest("local:fixture", [self.email]),
+                    RepositoryAnalysisRequest("local:fixture", [self.email], "css"),
                     replace(self.settings, limits=limits),
                     Path(self.temp.name),
                     provider=provider,
@@ -467,4 +470,4 @@ class RepositoryAnalysisTests(GitRepositoryFixture, unittest.TestCase):
         self.assertEqual(caught.exception.status, 403)
         for emails in ([self.email, self.email], ["Display Name"], []):
             with self.assertRaises(AnalysisError):
-                RepositoryAnalysisRequest("local:fixture", emails)
+                RepositoryAnalysisRequest("local:fixture", emails, "css")

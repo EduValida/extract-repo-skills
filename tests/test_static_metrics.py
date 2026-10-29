@@ -211,7 +211,12 @@ class MetricsIntegrationTests(GitRepositoryFixture, unittest.TestCase):
 
     def analyze(self, provider=None, **options):
         return analyze_repository(
-            RepositoryAnalysisRequest("local:fixture", [self.email], **options),
+            RepositoryAnalysisRequest(
+                "local:fixture",
+                [self.email],
+                options.pop("skill", "css"),
+                **options,
+            ),
             self.settings,
             Path(self.temp.name),
             provider=provider,

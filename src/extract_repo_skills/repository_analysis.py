@@ -30,6 +30,7 @@ PROMPT_VERSION = "repository-artifacts-v2"
 class RepositoryAnalysisRequest:
     repository: str
     emails: list[str]
+    skill: str
     ref: str = "HEAD"
     max_commits: int = 50
     dry_run: bool = False
@@ -56,6 +57,14 @@ class RepositoryAnalysisRequest:
                 "invalid_request", "Supply 1–20 unique exact author emails"
             )
         if (
+            not isinstance(self.skill, str)
+            or not 1 <= len(self.skill) <= 100
+            or not re.fullmatch(r"[a-z0-9]+(?:[._-][a-z0-9]+)*", self.skill.strip().lower())
+        ):
+            raise AnalysisError(
+                "invalid_request", "Skill must be a nonempty identifier (e.g. 'python', 'css')"
+            )
+        if (
             not isinstance(self.ref, str)
             or not 1 <= len(self.ref) <= 256
             or self.ref.startswith("-")
@@ -73,18 +82,19 @@ class RepositoryAnalysisRequest:
     def from_dict(cls, value: dict):
         if (
             not isinstance(value, dict)
-            or set(value) - {"repository", "user", "ref", "max_commits", "dry_run"}
-            or not {"repository", "user"} <= set(value)
+            or set(value) - {"repository", "user", "skill", "ref", "max_commits", "dry_run"}
+            or not {"repository", "user", "skill"} <= set(value)
             or not isinstance(value["user"], dict)
             or set(value["user"]) != {"emails"}
         ):
             raise AnalysisError(
                 "invalid_request",
-                "Expected repository, user.emails and optional analysis controls",
+                "Expected repository, user.emails, skill and optional analysis controls",
             )
         return cls(
             value["repository"],
             value["user"]["emails"],
+            value["skill"],
             value.get("ref", "HEAD"),
             value.get("max_commits", 50),
             value.get("dry_run", False),
@@ -150,13 +160,116 @@ class ServiceSettings:
             max_concurrency=int(os.getenv("EXTRACT_MAX_CONCURRENCY", "2")),
             cloc_executable=os.getenv("EXTRACT_CLOC_EXECUTABLE", "cloc"),
             limits=CollectionLimits(
-                max_input_chars=int(os.getenv("EXTRACT_MAX_INPUT_CHARS", "60000"))
+                max_input_chars=int(os.getenv("EXTRACT_MAX_INPUT_CHARS", "100000")),
+                max_context_chars=int(os.getenv("EXTRACT_MAX_CONTEXT_CHARS", "25000")),
             ),
         )
 
 
+def resolve_skill_catalog(
+    skill: str, settings: ServiceSettings
+) -> tuple[dict, list[str], dict | None]:
+    slug = skill.strip().lower()
+
+    # 1. Se a skill estiver presente no catálogo configurado
+    base_catalog = validate_catalog(read_json(settings.catalog_path))
+    matched_ids = [
+        s["id"]
+        for s in base_catalog["skills"]
+        if s["id"].startswith(f"{slug}.")
+        or s["id"] == slug
+        or slug in [a.lower() for a in s.get("aliases", [])]
+    ]
+    if matched_ids:
+        # Se também houver um grafo compilado da skill, carrega a árvore
+        graphs_dir = Path("catalogs/graphs")
+        graph_file = graphs_dir / f"{slug}.json"
+        tree = None
+        if graph_file.exists():
+            data = read_json(graph_file)
+            raw_tree = data.get("tree", {})
+            tree = {
+                "title": raw_tree.get("title", slug),
+                "topics": [
+                    {
+                        "name": t["name"],
+                        "subtopics": [s["name"] for s in t.get("subtopics", [])],
+                    }
+                    for t in raw_tree.get("topics", [])
+                ],
+            }
+        return base_catalog, matched_ids, tree
+
+    # 2. Se a skill existir apenas como grafo compilado em catalogs/graphs/
+    graphs_dir = Path("catalogs/graphs")
+    graph_file = graphs_dir / f"{slug}.json"
+    if graph_file.exists():
+        data = read_json(graph_file)
+        tree = data.get("tree", {})
+        skills_list = []
+        for topic in tree.get("topics", []):
+            for sub in topic.get("subtopics", []):
+                clean_name = re.sub(r"[^a-z0-9]+", "-", sub["name"].lower()).strip("-")
+                sub_id = f"{slug}.{clean_name}" if clean_name else f"{slug}.topic"
+                desc = (sub.get("description") or f"{sub['name']} in {slug}").split(". ")[0]
+                if not desc.endswith("."):
+                    desc += "."
+                skills_list.append({
+                    "id": sub_id,
+                    "name": sub["name"],
+                    "description": desc[:160],
+                    "aliases": [sub["name"]],
+                    "evidence_criteria": [
+                        f"Demonstrates usage or implementation of {sub['name']}."
+                    ],
+                    "sources": [{
+                        "source": "roadmap.sh",
+                        "topic_id": sub["id"],
+                        "url": f"https://roadmap.sh/{slug}",
+                        "revision": "latest"
+                    }]
+                })
+        seen = set()
+        unique_skills = []
+        for s in skills_list:
+            if s["id"] not in seen:
+                seen.add(s["id"])
+                unique_skills.append(s)
+
+        catalog = {
+            "schema_version": 1,
+            "id": f"roadmap-{slug}",
+            "version": "1.0.0",
+            "skills": unique_skills,
+        }
+        validate_catalog(catalog)
+        compact_tree = {
+            "title": tree.get("title", slug),
+            "topics": [
+                {
+                    "name": t["name"],
+                    "subtopics": [s["name"] for s in t.get("subtopics", [])],
+                }
+                for t in tree.get("topics", [])
+            ],
+        }
+        return catalog, [s["id"] for s in unique_skills], compact_tree
+
+    raise AnalysisError(
+        "unknown_skill",
+        f"Skill '{skill}' not found in reference catalogs",
+        400,
+    )
+
+
 def prepare_repository_analysis(
-    bundle: dict, catalog: dict, max_input_chars: int
+    bundle: dict,
+    catalog: dict,
+    max_input_chars: int,
+    *,
+    skill: str | None = None,
+    allowed_skill_ids: list[str] | None = None,
+    tree: dict | None = None,
 ) -> dict:
     manifest = bundle["manifest"]
     patches = bundle["artifacts"]["git-diff.json"]["commits"]
@@ -174,6 +287,7 @@ def prepare_repository_analysis(
             "end_line": {"type": "integer", "minimum": 1},
         }
     )
+    valid_ids = allowed_skill_ids if allowed_skill_ids is not None else [item["id"] for item in catalog["skills"]]
     assessment = _object_schema(
         {
             "decision": {
@@ -182,7 +296,7 @@ def prepare_repository_analysis(
             },
             "skill_id": {
                 "type": ["string", "null"],
-                "enum": [*[item["id"] for item in catalog["skills"]], None],
+                "enum": [*valid_ids, None],
             },
             "rationale": {"type": "string"},
             "evidence": {"type": "array", "items": evidence, "minItems": 1},
@@ -216,12 +330,18 @@ Tool coverage gaps and no functions detected do not establish missing skills.
         "reference": manifest["reference"],
         "selection": manifest["selection"],
     }
+    user_payload = {"catalog": catalog, "bundle": bundle}
+    if skill:
+        user_payload["target_skill"] = skill
+    if tree:
+        user_payload["competency_tree"] = tree
+
     request = {
         "messages": [
             {"role": "system", "content": instructions},
             {
                 "role": "user",
-                "content": canonical({"catalog": catalog, "bundle": bundle}),
+                "content": canonical(user_payload),
             },
         ],
         "response_format": {"type": "json_object"},
@@ -326,7 +446,7 @@ def analyze_repository(
     *,
     provider=None,
 ) -> dict:
-    catalog = validate_catalog(read_json(settings.catalog_path))
+    catalog, allowed_skill_ids, tree = resolve_skill_catalog(request.skill, settings)
     with open_repository(
         request.repository,
         settings.local_repositories,
@@ -344,7 +464,12 @@ def analyze_repository(
             workspace=workspace,
         )
         prepared = prepare_repository_analysis(
-            bundle, catalog, settings.limits.max_input_chars
+            bundle,
+            catalog,
+            settings.limits.max_input_chars,
+            skill=request.skill,
+            allowed_skill_ids=allowed_skill_ids,
+            tree=tree,
         )
         if request.dry_run:
             return {"status": "preview", "bundle": bundle, "prepared": prepared}

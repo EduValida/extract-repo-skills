@@ -31,6 +31,7 @@ class ApiTests(GitRepositoryFixture, unittest.TestCase):
         self.body = {
             "repository": "local:fixture",
             "user": {"emails": [self.report["contributor_email"]]},
+            "skill": "css",
         }
 
     def client(self, provider=None, settings=None):
@@ -130,6 +131,9 @@ class ApiTests(GitRepositoryFixture, unittest.TestCase):
         with self.client() as client:
             for body in (
                 {},
+                {k: v for k, v in self.body.items() if k != "skill"},
+                {**self.body, "skill": ""},
+                {**self.body, "skill": "invalid skill with spaces"},
                 {**self.body, "max_commits": "5"},
                 {**self.body, "max_commits": True},
                 {**self.body, "dry_run": "yes"},
@@ -145,6 +149,12 @@ class ApiTests(GitRepositoryFixture, unittest.TestCase):
                     self.assertEqual(
                         response.json()["error"]["code"], "invalid_request"
                     )
+
+    def test_unknown_skill_returns_400(self):
+        with self.client() as client:
+            response = client.post("/analyses", json={**self.body, "skill": "nonexistent-skill"})
+            self.assertEqual(response.status_code, 400)
+            self.assertEqual(response.json()["error"]["code"], "unknown_skill")
 
     def test_concurrency_limit_rejects_extra_analysis_but_health_stays_available(self):
         async def scenario():

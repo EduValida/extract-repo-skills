@@ -27,6 +27,7 @@ class AnalysisRequest(BaseModel):
     model_config = ConfigDict(extra="forbid", strict=True)
     repository: str = Field(min_length=1, max_length=2048)
     user: UserSelection
+    skill: str = Field(min_length=1, max_length=100)
     ref: str = Field(default="HEAD", min_length=1, max_length=256)
     max_commits: int = Field(default=50, ge=1, le=100)
     dry_run: bool = False
@@ -169,3 +170,7 @@ def create_app(settings: ServiceSettings | None = None, *, runner=None) -> FastA
             return await runner(request.model_dump(), settings)
 
     return app
+
+
+app = create_app()
+

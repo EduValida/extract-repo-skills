@@ -270,6 +270,27 @@ tecnologias e competências; nenhuma atribuição automática pela hierarquia;
 distinção entre candidatos, evidência insuficiente e lacuna de cobertura;
 exportação completa sem inferência. Níveis de proficiência permanecem fora desta fase.
 
+## Escalabilidade e estratégia para grandes repositórios
+
+Para repositórios reais com extenso histórico, monorepos ou commits volumosos, a escalabilidade é tratada em quatro pilares arquiteturais:
+
+### 1. Filtro de ruído e arquivos gerados (vendor, dados e locks)
+- **Detecção e exclusão de ruído:** Ignorar automaticamente arquivos de trava (`poetry.lock`, `package-lock.json`, `Cargo.lock`), diretórios de build (`dist/`, `build/`, `target/`), binários, minificados e relatórios gerados automaticamente (ex.: benchmarks, relatórios HTML/Markdown de milhares de linhas, fixtures de dados `.jsonl`/`.csv`).
+- **Teto por arquivo:** Truncar ou restringir a coleta de contexto para arquivos que excedam limites de linhas alteradas em um único commit, preservando apenas os hunks mais substantivos e evitando que refatorações mecânicas de formatação estourem o `context_limit`.
+
+### 2. Pré-filtragem de diffs pela tecnologia da skill alvo
+- Com o recebimento obrigatório de `skill` na entrada, o extrator pode restringir a extração de diffs e snippets exclusivamente aos arquivos pertinentes àquela linguagem ou framework (por exemplo: `.py` e `pyproject.toml` para `skill: "python"`).
+- Alterações em arquivos não relacionados (como documentação, CI ou CSS durante uma análise focada em Python) não entram no payload do modelo, reduzindo o volume do pacote em mais de 60%.
+
+### 3. Chunking, amostragem e divisão em lotes (batching)
+- **Janelas temporais:** Permitir filtros por período (`since` / `until`) para delimitar a análise a marcos específicos ou intervalos de trabalho do autor.
+- **Divisão em lotes:** Para colaboradores com histórico longo (ex.: centenas de commits), a extração divide o trabalho em lotes de 15 a 30 commits representativos, gerando subpacotes de evidências que podem ser processados independentemente.
+
+### 4. Execução assíncrona desacoplada (Job Queue)
+- **Transição de síncrono para assíncrono:** Evoluir o endpoint `POST /analyses` para retornar `202 Accepted` com `job_id`, desacoplando a conexão HTTP do tempo de coleta.
+- **Workers em background:** Fila persistente (ex.: Redis Queue/Celery) para gerenciar o pool de coletores com isolamento de memória e CPU por tarefa.
+- **Leitura direta de objetos Git:** O uso de `pygit2` diretamente nos arquivos de objetos `.git` sem necessidade de realizar checkout no sistema de arquivos continua sendo a base performática do leitor.
+
 ## Referências consultadas
 
 - GitHub, commits e filtro por autor:
