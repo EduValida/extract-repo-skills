@@ -14,9 +14,6 @@ dependencies = [
     "lizard>=1.23,<2",
 ]
 
-[project.scripts]
-extract-repo-skills = "extract_repo_skills:main"
-
 [project.optional-dependencies]
 llm = [
     "openai>=3.22.1",

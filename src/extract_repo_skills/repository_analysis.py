@@ -142,7 +142,11 @@ class ServiceSettings:
 
     @classmethod
     def from_env(cls):
+        from dotenv import load_dotenv
+
         from .contracts import parse_json
+
+        load_dotenv(dotenv_path=Path.cwd() / ".env", override=False)
 
         return cls(
             local_repositories=parse_json(

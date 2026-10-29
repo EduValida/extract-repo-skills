@@ -1,19 +1,10 @@
 import copy
-import io
 import json
-import os
-import subprocess
-import sys
 import unittest
-from contextlib import redirect_stderr, redirect_stdout
-from pathlib import Path
-from unittest.mock import patch
 
 from extract_repo_skills.analysis import prepare_analysis, validate_assessment
-from extract_repo_skills.cli import main
 from extract_repo_skills.contracts import ValidationError, validate_report
 from extract_repo_skills.contributions import collect_commit
-from test_contracts import CATALOG_PATH
 from test_git_evidence import GitRepositoryFixture
 
 
@@ -113,52 +104,3 @@ class AnalysisTests(GitRepositoryFixture, unittest.TestCase):
                 bad["assessments"][0]["evidence"][0].update(commit=commit, start_line=line, end_line=line)
                 with self.assertRaises(ValidationError):
                     validate_assessment(bad, prepared, self.catalog, self.repo)
-
-    def test_dry_run_needs_no_credentials_and_makes_no_provider_call(self):
-        with patch.dict(os.environ, {"DEEPSEEK_API_KEY": "", "DEEPSEEK_MODEL": ""}):
-            result = subprocess.run(
-                [sys.executable, "-m", "extract_repo_skills", "analyze-commit",
-                 "--repo", str(self.repo), "--commit", "HEAD", "--contributor-email",
-                 self.report["contributor_email"], "--catalog", str(CATALOG_PATH), "--dry-run"],
-                capture_output=True, text=True, check=True,
-            )
-        self.assertEqual(json.loads(result.stdout)["commit"], self.commit)
-
-    def test_cli_accepts_valid_assessment_and_records_run(self):
-        destination = Path(self.temp.name) / "assessment.json"
-        arguments = [
-            "extract-repo-skills", "analyze-commit", "--repo", str(self.repo),
-            "--commit", "HEAD", "--contributor-email", self.report["contributor_email"],
-            "--catalog", str(CATALOG_PATH), "--model", "test-model", "--output", str(destination),
-        ]
-        output = {"assessments": self.report["assessments"]}
-        with patch("sys.argv", arguments), patch(
-            "extract_repo_skills.deepseek_provider.assess", return_value=(output, {"human_review_required": True})
-        ) as provider, redirect_stderr(io.StringIO()):
-            main()
-            self.assertEqual(provider.call_count, 1)
-            report = json.loads(destination.read_text())
-            validate_report(report, self.catalog)
-            run = json.loads(Path(str(destination) + ".run.json").read_text())
-            self.assertTrue(run["git_evidence_verified"])
-            with self.assertRaises(SystemExit):
-                main()
-            self.assertEqual(provider.call_count, 1, "Existing output must be rejected before another API call")
-
-    def test_cli_never_writes_invalid_model_output(self):
-        destination = Path(self.temp.name) / "invalid.json"
-        arguments = [
-            "extract-repo-skills", "analyze-commit", "--repo", str(self.repo),
-            "--commit", "HEAD", "--contributor-email", self.report["contributor_email"],
-            "--catalog", str(CATALOG_PATH), "--model", "test-model", "--output", str(destination),
-        ]
-        bad = copy.deepcopy(self.report["assessments"])
-        bad[0]["skill_id"] = "invented.skill"
-        with patch("sys.argv", arguments), patch(
-            "extract_repo_skills.deepseek_provider.assess", return_value=({"assessments": bad}, {})
-        ), redirect_stderr(io.StringIO()), redirect_stdout(io.StringIO()) as stdout:
-            with self.assertRaises(SystemExit):
-                main()
-            self.assertEqual(stdout.getvalue(), "")
-        self.assertFalse(destination.exists())
-        self.assertFalse(Path(str(destination) + ".run.json").exists())

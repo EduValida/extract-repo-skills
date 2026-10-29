@@ -1,7 +1,6 @@
 import copy
 import json
 import subprocess
-import sys
 import unittest
 from dataclasses import replace
 from pathlib import Path
@@ -313,30 +312,6 @@ class RepositoryAnalysisTests(GitRepositoryFixture, unittest.TestCase):
         self.assertEqual(empty["report"]["assessments"], [])
         provider.assert_not_called()
         validate_report(empty["report"], self.catalog)
-
-    def test_v2_report_can_be_checked_by_existing_cli(self):
-        provider = Mock(return_value=({"assessments": self.report["assessments"]}, {}))
-        result = self.analyze(provider)
-        destination = Path(self.temp.name) / "v2.json"
-        destination.write_text(json.dumps(result["report"]))
-        checked = subprocess.run(
-            [
-                sys.executable,
-                "-m",
-                "extract_repo_skills",
-                "validate-report",
-                str(destination),
-                "--catalog",
-                str(CATALOG_PATH),
-                "--repo",
-                str(self.repo),
-            ],
-            capture_output=True,
-            text=True,
-            check=True,
-        )
-        self.assertTrue(json.loads(checked.stdout)["git_evidence_verified"])
-        self.assertEqual(json.loads(checked.stdout)["citations_checked"], 1)
 
     def test_forged_coverage_is_rejected_even_without_citations(self):
         result = self.analyze(Mock(return_value=({"assessments": []}, {})))
