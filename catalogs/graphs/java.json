@@ -3,10 +3,10 @@
     "slug": "java",
     "title": "Java Developer",
     "description": "Step by step guide to becoming a Java developer in 2026",
-    "extracted_at": "2026-10-29T01:04:14.207127+00:00",
+    "extracted_at": "2026-11-05T02:15:08.260511+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/java",
     "total_topics": 20,
-    "total_subtopics": 68
+    "total_subtopics": 74
   },
   "tree": {
     "title": "Java Developer",
@@ -40,7 +40,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/learn-the-basics@2TGq1y2QthnxxN-FfToSe.md",
-        "subtopics_count": 30,
+        "subtopics_count": 14,
         "subtopics": [
           {
             "id": "aEaBobzFWv0mJHGAbgxKY",
@@ -54,7 +54,9 @@
                 "url": "https://jenkov.com/tutorials/java/strings.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "OlbQNB6YXZjO1J7D0lZU1",
@@ -78,7 +80,9 @@
                 "url": "https://www.youtube.com/watch?v=RRubcjpTkks"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/basic-syntax@OlbQNB6YXZjO1J7D0lZU1.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/basic-syntax@OlbQNB6YXZjO1J7D0lZU1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ziD_XwzJSFQP_3iLjq9pA",
@@ -92,7 +96,9 @@
                 "url": "https://jenkov.com/tutorials/java/math-operators-and-math-class.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/math-operations@ziD_XwzJSFQP_3iLjq9pA.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/math-operations@ziD_XwzJSFQP_3iLjq9pA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "QgWalJLIb6Fw0HhN1wb02",
@@ -116,11 +122,13 @@
                 "url": "https://bell-sw.com/blog/compilation-in-java-jit-vs-aot/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/lifecycle-of-a-program@QgWalJLIb6Fw0HhN1wb02.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/lifecycle-of-a-program@QgWalJLIb6Fw0HhN1wb02.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5khApwg1FZ-0qorsLyH-F",
-            "name": "Arrays ",
+            "name": "Arrays",
             "type": "subtopic",
             "description": "Arrays are fundamental data structures used to store a collection of elements of the same data type in contiguous memory locations. They provide a way to organize and access multiple values using a single variable name and an index. Each element in an array can be accessed directly using its index, starting from 0.",
             "resources": [
@@ -135,7 +143,9 @@
                 "url": "https://www.youtube.com/watch?v=ei_4Nt7XWOw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/arrays@5khApwg1FZ-0qorsLyH-F.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/arrays@5khApwg1FZ-0qorsLyH-F.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5g9mmi01WeZ4aDqNzwx_V",
@@ -154,7 +164,9 @@
                 "url": "https://jenkov.com/tutorials/java/data-types.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/data-types@5g9mmi01WeZ4aDqNzwx_V.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/data-types@5g9mmi01WeZ4aDqNzwx_V.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "sG_3ZQIE1-FQXQkk-OduQ",
@@ -178,7 +190,9 @@
                 "url": "https://youtu.be/mA23x39DjbI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/conditionals@sG_3ZQIE1-FQXQkk-OduQ.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/conditionals@sG_3ZQIE1-FQXQkk-OduQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VBNcAO0STaZJ1iV9A7utv",
@@ -197,7 +211,9 @@
                 "url": "https://www.baeldung.com/java-variable-scope"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/variables-and-scopes@VBNcAO0STaZJ1iV9A7utv.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/variables-and-scopes@VBNcAO0STaZJ1iV9A7utv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JHUhVEjWFXTn6-wKcKevg",
@@ -211,7 +227,9 @@
                 "url": "https://www.programiz.com/java-programming/for-loop"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/loops@JHUhVEjWFXTn6-wKcKevg.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/loops@JHUhVEjWFXTn6-wKcKevg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "yNDbk6r5wFqBi25xmIRF_",
@@ -230,7 +248,9 @@
                 "url": "https://www.programiz.com/java-programming/typecasting"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/type-casting@yNDbk6r5wFqBi25xmIRF_.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/type-casting@yNDbk6r5wFqBi25xmIRF_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DZ4BX4NYeCQbjGSj56lng",
@@ -244,102 +264,278 @@
                 "url": "https://jenkov.com/tutorials/java/classes.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/basics-of-oop@DZ4BX4NYeCQbjGSj56lng.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/basics-of-oop@DZ4BX4NYeCQbjGSj56lng.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "LenPrQwxFsE1UVbXO_dE7",
-            "name": "Classes and Objects",
-            "type": "subtopic",
-            "description": "Classes are blueprints for creating objects, which are instances of those classes. A class defines the characteristics (attributes) and behaviors (methods) that objects of that class will possess. Think of a class as a template and an object as a specific instance created from that template.",
-            "resources": [
+            "id": "ryMPhTTScI9pJMkQsZaaM",
+            "name": "Basics of OOP",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 7,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Java Class and Objects",
-                "url": "https://www.programiz.com/java-programming/class-objects"
+                "id": "LenPrQwxFsE1UVbXO_dE7",
+                "name": "Classes and Objects",
+                "type": "subtopic",
+                "description": "Classes are blueprints for creating objects, which are instances of those classes. A class defines the characteristics (attributes) and behaviors (methods) that objects of that class will possess. Think of a class as a template and an object as a specific instance created from that template.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Class and Objects",
+                    "url": "https://www.programiz.com/java-programming/class-objects"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Java Classes and Objects",
+                    "url": "https://www.youtube.com/watch?v=IUqKuGNasdM"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/classes-and-objects@LenPrQwxFsE1UVbXO_dE7.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Java Classes and Objects",
-                "url": "https://www.youtube.com/watch?v=IUqKuGNasdM"
+                "id": "xTwJYcA6ldgaw3yGmbDEd",
+                "name": "Attributes and Methods",
+                "type": "subtopic",
+                "description": "Attributes are variables that hold data about an object, defining its state or characteristics. Methods are functions that define the behavior of an object, allowing it to perform actions or operations. Together, attributes and methods encapsulate the data and behavior of an object within a class.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Classes",
+                    "url": "https://jenkov.com/tutorials/java/classes.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Methods",
+                    "url": "https://jenkov.com/tutorials/java/methods.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Properties",
+                    "url": "https://jenkov.com/tutorials/java-collections/properties.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/attributes-and-methods@xTwJYcA6ldgaw3yGmbDEd.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "KYndNwfQcwRCf3zCXOwd_",
+                "name": "Access Specifiers",
+                "type": "subtopic",
+                "description": "Access specifiers (or access modifiers) in Java are keywords that control the visibility or accessibility of classes, methods, constructors, and other members. They determine from where these members can be accessed. Java provides four access specifiers: `private`, `default` (no keyword), `protected`, and `public`, each offering a different level of access control.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Access Modifiers",
+                    "url": "https://jenkov.com/tutorials/java/access-modifiers.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/access-specifiers@KYndNwfQcwRCf3zCXOwd_.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "ZcNxO6qIXIg7RaWYnZj2e",
+                "name": "Static Keyword",
+                "type": "subtopic",
+                "description": "The `static` keyword in Java is used to create members (variables and methods) that belong to the class itself, rather than to any specific instance of the class. This means there's only one copy of a static variable shared by all objects of that class, and you can access static members directly using the class name without needing to create an object. Static methods can only access static variables and call other static methods.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Static Keyword Explained With Examples",
+                    "url": "https://www.freecodecamp.org/news/java-static-keyword-explained/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Static and Non-static Fields in Java",
+                    "url": "https://jenkov.com/tutorials/java/fields.html#static-and-non-static-fields"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Guide to the Java 'static' Keyword",
+                    "url": "https://www.baeldung.com/java-static"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/static-keyword@ZcNxO6qIXIg7RaWYnZj2e.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Ajuc_rHObqMQBXLqRIuxh",
+                "name": "Final Keyword",
+                "type": "subtopic",
+                "description": "The `final` keyword in Java is a non-access modifier used to apply restrictions on a variable, method, or class. When applied to a variable, it makes the variable's value constant after initialization. When applied to a method, it prevents the method from being overridden in a subclass. When applied to a class, it prevents the class from being subclassed (inherited).",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Final Keyword",
+                    "url": "https://www.baeldung.com/java-final"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How does the final keyword in Java work? I can still modify an object",
+                    "url": "https://stackoverflow.com/questions/15655012/how-does-the-final-keyword-in-java-work-i-can-still-modify-an-object"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/final-keyword@Ajuc_rHObqMQBXLqRIuxh.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "zDBW20W2XMCtNTG3emJ_A",
+                "name": "Nested Classes",
+                "type": "subtopic",
+                "description": "Nested classes are classes defined inside another class. The class that contains the inner class is known as the outer class. Nested classes can access members of the outer class, even if they are declared private. They are a way to logically group classes that are only used in one place, increasing encapsulation and maintainability.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Nested Classes",
+                    "url": "https://jenkov.com/tutorials/java/nested-classes.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Guide to Nested Classes in Java",
+                    "url": "https://www.baeldung.com/java-nested-classes"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/nested-classes@zDBW20W2XMCtNTG3emJ_A.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "60POZOjwHSdKYL6rfkyEy",
+                "name": "Packages",
+                "type": "subtopic",
+                "description": "Packages are a mechanism for organizing related classes, interfaces, and sub-packages into a hierarchical namespace. They act like folders in a file system, allowing developers to group functional components together to improve code maintainability and avoid naming conflicts. By grouping related types, packages also provide a way to control access levels, as classes within the same package can have specialized visibility to each other.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Packages in Java",
+                    "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Package.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/packages@60POZOjwHSdKYL6rfkyEy.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/classes-and-objects@LenPrQwxFsE1UVbXO_dE7.md"
+            ]
           },
           {
-            "id": "xTwJYcA6ldgaw3yGmbDEd",
-            "name": "Attributes and Methods",
-            "type": "subtopic",
-            "description": "Attributes are variables that hold data about an object, defining its state or characteristics. Methods are functions that define the behavior of an object, allowing it to perform actions or operations. Together, attributes and methods encapsulate the data and behavior of an object within a class.",
-            "resources": [
+            "id": "sHYmeXbdREoxrru0PZ3Px",
+            "name": "More about OOP",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 5,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Java Classes",
-                "url": "https://jenkov.com/tutorials/java/classes.html"
+                "id": "PXpPEmCEBUKRjwP3B5LzJ",
+                "name": "Inheritance",
+                "type": "subtopic",
+                "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (called a subclass or derived class) acquires properties and behaviors from an existing class (called a superclass or base class). This allows for code reuse and the creation of hierarchical relationships between classes, promoting a more organized and maintainable codebase. The subclass can extend the superclass by adding new attributes and methods or overriding existing ones.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Inheritance",
+                    "url": "https://jenkov.com/tutorials/java/inheritance.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Inheritance in Java with Example",
+                    "url": "https://www.digitalocean.com/community/tutorials/inheritance-java-example"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/inheritance@PXpPEmCEBUKRjwP3B5LzJ.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Java Methods",
-                "url": "https://jenkov.com/tutorials/java/methods.html"
+                "id": "iH9wSsOK4a77pS7U0Yu5z",
+                "name": "Encapsulation",
+                "type": "subtopic",
+                "description": "Encapsulation is a fundamental concept in object-oriented programming where data and the methods that operate on that data are bundled together as a single unit. This unit, often a class, hides the internal state of the object from the outside world and only exposes a controlled interface for interacting with it. This protects the data from accidental modification and allows for easier maintenance and modification of the code.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java - Encapsulation",
+                    "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/encapsulation@iH9wSsOK4a77pS7U0Yu5z.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Java Properties",
-                "url": "https://jenkov.com/tutorials/java-collections/properties.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/attributes-and-methods@xTwJYcA6ldgaw3yGmbDEd.md"
-          },
-          {
-            "id": "KYndNwfQcwRCf3zCXOwd_",
-            "name": "Access Specifiers",
-            "type": "subtopic",
-            "description": "Access specifiers (or access modifiers) in Java are keywords that control the visibility or accessibility of classes, methods, constructors, and other members. They determine from where these members can be accessed. Java provides four access specifiers: `private`, `default` (no keyword), `protected`, and `public`, each offering a different level of access control.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Access Modifiers",
-                "url": "https://jenkov.com/tutorials/java/access-modifiers.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/access-specifiers@KYndNwfQcwRCf3zCXOwd_.md"
-          },
-          {
-            "id": "qdA6bK9ZkP8p0_NH_wMuj",
-            "name": "Abstraction",
-            "type": "subtopic",
-            "description": "The abstract keyword in Java is used to declare a class or a method that cannot be instantiated directly or must be implemented by subclasses, respectively. It is a key part of Java's abstraction mechanism, allowing developers to define abstract classes and methods that provide a blueprint for other classes.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Abstract Classes",
-                "url": "https://jenkov.com/tutorials/java/abstract-classes.html"
+                "id": "VqLV7kolfRFnvOuJAvzlg",
+                "name": "Record",
+                "type": "subtopic",
+                "description": "A record is a special type of class in Java that is designed to hold immutable data. It automatically generates methods like `equals()`, `hashCode()`, and `toString()` based on the components declared in its header, reducing boilerplate code. Records are useful for creating data transfer objects (DTOs) or simple data aggregates where the primary purpose is to store and access data.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Records",
+                    "url": "https://jenkov.com/tutorials/java/record.html"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Java Records",
+                    "url": "https://www.youtube.com/watch?v=xs7DiEIHW0U"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/record@VqLV7kolfRFnvOuJAvzlg.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Java Interfaces vs. Abstract Classes",
-                "url": "https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/abstraction@qdA6bK9ZkP8p0_NH_wMuj.md"
-          },
-          {
-            "id": "PXpPEmCEBUKRjwP3B5LzJ",
-            "name": "Inheritance",
-            "type": "subtopic",
-            "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (called a subclass or derived class) acquires properties and behaviors from an existing class (called a superclass or base class). This allows for code reuse and the creation of hierarchical relationships between classes, promoting a more organized and maintainable codebase. The subclass can extend the superclass by adding new attributes and methods or overriding existing ones.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Inheritance",
-                "url": "https://jenkov.com/tutorials/java/inheritance.html"
+                "id": "y-i56f1P_mMdvyBr7J4XE",
+                "name": "Method Overloading / Overriding",
+                "type": "subtopic",
+                "description": "Method overloading allows you to define multiple methods in the same class with the same name but different parameters (different number, types, or order of parameters). Method overriding, on the other hand, occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method signature (name and parameters) must be the same in both the superclass and the subclass for overriding to occur.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overriding vs Overloading in Java",
+                    "url": "https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-java"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Inheritance Tutorial",
+                    "url": "https://jenkov.com/tutorials/java/inheritance.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/method-overloading--overriding@y-i56f1P_mMdvyBr7J4XE.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Inheritance in Java with Example",
-                "url": "https://www.digitalocean.com/community/tutorials/inheritance-java-example"
+                "id": "Kjdj862xnz8fqDYE3HKhC",
+                "name": "Static vs Dynamic Binding",
+                "type": "subtopic",
+                "description": "Static binding, also known as early binding, happens at compile time. The compiler knows exactly which method will be called based on the type of the variable. Dynamic binding, or late binding, occurs at runtime. The specific method to be called is determined based on the actual object type, not the variable type, allowing for more flexibility and polymorphism.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Static and Dynamic Binding in Java",
+                    "url": "https://www.baeldung.com/java-static-dynamic-binding"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Static and Dynamic Binding in Java with Examples",
+                    "url": "https://beginnersbook.com/2013/04/java-static-dynamic-binding/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/static-vs-dynamic-binding@Kjdj862xnz8fqDYE3HKhC.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/inheritance@PXpPEmCEBUKRjwP3B5LzJ.md"
+            ]
           },
           {
             "id": "3qowgj1pas1X7oRric9eU",
@@ -347,249 +543,9 @@
             "type": "subtopic",
             "description": "The object lifecycle refers to the series of stages an object goes through from its creation (allocation of memory) to its destruction (reclaiming of memory). These stages typically include object creation, initialization, usage, and eventual garbage collection when the object is no longer needed. Understanding this lifecycle is crucial for efficient memory management and preventing resource leaks.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/java/content/object-lifecycle@3qowgj1pas1X7oRric9eU.md"
-          },
-          {
-            "id": "ZcNxO6qIXIg7RaWYnZj2e",
-            "name": "Static Keyword",
-            "type": "subtopic",
-            "description": "The `static` keyword in Java is used to create members (variables and methods) that belong to the class itself, rather than to any specific instance of the class. This means there's only one copy of a static variable shared by all objects of that class, and you can access static members directly using the class name without needing to create an object. Static methods can only access static variables and call other static methods.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Static Keyword Explained With Examples",
-                "url": "https://www.freecodecamp.org/news/java-static-keyword-explained/"
-              },
-              {
-                "type": "article",
-                "title": "Static and Non-static Fields in Java",
-                "url": "https://jenkov.com/tutorials/java/fields.html#static-and-non-static-fields"
-              },
-              {
-                "type": "article",
-                "title": "Guide to the Java 'static' Keyword",
-                "url": "https://www.baeldung.com/java-static"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/static-keyword@ZcNxO6qIXIg7RaWYnZj2e.md"
-          },
-          {
-            "id": "6wTRN2PYC6zM_Txkekx53",
-            "name": "Interfaces",
-            "type": "subtopic",
-            "description": "An interface in Java is a blueprint of a class. It specifies a set of methods that a class must implement if it claims to implement the interface. Think of it as a contract: any class that \"signs\" the contract (implements the interface) agrees to provide specific behaviors (methods). Interfaces can also contain constants (static final variables). They help achieve abstraction and multiple inheritance in Java.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Interfaces in Java",
-                "url": "https://jenkov.com/tutorials/java/interfaces.html"
-              },
-              {
-                "type": "article",
-                "title": "A Guide to Java Interfaces",
-                "url": "https://www.baeldung.com/java-interfaces"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/interfaces@6wTRN2PYC6zM_Txkekx53.md"
-          },
-          {
-            "id": "iH9wSsOK4a77pS7U0Yu5z",
-            "name": "Encapsulation",
-            "type": "subtopic",
-            "description": "Encapsulation is a fundamental concept in object-oriented programming where data and the methods that operate on that data are bundled together as a single unit. This unit, often a class, hides the internal state of the object from the outside world and only exposes a controlled interface for interacting with it. This protects the data from accidental modification and allows for easier maintenance and modification of the code.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java - Encapsulation",
-                "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
-          },
-          {
-            "id": "Ax2ouIZgN1DpPzKDy4fwp",
-            "name": "Method Chaining",
-            "type": "subtopic",
-            "description": "Method chaining is a programming technique where multiple method calls are made sequentially on the same object, one after another, in a single statement. Each method in the chain returns an object, allowing the next method to be called on that returned object. This approach enhances code readability and conciseness by reducing the need for temporary variables and intermediate steps.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How to achieve method chaining in Java",
-                "url": "https://stackoverflow.com/questions/21180269/how-to-achieve-method-chaining-in-java"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/method-chaining@Ax2ouIZgN1DpPzKDy4fwp.md"
-          },
-          {
-            "id": "Ajuc_rHObqMQBXLqRIuxh",
-            "name": "Final Keyword",
-            "type": "subtopic",
-            "description": "The `final` keyword in Java is a non-access modifier used to apply restrictions on a variable, method, or class. When applied to a variable, it makes the variable's value constant after initialization. When applied to a method, it prevents the method from being overridden in a subclass. When applied to a class, it prevents the class from being subclassed (inherited).",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Final Keyword",
-                "url": "https://www.baeldung.com/java-final"
-              },
-              {
-                "type": "article",
-                "title": "How does the final keyword in Java work? I can still modify an object",
-                "url": "https://stackoverflow.com/questions/15655012/how-does-the-final-keyword-in-java-work-i-can-still-modify-an-object"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/final-keyword@Ajuc_rHObqMQBXLqRIuxh.md"
-          },
-          {
-            "id": "y-i56f1P_mMdvyBr7J4XE",
-            "name": "Method Overloading / Overriding",
-            "type": "subtopic",
-            "description": "Method overloading allows you to define multiple methods in the same class with the same name but different parameters (different number, types, or order of parameters). Method overriding, on the other hand, occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method signature (name and parameters) must be the same in both the superclass and the subclass for overriding to occur.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overriding vs Overloading in Java",
-                "url": "https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-java"
-              },
-              {
-                "type": "article",
-                "title": "Java Inheritance Tutorial",
-                "url": "https://jenkov.com/tutorials/java/inheritance.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/method-overloading--overriding@y-i56f1P_mMdvyBr7J4XE.md"
-          },
-          {
-            "id": "VqLV7kolfRFnvOuJAvzlg",
-            "name": "Record",
-            "type": "subtopic",
-            "description": "A record is a special type of class in Java that is designed to hold immutable data. It automatically generates methods like `equals()`, `hashCode()`, and `toString()` based on the components declared in its header, reducing boilerplate code. Records are useful for creating data transfer objects (DTOs) or simple data aggregates where the primary purpose is to store and access data.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Records",
-                "url": "https://jenkov.com/tutorials/java/record.html"
-              },
-              {
-                "type": "video",
-                "title": "Java Records",
-                "url": "https://www.youtube.com/watch?v=xs7DiEIHW0U"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/record@VqLV7kolfRFnvOuJAvzlg.md"
-          },
-          {
-            "id": "ey1f8IsdAlDv1O3E_tNog",
-            "name": "Enums",
-            "type": "subtopic",
-            "description": "Enums, short for enumerations, are a special data type in Java that represent a group of named constants. They allow you to define a type that can only take on a specific set of predefined values. This makes your code more readable and less prone to errors by restricting the possible values a variable can hold.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Enums",
-                "url": "https://jenkov.com/tutorials/java/enums.html"
-              },
-              {
-                "type": "article",
-                "title": "Java Enums",
-                "url": "https://www.programiz.com/java-programming/enums"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/enums@ey1f8IsdAlDv1O3E_tNog.md"
-          },
-          {
-            "id": "zDBW20W2XMCtNTG3emJ_A",
-            "name": "Nested Classes",
-            "type": "subtopic",
-            "description": "Nested classes are classes defined inside another class. The class that contains the inner class is known as the outer class. Nested classes can access members of the outer class, even if they are declared private. They are a way to logically group classes that are only used in one place, increasing encapsulation and maintainability.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Nested Classes",
-                "url": "https://jenkov.com/tutorials/java/nested-classes.html"
-              },
-              {
-                "type": "article",
-                "title": "Guide to Nested Classes in Java",
-                "url": "https://www.baeldung.com/java-nested-classes"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/nested-classes@zDBW20W2XMCtNTG3emJ_A.md"
-          },
-          {
-            "id": "Kjdj862xnz8fqDYE3HKhC",
-            "name": "Static vs Dynamic Binding",
-            "type": "subtopic",
-            "description": "Static binding, also known as early binding, happens at compile time. The compiler knows exactly which method will be called based on the type of the variable. Dynamic binding, or late binding, occurs at runtime. The specific method to be called is determined based on the actual object type, not the variable type, allowing for more flexibility and polymorphism.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Static and Dynamic Binding in Java",
-                "url": "https://www.baeldung.com/java-static-dynamic-binding"
-              },
-              {
-                "type": "article",
-                "title": "Static and Dynamic Binding in Java with Examples",
-                "url": "https://beginnersbook.com/2013/04/java-static-dynamic-binding/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/static-vs-dynamic-binding@Kjdj862xnz8fqDYE3HKhC.md"
-          },
-          {
-            "id": "dg_UpaO8TzIN7w_QZ1n-6",
-            "name": "Initializer Block",
-            "type": "subtopic",
-            "description": "An initializer block in Java is a block of code, enclosed in curly braces `{}` , that is executed when an instance of a class is created. It's used to initialize instance variables or perform setup tasks before the constructor is called. There are two types: instance initializer blocks, which run every time a new object is created, and static initializer blocks, which run only once when the class is first loaded.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Static and Instance Initializer Blocks in Java",
-                "url": "https://www.baeldung.com/java-static-instance-initializer-blocks"
-              },
-              {
-                "type": "article",
-                "title": "All About Java Instance Initializer Blocks",
-                "url": "https://blogs.oracle.com/javamagazine/post/java-instance-initializer-block"
-              },
-              {
-                "type": "article",
-                "title": "What is an initialization block?",
-                "url": "https://stackoverflow.com/questions/3987428/what-is-an-initialization-block"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/initializer-block@dg_UpaO8TzIN7w_QZ1n-6.md"
-          },
-          {
-            "id": "60POZOjwHSdKYL6rfkyEy",
-            "name": "Packages",
-            "type": "subtopic",
-            "description": "Packages are a mechanism for organizing related classes, interfaces, and sub-packages into a hierarchical namespace. They act like folders in a file system, allowing developers to group functional components together to improve code maintainability and avoid naming conflicts. By grouping related types, packages also provide a way to control access levels, as classes within the same package can have specialized visibility to each other.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Packages in Java",
-                "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Package.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/packages@60POZOjwHSdKYL6rfkyEy.md"
-          },
-          {
-            "id": "3r0Er9XZHovIZz3gNyj4A",
-            "name": "Pass by Value / Pass by Reference",
-            "type": "subtopic",
-            "description": "Pass by value and pass by reference are two different ways of passing arguments to a function or method. In pass by value, a copy of the variable's value is passed to the function, so any changes made to the parameter inside the function do not affect the original variable. In pass by reference, a direct reference to the variable is passed, meaning that changes made to the parameter inside the function will directly affect the original variable.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java is Pass-by-Value, Not Pass-by-Reference",
-                "url": "https://www.baeldung.com/java-pass-by-value-or-pass-by-reference"
-              },
-              {
-                "type": "article",
-                "title": "Is Java \"pass-by-reference\" or \"pass-by-value\"?",
-                "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/pass-by-value--pass-by-reference@3r0Er9XZHovIZz3gNyj4A.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/object-lifecycle@3qowgj1pas1X7oRric9eU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -627,8 +583,51 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/lambda-expressions@00_q6I95eO-PUUrKpPFY8.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "qdA6bK9ZkP8p0_NH_wMuj",
+            "name": "Abstraction",
+            "type": "subtopic",
+            "description": "The abstract keyword in Java is used to declare a class or a method that cannot be instantiated directly or must be implemented by subclasses, respectively. It is a key part of Java's abstraction mechanism, allowing developers to define abstract classes and methods that provide a blueprint for other classes.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Java Abstract Classes",
+                "url": "https://jenkov.com/tutorials/java/abstract-classes.html"
+              },
+              {
+                "type": "article",
+                "title": "Java Interfaces vs. Abstract Classes",
+                "url": "https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/abstraction@qdA6bK9ZkP8p0_NH_wMuj.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "6wTRN2PYC6zM_Txkekx53",
+            "name": "Interfaces",
+            "type": "subtopic",
+            "description": "An interface in Java is a blueprint of a class. It specifies a set of methods that a class must implement if it claims to implement the interface. Think of it as a contract: any class that \"signs\" the contract (implements the interface) agrees to provide specific behaviors (methods). Interfaces can also contain constants (static final variables). They help achieve abstraction and multiple inheritance in Java.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Interfaces in Java",
+                "url": "https://jenkov.com/tutorials/java/interfaces.html"
+              },
+              {
+                "type": "article",
+                "title": "A Guide to Java Interfaces",
+                "url": "https://www.baeldung.com/java-interfaces"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/interfaces@6wTRN2PYC6zM_Txkekx53.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "c--y6GcKj9am0CBdu_Hnt",
@@ -706,8 +705,72 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/cryptography@_wV2VQq6MIY1rVHjK8pfu.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "Ax2ouIZgN1DpPzKDy4fwp",
+            "name": "Method Chaining",
+            "type": "subtopic",
+            "description": "Method chaining is a programming technique where multiple method calls are made sequentially on the same object, one after another, in a single statement. Each method in the chain returns an object, allowing the next method to be called on that returned object. This approach enhances code readability and conciseness by reducing the need for temporary variables and intermediate steps.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "How to achieve method chaining in Java",
+                "url": "https://stackoverflow.com/questions/21180269/how-to-achieve-method-chaining-in-java"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/method-chaining@Ax2ouIZgN1DpPzKDy4fwp.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "ey1f8IsdAlDv1O3E_tNog",
+            "name": "Enums",
+            "type": "subtopic",
+            "description": "Enums, short for enumerations, are a special data type in Java that represent a group of named constants. They allow you to define a type that can only take on a specific set of predefined values. This makes your code more readable and less prone to errors by restricting the possible values a variable can hold.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Java Enums",
+                "url": "https://jenkov.com/tutorials/java/enums.html"
+              },
+              {
+                "type": "article",
+                "title": "Java Enums",
+                "url": "https://www.programiz.com/java-programming/enums"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/enums@ey1f8IsdAlDv1O3E_tNog.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "dg_UpaO8TzIN7w_QZ1n-6",
+            "name": "Initializer Block",
+            "type": "subtopic",
+            "description": "An initializer block in Java is a block of code, enclosed in curly braces `{}` , that is executed when an instance of a class is created. It's used to initialize instance variables or perform setup tasks before the constructor is called. There are two types: instance initializer blocks, which run every time a new object is created, and static initializer blocks, which run only once when the class is first loaded.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Static and Instance Initializer Blocks in Java",
+                "url": "https://www.baeldung.com/java-static-instance-initializer-blocks"
+              },
+              {
+                "type": "article",
+                "title": "All About Java Instance Initializer Blocks",
+                "url": "https://blogs.oracle.com/javamagazine/post/java-instance-initializer-block"
+              },
+              {
+                "type": "article",
+                "title": "What is an initialization block?",
+                "url": "https://stackoverflow.com/questions/3987428/what-is-an-initialization-block"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/initializer-block@dg_UpaO8TzIN7w_QZ1n-6.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "zItXmuluDtl6HkTYQ7qMh",
@@ -727,164 +790,191 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/dependency-injection@zItXmuluDtl6HkTYQ7qMh.md",
-        "subtopics_count": 8,
+        "subtopics_count": 1,
         "subtopics": [
           {
-            "id": "a-EQiBUlSgdZba1mW36op",
-            "name": "Array vs ArrayList",
-            "type": "subtopic",
-            "description": "Arrays and ArrayLists are both ways to store collections of elements in Java. An array is a fixed-size, ordered sequence of elements of the same data type. Once you declare its size, you cannot change it. An ArrayList, on the other hand, is a dynamic, resizable array implementation. It can grow or shrink as needed, allowing you to add or remove elements without worrying about the initial size.",
-            "resources": [
+            "id": "PX4ZcshR0QtsPElyZzSel",
+            "name": "Collections",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 8,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Java Arrays",
-                "url": "https://jenkov.com/tutorials/java/arrays.html"
+                "id": "a-EQiBUlSgdZba1mW36op",
+                "name": "Array vs ArrayList",
+                "type": "subtopic",
+                "description": "Arrays and ArrayLists are both ways to store collections of elements in Java. An array is a fixed-size, ordered sequence of elements of the same data type. Once you declare its size, you cannot change it. An ArrayList, on the other hand, is a dynamic, resizable array implementation. It can grow or shrink as needed, allowing you to add or remove elements without worrying about the initial size.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Arrays",
+                    "url": "https://jenkov.com/tutorials/java/arrays.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java ArrayLists",
+                    "url": "https://jenkov.com/tutorials/java-collections/list.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/array-vs-arraylist@a-EQiBUlSgdZba1mW36op.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Java ArrayLists",
-                "url": "https://jenkov.com/tutorials/java-collections/list.html"
+                "id": "XjkNd5WJ9yxW48dwHQNkZ",
+                "name": "Set",
+                "type": "subtopic",
+                "description": "A Set is a data structure that stores a collection of unique elements. This means that no duplicate values are allowed within a Set. Sets provide efficient ways to check for membership (if an element exists in the set) and perform operations like union, intersection, and difference.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Set",
+                    "url": "https://jenkov.com/tutorials/java-collections/set.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Set Interface and Implementation",
+                    "url": "https://www.digitalocean.com/community/tutorials/java-set"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/set@XjkNd5WJ9yxW48dwHQNkZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "eKtdDtiJygKQ4PuEylFQY",
+                "name": "Map",
+                "type": "subtopic",
+                "description": "A Map is a data structure that stores data in key-value pairs. Each key is unique, and it maps to a specific value. Think of it like a dictionary where you use a word (the key) to look up its definition (the value). Maps allow you to efficiently retrieve, add, or remove values based on their associated keys.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Generic Map in Java",
+                    "url": "https://jenkov.com/tutorials/java-generics/generic-map.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Map",
+                    "url": "https://jenkov.com/tutorials/java-collections/map.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java ConcurrentMap",
+                    "url": "https://jenkov.com/tutorials/java-util-concurrent/concurrentmap.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java SortedMap",
+                    "url": "https://jenkov.com/tutorials/java-collections/sortedmap.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/map@eKtdDtiJygKQ4PuEylFQY.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "ThoWhXb4vUvNfE70_wMfa",
+                "name": "Queue",
+                "type": "subtopic",
+                "description": "A queue is a fundamental data structure that follows the First-In, First-Out (FIFO) principle. Think of it like a line at a store: the first person to join the line is the first person to be served. Elements are added to the rear (enqueue) and removed from the front (dequeue) of the queue.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Queue",
+                    "url": "https://jenkov.com/tutorials/java-collections/queue.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/queue@ThoWhXb4vUvNfE70_wMfa.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "DWO2-EPIUeKK5aQGiTuKc",
+                "name": "Dequeue",
+                "type": "subtopic",
+                "description": "A Dequeue (pronounced \"dee-queue\") is a double-ended queue, a data structure that allows you to add and remove elements from both the front (head) and the back (tail) of the queue. Unlike a regular queue (FIFO - First-In, First-Out), a dequeue provides flexibility for both FIFO and LIFO (Last-In, First-Out) operations. This makes it useful for implementing various algorithms and data management tasks where elements need to be accessed or modified from either end.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Deque Tutorial",
+                    "url": "https://jenkov.com/tutorials/java-collections/deque.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Deque",
+                    "url": "https://www.programiz.com/java-programming/deque"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/dequeue@DWO2-EPIUeKK5aQGiTuKc.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "DzfE_9WLAp-BrG3C1-MwU",
+                "name": "Stack",
+                "type": "subtopic",
+                "description": "A stack is a fundamental data structure that follows the Last-In, First-Out (LIFO) principle. Imagine a stack of plates; you can only add or remove plates from the top. This means the last element added to the stack is the first one to be removed. Stacks are used to manage function calls, evaluate expressions, and implement undo/redo functionality.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Stack Tutorial",
+                    "url": "https://jenkov.com/tutorials/java-collections/stack.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Guide to Java Stack",
+                    "url": "https://www.baeldung.com/java-stack"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/stack@DzfE_9WLAp-BrG3C1-MwU.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "-17LFO72I8RKjJRMXct9k",
+                "name": "Iterator",
+                "type": "subtopic",
+                "description": "An Iterator is an object that enables you to traverse through a collection (like a List or Set) one element at a time. It provides a standard way to access elements sequentially without needing to know the underlying structure of the collection. You can use methods like `hasNext()` to check if there's a next element and `next()` to retrieve it.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java Iterator Tutorial",
+                    "url": "https://jenkov.com/tutorials/java-collections/iterator.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Java Iterable Tutorial",
+                    "url": "https://jenkov.com/tutorials/java-collections/iterable.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/iterator@-17LFO72I8RKjJRMXct9k.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "eL4pc6SaNiKP48PzN7mNe",
+                "name": "Generic Collections",
+                "type": "subtopic",
+                "description": "Java Generic methods and generic classes enable programmers to specify, with a single method declaration, a set of related methods, or with a single class declaration, a set of related types, respectively.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Java - Generics",
+                    "url": "https://www.tutorialspoint.com/java/java_generics.htm"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Generics in Java",
+                    "url": "https://www.youtube.com/watch?v=XMvznsY02Mk"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/generic-collections@eL4pc6SaNiKP48PzN7mNe.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/array-vs-arraylist@a-EQiBUlSgdZba1mW36op.md"
-          },
-          {
-            "id": "XjkNd5WJ9yxW48dwHQNkZ",
-            "name": "Set",
-            "type": "subtopic",
-            "description": "A Set is a data structure that stores a collection of unique elements. This means that no duplicate values are allowed within a Set. Sets provide efficient ways to check for membership (if an element exists in the set) and perform operations like union, intersection, and difference.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Set",
-                "url": "https://jenkov.com/tutorials/java-collections/set.html"
-              },
-              {
-                "type": "article",
-                "title": "Java Set Interface and Implementation",
-                "url": "https://www.digitalocean.com/community/tutorials/java-set"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/set@XjkNd5WJ9yxW48dwHQNkZ.md"
-          },
-          {
-            "id": "eKtdDtiJygKQ4PuEylFQY",
-            "name": "Map",
-            "type": "subtopic",
-            "description": "A Map is a data structure that stores data in key-value pairs. Each key is unique, and it maps to a specific value. Think of it like a dictionary where you use a word (the key) to look up its definition (the value). Maps allow you to efficiently retrieve, add, or remove values based on their associated keys.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Generic Map in Java",
-                "url": "https://jenkov.com/tutorials/java-generics/generic-map.html"
-              },
-              {
-                "type": "article",
-                "title": "Java Map",
-                "url": "https://jenkov.com/tutorials/java-collections/map.html"
-              },
-              {
-                "type": "article",
-                "title": "Java ConcurrentMap",
-                "url": "https://jenkov.com/tutorials/java-util-concurrent/concurrentmap.html"
-              },
-              {
-                "type": "article",
-                "title": "Java SortedMap",
-                "url": "https://jenkov.com/tutorials/java-collections/sortedmap.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/map@eKtdDtiJygKQ4PuEylFQY.md"
-          },
-          {
-            "id": "ThoWhXb4vUvNfE70_wMfa",
-            "name": "Queue",
-            "type": "subtopic",
-            "description": "A queue is a fundamental data structure that follows the First-In, First-Out (FIFO) principle. Think of it like a line at a store: the first person to join the line is the first person to be served. Elements are added to the rear (enqueue) and removed from the front (dequeue) of the queue.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Queue",
-                "url": "https://jenkov.com/tutorials/java-collections/queue.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/queue@ThoWhXb4vUvNfE70_wMfa.md"
-          },
-          {
-            "id": "DWO2-EPIUeKK5aQGiTuKc",
-            "name": "Dequeue",
-            "type": "subtopic",
-            "description": "A Dequeue (pronounced \"dee-queue\") is a double-ended queue, a data structure that allows you to add and remove elements from both the front (head) and the back (tail) of the queue. Unlike a regular queue (FIFO - First-In, First-Out), a dequeue provides flexibility for both FIFO and LIFO (Last-In, First-Out) operations. This makes it useful for implementing various algorithms and data management tasks where elements need to be accessed or modified from either end.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Deque Tutorial",
-                "url": "https://jenkov.com/tutorials/java-collections/deque.html"
-              },
-              {
-                "type": "article",
-                "title": "Java Deque",
-                "url": "https://www.programiz.com/java-programming/deque"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/dequeue@DWO2-EPIUeKK5aQGiTuKc.md"
-          },
-          {
-            "id": "DzfE_9WLAp-BrG3C1-MwU",
-            "name": "Stack",
-            "type": "subtopic",
-            "description": "A stack is a fundamental data structure that follows the Last-In, First-Out (LIFO) principle. Imagine a stack of plates; you can only add or remove plates from the top. This means the last element added to the stack is the first one to be removed. Stacks are used to manage function calls, evaluate expressions, and implement undo/redo functionality.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Stack Tutorial",
-                "url": "https://jenkov.com/tutorials/java-collections/stack.html"
-              },
-              {
-                "type": "article",
-                "title": "Guide to Java Stack",
-                "url": "https://www.baeldung.com/java-stack"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/stack@DzfE_9WLAp-BrG3C1-MwU.md"
-          },
-          {
-            "id": "-17LFO72I8RKjJRMXct9k",
-            "name": "Iterator",
-            "type": "subtopic",
-            "description": "An Iterator is an object that enables you to traverse through a collection (like a List or Set) one element at a time. It provides a standard way to access elements sequentially without needing to know the underlying structure of the collection. You can use methods like `hasNext()` to check if there's a next element and `next()` to retrieve it.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Iterator Tutorial",
-                "url": "https://jenkov.com/tutorials/java-collections/iterator.html"
-              },
-              {
-                "type": "article",
-                "title": "Java Iterable Tutorial",
-                "url": "https://jenkov.com/tutorials/java-collections/iterable.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/iterator@-17LFO72I8RKjJRMXct9k.md"
-          },
-          {
-            "id": "eL4pc6SaNiKP48PzN7mNe",
-            "name": "Generic Collections",
-            "type": "subtopic",
-            "description": "Java Generic methods and generic classes enable programmers to specify, with a single method declaration, a set of related methods, or with a single class declaration, a set of related types, respectively.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java - Generics",
-                "url": "https://www.tutorialspoint.com/java/java_generics.htm"
-              },
-              {
-                "type": "video",
-                "title": "Generics in Java",
-                "url": "https://www.youtube.com/watch?v=XMvznsY02Mk"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/generic-collections@eL4pc6SaNiKP48PzN7mNe.md"
+            ]
           }
         ]
       },
@@ -953,7 +1043,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/regular-expressions@C7rB3jkshHFN7TkHRJPlz.md",
-        "subtopics_count": 4,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "dz6bCmB4dgA7VVZ448cN6",
@@ -967,7 +1057,9 @@
                 "url": "https://jenkov.com/tutorials/java-functional-programming/higher-order-functions.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/high-order-functions@dz6bCmB4dgA7VVZ448cN6.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/high-order-functions@dz6bCmB4dgA7VVZ448cN6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "SityDdjhhNZ9CO3Tg0VI9",
@@ -986,50 +1078,119 @@
                 "url": "https://www.baeldung.com/java-8-functional-interfaces"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/functional-interfaces@SityDdjhhNZ9CO3Tg0VI9.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/functional-interfaces@SityDdjhhNZ9CO3Tg0VI9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "1Mk_zXxCCcUoX-gFxtlnf",
-            "name": "Functional Composition",
-            "type": "subtopic",
-            "description": "Functional composition is the process of combining two or more functions to produce a new function. The resulting function applies each function in order, passing the output of one function as the input to the next. This allows you to build complex operations by chaining together simpler, reusable functions.",
-            "resources": [
+            "id": "UGccAJeFA636IiCySl-zF",
+            "name": "Functional Programming",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Functional Composition in Java",
-                "url": "https://jenkov.com/tutorials/java-functional-programming/functional-composition.html"
+                "id": "hY1-sEpTmpaj1PregdkFf",
+                "name": "JUnit",
+                "type": "subtopic",
+                "description": "JUnit is a widely-used open-source testing framework for the Java programming language that provides annotations to identify test methods and assertions to check expected results. It allows developers to write and execute repeatable tests to verify the correctness of individual units of source code, such as classes or methods. The framework integrates seamlessly with major Java development environments and build tools, facilitating the automation of the testing process during development.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "JUnit",
+                    "url": "https://junit.org/junit5/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "JUnit Documentation",
+                    "url": "https://junit.org/junit5/docs/current/user-guide/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "JUnit tutorial",
+                    "url": "https://www.guru99.com/junit-tutorial.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Basic JUnit tutorial",
+                    "url": "https://www.baeldung.com/junit-5"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/junit@hY1-sEpTmpaj1PregdkFf.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Java Functional Programming",
-                "url": "https://www.baeldung.com/java-functional-programming"
+                "id": "gB4XUR9nCdF1-dOEwGcHi",
+                "name": "REST Assured",
+                "type": "subtopic",
+                "description": "Testing and validating REST services in Java is harder than in dynamic languages such as Ruby and Groovy. REST Assured brings the simplicity of using these languages into the Java domain.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Rest-assured",
+                    "url": "https://rest-assured.io/"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "Rest-assured Documentation",
+                    "url": "https://github.com/rest-assured/rest-assured/wiki"
+                  },
+                  {
+                    "type": "article",
+                    "title": "A Guide to REST-assured",
+                    "url": "https://www.baeldung.com/rest-assured-tutorial"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/rest-assured@gB4XUR9nCdF1-dOEwGcHi.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "XU2C8bF9ICej8LS7ZGTTv",
+                "name": "TestNG",
+                "type": "subtopic",
+                "description": "TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Testng",
+                    "url": "https://testng.org"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Testng Documentation",
+                    "url": "https://testng.org/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Testng tutorial",
+                    "url": "https://www.guru99.com/all-about-testng-and-selenium.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/testng@XU2C8bF9ICej8LS7ZGTTv.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "U2BqOY49HaII6mKQB3SVt",
+                "name": "JMeter",
+                "type": "subtopic",
+                "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Apache JMeter Website",
+                    "url": "https://jmeter.apache.org/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/jmeter@U2BqOY49HaII6mKQB3SVt.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/functional-composition@1Mk_zXxCCcUoX-gFxtlnf.md"
-          },
-          {
-            "id": "WHxAwfdKHQSOg0TLX05EG",
-            "name": "Stream API",
-            "type": "subtopic",
-            "description": "Java provides a new additional package in Java 8 called java.util.stream. This package consists of classes, interfaces and enum to allows functional-style operations on the elements. You can use stream by importing java.util.stream package.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "The Java 8 Stream API Tutorial",
-                "url": "https://www.baeldung.com/java-8-streams"
-              },
-              {
-                "type": "video",
-                "title": "Streams API Tutorial in Java 8+",
-                "url": "https://www.youtube.com/watch?v=VNovNwHr9jY"
-              },
-              {
-                "type": "video",
-                "title": "Java 8 Streams Tutorial",
-                "url": "https://www.youtube.com/watch?v=t1-YZ6bF-g0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/stream-api@WHxAwfdKHQSOg0TLX05EG.md"
+            ]
           }
         ]
       },
@@ -1048,6 +1209,154 @@
         "file_path": "developer-roadmap/roadmaps/java/content/io-operations@M0ybgK1JCycXhZ1dEpCFo.md",
         "subtopics_count": 0,
         "subtopics": []
+      },
+      {
+        "id": "shqS9-hg__mkOtnnl_I4l",
+        "name": "Concurrency",
+        "type": "topic",
+        "description": "Concurrency is the ability of a program to execute multiple tasks seemingly simultaneously. This doesn't necessarily mean they are running at the exact same instant, but rather that their execution overlaps in time. This can be achieved through techniques like multithreading, where a single program is divided into multiple threads that can run concurrently, or through asynchronous programming, where tasks can be started and then the program can continue executing other tasks without waiting for the first task to complete.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java Concurrency and Multithreading Tutorial",
+            "url": "https://jenkov.com/tutorials/java-concurrency/index.html"
+          },
+          {
+            "type": "article",
+            "title": "Java Concurrency in Practice",
+            "url": "https://www.baeldung.com/java-concurrency"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/java/content/concurrency@shqS9-hg__mkOtnnl_I4l.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "3r0Er9XZHovIZz3gNyj4A",
+            "name": "Pass by Value / Pass by Reference",
+            "type": "subtopic",
+            "description": "Pass by value and pass by reference are two different ways of passing arguments to a function or method. In pass by value, a copy of the variable's value is passed to the function, so any changes made to the parameter inside the function do not affect the original variable. In pass by reference, a direct reference to the variable is passed, meaning that changes made to the parameter inside the function will directly affect the original variable.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Java is Pass-by-Value, Not Pass-by-Reference",
+                "url": "https://www.baeldung.com/java-pass-by-value-or-pass-by-reference"
+              },
+              {
+                "type": "article",
+                "title": "Is Java \"pass-by-reference\" or \"pass-by-value\"?",
+                "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/pass-by-value--pass-by-reference@3r0Er9XZHovIZz3gNyj4A.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "U4Wx3MH3LgJLa0n9Ne0Br",
+            "name": "volatile keyword",
+            "type": "subtopic",
+            "description": "The `volatile` keyword in Java is a modifier that can be applied to instance variables. It ensures that all threads see the most up-to-date value of a variable. Without `volatile`, each thread might cache its own copy of the variable, leading to inconsistencies when multiple threads access and modify it concurrently. Using `volatile` forces the thread to read the variable's value directly from main memory, and write changes directly back to main memory, bypassing the thread's local cache.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Java Volatile Keyword",
+                "url": "https://jenkov.com/tutorials/java-concurrency/volatile.html"
+              },
+              {
+                "type": "article",
+                "title": "Guide to the Volatile Keyword in Java",
+                "url": "https://www.baeldung.com/java-volatile"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/volatile-keyword@U4Wx3MH3LgJLa0n9Ne0Br.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "wEc7pSVU5G2c6Zqmtb_1k",
+            "name": "Java Memory Model",
+            "type": "subtopic",
+            "description": "The Java Memory Model (JMM) defines how threads in Java interact with memory. It specifies how and when different threads can see writes to shared variables, addressing issues like data visibility and race conditions in concurrent programs. The JMM ensures that multithreaded Java programs behave predictably across different hardware architectures by establishing rules for memory synchronization and ordering.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Java Memory Model",
+                "url": "https://jenkov.com/tutorials/java-concurrency/java-memory-model.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/java-memory-model@wEc7pSVU5G2c6Zqmtb_1k.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "vJSq1GJLIMQ6IIB8CMK8g",
+            "name": "Virtual Threads",
+            "type": "subtopic",
+            "description": "Virtual Threads are lightweight threads managed by the Java Virtual Machine (JVM). Unlike traditional operating system threads, which are relatively expensive to create and manage, virtual threads are designed to be extremely lightweight, allowing for the creation of millions of them. They are intended to improve the scalability and concurrency of Java applications by making it easier to write code that can handle a large number of concurrent operations without the overhead associated with traditional threads.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Java 21 Virtual Threads: Dude, Where's My Lock?",
+                "url": "https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d"
+              },
+              {
+                "type": "article",
+                "title": "Virtual Thread vs Thread in Java",
+                "url": "https://www.baeldung.com/java-virtual-thread-vs-thread"
+              },
+              {
+                "type": "article",
+                "title": "The Ultimate Guide to Java Virtual Threads",
+                "url": "https://rockthejvm.com/articles/the-ultimate-guide-to-java-virtual-threads"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/virtual-threads@vJSq1GJLIMQ6IIB8CMK8g.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "u_YysD7Bpnq-xkFX5yJGz",
+            "name": "Threads",
+            "type": "subtopic",
+            "description": "A thread is the smallest unit of execution within a Java process that allows a program to perform multiple tasks simultaneously. It represents an independent path of execution that shares the same memory space as other threads within the same application. Java manages these threads through the Thread class or by implementing the Runnable interface, enabling developers to execute background operations concurrently without blocking the main application flow.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Threads in Java",
+                "url": "https://jenkov.com/tutorials/java-concurrency/index.html"
+              },
+              {
+                "type": "video",
+                "title": "Java Threads Tutorial",
+                "url": "https://www.youtube.com/watch?v=TCd8QIS-2KI"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/threads@u_YysD7Bpnq-xkFX5yJGz.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "VdL_fAHxmRbuF0J627beA",
+            "name": "Maven",
+            "type": "subtopic",
+            "description": "Maven is a project management and build automation tool used primarily for Java projects. It uses a project object model (POM) defined in an XML file to manage a project's build process, reporting, and documentation from a central piece of information. Maven simplifies the build process by automatically downloading necessary libraries and dependencies from remote repositories, ensuring that all project modules remain consistent and compatible.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Getting started",
+                "url": "https://maven.apache.org/guides/getting-started/"
+              },
+              {
+                "type": "article",
+                "title": "Building Spring Projects with Maven",
+                "url": "https://www.baeldung.com/spring-with-maven"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/maven@VdL_fAHxmRbuF0J627beA.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "NowpzyPVFcX082j5YS5i8",
@@ -1077,126 +1386,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/file-operations@NowpzyPVFcX082j5YS5i8.md",
-        "subtopics_count": 0,
-        "subtopics": []
-      },
-      {
-        "id": "shqS9-hg__mkOtnnl_I4l",
-        "name": "Concurrency",
-        "type": "topic",
-        "description": "Concurrency is the ability of a program to execute multiple tasks seemingly simultaneously. This doesn't necessarily mean they are running at the exact same instant, but rather that their execution overlaps in time. This can be achieved through techniques like multithreading, where a single program is divided into multiple threads that can run concurrently, or through asynchronous programming, where tasks can be started and then the program can continue executing other tasks without waiting for the first task to complete.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java Concurrency and Multithreading Tutorial",
-            "url": "https://jenkov.com/tutorials/java-concurrency/index.html"
-          },
-          {
-            "type": "article",
-            "title": "Java Concurrency in Practice",
-            "url": "https://www.baeldung.com/java-concurrency"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/java/content/concurrency@shqS9-hg__mkOtnnl_I4l.md",
-        "subtopics_count": 4,
-        "subtopics": [
-          {
-            "id": "U4Wx3MH3LgJLa0n9Ne0Br",
-            "name": "volatile keyword",
-            "type": "subtopic",
-            "description": "The `volatile` keyword in Java is a modifier that can be applied to instance variables. It ensures that all threads see the most up-to-date value of a variable. Without `volatile`, each thread might cache its own copy of the variable, leading to inconsistencies when multiple threads access and modify it concurrently. Using `volatile` forces the thread to read the variable's value directly from main memory, and write changes directly back to main memory, bypassing the thread's local cache.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Volatile Keyword",
-                "url": "https://jenkov.com/tutorials/java-concurrency/volatile.html"
-              },
-              {
-                "type": "article",
-                "title": "Guide to the Volatile Keyword in Java",
-                "url": "https://www.baeldung.com/java-volatile"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/volatile-keyword@U4Wx3MH3LgJLa0n9Ne0Br.md"
-          },
-          {
-            "id": "wEc7pSVU5G2c6Zqmtb_1k",
-            "name": "Java Memory Model",
-            "type": "subtopic",
-            "description": "The Java Memory Model (JMM) defines how threads in Java interact with memory. It specifies how and when different threads can see writes to shared variables, addressing issues like data visibility and race conditions in concurrent programs. The JMM ensures that multithreaded Java programs behave predictably across different hardware architectures by establishing rules for memory synchronization and ordering.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java Memory Model",
-                "url": "https://jenkov.com/tutorials/java-concurrency/java-memory-model.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/java-memory-model@wEc7pSVU5G2c6Zqmtb_1k.md"
-          },
-          {
-            "id": "vJSq1GJLIMQ6IIB8CMK8g",
-            "name": "Virtual Threads",
-            "type": "subtopic",
-            "description": "Virtual Threads are lightweight threads managed by the Java Virtual Machine (JVM). Unlike traditional operating system threads, which are relatively expensive to create and manage, virtual threads are designed to be extremely lightweight, allowing for the creation of millions of them. They are intended to improve the scalability and concurrency of Java applications by making it easier to write code that can handle a large number of concurrent operations without the overhead associated with traditional threads.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Java 21 Virtual Threads: Dude, Where's My Lock?",
-                "url": "https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d"
-              },
-              {
-                "type": "article",
-                "title": "Virtual Thread vs Thread in Java",
-                "url": "https://www.baeldung.com/java-virtual-thread-vs-thread"
-              },
-              {
-                "type": "article",
-                "title": "The Ultimate Guide to Java Virtual Threads",
-                "url": "https://rockthejvm.com/articles/the-ultimate-guide-to-java-virtual-threads"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/virtual-threads@vJSq1GJLIMQ6IIB8CMK8g.md"
-          },
-          {
-            "id": "u_YysD7Bpnq-xkFX5yJGz",
-            "name": "Threads",
-            "type": "subtopic",
-            "description": "A thread is the smallest unit of execution within a Java process that allows a program to perform multiple tasks simultaneously. It represents an independent path of execution that shares the same memory space as other threads within the same application. Java manages these threads through the Thread class or by implementing the Runnable interface, enabling developers to execute background operations concurrently without blocking the main application flow.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Threads in Java",
-                "url": "https://jenkov.com/tutorials/java-concurrency/index.html"
-              },
-              {
-                "type": "video",
-                "title": "Java Threads Tutorial",
-                "url": "https://www.youtube.com/watch?v=TCd8QIS-2KI"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/threads@u_YysD7Bpnq-xkFX5yJGz.md"
-          }
-        ]
-      },
-      {
-        "id": "fV-gW51jhna2__Ln2HIIh",
-        "name": "Database Access",
-        "type": "topic",
-        "description": "Database access in Java refers to the techniques and APIs used to interact with persistent storage systems to perform create, read, update, and delete operations. The standard approach utilizes the Java Database Connectivity (JDBC) API, which provides a bridge for executing SQL statements against relational databases. Beyond the basic API, developers often leverage frameworks like Hibernate or Spring Data JPA to simplify data manipulation by mapping database tables to Java objects, reducing the amount of boilerplate code required to manage connections and transactions.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "ORM tutorial",
-            "url": "https://www.altexsoft.com/blog/object-relational-mapping/"
-          },
-          {
-            "type": "article",
-            "title": "Java Databases: An Overview of Libraries & APIs",
-            "url": "https://www.marcobehler.com/guides/java-databases"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/java/content/database-access@fV-gW51jhna2__Ln2HIIh.md",
-        "subtopics_count": 4,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "9UbRG752qxJdUwmqEAjN3",
@@ -1210,7 +1400,9 @@
                 "url": "https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/jdbc@9UbRG752qxJdUwmqEAjN3.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/jdbc@9UbRG752qxJdUwmqEAjN3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "X2rJ3BY1ytFKsbJqJETFu",
@@ -1234,8 +1426,32 @@
                 "url": "https://www.baeldung.com/ebean-orm"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/ebean@X2rJ3BY1ytFKsbJqJETFu.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/ebean@X2rJ3BY1ytFKsbJqJETFu.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "fV-gW51jhna2__Ln2HIIh",
+        "name": "Database Access",
+        "type": "topic",
+        "description": "Database access in Java refers to the techniques and APIs used to interact with persistent storage systems to perform create, read, update, and delete operations. The standard approach utilizes the Java Database Connectivity (JDBC) API, which provides a bridge for executing SQL statements against relational databases. Beyond the basic API, developers often leverage frameworks like Hibernate or Spring Data JPA to simplify data manipulation by mapping database tables to Java objects, reducing the amount of boilerplate code required to manage connections and transactions.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "ORM tutorial",
+            "url": "https://www.altexsoft.com/blog/object-relational-mapping/"
           },
+          {
+            "type": "article",
+            "title": "Java Databases: An Overview of Libraries & APIs",
+            "url": "https://www.marcobehler.com/guides/java-databases"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/java/content/database-access@fV-gW51jhna2__Ln2HIIh.md",
+        "subtopics_count": 2,
+        "subtopics": [
           {
             "id": "UEiDzzodyEu5O1xFAFDly",
             "name": "Hibernate",
@@ -1253,7 +1469,9 @@
                 "url": "https://hazelcast.com/glossary/hibernate-second-level-cache/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/hibernate@UEiDzzodyEu5O1xFAFDly.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/hibernate@UEiDzzodyEu5O1xFAFDly.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WzWOxBUKKg6LeuBmVesc2",
@@ -1282,7 +1500,9 @@
                 "url": "https://youtu.be/8SGI_XS5OPw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/spring-data-jpa@WzWOxBUKKg6LeuBmVesc2.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/spring-data-jpa@WzWOxBUKKg6LeuBmVesc2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1293,69 +1513,86 @@
         "description": "Frameworks are tools with pre-written code, that act as a template or skeleton, which can be reused to create an application by simply filling with your code as needed which enables developers to program their application with no overhead of creating each line of code again and again from scratch.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/java/content/web-frameworks@_W84u4UXMSY0zvy6RJvFi.md",
-        "subtopics_count": 4,
+        "subtopics_count": 2,
         "subtopics": [
           {
-            "id": "xoryfi4SpJlkz-PV05ql6",
-            "name": "Spring (Spring Boot)",
-            "type": "subtopic",
-            "description": "Spring Boot is an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The microservice architecture provides developers with a fully enclosed application, including embedded application servers.",
-            "resources": [
+            "id": "H-TpLxAx_BnJhyFc4HK6M",
+            "name": "v",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "roadmap",
-                "title": "Visit Dedicated Spring Boot Roadmap",
-                "url": "https://roadmap.sh/spring-boot"
+                "id": "xoryfi4SpJlkz-PV05ql6",
+                "name": "Spring (Spring Boot)",
+                "type": "subtopic",
+                "description": "Spring Boot is an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The microservice architecture provides developers with a fully enclosed application, including embedded application servers.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit Dedicated Spring Boot Roadmap",
+                    "url": "https://roadmap.sh/spring-boot"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Spring Boot",
+                    "url": "https://spring.io/projects/spring-boot/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is Spring Boot?",
+                    "url": "https://www.ibm.com/cloud/learn/java-spring-boot"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Spring Boot Tutorial",
+                    "url": "https://www.javaguides.net/2021/07/spring-boot-tutorial-for-beginners.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/spring-spring-boot@xoryfi4SpJlkz-PV05ql6.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Spring Boot",
-                "url": "https://spring.io/projects/spring-boot/"
+                "id": "w-kcKPh8U0P_jtT90_1Xy",
+                "name": "Quarkus",
+                "type": "subtopic",
+                "description": "Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, designed to optimize Java applications for serverless, cloud, and containerized environments. It focuses on fast startup times and low memory consumption by performing build-time metadata processing and dependency injection. This approach allows developers to create efficient microservices that integrate seamlessly with existing Java standards and ecosystem libraries.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Official Website",
+                    "url": "https://quarkus.io/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/quarkus@w-kcKPh8U0P_jtT90_1Xy.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "What is Spring Boot?",
-                "url": "https://www.ibm.com/cloud/learn/java-spring-boot"
-              },
-              {
-                "type": "article",
-                "title": "Spring Boot Tutorial",
-                "url": "https://www.javaguides.net/2021/07/spring-boot-tutorial-for-beginners.html"
+                "id": "OrkJa48HIDmrLOgCBpimA",
+                "name": "Javalin",
+                "type": "subtopic",
+                "description": "Javalin is a lightweight web framework for Java and Kotlin that's designed to be simple, intuitive, and fun to use. It allows developers to quickly build web applications and APIs with minimal boilerplate code. Javalin focuses on providing a straightforward approach to routing, request handling, and response generation, making it a good choice for projects where speed of development and ease of understanding are important.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Javalin Website",
+                    "url": "https://javalin.io/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Creating a REST API with Javalin",
+                    "url": "https://www.baeldung.com/javalin-rest-microservices"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/javalin@OrkJa48HIDmrLOgCBpimA.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/spring-spring-boot@xoryfi4SpJlkz-PV05ql6.md"
-          },
-          {
-            "id": "w-kcKPh8U0P_jtT90_1Xy",
-            "name": "Quarkus",
-            "type": "subtopic",
-            "description": "Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, designed to optimize Java applications for serverless, cloud, and containerized environments. It focuses on fast startup times and low memory consumption by performing build-time metadata processing and dependency injection. This approach allows developers to create efficient microservices that integrate seamlessly with existing Java standards and ecosystem libraries.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Official Website",
-                "url": "https://quarkus.io/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/quarkus@w-kcKPh8U0P_jtT90_1Xy.md"
-          },
-          {
-            "id": "OrkJa48HIDmrLOgCBpimA",
-            "name": "Javalin",
-            "type": "subtopic",
-            "description": "Javalin is a lightweight web framework for Java and Kotlin that's designed to be simple, intuitive, and fun to use. It allows developers to quickly build web applications and APIs with minimal boilerplate code. Javalin focuses on providing a straightforward approach to routing, request handling, and response generation, making it a good choice for projects where speed of development and ease of understanding are important.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Javalin Website",
-                "url": "https://javalin.io/"
-              },
-              {
-                "type": "article",
-                "title": "Creating a REST API with Javalin",
-                "url": "https://www.baeldung.com/javalin-rest-microservices"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/javalin@OrkJa48HIDmrLOgCBpimA.md"
+            ]
           },
           {
             "id": "kN-mXxqUPNJNsJGQ0U_7J",
@@ -1384,7 +1621,9 @@
                 "url": "https://youtu.be/bLrmnjPQsZc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/play-framework@kN-mXxqUPNJNsJGQ0U_7J.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/play-framework@kN-mXxqUPNJNsJGQ0U_7J.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1395,27 +1634,8 @@
         "description": "Build tools are software programs that automate the process of compiling source code into binary code, packaging the result into distributable formats like JAR or WAR files, and managing project dependencies. They streamline development workflows by handling tasks such as running tests, generating documentation, and ensuring that all required external libraries are downloaded and correctly linked to the project. Common examples in the Java ecosystem include Apache Maven and Gradle, which provide standardized structures for organizing project files and configurations.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/java/content/build-tools@81N1cZLue_Ii0uD5CV6kZ.md",
-        "subtopics_count": 9,
+        "subtopics_count": 5,
         "subtopics": [
-          {
-            "id": "VdL_fAHxmRbuF0J627beA",
-            "name": "Maven",
-            "type": "subtopic",
-            "description": "Maven is a project management and build automation tool used primarily for Java projects. It uses a project object model (POM) defined in an XML file to manage a project's build process, reporting, and documentation from a central piece of information. Maven simplifies the build process by automatically downloading necessary libraries and dependencies from remote repositories, ensuring that all project modules remain consistent and compatible.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Getting started",
-                "url": "https://maven.apache.org/guides/getting-started/"
-              },
-              {
-                "type": "article",
-                "title": "Building Spring Projects with Maven",
-                "url": "https://www.baeldung.com/spring-with-maven"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/maven@VdL_fAHxmRbuF0J627beA.md"
-          },
           {
             "id": "rmDIm5dqtdlNfPhvpqS7-",
             "name": "Gradle",
@@ -1443,7 +1663,30 @@
                 "url": "https://youtu.be/6V6G3RyxEMk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/gradle@rmDIm5dqtdlNfPhvpqS7-.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/gradle@rmDIm5dqtdlNfPhvpqS7-.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "1Mk_zXxCCcUoX-gFxtlnf",
+            "name": "Functional Composition",
+            "type": "subtopic",
+            "description": "Functional composition is the process of combining two or more functions to produce a new function. The resulting function applies each function in order, passing the output of one function as the input to the next. This allows you to build complex operations by chaining together simpler, reusable functions.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Functional Composition in Java",
+                "url": "https://jenkov.com/tutorials/java-functional-programming/functional-composition.html"
+              },
+              {
+                "type": "article",
+                "title": "Java Functional Programming",
+                "url": "https://www.baeldung.com/java-functional-programming"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/java/content/functional-composition@1Mk_zXxCCcUoX-gFxtlnf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6FMj9tMAQPii_1kLtHJLk",
@@ -1467,60 +1710,35 @@
                 "url": "https://www.baeldung.com/bazel-build-tool"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/bazel@6FMj9tMAQPii_1kLtHJLk.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/bazel@6FMj9tMAQPii_1kLtHJLk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "hY1-sEpTmpaj1PregdkFf",
-            "name": "JUnit",
+            "id": "WHxAwfdKHQSOg0TLX05EG",
+            "name": "Stream API",
             "type": "subtopic",
-            "description": "JUnit is a widely-used open-source testing framework for the Java programming language that provides annotations to identify test methods and assertions to check expected results. It allows developers to write and execute repeatable tests to verify the correctness of individual units of source code, such as classes or methods. The framework integrates seamlessly with major Java development environments and build tools, facilitating the automation of the testing process during development.",
+            "description": "Java provides a new additional package in Java 8 called java.util.stream. This package consists of classes, interfaces and enum to allows functional-style operations on the elements. You can use stream by importing java.util.stream package.",
             "resources": [
               {
-                "type": "official",
-                "title": "JUnit",
-                "url": "https://junit.org/junit5/"
-              },
-              {
-                "type": "official",
-                "title": "JUnit Documentation",
-                "url": "https://junit.org/junit5/docs/current/user-guide/"
-              },
-              {
                 "type": "article",
-                "title": "JUnit tutorial",
-                "url": "https://www.guru99.com/junit-tutorial.html"
+                "title": "The Java 8 Stream API Tutorial",
+                "url": "https://www.baeldung.com/java-8-streams"
               },
               {
-                "type": "article",
-                "title": "Basic JUnit tutorial",
-                "url": "https://www.baeldung.com/junit-5"
+                "type": "video",
+                "title": "Streams API Tutorial in Java 8+",
+                "url": "https://www.youtube.com/watch?v=VNovNwHr9jY"
+              },
+              {
+                "type": "video",
+                "title": "Java 8 Streams Tutorial",
+                "url": "https://www.youtube.com/watch?v=t1-YZ6bF-g0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/junit@hY1-sEpTmpaj1PregdkFf.md"
-          },
-          {
-            "id": "gB4XUR9nCdF1-dOEwGcHi",
-            "name": "REST Assured",
-            "type": "subtopic",
-            "description": "Testing and validating REST services in Java is harder than in dynamic languages such as Ruby and Groovy. REST Assured brings the simplicity of using these languages into the Java domain.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Rest-assured",
-                "url": "https://rest-assured.io/"
-              },
-              {
-                "type": "opensource",
-                "title": "Rest-assured Documentation",
-                "url": "https://github.com/rest-assured/rest-assured/wiki"
-              },
-              {
-                "type": "article",
-                "title": "A Guide to REST-assured",
-                "url": "https://www.baeldung.com/rest-assured-tutorial"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/rest-assured@gB4XUR9nCdF1-dOEwGcHi.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/stream-api@WHxAwfdKHQSOg0TLX05EG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "UFDy19TNkykRsKv4vRsVJ",
@@ -1549,59 +1767,51 @@
                 "url": "https://www.youtube.com/watch?v=jCzpxvAJoZM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/cucumber-jvm@UFDy19TNkykRsKv4vRsVJ.md"
-          },
+            "file_path": "developer-roadmap/roadmaps/java/content/cucumber-jvm@UFDy19TNkykRsKv4vRsVJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "vRZAtylN3zfHIv3SidYkA",
+        "name": "Documentation",
+        "type": "topic",
+        "description": "Documentation is written material that explains how software works, how to use it, or how it was developed. It can include tutorials, API references, design specifications, and troubleshooting guides. Good documentation helps users understand and effectively use software, and it aids developers in maintaining and extending the codebase.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/java/content/documentation@vRZAtylN3zfHIv3SidYkA.md",
+        "subtopics_count": 1,
+        "subtopics": [
           {
-            "id": "XU2C8bF9ICej8LS7ZGTTv",
-            "name": "TestNG",
+            "id": "d3Tsc7KPhtjS0eC4Zbq8B",
+            "name": "Javadoc",
             "type": "subtopic",
-            "description": "TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.",
+            "description": "Javadoc is a tool for generating API documentation in HTML format from doc comments in Java source code. These doc comments use a specific syntax, including tags like `@param`, `@return`, and `@throws`, to describe classes, interfaces, methods, and fields. By running the Javadoc tool, developers can create standardized and easily navigable documentation for their Java projects, making it easier for others (and themselves) to understand and use the code.",
             "resources": [
               {
                 "type": "official",
-                "title": "Testng",
-                "url": "https://testng.org"
-              },
-              {
-                "type": "official",
-                "title": "Testng Documentation",
-                "url": "https://testng.org/"
+                "title": "javadoc",
+                "url": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
               },
               {
                 "type": "article",
-                "title": "Testng tutorial",
-                "url": "https://www.guru99.com/all-about-testng-and-selenium.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/testng@XU2C8bF9ICej8LS7ZGTTv.md"
-          },
-          {
-            "id": "U2BqOY49HaII6mKQB3SVt",
-            "name": "JMeter",
-            "type": "subtopic",
-            "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.",
-            "resources": [
+                "title": "Javadocs",
+                "url": "https://www.jetbrains.com/help/idea/javadocs.html"
+              },
               {
                 "type": "article",
-                "title": "Apache JMeter Website",
-                "url": "https://jmeter.apache.org/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/jmeter@U2BqOY49HaII6mKQB3SVt.md"
-          },
-          {
-            "id": "mLM1HJf6_pxrUDOmb45ew",
-            "name": "Mocking > Mockito",
-            "type": "subtopic",
-            "description": "Mockito is a popular open-source testing framework for Java that enables developers to create and configure mock objects for unit testing. It allows you to simulate the behavior of complex dependencies and external services, ensuring that your tests focus solely on the logic of the code being verified. By providing a clean and intuitive API, it simplifies the process of stubbing method calls and verifying interactions within your application.",
-            "resources": [
+                "title": "Introduction to Javadoc",
+                "url": "https://www.baeldung.com/javadoc"
+              },
               {
                 "type": "article",
-                "title": "Mockito - Mocking Framework for Java",
-                "url": "https://site.mockito.org/"
+                "title": "How to Write Doc Comments for the Javadoc Tool",
+                "url": "https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/mocking--mockito@mLM1HJf6_pxrUDOmb45ew.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/javadoc@d3Tsc7KPhtjS0eC4Zbq8B.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1642,7 +1852,9 @@
                 "url": "https://logback.qos.ch/manual/configuration.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/logback@okC1uMdyfIJAhX_R9Npsw.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/logback@okC1uMdyfIJAhX_R9Npsw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "sFaNj_1MviaTc6UIfjXl6",
@@ -1661,7 +1873,9 @@
                 "url": "https://www.techtarget.com/whatis/feature/Log4j-explained-Everything-you-need-to-know"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/log4j2@sFaNj_1MviaTc6UIfjXl6.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/log4j2@sFaNj_1MviaTc6UIfjXl6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LGlZHKqyQ-aWtHnhklhgn",
@@ -1675,7 +1889,9 @@
                 "url": "https://www.slf4j.org/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/slf4j@LGlZHKqyQ-aWtHnhklhgn.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/slf4j@LGlZHKqyQ-aWtHnhklhgn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Fn7aAaGbwYsAp4xLuuFud",
@@ -1694,47 +1910,9 @@
                 "url": "https://tinylog.org/v2/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/java/content/tinylog@Fn7aAaGbwYsAp4xLuuFud.md"
-          }
-        ]
-      },
-      {
-        "id": "vRZAtylN3zfHIv3SidYkA",
-        "name": "Documentation",
-        "type": "topic",
-        "description": "Documentation is written material that explains how software works, how to use it, or how it was developed. It can include tutorials, API references, design specifications, and troubleshooting guides. Good documentation helps users understand and effectively use software, and it aids developers in maintaining and extending the codebase.",
-        "resources": [],
-        "file_path": "developer-roadmap/roadmaps/java/content/documentation@vRZAtylN3zfHIv3SidYkA.md",
-        "subtopics_count": 1,
-        "subtopics": [
-          {
-            "id": "d3Tsc7KPhtjS0eC4Zbq8B",
-            "name": "Javadoc",
-            "type": "subtopic",
-            "description": "Javadoc is a tool for generating API documentation in HTML format from doc comments in Java source code. These doc comments use a specific syntax, including tags like `@param`, `@return`, and `@throws`, to describe classes, interfaces, methods, and fields. By running the Javadoc tool, developers can create standardized and easily navigable documentation for their Java projects, making it easier for others (and themselves) to understand and use the code.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "javadoc",
-                "url": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
-              },
-              {
-                "type": "article",
-                "title": "Javadocs",
-                "url": "https://www.jetbrains.com/help/idea/javadocs.html"
-              },
-              {
-                "type": "article",
-                "title": "Introduction to Javadoc",
-                "url": "https://www.baeldung.com/javadoc"
-              },
-              {
-                "type": "article",
-                "title": "How to Write Doc Comments for the Javadoc Tool",
-                "url": "https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/java/content/javadoc@d3Tsc7KPhtjS0eC4Zbq8B.md"
+            "file_path": "developer-roadmap/roadmaps/java/content/tinylog@Fn7aAaGbwYsAp4xLuuFud.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1756,8 +1934,36 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/java/content/testing@LgpsnXV0CTvTspjnsd0Rd.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "lI6ST4WcGtPdKSoWIxStg",
+            "name": "Integration Testing",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 1,
+            "subtopics": [
+              {
+                "id": "mLM1HJf6_pxrUDOmb45ew",
+                "name": "Mocking > Mockito",
+                "type": "subtopic",
+                "description": "Mockito is a popular open-source testing framework for Java that enables developers to create and configure mock objects for unit testing. It allows you to simulate the behavior of complex dependencies and external services, ensuring that your tests focus solely on the logic of the code being verified. By providing a clean and intuitive API, it simplifies the process of stubbing method calls and verifying interactions within your application.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Mockito - Mocking Framework for Java",
+                    "url": "https://site.mockito.org/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/java/content/mocking--mockito@mLM1HJf6_pxrUDOmb45ew.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1865,7 +2071,7 @@
       },
       {
         "id": "5khApwg1FZ-0qorsLyH-F",
-        "name": "Arrays ",
+        "name": "Arrays",
         "type": "subtopic",
         "description": "Arrays are fundamental data structures used to store a collection of elements of the same data type in contiguous memory locations. They provide a way to organize and access multiple values using a single variable name and an index. Each element in an array can be accessed directly using its index, starting from 0.",
         "resources": [
@@ -1985,6 +2191,13 @@
         ]
       },
       {
+        "id": "ryMPhTTScI9pJMkQsZaaM",
+        "name": "Basics of OOP",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "LenPrQwxFsE1UVbXO_dE7",
         "name": "Classes and Objects",
         "type": "subtopic",
@@ -2039,49 +2252,6 @@
         ]
       },
       {
-        "id": "qdA6bK9ZkP8p0_NH_wMuj",
-        "name": "Abstraction",
-        "type": "subtopic",
-        "description": "The abstract keyword in Java is used to declare a class or a method that cannot be instantiated directly or must be implemented by subclasses, respectively. It is a key part of Java's abstraction mechanism, allowing developers to define abstract classes and methods that provide a blueprint for other classes.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java Abstract Classes",
-            "url": "https://jenkov.com/tutorials/java/abstract-classes.html"
-          },
-          {
-            "type": "article",
-            "title": "Java Interfaces vs. Abstract Classes",
-            "url": "https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html"
-          }
-        ]
-      },
-      {
-        "id": "PXpPEmCEBUKRjwP3B5LzJ",
-        "name": "Inheritance",
-        "type": "subtopic",
-        "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (called a subclass or derived class) acquires properties and behaviors from an existing class (called a superclass or base class). This allows for code reuse and the creation of hierarchical relationships between classes, promoting a more organized and maintainable codebase. The subclass can extend the superclass by adding new attributes and methods or overriding existing ones.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java Inheritance",
-            "url": "https://jenkov.com/tutorials/java/inheritance.html"
-          },
-          {
-            "type": "article",
-            "title": "Inheritance in Java with Example",
-            "url": "https://www.digitalocean.com/community/tutorials/inheritance-java-example"
-          }
-        ]
-      },
-      {
-        "id": "3qowgj1pas1X7oRric9eU",
-        "name": "Object Lifecycle",
-        "type": "subtopic",
-        "description": "The object lifecycle refers to the series of stages an object goes through from its creation (allocation of memory) to its destruction (reclaiming of memory). These stages typically include object creation, initialization, usage, and eventual garbage collection when the object is no longer needed. Understanding this lifecycle is crucial for efficient memory management and preventing resource leaks.",
-        "resources": []
-      },
-      {
         "id": "ZcNxO6qIXIg7RaWYnZj2e",
         "name": "Static Keyword",
         "type": "subtopic",
@@ -2105,50 +2275,6 @@
         ]
       },
       {
-        "id": "6wTRN2PYC6zM_Txkekx53",
-        "name": "Interfaces",
-        "type": "subtopic",
-        "description": "An interface in Java is a blueprint of a class. It specifies a set of methods that a class must implement if it claims to implement the interface. Think of it as a contract: any class that \"signs\" the contract (implements the interface) agrees to provide specific behaviors (methods). Interfaces can also contain constants (static final variables). They help achieve abstraction and multiple inheritance in Java.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Interfaces in Java",
-            "url": "https://jenkov.com/tutorials/java/interfaces.html"
-          },
-          {
-            "type": "article",
-            "title": "A Guide to Java Interfaces",
-            "url": "https://www.baeldung.com/java-interfaces"
-          }
-        ]
-      },
-      {
-        "id": "iH9wSsOK4a77pS7U0Yu5z",
-        "name": "Encapsulation",
-        "type": "subtopic",
-        "description": "Encapsulation is a fundamental concept in object-oriented programming where data and the methods that operate on that data are bundled together as a single unit. This unit, often a class, hides the internal state of the object from the outside world and only exposes a controlled interface for interacting with it. This protects the data from accidental modification and allows for easier maintenance and modification of the code.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java - Encapsulation",
-            "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm"
-          }
-        ]
-      },
-      {
-        "id": "Ax2ouIZgN1DpPzKDy4fwp",
-        "name": "Method Chaining",
-        "type": "subtopic",
-        "description": "Method chaining is a programming technique where multiple method calls are made sequentially on the same object, one after another, in a single statement. Each method in the chain returns an object, allowing the next method to be called on that returned object. This approach enhances code readability and conciseness by reducing the need for temporary variables and intermediate steps.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to achieve method chaining in Java",
-            "url": "https://stackoverflow.com/questions/21180269/how-to-achieve-method-chaining-in-java"
-          }
-        ]
-      },
-      {
         "id": "Ajuc_rHObqMQBXLqRIuxh",
         "name": "Final Keyword",
         "type": "subtopic",
@@ -2163,60 +2289,6 @@
             "type": "article",
             "title": "How does the final keyword in Java work? I can still modify an object",
             "url": "https://stackoverflow.com/questions/15655012/how-does-the-final-keyword-in-java-work-i-can-still-modify-an-object"
-          }
-        ]
-      },
-      {
-        "id": "y-i56f1P_mMdvyBr7J4XE",
-        "name": "Method Overloading / Overriding",
-        "type": "subtopic",
-        "description": "Method overloading allows you to define multiple methods in the same class with the same name but different parameters (different number, types, or order of parameters). Method overriding, on the other hand, occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method signature (name and parameters) must be the same in both the superclass and the subclass for overriding to occur.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Overriding vs Overloading in Java",
-            "url": "https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-java"
-          },
-          {
-            "type": "article",
-            "title": "Java Inheritance Tutorial",
-            "url": "https://jenkov.com/tutorials/java/inheritance.html"
-          }
-        ]
-      },
-      {
-        "id": "VqLV7kolfRFnvOuJAvzlg",
-        "name": "Record",
-        "type": "subtopic",
-        "description": "A record is a special type of class in Java that is designed to hold immutable data. It automatically generates methods like `equals()`, `hashCode()`, and `toString()` based on the components declared in its header, reducing boilerplate code. Records are useful for creating data transfer objects (DTOs) or simple data aggregates where the primary purpose is to store and access data.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java Records",
-            "url": "https://jenkov.com/tutorials/java/record.html"
-          },
-          {
-            "type": "video",
-            "title": "Java Records",
-            "url": "https://www.youtube.com/watch?v=xs7DiEIHW0U"
-          }
-        ]
-      },
-      {
-        "id": "ey1f8IsdAlDv1O3E_tNog",
-        "name": "Enums",
-        "type": "subtopic",
-        "description": "Enums, short for enumerations, are a special data type in Java that represent a group of named constants. They allow you to define a type that can only take on a specific set of predefined values. This makes your code more readable and less prone to errors by restricting the possible values a variable can hold.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java Enums",
-            "url": "https://jenkov.com/tutorials/java/enums.html"
-          },
-          {
-            "type": "article",
-            "title": "Java Enums",
-            "url": "https://www.programiz.com/java-programming/enums"
           }
         ]
       },
@@ -2239,6 +2311,93 @@
         ]
       },
       {
+        "id": "60POZOjwHSdKYL6rfkyEy",
+        "name": "Packages",
+        "type": "subtopic",
+        "description": "Packages are a mechanism for organizing related classes, interfaces, and sub-packages into a hierarchical namespace. They act like folders in a file system, allowing developers to group functional components together to improve code maintainability and avoid naming conflicts. By grouping related types, packages also provide a way to control access levels, as classes within the same package can have specialized visibility to each other.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Packages in Java",
+            "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Package.html"
+          }
+        ]
+      },
+      {
+        "id": "sHYmeXbdREoxrru0PZ3Px",
+        "name": "More about OOP",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "PXpPEmCEBUKRjwP3B5LzJ",
+        "name": "Inheritance",
+        "type": "subtopic",
+        "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (called a subclass or derived class) acquires properties and behaviors from an existing class (called a superclass or base class). This allows for code reuse and the creation of hierarchical relationships between classes, promoting a more organized and maintainable codebase. The subclass can extend the superclass by adding new attributes and methods or overriding existing ones.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java Inheritance",
+            "url": "https://jenkov.com/tutorials/java/inheritance.html"
+          },
+          {
+            "type": "article",
+            "title": "Inheritance in Java with Example",
+            "url": "https://www.digitalocean.com/community/tutorials/inheritance-java-example"
+          }
+        ]
+      },
+      {
+        "id": "iH9wSsOK4a77pS7U0Yu5z",
+        "name": "Encapsulation",
+        "type": "subtopic",
+        "description": "Encapsulation is a fundamental concept in object-oriented programming where data and the methods that operate on that data are bundled together as a single unit. This unit, often a class, hides the internal state of the object from the outside world and only exposes a controlled interface for interacting with it. This protects the data from accidental modification and allows for easier maintenance and modification of the code.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java - Encapsulation",
+            "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm"
+          }
+        ]
+      },
+      {
+        "id": "VqLV7kolfRFnvOuJAvzlg",
+        "name": "Record",
+        "type": "subtopic",
+        "description": "A record is a special type of class in Java that is designed to hold immutable data. It automatically generates methods like `equals()`, `hashCode()`, and `toString()` based on the components declared in its header, reducing boilerplate code. Records are useful for creating data transfer objects (DTOs) or simple data aggregates where the primary purpose is to store and access data.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java Records",
+            "url": "https://jenkov.com/tutorials/java/record.html"
+          },
+          {
+            "type": "video",
+            "title": "Java Records",
+            "url": "https://www.youtube.com/watch?v=xs7DiEIHW0U"
+          }
+        ]
+      },
+      {
+        "id": "y-i56f1P_mMdvyBr7J4XE",
+        "name": "Method Overloading / Overriding",
+        "type": "subtopic",
+        "description": "Method overloading allows you to define multiple methods in the same class with the same name but different parameters (different number, types, or order of parameters). Method overriding, on the other hand, occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method signature (name and parameters) must be the same in both the superclass and the subclass for overriding to occur.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Overriding vs Overloading in Java",
+            "url": "https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-java"
+          },
+          {
+            "type": "article",
+            "title": "Java Inheritance Tutorial",
+            "url": "https://jenkov.com/tutorials/java/inheritance.html"
+          }
+        ]
+      },
+      {
         "id": "Kjdj862xnz8fqDYE3HKhC",
         "name": "Static vs Dynamic Binding",
         "type": "subtopic",
@@ -2257,58 +2416,11 @@
         ]
       },
       {
-        "id": "dg_UpaO8TzIN7w_QZ1n-6",
-        "name": "Initializer Block",
+        "id": "3qowgj1pas1X7oRric9eU",
+        "name": "Object Lifecycle",
         "type": "subtopic",
-        "description": "An initializer block in Java is a block of code, enclosed in curly braces `{}` , that is executed when an instance of a class is created. It's used to initialize instance variables or perform setup tasks before the constructor is called. There are two types: instance initializer blocks, which run every time a new object is created, and static initializer blocks, which run only once when the class is first loaded.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Static and Instance Initializer Blocks in Java",
-            "url": "https://www.baeldung.com/java-static-instance-initializer-blocks"
-          },
-          {
-            "type": "article",
-            "title": "All About Java Instance Initializer Blocks",
-            "url": "https://blogs.oracle.com/javamagazine/post/java-instance-initializer-block"
-          },
-          {
-            "type": "article",
-            "title": "What is an initialization block?",
-            "url": "https://stackoverflow.com/questions/3987428/what-is-an-initialization-block"
-          }
-        ]
-      },
-      {
-        "id": "60POZOjwHSdKYL6rfkyEy",
-        "name": "Packages",
-        "type": "subtopic",
-        "description": "Packages are a mechanism for organizing related classes, interfaces, and sub-packages into a hierarchical namespace. They act like folders in a file system, allowing developers to group functional components together to improve code maintainability and avoid naming conflicts. By grouping related types, packages also provide a way to control access levels, as classes within the same package can have specialized visibility to each other.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Packages in Java",
-            "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Package.html"
-          }
-        ]
-      },
-      {
-        "id": "3r0Er9XZHovIZz3gNyj4A",
-        "name": "Pass by Value / Pass by Reference",
-        "type": "subtopic",
-        "description": "Pass by value and pass by reference are two different ways of passing arguments to a function or method. In pass by value, a copy of the variable's value is passed to the function, so any changes made to the parameter inside the function do not affect the original variable. In pass by reference, a direct reference to the variable is passed, meaning that changes made to the parameter inside the function will directly affect the original variable.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Java is Pass-by-Value, Not Pass-by-Reference",
-            "url": "https://www.baeldung.com/java-pass-by-value-or-pass-by-reference"
-          },
-          {
-            "type": "article",
-            "title": "Is Java \"pass-by-reference\" or \"pass-by-value\"?",
-            "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value"
-          }
-        ]
+        "description": "The object lifecycle refers to the series of stages an object goes through from its creation (allocation of memory) to its destruction (reclaiming of memory). These stages typically include object creation, initialization, usage, and eventual garbage collection when the object is no longer needed. Understanding this lifecycle is crucial for efficient memory management and preventing resource leaks.",
+        "resources": []
       },
       {
         "id": "g9P3548F38tYGjevBc42w",
@@ -2338,6 +2450,42 @@
             "type": "article",
             "title": "Java Lambda Expressions",
             "url": "https://jenkov.com/tutorials/java/lambda-expressions.html"
+          }
+        ]
+      },
+      {
+        "id": "qdA6bK9ZkP8p0_NH_wMuj",
+        "name": "Abstraction",
+        "type": "subtopic",
+        "description": "The abstract keyword in Java is used to declare a class or a method that cannot be instantiated directly or must be implemented by subclasses, respectively. It is a key part of Java's abstraction mechanism, allowing developers to define abstract classes and methods that provide a blueprint for other classes.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java Abstract Classes",
+            "url": "https://jenkov.com/tutorials/java/abstract-classes.html"
+          },
+          {
+            "type": "article",
+            "title": "Java Interfaces vs. Abstract Classes",
+            "url": "https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html"
+          }
+        ]
+      },
+      {
+        "id": "6wTRN2PYC6zM_Txkekx53",
+        "name": "Interfaces",
+        "type": "subtopic",
+        "description": "An interface in Java is a blueprint of a class. It specifies a set of methods that a class must implement if it claims to implement the interface. Think of it as a contract: any class that \"signs\" the contract (implements the interface) agrees to provide specific behaviors (methods). Interfaces can also contain constants (static final variables). They help achieve abstraction and multiple inheritance in Java.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Interfaces in Java",
+            "url": "https://jenkov.com/tutorials/java/interfaces.html"
+          },
+          {
+            "type": "article",
+            "title": "A Guide to Java Interfaces",
+            "url": "https://www.baeldung.com/java-interfaces"
           }
         ]
       },
@@ -2409,6 +2557,60 @@
         ]
       },
       {
+        "id": "Ax2ouIZgN1DpPzKDy4fwp",
+        "name": "Method Chaining",
+        "type": "subtopic",
+        "description": "Method chaining is a programming technique where multiple method calls are made sequentially on the same object, one after another, in a single statement. Each method in the chain returns an object, allowing the next method to be called on that returned object. This approach enhances code readability and conciseness by reducing the need for temporary variables and intermediate steps.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to achieve method chaining in Java",
+            "url": "https://stackoverflow.com/questions/21180269/how-to-achieve-method-chaining-in-java"
+          }
+        ]
+      },
+      {
+        "id": "ey1f8IsdAlDv1O3E_tNog",
+        "name": "Enums",
+        "type": "subtopic",
+        "description": "Enums, short for enumerations, are a special data type in Java that represent a group of named constants. They allow you to define a type that can only take on a specific set of predefined values. This makes your code more readable and less prone to errors by restricting the possible values a variable can hold.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java Enums",
+            "url": "https://jenkov.com/tutorials/java/enums.html"
+          },
+          {
+            "type": "article",
+            "title": "Java Enums",
+            "url": "https://www.programiz.com/java-programming/enums"
+          }
+        ]
+      },
+      {
+        "id": "dg_UpaO8TzIN7w_QZ1n-6",
+        "name": "Initializer Block",
+        "type": "subtopic",
+        "description": "An initializer block in Java is a block of code, enclosed in curly braces `{}` , that is executed when an instance of a class is created. It's used to initialize instance variables or perform setup tasks before the constructor is called. There are two types: instance initializer blocks, which run every time a new object is created, and static initializer blocks, which run only once when the class is first loaded.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Static and Instance Initializer Blocks in Java",
+            "url": "https://www.baeldung.com/java-static-instance-initializer-blocks"
+          },
+          {
+            "type": "article",
+            "title": "All About Java Instance Initializer Blocks",
+            "url": "https://blogs.oracle.com/javamagazine/post/java-instance-initializer-block"
+          },
+          {
+            "type": "article",
+            "title": "What is an initialization block?",
+            "url": "https://stackoverflow.com/questions/3987428/what-is-an-initialization-block"
+          }
+        ]
+      },
+      {
         "id": "zItXmuluDtl6HkTYQ7qMh",
         "name": "Dependency Injection",
         "type": "topic",
@@ -2425,6 +2627,13 @@
             "url": "https://www.digitalocean.com/community/tutorials/java-dependency-injection-design-pattern-example-tutorial"
           }
         ]
+      },
+      {
+        "id": "PX4ZcshR0QtsPElyZzSel",
+        "name": "Collections",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "a-EQiBUlSgdZba1mW36op",
@@ -2666,43 +2875,96 @@
         ]
       },
       {
-        "id": "1Mk_zXxCCcUoX-gFxtlnf",
-        "name": "Functional Composition",
+        "id": "UGccAJeFA636IiCySl-zF",
+        "name": "Functional Programming",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "hY1-sEpTmpaj1PregdkFf",
+        "name": "JUnit",
         "type": "subtopic",
-        "description": "Functional composition is the process of combining two or more functions to produce a new function. The resulting function applies each function in order, passing the output of one function as the input to the next. This allows you to build complex operations by chaining together simpler, reusable functions.",
+        "description": "JUnit is a widely-used open-source testing framework for the Java programming language that provides annotations to identify test methods and assertions to check expected results. It allows developers to write and execute repeatable tests to verify the correctness of individual units of source code, such as classes or methods. The framework integrates seamlessly with major Java development environments and build tools, facilitating the automation of the testing process during development.",
         "resources": [
           {
-            "type": "article",
-            "title": "Functional Composition in Java",
-            "url": "https://jenkov.com/tutorials/java-functional-programming/functional-composition.html"
+            "type": "official",
+            "title": "JUnit",
+            "url": "https://junit.org/junit5/"
+          },
+          {
+            "type": "official",
+            "title": "JUnit Documentation",
+            "url": "https://junit.org/junit5/docs/current/user-guide/"
           },
           {
             "type": "article",
-            "title": "Java Functional Programming",
-            "url": "https://www.baeldung.com/java-functional-programming"
+            "title": "JUnit tutorial",
+            "url": "https://www.guru99.com/junit-tutorial.html"
+          },
+          {
+            "type": "article",
+            "title": "Basic JUnit tutorial",
+            "url": "https://www.baeldung.com/junit-5"
           }
         ]
       },
       {
-        "id": "WHxAwfdKHQSOg0TLX05EG",
-        "name": "Stream API",
+        "id": "gB4XUR9nCdF1-dOEwGcHi",
+        "name": "REST Assured",
         "type": "subtopic",
-        "description": "Java provides a new additional package in Java 8 called java.util.stream. This package consists of classes, interfaces and enum to allows functional-style operations on the elements. You can use stream by importing java.util.stream package.",
+        "description": "Testing and validating REST services in Java is harder than in dynamic languages such as Ruby and Groovy. REST Assured brings the simplicity of using these languages into the Java domain.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Rest-assured",
+            "url": "https://rest-assured.io/"
+          },
+          {
+            "type": "opensource",
+            "title": "Rest-assured Documentation",
+            "url": "https://github.com/rest-assured/rest-assured/wiki"
+          },
+          {
+            "type": "article",
+            "title": "A Guide to REST-assured",
+            "url": "https://www.baeldung.com/rest-assured-tutorial"
+          }
+        ]
+      },
+      {
+        "id": "XU2C8bF9ICej8LS7ZGTTv",
+        "name": "TestNG",
+        "type": "subtopic",
+        "description": "TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Testng",
+            "url": "https://testng.org"
+          },
+          {
+            "type": "official",
+            "title": "Testng Documentation",
+            "url": "https://testng.org/"
+          },
+          {
+            "type": "article",
+            "title": "Testng tutorial",
+            "url": "https://www.guru99.com/all-about-testng-and-selenium.html"
+          }
+        ]
+      },
+      {
+        "id": "U2BqOY49HaII6mKQB3SVt",
+        "name": "JMeter",
+        "type": "subtopic",
+        "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.",
         "resources": [
           {
             "type": "article",
-            "title": "The Java 8 Stream API Tutorial",
-            "url": "https://www.baeldung.com/java-8-streams"
-          },
-          {
-            "type": "video",
-            "title": "Streams API Tutorial in Java 8+",
-            "url": "https://www.youtube.com/watch?v=VNovNwHr9jY"
-          },
-          {
-            "type": "video",
-            "title": "Java 8 Streams Tutorial",
-            "url": "https://www.youtube.com/watch?v=t1-YZ6bF-g0"
+            "title": "Apache JMeter Website",
+            "url": "https://jmeter.apache.org/"
           }
         ]
       },
@@ -2716,34 +2978,6 @@
             "type": "article",
             "title": "Java IO Tutorial",
             "url": "https://jenkov.com/tutorials/java-io/index.html"
-          }
-        ]
-      },
-      {
-        "id": "NowpzyPVFcX082j5YS5i8",
-        "name": "File Operations",
-        "type": "topic",
-        "description": "File operations in Java refer to the process of reading from, writing to, or manipulating files and directories within a file system. These tasks are primarily handled through the `java.io` and `java.nio.file` packages, which provide classes such as `File`, `Path`, `Files`, and `BufferedReader`. Developers utilize these tools to create new files, modify existing content, delete data, and manage file metadata. These capabilities allow programs to persist data across application sessions and interact with the underlying storage of the host operating system.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How To Work With Files In Java",
-            "url": "https://www.marcobehler.com/guides/java-files"
-          },
-          {
-            "type": "article",
-            "title": "(old) Java HttpURLConnection Example - Java HTTP Request GET, POST",
-            "url": "https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post"
-          },
-          {
-            "type": "article",
-            "title": "New Java HttpClient",
-            "url": "https://www.baeldung.com/java-9-http-client"
-          },
-          {
-            "type": "article",
-            "title": "5 ways to make HTTP requests in Java",
-            "url": "https://www.twilio.com/blog/5-ways-to-make-http-requests-in-java"
           }
         ]
       },
@@ -2762,6 +2996,24 @@
             "type": "article",
             "title": "Java Concurrency in Practice",
             "url": "https://www.baeldung.com/java-concurrency"
+          }
+        ]
+      },
+      {
+        "id": "3r0Er9XZHovIZz3gNyj4A",
+        "name": "Pass by Value / Pass by Reference",
+        "type": "subtopic",
+        "description": "Pass by value and pass by reference are two different ways of passing arguments to a function or method. In pass by value, a copy of the variable's value is passed to the function, so any changes made to the parameter inside the function do not affect the original variable. In pass by reference, a direct reference to the variable is passed, meaning that changes made to the parameter inside the function will directly affect the original variable.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java is Pass-by-Value, Not Pass-by-Reference",
+            "url": "https://www.baeldung.com/java-pass-by-value-or-pass-by-reference"
+          },
+          {
+            "type": "article",
+            "title": "Is Java \"pass-by-reference\" or \"pass-by-value\"?",
+            "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value"
           }
         ]
       },
@@ -2838,20 +3090,48 @@
         ]
       },
       {
-        "id": "fV-gW51jhna2__Ln2HIIh",
-        "name": "Database Access",
-        "type": "topic",
-        "description": "Database access in Java refers to the techniques and APIs used to interact with persistent storage systems to perform create, read, update, and delete operations. The standard approach utilizes the Java Database Connectivity (JDBC) API, which provides a bridge for executing SQL statements against relational databases. Beyond the basic API, developers often leverage frameworks like Hibernate or Spring Data JPA to simplify data manipulation by mapping database tables to Java objects, reducing the amount of boilerplate code required to manage connections and transactions.",
+        "id": "VdL_fAHxmRbuF0J627beA",
+        "name": "Maven",
+        "type": "subtopic",
+        "description": "Maven is a project management and build automation tool used primarily for Java projects. It uses a project object model (POM) defined in an XML file to manage a project's build process, reporting, and documentation from a central piece of information. Maven simplifies the build process by automatically downloading necessary libraries and dependencies from remote repositories, ensuring that all project modules remain consistent and compatible.",
         "resources": [
           {
             "type": "article",
-            "title": "ORM tutorial",
-            "url": "https://www.altexsoft.com/blog/object-relational-mapping/"
+            "title": "Getting started",
+            "url": "https://maven.apache.org/guides/getting-started/"
           },
           {
             "type": "article",
-            "title": "Java Databases: An Overview of Libraries & APIs",
-            "url": "https://www.marcobehler.com/guides/java-databases"
+            "title": "Building Spring Projects with Maven",
+            "url": "https://www.baeldung.com/spring-with-maven"
+          }
+        ]
+      },
+      {
+        "id": "NowpzyPVFcX082j5YS5i8",
+        "name": "File Operations",
+        "type": "topic",
+        "description": "File operations in Java refer to the process of reading from, writing to, or manipulating files and directories within a file system. These tasks are primarily handled through the `java.io` and `java.nio.file` packages, which provide classes such as `File`, `Path`, `Files`, and `BufferedReader`. Developers utilize these tools to create new files, modify existing content, delete data, and manage file metadata. These capabilities allow programs to persist data across application sessions and interact with the underlying storage of the host operating system.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How To Work With Files In Java",
+            "url": "https://www.marcobehler.com/guides/java-files"
+          },
+          {
+            "type": "article",
+            "title": "(old) Java HttpURLConnection Example - Java HTTP Request GET, POST",
+            "url": "https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post"
+          },
+          {
+            "type": "article",
+            "title": "New Java HttpClient",
+            "url": "https://www.baeldung.com/java-9-http-client"
+          },
+          {
+            "type": "article",
+            "title": "5 ways to make HTTP requests in Java",
+            "url": "https://www.twilio.com/blog/5-ways-to-make-http-requests-in-java"
           }
         ]
       },
@@ -2888,6 +3168,24 @@
             "type": "article",
             "title": "Guide to Ebean",
             "url": "https://www.baeldung.com/ebean-orm"
+          }
+        ]
+      },
+      {
+        "id": "fV-gW51jhna2__Ln2HIIh",
+        "name": "Database Access",
+        "type": "topic",
+        "description": "Database access in Java refers to the techniques and APIs used to interact with persistent storage systems to perform create, read, update, and delete operations. The standard approach utilizes the Java Database Connectivity (JDBC) API, which provides a bridge for executing SQL statements against relational databases. Beyond the basic API, developers often leverage frameworks like Hibernate or Spring Data JPA to simplify data manipulation by mapping database tables to Java objects, reducing the amount of boilerplate code required to manage connections and transactions.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "ORM tutorial",
+            "url": "https://www.altexsoft.com/blog/object-relational-mapping/"
+          },
+          {
+            "type": "article",
+            "title": "Java Databases: An Overview of Libraries & APIs",
+            "url": "https://www.marcobehler.com/guides/java-databases"
           }
         ]
       },
@@ -2942,6 +3240,13 @@
         "name": "Web Frameworks",
         "type": "topic",
         "description": "Frameworks are tools with pre-written code, that act as a template or skeleton, which can be reused to create an application by simply filling with your code as needed which enables developers to program their application with no overhead of creating each line of code again and again from scratch.",
+        "resources": []
+      },
+      {
+        "id": "H-TpLxAx_BnJhyFc4HK6M",
+        "name": "v",
+        "type": "group",
+        "description": "",
         "resources": []
       },
       {
@@ -3039,24 +3344,6 @@
         "resources": []
       },
       {
-        "id": "VdL_fAHxmRbuF0J627beA",
-        "name": "Maven",
-        "type": "subtopic",
-        "description": "Maven is a project management and build automation tool used primarily for Java projects. It uses a project object model (POM) defined in an XML file to manage a project's build process, reporting, and documentation from a central piece of information. Maven simplifies the build process by automatically downloading necessary libraries and dependencies from remote repositories, ensuring that all project modules remain consistent and compatible.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Getting started",
-            "url": "https://maven.apache.org/guides/getting-started/"
-          },
-          {
-            "type": "article",
-            "title": "Building Spring Projects with Maven",
-            "url": "https://www.baeldung.com/spring-with-maven"
-          }
-        ]
-      },
-      {
         "id": "rmDIm5dqtdlNfPhvpqS7-",
         "name": "Gradle",
         "type": "subtopic",
@@ -3085,6 +3372,24 @@
         ]
       },
       {
+        "id": "1Mk_zXxCCcUoX-gFxtlnf",
+        "name": "Functional Composition",
+        "type": "subtopic",
+        "description": "Functional composition is the process of combining two or more functions to produce a new function. The resulting function applies each function in order, passing the output of one function as the input to the next. This allows you to build complex operations by chaining together simpler, reusable functions.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Functional Composition in Java",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/functional-composition.html"
+          },
+          {
+            "type": "article",
+            "title": "Java Functional Programming",
+            "url": "https://www.baeldung.com/java-functional-programming"
+          }
+        ]
+      },
+      {
         "id": "6FMj9tMAQPii_1kLtHJLk",
         "name": "Bazel",
         "type": "subtopic",
@@ -3108,53 +3413,25 @@
         ]
       },
       {
-        "id": "hY1-sEpTmpaj1PregdkFf",
-        "name": "JUnit",
+        "id": "WHxAwfdKHQSOg0TLX05EG",
+        "name": "Stream API",
         "type": "subtopic",
-        "description": "JUnit is a widely-used open-source testing framework for the Java programming language that provides annotations to identify test methods and assertions to check expected results. It allows developers to write and execute repeatable tests to verify the correctness of individual units of source code, such as classes or methods. The framework integrates seamlessly with major Java development environments and build tools, facilitating the automation of the testing process during development.",
+        "description": "Java provides a new additional package in Java 8 called java.util.stream. This package consists of classes, interfaces and enum to allows functional-style operations on the elements. You can use stream by importing java.util.stream package.",
         "resources": [
           {
-            "type": "official",
-            "title": "JUnit",
-            "url": "https://junit.org/junit5/"
-          },
-          {
-            "type": "official",
-            "title": "JUnit Documentation",
-            "url": "https://junit.org/junit5/docs/current/user-guide/"
-          },
-          {
             "type": "article",
-            "title": "JUnit tutorial",
-            "url": "https://www.guru99.com/junit-tutorial.html"
+            "title": "The Java 8 Stream API Tutorial",
+            "url": "https://www.baeldung.com/java-8-streams"
           },
           {
-            "type": "article",
-            "title": "Basic JUnit tutorial",
-            "url": "https://www.baeldung.com/junit-5"
-          }
-        ]
-      },
-      {
-        "id": "gB4XUR9nCdF1-dOEwGcHi",
-        "name": "REST Assured",
-        "type": "subtopic",
-        "description": "Testing and validating REST services in Java is harder than in dynamic languages such as Ruby and Groovy. REST Assured brings the simplicity of using these languages into the Java domain.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Rest-assured",
-            "url": "https://rest-assured.io/"
+            "type": "video",
+            "title": "Streams API Tutorial in Java 8+",
+            "url": "https://www.youtube.com/watch?v=VNovNwHr9jY"
           },
           {
-            "type": "opensource",
-            "title": "Rest-assured Documentation",
-            "url": "https://github.com/rest-assured/rest-assured/wiki"
-          },
-          {
-            "type": "article",
-            "title": "A Guide to REST-assured",
-            "url": "https://www.baeldung.com/rest-assured-tutorial"
+            "type": "video",
+            "title": "Java 8 Streams Tutorial",
+            "url": "https://www.youtube.com/watch?v=t1-YZ6bF-g0"
           }
         ]
       },
@@ -3187,51 +3464,37 @@
         ]
       },
       {
-        "id": "XU2C8bF9ICej8LS7ZGTTv",
-        "name": "TestNG",
+        "id": "vRZAtylN3zfHIv3SidYkA",
+        "name": "Documentation",
+        "type": "topic",
+        "description": "Documentation is written material that explains how software works, how to use it, or how it was developed. It can include tutorials, API references, design specifications, and troubleshooting guides. Good documentation helps users understand and effectively use software, and it aids developers in maintaining and extending the codebase.",
+        "resources": []
+      },
+      {
+        "id": "d3Tsc7KPhtjS0eC4Zbq8B",
+        "name": "Javadoc",
         "type": "subtopic",
-        "description": "TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.",
+        "description": "Javadoc is a tool for generating API documentation in HTML format from doc comments in Java source code. These doc comments use a specific syntax, including tags like `@param`, `@return`, and `@throws`, to describe classes, interfaces, methods, and fields. By running the Javadoc tool, developers can create standardized and easily navigable documentation for their Java projects, making it easier for others (and themselves) to understand and use the code.",
         "resources": [
           {
             "type": "official",
-            "title": "Testng",
-            "url": "https://testng.org"
-          },
-          {
-            "type": "official",
-            "title": "Testng Documentation",
-            "url": "https://testng.org/"
+            "title": "javadoc",
+            "url": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
           },
           {
             "type": "article",
-            "title": "Testng tutorial",
-            "url": "https://www.guru99.com/all-about-testng-and-selenium.html"
-          }
-        ]
-      },
-      {
-        "id": "U2BqOY49HaII6mKQB3SVt",
-        "name": "JMeter",
-        "type": "subtopic",
-        "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.",
-        "resources": [
+            "title": "Javadocs",
+            "url": "https://www.jetbrains.com/help/idea/javadocs.html"
+          },
           {
             "type": "article",
-            "title": "Apache JMeter Website",
-            "url": "https://jmeter.apache.org/"
-          }
-        ]
-      },
-      {
-        "id": "mLM1HJf6_pxrUDOmb45ew",
-        "name": "Mocking > Mockito",
-        "type": "subtopic",
-        "description": "Mockito is a popular open-source testing framework for Java that enables developers to create and configure mock objects for unit testing. It allows you to simulate the behavior of complex dependencies and external services, ensuring that your tests focus solely on the logic of the code being verified. By providing a clean and intuitive API, it simplifies the process of stubbing method calls and verifying interactions within your application.",
-        "resources": [
+            "title": "Introduction to Javadoc",
+            "url": "https://www.baeldung.com/javadoc"
+          },
           {
             "type": "article",
-            "title": "Mockito - Mocking Framework for Java",
-            "url": "https://site.mockito.org/"
+            "title": "How to Write Doc Comments for the Javadoc Tool",
+            "url": "https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html"
           }
         ]
       },
@@ -3321,41 +3584,6 @@
         ]
       },
       {
-        "id": "vRZAtylN3zfHIv3SidYkA",
-        "name": "Documentation",
-        "type": "topic",
-        "description": "Documentation is written material that explains how software works, how to use it, or how it was developed. It can include tutorials, API references, design specifications, and troubleshooting guides. Good documentation helps users understand and effectively use software, and it aids developers in maintaining and extending the codebase.",
-        "resources": []
-      },
-      {
-        "id": "d3Tsc7KPhtjS0eC4Zbq8B",
-        "name": "Javadoc",
-        "type": "subtopic",
-        "description": "Javadoc is a tool for generating API documentation in HTML format from doc comments in Java source code. These doc comments use a specific syntax, including tags like `@param`, `@return`, and `@throws`, to describe classes, interfaces, methods, and fields. By running the Javadoc tool, developers can create standardized and easily navigable documentation for their Java projects, making it easier for others (and themselves) to understand and use the code.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "javadoc",
-            "url": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
-          },
-          {
-            "type": "article",
-            "title": "Javadocs",
-            "url": "https://www.jetbrains.com/help/idea/javadocs.html"
-          },
-          {
-            "type": "article",
-            "title": "Introduction to Javadoc",
-            "url": "https://www.baeldung.com/javadoc"
-          },
-          {
-            "type": "article",
-            "title": "How to Write Doc Comments for the Javadoc Tool",
-            "url": "https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html"
-          }
-        ]
-      },
-      {
         "id": "LgpsnXV0CTvTspjnsd0Rd",
         "name": "Testing",
         "type": "topic",
@@ -3372,9 +3600,399 @@
             "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
           }
         ]
+      },
+      {
+        "id": "lI6ST4WcGtPdKSoWIxStg",
+        "name": "Integration Testing",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "mLM1HJf6_pxrUDOmb45ew",
+        "name": "Mocking > Mockito",
+        "type": "subtopic",
+        "description": "Mockito is a popular open-source testing framework for Java that enables developers to create and configure mock objects for unit testing. It allows you to simulate the behavior of complex dependencies and external services, ensuring that your tests focus solely on the logic of the code being verified. By providing a clean and intuitive API, it simplifies the process of stubbing method calls and verifying interactions within your application.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Mockito - Mocking Framework for Java",
+            "url": "https://site.mockito.org/"
+          }
+        ]
       }
     ],
     "edges": [
+      {
+        "source": "aEaBobzFWv0mJHGAbgxKY",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OlbQNB6YXZjO1J7D0lZU1",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ziD_XwzJSFQP_3iLjq9pA",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QgWalJLIb6Fw0HhN1wb02",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5khApwg1FZ-0qorsLyH-F",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5g9mmi01WeZ4aDqNzwx_V",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sG_3ZQIE1-FQXQkk-OduQ",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VBNcAO0STaZJ1iV9A7utv",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JHUhVEjWFXTn6-wKcKevg",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yNDbk6r5wFqBi25xmIRF_",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DZ4BX4NYeCQbjGSj56lng",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ryMPhTTScI9pJMkQsZaaM",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sHYmeXbdREoxrru0PZ3Px",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3qowgj1pas1X7oRric9eU",
+        "target": "2TGq1y2QthnxxN-FfToSe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LenPrQwxFsE1UVbXO_dE7",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xTwJYcA6ldgaw3yGmbDEd",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KYndNwfQcwRCf3zCXOwd_",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZcNxO6qIXIg7RaWYnZj2e",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ajuc_rHObqMQBXLqRIuxh",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zDBW20W2XMCtNTG3emJ_A",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "60POZOjwHSdKYL6rfkyEy",
+        "target": "ryMPhTTScI9pJMkQsZaaM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PXpPEmCEBUKRjwP3B5LzJ",
+        "target": "sHYmeXbdREoxrru0PZ3Px",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iH9wSsOK4a77pS7U0Yu5z",
+        "target": "sHYmeXbdREoxrru0PZ3Px",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VqLV7kolfRFnvOuJAvzlg",
+        "target": "sHYmeXbdREoxrru0PZ3Px",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y-i56f1P_mMdvyBr7J4XE",
+        "target": "sHYmeXbdREoxrru0PZ3Px",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Kjdj862xnz8fqDYE3HKhC",
+        "target": "sHYmeXbdREoxrru0PZ3Px",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qdA6bK9ZkP8p0_NH_wMuj",
+        "target": "00_q6I95eO-PUUrKpPFY8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6wTRN2PYC6zM_Txkekx53",
+        "target": "00_q6I95eO-PUUrKpPFY8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ax2ouIZgN1DpPzKDy4fwp",
+        "target": "_wV2VQq6MIY1rVHjK8pfu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ey1f8IsdAlDv1O3E_tNog",
+        "target": "_wV2VQq6MIY1rVHjK8pfu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dg_UpaO8TzIN7w_QZ1n-6",
+        "target": "_wV2VQq6MIY1rVHjK8pfu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PX4ZcshR0QtsPElyZzSel",
+        "target": "zItXmuluDtl6HkTYQ7qMh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "a-EQiBUlSgdZba1mW36op",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XjkNd5WJ9yxW48dwHQNkZ",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eKtdDtiJygKQ4PuEylFQY",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ThoWhXb4vUvNfE70_wMfa",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DWO2-EPIUeKK5aQGiTuKc",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DzfE_9WLAp-BrG3C1-MwU",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-17LFO72I8RKjJRMXct9k",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eL4pc6SaNiKP48PzN7mNe",
+        "target": "PX4ZcshR0QtsPElyZzSel",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dz6bCmB4dgA7VVZ448cN6",
+        "target": "C7rB3jkshHFN7TkHRJPlz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SityDdjhhNZ9CO3Tg0VI9",
+        "target": "C7rB3jkshHFN7TkHRJPlz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UGccAJeFA636IiCySl-zF",
+        "target": "C7rB3jkshHFN7TkHRJPlz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hY1-sEpTmpaj1PregdkFf",
+        "target": "UGccAJeFA636IiCySl-zF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gB4XUR9nCdF1-dOEwGcHi",
+        "target": "UGccAJeFA636IiCySl-zF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XU2C8bF9ICej8LS7ZGTTv",
+        "target": "UGccAJeFA636IiCySl-zF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U2BqOY49HaII6mKQB3SVt",
+        "target": "UGccAJeFA636IiCySl-zF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3r0Er9XZHovIZz3gNyj4A",
+        "target": "shqS9-hg__mkOtnnl_I4l",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U4Wx3MH3LgJLa0n9Ne0Br",
+        "target": "shqS9-hg__mkOtnnl_I4l",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wEc7pSVU5G2c6Zqmtb_1k",
+        "target": "shqS9-hg__mkOtnnl_I4l",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vJSq1GJLIMQ6IIB8CMK8g",
+        "target": "shqS9-hg__mkOtnnl_I4l",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "u_YysD7Bpnq-xkFX5yJGz",
+        "target": "shqS9-hg__mkOtnnl_I4l",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VdL_fAHxmRbuF0J627beA",
+        "target": "shqS9-hg__mkOtnnl_I4l",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9UbRG752qxJdUwmqEAjN3",
+        "target": "NowpzyPVFcX082j5YS5i8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "X2rJ3BY1ytFKsbJqJETFu",
+        "target": "NowpzyPVFcX082j5YS5i8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UEiDzzodyEu5O1xFAFDly",
+        "target": "fV-gW51jhna2__Ln2HIIh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WzWOxBUKKg6LeuBmVesc2",
+        "target": "fV-gW51jhna2__Ln2HIIh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "H-TpLxAx_BnJhyFc4HK6M",
+        "target": "_W84u4UXMSY0zvy6RJvFi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kN-mXxqUPNJNsJGQ0U_7J",
+        "target": "_W84u4UXMSY0zvy6RJvFi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xoryfi4SpJlkz-PV05ql6",
+        "target": "H-TpLxAx_BnJhyFc4HK6M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "w-kcKPh8U0P_jtT90_1Xy",
+        "target": "H-TpLxAx_BnJhyFc4HK6M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OrkJa48HIDmrLOgCBpimA",
+        "target": "H-TpLxAx_BnJhyFc4HK6M",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rmDIm5dqtdlNfPhvpqS7-",
+        "target": "81N1cZLue_Ii0uD5CV6kZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1Mk_zXxCCcUoX-gFxtlnf",
+        "target": "81N1cZLue_Ii0uD5CV6kZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6FMj9tMAQPii_1kLtHJLk",
+        "target": "81N1cZLue_Ii0uD5CV6kZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WHxAwfdKHQSOg0TLX05EG",
+        "target": "81N1cZLue_Ii0uD5CV6kZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UFDy19TNkykRsKv4vRsVJ",
+        "target": "81N1cZLue_Ii0uD5CV6kZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "d3Tsc7KPhtjS0eC4Zbq8B",
+        "target": "vRZAtylN3zfHIv3SidYkA",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "okC1uMdyfIJAhX_R9Npsw",
+        "target": "d9F5Wt8onY125DLuzNULg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sFaNj_1MviaTc6UIfjXl6",
+        "target": "d9F5Wt8onY125DLuzNULg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LGlZHKqyQ-aWtHnhklhgn",
+        "target": "d9F5Wt8onY125DLuzNULg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Fn7aAaGbwYsAp4xLuuFud",
+        "target": "d9F5Wt8onY125DLuzNULg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "lI6ST4WcGtPdKSoWIxStg",
+        "target": "LgpsnXV0CTvTspjnsd0Rd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mLM1HJf6_pxrUDOmb45ew",
+        "target": "lI6ST4WcGtPdKSoWIxStg",
+        "type": "subtopic_of"
+      },
       {
         "source": "g9P3548F38tYGjevBc42w",
         "target": "00_q6I95eO-PUUrKpPFY8",
@@ -3414,346 +4032,6 @@
         "source": "vRZAtylN3zfHIv3SidYkA",
         "target": "LgpsnXV0CTvTspjnsd0Rd",
         "type": "next_in_flow"
-      },
-      {
-        "source": "OlbQNB6YXZjO1J7D0lZU1",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5g9mmi01WeZ4aDqNzwx_V",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VBNcAO0STaZJ1iV9A7utv",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yNDbk6r5wFqBi25xmIRF_",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5khApwg1FZ-0qorsLyH-F",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "sG_3ZQIE1-FQXQkk-OduQ",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JHUhVEjWFXTn6-wKcKevg",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ziD_XwzJSFQP_3iLjq9pA",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aEaBobzFWv0mJHGAbgxKY",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QgWalJLIb6Fw0HhN1wb02",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DZ4BX4NYeCQbjGSj56lng",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6FMj9tMAQPii_1kLtHJLk",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kN-mXxqUPNJNsJGQ0U_7J",
-        "target": "_W84u4UXMSY0zvy6RJvFi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "u_YysD7Bpnq-xkFX5yJGz",
-        "target": "shqS9-hg__mkOtnnl_I4l",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WzWOxBUKKg6LeuBmVesc2",
-        "target": "fV-gW51jhna2__Ln2HIIh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "d3Tsc7KPhtjS0eC4Zbq8B",
-        "target": "vRZAtylN3zfHIv3SidYkA",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UFDy19TNkykRsKv4vRsVJ",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mLM1HJf6_pxrUDOmb45ew",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gB4XUR9nCdF1-dOEwGcHi",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U2BqOY49HaII6mKQB3SVt",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hY1-sEpTmpaj1PregdkFf",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XU2C8bF9ICej8LS7ZGTTv",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1Mk_zXxCCcUoX-gFxtlnf",
-        "target": "C7rB3jkshHFN7TkHRJPlz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dz6bCmB4dgA7VVZ448cN6",
-        "target": "C7rB3jkshHFN7TkHRJPlz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SityDdjhhNZ9CO3Tg0VI9",
-        "target": "C7rB3jkshHFN7TkHRJPlz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WHxAwfdKHQSOg0TLX05EG",
-        "target": "C7rB3jkshHFN7TkHRJPlz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "a-EQiBUlSgdZba1mW36op",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XjkNd5WJ9yxW48dwHQNkZ",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eKtdDtiJygKQ4PuEylFQY",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ThoWhXb4vUvNfE70_wMfa",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DzfE_9WLAp-BrG3C1-MwU",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DWO2-EPIUeKK5aQGiTuKc",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-17LFO72I8RKjJRMXct9k",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eL4pc6SaNiKP48PzN7mNe",
-        "target": "zItXmuluDtl6HkTYQ7qMh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qdA6bK9ZkP8p0_NH_wMuj",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PXpPEmCEBUKRjwP3B5LzJ",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y-i56f1P_mMdvyBr7J4XE",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Kjdj862xnz8fqDYE3HKhC",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6wTRN2PYC6zM_Txkekx53",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "iH9wSsOK4a77pS7U0Yu5z",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VqLV7kolfRFnvOuJAvzlg",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LenPrQwxFsE1UVbXO_dE7",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xTwJYcA6ldgaw3yGmbDEd",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KYndNwfQcwRCf3zCXOwd_",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZcNxO6qIXIg7RaWYnZj2e",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zDBW20W2XMCtNTG3emJ_A",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ajuc_rHObqMQBXLqRIuxh",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "60POZOjwHSdKYL6rfkyEy",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ax2ouIZgN1DpPzKDy4fwp",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ey1f8IsdAlDv1O3E_tNog",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3qowgj1pas1X7oRric9eU",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dg_UpaO8TzIN7w_QZ1n-6",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3r0Er9XZHovIZz3gNyj4A",
-        "target": "2TGq1y2QthnxxN-FfToSe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "w-kcKPh8U0P_jtT90_1Xy",
-        "target": "_W84u4UXMSY0zvy6RJvFi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rmDIm5dqtdlNfPhvpqS7-",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vJSq1GJLIMQ6IIB8CMK8g",
-        "target": "shqS9-hg__mkOtnnl_I4l",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wEc7pSVU5G2c6Zqmtb_1k",
-        "target": "shqS9-hg__mkOtnnl_I4l",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U4Wx3MH3LgJLa0n9Ne0Br",
-        "target": "shqS9-hg__mkOtnnl_I4l",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UEiDzzodyEu5O1xFAFDly",
-        "target": "fV-gW51jhna2__Ln2HIIh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "X2rJ3BY1ytFKsbJqJETFu",
-        "target": "fV-gW51jhna2__Ln2HIIh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9UbRG752qxJdUwmqEAjN3",
-        "target": "fV-gW51jhna2__Ln2HIIh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OrkJa48HIDmrLOgCBpimA",
-        "target": "_W84u4UXMSY0zvy6RJvFi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xoryfi4SpJlkz-PV05ql6",
-        "target": "_W84u4UXMSY0zvy6RJvFi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VdL_fAHxmRbuF0J627beA",
-        "target": "81N1cZLue_Ii0uD5CV6kZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "okC1uMdyfIJAhX_R9Npsw",
-        "target": "d9F5Wt8onY125DLuzNULg",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "sFaNj_1MviaTc6UIfjXl6",
-        "target": "d9F5Wt8onY125DLuzNULg",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LGlZHKqyQ-aWtHnhklhgn",
-        "target": "d9F5Wt8onY125DLuzNULg",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Fn7aAaGbwYsAp4xLuuFud",
-        "target": "d9F5Wt8onY125DLuzNULg",
-        "type": "subtopic_of"
       }
     ]
   }

@@ -3,10 +3,10 @@
     "slug": "typescript",
     "title": "TypeScript",
     "description": "Everything you need to learn about TypeScript in 2026",
-    "extracted_at": "2026-10-29T01:04:46.720525+00:00",
+    "extracted_at": "2026-11-05T02:15:41.560963+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/typescript",
     "total_topics": 15,
-    "total_subtopics": 78
+    "total_subtopics": 81
   },
   "tree": {
     "title": "TypeScript",
@@ -40,7 +40,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/introduction-to-typescript@KDd40JOAvZ8O1mfhTYB3K.md",
-        "subtopics_count": 24,
+        "subtopics_count": 9,
         "subtopics": [
           {
             "id": "_bZ71i36haWgHQTY0yMOx",
@@ -54,7 +54,9 @@
                 "url": "https://www.typescriptlang.org/play"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/ts-playground@_bZ71i36haWgHQTY0yMOx.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/ts-playground@_bZ71i36haWgHQTY0yMOx.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Iv_t13PSVzet5VPKFtAp1",
@@ -68,7 +70,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html#using-the-cli"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/tsc@Iv_t13PSVzet5VPKFtAp1.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/tsc@Iv_t13PSVzet5VPKFtAp1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ZCM2_X4BiKh5FTCizrr-E",
@@ -87,7 +91,9 @@
                 "url": "https://www.digitalocean.com/community/tutorials/typescript-running-typescript-ts-node"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/ts-node@ZCM2_X4BiKh5FTCizrr-E.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/ts-node@ZCM2_X4BiKh5FTCizrr-E.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MQWzN_kXxVJMOYbRXSGJc",
@@ -106,7 +112,9 @@
                 "url": "https://thenewstack.io/typescript-vs-javascript/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-vs-javascript@MQWzN_kXxVJMOYbRXSGJc.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-vs-javascript@MQWzN_kXxVJMOYbRXSGJc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qdy4ZIY2EKgmPNdu_ndcg",
@@ -120,7 +128,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/running-typescript@qdy4ZIY2EKgmPNdu_ndcg.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/running-typescript@qdy4ZIY2EKgmPNdu_ndcg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dcLaEU_lb0z_QypL1ZhpX",
@@ -139,7 +149,9 @@
                 "url": "https://youtu.be/AZhZlEbBaB4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/ts-and-js-interoperability@dcLaEU_lb0z_QypL1ZhpX.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/ts-and-js-interoperability@dcLaEU_lb0z_QypL1ZhpX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dA8CNQOgJRDa0T7rmyS7f",
@@ -158,332 +170,271 @@
                 "url": "https://thenewstack.io/typescript-tutorial-a-guide-to-using-the-programming-language/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/installation-and-configuration@dA8CNQOgJRDa0T7rmyS7f.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/installation-and-configuration@dA8CNQOgJRDa0T7rmyS7f.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "mVKsM7R4Ivpdhnbwt1aRb",
-            "name": "Interface",
-            "type": "subtopic",
-            "description": "An interface in TypeScript is a way to define a contract for the shape of an object. It names a set of properties and their types that an object must have. Think of it as a blueprint that specifies the properties (and optionally, methods) that an object should possess, allowing you to ensure that different parts of your code work together smoothly by enforcing a consistent structure.",
-            "resources": [
+            "id": "OtdcYVLAgWsaKcaEjKOW1",
+            "name": "Primitive Types",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 12,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Object Types - Interfaces",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+                "id": "mVKsM7R4Ivpdhnbwt1aRb",
+                "name": "Interface",
+                "type": "subtopic",
+                "description": "An interface in TypeScript is a way to define a contract for the shape of an object. It names a set of properties and their types that an object must have. Think of it as a blueprint that specifies the properties (and optionally, methods) that an object should possess, allowing you to ensure that different parts of your code work together smoothly by enforcing a consistent structure.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Object Types - Interfaces",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/interface@mVKsM7R4Ivpdhnbwt1aRb.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "hfIHxa5i_5rEpjtzqEsic",
+                "name": "boolean",
+                "type": "subtopic",
+                "description": "A boolean type represents a logical value that can be either `true` or `false`. It is commonly used in programming to control the flow of execution based on certain conditions, allowing programs to make decisions and execute different code blocks depending on whether a condition is met. Boolean values are fundamental for expressing logical operations and comparisons.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Number, String, Boolean, Symbol and Object",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/boolean@hfIHxa5i_5rEpjtzqEsic.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "tTSITP1W1ymS-njbFb8Ts",
+                "name": "Class",
+                "type": "subtopic",
+                "description": "A class is a blueprint for creating objects (instances) that share similar characteristics. It defines the properties (data) and methods (functions) that the objects will possess. Classes allow you to create reusable code structures by defining a template that you can then use to instantiate multiple objects with the same basic features.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "TypeScript Classes",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/class@tTSITP1W1ymS-njbFb8Ts.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "UH9d3cvGy_e67WFNFwCyf",
+                "name": "number",
+                "type": "subtopic",
+                "description": "The `number` type in TypeScript represents numeric values. This includes integers (whole numbers like 1, 42, -10) and floating-point numbers (numbers with decimal points like 3.14, -0.5). TypeScript uses double-precision 64-bit floating point format (IEEE 754) to represent all numbers.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Number, String, Boolean, Symbol and Object",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/number@UH9d3cvGy_e67WFNFwCyf.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "bfZIXHceDKDGQl-24kQpT",
+                "name": "Enum",
+                "type": "subtopic",
+                "description": "An \"enum\" (short for enumeration) is a way to define a set of named constants. It provides a way to give more friendly names to sets of numeric values, making code more readable and maintainable. Enums allow you to define a type by enumerating its possible values, which can represent options, states, or any other set of distinct possibilities.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "TypeScript - Enums",
+                    "url": "https://www.typescriptlang.org/docs/handbook/enums.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/enum@bfZIXHceDKDGQl-24kQpT.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "d8iV-IBZ6cSnH8Z5_HRmc",
+                "name": "string",
+                "type": "subtopic",
+                "description": "A string represents a sequence of characters. It's used to store and manipulate textual data, like words, sentences, or any sequence of symbols. Strings are typically enclosed in single quotes (`'...'`), double quotes (`\"...\"`), or backticks (`` `...` ``).",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Number, String, Boolean, Symbol and Object",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/string@d8iV-IBZ6cSnH8Z5_HRmc.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "YbDuIo1BbZKEAZwmXlCdZ",
+                "name": "Array",
+                "type": "subtopic",
+                "description": "An array is a data structure that stores an ordered collection of elements, where each element is accessed using its numerical index. Arrays are fundamental for managing lists of items, and in TypeScript, you define the types of elements that an array can hold, enforcing consistency and preventing errors. An array's length is mutable allowing you to dynamically add or remove elements.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Arrays",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/array@YbDuIo1BbZKEAZwmXlCdZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "yLlQg7BF--ZwRHbXBWfOi",
+                "name": "void",
+                "type": "subtopic",
+                "description": "The `void` type in TypeScript represents the absence of a value. It is commonly used as the return type of functions that do not return any value, essentially indicating that the function performs an action but doesn't produce a result. A function declared with a `void` return type is not expected to return any data back to the caller.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "void - TypeScript Docs",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#void"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/void@yLlQg7BF--ZwRHbXBWfOi.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "jq-GD0DLyzrEXQKUmt5kv",
+                "name": "Tuple",
+                "type": "subtopic",
+                "description": "A tuple is a typed array with a pre-defined length and types for each index. Each position in the tuple can have its own specific type, allowing you to create arrays with a known structure where the type of element is known at each index. Tuples ensure that the number of elements matches the defined length and that each element is of the expected type.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Tuple Types",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/tuple@jq-GD0DLyzrEXQKUmt5kv.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Sa6IZtM4XJstultz-pbh0",
+                "name": "undefined",
+                "type": "subtopic",
+                "description": "`undefined` is a primitive type in TypeScript that represents a variable that has been declared but has not yet been assigned a value. When a variable is initialized without a value or a function reaches the end of its execution without a return statement, it implicitly holds this value. It signifies the absence of any object or meaningful data.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "null and undefined",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/undefined@Sa6IZtM4XJstultz-pbh0.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "cjAwawhZLo1qVQ93XIdm2",
+                "name": "null",
+                "type": "subtopic",
+                "description": "The `null` type represents the intentional absence of a value. It's a primitive data type that has only one possible value: `null`. It signifies that a variable or property has no value assigned to it, or that a value has been explicitly removed.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "null and undefined",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/null@cjAwawhZLo1qVQ93XIdm2.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "vnqvm_WiaKqpdxrW4wRGa",
+                "name": "Object",
+                "type": "subtopic",
+                "description": "In TypeScript, an object type defines the structure of a JavaScript object. It specifies the names, types, and optionality of the properties an object should have. You can define object types using curly braces `{}` and listing the properties with their corresponding types, separated by semicolons or commas. This allows TypeScript to enforce that objects conform to a specific shape, enhancing code safety and providing better autocompletion during development.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Object Types in TypeScript",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/object@vnqvm_WiaKqpdxrW4wRGa.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/interface@mVKsM7R4Ivpdhnbwt1aRb.md"
+            ]
           },
           {
-            "id": "hfIHxa5i_5rEpjtzqEsic",
-            "name": "boolean",
-            "type": "subtopic",
-            "description": "A boolean type represents a logical value that can be either `true` or `false`. It is commonly used in programming to control the flow of execution based on certain conditions, allowing programs to make decisions and execute different code blocks depending on whether a condition is met. Boolean values are fundamental for expressing logical operations and comparisons.",
-            "resources": [
+            "id": "bx8s7zcSqfKHhHLF45YWd",
+            "name": "Top Types",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Number, String, Boolean, Symbol and Object",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/boolean@hfIHxa5i_5rEpjtzqEsic.md"
-          },
-          {
-            "id": "DmqrX56d9KnBcOSwlJR2q",
-            "name": "tsconfig.json",
-            "type": "subtopic",
-            "description": "`tsconfig.json` is a configuration file that specifies how the TypeScript compiler should transpile your TypeScript code into JavaScript. It controls various compilation options such as target ECMAScript version, module system, and source maps. This file lives at the root of a TypeScript project and allows you to define the project's compilation settings in a declarative and reproducible manner.",
-            "resources": [
+                "id": "0pi9VTbngcAIswuu5LIYg",
+                "name": "never",
+                "type": "subtopic",
+                "description": "The `never` type in TypeScript represents the type of values that will never occur. This means a function that always throws an error or runs forever (infinite loop) implicitly returns `never`. It is also useful for exhaustive checking in discriminated unions, ensuring that all possible cases are handled. Essentially, you cannot assign any type to a variable of type `never` (except `never` itself), making it the bottom type in TypeScript's type system.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Never Type",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-never-type"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/never@0pi9VTbngcAIswuu5LIYg.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
               {
-                "type": "official",
-                "title": "What is a tsconfig.json",
-                "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/tsconfigjson@DmqrX56d9KnBcOSwlJR2q.md"
-          },
-          {
-            "id": "RrExVb7l2gd0s_TlNdLeD",
-            "name": "Compiler Options",
-            "type": "subtopic",
-            "description": "Compiler options in TypeScript provide fine-grained control over how the TypeScript compiler (`tsc`) transforms `.ts` files into JavaScript. These options are typically configured within a `tsconfig.json` file or passed directly via the command line. They dictate aspects like target ECMAScript version, module system, strictness of type checking, source map generation, and many other behaviors of the compilation process.",
-            "resources": [
+                "id": "O2TYbd9i_OQwQk2dKh-ly",
+                "name": "unknown",
+                "type": "subtopic",
+                "description": "The `unknown` type in TypeScript represents a value that can be anything. Unlike `any`, which essentially disables type checking, `unknown` forces you to perform type checks or type assertions before you can perform operations on a value declared as `unknown`. This helps prevent unexpected errors at runtime by ensuring you've handled the potential type of the value.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Unknown Type in TypeScript",
+                    "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/unknown@O2TYbd9i_OQwQk2dKh-ly.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
               {
-                "type": "official",
-                "title": "Compiler Options",
-                "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html"
+                "id": "yXiLegSlL7SveU8rBGj8U",
+                "name": "any",
+                "type": "subtopic",
+                "description": "`any` is a type in TypeScript that acts as a top type by opting out of type checking for a variable. When a value is assigned the `any` type, you can perform any operation on it, such as accessing arbitrary properties or calling it as a function, without the compiler raising errors. This type is primarily used as an escape hatch when you need to bypass the type system for dynamic content or when migrating existing JavaScript codebases to TypeScript.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "any type in TypeScript",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/any@yXiLegSlL7SveU8rBGj8U.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/compiler-options@RrExVb7l2gd0s_TlNdLeD.md"
-          },
-          {
-            "id": "tTSITP1W1ymS-njbFb8Ts",
-            "name": "Class",
-            "type": "subtopic",
-            "description": "A class is a blueprint for creating objects (instances) that share similar characteristics. It defines the properties (data) and methods (functions) that the objects will possess. Classes allow you to create reusable code structures by defining a template that you can then use to instantiate multiple objects with the same basic features.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "TypeScript Classes",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/class@tTSITP1W1ymS-njbFb8Ts.md"
-          },
-          {
-            "id": "UH9d3cvGy_e67WFNFwCyf",
-            "name": "number",
-            "type": "subtopic",
-            "description": "The `number` type in TypeScript represents numeric values. This includes integers (whole numbers like 1, 42, -10) and floating-point numbers (numbers with decimal points like 3.14, -0.5). TypeScript uses double-precision 64-bit floating point format (IEEE 754) to represent all numbers.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Number, String, Boolean, Symbol and Object",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/number@UH9d3cvGy_e67WFNFwCyf.md"
-          },
-          {
-            "id": "bfZIXHceDKDGQl-24kQpT",
-            "name": "Enum",
-            "type": "subtopic",
-            "description": "An \"enum\" (short for enumeration) is a way to define a set of named constants. It provides a way to give more friendly names to sets of numeric values, making code more readable and maintainable. Enums allow you to define a type by enumerating its possible values, which can represent options, states, or any other set of distinct possibilities.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "TypeScript - Enums",
-                "url": "https://www.typescriptlang.org/docs/handbook/enums.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/enum@bfZIXHceDKDGQl-24kQpT.md"
-          },
-          {
-            "id": "d8iV-IBZ6cSnH8Z5_HRmc",
-            "name": "string",
-            "type": "subtopic",
-            "description": "A string represents a sequence of characters. It's used to store and manipulate textual data, like words, sentences, or any sequence of symbols. Strings are typically enclosed in single quotes (`'...'`), double quotes (`\"...\"`), or backticks (`` `...` ``).",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Number, String, Boolean, Symbol and Object",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/string@d8iV-IBZ6cSnH8Z5_HRmc.md"
-          },
-          {
-            "id": "YbDuIo1BbZKEAZwmXlCdZ",
-            "name": "Array",
-            "type": "subtopic",
-            "description": "An array is a data structure that stores an ordered collection of elements, where each element is accessed using its numerical index. Arrays are fundamental for managing lists of items, and in TypeScript, you define the types of elements that an array can hold, enforcing consistency and preventing errors. An array's length is mutable allowing you to dynamically add or remove elements.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Arrays",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/array@YbDuIo1BbZKEAZwmXlCdZ.md"
-          },
-          {
-            "id": "yLlQg7BF--ZwRHbXBWfOi",
-            "name": "void",
-            "type": "subtopic",
-            "description": "The `void` type in TypeScript represents the absence of a value. It is commonly used as the return type of functions that do not return any value, essentially indicating that the function performs an action but doesn't produce a result. A function declared with a `void` return type is not expected to return any data back to the caller.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "void - TypeScript Docs",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#void"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/void@yLlQg7BF--ZwRHbXBWfOi.md"
-          },
-          {
-            "id": "jq-GD0DLyzrEXQKUmt5kv",
-            "name": "Tuple",
-            "type": "subtopic",
-            "description": "A tuple is a typed array with a pre-defined length and types for each index. Each position in the tuple can have its own specific type, allowing you to create arrays with a known structure where the type of element is known at each index. Tuples ensure that the number of elements matches the defined length and that each element is of the expected type.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Tuple Types",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/tuple@jq-GD0DLyzrEXQKUmt5kv.md"
-          },
-          {
-            "id": "Sa6IZtM4XJstultz-pbh0",
-            "name": "undefined",
-            "type": "subtopic",
-            "description": "`undefined` is a primitive type in TypeScript that represents a variable that has been declared but has not yet been assigned a value. When a variable is initialized without a value or a function reaches the end of its execution without a return statement, it implicitly holds this value. It signifies the absence of any object or meaningful data.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "null and undefined",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/undefined@Sa6IZtM4XJstultz-pbh0.md"
-          },
-          {
-            "id": "cjAwawhZLo1qVQ93XIdm2",
-            "name": "null",
-            "type": "subtopic",
-            "description": "The `null` type represents the intentional absence of a value. It's a primitive data type that has only one possible value: `null`. It signifies that a variable or property has no value assigned to it, or that a value has been explicitly removed.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "null and undefined",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/null@cjAwawhZLo1qVQ93XIdm2.md"
-          },
-          {
-            "id": "vnqvm_WiaKqpdxrW4wRGa",
-            "name": "Object",
-            "type": "subtopic",
-            "description": "In TypeScript, an object type defines the structure of a JavaScript object. It specifies the names, types, and optionality of the properties an object should have. You can define object types using curly braces `{}` and listing the properties with their corresponding types, separated by semicolons or commas. This allows TypeScript to enforce that objects conform to a specific shape, enhancing code safety and providing better autocompletion during development.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Object Types in TypeScript",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/object@vnqvm_WiaKqpdxrW4wRGa.md"
-          },
-          {
-            "id": "0pi9VTbngcAIswuu5LIYg",
-            "name": "never",
-            "type": "subtopic",
-            "description": "The `never` type in TypeScript represents the type of values that will never occur. This means a function that always throws an error or runs forever (infinite loop) implicitly returns `never`. It is also useful for exhaustive checking in discriminated unions, ensuring that all possible cases are handled. Essentially, you cannot assign any type to a variable of type `never` (except `never` itself), making it the bottom type in TypeScript's type system.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Never Type",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-never-type"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/never@0pi9VTbngcAIswuu5LIYg.md"
-          },
-          {
-            "id": "O2TYbd9i_OQwQk2dKh-ly",
-            "name": "unknown",
-            "type": "subtopic",
-            "description": "The `unknown` type in TypeScript represents a value that can be anything. Unlike `any`, which essentially disables type checking, `unknown` forces you to perform type checks or type assertions before you can perform operations on a value declared as `unknown`. This helps prevent unexpected errors at runtime by ensuring you've handled the potential type of the value.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Unknown Type in TypeScript",
-                "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/unknown@O2TYbd9i_OQwQk2dKh-ly.md"
-          },
-          {
-            "id": "yXiLegSlL7SveU8rBGj8U",
-            "name": "any",
-            "type": "subtopic",
-            "description": "`any` is a type in TypeScript that acts as a top type by opting out of type checking for a variable. When a value is assigned the `any` type, you can perform any operation on it, such as accessing arbitrary properties or calling it as a function, without the compiler raising errors. This type is primarily used as an escape hatch when you need to bypass the type system for dynamic content or when migrating existing JavaScript codebases to TypeScript.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "any type in TypeScript",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/any@yXiLegSlL7SveU8rBGj8U.md"
-          }
-        ]
-      },
-      {
-        "id": "qcrGApxNzkGYxgcd7o45d",
-        "name": "TypeScript Types",
-        "type": "topic",
-        "description": "TypeScript Types define the kind of values a variable can hold. They essentially act as labels that specify the allowed data types, like numbers, strings, or more complex objects. By assigning types, TypeScript can perform static type checking, catching potential errors during development before the code is even run. This helps improve code reliability and makes it easier to understand how data flows through your application.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "TypeScript - Everyday Types",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-types@qcrGApxNzkGYxgcd7o45d.md",
-        "subtopics_count": 5,
-        "subtopics": [
-          {
-            "id": "Ba0baUbomrW9td_K8U-5L",
-            "name": "as [type]",
-            "type": "subtopic",
-            "description": "Type assertions in TypeScript are a way to tell the compiler the specific type of a variable. They allow you to override TypeScript's type inference when you know more about the type of a value than the compiler does. Using `as [type]` is one syntax for type assertions, allowing you to explicitly cast a variable to a more specific type. This doesn't perform any runtime type checking or conversion, it simply instructs the compiler to treat the variable as if it were of the specified type.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Type assertions",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/as-type@Ba0baUbomrW9td_K8U-5L.md"
-          },
-          {
-            "id": "pGFnTqi0-RSj0YRmNA5iy",
-            "name": "as const",
-            "type": "subtopic",
-            "description": "`as const` is a TypeScript feature that allows you to tell the compiler to infer the narrowest or most specific type possible for an expression. Instead of the compiler widening the type of a value to its general type (like inferring a string variable as `string`), `as const` makes the compiler infer the value as a constant type (like inferring a string variable as the specific string literal type `\"hello\"`). This is useful for creating immutable data structures or when you need the compiler to enforce the exact values allowed.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "const assertions",
-                "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/as-const@pGFnTqi0-RSj0YRmNA5iy.md"
-          },
-          {
-            "id": "afTNr36VqeXoJpHxm2IoS",
-            "name": "as any",
-            "type": "subtopic",
-            "description": "The `as any` syntax in TypeScript is a type assertion that instructs the compiler to treat a value as the `any` type, effectively disabling all type checking for that specific expression. When this assertion is used, you bypass the type system, allowing you to access any properties or methods on the object regardless of its original definition. This feature is often used as a temporary escape hatch when dealing with legacy code, external libraries with incomplete type definitions, or complex dynamic data structures where precise typing is difficult to determine.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "any",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/as-any@afTNr36VqeXoJpHxm2IoS.md"
-          },
-          {
-            "id": "mjaL5ocLnM8VQlhUxW6KU",
-            "name": "Non-null Assertion",
-            "type": "subtopic",
-            "description": "The non-null assertion operator in TypeScript is a way to tell the compiler that you are certain a value is not null or undefined, even if the TypeScript's type checker thinks it could be. It is denoted by an exclamation mark (`!`) placed after a variable or expression. Using this operator effectively tells the compiler to suppress strict null checks for that particular expression, trusting that you, the developer, have enough context to know the value will be present at runtime.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Non-null assertion operator",
-                "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/non-null-assertion@mjaL5ocLnM8VQlhUxW6KU.md"
-          },
-          {
-            "id": "HD1UGOidp7JGKdW6CEdQ_",
-            "name": "satisfies keyword",
-            "type": "subtopic",
-            "description": "The `satisfies` keyword in TypeScript is used to ensure that a value conforms to a specific type without explicitly declaring that type. This is particularly useful when you want to check that an object's structure matches a type definition but still allow TypeScript to infer a more specific type for the object's properties. It validates the shape of the value against the specified type, and if valid it retains the initial type information.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "satisfies Keyword",
-                "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html#the-satisfies-operator"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/satisfies-keyword@HD1UGOidp7JGKdW6CEdQ_.md"
+            ]
           }
         ]
       },
@@ -500,8 +451,149 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/type-inference@KUur-gfOBQodTS-irFet7.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "DmqrX56d9KnBcOSwlJR2q",
+            "name": "tsconfig.json",
+            "type": "subtopic",
+            "description": "`tsconfig.json` is a configuration file that specifies how the TypeScript compiler should transpile your TypeScript code into JavaScript. It controls various compilation options such as target ECMAScript version, module system, and source maps. This file lives at the root of a TypeScript project and allows you to define the project's compilation settings in a declarative and reproducible manner.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "What is a tsconfig.json",
+                "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/tsconfigjson@DmqrX56d9KnBcOSwlJR2q.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "RrExVb7l2gd0s_TlNdLeD",
+            "name": "Compiler Options",
+            "type": "subtopic",
+            "description": "Compiler options in TypeScript provide fine-grained control over how the TypeScript compiler (`tsc`) transforms `.ts` files into JavaScript. These options are typically configured within a `tsconfig.json` file or passed directly via the command line. They dictate aspects like target ECMAScript version, module system, strictness of type checking, source map generation, and many other behaviors of the compilation process.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Compiler Options",
+                "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/compiler-options@RrExVb7l2gd0s_TlNdLeD.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "qcrGApxNzkGYxgcd7o45d",
+        "name": "TypeScript Types",
+        "type": "topic",
+        "description": "TypeScript Types define the kind of values a variable can hold. They essentially act as labels that specify the allowed data types, like numbers, strings, or more complex objects. By assigning types, TypeScript can perform static type checking, catching potential errors during development before the code is even run. This helps improve code reliability and makes it easier to understand how data flows through your application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "TypeScript - Everyday Types",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-types@qcrGApxNzkGYxgcd7o45d.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "AYoKlh6xTM5FgiK4h2HFp",
+            "name": "Assertions",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 5,
+            "subtopics": [
+              {
+                "id": "Ba0baUbomrW9td_K8U-5L",
+                "name": "as [type]",
+                "type": "subtopic",
+                "description": "Type assertions in TypeScript are a way to tell the compiler the specific type of a variable. They allow you to override TypeScript's type inference when you know more about the type of a value than the compiler does. Using `as [type]` is one syntax for type assertions, allowing you to explicitly cast a variable to a more specific type. This doesn't perform any runtime type checking or conversion, it simply instructs the compiler to treat the variable as if it were of the specified type.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Type assertions",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/as-type@Ba0baUbomrW9td_K8U-5L.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "afTNr36VqeXoJpHxm2IoS",
+                "name": "as any",
+                "type": "subtopic",
+                "description": "The `as any` syntax in TypeScript is a type assertion that instructs the compiler to treat a value as the `any` type, effectively disabling all type checking for that specific expression. When this assertion is used, you bypass the type system, allowing you to access any properties or methods on the object regardless of its original definition. This feature is often used as a temporary escape hatch when dealing with legacy code, external libraries with incomplete type definitions, or complex dynamic data structures where precise typing is difficult to determine.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "any",
+                    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/as-any@afTNr36VqeXoJpHxm2IoS.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "pGFnTqi0-RSj0YRmNA5iy",
+                "name": "as const",
+                "type": "subtopic",
+                "description": "`as const` is a TypeScript feature that allows you to tell the compiler to infer the narrowest or most specific type possible for an expression. Instead of the compiler widening the type of a value to its general type (like inferring a string variable as `string`), `as const` makes the compiler infer the value as a constant type (like inferring a string variable as the specific string literal type `\"hello\"`). This is useful for creating immutable data structures or when you need the compiler to enforce the exact values allowed.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "const assertions",
+                    "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/as-const@pGFnTqi0-RSj0YRmNA5iy.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "mjaL5ocLnM8VQlhUxW6KU",
+                "name": "Non-null Assertion",
+                "type": "subtopic",
+                "description": "The non-null assertion operator in TypeScript is a way to tell the compiler that you are certain a value is not null or undefined, even if the TypeScript's type checker thinks it could be. It is denoted by an exclamation mark (`!`) placed after a variable or expression. Using this operator effectively tells the compiler to suppress strict null checks for that particular expression, trusting that you, the developer, have enough context to know the value will be present at runtime.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Non-null assertion operator",
+                    "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/non-null-assertion@mjaL5ocLnM8VQlhUxW6KU.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "HD1UGOidp7JGKdW6CEdQ_",
+                "name": "satisfies keyword",
+                "type": "subtopic",
+                "description": "The `satisfies` keyword in TypeScript is used to ensure that a value conforms to a specific type without explicitly declaring that type. This is particularly useful when you want to check that an object's structure matches a type definition but still allow TypeScript to infer a more specific type for the object's properties. It validates the shape of the value against the specified type, and if valid it retains the initial type information.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "satisfies Keyword",
+                    "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html#the-satisfies-operator"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/typescript/content/satisfies-keyword@HD1UGOidp7JGKdW6CEdQ_.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "alMJCEyUZ90xz-2_g3YRj",
@@ -516,7 +608,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/type-compatibility@alMJCEyUZ90xz-2_g3YRj.md",
-        "subtopics_count": 4,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "5z5w3yv1HbOpMlzEd4Iot",
@@ -530,7 +622,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/union-types@5z5w3yv1HbOpMlzEd4Iot.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/union-types@5z5w3yv1HbOpMlzEd4Iot.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "RWYXEZMODUrqwRWf_Lqi9",
@@ -544,35 +638,9 @@
                 "url": "https://www.typescripttutorial.net/typescript-tutorial/typescript-intersection-types/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/intersection-types@RWYXEZMODUrqwRWf_Lqi9.md"
-          },
-          {
-            "id": "M_3O21zjppgWptIT5dtu8",
-            "name": "Type Aliases",
-            "type": "subtopic",
-            "description": "Type aliases in TypeScript create a new name for an existing type. This new name can then be used anywhere you would normally use the original type. They don't create a new type; instead, they offer a more readable and convenient way to refer to potentially complex or frequently used types, such as unions, intersections, or tuple types.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Type Aliases",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/type-aliases@M_3O21zjppgWptIT5dtu8.md"
-          },
-          {
-            "id": "t1Tcesfq7bV2TkHcfD6lU",
-            "name": "keyof Operator",
-            "type": "subtopic",
-            "description": "The `keyof` operator in TypeScript creates a union of all the keys (property names) of a given object type. It essentially extracts the names of the properties as string literal types. This allows you to work with the properties of an object type in a type-safe way, especially when dealing with generic functions or situations where you need to ensure that you're only accessing valid properties.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "keyof Type Operator",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/keyof-operator@t1Tcesfq7bV2TkHcfD6lU.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/intersection-types@RWYXEZMODUrqwRWf_Lqi9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -604,8 +672,41 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/combining-types@qefnsugcveizVq2TORRgn.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "M_3O21zjppgWptIT5dtu8",
+            "name": "Type Aliases",
+            "type": "subtopic",
+            "description": "Type aliases in TypeScript create a new name for an existing type. This new name can then be used anywhere you would normally use the original type. They don't create a new type; instead, they offer a more readable and convenient way to refer to potentially complex or frequently used types, such as unions, intersections, or tuple types.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Type Aliases",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/type-aliases@M_3O21zjppgWptIT5dtu8.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "t1Tcesfq7bV2TkHcfD6lU",
+            "name": "keyof Operator",
+            "type": "subtopic",
+            "description": "The `keyof` operator in TypeScript creates a union of all the keys (property names) of a given object type. It essentially extracts the names of the properties as string literal types. This allows you to work with the properties of an object type in a type-safe way, especially when dealing with generic functions or situations where you need to ensure that you're only accessing valid properties.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "keyof Type Operator",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/keyof-operator@t1Tcesfq7bV2TkHcfD6lU.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "aH1DxiG5xrdNlKutJ_gTz",
@@ -639,7 +740,9 @@
                 "url": "https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/types-vs-interfaces@TxkEpoOiuUm-fXJuFVKcH.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/types-vs-interfaces@TxkEpoOiuUm-fXJuFVKcH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "O-9WQqidujLIEOTcOfy4n",
@@ -653,7 +756,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/extending-interfaces@O-9WQqidujLIEOTcOfy4n.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/extending-interfaces@O-9WQqidujLIEOTcOfy4n.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fY40W8prpgiNqRL50w7ub",
@@ -667,7 +772,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/interface-declaration@fY40W8prpgiNqRL50w7ub.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/interface-declaration@fY40W8prpgiNqRL50w7ub.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "lvtTSHH9yBTCiLng8btnI",
@@ -675,7 +782,9 @@
             "type": "subtopic",
             "description": "Hybrid types describe objects that act as both an object and a function. In essence, they possess properties and methods like a regular object, but they can also be invoked or called directly like a function. This unusual structure is often used when a function needs to maintain state or have additional properties associated with it.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/hybrid-types@lvtTSHH9yBTCiLng8btnI.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/hybrid-types@lvtTSHH9yBTCiLng8btnI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -706,7 +815,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#instanceof-narrowing"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/instanceof@EDOU5a7UK17yp3PdFBJMc.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/instanceof@EDOU5a7UK17yp3PdFBJMc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ZiOcFZy85p7tLzUkyKDei",
@@ -720,7 +831,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#typeof-type-guards"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/typeof@ZiOcFZy85p7tLzUkyKDei.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/typeof@ZiOcFZy85p7tLzUkyKDei.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Wy2yIK5vgLjEcc9VjuQK5",
@@ -734,7 +847,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#equality-narrowing"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/equality@Wy2yIK5vgLjEcc9VjuQK5.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/equality@Wy2yIK5vgLjEcc9VjuQK5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Xonbxc7MvMEonKBvbkCAH",
@@ -748,7 +863,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#truthiness-narrowing"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/truthiness@Xonbxc7MvMEonKBvbkCAH.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/truthiness@Xonbxc7MvMEonKBvbkCAH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "1DOSAieOmWUNNsQQrqf2m",
@@ -762,7 +879,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/type-predicates@1DOSAieOmWUNNsQQrqf2m.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/type-predicates@1DOSAieOmWUNNsQQrqf2m.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -779,7 +898,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-functions@qOynVkDi1gFz0mxyJHjfJ.md",
-        "subtopics_count": 2,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "9FIhHwDNzyKpb42NmSv3K",
@@ -793,7 +912,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/typing-functions@9FIhHwDNzyKpb42NmSv3K.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/typing-functions@9FIhHwDNzyKpb42NmSv3K.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-0Zp6b8NjDyz9MAQE3HfS",
@@ -807,7 +928,67 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/function-overloading@-0Zp6b8NjDyz9MAQE3HfS.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/function-overloading@-0Zp6b8NjDyz9MAQE3HfS.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "gBTem9Dp3IQLAkqGX4fOF",
+            "name": "Partial",
+            "type": "subtopic",
+            "description": "The `Partial<Type>` utility type in TypeScript constructs a type where all properties of the original `Type` are set to optional. This means that when you use `Partial<Type>`, you can create objects that only include a subset of the properties defined in the original `Type`, or even have no properties at all. Essentially, it makes all properties of a type nullable.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/partial@gBTem9Dp3IQLAkqGX4fOF.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "yjlxygHl8QONNUrdx-Q0A",
+            "name": "Omit",
+            "type": "subtopic",
+            "description": "`Omit` is a utility type in TypeScript that constructs a new type by picking all properties from an existing type and then removing the specified properties (keys). Essentially, it creates a subset of the original type by excluding certain keys you define. The resulting type will only contain the properties that were not omitted.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Omit\\<Type, Keys\\>",
+                "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/omit@yjlxygHl8QONNUrdx-Q0A.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "DRdBmF5Dt_r09LoPOxOuq",
+            "name": "Record",
+            "type": "subtopic",
+            "description": "The `Record` utility type in TypeScript is used to construct a new type where the keys are of a specific type (typically a string, number, or symbol) and the values are of another specified type. This is useful when you want to define an object structure with a predefined set of keys and a consistent type for the values associated with those keys. Essentially, it's a shorthand for defining object types with specific key-value pairings.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Record\\<Keys, Type\\>",
+                "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/record@DRdBmF5Dt_r09LoPOxOuq.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "IIAbAzXiVQm1JEi2MTMZN",
+            "name": "Extract",
+            "type": "subtopic",
+            "description": "Extract allows you to create a new type by picking out specific types from a union based on a condition. Essentially, it filters a union type, keeping only those members that are assignable to a specified type. This is useful when you need to narrow down the possible types in a union to only those that meet a certain criteria.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Extract\\<Type, Union\\>",
+                "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/extract@IIAbAzXiVQm1JEi2MTMZN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -824,7 +1005,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/classes@ib0jfZzukYOZ42AdJqt_W.md",
-        "subtopics_count": 4,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "3XrKbK5Od2eoM0BLaS4kU",
@@ -838,7 +1019,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/constructor-params@3XrKbK5Od2eoM0BLaS4kU.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/constructor-params@3XrKbK5Od2eoM0BLaS4kU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "RJ7on8WoxrKcXrR3qY5Rs",
@@ -852,7 +1035,9 @@
                 "url": "https://www.typescripttutorial.net/typescript-tutorial/typescript-access-modifiers/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/access-modifiers@RJ7on8WoxrKcXrR3qY5Rs.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/access-modifiers@RJ7on8WoxrKcXrR3qY5Rs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "tZFWeWHdOUJcCEtHfXH9p",
@@ -866,26 +1051,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/abstract-classes@tZFWeWHdOUJcCEtHfXH9p.md"
-          },
-          {
-            "id": "8P0-vb9nlnmz7iC4UvyJZ",
-            "name": "Inheritance vs Polymorphism",
-            "type": "subtopic",
-            "description": "Inheritance is a mechanism where a class (the subclass or derived class) acquires the properties and methods of another class (the superclass or base class), establishing an \"is-a\" relationship. Polymorphism, meaning \"many forms,\" allows objects of different classes to be treated as objects of a common type, enabling you to write code that can work with objects of multiple classes without knowing their specific types at compile time.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Dev.to - Mastering OOP in TypeScript",
-                "url": "https://dev.to/rajrathod/mastering-object-oriented-programming-with-typescript-encapsulation-abstraction-inheritance-and-polymorphism-explained-c6p"
-              },
-              {
-                "type": "video",
-                "title": "Inheritance and Polymorphism In TypeScript",
-                "url": "https://www.youtube.com/watch?v=Sn6K57YSuwU"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/inheritance-vs-polymorphism@8P0-vb9nlnmz7iC4UvyJZ.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/abstract-classes@tZFWeWHdOUJcCEtHfXH9p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -916,7 +1084,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/generic-types@T2-VAVfntouJOoWHpHZ3n.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/generic-types@T2-VAVfntouJOoWHpHZ3n.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0NXHAOUYGIwuPwlN7r_B3",
@@ -930,52 +1100,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/generic-constraints@0NXHAOUYGIwuPwlN7r_B3.md"
-          }
-        ]
-      },
-      {
-        "id": "TRx3wvWnRdJJf5eL-GBG4",
-        "name": "Decorators",
-        "type": "topic",
-        "description": "Decorators are a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. They use the form `@expression`, where `expression` must evaluate to a function that will be called at runtime with information about the decorated declaration. Decorators provide a way to add both annotations and a meta-programming syntax for class declarations and members. They essentially modify the behavior or functionality of the decorated code in a declarative way.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Decorators",
-            "url": "https://www.typescriptlang.org/docs/handbook/decorators.html#handbook-content"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/typescript/content/decorators@TRx3wvWnRdJJf5eL-GBG4.md",
-        "subtopics_count": 2,
-        "subtopics": [
-          {
-            "id": "aknqutxN2WDQ4RFcT-szM",
-            "name": "Method Overriding",
-            "type": "subtopic",
-            "description": "Method overriding allows a subclass to provide a specific implementation for a method that is already defined in its superclass. When a method in a subclass has the same name, same parameters, and same return type (or a more specific return type, known as covariant return type) as a method in its superclass, the subclass's method overrides the superclass's method. This means that when the method is called on an object of the subclass, the subclass's version of the method will be executed instead of the superclass's version.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "TypeScript - Overriding Methods",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/method-overriding@aknqutxN2WDQ4RFcT-szM.md"
-          },
-          {
-            "id": "oxzcYXxy2I7GI7nbvFYVa",
-            "name": "Constructor Overloading",
-            "type": "subtopic",
-            "description": "Constructor overloading allows a class to have multiple constructors with different parameter lists. This enables you to create objects of the class in different ways, providing flexibility in initialization based on the provided arguments. Each constructor variation handles the object's initialization differently depending on the types and number of arguments passed during instantiation.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Constructors - TypeScript",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/constructor-overloading@oxzcYXxy2I7GI7nbvFYVa.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/generic-constraints@0NXHAOUYGIwuPwlN7r_B3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -997,7 +1124,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/typescript/content/utility-types@LSwUHfalnk5MgHt21PANb.md",
-        "subtopics_count": 12,
+        "subtopics_count": 8,
         "subtopics": [
           {
             "id": "E88tHQvARkHURZwGaO02l",
@@ -1011,15 +1138,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/pick@E88tHQvARkHURZwGaO02l.md"
-          },
-          {
-            "id": "gBTem9Dp3IQLAkqGX4fOF",
-            "name": "Partial",
-            "type": "subtopic",
-            "description": "The `Partial<Type>` utility type in TypeScript constructs a type where all properties of the original `Type` are set to optional. This means that when you use `Partial<Type>`, you can create objects that only include a subset of the properties defined in the original `Type`, or even have no properties at all. Essentially, it makes all properties of a type nullable.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/partial@gBTem9Dp3IQLAkqGX4fOF.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/pick@E88tHQvARkHURZwGaO02l.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IuO9-O_DQdDYuAbdGWdgb",
@@ -1027,21 +1148,9 @@
             "type": "subtopic",
             "description": "The `Readonly` utility type in TypeScript constructs a new type where all properties of the original type are set as read-only. This means that once a property is initialized, its value cannot be changed later. This is useful for creating immutable objects and ensuring that data is not accidentally modified.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/readonly@IuO9-O_DQdDYuAbdGWdgb.md"
-          },
-          {
-            "id": "yjlxygHl8QONNUrdx-Q0A",
-            "name": "Omit",
-            "type": "subtopic",
-            "description": "`Omit` is a utility type in TypeScript that constructs a new type by picking all properties from an existing type and then removing the specified properties (keys). Essentially, it creates a subset of the original type by excluding certain keys you define. The resulting type will only contain the properties that were not omitted.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Omit\\<Type, Keys\\>",
-                "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/omit@yjlxygHl8QONNUrdx-Q0A.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/readonly@IuO9-O_DQdDYuAbdGWdgb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0fvOXi9gJbEc7etqTggNE",
@@ -1055,21 +1164,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#excludeuniontype-excludedmembers"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/exclude@0fvOXi9gJbEc7etqTggNE.md"
-          },
-          {
-            "id": "DRdBmF5Dt_r09LoPOxOuq",
-            "name": "Record",
-            "type": "subtopic",
-            "description": "The `Record` utility type in TypeScript is used to construct a new type where the keys are of a specific type (typically a string, number, or symbol) and the values are of another specified type. This is useful when you want to define an object structure with a predefined set of keys and a consistent type for the values associated with those keys. Essentially, it's a shorthand for defining object types with specific key-value pairings.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Record\\<Keys, Type\\>",
-                "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/record@DRdBmF5Dt_r09LoPOxOuq.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/exclude@0fvOXi9gJbEc7etqTggNE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aEhI_9mFWXRIZh1ZxTuzu",
@@ -1077,21 +1174,9 @@
             "type": "subtopic",
             "description": "Awaited is a utility type that models the process of unwrapping a Promise. It is used to determine the type that a Promise resolves to, regardless of how many layers of nested Promises are involved. By applying this utility, you can extract the underlying value from an asynchronous function's return type or any other Promise-like structure.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/awaited@aEhI_9mFWXRIZh1ZxTuzu.md"
-          },
-          {
-            "id": "IIAbAzXiVQm1JEi2MTMZN",
-            "name": "Extract",
-            "type": "subtopic",
-            "description": "Extract allows you to create a new type by picking out specific types from a union based on a condition. Essentially, it filters a union type, keeping only those members that are assignable to a specified type. This is useful when you need to narrow down the possible types in a union to only those that meet a certain criteria.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Extract\\<Type, Union\\>",
-                "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/extract@IIAbAzXiVQm1JEi2MTMZN.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/awaited@aEhI_9mFWXRIZh1ZxTuzu.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "a7hl0iMZ-jcUACxqIYVqv",
@@ -1099,7 +1184,9 @@
             "type": "subtopic",
             "description": "The `Parameters` utility type in TypeScript extracts the parameter types of a function type into a tuple. This allows you to programmatically determine the expected arguments of a function and use them in other type definitions, providing type safety and flexibility when working with function signatures. The result is a tuple type where each element represents the type of a parameter in the function.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/parameters@a7hl0iMZ-jcUACxqIYVqv.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/parameters@a7hl0iMZ-jcUACxqIYVqv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_BAZlBEzE7ddr315OeHvl",
@@ -1107,7 +1194,9 @@
             "type": "subtopic",
             "description": "`NonNullable` is a utility type that removes `null` and `undefined` from a type. If you have a type that could potentially be `null` or `undefined`, applying `NonNullable` ensures that the resulting type will only consist of the original type's other possible values, effectively guaranteeing that `null` and `undefined` are excluded.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/nonnullable@_BAZlBEzE7ddr315OeHvl.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/nonnullable@_BAZlBEzE7ddr315OeHvl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "On75JR_UkiIlha0_qaSeu",
@@ -1115,7 +1204,9 @@
             "type": "subtopic",
             "description": "`ReturnType` is a utility type that extracts the return type of a function. Given a function type, `ReturnType<Type>` produces a new type that represents the type of value that the function returns. This is useful when you need to work with the output of a function without knowing its exact return type beforehand.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/returntype@On75JR_UkiIlha0_qaSeu.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/returntype@On75JR_UkiIlha0_qaSeu.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "izGAjNtrh3BzQt3KiZX0W",
@@ -1123,127 +1214,80 @@
             "type": "subtopic",
             "description": "InstanceType is a built-in utility type that constructs a type consisting of the instance type of a constructor function. It extracts the type returned by a class constructor when it is instantiated with the `new` keyword. This is useful for capturing the specific shape of an object that is created from a class, allowing developers to ensure that variables or function parameters match the structure of that class instance.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/instancetype@izGAjNtrh3BzQt3KiZX0W.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/instancetype@izGAjNtrh3BzQt3KiZX0W.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
       {
-        "id": "2F7vOL__v9dLBohA263aj",
-        "name": "Advanced Types",
+        "id": "TRx3wvWnRdJJf5eL-GBG4",
+        "name": "Decorators",
         "type": "topic",
-        "description": "Advanced types are sophisticated features in TypeScript that allow developers to create flexible and reusable code by composing existing types in complex ways. These tools include features like union types, intersection types, mapped types, and conditional types, which enable the creation of highly expressive type definitions. By leveraging these patterns, you can define precise constraints for your data structures and ensure type safety even in scenarios where the structure of an object is dynamic or dependent on other values.",
+        "description": "Decorators are a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. They use the form `@expression`, where `expression` must evaluate to a function that will be called at runtime with information about the decorated declaration. Decorators provide a way to add both annotations and a meta-programming syntax for class declarations and members. They essentially modify the behavior or functionality of the decorated code in a declarative way.",
         "resources": [
           {
             "type": "official",
-            "title": "Advanced Topics",
-            "url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html#advanced-topics"
-          },
-          {
-            "type": "video",
-            "title": "Tutorial of Typescript - Advanced Types",
-            "url": "https://www.youtube.com/playlist?list=PLw5h0DiJ-9PBIgIyd2ZA1CVnJf0BLFJg2"
+            "title": "Decorators",
+            "url": "https://www.typescriptlang.org/docs/handbook/decorators.html#handbook-content"
           }
         ],
-        "file_path": "developer-roadmap/roadmaps/typescript/content/advanced-types@2F7vOL__v9dLBohA263aj.md",
-        "subtopics_count": 5,
+        "file_path": "developer-roadmap/roadmaps/typescript/content/decorators@TRx3wvWnRdJJf5eL-GBG4.md",
+        "subtopics_count": 4,
         "subtopics": [
           {
-            "id": "VQ-V9qIdKgnpSJg2UnpuB",
-            "name": "Mapped Types",
+            "id": "8P0-vb9nlnmz7iC4UvyJZ",
+            "name": "Inheritance vs Polymorphism",
             "type": "subtopic",
-            "description": "Mapped types in TypeScript allow you to create new types based on existing ones by transforming each property. They iterate over the keys of an existing type and apply a transformation to each key and/or value, effectively mapping the original type to a new type structure. This provides a concise and powerful way to generate types that are variations of other types, promoting code reuse and reducing redundancy.",
+            "description": "Inheritance is a mechanism where a class (the subclass or derived class) acquires the properties and methods of another class (the superclass or base class), establishing an \"is-a\" relationship. Polymorphism, meaning \"many forms,\" allows objects of different classes to be treated as objects of a common type, enabling you to write code that can work with objects of multiple classes without knowing their specific types at compile time.",
             "resources": [
               {
-                "type": "official",
-                "title": "Mapped Types",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#handbook-content"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/mapped-types@VQ-V9qIdKgnpSJg2UnpuB.md"
-          },
-          {
-            "id": "ubGIhi-WLE0EopTYXzmPL",
-            "name": "Conditional Types",
-            "type": "subtopic",
-            "description": "Conditional types in TypeScript allow you to define types that depend on other types, similar to a ternary operator in JavaScript. They enable you to express type relationships that change based on whether a specific type condition is met. This feature makes your type definitions more flexible and capable of handling complex scenarios where the resulting type depends on the structure or nature of another type.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Conditional Types",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#handbook-content"
+                "type": "article",
+                "title": "Dev.to - Mastering OOP in TypeScript",
+                "url": "https://dev.to/rajrathod/mastering-object-oriented-programming-with-typescript-encapsulation-abstraction-inheritance-and-polymorphism-explained-c6p"
               },
               {
                 "type": "video",
-                "title": "Conditional Types - Advanced TypeScript",
-                "url": "https://www.youtube.com/watch?v=QFWrbNehKk0"
+                "title": "Inheritance and Polymorphism In TypeScript",
+                "url": "https://www.youtube.com/watch?v=Sn6K57YSuwU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/conditional-types@ubGIhi-WLE0EopTYXzmPL.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/inheritance-vs-polymorphism@8P0-vb9nlnmz7iC4UvyJZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "CWzGwvl6NwYCaLYSLIjqQ",
-            "name": "Literal Types",
+            "id": "aknqutxN2WDQ4RFcT-szM",
+            "name": "Method Overriding",
             "type": "subtopic",
-            "description": "Literal types are a feature that allows you to specify the exact value a variable can hold. Instead of just saying a variable is a `string` or a `number`, you can specify that it can only be a particular string like `\"hello\"` or a particular number like `42`. This enables more precise type checking and helps catch errors at compile time by ensuring that variables only hold the intended values.",
+            "description": "Method overriding allows a subclass to provide a specific implementation for a method that is already defined in its superclass. When a method in a subclass has the same name, same parameters, and same return type (or a more specific return type, known as covariant return type) as a method in its superclass, the subclass's method overrides the superclass's method. This means that when the method is called on an object of the subclass, the subclass's version of the method will be executed instead of the superclass's version.",
             "resources": [
               {
                 "type": "official",
-                "title": "Literal Types",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types"
+                "title": "TypeScript - Overriding Methods",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/literal-types@CWzGwvl6NwYCaLYSLIjqQ.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/method-overriding@aknqutxN2WDQ4RFcT-szM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "xP25nGw42VqdfZ_9pDMXd",
-            "name": "Template Literal Types",
+            "id": "oxzcYXxy2I7GI7nbvFYVa",
+            "name": "Constructor Overloading",
             "type": "subtopic",
-            "description": "Template literal types in TypeScript are a way to create new string literal types by combining existing string literal types, much like template literals in JavaScript. They allow you to define string types that are composed of other string types with specific patterns or structures. This is done by embedding other types within a string literal definition, enabling you to enforce stricter type safety and create more descriptive types based on string manipulation.",
+            "description": "Constructor overloading allows a class to have multiple constructors with different parameter lists. This enables you to create objects of the class in different ways, providing flexibility in initialization based on the provided arguments. Each constructor variation handles the object's initialization differently depending on the types and number of arguments passed during instantiation.",
             "resources": [
               {
                 "type": "official",
-                "title": "Template Literal Types",
-                "url": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html#handbook-content"
+                "title": "Constructors - TypeScript",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/template-literal-types@xP25nGw42VqdfZ_9pDMXd.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/constructor-overloading@oxzcYXxy2I7GI7nbvFYVa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
-          {
-            "id": "N8xBTJ74xv1E5hSLYZtze",
-            "name": "Recursive Types",
-            "type": "subtopic",
-            "description": "Recursive types in TypeScript allow you to define types that refer to themselves. This is especially useful for representing data structures that have a nested or hierarchical structure, like trees or linked lists. By using recursion in type definitions, you can ensure that the type system accurately reflects the self-referential nature of these data structures, enabling strong type checking throughout your code.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Recursive Types in TypeScript",
-                "url": "https://www.typescriptlang.org/play/3-7/types-and-code-flow/recursive-type-references.ts.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/recursive-types@N8xBTJ74xv1E5hSLYZtze.md"
-          }
-        ]
-      },
-      {
-        "id": "sE9lqkkqwnsVJxTJv37YZ",
-        "name": "TypeScript Modules",
-        "type": "topic",
-        "description": "Modules in TypeScript (and JavaScript) are a way to organize code into reusable and manageable blocks. Each module encapsulates its own variables, functions, classes, and interfaces, preventing naming collisions and promoting code modularity. Modules explicitly export parts that other code can use and import modules to gain access to their exported functionalities.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Modules",
-            "url": "https://www.typescriptlang.org/docs/handbook/modules.html#handbook-content"
-          },
-          {
-            "type": "video",
-            "title": "TypeScript - Modules",
-            "url": "https://www.youtube.com/watch?v=EpOPR03z4Vw"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-modules@sE9lqkkqwnsVJxTJv37YZ.md",
-        "subtopics_count": 5,
-        "subtopics": [
           {
             "id": "EtVwQ4lnWi3IIFHGb2Qib",
             "name": "Namespaces",
@@ -1266,8 +1310,123 @@
                 "url": "https://typescriptlang.org/docs/handbook/namespaces-and-modules.html#using-namespaces"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/namespaces@EtVwQ4lnWi3IIFHGb2Qib.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/namespaces@EtVwQ4lnWi3IIFHGb2Qib.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "2F7vOL__v9dLBohA263aj",
+        "name": "Advanced Types",
+        "type": "topic",
+        "description": "Advanced types are sophisticated features in TypeScript that allow developers to create flexible and reusable code by composing existing types in complex ways. These tools include features like union types, intersection types, mapped types, and conditional types, which enable the creation of highly expressive type definitions. By leveraging these patterns, you can define precise constraints for your data structures and ensure type safety even in scenarios where the structure of an object is dynamic or dependent on other values.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Advanced Topics",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html#advanced-topics"
           },
+          {
+            "type": "video",
+            "title": "Tutorial of Typescript - Advanced Types",
+            "url": "https://www.youtube.com/playlist?list=PLw5h0DiJ-9PBIgIyd2ZA1CVnJf0BLFJg2"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/typescript/content/advanced-types@2F7vOL__v9dLBohA263aj.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "VQ-V9qIdKgnpSJg2UnpuB",
+            "name": "Mapped Types",
+            "type": "subtopic",
+            "description": "Mapped types in TypeScript allow you to create new types based on existing ones by transforming each property. They iterate over the keys of an existing type and apply a transformation to each key and/or value, effectively mapping the original type to a new type structure. This provides a concise and powerful way to generate types that are variations of other types, promoting code reuse and reducing redundancy.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Mapped Types",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#handbook-content"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/mapped-types@VQ-V9qIdKgnpSJg2UnpuB.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "ubGIhi-WLE0EopTYXzmPL",
+            "name": "Conditional Types",
+            "type": "subtopic",
+            "description": "Conditional types in TypeScript allow you to define types that depend on other types, similar to a ternary operator in JavaScript. They enable you to express type relationships that change based on whether a specific type condition is met. This feature makes your type definitions more flexible and capable of handling complex scenarios where the resulting type depends on the structure or nature of another type.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Conditional Types",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#handbook-content"
+              },
+              {
+                "type": "video",
+                "title": "Conditional Types - Advanced TypeScript",
+                "url": "https://www.youtube.com/watch?v=QFWrbNehKk0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/conditional-types@ubGIhi-WLE0EopTYXzmPL.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "CWzGwvl6NwYCaLYSLIjqQ",
+            "name": "Literal Types",
+            "type": "subtopic",
+            "description": "Literal types are a feature that allows you to specify the exact value a variable can hold. Instead of just saying a variable is a `string` or a `number`, you can specify that it can only be a particular string like `\"hello\"` or a particular number like `42`. This enables more precise type checking and helps catch errors at compile time by ensuring that variables only hold the intended values.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Literal Types",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/literal-types@CWzGwvl6NwYCaLYSLIjqQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "xP25nGw42VqdfZ_9pDMXd",
+            "name": "Template Literal Types",
+            "type": "subtopic",
+            "description": "Template literal types in TypeScript are a way to create new string literal types by combining existing string literal types, much like template literals in JavaScript. They allow you to define string types that are composed of other string types with specific patterns or structures. This is done by embedding other types within a string literal definition, enabling you to enforce stricter type safety and create more descriptive types based on string manipulation.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Template Literal Types",
+                "url": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html#handbook-content"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/template-literal-types@xP25nGw42VqdfZ_9pDMXd.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "sE9lqkkqwnsVJxTJv37YZ",
+        "name": "TypeScript Modules",
+        "type": "topic",
+        "description": "Modules in TypeScript (and JavaScript) are a way to organize code into reusable and manageable blocks. Each module encapsulates its own variables, functions, classes, and interfaces, preventing naming collisions and promoting code modularity. Modules explicitly export parts that other code can use and import modules to gain access to their exported functionalities.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Modules",
+            "url": "https://www.typescriptlang.org/docs/handbook/modules.html#handbook-content"
+          },
+          {
+            "type": "video",
+            "title": "TypeScript - Modules",
+            "url": "https://www.youtube.com/watch?v=EpOPR03z4Vw"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/typescript/content/typescript-modules@sE9lqkkqwnsVJxTJv37YZ.md",
+        "subtopics_count": 4,
+        "subtopics": [
           {
             "id": "k_5y77k8ZZ9_O2WpWXWTY",
             "name": "Ambient Modules",
@@ -1280,7 +1439,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/modules/reference.html#ambient-modules"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/ambient-modules@k_5y77k8ZZ9_O2WpWXWTY.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/ambient-modules@k_5y77k8ZZ9_O2WpWXWTY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "egQWk1n3p8Pep83yIwCtI",
@@ -1294,7 +1455,9 @@
                 "url": "https://learncodeweb.com/typescript/modules-in-typescript-explain-with-an-example/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/external-modules@egQWk1n3p8Pep83yIwCtI.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/external-modules@egQWk1n3p8Pep83yIwCtI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "16TT8R4N-9tCfWmPetqMP",
@@ -1308,7 +1471,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/namespace-augmentation@16TT8R4N-9tCfWmPetqMP.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/namespace-augmentation@16TT8R4N-9tCfWmPetqMP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JQwWeB1gkANSYfQmH69Bs",
@@ -1322,7 +1487,9 @@
                 "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/global-augmentation@JQwWeB1gkANSYfQmH69Bs.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/global-augmentation@JQwWeB1gkANSYfQmH69Bs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1333,8 +1500,24 @@
         "description": "The TypeScript ecosystem refers to the collection of tools, libraries, frameworks, and resources that support and enhance TypeScript development. It includes everything from build tools and linters to UI libraries and server-side frameworks that have TypeScript definitions available or are specifically designed to work well with TypeScript. The ecosystem also incorporates community resources like documentation, tutorials, and open-source projects that help developers learn and use TypeScript effectively.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/typescript/content/ecosystem@RqZaWGxxNRItBhVwWKysc.md",
-        "subtopics_count": 4,
+        "subtopics_count": 5,
         "subtopics": [
+          {
+            "id": "N8xBTJ74xv1E5hSLYZtze",
+            "name": "Recursive Types",
+            "type": "subtopic",
+            "description": "Recursive types in TypeScript allow you to define types that refer to themselves. This is especially useful for representing data structures that have a nested or hierarchical structure, like trees or linked lists. By using recursion in type definitions, you can ensure that the type system accurately reflects the self-referential nature of these data structures, enabling strong type checking throughout your code.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Recursive Types in TypeScript",
+                "url": "https://www.typescriptlang.org/play/3-7/types-and-code-flow/recursive-type-references.ts.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/typescript/content/recursive-types@N8xBTJ74xv1E5hSLYZtze.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "fU8Vnw1DobM4iXl1Tq6EK",
             "name": "Formatting",
@@ -1357,7 +1540,9 @@
                 "url": "https://biomejs.dev"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/formatting@fU8Vnw1DobM4iXl1Tq6EK.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/formatting@fU8Vnw1DobM4iXl1Tq6EK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "8PcAPOrKisKRYPWamz4nV",
@@ -1381,7 +1566,9 @@
                 "url": "https://www.youtube.com/watch?v=qhuFviJn-es"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/linting@8PcAPOrKisKRYPWamz4nV.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/linting@8PcAPOrKisKRYPWamz4nV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "PCX3KcvMUW3mmQEepLTXp",
@@ -1420,7 +1607,9 @@
                 "url": "https://github.com/jeffijoe/typesync"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/useful-packages@PCX3KcvMUW3mmQEepLTXp.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/useful-packages@PCX3KcvMUW3mmQEepLTXp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "I5uwfej5XMwR2N2gpBILh",
@@ -1449,7 +1638,9 @@
                 "url": "https://esbuild.github.io/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/typescript/content/build-tools@I5uwfej5XMwR2N2gpBILh.md"
+            "file_path": "developer-roadmap/roadmaps/typescript/content/build-tools@I5uwfej5XMwR2N2gpBILh.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -1597,6 +1788,13 @@
         ]
       },
       {
+        "id": "OtdcYVLAgWsaKcaEjKOW1",
+        "name": "Primitive Types",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "mVKsM7R4Ivpdhnbwt1aRb",
         "name": "Interface",
         "type": "subtopic",
@@ -1619,32 +1817,6 @@
             "type": "article",
             "title": "Number, String, Boolean, Symbol and Object",
             "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean"
-          }
-        ]
-      },
-      {
-        "id": "DmqrX56d9KnBcOSwlJR2q",
-        "name": "tsconfig.json",
-        "type": "subtopic",
-        "description": "`tsconfig.json` is a configuration file that specifies how the TypeScript compiler should transpile your TypeScript code into JavaScript. It controls various compilation options such as target ECMAScript version, module system, and source maps. This file lives at the root of a TypeScript project and allows you to define the project's compilation settings in a declarative and reproducible manner.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "What is a tsconfig.json",
-            "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content"
-          }
-        ]
-      },
-      {
-        "id": "RrExVb7l2gd0s_TlNdLeD",
-        "name": "Compiler Options",
-        "type": "subtopic",
-        "description": "Compiler options in TypeScript provide fine-grained control over how the TypeScript compiler (`tsc`) transforms `.ts` files into JavaScript. These options are typically configured within a `tsconfig.json` file or passed directly via the command line. They dictate aspects like target ECMAScript version, module system, strictness of type checking, source map generation, and many other behaviors of the compilation process.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Compiler Options",
-            "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html"
           }
         ]
       },
@@ -1779,6 +1951,13 @@
         ]
       },
       {
+        "id": "bx8s7zcSqfKHhHLF45YWd",
+        "name": "Top Types",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "0pi9VTbngcAIswuu5LIYg",
         "name": "never",
         "type": "subtopic",
@@ -1818,6 +1997,45 @@
         ]
       },
       {
+        "id": "KUur-gfOBQodTS-irFet7",
+        "name": "Type Inference",
+        "type": "topic",
+        "description": "Type inference is the automatic deduction of the data type of an expression in a programming language. Instead of explicitly declaring the type of a variable, the compiler or interpreter can infer it based on the value assigned to it or how it's used within the code. This reduces the need for verbose type annotations, making code more concise and readable while still providing the benefits of type safety.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Type Inference",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html#handbook-content"
+          }
+        ]
+      },
+      {
+        "id": "DmqrX56d9KnBcOSwlJR2q",
+        "name": "tsconfig.json",
+        "type": "subtopic",
+        "description": "`tsconfig.json` is a configuration file that specifies how the TypeScript compiler should transpile your TypeScript code into JavaScript. It controls various compilation options such as target ECMAScript version, module system, and source maps. This file lives at the root of a TypeScript project and allows you to define the project's compilation settings in a declarative and reproducible manner.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "What is a tsconfig.json",
+            "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content"
+          }
+        ]
+      },
+      {
+        "id": "RrExVb7l2gd0s_TlNdLeD",
+        "name": "Compiler Options",
+        "type": "subtopic",
+        "description": "Compiler options in TypeScript provide fine-grained control over how the TypeScript compiler (`tsc`) transforms `.ts` files into JavaScript. These options are typically configured within a `tsconfig.json` file or passed directly via the command line. They dictate aspects like target ECMAScript version, module system, strictness of type checking, source map generation, and many other behaviors of the compilation process.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Compiler Options",
+            "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html"
+          }
+        ]
+      },
+      {
         "id": "qcrGApxNzkGYxgcd7o45d",
         "name": "TypeScript Types",
         "type": "topic",
@@ -1829,6 +2047,13 @@
             "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
           }
         ]
+      },
+      {
+        "id": "AYoKlh6xTM5FgiK4h2HFp",
+        "name": "Assertions",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "Ba0baUbomrW9td_K8U-5L",
@@ -1844,19 +2069,6 @@
         ]
       },
       {
-        "id": "pGFnTqi0-RSj0YRmNA5iy",
-        "name": "as const",
-        "type": "subtopic",
-        "description": "`as const` is a TypeScript feature that allows you to tell the compiler to infer the narrowest or most specific type possible for an expression. Instead of the compiler widening the type of a value to its general type (like inferring a string variable as `string`), `as const` makes the compiler infer the value as a constant type (like inferring a string variable as the specific string literal type `\"hello\"`). This is useful for creating immutable data structures or when you need the compiler to enforce the exact values allowed.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "const assertions",
-            "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions"
-          }
-        ]
-      },
-      {
         "id": "afTNr36VqeXoJpHxm2IoS",
         "name": "as any",
         "type": "subtopic",
@@ -1866,6 +2078,19 @@
             "type": "official",
             "title": "any",
             "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any"
+          }
+        ]
+      },
+      {
+        "id": "pGFnTqi0-RSj0YRmNA5iy",
+        "name": "as const",
+        "type": "subtopic",
+        "description": "`as const` is a TypeScript feature that allows you to tell the compiler to infer the narrowest or most specific type possible for an expression. Instead of the compiler widening the type of a value to its general type (like inferring a string variable as `string`), `as const` makes the compiler infer the value as a constant type (like inferring a string variable as the specific string literal type `\"hello\"`). This is useful for creating immutable data structures or when you need the compiler to enforce the exact values allowed.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "const assertions",
+            "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions"
           }
         ]
       },
@@ -1892,19 +2117,6 @@
             "type": "official",
             "title": "satisfies Keyword",
             "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html#the-satisfies-operator"
-          }
-        ]
-      },
-      {
-        "id": "KUur-gfOBQodTS-irFet7",
-        "name": "Type Inference",
-        "type": "topic",
-        "description": "Type inference is the automatic deduction of the data type of an expression in a programming language. Instead of explicitly declaring the type of a variable, the compiler or interpreter can infer it based on the value assigned to it or how it's used within the code. This reduces the need for verbose type annotations, making code more concise and readable while still providing the benefits of type safety.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Type Inference",
-            "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html#handbook-content"
           }
         ]
       },
@@ -1948,32 +2160,6 @@
         ]
       },
       {
-        "id": "M_3O21zjppgWptIT5dtu8",
-        "name": "Type Aliases",
-        "type": "subtopic",
-        "description": "Type aliases in TypeScript create a new name for an existing type. This new name can then be used anywhere you would normally use the original type. They don't create a new type; instead, they offer a more readable and convenient way to refer to potentially complex or frequently used types, such as unions, intersections, or tuple types.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Type Aliases",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases"
-          }
-        ]
-      },
-      {
-        "id": "t1Tcesfq7bV2TkHcfD6lU",
-        "name": "keyof Operator",
-        "type": "subtopic",
-        "description": "The `keyof` operator in TypeScript creates a union of all the keys (property names) of a given object type. It essentially extracts the names of the properties as string literal types. This allows you to work with the properties of an object type in a type-safe way, especially when dealing with generic functions or situations where you need to ensure that you're only accessing valid properties.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "keyof Type Operator",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content"
-          }
-        ]
-      },
-      {
         "id": "qefnsugcveizVq2TORRgn",
         "name": "Combining Types",
         "type": "topic",
@@ -1997,6 +2183,32 @@
           {
             "type": "article",
             "title": "Keyof Type Operator",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content"
+          }
+        ]
+      },
+      {
+        "id": "M_3O21zjppgWptIT5dtu8",
+        "name": "Type Aliases",
+        "type": "subtopic",
+        "description": "Type aliases in TypeScript create a new name for an existing type. This new name can then be used anywhere you would normally use the original type. They don't create a new type; instead, they offer a more readable and convenient way to refer to potentially complex or frequently used types, such as unions, intersections, or tuple types.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Type Aliases",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases"
+          }
+        ]
+      },
+      {
+        "id": "t1Tcesfq7bV2TkHcfD6lU",
+        "name": "keyof Operator",
+        "type": "subtopic",
+        "description": "The `keyof` operator in TypeScript creates a union of all the keys (property names) of a given object type. It essentially extracts the names of the properties as string literal types. This allows you to work with the properties of an object type in a type-safe way, especially when dealing with generic functions or situations where you need to ensure that you're only accessing valid properties.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "keyof Type Operator",
             "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content"
           }
         ]
@@ -2183,6 +2395,52 @@
         ]
       },
       {
+        "id": "gBTem9Dp3IQLAkqGX4fOF",
+        "name": "Partial",
+        "type": "subtopic",
+        "description": "The `Partial<Type>` utility type in TypeScript constructs a type where all properties of the original `Type` are set to optional. This means that when you use `Partial<Type>`, you can create objects that only include a subset of the properties defined in the original `Type`, or even have no properties at all. Essentially, it makes all properties of a type nullable.",
+        "resources": []
+      },
+      {
+        "id": "yjlxygHl8QONNUrdx-Q0A",
+        "name": "Omit",
+        "type": "subtopic",
+        "description": "`Omit` is a utility type in TypeScript that constructs a new type by picking all properties from an existing type and then removing the specified properties (keys). Essentially, it creates a subset of the original type by excluding certain keys you define. The resulting type will only contain the properties that were not omitted.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Omit\\<Type, Keys\\>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys"
+          }
+        ]
+      },
+      {
+        "id": "DRdBmF5Dt_r09LoPOxOuq",
+        "name": "Record",
+        "type": "subtopic",
+        "description": "The `Record` utility type in TypeScript is used to construct a new type where the keys are of a specific type (typically a string, number, or symbol) and the values are of another specified type. This is useful when you want to define an object structure with a predefined set of keys and a consistent type for the values associated with those keys. Essentially, it's a shorthand for defining object types with specific key-value pairings.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Record\\<Keys, Type\\>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type"
+          }
+        ]
+      },
+      {
+        "id": "IIAbAzXiVQm1JEi2MTMZN",
+        "name": "Extract",
+        "type": "subtopic",
+        "description": "Extract allows you to create a new type by picking out specific types from a union based on a condition. Essentially, it filters a union type, keeping only those members that are assignable to a specified type. This is useful when you need to narrow down the possible types in a union to only those that meet a certain criteria.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Extract\\<Type, Union\\>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union"
+          }
+        ]
+      },
+      {
         "id": "ib0jfZzukYOZ42AdJqt_W",
         "name": "Classes",
         "type": "topic",
@@ -2235,24 +2493,6 @@
         ]
       },
       {
-        "id": "8P0-vb9nlnmz7iC4UvyJZ",
-        "name": "Inheritance vs Polymorphism",
-        "type": "subtopic",
-        "description": "Inheritance is a mechanism where a class (the subclass or derived class) acquires the properties and methods of another class (the superclass or base class), establishing an \"is-a\" relationship. Polymorphism, meaning \"many forms,\" allows objects of different classes to be treated as objects of a common type, enabling you to write code that can work with objects of multiple classes without knowing their specific types at compile time.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Dev.to - Mastering OOP in TypeScript",
-            "url": "https://dev.to/rajrathod/mastering-object-oriented-programming-with-typescript-encapsulation-abstraction-inheritance-and-polymorphism-explained-c6p"
-          },
-          {
-            "type": "video",
-            "title": "Inheritance and Polymorphism In TypeScript",
-            "url": "https://www.youtube.com/watch?v=Sn6K57YSuwU"
-          }
-        ]
-      },
-      {
         "id": "4gaKqNtGLFqpk9WVKZl0v",
         "name": "Generics",
         "type": "topic",
@@ -2292,45 +2532,6 @@
         ]
       },
       {
-        "id": "TRx3wvWnRdJJf5eL-GBG4",
-        "name": "Decorators",
-        "type": "topic",
-        "description": "Decorators are a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. They use the form `@expression`, where `expression` must evaluate to a function that will be called at runtime with information about the decorated declaration. Decorators provide a way to add both annotations and a meta-programming syntax for class declarations and members. They essentially modify the behavior or functionality of the decorated code in a declarative way.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Decorators",
-            "url": "https://www.typescriptlang.org/docs/handbook/decorators.html#handbook-content"
-          }
-        ]
-      },
-      {
-        "id": "aknqutxN2WDQ4RFcT-szM",
-        "name": "Method Overriding",
-        "type": "subtopic",
-        "description": "Method overriding allows a subclass to provide a specific implementation for a method that is already defined in its superclass. When a method in a subclass has the same name, same parameters, and same return type (or a more specific return type, known as covariant return type) as a method in its superclass, the subclass's method overrides the superclass's method. This means that when the method is called on an object of the subclass, the subclass's version of the method will be executed instead of the superclass's version.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "TypeScript - Overriding Methods",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods"
-          }
-        ]
-      },
-      {
-        "id": "oxzcYXxy2I7GI7nbvFYVa",
-        "name": "Constructor Overloading",
-        "type": "subtopic",
-        "description": "Constructor overloading allows a class to have multiple constructors with different parameter lists. This enables you to create objects of the class in different ways, providing flexibility in initialization based on the provided arguments. Each constructor variation handles the object's initialization differently depending on the types and number of arguments passed during instantiation.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Constructors - TypeScript",
-            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
-          }
-        ]
-      },
-      {
         "id": "LSwUHfalnk5MgHt21PANb",
         "name": "Utility Types",
         "type": "topic",
@@ -2362,31 +2563,11 @@
         ]
       },
       {
-        "id": "gBTem9Dp3IQLAkqGX4fOF",
-        "name": "Partial",
-        "type": "subtopic",
-        "description": "The `Partial<Type>` utility type in TypeScript constructs a type where all properties of the original `Type` are set to optional. This means that when you use `Partial<Type>`, you can create objects that only include a subset of the properties defined in the original `Type`, or even have no properties at all. Essentially, it makes all properties of a type nullable.",
-        "resources": []
-      },
-      {
         "id": "IuO9-O_DQdDYuAbdGWdgb",
         "name": "Readonly",
         "type": "subtopic",
         "description": "The `Readonly` utility type in TypeScript constructs a new type where all properties of the original type are set as read-only. This means that once a property is initialized, its value cannot be changed later. This is useful for creating immutable objects and ensuring that data is not accidentally modified.",
         "resources": []
-      },
-      {
-        "id": "yjlxygHl8QONNUrdx-Q0A",
-        "name": "Omit",
-        "type": "subtopic",
-        "description": "`Omit` is a utility type in TypeScript that constructs a new type by picking all properties from an existing type and then removing the specified properties (keys). Essentially, it creates a subset of the original type by excluding certain keys you define. The resulting type will only contain the properties that were not omitted.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Omit\\<Type, Keys\\>",
-            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys"
-          }
-        ]
       },
       {
         "id": "0fvOXi9gJbEc7etqTggNE",
@@ -2402,37 +2583,11 @@
         ]
       },
       {
-        "id": "DRdBmF5Dt_r09LoPOxOuq",
-        "name": "Record",
-        "type": "subtopic",
-        "description": "The `Record` utility type in TypeScript is used to construct a new type where the keys are of a specific type (typically a string, number, or symbol) and the values are of another specified type. This is useful when you want to define an object structure with a predefined set of keys and a consistent type for the values associated with those keys. Essentially, it's a shorthand for defining object types with specific key-value pairings.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Record\\<Keys, Type\\>",
-            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type"
-          }
-        ]
-      },
-      {
         "id": "aEhI_9mFWXRIZh1ZxTuzu",
         "name": "Awaited",
         "type": "subtopic",
         "description": "Awaited is a utility type that models the process of unwrapping a Promise. It is used to determine the type that a Promise resolves to, regardless of how many layers of nested Promises are involved. By applying this utility, you can extract the underlying value from an asynchronous function's return type or any other Promise-like structure.",
         "resources": []
-      },
-      {
-        "id": "IIAbAzXiVQm1JEi2MTMZN",
-        "name": "Extract",
-        "type": "subtopic",
-        "description": "Extract allows you to create a new type by picking out specific types from a union based on a condition. Essentially, it filters a union type, keeping only those members that are assignable to a specified type. This is useful when you need to narrow down the possible types in a union to only those that meet a certain criteria.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Extract\\<Type, Union\\>",
-            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union"
-          }
-        ]
       },
       {
         "id": "a7hl0iMZ-jcUACxqIYVqv",
@@ -2461,6 +2616,86 @@
         "type": "subtopic",
         "description": "InstanceType is a built-in utility type that constructs a type consisting of the instance type of a constructor function. It extracts the type returned by a class constructor when it is instantiated with the `new` keyword. This is useful for capturing the specific shape of an object that is created from a class, allowing developers to ensure that variables or function parameters match the structure of that class instance.",
         "resources": []
+      },
+      {
+        "id": "TRx3wvWnRdJJf5eL-GBG4",
+        "name": "Decorators",
+        "type": "topic",
+        "description": "Decorators are a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. They use the form `@expression`, where `expression` must evaluate to a function that will be called at runtime with information about the decorated declaration. Decorators provide a way to add both annotations and a meta-programming syntax for class declarations and members. They essentially modify the behavior or functionality of the decorated code in a declarative way.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Decorators",
+            "url": "https://www.typescriptlang.org/docs/handbook/decorators.html#handbook-content"
+          }
+        ]
+      },
+      {
+        "id": "8P0-vb9nlnmz7iC4UvyJZ",
+        "name": "Inheritance vs Polymorphism",
+        "type": "subtopic",
+        "description": "Inheritance is a mechanism where a class (the subclass or derived class) acquires the properties and methods of another class (the superclass or base class), establishing an \"is-a\" relationship. Polymorphism, meaning \"many forms,\" allows objects of different classes to be treated as objects of a common type, enabling you to write code that can work with objects of multiple classes without knowing their specific types at compile time.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Dev.to - Mastering OOP in TypeScript",
+            "url": "https://dev.to/rajrathod/mastering-object-oriented-programming-with-typescript-encapsulation-abstraction-inheritance-and-polymorphism-explained-c6p"
+          },
+          {
+            "type": "video",
+            "title": "Inheritance and Polymorphism In TypeScript",
+            "url": "https://www.youtube.com/watch?v=Sn6K57YSuwU"
+          }
+        ]
+      },
+      {
+        "id": "aknqutxN2WDQ4RFcT-szM",
+        "name": "Method Overriding",
+        "type": "subtopic",
+        "description": "Method overriding allows a subclass to provide a specific implementation for a method that is already defined in its superclass. When a method in a subclass has the same name, same parameters, and same return type (or a more specific return type, known as covariant return type) as a method in its superclass, the subclass's method overrides the superclass's method. This means that when the method is called on an object of the subclass, the subclass's version of the method will be executed instead of the superclass's version.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "TypeScript - Overriding Methods",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods"
+          }
+        ]
+      },
+      {
+        "id": "oxzcYXxy2I7GI7nbvFYVa",
+        "name": "Constructor Overloading",
+        "type": "subtopic",
+        "description": "Constructor overloading allows a class to have multiple constructors with different parameter lists. This enables you to create objects of the class in different ways, providing flexibility in initialization based on the provided arguments. Each constructor variation handles the object's initialization differently depending on the types and number of arguments passed during instantiation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Constructors - TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors"
+          }
+        ]
+      },
+      {
+        "id": "EtVwQ4lnWi3IIFHGb2Qib",
+        "name": "Namespaces",
+        "type": "subtopic",
+        "description": "Namespaces in TypeScript are a way to organize code into logical groups, preventing naming collisions and improving code maintainability. They create a named container where you can define variables, functions, classes, and interfaces. By using namespaces, you can encapsulate related functionality under a specific name, making your code more structured and easier to understand.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Overview of Namespaces",
+            "url": "https://www.typescriptlang.org/docs/handbook/namespaces.html"
+          },
+          {
+            "type": "official",
+            "title": "Namespaces and Modules",
+            "url": "https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html"
+          },
+          {
+            "type": "official",
+            "title": "TypeScript - Using Namespaces",
+            "url": "https://typescriptlang.org/docs/handbook/namespaces-and-modules.html#using-namespaces"
+          }
+        ]
       },
       {
         "id": "2F7vOL__v9dLBohA263aj",
@@ -2538,19 +2773,6 @@
         ]
       },
       {
-        "id": "N8xBTJ74xv1E5hSLYZtze",
-        "name": "Recursive Types",
-        "type": "subtopic",
-        "description": "Recursive types in TypeScript allow you to define types that refer to themselves. This is especially useful for representing data structures that have a nested or hierarchical structure, like trees or linked lists. By using recursion in type definitions, you can ensure that the type system accurately reflects the self-referential nature of these data structures, enabling strong type checking throughout your code.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Recursive Types in TypeScript",
-            "url": "https://www.typescriptlang.org/play/3-7/types-and-code-flow/recursive-type-references.ts.html"
-          }
-        ]
-      },
-      {
         "id": "sE9lqkkqwnsVJxTJv37YZ",
         "name": "TypeScript Modules",
         "type": "topic",
@@ -2565,29 +2787,6 @@
             "type": "video",
             "title": "TypeScript - Modules",
             "url": "https://www.youtube.com/watch?v=EpOPR03z4Vw"
-          }
-        ]
-      },
-      {
-        "id": "EtVwQ4lnWi3IIFHGb2Qib",
-        "name": "Namespaces",
-        "type": "subtopic",
-        "description": "Namespaces in TypeScript are a way to organize code into logical groups, preventing naming collisions and improving code maintainability. They create a named container where you can define variables, functions, classes, and interfaces. By using namespaces, you can encapsulate related functionality under a specific name, making your code more structured and easier to understand.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Overview of Namespaces",
-            "url": "https://www.typescriptlang.org/docs/handbook/namespaces.html"
-          },
-          {
-            "type": "official",
-            "title": "Namespaces and Modules",
-            "url": "https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html"
-          },
-          {
-            "type": "official",
-            "title": "TypeScript - Using Namespaces",
-            "url": "https://typescriptlang.org/docs/handbook/namespaces-and-modules.html#using-namespaces"
           }
         ]
       },
@@ -2649,6 +2848,19 @@
         "type": "topic",
         "description": "The TypeScript ecosystem refers to the collection of tools, libraries, frameworks, and resources that support and enhance TypeScript development. It includes everything from build tools and linters to UI libraries and server-side frameworks that have TypeScript definitions available or are specifically designed to work well with TypeScript. The ecosystem also incorporates community resources like documentation, tutorials, and open-source projects that help developers learn and use TypeScript effectively.",
         "resources": []
+      },
+      {
+        "id": "N8xBTJ74xv1E5hSLYZtze",
+        "name": "Recursive Types",
+        "type": "subtopic",
+        "description": "Recursive types in TypeScript allow you to define types that refer to themselves. This is especially useful for representing data structures that have a nested or hierarchical structure, like trees or linked lists. By using recursion in type definitions, you can ensure that the type system accurately reflects the self-referential nature of these data structures, enabling strong type checking throughout your code.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Recursive Types in TypeScript",
+            "url": "https://www.typescriptlang.org/play/3-7/types-and-code-flow/recursive-type-references.ts.html"
+          }
+        ]
       },
       {
         "id": "fU8Vnw1DobM4iXl1Tq6EK",
@@ -2765,57 +2977,17 @@
     ],
     "edges": [
       {
-        "source": "KDd40JOAvZ8O1mfhTYB3K",
-        "target": "qcrGApxNzkGYxgcd7o45d",
-        "type": "next_in_flow"
+        "source": "_bZ71i36haWgHQTY0yMOx",
+        "target": "KDd40JOAvZ8O1mfhTYB3K",
+        "type": "subtopic_of"
       },
       {
-        "source": "qcrGApxNzkGYxgcd7o45d",
-        "target": "KUur-gfOBQodTS-irFet7",
-        "type": "next_in_flow"
+        "source": "Iv_t13PSVzet5VPKFtAp1",
+        "target": "KDd40JOAvZ8O1mfhTYB3K",
+        "type": "subtopic_of"
       },
       {
-        "source": "alMJCEyUZ90xz-2_g3YRj",
-        "target": "qefnsugcveizVq2TORRgn",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "qefnsugcveizVq2TORRgn",
-        "target": "cFZsxpYHDxm7IWwergb3r",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "cFZsxpYHDxm7IWwergb3r",
-        "target": "qOynVkDi1gFz0mxyJHjfJ",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "qOynVkDi1gFz0mxyJHjfJ",
-        "target": "aH1DxiG5xrdNlKutJ_gTz",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "TRx3wvWnRdJJf5eL-GBG4",
-        "target": "LSwUHfalnk5MgHt21PANb",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "LSwUHfalnk5MgHt21PANb",
-        "target": "2F7vOL__v9dLBohA263aj",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "2F7vOL__v9dLBohA263aj",
-        "target": "sE9lqkkqwnsVJxTJv37YZ",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "sE9lqkkqwnsVJxTJv37YZ",
-        "target": "RqZaWGxxNRItBhVwWKysc",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "dcLaEU_lb0z_QypL1ZhpX",
+        "source": "ZCM2_X4BiKh5FTCizrr-E",
         "target": "KDd40JOAvZ8O1mfhTYB3K",
         "type": "subtopic_of"
       },
@@ -2825,43 +2997,163 @@
         "type": "subtopic_of"
       },
       {
-        "source": "dA8CNQOgJRDa0T7rmyS7f",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
         "source": "qdy4ZIY2EKgmPNdu_ndcg",
         "target": "KDd40JOAvZ8O1mfhTYB3K",
         "type": "subtopic_of"
       },
       {
-        "source": "Wy2yIK5vgLjEcc9VjuQK5",
-        "target": "cFZsxpYHDxm7IWwergb3r",
+        "source": "dcLaEU_lb0z_QypL1ZhpX",
+        "target": "KDd40JOAvZ8O1mfhTYB3K",
         "type": "subtopic_of"
       },
       {
-        "source": "EDOU5a7UK17yp3PdFBJMc",
-        "target": "cFZsxpYHDxm7IWwergb3r",
+        "source": "dA8CNQOgJRDa0T7rmyS7f",
+        "target": "KDd40JOAvZ8O1mfhTYB3K",
         "type": "subtopic_of"
       },
       {
-        "source": "ZiOcFZy85p7tLzUkyKDei",
-        "target": "cFZsxpYHDxm7IWwergb3r",
+        "source": "OtdcYVLAgWsaKcaEjKOW1",
+        "target": "KDd40JOAvZ8O1mfhTYB3K",
         "type": "subtopic_of"
       },
       {
-        "source": "Xonbxc7MvMEonKBvbkCAH",
-        "target": "cFZsxpYHDxm7IWwergb3r",
+        "source": "bx8s7zcSqfKHhHLF45YWd",
+        "target": "KDd40JOAvZ8O1mfhTYB3K",
         "type": "subtopic_of"
       },
       {
-        "source": "1DOSAieOmWUNNsQQrqf2m",
-        "target": "cFZsxpYHDxm7IWwergb3r",
+        "source": "mVKsM7R4Ivpdhnbwt1aRb",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
         "type": "subtopic_of"
       },
       {
-        "source": "9FIhHwDNzyKpb42NmSv3K",
-        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "source": "hfIHxa5i_5rEpjtzqEsic",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tTSITP1W1ymS-njbFb8Ts",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UH9d3cvGy_e67WFNFwCyf",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bfZIXHceDKDGQl-24kQpT",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "d8iV-IBZ6cSnH8Z5_HRmc",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YbDuIo1BbZKEAZwmXlCdZ",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yLlQg7BF--ZwRHbXBWfOi",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jq-GD0DLyzrEXQKUmt5kv",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Sa6IZtM4XJstultz-pbh0",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cjAwawhZLo1qVQ93XIdm2",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vnqvm_WiaKqpdxrW4wRGa",
+        "target": "OtdcYVLAgWsaKcaEjKOW1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0pi9VTbngcAIswuu5LIYg",
+        "target": "bx8s7zcSqfKHhHLF45YWd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "O2TYbd9i_OQwQk2dKh-ly",
+        "target": "bx8s7zcSqfKHhHLF45YWd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yXiLegSlL7SveU8rBGj8U",
+        "target": "bx8s7zcSqfKHhHLF45YWd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DmqrX56d9KnBcOSwlJR2q",
+        "target": "KUur-gfOBQodTS-irFet7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RrExVb7l2gd0s_TlNdLeD",
+        "target": "KUur-gfOBQodTS-irFet7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AYoKlh6xTM5FgiK4h2HFp",
+        "target": "qcrGApxNzkGYxgcd7o45d",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ba0baUbomrW9td_K8U-5L",
+        "target": "AYoKlh6xTM5FgiK4h2HFp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "afTNr36VqeXoJpHxm2IoS",
+        "target": "AYoKlh6xTM5FgiK4h2HFp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pGFnTqi0-RSj0YRmNA5iy",
+        "target": "AYoKlh6xTM5FgiK4h2HFp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mjaL5ocLnM8VQlhUxW6KU",
+        "target": "AYoKlh6xTM5FgiK4h2HFp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HD1UGOidp7JGKdW6CEdQ_",
+        "target": "AYoKlh6xTM5FgiK4h2HFp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5z5w3yv1HbOpMlzEd4Iot",
+        "target": "alMJCEyUZ90xz-2_g3YRj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RWYXEZMODUrqwRWf_Lqi9",
+        "target": "alMJCEyUZ90xz-2_g3YRj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "M_3O21zjppgWptIT5dtu8",
+        "target": "qefnsugcveizVq2TORRgn",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "t1Tcesfq7bV2TkHcfD6lU",
+        "target": "qefnsugcveizVq2TORRgn",
         "type": "subtopic_of"
       },
       {
@@ -2882,6 +3174,76 @@
       {
         "source": "lvtTSHH9yBTCiLng8btnI",
         "target": "aH1DxiG5xrdNlKutJ_gTz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EDOU5a7UK17yp3PdFBJMc",
+        "target": "cFZsxpYHDxm7IWwergb3r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZiOcFZy85p7tLzUkyKDei",
+        "target": "cFZsxpYHDxm7IWwergb3r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Wy2yIK5vgLjEcc9VjuQK5",
+        "target": "cFZsxpYHDxm7IWwergb3r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Xonbxc7MvMEonKBvbkCAH",
+        "target": "cFZsxpYHDxm7IWwergb3r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1DOSAieOmWUNNsQQrqf2m",
+        "target": "cFZsxpYHDxm7IWwergb3r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9FIhHwDNzyKpb42NmSv3K",
+        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-0Zp6b8NjDyz9MAQE3HfS",
+        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gBTem9Dp3IQLAkqGX4fOF",
+        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yjlxygHl8QONNUrdx-Q0A",
+        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DRdBmF5Dt_r09LoPOxOuq",
+        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IIAbAzXiVQm1JEi2MTMZN",
+        "target": "qOynVkDi1gFz0mxyJHjfJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3XrKbK5Od2eoM0BLaS4kU",
+        "target": "ib0jfZzukYOZ42AdJqt_W",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RJ7on8WoxrKcXrR3qY5Rs",
+        "target": "ib0jfZzukYOZ42AdJqt_W",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tZFWeWHdOUJcCEtHfXH9p",
+        "target": "ib0jfZzukYOZ42AdJqt_W",
         "type": "subtopic_of"
       },
       {
@@ -2935,13 +3297,68 @@
         "type": "subtopic_of"
       },
       {
+        "source": "8P0-vb9nlnmz7iC4UvyJZ",
+        "target": "TRx3wvWnRdJJf5eL-GBG4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aknqutxN2WDQ4RFcT-szM",
+        "target": "TRx3wvWnRdJJf5eL-GBG4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oxzcYXxy2I7GI7nbvFYVa",
+        "target": "TRx3wvWnRdJJf5eL-GBG4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EtVwQ4lnWi3IIFHGb2Qib",
+        "target": "TRx3wvWnRdJJf5eL-GBG4",
+        "type": "subtopic_of"
+      },
+      {
         "source": "VQ-V9qIdKgnpSJg2UnpuB",
         "target": "2F7vOL__v9dLBohA263aj",
         "type": "subtopic_of"
       },
       {
+        "source": "ubGIhi-WLE0EopTYXzmPL",
+        "target": "2F7vOL__v9dLBohA263aj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CWzGwvl6NwYCaLYSLIjqQ",
+        "target": "2F7vOL__v9dLBohA263aj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xP25nGw42VqdfZ_9pDMXd",
+        "target": "2F7vOL__v9dLBohA263aj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k_5y77k8ZZ9_O2WpWXWTY",
+        "target": "sE9lqkkqwnsVJxTJv37YZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "egQWk1n3p8Pep83yIwCtI",
+        "target": "sE9lqkkqwnsVJxTJv37YZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "16TT8R4N-9tCfWmPetqMP",
+        "target": "sE9lqkkqwnsVJxTJv37YZ",
+        "type": "subtopic_of"
+      },
+      {
         "source": "JQwWeB1gkANSYfQmH69Bs",
         "target": "sE9lqkkqwnsVJxTJv37YZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "N8xBTJ74xv1E5hSLYZtze",
+        "target": "RqZaWGxxNRItBhVwWKysc",
         "type": "subtopic_of"
       },
       {
@@ -2965,244 +3382,54 @@
         "type": "subtopic_of"
       },
       {
-        "source": "pGFnTqi0-RSj0YRmNA5iy",
+        "source": "KDd40JOAvZ8O1mfhTYB3K",
         "target": "qcrGApxNzkGYxgcd7o45d",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "Ba0baUbomrW9td_K8U-5L",
-        "target": "qcrGApxNzkGYxgcd7o45d",
-        "type": "subtopic_of"
+        "source": "qcrGApxNzkGYxgcd7o45d",
+        "target": "KUur-gfOBQodTS-irFet7",
+        "type": "next_in_flow"
       },
       {
-        "source": "afTNr36VqeXoJpHxm2IoS",
-        "target": "qcrGApxNzkGYxgcd7o45d",
-        "type": "subtopic_of"
+        "source": "alMJCEyUZ90xz-2_g3YRj",
+        "target": "qefnsugcveizVq2TORRgn",
+        "type": "next_in_flow"
       },
       {
-        "source": "mjaL5ocLnM8VQlhUxW6KU",
-        "target": "qcrGApxNzkGYxgcd7o45d",
-        "type": "subtopic_of"
+        "source": "qefnsugcveizVq2TORRgn",
+        "target": "cFZsxpYHDxm7IWwergb3r",
+        "type": "next_in_flow"
       },
       {
-        "source": "hfIHxa5i_5rEpjtzqEsic",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UH9d3cvGy_e67WFNFwCyf",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "d8iV-IBZ6cSnH8Z5_HRmc",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yLlQg7BF--ZwRHbXBWfOi",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Sa6IZtM4XJstultz-pbh0",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cjAwawhZLo1qVQ93XIdm2",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mVKsM7R4Ivpdhnbwt1aRb",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tTSITP1W1ymS-njbFb8Ts",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bfZIXHceDKDGQl-24kQpT",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YbDuIo1BbZKEAZwmXlCdZ",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jq-GD0DLyzrEXQKUmt5kv",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vnqvm_WiaKqpdxrW4wRGa",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "O2TYbd9i_OQwQk2dKh-ly",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yXiLegSlL7SveU8rBGj8U",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0pi9VTbngcAIswuu5LIYg",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DmqrX56d9KnBcOSwlJR2q",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RrExVb7l2gd0s_TlNdLeD",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HD1UGOidp7JGKdW6CEdQ_",
-        "target": "qcrGApxNzkGYxgcd7o45d",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-0Zp6b8NjDyz9MAQE3HfS",
+        "source": "cFZsxpYHDxm7IWwergb3r",
         "target": "qOynVkDi1gFz0mxyJHjfJ",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "gBTem9Dp3IQLAkqGX4fOF",
+        "source": "qOynVkDi1gFz0mxyJHjfJ",
+        "target": "aH1DxiG5xrdNlKutJ_gTz",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "TRx3wvWnRdJJf5eL-GBG4",
         "target": "LSwUHfalnk5MgHt21PANb",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "yjlxygHl8QONNUrdx-Q0A",
-        "target": "LSwUHfalnk5MgHt21PANb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DRdBmF5Dt_r09LoPOxOuq",
-        "target": "LSwUHfalnk5MgHt21PANb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IIAbAzXiVQm1JEi2MTMZN",
-        "target": "LSwUHfalnk5MgHt21PANb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ubGIhi-WLE0EopTYXzmPL",
+        "source": "LSwUHfalnk5MgHt21PANb",
         "target": "2F7vOL__v9dLBohA263aj",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "CWzGwvl6NwYCaLYSLIjqQ",
-        "target": "2F7vOL__v9dLBohA263aj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xP25nGw42VqdfZ_9pDMXd",
-        "target": "2F7vOL__v9dLBohA263aj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "N8xBTJ74xv1E5hSLYZtze",
-        "target": "2F7vOL__v9dLBohA263aj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "16TT8R4N-9tCfWmPetqMP",
+        "source": "2F7vOL__v9dLBohA263aj",
         "target": "sE9lqkkqwnsVJxTJv37YZ",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "egQWk1n3p8Pep83yIwCtI",
-        "target": "sE9lqkkqwnsVJxTJv37YZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "k_5y77k8ZZ9_O2WpWXWTY",
-        "target": "sE9lqkkqwnsVJxTJv37YZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EtVwQ4lnWi3IIFHGb2Qib",
-        "target": "sE9lqkkqwnsVJxTJv37YZ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Iv_t13PSVzet5VPKFtAp1",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZCM2_X4BiKh5FTCizrr-E",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_bZ71i36haWgHQTY0yMOx",
-        "target": "KDd40JOAvZ8O1mfhTYB3K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5z5w3yv1HbOpMlzEd4Iot",
-        "target": "alMJCEyUZ90xz-2_g3YRj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RWYXEZMODUrqwRWf_Lqi9",
-        "target": "alMJCEyUZ90xz-2_g3YRj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "M_3O21zjppgWptIT5dtu8",
-        "target": "alMJCEyUZ90xz-2_g3YRj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "t1Tcesfq7bV2TkHcfD6lU",
-        "target": "alMJCEyUZ90xz-2_g3YRj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3XrKbK5Od2eoM0BLaS4kU",
-        "target": "ib0jfZzukYOZ42AdJqt_W",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "oxzcYXxy2I7GI7nbvFYVa",
-        "target": "TRx3wvWnRdJJf5eL-GBG4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RJ7on8WoxrKcXrR3qY5Rs",
-        "target": "ib0jfZzukYOZ42AdJqt_W",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tZFWeWHdOUJcCEtHfXH9p",
-        "target": "ib0jfZzukYOZ42AdJqt_W",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8P0-vb9nlnmz7iC4UvyJZ",
-        "target": "ib0jfZzukYOZ42AdJqt_W",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aknqutxN2WDQ4RFcT-szM",
-        "target": "TRx3wvWnRdJJf5eL-GBG4",
-        "type": "subtopic_of"
+        "source": "sE9lqkkqwnsVJxTJv37YZ",
+        "target": "RqZaWGxxNRItBhVwWKysc",
+        "type": "next_in_flow"
       }
     ]
   }

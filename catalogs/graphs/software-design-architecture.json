@@ -3,10 +3,10 @@
     "slug": "software-design-architecture",
     "title": "Software Design and Architecture",
     "description": "Step by step guide to learn software design and architecture",
-    "extracted_at": "2026-10-29T01:04:41.168711+00:00",
+    "extracted_at": "2026-11-05T02:15:36.100221+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/software-design-architecture",
     "total_topics": 13,
-    "total_subtopics": 81
+    "total_subtopics": 84
   },
   "tree": {
     "title": "Software Design and Architecture",
@@ -25,105 +25,196 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/clean-code-principles@08qKtgnhJ3tlb5JKfTDf5.md",
-        "subtopics_count": 22,
+        "subtopics_count": 5,
         "subtopics": [
           {
-            "id": "TJZgsxpfOmltUUChMzlEM",
-            "name": "Clean Code",
-            "type": "subtopic",
-            "description": "Clean code refers to code that is easy to read, understand, and modify, following practices like meaningful naming, small functions, and clear structure. It prioritizes clarity over cleverness, since code is read far more often than it is written. Writing clean code reduces the time needed to fix bugs or add features, and it makes collaboration easier when multiple developers work on the same codebase.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Introduction to Clean Code & Software Design Principles",
-                "url": "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/clean-code@TJZgsxpfOmltUUChMzlEM.md"
-          },
-          {
-            "id": "RgYq3YOJhPGSf5in1Rcdp",
-            "name": "Programming Paradigms",
-            "type": "subtopic",
-            "description": "A programming paradigm is a fundamental style or approach to structuring and writing code, such as object-oriented, functional, or procedural programming. Each paradigm offers different ways to organize logic, manage state, and handle control flow, and many languages support more than one paradigm. Understanding different paradigms helps developers choose the right approach for a given problem rather than forcing every solution into a single style.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview of Programming paradigm",
-                "url": "https://en.wikipedia.org/wiki/Programming_paradigm"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/programming-paradigms@RgYq3YOJhPGSf5in1Rcdp.md"
-          },
-          {
-            "id": "qZQDOe2MHBh8wNcmvkLQm",
-            "name": "Object Oriented Programming",
-            "type": "subtopic",
-            "description": "Object-oriented programming (OOP) is a programming paradigm that is based on the concept of \"objects,\" which are instances of a class. In OOP, a class is a blueprint for creating objects, which have both data (attributes) and behavior (methods). The main idea behind OOP is to model real-world objects and their interactions, making it well-suited for creating complex and large-scale software systems.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Discover Object Oriented Programming",
-                "url": "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html"
-              },
-              {
-                "type": "video",
-                "title": "Software Development Tutorial - What is object-oriented language?s",
-                "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/object-oriented-programming@qZQDOe2MHBh8wNcmvkLQm.md"
-          },
-          {
-            "id": "p96fNXv0Z4rEEXJR9hAYX",
-            "name": "Design Principles",
-            "type": "subtopic",
-            "description": "Design principles are fundamental guidelines that help software engineers create systems that are maintainable, scalable, robust, and easy to understand. They represent best practices derived from decades of software engineering experience and are widely used to guide the structure and behavior of code. Applying these principles can lead to better software architecture, easier debugging, and improved collaboration.",
+            "id": "uLYSP9v3y51h8Ttdt5ije",
+            "name": "Minimap of Topics",
+            "type": "group",
+            "description": "",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-principles@p96fNXv0Z4rEEXJR9hAYX.md"
-          },
-          {
-            "id": "gyQw885dvupmkohzJPg3a",
-            "name": "Design Patterns",
-            "type": "subtopic",
-            "description": "Design patterns are general, reusable solutions to common problems that occur when designing software at the level of individual classes and objects. They describe proven approaches to structuring relationships between objects, such as how to create objects flexibly or how to let objects react to changes in other objects. The Gang of Four catalog, which includes patterns like Singleton, Factory, and Observer, is one of the most widely referenced sources for these patterns.",
-            "resources": [
+            "file_path": null,
+            "subtopics_count": 9,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Overview - Software Design Pattern",
-                "url": "https://en.wikipedia.org/wiki/Software_design_pattern"
+                "id": "TJZgsxpfOmltUUChMzlEM",
+                "name": "Clean Code",
+                "type": "subtopic",
+                "description": "Clean code refers to code that is easy to read, understand, and modify, following practices like meaningful naming, small functions, and clear structure. It prioritizes clarity over cleverness, since code is read far more often than it is written. Writing clean code reduces the time needed to fix bugs or add features, and it makes collaboration easier when multiple developers work on the same codebase.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Introduction to Clean Code & Software Design Principles",
+                    "url": "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/clean-code@TJZgsxpfOmltUUChMzlEM.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Explaining, imaging and simplifying design patterns",
-                "url": "https://refactoring.guru/design-patterns/what-is-pattern"
+                "id": "RgYq3YOJhPGSf5in1Rcdp",
+                "name": "Programming Paradigms",
+                "type": "subtopic",
+                "description": "A programming paradigm is a fundamental style or approach to structuring and writing code, such as object-oriented, functional, or procedural programming. Each paradigm offers different ways to organize logic, manage state, and handle control flow, and many languages support more than one paradigm. Understanding different paradigms helps developers choose the right approach for a given problem rather than forcing every solution into a single style.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overview of Programming paradigm",
+                    "url": "https://en.wikipedia.org/wiki/Programming_paradigm"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/programming-paradigms@RgYq3YOJhPGSf5in1Rcdp.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "What Are Design Patterns?",
-                "url": "https://www.youtube.com/watch?v=BWprw8UHIzA"
+                "id": "qZQDOe2MHBh8wNcmvkLQm",
+                "name": "Object Oriented Programming",
+                "type": "subtopic",
+                "description": "Object-oriented programming (OOP) is a programming paradigm that is based on the concept of \"objects,\" which are instances of a class. In OOP, a class is a blueprint for creating objects, which have both data (attributes) and behavior (methods). The main idea behind OOP is to model real-world objects and their interactions, making it well-suited for creating complex and large-scale software systems.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Discover Object Oriented Programming",
+                    "url": "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Software Development Tutorial - What is object-oriented language?s",
+                    "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/object-oriented-programming@qZQDOe2MHBh8wNcmvkLQm.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "p96fNXv0Z4rEEXJR9hAYX",
+                "name": "Design Principles",
+                "type": "subtopic",
+                "description": "Design principles are fundamental guidelines that help software engineers create systems that are maintainable, scalable, robust, and easy to understand. They represent best practices derived from decades of software engineering experience and are widely used to guide the structure and behavior of code. Applying these principles can lead to better software architecture, easier debugging, and improved collaboration.",
+                "resources": [],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-principles@p96fNXv0Z4rEEXJR9hAYX.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "gyQw885dvupmkohzJPg3a",
+                "name": "Design Patterns",
+                "type": "subtopic",
+                "description": "Design patterns are general, reusable solutions to common problems that occur when designing software at the level of individual classes and objects. They describe proven approaches to structuring relationships between objects, such as how to create objects flexibly or how to let objects react to changes in other objects. The Gang of Four catalog, which includes patterns like Singleton, Factory, and Observer, is one of the most widely referenced sources for these patterns.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overview - Software Design Pattern",
+                    "url": "https://en.wikipedia.org/wiki/Software_design_pattern"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Explaining, imaging and simplifying design patterns",
+                    "url": "https://refactoring.guru/design-patterns/what-is-pattern"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What Are Design Patterns?",
+                    "url": "https://www.youtube.com/watch?v=BWprw8UHIzA"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-patterns@gyQw885dvupmkohzJPg3a.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "XBCxWdpvQyK2iIG2eEA1K",
+                "name": "Architectural Principles",
+                "type": "subtopic",
+                "description": "Architectural principles refer to a set of guidelines or rules that are used to guide the design and development of a software architecture. These principles are intended to ensure that the resulting architecture is maintainable, scalable, and easy to understand and modify. Some common architectural principles include the separation of concerns, modularity, loose coupling, and high cohesion. Additionally, architectural principles are often used in conjunction with design patterns, which are reusable solutions to common software design problems.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Intro to Architectural Principles",
+                    "url": "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Principles of Software Design",
+                    "url": "https://www.youtube.com/watch?v=TO9igqkPtfc"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-principles@XBCxWdpvQyK2iIG2eEA1K.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "En_hvwRvY6k_itsNCQBYE",
+                "name": "Architectural Styles",
+                "type": "subtopic",
+                "description": "Architectural styles are high-level patterns that define the fundamental structure and organization of a software system. They provide a standardized way to arrange components, define their responsibilities, and establish the communication mechanisms between them. By selecting a specific style, such as microservices, layered architecture, or event-driven design, developers determine how data flows through the application and how the system scales over time. These styles serve as blueprints that guide technical decisions, ensuring the software remains modular, maintainable, and aligned with its functional requirements.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is Software Architecture & Styles?",
+                    "url": "https://study.com/academy/lesson/software-architecture-styles-patterns-components.html"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Types of Architectural Styles in Software Engineering",
+                    "url": "https://www.youtube.com/watch?v=2Pp0BcXN9YY"
+                  },
+                  {
+                    "type": "video",
+                    "title": "10 Architecture Patterns Used In Enterprise Software Development Today",
+                    "url": "https://www.youtube.com/watch?v=brt3ao8bvqy"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-styles@En_hvwRvY6k_itsNCQBYE.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "jq916t7svaMw5sFOcqZSi",
+                "name": "Architectural Patterns",
+                "type": "subtopic",
+                "description": "Architectural patterns are reusable solutions to common problems encountered during the high-level design of software systems. They provide a structural template that defines how components within an application interact, organize, and communicate. These patterns serve as a blueprint to ensure software remains scalable, maintainable, and efficient by establishing clear boundaries and responsibilities for different parts of the system. Common examples include Model-View-Controller, microservices, and layered architectures, each offering specific strategies for managing complexity and data flow.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overview - Architectural Pattern",
+                    "url": "https://en.wikipedia.org/wiki/Architectural_pattern"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Architecture Patterns Used In Enterprise Software Development",
+                    "url": "https://www.youtube.com/watch?v=BrT3AO8bVQY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-patterns@jq916t7svaMw5sFOcqZSi.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "WrzsvLgo7cf2KjvJhtJEC",
+                "name": "Enterprise Patterns",
+                "type": "subtopic",
+                "description": "Enterprise Patterns are well-documented, reusable solutions to commonly occurring problems in enterprise software development. These patterns provide a vocabulary and a set of best practices for designing robust, scalable, and maintainable enterprise applications, addressing recurring challenges like data access, concurrency, distribution, and integration with legacy systems. They serve as blueprints for solving complex architectural and design issues, promoting consistency and reducing development time.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Enterprise Software Architecture Patterns: An Ultimate Guide",
+                    "url": "https://www.rishabhsoft.com/blog/enterprise-software-architecture-patterns"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What are Enterprise Integration Patterns?",
+                    "url": "https://www.youtube.com/watch?v=WNm3QmJadNs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-patterns@gyQw885dvupmkohzJPg3a.md"
-          },
-          {
-            "id": "XBCxWdpvQyK2iIG2eEA1K",
-            "name": "Architectural Principles",
-            "type": "subtopic",
-            "description": "Architectural principles refer to a set of guidelines or rules that are used to guide the design and development of a software architecture. These principles are intended to ensure that the resulting architecture is maintainable, scalable, and easy to understand and modify. Some common architectural principles include the separation of concerns, modularity, loose coupling, and high cohesion. Additionally, architectural principles are often used in conjunction with design patterns, which are reusable solutions to common software design problems.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Intro to Architectural Principles",
-                "url": "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles"
-              },
-              {
-                "type": "video",
-                "title": "Principles of Software Design",
-                "url": "https://www.youtube.com/watch?v=TO9igqkPtfc"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-principles@XBCxWdpvQyK2iIG2eEA1K.md"
+            ]
           },
           {
             "id": "2SOZvuEcy8Cy8ymN7x4L-",
@@ -137,31 +228,9 @@
                 "url": "https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/be-consistent@2SOZvuEcy8Cy8ymN7x4L-.md"
-          },
-          {
-            "id": "En_hvwRvY6k_itsNCQBYE",
-            "name": "Architectural Styles",
-            "type": "subtopic",
-            "description": "Architectural styles are high-level patterns that define the fundamental structure and organization of a software system. They provide a standardized way to arrange components, define their responsibilities, and establish the communication mechanisms between them. By selecting a specific style, such as microservices, layered architecture, or event-driven design, developers determine how data flows through the application and how the system scales over time. These styles serve as blueprints that guide technical decisions, ensuring the software remains modular, maintainable, and aligned with its functional requirements.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is Software Architecture & Styles?",
-                "url": "https://study.com/academy/lesson/software-architecture-styles-patterns-components.html"
-              },
-              {
-                "type": "video",
-                "title": "Types of Architectural Styles in Software Engineering",
-                "url": "https://www.youtube.com/watch?v=2Pp0BcXN9YY"
-              },
-              {
-                "type": "video",
-                "title": "10 Architecture Patterns Used In Enterprise Software Development Today",
-                "url": "https://www.youtube.com/watch?v=brt3ao8bvqy"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-styles@En_hvwRvY6k_itsNCQBYE.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/be-consistent@2SOZvuEcy8Cy8ymN7x4L-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6Cd1BbGsmPJs_5jKhumyV",
@@ -175,26 +244,9 @@
                 "url": "https://levelup.gitconnected.com/a-guide-for-naming-things-in-programming-2dc2d74879f8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/meaningful-names-over-comments@6Cd1BbGsmPJs_5jKhumyV.md"
-          },
-          {
-            "id": "jq916t7svaMw5sFOcqZSi",
-            "name": "Architectural Patterns",
-            "type": "subtopic",
-            "description": "Architectural patterns are reusable solutions to common problems encountered during the high-level design of software systems. They provide a structural template that defines how components within an application interact, organize, and communicate. These patterns serve as a blueprint to ensure software remains scalable, maintainable, and efficient by establishing clear boundaries and responsibilities for different parts of the system. Common examples include Model-View-Controller, microservices, and layered architectures, each offering specific strategies for managing complexity and data flow.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview - Architectural Pattern",
-                "url": "https://en.wikipedia.org/wiki/Architectural_pattern"
-              },
-              {
-                "type": "video",
-                "title": "Architecture Patterns Used In Enterprise Software Development",
-                "url": "https://www.youtube.com/watch?v=BrT3AO8bVQY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-patterns@jq916t7svaMw5sFOcqZSi.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/meaningful-names-over-comments@6Cd1BbGsmPJs_5jKhumyV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "81WOL1nxb56ZbAOvxJ7NK",
@@ -208,26 +260,9 @@
                 "url": "https://www.baeldung.com/cs/clean-code-formatting"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/indentation-and-code-style@81WOL1nxb56ZbAOvxJ7NK.md"
-          },
-          {
-            "id": "WrzsvLgo7cf2KjvJhtJEC",
-            "name": "Enterprise Patterns",
-            "type": "subtopic",
-            "description": "Enterprise Patterns are well-documented, reusable solutions to commonly occurring problems in enterprise software development. These patterns provide a vocabulary and a set of best practices for designing robust, scalable, and maintainable enterprise applications, addressing recurring challenges like data access, concurrency, distribution, and integration with legacy systems. They serve as blueprints for solving complex architectural and design issues, promoting consistency and reducing development time.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Enterprise Software Architecture Patterns: An Ultimate Guide",
-                "url": "https://www.rishabhsoft.com/blog/enterprise-software-architecture-patterns"
-              },
-              {
-                "type": "video",
-                "title": "What are Enterprise Integration Patterns?",
-                "url": "https://www.youtube.com/watch?v=WNm3QmJadNs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/indentation-and-code-style@81WOL1nxb56ZbAOvxJ7NK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XEwC6Fyf2DNNHQsoGTrQj",
@@ -235,136 +270,9 @@
             "type": "subtopic",
             "description": "You should design and implement small, focused components that serve a specific purpose, rather than large, monolithic components that try to do everything. This can help to improve the maintainability and scalability of the system by making it easier to understand, test, and modify individual components.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/keep-methods--classes--files-small@XEwC6Fyf2DNNHQsoGTrQj.md"
-          },
-          {
-            "id": "5S5A5wCJUCNPLlHJ5fRjU",
-            "name": "Pure functions",
-            "type": "subtopic",
-            "description": "Pure functions are a type of function in programming where the output is solely determined by its input values, without any side effects. This means that for the same input, a pure function will always return the same output, and it does not modify any state outside of its own scope. They are deterministic, predictable, and make code easier to test and reason about.",
-            "resources": [
-              {
-                "type": "video",
-                "title": "What are Pure Functions? | Javascript Functions Tutorial",
-                "url": "https://www.youtube.com/watch?v=ZXxahQS1PN8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/pure-functions@5S5A5wCJUCNPLlHJ5fRjU.md"
-          },
-          {
-            "id": "qZzl0hAD2LkShsPql1IlZ",
-            "name": "Minimize cyclomatic complexity",
-            "type": "subtopic",
-            "description": "Cyclomatic complexity measures the number of linearly independent paths through a program's source code. It's calculated based on the number of decision points (like `if`, `for`, `while`, `case`) within a function or code block. High cyclomatic complexity indicates code that is harder to understand, test, and maintain due to its increased number of possible execution paths. Reducing this complexity aims to simplify the control flow and logic within code, leading to more readable and reliable software.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How to reduce cyclomatic complexity?",
-                "url": "https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/minimize-cyclomatic-complexity@qZzl0hAD2LkShsPql1IlZ.md"
-          },
-          {
-            "id": "yyKvmutbxu3iVHTuqr5q4",
-            "name": "Avoid passing nulls, booleans",
-            "type": "subtopic",
-            "description": "Passing null values or boolean flags into functions often leads to code that is difficult to understand and prone to errors. When a function accepts a boolean, it frequently signals that the function is doing too many things at once, violating the single responsibility principle. Similarly, passing null values forces developers to include repetitive conditional checks to prevent runtime crashes. Instead of using these markers, developers should decompose complex functions into smaller, specific methods or utilize specialized objects and patterns to handle different execution paths clearly.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/avoid-passing-nulls-booleans@yyKvmutbxu3iVHTuqr5q4.md"
-          },
-          {
-            "id": "OoCCy-3W5y7bUcKz_iyBw",
-            "name": "Keep framework code distant",
-            "type": "subtopic",
-            "description": "Keeping framework code distant is a design practice that aims to decouple core business logic from the specific libraries or frameworks being used. It involves wrapping third-party tools within abstraction layers, such as interfaces or adapter classes, so that the application remains agnostic of the framework’s internal implementation. This approach ensures that if a framework needs to be updated, replaced, or removed, the impact on the codebase is minimized because the business rules are not directly tied to external dependencies.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Clean architecture",
-                "url": "https://pusher.com/tutorials/clean-architecture-introduction/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/keep-framework-code-distant@OoCCy-3W5y7bUcKz_iyBw.md"
-          },
-          {
-            "id": "S1m7ty7Qrzu1rr4Jl-WgM",
-            "name": "Use correct constructs",
-            "type": "subtopic",
-            "description": "Using correct constructs involves selecting the most appropriate programming language features, data structures, and syntax to express a specific logic clearly and efficiently. This practice focuses on avoiding the misuse of language capabilities, such as using a loop when a built-in functional method is available or picking an inefficient data type for a simple task. By adhering to idiomatic patterns, developers create code that is predictable, easier to debug, and more readable for other team members.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/use-correct-constructs@S1m7ty7Qrzu1rr4Jl-WgM.md"
-          },
-          {
-            "id": "mzt7fvx6ab3tmG1R1NcLO",
-            "name": "Tests should be fast and independent",
-            "type": "subtopic",
-            "description": "Tests should be fast and independent refers to the practice of ensuring that a test suite executes quickly and that each individual test can run in any order without relying on the state of another. Fast tests provide immediate feedback during development, encouraging developers to run them frequently throughout the coding process. Independence ensures that the outcome of one test does not affect the results of others, which prevents cascading failures and makes it significantly easier to isolate and debug specific issues when a test fails.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Unit Testing Best Practices",
-                "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
-              },
-              {
-                "type": "article",
-                "title": "Test Pyramid Explained",
-                "url": "https://martinfowler.com/bliki/TestPyramid.html"
-              },
-              {
-                "type": "article",
-                "title": "Writing Reliable Tests",
-                "url": "https://testing.googleblog.com/2014/05/testing-on-toilet-how-much.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/tests-should-be-fast-and-independent@mzt7fvx6ab3tmG1R1NcLO.md"
-          },
-          {
-            "id": "kp86Vc3uue3IxTN9B9p59",
-            "name": "Organize code by actor it belongs to",
-            "type": "subtopic",
-            "description": "Organizing code by the actor it belongs to involves grouping components, classes, or modules based on the specific business entities or users they serve. This approach aligns the physical structure of a codebase with the actual responsibilities and requirements of the stakeholders involved in the system. By separating elements according to their primary actor, developers can minimize the impact of changes, as modifications requested by one group of users only affect the files associated with their specific domain. This practice reduces coupling and helps maintain a clear mapping between business processes and technical implementations.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Package by Feature vs Package by Layer",
-                "url": "https://www.baeldung.com/java-packaging-structures"
-              },
-              {
-                "type": "article",
-                "title": "Screaming Architecture",
-                "url": "https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/organize-code-by-actor-it-belongs-to@kp86Vc3uue3IxTN9B9p59.md"
-          },
-          {
-            "id": "tLbckKmfVxgn59j_dlh8b",
-            "name": "Command query separation",
-            "type": "subtopic",
-            "description": "Command-Query Separation (CQS) is a software design principle that separates the responsibilities of a method or function into two categories: commands and queries. Commands are methods that change the state of the system, while queries are methods that return information but do not change the state of the system.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "CQS Pattern",
-                "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/command-query-separation@tLbckKmfVxgn59j_dlh8b.md"
-          },
-          {
-            "id": "9naCfoHF1LW1OEsVZGi8v",
-            "name": "Keep it simple and refactor often",
-            "type": "subtopic",
-            "description": "\"Keep it simple and refactor often\" is a development philosophy that encourages writing straightforward, readable code and frequently improving its internal structure without changing its external behavior. This approach focuses on reducing complexity by removing redundant logic and breaking down large tasks into manageable pieces. Developers maintain high code quality by addressing technical debt incrementally, ensuring that the software remains easy to understand, test, and adapt to future requirements as it evolves.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "AHA Programming",
-                "url": "https://kentcdodds.com/blog/aha-programming"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/keep-methods--classes--files-small@XEwC6Fyf2DNNHQsoGTrQj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -381,8 +289,24 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/programming-paradigms@TDhTYdEyBuOnDKcQJzTAk.md",
-        "subtopics_count": 3,
+        "subtopics_count": 6,
         "subtopics": [
+          {
+            "id": "5S5A5wCJUCNPLlHJ5fRjU",
+            "name": "Pure functions",
+            "type": "subtopic",
+            "description": "Pure functions are a type of function in programming where the output is solely determined by its input values, without any side effects. This means that for the same input, a pure function will always return the same output, and it does not modify any state outside of its own scope. They are deterministic, predictable, and make code easier to test and reason about.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "What are Pure Functions? | Javascript Functions Tutorial",
+                "url": "https://www.youtube.com/watch?v=ZXxahQS1PN8"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/pure-functions@5S5A5wCJUCNPLlHJ5fRjU.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "VhSEH_RoWFt1z2lial7xZ",
             "name": "Structured Programming",
@@ -395,7 +319,25 @@
                 "url": "https://en.wikipedia.org/wiki/Structured_programming"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/structured-programming@VhSEH_RoWFt1z2lial7xZ.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/structured-programming@VhSEH_RoWFt1z2lial7xZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "qZzl0hAD2LkShsPql1IlZ",
+            "name": "Minimize cyclomatic complexity",
+            "type": "subtopic",
+            "description": "Cyclomatic complexity measures the number of linearly independent paths through a program's source code. It's calculated based on the number of decision points (like `if`, `for`, `while`, `case`) within a function or code block. High cyclomatic complexity indicates code that is harder to understand, test, and maintain due to its increased number of possible execution paths. Reducing this complexity aims to simplify the control flow and logic within code, leading to more readable and reliable software.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "How to reduce cyclomatic complexity?",
+                "url": "https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/minimize-cyclomatic-complexity@qZzl0hAD2LkShsPql1IlZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YswaOqZNYcmDwly2IXrTT",
@@ -409,7 +351,19 @@
                 "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/functional-programming@YswaOqZNYcmDwly2IXrTT.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/functional-programming@YswaOqZNYcmDwly2IXrTT.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "yyKvmutbxu3iVHTuqr5q4",
+            "name": "Avoid passing nulls, booleans",
+            "type": "subtopic",
+            "description": "Passing null values or boolean flags into functions often leads to code that is difficult to understand and prone to errors. When a function accepts a boolean, it frequently signals that the function is doing too many things at once, violating the single responsibility principle. Similarly, passing null values forces developers to include repetitive conditional checks to prevent runtime crashes. Instead of using these markers, developers should decompose complex functions into smaller, specific methods or utilize specialized objects and patterns to handle different execution paths clearly.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/avoid-passing-nulls-booleans@yyKvmutbxu3iVHTuqr5q4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VZrERRRYhmqDx4slnZtdc",
@@ -428,7 +382,9 @@
                 "url": "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/object-oriented-programming@VZrERRRYhmqDx4slnZtdc.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/object-oriented-programming@VZrERRRYhmqDx4slnZtdc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -450,78 +406,97 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/object-oriented-programming@HhYdURE4X-a9GVwJhAyE0.md",
-        "subtopics_count": 10,
+        "subtopics_count": 3,
         "subtopics": [
           {
-            "id": "4DVW4teisMz8-58XttMGt",
-            "name": "Polymorphism",
-            "type": "subtopic",
-            "description": "Polymorphism is a core principle in object-oriented programming that allows objects of different classes to be treated as instances of a common base class. It enables a single interface to represent different underlying forms, meaning a method call can behave differently depending on the specific object it is acting upon. By utilizing techniques like method overriding and overloading, developers can write flexible code that works with various data types through a unified structure.",
-            "resources": [
+            "id": "3eWirbQGbJZd4g7CS1xk_",
+            "name": "Primary Principles",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Overview of Polymorphism in programming",
-                "url": "https://www.bmc.com/blogs/polymorphism-programming/"
+                "id": "4DVW4teisMz8-58XttMGt",
+                "name": "Polymorphism",
+                "type": "subtopic",
+                "description": "Polymorphism is a core principle in object-oriented programming that allows objects of different classes to be treated as instances of a common base class. It enables a single interface to represent different underlying forms, meaning a method call can behave differently depending on the specific object it is acting upon. By utilizing techniques like method overriding and overloading, developers can write flexible code that works with various data types through a unified structure.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overview of Polymorphism in programming",
+                    "url": "https://www.bmc.com/blogs/polymorphism-programming/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is polymorphism in programming?",
+                    "url": "https://www.youtube.com/watch?v=tIWm3I_Zu7I"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/polymorphism@4DVW4teisMz8-58XttMGt.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "What is polymorphism in programming?",
-                "url": "https://www.youtube.com/watch?v=tIWm3I_Zu7I"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/polymorphism@4DVW4teisMz8-58XttMGt.md"
-          },
-          {
-            "id": "Dj36yLBShoazj7SAw6a_A",
-            "name": "Inheritance",
-            "type": "subtopic",
-            "description": "Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a new class to inherit the properties and methods of an existing class. The class that is inherited from is called the parent or super class, while the class that inherits is called the child or sub class. Inheritance enables code reuse and allows for a hierarchical organization of classes, where a child class can inherit the properties and methods of its parent class and potentially add or override them. The main advantage of inheritance is that it allows for a clean and organized way to reuse code and share functionality among classes.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview of Inheritance (object-oriented programming)",
-                "url": "https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29"
+                "id": "Dj36yLBShoazj7SAw6a_A",
+                "name": "Inheritance",
+                "type": "subtopic",
+                "description": "Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a new class to inherit the properties and methods of an existing class. The class that is inherited from is called the parent or super class, while the class that inherits is called the child or sub class. Inheritance enables code reuse and allows for a hierarchical organization of classes, where a child class can inherit the properties and methods of its parent class and potentially add or override them. The main advantage of inheritance is that it allows for a clean and organized way to reuse code and share functionality among classes.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overview of Inheritance (object-oriented programming)",
+                    "url": "https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is inheritance in programming?",
+                    "url": "https://www.youtube.com/watch?v=ajOYOxCanhE"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/inheritance@Dj36yLBShoazj7SAw6a_A.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "What is inheritance in programming?",
-                "url": "https://www.youtube.com/watch?v=ajOYOxCanhE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/inheritance@Dj36yLBShoazj7SAw6a_A.md"
-          },
-          {
-            "id": "GJxfVjhiLuuc36hatx9dP",
-            "name": "Encapsulation",
-            "type": "subtopic",
-            "description": "Encapsulation is a fundamental principle of object-oriented programming that bundles data and the methods that operate on that data into a single unit, known as a class. It restricts direct access to an object's internal state by hiding its private implementation details from the outside world. Developers expose only the necessary functionality through a public interface, which helps prevent accidental corruption of data and ensures that the internal logic of an object remains consistent and protected.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview of Encapsulation",
-                "url": "https://en.wikipedia.org/wiki/Encapsulation_%28computer_programming%29"
+                "id": "GJxfVjhiLuuc36hatx9dP",
+                "name": "Encapsulation",
+                "type": "subtopic",
+                "description": "Encapsulation is a fundamental principle of object-oriented programming that bundles data and the methods that operate on that data into a single unit, known as a class. It restricts direct access to an object's internal state by hiding its private implementation details from the outside world. Developers expose only the necessary functionality through a public interface, which helps prevent accidental corruption of data and ensures that the internal logic of an object remains consistent and protected.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Overview of Encapsulation",
+                    "url": "https://en.wikipedia.org/wiki/Encapsulation_%28computer_programming%29"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Tutorial - What is encapsulation in programming?",
+                    "url": "https://www.youtube.com/watch?v=sNKKxc4QHqA"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/encapsulation@GJxfVjhiLuuc36hatx9dP.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Tutorial - What is encapsulation in programming?",
-                "url": "https://www.youtube.com/watch?v=sNKKxc4QHqA"
+                "id": "VA8FMrhF4non9x-J3urY8",
+                "name": "Abstraction",
+                "type": "subtopic",
+                "description": "Abstraction is the process of hiding complex implementation details and showing only the essential features of an object to the user. It allows developers to interact with a simplified interface while the underlying logic remains encapsulated and separate. By focusing on what an object does rather than how it achieves its tasks, abstraction reduces programming complexity and prevents unnecessary exposure of internal operations.",
+                "resources": [
+                  {
+                    "type": "video",
+                    "title": "Tutorial - Abstraction",
+                    "url": "https://www.youtube.com/watch?v=OF55HZPE7lQ"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/abstraction@VA8FMrhF4non9x-J3urY8.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/encapsulation@GJxfVjhiLuuc36hatx9dP.md"
-          },
-          {
-            "id": "VA8FMrhF4non9x-J3urY8",
-            "name": "Abstraction",
-            "type": "subtopic",
-            "description": "Abstraction is the process of hiding complex implementation details and showing only the essential features of an object to the user. It allows developers to interact with a simplified interface while the underlying logic remains encapsulated and separate. By focusing on what an object does rather than how it achieves its tasks, abstraction reduces programming complexity and prevents unnecessary exposure of internal operations.",
-            "resources": [
-              {
-                "type": "video",
-                "title": "Tutorial - Abstraction",
-                "url": "https://www.youtube.com/watch?v=OF55HZPE7lQ"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/abstraction@VA8FMrhF4non9x-J3urY8.md"
+            ]
           },
           {
             "id": "vnLhItObDgp_XaDmplBsJ",
@@ -535,7 +510,9 @@
                 "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/law-of-demeter@vnLhItObDgp_XaDmplBsJ.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/law-of-demeter@vnLhItObDgp_XaDmplBsJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3XckqZA--knUb8IYKOeVy",
@@ -559,8 +536,21 @@
                 "url": "https://www.youtube.com/watch?v=aUCo5cy32kE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/solid@3XckqZA--knUb8IYKOeVy.md"
-          },
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/solid@3XckqZA--knUb8IYKOeVy.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "name": "Design Principles",
+        "type": "topic",
+        "description": "Design principles are guidelines for writing clean, maintainable code — with SOLID, DRY, YAGNI, and composition over inheritance among the most well-known. Applied at the module and class level, they reduce coupling, improve readability, and make the codebase easier to extend and test.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-principles@9dMbo4Q1_Sd9wW6-HSCA9.md",
+        "subtopics_count": 7,
+        "subtopics": [
           {
             "id": "0rGdh72HjqPZa2bCbY9Gz",
             "name": "Tell, don't ask",
@@ -573,7 +563,9 @@
                 "url": "https://martinfowler.com/bliki/TellDontAsk.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ltBnVWZ3UMAuUvDkU6o4P",
@@ -592,7 +584,9 @@
                 "url": "https://www.youtube.com/watch?v=Rv3RIc_ziOY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/dry@ltBnVWZ3UMAuUvDkU6o4P.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/dry@ltBnVWZ3UMAuUvDkU6o4P.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WzUhKlmFB9alTlAyV-MWJ",
@@ -606,7 +600,9 @@
                 "url": "https://www.youtube.com/watch?v=lRuygpsXE5s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/hollywood-principle@WzUhKlmFB9alTlAyV-MWJ.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/hollywood-principle@WzUhKlmFB9alTlAyV-MWJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eEO-WeNIyjErBE53n8JsD",
@@ -625,19 +621,10 @@
                 "url": "https://www.youtube.com/watch?v=2vys1q1dKc4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/yagni@eEO-WeNIyjErBE53n8JsD.md"
-          }
-        ]
-      },
-      {
-        "id": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "name": "Design Principles",
-        "type": "topic",
-        "description": "Design principles are guidelines for writing clean, maintainable code — with SOLID, DRY, YAGNI, and composition over inheritance among the most well-known. Applied at the module and class level, they reduce coupling, improve readability, and make the codebase easier to extend and test.",
-        "resources": [],
-        "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-principles@9dMbo4Q1_Sd9wW6-HSCA9.md",
-        "subtopics_count": 4,
-        "subtopics": [
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/yagni@eEO-WeNIyjErBE53n8JsD.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "Izno7xX7wDvwPEg7f_d1Y",
             "name": "Composition over Inheritance",
@@ -660,7 +647,9 @@
                 "url": "https://www.youtube.com/watch?v=HNzP1aLAffM&list=PLCl5BUbK0jXt5l18S5UNAoUc4eQ2PJDye"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/composition-over-inheritance@Izno7xX7wDvwPEg7f_d1Y.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/composition-over-inheritance@Izno7xX7wDvwPEg7f_d1Y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DlefJ9JuJ1LdQYC4WSx6y",
@@ -679,7 +668,9 @@
                 "url": "https://bootcamp.uxdesign.cc/software-design-principles-every-developers-should-know-23d24735518e"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/encapsulate-what-varies@DlefJ9JuJ1LdQYC4WSx6y.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/encapsulate-what-varies@DlefJ9JuJ1LdQYC4WSx6y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "UZeY36dABmULhsHPhlzn_",
@@ -693,26 +684,9 @@
                 "url": "https://en.wikipedia.org/wiki/Abstraction_principle_%28computer_programming%29"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/program-against-abstractions@UZeY36dABmULhsHPhlzn_.md"
-          },
-          {
-            "id": "KtzcJBb6-EcIoXnwYvE7a",
-            "name": "Event-Driven",
-            "type": "subtopic",
-            "description": "Event-driven architecture structures a system around the production, detection, and consumption of events, which are records of something that happened. Components react to events asynchronously instead of calling each other directly, which reduces coupling between producers and consumers. This style suits systems that need to scale independently or respond quickly to changes, such as order processing or real-time notifications.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview of Event-driven programming",
-                "url": "https://en.wikipedia.org/wiki/Event-driven_programming"
-              },
-              {
-                "type": "article",
-                "title": "What is event-driven architecture?",
-                "url": "https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/event-driven@KtzcJBb6-EcIoXnwYvE7a.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/program-against-abstractions@UZeY36dABmULhsHPhlzn_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -739,8 +713,113 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/design-patterns@Jd79KXxZavpnp3mtE1q0n.md",
-        "subtopics_count": 5,
+        "subtopics_count": 8,
         "subtopics": [
+          {
+            "id": "OoCCy-3W5y7bUcKz_iyBw",
+            "name": "Keep framework code distant",
+            "type": "subtopic",
+            "description": "Keeping framework code distant is a design practice that aims to decouple core business logic from the specific libraries or frameworks being used. It involves wrapping third-party tools within abstraction layers, such as interfaces or adapter classes, so that the application remains agnostic of the framework’s internal implementation. This approach ensures that if a framework needs to be updated, replaced, or removed, the impact on the codebase is minimized because the business rules are not directly tied to external dependencies.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Clean architecture",
+                "url": "https://pusher.com/tutorials/clean-architecture-introduction/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/keep-framework-code-distant@OoCCy-3W5y7bUcKz_iyBw.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "S1m7ty7Qrzu1rr4Jl-WgM",
+            "name": "Use correct constructs",
+            "type": "subtopic",
+            "description": "Using correct constructs involves selecting the most appropriate programming language features, data structures, and syntax to express a specific logic clearly and efficiently. This practice focuses on avoiding the misuse of language capabilities, such as using a loop when a built-in functional method is available or picking an inefficient data type for a simple task. By adhering to idiomatic patterns, developers create code that is predictable, easier to debug, and more readable for other team members.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/use-correct-constructs@S1m7ty7Qrzu1rr4Jl-WgM.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "mzt7fvx6ab3tmG1R1NcLO",
+            "name": "Tests should be fast and independent",
+            "type": "subtopic",
+            "description": "Tests should be fast and independent refers to the practice of ensuring that a test suite executes quickly and that each individual test can run in any order without relying on the state of another. Fast tests provide immediate feedback during development, encouraging developers to run them frequently throughout the coding process. Independence ensures that the outcome of one test does not affect the results of others, which prevents cascading failures and makes it significantly easier to isolate and debug specific issues when a test fails.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Unit Testing Best Practices",
+                "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+              },
+              {
+                "type": "article",
+                "title": "Test Pyramid Explained",
+                "url": "https://martinfowler.com/bliki/TestPyramid.html"
+              },
+              {
+                "type": "article",
+                "title": "Writing Reliable Tests",
+                "url": "https://testing.googleblog.com/2014/05/testing-on-toilet-how-much.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/tests-should-be-fast-and-independent@mzt7fvx6ab3tmG1R1NcLO.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "kp86Vc3uue3IxTN9B9p59",
+            "name": "Organize code by actor it belongs to",
+            "type": "subtopic",
+            "description": "Organizing code by the actor it belongs to involves grouping components, classes, or modules based on the specific business entities or users they serve. This approach aligns the physical structure of a codebase with the actual responsibilities and requirements of the stakeholders involved in the system. By separating elements according to their primary actor, developers can minimize the impact of changes, as modifications requested by one group of users only affect the files associated with their specific domain. This practice reduces coupling and helps maintain a clear mapping between business processes and technical implementations.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Package by Feature vs Package by Layer",
+                "url": "https://www.baeldung.com/java-packaging-structures"
+              },
+              {
+                "type": "article",
+                "title": "Screaming Architecture",
+                "url": "https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/organize-code-by-actor-it-belongs-to@kp86Vc3uue3IxTN9B9p59.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "tLbckKmfVxgn59j_dlh8b",
+            "name": "Command query separation",
+            "type": "subtopic",
+            "description": "Command-Query Separation (CQS) is a software design principle that separates the responsibilities of a method or function into two categories: commands and queries. Commands are methods that change the state of the system, while queries are methods that return information but do not change the state of the system.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "CQS Pattern",
+                "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/command-query-separation@tLbckKmfVxgn59j_dlh8b.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "9naCfoHF1LW1OEsVZGi8v",
+            "name": "Keep it simple and refactor often",
+            "type": "subtopic",
+            "description": "\"Keep it simple and refactor often\" is a development philosophy that encourages writing straightforward, readable code and frequently improving its internal structure without changing its external behavior. This approach focuses on reducing complexity by removing redundant logic and breaking down large tasks into manageable pieces. Developers maintain high code quality by addressing technical debt incrementally, ensuring that the software remains easy to understand, test, and adapt to future requirements as it evolves.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "AHA Programming",
+                "url": "https://kentcdodds.com/blog/aha-programming"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "hlHl00ELlK9YdnzHDGnEW",
             "name": "GoF Design Patterns",
@@ -758,7 +837,9 @@
                 "url": "https://www.youtube.com/watch?v=_sa2WlAFWQos"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/gof-design-patterns@hlHl00ELlK9YdnzHDGnEW.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/gof-design-patterns@hlHl00ELlK9YdnzHDGnEW.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6VoDGFOPHj5p_gvaZ8kTt",
@@ -777,43 +858,9 @@
                 "url": "https://www.youtube.com/watch?v=iYNa_KcWxCU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/posa-patterns@6VoDGFOPHj5p_gvaZ8kTt.md"
-          },
-          {
-            "id": "8Bm0sRhUg6wZtnvtTmpgY",
-            "name": "Component Principles",
-            "type": "subtopic",
-            "description": "Component principles are a set of guidelines used to organize software into cohesive, reusable, and decoupled modules. These principles address how to group classes and modules together to balance the competing needs of maintainability, flexibility, and independent deployability. By focusing on how components interact and evolve, developers can minimize the impact of changes and ensure that systems remain stable as they grow in complexity.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Component-Based Architecture",
-                "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/component-principles@8Bm0sRhUg6wZtnvtTmpgY.md"
-          },
-          {
-            "id": "b_PvjjL2ZpEKETa5_bd0v",
-            "name": "Policy vs Detail",
-            "type": "subtopic",
-            "description": "Policy and detail represent a fundamental separation between the core logic of an application and the specific implementation mechanisms that support it. Policies define the high-level business rules, domain entities, and operational requirements that dictate what an application should accomplish. In contrast, details encompass the low-level components like database drivers, user interface frameworks, external APIs, and hardware configurations that provide the environment for those policies to run. Keeping these concepts separate ensures that business logic remains independent of the specific tools used to execute it, allowing developers to change or upgrade technical infrastructure without altering the core functionality.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/policy-vs-detail@b_PvjjL2ZpEKETa5_bd0v.md"
-          },
-          {
-            "id": "TXus3R5vVQDBeBag6B5qs",
-            "name": "Coupling and Cohesion",
-            "type": "subtopic",
-            "description": "Coupling measures how much one module depends on another, while cohesion measures how closely the responsibilities within a single module relate to each other. Low coupling and high cohesion make a codebase easier to change, since a module can be modified or replaced without breaking unrelated parts of the system. Tightly coupled modules tend to cause cascading changes across a codebase, while low cohesion spreads unrelated logic across a single module, making it harder to understand and test.",
-            "resources": [
-              {
-                "type": "video",
-                "title": "Cohesion and Coupling in Software Engineering",
-                "url": "https://www.youtube.com/watch?v=NweTzHYBgYU"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/coupling-and-cohesion@TXus3R5vVQDBeBag6B5qs.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/posa-patterns@6VoDGFOPHj5p_gvaZ8kTt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -830,51 +877,70 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/model-driven-design@0VO_-1g-TS29y0Ji2yCjc.md",
-        "subtopics_count": 10,
+        "subtopics_count": 5,
         "subtopics": [
           {
-            "id": "RMkEE7c0jdVFqZ4fmjL6Y",
-            "name": "Abstract Classes",
-            "type": "subtopic",
-            "description": "An abstract class is a restricted base class that cannot be used to create objects. It serves as a blueprint for other classes, providing a common structure by defining methods that subclasses must implement. While it can contain fully functional methods, its primary purpose is to enforce a consistent interface and shared behavior across related objects in a system.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is an Abstract Class in Object Oriented Programming",
-                "url": "https://www.theserverside.com/definition/abstract-class"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/abstract-classes@RMkEE7c0jdVFqZ4fmjL6Y.md"
-          },
-          {
-            "id": "hd6GJ-H4p9I4aaiRTni57",
-            "name": "Concrete Classes",
-            "type": "subtopic",
-            "description": "A concrete class is a blueprint in object-oriented programming that provides a complete implementation for all of its defined methods and properties. It serves as a tangible template that allows developers to create direct instances, or objects, which can then be utilized to perform tasks within an application. Unlike abstract classes or interfaces, a concrete class does not contain incomplete methods, ensuring that every defined behavior is fully operational and ready for immediate execution upon instantiation.",
+            "id": "9slZPeVCSqU5-5PqaNJOh",
+            "name": "Paradigm Features",
+            "type": "group",
+            "description": "",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/concrete-classes@hd6GJ-H4p9I4aaiRTni57.md"
-          },
-          {
-            "id": "b-YIbw-r-nESVt_PUFQeq",
-            "name": "Scope / Visibility",
-            "type": "subtopic",
-            "description": "Scope and visibility define the accessibility of variables, methods, and classes within a codebase. Scope refers to the specific region of the program where a particular identifier is valid and can be referenced. Visibility, often managed through access modifiers like public, private, or protected, determines whether these members can be accessed from other parts of the application or restricted to specific classes and subclasses. Controlling these boundaries helps developers hide internal implementation details and prevent accidental modification of sensitive data.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/scope--visibility@b-YIbw-r-nESVt_PUFQeq.md"
-          },
-          {
-            "id": "SrcPhS4F7aT80qNjbv54f",
-            "name": "Interfaces",
-            "type": "subtopic",
-            "description": "An interface is a programming contract that defines a set of methods or properties that a class must implement without specifying how those members should function. It serves as a blueprint for classes, allowing developers to ensure that different objects adhere to a common structure regardless of their internal implementation. By decoupling the definition of behavior from the actual code, interfaces promote flexibility and allow for polymorphism, where different objects can be treated interchangeably as long as they satisfy the same interface requirements.",
-            "resources": [
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "video",
-                "title": "Fundamental concepts: What's an Interface?",
-                "url": "https://www.youtube.com/watch?v=o1jBgdhQsGo"
+                "id": "RMkEE7c0jdVFqZ4fmjL6Y",
+                "name": "Abstract Classes",
+                "type": "subtopic",
+                "description": "An abstract class is a restricted base class that cannot be used to create objects. It serves as a blueprint for other classes, providing a common structure by defining methods that subclasses must implement. While it can contain fully functional methods, its primary purpose is to enforce a consistent interface and shared behavior across related objects in a system.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is an Abstract Class in Object Oriented Programming",
+                    "url": "https://www.theserverside.com/definition/abstract-class"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/abstract-classes@RMkEE7c0jdVFqZ4fmjL6Y.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "hd6GJ-H4p9I4aaiRTni57",
+                "name": "Concrete Classes",
+                "type": "subtopic",
+                "description": "A concrete class is a blueprint in object-oriented programming that provides a complete implementation for all of its defined methods and properties. It serves as a tangible template that allows developers to create direct instances, or objects, which can then be utilized to perform tasks within an application. Unlike abstract classes or interfaces, a concrete class does not contain incomplete methods, ensuring that every defined behavior is fully operational and ready for immediate execution upon instantiation.",
+                "resources": [],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/concrete-classes@hd6GJ-H4p9I4aaiRTni57.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "b-YIbw-r-nESVt_PUFQeq",
+                "name": "Scope / Visibility",
+                "type": "subtopic",
+                "description": "Scope and visibility define the accessibility of variables, methods, and classes within a codebase. Scope refers to the specific region of the program where a particular identifier is valid and can be referenced. Visibility, often managed through access modifiers like public, private, or protected, determines whether these members can be accessed from other parts of the application or restricted to specific classes and subclasses. Controlling these boundaries helps developers hide internal implementation details and prevent accidental modification of sensitive data.",
+                "resources": [],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/scope--visibility@b-YIbw-r-nESVt_PUFQeq.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "SrcPhS4F7aT80qNjbv54f",
+                "name": "Interfaces",
+                "type": "subtopic",
+                "description": "An interface is a programming contract that defines a set of methods or properties that a class must implement without specifying how those members should function. It serves as a blueprint for classes, allowing developers to ensure that different objects adhere to a common structure regardless of their internal implementation. By decoupling the definition of behavior from the actual code, interfaces promote flexibility and allow for polymorphism, where different objects can be treated interchangeably as long as they satisfy the same interface requirements.",
+                "resources": [
+                  {
+                    "type": "video",
+                    "title": "Fundamental concepts: What's an Interface?",
+                    "url": "https://www.youtube.com/watch?v=o1jBgdhQsGo"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/interfaces@SrcPhS4F7aT80qNjbv54f.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/interfaces@SrcPhS4F7aT80qNjbv54f.md"
+            ]
           },
           {
             "id": "I25ghe8xYWpZ-9pRcHfOh",
@@ -893,7 +959,9 @@
                 "url": "https://khalilstemmler.com/articles/categories/domain-driven-design/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-models@I25ghe8xYWpZ-9pRcHfOh.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-models@I25ghe8xYWpZ-9pRcHfOh.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "nVaoI4IDPVEsdtFcjGNRw",
@@ -907,7 +975,9 @@
                 "url": "https://en.wikipedia.org/wiki/Anemic_domain_model"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/anemic-models@nVaoI4IDPVEsdtFcjGNRw.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/anemic-models@nVaoI4IDPVEsdtFcjGNRw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kWNQd3paQrhMHMJzM35w8",
@@ -926,7 +996,9 @@
                 "url": "https://www.jetbrains.com/mps/concepts/domain-specific-languages/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-language@kWNQd3paQrhMHMJzM35w8.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-language@kWNQd3paQrhMHMJzM35w8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "c6n-wOHylTbzpxqgoXtdw",
@@ -945,40 +1017,9 @@
                 "url": "https://arxiv.org/abs/2109.06557"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/class-variants@c6n-wOHylTbzpxqgoXtdw.md"
-          },
-          {
-            "id": "HN160YgryBBtVGjnWxNie",
-            "name": "Layered Architectures",
-            "type": "subtopic",
-            "description": "Layered architecture is a design pattern that organizes a software system into distinct horizontal segments or tiers, each with a specific responsibility. In this approach, components are grouped based on their function, such as presentation, business logic, or data access, with each layer communicating only with the one directly below it. By restricting dependencies in this manner, developers create a modular structure that makes it easier to update, test, and maintain individual parts of an application without affecting the entire codebase.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Software Architecture Patterns — Layered Architecture",
-                "url": "https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057"
-              },
-              {
-                "type": "article",
-                "title": "5 Primary Layers in Software Architecture?",
-                "url": "https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/layered-architectures@HN160YgryBBtVGjnWxNie.md"
-          },
-          {
-            "id": "a0geFJWl-vi3mYytTjYdb",
-            "name": "Component-Based",
-            "type": "subtopic",
-            "description": "Component-based architecture divides a system into independent, reusable components, each encapsulating a specific piece of functionality behind a well-defined interface. Components can be developed, tested, and replaced separately, as long as their interfaces stay stable. This approach supports reuse across different parts of an application or even across different projects.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Component Based Software architecture",
-                "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/component-based@a0geFJWl-vi3mYytTjYdb.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/class-variants@c6n-wOHylTbzpxqgoXtdw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1000,8 +1041,29 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/messaging@j9j45Auf60kIskyEMUGE3.md",
-        "subtopics_count": 1,
+        "subtopics_count": 2,
         "subtopics": [
+          {
+            "id": "KtzcJBb6-EcIoXnwYvE7a",
+            "name": "Event-Driven",
+            "type": "subtopic",
+            "description": "Event-driven architecture structures a system around the production, detection, and consumption of events, which are records of something that happened. Components react to events asynchronously instead of calling each other directly, which reduces coupling between producers and consumers. This style suits systems that need to scale independently or respond quickly to changes, such as order processing or real-time notifications.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Overview of Event-driven programming",
+                "url": "https://en.wikipedia.org/wiki/Event-driven_programming"
+              },
+              {
+                "type": "article",
+                "title": "What is event-driven architecture?",
+                "url": "https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/event-driven@KtzcJBb6-EcIoXnwYvE7a.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "SX4vOVJY9slOXGwX_q1au",
             "name": "Publish-Subscribe",
@@ -1019,7 +1081,9 @@
                 "url": "https://www.youtube.com/watch?v=O1PgqUqZKTA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/publish-subscribe@SX4vOVJY9slOXGwX_q1au.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/publish-subscribe@SX4vOVJY9slOXGwX_q1au.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1050,7 +1114,9 @@
                 "url": "https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/ClientServer.pdf"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/client-server@ZGIMUaNfBwE5b6O1yexSz.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/client-server@ZGIMUaNfBwE5b6O1yexSz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Cf9Z2wxBcbnNg_q9PA6xA",
@@ -1064,7 +1130,9 @@
                 "url": "https://student.cs.uwaterloo.ca/~cs446/1171/Arch_Design_Activity/Peer2Peer.pdf"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/peer-to-peer@Cf9Z2wxBcbnNg_q9PA6xA.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/peer-to-peer@Cf9Z2wxBcbnNg_q9PA6xA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1096,8 +1164,50 @@
         "description": "Architectural principles are a set of fundamental guidelines and best practices used to inform the structural design of a software system. These rules provide a foundation for making consistent decisions regarding the organization of code, the interaction between components, and the management of data flow. By adhering to these concepts, developers can ensure that a system remains modular, scalable, and easier to maintain over time. These principles help teams establish a common technical language and prevent structural decay as an application grows in complexity.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-principles@dBq7ni-of5v1kxpdmh227.md",
-        "subtopics_count": 1,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "8Bm0sRhUg6wZtnvtTmpgY",
+            "name": "Component Principles",
+            "type": "subtopic",
+            "description": "Component principles are a set of guidelines used to organize software into cohesive, reusable, and decoupled modules. These principles address how to group classes and modules together to balance the competing needs of maintainability, flexibility, and independent deployability. By focusing on how components interact and evolve, developers can minimize the impact of changes and ensure that systems remain stable as they grow in complexity.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Component-Based Architecture",
+                "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/component-principles@8Bm0sRhUg6wZtnvtTmpgY.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "b_PvjjL2ZpEKETa5_bd0v",
+            "name": "Policy vs Detail",
+            "type": "subtopic",
+            "description": "Policy and detail represent a fundamental separation between the core logic of an application and the specific implementation mechanisms that support it. Policies define the high-level business rules, domain entities, and operational requirements that dictate what an application should accomplish. In contrast, details encompass the low-level components like database drivers, user interface frameworks, external APIs, and hardware configurations that provide the environment for those policies to run. Keeping these concepts separate ensures that business logic remains independent of the specific tools used to execute it, allowing developers to change or upgrade technical infrastructure without altering the core functionality.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/policy-vs-detail@b_PvjjL2ZpEKETa5_bd0v.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "TXus3R5vVQDBeBag6B5qs",
+            "name": "Coupling and Cohesion",
+            "type": "subtopic",
+            "description": "Coupling measures how much one module depends on another, while cohesion measures how closely the responsibilities within a single module relate to each other. Low coupling and high cohesion make a codebase easier to change, since a module can be modified or replaced without breaking unrelated parts of the system. Tightly coupled modules tend to cause cascading changes across a codebase, while low cohesion spreads unrelated logic across a single module, making it harder to understand and test.",
+            "resources": [
+              {
+                "type": "video",
+                "title": "Cohesion and Coupling in Software Engineering",
+                "url": "https://www.youtube.com/watch?v=NweTzHYBgYU"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/coupling-and-cohesion@TXus3R5vVQDBeBag6B5qs.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "-Kw8hJhgQH2qInUFj2TUe",
             "name": "Boundaries",
@@ -1110,7 +1220,9 @@
                 "url": "https://www.open.edu/openlearn/science-maths-technology/approaches-software-development/content-section-1.1.4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/boundaries@-Kw8hJhgQH2qInUFj2TUe.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/boundaries@-Kw8hJhgQH2qInUFj2TUe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1121,8 +1233,45 @@
         "description": "Structural architectural styles focus on how a system's components are organized internally, such as how code is divided into layers, modules, or units. They determine how responsibilities are separated within a single application, as opposed to how the application communicates across a network. Common structural styles include monolithic, layered, and component-based design.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/structural@86Jw9kMBD7YP5nTV5jTz-.md",
-        "subtopics_count": 2,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "HN160YgryBBtVGjnWxNie",
+            "name": "Layered Architectures",
+            "type": "subtopic",
+            "description": "Layered architecture is a design pattern that organizes a software system into distinct horizontal segments or tiers, each with a specific responsibility. In this approach, components are grouped based on their function, such as presentation, business logic, or data access, with each layer communicating only with the one directly below it. By restricting dependencies in this manner, developers create a modular structure that makes it easier to update, test, and maintain individual parts of an application without affecting the entire codebase.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Software Architecture Patterns — Layered Architecture",
+                "url": "https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057"
+              },
+              {
+                "type": "article",
+                "title": "5 Primary Layers in Software Architecture?",
+                "url": "https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/layered-architectures@HN160YgryBBtVGjnWxNie.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "a0geFJWl-vi3mYytTjYdb",
+            "name": "Component-Based",
+            "type": "subtopic",
+            "description": "Component-based architecture divides a system into independent, reusable components, each encapsulating a specific piece of functionality behind a well-defined interface. Components can be developed, tested, and replaced separately, as long as their interfaces stay stable. This approach supports reuse across different parts of an application or even across different projects.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Component Based Software architecture",
+                "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/component-based@a0geFJWl-vi3mYytTjYdb.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "xYPR_X1KhBwdpqYzNJiuT",
             "name": "Monolithic",
@@ -1145,7 +1294,9 @@
                 "url": "https://www.youtube.com/watch?v=_07NtoK-Kns"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/monolithic@xYPR_X1KhBwdpqYzNJiuT.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/monolithic@xYPR_X1KhBwdpqYzNJiuT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IELEJcKYdZ6VN-UIq-Wln",
@@ -1164,7 +1315,9 @@
                 "url": "https://www.youtube.com/watch?v=0kpTKLTx8f4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/layered@IELEJcKYdZ6VN-UIq-Wln.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/layered@IELEJcKYdZ6VN-UIq-Wln.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1175,7 +1328,7 @@
         "description": "Architectural patterns are high-level structural templates that shape the overall organization of a system, such as layered architecture, microservices, event-driven, and serverless. They define how major components communicate and scale, and are chosen based on the problem domain, team, and operational requirements.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/architectural-patterns@gJYff_qD6XS3dg3I-jJFK.md",
-        "subtopics_count": 10,
+        "subtopics_count": 9,
         "subtopics": [
           {
             "id": "CD20zA6k9FxUpMgHnNYRJ",
@@ -1204,7 +1357,9 @@
                 "url": "https://www.youtube.com/watch?v=i3d_jzpf0gE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-driven-design@CD20zA6k9FxUpMgHnNYRJ.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-driven-design@CD20zA6k9FxUpMgHnNYRJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-arChRC9zG2DBmuSTHW0J",
@@ -1223,7 +1378,9 @@
                 "url": "https://www.youtube.com/watch?v=e9S90R-Y24Q"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/model-view-controller@-arChRC9zG2DBmuSTHW0J.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/model-view-controller@-arChRC9zG2DBmuSTHW0J.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eJsCCURZAURCKnOK-XeQe",
@@ -1247,7 +1404,9 @@
                 "url": "https://www.youtube.com/watch?v=xuH81XGWeGQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/microservices@eJsCCURZAURCKnOK-XeQe.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/microservices@eJsCCURZAURCKnOK-XeQe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Kk7u2B67Fdg2sU8E_PGqr",
@@ -1266,7 +1425,9 @@
                 "url": "http://www.openloop.com/softwareEngineering/patterns/architecturePattern/arch_Blackboard.htm"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/blackboard-pattern@Kk7u2B67Fdg2sU8E_PGqr.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/blackboard-pattern@Kk7u2B67Fdg2sU8E_PGqr.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "r-Yeca-gpdFM8iq7f0lYQ",
@@ -1285,7 +1446,9 @@
                 "url": "https://www.youtube.com/watch?v=h3icQDMRLd8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/microkernel@r-Yeca-gpdFM8iq7f0lYQ.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/microkernel@r-Yeca-gpdFM8iq7f0lYQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5WSvAA3h3lmelL53UJSMy",
@@ -1299,7 +1462,9 @@
                 "url": "https://waswani.medium.com/serverless-architecture-patterns-in-aws-edeab0e46a32"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/serverless-architecture@5WSvAA3h3lmelL53UJSMy.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/serverless-architecture@5WSvAA3h3lmelL53UJSMy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "GAs6NHBkUgxan3hyPvVs7",
@@ -1318,7 +1483,9 @@
                 "url": "https://badia-kharroubi.gitbooks.io/microservices-architecture/content/patterns/communication-patterns/message-queue-pattern.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/message-queues--streams@GAs6NHBkUgxan3hyPvVs7.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/message-queues--streams@GAs6NHBkUgxan3hyPvVs7.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "K8X_-bsiy7gboInPzbiEb",
@@ -1342,7 +1509,9 @@
                 "url": "https://www.youtube.com/watch?v=xPmQxYIi5fA&list=PLCl5BUbK0jXt5l18S5UNAoUc4eQ2PJDye"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/event-sourcing@K8X_-bsiy7gboInPzbiEb.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/event-sourcing@K8X_-bsiy7gboInPzbiEb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IU86cGkLPMXUJKvTBywPu",
@@ -1361,7 +1530,184 @@
                 "url": "https://betterprogramming.pub/cqrs-software-architecture-pattern-the-good-the-bad-and-the-ugly-e9d6e7a34daf"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/cqrs@IU86cGkLPMXUJKvTBywPu.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/cqrs@IU86cGkLPMXUJKvTBywPu.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "h0aeBhQRkDxNeFwDxT4Tf",
+        "name": "Enterprise Patterns",
+        "type": "topic",
+        "description": "Enterprise patterns are reusable solutions to common problems found in business applications, particularly around organizing business logic and managing data access. They cover concerns such as how to represent business objects, how to move data between layers, and how to structure database access. Martin Fowler's book on enterprise application architecture documents many of these patterns, including data transfer objects, repositories, and the active record pattern.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Software Architecture Patterns in Enterprise Software",
+            "url": "https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8"
+          },
+          {
+            "type": "video",
+            "title": "What are Enterprise Integration Patterns?",
+            "url": "https://www.youtube.com/watch?v=WNm3QmJadNs"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md",
+        "subtopics_count": 12,
+        "subtopics": [
+          {
+            "id": "y_Qj7KITSB8aUWHwiZ2It",
+            "name": "DTOs",
+            "type": "subtopic",
+            "description": "The Data Transfer Object Design Pattern is one of the enterprise application architecture patterns that calls for the use of objects that aggregate and encapsulate data for transfer. A Data Transfer Object is, essentially, like a data structure. It should not contain any business logic but should contain serialization and deserialization mechanisms.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Data Transfer Object pattern and Mappers",
+                "url": "https://medium.com/@abdalrhmanalkraien/data-transfer-object-pattern-and-mapper-116508bc9df0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/dtos@y_Qj7KITSB8aUWHwiZ2It.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "tb0X1HtuiGwz7YhQ5xPsV",
+            "name": "Identity Maps",
+            "type": "subtopic",
+            "description": "An identity map is a pattern that keeps track of every object loaded from a database during a single unit of work, mapping each object to its unique identifier. When the same object is requested again, the identity map returns the existing instance instead of loading a new copy from the database. This avoids duplicate objects representing the same underlying data and helps maintain consistency when multiple parts of the code work with the same record.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Overview of Identity map pattern",
+                "url": "https://en.wikipedia.org/wiki/Identity_map_pattern"
+              },
+              {
+                "type": "video",
+                "title": "Tutorial - Identity Map Design Pattern",
+                "url": "https://youtube.com/watch?v=erDxkIyNudY"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/identity-maps@tb0X1HtuiGwz7YhQ5xPsV.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "gQ7Xj8tsl6IlCcyJgSz46",
+            "name": "Usecases",
+            "type": "subtopic",
+            "description": "A use case describes a specific interaction or process that a system supports to fulfill a user's goal, often expressed as a single class or function that orchestrates the steps needed to complete that goal. It sits between the presentation layer and the domain model, coordinating calls to entities, repositories, and other services without containing the core business rules itself. This separation keeps business logic testable and independent from how a request enters the system, whether through a web request, a command line, or an API call.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Use Case Patterns",
+                "url": "https://caminao.blog/how-to-implement-symbolic-representations/patterns/functional-patterns/use-case-patterns/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/usecases@gQ7Xj8tsl6IlCcyJgSz46.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "8y0ot5sbplUIUyXe9gvc8",
+            "name": "Repositories",
+            "type": "subtopic",
+            "description": "A repository is a pattern that provides an abstraction over data storage, exposing methods to retrieve, add, update, or remove objects without exposing the details of how that data is persisted. Application code interacts with the repository's interface instead of writing database queries directly, which makes it easier to change the underlying storage technology or write tests using a fake implementation. Repositories are commonly paired with domain models in Domain-Driven Design.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Introduction to Repository Design Patterns",
+                "url": "https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/"
+              },
+              {
+                "type": "video",
+                "title": "Tutorial - Repository Design Pattern",
+                "url": "https://www.youtube.com/watch?v=mb6bwnEaZ3U"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/repositories@8y0ot5sbplUIUyXe9gvc8.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "ndUTgl2YBzOdu1MQKJocu",
+            "name": "Mappers",
+            "type": "subtopic",
+            "description": "A mapper converts data between two different representations, such as translating a database row into a domain object or converting a domain object into a format suitable for an API response. This separation keeps the domain model free of persistence or transport concerns, since it does not need to know how it will be stored or transmitted. Mappers are often used alongside repositories and DTOs to keep each layer of an application focused on its own representation of data.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Overview of Data Mapper Pattern",
+                "url": "https://en.wikipedia.org/wiki/Data_mapper_pattern"
+              },
+              {
+                "type": "video",
+                "title": "Tutorial - Mappers",
+                "url": "https://www.youtube.com/watch?v=7noMLStHcTE"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/mappers@ndUTgl2YBzOdu1MQKJocu.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "tyReIY4iO8kmyc_LPafp1",
+            "name": "Transaction Script",
+            "type": "subtopic",
+            "description": "Transaction Script is a pattern used in enterprise application development that organizes business logic into a single procedural script. It is often used for simple CRUD (create, read, update, delete) operations, where all of the logic for a specific transaction is contained in a single script or function. This pattern is simple to implement and easy to understand, but can become unwieldy as the complexity of the application increases. Alternative patterns such as Domain-Driven Design (DDD) and the Active Record pattern may be more appropriate for more complex applications.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Transaction Script Pattern",
+                "url": "https://martinfowler.com/eaaCatalog/transactionScript.html"
+              },
+              {
+                "type": "video",
+                "title": "Tutorial - Transaction Script Design Pattern",
+                "url": "https://www.youtube.com/watch?v=fnsU9cqcY3I"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/transaction-script@tyReIY4iO8kmyc_LPafp1.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "j_SUD3SxpKYZstN9LSP82",
+            "name": "Commands / Queries",
+            "type": "subtopic",
+            "description": "The Command and Query Responsibility Segregation (CQRS) pattern separates operations that change a system's state, called commands, from operations that read data, called queries. A command performs an action such as creating or updating a record and returns no data, while a query returns data without producing any side effects. Keeping these two categories distinct clarifies the intent of each operation and makes it easier to scale or cache reads independently of writes.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Get Started with CQRS Pattern",
+                "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/commands--queries@j_SUD3SxpKYZstN9LSP82.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Ks6njbfxOHiZ_TrJDnVtk",
+            "name": "Value Objects",
+            "type": "subtopic",
+            "description": "A value object is an object defined entirely by its attributes rather than by a unique identity, meaning two value objects with the same attributes are considered equal. Examples include a date range, a monetary amount, or a coordinate pair. Value objects are typically immutable, so once created, their values do not change, which makes them easier to reason about and share safely across a codebase.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Overview - Implement Value Objects",
+                "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects"
+              },
+              {
+                "type": "article",
+                "title": "Intro to Value object",
+                "url": "https://en.wikipedia.org/wiki/Value_object"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/value-objects@Ks6njbfxOHiZ_TrJDnVtk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "FysFru2FJN4d4gj11gv--",
@@ -1385,166 +1731,9 @@
                 "url": "https://www.youtube.com/watch?v=_dFJOSR-aFs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/soa@FysFru2FJN4d4gj11gv--.md"
-          }
-        ]
-      },
-      {
-        "id": "h0aeBhQRkDxNeFwDxT4Tf",
-        "name": "Enterprise Patterns",
-        "type": "topic",
-        "description": "Enterprise patterns are reusable solutions to common problems found in business applications, particularly around organizing business logic and managing data access. They cover concerns such as how to represent business objects, how to move data between layers, and how to structure database access. Martin Fowler's book on enterprise application architecture documents many of these patterns, including data transfer objects, repositories, and the active record pattern.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Software Architecture Patterns in Enterprise Software",
-            "url": "https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8"
-          },
-          {
-            "type": "video",
-            "title": "What are Enterprise Integration Patterns?",
-            "url": "https://www.youtube.com/watch?v=WNm3QmJadNs"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md",
-        "subtopics_count": 11,
-        "subtopics": [
-          {
-            "id": "y_Qj7KITSB8aUWHwiZ2It",
-            "name": "DTOs",
-            "type": "subtopic",
-            "description": "The Data Transfer Object Design Pattern is one of the enterprise application architecture patterns that calls for the use of objects that aggregate and encapsulate data for transfer. A Data Transfer Object is, essentially, like a data structure. It should not contain any business logic but should contain serialization and deserialization mechanisms.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Data Transfer Object pattern and Mappers",
-                "url": "https://medium.com/@abdalrhmanalkraien/data-transfer-object-pattern-and-mapper-116508bc9df0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/dtos@y_Qj7KITSB8aUWHwiZ2It.md"
-          },
-          {
-            "id": "tb0X1HtuiGwz7YhQ5xPsV",
-            "name": "Identity Maps",
-            "type": "subtopic",
-            "description": "An identity map is a pattern that keeps track of every object loaded from a database during a single unit of work, mapping each object to its unique identifier. When the same object is requested again, the identity map returns the existing instance instead of loading a new copy from the database. This avoids duplicate objects representing the same underlying data and helps maintain consistency when multiple parts of the code work with the same record.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview of Identity map pattern",
-                "url": "https://en.wikipedia.org/wiki/Identity_map_pattern"
-              },
-              {
-                "type": "video",
-                "title": "Tutorial - Identity Map Design Pattern",
-                "url": "https://youtube.com/watch?v=erDxkIyNudY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/identity-maps@tb0X1HtuiGwz7YhQ5xPsV.md"
-          },
-          {
-            "id": "gQ7Xj8tsl6IlCcyJgSz46",
-            "name": "Usecases",
-            "type": "subtopic",
-            "description": "A use case describes a specific interaction or process that a system supports to fulfill a user's goal, often expressed as a single class or function that orchestrates the steps needed to complete that goal. It sits between the presentation layer and the domain model, coordinating calls to entities, repositories, and other services without containing the core business rules itself. This separation keeps business logic testable and independent from how a request enters the system, whether through a web request, a command line, or an API call.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Use Case Patterns",
-                "url": "https://caminao.blog/how-to-implement-symbolic-representations/patterns/functional-patterns/use-case-patterns/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/usecases@gQ7Xj8tsl6IlCcyJgSz46.md"
-          },
-          {
-            "id": "8y0ot5sbplUIUyXe9gvc8",
-            "name": "Repositories",
-            "type": "subtopic",
-            "description": "A repository is a pattern that provides an abstraction over data storage, exposing methods to retrieve, add, update, or remove objects without exposing the details of how that data is persisted. Application code interacts with the repository's interface instead of writing database queries directly, which makes it easier to change the underlying storage technology or write tests using a fake implementation. Repositories are commonly paired with domain models in Domain-Driven Design.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Introduction to Repository Design Patterns",
-                "url": "https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/"
-              },
-              {
-                "type": "video",
-                "title": "Tutorial - Repository Design Pattern",
-                "url": "https://www.youtube.com/watch?v=mb6bwnEaZ3U"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/repositories@8y0ot5sbplUIUyXe9gvc8.md"
-          },
-          {
-            "id": "ndUTgl2YBzOdu1MQKJocu",
-            "name": "Mappers",
-            "type": "subtopic",
-            "description": "A mapper converts data between two different representations, such as translating a database row into a domain object or converting a domain object into a format suitable for an API response. This separation keeps the domain model free of persistence or transport concerns, since it does not need to know how it will be stored or transmitted. Mappers are often used alongside repositories and DTOs to keep each layer of an application focused on its own representation of data.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview of Data Mapper Pattern",
-                "url": "https://en.wikipedia.org/wiki/Data_mapper_pattern"
-              },
-              {
-                "type": "video",
-                "title": "Tutorial - Mappers",
-                "url": "https://www.youtube.com/watch?v=7noMLStHcTE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/mappers@ndUTgl2YBzOdu1MQKJocu.md"
-          },
-          {
-            "id": "tyReIY4iO8kmyc_LPafp1",
-            "name": "Transaction Script",
-            "type": "subtopic",
-            "description": "Transaction Script is a pattern used in enterprise application development that organizes business logic into a single procedural script. It is often used for simple CRUD (create, read, update, delete) operations, where all of the logic for a specific transaction is contained in a single script or function. This pattern is simple to implement and easy to understand, but can become unwieldy as the complexity of the application increases. Alternative patterns such as Domain-Driven Design (DDD) and the Active Record pattern may be more appropriate for more complex applications.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Transaction Script Pattern",
-                "url": "https://martinfowler.com/eaaCatalog/transactionScript.html"
-              },
-              {
-                "type": "video",
-                "title": "Tutorial - Transaction Script Design Pattern",
-                "url": "https://www.youtube.com/watch?v=fnsU9cqcY3I"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/transaction-script@tyReIY4iO8kmyc_LPafp1.md"
-          },
-          {
-            "id": "j_SUD3SxpKYZstN9LSP82",
-            "name": "Commands / Queries",
-            "type": "subtopic",
-            "description": "The Command and Query Responsibility Segregation (CQRS) pattern separates operations that change a system's state, called commands, from operations that read data, called queries. A command performs an action such as creating or updating a record and returns no data, while a query returns data without producing any side effects. Keeping these two categories distinct clarifies the intent of each operation and makes it easier to scale or cache reads independently of writes.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Get Started with CQRS Pattern",
-                "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/commands--queries@j_SUD3SxpKYZstN9LSP82.md"
-          },
-          {
-            "id": "Ks6njbfxOHiZ_TrJDnVtk",
-            "name": "Value Objects",
-            "type": "subtopic",
-            "description": "A value object is an object defined entirely by its attributes rather than by a unique identity, meaning two value objects with the same attributes are considered equal. Examples include a date range, a monetary amount, or a coordinate pair. Value objects are typically immutable, so once created, their values do not change, which makes them easier to reason about and share safely across a codebase.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Overview - Implement Value Objects",
-                "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects"
-              },
-              {
-                "type": "article",
-                "title": "Intro to Value object",
-                "url": "https://en.wikipedia.org/wiki/Value_object"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/value-objects@Ks6njbfxOHiZ_TrJDnVtk.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/soa@FysFru2FJN4d4gj11gv--.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NpSfbzYtGebmfrifkKsUf",
@@ -1563,7 +1752,9 @@
                 "url": "https://www.youtube.com/watch?v=75EGANiqADw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-models@NpSfbzYtGebmfrifkKsUf.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/domain-models@NpSfbzYtGebmfrifkKsUf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VnW_7dl5G0IFL9W3YF_W3",
@@ -1571,7 +1762,9 @@
             "type": "subtopic",
             "description": "An entity is an object defined by a unique identity that persists over time, even as its attributes change. Two entities with identical attributes are still considered different if they have different identities, unlike value objects. Entities typically represent core business concepts, such as a customer or an order, and carry the identity needed to track and reference them throughout the system's lifecycle.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/entities@VnW_7dl5G0IFL9W3YF_W3.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/entities@VnW_7dl5G0IFL9W3YF_W3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "SYYulHfDceIyDkDT5fcqj",
@@ -1585,7 +1778,9 @@
                 "url": "https://enterprisecraftsmanship.com/posts/do-you-need-an-orm/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/orms@SYYulHfDceIyDkDT5fcqj.md"
+            "file_path": "developer-roadmap/roadmaps/software-design-architecture/content/orms@SYYulHfDceIyDkDT5fcqj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -1605,6 +1800,13 @@
             "url": "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09"
           }
         ]
+      },
+      {
+        "id": "uLYSP9v3y51h8Ttdt5ije",
+        "name": "Minimap of Topics",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "TJZgsxpfOmltUUChMzlEM",
@@ -1699,19 +1901,6 @@
         ]
       },
       {
-        "id": "2SOZvuEcy8Cy8ymN7x4L-",
-        "name": "Be consistent",
-        "type": "subtopic",
-        "description": "Being consistent refers to maintaining a consistent pattern. This can include using consistent naming conventions, data structures, and interfaces throughout the system, as well as adhering to established design principles and best practices. Consistency can help to make the system more maintainable, understandable, and extendable.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "10 Tips for Writing Clean Code",
-            "url": "https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code"
-          }
-        ]
-      },
-      {
         "id": "En_hvwRvY6k_itsNCQBYE",
         "name": "Architectural Styles",
         "type": "subtopic",
@@ -1735,19 +1924,6 @@
         ]
       },
       {
-        "id": "6Cd1BbGsmPJs_5jKhumyV",
-        "name": "Meaningful names over comments",
-        "type": "subtopic",
-        "description": "You should follow the practice of giving clear and descriptive names to different components of a system, such as variables, functions, and classes. This can help to make the system more understandable and maintainable by clearly communicating the purpose of each component and its intended usage.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "A Guide for Naming Things in Programming",
-            "url": "https://levelup.gitconnected.com/a-guide-for-naming-things-in-programming-2dc2d74879f8"
-          }
-        ]
-      },
-      {
         "id": "jq916t7svaMw5sFOcqZSi",
         "name": "Architectural Patterns",
         "type": "subtopic",
@@ -1762,19 +1938,6 @@
             "type": "video",
             "title": "Architecture Patterns Used In Enterprise Software Development",
             "url": "https://www.youtube.com/watch?v=BrT3AO8bVQY"
-          }
-        ]
-      },
-      {
-        "id": "81WOL1nxb56ZbAOvxJ7NK",
-        "name": "Indentation and Code Style",
-        "type": "subtopic",
-        "description": "Indentation and code style refer to the visual layout and formatting rules applied to source code to improve its readability and consistency. This involves standardizing the use of spaces or tabs for nesting, defining line lengths, and following naming conventions for variables and functions. By maintaining a uniform appearance across a codebase, developers can easily scan and understand the structure of the logic without being distracted by irregular spacing or inconsistent syntax patterns.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Clean Code – Formatting",
-            "url": "https://www.baeldung.com/cs/clean-code-formatting"
           }
         ]
       },
@@ -1797,131 +1960,50 @@
         ]
       },
       {
+        "id": "2SOZvuEcy8Cy8ymN7x4L-",
+        "name": "Be consistent",
+        "type": "subtopic",
+        "description": "Being consistent refers to maintaining a consistent pattern. This can include using consistent naming conventions, data structures, and interfaces throughout the system, as well as adhering to established design principles and best practices. Consistency can help to make the system more maintainable, understandable, and extendable.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "10 Tips for Writing Clean Code",
+            "url": "https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code"
+          }
+        ]
+      },
+      {
+        "id": "6Cd1BbGsmPJs_5jKhumyV",
+        "name": "Meaningful names over comments",
+        "type": "subtopic",
+        "description": "You should follow the practice of giving clear and descriptive names to different components of a system, such as variables, functions, and classes. This can help to make the system more understandable and maintainable by clearly communicating the purpose of each component and its intended usage.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "A Guide for Naming Things in Programming",
+            "url": "https://levelup.gitconnected.com/a-guide-for-naming-things-in-programming-2dc2d74879f8"
+          }
+        ]
+      },
+      {
+        "id": "81WOL1nxb56ZbAOvxJ7NK",
+        "name": "Indentation and Code Style",
+        "type": "subtopic",
+        "description": "Indentation and code style refer to the visual layout and formatting rules applied to source code to improve its readability and consistency. This involves standardizing the use of spaces or tabs for nesting, defining line lengths, and following naming conventions for variables and functions. By maintaining a uniform appearance across a codebase, developers can easily scan and understand the structure of the logic without being distracted by irregular spacing or inconsistent syntax patterns.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Clean Code – Formatting",
+            "url": "https://www.baeldung.com/cs/clean-code-formatting"
+          }
+        ]
+      },
+      {
         "id": "XEwC6Fyf2DNNHQsoGTrQj",
         "name": "Keep methods / classes / files small",
         "type": "subtopic",
         "description": "You should design and implement small, focused components that serve a specific purpose, rather than large, monolithic components that try to do everything. This can help to improve the maintainability and scalability of the system by making it easier to understand, test, and modify individual components.",
         "resources": []
-      },
-      {
-        "id": "5S5A5wCJUCNPLlHJ5fRjU",
-        "name": "Pure functions",
-        "type": "subtopic",
-        "description": "Pure functions are a type of function in programming where the output is solely determined by its input values, without any side effects. This means that for the same input, a pure function will always return the same output, and it does not modify any state outside of its own scope. They are deterministic, predictable, and make code easier to test and reason about.",
-        "resources": [
-          {
-            "type": "video",
-            "title": "What are Pure Functions? | Javascript Functions Tutorial",
-            "url": "https://www.youtube.com/watch?v=ZXxahQS1PN8"
-          }
-        ]
-      },
-      {
-        "id": "qZzl0hAD2LkShsPql1IlZ",
-        "name": "Minimize cyclomatic complexity",
-        "type": "subtopic",
-        "description": "Cyclomatic complexity measures the number of linearly independent paths through a program's source code. It's calculated based on the number of decision points (like `if`, `for`, `while`, `case`) within a function or code block. High cyclomatic complexity indicates code that is harder to understand, test, and maintain due to its increased number of possible execution paths. Reducing this complexity aims to simplify the control flow and logic within code, leading to more readable and reliable software.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to reduce cyclomatic complexity?",
-            "url": "https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5"
-          }
-        ]
-      },
-      {
-        "id": "yyKvmutbxu3iVHTuqr5q4",
-        "name": "Avoid passing nulls, booleans",
-        "type": "subtopic",
-        "description": "Passing null values or boolean flags into functions often leads to code that is difficult to understand and prone to errors. When a function accepts a boolean, it frequently signals that the function is doing too many things at once, violating the single responsibility principle. Similarly, passing null values forces developers to include repetitive conditional checks to prevent runtime crashes. Instead of using these markers, developers should decompose complex functions into smaller, specific methods or utilize specialized objects and patterns to handle different execution paths clearly.",
-        "resources": []
-      },
-      {
-        "id": "OoCCy-3W5y7bUcKz_iyBw",
-        "name": "Keep framework code distant",
-        "type": "subtopic",
-        "description": "Keeping framework code distant is a design practice that aims to decouple core business logic from the specific libraries or frameworks being used. It involves wrapping third-party tools within abstraction layers, such as interfaces or adapter classes, so that the application remains agnostic of the framework’s internal implementation. This approach ensures that if a framework needs to be updated, replaced, or removed, the impact on the codebase is minimized because the business rules are not directly tied to external dependencies.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Clean architecture",
-            "url": "https://pusher.com/tutorials/clean-architecture-introduction/"
-          }
-        ]
-      },
-      {
-        "id": "S1m7ty7Qrzu1rr4Jl-WgM",
-        "name": "Use correct constructs",
-        "type": "subtopic",
-        "description": "Using correct constructs involves selecting the most appropriate programming language features, data structures, and syntax to express a specific logic clearly and efficiently. This practice focuses on avoiding the misuse of language capabilities, such as using a loop when a built-in functional method is available or picking an inefficient data type for a simple task. By adhering to idiomatic patterns, developers create code that is predictable, easier to debug, and more readable for other team members.",
-        "resources": []
-      },
-      {
-        "id": "mzt7fvx6ab3tmG1R1NcLO",
-        "name": "Tests should be fast and independent",
-        "type": "subtopic",
-        "description": "Tests should be fast and independent refers to the practice of ensuring that a test suite executes quickly and that each individual test can run in any order without relying on the state of another. Fast tests provide immediate feedback during development, encouraging developers to run them frequently throughout the coding process. Independence ensures that the outcome of one test does not affect the results of others, which prevents cascading failures and makes it significantly easier to isolate and debug specific issues when a test fails.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Unit Testing Best Practices",
-            "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
-          },
-          {
-            "type": "article",
-            "title": "Test Pyramid Explained",
-            "url": "https://martinfowler.com/bliki/TestPyramid.html"
-          },
-          {
-            "type": "article",
-            "title": "Writing Reliable Tests",
-            "url": "https://testing.googleblog.com/2014/05/testing-on-toilet-how-much.html"
-          }
-        ]
-      },
-      {
-        "id": "kp86Vc3uue3IxTN9B9p59",
-        "name": "Organize code by actor it belongs to",
-        "type": "subtopic",
-        "description": "Organizing code by the actor it belongs to involves grouping components, classes, or modules based on the specific business entities or users they serve. This approach aligns the physical structure of a codebase with the actual responsibilities and requirements of the stakeholders involved in the system. By separating elements according to their primary actor, developers can minimize the impact of changes, as modifications requested by one group of users only affect the files associated with their specific domain. This practice reduces coupling and helps maintain a clear mapping between business processes and technical implementations.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Package by Feature vs Package by Layer",
-            "url": "https://www.baeldung.com/java-packaging-structures"
-          },
-          {
-            "type": "article",
-            "title": "Screaming Architecture",
-            "url": "https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html"
-          }
-        ]
-      },
-      {
-        "id": "tLbckKmfVxgn59j_dlh8b",
-        "name": "Command query separation",
-        "type": "subtopic",
-        "description": "Command-Query Separation (CQS) is a software design principle that separates the responsibilities of a method or function into two categories: commands and queries. Commands are methods that change the state of the system, while queries are methods that return information but do not change the state of the system.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "CQS Pattern",
-            "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html"
-          }
-        ]
-      },
-      {
-        "id": "9naCfoHF1LW1OEsVZGi8v",
-        "name": "Keep it simple and refactor often",
-        "type": "subtopic",
-        "description": "\"Keep it simple and refactor often\" is a development philosophy that encourages writing straightforward, readable code and frequently improving its internal structure without changing its external behavior. This approach focuses on reducing complexity by removing redundant logic and breaking down large tasks into manageable pieces. Developers maintain high code quality by addressing technical debt incrementally, ensuring that the software remains easy to understand, test, and adapt to future requirements as it evolves.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "AHA Programming",
-            "url": "https://kentcdodds.com/blog/aha-programming"
-          }
-        ]
       },
       {
         "id": "TDhTYdEyBuOnDKcQJzTAk",
@@ -1933,6 +2015,19 @@
             "type": "article",
             "title": "Overview of Programming paradigm",
             "url": "https://en.wikipedia.org/wiki/Programming_paradigm"
+          }
+        ]
+      },
+      {
+        "id": "5S5A5wCJUCNPLlHJ5fRjU",
+        "name": "Pure functions",
+        "type": "subtopic",
+        "description": "Pure functions are a type of function in programming where the output is solely determined by its input values, without any side effects. This means that for the same input, a pure function will always return the same output, and it does not modify any state outside of its own scope. They are deterministic, predictable, and make code easier to test and reason about.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "What are Pure Functions? | Javascript Functions Tutorial",
+            "url": "https://www.youtube.com/watch?v=ZXxahQS1PN8"
           }
         ]
       },
@@ -1950,6 +2045,19 @@
         ]
       },
       {
+        "id": "qZzl0hAD2LkShsPql1IlZ",
+        "name": "Minimize cyclomatic complexity",
+        "type": "subtopic",
+        "description": "Cyclomatic complexity measures the number of linearly independent paths through a program's source code. It's calculated based on the number of decision points (like `if`, `for`, `while`, `case`) within a function or code block. High cyclomatic complexity indicates code that is harder to understand, test, and maintain due to its increased number of possible execution paths. Reducing this complexity aims to simplify the control flow and logic within code, leading to more readable and reliable software.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to reduce cyclomatic complexity?",
+            "url": "https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5"
+          }
+        ]
+      },
+      {
         "id": "YswaOqZNYcmDwly2IXrTT",
         "name": "Functional Programming",
         "type": "subtopic",
@@ -1961,6 +2069,13 @@
             "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0"
           }
         ]
+      },
+      {
+        "id": "yyKvmutbxu3iVHTuqr5q4",
+        "name": "Avoid passing nulls, booleans",
+        "type": "subtopic",
+        "description": "Passing null values or boolean flags into functions often leads to code that is difficult to understand and prone to errors. When a function accepts a boolean, it frequently signals that the function is doing too many things at once, violating the single responsibility principle. Similarly, passing null values forces developers to include repetitive conditional checks to prevent runtime crashes. Instead of using these markers, developers should decompose complex functions into smaller, specific methods or utilize specialized objects and patterns to handle different execution paths clearly.",
+        "resources": []
       },
       {
         "id": "VZrERRRYhmqDx4slnZtdc",
@@ -1997,6 +2112,13 @@
             "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8"
           }
         ]
+      },
+      {
+        "id": "3eWirbQGbJZd4g7CS1xk_",
+        "name": "Primary Principles",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "4DVW4teisMz8-58XttMGt",
@@ -2102,6 +2224,13 @@
         ]
       },
       {
+        "id": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "name": "Design Principles",
+        "type": "topic",
+        "description": "Design principles are guidelines for writing clean, maintainable code — with SOLID, DRY, YAGNI, and composition over inheritance among the most well-known. Applied at the module and class level, they reduce coupling, improve readability, and make the codebase easier to extend and test.",
+        "resources": []
+      },
+      {
         "id": "0rGdh72HjqPZa2bCbY9Gz",
         "name": "Tell, don't ask",
         "type": "subtopic",
@@ -2164,13 +2293,6 @@
         ]
       },
       {
-        "id": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "name": "Design Principles",
-        "type": "topic",
-        "description": "Design principles are guidelines for writing clean, maintainable code — with SOLID, DRY, YAGNI, and composition over inheritance among the most well-known. Applied at the module and class level, they reduce coupling, improve readability, and make the codebase easier to extend and test.",
-        "resources": []
-      },
-      {
         "id": "Izno7xX7wDvwPEg7f_d1Y",
         "name": "Composition over Inheritance",
         "type": "subtopic",
@@ -2225,24 +2347,6 @@
         ]
       },
       {
-        "id": "KtzcJBb6-EcIoXnwYvE7a",
-        "name": "Event-Driven",
-        "type": "subtopic",
-        "description": "Event-driven architecture structures a system around the production, detection, and consumption of events, which are records of something that happened. Components react to events asynchronously instead of calling each other directly, which reduces coupling between producers and consumers. This style suits systems that need to scale independently or respond quickly to changes, such as order processing or real-time notifications.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Overview of Event-driven programming",
-            "url": "https://en.wikipedia.org/wiki/Event-driven_programming"
-          },
-          {
-            "type": "article",
-            "title": "What is event-driven architecture?",
-            "url": "https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture"
-          }
-        ]
-      },
-      {
         "id": "Jd79KXxZavpnp3mtE1q0n",
         "name": "Design Patterns",
         "type": "topic",
@@ -2262,6 +2366,93 @@
             "type": "video",
             "title": "What Are Design Patterns?",
             "url": "https://www.youtube.com/watch?v=BWprw8UHIzA"
+          }
+        ]
+      },
+      {
+        "id": "OoCCy-3W5y7bUcKz_iyBw",
+        "name": "Keep framework code distant",
+        "type": "subtopic",
+        "description": "Keeping framework code distant is a design practice that aims to decouple core business logic from the specific libraries or frameworks being used. It involves wrapping third-party tools within abstraction layers, such as interfaces or adapter classes, so that the application remains agnostic of the framework’s internal implementation. This approach ensures that if a framework needs to be updated, replaced, or removed, the impact on the codebase is minimized because the business rules are not directly tied to external dependencies.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Clean architecture",
+            "url": "https://pusher.com/tutorials/clean-architecture-introduction/"
+          }
+        ]
+      },
+      {
+        "id": "S1m7ty7Qrzu1rr4Jl-WgM",
+        "name": "Use correct constructs",
+        "type": "subtopic",
+        "description": "Using correct constructs involves selecting the most appropriate programming language features, data structures, and syntax to express a specific logic clearly and efficiently. This practice focuses on avoiding the misuse of language capabilities, such as using a loop when a built-in functional method is available or picking an inefficient data type for a simple task. By adhering to idiomatic patterns, developers create code that is predictable, easier to debug, and more readable for other team members.",
+        "resources": []
+      },
+      {
+        "id": "mzt7fvx6ab3tmG1R1NcLO",
+        "name": "Tests should be fast and independent",
+        "type": "subtopic",
+        "description": "Tests should be fast and independent refers to the practice of ensuring that a test suite executes quickly and that each individual test can run in any order without relying on the state of another. Fast tests provide immediate feedback during development, encouraging developers to run them frequently throughout the coding process. Independence ensures that the outcome of one test does not affect the results of others, which prevents cascading failures and makes it significantly easier to isolate and debug specific issues when a test fails.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Unit Testing Best Practices",
+            "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+          },
+          {
+            "type": "article",
+            "title": "Test Pyramid Explained",
+            "url": "https://martinfowler.com/bliki/TestPyramid.html"
+          },
+          {
+            "type": "article",
+            "title": "Writing Reliable Tests",
+            "url": "https://testing.googleblog.com/2014/05/testing-on-toilet-how-much.html"
+          }
+        ]
+      },
+      {
+        "id": "kp86Vc3uue3IxTN9B9p59",
+        "name": "Organize code by actor it belongs to",
+        "type": "subtopic",
+        "description": "Organizing code by the actor it belongs to involves grouping components, classes, or modules based on the specific business entities or users they serve. This approach aligns the physical structure of a codebase with the actual responsibilities and requirements of the stakeholders involved in the system. By separating elements according to their primary actor, developers can minimize the impact of changes, as modifications requested by one group of users only affect the files associated with their specific domain. This practice reduces coupling and helps maintain a clear mapping between business processes and technical implementations.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Package by Feature vs Package by Layer",
+            "url": "https://www.baeldung.com/java-packaging-structures"
+          },
+          {
+            "type": "article",
+            "title": "Screaming Architecture",
+            "url": "https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html"
+          }
+        ]
+      },
+      {
+        "id": "tLbckKmfVxgn59j_dlh8b",
+        "name": "Command query separation",
+        "type": "subtopic",
+        "description": "Command-Query Separation (CQS) is a software design principle that separates the responsibilities of a method or function into two categories: commands and queries. Commands are methods that change the state of the system, while queries are methods that return information but do not change the state of the system.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "CQS Pattern",
+            "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html"
+          }
+        ]
+      },
+      {
+        "id": "9naCfoHF1LW1OEsVZGi8v",
+        "name": "Keep it simple and refactor often",
+        "type": "subtopic",
+        "description": "\"Keep it simple and refactor often\" is a development philosophy that encourages writing straightforward, readable code and frequently improving its internal structure without changing its external behavior. This approach focuses on reducing complexity by removing redundant logic and breaking down large tasks into manageable pieces. Developers maintain high code quality by addressing technical debt incrementally, ensuring that the software remains easy to understand, test, and adapt to future requirements as it evolves.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "AHA Programming",
+            "url": "https://kentcdodds.com/blog/aha-programming"
           }
         ]
       },
@@ -2302,39 +2493,6 @@
         ]
       },
       {
-        "id": "8Bm0sRhUg6wZtnvtTmpgY",
-        "name": "Component Principles",
-        "type": "subtopic",
-        "description": "Component principles are a set of guidelines used to organize software into cohesive, reusable, and decoupled modules. These principles address how to group classes and modules together to balance the competing needs of maintainability, flexibility, and independent deployability. By focusing on how components interact and evolve, developers can minimize the impact of changes and ensure that systems remain stable as they grow in complexity.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Component-Based Architecture",
-            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
-          }
-        ]
-      },
-      {
-        "id": "b_PvjjL2ZpEKETa5_bd0v",
-        "name": "Policy vs Detail",
-        "type": "subtopic",
-        "description": "Policy and detail represent a fundamental separation between the core logic of an application and the specific implementation mechanisms that support it. Policies define the high-level business rules, domain entities, and operational requirements that dictate what an application should accomplish. In contrast, details encompass the low-level components like database drivers, user interface frameworks, external APIs, and hardware configurations that provide the environment for those policies to run. Keeping these concepts separate ensures that business logic remains independent of the specific tools used to execute it, allowing developers to change or upgrade technical infrastructure without altering the core functionality.",
-        "resources": []
-      },
-      {
-        "id": "TXus3R5vVQDBeBag6B5qs",
-        "name": "Coupling and Cohesion",
-        "type": "subtopic",
-        "description": "Coupling measures how much one module depends on another, while cohesion measures how closely the responsibilities within a single module relate to each other. Low coupling and high cohesion make a codebase easier to change, since a module can be modified or replaced without breaking unrelated parts of the system. Tightly coupled modules tend to cause cascading changes across a codebase, while low cohesion spreads unrelated logic across a single module, making it harder to understand and test.",
-        "resources": [
-          {
-            "type": "video",
-            "title": "Cohesion and Coupling in Software Engineering",
-            "url": "https://www.youtube.com/watch?v=NweTzHYBgYU"
-          }
-        ]
-      },
-      {
         "id": "0VO_-1g-TS29y0Ji2yCjc",
         "name": "Model-Driven Design",
         "type": "topic",
@@ -2346,6 +2504,13 @@
             "url": "https://www.todaysoftmag.com/article/1529/model-driven-design-theory-to-practice"
           }
         ]
+      },
+      {
+        "id": "9slZPeVCSqU5-5PqaNJOh",
+        "name": "Paradigm Features",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "RMkEE7c0jdVFqZ4fmjL6Y",
@@ -2455,37 +2620,6 @@
         ]
       },
       {
-        "id": "HN160YgryBBtVGjnWxNie",
-        "name": "Layered Architectures",
-        "type": "subtopic",
-        "description": "Layered architecture is a design pattern that organizes a software system into distinct horizontal segments or tiers, each with a specific responsibility. In this approach, components are grouped based on their function, such as presentation, business logic, or data access, with each layer communicating only with the one directly below it. By restricting dependencies in this manner, developers create a modular structure that makes it easier to update, test, and maintain individual parts of an application without affecting the entire codebase.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Software Architecture Patterns — Layered Architecture",
-            "url": "https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057"
-          },
-          {
-            "type": "article",
-            "title": "5 Primary Layers in Software Architecture?",
-            "url": "https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture"
-          }
-        ]
-      },
-      {
-        "id": "a0geFJWl-vi3mYytTjYdb",
-        "name": "Component-Based",
-        "type": "subtopic",
-        "description": "Component-based architecture divides a system into independent, reusable components, each encapsulating a specific piece of functionality behind a well-defined interface. Components can be developed, tested, and replaced separately, as long as their interfaces stay stable. This approach supports reuse across different parts of an application or even across different projects.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Component Based Software architecture",
-            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
-          }
-        ]
-      },
-      {
         "id": "j9j45Auf60kIskyEMUGE3",
         "name": "Messaging",
         "type": "topic",
@@ -2500,6 +2634,24 @@
             "type": "article",
             "title": "Architectural Messaging Patterns",
             "url": "https://www.redhat.com/architect/architectural-messaging-patterns"
+          }
+        ]
+      },
+      {
+        "id": "KtzcJBb6-EcIoXnwYvE7a",
+        "name": "Event-Driven",
+        "type": "subtopic",
+        "description": "Event-driven architecture structures a system around the production, detection, and consumption of events, which are records of something that happened. Components react to events asynchronously instead of calling each other directly, which reduces coupling between producers and consumers. This style suits systems that need to scale independently or respond quickly to changes, such as order processing or real-time notifications.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Overview of Event-driven programming",
+            "url": "https://en.wikipedia.org/wiki/Event-driven_programming"
+          },
+          {
+            "type": "article",
+            "title": "What is event-driven architecture?",
+            "url": "https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture"
           }
         ]
       },
@@ -2586,6 +2738,39 @@
         "resources": []
       },
       {
+        "id": "8Bm0sRhUg6wZtnvtTmpgY",
+        "name": "Component Principles",
+        "type": "subtopic",
+        "description": "Component principles are a set of guidelines used to organize software into cohesive, reusable, and decoupled modules. These principles address how to group classes and modules together to balance the competing needs of maintainability, flexibility, and independent deployability. By focusing on how components interact and evolve, developers can minimize the impact of changes and ensure that systems remain stable as they grow in complexity.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Component-Based Architecture",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
+          }
+        ]
+      },
+      {
+        "id": "b_PvjjL2ZpEKETa5_bd0v",
+        "name": "Policy vs Detail",
+        "type": "subtopic",
+        "description": "Policy and detail represent a fundamental separation between the core logic of an application and the specific implementation mechanisms that support it. Policies define the high-level business rules, domain entities, and operational requirements that dictate what an application should accomplish. In contrast, details encompass the low-level components like database drivers, user interface frameworks, external APIs, and hardware configurations that provide the environment for those policies to run. Keeping these concepts separate ensures that business logic remains independent of the specific tools used to execute it, allowing developers to change or upgrade technical infrastructure without altering the core functionality.",
+        "resources": []
+      },
+      {
+        "id": "TXus3R5vVQDBeBag6B5qs",
+        "name": "Coupling and Cohesion",
+        "type": "subtopic",
+        "description": "Coupling measures how much one module depends on another, while cohesion measures how closely the responsibilities within a single module relate to each other. Low coupling and high cohesion make a codebase easier to change, since a module can be modified or replaced without breaking unrelated parts of the system. Tightly coupled modules tend to cause cascading changes across a codebase, while low cohesion spreads unrelated logic across a single module, making it harder to understand and test.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Cohesion and Coupling in Software Engineering",
+            "url": "https://www.youtube.com/watch?v=NweTzHYBgYU"
+          }
+        ]
+      },
+      {
         "id": "-Kw8hJhgQH2qInUFj2TUe",
         "name": "Boundaries",
         "type": "subtopic",
@@ -2604,6 +2789,37 @@
         "type": "topic",
         "description": "Structural architectural styles focus on how a system's components are organized internally, such as how code is divided into layers, modules, or units. They determine how responsibilities are separated within a single application, as opposed to how the application communicates across a network. Common structural styles include monolithic, layered, and component-based design.",
         "resources": []
+      },
+      {
+        "id": "HN160YgryBBtVGjnWxNie",
+        "name": "Layered Architectures",
+        "type": "subtopic",
+        "description": "Layered architecture is a design pattern that organizes a software system into distinct horizontal segments or tiers, each with a specific responsibility. In this approach, components are grouped based on their function, such as presentation, business logic, or data access, with each layer communicating only with the one directly below it. By restricting dependencies in this manner, developers create a modular structure that makes it easier to update, test, and maintain individual parts of an application without affecting the entire codebase.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Software Architecture Patterns — Layered Architecture",
+            "url": "https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057"
+          },
+          {
+            "type": "article",
+            "title": "5 Primary Layers in Software Architecture?",
+            "url": "https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture"
+          }
+        ]
+      },
+      {
+        "id": "a0geFJWl-vi3mYytTjYdb",
+        "name": "Component-Based",
+        "type": "subtopic",
+        "description": "Component-based architecture divides a system into independent, reusable components, each encapsulating a specific piece of functionality behind a well-defined interface. Components can be developed, tested, and replaced separately, as long as their interfaces stay stable. This approach supports reuse across different parts of an application or even across different projects.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Component Based Software architecture",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm"
+          }
+        ]
       },
       {
         "id": "xYPR_X1KhBwdpqYzNJiuT",
@@ -2831,29 +3047,6 @@
         ]
       },
       {
-        "id": "FysFru2FJN4d4gj11gv--",
-        "name": "SOA",
-        "type": "subtopic",
-        "description": "Service-Oriented Architecture, or SOA, structures an application as a collection of loosely coupled services that communicate over a network, typically through standardized protocols. Each service exposes a well-defined interface and can be reused across different applications within an organization. SOA often relies on an enterprise service bus to manage communication, routing, and integration between services, which distinguishes it from the more independent, lightweight services used in microservices.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Overview of Service-Oriented Architecture",
-            "url": "https://medium.com/design-microservices-architecture-with-patterns/service-oriented-architecture-1e4716fbca17"
-          },
-          {
-            "type": "video",
-            "title": "Tutorial - Service-Oriented Architecture -SOA",
-            "url": "https://www.youtube.com/watch?v=jNiEMmoTDoE"
-          },
-          {
-            "type": "video",
-            "title": "What is Service-Oriented Architecture",
-            "url": "https://www.youtube.com/watch?v=_dFJOSR-aFs"
-          }
-        ]
-      },
-      {
         "id": "h0aeBhQRkDxNeFwDxT4Tf",
         "name": "Enterprise Patterns",
         "type": "topic",
@@ -3001,6 +3194,29 @@
         ]
       },
       {
+        "id": "FysFru2FJN4d4gj11gv--",
+        "name": "SOA",
+        "type": "subtopic",
+        "description": "Service-Oriented Architecture, or SOA, structures an application as a collection of loosely coupled services that communicate over a network, typically through standardized protocols. Each service exposes a well-defined interface and can be reused across different applications within an organization. SOA often relies on an enterprise service bus to manage communication, routing, and integration between services, which distinguishes it from the more independent, lightweight services used in microservices.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Overview of Service-Oriented Architecture",
+            "url": "https://medium.com/design-microservices-architecture-with-patterns/service-oriented-architecture-1e4716fbca17"
+          },
+          {
+            "type": "video",
+            "title": "Tutorial - Service-Oriented Architecture -SOA",
+            "url": "https://www.youtube.com/watch?v=jNiEMmoTDoE"
+          },
+          {
+            "type": "video",
+            "title": "What is Service-Oriented Architecture",
+            "url": "https://www.youtube.com/watch?v=_dFJOSR-aFs"
+          }
+        ]
+      },
+      {
         "id": "NpSfbzYtGebmfrifkKsUf",
         "name": "Domain Models",
         "type": "subtopic",
@@ -3041,37 +3257,87 @@
     ],
     "edges": [
       {
-        "source": "08qKtgnhJ3tlb5JKfTDf5",
+        "source": "uLYSP9v3y51h8Ttdt5ije",
+        "target": "08qKtgnhJ3tlb5JKfTDf5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2SOZvuEcy8Cy8ymN7x4L-",
+        "target": "08qKtgnhJ3tlb5JKfTDf5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6Cd1BbGsmPJs_5jKhumyV",
+        "target": "08qKtgnhJ3tlb5JKfTDf5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "81WOL1nxb56ZbAOvxJ7NK",
+        "target": "08qKtgnhJ3tlb5JKfTDf5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XEwC6Fyf2DNNHQsoGTrQj",
+        "target": "08qKtgnhJ3tlb5JKfTDf5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TJZgsxpfOmltUUChMzlEM",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RgYq3YOJhPGSf5in1Rcdp",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qZQDOe2MHBh8wNcmvkLQm",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "p96fNXv0Z4rEEXJR9hAYX",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gyQw885dvupmkohzJPg3a",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XBCxWdpvQyK2iIG2eEA1K",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "En_hvwRvY6k_itsNCQBYE",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jq916t7svaMw5sFOcqZSi",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WrzsvLgo7cf2KjvJhtJEC",
+        "target": "uLYSP9v3y51h8Ttdt5ije",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5S5A5wCJUCNPLlHJ5fRjU",
         "target": "TDhTYdEyBuOnDKcQJzTAk",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "TDhTYdEyBuOnDKcQJzTAk",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "target": "Jd79KXxZavpnp3mtE1q0n",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "37xWxG2D9lVuDsHUgLfzP",
-        "target": "dBq7ni-of5v1kxpdmh227",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "37xWxG2D9lVuDsHUgLfzP",
-        "target": "gJYff_qD6XS3dg3I-jJFK",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "gJYff_qD6XS3dg3I-jJFK",
-        "target": "h0aeBhQRkDxNeFwDxT4Tf",
-        "type": "next_in_flow"
+        "type": "subtopic_of"
       },
       {
         "source": "VhSEH_RoWFt1z2lial7xZ",
+        "target": "TDhTYdEyBuOnDKcQJzTAk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qZzl0hAD2LkShsPql1IlZ",
         "target": "TDhTYdEyBuOnDKcQJzTAk",
         "type": "subtopic_of"
       },
@@ -3081,17 +3347,232 @@
         "type": "subtopic_of"
       },
       {
+        "source": "yyKvmutbxu3iVHTuqr5q4",
+        "target": "TDhTYdEyBuOnDKcQJzTAk",
+        "type": "subtopic_of"
+      },
+      {
         "source": "VZrERRRYhmqDx4slnZtdc",
         "target": "TDhTYdEyBuOnDKcQJzTAk",
         "type": "subtopic_of"
       },
       {
-        "source": "Kk7u2B67Fdg2sU8E_PGqr",
-        "target": "gJYff_qD6XS3dg3I-jJFK",
+        "source": "3eWirbQGbJZd4g7CS1xk_",
+        "target": "HhYdURE4X-a9GVwJhAyE0",
         "type": "subtopic_of"
       },
       {
-        "source": "eJsCCURZAURCKnOK-XeQe",
+        "source": "vnLhItObDgp_XaDmplBsJ",
+        "target": "HhYdURE4X-a9GVwJhAyE0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3XckqZA--knUb8IYKOeVy",
+        "target": "HhYdURE4X-a9GVwJhAyE0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4DVW4teisMz8-58XttMGt",
+        "target": "3eWirbQGbJZd4g7CS1xk_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dj36yLBShoazj7SAw6a_A",
+        "target": "3eWirbQGbJZd4g7CS1xk_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GJxfVjhiLuuc36hatx9dP",
+        "target": "3eWirbQGbJZd4g7CS1xk_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VA8FMrhF4non9x-J3urY8",
+        "target": "3eWirbQGbJZd4g7CS1xk_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0rGdh72HjqPZa2bCbY9Gz",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ltBnVWZ3UMAuUvDkU6o4P",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WzUhKlmFB9alTlAyV-MWJ",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eEO-WeNIyjErBE53n8JsD",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Izno7xX7wDvwPEg7f_d1Y",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DlefJ9JuJ1LdQYC4WSx6y",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UZeY36dABmULhsHPhlzn_",
+        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OoCCy-3W5y7bUcKz_iyBw",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "S1m7ty7Qrzu1rr4Jl-WgM",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mzt7fvx6ab3tmG1R1NcLO",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kp86Vc3uue3IxTN9B9p59",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tLbckKmfVxgn59j_dlh8b",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9naCfoHF1LW1OEsVZGi8v",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hlHl00ELlK9YdnzHDGnEW",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6VoDGFOPHj5p_gvaZ8kTt",
+        "target": "Jd79KXxZavpnp3mtE1q0n",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9slZPeVCSqU5-5PqaNJOh",
+        "target": "0VO_-1g-TS29y0Ji2yCjc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "I25ghe8xYWpZ-9pRcHfOh",
+        "target": "0VO_-1g-TS29y0Ji2yCjc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nVaoI4IDPVEsdtFcjGNRw",
+        "target": "0VO_-1g-TS29y0Ji2yCjc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kWNQd3paQrhMHMJzM35w8",
+        "target": "0VO_-1g-TS29y0Ji2yCjc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "c6n-wOHylTbzpxqgoXtdw",
+        "target": "0VO_-1g-TS29y0Ji2yCjc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RMkEE7c0jdVFqZ4fmjL6Y",
+        "target": "9slZPeVCSqU5-5PqaNJOh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hd6GJ-H4p9I4aaiRTni57",
+        "target": "9slZPeVCSqU5-5PqaNJOh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "b-YIbw-r-nESVt_PUFQeq",
+        "target": "9slZPeVCSqU5-5PqaNJOh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SrcPhS4F7aT80qNjbv54f",
+        "target": "9slZPeVCSqU5-5PqaNJOh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KtzcJBb6-EcIoXnwYvE7a",
+        "target": "j9j45Auf60kIskyEMUGE3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SX4vOVJY9slOXGwX_q1au",
+        "target": "j9j45Auf60kIskyEMUGE3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZGIMUaNfBwE5b6O1yexSz",
+        "target": "3V74lLPlcOXFB-QRTUA5j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Cf9Z2wxBcbnNg_q9PA6xA",
+        "target": "3V74lLPlcOXFB-QRTUA5j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8Bm0sRhUg6wZtnvtTmpgY",
+        "target": "dBq7ni-of5v1kxpdmh227",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "b_PvjjL2ZpEKETa5_bd0v",
+        "target": "dBq7ni-of5v1kxpdmh227",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TXus3R5vVQDBeBag6B5qs",
+        "target": "dBq7ni-of5v1kxpdmh227",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-Kw8hJhgQH2qInUFj2TUe",
+        "target": "dBq7ni-of5v1kxpdmh227",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HN160YgryBBtVGjnWxNie",
+        "target": "86Jw9kMBD7YP5nTV5jTz-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "a0geFJWl-vi3mYytTjYdb",
+        "target": "86Jw9kMBD7YP5nTV5jTz-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xYPR_X1KhBwdpqYzNJiuT",
+        "target": "86Jw9kMBD7YP5nTV5jTz-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IELEJcKYdZ6VN-UIq-Wln",
+        "target": "86Jw9kMBD7YP5nTV5jTz-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CD20zA6k9FxUpMgHnNYRJ",
         "target": "gJYff_qD6XS3dg3I-jJFK",
         "type": "subtopic_of"
       },
@@ -3101,7 +3582,12 @@
         "type": "subtopic_of"
       },
       {
-        "source": "CD20zA6k9FxUpMgHnNYRJ",
+        "source": "eJsCCURZAURCKnOK-XeQe",
+        "target": "gJYff_qD6XS3dg3I-jJFK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Kk7u2B67Fdg2sU8E_PGqr",
         "target": "gJYff_qD6XS3dg3I-jJFK",
         "type": "subtopic_of"
       },
@@ -3131,22 +3617,7 @@
         "type": "subtopic_of"
       },
       {
-        "source": "tyReIY4iO8kmyc_LPafp1",
-        "target": "h0aeBhQRkDxNeFwDxT4Tf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ndUTgl2YBzOdu1MQKJocu",
-        "target": "h0aeBhQRkDxNeFwDxT4Tf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8y0ot5sbplUIUyXe9gvc8",
-        "target": "h0aeBhQRkDxNeFwDxT4Tf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gQ7Xj8tsl6IlCcyJgSz46",
+        "source": "y_Qj7KITSB8aUWHwiZ2It",
         "target": "h0aeBhQRkDxNeFwDxT4Tf",
         "type": "subtopic_of"
       },
@@ -3156,7 +3627,22 @@
         "type": "subtopic_of"
       },
       {
-        "source": "y_Qj7KITSB8aUWHwiZ2It",
+        "source": "gQ7Xj8tsl6IlCcyJgSz46",
+        "target": "h0aeBhQRkDxNeFwDxT4Tf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8y0ot5sbplUIUyXe9gvc8",
+        "target": "h0aeBhQRkDxNeFwDxT4Tf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ndUTgl2YBzOdu1MQKJocu",
+        "target": "h0aeBhQRkDxNeFwDxT4Tf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tyReIY4iO8kmyc_LPafp1",
         "target": "h0aeBhQRkDxNeFwDxT4Tf",
         "type": "subtopic_of"
       },
@@ -3167,6 +3653,11 @@
       },
       {
         "source": "Ks6njbfxOHiZ_TrJDnVtk",
+        "target": "h0aeBhQRkDxNeFwDxT4Tf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FysFru2FJN4d4gj11gv--",
         "target": "h0aeBhQRkDxNeFwDxT4Tf",
         "type": "subtopic_of"
       },
@@ -3186,294 +3677,34 @@
         "type": "subtopic_of"
       },
       {
-        "source": "I25ghe8xYWpZ-9pRcHfOh",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
+        "source": "08qKtgnhJ3tlb5JKfTDf5",
+        "target": "TDhTYdEyBuOnDKcQJzTAk",
+        "type": "next_in_flow"
       },
       {
-        "source": "c6n-wOHylTbzpxqgoXtdw",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HN160YgryBBtVGjnWxNie",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kWNQd3paQrhMHMJzM35w8",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nVaoI4IDPVEsdtFcjGNRw",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RMkEE7c0jdVFqZ4fmjL6Y",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hd6GJ-H4p9I4aaiRTni57",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "b-YIbw-r-nESVt_PUFQeq",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SrcPhS4F7aT80qNjbv54f",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Dj36yLBShoazj7SAw6a_A",
+        "source": "TDhTYdEyBuOnDKcQJzTAk",
         "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "4DVW4teisMz8-58XttMGt",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VA8FMrhF4non9x-J3urY8",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GJxfVjhiLuuc36hatx9dP",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2SOZvuEcy8Cy8ymN7x4L-",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6Cd1BbGsmPJs_5jKhumyV",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "81WOL1nxb56ZbAOvxJ7NK",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XEwC6Fyf2DNNHQsoGTrQj",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5S5A5wCJUCNPLlHJ5fRjU",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qZzl0hAD2LkShsPql1IlZ",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yyKvmutbxu3iVHTuqr5q4",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OoCCy-3W5y7bUcKz_iyBw",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "S1m7ty7Qrzu1rr4Jl-WgM",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mzt7fvx6ab3tmG1R1NcLO",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kp86Vc3uue3IxTN9B9p59",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tLbckKmfVxgn59j_dlh8b",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9naCfoHF1LW1OEsVZGi8v",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FysFru2FJN4d4gj11gv--",
-        "target": "gJYff_qD6XS3dg3I-jJFK",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TJZgsxpfOmltUUChMzlEM",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RgYq3YOJhPGSf5in1Rcdp",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qZQDOe2MHBh8wNcmvkLQm",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "p96fNXv0Z4rEEXJR9hAYX",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gyQw885dvupmkohzJPg3a",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XBCxWdpvQyK2iIG2eEA1K",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "En_hvwRvY6k_itsNCQBYE",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jq916t7svaMw5sFOcqZSi",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WrzsvLgo7cf2KjvJhtJEC",
-        "target": "08qKtgnhJ3tlb5JKfTDf5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Izno7xX7wDvwPEg7f_d1Y",
-        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DlefJ9JuJ1LdQYC4WSx6y",
-        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UZeY36dABmULhsHPhlzn_",
-        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WzUhKlmFB9alTlAyV-MWJ",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vnLhItObDgp_XaDmplBsJ",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0rGdh72HjqPZa2bCbY9Gz",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3XckqZA--knUb8IYKOeVy",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ltBnVWZ3UMAuUvDkU6o4P",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eEO-WeNIyjErBE53n8JsD",
-        "target": "HhYdURE4X-a9GVwJhAyE0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hlHl00ELlK9YdnzHDGnEW",
+        "source": "9dMbo4Q1_Sd9wW6-HSCA9",
         "target": "Jd79KXxZavpnp3mtE1q0n",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "6VoDGFOPHj5p_gvaZ8kTt",
-        "target": "Jd79KXxZavpnp3mtE1q0n",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8Bm0sRhUg6wZtnvtTmpgY",
-        "target": "Jd79KXxZavpnp3mtE1q0n",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "b_PvjjL2ZpEKETa5_bd0v",
-        "target": "Jd79KXxZavpnp3mtE1q0n",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TXus3R5vVQDBeBag6B5qs",
-        "target": "Jd79KXxZavpnp3mtE1q0n",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-Kw8hJhgQH2qInUFj2TUe",
+        "source": "37xWxG2D9lVuDsHUgLfzP",
         "target": "dBq7ni-of5v1kxpdmh227",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "KtzcJBb6-EcIoXnwYvE7a",
-        "target": "9dMbo4Q1_Sd9wW6-HSCA9",
-        "type": "subtopic_of"
+        "source": "37xWxG2D9lVuDsHUgLfzP",
+        "target": "gJYff_qD6XS3dg3I-jJFK",
+        "type": "next_in_flow"
       },
       {
-        "source": "SX4vOVJY9slOXGwX_q1au",
-        "target": "j9j45Auf60kIskyEMUGE3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZGIMUaNfBwE5b6O1yexSz",
-        "target": "3V74lLPlcOXFB-QRTUA5j",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Cf9Z2wxBcbnNg_q9PA6xA",
-        "target": "3V74lLPlcOXFB-QRTUA5j",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "a0geFJWl-vi3mYytTjYdb",
-        "target": "0VO_-1g-TS29y0Ji2yCjc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xYPR_X1KhBwdpqYzNJiuT",
-        "target": "86Jw9kMBD7YP5nTV5jTz-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IELEJcKYdZ6VN-UIq-Wln",
-        "target": "86Jw9kMBD7YP5nTV5jTz-",
-        "type": "subtopic_of"
+        "source": "gJYff_qD6XS3dg3I-jJFK",
+        "target": "h0aeBhQRkDxNeFwDxT4Tf",
+        "type": "next_in_flow"
       }
     ]
   }

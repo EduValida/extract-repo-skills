@@ -3,10 +3,10 @@
     "slug": "power-bi",
     "title": "Power BI",
     "description": "Step-by-step guide to becoming a Power BI Expert in 2026",
-    "extracted_at": "2026-10-29T01:04:26.870669+00:00",
+    "extracted_at": "2026-11-05T02:15:20.989685+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/power-bi",
     "total_topics": 23,
-    "total_subtopics": 108
+    "total_subtopics": 113
   },
   "tree": {
     "title": "Power BI",
@@ -40,7 +40,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/power-bi/content/introduction@2QB2qNbr8IHv4YbB-hYqf.md",
-        "subtopics_count": 6,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "y9CTbobwkPNDUDDkJLdQX",
@@ -59,7 +59,9 @@
                 "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/end-user-license"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/licensing-tiers@y9CTbobwkPNDUDDkJLdQX.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/licensing-tiers@y9CTbobwkPNDUDDkJLdQX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "4S5zKmpa29_re_rOZD9mt",
@@ -78,27 +80,32 @@
                 "url": "https://www.youtube.com/watch?v=qIt2n46Qa7s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/installing-power-bi@4S5zKmpa29_re_rOZD9mt.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/installing-power-bi@4S5zKmpa29_re_rOZD9mt.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "M5B4mq5vv5PcGaBdQmNdf",
+        "name": "Data Source Types",
+        "type": "topic",
+        "description": "Power BI can connect to many kinds of data sources, grouped broadly into databases, files, APIs, web and open data, and cloud services. Each source type uses its own connector inside Power BI, with settings for authentication and query options specific to that source. Picking the right source type and connector is the first step before any transformation work begins.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get data in Power BI Desktop",
+            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources?tabs=new-experience"
           },
           {
-            "id": "n2m-xo1wfcluM5iF54tmu",
-            "name": "Power BI Ecosystem",
-            "type": "subtopic",
-            "description": "The Power BI ecosystem is made up of three main components: Desktop for building reports, Service for publishing and collaborating in the cloud, and Mobile for viewing content on phones and tablets. Each piece serves a different stage of the workflow, from authoring to consumption. Together they cover the full cycle from raw data to a report someone checks on their phone.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "What is Power BI?",
-                "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview"
-              },
-              {
-                "type": "article",
-                "title": "Introduction to Power BI ecosystem",
-                "url": "https://www.youtube.com/watch?v=onL5sgfL24k"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-bi-ecosystem@n2m-xo1wfcluM5iF54tmu.md"
-          },
+            "type": "video",
+            "title": "How To Connect Data Sources In Power BI?",
+            "url": "https://www.youtube.com/watch?v=ZDuQvyZ8stM"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/power-bi/content/data-source-types@M5B4mq5vv5PcGaBdQmNdf.md",
+        "subtopics_count": 7,
+        "subtopics": [
           {
             "id": "aItdGZ817gzRevj1bZnQz",
             "name": "Desktop",
@@ -121,7 +128,57 @@
                 "url": "https://www.youtube.com/watch?v=VaOhNqNtGGE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/desktop@aItdGZ817gzRevj1bZnQz.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/desktop@aItdGZ817gzRevj1bZnQz.md",
+            "subtopics_count": 1,
+            "subtopics": [
+              {
+                "id": "n2m-xo1wfcluM5iF54tmu",
+                "name": "Power BI Ecosystem",
+                "type": "subtopic",
+                "description": "The Power BI ecosystem is made up of three main components: Desktop for building reports, Service for publishing and collaborating in the cloud, and Mobile for viewing content on phones and tablets. Each piece serves a different stage of the workflow, from authoring to consumption. Together they cover the full cycle from raw data to a report someone checks on their phone.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "What is Power BI?",
+                    "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Introduction to Power BI ecosystem",
+                    "url": "https://www.youtube.com/watch?v=onL5sgfL24k"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/power-bi-ecosystem@n2m-xo1wfcluM5iF54tmu.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "fMGZRXVaryZ25kjE-4e5x",
+            "name": "Files",
+            "type": "subtopic",
+            "description": "Power BI can import data directly from files such as Excel workbooks, CSV files, text files, XML, JSON, and PDF tables. File-based sources are common for smaller or ad hoc datasets that are not stored in a formal database. Power Query reads the file structure and lets the user select which sheets or tables to load.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get data from files for Power BI",
+                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-get-data-from-files"
+              },
+              {
+                "type": "official",
+                "title": "Get data from comma separated value (CSV) files",
+                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-comma-separated-value-files"
+              },
+              {
+                "type": "official",
+                "title": "Import Excel workbooks into Power BI Desktop",
+                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-import-excel-workbooks"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/files@fMGZRXVaryZ25kjE-4e5x.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-i6X0KZW6CZfgzgQ2QMvH",
@@ -145,7 +202,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLjNd3r1KLjQvi8p21uS522Xi3qEiFQH2r"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/service@-i6X0KZW6CZfgzgQ2QMvH.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/service@-i6X0KZW6CZfgzgQ2QMvH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "H8vRATlg1hX8iPwLJdeOR",
@@ -169,53 +228,9 @@
                 "url": "https://www.youtube.com/watch?v=syq1ltNI0u8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/mobile@H8vRATlg1hX8iPwLJdeOR.md"
-          }
-        ]
-      },
-      {
-        "id": "M5B4mq5vv5PcGaBdQmNdf",
-        "name": "Data Source Types",
-        "type": "topic",
-        "description": "Power BI can connect to many kinds of data sources, grouped broadly into databases, files, APIs, web and open data, and cloud services. Each source type uses its own connector inside Power BI, with settings for authentication and query options specific to that source. Picking the right source type and connector is the first step before any transformation work begins.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get data in Power BI Desktop",
-            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources?tabs=new-experience"
-          },
-          {
-            "type": "video",
-            "title": "How To Connect Data Sources In Power BI?",
-            "url": "https://www.youtube.com/watch?v=ZDuQvyZ8stM"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/power-bi/content/data-source-types@M5B4mq5vv5PcGaBdQmNdf.md",
-        "subtopics_count": 4,
-        "subtopics": [
-          {
-            "id": "fMGZRXVaryZ25kjE-4e5x",
-            "name": "Files ",
-            "type": "subtopic",
-            "description": "Power BI can import data directly from files such as Excel workbooks, CSV files, text files, XML, JSON, and PDF tables. File-based sources are common for smaller or ad hoc datasets that are not stored in a formal database. Power Query reads the file structure and lets the user select which sheets or tables to load.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get data from files for Power BI",
-                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-get-data-from-files"
-              },
-              {
-                "type": "official",
-                "title": "Get data from comma separated value (CSV) files",
-                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-comma-separated-value-files"
-              },
-              {
-                "type": "official",
-                "title": "Import Excel workbooks into Power BI Desktop",
-                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-import-excel-workbooks"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/files@fMGZRXVaryZ25kjE-4e5x.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/mobile@H8vRATlg1hX8iPwLJdeOR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0a0caDbMmm71t9h9l1boP",
@@ -239,7 +254,9 @@
                 "url": "https://www.youtube.com/watch?v=K690u_FkL4A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/databases@0a0caDbMmm71t9h9l1boP.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/databases@0a0caDbMmm71t9h9l1boP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "FdE4ix0XyZq_yhv8HRELs",
@@ -268,7 +285,9 @@
                 "url": "https://www.youtube.com/watch?v=ISdyFhGQV4g"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/clouds@FdE4ix0XyZq_yhv8HRELs.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/clouds@FdE4ix0XyZq_yhv8HRELs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "HWj-k3pc5_80dk793CVnX",
@@ -287,7 +306,9 @@
                 "url": "https://www.youtube.com/watch?v=O5DiEDJAhgk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/apis@HWj-k3pc5_80dk793CVnX.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/apis@HWj-k3pc5_80dk793CVnX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -314,7 +335,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/power-bi/content/connection-modes@4gaa2THeYhi2Z45kSX42t.md",
-        "subtopics_count": 19,
+        "subtopics_count": 8,
         "subtopics": [
           {
             "id": "4UXIwHGpILCTfs7lLoxou",
@@ -333,7 +354,9 @@
                 "url": "https://www.youtube.com/watch?v=tDIsCVB7mnI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/import-mode@4UXIwHGpILCTfs7lLoxou.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/import-mode@4UXIwHGpILCTfs7lLoxou.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "GHE4CuN9ajm08_RZ1Fy7p",
@@ -357,7 +380,9 @@
                 "url": "https://www.youtube.com/watch?v=QR03oeguXF8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/directquery@GHE4CuN9ajm08_RZ1Fy7p.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/directquery@GHE4CuN9ajm08_RZ1Fy7p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "80ujylMVAMN9Tn0qPR7uf",
@@ -386,7 +411,83 @@
                 "url": "https://www.youtube.com/watch?v=Tw-n4o5LErw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/direct-lake@80ujylMVAMN9Tn0qPR7uf.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/direct-lake@80ujylMVAMN9Tn0qPR7uf.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "rEUKFOApH3taqMmbL3keU",
+            "name": "Data Cleaning",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
+              {
+                "id": "y-FeyeZ6tqZmF_8wzrTuX",
+                "name": "Data Types & Casting",
+                "type": "subtopic",
+                "description": "Setting data types in Power Query tells Power BI how to interpret each column, such as whole number, decimal, date, or text. Correct typing affects both storage size and what operations are available later, since date functions or numeric aggregations only work if the column has the matching type. Casting a column to the wrong type, like reading a date as text, can cause errors or slow down the model.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Data types in Power Query",
+                    "url": "https://learn.microsoft.com/en-us/power-query/data-types"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Preparing data in Power Query | POWER BI Course",
+                    "url": "https://www.youtube.com/watch?v=C47X8Vr74lo"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/data-types--casting@y-FeyeZ6tqZmF_8wzrTuX.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "jY6JPvP0QPjmnPL2tBUus",
+                "name": "Removing Duplicates",
+                "type": "subtopic",
+                "description": "Removing duplicates in Power Query eliminates rows that repeat identical values across selected columns, keeping the dataset clean for accurate counts and aggregations. This is done through a built-in step that compares rows and drops repeats, based on the columns chosen for comparison. It matters especially when combining data from multiple sources that might overlap.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Working with duplicate values",
+                    "url": "https://learn.microsoft.com/en-us/power-query/working-with-duplicates"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Removing Duplicate Records in the Microsoft Power BI Query Editor",
+                    "url": "https://www.youtube.com/watch?v=u3RT7Ib_2YM"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/removing-duplicates@jY6JPvP0QPjmnPL2tBUus.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "cqLk4gpK_Ex7SvpcR-EyX",
+                "name": "Handling Errors",
+                "type": "subtopic",
+                "description": "Power Query flags rows where a transformation fails, such as a text value that cannot convert to a number, and marks them as errors rather than stopping the whole query. These errors can be removed, replaced with a default value, or kept for review, depending on how the discrepancy should be handled. Left unresolved, errors will cause the refresh to fail once the query tries to load that data into the model.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Dealing with errors in Power Query",
+                    "url": "https://learn.microsoft.com/en-us/power-query/dealing-with-errors"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Power BI - Introduction to Handling Errors",
+                    "url": "https://www.youtube.com/watch?v=eC9U5nhQmno"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/handling-errors@cqLk4gpK_Ex7SvpcR-EyX.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
             "id": "8DKQH0CbRmtuAW3tE_ke6",
@@ -410,332 +511,334 @@
                 "url": "https://www.youtube.com/watch?v=TgAXt1ifdhs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/dual-storage-mode@8DKQH0CbRmtuAW3tE_ke6.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/dual-storage-mode@8DKQH0CbRmtuAW3tE_ke6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "y-FeyeZ6tqZmF_8wzrTuX",
-            "name": "Data Types & Casting",
-            "type": "subtopic",
-            "description": "Setting data types in Power Query tells Power BI how to interpret each column, such as whole number, decimal, date, or text. Correct typing affects both storage size and what operations are available later, since date functions or numeric aggregations only work if the column has the matching type. Casting a column to the wrong type, like reading a date as text, can cause errors or slow down the model.",
-            "resources": [
+            "id": "B5_BUiM9ldVUhXiOMlFBu",
+            "name": "Column & Value Transforms.",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 6,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Data types in Power Query",
-                "url": "https://learn.microsoft.com/en-us/power-query/data-types"
+                "id": "OpTzX9_MCnMIf3nwDrCO9",
+                "name": "Changing Text",
+                "type": "subtopic",
+                "description": "Power Query includes text transformation functions for tasks like changing case, trimming whitespace, extracting substrings, and replacing characters within a column. These operations are common when cleaning inconsistent text data coming from different sources, such as mismatched capitalization or extra spaces. Most of them are available directly from the ribbon without writing M code manually.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "How to Transform Text with Power Query",
+                    "url": "https://www.xelplus.com/excel-text-transformation-power-query/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Text Transformations in Power Query: 6 Steps You’ll Use Most Often",
+                    "url": "https://analytics.bi/en/text-transformations-power-query/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Top 5 Text Transformations in Excel Using Power Query",
+                    "url": "https://www.youtube.com/watch?v=IYIQnM5EqLs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/changing-text@OpTzX9_MCnMIf3nwDrCO9.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Preparing data in Power Query | POWER BI Course",
-                "url": "https://www.youtube.com/watch?v=C47X8Vr74lo"
+                "id": "jji5jm1oT6SImHaBXwOJI",
+                "name": "Changing Numbers",
+                "type": "subtopic",
+                "description": "Numeric transformations in Power Query cover operations like rounding, changing sign, calculating percentages, and applying arithmetic between columns. These are used to standardize numeric data or derive new values, such as converting a raw amount into a percentage of total. The transformations can be applied to a single column or between multiple selected columns.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Use Power Query to transform data",
+                    "url": "https://learn.microsoft.com/en-us/power-query/power-query-ui"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Common Power Query transformations",
+                    "url": "https://exceloffthegrid.com/power-query-basic-transformations/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "ES  Skip navigation data transforamtion power query     Create   Avatar image Power Query for Beginners",
+                    "url": "https://www.youtube.com/watch?v=QXzopqpHlSs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/changing-numbers@jji5jm1oT6SImHaBXwOJI.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "vZQjiMqgSc2HtWCPYHvnb",
+                "name": "Changing Dates",
+                "type": "subtopic",
+                "description": "Date transformations in Power Query let users extract parts of a date, such as year, month, or day of week, and calculate differences between dates. This is useful for building time-based fields needed later in reports, like fiscal year or quarter. Power Query recognizes date and datetime types, which unlocks these transformation options in the ribbon.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Power Query: Get all dates between the Start and End date",
+                    "url": "https://amitchandak.medium.com/power-query-get-all-dates-between-the-start-and-end-date-9ad6a84cf5f2"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Extract Dates From Text Strings in Power Query",
+                    "url": "https://www.youtube.com/watch?v=JJFiPtmqPAg"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/changing-dates@vZQjiMqgSc2HtWCPYHvnb.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "X3j-XFMXKLjwvEMgDGbPQ",
+                "name": "Conditional Columns",
+                "type": "subtopic",
+                "description": "Conditional columns let a user create a new column based on if-then-else logic applied to existing columns, without writing M code by hand. The interface lets you define multiple conditions and their corresponding outputs, similar to a nested if statement. This is often used to bucket values into categories, such as labeling sales figures as high, medium, or low.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Add a conditional column (Power Query)",
+                    "url": "https://support.microsoft.com/en-us/excel/add-a-conditional-column-power-query"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Power BI Conditional Column Tutorial:No Custom Column Needed",
+                    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Community-Blog/Power-BI-Conditional-Column-Tutorial-No-Custom-Column-Needed/ba-p/4714707"
+                  },
+                  {
+                    "type": "video",
+                    "title": "How to Make Conditional Columns with Power Query",
+                    "url": "https://www.youtube.com/watch?v=9ArQULV2u-k"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/conditional-columns@X3j-XFMXKLjwvEMgDGbPQ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "UPQ6Y-jT39MkrM1Rg3Dip",
+                "name": "Custom Columns",
+                "type": "subtopic",
+                "description": "Custom columns are new columns created in Power Query using a formula written in the M language, giving more flexibility than the conditional column builder. They allow calculations that reference multiple columns or use M functions not exposed in the standard UI. This is a common entry point for users moving from the graphical interface into writing M code directly.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Add a custom column in Power BI Desktop",
+                    "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-add-custom-column"
+                  },
+                  {
+                    "type": "video",
+                    "title": "These 5 Custom Column Tricks Make Power Query Easier",
+                    "url": "https://www.youtube.com/watch?v=FoW0iDGy7ag"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/custom-columns@UPQ6Y-jT39MkrM1Rg3Dip.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "kKbKZ1sMBNaQUoX4Vf95j",
+                "name": "Splitting Columns",
+                "type": "subtopic",
+                "description": "Splitting columns divides a single column into multiple columns, based on a delimiter, a fixed number of characters, or by position. This is useful for cases like separating a full name into first and last name, or breaking apart a combined date and time field. Power Query keeps track of the split as one of the applied steps, so it can be adjusted later.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Split columns by delimiter",
+                    "url": "https://learn.microsoft.com/en-us/power-query/split-columns-delimiter"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Splitting Column Values in Power Query",
+                    "url": "https://www.youtube.com/watch?v=BNlPAjsUn_o"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/splitting-columns@kKbKZ1sMBNaQUoX4Vf95j.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/data-types--casting@y-FeyeZ6tqZmF_8wzrTuX.md"
+            ]
           },
           {
-            "id": "jY6JPvP0QPjmnPL2tBUus",
-            "name": "Removing Duplicates",
-            "type": "subtopic",
-            "description": "Removing duplicates in Power Query eliminates rows that repeat identical values across selected columns, keeping the dataset clean for accurate counts and aggregations. This is done through a built-in step that compares rows and drops repeats, based on the columns chosen for comparison. It matters especially when combining data from multiple sources that might overlap.",
-            "resources": [
+            "id": "jPRXUMdscUuhigM6zLj41",
+            "name": "Table Operations",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Working with duplicate values",
-                "url": "https://learn.microsoft.com/en-us/power-query/working-with-duplicates"
+                "id": "OUo1KyRG-Qc5I6GWZR2pp",
+                "name": "Joins",
+                "type": "subtopic",
+                "description": "Joins in Power Query, called merges, combine two tables side by side based on matching values in one or more key columns. Users choose a join type such as inner, left outer, right outer, or full outer, which determines which rows are kept when matches are found or missing. This is the main way to bring related tables together before loading them into the data model.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Shape and combine data in Power BI Desktop",
+                    "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Power Query Basics: Merge Queries",
+                    "url": "https://iterationinsights.com/article/power-query-basics-merge-queries-and-the-differences-of-join-types/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Power Query Secrets: How to Merge Tables Like a Pro!",
+                    "url": "https://www.youtube.com/watch?v=m4feUpoDpVI"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/joins@OUo1KyRG-Qc5I6GWZR2pp.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Removing Duplicate Records in the Microsoft Power BI Query Editor",
-                "url": "https://www.youtube.com/watch?v=u3RT7Ib_2YM"
+                "id": "w0p5SoSn4_YGeARz7Ll0O",
+                "name": "Appending Tables",
+                "type": "subtopic",
+                "description": "Appending tables stacks two or more tables with matching columns on top of each other, combining their rows into a single table. It works like a union in SQL and is common when combining monthly files or data pulled from multiple similar sources into one query. Power Query handles column matching automatically when column names align, and flags mismatches when they don't.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Append queries",
+                    "url": "https://learn.microsoft.com/en-us/power-query/append-queries"
+                  },
+                  {
+                    "type": "video",
+                    "title": "MERGE and APPEND inside POWER QUERY in Power BI",
+                    "url": "https://www.youtube.com/watch?v=77POcNaCrcI"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/appending-tables@w0p5SoSn4_YGeARz7Ll0O.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "zRLfg-lJsWkNsZoY-Lqid",
+                "name": "Pivot & Transpose",
+                "type": "subtopic",
+                "description": "Pivoting turns unique values in one column into multiple new columns, reshaping data from a long format into a wide format, while transpose flips rows into columns and vice versa entirely. These operations are used to reshape data that arrives in a structure unsuited for reporting, such as a table where dates run down instead of across. Unpivoting, the reverse of pivoting, is often needed just as often when source data is already wide.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Pivot columns",
+                    "url": "https://learn.microsoft.com/en-gb/power-query/pivot-columns"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Transpose a table",
+                    "url": "https://learn.microsoft.com/en-us/power-query/transpose-table"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Transpose, pivot or unpivot in Power Query?",
+                    "url": "https://www.youtube.com/watch?v=hGj2axffxHo"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/pivot--transpose@zRLfg-lJsWkNsZoY-Lqid.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/removing-duplicates@jY6JPvP0QPjmnPL2tBUus.md"
+            ]
           },
           {
-            "id": "cqLk4gpK_Ex7SvpcR-EyX",
-            "name": "Handling Errors",
-            "type": "subtopic",
-            "description": "Power Query flags rows where a transformation fails, such as a text value that cannot convert to a number, and marks them as errors rather than stopping the whole query. These errors can be removed, replaced with a default value, or kept for review, depending on how the discrepancy should be handled. Left unresolved, errors will cause the refresh to fail once the query tries to load that data into the model.",
-            "resources": [
+            "id": "0aCRh2ZIYYiym68gywkMr",
+            "name": "Query Performance",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Dealing with errors in Power Query",
-                "url": "https://learn.microsoft.com/en-us/power-query/dealing-with-errors"
+                "id": "_vIHVUkhy9Cu-WGdg59fi",
+                "name": "Parameters & Functions",
+                "type": "subtopic",
+                "description": "Parameters in Power Query are named values that can be reused across queries, such as a file path or a date range, making it easy to update many queries at once by changing a single value. Custom functions extend this by wrapping a query into a reusable block of logic that can be called with different inputs. Together they support building scalable, repeatable transformation logic instead of duplicating steps.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Using parameters",
+                    "url": "https://learn.microsoft.com/en-us/power-query/power-query-query-parameters"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Use custom functions",
+                    "url": "https://learn.microsoft.com/en-us/power-query/custom-function"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Using Parameters in Power BI",
+                    "url": "https://www.youtube.com/watch?v=LDWEoWoabAI"
+                  },
+                  {
+                    "type": "video",
+                    "title": "ES  Skip navigation Search    Create    Power Query Custom Functions",
+                    "url": "https://www.youtube.com/watch?v=Z4HrYGZUjuw"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/parameters--functions@_vIHVUkhy9Cu-WGdg59fi.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Power BI - Introduction to Handling Errors",
-                "url": "https://www.youtube.com/watch?v=eC9U5nhQmno"
+                "id": "hsM7w-le7b_JXnAMB419W",
+                "name": "Query Folding",
+                "type": "subtopic",
+                "description": "Query folding is when Power Query translates its transformation steps back into a query that runs on the source system, such as SQL, instead of pulling all the raw data and transforming it locally. This pushes the processing work to the source, which is usually faster and lighter on memory. Not all steps fold, and checking the native query lets you see how far folding goes before it breaks.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Query folding guidance in Power BI Desktop",
+                    "url": "https://learn.microsoft.com/en-us/power-bi/guidance/power-query-folding"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Overview of query evaluation and query folding in Power Query",
+                    "url": "https://learn.microsoft.com/en-us/power-query/query-folding-basics"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Enable Query Folding for Native Queries in Power BI Desktop",
+                    "url": "https://www.youtube.com/watch?v=8hjdOCni_ZY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/query-folding@hsM7w-le7b_JXnAMB419W.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "qABASsA3GLMJITuKqH0Te",
+                "name": "Incremental Refresh",
+                "type": "subtopic",
+                "description": "Incremental refresh configures a dataset to only reload recent data on each refresh, rather than reprocessing the entire history every time. It uses date-based partitions defined with parameters, refreshing a small recent window while leaving older partitions untouched. This significantly cuts refresh time and resource use for large, growing datasets.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Configure incremental refresh and real-time data for Power BI",
+                    "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-overview"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Configuring Incremental Refresh in Power BI",
+                    "url": "https://www.youtube.com/watch?v=Kui_1G6kQIQ"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/incremental-refresh@qABASsA3GLMJITuKqH0Te.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/handling-errors@cqLk4gpK_Ex7SvpcR-EyX.md"
-          },
-          {
-            "id": "OpTzX9_MCnMIf3nwDrCO9",
-            "name": "Changing Text",
-            "type": "subtopic",
-            "description": "Power Query includes text transformation functions for tasks like changing case, trimming whitespace, extracting substrings, and replacing characters within a column. These operations are common when cleaning inconsistent text data coming from different sources, such as mismatched capitalization or extra spaces. Most of them are available directly from the ribbon without writing M code manually.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How to Transform Text with Power Query",
-                "url": "https://www.xelplus.com/excel-text-transformation-power-query/"
-              },
-              {
-                "type": "article",
-                "title": "Text Transformations in Power Query: 6 Steps You’ll Use Most Often",
-                "url": "https://analytics.bi/en/text-transformations-power-query/"
-              },
-              {
-                "type": "video",
-                "title": "Top 5 Text Transformations in Excel Using Power Query",
-                "url": "https://www.youtube.com/watch?v=IYIQnM5EqLs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/changing-text@OpTzX9_MCnMIf3nwDrCO9.md"
-          },
-          {
-            "id": "jji5jm1oT6SImHaBXwOJI",
-            "name": "Changing Numbers",
-            "type": "subtopic",
-            "description": "Numeric transformations in Power Query cover operations like rounding, changing sign, calculating percentages, and applying arithmetic between columns. These are used to standardize numeric data or derive new values, such as converting a raw amount into a percentage of total. The transformations can be applied to a single column or between multiple selected columns.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Use Power Query to transform data",
-                "url": "https://learn.microsoft.com/en-us/power-query/power-query-ui"
-              },
-              {
-                "type": "article",
-                "title": "Common Power Query transformations",
-                "url": "https://exceloffthegrid.com/power-query-basic-transformations/"
-              },
-              {
-                "type": "video",
-                "title": "ES  Skip navigation data transforamtion power query     Create   Avatar image Power Query for Beginners",
-                "url": "https://www.youtube.com/watch?v=QXzopqpHlSs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/changing-numbers@jji5jm1oT6SImHaBXwOJI.md"
-          },
-          {
-            "id": "vZQjiMqgSc2HtWCPYHvnb",
-            "name": "Changing Dates",
-            "type": "subtopic",
-            "description": "Date transformations in Power Query let users extract parts of a date, such as year, month, or day of week, and calculate differences between dates. This is useful for building time-based fields needed later in reports, like fiscal year or quarter. Power Query recognizes date and datetime types, which unlocks these transformation options in the ribbon.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Power Query: Get all dates between the Start and End date",
-                "url": "https://amitchandak.medium.com/power-query-get-all-dates-between-the-start-and-end-date-9ad6a84cf5f2"
-              },
-              {
-                "type": "video",
-                "title": "Extract Dates From Text Strings in Power Query",
-                "url": "https://www.youtube.com/watch?v=JJFiPtmqPAg"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/changing-dates@vZQjiMqgSc2HtWCPYHvnb.md"
-          },
-          {
-            "id": "X3j-XFMXKLjwvEMgDGbPQ",
-            "name": "Conditional Columns",
-            "type": "subtopic",
-            "description": "Conditional columns let a user create a new column based on if-then-else logic applied to existing columns, without writing M code by hand. The interface lets you define multiple conditions and their corresponding outputs, similar to a nested if statement. This is often used to bucket values into categories, such as labeling sales figures as high, medium, or low.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Add a conditional column (Power Query)",
-                "url": "https://support.microsoft.com/en-us/excel/add-a-conditional-column-power-query"
-              },
-              {
-                "type": "article",
-                "title": "Power BI Conditional Column Tutorial:No Custom Column Needed",
-                "url": "https://community.fabric.microsoft.com/t5/Power-BI-Community-Blog/Power-BI-Conditional-Column-Tutorial-No-Custom-Column-Needed/ba-p/4714707"
-              },
-              {
-                "type": "video",
-                "title": "How to Make Conditional Columns with Power Query",
-                "url": "https://www.youtube.com/watch?v=9ArQULV2u-k"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/conditional-columns@X3j-XFMXKLjwvEMgDGbPQ.md"
-          },
-          {
-            "id": "UPQ6Y-jT39MkrM1Rg3Dip",
-            "name": "Custom Columns",
-            "type": "subtopic",
-            "description": "Custom columns are new columns created in Power Query using a formula written in the M language, giving more flexibility than the conditional column builder. They allow calculations that reference multiple columns or use M functions not exposed in the standard UI. This is a common entry point for users moving from the graphical interface into writing M code directly.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Add a custom column in Power BI Desktop",
-                "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-add-custom-column"
-              },
-              {
-                "type": "video",
-                "title": "These 5 Custom Column Tricks Make Power Query Easier",
-                "url": "https://www.youtube.com/watch?v=FoW0iDGy7ag"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/custom-columns@UPQ6Y-jT39MkrM1Rg3Dip.md"
-          },
-          {
-            "id": "kKbKZ1sMBNaQUoX4Vf95j",
-            "name": "Splitting Columns",
-            "type": "subtopic",
-            "description": "Splitting columns divides a single column into multiple columns, based on a delimiter, a fixed number of characters, or by position. This is useful for cases like separating a full name into first and last name, or breaking apart a combined date and time field. Power Query keeps track of the split as one of the applied steps, so it can be adjusted later.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Split columns by delimiter",
-                "url": "https://learn.microsoft.com/en-us/power-query/split-columns-delimiter"
-              },
-              {
-                "type": "video",
-                "title": "Splitting Column Values in Power Query",
-                "url": "https://www.youtube.com/watch?v=BNlPAjsUn_o"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/splitting-columns@kKbKZ1sMBNaQUoX4Vf95j.md"
-          },
-          {
-            "id": "OUo1KyRG-Qc5I6GWZR2pp",
-            "name": "Joins",
-            "type": "subtopic",
-            "description": "Joins in Power Query, called merges, combine two tables side by side based on matching values in one or more key columns. Users choose a join type such as inner, left outer, right outer, or full outer, which determines which rows are kept when matches are found or missing. This is the main way to bring related tables together before loading them into the data model.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Shape and combine data in Power BI Desktop",
-                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data"
-              },
-              {
-                "type": "article",
-                "title": "Power Query Basics: Merge Queries",
-                "url": "https://iterationinsights.com/article/power-query-basics-merge-queries-and-the-differences-of-join-types/"
-              },
-              {
-                "type": "video",
-                "title": "Power Query Secrets: How to Merge Tables Like a Pro!",
-                "url": "https://www.youtube.com/watch?v=m4feUpoDpVI"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/joins@OUo1KyRG-Qc5I6GWZR2pp.md"
-          },
-          {
-            "id": "w0p5SoSn4_YGeARz7Ll0O",
-            "name": "Appending Tables",
-            "type": "subtopic",
-            "description": "Appending tables stacks two or more tables with matching columns on top of each other, combining their rows into a single table. It works like a union in SQL and is common when combining monthly files or data pulled from multiple similar sources into one query. Power Query handles column matching automatically when column names align, and flags mismatches when they don't.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Append queries",
-                "url": "https://learn.microsoft.com/en-us/power-query/append-queries"
-              },
-              {
-                "type": "video",
-                "title": "MERGE and APPEND inside POWER QUERY in Power BI",
-                "url": "https://www.youtube.com/watch?v=77POcNaCrcI"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/appending-tables@w0p5SoSn4_YGeARz7Ll0O.md"
-          },
-          {
-            "id": "zRLfg-lJsWkNsZoY-Lqid",
-            "name": "Pivot & Transpose",
-            "type": "subtopic",
-            "description": "Pivoting turns unique values in one column into multiple new columns, reshaping data from a long format into a wide format, while transpose flips rows into columns and vice versa entirely. These operations are used to reshape data that arrives in a structure unsuited for reporting, such as a table where dates run down instead of across. Unpivoting, the reverse of pivoting, is often needed just as often when source data is already wide.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Pivot columns",
-                "url": "https://learn.microsoft.com/en-gb/power-query/pivot-columns"
-              },
-              {
-                "type": "official",
-                "title": "Transpose a table",
-                "url": "https://learn.microsoft.com/en-us/power-query/transpose-table"
-              },
-              {
-                "type": "video",
-                "title": "Transpose, pivot or unpivot in Power Query?",
-                "url": "https://www.youtube.com/watch?v=hGj2axffxHo"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/pivot--transpose@zRLfg-lJsWkNsZoY-Lqid.md"
-          },
-          {
-            "id": "_vIHVUkhy9Cu-WGdg59fi",
-            "name": "Parameters & Functions",
-            "type": "subtopic",
-            "description": "Parameters in Power Query are named values that can be reused across queries, such as a file path or a date range, making it easy to update many queries at once by changing a single value. Custom functions extend this by wrapping a query into a reusable block of logic that can be called with different inputs. Together they support building scalable, repeatable transformation logic instead of duplicating steps.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Using parameters",
-                "url": "https://learn.microsoft.com/en-us/power-query/power-query-query-parameters"
-              },
-              {
-                "type": "official",
-                "title": "Use custom functions",
-                "url": "https://learn.microsoft.com/en-us/power-query/custom-function"
-              },
-              {
-                "type": "video",
-                "title": "Using Parameters in Power BI",
-                "url": "https://www.youtube.com/watch?v=LDWEoWoabAI"
-              },
-              {
-                "type": "video",
-                "title": "ES  Skip navigation Search    Create    Power Query Custom Functions",
-                "url": "https://www.youtube.com/watch?v=Z4HrYGZUjuw"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/parameters--functions@_vIHVUkhy9Cu-WGdg59fi.md"
-          },
-          {
-            "id": "hsM7w-le7b_JXnAMB419W",
-            "name": "Query Folding",
-            "type": "subtopic",
-            "description": "Query folding is when Power Query translates its transformation steps back into a query that runs on the source system, such as SQL, instead of pulling all the raw data and transforming it locally. This pushes the processing work to the source, which is usually faster and lighter on memory. Not all steps fold, and checking the native query lets you see how far folding goes before it breaks.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Query folding guidance in Power BI Desktop",
-                "url": "https://learn.microsoft.com/en-us/power-bi/guidance/power-query-folding"
-              },
-              {
-                "type": "official",
-                "title": "Overview of query evaluation and query folding in Power Query",
-                "url": "https://learn.microsoft.com/en-us/power-query/query-folding-basics"
-              },
-              {
-                "type": "video",
-                "title": "Enable Query Folding for Native Queries in Power BI Desktop",
-                "url": "https://www.youtube.com/watch?v=8hjdOCni_ZY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/query-folding@hsM7w-le7b_JXnAMB419W.md"
-          },
-          {
-            "id": "qABASsA3GLMJITuKqH0Te",
-            "name": "Incremental Refresh",
-            "type": "subtopic",
-            "description": "Incremental refresh configures a dataset to only reload recent data on each refresh, rather than reprocessing the entire history every time. It uses date-based partitions defined with parameters, refreshing a small recent window while leaving older partitions untouched. This significantly cuts refresh time and resource use for large, growing datasets.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Configure incremental refresh and real-time data for Power BI",
-                "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-overview"
-              },
-              {
-                "type": "video",
-                "title": "Configuring Incremental Refresh in Power BI",
-                "url": "https://www.youtube.com/watch?v=Kui_1G6kQIQ"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/incremental-refresh@qABASsA3GLMJITuKqH0Te.md"
+            ]
           }
         ]
       },
@@ -786,7 +889,9 @@
                 "url": "https://www.youtube.com/watch?v=OlDfVnrmnLg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/applied-steps@Jys8-vqPreAJwjDUWqqNF.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/applied-steps@Jys8-vqPreAJwjDUWqqNF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_tWAz0_PV6Pr5Ey2ZXYL1",
@@ -810,7 +915,9 @@
                 "url": "https://www.youtube.com/watch?v=pSCc_T7k328"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/data-profiling@_tWAz0_PV6Pr5Ey2ZXYL1.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/data-profiling@_tWAz0_PV6Pr5Ey2ZXYL1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -861,7 +968,9 @@
                 "url": "https://www.youtube.com/watch?v=gqPheAPEuH8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/advanced-editor@U8ZpXzVc0xFZ-A74a_yuZ.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/advanced-editor@U8ZpXzVc0xFZ-A74a_yuZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -902,7 +1011,9 @@
                 "url": "https://www.youtube.com/watch?v=PMSN7evZFFE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/facts--dimensions@UsiTXTUkAS5w6IeJ0nBJ-.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/facts--dimensions@UsiTXTUkAS5w6IeJ0nBJ-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DZuLutU2cYCJZwR39xD8c",
@@ -931,7 +1042,9 @@
                 "url": "https://www.youtube.com/watch?v=e984cS23nrk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/star-vs-snowflake-schema@DZuLutU2cYCJZwR39xD8c.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/star-vs-snowflake-schema@DZuLutU2cYCJZwR39xD8c.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "hGinFciFMdIiFv7VQle_e",
@@ -950,7 +1063,9 @@
                 "url": "https://www.youtube.com/watch?v=hiSHHTcA8Os"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/granularity@hGinFciFMdIiFv7VQle_e.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/granularity@hGinFciFMdIiFv7VQle_e.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -996,7 +1111,9 @@
                 "url": "https://www.youtube.com/watch?v=4IwfJq8XYBw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/relationships-and-cardinality@hcCWf3YQqD6YeF_aBa2zI.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/relationships-and-cardinality@hcCWf3YQqD6YeF_aBa2zI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bLEolh1ucu3NzdYcB8gei",
@@ -1020,7 +1137,9 @@
                 "url": "https://www.youtube.com/watch?v=30OrlrKbXsw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/cross-filter-direction@bLEolh1ucu3NzdYcB8gei.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/cross-filter-direction@bLEolh1ucu3NzdYcB8gei.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1066,7 +1185,9 @@
                 "url": "https://www.youtube.com/watch?v=RMXYXpZOKTM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/calculated-tables--columns@wZlFN13uuS1MxAoLVoDZU.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/calculated-tables--columns@wZlFN13uuS1MxAoLVoDZU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wbhSoBY2VjAUcnAYT8wm4",
@@ -1090,7 +1211,9 @@
                 "url": "https://www.youtube.com/watch?v=1Y0T_KkeWyQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/hierarchies@wbhSoBY2VjAUcnAYT8wm4.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/hierarchies@wbhSoBY2VjAUcnAYT8wm4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KeyKztPuGQrZpG4WR3VOX",
@@ -1114,7 +1237,9 @@
                 "url": "https://www.youtube.com/watch?v=EhGF372t0sU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/aggregations@KeyKztPuGQrZpG4WR3VOX.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/aggregations@KeyKztPuGQrZpG4WR3VOX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1160,7 +1285,9 @@
                 "url": "https://www.youtube.com/watch?v=VFcDCls0la4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/performance-analyzer@c4Ca3HejJsCRvu2BgHzlP.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/performance-analyzer@c4Ca3HejJsCRvu2BgHzlP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1192,7 +1319,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/power-bi/content/fundamentals@cGLTxw45dWZbKwJ_L7v2z.md",
-        "subtopics_count": 10,
+        "subtopics_count": 5,
         "subtopics": [
           {
             "id": "5p5jlratghZBaZUe0zfgi",
@@ -1211,7 +1338,161 @@
                 "url": "https://www.youtube.com/watch?v=UuMX_RAIZXE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/dax-vs-m-language@5p5jlratghZBaZUe0zfgi.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/dax-vs-m-language@5p5jlratghZBaZUe0zfgi.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "4v_QOSwita3Fm2jR09u1J",
+            "name": "Function Families",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 6,
+            "subtopics": [
+              {
+                "id": "LCVPHuTjQ4zTi0tT77h9y",
+                "name": "Aggregation Functions",
+                "type": "subtopic",
+                "description": "Aggregation functions in DAX, such as SUM, AVERAGE, COUNT, and MIN, combine values across rows into a single number. They form the basis of most measures, often summing or averaging a column across whatever rows are visible given the current filter context. Many other DAX functions build on top of these basic aggregations.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Aggregation functions in DAX",
+                    "url": "https://learn.microsoft.com/en-us/dax/aggregation-functions-dax"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Aggregation Functions",
+                    "url": "https://dax.guide/functions/aggregation/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "DAX Aggregate Functions in Power BI",
+                    "url": "https://www.youtube.com/watch?v=MCWfdifGMpg"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/aggregation-functions@LCVPHuTjQ4zTi0tT77h9y.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "KVOe7N9mpfqbAvF_bQxYB",
+                "name": "Logical Functions",
+                "type": "subtopic",
+                "description": "Logical functions in DAX, such as IF, AND, OR, and SWITCH, evaluate conditions and return different results depending on whether they are true or false. They are used to build conditional logic within a measure or calculated column, similar to conditional statements in other languages. SWITCH is commonly preferred over nested IF statements once there are more than two or three conditions.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Logical functions in DAX",
+                    "url": "https://learn.microsoft.com/en-us/dax/logical-functions-dax"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Logical functions",
+                    "url": "https://dax.guide/functions/logical/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Power BI DAX Part 3 - Logical Functions",
+                    "url": "https://www.youtube.com/watch?v=YTdxWVyYNkU"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/logical-functions@KVOe7N9mpfqbAvF_bQxYB.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "M8BbSZ4EqJSHN_2CMUIlG",
+                "name": "Window Functions",
+                "type": "subtopic",
+                "description": "Window functions in DAX, like OFFSET, INDEX, and WINDOW, let a calculation reference rows relative to the current one within an ordered set, such as the previous row or a moving range. They are newer additions to DAX aimed at simplifying calculations that previously needed more complex workarounds, such as running totals or period-over-period comparisons. They work closely with the concept of ordering and partitioning within a table.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "WINDOW function",
+                    "url": "https://learn.microsoft.com/dax/window-function-dax"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Introducing window functions in DAX",
+                    "url": "https://www.sqlbi.com/articles/introducing-window-functions-in-dax/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "WINDOW Function in ACTION I Examples in Power BI",
+                    "url": "https://www.youtube.com/watch?v=eib5X5xRlz8"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/window-functions@M8BbSZ4EqJSHN_2CMUIlG.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "GdcUdMG8C62PeVe0hJaJZ",
+                "name": "Iterator Functions",
+                "type": "subtopic",
+                "description": "Iterator functions in DAX, such as SUMX, AVERAGEX, and FILTER, loop through a table row by row, evaluating an expression for each row before combining the results. They are needed when a calculation cannot be expressed as a simple aggregation of an existing column, such as multiplying quantity by price for each row before summing. Iterators are one of the more powerful but performance-sensitive tools in DAX.",
+                "resources": [
+                  {
+                    "type": "video",
+                    "title": "Power BI DAX for Beginners #8: Iterative Functions",
+                    "url": "https://www.youtube.com/watch?v=nBmsDnvh-Ao"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/iterator-functions@GdcUdMG8C62PeVe0hJaJZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "AAob1TBlOoIoEELilx3Mc",
+                "name": "Time Intelligence",
+                "type": "subtopic",
+                "description": "Time intelligence functions in DAX, such as DATEADD, SAMEPERIODLASTYEAR, and TOTALYTD, handle calculations that compare or accumulate values across time periods. They rely on having a proper date table marked as such in the model, with a continuous range of dates. These functions are behind common report needs like year-over-year growth or year-to-date totals.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Time intelligence functions in DAX",
+                    "url": "https://learn.microsoft.com/en-us/dax/time-intelligence-functions-dax"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Time Intelligence Functions",
+                    "url": "https://dax.guide/functions/time-intelligence/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Power BI DAX Time Intelligence",
+                    "url": "https://www.youtube.com/playlist?list=PLzN99cpDw6oCrTUbV7qlHlea1Yz2Z1rR9"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/time-intelligence@AAob1TBlOoIoEELilx3Mc.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "D-LFpO99i1MttUa1MTmCa",
+                "name": "Table Manipulation",
+                "type": "subtopic",
+                "description": "Table manipulation functions in DAX, such as FILTER, ALL, VALUES, and SUMMARIZE, return or transform entire tables rather than single values, which are then used inside other functions like calculations or iterators. They let a formula work with a modified version of a table, such as removing a filter or reducing it to unique values. These functions are central to writing more advanced DAX beyond simple aggregations.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Table manipulation functions",
+                    "url": "https://learn.microsoft.com/en-us/dax/table-manipulation-functions-dax"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Table manipulation functions in DAX",
+                    "url": "https://dax.guide/functions/table-manipulation/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/power-bi/content/table-manipulation@D-LFpO99i1MttUa1MTmCa.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
             "id": "Qu-C8yEqb30gZ0Po8Vmbt",
@@ -1230,31 +1511,9 @@
                 "url": "https://www.youtube.com/watch?v=-QOtL_LOc40"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/dax-syntax@Qu-C8yEqb30gZ0Po8Vmbt.md"
-          },
-          {
-            "id": "LCVPHuTjQ4zTi0tT77h9y",
-            "name": "Aggregation Functions",
-            "type": "subtopic",
-            "description": "Aggregation functions in DAX, such as SUM, AVERAGE, COUNT, and MIN, combine values across rows into a single number. They form the basis of most measures, often summing or averaging a column across whatever rows are visible given the current filter context. Many other DAX functions build on top of these basic aggregations.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Aggregation functions in DAX",
-                "url": "https://learn.microsoft.com/en-us/dax/aggregation-functions-dax"
-              },
-              {
-                "type": "article",
-                "title": "Aggregation Functions",
-                "url": "https://dax.guide/functions/aggregation/"
-              },
-              {
-                "type": "video",
-                "title": "DAX Aggregate Functions in Power BI",
-                "url": "https://www.youtube.com/watch?v=MCWfdifGMpg"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/aggregation-functions@LCVPHuTjQ4zTi0tT77h9y.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/dax-syntax@Qu-C8yEqb30gZ0Po8Vmbt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dKb9XtExyQqapcR9ccafy",
@@ -1278,31 +1537,9 @@
                 "url": "https://www.youtube.com/watch?v=ePPi1LLX0sA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/columns-vs-measures@dKb9XtExyQqapcR9ccafy.md"
-          },
-          {
-            "id": "KVOe7N9mpfqbAvF_bQxYB",
-            "name": "Logical Functions",
-            "type": "subtopic",
-            "description": "Logical functions in DAX, such as IF, AND, OR, and SWITCH, evaluate conditions and return different results depending on whether they are true or false. They are used to build conditional logic within a measure or calculated column, similar to conditional statements in other languages. SWITCH is commonly preferred over nested IF statements once there are more than two or three conditions.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Logical functions in DAX",
-                "url": "https://learn.microsoft.com/en-us/dax/logical-functions-dax"
-              },
-              {
-                "type": "article",
-                "title": "Logical functions",
-                "url": "https://dax.guide/functions/logical/"
-              },
-              {
-                "type": "video",
-                "title": "Power BI DAX Part 3 - Logical Functions",
-                "url": "https://www.youtube.com/watch?v=YTdxWVyYNkU"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/logical-functions@KVOe7N9mpfqbAvF_bQxYB.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/columns-vs-measures@dKb9XtExyQqapcR9ccafy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_wnNd9mVmSFRgeODlkwX0",
@@ -1326,88 +1563,9 @@
                 "url": "https://www.youtube.com/watch?v=JG8ngbSe5WU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/variables-in-dax@_wnNd9mVmSFRgeODlkwX0.md"
-          },
-          {
-            "id": "M8BbSZ4EqJSHN_2CMUIlG",
-            "name": "Window Functions",
-            "type": "subtopic",
-            "description": "Window functions in DAX, like OFFSET, INDEX, and WINDOW, let a calculation reference rows relative to the current one within an ordered set, such as the previous row or a moving range. They are newer additions to DAX aimed at simplifying calculations that previously needed more complex workarounds, such as running totals or period-over-period comparisons. They work closely with the concept of ordering and partitioning within a table.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "WINDOW function",
-                "url": "https://learn.microsoft.com/dax/window-function-dax"
-              },
-              {
-                "type": "article",
-                "title": "Introducing window functions in DAX",
-                "url": "https://www.sqlbi.com/articles/introducing-window-functions-in-dax/"
-              },
-              {
-                "type": "video",
-                "title": "WINDOW Function in ACTION I Examples in Power BI",
-                "url": "https://www.youtube.com/watch?v=eib5X5xRlz8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/window-functions@M8BbSZ4EqJSHN_2CMUIlG.md"
-          },
-          {
-            "id": "GdcUdMG8C62PeVe0hJaJZ",
-            "name": "Iterator Functions",
-            "type": "subtopic",
-            "description": "Iterator functions in DAX, such as SUMX, AVERAGEX, and FILTER, loop through a table row by row, evaluating an expression for each row before combining the results. They are needed when a calculation cannot be expressed as a simple aggregation of an existing column, such as multiplying quantity by price for each row before summing. Iterators are one of the more powerful but performance-sensitive tools in DAX.",
-            "resources": [
-              {
-                "type": "video",
-                "title": "Power BI DAX for Beginners #8: Iterative Functions",
-                "url": "https://www.youtube.com/watch?v=nBmsDnvh-Ao"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/iterator-functions@GdcUdMG8C62PeVe0hJaJZ.md"
-          },
-          {
-            "id": "AAob1TBlOoIoEELilx3Mc",
-            "name": "Time Intelligence",
-            "type": "subtopic",
-            "description": "Time intelligence functions in DAX, such as DATEADD, SAMEPERIODLASTYEAR, and TOTALYTD, handle calculations that compare or accumulate values across time periods. They rely on having a proper date table marked as such in the model, with a continuous range of dates. These functions are behind common report needs like year-over-year growth or year-to-date totals.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Time intelligence functions in DAX",
-                "url": "https://learn.microsoft.com/en-us/dax/time-intelligence-functions-dax"
-              },
-              {
-                "type": "article",
-                "title": "Time Intelligence Functions",
-                "url": "https://dax.guide/functions/time-intelligence/"
-              },
-              {
-                "type": "video",
-                "title": "Power BI DAX Time Intelligence",
-                "url": "https://www.youtube.com/playlist?list=PLzN99cpDw6oCrTUbV7qlHlea1Yz2Z1rR9"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/time-intelligence@AAob1TBlOoIoEELilx3Mc.md"
-          },
-          {
-            "id": "D-LFpO99i1MttUa1MTmCa",
-            "name": "Table Manipulation",
-            "type": "subtopic",
-            "description": "Table manipulation functions in DAX, such as FILTER, ALL, VALUES, and SUMMARIZE, return or transform entire tables rather than single values, which are then used inside other functions like calculations or iterators. They let a formula work with a modified version of a table, such as removing a filter or reducing it to unique values. These functions are central to writing more advanced DAX beyond simple aggregations.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Table manipulation functions",
-                "url": "https://learn.microsoft.com/en-us/dax/table-manipulation-functions-dax"
-              },
-              {
-                "type": "article",
-                "title": "Table manipulation functions in DAX",
-                "url": "https://dax.guide/functions/table-manipulation/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/table-manipulation@D-LFpO99i1MttUa1MTmCa.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/variables-in-dax@_wnNd9mVmSFRgeODlkwX0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1442,7 +1600,9 @@
                 "url": "https://www.youtube.com/watch?v=eWJ9S7jUDjQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/row-vs-filter-context@-d1bS8y-wYnVO8z-Ogb4M.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/row-vs-filter-context@-d1bS8y-wYnVO8z-Ogb4M.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "BAeCGnhY7PBsazIY5ywf4",
@@ -1466,7 +1626,9 @@
                 "url": "https://www.youtube.com/watch?v=T_hFMQdqhzY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/calculate-function@BAeCGnhY7PBsazIY5ywf4.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/calculate-function@BAeCGnhY7PBsazIY5ywf4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "62ecBOZmKPo56zRGd6GIQ",
@@ -1490,7 +1652,9 @@
                 "url": "https://www.youtube.com/watch?v=lMuDz6ViU1w"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/context-transition@62ecBOZmKPo56zRGd6GIQ.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/context-transition@62ecBOZmKPo56zRGd6GIQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1517,7 +1681,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/power-bi/content/advanced-dax@4j2CBBcLxNnE060LMnDTc.md",
-        "subtopics_count": 10,
+        "subtopics_count": 8,
         "subtopics": [
           {
             "id": "GXZhNdoiWoKZW9RstuxW1",
@@ -1536,7 +1700,9 @@
                 "url": "https://www.youtube.com/watch?v=pEgOdBkWv4k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/quick-measures@GXZhNdoiWoKZW9RstuxW1.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/quick-measures@GXZhNdoiWoKZW9RstuxW1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WXIP35S-K0YPPrArosikv",
@@ -1565,7 +1731,9 @@
                 "url": "https://www.youtube.com/watch?v=EiIAkJ9R7mM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/bar--column-charts@WXIP35S-K0YPPrArosikv.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/bar--column-charts@WXIP35S-K0YPPrArosikv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-dhGA5wUkvycHl30ZZELE",
@@ -1589,7 +1757,9 @@
                 "url": "https://www.youtube.com/watch?v=IR62y8Q_k-o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/field-parameters@-dhGA5wUkvycHl30ZZELE.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/field-parameters@-dhGA5wUkvycHl30ZZELE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JEudXkog9r0szwd6RMw1L",
@@ -1618,7 +1788,9 @@
                 "url": "https://www.youtube.com/watch?v=NTDjUXKX-0g"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/line--area-charts@JEudXkog9r0szwd6RMw1L.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/line--area-charts@JEudXkog9r0szwd6RMw1L.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Dh8pL5URdr-Fv6sVW3HfB",
@@ -1637,7 +1809,9 @@
                 "url": "https://www.youtube.com/watch?v=ZWooHoshXv4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/visual-calculations@Dh8pL5URdr-Fv6sVW3HfB.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/visual-calculations@Dh8pL5URdr-Fv6sVW3HfB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EJKYzHDG2YQawVpiqL-jU",
@@ -1661,7 +1835,9 @@
                 "url": "https://www.youtube.com/watch?v=2VJxYNIzjuM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/pie--donut-charts@EJKYzHDG2YQawVpiqL-jU.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/pie--donut-charts@EJKYzHDG2YQawVpiqL-jU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6oh5sxYqEqm-jSBNmCnmF",
@@ -1669,36 +1845,9 @@
             "type": "subtopic",
             "description": "Calculation groups let a set of DAX logic, such as time intelligence patterns, be applied to any measure without duplicating that logic per measure. Instead of writing separate year-over-year measures for every existing measure, a single calculation item can apply that transformation to whichever measure a user selects. They are set up through external tools like Tabular Editor rather than Power BI Desktop directly.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/calculation-groups@6oh5sxYqEqm-jSBNmCnmF.md"
-          },
-          {
-            "id": "urDcAE6II1QzHBydBQ0o9",
-            "name": "Scatter & Bubble Charts",
-            "type": "subtopic",
-            "description": "Scatter charts plot two numeric values against each other on separate axes, revealing relationships or clusters between the two variables. Bubble charts extend this by adding a third dimension, represented by the size of each point. Both are used to explore correlation or distribution patterns that bar or line charts cannot easily show.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Scatter charts, bubble charts, and dot plot charts in Power BI",
-                "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-scatter"
-              },
-              {
-                "type": "article",
-                "title": "Building better scatterplots in Power BI reports",
-                "url": "https://tabulareditor.com/blog/building-better-scatterplots-in-power-bi-reports"
-              },
-              {
-                "type": "video",
-                "title": "Bubble/Scatterplot Custom Visual",
-                "url": "https://www.youtube.com/watch?v=AkF-UgkrmyY"
-              },
-              {
-                "type": "video",
-                "title": "ES  Skip navigation scatter plot powerbi     Create   Avatar image Scatter Plot in Power BI",
-                "url": "https://www.youtube.com/watch?v=6l0JexRBI1c"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/scatter--bubble-charts@urDcAE6II1QzHBydBQ0o9.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/calculation-groups@6oh5sxYqEqm-jSBNmCnmF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "mNUrtl-18tZnFSaMSnJm3",
@@ -1722,31 +1871,9 @@
                 "url": "https://www.youtube.com/watch?v=TgAXt1ifdhs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/dax-performance@mNUrtl-18tZnFSaMSnJm3.md"
-          },
-          {
-            "id": "_3_v4fesS5FZTj-KAeSDq",
-            "name": "Combination Charts",
-            "type": "subtopic",
-            "description": "Combination charts overlay two different visual types, most commonly a column chart and a line chart, sharing the same category axis but often using separate value axes. They are used to compare two related measures with different scales, such as sales volume and profit margin, in a single visual. This avoids forcing two very different metrics onto the same axis scale.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Create and use combo charts in Power BI",
-                "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-combo-chart?tabs=powerbi-desktop"
-              },
-              {
-                "type": "article",
-                "title": "Power BI Combo Chart: Tips & Best Features",
-                "url": "https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/blog/power-bi-combo-chart-tips-best-features"
-              },
-              {
-                "type": "video",
-                "title": "Power BI Combo Chart",
-                "url": "https://www.youtube.com/watch?v=vQaoJFL3l40"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/combination-charts@_3_v4fesS5FZTj-KAeSDq.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/dax-performance@mNUrtl-18tZnFSaMSnJm3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1778,8 +1905,65 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/power-bi/content/visualization-basics@HUB5LvEuE_qxOjfxu-_mE.md",
-        "subtopics_count": 6,
+        "subtopics_count": 8,
         "subtopics": [
+          {
+            "id": "urDcAE6II1QzHBydBQ0o9",
+            "name": "Scatter & Bubble Charts",
+            "type": "subtopic",
+            "description": "Scatter charts plot two numeric values against each other on separate axes, revealing relationships or clusters between the two variables. Bubble charts extend this by adding a third dimension, represented by the size of each point. Both are used to explore correlation or distribution patterns that bar or line charts cannot easily show.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Scatter charts, bubble charts, and dot plot charts in Power BI",
+                "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-scatter"
+              },
+              {
+                "type": "article",
+                "title": "Building better scatterplots in Power BI reports",
+                "url": "https://tabulareditor.com/blog/building-better-scatterplots-in-power-bi-reports"
+              },
+              {
+                "type": "video",
+                "title": "Bubble/Scatterplot Custom Visual",
+                "url": "https://www.youtube.com/watch?v=AkF-UgkrmyY"
+              },
+              {
+                "type": "video",
+                "title": "ES  Skip navigation scatter plot powerbi     Create   Avatar image Scatter Plot in Power BI",
+                "url": "https://www.youtube.com/watch?v=6l0JexRBI1c"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/scatter--bubble-charts@urDcAE6II1QzHBydBQ0o9.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "_3_v4fesS5FZTj-KAeSDq",
+            "name": "Combination Charts",
+            "type": "subtopic",
+            "description": "Combination charts overlay two different visual types, most commonly a column chart and a line chart, sharing the same category axis but often using separate value axes. They are used to compare two related measures with different scales, such as sales volume and profit margin, in a single visual. This avoids forcing two very different metrics onto the same axis scale.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Create and use combo charts in Power BI",
+                "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-combo-chart?tabs=powerbi-desktop"
+              },
+              {
+                "type": "article",
+                "title": "Power BI Combo Chart: Tips & Best Features",
+                "url": "https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/blog/power-bi-combo-chart-tips-best-features"
+              },
+              {
+                "type": "video",
+                "title": "Power BI Combo Chart",
+                "url": "https://www.youtube.com/watch?v=vQaoJFL3l40"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/combination-charts@_3_v4fesS5FZTj-KAeSDq.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "P0XqGgwc6zKGRyXwnvMwD",
             "name": "Gauges, Cards, & KPIs",
@@ -1812,7 +1996,9 @@
                 "url": "https://www.youtube.com/watch?v=AnrGyoYsTmI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/gauges-cards--kpis@P0XqGgwc6zKGRyXwnvMwD.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/gauges-cards--kpis@P0XqGgwc6zKGRyXwnvMwD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "8-t2HOH7KFWV79gpfhjXn",
@@ -1836,7 +2022,9 @@
                 "url": "https://www.youtube.com/watch?v=E-dlpelYJWo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/design-principles@8-t2HOH7KFWV79gpfhjXn.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/design-principles@8-t2HOH7KFWV79gpfhjXn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fwUzkj_cd8tQWM_du19i1",
@@ -1865,7 +2053,9 @@
                 "url": "https://www.youtube.com/watch?v=97M-D5WXaqI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/matrix--table-visuals@fwUzkj_cd8tQWM_du19i1.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/matrix--table-visuals@fwUzkj_cd8tQWM_du19i1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Qido2kFzf3UoW3LLu3QT-",
@@ -1889,7 +2079,9 @@
                 "url": "https://www.youtube.com/watch?v=gNCTjoCu6k4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/accessibility@Qido2kFzf3UoW3LLu3QT-.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/accessibility@Qido2kFzf3UoW3LLu3QT-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VWVF938IZeNS2E1SrS29l",
@@ -1913,7 +2105,9 @@
                 "url": "https://www.youtube.com/watch?v=LFMn3wnruNc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/maps@VWVF938IZeNS2E1SrS29l.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/maps@VWVF938IZeNS2E1SrS29l.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CJnGG-Q_I_pfS7YsoCR0a",
@@ -1937,7 +2131,9 @@
                 "url": "https://www.youtube.com/watch?v=h9HDQaGwWtk&list=PLcwrIWK7WBcQOIFCFPAIpQpWPBCj5BCab"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/custom-visuals@CJnGG-Q_I_pfS7YsoCR0a.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/custom-visuals@CJnGG-Q_I_pfS7YsoCR0a.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1948,7 +2144,7 @@
         "description": "Formatting and filtering covers the set of features used to control how a report looks and what data it displays, including themes, conditional formatting, sorting, and slicers. These tools shape both the visual presentation and the interactivity available to report viewers. They are typically applied after the core visuals and data model are already in place.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/power-bi/content/formatting--filtering@OSDmzLdt4rdVU2TFKazh1.md",
-        "subtopics_count": 7,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "o65MsjBczUD_m7DYBFr_y",
@@ -1972,7 +2168,9 @@
                 "url": "https://www.youtube.com/watch?v=O7aL5v1r6Q4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/drill-through--drill-down@o65MsjBczUD_m7DYBFr_y.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/drill-through--drill-down@o65MsjBczUD_m7DYBFr_y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "PzH_pS8MZsfWNia-6LHYv",
@@ -2001,7 +2199,9 @@
                 "url": "https://www.youtube.com/watch?v=cYwioeHu_OU&list=PL7YWaPR3USciiD4I-f-NPEoGd6z6C5Lfl"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/formatting--themes@PzH_pS8MZsfWNia-6LHYv.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/formatting--themes@PzH_pS8MZsfWNia-6LHYv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Tu0lUGB1a-b89x1qnM7Qc",
@@ -2025,7 +2225,9 @@
                 "url": "https://www.youtube.com/watch?v=_HTF7Ph7Eqc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/bookmarks@Tu0lUGB1a-b89x1qnM7Qc.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/bookmarks@Tu0lUGB1a-b89x1qnM7Qc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Q39QDWBQlZ0CXJby4-nBw",
@@ -2049,31 +2251,9 @@
                 "url": "https://www.youtube.com/watch?v=m0h3Ghl6mgY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/conditional-formatting@Q39QDWBQlZ0CXJby4-nBw.md"
-          },
-          {
-            "id": "bBLfNjB3IC2oNgQN4SSoE",
-            "name": "Buttons & Navigation",
-            "type": "subtopic",
-            "description": "Buttons in Power BI can trigger actions like navigating to another page, applying a bookmark, or opening a web URL, letting report builders create custom navigation beyond the default page tabs. This is commonly used to build a menu-style navigation system across a multi-page report. Buttons can also be set up as visual toggles combined with bookmarks to show or hide specific elements.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Create and configure buttons in Power BI reports",
-                "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-buttons?tabs=powerbi-desktop"
-              },
-              {
-                "type": "official",
-                "title": "Customize buttons in Power BI reports",
-                "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-customize-button"
-              },
-              {
-                "type": "video",
-                "title": "Make navigation easier with Power BI buttons",
-                "url": "https://www.youtube.com/watch?v=nCEMM6Ryees"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/buttons--navigation@bBLfNjB3IC2oNgQN4SSoE.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/conditional-formatting@Q39QDWBQlZ0CXJby4-nBw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "a30f0oSq96dKAjTSQChcC",
@@ -2097,7 +2277,9 @@
                 "url": "https://www.youtube.com/watch?v=4xapOrfLvbg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/sorting-data@a30f0oSq96dKAjTSQChcC.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/sorting-data@a30f0oSq96dKAjTSQChcC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YyJm9VI23xGcYgICxkoO0",
@@ -2121,7 +2303,9 @@
                 "url": "https://www.youtube.com/watch?v=kQ-yUKE_KHE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/slicers-and-filters@YyJm9VI23xGcYgICxkoO0.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/slicers-and-filters@YyJm9VI23xGcYgICxkoO0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2141,6 +2325,32 @@
         "subtopics_count": 2,
         "subtopics": [
           {
+            "id": "bBLfNjB3IC2oNgQN4SSoE",
+            "name": "Buttons & Navigation",
+            "type": "subtopic",
+            "description": "Buttons in Power BI can trigger actions like navigating to another page, applying a bookmark, or opening a web URL, letting report builders create custom navigation beyond the default page tabs. This is commonly used to build a menu-style navigation system across a multi-page report. Buttons can also be set up as visual toggles combined with bookmarks to show or hide specific elements.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Create and configure buttons in Power BI reports",
+                "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-buttons?tabs=powerbi-desktop"
+              },
+              {
+                "type": "official",
+                "title": "Customize buttons in Power BI reports",
+                "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-customize-button"
+              },
+              {
+                "type": "video",
+                "title": "Make navigation easier with Power BI buttons",
+                "url": "https://www.youtube.com/watch?v=nCEMM6Ryees"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/buttons--navigation@bBLfNjB3IC2oNgQN4SSoE.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
             "id": "M8o5vABTrb0yRSctPX7oG",
             "name": "Explore Feature",
             "type": "subtopic",
@@ -2152,8 +2362,21 @@
                 "url": "https://learn.microsoft.com/en-us/power-bi/explore-reports/explore-data-service"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/explore-feature@M8o5vABTrb0yRSctPX7oG.md"
-          },
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/explore-feature@M8o5vABTrb0yRSctPX7oG.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "js9MnMCVPoWWb9wLf_csS",
+        "name": "Advanced Visuals",
+        "type": "topic",
+        "description": "Advanced visuals are analytical tools that go beyond standard charts, including the decomposition tree, key influencers, small multiples, and the Q&A visual, each aimed at deeper exploration of the data rather than simple presentation. They are often used for exploratory analysis rather than a fixed, polished dashboard. These visuals tend to have more configuration options than basic chart types.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/power-bi/content/advanced-visuals@js9MnMCVPoWWb9wLf_csS.md",
+        "subtopics_count": 6,
+        "subtopics": [
           {
             "id": "SIMaqZRxACO-f25KPPbFl",
             "name": "Custom Tooltips",
@@ -2181,19 +2404,10 @@
                 "url": "https://www.youtube.com/watch?v=agXP27yKduI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/custom-tooltips@SIMaqZRxACO-f25KPPbFl.md"
-          }
-        ]
-      },
-      {
-        "id": "js9MnMCVPoWWb9wLf_csS",
-        "name": "Advanced Visuals",
-        "type": "topic",
-        "description": "Advanced visuals are analytical tools that go beyond standard charts, including the decomposition tree, key influencers, small multiples, and the Q&A visual, each aimed at deeper exploration of the data rather than simple presentation. They are often used for exploratory analysis rather than a fixed, polished dashboard. These visuals tend to have more configuration options than basic chart types.",
-        "resources": [],
-        "file_path": "developer-roadmap/roadmaps/power-bi/content/advanced-visuals@js9MnMCVPoWWb9wLf_csS.md",
-        "subtopics_count": 5,
-        "subtopics": [
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/custom-tooltips@SIMaqZRxACO-f25KPPbFl.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "vTsD-oWa4vwEhfC5-Ax5Y",
             "name": "Cross-filtering",
@@ -2216,7 +2430,9 @@
                 "url": "https://www.youtube.com/watch?v=-fwjqEWbr1c"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/cross-filtering@vTsD-oWa4vwEhfC5-Ax5Y.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/cross-filtering@vTsD-oWa4vwEhfC5-Ax5Y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Ru7LLosG6dqriZjqf_eIs",
@@ -2240,7 +2456,9 @@
                 "url": "https://www.youtube.com/watch?v=5_wN-kUIcGs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/decomposition-tree@Ru7LLosG6dqriZjqf_eIs.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/decomposition-tree@Ru7LLosG6dqriZjqf_eIs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "uoFvTcMDDIkYHz_d7ZeX-",
@@ -2264,7 +2482,9 @@
                 "url": "https://www.youtube.com/watch?v=jTB3ror4QF8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/key-influencers@uoFvTcMDDIkYHz_d7ZeX-.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/key-influencers@uoFvTcMDDIkYHz_d7ZeX-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7EqmxQwupr7b3Op_tovNz",
@@ -2288,7 +2508,9 @@
                 "url": "https://www.youtube.com/watch?v=fYogZa7xOa8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/small-multiples@7EqmxQwupr7b3Op_tovNz.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/small-multiples@7EqmxQwupr7b3Op_tovNz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "y4hjUDSyg1ewVtU9_IsU4",
@@ -2312,7 +2534,9 @@
                 "url": "https://www.youtube.com/watch?v=2YT5X3-nfMA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/qa-visual@y4hjUDSyg1ewVtU9_IsU4.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/qa-visual@y4hjUDSyg1ewVtU9_IsU4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2348,7 +2572,9 @@
                 "url": "https://www.youtube.com/watch?v=1fS8MvcaBGE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/workspaces@wmtOYjTkzKhIRlh9n__PZ.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/workspaces@wmtOYjTkzKhIRlh9n__PZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "u1-WPMNoMpouC5EuKDgk6",
@@ -2372,7 +2598,9 @@
                 "url": "https://www.youtube.com/watch?v=fqKheazewbo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/dashboards-vs-reports@u1-WPMNoMpouC5EuKDgk6.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/dashboards-vs-reports@u1-WPMNoMpouC5EuKDgk6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ryiwhhGAviD-QFlD-c5If",
@@ -2396,7 +2624,9 @@
                 "url": "https://www.youtube.com/watch?v=58rLq8MF2mc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/paginated-reports-rdl@ryiwhhGAviD-QFlD-c5If.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/paginated-reports-rdl@ryiwhhGAviD-QFlD-c5If.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "rNxp8buIqSZNd6_FDKWmf",
@@ -2425,7 +2655,9 @@
                 "url": "https://www.youtube.com/watch?v=FtsYYZpH6S4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/publishing-reports@rNxp8buIqSZNd6_FDKWmf.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/publishing-reports@rNxp8buIqSZNd6_FDKWmf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-EIV_JN7sgNvZ0ycoEq-q",
@@ -2449,7 +2681,9 @@
                 "url": "https://www.youtube.com/watch?v=d2b2btjoMhQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/sharing--permissions@-EIV_JN7sgNvZ0ycoEq-q.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/sharing--permissions@-EIV_JN7sgNvZ0ycoEq-q.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Y2k8hmM3HVhNx-_UB9fOz",
@@ -2473,7 +2707,9 @@
                 "url": "https://www.youtube.com/watch?v=ZhOOUi3PPMM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/apps@Y2k8hmM3HVhNx-_UB9fOz.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/apps@Y2k8hmM3HVhNx-_UB9fOz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2503,7 +2739,9 @@
                 "url": "https://www.youtube.com/watch?v=i4OALAQ7qz4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/on-premises-data-gateway@7CyF7zG9yRiJWq2XmEKVG.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/on-premises-data-gateway@7CyF7zG9yRiJWq2XmEKVG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "SdJi9eYWA9khpKam53Qgk",
@@ -2532,7 +2770,9 @@
                 "url": "https://www.youtube.com/watch?v=gD6wCP1sTMM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/refresh--change-detection@SdJi9eYWA9khpKam53Qgk.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/refresh--change-detection@SdJi9eYWA9khpKam53Qgk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2572,7 +2812,9 @@
                 "url": "https://www.youtube.com/watch?v=Kh3OHNESj_g&t=75s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/subscriptions-and-alerts@PSmaLgRiqwFKnQ3pUuZrm.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/subscriptions-and-alerts@PSmaLgRiqwFKnQ3pUuZrm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2591,7 +2833,9 @@
             "type": "subtopic",
             "description": "Row-level security restricts which rows of data a user can see within a report, based on rules defined in the data model and tied to the user's identity. Roles are set up in Power BI Desktop with DAX filter expressions, then assigned to specific users or groups in the Service. This lets a single report be shared broadly while each viewer only sees the data relevant to them, such as their own region's sales.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/row-level-security@hbnBEikjm_fsQjhjZDJJm.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/row-level-security@hbnBEikjm_fsQjhjZDJJm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "l7_l2lM0A0Z6jNt-ypRR-",
@@ -2599,7 +2843,9 @@
             "type": "subtopic",
             "description": "Object-level security restricts access to entire tables or columns in the data model, hiding them completely from certain users rather than just filtering rows. It is used when specific columns, like salary or other sensitive fields, should not be visible to some users at all, regardless of row-level filters. This is set up through external tools like Tabular Editor rather than the standard Power BI Desktop interface.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/object-level-security@l7_l2lM0A0Z6jNt-ypRR-.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/object-level-security@l7_l2lM0A0Z6jNt-ypRR-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "vYaqmbNLFmP-CNRs6rGav",
@@ -2607,7 +2853,9 @@
             "type": "subtopic",
             "description": "Workspace roles define what a user can do within a specific workspace, ranging from admin, with full control, down to viewer, with read-only access. These roles determine actions like who can publish new reports, manage workspace settings, or simply view existing content. Assigning the right role for each person balances collaboration needs against the risk of unintended changes.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/workspace-roles@vYaqmbNLFmP-CNRs6rGav.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/workspace-roles@vYaqmbNLFmP-CNRs6rGav.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2626,7 +2874,9 @@
             "type": "subtopic",
             "description": "Tenant settings are organization-wide configuration options managed by Power BI administrators, controlling things like whether users can share content externally, use certain features, or install custom visuals. These settings apply across the entire organization rather than a single workspace. They are the main lever administrators have for balancing user flexibility against organizational risk.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/tenant-settings@A899eeb9R_z5uLgkJpHr1.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/tenant-settings@A899eeb9R_z5uLgkJpHr1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JnFJK_sqz710ANX_gwzjZ",
@@ -2634,7 +2884,9 @@
             "type": "subtopic",
             "description": "Audit logs record user activity across the Power BI tenant, such as who viewed, edited, or shared specific content and when. Administrators use these logs to investigate security incidents, monitor usage patterns, or meet compliance requirements. Logs can be accessed through the Microsoft Purview compliance portal or pulled programmatically for further analysis.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/audit-logs@JnFJK_sqz710ANX_gwzjZ.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/audit-logs@JnFJK_sqz710ANX_gwzjZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dWu0GbXzXaYYgmWTOL1di",
@@ -2642,7 +2894,9 @@
             "type": "subtopic",
             "description": "Certified datasets are datasets that have been reviewed and approved by a designated authority within an organization, marked with a badge that signals to other users that the data is trustworthy and ready for reuse. Certification helps prevent duplicate, inconsistent versions of the same dataset from spreading across an organization. Users building new reports are encouraged to build on certified datasets rather than creating their own from scratch.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/certified-datasets@dWu0GbXzXaYYgmWTOL1di.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/certified-datasets@dWu0GbXzXaYYgmWTOL1di.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MYHrkcRDnawWI7aK33GlF",
@@ -2650,7 +2904,9 @@
             "type": "subtopic",
             "description": "Sensitivity labels classify Power BI content, such as reports or datasets, according to its confidentiality level, using the same labeling system as Microsoft Purview across other Microsoft 365 apps. These labels can carry protection settings, like restricting export or requiring encryption when the content is exported to a file. They help organizations track and control sensitive data as it moves between different formats and applications.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/sensitivity-labels@MYHrkcRDnawWI7aK33GlF.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/sensitivity-labels@MYHrkcRDnawWI7aK33GlF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "AAIDmBDueCTKYnuJugDEf",
@@ -2658,7 +2914,9 @@
             "type": "subtopic",
             "description": "Data loss prevention policies scan Power BI content for sensitive information, such as credit card numbers or personal data, and can flag or block reports that expose it inappropriately. These policies typically integrate with Microsoft Purview's broader data loss prevention framework used across Microsoft 365. They act as an automated safeguard against sensitive data being shared beyond its intended audience.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/data-loss-prevention@AAIDmBDueCTKYnuJugDEf.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/data-loss-prevention@AAIDmBDueCTKYnuJugDEf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2677,7 +2935,9 @@
             "type": "subtopic",
             "description": "Power Automate integrates with Power BI to trigger automated workflows based on events in a report, such as a button click that kicks off an approval process or sends a notification. It connects Power BI to hundreds of other services and apps without needing custom code. This turns a report from a passive viewing experience into something that can initiate real business processes.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-automate@X5zgzF1ld5zGUnf4fMHLF.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-automate@X5zgzF1ld5zGUnf4fMHLF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "gWj5LnHcNZBNu-nMnzi5Y",
@@ -2685,7 +2945,9 @@
             "type": "subtopic",
             "description": "Deployment pipelines let teams manage separate development, test, and production environments for their Power BI content, promoting reports and datasets through each stage in a controlled way. This mirrors common software development practices, catching issues in a test environment before they reach production users. Pipelines also support rules for automatically swapping data sources or parameters between environments.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/deployment-pipelines@gWj5LnHcNZBNu-nMnzi5Y.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/deployment-pipelines@gWj5LnHcNZBNu-nMnzi5Y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2704,7 +2966,9 @@
             "type": "subtopic",
             "description": "Power BI Embedded lets developers embed Power BI reports and dashboards into their own applications or websites, using a dedicated Azure capacity rather than requiring end users to have their own Power BI license. It is aimed at software vendors who want to include analytics inside their own product. The embedding is done through APIs and SDKs that control the report's appearance and behavior within the host application.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-bi-embedded@AX-mV_fge1qcDOjeREIvJ.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-bi-embedded@AX-mV_fge1qcDOjeREIvJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "rc3kmU1DvTbkqFW39BkpT",
@@ -2712,7 +2976,9 @@
             "type": "subtopic",
             "description": "The Power BI REST API lets developers interact with Power BI programmatically, covering tasks like refreshing a dataset, managing workspace content, or embedding reports, without using the standard user interface. It is commonly used to automate repetitive administrative tasks or integrate Power BI actions into custom applications. Authentication to the API typically uses Azure Active Directory tokens.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/rest-api@rc3kmU1DvTbkqFW39BkpT.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/rest-api@rc3kmU1DvTbkqFW39BkpT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CkG-llpmpyF9jIe5G6zrq",
@@ -2720,7 +2986,9 @@
             "type": "subtopic",
             "description": "Power BI integrates with Excel in a couple of directions: Excel workbooks can connect to a Power BI dataset to analyze it using PivotTables, and Power BI reports can be exported to Excel for further ad hoc analysis. This lets users work in whichever tool suits a particular task while sharing the same underlying data. It is useful for users more comfortable with Excel who still want access to a centralized, governed dataset.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-bi-with-excel@CkG-llpmpyF9jIe5G6zrq.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/power-bi-with-excel@CkG-llpmpyF9jIe5G6zrq.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NCo_m2VAuWFxyMgscH5TN",
@@ -2728,7 +2996,9 @@
             "type": "subtopic",
             "description": "Power BI supports using Python and R scripts both inside Power Query for data transformation and as visuals for custom charts not available in the standard visual gallery. This requires a local Python or R installation and library setup on the machine running Desktop. It is used when a specific statistical technique or chart type falls outside what Power BI natively provides.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/python--r@NCo_m2VAuWFxyMgscH5TN.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/python--r@NCo_m2VAuWFxyMgscH5TN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ls626i2TukzHY0Q_LnlVs",
@@ -2736,7 +3006,9 @@
             "type": "subtopic",
             "description": "Microsoft Fabric is Microsoft's unified data platform that brings together data engineering, data warehousing, and data science alongside Power BI, all built on a shared storage layer called OneLake. Power BI datasets within Fabric can use Direct Lake mode to query data stored in OneLake without a separate import step. Fabric represents a shift toward Power BI being one part of a broader integrated analytics platform rather than a standalone tool.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/power-bi/content/microsoft-fabric@ls626i2TukzHY0Q_LnlVs.md"
+            "file_path": "developer-roadmap/roadmaps/power-bi/content/microsoft-fabric@ls626i2TukzHY0Q_LnlVs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2809,20 +3081,20 @@
         ]
       },
       {
-        "id": "n2m-xo1wfcluM5iF54tmu",
-        "name": "Power BI Ecosystem",
-        "type": "subtopic",
-        "description": "The Power BI ecosystem is made up of three main components: Desktop for building reports, Service for publishing and collaborating in the cloud, and Mobile for viewing content on phones and tablets. Each piece serves a different stage of the workflow, from authoring to consumption. Together they cover the full cycle from raw data to a report someone checks on their phone.",
+        "id": "M5B4mq5vv5PcGaBdQmNdf",
+        "name": "Data Source Types",
+        "type": "topic",
+        "description": "Power BI can connect to many kinds of data sources, grouped broadly into databases, files, APIs, web and open data, and cloud services. Each source type uses its own connector inside Power BI, with settings for authentication and query options specific to that source. Picking the right source type and connector is the first step before any transformation work begins.",
         "resources": [
           {
             "type": "official",
-            "title": "What is Power BI?",
-            "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview"
+            "title": "Get data in Power BI Desktop",
+            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources?tabs=new-experience"
           },
           {
-            "type": "article",
-            "title": "Introduction to Power BI ecosystem",
-            "url": "https://www.youtube.com/watch?v=onL5sgfL24k"
+            "type": "video",
+            "title": "How To Connect Data Sources In Power BI?",
+            "url": "https://www.youtube.com/watch?v=ZDuQvyZ8stM"
           }
         ]
       },
@@ -2846,6 +3118,47 @@
             "type": "video",
             "title": "Power BI Tutorial for Beginners",
             "url": "https://www.youtube.com/watch?v=VaOhNqNtGGE"
+          }
+        ]
+      },
+      {
+        "id": "n2m-xo1wfcluM5iF54tmu",
+        "name": "Power BI Ecosystem",
+        "type": "subtopic",
+        "description": "The Power BI ecosystem is made up of three main components: Desktop for building reports, Service for publishing and collaborating in the cloud, and Mobile for viewing content on phones and tablets. Each piece serves a different stage of the workflow, from authoring to consumption. Together they cover the full cycle from raw data to a report someone checks on their phone.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "What is Power BI?",
+            "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview"
+          },
+          {
+            "type": "article",
+            "title": "Introduction to Power BI ecosystem",
+            "url": "https://www.youtube.com/watch?v=onL5sgfL24k"
+          }
+        ]
+      },
+      {
+        "id": "fMGZRXVaryZ25kjE-4e5x",
+        "name": "Files",
+        "type": "subtopic",
+        "description": "Power BI can import data directly from files such as Excel workbooks, CSV files, text files, XML, JSON, and PDF tables. File-based sources are common for smaller or ad hoc datasets that are not stored in a formal database. Power Query reads the file structure and lets the user select which sheets or tables to load.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get data from files for Power BI",
+            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-get-data-from-files"
+          },
+          {
+            "type": "official",
+            "title": "Get data from comma separated value (CSV) files",
+            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-comma-separated-value-files"
+          },
+          {
+            "type": "official",
+            "title": "Import Excel workbooks into Power BI Desktop",
+            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-import-excel-workbooks"
           }
         ]
       },
@@ -2892,47 +3205,6 @@
             "type": "video",
             "title": "Publish and view your Dashboard on your Mobile device",
             "url": "https://www.youtube.com/watch?v=syq1ltNI0u8"
-          }
-        ]
-      },
-      {
-        "id": "M5B4mq5vv5PcGaBdQmNdf",
-        "name": "Data Source Types",
-        "type": "topic",
-        "description": "Power BI can connect to many kinds of data sources, grouped broadly into databases, files, APIs, web and open data, and cloud services. Each source type uses its own connector inside Power BI, with settings for authentication and query options specific to that source. Picking the right source type and connector is the first step before any transformation work begins.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get data in Power BI Desktop",
-            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources?tabs=new-experience"
-          },
-          {
-            "type": "video",
-            "title": "How To Connect Data Sources In Power BI?",
-            "url": "https://www.youtube.com/watch?v=ZDuQvyZ8stM"
-          }
-        ]
-      },
-      {
-        "id": "fMGZRXVaryZ25kjE-4e5x",
-        "name": "Files ",
-        "type": "subtopic",
-        "description": "Power BI can import data directly from files such as Excel workbooks, CSV files, text files, XML, JSON, and PDF tables. File-based sources are common for smaller or ad hoc datasets that are not stored in a formal database. Power Query reads the file structure and lets the user select which sheets or tables to load.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get data from files for Power BI",
-            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-get-data-from-files"
-          },
-          {
-            "type": "official",
-            "title": "Get data from comma separated value (CSV) files",
-            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-comma-separated-value-files"
-          },
-          {
-            "type": "official",
-            "title": "Import Excel workbooks into Power BI Desktop",
-            "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-import-excel-workbooks"
           }
         ]
       },
@@ -3098,27 +3370,11 @@
         ]
       },
       {
-        "id": "8DKQH0CbRmtuAW3tE_ke6",
-        "name": "Dual Storage Mode",
-        "type": "subtopic",
-        "description": "Dual storage mode lets a table be configured to use both Import and DirectQuery, switching between them depending on the type of query Power BI needs to run. It is commonly used for large fact tables where recent data stays in DirectQuery for freshness while historical data is imported for speed. This setup requires careful design of aggregation tables to work well.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Table storage mode in Power BI semantic models",
-            "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-storage-mode"
-          },
-          {
-            "type": "article",
-            "title": "What is Dual Storage Mode in Power BI?",
-            "url": "https://www.graphed.com/blog/what-is-dual-storage-mode-in-power-bi"
-          },
-          {
-            "type": "video",
-            "title": "Boost DAX Performance in Power BI with Dual Mode",
-            "url": "https://www.youtube.com/watch?v=TgAXt1ifdhs"
-          }
-        ]
+        "id": "rEUKFOApH3taqMmbL3keU",
+        "name": "Data Cleaning",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "y-FeyeZ6tqZmF_8wzrTuX",
@@ -3173,6 +3429,36 @@
             "url": "https://www.youtube.com/watch?v=eC9U5nhQmno"
           }
         ]
+      },
+      {
+        "id": "8DKQH0CbRmtuAW3tE_ke6",
+        "name": "Dual Storage Mode",
+        "type": "subtopic",
+        "description": "Dual storage mode lets a table be configured to use both Import and DirectQuery, switching between them depending on the type of query Power BI needs to run. It is commonly used for large fact tables where recent data stays in DirectQuery for freshness while historical data is imported for speed. This setup requires careful design of aggregation tables to work well.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Table storage mode in Power BI semantic models",
+            "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-storage-mode"
+          },
+          {
+            "type": "article",
+            "title": "What is Dual Storage Mode in Power BI?",
+            "url": "https://www.graphed.com/blog/what-is-dual-storage-mode-in-power-bi"
+          },
+          {
+            "type": "video",
+            "title": "Boost DAX Performance in Power BI with Dual Mode",
+            "url": "https://www.youtube.com/watch?v=TgAXt1ifdhs"
+          }
+        ]
+      },
+      {
+        "id": "B5_BUiM9ldVUhXiOMlFBu",
+        "name": "Column & Value Transforms.",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "OpTzX9_MCnMIf3nwDrCO9",
@@ -3298,6 +3584,13 @@
         ]
       },
       {
+        "id": "jPRXUMdscUuhigM6zLj41",
+        "name": "Table Operations",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "OUo1KyRG-Qc5I6GWZR2pp",
         "name": "Joins",
         "type": "subtopic",
@@ -3360,6 +3653,13 @@
             "url": "https://www.youtube.com/watch?v=hGj2axffxHo"
           }
         ]
+      },
+      {
+        "id": "0aCRh2ZIYYiym68gywkMr",
+        "name": "Query Performance",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "_vIHVUkhy9Cu-WGdg59fi",
@@ -3866,22 +4166,11 @@
         ]
       },
       {
-        "id": "Qu-C8yEqb30gZ0Po8Vmbt",
-        "name": "DAX Syntax",
-        "type": "subtopic",
-        "description": "DAX syntax follows a formula structure similar to Excel, starting with a name and an equals sign, followed by functions and references to columns or tables written in a specific notation. Table names are typically written in plain reference and column references use the table name followed by the column name in brackets. Getting the syntax right, including matching parentheses and correct references, is a common early hurdle for new DAX writers.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "DAX syntax",
-            "url": "https://learn.microsoft.com/en-us/dax/dax-syntax-reference"
-          },
-          {
-            "type": "video",
-            "title": "Learn DAX Fundamentals in 10 Minutes | Step-by-Step Guide",
-            "url": "https://www.youtube.com/watch?v=-QOtL_LOc40"
-          }
-        ]
+        "id": "4v_QOSwita3Fm2jR09u1J",
+        "name": "Function Families",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "LCVPHuTjQ4zTi0tT77h9y",
@@ -3907,29 +4196,6 @@
         ]
       },
       {
-        "id": "dKb9XtExyQqapcR9ccafy",
-        "name": "Columns vs Measures",
-        "type": "subtopic",
-        "description": "Calculated columns compute a value for every row in a table and store the result physically in the model, while measures calculate a value on the fly based on the current filter context of a visual. Columns are useful when a value needs to be sliced or filtered on directly, while measures are used for aggregations that should respond dynamically to whatever is selected in a report. Choosing the wrong one can lead to unnecessary model size or incorrect calculation behavior.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Measures vs Calculated Columns in DAX and Power BI",
-            "url": "https://endjin.com/blog/measures-vs-calculated-columns-in-dax"
-          },
-          {
-            "type": "article",
-            "title": "Calculated Columns and Measures in DAX",
-            "url": "https://www.sqlbi.com/articles/calculated-columns-and-measures-in-dax/"
-          },
-          {
-            "type": "video",
-            "title": "Measures vs. calculated columns in DAX and Power BI",
-            "url": "https://www.youtube.com/watch?v=ePPi1LLX0sA"
-          }
-        ]
-      },
-      {
         "id": "KVOe7N9mpfqbAvF_bQxYB",
         "name": "Logical Functions",
         "type": "subtopic",
@@ -3949,29 +4215,6 @@
             "type": "video",
             "title": "Power BI DAX Part 3 - Logical Functions",
             "url": "https://www.youtube.com/watch?v=YTdxWVyYNkU"
-          }
-        ]
-      },
-      {
-        "id": "_wnNd9mVmSFRgeODlkwX0",
-        "name": "Variables in DAX",
-        "type": "subtopic",
-        "description": "Variables in DAX, defined with VAR and used with RETURN, let a formula store an intermediate result and reuse it later in the same expression instead of recalculating it. This improves both readability, since the logic is broken into named steps, and performance, since the value is computed only once. Variables have become the standard way to structure any DAX formula beyond the simplest one-liner.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Use variables to improve your DAX formulas",
-            "url": "https://learn.microsoft.com/en-us/dax/best-practices/dax-variables"
-          },
-          {
-            "type": "article",
-            "title": "DAX 101: Variables in DAX",
-            "url": "https://www.sqlbi.com/articles/variables-in-dax/"
-          },
-          {
-            "type": "video",
-            "title": "Variables in DAX",
-            "url": "https://www.youtube.com/watch?v=JG8ngbSe5WU"
           }
         ]
       },
@@ -4049,6 +4292,70 @@
             "type": "article",
             "title": "Table manipulation functions in DAX",
             "url": "https://dax.guide/functions/table-manipulation/"
+          }
+        ]
+      },
+      {
+        "id": "Qu-C8yEqb30gZ0Po8Vmbt",
+        "name": "DAX Syntax",
+        "type": "subtopic",
+        "description": "DAX syntax follows a formula structure similar to Excel, starting with a name and an equals sign, followed by functions and references to columns or tables written in a specific notation. Table names are typically written in plain reference and column references use the table name followed by the column name in brackets. Getting the syntax right, including matching parentheses and correct references, is a common early hurdle for new DAX writers.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "DAX syntax",
+            "url": "https://learn.microsoft.com/en-us/dax/dax-syntax-reference"
+          },
+          {
+            "type": "video",
+            "title": "Learn DAX Fundamentals in 10 Minutes | Step-by-Step Guide",
+            "url": "https://www.youtube.com/watch?v=-QOtL_LOc40"
+          }
+        ]
+      },
+      {
+        "id": "dKb9XtExyQqapcR9ccafy",
+        "name": "Columns vs Measures",
+        "type": "subtopic",
+        "description": "Calculated columns compute a value for every row in a table and store the result physically in the model, while measures calculate a value on the fly based on the current filter context of a visual. Columns are useful when a value needs to be sliced or filtered on directly, while measures are used for aggregations that should respond dynamically to whatever is selected in a report. Choosing the wrong one can lead to unnecessary model size or incorrect calculation behavior.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Measures vs Calculated Columns in DAX and Power BI",
+            "url": "https://endjin.com/blog/measures-vs-calculated-columns-in-dax"
+          },
+          {
+            "type": "article",
+            "title": "Calculated Columns and Measures in DAX",
+            "url": "https://www.sqlbi.com/articles/calculated-columns-and-measures-in-dax/"
+          },
+          {
+            "type": "video",
+            "title": "Measures vs. calculated columns in DAX and Power BI",
+            "url": "https://www.youtube.com/watch?v=ePPi1LLX0sA"
+          }
+        ]
+      },
+      {
+        "id": "_wnNd9mVmSFRgeODlkwX0",
+        "name": "Variables in DAX",
+        "type": "subtopic",
+        "description": "Variables in DAX, defined with VAR and used with RETURN, let a formula store an intermediate result and reuse it later in the same expression instead of recalculating it. This improves both readability, since the logic is broken into named steps, and performance, since the value is computed only once. Variables have become the standard way to structure any DAX formula beyond the simplest one-liner.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Use variables to improve your DAX formulas",
+            "url": "https://learn.microsoft.com/en-us/dax/best-practices/dax-variables"
+          },
+          {
+            "type": "article",
+            "title": "DAX 101: Variables in DAX",
+            "url": "https://www.sqlbi.com/articles/variables-in-dax/"
+          },
+          {
+            "type": "video",
+            "title": "Variables in DAX",
+            "url": "https://www.youtube.com/watch?v=JG8ngbSe5WU"
           }
         ]
       },
@@ -4297,34 +4604,6 @@
         "resources": []
       },
       {
-        "id": "urDcAE6II1QzHBydBQ0o9",
-        "name": "Scatter & Bubble Charts",
-        "type": "subtopic",
-        "description": "Scatter charts plot two numeric values against each other on separate axes, revealing relationships or clusters between the two variables. Bubble charts extend this by adding a third dimension, represented by the size of each point. Both are used to explore correlation or distribution patterns that bar or line charts cannot easily show.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Scatter charts, bubble charts, and dot plot charts in Power BI",
-            "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-scatter"
-          },
-          {
-            "type": "article",
-            "title": "Building better scatterplots in Power BI reports",
-            "url": "https://tabulareditor.com/blog/building-better-scatterplots-in-power-bi-reports"
-          },
-          {
-            "type": "video",
-            "title": "Bubble/Scatterplot Custom Visual",
-            "url": "https://www.youtube.com/watch?v=AkF-UgkrmyY"
-          },
-          {
-            "type": "video",
-            "title": "ES  Skip navigation scatter plot powerbi     Create   Avatar image Scatter Plot in Power BI",
-            "url": "https://www.youtube.com/watch?v=6l0JexRBI1c"
-          }
-        ]
-      },
-      {
         "id": "mNUrtl-18tZnFSaMSnJm3",
         "name": "DAX Performance",
         "type": "subtopic",
@@ -4344,29 +4623,6 @@
             "type": "video",
             "title": "Boost DAX Performance in Power BI with Dual Mode",
             "url": "https://www.youtube.com/watch?v=TgAXt1ifdhs"
-          }
-        ]
-      },
-      {
-        "id": "_3_v4fesS5FZTj-KAeSDq",
-        "name": "Combination Charts",
-        "type": "subtopic",
-        "description": "Combination charts overlay two different visual types, most commonly a column chart and a line chart, sharing the same category axis but often using separate value axes. They are used to compare two related measures with different scales, such as sales volume and profit margin, in a single visual. This avoids forcing two very different metrics onto the same axis scale.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Create and use combo charts in Power BI",
-            "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-combo-chart?tabs=powerbi-desktop"
-          },
-          {
-            "type": "article",
-            "title": "Power BI Combo Chart: Tips & Best Features",
-            "url": "https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/blog/power-bi-combo-chart-tips-best-features"
-          },
-          {
-            "type": "video",
-            "title": "Power BI Combo Chart",
-            "url": "https://www.youtube.com/watch?v=vQaoJFL3l40"
           }
         ]
       },
@@ -4395,6 +4651,57 @@
             "type": "video",
             "title": "Power BI Bro: Data Visualization Tutorials!",
             "url": "https://www.youtube.com/playlist?list=PLTmfDr_N69qRgqEmJYIlKJDfnUnwvayXS"
+          }
+        ]
+      },
+      {
+        "id": "urDcAE6II1QzHBydBQ0o9",
+        "name": "Scatter & Bubble Charts",
+        "type": "subtopic",
+        "description": "Scatter charts plot two numeric values against each other on separate axes, revealing relationships or clusters between the two variables. Bubble charts extend this by adding a third dimension, represented by the size of each point. Both are used to explore correlation or distribution patterns that bar or line charts cannot easily show.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Scatter charts, bubble charts, and dot plot charts in Power BI",
+            "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-scatter"
+          },
+          {
+            "type": "article",
+            "title": "Building better scatterplots in Power BI reports",
+            "url": "https://tabulareditor.com/blog/building-better-scatterplots-in-power-bi-reports"
+          },
+          {
+            "type": "video",
+            "title": "Bubble/Scatterplot Custom Visual",
+            "url": "https://www.youtube.com/watch?v=AkF-UgkrmyY"
+          },
+          {
+            "type": "video",
+            "title": "ES  Skip navigation scatter plot powerbi     Create   Avatar image Scatter Plot in Power BI",
+            "url": "https://www.youtube.com/watch?v=6l0JexRBI1c"
+          }
+        ]
+      },
+      {
+        "id": "_3_v4fesS5FZTj-KAeSDq",
+        "name": "Combination Charts",
+        "type": "subtopic",
+        "description": "Combination charts overlay two different visual types, most commonly a column chart and a line chart, sharing the same category axis but often using separate value axes. They are used to compare two related measures with different scales, such as sales volume and profit margin, in a single visual. This avoids forcing two very different metrics onto the same axis scale.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Create and use combo charts in Power BI",
+            "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-combo-chart?tabs=powerbi-desktop"
+          },
+          {
+            "type": "article",
+            "title": "Power BI Combo Chart: Tips & Best Features",
+            "url": "https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/blog/power-bi-combo-chart-tips-best-features"
+          },
+          {
+            "type": "video",
+            "title": "Power BI Combo Chart",
+            "url": "https://www.youtube.com/watch?v=vQaoJFL3l40"
           }
         ]
       },
@@ -4656,29 +4963,6 @@
         ]
       },
       {
-        "id": "bBLfNjB3IC2oNgQN4SSoE",
-        "name": "Buttons & Navigation",
-        "type": "subtopic",
-        "description": "Buttons in Power BI can trigger actions like navigating to another page, applying a bookmark, or opening a web URL, letting report builders create custom navigation beyond the default page tabs. This is commonly used to build a menu-style navigation system across a multi-page report. Buttons can also be set up as visual toggles combined with bookmarks to show or hide specific elements.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Create and configure buttons in Power BI reports",
-            "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-buttons?tabs=powerbi-desktop"
-          },
-          {
-            "type": "official",
-            "title": "Customize buttons in Power BI reports",
-            "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-customize-button"
-          },
-          {
-            "type": "video",
-            "title": "Make navigation easier with Power BI buttons",
-            "url": "https://www.youtube.com/watch?v=nCEMM6Ryees"
-          }
-        ]
-      },
-      {
         "id": "a30f0oSq96dKAjTSQChcC",
         "name": "Sorting Data",
         "type": "subtopic",
@@ -4738,6 +5022,29 @@
         ]
       },
       {
+        "id": "bBLfNjB3IC2oNgQN4SSoE",
+        "name": "Buttons & Navigation",
+        "type": "subtopic",
+        "description": "Buttons in Power BI can trigger actions like navigating to another page, applying a bookmark, or opening a web URL, letting report builders create custom navigation beyond the default page tabs. This is commonly used to build a menu-style navigation system across a multi-page report. Buttons can also be set up as visual toggles combined with bookmarks to show or hide specific elements.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Create and configure buttons in Power BI reports",
+            "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-buttons?tabs=powerbi-desktop"
+          },
+          {
+            "type": "official",
+            "title": "Customize buttons in Power BI reports",
+            "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-customize-button"
+          },
+          {
+            "type": "video",
+            "title": "Make navigation easier with Power BI buttons",
+            "url": "https://www.youtube.com/watch?v=nCEMM6Ryees"
+          }
+        ]
+      },
+      {
         "id": "M8o5vABTrb0yRSctPX7oG",
         "name": "Explore Feature",
         "type": "subtopic",
@@ -4749,6 +5056,13 @@
             "url": "https://learn.microsoft.com/en-us/power-bi/explore-reports/explore-data-service"
           }
         ]
+      },
+      {
+        "id": "js9MnMCVPoWWb9wLf_csS",
+        "name": "Advanced Visuals",
+        "type": "topic",
+        "description": "Advanced visuals are analytical tools that go beyond standard charts, including the decomposition tree, key influencers, small multiples, and the Q&A visual, each aimed at deeper exploration of the data rather than simple presentation. They are often used for exploratory analysis rather than a fixed, polished dashboard. These visuals tend to have more configuration options than basic chart types.",
+        "resources": []
       },
       {
         "id": "SIMaqZRxACO-f25KPPbFl",
@@ -4777,13 +5091,6 @@
             "url": "https://www.youtube.com/watch?v=agXP27yKduI"
           }
         ]
-      },
-      {
-        "id": "js9MnMCVPoWWb9wLf_csS",
-        "name": "Advanced Visuals",
-        "type": "topic",
-        "description": "Advanced visuals are analytical tools that go beyond standard charts, including the decomposition tree, key influencers, small multiples, and the Q&A visual, each aimed at deeper exploration of the data rather than simple presentation. They are often used for exploratory analysis rather than a fixed, polished dashboard. These visuals tend to have more configuration options than basic chart types.",
-        "resources": []
       },
       {
         "id": "vTsD-oWa4vwEhfC5-Ax5Y",
@@ -5275,6 +5582,571 @@
     ],
     "edges": [
       {
+        "source": "y9CTbobwkPNDUDDkJLdQX",
+        "target": "2QB2qNbr8IHv4YbB-hYqf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4S5zKmpa29_re_rOZD9mt",
+        "target": "2QB2qNbr8IHv4YbB-hYqf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aItdGZ817gzRevj1bZnQz",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fMGZRXVaryZ25kjE-4e5x",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-i6X0KZW6CZfgzgQ2QMvH",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "H8vRATlg1hX8iPwLJdeOR",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0a0caDbMmm71t9h9l1boP",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FdE4ix0XyZq_yhv8HRELs",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HWj-k3pc5_80dk793CVnX",
+        "target": "M5B4mq5vv5PcGaBdQmNdf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "n2m-xo1wfcluM5iF54tmu",
+        "target": "aItdGZ817gzRevj1bZnQz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4UXIwHGpILCTfs7lLoxou",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GHE4CuN9ajm08_RZ1Fy7p",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "80ujylMVAMN9Tn0qPR7uf",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rEUKFOApH3taqMmbL3keU",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8DKQH0CbRmtuAW3tE_ke6",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "B5_BUiM9ldVUhXiOMlFBu",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jPRXUMdscUuhigM6zLj41",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0aCRh2ZIYYiym68gywkMr",
+        "target": "4gaa2THeYhi2Z45kSX42t",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y-FeyeZ6tqZmF_8wzrTuX",
+        "target": "rEUKFOApH3taqMmbL3keU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jY6JPvP0QPjmnPL2tBUus",
+        "target": "rEUKFOApH3taqMmbL3keU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cqLk4gpK_Ex7SvpcR-EyX",
+        "target": "rEUKFOApH3taqMmbL3keU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OpTzX9_MCnMIf3nwDrCO9",
+        "target": "B5_BUiM9ldVUhXiOMlFBu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jji5jm1oT6SImHaBXwOJI",
+        "target": "B5_BUiM9ldVUhXiOMlFBu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vZQjiMqgSc2HtWCPYHvnb",
+        "target": "B5_BUiM9ldVUhXiOMlFBu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "X3j-XFMXKLjwvEMgDGbPQ",
+        "target": "B5_BUiM9ldVUhXiOMlFBu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UPQ6Y-jT39MkrM1Rg3Dip",
+        "target": "B5_BUiM9ldVUhXiOMlFBu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kKbKZ1sMBNaQUoX4Vf95j",
+        "target": "B5_BUiM9ldVUhXiOMlFBu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OUo1KyRG-Qc5I6GWZR2pp",
+        "target": "jPRXUMdscUuhigM6zLj41",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "w0p5SoSn4_YGeARz7Ll0O",
+        "target": "jPRXUMdscUuhigM6zLj41",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zRLfg-lJsWkNsZoY-Lqid",
+        "target": "jPRXUMdscUuhigM6zLj41",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_vIHVUkhy9Cu-WGdg59fi",
+        "target": "0aCRh2ZIYYiym68gywkMr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hsM7w-le7b_JXnAMB419W",
+        "target": "0aCRh2ZIYYiym68gywkMr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qABASsA3GLMJITuKqH0Te",
+        "target": "0aCRh2ZIYYiym68gywkMr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Jys8-vqPreAJwjDUWqqNF",
+        "target": "P1t4cTjmCHILyc6jkAHWH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_tWAz0_PV6Pr5Ey2ZXYL1",
+        "target": "P1t4cTjmCHILyc6jkAHWH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U8ZpXzVc0xFZ-A74a_yuZ",
+        "target": "7JeXBAYhv_3ZZr3niaIhd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UsiTXTUkAS5w6IeJ0nBJ-",
+        "target": "oYreeOD0hUcg-P_edX7CX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DZuLutU2cYCJZwR39xD8c",
+        "target": "oYreeOD0hUcg-P_edX7CX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hGinFciFMdIiFv7VQle_e",
+        "target": "oYreeOD0hUcg-P_edX7CX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hcCWf3YQqD6YeF_aBa2zI",
+        "target": "m5Kh5qQtFZ7Xh-3BXeBY6",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bLEolh1ucu3NzdYcB8gei",
+        "target": "m5Kh5qQtFZ7Xh-3BXeBY6",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wZlFN13uuS1MxAoLVoDZU",
+        "target": "vBimOM-ayzWiwGFPRZqW4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wbhSoBY2VjAUcnAYT8wm4",
+        "target": "vBimOM-ayzWiwGFPRZqW4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KeyKztPuGQrZpG4WR3VOX",
+        "target": "vBimOM-ayzWiwGFPRZqW4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "c4Ca3HejJsCRvu2BgHzlP",
+        "target": "jAkxBHWrRTFnhs9deON6b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5p5jlratghZBaZUe0zfgi",
+        "target": "cGLTxw45dWZbKwJ_L7v2z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4v_QOSwita3Fm2jR09u1J",
+        "target": "cGLTxw45dWZbKwJ_L7v2z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Qu-C8yEqb30gZ0Po8Vmbt",
+        "target": "cGLTxw45dWZbKwJ_L7v2z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dKb9XtExyQqapcR9ccafy",
+        "target": "cGLTxw45dWZbKwJ_L7v2z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_wnNd9mVmSFRgeODlkwX0",
+        "target": "cGLTxw45dWZbKwJ_L7v2z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LCVPHuTjQ4zTi0tT77h9y",
+        "target": "4v_QOSwita3Fm2jR09u1J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KVOe7N9mpfqbAvF_bQxYB",
+        "target": "4v_QOSwita3Fm2jR09u1J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "M8BbSZ4EqJSHN_2CMUIlG",
+        "target": "4v_QOSwita3Fm2jR09u1J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GdcUdMG8C62PeVe0hJaJZ",
+        "target": "4v_QOSwita3Fm2jR09u1J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AAob1TBlOoIoEELilx3Mc",
+        "target": "4v_QOSwita3Fm2jR09u1J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "D-LFpO99i1MttUa1MTmCa",
+        "target": "4v_QOSwita3Fm2jR09u1J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-d1bS8y-wYnVO8z-Ogb4M",
+        "target": "l-vk3xwURU8AOHoGlu0iT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BAeCGnhY7PBsazIY5ywf4",
+        "target": "l-vk3xwURU8AOHoGlu0iT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "62ecBOZmKPo56zRGd6GIQ",
+        "target": "l-vk3xwURU8AOHoGlu0iT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GXZhNdoiWoKZW9RstuxW1",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WXIP35S-K0YPPrArosikv",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-dhGA5wUkvycHl30ZZELE",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JEudXkog9r0szwd6RMw1L",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dh8pL5URdr-Fv6sVW3HfB",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EJKYzHDG2YQawVpiqL-jU",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6oh5sxYqEqm-jSBNmCnmF",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mNUrtl-18tZnFSaMSnJm3",
+        "target": "4j2CBBcLxNnE060LMnDTc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "urDcAE6II1QzHBydBQ0o9",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_3_v4fesS5FZTj-KAeSDq",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "P0XqGgwc6zKGRyXwnvMwD",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8-t2HOH7KFWV79gpfhjXn",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fwUzkj_cd8tQWM_du19i1",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Qido2kFzf3UoW3LLu3QT-",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VWVF938IZeNS2E1SrS29l",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CJnGG-Q_I_pfS7YsoCR0a",
+        "target": "HUB5LvEuE_qxOjfxu-_mE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "o65MsjBczUD_m7DYBFr_y",
+        "target": "OSDmzLdt4rdVU2TFKazh1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PzH_pS8MZsfWNia-6LHYv",
+        "target": "OSDmzLdt4rdVU2TFKazh1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Tu0lUGB1a-b89x1qnM7Qc",
+        "target": "OSDmzLdt4rdVU2TFKazh1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Q39QDWBQlZ0CXJby4-nBw",
+        "target": "OSDmzLdt4rdVU2TFKazh1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "a30f0oSq96dKAjTSQChcC",
+        "target": "OSDmzLdt4rdVU2TFKazh1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YyJm9VI23xGcYgICxkoO0",
+        "target": "OSDmzLdt4rdVU2TFKazh1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bBLfNjB3IC2oNgQN4SSoE",
+        "target": "Ts5wEmq3U761ObsaLVCsE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "M8o5vABTrb0yRSctPX7oG",
+        "target": "Ts5wEmq3U761ObsaLVCsE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SIMaqZRxACO-f25KPPbFl",
+        "target": "js9MnMCVPoWWb9wLf_csS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vTsD-oWa4vwEhfC5-Ax5Y",
+        "target": "js9MnMCVPoWWb9wLf_csS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ru7LLosG6dqriZjqf_eIs",
+        "target": "js9MnMCVPoWWb9wLf_csS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uoFvTcMDDIkYHz_d7ZeX-",
+        "target": "js9MnMCVPoWWb9wLf_csS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7EqmxQwupr7b3Op_tovNz",
+        "target": "js9MnMCVPoWWb9wLf_csS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y4hjUDSyg1ewVtU9_IsU4",
+        "target": "js9MnMCVPoWWb9wLf_csS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wmtOYjTkzKhIRlh9n__PZ",
+        "target": "rVwlH4DTClyXbTewOdmn3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "u1-WPMNoMpouC5EuKDgk6",
+        "target": "rVwlH4DTClyXbTewOdmn3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ryiwhhGAviD-QFlD-c5If",
+        "target": "rVwlH4DTClyXbTewOdmn3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rNxp8buIqSZNd6_FDKWmf",
+        "target": "rVwlH4DTClyXbTewOdmn3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-EIV_JN7sgNvZ0ycoEq-q",
+        "target": "rVwlH4DTClyXbTewOdmn3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Y2k8hmM3HVhNx-_UB9fOz",
+        "target": "rVwlH4DTClyXbTewOdmn3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7CyF7zG9yRiJWq2XmEKVG",
+        "target": "uX7eakwKpWUhQwV8j8JaT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SdJi9eYWA9khpKam53Qgk",
+        "target": "uX7eakwKpWUhQwV8j8JaT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PSmaLgRiqwFKnQ3pUuZrm",
+        "target": "oeN3BijT2OCGbv4hk7tz_",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hbnBEikjm_fsQjhjZDJJm",
+        "target": "TB7tcRXwbvJ16fV6BHXPt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "l7_l2lM0A0Z6jNt-ypRR-",
+        "target": "TB7tcRXwbvJ16fV6BHXPt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vYaqmbNLFmP-CNRs6rGav",
+        "target": "TB7tcRXwbvJ16fV6BHXPt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A899eeb9R_z5uLgkJpHr1",
+        "target": "d3-VRo0ZX_inzVEnUtFDl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JnFJK_sqz710ANX_gwzjZ",
+        "target": "d3-VRo0ZX_inzVEnUtFDl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dWu0GbXzXaYYgmWTOL1di",
+        "target": "d3-VRo0ZX_inzVEnUtFDl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MYHrkcRDnawWI7aK33GlF",
+        "target": "d3-VRo0ZX_inzVEnUtFDl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AAIDmBDueCTKYnuJugDEf",
+        "target": "d3-VRo0ZX_inzVEnUtFDl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "X5zgzF1ld5zGUnf4fMHLF",
+        "target": "vdUmB0z9O3ucYpvaHIAno",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gWj5LnHcNZBNu-nMnzi5Y",
+        "target": "vdUmB0z9O3ucYpvaHIAno",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AX-mV_fge1qcDOjeREIvJ",
+        "target": "Tg7TuqzUQrGpWm2LJej2-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rc3kmU1DvTbkqFW39BkpT",
+        "target": "Tg7TuqzUQrGpWm2LJej2-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CkG-llpmpyF9jIe5G6zrq",
+        "target": "Tg7TuqzUQrGpWm2LJej2-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NCo_m2VAuWFxyMgscH5TN",
+        "target": "Tg7TuqzUQrGpWm2LJej2-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ls626i2TukzHY0Q_LnlVs",
+        "target": "Tg7TuqzUQrGpWm2LJej2-",
+        "type": "subtopic_of"
+      },
+      {
         "source": "M5B4mq5vv5PcGaBdQmNdf",
         "target": "4gaa2THeYhi2Z45kSX42t",
         "type": "next_in_flow"
@@ -5343,546 +6215,6 @@
         "source": "m5Kh5qQtFZ7Xh-3BXeBY6",
         "target": "vBimOM-ayzWiwGFPRZqW4",
         "type": "next_in_flow"
-      },
-      {
-        "source": "n2m-xo1wfcluM5iF54tmu",
-        "target": "2QB2qNbr8IHv4YbB-hYqf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y9CTbobwkPNDUDDkJLdQX",
-        "target": "2QB2qNbr8IHv4YbB-hYqf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0a0caDbMmm71t9h9l1boP",
-        "target": "M5B4mq5vv5PcGaBdQmNdf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HWj-k3pc5_80dk793CVnX",
-        "target": "M5B4mq5vv5PcGaBdQmNdf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4UXIwHGpILCTfs7lLoxou",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GHE4CuN9ajm08_RZ1Fy7p",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "80ujylMVAMN9Tn0qPR7uf",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8DKQH0CbRmtuAW3tE_ke6",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hcCWf3YQqD6YeF_aBa2zI",
-        "target": "m5Kh5qQtFZ7Xh-3BXeBY6",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bLEolh1ucu3NzdYcB8gei",
-        "target": "m5Kh5qQtFZ7Xh-3BXeBY6",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Qu-C8yEqb30gZ0Po8Vmbt",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dKb9XtExyQqapcR9ccafy",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_wnNd9mVmSFRgeODlkwX0",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hbnBEikjm_fsQjhjZDJJm",
-        "target": "TB7tcRXwbvJ16fV6BHXPt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "l7_l2lM0A0Z6jNt-ypRR-",
-        "target": "TB7tcRXwbvJ16fV6BHXPt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "A899eeb9R_z5uLgkJpHr1",
-        "target": "d3-VRo0ZX_inzVEnUtFDl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JnFJK_sqz710ANX_gwzjZ",
-        "target": "d3-VRo0ZX_inzVEnUtFDl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dWu0GbXzXaYYgmWTOL1di",
-        "target": "d3-VRo0ZX_inzVEnUtFDl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "X5zgzF1ld5zGUnf4fMHLF",
-        "target": "vdUmB0z9O3ucYpvaHIAno",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gWj5LnHcNZBNu-nMnzi5Y",
-        "target": "vdUmB0z9O3ucYpvaHIAno",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AX-mV_fge1qcDOjeREIvJ",
-        "target": "Tg7TuqzUQrGpWm2LJej2-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Jys8-vqPreAJwjDUWqqNF",
-        "target": "P1t4cTjmCHILyc6jkAHWH",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_tWAz0_PV6Pr5Ey2ZXYL1",
-        "target": "P1t4cTjmCHILyc6jkAHWH",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UsiTXTUkAS5w6IeJ0nBJ-",
-        "target": "oYreeOD0hUcg-P_edX7CX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DZuLutU2cYCJZwR39xD8c",
-        "target": "oYreeOD0hUcg-P_edX7CX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hGinFciFMdIiFv7VQle_e",
-        "target": "oYreeOD0hUcg-P_edX7CX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-d1bS8y-wYnVO8z-Ogb4M",
-        "target": "l-vk3xwURU8AOHoGlu0iT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "BAeCGnhY7PBsazIY5ywf4",
-        "target": "l-vk3xwURU8AOHoGlu0iT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "62ecBOZmKPo56zRGd6GIQ",
-        "target": "l-vk3xwURU8AOHoGlu0iT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5p5jlratghZBaZUe0zfgi",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "c4Ca3HejJsCRvu2BgHzlP",
-        "target": "jAkxBHWrRTFnhs9deON6b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GXZhNdoiWoKZW9RstuxW1",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-dhGA5wUkvycHl30ZZELE",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Dh8pL5URdr-Fv6sVW3HfB",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6oh5sxYqEqm-jSBNmCnmF",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mNUrtl-18tZnFSaMSnJm3",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8-t2HOH7KFWV79gpfhjXn",
-        "target": "HUB5LvEuE_qxOjfxu-_mE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Qido2kFzf3UoW3LLu3QT-",
-        "target": "HUB5LvEuE_qxOjfxu-_mE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PzH_pS8MZsfWNia-6LHYv",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Q39QDWBQlZ0CXJby4-nBw",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "a30f0oSq96dKAjTSQChcC",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YyJm9VI23xGcYgICxkoO0",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ru7LLosG6dqriZjqf_eIs",
-        "target": "js9MnMCVPoWWb9wLf_csS",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uoFvTcMDDIkYHz_d7ZeX-",
-        "target": "js9MnMCVPoWWb9wLf_csS",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7EqmxQwupr7b3Op_tovNz",
-        "target": "js9MnMCVPoWWb9wLf_csS",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y4hjUDSyg1ewVtU9_IsU4",
-        "target": "js9MnMCVPoWWb9wLf_csS",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wmtOYjTkzKhIRlh9n__PZ",
-        "target": "rVwlH4DTClyXbTewOdmn3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rNxp8buIqSZNd6_FDKWmf",
-        "target": "rVwlH4DTClyXbTewOdmn3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "u1-WPMNoMpouC5EuKDgk6",
-        "target": "rVwlH4DTClyXbTewOdmn3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-EIV_JN7sgNvZ0ycoEq-q",
-        "target": "rVwlH4DTClyXbTewOdmn3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Y2k8hmM3HVhNx-_UB9fOz",
-        "target": "rVwlH4DTClyXbTewOdmn3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7CyF7zG9yRiJWq2XmEKVG",
-        "target": "uX7eakwKpWUhQwV8j8JaT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SdJi9eYWA9khpKam53Qgk",
-        "target": "uX7eakwKpWUhQwV8j8JaT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vYaqmbNLFmP-CNRs6rGav",
-        "target": "TB7tcRXwbvJ16fV6BHXPt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MYHrkcRDnawWI7aK33GlF",
-        "target": "d3-VRo0ZX_inzVEnUtFDl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AAIDmBDueCTKYnuJugDEf",
-        "target": "d3-VRo0ZX_inzVEnUtFDl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rc3kmU1DvTbkqFW39BkpT",
-        "target": "Tg7TuqzUQrGpWm2LJej2-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CkG-llpmpyF9jIe5G6zrq",
-        "target": "Tg7TuqzUQrGpWm2LJej2-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NCo_m2VAuWFxyMgscH5TN",
-        "target": "Tg7TuqzUQrGpWm2LJej2-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ls626i2TukzHY0Q_LnlVs",
-        "target": "Tg7TuqzUQrGpWm2LJej2-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ryiwhhGAviD-QFlD-c5If",
-        "target": "rVwlH4DTClyXbTewOdmn3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4S5zKmpa29_re_rOZD9mt",
-        "target": "2QB2qNbr8IHv4YbB-hYqf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U8ZpXzVc0xFZ-A74a_yuZ",
-        "target": "7JeXBAYhv_3ZZr3niaIhd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wbhSoBY2VjAUcnAYT8wm4",
-        "target": "vBimOM-ayzWiwGFPRZqW4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wZlFN13uuS1MxAoLVoDZU",
-        "target": "vBimOM-ayzWiwGFPRZqW4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KeyKztPuGQrZpG4WR3VOX",
-        "target": "vBimOM-ayzWiwGFPRZqW4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fMGZRXVaryZ25kjE-4e5x",
-        "target": "M5B4mq5vv5PcGaBdQmNdf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FdE4ix0XyZq_yhv8HRELs",
-        "target": "M5B4mq5vv5PcGaBdQmNdf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PSmaLgRiqwFKnQ3pUuZrm",
-        "target": "oeN3BijT2OCGbv4hk7tz_",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LCVPHuTjQ4zTi0tT77h9y",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KVOe7N9mpfqbAvF_bQxYB",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GdcUdMG8C62PeVe0hJaJZ",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "M8BbSZ4EqJSHN_2CMUIlG",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "D-LFpO99i1MttUa1MTmCa",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AAob1TBlOoIoEELilx3Mc",
-        "target": "cGLTxw45dWZbKwJ_L7v2z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y-FeyeZ6tqZmF_8wzrTuX",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jY6JPvP0QPjmnPL2tBUus",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OpTzX9_MCnMIf3nwDrCO9",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jji5jm1oT6SImHaBXwOJI",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vZQjiMqgSc2HtWCPYHvnb",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "X3j-XFMXKLjwvEMgDGbPQ",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UPQ6Y-jT39MkrM1Rg3Dip",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kKbKZ1sMBNaQUoX4Vf95j",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OUo1KyRG-Qc5I6GWZR2pp",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "w0p5SoSn4_YGeARz7Ll0O",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zRLfg-lJsWkNsZoY-Lqid",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_vIHVUkhy9Cu-WGdg59fi",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hsM7w-le7b_JXnAMB419W",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qABASsA3GLMJITuKqH0Te",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cqLk4gpK_Ex7SvpcR-EyX",
-        "target": "4gaa2THeYhi2Z45kSX42t",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aItdGZ817gzRevj1bZnQz",
-        "target": "2QB2qNbr8IHv4YbB-hYqf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WXIP35S-K0YPPrArosikv",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JEudXkog9r0szwd6RMw1L",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EJKYzHDG2YQawVpiqL-jU",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "urDcAE6II1QzHBydBQ0o9",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_3_v4fesS5FZTj-KAeSDq",
-        "target": "4j2CBBcLxNnE060LMnDTc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "P0XqGgwc6zKGRyXwnvMwD",
-        "target": "HUB5LvEuE_qxOjfxu-_mE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fwUzkj_cd8tQWM_du19i1",
-        "target": "HUB5LvEuE_qxOjfxu-_mE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VWVF938IZeNS2E1SrS29l",
-        "target": "HUB5LvEuE_qxOjfxu-_mE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CJnGG-Q_I_pfS7YsoCR0a",
-        "target": "HUB5LvEuE_qxOjfxu-_mE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "o65MsjBczUD_m7DYBFr_y",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Tu0lUGB1a-b89x1qnM7Qc",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bBLfNjB3IC2oNgQN4SSoE",
-        "target": "OSDmzLdt4rdVU2TFKazh1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "M8o5vABTrb0yRSctPX7oG",
-        "target": "Ts5wEmq3U761ObsaLVCsE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SIMaqZRxACO-f25KPPbFl",
-        "target": "Ts5wEmq3U761ObsaLVCsE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vTsD-oWa4vwEhfC5-Ax5Y",
-        "target": "js9MnMCVPoWWb9wLf_csS",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-i6X0KZW6CZfgzgQ2QMvH",
-        "target": "2QB2qNbr8IHv4YbB-hYqf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "H8vRATlg1hX8iPwLJdeOR",
-        "target": "2QB2qNbr8IHv4YbB-hYqf",
-        "type": "subtopic_of"
       }
     ]
   }

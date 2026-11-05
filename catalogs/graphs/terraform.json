@@ -3,10 +3,10 @@
     "slug": "terraform",
     "title": "Terraform Roadmap",
     "description": "Step by step guide to learn Terraform in 2026",
-    "extracted_at": "2026-10-29T01:04:46.242708+00:00",
+    "extracted_at": "2026-11-05T02:15:40.805380+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/terraform",
     "total_topics": 23,
-    "total_subtopics": 87
+    "total_subtopics": 90
   },
   "tree": {
     "title": "Terraform Roadmap",
@@ -64,7 +64,9 @@
                 "url": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/what-is-infrastructure-as-code@twR3k9D-qDr1CbyW6K0Fs.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/what-is-infrastructure-as-code@twR3k9D-qDr1CbyW6K0Fs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CU9V3iRdssamsG-xMouXT",
@@ -88,7 +90,9 @@
                 "url": "https://www.youtube.com/watch?v=lIaUz2GAqEQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/what-is-terraform@CU9V3iRdssamsG-xMouXT.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/what-is-terraform@CU9V3iRdssamsG-xMouXT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "hRIDJHIxWc5Iav7tsu8l-",
@@ -112,7 +116,9 @@
                 "url": "https://www.youtube.com/watch?v=0M4IvedbLJ4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/usecases-and-benefits@hRIDJHIxWc5Iav7tsu8l-.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/usecases-and-benefits@hRIDJHIxWc5Iav7tsu8l-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "UsINvx84pBF1hp8XoLF4c",
@@ -131,7 +137,9 @@
                 "url": "https://www.youtube.com/watch?v=rx4Uh3jv1cA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/cac-vs-iac@UsINvx84pBF1hp8XoLF4c.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/cac-vs-iac@UsINvx84pBF1hp8XoLF4c.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "AYtBLFU1nowEq-EVlXrEZ",
@@ -165,7 +173,9 @@
                 "url": "https://www.youtube.com/watch?v=qj4cOSYr7po"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/installing-terraform@AYtBLFU1nowEq-EVlXrEZ.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/installing-terraform@AYtBLFU1nowEq-EVlXrEZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -206,7 +216,9 @@
                 "url": "https://github.com/hashicorp/hcl"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/what-is-hcl@Hma2IgatFME8STHPwpeMG.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/what-is-hcl@Hma2IgatFME8STHPwpeMG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LaD0H7XhoEEaXbcwjxAbw",
@@ -220,7 +232,9 @@
                 "url": "https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/basic-syntax@LaD0H7XhoEEaXbcwjxAbw.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/basic-syntax@LaD0H7XhoEEaXbcwjxAbw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -271,7 +285,9 @@
                 "url": "https://www.youtube.com/watch?v=q4VdvS8aXnc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-registry@iIjUG_N_mQtLHG25v4-xg.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-registry@iIjUG_N_mQtLHG25v4-xg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JJ-QhLWqT0luis_kVDVHW",
@@ -290,7 +306,9 @@
                 "url": "https://www.env0.com/blog/how-to-use-terraform-providers"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/configuring-providers@JJ-QhLWqT0luis_kVDVHW.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/configuring-providers@JJ-QhLWqT0luis_kVDVHW.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bnQ2YLHd7E-vRxX3PnUEX",
@@ -304,7 +322,9 @@
                 "url": "https://developer.hashicorp.com/terraform/language/providers/requirements#requiring-providers"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/versions@bnQ2YLHd7E-vRxX3PnUEX.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/versions@bnQ2YLHd7E-vRxX3PnUEX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -336,8 +356,35 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/project-initialization@GlIXmCuvR_C81RMeMM1Kz.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "VxMse1VTZAUtVhpKv1OHS",
+            "name": "Input Variables",
+            "type": "subtopic",
+            "description": "Terraform input variables are parameters for modules, declared using variable blocks. They support multiple data types, default values, and descriptions. Users provide values when invoking modules or running Terraform. Accessed via `var.<name>` syntax, input variables enable flexible, reusable infrastructure templates adaptable to various deployment scenarios. They can be marked sensitive for security and are typically defined in a `variables.tf` file.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Define Input Variables",
+                "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables"
+              },
+              {
+                "type": "article",
+                "title": "Terraform Input and Output Variables Explained",
+                "url": "https://kodekloud.com/blog/terraform-variables-explained/"
+              },
+              {
+                "type": "video",
+                "title": "Terraform Basics: Input Variables",
+                "url": "https://www.youtube.com/watch%3Fv%3D2f65JhfYmIo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/input-variables@VxMse1VTZAUtVhpKv1OHS.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "BYydmFc2e-YPCC4MCWmh2",
@@ -357,7 +404,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/resources@BYydmFc2e-YPCC4MCWmh2.md",
-        "subtopics_count": 8,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "BgZu7Xao5GjR8StVL7qhM",
@@ -376,7 +423,9 @@
                 "url": "https://terraformguru.com/terraform-certification-using-azure-cloud/09-Resource-Syntax-and-Behavior/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/resource-behavior@BgZu7Xao5GjR8StVL7qhM.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/resource-behavior@BgZu7Xao5GjR8StVL7qhM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "76kp98rvph_8UOXZR-PBC",
@@ -400,7 +449,9 @@
                 "url": "https://spacelift.io/blog/terraform-resource-lifecycle"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/resource-lifecycle@76kp98rvph_8UOXZR-PBC.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/resource-lifecycle@76kp98rvph_8UOXZR-PBC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "TPd00dRndj1P8674KTTrm",
@@ -424,7 +475,9 @@
                 "url": "https://www.youtube.com/watch?v=7JraLCfroyE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/meta-arguments@TPd00dRndj1P8674KTTrm.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/meta-arguments@TPd00dRndj1P8674KTTrm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EIsex6gNHDRYHn0o2spzi",
@@ -448,98 +501,51 @@
                 "url": "https://www.youtube.com/watch?v=v0Qt-ltvmXU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/depends_on@EIsex6gNHDRYHn0o2spzi.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/depends_on@EIsex6gNHDRYHn0o2spzi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "kyScfijEntX9H1mp7tmej",
-            "name": "count",
+            "id": "16vLOPP9lTCuBh0q-UVMk",
+            "name": "Sensitive Data",
             "type": "subtopic",
-            "description": "The `count` meta-argument creates multiple instances of a resource or module from a single block. It accepts a whole number, and each instance is identified by an index starting at zero. Individual instances can be referenced using the `resource.name[index]` syntax.",
+            "description": "Terraform state may contain sensitive data such as passwords, private keys, and tokens returned by provider APIs. State files should be stored securely, with access restricted to authorized users and systems. Remote backends with encryption at rest and access controls are strongly recommended for any production use.",
             "resources": [
               {
                 "type": "official",
-                "title": "Terraform Docs - count",
-                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/count"
+                "title": "Sensitive data in state",
+                "url": "https://developer.hashicorp.com/terraform/language/state/sensitive-data"
               },
               {
-                "type": "article",
-                "title": "Terraform by Example - count",
-                "url": "https://www.terraformbyexample.com/count"
+                "type": "official",
+                "title": "Handling Sensitive Values in State",
+                "url": "https://developer.hashicorp.com/terraform/plugin/best-practices/sensitive-state"
               },
               {
                 "type": "video",
-                "title": "Conditional blocks in Terraform using count",
-                "url": "https://www.youtube.com/watch?v=RVoIqWkN_gI"
+                "title": "Terraform — Protecting Sensitive Data",
+                "url": "https://www.youtube.com/watch?v=yLc1YkB7DFo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/count@kyScfijEntX9H1mp7tmej.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/sensitive-data@16vLOPP9lTCuBh0q-UVMk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "gcdg_GhAacIWzv19ITTE_",
-            "name": "for_each",
+            "id": "1T35eNO18qoyXcX7S-Jox",
+            "name": "Versioning",
             "type": "subtopic",
-            "description": "The `for_each` meta-argument creates one instance of a resource or module for each item in a map or set of strings. Each instance is keyed by the map key or set value, making it easier to manage and reference individual items than with `count`. It is generally preferred over `count` when creating resources from a collection.",
+            "description": "State files can be versioned using backends that support versioning, such as S3 with versioning enabled. Keeping a history of state versions allows you to roll back to a previous state if a bad apply corrupts or loses data. Terraform Cloud and Enterprise provide built-in state history and the ability to restore past versions.",
             "resources": [
               {
                 "type": "official",
-                "title": "Terraform Docs - for_each",
-                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/for_each"
-              },
-              {
-                "type": "article",
-                "title": "Terraform by Example - for_each",
-                "url": "https://www.terraformbyexample.com/for_each"
-              },
-              {
-                "type": "video",
-                "title": "Terraform for loops",
-                "url": "https://www.youtube.com/watch?v=4qO7WK6D3cA"
+                "title": "State Versions API",
+                "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/state-versions"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/for_each@gcdg_GhAacIWzv19ITTE_.md"
-          },
-          {
-            "id": "5FLOFTP_nCa3qi1wbV4qE",
-            "name": "provider",
-            "type": "subtopic",
-            "description": "The `provider` meta-argument assigns a specific provider configuration to a resource when multiple configurations of the same provider exist. This is common when managing resources across multiple regions or accounts within the same Terraform workspace. The value must match an alias defined in a `provider` block.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Terraform Docs - provider",
-                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/resource-provider"
-              },
-              {
-                "type": "article",
-                "title": "Terraform by Example - provider",
-                "url": "https://www.terraformbyexample.com/providers/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/provider@5FLOFTP_nCa3qi1wbV4qE.md"
-          },
-          {
-            "id": "0A8zTuCXVmcruJdfH3cNu",
-            "name": "lifecycle",
-            "type": "subtopic",
-            "description": "The `lifecycle` block inside a resource configures how Terraform handles creation, updates, and deletion of that resource. It supports arguments like `create_before_destroy`, `prevent_destroy`, `ignore_changes`, and `replace_triggered_by`. These settings give you fine-grained control over resource replacement behavior.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Terraform Docs - lifecycle",
-                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle"
-              },
-              {
-                "type": "article",
-                "title": "Terraform Resource Lifecycle",
-                "url": "https://spacelift.io/blog/terraform-resource-lifecycle"
-              },
-              {
-                "type": "article",
-                "title": "Understanding the Lifecycle Block",
-                "url": "https://dev.to/pwd9000/terraform-understanding-the-lifecycle-block-4f6e"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/lifecycle@0A8zTuCXVmcruJdfH3cNu.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/versioning@1T35eNO18qoyXcX7S-Jox.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -566,56 +572,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/outputs@7GK4fQf1FRKrZgZkxNahj.md",
-        "subtopics_count": 3,
+        "subtopics_count": 1,
         "subtopics": [
-          {
-            "id": "31fa8kBzCEn-uCrTSoPM4",
-            "name": "Output Syntax",
-            "type": "subtopic",
-            "description": "An output block requires a `value` argument that specifies what to expose. Optional arguments include `description` for documentation, `sensitive` to redact the value, and `depends_on` to declare explicit dependencies. Outputs can expose any value, including resource attributes, local values, and variable values.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Hashicorp Output Tutorial",
-                "url": "https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs"
-              },
-              {
-                "type": "official",
-                "title": "Declaring an Output Value",
-                "url": "https://developer.hashicorp.com/terraform/language/values/outputs#declaring-an-output-value"
-              },
-              {
-                "type": "article",
-                "title": "Terraform Output Values : Complete Guide & Examples",
-                "url": "https://spacelift.io/blog/terraform-output"
-              },
-              {
-                "type": "article",
-                "title": "Terraform: Output a field from a module",
-                "url": "https://stackoverflow.com/questions/47034515/terraform-output-a-field-from-a-module"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/output-syntax@31fa8kBzCEn-uCrTSoPM4.md"
-          },
-          {
-            "id": "8giL6H5944M2L0rwxjPso",
-            "name": "Sensitive Outputs",
-            "type": "subtopic",
-            "description": "Marking an output as sensitive tells Terraform to redact its value from CLI output and logs. The value is still stored in state and can be accessed programmatically. This is commonly used for passwords, tokens, and other secrets that should not appear in plain text in terminal output.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Suppressing values in CLI output",
-                "url": "https://developer.hashicorp.com/terraform/language/values/outputs#sensitive-suppressing-values-in-cli-output"
-              },
-              {
-                "type": "article",
-                "title": "How to output sensitive data in Terraform",
-                "url": "https://support.hashicorp.com/hc/en-us/articles/5175257151891-How-to-output-sensitive-data-with-Terraform"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/sensitive-outputs@8giL6H5944M2L0rwxjPso.md"
-          },
           {
             "id": "DB-p_S4Ce4tDWF4wDiGSt",
             "name": "Preconditions",
@@ -633,7 +591,9 @@
                 "url": "https://www.youtube.com/watch?v=55ZLu8tSnvk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/preconditions@DB-p_S4Ce4tDWF4wDiGSt.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/preconditions@DB-p_S4Ce4tDWF4wDiGSt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -660,32 +620,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/variables@AY7_xUeCl6ilqZzg1YFoP.md",
-        "subtopics_count": 6,
+        "subtopics_count": 5,
         "subtopics": [
-          {
-            "id": "VxMse1VTZAUtVhpKv1OHS",
-            "name": "Input Variables",
-            "type": "subtopic",
-            "description": "Terraform input variables are parameters for modules, declared using variable blocks. They support multiple data types, default values, and descriptions. Users provide values when invoking modules or running Terraform. Accessed via `var.<name>` syntax, input variables enable flexible, reusable infrastructure templates adaptable to various deployment scenarios. They can be marked sensitive for security and are typically defined in a `variables.tf` file.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Define Input Variables",
-                "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables"
-              },
-              {
-                "type": "article",
-                "title": "Terraform Input and Output Variables Explained",
-                "url": "https://kodekloud.com/blog/terraform-variables-explained/"
-              },
-              {
-                "type": "video",
-                "title": "Terraform Basics: Input Variables",
-                "url": "https://www.youtube.com/watch%3Fv%3D2f65JhfYmIo"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/input-variables@VxMse1VTZAUtVhpKv1OHS.md"
-          },
           {
             "id": "HUiodBFIp_rsQDkf3WgbI",
             "name": "Type Constraints",
@@ -703,7 +639,9 @@
                 "url": "https://www.youtube.com/watch?v=hNZiZEQfV4Q"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/type-constraints@HUiodBFIp_rsQDkf3WgbI.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/type-constraints@HUiodBFIp_rsQDkf3WgbI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "rdphcVd-Vq972y4H8CxIj",
@@ -722,7 +660,9 @@
                 "url": "https://www.youtube.com/watch?v=BHWM4D2GJvI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/variable-definition-file@rdphcVd-Vq972y4H8CxIj.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/variable-definition-file@rdphcVd-Vq972y4H8CxIj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "1mFih8uFs3Lc-1PLgwiAU",
@@ -741,7 +681,9 @@
                 "url": "https://spacelift.io/blog/terraform-locals"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/local-values@1mFih8uFs3Lc-1PLgwiAU.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/local-values@1mFih8uFs3Lc-1PLgwiAU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fm8oUyNvfdGWTgLsYANUr",
@@ -755,7 +697,9 @@
                 "url": "https://developer.hashicorp.com/terraform/cli/config/environment-variables"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/environment-variables@fm8oUyNvfdGWTgLsYANUr.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/environment-variables@fm8oUyNvfdGWTgLsYANUr.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "U2n2BtyUrOFLnw9SZYV_w",
@@ -769,7 +713,9 @@
                 "url": "https://developer.hashicorp.com/terraform/language/values/variables#custom-validation-rules"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/validation-rules@U2n2BtyUrOFLnw9SZYV_w.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/validation-rules@U2n2BtyUrOFLnw9SZYV_w.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -825,7 +771,9 @@
                 "url": "https://www.youtube.com/watch?v=kZX3KLOZvhY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-fmt@78bGm8J5Y1I8H4qioOvWb.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-fmt@78bGm8J5Y1I8H4qioOvWb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wdYLjB-tKg76B7YcnhevQ",
@@ -839,7 +787,9 @@
                 "url": "https://www.env0.com/blog/terraform-validate-command-practical-examples-and-best-practices"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-validate@wdYLjB-tKg76B7YcnhevQ.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-validate@wdYLjB-tKg76B7YcnhevQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YftsQYpcqJqBKPjy5tWOq",
@@ -863,168 +813,9 @@
                 "url": "https://www.youtube.com/watch?v=-BKWpI4Olpw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/tflint@YftsQYpcqJqBKPjy5tWOq.md"
-          }
-        ]
-      },
-      {
-        "id": "5xAE-9viD7DP_ugQ6NE_C",
-        "name": "State",
-        "type": "topic",
-        "description": "Terraform state is a file that records the current status of managed infrastructure. It maps resources in the configuration to real-world objects and stores attribute values returned by the provider after creation. State is used to compute diffs during planning and to track resource identity across operations.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "State",
-            "url": "https://developer.hashicorp.com/terraform/language/state"
-          },
-          {
-            "type": "article",
-            "title": "Purpose of Terraform state",
-            "url": "https://developer.hashicorp.com/terraform/language/state/purpose"
-          },
-          {
-            "type": "video",
-            "title": "Managing Terraform state files",
-            "url": "https://www.youtube.com/watch?v=UDBVCzg2IRo"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/terraform/content/state@5xAE-9viD7DP_ugQ6NE_C.md",
-        "subtopics_count": 6,
-        "subtopics": [
-          {
-            "id": "16vLOPP9lTCuBh0q-UVMk",
-            "name": "Sensitive Data",
-            "type": "subtopic",
-            "description": "Terraform state may contain sensitive data such as passwords, private keys, and tokens returned by provider APIs. State files should be stored securely, with access restricted to authorized users and systems. Remote backends with encryption at rest and access controls are strongly recommended for any production use.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Sensitive data in state",
-                "url": "https://developer.hashicorp.com/terraform/language/state/sensitive-data"
-              },
-              {
-                "type": "official",
-                "title": "Handling Sensitive Values in State",
-                "url": "https://developer.hashicorp.com/terraform/plugin/best-practices/sensitive-state"
-              },
-              {
-                "type": "video",
-                "title": "Terraform — Protecting Sensitive Data",
-                "url": "https://www.youtube.com/watch?v=yLc1YkB7DFo"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/sensitive-data@16vLOPP9lTCuBh0q-UVMk.md"
-          },
-          {
-            "id": "1T35eNO18qoyXcX7S-Jox",
-            "name": "Versioning",
-            "type": "subtopic",
-            "description": "State files can be versioned using backends that support versioning, such as S3 with versioning enabled. Keeping a history of state versions allows you to roll back to a previous state if a bad apply corrupts or loses data. Terraform Cloud and Enterprise provide built-in state history and the ability to restore past versions.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "State Versions API",
-                "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/state-versions"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/versioning@1T35eNO18qoyXcX7S-Jox.md"
-          },
-          {
-            "id": "a0rUMnYluVUGhyhlDK5S8",
-            "name": "Splitting State Files",
-            "type": "subtopic",
-            "description": "Large Terraform configurations can be split into multiple state files by organizing resources into separate workspaces or root modules. This reduces the blast radius of plan and apply operations, speeds up plans, and makes it easier for teams to work independently on different parts of the infrastructure.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How to split state files",
-                "url": "https://support.hashicorp.com/hc/en-us/articles/7955227415059-How-to-Split-State-Files"
-              },
-              {
-                "type": "article",
-                "title": "Introducing terraform-state-split",
-                "url": "https://www.shebanglabs.io/moving-terraform-resources-between-different-states/"
-              },
-              {
-                "type": "video",
-                "title": "Organizing Terraform with multiple states",
-                "url": "https://www.youtube.com/watch?v=5TfgdKXr45I"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/splitting-state-files@a0rUMnYluVUGhyhlDK5S8.md"
-          },
-          {
-            "id": "L7wAMGi_yU-Bbc9fXlmxZ",
-            "name": "Import Existing Resources",
-            "type": "subtopic",
-            "description": "`terraform import` brings existing infrastructure resources under Terraform management by adding them to the state file. After importing, the configuration must be written manually to match the imported resource. This is used when adopting Terraform in environments where resources were created outside of it.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Terraform import command",
-                "url": "https://developer.hashicorp.com/terraform/cli/import"
-              },
-              {
-                "type": "article",
-                "title": "Terraform Import: What it is and how to use it",
-                "url": "https://terrateam.io/blog/terraform-import"
-              },
-              {
-                "type": "video",
-                "title": "Exploring the Import Block in Terraform 1.5",
-                "url": "https://www.youtube.com/watch?v=znfh_00EDZ0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/import-existing-resources@L7wAMGi_yU-Bbc9fXlmxZ.md"
-          },
-          {
-            "id": "GseYuG9wT8H9R_enxWzuQ",
-            "name": "State Locking",
-            "type": "subtopic",
-            "description": "State locking prevents two Terraform operations from modifying state at the same time. When supported by the backend, Terraform acquires a lock before writing to state and releases it when the operation completes. If a lock is not released due to a crash or error, it can be manually removed with the `force-unlock` command.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "State - Locking",
-                "url": "https://developer.hashicorp.com/terraform/language/state/locking"
-              },
-              {
-                "type": "official",
-                "title": "State Storage and Locking",
-                "url": "https://developer.hashicorp.com/terraform/language/state/backends"
-              },
-              {
-                "type": "video",
-                "title": "Terraform - State locking",
-                "url": "https://www.youtube.com/watch?v=QdDCUpggmrw"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/state-locking@GseYuG9wT8H9R_enxWzuQ.md"
-          },
-          {
-            "id": "pDm08NBVwGf9rAIZC_ZIR",
-            "name": "Remote State",
-            "type": "subtopic",
-            "description": "Remote state stores the Terraform state file in a shared, remote backend such as S3, Azure Blob Storage, or Terraform Cloud. This allows multiple team members to work with the same state and prevents conflicts from concurrent operations. Remote backends also support state locking to prevent simultaneous writes.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Remote state",
-                "url": "https://developer.hashicorp.com/terraform/language/state/remote"
-              },
-              {
-                "type": "official",
-                "title": "The terraform_remote_state Data Source",
-                "url": "https://developer.hashicorp.com/terraform/language/state/remote-state-data"
-              },
-              {
-                "type": "video",
-                "title": "Terraform remote state backends explained",
-                "url": "https://www.youtube.com/watch?v=jSoMQCBxp7E"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/remote-state@pDm08NBVwGf9rAIZC_ZIR.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/tflint@YftsQYpcqJqBKPjy5tWOq.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1051,8 +842,344 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/best-practices-for-state@jas0XILqCUXjWRk3ZoSEO.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "kyScfijEntX9H1mp7tmej",
+            "name": "count",
+            "type": "subtopic",
+            "description": "The `count` meta-argument creates multiple instances of a resource or module from a single block. It accepts a whole number, and each instance is identified by an index starting at zero. Individual instances can be referenced using the `resource.name[index]` syntax.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Terraform Docs - count",
+                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/count"
+              },
+              {
+                "type": "article",
+                "title": "Terraform by Example - count",
+                "url": "https://www.terraformbyexample.com/count"
+              },
+              {
+                "type": "video",
+                "title": "Conditional blocks in Terraform using count",
+                "url": "https://www.youtube.com/watch?v=RVoIqWkN_gI"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/count@kyScfijEntX9H1mp7tmej.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "gcdg_GhAacIWzv19ITTE_",
+            "name": "for_each",
+            "type": "subtopic",
+            "description": "The `for_each` meta-argument creates one instance of a resource or module for each item in a map or set of strings. Each instance is keyed by the map key or set value, making it easier to manage and reference individual items than with `count`. It is generally preferred over `count` when creating resources from a collection.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Terraform Docs - for_each",
+                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/for_each"
+              },
+              {
+                "type": "article",
+                "title": "Terraform by Example - for_each",
+                "url": "https://www.terraformbyexample.com/for_each"
+              },
+              {
+                "type": "video",
+                "title": "Terraform for loops",
+                "url": "https://www.youtube.com/watch?v=4qO7WK6D3cA"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/for_each@gcdg_GhAacIWzv19ITTE_.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "5FLOFTP_nCa3qi1wbV4qE",
+            "name": "provider",
+            "type": "subtopic",
+            "description": "The `provider` meta-argument assigns a specific provider configuration to a resource when multiple configurations of the same provider exist. This is common when managing resources across multiple regions or accounts within the same Terraform workspace. The value must match an alias defined in a `provider` block.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Terraform Docs - provider",
+                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/resource-provider"
+              },
+              {
+                "type": "article",
+                "title": "Terraform by Example - provider",
+                "url": "https://www.terraformbyexample.com/providers/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/provider@5FLOFTP_nCa3qi1wbV4qE.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "0A8zTuCXVmcruJdfH3cNu",
+            "name": "lifecycle",
+            "type": "subtopic",
+            "description": "The `lifecycle` block inside a resource configures how Terraform handles creation, updates, and deletion of that resource. It supports arguments like `create_before_destroy`, `prevent_destroy`, `ignore_changes`, and `replace_triggered_by`. These settings give you fine-grained control over resource replacement behavior.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Terraform Docs - lifecycle",
+                "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle"
+              },
+              {
+                "type": "article",
+                "title": "Terraform Resource Lifecycle",
+                "url": "https://spacelift.io/blog/terraform-resource-lifecycle"
+              },
+              {
+                "type": "article",
+                "title": "Understanding the Lifecycle Block",
+                "url": "https://dev.to/pwd9000/terraform-understanding-the-lifecycle-block-4f6e"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/lifecycle@0A8zTuCXVmcruJdfH3cNu.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "5xAE-9viD7DP_ugQ6NE_C",
+        "name": "State",
+        "type": "topic",
+        "description": "Terraform state is a file that records the current status of managed infrastructure. It maps resources in the configuration to real-world objects and stores attribute values returned by the provider after creation. State is used to compute diffs during planning and to track resource identity across operations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "State",
+            "url": "https://developer.hashicorp.com/terraform/language/state"
+          },
+          {
+            "type": "article",
+            "title": "Purpose of Terraform state",
+            "url": "https://developer.hashicorp.com/terraform/language/state/purpose"
+          },
+          {
+            "type": "video",
+            "title": "Managing Terraform state files",
+            "url": "https://www.youtube.com/watch?v=UDBVCzg2IRo"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/terraform/content/state@5xAE-9viD7DP_ugQ6NE_C.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "a0rUMnYluVUGhyhlDK5S8",
+            "name": "Splitting State Files",
+            "type": "subtopic",
+            "description": "Large Terraform configurations can be split into multiple state files by organizing resources into separate workspaces or root modules. This reduces the blast radius of plan and apply operations, speeds up plans, and makes it easier for teams to work independently on different parts of the infrastructure.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "How to split state files",
+                "url": "https://support.hashicorp.com/hc/en-us/articles/7955227415059-How-to-Split-State-Files"
+              },
+              {
+                "type": "article",
+                "title": "Introducing terraform-state-split",
+                "url": "https://www.shebanglabs.io/moving-terraform-resources-between-different-states/"
+              },
+              {
+                "type": "video",
+                "title": "Organizing Terraform with multiple states",
+                "url": "https://www.youtube.com/watch?v=5TfgdKXr45I"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/splitting-state-files@a0rUMnYluVUGhyhlDK5S8.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "L7wAMGi_yU-Bbc9fXlmxZ",
+            "name": "Import Existing Resources",
+            "type": "subtopic",
+            "description": "`terraform import` brings existing infrastructure resources under Terraform management by adding them to the state file. After importing, the configuration must be written manually to match the imported resource. This is used when adopting Terraform in environments where resources were created outside of it.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Terraform import command",
+                "url": "https://developer.hashicorp.com/terraform/cli/import"
+              },
+              {
+                "type": "article",
+                "title": "Terraform Import: What it is and how to use it",
+                "url": "https://terrateam.io/blog/terraform-import"
+              },
+              {
+                "type": "video",
+                "title": "Exploring the Import Block in Terraform 1.5",
+                "url": "https://www.youtube.com/watch?v=znfh_00EDZ0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/import-existing-resources@L7wAMGi_yU-Bbc9fXlmxZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "GseYuG9wT8H9R_enxWzuQ",
+            "name": "State Locking",
+            "type": "subtopic",
+            "description": "State locking prevents two Terraform operations from modifying state at the same time. When supported by the backend, Terraform acquires a lock before writing to state and releases it when the operation completes. If a lock is not released due to a crash or error, it can be manually removed with the `force-unlock` command.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "State - Locking",
+                "url": "https://developer.hashicorp.com/terraform/language/state/locking"
+              },
+              {
+                "type": "official",
+                "title": "State Storage and Locking",
+                "url": "https://developer.hashicorp.com/terraform/language/state/backends"
+              },
+              {
+                "type": "video",
+                "title": "Terraform - State locking",
+                "url": "https://www.youtube.com/watch?v=QdDCUpggmrw"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/state-locking@GseYuG9wT8H9R_enxWzuQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "pDm08NBVwGf9rAIZC_ZIR",
+            "name": "Remote State",
+            "type": "subtopic",
+            "description": "Remote state stores the Terraform state file in a shared, remote backend such as S3, Azure Blob Storage, or Terraform Cloud. This allows multiple team members to work with the same state and prevents conflicts from concurrent operations. Remote backends also support state locking to prevent simultaneous writes.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Remote state",
+                "url": "https://developer.hashicorp.com/terraform/language/state/remote"
+              },
+              {
+                "type": "official",
+                "title": "The terraform_remote_state Data Source",
+                "url": "https://developer.hashicorp.com/terraform/language/state/remote-state-data"
+              },
+              {
+                "type": "video",
+                "title": "Terraform remote state backends explained",
+                "url": "https://www.youtube.com/watch?v=jSoMQCBxp7E"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/remote-state@pDm08NBVwGf9rAIZC_ZIR.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "i-TQe48edt3Va_oZGVBLX",
+            "name": "State Management",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
+              {
+                "id": "AAg_iFggkEZNL12-6nkgK",
+                "name": "Published Modules Usage",
+                "type": "subtopic",
+                "description": "Published modules are pre-built, versioned modules available on the Terraform Registry. They can be referenced directly in a `module` block using a registry source address and version constraint. Using published modules speeds up development by providing tested, maintained implementations of common infrastructure patterns.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Publishing Modules",
+                    "url": "https://developer.hashicorp.com/terraform/registry/modules/publish"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "Terraform Registry - Modules",
+                    "url": "https://registry.terraform.io/browse/modules"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Terraform - Publish modules",
+                    "url": "https://www.youtube.com/watch?v=9vBp1D3myH8"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/published-modules-usage@AAg_iFggkEZNL12-6nkgK.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "wQN1QrK9VB_fHlXrBzDoU",
+                "name": "Creating Local Modules",
+                "type": "subtopic",
+                "description": "Local modules are directories containing Terraform configuration files that are referenced using a relative file path in a `module` block. They allow you to break a large configuration into smaller, self-contained units. Inputs are passed via variables and outputs are declared for the parent module to consume.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Build and use a local module",
+                    "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module-create"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How to create reusable infrastructure with Terraform modules",
+                    "url": "https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Creating a module in Terraform",
+                    "url": "https://www.youtube.com/watch?v=OeL2AlsdNaQ"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/creating-local-modules@wQN1QrK9VB_fHlXrBzDoU.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "NsBJTYH9KXvjJuhPzjE_L",
+                "name": "Inputs / Outputs",
+                "type": "subtopic",
+                "description": "Modules accept input values through declared variables and expose results through declared outputs. The calling module passes values for each required variable and can reference the module's outputs using the `module.<name>.<output>` syntax. Well-defined inputs and outputs form the public interface of a module.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Accessing Module Output Values",
+                    "url": "https://developer.hashicorp.com/terraform/language/modules/syntax#accessing-module-output-values"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/inputs--outputs@NsBJTYH9KXvjJuhPzjE_L.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "gTMPK0tfs2JYgoL7SAGW6",
+                "name": "Modules Best Practices",
+                "type": "subtopic",
+                "description": "Modules should be focused on a single concern and avoid hardcoding values that callers need to control. Always declare types for input variables and provide descriptions. Version-pin external modules and keep local modules small and composable. Avoid deeply nested module hierarchies, as they are harder to debug and maintain.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Module Best Practices",
+                    "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module#module-best-practices"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Terraform Modules Guide: Best Practices & Examples",
+                    "url": "https://www.env0.com/blog/terraform-modules"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Best practices for modularizing a Terraform project | PlatformCon 2023",
+                    "url": "https://www.youtube.com/watch?v=byzwaTng3ac"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/modules-best-practices@gTMPK0tfs2JYgoL7SAGW6.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "KXlLlaR0_S7gE_ZB1hNEd",
@@ -1072,8 +1199,71 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/inspect--modify-state@KXlLlaR0_S7gE_ZB1hNEd.md",
-        "subtopics_count": 10,
+        "subtopics_count": 11,
         "subtopics": [
+          {
+            "id": "Iv-ZRTeVmvk7l7X9nk3ds",
+            "name": "Getting Started",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 2,
+            "subtopics": [
+              {
+                "id": "31fa8kBzCEn-uCrTSoPM4",
+                "name": "Output Syntax",
+                "type": "subtopic",
+                "description": "An output block requires a `value` argument that specifies what to expose. Optional arguments include `description` for documentation, `sensitive` to redact the value, and `depends_on` to declare explicit dependencies. Outputs can expose any value, including resource attributes, local values, and variable values.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Hashicorp Output Tutorial",
+                    "url": "https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Declaring an Output Value",
+                    "url": "https://developer.hashicorp.com/terraform/language/values/outputs#declaring-an-output-value"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Terraform Output Values : Complete Guide & Examples",
+                    "url": "https://spacelift.io/blog/terraform-output"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Terraform: Output a field from a module",
+                    "url": "https://stackoverflow.com/questions/47034515/terraform-output-a-field-from-a-module"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/output-syntax@31fa8kBzCEn-uCrTSoPM4.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8giL6H5944M2L0rwxjPso",
+                "name": "Sensitive Outputs",
+                "type": "subtopic",
+                "description": "Marking an output as sensitive tells Terraform to redact its value from CLI output and logs. The value is still stored in state and can be accessed programmatically. This is commonly used for passwords, tokens, and other secrets that should not appear in plain text in terminal output.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Suppressing values in CLI output",
+                    "url": "https://developer.hashicorp.com/terraform/language/values/outputs#sensitive-suppressing-values-in-cli-output"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How to output sensitive data in Terraform",
+                    "url": "https://support.hashicorp.com/hc/en-us/articles/5175257151891-How-to-output-sensitive-data-with-Terraform"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/sensitive-outputs@8giL6H5944M2L0rwxjPso.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
           {
             "id": "vAFFgKSthyj_3Lxt-Z6pg",
             "name": "graph",
@@ -1101,7 +1291,9 @@
                 "url": "https://www.youtube.com/watch?v=YbnBstMyVEI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/graph@vAFFgKSthyj_3Lxt-Z6pg.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/graph@vAFFgKSthyj_3Lxt-Z6pg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7DZB2VeyuouFXOdFEfeZt",
@@ -1120,7 +1312,9 @@
                 "url": "https://developer.hashicorp.com/terraform/cli/commands/state/show"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/show@7DZB2VeyuouFXOdFEfeZt.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/show@7DZB2VeyuouFXOdFEfeZt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Y-mgCkDpawt5NrMwDH9Ki",
@@ -1134,7 +1328,9 @@
                 "url": "https://developer.hashicorp.com/terraform/cli/commands/state/list"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/list@Y-mgCkDpawt5NrMwDH9Ki.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/list@Y-mgCkDpawt5NrMwDH9Ki.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kw32gb4HSeCEoBwkeziS_",
@@ -1153,7 +1349,9 @@
                 "url": "https://learning-ocean.com/tutorials/terraform/terraform-output/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/output@kw32gb4HSeCEoBwkeziS_.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/output@kw32gb4HSeCEoBwkeziS_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "uR6Vjm8cek9JRzZV0iTXh",
@@ -1177,7 +1375,9 @@
                 "url": "https://www.youtube.com/watch?v=uK__Ls6an1c"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/rm@uR6Vjm8cek9JRzZV0iTXh.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/rm@uR6Vjm8cek9JRzZV0iTXh.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0xVXwjWPFXDGRw_3p6th6",
@@ -1201,7 +1401,9 @@
                 "url": "https://www.youtube.com/watch?v=i10IMXn3l0o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/mv@0xVXwjWPFXDGRw_3p6th6.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/mv@0xVXwjWPFXDGRw_3p6th6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "jvHtSRLuCXJrGIiesgbE-",
@@ -1225,7 +1427,9 @@
                 "url": "https://www.youtube.com/watch?v=v_T1fuYGjV0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/-replace-option-in-apply@jvHtSRLuCXJrGIiesgbE-.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/-replace-option-in-apply@jvHtSRLuCXJrGIiesgbE-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wSh7bbPswcFAzOicX8VPx",
@@ -1249,7 +1453,9 @@
                 "url": "https://support.hashicorp.com/hc/en-us/articles/360001151948-Migrate-Workspace-State-Using-Terraform-State-Push-Pull"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/state-pull--push@wSh7bbPswcFAzOicX8VPx.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/state-pull--push@wSh7bbPswcFAzOicX8VPx.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Os6AOXp1CVI_Bh3NYnX17",
@@ -1263,7 +1469,9 @@
                 "url": "https://developer.hashicorp.com/terraform/cli/commands/state/replace-provider"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/state-replace-provider@Os6AOXp1CVI_Bh3NYnX17.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/state-replace-provider@Os6AOXp1CVI_Bh3NYnX17.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Trpi2ZlnXZVYJCibE2bQ8",
@@ -1287,7 +1495,52 @@
                 "url": "https://www.youtube.com/watch?v=qVs9pLaXSeg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/state-force-unlock@Trpi2ZlnXZVYJCibE2bQ8.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/state-force-unlock@Trpi2ZlnXZVYJCibE2bQ8.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "inbTto9Qukdj6egRJ0Zh9",
+        "name": "Clean Up",
+        "type": "topic",
+        "description": "Cleaning up Terraform-managed infrastructure means removing resources that are no longer needed. Terraform provides a command to destroy all resources in the current workspace, and understanding when and how to use it safely is an important part of the infrastructure lifecycle.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to Destroy Terraform Resources",
+            "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/terraform/content/clean-up@inbTto9Qukdj6egRJ0Zh9.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "LPI13FILvkD55hWcWbPrV",
+            "name": "terraform destroy",
+            "type": "subtopic",
+            "description": "`terraform destroy` removes all resources managed by the current configuration. It is the equivalent of running `terraform apply` with every resource marked for deletion. Like apply, it shows a plan and prompts for confirmation before proceeding. Individual resources can also be targeted with the `-target` flag.",
+            "resources": [
+              {
+                "type": "course",
+                "title": "Destroy infrastructure",
+                "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-destroy"
+              },
+              {
+                "type": "official",
+                "title": "Terraform Destroy Documentation",
+                "url": "https://developer.hashicorp.com/terraform/cli/commands/destroy"
+              },
+              {
+                "type": "article",
+                "title": "How to destroy Terraform resources",
+                "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-destroy@LPI13FILvkD55hWcWbPrV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1333,7 +1586,9 @@
                 "url": "https://www.youtube.com/watch?v=9v08h-Oaelo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-plan@LDxAXmTKyvogvgUpvN5pT.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-plan@LDxAXmTKyvogvgUpvN5pT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LDpj-LY_SOXzno04D-Y25",
@@ -1357,48 +1612,9 @@
                 "url": "https://www.env0.com/blog/terraform-apply-guide-command-options-and-examples"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-apply@LDpj-LY_SOXzno04D-Y25.md"
-          }
-        ]
-      },
-      {
-        "id": "inbTto9Qukdj6egRJ0Zh9",
-        "name": "Clean Up",
-        "type": "topic",
-        "description": "Cleaning up Terraform-managed infrastructure means removing resources that are no longer needed. Terraform provides a command to destroy all resources in the current workspace, and understanding when and how to use it safely is an important part of the infrastructure lifecycle.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to Destroy Terraform Resources",
-            "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/terraform/content/clean-up@inbTto9Qukdj6egRJ0Zh9.md",
-        "subtopics_count": 1,
-        "subtopics": [
-          {
-            "id": "LPI13FILvkD55hWcWbPrV",
-            "name": "terraform destroy",
-            "type": "subtopic",
-            "description": "`terraform destroy` removes all resources managed by the current configuration. It is the equivalent of running `terraform apply` with every resource marked for deletion. Like apply, it shows a plan and prompts for confirmation before proceeding. Individual resources can also be targeted with the `-target` flag.",
-            "resources": [
-              {
-                "type": "course",
-                "title": "Destroy infrastructure",
-                "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-destroy"
-              },
-              {
-                "type": "official",
-                "title": "Terraform Destroy Documentation",
-                "url": "https://developer.hashicorp.com/terraform/cli/commands/destroy"
-              },
-              {
-                "type": "article",
-                "title": "How to destroy Terraform resources",
-                "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-destroy@LPI13FILvkD55hWcWbPrV.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terraform-apply@LDpj-LY_SOXzno04D-Y25.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1420,7 +1636,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/terraform/content/modules@R2AORYmc1NgGTqLZY5Fu-.md",
-        "subtopics_count": 5,
+        "subtopics_count": 1,
         "subtopics": [
           {
             "id": "6W4_akHG9YtvN6dpbZnG-",
@@ -1444,93 +1660,9 @@
                 "url": "https://stackoverflow.com/questions/77671412/what-is-the-difference-between-terraform-module-and-child-module"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/root-vs-child-modules@6W4_akHG9YtvN6dpbZnG-.md"
-          },
-          {
-            "id": "AAg_iFggkEZNL12-6nkgK",
-            "name": "Published Modules Usage",
-            "type": "subtopic",
-            "description": "Published modules are pre-built, versioned modules available on the Terraform Registry. They can be referenced directly in a `module` block using a registry source address and version constraint. Using published modules speeds up development by providing tested, maintained implementations of common infrastructure patterns.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Publishing Modules",
-                "url": "https://developer.hashicorp.com/terraform/registry/modules/publish"
-              },
-              {
-                "type": "opensource",
-                "title": "Terraform Registry - Modules",
-                "url": "https://registry.terraform.io/browse/modules"
-              },
-              {
-                "type": "video",
-                "title": "Terraform - Publish modules",
-                "url": "https://www.youtube.com/watch?v=9vBp1D3myH8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/published-modules-usage@AAg_iFggkEZNL12-6nkgK.md"
-          },
-          {
-            "id": "wQN1QrK9VB_fHlXrBzDoU",
-            "name": "Creating Local Modules",
-            "type": "subtopic",
-            "description": "Local modules are directories containing Terraform configuration files that are referenced using a relative file path in a `module` block. They allow you to break a large configuration into smaller, self-contained units. Inputs are passed via variables and outputs are declared for the parent module to consume.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Build and use a local module",
-                "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module-create"
-              },
-              {
-                "type": "article",
-                "title": "How to create reusable infrastructure with Terraform modules",
-                "url": "https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d"
-              },
-              {
-                "type": "video",
-                "title": "Creating a module in Terraform",
-                "url": "https://www.youtube.com/watch?v=OeL2AlsdNaQ"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/creating-local-modules@wQN1QrK9VB_fHlXrBzDoU.md"
-          },
-          {
-            "id": "NsBJTYH9KXvjJuhPzjE_L",
-            "name": "Inputs / Outputs",
-            "type": "subtopic",
-            "description": "Modules accept input values through declared variables and expose results through declared outputs. The calling module passes values for each required variable and can reference the module's outputs using the `module.<name>.<output>` syntax. Well-defined inputs and outputs form the public interface of a module.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Accessing Module Output Values",
-                "url": "https://developer.hashicorp.com/terraform/language/modules/syntax#accessing-module-output-values"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/inputs--outputs@NsBJTYH9KXvjJuhPzjE_L.md"
-          },
-          {
-            "id": "gTMPK0tfs2JYgoL7SAGW6",
-            "name": "Modules Best Practices",
-            "type": "subtopic",
-            "description": "Modules should be focused on a single concern and avoid hardcoding values that callers need to control. Always declare types for input variables and provide descriptions. Version-pin external modules and keep local modules small and composable. Avoid deeply nested module hierarchies, as they are harder to debug and maintain.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Module Best Practices",
-                "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module#module-best-practices"
-              },
-              {
-                "type": "article",
-                "title": "Terraform Modules Guide: Best Practices & Examples",
-                "url": "https://www.env0.com/blog/terraform-modules"
-              },
-              {
-                "type": "video",
-                "title": "Best practices for modularizing a Terraform project | PlatformCon 2023",
-                "url": "https://www.youtube.com/watch?v=byzwaTng3ac"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/modules-best-practices@gTMPK0tfs2JYgoL7SAGW6.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/root-vs-child-modules@6W4_akHG9YtvN6dpbZnG-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1566,7 +1698,9 @@
                 "url": "https://k21academy.com/terraform-iac/terraform-provisioners/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/when-to-use@CmmoshFC1dKE4y3SMN2bl.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/when-to-use@CmmoshFC1dKE4y3SMN2bl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CJfCpRN_oVf6n_EfLNJSV",
@@ -1590,7 +1724,9 @@
                 "url": "https://support.hashicorp.com/hc/en-us/articles/11119084989587-How-to-Terraform-Destroy-time-Provisioners"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/creation--destroy-time@CJfCpRN_oVf6n_EfLNJSV.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/creation--destroy-time@CJfCpRN_oVf6n_EfLNJSV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Qch8k6e4pS8OlmG_sI0hH",
@@ -1609,7 +1745,9 @@
                 "url": "https://learning-ocean.com/tutorials/terraform/terraform-file-provisioner/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/file-provisioner@Qch8k6e4pS8OlmG_sI0hH.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/file-provisioner@Qch8k6e4pS8OlmG_sI0hH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "g2F5-nX4Aw-xWZiypNbnL",
@@ -1633,7 +1771,9 @@
                 "url": "https://www.youtube.com/watch?v=2dVq8L2LBc0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/local-exec-provisioner@g2F5-nX4Aw-xWZiypNbnL.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/local-exec-provisioner@g2F5-nX4Aw-xWZiypNbnL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JQE3_KakBXZdMVP_pPFNS",
@@ -1657,7 +1797,9 @@
                 "url": "https://www.youtube.com/watch?v=kjDXbGeLvRw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/remote-exec-provisioner@JQE3_KakBXZdMVP_pPFNS.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/remote-exec-provisioner@JQE3_KakBXZdMVP_pPFNS.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "HEr-BBxE3jRKTqRnguds1",
@@ -1676,7 +1818,9 @@
                 "url": "https://spacelift.io/blog/terraform-provisioners"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/custom-provisioners@HEr-BBxE3jRKTqRnguds1.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/custom-provisioners@HEr-BBxE3jRKTqRnguds1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1733,32 +1877,6 @@
         "subtopics": []
       },
       {
-        "id": "nFq-64JQoYAKjN9YkmOfO",
-        "name": "Workspaces",
-        "type": "topic",
-        "description": "Workspaces allow multiple state files to exist for the same configuration, enabling the same code to manage separate environments such as development, staging, and production. The `terraform workspace` commands create, switch, and list workspaces. The current workspace name is available in expressions as `terraform.workspace`.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Workspaces",
-            "url": "https://developer.hashicorp.com/terraform/language/state/workspaces"
-          },
-          {
-            "type": "article",
-            "title": "What are Terraform workspaces?",
-            "url": "https://spacelift.io/blog/terraform-workspaces"
-          },
-          {
-            "type": "video",
-            "title": "Structuring Repositories for Terraform Workspaces - Hashicorp",
-            "url": "https://www.youtube.com/watch?v=IDLGpkRmDXg"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/terraform/content/workspaces@nFq-64JQoYAKjN9YkmOfO.md",
-        "subtopics_count": 0,
-        "subtopics": []
-      },
-      {
         "id": "O194eWh529jj4VDhKxNSj",
         "name": "CI / CD Integration",
         "type": "topic",
@@ -1794,7 +1912,9 @@
                 "url": "https://spacelift.io/blog/github-actions-terraform"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/github-actions@weIlGqGN15U8BH1yE9moA.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/github-actions@weIlGqGN15U8BH1yE9moA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6OoAdvikyp0byMH2oZhyQ",
@@ -1818,7 +1938,9 @@
                 "url": "https://medium.com/nerd-for-tech/how-i-deployed-terraform-resources-with-circleci-628aa29ed514"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/circle-ci@6OoAdvikyp0byMH2oZhyQ.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/circle-ci@6OoAdvikyp0byMH2oZhyQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fH27mGrdnkDQCrGGDFU6p",
@@ -1842,7 +1964,9 @@
                 "url": "https://www.youtube.com/watch?v=oqOzM_WBqZc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/gitlab-ci@fH27mGrdnkDQCrGGDFU6p.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/gitlab-ci@fH27mGrdnkDQCrGGDFU6p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qFpaqOSoefTyKxmI-FRZt",
@@ -1861,7 +1985,192 @@
                 "url": "https://www.youtube.com/watch?v=kIDiP3Unj7Y"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/jenkins@qFpaqOSoefTyKxmI-FRZt.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/jenkins@qFpaqOSoefTyKxmI-FRZt.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "nFq-64JQoYAKjN9YkmOfO",
+        "name": "Workspaces",
+        "type": "topic",
+        "description": "Workspaces allow multiple state files to exist for the same configuration, enabling the same code to manage separate environments such as development, staging, and production. The `terraform workspace` commands create, switch, and list workspaces. The current workspace name is available in expressions as `terraform.workspace`.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Workspaces",
+            "url": "https://developer.hashicorp.com/terraform/language/state/workspaces"
+          },
+          {
+            "type": "article",
+            "title": "What are Terraform workspaces?",
+            "url": "https://spacelift.io/blog/terraform-workspaces"
+          },
+          {
+            "type": "video",
+            "title": "Structuring Repositories for Terraform Workspaces - Hashicorp",
+            "url": "https://www.youtube.com/watch?v=IDLGpkRmDXg"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/terraform/content/workspaces@nFq-64JQoYAKjN9YkmOfO.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "ECcHo0KTDN27MuVTC-Fwy",
+        "name": "Scaling Terraform",
+        "type": "topic",
+        "description": "As infrastructure grows, Terraform configurations must be structured to remain manageable, performant, and safe for teams to use concurrently. Scaling strategies include splitting state, parallelizing operations, enforcing consistent deployment workflows, and managing version drift across modules and providers.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/terraform/content/scaling-terraform@ECcHo0KTDN27MuVTC-Fwy.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "nx53xkJqovG-KCxZwihF1",
+            "name": "Basic / Advanced Commands",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 1,
+            "subtopics": [
+              {
+                "id": "6zFuSNOfbPaYIE_t--2nr",
+                "name": "Version Management",
+                "type": "subtopic",
+                "description": "Managing Terraform and provider versions across a team requires consistent tooling. `tfenv` is a popular version manager for Terraform that allows switching between installed versions based on a `.terraform-version` file. Pinning versions in `required_version` and `required_providers` blocks ensures everyone uses compatible releases.",
+                "resources": [
+                  {
+                    "type": "opensource",
+                    "title": "tfenv",
+                    "url": "https://github.com/tfutils/tfenv"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How to Use tfenv to Manage Multiple Terraform Versions",
+                    "url": "https://spacelift.io/blog/tfenv"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Quick Tech: tfenv",
+                    "url": "https://www.youtube.com/watch?v=Smk5PrRPQsU"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/terraform/content/version-management@6zFuSNOfbPaYIE_t--2nr.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "zCU02_5Pide5BZiuMuqEU",
+            "name": "Splitting Large State",
+            "type": "subtopic",
+            "description": "Large state files slow down plans and increase the risk of conflicts. Splitting infrastructure into smaller, independently managed configurations with their own state files reduces plan times and limits the impact of a failed apply. Resources in different state files communicate through remote state data sources or variable passing.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/splitting-large-state@zCU02_5Pide5BZiuMuqEU.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "RtwZy60ruRpskmgr1qYYf",
+            "name": "Parallelism",
+            "type": "subtopic",
+            "description": "Terraform applies resource changes in parallel by default, up to a configurable limit controlled by the `-parallelism` flag. Increasing parallelism can speed up large deployments but may hit API rate limits. Lowering it can reduce throttling errors when working with providers that enforce strict rate limits.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Walking the graph",
+                "url": "https://developer.hashicorp.com/terraform/internals/graph#walking-the-graph"
+              },
+              {
+                "type": "article",
+                "title": "Considerations when setting the TFE_PARALLELISM environment variable",
+                "url": "https://support.hashicorp.com/hc/en-us/articles/10348130482451-Considerations-when-setting-the-TFE-PARALLELISM-environment-variable"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/parallelism@RtwZy60ruRpskmgr1qYYf.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "wL3WWhjPEgFmumOmCPRDf",
+            "name": "Deployment Workflow",
+            "type": "subtopic",
+            "description": "A consistent deployment workflow defines how infrastructure changes move from development to production. Common patterns include environment promotion, where changes are applied to lower environments first, and GitOps, where the desired state is tracked in a Git repository and applied automatically. Enforcing a workflow reduces the risk of ad-hoc changes causing drift.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "The Core Terraform Workflow",
+                "url": "https://developer.hashicorp.com/terraform/intro/core-workflow"
+              },
+              {
+                "type": "video",
+                "title": "Terraform Basics: Core Workflow",
+                "url": "https://www.youtube.com/watch?v=sqLD39xqcx0"
+              },
+              {
+                "type": "video",
+                "title": "Advanced Concepts and Faster Workflows in the Terraform Language",
+                "url": "https://www.youtube.com/watch?v=J8J7ixBNF-M"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/deployment-workflow@wL3WWhjPEgFmumOmCPRDf.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "AEtW6j2GcfZz7IXk4sM6c",
+            "name": "Terragrunt",
+            "type": "subtopic",
+            "description": "Terragrunt is a thin wrapper around Terraform that adds support for keeping configurations DRY, managing dependencies between modules, and running commands across multiple modules at once. It uses `terragrunt.hcl` files to define module sources, variable inputs, and backend configuration. It is widely used in large multi-account or multi-environment Terraform setups.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Terragrunt Website",
+                "url": "https://terragrunt.gruntwork.io/"
+              },
+              {
+                "type": "opensource",
+                "title": "gruntwork-io/terragrunt",
+                "url": "https://github.com/gruntwork-io/terragrunt"
+              },
+              {
+                "type": "article",
+                "title": "Terragrunt Tutorial: Examples and Use Cases",
+                "url": "https://www.env0.com/blog/terragrunt"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terragrunt@AEtW6j2GcfZz7IXk4sM6c.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "oANePqjkwtNMwvV-_W0B7",
+            "name": "Infracost",
+            "type": "subtopic",
+            "description": "Infracost is a cost estimation tool that integrates with Terraform to show the monthly cloud cost impact of planned infrastructure changes. It parses a Terraform plan and calculates costs based on provider pricing data. It can be added to CI pipelines to display cost breakdowns in pull request comments before changes are merged.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Infracost Website",
+                "url": "https://www.infracost.io/"
+              },
+              {
+                "type": "opensource",
+                "title": "infracost/infracost",
+                "url": "https://github.com/infracost/infracost"
+              },
+              {
+                "type": "video",
+                "title": "Shifting FinOps Left: A live demo",
+                "url": "https://www.youtube.com/watch?v=BQeO137DDo8"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/terraform/content/infracost@oANePqjkwtNMwvV-_W0B7.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1891,7 +2200,9 @@
                 "url": "https://www.hashicorp.com/blog/testing-hashicorp-terraform#unit-tests"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/unit-testing@V7_NnDIY1MefV_xjCCsnI.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/unit-testing@V7_NnDIY1MefV_xjCCsnI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bjozhkpOI9UjjNfmT5HhY",
@@ -1915,7 +2226,9 @@
                 "url": "https://www.youtube.com/watch?v=Fh8CqZtghQw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/contract-testing@bjozhkpOI9UjjNfmT5HhY.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/contract-testing@bjozhkpOI9UjjNfmT5HhY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ENkLj3z6hR2cKT7rBhYp5",
@@ -1939,7 +2252,9 @@
                 "url": "https://www.youtube.com/watch?v=gdcc1WBzMwY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/integration-testing@ENkLj3z6hR2cKT7rBhYp5.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/integration-testing@ENkLj3z6hR2cKT7rBhYp5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "QqwlAtz7VfrMtNEGpT5Sa",
@@ -1963,7 +2278,9 @@
                 "url": "https://www.youtube.com/watch?v=PlzL6Bv2fSA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/end-to-end-testing@QqwlAtz7VfrMtNEGpT5Sa.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/end-to-end-testing@QqwlAtz7VfrMtNEGpT5Sa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "H3_So6qX-s2131WHGR_GO",
@@ -1987,141 +2304,9 @@
                 "url": "https://www.youtube.com/watch?v=1LInIWM_2UQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/testing-modules@H3_So6qX-s2131WHGR_GO.md"
-          }
-        ]
-      },
-      {
-        "id": "ECcHo0KTDN27MuVTC-Fwy",
-        "name": "Scaling Terraform",
-        "type": "topic",
-        "description": "As infrastructure grows, Terraform configurations must be structured to remain manageable, performant, and safe for teams to use concurrently. Scaling strategies include splitting state, parallelizing operations, enforcing consistent deployment workflows, and managing version drift across modules and providers.",
-        "resources": [],
-        "file_path": "developer-roadmap/roadmaps/terraform/content/scaling-terraform@ECcHo0KTDN27MuVTC-Fwy.md",
-        "subtopics_count": 6,
-        "subtopics": [
-          {
-            "id": "zCU02_5Pide5BZiuMuqEU",
-            "name": "Splitting Large State",
-            "type": "subtopic",
-            "description": "Large state files slow down plans and increase the risk of conflicts. Splitting infrastructure into smaller, independently managed configurations with their own state files reduces plan times and limits the impact of a failed apply. Resources in different state files communicate through remote state data sources or variable passing.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/splitting-large-state@zCU02_5Pide5BZiuMuqEU.md"
-          },
-          {
-            "id": "RtwZy60ruRpskmgr1qYYf",
-            "name": "Parallelism",
-            "type": "subtopic",
-            "description": "Terraform applies resource changes in parallel by default, up to a configurable limit controlled by the `-parallelism` flag. Increasing parallelism can speed up large deployments but may hit API rate limits. Lowering it can reduce throttling errors when working with providers that enforce strict rate limits.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Walking the graph",
-                "url": "https://developer.hashicorp.com/terraform/internals/graph#walking-the-graph"
-              },
-              {
-                "type": "article",
-                "title": "Considerations when setting the TFE_PARALLELISM environment variable",
-                "url": "https://support.hashicorp.com/hc/en-us/articles/10348130482451-Considerations-when-setting-the-TFE-PARALLELISM-environment-variable"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/parallelism@RtwZy60ruRpskmgr1qYYf.md"
-          },
-          {
-            "id": "wL3WWhjPEgFmumOmCPRDf",
-            "name": "Deployment Workflow",
-            "type": "subtopic",
-            "description": "A consistent deployment workflow defines how infrastructure changes move from development to production. Common patterns include environment promotion, where changes are applied to lower environments first, and GitOps, where the desired state is tracked in a Git repository and applied automatically. Enforcing a workflow reduces the risk of ad-hoc changes causing drift.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "The Core Terraform Workflow",
-                "url": "https://developer.hashicorp.com/terraform/intro/core-workflow"
-              },
-              {
-                "type": "video",
-                "title": "Terraform Basics: Core Workflow",
-                "url": "https://www.youtube.com/watch?v=sqLD39xqcx0"
-              },
-              {
-                "type": "video",
-                "title": "Advanced Concepts and Faster Workflows in the Terraform Language",
-                "url": "https://www.youtube.com/watch?v=J8J7ixBNF-M"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/deployment-workflow@wL3WWhjPEgFmumOmCPRDf.md"
-          },
-          {
-            "id": "6zFuSNOfbPaYIE_t--2nr",
-            "name": "Version Management",
-            "type": "subtopic",
-            "description": "Managing Terraform and provider versions across a team requires consistent tooling. `tfenv` is a popular version manager for Terraform that allows switching between installed versions based on a `.terraform-version` file. Pinning versions in `required_version` and `required_providers` blocks ensures everyone uses compatible releases.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "tfenv",
-                "url": "https://github.com/tfutils/tfenv"
-              },
-              {
-                "type": "article",
-                "title": "How to Use tfenv to Manage Multiple Terraform Versions",
-                "url": "https://spacelift.io/blog/tfenv"
-              },
-              {
-                "type": "video",
-                "title": "Quick Tech: tfenv",
-                "url": "https://www.youtube.com/watch?v=Smk5PrRPQsU"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/version-management@6zFuSNOfbPaYIE_t--2nr.md"
-          },
-          {
-            "id": "AEtW6j2GcfZz7IXk4sM6c",
-            "name": "Terragrunt",
-            "type": "subtopic",
-            "description": "Terragrunt is a thin wrapper around Terraform that adds support for keeping configurations DRY, managing dependencies between modules, and running commands across multiple modules at once. It uses `terragrunt.hcl` files to define module sources, variable inputs, and backend configuration. It is widely used in large multi-account or multi-environment Terraform setups.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Terragrunt Website",
-                "url": "https://terragrunt.gruntwork.io/"
-              },
-              {
-                "type": "opensource",
-                "title": "gruntwork-io/terragrunt",
-                "url": "https://github.com/gruntwork-io/terragrunt"
-              },
-              {
-                "type": "article",
-                "title": "Terragrunt Tutorial: Examples and Use Cases",
-                "url": "https://www.env0.com/blog/terragrunt"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terragrunt@AEtW6j2GcfZz7IXk4sM6c.md"
-          },
-          {
-            "id": "oANePqjkwtNMwvV-_W0B7",
-            "name": "Infracost",
-            "type": "subtopic",
-            "description": "Infracost is a cost estimation tool that integrates with Terraform to show the monthly cloud cost impact of planned infrastructure changes. It parses a Terraform plan and calculates costs based on provider pricing data. It can be added to CI pipelines to display cost breakdowns in pull request comments before changes are merged.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Infracost Website",
-                "url": "https://www.infracost.io/"
-              },
-              {
-                "type": "opensource",
-                "title": "infracost/infracost",
-                "url": "https://github.com/infracost/infracost"
-              },
-              {
-                "type": "video",
-                "title": "Shifting FinOps Left: A live demo",
-                "url": "https://www.youtube.com/watch?v=BQeO137DDo8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/infracost@oANePqjkwtNMwvV-_W0B7.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/testing-modules@H3_So6qX-s2131WHGR_GO.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2167,7 +2352,9 @@
                 "url": "https://blog.gruntwork.io/a-comprehensive-guide-to-managing-secrets-in-your-terraform-code-1d586955ace1"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/secret-management@uVz9WwVAgMu1ZU0qjqVnc.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/secret-management@uVz9WwVAgMu1ZU0qjqVnc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "z0PcbgpHbR6Fm07-On4P8",
@@ -2191,7 +2378,9 @@
                 "url": "https://www.terraform.io/use-cases/enforce-policy-as-code"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/compliance--sentinel@z0PcbgpHbR6Fm07-On4P8.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/compliance--sentinel@z0PcbgpHbR6Fm07-On4P8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NSWG79dEygyl6pb54wLrE",
@@ -2215,7 +2404,9 @@
                 "url": "https://spacelift.io/blog/what-is-terrascan"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/terrascan@NSWG79dEygyl6pb54wLrE.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/terrascan@NSWG79dEygyl6pb54wLrE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ljj7ngl1N4ezCXQ0o6Y8x",
@@ -2239,7 +2430,9 @@
                 "url": "https://devopscube.com/terraform-checkov-scan/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/checkov@ljj7ngl1N4ezCXQ0o6Y8x.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/checkov@ljj7ngl1N4ezCXQ0o6Y8x.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Vxo_gNdFl3CZXV7GLPqjD",
@@ -2263,7 +2456,9 @@
                 "url": "https://verifa.io/blog/how-to-secure-terraform-trivy/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/trivy@Vxo_gNdFl3CZXV7GLPqjD.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/trivy@Vxo_gNdFl3CZXV7GLPqjD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MUkbLTMzmaVWbAJj6G3aj",
@@ -2287,7 +2482,9 @@
                 "url": "https://www.youtube.com/watch?v=jVpQPTyg3hs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/kics@MUkbLTMzmaVWbAJj6G3aj.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/kics@MUkbLTMzmaVWbAJj6G3aj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2312,7 +2509,9 @@
                 "url": "https://developer.hashicorp.com/terraform/intro/use-cases"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/what-and-when-to-use-hcp@K_7dB-5cCYzGbwYXXaoiY.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/what-and-when-to-use-hcp@K_7dB-5cCYzGbwYXXaoiY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "elW7IMBSF0ydmlb7rtI1o",
@@ -2336,7 +2535,9 @@
                 "url": "https://www.youtube.com/watch?v=zWWGsJrWj5E"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/enterprise-features@elW7IMBSF0ydmlb7rtI1o.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/enterprise-features@elW7IMBSF0ydmlb7rtI1o.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "RPcsyhIG027uP7KF0hwaY",
@@ -2360,7 +2561,9 @@
                 "url": "https://github.com/hashicorp/hcp-auth-action"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/authentication@RPcsyhIG027uP7KF0hwaY.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/authentication@RPcsyhIG027uP7KF0hwaY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JoUWF6AQoreELxFHNi9oo",
@@ -2384,7 +2587,9 @@
                 "url": "https://www.youtube.com/watch?v=J1T1tbU6wAU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/workspaces@JoUWF6AQoreELxFHNi9oo.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/workspaces@JoUWF6AQoreELxFHNi9oo.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Z6dG92afC8SGwCFNTx4ac",
@@ -2408,7 +2613,9 @@
                 "url": "https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/vcs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/vcs-integration@Z6dG92afC8SGwCFNTx4ac.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/vcs-integration@Z6dG92afC8SGwCFNTx4ac.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "nU1WoRtxRF9KeNhzuwNUB",
@@ -2432,7 +2639,9 @@
                 "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/run-tasks/run-tasks"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/terraform/content/run-tasks@nU1WoRtxRF9KeNhzuwNUB.md"
+            "file_path": "developer-roadmap/roadmaps/terraform/content/run-tasks@nU1WoRtxRF9KeNhzuwNUB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2743,6 +2952,29 @@
         ]
       },
       {
+        "id": "VxMse1VTZAUtVhpKv1OHS",
+        "name": "Input Variables",
+        "type": "subtopic",
+        "description": "Terraform input variables are parameters for modules, declared using variable blocks. They support multiple data types, default values, and descriptions. Users provide values when invoking modules or running Terraform. Accessed via `var.<name>` syntax, input variables enable flexible, reusable infrastructure templates adaptable to various deployment scenarios. They can be marked sensitive for security and are typically defined in a `variables.tf` file.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Define Input Variables",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables"
+          },
+          {
+            "type": "article",
+            "title": "Terraform Input and Output Variables Explained",
+            "url": "https://kodekloud.com/blog/terraform-variables-explained/"
+          },
+          {
+            "type": "video",
+            "title": "Terraform Basics: Input Variables",
+            "url": "https://www.youtube.com/watch%3Fv%3D2f65JhfYmIo"
+          }
+        ]
+      },
+      {
         "id": "BYydmFc2e-YPCC4MCWmh2",
         "name": "Resources",
         "type": "topic",
@@ -2848,89 +3080,38 @@
         ]
       },
       {
-        "id": "kyScfijEntX9H1mp7tmej",
-        "name": "count",
+        "id": "16vLOPP9lTCuBh0q-UVMk",
+        "name": "Sensitive Data",
         "type": "subtopic",
-        "description": "The `count` meta-argument creates multiple instances of a resource or module from a single block. It accepts a whole number, and each instance is identified by an index starting at zero. Individual instances can be referenced using the `resource.name[index]` syntax.",
+        "description": "Terraform state may contain sensitive data such as passwords, private keys, and tokens returned by provider APIs. State files should be stored securely, with access restricted to authorized users and systems. Remote backends with encryption at rest and access controls are strongly recommended for any production use.",
         "resources": [
           {
             "type": "official",
-            "title": "Terraform Docs - count",
-            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/count"
+            "title": "Sensitive data in state",
+            "url": "https://developer.hashicorp.com/terraform/language/state/sensitive-data"
           },
           {
-            "type": "article",
-            "title": "Terraform by Example - count",
-            "url": "https://www.terraformbyexample.com/count"
+            "type": "official",
+            "title": "Handling Sensitive Values in State",
+            "url": "https://developer.hashicorp.com/terraform/plugin/best-practices/sensitive-state"
           },
           {
             "type": "video",
-            "title": "Conditional blocks in Terraform using count",
-            "url": "https://www.youtube.com/watch?v=RVoIqWkN_gI"
+            "title": "Terraform — Protecting Sensitive Data",
+            "url": "https://www.youtube.com/watch?v=yLc1YkB7DFo"
           }
         ]
       },
       {
-        "id": "gcdg_GhAacIWzv19ITTE_",
-        "name": "for_each",
+        "id": "1T35eNO18qoyXcX7S-Jox",
+        "name": "Versioning",
         "type": "subtopic",
-        "description": "The `for_each` meta-argument creates one instance of a resource or module for each item in a map or set of strings. Each instance is keyed by the map key or set value, making it easier to manage and reference individual items than with `count`. It is generally preferred over `count` when creating resources from a collection.",
+        "description": "State files can be versioned using backends that support versioning, such as S3 with versioning enabled. Keeping a history of state versions allows you to roll back to a previous state if a bad apply corrupts or loses data. Terraform Cloud and Enterprise provide built-in state history and the ability to restore past versions.",
         "resources": [
           {
             "type": "official",
-            "title": "Terraform Docs - for_each",
-            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/for_each"
-          },
-          {
-            "type": "article",
-            "title": "Terraform by Example - for_each",
-            "url": "https://www.terraformbyexample.com/for_each"
-          },
-          {
-            "type": "video",
-            "title": "Terraform for loops",
-            "url": "https://www.youtube.com/watch?v=4qO7WK6D3cA"
-          }
-        ]
-      },
-      {
-        "id": "5FLOFTP_nCa3qi1wbV4qE",
-        "name": "provider",
-        "type": "subtopic",
-        "description": "The `provider` meta-argument assigns a specific provider configuration to a resource when multiple configurations of the same provider exist. This is common when managing resources across multiple regions or accounts within the same Terraform workspace. The value must match an alias defined in a `provider` block.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Terraform Docs - provider",
-            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/resource-provider"
-          },
-          {
-            "type": "article",
-            "title": "Terraform by Example - provider",
-            "url": "https://www.terraformbyexample.com/providers/"
-          }
-        ]
-      },
-      {
-        "id": "0A8zTuCXVmcruJdfH3cNu",
-        "name": "lifecycle",
-        "type": "subtopic",
-        "description": "The `lifecycle` block inside a resource configures how Terraform handles creation, updates, and deletion of that resource. It supports arguments like `create_before_destroy`, `prevent_destroy`, `ignore_changes`, and `replace_triggered_by`. These settings give you fine-grained control over resource replacement behavior.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Terraform Docs - lifecycle",
-            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle"
-          },
-          {
-            "type": "article",
-            "title": "Terraform Resource Lifecycle",
-            "url": "https://spacelift.io/blog/terraform-resource-lifecycle"
-          },
-          {
-            "type": "article",
-            "title": "Understanding the Lifecycle Block",
-            "url": "https://dev.to/pwd9000/terraform-understanding-the-lifecycle-block-4f6e"
+            "title": "State Versions API",
+            "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/state-versions"
           }
         ]
       },
@@ -2954,52 +3135,6 @@
             "type": "video",
             "title": "Learn Terraform Outputs in 4 Minutes",
             "url": "https://www.youtube.com/watch?v=i-Ky1Tut_2I"
-          }
-        ]
-      },
-      {
-        "id": "31fa8kBzCEn-uCrTSoPM4",
-        "name": "Output Syntax",
-        "type": "subtopic",
-        "description": "An output block requires a `value` argument that specifies what to expose. Optional arguments include `description` for documentation, `sensitive` to redact the value, and `depends_on` to declare explicit dependencies. Outputs can expose any value, including resource attributes, local values, and variable values.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Hashicorp Output Tutorial",
-            "url": "https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs"
-          },
-          {
-            "type": "official",
-            "title": "Declaring an Output Value",
-            "url": "https://developer.hashicorp.com/terraform/language/values/outputs#declaring-an-output-value"
-          },
-          {
-            "type": "article",
-            "title": "Terraform Output Values : Complete Guide & Examples",
-            "url": "https://spacelift.io/blog/terraform-output"
-          },
-          {
-            "type": "article",
-            "title": "Terraform: Output a field from a module",
-            "url": "https://stackoverflow.com/questions/47034515/terraform-output-a-field-from-a-module"
-          }
-        ]
-      },
-      {
-        "id": "8giL6H5944M2L0rwxjPso",
-        "name": "Sensitive Outputs",
-        "type": "subtopic",
-        "description": "Marking an output as sensitive tells Terraform to redact its value from CLI output and logs. The value is still stored in state and can be accessed programmatically. This is commonly used for passwords, tokens, and other secrets that should not appear in plain text in terminal output.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Suppressing values in CLI output",
-            "url": "https://developer.hashicorp.com/terraform/language/values/outputs#sensitive-suppressing-values-in-cli-output"
-          },
-          {
-            "type": "article",
-            "title": "How to output sensitive data in Terraform",
-            "url": "https://support.hashicorp.com/hc/en-us/articles/5175257151891-How-to-output-sensitive-data-with-Terraform"
           }
         ]
       },
@@ -3041,29 +3176,6 @@
             "type": "video",
             "title": "Learn How to Use Terraform Variable",
             "url": "https://www.youtube.com/watch?v=oArutYYvQ_Y"
-          }
-        ]
-      },
-      {
-        "id": "VxMse1VTZAUtVhpKv1OHS",
-        "name": "Input Variables",
-        "type": "subtopic",
-        "description": "Terraform input variables are parameters for modules, declared using variable blocks. They support multiple data types, default values, and descriptions. Users provide values when invoking modules or running Terraform. Accessed via `var.<name>` syntax, input variables enable flexible, reusable infrastructure templates adaptable to various deployment scenarios. They can be marked sensitive for security and are typically defined in a `variables.tf` file.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Define Input Variables",
-            "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables"
-          },
-          {
-            "type": "article",
-            "title": "Terraform Input and Output Variables Explained",
-            "url": "https://kodekloud.com/blog/terraform-variables-explained/"
-          },
-          {
-            "type": "video",
-            "title": "Terraform Basics: Input Variables",
-            "url": "https://www.youtube.com/watch%3Fv%3D2f65JhfYmIo"
           }
         ]
       },
@@ -3235,6 +3347,116 @@
         ]
       },
       {
+        "id": "jas0XILqCUXjWRk3ZoSEO",
+        "name": "Best Practices for State",
+        "type": "topic",
+        "description": "State should never be stored in version control, as it may contain sensitive values and is not designed for manual editing. Use a remote backend with locking and versioning enabled. Keep state files small by splitting large configurations into smaller modules with independent state, and run `terraform refresh` carefully as it overwrites state with live data.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Managing Terraform State – Best Practices & Examples",
+            "url": "https://spacelift.io/blog/terraform-state"
+          },
+          {
+            "type": "article",
+            "title": "Best Practices for Terraform State File Management",
+            "url": "https://www.cloudthat.com/resources/blog/best-practices-for-terraform-state-file-management"
+          },
+          {
+            "type": "video",
+            "title": "Managing Terraform State Files - What are your options?",
+            "url": "https://www.youtube.com/watch?v=keiIyarEKf8"
+          }
+        ]
+      },
+      {
+        "id": "kyScfijEntX9H1mp7tmej",
+        "name": "count",
+        "type": "subtopic",
+        "description": "The `count` meta-argument creates multiple instances of a resource or module from a single block. It accepts a whole number, and each instance is identified by an index starting at zero. Individual instances can be referenced using the `resource.name[index]` syntax.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Terraform Docs - count",
+            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/count"
+          },
+          {
+            "type": "article",
+            "title": "Terraform by Example - count",
+            "url": "https://www.terraformbyexample.com/count"
+          },
+          {
+            "type": "video",
+            "title": "Conditional blocks in Terraform using count",
+            "url": "https://www.youtube.com/watch?v=RVoIqWkN_gI"
+          }
+        ]
+      },
+      {
+        "id": "gcdg_GhAacIWzv19ITTE_",
+        "name": "for_each",
+        "type": "subtopic",
+        "description": "The `for_each` meta-argument creates one instance of a resource or module for each item in a map or set of strings. Each instance is keyed by the map key or set value, making it easier to manage and reference individual items than with `count`. It is generally preferred over `count` when creating resources from a collection.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Terraform Docs - for_each",
+            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/for_each"
+          },
+          {
+            "type": "article",
+            "title": "Terraform by Example - for_each",
+            "url": "https://www.terraformbyexample.com/for_each"
+          },
+          {
+            "type": "video",
+            "title": "Terraform for loops",
+            "url": "https://www.youtube.com/watch?v=4qO7WK6D3cA"
+          }
+        ]
+      },
+      {
+        "id": "5FLOFTP_nCa3qi1wbV4qE",
+        "name": "provider",
+        "type": "subtopic",
+        "description": "The `provider` meta-argument assigns a specific provider configuration to a resource when multiple configurations of the same provider exist. This is common when managing resources across multiple regions or accounts within the same Terraform workspace. The value must match an alias defined in a `provider` block.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Terraform Docs - provider",
+            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/resource-provider"
+          },
+          {
+            "type": "article",
+            "title": "Terraform by Example - provider",
+            "url": "https://www.terraformbyexample.com/providers/"
+          }
+        ]
+      },
+      {
+        "id": "0A8zTuCXVmcruJdfH3cNu",
+        "name": "lifecycle",
+        "type": "subtopic",
+        "description": "The `lifecycle` block inside a resource configures how Terraform handles creation, updates, and deletion of that resource. It supports arguments like `create_before_destroy`, `prevent_destroy`, `ignore_changes`, and `replace_triggered_by`. These settings give you fine-grained control over resource replacement behavior.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Terraform Docs - lifecycle",
+            "url": "https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle"
+          },
+          {
+            "type": "article",
+            "title": "Terraform Resource Lifecycle",
+            "url": "https://spacelift.io/blog/terraform-resource-lifecycle"
+          },
+          {
+            "type": "article",
+            "title": "Understanding the Lifecycle Block",
+            "url": "https://dev.to/pwd9000/terraform-understanding-the-lifecycle-block-4f6e"
+          }
+        ]
+      },
+      {
         "id": "5xAE-9viD7DP_ugQ6NE_C",
         "name": "State",
         "type": "topic",
@@ -3254,42 +3476,6 @@
             "type": "video",
             "title": "Managing Terraform state files",
             "url": "https://www.youtube.com/watch?v=UDBVCzg2IRo"
-          }
-        ]
-      },
-      {
-        "id": "16vLOPP9lTCuBh0q-UVMk",
-        "name": "Sensitive Data",
-        "type": "subtopic",
-        "description": "Terraform state may contain sensitive data such as passwords, private keys, and tokens returned by provider APIs. State files should be stored securely, with access restricted to authorized users and systems. Remote backends with encryption at rest and access controls are strongly recommended for any production use.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Sensitive data in state",
-            "url": "https://developer.hashicorp.com/terraform/language/state/sensitive-data"
-          },
-          {
-            "type": "official",
-            "title": "Handling Sensitive Values in State",
-            "url": "https://developer.hashicorp.com/terraform/plugin/best-practices/sensitive-state"
-          },
-          {
-            "type": "video",
-            "title": "Terraform — Protecting Sensitive Data",
-            "url": "https://www.youtube.com/watch?v=yLc1YkB7DFo"
-          }
-        ]
-      },
-      {
-        "id": "1T35eNO18qoyXcX7S-Jox",
-        "name": "Versioning",
-        "type": "subtopic",
-        "description": "State files can be versioned using backends that support versioning, such as S3 with versioning enabled. Keeping a history of state versions allows you to roll back to a previous state if a bad apply corrupts or loses data. Terraform Cloud and Enterprise provide built-in state history and the ability to restore past versions.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "State Versions API",
-            "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/state-versions"
           }
         ]
       },
@@ -3386,25 +3572,91 @@
         ]
       },
       {
-        "id": "jas0XILqCUXjWRk3ZoSEO",
-        "name": "Best Practices for State",
-        "type": "topic",
-        "description": "State should never be stored in version control, as it may contain sensitive values and is not designed for manual editing. Use a remote backend with locking and versioning enabled. Keep state files small by splitting large configurations into smaller modules with independent state, and run `terraform refresh` carefully as it overwrites state with live data.",
+        "id": "i-TQe48edt3Va_oZGVBLX",
+        "name": "State Management",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "AAg_iFggkEZNL12-6nkgK",
+        "name": "Published Modules Usage",
+        "type": "subtopic",
+        "description": "Published modules are pre-built, versioned modules available on the Terraform Registry. They can be referenced directly in a `module` block using a registry source address and version constraint. Using published modules speeds up development by providing tested, maintained implementations of common infrastructure patterns.",
         "resources": [
           {
-            "type": "article",
-            "title": "Managing Terraform State – Best Practices & Examples",
-            "url": "https://spacelift.io/blog/terraform-state"
+            "type": "official",
+            "title": "Publishing Modules",
+            "url": "https://developer.hashicorp.com/terraform/registry/modules/publish"
           },
           {
-            "type": "article",
-            "title": "Best Practices for Terraform State File Management",
-            "url": "https://www.cloudthat.com/resources/blog/best-practices-for-terraform-state-file-management"
+            "type": "opensource",
+            "title": "Terraform Registry - Modules",
+            "url": "https://registry.terraform.io/browse/modules"
           },
           {
             "type": "video",
-            "title": "Managing Terraform State Files - What are your options?",
-            "url": "https://www.youtube.com/watch?v=keiIyarEKf8"
+            "title": "Terraform - Publish modules",
+            "url": "https://www.youtube.com/watch?v=9vBp1D3myH8"
+          }
+        ]
+      },
+      {
+        "id": "wQN1QrK9VB_fHlXrBzDoU",
+        "name": "Creating Local Modules",
+        "type": "subtopic",
+        "description": "Local modules are directories containing Terraform configuration files that are referenced using a relative file path in a `module` block. They allow you to break a large configuration into smaller, self-contained units. Inputs are passed via variables and outputs are declared for the parent module to consume.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Build and use a local module",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module-create"
+          },
+          {
+            "type": "article",
+            "title": "How to create reusable infrastructure with Terraform modules",
+            "url": "https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d"
+          },
+          {
+            "type": "video",
+            "title": "Creating a module in Terraform",
+            "url": "https://www.youtube.com/watch?v=OeL2AlsdNaQ"
+          }
+        ]
+      },
+      {
+        "id": "NsBJTYH9KXvjJuhPzjE_L",
+        "name": "Inputs / Outputs",
+        "type": "subtopic",
+        "description": "Modules accept input values through declared variables and expose results through declared outputs. The calling module passes values for each required variable and can reference the module's outputs using the `module.<name>.<output>` syntax. Well-defined inputs and outputs form the public interface of a module.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Accessing Module Output Values",
+            "url": "https://developer.hashicorp.com/terraform/language/modules/syntax#accessing-module-output-values"
+          }
+        ]
+      },
+      {
+        "id": "gTMPK0tfs2JYgoL7SAGW6",
+        "name": "Modules Best Practices",
+        "type": "subtopic",
+        "description": "Modules should be focused on a single concern and avoid hardcoding values that callers need to control. Always declare types for input variables and provide descriptions. Version-pin external modules and keep local modules small and composable. Avoid deeply nested module hierarchies, as they are harder to debug and maintain.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Module Best Practices",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module#module-best-practices"
+          },
+          {
+            "type": "article",
+            "title": "Terraform Modules Guide: Best Practices & Examples",
+            "url": "https://www.env0.com/blog/terraform-modules"
+          },
+          {
+            "type": "video",
+            "title": "Best practices for modularizing a Terraform project | PlatformCon 2023",
+            "url": "https://www.youtube.com/watch?v=byzwaTng3ac"
           }
         ]
       },
@@ -3423,6 +3675,59 @@
             "type": "article",
             "title": "How to Manage Terraform State: A Step-by-Step Guide",
             "url": "https://meriemterki.medium.com/how-to-manage-terraform-state-a-step-by-step-guide-b615bd6ee0de"
+          }
+        ]
+      },
+      {
+        "id": "Iv-ZRTeVmvk7l7X9nk3ds",
+        "name": "Getting Started",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "31fa8kBzCEn-uCrTSoPM4",
+        "name": "Output Syntax",
+        "type": "subtopic",
+        "description": "An output block requires a `value` argument that specifies what to expose. Optional arguments include `description` for documentation, `sensitive` to redact the value, and `depends_on` to declare explicit dependencies. Outputs can expose any value, including resource attributes, local values, and variable values.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Hashicorp Output Tutorial",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs"
+          },
+          {
+            "type": "official",
+            "title": "Declaring an Output Value",
+            "url": "https://developer.hashicorp.com/terraform/language/values/outputs#declaring-an-output-value"
+          },
+          {
+            "type": "article",
+            "title": "Terraform Output Values : Complete Guide & Examples",
+            "url": "https://spacelift.io/blog/terraform-output"
+          },
+          {
+            "type": "article",
+            "title": "Terraform: Output a field from a module",
+            "url": "https://stackoverflow.com/questions/47034515/terraform-output-a-field-from-a-module"
+          }
+        ]
+      },
+      {
+        "id": "8giL6H5944M2L0rwxjPso",
+        "name": "Sensitive Outputs",
+        "type": "subtopic",
+        "description": "Marking an output as sensitive tells Terraform to redact its value from CLI output and logs. The value is still stored in state and can be accessed programmatically. This is commonly used for passwords, tokens, and other secrets that should not appear in plain text in terminal output.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Suppressing values in CLI output",
+            "url": "https://developer.hashicorp.com/terraform/language/values/outputs#sensitive-suppressing-values-in-cli-output"
+          },
+          {
+            "type": "article",
+            "title": "How to output sensitive data in Terraform",
+            "url": "https://support.hashicorp.com/hc/en-us/articles/5175257151891-How-to-output-sensitive-data-with-Terraform"
           }
         ]
       },
@@ -3632,6 +3937,42 @@
         ]
       },
       {
+        "id": "inbTto9Qukdj6egRJ0Zh9",
+        "name": "Clean Up",
+        "type": "topic",
+        "description": "Cleaning up Terraform-managed infrastructure means removing resources that are no longer needed. Terraform provides a command to destroy all resources in the current workspace, and understanding when and how to use it safely is an important part of the infrastructure lifecycle.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to Destroy Terraform Resources",
+            "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
+          }
+        ]
+      },
+      {
+        "id": "LPI13FILvkD55hWcWbPrV",
+        "name": "terraform destroy",
+        "type": "subtopic",
+        "description": "`terraform destroy` removes all resources managed by the current configuration. It is the equivalent of running `terraform apply` with every resource marked for deletion. Like apply, it shows a plan and prompts for confirmation before proceeding. Individual resources can also be targeted with the `-target` flag.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Destroy infrastructure",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-destroy"
+          },
+          {
+            "type": "official",
+            "title": "Terraform Destroy Documentation",
+            "url": "https://developer.hashicorp.com/terraform/cli/commands/destroy"
+          },
+          {
+            "type": "article",
+            "title": "How to destroy Terraform resources",
+            "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
+          }
+        ]
+      },
+      {
         "id": "pjmOK1MEMnIV_zAlaOF01",
         "name": "Deployment",
         "type": "topic",
@@ -3696,42 +4037,6 @@
         ]
       },
       {
-        "id": "inbTto9Qukdj6egRJ0Zh9",
-        "name": "Clean Up",
-        "type": "topic",
-        "description": "Cleaning up Terraform-managed infrastructure means removing resources that are no longer needed. Terraform provides a command to destroy all resources in the current workspace, and understanding when and how to use it safely is an important part of the infrastructure lifecycle.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to Destroy Terraform Resources",
-            "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
-          }
-        ]
-      },
-      {
-        "id": "LPI13FILvkD55hWcWbPrV",
-        "name": "terraform destroy",
-        "type": "subtopic",
-        "description": "`terraform destroy` removes all resources managed by the current configuration. It is the equivalent of running `terraform apply` with every resource marked for deletion. Like apply, it shows a plan and prompts for confirmation before proceeding. Individual resources can also be targeted with the `-target` flag.",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Destroy infrastructure",
-            "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-destroy"
-          },
-          {
-            "type": "official",
-            "title": "Terraform Destroy Documentation",
-            "url": "https://developer.hashicorp.com/terraform/cli/commands/destroy"
-          },
-          {
-            "type": "article",
-            "title": "How to destroy Terraform resources",
-            "url": "https://spacelift.io/blog/how-to-destroy-terraform-resources"
-          }
-        ]
-      },
-      {
         "id": "R2AORYmc1NgGTqLZY5Fu-",
         "name": "Modules",
         "type": "topic",
@@ -3769,88 +4074,6 @@
             "type": "article",
             "title": "What is the difference between Terraform \"Module\" and \"Child Module\"",
             "url": "https://stackoverflow.com/questions/77671412/what-is-the-difference-between-terraform-module-and-child-module"
-          }
-        ]
-      },
-      {
-        "id": "AAg_iFggkEZNL12-6nkgK",
-        "name": "Published Modules Usage",
-        "type": "subtopic",
-        "description": "Published modules are pre-built, versioned modules available on the Terraform Registry. They can be referenced directly in a `module` block using a registry source address and version constraint. Using published modules speeds up development by providing tested, maintained implementations of common infrastructure patterns.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Publishing Modules",
-            "url": "https://developer.hashicorp.com/terraform/registry/modules/publish"
-          },
-          {
-            "type": "opensource",
-            "title": "Terraform Registry - Modules",
-            "url": "https://registry.terraform.io/browse/modules"
-          },
-          {
-            "type": "video",
-            "title": "Terraform - Publish modules",
-            "url": "https://www.youtube.com/watch?v=9vBp1D3myH8"
-          }
-        ]
-      },
-      {
-        "id": "wQN1QrK9VB_fHlXrBzDoU",
-        "name": "Creating Local Modules",
-        "type": "subtopic",
-        "description": "Local modules are directories containing Terraform configuration files that are referenced using a relative file path in a `module` block. They allow you to break a large configuration into smaller, self-contained units. Inputs are passed via variables and outputs are declared for the parent module to consume.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Build and use a local module",
-            "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module-create"
-          },
-          {
-            "type": "article",
-            "title": "How to create reusable infrastructure with Terraform modules",
-            "url": "https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d"
-          },
-          {
-            "type": "video",
-            "title": "Creating a module in Terraform",
-            "url": "https://www.youtube.com/watch?v=OeL2AlsdNaQ"
-          }
-        ]
-      },
-      {
-        "id": "NsBJTYH9KXvjJuhPzjE_L",
-        "name": "Inputs / Outputs",
-        "type": "subtopic",
-        "description": "Modules accept input values through declared variables and expose results through declared outputs. The calling module passes values for each required variable and can reference the module's outputs using the `module.<name>.<output>` syntax. Well-defined inputs and outputs form the public interface of a module.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Accessing Module Output Values",
-            "url": "https://developer.hashicorp.com/terraform/language/modules/syntax#accessing-module-output-values"
-          }
-        ]
-      },
-      {
-        "id": "gTMPK0tfs2JYgoL7SAGW6",
-        "name": "Modules Best Practices",
-        "type": "subtopic",
-        "description": "Modules should be focused on a single concern and avoid hardcoding values that callers need to control. Always declare types for input variables and provide descriptions. Version-pin external modules and keep local modules small and composable. Avoid deeply nested module hierarchies, as they are harder to debug and maintain.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Module Best Practices",
-            "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module#module-best-practices"
-          },
-          {
-            "type": "article",
-            "title": "Terraform Modules Guide: Best Practices & Examples",
-            "url": "https://www.env0.com/blog/terraform-modules"
-          },
-          {
-            "type": "video",
-            "title": "Best practices for modularizing a Terraform project | PlatformCon 2023",
-            "url": "https://www.youtube.com/watch?v=byzwaTng3ac"
           }
         ]
       },
@@ -4037,29 +4260,6 @@
         ]
       },
       {
-        "id": "nFq-64JQoYAKjN9YkmOfO",
-        "name": "Workspaces",
-        "type": "topic",
-        "description": "Workspaces allow multiple state files to exist for the same configuration, enabling the same code to manage separate environments such as development, staging, and production. The `terraform workspace` commands create, switch, and list workspaces. The current workspace name is available in expressions as `terraform.workspace`.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Workspaces",
-            "url": "https://developer.hashicorp.com/terraform/language/state/workspaces"
-          },
-          {
-            "type": "article",
-            "title": "What are Terraform workspaces?",
-            "url": "https://spacelift.io/blog/terraform-workspaces"
-          },
-          {
-            "type": "video",
-            "title": "Structuring Repositories for Terraform Workspaces - Hashicorp",
-            "url": "https://www.youtube.com/watch?v=IDLGpkRmDXg"
-          }
-        ]
-      },
-      {
         "id": "O194eWh529jj4VDhKxNSj",
         "name": "CI / CD Integration",
         "type": "topic",
@@ -4155,6 +4355,160 @@
             "type": "video",
             "title": "How to Use Terraform and Jenkins to Automate Infrastructure Setup",
             "url": "https://www.youtube.com/watch?v=kIDiP3Unj7Y"
+          }
+        ]
+      },
+      {
+        "id": "nFq-64JQoYAKjN9YkmOfO",
+        "name": "Workspaces",
+        "type": "topic",
+        "description": "Workspaces allow multiple state files to exist for the same configuration, enabling the same code to manage separate environments such as development, staging, and production. The `terraform workspace` commands create, switch, and list workspaces. The current workspace name is available in expressions as `terraform.workspace`.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Workspaces",
+            "url": "https://developer.hashicorp.com/terraform/language/state/workspaces"
+          },
+          {
+            "type": "article",
+            "title": "What are Terraform workspaces?",
+            "url": "https://spacelift.io/blog/terraform-workspaces"
+          },
+          {
+            "type": "video",
+            "title": "Structuring Repositories for Terraform Workspaces - Hashicorp",
+            "url": "https://www.youtube.com/watch?v=IDLGpkRmDXg"
+          }
+        ]
+      },
+      {
+        "id": "ECcHo0KTDN27MuVTC-Fwy",
+        "name": "Scaling Terraform",
+        "type": "topic",
+        "description": "As infrastructure grows, Terraform configurations must be structured to remain manageable, performant, and safe for teams to use concurrently. Scaling strategies include splitting state, parallelizing operations, enforcing consistent deployment workflows, and managing version drift across modules and providers.",
+        "resources": []
+      },
+      {
+        "id": "nx53xkJqovG-KCxZwihF1",
+        "name": "Basic / Advanced Commands",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "6zFuSNOfbPaYIE_t--2nr",
+        "name": "Version Management",
+        "type": "subtopic",
+        "description": "Managing Terraform and provider versions across a team requires consistent tooling. `tfenv` is a popular version manager for Terraform that allows switching between installed versions based on a `.terraform-version` file. Pinning versions in `required_version` and `required_providers` blocks ensures everyone uses compatible releases.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "tfenv",
+            "url": "https://github.com/tfutils/tfenv"
+          },
+          {
+            "type": "article",
+            "title": "How to Use tfenv to Manage Multiple Terraform Versions",
+            "url": "https://spacelift.io/blog/tfenv"
+          },
+          {
+            "type": "video",
+            "title": "Quick Tech: tfenv",
+            "url": "https://www.youtube.com/watch?v=Smk5PrRPQsU"
+          }
+        ]
+      },
+      {
+        "id": "zCU02_5Pide5BZiuMuqEU",
+        "name": "Splitting Large State",
+        "type": "subtopic",
+        "description": "Large state files slow down plans and increase the risk of conflicts. Splitting infrastructure into smaller, independently managed configurations with their own state files reduces plan times and limits the impact of a failed apply. Resources in different state files communicate through remote state data sources or variable passing.",
+        "resources": []
+      },
+      {
+        "id": "RtwZy60ruRpskmgr1qYYf",
+        "name": "Parallelism",
+        "type": "subtopic",
+        "description": "Terraform applies resource changes in parallel by default, up to a configurable limit controlled by the `-parallelism` flag. Increasing parallelism can speed up large deployments but may hit API rate limits. Lowering it can reduce throttling errors when working with providers that enforce strict rate limits.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Walking the graph",
+            "url": "https://developer.hashicorp.com/terraform/internals/graph#walking-the-graph"
+          },
+          {
+            "type": "article",
+            "title": "Considerations when setting the TFE_PARALLELISM environment variable",
+            "url": "https://support.hashicorp.com/hc/en-us/articles/10348130482451-Considerations-when-setting-the-TFE-PARALLELISM-environment-variable"
+          }
+        ]
+      },
+      {
+        "id": "wL3WWhjPEgFmumOmCPRDf",
+        "name": "Deployment Workflow",
+        "type": "subtopic",
+        "description": "A consistent deployment workflow defines how infrastructure changes move from development to production. Common patterns include environment promotion, where changes are applied to lower environments first, and GitOps, where the desired state is tracked in a Git repository and applied automatically. Enforcing a workflow reduces the risk of ad-hoc changes causing drift.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "The Core Terraform Workflow",
+            "url": "https://developer.hashicorp.com/terraform/intro/core-workflow"
+          },
+          {
+            "type": "video",
+            "title": "Terraform Basics: Core Workflow",
+            "url": "https://www.youtube.com/watch?v=sqLD39xqcx0"
+          },
+          {
+            "type": "video",
+            "title": "Advanced Concepts and Faster Workflows in the Terraform Language",
+            "url": "https://www.youtube.com/watch?v=J8J7ixBNF-M"
+          }
+        ]
+      },
+      {
+        "id": "AEtW6j2GcfZz7IXk4sM6c",
+        "name": "Terragrunt",
+        "type": "subtopic",
+        "description": "Terragrunt is a thin wrapper around Terraform that adds support for keeping configurations DRY, managing dependencies between modules, and running commands across multiple modules at once. It uses `terragrunt.hcl` files to define module sources, variable inputs, and backend configuration. It is widely used in large multi-account or multi-environment Terraform setups.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Terragrunt Website",
+            "url": "https://terragrunt.gruntwork.io/"
+          },
+          {
+            "type": "opensource",
+            "title": "gruntwork-io/terragrunt",
+            "url": "https://github.com/gruntwork-io/terragrunt"
+          },
+          {
+            "type": "article",
+            "title": "Terragrunt Tutorial: Examples and Use Cases",
+            "url": "https://www.env0.com/blog/terragrunt"
+          }
+        ]
+      },
+      {
+        "id": "oANePqjkwtNMwvV-_W0B7",
+        "name": "Infracost",
+        "type": "subtopic",
+        "description": "Infracost is a cost estimation tool that integrates with Terraform to show the monthly cloud cost impact of planned infrastructure changes. It parses a Terraform plan and calculates costs based on provider pricing data. It can be added to CI pipelines to display cost breakdowns in pull request comments before changes are merged.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Infracost Website",
+            "url": "https://www.infracost.io/"
+          },
+          {
+            "type": "opensource",
+            "title": "infracost/infracost",
+            "url": "https://github.com/infracost/infracost"
+          },
+          {
+            "type": "video",
+            "title": "Shifting FinOps Left: A live demo",
+            "url": "https://www.youtube.com/watch?v=BQeO137DDo8"
           }
         ]
       },
@@ -4272,130 +4626,6 @@
             "type": "video",
             "title": "Terraform Module Testing",
             "url": "https://www.youtube.com/watch?v=1LInIWM_2UQ"
-          }
-        ]
-      },
-      {
-        "id": "ECcHo0KTDN27MuVTC-Fwy",
-        "name": "Scaling Terraform",
-        "type": "topic",
-        "description": "As infrastructure grows, Terraform configurations must be structured to remain manageable, performant, and safe for teams to use concurrently. Scaling strategies include splitting state, parallelizing operations, enforcing consistent deployment workflows, and managing version drift across modules and providers.",
-        "resources": []
-      },
-      {
-        "id": "zCU02_5Pide5BZiuMuqEU",
-        "name": "Splitting Large State",
-        "type": "subtopic",
-        "description": "Large state files slow down plans and increase the risk of conflicts. Splitting infrastructure into smaller, independently managed configurations with their own state files reduces plan times and limits the impact of a failed apply. Resources in different state files communicate through remote state data sources or variable passing.",
-        "resources": []
-      },
-      {
-        "id": "RtwZy60ruRpskmgr1qYYf",
-        "name": "Parallelism",
-        "type": "subtopic",
-        "description": "Terraform applies resource changes in parallel by default, up to a configurable limit controlled by the `-parallelism` flag. Increasing parallelism can speed up large deployments but may hit API rate limits. Lowering it can reduce throttling errors when working with providers that enforce strict rate limits.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Walking the graph",
-            "url": "https://developer.hashicorp.com/terraform/internals/graph#walking-the-graph"
-          },
-          {
-            "type": "article",
-            "title": "Considerations when setting the TFE_PARALLELISM environment variable",
-            "url": "https://support.hashicorp.com/hc/en-us/articles/10348130482451-Considerations-when-setting-the-TFE-PARALLELISM-environment-variable"
-          }
-        ]
-      },
-      {
-        "id": "wL3WWhjPEgFmumOmCPRDf",
-        "name": "Deployment Workflow",
-        "type": "subtopic",
-        "description": "A consistent deployment workflow defines how infrastructure changes move from development to production. Common patterns include environment promotion, where changes are applied to lower environments first, and GitOps, where the desired state is tracked in a Git repository and applied automatically. Enforcing a workflow reduces the risk of ad-hoc changes causing drift.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "The Core Terraform Workflow",
-            "url": "https://developer.hashicorp.com/terraform/intro/core-workflow"
-          },
-          {
-            "type": "video",
-            "title": "Terraform Basics: Core Workflow",
-            "url": "https://www.youtube.com/watch?v=sqLD39xqcx0"
-          },
-          {
-            "type": "video",
-            "title": "Advanced Concepts and Faster Workflows in the Terraform Language",
-            "url": "https://www.youtube.com/watch?v=J8J7ixBNF-M"
-          }
-        ]
-      },
-      {
-        "id": "6zFuSNOfbPaYIE_t--2nr",
-        "name": "Version Management",
-        "type": "subtopic",
-        "description": "Managing Terraform and provider versions across a team requires consistent tooling. `tfenv` is a popular version manager for Terraform that allows switching between installed versions based on a `.terraform-version` file. Pinning versions in `required_version` and `required_providers` blocks ensures everyone uses compatible releases.",
-        "resources": [
-          {
-            "type": "opensource",
-            "title": "tfenv",
-            "url": "https://github.com/tfutils/tfenv"
-          },
-          {
-            "type": "article",
-            "title": "How to Use tfenv to Manage Multiple Terraform Versions",
-            "url": "https://spacelift.io/blog/tfenv"
-          },
-          {
-            "type": "video",
-            "title": "Quick Tech: tfenv",
-            "url": "https://www.youtube.com/watch?v=Smk5PrRPQsU"
-          }
-        ]
-      },
-      {
-        "id": "AEtW6j2GcfZz7IXk4sM6c",
-        "name": "Terragrunt",
-        "type": "subtopic",
-        "description": "Terragrunt is a thin wrapper around Terraform that adds support for keeping configurations DRY, managing dependencies between modules, and running commands across multiple modules at once. It uses `terragrunt.hcl` files to define module sources, variable inputs, and backend configuration. It is widely used in large multi-account or multi-environment Terraform setups.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Terragrunt Website",
-            "url": "https://terragrunt.gruntwork.io/"
-          },
-          {
-            "type": "opensource",
-            "title": "gruntwork-io/terragrunt",
-            "url": "https://github.com/gruntwork-io/terragrunt"
-          },
-          {
-            "type": "article",
-            "title": "Terragrunt Tutorial: Examples and Use Cases",
-            "url": "https://www.env0.com/blog/terragrunt"
-          }
-        ]
-      },
-      {
-        "id": "oANePqjkwtNMwvV-_W0B7",
-        "name": "Infracost",
-        "type": "subtopic",
-        "description": "Infracost is a cost estimation tool that integrates with Terraform to show the monthly cloud cost impact of planned infrastructure changes. It parses a Terraform plan and calculates costs based on provider pricing data. It can be added to CI pipelines to display cost breakdowns in pull request comments before changes are merged.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Infracost Website",
-            "url": "https://www.infracost.io/"
-          },
-          {
-            "type": "opensource",
-            "title": "infracost/infracost",
-            "url": "https://github.com/infracost/infracost"
-          },
-          {
-            "type": "video",
-            "title": "Shifting FinOps Left: A live demo",
-            "url": "https://www.youtube.com/watch?v=BQeO137DDo8"
           }
         ]
       },
@@ -4693,6 +4923,456 @@
     ],
     "edges": [
       {
+        "source": "twR3k9D-qDr1CbyW6K0Fs",
+        "target": "h6qRrUe-bn25s0UkxU600",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CU9V3iRdssamsG-xMouXT",
+        "target": "h6qRrUe-bn25s0UkxU600",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hRIDJHIxWc5Iav7tsu8l-",
+        "target": "h6qRrUe-bn25s0UkxU600",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UsINvx84pBF1hp8XoLF4c",
+        "target": "h6qRrUe-bn25s0UkxU600",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AYtBLFU1nowEq-EVlXrEZ",
+        "target": "h6qRrUe-bn25s0UkxU600",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Hma2IgatFME8STHPwpeMG",
+        "target": "qhO7CY-1_vuh2BVJYQCzh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LaD0H7XhoEEaXbcwjxAbw",
+        "target": "qhO7CY-1_vuh2BVJYQCzh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iIjUG_N_mQtLHG25v4-xg",
+        "target": "ZRVv9onD7KGz1cJLcsnwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JJ-QhLWqT0luis_kVDVHW",
+        "target": "ZRVv9onD7KGz1cJLcsnwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bnQ2YLHd7E-vRxX3PnUEX",
+        "target": "ZRVv9onD7KGz1cJLcsnwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VxMse1VTZAUtVhpKv1OHS",
+        "target": "GlIXmCuvR_C81RMeMM1Kz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BgZu7Xao5GjR8StVL7qhM",
+        "target": "BYydmFc2e-YPCC4MCWmh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "76kp98rvph_8UOXZR-PBC",
+        "target": "BYydmFc2e-YPCC4MCWmh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TPd00dRndj1P8674KTTrm",
+        "target": "BYydmFc2e-YPCC4MCWmh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EIsex6gNHDRYHn0o2spzi",
+        "target": "BYydmFc2e-YPCC4MCWmh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "16vLOPP9lTCuBh0q-UVMk",
+        "target": "BYydmFc2e-YPCC4MCWmh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1T35eNO18qoyXcX7S-Jox",
+        "target": "BYydmFc2e-YPCC4MCWmh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DB-p_S4Ce4tDWF4wDiGSt",
+        "target": "7GK4fQf1FRKrZgZkxNahj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HUiodBFIp_rsQDkf3WgbI",
+        "target": "AY7_xUeCl6ilqZzg1YFoP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rdphcVd-Vq972y4H8CxIj",
+        "target": "AY7_xUeCl6ilqZzg1YFoP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1mFih8uFs3Lc-1PLgwiAU",
+        "target": "AY7_xUeCl6ilqZzg1YFoP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fm8oUyNvfdGWTgLsYANUr",
+        "target": "AY7_xUeCl6ilqZzg1YFoP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U2n2BtyUrOFLnw9SZYV_w",
+        "target": "AY7_xUeCl6ilqZzg1YFoP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "78bGm8J5Y1I8H4qioOvWb",
+        "target": "Xes24SqkwSaO844kLbClj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wdYLjB-tKg76B7YcnhevQ",
+        "target": "Xes24SqkwSaO844kLbClj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YftsQYpcqJqBKPjy5tWOq",
+        "target": "Xes24SqkwSaO844kLbClj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kyScfijEntX9H1mp7tmej",
+        "target": "jas0XILqCUXjWRk3ZoSEO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gcdg_GhAacIWzv19ITTE_",
+        "target": "jas0XILqCUXjWRk3ZoSEO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5FLOFTP_nCa3qi1wbV4qE",
+        "target": "jas0XILqCUXjWRk3ZoSEO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0A8zTuCXVmcruJdfH3cNu",
+        "target": "jas0XILqCUXjWRk3ZoSEO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "a0rUMnYluVUGhyhlDK5S8",
+        "target": "5xAE-9viD7DP_ugQ6NE_C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "L7wAMGi_yU-Bbc9fXlmxZ",
+        "target": "5xAE-9viD7DP_ugQ6NE_C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GseYuG9wT8H9R_enxWzuQ",
+        "target": "5xAE-9viD7DP_ugQ6NE_C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pDm08NBVwGf9rAIZC_ZIR",
+        "target": "5xAE-9viD7DP_ugQ6NE_C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i-TQe48edt3Va_oZGVBLX",
+        "target": "5xAE-9viD7DP_ugQ6NE_C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AAg_iFggkEZNL12-6nkgK",
+        "target": "i-TQe48edt3Va_oZGVBLX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wQN1QrK9VB_fHlXrBzDoU",
+        "target": "i-TQe48edt3Va_oZGVBLX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NsBJTYH9KXvjJuhPzjE_L",
+        "target": "i-TQe48edt3Va_oZGVBLX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gTMPK0tfs2JYgoL7SAGW6",
+        "target": "i-TQe48edt3Va_oZGVBLX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Iv-ZRTeVmvk7l7X9nk3ds",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vAFFgKSthyj_3Lxt-Z6pg",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7DZB2VeyuouFXOdFEfeZt",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Y-mgCkDpawt5NrMwDH9Ki",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kw32gb4HSeCEoBwkeziS_",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uR6Vjm8cek9JRzZV0iTXh",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0xVXwjWPFXDGRw_3p6th6",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jvHtSRLuCXJrGIiesgbE-",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wSh7bbPswcFAzOicX8VPx",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Os6AOXp1CVI_Bh3NYnX17",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Trpi2ZlnXZVYJCibE2bQ8",
+        "target": "KXlLlaR0_S7gE_ZB1hNEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "31fa8kBzCEn-uCrTSoPM4",
+        "target": "Iv-ZRTeVmvk7l7X9nk3ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8giL6H5944M2L0rwxjPso",
+        "target": "Iv-ZRTeVmvk7l7X9nk3ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LPI13FILvkD55hWcWbPrV",
+        "target": "inbTto9Qukdj6egRJ0Zh9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LDxAXmTKyvogvgUpvN5pT",
+        "target": "pjmOK1MEMnIV_zAlaOF01",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LDpj-LY_SOXzno04D-Y25",
+        "target": "pjmOK1MEMnIV_zAlaOF01",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6W4_akHG9YtvN6dpbZnG-",
+        "target": "R2AORYmc1NgGTqLZY5Fu-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CmmoshFC1dKE4y3SMN2bl",
+        "target": "6vs1VvjeILgAPLL6g7dfy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CJfCpRN_oVf6n_EfLNJSV",
+        "target": "6vs1VvjeILgAPLL6g7dfy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Qch8k6e4pS8OlmG_sI0hH",
+        "target": "6vs1VvjeILgAPLL6g7dfy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "g2F5-nX4Aw-xWZiypNbnL",
+        "target": "6vs1VvjeILgAPLL6g7dfy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JQE3_KakBXZdMVP_pPFNS",
+        "target": "6vs1VvjeILgAPLL6g7dfy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HEr-BBxE3jRKTqRnguds1",
+        "target": "6vs1VvjeILgAPLL6g7dfy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "weIlGqGN15U8BH1yE9moA",
+        "target": "O194eWh529jj4VDhKxNSj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6OoAdvikyp0byMH2oZhyQ",
+        "target": "O194eWh529jj4VDhKxNSj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fH27mGrdnkDQCrGGDFU6p",
+        "target": "O194eWh529jj4VDhKxNSj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qFpaqOSoefTyKxmI-FRZt",
+        "target": "O194eWh529jj4VDhKxNSj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nx53xkJqovG-KCxZwihF1",
+        "target": "ECcHo0KTDN27MuVTC-Fwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zCU02_5Pide5BZiuMuqEU",
+        "target": "ECcHo0KTDN27MuVTC-Fwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RtwZy60ruRpskmgr1qYYf",
+        "target": "ECcHo0KTDN27MuVTC-Fwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wL3WWhjPEgFmumOmCPRDf",
+        "target": "ECcHo0KTDN27MuVTC-Fwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AEtW6j2GcfZz7IXk4sM6c",
+        "target": "ECcHo0KTDN27MuVTC-Fwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oANePqjkwtNMwvV-_W0B7",
+        "target": "ECcHo0KTDN27MuVTC-Fwy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6zFuSNOfbPaYIE_t--2nr",
+        "target": "nx53xkJqovG-KCxZwihF1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V7_NnDIY1MefV_xjCCsnI",
+        "target": "QSftI21seX6I_xPonlfmU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bjozhkpOI9UjjNfmT5HhY",
+        "target": "QSftI21seX6I_xPonlfmU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ENkLj3z6hR2cKT7rBhYp5",
+        "target": "QSftI21seX6I_xPonlfmU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QqwlAtz7VfrMtNEGpT5Sa",
+        "target": "QSftI21seX6I_xPonlfmU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "H3_So6qX-s2131WHGR_GO",
+        "target": "QSftI21seX6I_xPonlfmU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uVz9WwVAgMu1ZU0qjqVnc",
+        "target": "3MnZK2V5KhBhw67SyUVPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "z0PcbgpHbR6Fm07-On4P8",
+        "target": "3MnZK2V5KhBhw67SyUVPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NSWG79dEygyl6pb54wLrE",
+        "target": "3MnZK2V5KhBhw67SyUVPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ljj7ngl1N4ezCXQ0o6Y8x",
+        "target": "3MnZK2V5KhBhw67SyUVPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Vxo_gNdFl3CZXV7GLPqjD",
+        "target": "3MnZK2V5KhBhw67SyUVPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MUkbLTMzmaVWbAJj6G3aj",
+        "target": "3MnZK2V5KhBhw67SyUVPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "K_7dB-5cCYzGbwYXXaoiY",
+        "target": "erxow5xNRj01WepdFOhVf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "elW7IMBSF0ydmlb7rtI1o",
+        "target": "erxow5xNRj01WepdFOhVf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RPcsyhIG027uP7KF0hwaY",
+        "target": "erxow5xNRj01WepdFOhVf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JoUWF6AQoreELxFHNi9oo",
+        "target": "erxow5xNRj01WepdFOhVf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Z6dG92afC8SGwCFNTx4ac",
+        "target": "erxow5xNRj01WepdFOhVf",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nU1WoRtxRF9KeNhzuwNUB",
+        "target": "erxow5xNRj01WepdFOhVf",
+        "type": "subtopic_of"
+      },
+      {
         "source": "qhO7CY-1_vuh2BVJYQCzh",
         "target": "GlIXmCuvR_C81RMeMM1Kz",
         "type": "next_in_flow"
@@ -4791,441 +5471,6 @@
         "source": "3MnZK2V5KhBhw67SyUVPk",
         "target": "erxow5xNRj01WepdFOhVf",
         "type": "next_in_flow"
-      },
-      {
-        "source": "twR3k9D-qDr1CbyW6K0Fs",
-        "target": "h6qRrUe-bn25s0UkxU600",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CU9V3iRdssamsG-xMouXT",
-        "target": "h6qRrUe-bn25s0UkxU600",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hRIDJHIxWc5Iav7tsu8l-",
-        "target": "h6qRrUe-bn25s0UkxU600",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UsINvx84pBF1hp8XoLF4c",
-        "target": "h6qRrUe-bn25s0UkxU600",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Hma2IgatFME8STHPwpeMG",
-        "target": "qhO7CY-1_vuh2BVJYQCzh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LaD0H7XhoEEaXbcwjxAbw",
-        "target": "qhO7CY-1_vuh2BVJYQCzh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AYtBLFU1nowEq-EVlXrEZ",
-        "target": "h6qRrUe-bn25s0UkxU600",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "iIjUG_N_mQtLHG25v4-xg",
-        "target": "ZRVv9onD7KGz1cJLcsnwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JJ-QhLWqT0luis_kVDVHW",
-        "target": "ZRVv9onD7KGz1cJLcsnwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bnQ2YLHd7E-vRxX3PnUEX",
-        "target": "ZRVv9onD7KGz1cJLcsnwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "BgZu7Xao5GjR8StVL7qhM",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "76kp98rvph_8UOXZR-PBC",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TPd00dRndj1P8674KTTrm",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rdphcVd-Vq972y4H8CxIj",
-        "target": "AY7_xUeCl6ilqZzg1YFoP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1mFih8uFs3Lc-1PLgwiAU",
-        "target": "AY7_xUeCl6ilqZzg1YFoP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DB-p_S4Ce4tDWF4wDiGSt",
-        "target": "7GK4fQf1FRKrZgZkxNahj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "78bGm8J5Y1I8H4qioOvWb",
-        "target": "Xes24SqkwSaO844kLbClj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wdYLjB-tKg76B7YcnhevQ",
-        "target": "Xes24SqkwSaO844kLbClj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YftsQYpcqJqBKPjy5tWOq",
-        "target": "Xes24SqkwSaO844kLbClj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "pDm08NBVwGf9rAIZC_ZIR",
-        "target": "5xAE-9viD7DP_ugQ6NE_C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LPI13FILvkD55hWcWbPrV",
-        "target": "inbTto9Qukdj6egRJ0Zh9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LDpj-LY_SOXzno04D-Y25",
-        "target": "pjmOK1MEMnIV_zAlaOF01",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6W4_akHG9YtvN6dpbZnG-",
-        "target": "R2AORYmc1NgGTqLZY5Fu-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CmmoshFC1dKE4y3SMN2bl",
-        "target": "6vs1VvjeILgAPLL6g7dfy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CJfCpRN_oVf6n_EfLNJSV",
-        "target": "6vs1VvjeILgAPLL6g7dfy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Qch8k6e4pS8OlmG_sI0hH",
-        "target": "6vs1VvjeILgAPLL6g7dfy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "g2F5-nX4Aw-xWZiypNbnL",
-        "target": "6vs1VvjeILgAPLL6g7dfy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JQE3_KakBXZdMVP_pPFNS",
-        "target": "6vs1VvjeILgAPLL6g7dfy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HEr-BBxE3jRKTqRnguds1",
-        "target": "6vs1VvjeILgAPLL6g7dfy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "weIlGqGN15U8BH1yE9moA",
-        "target": "O194eWh529jj4VDhKxNSj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6OoAdvikyp0byMH2oZhyQ",
-        "target": "O194eWh529jj4VDhKxNSj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fH27mGrdnkDQCrGGDFU6p",
-        "target": "O194eWh529jj4VDhKxNSj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qFpaqOSoefTyKxmI-FRZt",
-        "target": "O194eWh529jj4VDhKxNSj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "V7_NnDIY1MefV_xjCCsnI",
-        "target": "QSftI21seX6I_xPonlfmU",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bjozhkpOI9UjjNfmT5HhY",
-        "target": "QSftI21seX6I_xPonlfmU",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ENkLj3z6hR2cKT7rBhYp5",
-        "target": "QSftI21seX6I_xPonlfmU",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QqwlAtz7VfrMtNEGpT5Sa",
-        "target": "QSftI21seX6I_xPonlfmU",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "H3_So6qX-s2131WHGR_GO",
-        "target": "QSftI21seX6I_xPonlfmU",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zCU02_5Pide5BZiuMuqEU",
-        "target": "ECcHo0KTDN27MuVTC-Fwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RtwZy60ruRpskmgr1qYYf",
-        "target": "ECcHo0KTDN27MuVTC-Fwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wL3WWhjPEgFmumOmCPRDf",
-        "target": "ECcHo0KTDN27MuVTC-Fwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AEtW6j2GcfZz7IXk4sM6c",
-        "target": "ECcHo0KTDN27MuVTC-Fwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "oANePqjkwtNMwvV-_W0B7",
-        "target": "ECcHo0KTDN27MuVTC-Fwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uVz9WwVAgMu1ZU0qjqVnc",
-        "target": "3MnZK2V5KhBhw67SyUVPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "z0PcbgpHbR6Fm07-On4P8",
-        "target": "3MnZK2V5KhBhw67SyUVPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NSWG79dEygyl6pb54wLrE",
-        "target": "3MnZK2V5KhBhw67SyUVPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "K_7dB-5cCYzGbwYXXaoiY",
-        "target": "erxow5xNRj01WepdFOhVf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "elW7IMBSF0ydmlb7rtI1o",
-        "target": "erxow5xNRj01WepdFOhVf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RPcsyhIG027uP7KF0hwaY",
-        "target": "erxow5xNRj01WepdFOhVf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JoUWF6AQoreELxFHNi9oo",
-        "target": "erxow5xNRj01WepdFOhVf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Z6dG92afC8SGwCFNTx4ac",
-        "target": "erxow5xNRj01WepdFOhVf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nU1WoRtxRF9KeNhzuwNUB",
-        "target": "erxow5xNRj01WepdFOhVf",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6zFuSNOfbPaYIE_t--2nr",
-        "target": "ECcHo0KTDN27MuVTC-Fwy",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vAFFgKSthyj_3Lxt-Z6pg",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Y-mgCkDpawt5NrMwDH9Ki",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kw32gb4HSeCEoBwkeziS_",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jvHtSRLuCXJrGIiesgbE-",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7DZB2VeyuouFXOdFEfeZt",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uR6Vjm8cek9JRzZV0iTXh",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0xVXwjWPFXDGRw_3p6th6",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wSh7bbPswcFAzOicX8VPx",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Os6AOXp1CVI_Bh3NYnX17",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Trpi2ZlnXZVYJCibE2bQ8",
-        "target": "KXlLlaR0_S7gE_ZB1hNEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EIsex6gNHDRYHn0o2spzi",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kyScfijEntX9H1mp7tmej",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gcdg_GhAacIWzv19ITTE_",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5FLOFTP_nCa3qi1wbV4qE",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0A8zTuCXVmcruJdfH3cNu",
-        "target": "BYydmFc2e-YPCC4MCWmh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HUiodBFIp_rsQDkf3WgbI",
-        "target": "AY7_xUeCl6ilqZzg1YFoP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fm8oUyNvfdGWTgLsYANUr",
-        "target": "AY7_xUeCl6ilqZzg1YFoP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U2n2BtyUrOFLnw9SZYV_w",
-        "target": "AY7_xUeCl6ilqZzg1YFoP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8giL6H5944M2L0rwxjPso",
-        "target": "7GK4fQf1FRKrZgZkxNahj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LDxAXmTKyvogvgUpvN5pT",
-        "target": "pjmOK1MEMnIV_zAlaOF01",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GseYuG9wT8H9R_enxWzuQ",
-        "target": "5xAE-9viD7DP_ugQ6NE_C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "L7wAMGi_yU-Bbc9fXlmxZ",
-        "target": "5xAE-9viD7DP_ugQ6NE_C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "a0rUMnYluVUGhyhlDK5S8",
-        "target": "5xAE-9viD7DP_ugQ6NE_C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1T35eNO18qoyXcX7S-Jox",
-        "target": "5xAE-9viD7DP_ugQ6NE_C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "16vLOPP9lTCuBh0q-UVMk",
-        "target": "5xAE-9viD7DP_ugQ6NE_C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AAg_iFggkEZNL12-6nkgK",
-        "target": "R2AORYmc1NgGTqLZY5Fu-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wQN1QrK9VB_fHlXrBzDoU",
-        "target": "R2AORYmc1NgGTqLZY5Fu-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NsBJTYH9KXvjJuhPzjE_L",
-        "target": "R2AORYmc1NgGTqLZY5Fu-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gTMPK0tfs2JYgoL7SAGW6",
-        "target": "R2AORYmc1NgGTqLZY5Fu-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ljj7ngl1N4ezCXQ0o6Y8x",
-        "target": "3MnZK2V5KhBhw67SyUVPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VxMse1VTZAUtVhpKv1OHS",
-        "target": "AY7_xUeCl6ilqZzg1YFoP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "31fa8kBzCEn-uCrTSoPM4",
-        "target": "7GK4fQf1FRKrZgZkxNahj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Vxo_gNdFl3CZXV7GLPqjD",
-        "target": "3MnZK2V5KhBhw67SyUVPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MUkbLTMzmaVWbAJj6G3aj",
-        "target": "3MnZK2V5KhBhw67SyUVPk",
-        "type": "subtopic_of"
       }
     ]
   }

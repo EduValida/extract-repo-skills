@@ -3,7 +3,7 @@
     "slug": "kubernetes",
     "title": "Kubernetes Roadmap",
     "description": "Step by step guide to learning Kubernetes in 2026",
-    "extracted_at": "2026-10-29T01:04:16.302158+00:00",
+    "extracted_at": "2026-11-05T02:15:10.676562+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/kubernetes",
     "total_topics": 14,
     "total_subtopics": 53
@@ -64,7 +64,9 @@
                 "url": "https://www.youtube.com/watch?v=VnvRFRk_51k&t=1sn"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/overview-of-kubernetes@qLeEEwBvlGt1fP5Qcreah.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/overview-of-kubernetes@qLeEEwBvlGt1fP5Qcreah.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "q-Ky0ietZGpyUcBQfh-BJ",
@@ -83,7 +85,9 @@
                 "url": "https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and-why-you-should-care/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/why-use-kubernetes@q-Ky0ietZGpyUcBQfh-BJ.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/why-use-kubernetes@q-Ky0ietZGpyUcBQfh-BJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9oo2fxTM2_p0VYPBroqxa",
@@ -112,7 +116,9 @@
                 "url": "https://youtu.be/XfBrtNZ2OCw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/key-concepts-and-terminologies@9oo2fxTM2_p0VYPBroqxa.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/key-concepts-and-terminologies@9oo2fxTM2_p0VYPBroqxa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3fzuXKH7az_LVnmnoXB1p",
@@ -136,7 +142,9 @@
                 "url": "https://thenewstack.io/can-you-live-without-kubernetes/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/kubernetes-alternatives@3fzuXKH7az_LVnmnoXB1p.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/kubernetes-alternatives@3fzuXKH7az_LVnmnoXB1p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -243,7 +251,9 @@
                 "url": "https://www.youtube.com/watch?v=XltFOyGanYE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/deploying-your-first-application@zrbSJa3k7a3TE0aYbWi9c.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/deploying-your-first-application@zrbSJa3k7a3TE0aYbWi9c.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qSatCdBTDXPu-IFWzUI99",
@@ -267,7 +277,9 @@
                 "url": "https://thenewstack.io/kubernetes/kubernetes-infrastructure-architecture/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/choosing-a-managed-provider@qSatCdBTDXPu-IFWzUI99.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/choosing-a-managed-provider@qSatCdBTDXPu-IFWzUI99.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YaIs8lquWIe1D7RCUBZmC",
@@ -291,7 +303,9 @@
                 "url": "https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/installing-a-local-cluster@YaIs8lquWIe1D7RCUBZmC.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/installing-a-local-cluster@YaIs8lquWIe1D7RCUBZmC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -323,7 +337,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/kubernetes/content/running-applications@1MdrzhktCWjpmxiYYBdz7.md",
-        "subtopics_count": 5,
+        "subtopics_count": 4,
         "subtopics": [
           {
             "id": "-d2PIXm0V_Iehe8cws8zK",
@@ -352,7 +366,9 @@
                 "url": "https://www.youtube.com/watch?v=k0fzMZgpp14"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/pods@-d2PIXm0V_Iehe8cws8zK.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/pods@-d2PIXm0V_Iehe8cws8zK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IF09l0-pryGpMbDt__ocr",
@@ -376,7 +392,9 @@
                 "url": "https://www.youtube.com/watch?v=1WM-LsH6tKc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/replicasets@IF09l0-pryGpMbDt__ocr.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/replicasets@IF09l0-pryGpMbDt__ocr.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "TUGQX7y1gs-aKPge2F1NU",
@@ -400,31 +418,9 @@
                 "url": "https://youtu.be/lxc4EXZOOvE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/deployments@TUGQX7y1gs-aKPge2F1NU.md"
-          },
-          {
-            "id": "AJiRBEaKU8qYEm0fqN389",
-            "name": "StatefulSets",
-            "type": "subtopic",
-            "description": "It is a controller that manages the deployment and scaling of a set of stateful pods that require stable network identities and stable storage volumes. StatefulSets are used to run stateful applications such as databases, where the order and uniqueness of each pod is important. StatefulSets provide unique stable network identities and stable storage volumes for each pod, which allows stateful applications to maintain data consistency even when they are scaled up or down, or when nodes fail or are replaced. StatefulSets are defined by a YAML file that includes a pod template, a service to access the pods, and other settings.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "StatefulSets Documentation",
-                "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
-              },
-              {
-                "type": "article",
-                "title": "Different Approaches for Building Stateful Kubernetes Applications",
-                "url": "https://thenewstack.io/different-approaches-for-building-stateful-kubernetes-applications/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes StatefulSet | Tutorial",
-                "url": "https://www.youtube.com/watch?v=pPQKAR1pA9U"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/statefulsets@AJiRBEaKU8qYEm0fqN389.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/deployments@TUGQX7y1gs-aKPge2F1NU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "r3fzAN5DzratAKnnT8hzb",
@@ -448,119 +444,9 @@
                 "url": "https://www.youtube.com/watch?v=j1EnBbxSz64"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/jobs@r3fzAN5DzratAKnnT8hzb.md"
-          }
-        ]
-      },
-      {
-        "id": "aUJ_w2L8nxNq3DfAW97Gd",
-        "name": "Services and Networking",
-        "type": "topic",
-        "description": "Networking is crucial for communication between pods and resources in a Kubernetes cluster. Each pod has a unique IP address and can communicate with other pods directly. Container networking interface (CNI) plugins are used to configure pod network interfaces and provide isolation between pods. Kubernetes also provides networking services such as load balancing, service discovery, and ingress, which enable external traffic to access pods and services. These services are implemented using Kubernetes objects such as Services, Ingress, and NetworkPolicies. Networking and pod-to-pod communication are essential for scalability, reliability, and flexibility in Kubernetes clusters.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Cluster Networking - Documentation",
-            "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
-          },
-          {
-            "type": "official",
-            "title": "Job with Pod-to-Pod Communication",
-            "url": "https://kubernetes.io/docs/tasks/job/job-with-pod-to-pod-communication/"
-          },
-          {
-            "type": "article",
-            "title": "How Kubernetes Provides Networking and Storage to Applications",
-            "url": "https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/kubernetes/content/services-and-networking@aUJ_w2L8nxNq3DfAW97Gd.md",
-        "subtopics_count": 4,
-        "subtopics": [
-          {
-            "id": "rgHgNU_aLUibLhl_Cyw3F",
-            "name": "Gateway API",
-            "type": "subtopic",
-            "description": "",
-            "resources": [],
-            "file_path": null
-          },
-          {
-            "id": "jUOlITLqnIvSu97I_3nBz",
-            "name": "External Access to Services",
-            "type": "subtopic",
-            "description": "External access to Kubernetes (k8s) Services allows external clients to access pods and services running in the cluster. There are multiple ways to enable external access to Services in k8s, including NodePorts, LoadBalancers, and Ingress. Ingress is a Kubernetes object that provides a flexible way to manage external access, routing traffic to Services based on URL or host. External access is essential to ensure the scalability and reliability of Kubernetes deployments.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Ingress - Documentation",
-                "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/"
-              },
-              {
-                "type": "article",
-                "title": "Kubernetes Ingress for Beginners",
-                "url": "https://thenewstack.io/kubernetes-ingress-for-beginners/"
-              },
-              {
-                "type": "video",
-                "title": "How do I provide external access to Kubernetes services",
-                "url": "https://www.youtube.com/watch?v=iBYTFpoXx24"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/external-access-to-services@jUOlITLqnIvSu97I_3nBz.md"
-          },
-          {
-            "id": "Qelo1YvAcUoX5PA-RYbNp",
-            "name": "Load Balancing",
-            "type": "subtopic",
-            "description": "Load balancing in distributes network traffic across multiple pods or nodes using a Service object. A Service provides a stable network endpoint for a set of pods, allowing other pods or external clients to access them through a single IP address and DNS name. Kubernetes offers three types of load balancing algorithms for Services, which distribute traffic based on round-robin, least connections, or IP hash. Load balancing is an essential part of Kubernetes networking, providing efficient and reliable traffic distribution across a cluster.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Load Balancing - Documentation",
-                "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/#load-balancing"
-              },
-              {
-                "type": "article",
-                "title": "Ingress Controllers: The Swiss Army Knife of Kubernetes",
-                "url": "https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes/"
-              },
-              {
-                "type": "video",
-                "title": "Tutorial | Load Balancing Service in Kubernetes",
-                "url": "https://www.youtube.com/watch?v=xCsz9IOt-fs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/load-balancing@Qelo1YvAcUoX5PA-RYbNp.md"
-          },
-          {
-            "id": "44rhdieUCWsGFC_1__9kk",
-            "name": "Networking & Pod-to-Pod Communication",
-            "type": "subtopic",
-            "description": "Kubernetes networking enables pods to communicate with each other across the cluster, regardless of which node they are running on. Every pod is assigned its own IP address, and Kubernetes follows a flat network model where all pods can directly communicate with each other without Network Address Translation (NAT). Pod-to-pod communication is implemented by a **Container Network Interface (CNI)** plugin, such as Calico, Flannel, Cilium, or Weave. These plugins are responsible for IP address assignment, routing, and enforcing network policies. By default, all pod traffic is allowed, but **NetworkPolicies** can be used to control and restrict traffic between pods for security and isolation. Reliable pod-to-pod networking is a core requirement for building distributed and microservices-based applications in Kubernetes.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Cluster Networking - Kubernetes Documentation",
-                "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
-              },
-              {
-                "type": "official",
-                "title": "Network Policies - Kubernetes Documentation",
-                "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/"
-              },
-              {
-                "type": "article",
-                "title": "Kubernetes Networking Explained",
-                "url": "https://www.tigera.io/learn/guides/kubernetes-networking/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes Networking Deep Dive",
-                "url": "https://www.youtube.com/watch?v=t98ekMiz0hQ"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/networking--pod-to-pod-communication@44rhdieUCWsGFC_1__9kk.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/jobs@r3fzAN5DzratAKnnT8hzb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -611,7 +497,9 @@
                 "url": "https://www.youtube.com/watch?v=BPrC_lgmcHQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/injecting-pod-config-with-configmaps@u24UlZKI86vaguj_VpMv1.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/injecting-pod-config-with-configmaps@u24UlZKI86vaguj_VpMv1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "S0CwGC2gMG-SqnLNldqBD",
@@ -635,7 +523,129 @@
                 "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/using-secrets-for-sensitive-data@S0CwGC2gMG-SqnLNldqBD.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/using-secrets-for-sensitive-data@S0CwGC2gMG-SqnLNldqBD.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "aUJ_w2L8nxNq3DfAW97Gd",
+        "name": "Services and Networking",
+        "type": "topic",
+        "description": "Networking is crucial for communication between pods and resources in a Kubernetes cluster. Each pod has a unique IP address and can communicate with other pods directly. Container networking interface (CNI) plugins are used to configure pod network interfaces and provide isolation between pods. Kubernetes also provides networking services such as load balancing, service discovery, and ingress, which enable external traffic to access pods and services. These services are implemented using Kubernetes objects such as Services, Ingress, and NetworkPolicies. Networking and pod-to-pod communication are essential for scalability, reliability, and flexibility in Kubernetes clusters.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Cluster Networking - Documentation",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
+          },
+          {
+            "type": "official",
+            "title": "Job with Pod-to-Pod Communication",
+            "url": "https://kubernetes.io/docs/tasks/job/job-with-pod-to-pod-communication/"
+          },
+          {
+            "type": "article",
+            "title": "How Kubernetes Provides Networking and Storage to Applications",
+            "url": "https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/kubernetes/content/services-and-networking@aUJ_w2L8nxNq3DfAW97Gd.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "rgHgNU_aLUibLhl_Cyw3F",
+            "name": "Gateway API",
+            "type": "subtopic",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "jUOlITLqnIvSu97I_3nBz",
+            "name": "External Access to Services",
+            "type": "subtopic",
+            "description": "External access to Kubernetes (k8s) Services allows external clients to access pods and services running in the cluster. There are multiple ways to enable external access to Services in k8s, including NodePorts, LoadBalancers, and Ingress. Ingress is a Kubernetes object that provides a flexible way to manage external access, routing traffic to Services based on URL or host. External access is essential to ensure the scalability and reliability of Kubernetes deployments.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Ingress - Documentation",
+                "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/"
+              },
+              {
+                "type": "article",
+                "title": "Kubernetes Ingress for Beginners",
+                "url": "https://thenewstack.io/kubernetes-ingress-for-beginners/"
+              },
+              {
+                "type": "video",
+                "title": "How do I provide external access to Kubernetes services",
+                "url": "https://www.youtube.com/watch?v=iBYTFpoXx24"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/external-access-to-services@jUOlITLqnIvSu97I_3nBz.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Qelo1YvAcUoX5PA-RYbNp",
+            "name": "Load Balancing",
+            "type": "subtopic",
+            "description": "Load balancing in distributes network traffic across multiple pods or nodes using a Service object. A Service provides a stable network endpoint for a set of pods, allowing other pods or external clients to access them through a single IP address and DNS name. Kubernetes offers three types of load balancing algorithms for Services, which distribute traffic based on round-robin, least connections, or IP hash. Load balancing is an essential part of Kubernetes networking, providing efficient and reliable traffic distribution across a cluster.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Load Balancing - Documentation",
+                "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/#load-balancing"
+              },
+              {
+                "type": "article",
+                "title": "Ingress Controllers: The Swiss Army Knife of Kubernetes",
+                "url": "https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes/"
+              },
+              {
+                "type": "video",
+                "title": "Tutorial | Load Balancing Service in Kubernetes",
+                "url": "https://www.youtube.com/watch?v=xCsz9IOt-fs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/load-balancing@Qelo1YvAcUoX5PA-RYbNp.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "44rhdieUCWsGFC_1__9kk",
+            "name": "Networking & Pod-to-Pod Communication",
+            "type": "subtopic",
+            "description": "Kubernetes networking enables pods to communicate with each other across the cluster, regardless of which node they are running on. Every pod is assigned its own IP address, and Kubernetes follows a flat network model where all pods can directly communicate with each other without Network Address Translation (NAT). Pod-to-pod communication is implemented by a **Container Network Interface (CNI)** plugin, such as Calico, Flannel, Cilium, or Weave. These plugins are responsible for IP address assignment, routing, and enforcing network policies. By default, all pod traffic is allowed, but **NetworkPolicies** can be used to control and restrict traffic between pods for security and isolation. Reliable pod-to-pod networking is a core requirement for building distributed and microservices-based applications in Kubernetes.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Cluster Networking - Kubernetes Documentation",
+                "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
+              },
+              {
+                "type": "official",
+                "title": "Network Policies - Kubernetes Documentation",
+                "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/"
+              },
+              {
+                "type": "article",
+                "title": "Kubernetes Networking Explained",
+                "url": "https://www.tigera.io/learn/guides/kubernetes-networking/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes Networking Deep Dive",
+                "url": "https://www.youtube.com/watch?v=t98ekMiz0hQ"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/networking--pod-to-pod-communication@44rhdieUCWsGFC_1__9kk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -662,7 +672,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/kubernetes/content/resource-management@eWKkdiBhD5x2sGYajmHEs.md",
-        "subtopics_count": 3,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "8RLR6gRjIyTn6GCugEfgk",
@@ -691,7 +701,9 @@
                 "url": "https://thenewstack.io/kubernetes-requests-and-limits-demystified/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/setting-resource-requests-and-limits@8RLR6gRjIyTn6GCugEfgk.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/setting-resource-requests-and-limits@8RLR6gRjIyTn6GCugEfgk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "OHz4QMmA3lqL_C7aWL8Ga",
@@ -715,36 +727,9 @@
                 "url": "https://www.youtube.com/watch?v=K3jNo4z5Jx8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/assigning-quotas-to-namespaces@OHz4QMmA3lqL_C7aWL8Ga.md"
-          },
-          {
-            "id": "PP4ld_vvjpY3QltBBsXKD",
-            "name": "Monitoring & Optimizing Resource Usage",
-            "type": "subtopic",
-            "description": "Monitoring and optimizing resource usage in Kubernetes helps ensure workloads run efficiently while minimizing waste and avoiding performance issues. By observing CPU, memory, and storage consumption at the node, pod, and container levels, teams can identify bottlenecks, detect underutilized resources, and make informed scaling decisions. Optimization techniques include right-sizing resource requests and limits, using autoscaling mechanisms, and continuously analyzing metrics through monitoring tools. Effective monitoring and optimization improve cluster stability, reduce costs, and enhance overall application performance.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Monitoring Resources in Kubernetes",
-                "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/"
-              },
-              {
-                "type": "official",
-                "title": "Metrics Server",
-                "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server"
-              },
-              {
-                "type": "official",
-                "title": "Horizontal Pod Autoscaling",
-                "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
-              },
-              {
-                "type": "article",
-                "title": "Kubernetes Resource Monitoring: Best Practices",
-                "url": "https://www.redhat.com/en/blog/kubernetes-resource-monitoring-best-practices"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/monitoring--optimizing-resource-usage@PP4ld_vvjpY3QltBBsXKD.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/assigning-quotas-to-namespaces@OHz4QMmA3lqL_C7aWL8Ga.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -776,8 +761,34 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/kubernetes/content/security@SG3wtV2rt9nmLEkgrp_zP.md",
-        "subtopics_count": 3,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "AJiRBEaKU8qYEm0fqN389",
+            "name": "StatefulSets",
+            "type": "subtopic",
+            "description": "It is a controller that manages the deployment and scaling of a set of stateful pods that require stable network identities and stable storage volumes. StatefulSets are used to run stateful applications such as databases, where the order and uniqueness of each pod is important. StatefulSets provide unique stable network identities and stable storage volumes for each pod, which allows stateful applications to maintain data consistency even when they are scaled up or down, or when nodes fail or are replaced. StatefulSets are defined by a YAML file that includes a pod template, a service to access the pods, and other settings.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "StatefulSets Documentation",
+                "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+              },
+              {
+                "type": "article",
+                "title": "Different Approaches for Building Stateful Kubernetes Applications",
+                "url": "https://thenewstack.io/different-approaches-for-building-stateful-kubernetes-applications/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes StatefulSet | Tutorial",
+                "url": "https://www.youtube.com/watch?v=pPQKAR1pA9U"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/statefulsets@AJiRBEaKU8qYEm0fqN389.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "jOq0WwLrq8tlmOgo64QDc",
             "name": "Role Based Access Control (RBAC)",
@@ -820,7 +831,9 @@
                 "url": "https://www.youtube.com/watch?v=G3R24JSlGjY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/role-based-access-control-rbac@jOq0WwLrq8tlmOgo64QDc.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/role-based-access-control-rbac@jOq0WwLrq8tlmOgo64QDc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "s0gHg8CqwrSylpSPu8arA",
@@ -854,7 +867,9 @@
                 "url": "https://www.youtube.com/watch?v=oBf5lrmquYI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/network-security@s0gHg8CqwrSylpSPu8arA.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/network-security@s0gHg8CqwrSylpSPu8arA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Nja7IFWcFTLsPcqbvRNm9",
@@ -883,7 +898,9 @@
                 "url": "https://www.youtube.com/watch?v=i8wfvoVf2xs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/container-and-pod-security@Nja7IFWcFTLsPcqbvRNm9.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/container-and-pod-security@Nja7IFWcFTLsPcqbvRNm9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -915,7 +932,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/kubernetes/content/monitoring-and-logging@AgsQnQjyTLUFhFpRdcE13.md",
-        "subtopics_count": 5,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "ldYTEPt_hI4PXxr3tgJi5",
@@ -934,45 +951,9 @@
                 "url": "https://www.youtube.com/watch?v=idDu_jXqf4E"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/traces@ldYTEPt_hI4PXxr3tgJi5.md"
-          },
-          {
-            "id": "-XxQtiLDAkXs7IFM_Ddw6",
-            "name": "Logs",
-            "type": "subtopic",
-            "description": "Logs are generated by containerized applications running on nodes within the cluster. You can access these logs using the kubectl logs command followed by the name of the pod. By default, this command shows the logs from the most recent container in the pod, but you can specify a specific container within the pod by adding the container name to the command. Adding the -f flag to the command allows you to follow the logs in real-time. There are also third-party logging solutions available for Kubernetes, such as the EFK and Prometheus stacks, that provide more advanced logging capabilities and scalability for large-scale applications.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "System Logs",
-                "url": "https://kubernetes.io/docs/concepts/cluster-administration/system-logs/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes: Log collection explained",
-                "url": "https://www.youtube.com/watch?v=6kmHvXdAzIM"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/logs@-XxQtiLDAkXs7IFM_Ddw6.md"
-          },
-          {
-            "id": "nqUBHBFUYFdYqCKZvfXBR",
-            "name": "Metrics",
-            "type": "subtopic",
-            "description": "Metrics to monitor include CPU usage, memory usage, network usage, disk usage, API server metrics, pod and container metrics, and cluster-level metrics. These metrics provide insights into the performance and health of the cluster, nodes, and applications running on the cluster. Kubernetes provides tools such as Prometheus, Grafana, and Kubernetes Dashboard for collecting and analyzing these metrics. By monitoring these metrics, administrators can identify performance issues and optimize the cluster for better performance and scalability.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Node Metrics Data",
-                "url": "https://kubernetes.io/docs/reference/instrumentation/node-metrics/"
-              },
-              {
-                "type": "video",
-                "title": "How to collect metrics in K8s?",
-                "url": "https://www.youtube.com/watch?v=JQrk6HwlN78"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/metrics@nqUBHBFUYFdYqCKZvfXBR.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/traces@ldYTEPt_hI4PXxr3tgJi5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "pDjNsK5vI9FmKZbQm0lDP",
@@ -991,7 +972,9 @@
                 "url": "https://www.youtube.com/watch?v=YDtuwlNTzRc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/resource-health@pDjNsK5vI9FmKZbQm0lDP.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/resource-health@pDjNsK5vI9FmKZbQm0lDP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "FANswgUhUb5Iuah2fni3L",
@@ -1020,293 +1003,9 @@
                 "url": "https://kubesphere.io/observability/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/observability-engines@FANswgUhUb5Iuah2fni3L.md"
-          }
-        ]
-      },
-      {
-        "id": "03mGA5AyL7mpF6y3EMW7A",
-        "name": "Autoscaling",
-        "type": "topic",
-        "description": "Autoscaling in Kubernetes involves adjusting the resources allocated to a deployment or set of pods based on demand. It includes Horizontal Pod Autoscaling (HPA) and Vertical Pod Autoscaling (VPA), which increase or decrease replicas or adjust resource requests and limits, respectively. Autoscaling can be used with Cluster Autoscaling to efficiently allocate resources and ensure application responsiveness. It's useful for handling variable workloads or sudden spikes in traffic.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Autoscaling in Kubernetes",
-            "url": "https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes cluster autoscaling for beginners",
-            "url": "https://www.youtube.com/watch?v=jM36M39MA3I"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/kubernetes/content/autoscaling@03mGA5AyL7mpF6y3EMW7A.md",
-        "subtopics_count": 7,
-        "subtopics": [
-          {
-            "id": "044IUUCgZP4oQ9UxUG2iy",
-            "name": "Horizontal Pod Autoscaler (HPA)",
-            "type": "subtopic",
-            "description": "It is a feature in Kubernetes that automatically scales the number of replicas of a pod based on the current demand for the workload it is running. The HPA controller monitors the CPU utilization or other metrics of the pod and adjusts the number of replicas of the pod to meet the specified target. This helps to ensure that the workload can handle increases in traffic and demand without overloading the resources of the cluster.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Horizontal Pod Autoscaling - Documentation",
-                "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/horizontal-pod-autoscaler-hpa@044IUUCgZP4oQ9UxUG2iy.md"
-          },
-          {
-            "id": "c1KVczGRjh9bhMpbPP6sA",
-            "name": "Vertical Pod Autoscaler (VPA)",
-            "type": "subtopic",
-            "description": "Vertical Pod Autoscaler (VPA) is a Kubernetes feature that automates the process of adjusting resource limits for containers in pods. Unlike Horizontal Pod Autoscaler (HPA), which scales the number of replicas of a pod, VPA scales the resources allocated to a pod's containers. It adjusts the resource requests and limits for each container based on its actual usage.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is Kubernetes VPA?",
-                "url": "https://www.kubecost.com/kubernetes-autoscaling/kubernetes-vpa/"
-              },
-              {
-                "type": "video",
-                "title": "Vertical Pod Autoscaling: Example",
-                "url": "https://www.youtube.com/watch?v=3h-vDDTZrm8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/vertical-pod-autoscaler-vpa@c1KVczGRjh9bhMpbPP6sA.md"
-          },
-          {
-            "id": "RC5MoYtG2rom-d4FW5qD2",
-            "name": "Cluster Autoscaling",
-            "type": "subtopic",
-            "description": "Autoscaling in Kubernetes involves adjusting the resources allocated to a deployment or set of pods based on demand. It includes Horizontal Pod Autoscaling (HPA) and Vertical Pod Autoscaling (VPA), which increase or decrease replicas or adjust resource requests and limits, respectively. Autoscaling can be used with Cluster Autoscaling to efficiently allocate resources and ensure application responsiveness. It's useful for handling variable workloads or sudden spikes in traffic.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Autoscaling in Kubernetes",
-                "url": "https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes cluster autoscaling for beginners",
-                "url": "https://www.youtube.com/watch?v=jM36M39MA3I"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/cluster-autoscaling@RC5MoYtG2rom-d4FW5qD2.md"
-          },
-          {
-            "id": "ZrVhYTw63aVVIFAEJDG5r",
-            "name": "Should you manage your own Cluster?",
-            "type": "subtopic",
-            "description": "To create your own Kubernetes cluster, you need to choose a cloud provider or set up your own infrastructure, install Kubernetes on your infrastructure, configure your cluster by setting up networking, storage, and security, deploy your applications using Kubernetes manifests, and monitor and manage your cluster using tools like Kubernetes Dashboard, kubectl, and Prometheus. This process can be complex and time-consuming, but it gives you complete control over your infrastructure and allows for customization to meet your specific needs.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Creating a cluster with kubeadm",
-                "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/"
-              },
-              {
-                "type": "video",
-                "title": "KUBERNETES | Install Kubernetes Cluster",
-                "url": "https://www.youtube.com/watch?v=Ro2qeYeisZQ"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/should-you-manage-your-own-cluster@ZrVhYTw63aVVIFAEJDG5r.md"
-          },
-          {
-            "id": "M-iTb_7EWZIJ3JpdViICx",
-            "name": "Installing the Control Plane",
-            "type": "subtopic",
-            "description": "The control plane's components make global decisions about the cluster (for example, scheduling), as well as detecting and responding to cluster events (for example, starting up a new pod when a deployment's replicas field is unsatisfied). Control plane components can be run on any machine in the cluster. However, for simplicity, set up scripts typically start all control plane components on the same machine, and do not run user containers on this machine.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Initializing your control-plane node - Documentation",
-                "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#initializing-your-control-plane-node"
-              },
-              {
-                "type": "video",
-                "title": "Tutorial - Install Control Plane Components",
-                "url": "https://www.youtube.com/watch?v=IUwuyZ5ReF0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/installing-the-control-plane@M-iTb_7EWZIJ3JpdViICx.md"
-          },
-          {
-            "id": "2cQKTxln3dIk5IjX2UZdM",
-            "name": "Adding and Managing Worker Nodes",
-            "type": "subtopic",
-            "description": "Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine, depending on the cluster. Each node is managed by the control plane and contains the services necessary to run Pods.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Node Management",
-                "url": "https://kubernetes.io/docs/concepts/architecture/nodes/#management"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes 101: Nodes Tutorial",
-                "url": "https://www.youtube.com/watch?v=xhwi3zIVR-8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/adding-and-managing-worker-nodes@2cQKTxln3dIk5IjX2UZdM.md"
-          },
-          {
-            "id": "auZgEQ6FC3nUjuyx0zANh",
-            "name": "Multi-Cluster Management",
-            "type": "subtopic",
-            "description": "Multi-Cluster Management in Kubernetes (k8s) refers to the ability to manage multiple Kubernetes clusters using a single control plane. This approach allows administrators to centrally manage and orchestrate resources across multiple clusters, regardless of where they are located, without having to switch between multiple management consoles or tools.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Configure Access to Multiple Clusters - Documentation",
-                "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes Cluster Management Strategies",
-                "url": "https://www.youtube.com/watch?v=966TJ6mlOYY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/multi-cluster-management@auZgEQ6FC3nUjuyx0zANh.md"
-          }
-        ]
-      },
-      {
-        "id": "xZDXM_8qb4VL15tNGG0ws",
-        "name": "Scheduling",
-        "type": "topic",
-        "description": "Scheduling in Kubernetes refers to the process of assigning workloads to specific nodes in a cluster. The Kubernetes scheduler makes scheduling decisions based on factors such as resource availability, node suitability, and workload priorities. It balances workloads across the cluster to ensure efficient resource utilization and avoid overloading nodes. Scheduling takes into account factors such as geographic location, hardware requirements, and application-specific needs.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Kubernetes Scheduler",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
-          },
-          {
-            "type": "official",
-            "title": "Scheduling Framework",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/kubernetes/content/scheduling@xZDXM_8qb4VL15tNGG0ws.md",
-        "subtopics_count": 6,
-        "subtopics": [
-          {
-            "id": "70lTSIVh0AD6M8fMMuWzY",
-            "name": "Basics",
-            "type": "subtopic",
-            "description": "Scheduling involves assigning pods to worker nodes based on criteria such as resource availability, labels, affinity/anti-affinity rules, taints, and tolerations. Pods are the smallest deployable units in k8s, consisting of one or more containers that share the same network namespace. The scheduler is responsible for assigning pods to nodes, while labels are used for matching. Affinity and anti-affinity rules dictate how pods are scheduled based on their relationships with other pods or nodes. QoS is used to prioritize pod scheduling based on their resource requirements.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Kubernetes Scheduler",
-                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
-              },
-              {
-                "type": "video",
-                "title": "How Scheduling in Kubernetes Works",
-                "url": "https://www.youtube.com/watch?v=0FvQR-0tK54"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/basics@70lTSIVh0AD6M8fMMuWzY.md"
-          },
-          {
-            "id": "zXUsHAI1HFhcY2BFAcypv",
-            "name": "Taints and Tolerations",
-            "type": "subtopic",
-            "description": "Taints and tolerations are used in Kubernetes to restrict or allow pods to be scheduled on certain nodes based on labels. A taint is a label that is applied to a node to indicate certain limitations or requirements. A toleration is a label applied to a pod to indicate that it can tolerate certain taints. When a node has a taint, only pods with the corresponding tolerations can be scheduled on that node. This feature is useful for various purposes, such as ensuring separation of critical and non-critical workloads, reserving nodes for certain tasks, and protecting nodes from overloading.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Taints and Tolerations",
-                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes For Beginners: Taints & Tolerations",
-                "url": "https://www.youtube.com/watch?v=mo2UrkjA7FE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/taints-and-tolerations@zXUsHAI1HFhcY2BFAcypv.md"
-          },
-          {
-            "id": "CL0hKTcml40InmyVUXpY2",
-            "name": "Topology Spread Constraints",
-            "type": "subtopic",
-            "description": "Topology spread constraints ensure even distribution of pods across a cluster's topology. Constraints define rules for the number of pods of a certain type that can run on a given level, such as nodes, zones, or racks. These constraints can be customized to fit specific needs, such as ensuring that critical workloads are spread across multiple zones. They help prevent single points of failure and improve application resilience by preventing resource overloading and promoting balanced distribution of workloads. Constraints can be added using the Kubernetes API or command line interface.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Topology Spread Constraints",
-                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes | Topology Spread Constraints",
-                "url": "https://www.youtube.com/watch?v=joRrWJ6bwvE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/topology-spread-constraints@CL0hKTcml40InmyVUXpY2.md"
-          },
-          {
-            "id": "_Gva1eGcYqpmZNPyV03lt",
-            "name": "Pod Priorities",
-            "type": "subtopic",
-            "description": "Pod priorities in Kubernetes determine the order in which pods are scheduled on nodes when there are competing demands for resources. Each pod is assigned a numeric priority value, with higher values indicating higher priority. The scheduler maximizes the total priority of scheduled pods while also considering node suitability, taints and tolerations, and affinity and anti-affinity rules. Priorities can be set manually or automatically based on business logic or application requirements. Priorities help ensure that critical workloads receive necessary resources and are scheduled first, while lower priority workloads are scheduled when resources become available.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Pod priority - Documentation",
-                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#pod-priority"
-              },
-              {
-                "type": "video",
-                "title": "Kubernetes Pod Priority (Examples)",
-                "url": "https://www.youtube.com/watch?v=sR_Zmvme3-0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/pod-priorities@_Gva1eGcYqpmZNPyV03lt.md"
-          },
-          {
-            "id": "TRKzlDW2PQN9bWTyz3NWL",
-            "name": "Evictions",
-            "type": "subtopic",
-            "description": "Evictions terminate or delete running pods from a node due to reasons like resource constraints or pod failures. They can be initiated by the system or administrators manually through the API. Evictions can be graceful, allowing pods to clean up resources, or forceful, immediately terminating them. Kubernetes provides preemption and pod disruption budgets to handle evictions effectively and minimize service disruptions. Evictions are necessary to manage and maintain Kubernetes clusters, and Kubernetes provides tools to handle them.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Node-pressure Eviction",
-                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/"
-              },
-              {
-                "type": "official",
-                "title": "API-initiated Eviction",
-                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/api-eviction/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/evictions@TRKzlDW2PQN9bWTyz3NWL.md"
-          },
-          {
-            "id": "L9rVPEEXFwisQOwT_LQ4v",
-            "name": "Creating Custom Controllers",
-            "type": "subtopic",
-            "description": "Custom controllers in Kubernetes automate the management of custom resources that are not natively supported by Kubernetes. They are implemented as Kubernetes controllers that watch custom resources and react to changes in their state. Custom resources are created by extending the Kubernetes API with new resource types specific to an organization's needs. Custom controllers can be developed using various programming languages and frameworks, such as the Operator Framework. The Operator Framework provides tools and best practices for developing, testing, and deploying custom controllers.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Custom Controllers",
-                "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers"
-              },
-              {
-                "type": "video",
-                "title": "Extending Kubernetes with Custom Controllers",
-                "url": "https://www.youtube.com/results?search_query=Custom+controllers+in+k8s"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/creating-custom-controllers@L9rVPEEXFwisQOwT_LQ4v.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/observability-engines@FANswgUhUb5Iuah2fni3L.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1331,6 +1030,37 @@
         "subtopics_count": 2,
         "subtopics": [
           {
+            "id": "PP4ld_vvjpY3QltBBsXKD",
+            "name": "Monitoring & Optimizing Resource Usage",
+            "type": "subtopic",
+            "description": "Monitoring and optimizing resource usage in Kubernetes helps ensure workloads run efficiently while minimizing waste and avoiding performance issues. By observing CPU, memory, and storage consumption at the node, pod, and container levels, teams can identify bottlenecks, detect underutilized resources, and make informed scaling decisions. Optimization techniques include right-sizing resource requests and limits, using autoscaling mechanisms, and continuously analyzing metrics through monitoring tools. Effective monitoring and optimization improve cluster stability, reduce costs, and enhance overall application performance.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Monitoring Resources in Kubernetes",
+                "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/"
+              },
+              {
+                "type": "official",
+                "title": "Metrics Server",
+                "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server"
+              },
+              {
+                "type": "official",
+                "title": "Horizontal Pod Autoscaling",
+                "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
+              },
+              {
+                "type": "article",
+                "title": "Kubernetes Resource Monitoring: Best Practices",
+                "url": "https://www.redhat.com/en/blog/kubernetes-resource-monitoring-best-practices"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/monitoring--optimizing-resource-usage@PP4ld_vvjpY3QltBBsXKD.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
             "id": "55RV9psPCmcg8G_P_zQo9",
             "name": "CSI Drivers",
             "type": "subtopic",
@@ -1347,8 +1077,318 @@
                 "url": "https://kubernetes-csi.github.io/docs/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/csi-drivers@55RV9psPCmcg8G_P_zQo9.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/csi-drivers@55RV9psPCmcg8G_P_zQo9.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "xZDXM_8qb4VL15tNGG0ws",
+        "name": "Scheduling",
+        "type": "topic",
+        "description": "Scheduling in Kubernetes refers to the process of assigning workloads to specific nodes in a cluster. The Kubernetes scheduler makes scheduling decisions based on factors such as resource availability, node suitability, and workload priorities. It balances workloads across the cluster to ensure efficient resource utilization and avoid overloading nodes. Scheduling takes into account factors such as geographic location, hardware requirements, and application-specific needs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Kubernetes Scheduler",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
           },
+          {
+            "type": "official",
+            "title": "Scheduling Framework",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/kubernetes/content/scheduling@xZDXM_8qb4VL15tNGG0ws.md",
+        "subtopics_count": 7,
+        "subtopics": [
+          {
+            "id": "-XxQtiLDAkXs7IFM_Ddw6",
+            "name": "Logs",
+            "type": "subtopic",
+            "description": "Logs are generated by containerized applications running on nodes within the cluster. You can access these logs using the kubectl logs command followed by the name of the pod. By default, this command shows the logs from the most recent container in the pod, but you can specify a specific container within the pod by adding the container name to the command. Adding the -f flag to the command allows you to follow the logs in real-time. There are also third-party logging solutions available for Kubernetes, such as the EFK and Prometheus stacks, that provide more advanced logging capabilities and scalability for large-scale applications.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "System Logs",
+                "url": "https://kubernetes.io/docs/concepts/cluster-administration/system-logs/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes: Log collection explained",
+                "url": "https://www.youtube.com/watch?v=6kmHvXdAzIM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/logs@-XxQtiLDAkXs7IFM_Ddw6.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "nqUBHBFUYFdYqCKZvfXBR",
+            "name": "Metrics",
+            "type": "subtopic",
+            "description": "Metrics to monitor include CPU usage, memory usage, network usage, disk usage, API server metrics, pod and container metrics, and cluster-level metrics. These metrics provide insights into the performance and health of the cluster, nodes, and applications running on the cluster. Kubernetes provides tools such as Prometheus, Grafana, and Kubernetes Dashboard for collecting and analyzing these metrics. By monitoring these metrics, administrators can identify performance issues and optimize the cluster for better performance and scalability.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Node Metrics Data",
+                "url": "https://kubernetes.io/docs/reference/instrumentation/node-metrics/"
+              },
+              {
+                "type": "video",
+                "title": "How to collect metrics in K8s?",
+                "url": "https://www.youtube.com/watch?v=JQrk6HwlN78"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/metrics@nqUBHBFUYFdYqCKZvfXBR.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "70lTSIVh0AD6M8fMMuWzY",
+            "name": "Basics",
+            "type": "subtopic",
+            "description": "Scheduling involves assigning pods to worker nodes based on criteria such as resource availability, labels, affinity/anti-affinity rules, taints, and tolerations. Pods are the smallest deployable units in k8s, consisting of one or more containers that share the same network namespace. The scheduler is responsible for assigning pods to nodes, while labels are used for matching. Affinity and anti-affinity rules dictate how pods are scheduled based on their relationships with other pods or nodes. QoS is used to prioritize pod scheduling based on their resource requirements.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Kubernetes Scheduler",
+                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
+              },
+              {
+                "type": "video",
+                "title": "How Scheduling in Kubernetes Works",
+                "url": "https://www.youtube.com/watch?v=0FvQR-0tK54"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/basics@70lTSIVh0AD6M8fMMuWzY.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "zXUsHAI1HFhcY2BFAcypv",
+            "name": "Taints and Tolerations",
+            "type": "subtopic",
+            "description": "Taints and tolerations are used in Kubernetes to restrict or allow pods to be scheduled on certain nodes based on labels. A taint is a label that is applied to a node to indicate certain limitations or requirements. A toleration is a label applied to a pod to indicate that it can tolerate certain taints. When a node has a taint, only pods with the corresponding tolerations can be scheduled on that node. This feature is useful for various purposes, such as ensuring separation of critical and non-critical workloads, reserving nodes for certain tasks, and protecting nodes from overloading.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Taints and Tolerations",
+                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes For Beginners: Taints & Tolerations",
+                "url": "https://www.youtube.com/watch?v=mo2UrkjA7FE"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/taints-and-tolerations@zXUsHAI1HFhcY2BFAcypv.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "CL0hKTcml40InmyVUXpY2",
+            "name": "Topology Spread Constraints",
+            "type": "subtopic",
+            "description": "Topology spread constraints ensure even distribution of pods across a cluster's topology. Constraints define rules for the number of pods of a certain type that can run on a given level, such as nodes, zones, or racks. These constraints can be customized to fit specific needs, such as ensuring that critical workloads are spread across multiple zones. They help prevent single points of failure and improve application resilience by preventing resource overloading and promoting balanced distribution of workloads. Constraints can be added using the Kubernetes API or command line interface.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Topology Spread Constraints",
+                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes | Topology Spread Constraints",
+                "url": "https://www.youtube.com/watch?v=joRrWJ6bwvE"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/topology-spread-constraints@CL0hKTcml40InmyVUXpY2.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "_Gva1eGcYqpmZNPyV03lt",
+            "name": "Pod Priorities",
+            "type": "subtopic",
+            "description": "Pod priorities in Kubernetes determine the order in which pods are scheduled on nodes when there are competing demands for resources. Each pod is assigned a numeric priority value, with higher values indicating higher priority. The scheduler maximizes the total priority of scheduled pods while also considering node suitability, taints and tolerations, and affinity and anti-affinity rules. Priorities can be set manually or automatically based on business logic or application requirements. Priorities help ensure that critical workloads receive necessary resources and are scheduled first, while lower priority workloads are scheduled when resources become available.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Pod priority - Documentation",
+                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#pod-priority"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes Pod Priority (Examples)",
+                "url": "https://www.youtube.com/watch?v=sR_Zmvme3-0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/pod-priorities@_Gva1eGcYqpmZNPyV03lt.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "TRKzlDW2PQN9bWTyz3NWL",
+            "name": "Evictions",
+            "type": "subtopic",
+            "description": "Evictions terminate or delete running pods from a node due to reasons like resource constraints or pod failures. They can be initiated by the system or administrators manually through the API. Evictions can be graceful, allowing pods to clean up resources, or forceful, immediately terminating them. Kubernetes provides preemption and pod disruption budgets to handle evictions effectively and minimize service disruptions. Evictions are necessary to manage and maintain Kubernetes clusters, and Kubernetes provides tools to handle them.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Node-pressure Eviction",
+                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/"
+              },
+              {
+                "type": "official",
+                "title": "API-initiated Eviction",
+                "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/api-eviction/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/evictions@TRKzlDW2PQN9bWTyz3NWL.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "03mGA5AyL7mpF6y3EMW7A",
+        "name": "Autoscaling",
+        "type": "topic",
+        "description": "Autoscaling in Kubernetes involves adjusting the resources allocated to a deployment or set of pods based on demand. It includes Horizontal Pod Autoscaling (HPA) and Vertical Pod Autoscaling (VPA), which increase or decrease replicas or adjust resource requests and limits, respectively. Autoscaling can be used with Cluster Autoscaling to efficiently allocate resources and ensure application responsiveness. It's useful for handling variable workloads or sudden spikes in traffic.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Autoscaling in Kubernetes",
+            "url": "https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes cluster autoscaling for beginners",
+            "url": "https://www.youtube.com/watch?v=jM36M39MA3I"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/kubernetes/content/autoscaling@03mGA5AyL7mpF6y3EMW7A.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "044IUUCgZP4oQ9UxUG2iy",
+            "name": "Horizontal Pod Autoscaler (HPA)",
+            "type": "subtopic",
+            "description": "It is a feature in Kubernetes that automatically scales the number of replicas of a pod based on the current demand for the workload it is running. The HPA controller monitors the CPU utilization or other metrics of the pod and adjusts the number of replicas of the pod to meet the specified target. This helps to ensure that the workload can handle increases in traffic and demand without overloading the resources of the cluster.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Horizontal Pod Autoscaling - Documentation",
+                "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/horizontal-pod-autoscaler-hpa@044IUUCgZP4oQ9UxUG2iy.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "c1KVczGRjh9bhMpbPP6sA",
+            "name": "Vertical Pod Autoscaler (VPA)",
+            "type": "subtopic",
+            "description": "Vertical Pod Autoscaler (VPA) is a Kubernetes feature that automates the process of adjusting resource limits for containers in pods. Unlike Horizontal Pod Autoscaler (HPA), which scales the number of replicas of a pod, VPA scales the resources allocated to a pod's containers. It adjusts the resource requests and limits for each container based on its actual usage.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is Kubernetes VPA?",
+                "url": "https://www.kubecost.com/kubernetes-autoscaling/kubernetes-vpa/"
+              },
+              {
+                "type": "video",
+                "title": "Vertical Pod Autoscaling: Example",
+                "url": "https://www.youtube.com/watch?v=3h-vDDTZrm8"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/vertical-pod-autoscaler-vpa@c1KVczGRjh9bhMpbPP6sA.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "RC5MoYtG2rom-d4FW5qD2",
+            "name": "Cluster Autoscaling",
+            "type": "subtopic",
+            "description": "Autoscaling in Kubernetes involves adjusting the resources allocated to a deployment or set of pods based on demand. It includes Horizontal Pod Autoscaling (HPA) and Vertical Pod Autoscaling (VPA), which increase or decrease replicas or adjust resource requests and limits, respectively. Autoscaling can be used with Cluster Autoscaling to efficiently allocate resources and ensure application responsiveness. It's useful for handling variable workloads or sudden spikes in traffic.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Autoscaling in Kubernetes",
+                "url": "https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes cluster autoscaling for beginners",
+                "url": "https://www.youtube.com/watch?v=jM36M39MA3I"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/cluster-autoscaling@RC5MoYtG2rom-d4FW5qD2.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "ZrVhYTw63aVVIFAEJDG5r",
+            "name": "Should you manage your own Cluster?",
+            "type": "subtopic",
+            "description": "To create your own Kubernetes cluster, you need to choose a cloud provider or set up your own infrastructure, install Kubernetes on your infrastructure, configure your cluster by setting up networking, storage, and security, deploy your applications using Kubernetes manifests, and monitor and manage your cluster using tools like Kubernetes Dashboard, kubectl, and Prometheus. This process can be complex and time-consuming, but it gives you complete control over your infrastructure and allows for customization to meet your specific needs.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Creating a cluster with kubeadm",
+                "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/"
+              },
+              {
+                "type": "video",
+                "title": "KUBERNETES | Install Kubernetes Cluster",
+                "url": "https://www.youtube.com/watch?v=Ro2qeYeisZQ"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/should-you-manage-your-own-cluster@ZrVhYTw63aVVIFAEJDG5r.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "M-iTb_7EWZIJ3JpdViICx",
+            "name": "Installing the Control Plane",
+            "type": "subtopic",
+            "description": "The control plane's components make global decisions about the cluster (for example, scheduling), as well as detecting and responding to cluster events (for example, starting up a new pod when a deployment's replicas field is unsatisfied). Control plane components can be run on any machine in the cluster. However, for simplicity, set up scripts typically start all control plane components on the same machine, and do not run user containers on this machine.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Initializing your control-plane node - Documentation",
+                "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#initializing-your-control-plane-node"
+              },
+              {
+                "type": "video",
+                "title": "Tutorial - Install Control Plane Components",
+                "url": "https://www.youtube.com/watch?v=IUwuyZ5ReF0"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/installing-the-control-plane@M-iTb_7EWZIJ3JpdViICx.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "0l0xpsabglvs_t6oAP-XG",
+        "name": "Deployment Patterns",
+        "type": "topic",
+        "description": "It is a deployment strategy used in Kubernetes for deploying new versions of an application by running two identical production environments, one with the current version (blue) and the other with the new version (green). After the green environment is fully tested, traffic is routed from the blue environment to the green environment, providing a seamless transition for users and avoiding any downtime or disruption. In Kubernetes, Blue-Green Deployments can be implemented using a variety of tools and techniques, including deployment strategies, traffic routing, and load balancing.",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Kubernetes - Blue/Green Deployments",
+            "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/kubernetes/content/deployment-patterns@0l0xpsabglvs_t6oAP-XG.md",
+        "subtopics_count": 7,
+        "subtopics": [
           {
             "id": "LJUJ1NIUsajb1AUdvJjqW",
             "name": "Stateful Applications",
@@ -1366,25 +1406,10 @@
                 "url": "https://www.youtube.com/watch?v=GieXzb91I40"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/stateful-applications@LJUJ1NIUsajb1AUdvJjqW.md"
-          }
-        ]
-      },
-      {
-        "id": "0l0xpsabglvs_t6oAP-XG",
-        "name": "Deployment Patterns",
-        "type": "topic",
-        "description": "It is a deployment strategy used in Kubernetes for deploying new versions of an application by running two identical production environments, one with the current version (blue) and the other with the new version (green). After the green environment is fully tested, traffic is routed from the blue environment to the green environment, providing a seamless transition for users and avoiding any downtime or disruption. In Kubernetes, Blue-Green Deployments can be implemented using a variety of tools and techniques, including deployment strategies, traffic routing, and load balancing.",
-        "resources": [
-          {
-            "type": "video",
-            "title": "Kubernetes - Blue/Green Deployments",
-            "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/kubernetes/content/deployment-patterns@0l0xpsabglvs_t6oAP-XG.md",
-        "subtopics_count": 9,
-        "subtopics": [
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/stateful-applications@LJUJ1NIUsajb1AUdvJjqW.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "Pymc9H-lRHVPy7M9eSaPD",
             "name": "CI / CD Integration",
@@ -1407,26 +1432,9 @@
                 "url": "https://octopus.com/use-case/kubernetes?utm_source=roadmap&utm_medium=link&utm_campaign=kubernetes-ci-cd-integration"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/ci--cd-integration@Pymc9H-lRHVPy7M9eSaPD.md"
-          },
-          {
-            "id": "1-Nb8rCMJEZrYm20sEcRJ",
-            "name": "Custom Schedulers and Extenders",
-            "type": "subtopic",
-            "description": "Custom Scheduler Extenders in Kubernetes enhance the scheduling capabilities of Kubernetes by allowing users to define their own scheduling logic based on custom metrics and constraints. They are implemented as custom Kubernetes controllers that run alongside the Kubernetes scheduler. Custom Scheduler Extenders can be used to implement scheduling policies specific to an organization's needs and can be developed using various programming languages. They intercept scheduling requests, add custom scheduling logic based on user-defined rules, and pass requests back to the Kubernetes scheduler.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Create a custom Kubernetes scheduler",
-                "url": "https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/"
-              },
-              {
-                "type": "video",
-                "title": "Custom Scheduler Kubernetes | Multiple Schedulers Kubernetes",
-                "url": "https://www.youtube.com/watch?v=NiB7sjXmiZc"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/custom-schedulers-and-extenders@1-Nb8rCMJEZrYm20sEcRJ.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/ci--cd-integration@Pymc9H-lRHVPy7M9eSaPD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dATdEyNWlpDNKjedCXLyb",
@@ -1445,26 +1453,9 @@
                 "url": "https://www.youtube.com/watch?v=PFLimPh5-wo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/gitops@dATdEyNWlpDNKjedCXLyb.md"
-          },
-          {
-            "id": "9P7l-RBOkUxs3Z_UpKQO-",
-            "name": "Custom Resource Definitions (CRDs)",
-            "type": "subtopic",
-            "description": "Custom Resource Definitions (CRDs) in Kubernetes extend the Kubernetes API by defining new resource types specific to an organization's needs. CRDs create custom resources that can manage a wide variety of resources, such as applications, databases, storage, and networking. They are defined using YAML or JSON manifests and can be created and managed using the Kubernetes API server. Once created, custom resources can be managed using Kubernetes controllers and integrated with other Kubernetes components. CRDs are a powerful tool for streamlining operations in Kubernetes and enabling organizations to manage resources in a more efficient and customized way.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Custom Resources - Documentation",
-                "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
-              },
-              {
-                "type": "video",
-                "title": "Custom Resource Definition (CRD) Explained with Demo",
-                "url": "https://www.youtube.com/watch?v=u1X5Rf7fWwM"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/custom-resource-definitions-crds@9P7l-RBOkUxs3Z_UpKQO-.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/gitops@dATdEyNWlpDNKjedCXLyb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "FAEFOhLdp7xrmctHFxiOM",
@@ -1483,26 +1474,9 @@
                 "url": "https://www.youtube.com/watch?v=-ykwb1d0DXU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/helm-charts@FAEFOhLdp7xrmctHFxiOM.md"
-          },
-          {
-            "id": "UeJcKv3jhenjNzHM-0R86",
-            "name": "Kubernetes Extensions and APIs",
-            "type": "subtopic",
-            "description": "Kubernetes (k8s) extensions and APIs are used to customize the behavior of Kubernetes and add new capabilities to the system. Kubernetes extensions, including Custom Resource Definitions (CRDs), Custom Controllers, Custom Scheduler Extenders, and Custom Metrics APIs, enhance Kubernetes functionality. Kubernetes APIs are used to manage resources in a Kubernetes cluster and interact with the system. Kubernetes extensions and APIs together provide a powerful toolkit for customizing and extending Kubernetes, enabling users to build custom components and APIs that streamline operations in Kubernetes.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Extensions - Documentation",
-                "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/#extensions"
-              },
-              {
-                "type": "official",
-                "title": "The Kubernetes API - Documentation",
-                "url": "https://kubernetes.io/docs/concepts/overview/kubernetes-api/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/kubernetes-extensions-and-apis@UeJcKv3jhenjNzHM-0R86.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/helm-charts@FAEFOhLdp7xrmctHFxiOM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "88IGeC3dAopHLGtLozxdY",
@@ -1521,7 +1495,9 @@
                 "url": "https://www.youtube.com/watch?v=sCevTD_GtvU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/canary-deployments@88IGeC3dAopHLGtLozxdY.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/canary-deployments@88IGeC3dAopHLGtLozxdY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9-oaTlzKmcxTfaRycz1w3",
@@ -1535,7 +1511,9 @@
                 "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/blue-green-deployments@9-oaTlzKmcxTfaRycz1w3.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/blue-green-deployments@9-oaTlzKmcxTfaRycz1w3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "yMSXdwDO36CLtp2TBC7aB",
@@ -1569,7 +1547,9 @@
                 "url": "https://www.youtube.com/watch?v=cy3KXqgJOrE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/kubernetes/content/rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1601,8 +1581,135 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/kubernetes/content/advanced-topics@t8SJbGVXsUDECxePLDk_w.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "L9rVPEEXFwisQOwT_LQ4v",
+            "name": "Creating Custom Controllers",
+            "type": "subtopic",
+            "description": "Custom controllers in Kubernetes automate the management of custom resources that are not natively supported by Kubernetes. They are implemented as Kubernetes controllers that watch custom resources and react to changes in their state. Custom resources are created by extending the Kubernetes API with new resource types specific to an organization's needs. Custom controllers can be developed using various programming languages and frameworks, such as the Operator Framework. The Operator Framework provides tools and best practices for developing, testing, and deploying custom controllers.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Custom Controllers",
+                "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers"
+              },
+              {
+                "type": "video",
+                "title": "Extending Kubernetes with Custom Controllers",
+                "url": "https://www.youtube.com/results?search_query=Custom+controllers+in+k8s"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/creating-custom-controllers@L9rVPEEXFwisQOwT_LQ4v.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "1-Nb8rCMJEZrYm20sEcRJ",
+            "name": "Custom Schedulers and Extenders",
+            "type": "subtopic",
+            "description": "Custom Scheduler Extenders in Kubernetes enhance the scheduling capabilities of Kubernetes by allowing users to define their own scheduling logic based on custom metrics and constraints. They are implemented as custom Kubernetes controllers that run alongside the Kubernetes scheduler. Custom Scheduler Extenders can be used to implement scheduling policies specific to an organization's needs and can be developed using various programming languages. They intercept scheduling requests, add custom scheduling logic based on user-defined rules, and pass requests back to the Kubernetes scheduler.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Create a custom Kubernetes scheduler",
+                "url": "https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/"
+              },
+              {
+                "type": "video",
+                "title": "Custom Scheduler Kubernetes | Multiple Schedulers Kubernetes",
+                "url": "https://www.youtube.com/watch?v=NiB7sjXmiZc"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/custom-schedulers-and-extenders@1-Nb8rCMJEZrYm20sEcRJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "2cQKTxln3dIk5IjX2UZdM",
+            "name": "Adding and Managing Worker Nodes",
+            "type": "subtopic",
+            "description": "Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine, depending on the cluster. Each node is managed by the control plane and contains the services necessary to run Pods.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Node Management",
+                "url": "https://kubernetes.io/docs/concepts/architecture/nodes/#management"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes 101: Nodes Tutorial",
+                "url": "https://www.youtube.com/watch?v=xhwi3zIVR-8"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/adding-and-managing-worker-nodes@2cQKTxln3dIk5IjX2UZdM.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "9P7l-RBOkUxs3Z_UpKQO-",
+            "name": "Custom Resource Definitions (CRDs)",
+            "type": "subtopic",
+            "description": "Custom Resource Definitions (CRDs) in Kubernetes extend the Kubernetes API by defining new resource types specific to an organization's needs. CRDs create custom resources that can manage a wide variety of resources, such as applications, databases, storage, and networking. They are defined using YAML or JSON manifests and can be created and managed using the Kubernetes API server. Once created, custom resources can be managed using Kubernetes controllers and integrated with other Kubernetes components. CRDs are a powerful tool for streamlining operations in Kubernetes and enabling organizations to manage resources in a more efficient and customized way.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Custom Resources - Documentation",
+                "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
+              },
+              {
+                "type": "video",
+                "title": "Custom Resource Definition (CRD) Explained with Demo",
+                "url": "https://www.youtube.com/watch?v=u1X5Rf7fWwM"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/custom-resource-definitions-crds@9P7l-RBOkUxs3Z_UpKQO-.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "auZgEQ6FC3nUjuyx0zANh",
+            "name": "Multi-Cluster Management",
+            "type": "subtopic",
+            "description": "Multi-Cluster Management in Kubernetes (k8s) refers to the ability to manage multiple Kubernetes clusters using a single control plane. This approach allows administrators to centrally manage and orchestrate resources across multiple clusters, regardless of where they are located, without having to switch between multiple management consoles or tools.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Configure Access to Multiple Clusters - Documentation",
+                "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/"
+              },
+              {
+                "type": "video",
+                "title": "Kubernetes Cluster Management Strategies",
+                "url": "https://www.youtube.com/watch?v=966TJ6mlOYY"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/multi-cluster-management@auZgEQ6FC3nUjuyx0zANh.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "UeJcKv3jhenjNzHM-0R86",
+            "name": "Kubernetes Extensions and APIs",
+            "type": "subtopic",
+            "description": "Kubernetes (k8s) extensions and APIs are used to customize the behavior of Kubernetes and add new capabilities to the system. Kubernetes extensions, including Custom Resource Definitions (CRDs), Custom Controllers, Custom Scheduler Extenders, and Custom Metrics APIs, enhance Kubernetes functionality. Kubernetes APIs are used to manage resources in a Kubernetes cluster and interact with the system. Kubernetes extensions and APIs together provide a powerful toolkit for customizing and extending Kubernetes, enabling users to build custom components and APIs that streamline operations in Kubernetes.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Extensions - Documentation",
+                "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/#extensions"
+              },
+              {
+                "type": "official",
+                "title": "The Kubernetes API - Documentation",
+                "url": "https://kubernetes.io/docs/concepts/overview/kubernetes-api/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/kubernetes/content/kubernetes-extensions-and-apis@UeJcKv3jhenjNzHM-0R86.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       }
     ]
   },
@@ -1976,29 +2083,6 @@
         ]
       },
       {
-        "id": "AJiRBEaKU8qYEm0fqN389",
-        "name": "StatefulSets",
-        "type": "subtopic",
-        "description": "It is a controller that manages the deployment and scaling of a set of stateful pods that require stable network identities and stable storage volumes. StatefulSets are used to run stateful applications such as databases, where the order and uniqueness of each pod is important. StatefulSets provide unique stable network identities and stable storage volumes for each pod, which allows stateful applications to maintain data consistency even when they are scaled up or down, or when nodes fail or are replaced. StatefulSets are defined by a YAML file that includes a pod template, a service to access the pods, and other settings.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "StatefulSets Documentation",
-            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
-          },
-          {
-            "type": "article",
-            "title": "Different Approaches for Building Stateful Kubernetes Applications",
-            "url": "https://thenewstack.io/different-approaches-for-building-stateful-kubernetes-applications/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes StatefulSet | Tutorial",
-            "url": "https://www.youtube.com/watch?v=pPQKAR1pA9U"
-          }
-        ]
-      },
-      {
         "id": "r3fzAN5DzratAKnnT8hzb",
         "name": "Jobs",
         "type": "subtopic",
@@ -2018,6 +2102,75 @@
             "type": "video",
             "title": "Tutorial | Jobs in Kubernetes",
             "url": "https://www.youtube.com/watch?v=j1EnBbxSz64"
+          }
+        ]
+      },
+      {
+        "id": "dj7Tb2XTX4kxRUYiTjlhM",
+        "name": "Configuration Management",
+        "type": "topic",
+        "description": "Kubernetes secrets store sensitive data such as passwords, tokens, and API keys in a secure manner. They can be created manually or automatically, and stored in etcd. Secrets can be mounted as files or environment variables in a pod, and access can be managed using Kubernetes RBAC. However, they have some limitations, such as size and the inability to be updated once created. Understanding secrets is important for building secure applications in Kubernetes.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Documentation - Secrets",
+            "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+          },
+          {
+            "type": "article",
+            "title": "Kubernetes Secrets Management: 3 Approaches, 9 Best Practices",
+            "url": "https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes Secrets in 5 Minutes!",
+            "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U"
+          }
+        ]
+      },
+      {
+        "id": "u24UlZKI86vaguj_VpMv1",
+        "name": "Injecting Pod Config with ConfigMaps",
+        "type": "subtopic",
+        "description": "ConfigMaps are a way to store configuration data that can be used by applications running in the cluster. A Config Map is a key-value store that can hold configuration data such as database URLs, credentials, API keys, or any other application configuration data that can be used by the application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "ConfigMaps Documentation",
+            "url": "https://kubernetes.io/docs/concepts/configuration/configmap/"
+          },
+          {
+            "type": "article",
+            "title": "Kubernetes CRDs: What They Are and Why They Are Useful",
+            "url": "https://thenewstack.io/kubernetes-crds-what-they-are-and-why-they-are-useful/"
+          },
+          {
+            "type": "video",
+            "title": "Tutorial - ConfigMap in Kubernetes",
+            "url": "https://www.youtube.com/watch?v=BPrC_lgmcHQ"
+          }
+        ]
+      },
+      {
+        "id": "S0CwGC2gMG-SqnLNldqBD",
+        "name": "Using Secrets for Sensitive Data",
+        "type": "subtopic",
+        "description": "Kubernetes secrets store sensitive data such as passwords, tokens, and API keys in a secure manner. They can be created manually or automatically, and stored in etcd. Secrets can be mounted as files or environment variables in a pod, and access can be managed using Kubernetes RBAC. However, they have some limitations, such as size and the inability to be updated once created. Understanding secrets is important for building secure applications in Kubernetes.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Documentation - Secrets",
+            "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+          },
+          {
+            "type": "article",
+            "title": "Kubernetes Secrets Management: 3 Approaches, 9 Best Practices",
+            "url": "https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes Secrets in 5 Minutes!",
+            "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U"
           }
         ]
       },
@@ -2126,75 +2279,6 @@
         ]
       },
       {
-        "id": "dj7Tb2XTX4kxRUYiTjlhM",
-        "name": "Configuration Management",
-        "type": "topic",
-        "description": "Kubernetes secrets store sensitive data such as passwords, tokens, and API keys in a secure manner. They can be created manually or automatically, and stored in etcd. Secrets can be mounted as files or environment variables in a pod, and access can be managed using Kubernetes RBAC. However, they have some limitations, such as size and the inability to be updated once created. Understanding secrets is important for building secure applications in Kubernetes.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Documentation - Secrets",
-            "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
-          },
-          {
-            "type": "article",
-            "title": "Kubernetes Secrets Management: 3 Approaches, 9 Best Practices",
-            "url": "https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes Secrets in 5 Minutes!",
-            "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U"
-          }
-        ]
-      },
-      {
-        "id": "u24UlZKI86vaguj_VpMv1",
-        "name": "Injecting Pod Config with ConfigMaps",
-        "type": "subtopic",
-        "description": "ConfigMaps are a way to store configuration data that can be used by applications running in the cluster. A Config Map is a key-value store that can hold configuration data such as database URLs, credentials, API keys, or any other application configuration data that can be used by the application.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "ConfigMaps Documentation",
-            "url": "https://kubernetes.io/docs/concepts/configuration/configmap/"
-          },
-          {
-            "type": "article",
-            "title": "Kubernetes CRDs: What They Are and Why They Are Useful",
-            "url": "https://thenewstack.io/kubernetes-crds-what-they-are-and-why-they-are-useful/"
-          },
-          {
-            "type": "video",
-            "title": "Tutorial - ConfigMap in Kubernetes",
-            "url": "https://www.youtube.com/watch?v=BPrC_lgmcHQ"
-          }
-        ]
-      },
-      {
-        "id": "S0CwGC2gMG-SqnLNldqBD",
-        "name": "Using Secrets for Sensitive Data",
-        "type": "subtopic",
-        "description": "Kubernetes secrets store sensitive data such as passwords, tokens, and API keys in a secure manner. They can be created manually or automatically, and stored in etcd. Secrets can be mounted as files or environment variables in a pod, and access can be managed using Kubernetes RBAC. However, they have some limitations, such as size and the inability to be updated once created. Understanding secrets is important for building secure applications in Kubernetes.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Documentation - Secrets",
-            "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
-          },
-          {
-            "type": "article",
-            "title": "Kubernetes Secrets Management: 3 Approaches, 9 Best Practices",
-            "url": "https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes Secrets in 5 Minutes!",
-            "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U"
-          }
-        ]
-      },
-      {
         "id": "eWKkdiBhD5x2sGYajmHEs",
         "name": "Resource Management",
         "type": "topic",
@@ -2269,34 +2353,6 @@
         ]
       },
       {
-        "id": "PP4ld_vvjpY3QltBBsXKD",
-        "name": "Monitoring & Optimizing Resource Usage",
-        "type": "subtopic",
-        "description": "Monitoring and optimizing resource usage in Kubernetes helps ensure workloads run efficiently while minimizing waste and avoiding performance issues. By observing CPU, memory, and storage consumption at the node, pod, and container levels, teams can identify bottlenecks, detect underutilized resources, and make informed scaling decisions. Optimization techniques include right-sizing resource requests and limits, using autoscaling mechanisms, and continuously analyzing metrics through monitoring tools. Effective monitoring and optimization improve cluster stability, reduce costs, and enhance overall application performance.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Monitoring Resources in Kubernetes",
-            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/"
-          },
-          {
-            "type": "official",
-            "title": "Metrics Server",
-            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server"
-          },
-          {
-            "type": "official",
-            "title": "Horizontal Pod Autoscaling",
-            "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
-          },
-          {
-            "type": "article",
-            "title": "Kubernetes Resource Monitoring: Best Practices",
-            "url": "https://www.redhat.com/en/blog/kubernetes-resource-monitoring-best-practices"
-          }
-        ]
-      },
-      {
         "id": "SG3wtV2rt9nmLEkgrp_zP",
         "name": "Security",
         "type": "topic",
@@ -2321,6 +2377,29 @@
             "type": "article",
             "title": "Starboard: Putting all the Kubernetes Security Pieces into One Place",
             "url": "https://thenewstack.io/starboard-putting-all-the-kubernetes-security-pieces-into-one-place/"
+          }
+        ]
+      },
+      {
+        "id": "AJiRBEaKU8qYEm0fqN389",
+        "name": "StatefulSets",
+        "type": "subtopic",
+        "description": "It is a controller that manages the deployment and scaling of a set of stateful pods that require stable network identities and stable storage volumes. StatefulSets are used to run stateful applications such as databases, where the order and uniqueness of each pod is important. StatefulSets provide unique stable network identities and stable storage volumes for each pod, which allows stateful applications to maintain data consistency even when they are scaled up or down, or when nodes fail or are replaced. StatefulSets are defined by a YAML file that includes a pod template, a service to access the pods, and other settings.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "StatefulSets Documentation",
+            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+          },
+          {
+            "type": "article",
+            "title": "Different Approaches for Building Stateful Kubernetes Applications",
+            "url": "https://thenewstack.io/different-approaches-for-building-stateful-kubernetes-applications/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes StatefulSet | Tutorial",
+            "url": "https://www.youtube.com/watch?v=pPQKAR1pA9U"
           }
         ]
       },
@@ -2475,42 +2554,6 @@
         ]
       },
       {
-        "id": "-XxQtiLDAkXs7IFM_Ddw6",
-        "name": "Logs",
-        "type": "subtopic",
-        "description": "Logs are generated by containerized applications running on nodes within the cluster. You can access these logs using the kubectl logs command followed by the name of the pod. By default, this command shows the logs from the most recent container in the pod, but you can specify a specific container within the pod by adding the container name to the command. Adding the -f flag to the command allows you to follow the logs in real-time. There are also third-party logging solutions available for Kubernetes, such as the EFK and Prometheus stacks, that provide more advanced logging capabilities and scalability for large-scale applications.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "System Logs",
-            "url": "https://kubernetes.io/docs/concepts/cluster-administration/system-logs/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes: Log collection explained",
-            "url": "https://www.youtube.com/watch?v=6kmHvXdAzIM"
-          }
-        ]
-      },
-      {
-        "id": "nqUBHBFUYFdYqCKZvfXBR",
-        "name": "Metrics",
-        "type": "subtopic",
-        "description": "Metrics to monitor include CPU usage, memory usage, network usage, disk usage, API server metrics, pod and container metrics, and cluster-level metrics. These metrics provide insights into the performance and health of the cluster, nodes, and applications running on the cluster. Kubernetes provides tools such as Prometheus, Grafana, and Kubernetes Dashboard for collecting and analyzing these metrics. By monitoring these metrics, administrators can identify performance issues and optimize the cluster for better performance and scalability.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Node Metrics Data",
-            "url": "https://kubernetes.io/docs/reference/instrumentation/node-metrics/"
-          },
-          {
-            "type": "video",
-            "title": "How to collect metrics in K8s?",
-            "url": "https://www.youtube.com/watch?v=JQrk6HwlN78"
-          }
-        ]
-      },
-      {
         "id": "pDjNsK5vI9FmKZbQm0lDP",
         "name": "Resource Health",
         "type": "subtopic",
@@ -2553,6 +2596,214 @@
             "type": "article",
             "title": "Kubernetes Observability in KubeSphere",
             "url": "https://kubesphere.io/observability/"
+          }
+        ]
+      },
+      {
+        "id": "URnYf9jMprFz-o26fbU2P",
+        "name": "Storage and Volumes",
+        "type": "topic",
+        "description": "CSI (Container Storage Interface) drivers in Kubernetes provide a standard way for storage providers to integrate with Kubernetes and offer persistent storage for containerized applications. They operate as separate containerized processes and communicate with Kubernetes through a well-defined API. CSI drivers allow Kubernetes to access a wide range of storage systems and provide advanced features like snapshotting and cloning.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Container Storage Interface (CSI) for Kubernetes",
+            "url": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/"
+          },
+          {
+            "type": "video",
+            "title": "CSI in Kubernetes",
+            "url": "https://www.youtube.com/watch?v=brXPQ1Qwjl4"
+          }
+        ]
+      },
+      {
+        "id": "PP4ld_vvjpY3QltBBsXKD",
+        "name": "Monitoring & Optimizing Resource Usage",
+        "type": "subtopic",
+        "description": "Monitoring and optimizing resource usage in Kubernetes helps ensure workloads run efficiently while minimizing waste and avoiding performance issues. By observing CPU, memory, and storage consumption at the node, pod, and container levels, teams can identify bottlenecks, detect underutilized resources, and make informed scaling decisions. Optimization techniques include right-sizing resource requests and limits, using autoscaling mechanisms, and continuously analyzing metrics through monitoring tools. Effective monitoring and optimization improve cluster stability, reduce costs, and enhance overall application performance.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Monitoring Resources in Kubernetes",
+            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/"
+          },
+          {
+            "type": "official",
+            "title": "Metrics Server",
+            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server"
+          },
+          {
+            "type": "official",
+            "title": "Horizontal Pod Autoscaling",
+            "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
+          },
+          {
+            "type": "article",
+            "title": "Kubernetes Resource Monitoring: Best Practices",
+            "url": "https://www.redhat.com/en/blog/kubernetes-resource-monitoring-best-practices"
+          }
+        ]
+      },
+      {
+        "id": "55RV9psPCmcg8G_P_zQo9",
+        "name": "CSI Drivers",
+        "type": "subtopic",
+        "description": "CSI (Container Storage Interface) drivers in Kubernetes provide a standard way for storage providers to integrate with Kubernetes and offer persistent storage for containerized applications. They operate as separate containerized processes and communicate with Kubernetes through a well-defined API. CSI drivers allow Kubernetes to access a wide range of storage systems and provide advanced features like snapshotting and cloning.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Container Storage Interface (CSI) for Kubernetes",
+            "url": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/"
+          },
+          {
+            "type": "official",
+            "title": "Kubernetes CSI Developer Documentation",
+            "url": "https://kubernetes-csi.github.io/docs/"
+          }
+        ]
+      },
+      {
+        "id": "xZDXM_8qb4VL15tNGG0ws",
+        "name": "Scheduling",
+        "type": "topic",
+        "description": "Scheduling in Kubernetes refers to the process of assigning workloads to specific nodes in a cluster. The Kubernetes scheduler makes scheduling decisions based on factors such as resource availability, node suitability, and workload priorities. It balances workloads across the cluster to ensure efficient resource utilization and avoid overloading nodes. Scheduling takes into account factors such as geographic location, hardware requirements, and application-specific needs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Kubernetes Scheduler",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
+          },
+          {
+            "type": "official",
+            "title": "Scheduling Framework",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/"
+          }
+        ]
+      },
+      {
+        "id": "-XxQtiLDAkXs7IFM_Ddw6",
+        "name": "Logs",
+        "type": "subtopic",
+        "description": "Logs are generated by containerized applications running on nodes within the cluster. You can access these logs using the kubectl logs command followed by the name of the pod. By default, this command shows the logs from the most recent container in the pod, but you can specify a specific container within the pod by adding the container name to the command. Adding the -f flag to the command allows you to follow the logs in real-time. There are also third-party logging solutions available for Kubernetes, such as the EFK and Prometheus stacks, that provide more advanced logging capabilities and scalability for large-scale applications.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "System Logs",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/system-logs/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes: Log collection explained",
+            "url": "https://www.youtube.com/watch?v=6kmHvXdAzIM"
+          }
+        ]
+      },
+      {
+        "id": "nqUBHBFUYFdYqCKZvfXBR",
+        "name": "Metrics",
+        "type": "subtopic",
+        "description": "Metrics to monitor include CPU usage, memory usage, network usage, disk usage, API server metrics, pod and container metrics, and cluster-level metrics. These metrics provide insights into the performance and health of the cluster, nodes, and applications running on the cluster. Kubernetes provides tools such as Prometheus, Grafana, and Kubernetes Dashboard for collecting and analyzing these metrics. By monitoring these metrics, administrators can identify performance issues and optimize the cluster for better performance and scalability.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Node Metrics Data",
+            "url": "https://kubernetes.io/docs/reference/instrumentation/node-metrics/"
+          },
+          {
+            "type": "video",
+            "title": "How to collect metrics in K8s?",
+            "url": "https://www.youtube.com/watch?v=JQrk6HwlN78"
+          }
+        ]
+      },
+      {
+        "id": "70lTSIVh0AD6M8fMMuWzY",
+        "name": "Basics",
+        "type": "subtopic",
+        "description": "Scheduling involves assigning pods to worker nodes based on criteria such as resource availability, labels, affinity/anti-affinity rules, taints, and tolerations. Pods are the smallest deployable units in k8s, consisting of one or more containers that share the same network namespace. The scheduler is responsible for assigning pods to nodes, while labels are used for matching. Affinity and anti-affinity rules dictate how pods are scheduled based on their relationships with other pods or nodes. QoS is used to prioritize pod scheduling based on their resource requirements.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Kubernetes Scheduler",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
+          },
+          {
+            "type": "video",
+            "title": "How Scheduling in Kubernetes Works",
+            "url": "https://www.youtube.com/watch?v=0FvQR-0tK54"
+          }
+        ]
+      },
+      {
+        "id": "zXUsHAI1HFhcY2BFAcypv",
+        "name": "Taints and Tolerations",
+        "type": "subtopic",
+        "description": "Taints and tolerations are used in Kubernetes to restrict or allow pods to be scheduled on certain nodes based on labels. A taint is a label that is applied to a node to indicate certain limitations or requirements. A toleration is a label applied to a pod to indicate that it can tolerate certain taints. When a node has a taint, only pods with the corresponding tolerations can be scheduled on that node. This feature is useful for various purposes, such as ensuring separation of critical and non-critical workloads, reserving nodes for certain tasks, and protecting nodes from overloading.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Taints and Tolerations",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes For Beginners: Taints & Tolerations",
+            "url": "https://www.youtube.com/watch?v=mo2UrkjA7FE"
+          }
+        ]
+      },
+      {
+        "id": "CL0hKTcml40InmyVUXpY2",
+        "name": "Topology Spread Constraints",
+        "type": "subtopic",
+        "description": "Topology spread constraints ensure even distribution of pods across a cluster's topology. Constraints define rules for the number of pods of a certain type that can run on a given level, such as nodes, zones, or racks. These constraints can be customized to fit specific needs, such as ensuring that critical workloads are spread across multiple zones. They help prevent single points of failure and improve application resilience by preventing resource overloading and promoting balanced distribution of workloads. Constraints can be added using the Kubernetes API or command line interface.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Topology Spread Constraints",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes | Topology Spread Constraints",
+            "url": "https://www.youtube.com/watch?v=joRrWJ6bwvE"
+          }
+        ]
+      },
+      {
+        "id": "_Gva1eGcYqpmZNPyV03lt",
+        "name": "Pod Priorities",
+        "type": "subtopic",
+        "description": "Pod priorities in Kubernetes determine the order in which pods are scheduled on nodes when there are competing demands for resources. Each pod is assigned a numeric priority value, with higher values indicating higher priority. The scheduler maximizes the total priority of scheduled pods while also considering node suitability, taints and tolerations, and affinity and anti-affinity rules. Priorities can be set manually or automatically based on business logic or application requirements. Priorities help ensure that critical workloads receive necessary resources and are scheduled first, while lower priority workloads are scheduled when resources become available.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Pod priority - Documentation",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#pod-priority"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes Pod Priority (Examples)",
+            "url": "https://www.youtube.com/watch?v=sR_Zmvme3-0"
+          }
+        ]
+      },
+      {
+        "id": "TRKzlDW2PQN9bWTyz3NWL",
+        "name": "Evictions",
+        "type": "subtopic",
+        "description": "Evictions terminate or delete running pods from a node due to reasons like resource constraints or pod failures. They can be initiated by the system or administrators manually through the API. Evictions can be graceful, allowing pods to clean up resources, or forceful, immediately terminating them. Kubernetes provides preemption and pod disruption budgets to handle evictions effectively and minimize service disruptions. Evictions are necessary to manage and maintain Kubernetes clusters, and Kubernetes provides tools to handle them.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Node-pressure Eviction",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/"
+          },
+          {
+            "type": "official",
+            "title": "API-initiated Eviction",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/api-eviction/"
           }
         ]
       },
@@ -2660,200 +2911,15 @@
         ]
       },
       {
-        "id": "2cQKTxln3dIk5IjX2UZdM",
-        "name": "Adding and Managing Worker Nodes",
-        "type": "subtopic",
-        "description": "Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine, depending on the cluster. Each node is managed by the control plane and contains the services necessary to run Pods.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Node Management",
-            "url": "https://kubernetes.io/docs/concepts/architecture/nodes/#management"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes 101: Nodes Tutorial",
-            "url": "https://www.youtube.com/watch?v=xhwi3zIVR-8"
-          }
-        ]
-      },
-      {
-        "id": "auZgEQ6FC3nUjuyx0zANh",
-        "name": "Multi-Cluster Management",
-        "type": "subtopic",
-        "description": "Multi-Cluster Management in Kubernetes (k8s) refers to the ability to manage multiple Kubernetes clusters using a single control plane. This approach allows administrators to centrally manage and orchestrate resources across multiple clusters, regardless of where they are located, without having to switch between multiple management consoles or tools.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Configure Access to Multiple Clusters - Documentation",
-            "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes Cluster Management Strategies",
-            "url": "https://www.youtube.com/watch?v=966TJ6mlOYY"
-          }
-        ]
-      },
-      {
-        "id": "xZDXM_8qb4VL15tNGG0ws",
-        "name": "Scheduling",
+        "id": "0l0xpsabglvs_t6oAP-XG",
+        "name": "Deployment Patterns",
         "type": "topic",
-        "description": "Scheduling in Kubernetes refers to the process of assigning workloads to specific nodes in a cluster. The Kubernetes scheduler makes scheduling decisions based on factors such as resource availability, node suitability, and workload priorities. It balances workloads across the cluster to ensure efficient resource utilization and avoid overloading nodes. Scheduling takes into account factors such as geographic location, hardware requirements, and application-specific needs.",
+        "description": "It is a deployment strategy used in Kubernetes for deploying new versions of an application by running two identical production environments, one with the current version (blue) and the other with the new version (green). After the green environment is fully tested, traffic is routed from the blue environment to the green environment, providing a seamless transition for users and avoiding any downtime or disruption. In Kubernetes, Blue-Green Deployments can be implemented using a variety of tools and techniques, including deployment strategies, traffic routing, and load balancing.",
         "resources": [
-          {
-            "type": "official",
-            "title": "Kubernetes Scheduler",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
-          },
-          {
-            "type": "official",
-            "title": "Scheduling Framework",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/"
-          }
-        ]
-      },
-      {
-        "id": "70lTSIVh0AD6M8fMMuWzY",
-        "name": "Basics",
-        "type": "subtopic",
-        "description": "Scheduling involves assigning pods to worker nodes based on criteria such as resource availability, labels, affinity/anti-affinity rules, taints, and tolerations. Pods are the smallest deployable units in k8s, consisting of one or more containers that share the same network namespace. The scheduler is responsible for assigning pods to nodes, while labels are used for matching. Affinity and anti-affinity rules dictate how pods are scheduled based on their relationships with other pods or nodes. QoS is used to prioritize pod scheduling based on their resource requirements.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Kubernetes Scheduler",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
-          },
           {
             "type": "video",
-            "title": "How Scheduling in Kubernetes Works",
-            "url": "https://www.youtube.com/watch?v=0FvQR-0tK54"
-          }
-        ]
-      },
-      {
-        "id": "zXUsHAI1HFhcY2BFAcypv",
-        "name": "Taints and Tolerations",
-        "type": "subtopic",
-        "description": "Taints and tolerations are used in Kubernetes to restrict or allow pods to be scheduled on certain nodes based on labels. A taint is a label that is applied to a node to indicate certain limitations or requirements. A toleration is a label applied to a pod to indicate that it can tolerate certain taints. When a node has a taint, only pods with the corresponding tolerations can be scheduled on that node. This feature is useful for various purposes, such as ensuring separation of critical and non-critical workloads, reserving nodes for certain tasks, and protecting nodes from overloading.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Taints and Tolerations",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes For Beginners: Taints & Tolerations",
-            "url": "https://www.youtube.com/watch?v=mo2UrkjA7FE"
-          }
-        ]
-      },
-      {
-        "id": "CL0hKTcml40InmyVUXpY2",
-        "name": "Topology Spread Constraints",
-        "type": "subtopic",
-        "description": "Topology spread constraints ensure even distribution of pods across a cluster's topology. Constraints define rules for the number of pods of a certain type that can run on a given level, such as nodes, zones, or racks. These constraints can be customized to fit specific needs, such as ensuring that critical workloads are spread across multiple zones. They help prevent single points of failure and improve application resilience by preventing resource overloading and promoting balanced distribution of workloads. Constraints can be added using the Kubernetes API or command line interface.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Topology Spread Constraints",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes | Topology Spread Constraints",
-            "url": "https://www.youtube.com/watch?v=joRrWJ6bwvE"
-          }
-        ]
-      },
-      {
-        "id": "_Gva1eGcYqpmZNPyV03lt",
-        "name": "Pod Priorities",
-        "type": "subtopic",
-        "description": "Pod priorities in Kubernetes determine the order in which pods are scheduled on nodes when there are competing demands for resources. Each pod is assigned a numeric priority value, with higher values indicating higher priority. The scheduler maximizes the total priority of scheduled pods while also considering node suitability, taints and tolerations, and affinity and anti-affinity rules. Priorities can be set manually or automatically based on business logic or application requirements. Priorities help ensure that critical workloads receive necessary resources and are scheduled first, while lower priority workloads are scheduled when resources become available.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Pod priority - Documentation",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#pod-priority"
-          },
-          {
-            "type": "video",
-            "title": "Kubernetes Pod Priority (Examples)",
-            "url": "https://www.youtube.com/watch?v=sR_Zmvme3-0"
-          }
-        ]
-      },
-      {
-        "id": "TRKzlDW2PQN9bWTyz3NWL",
-        "name": "Evictions",
-        "type": "subtopic",
-        "description": "Evictions terminate or delete running pods from a node due to reasons like resource constraints or pod failures. They can be initiated by the system or administrators manually through the API. Evictions can be graceful, allowing pods to clean up resources, or forceful, immediately terminating them. Kubernetes provides preemption and pod disruption budgets to handle evictions effectively and minimize service disruptions. Evictions are necessary to manage and maintain Kubernetes clusters, and Kubernetes provides tools to handle them.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Node-pressure Eviction",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/"
-          },
-          {
-            "type": "official",
-            "title": "API-initiated Eviction",
-            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/api-eviction/"
-          }
-        ]
-      },
-      {
-        "id": "L9rVPEEXFwisQOwT_LQ4v",
-        "name": "Creating Custom Controllers",
-        "type": "subtopic",
-        "description": "Custom controllers in Kubernetes automate the management of custom resources that are not natively supported by Kubernetes. They are implemented as Kubernetes controllers that watch custom resources and react to changes in their state. Custom resources are created by extending the Kubernetes API with new resource types specific to an organization's needs. Custom controllers can be developed using various programming languages and frameworks, such as the Operator Framework. The Operator Framework provides tools and best practices for developing, testing, and deploying custom controllers.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Custom Controllers",
-            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers"
-          },
-          {
-            "type": "video",
-            "title": "Extending Kubernetes with Custom Controllers",
-            "url": "https://www.youtube.com/results?search_query=Custom+controllers+in+k8s"
-          }
-        ]
-      },
-      {
-        "id": "URnYf9jMprFz-o26fbU2P",
-        "name": "Storage and Volumes",
-        "type": "topic",
-        "description": "CSI (Container Storage Interface) drivers in Kubernetes provide a standard way for storage providers to integrate with Kubernetes and offer persistent storage for containerized applications. They operate as separate containerized processes and communicate with Kubernetes through a well-defined API. CSI drivers allow Kubernetes to access a wide range of storage systems and provide advanced features like snapshotting and cloning.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Container Storage Interface (CSI) for Kubernetes",
-            "url": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/"
-          },
-          {
-            "type": "video",
-            "title": "CSI in Kubernetes",
-            "url": "https://www.youtube.com/watch?v=brXPQ1Qwjl4"
-          }
-        ]
-      },
-      {
-        "id": "55RV9psPCmcg8G_P_zQo9",
-        "name": "CSI Drivers",
-        "type": "subtopic",
-        "description": "CSI (Container Storage Interface) drivers in Kubernetes provide a standard way for storage providers to integrate with Kubernetes and offer persistent storage for containerized applications. They operate as separate containerized processes and communicate with Kubernetes through a well-defined API. CSI drivers allow Kubernetes to access a wide range of storage systems and provide advanced features like snapshotting and cloning.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Container Storage Interface (CSI) for Kubernetes",
-            "url": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/"
-          },
-          {
-            "type": "official",
-            "title": "Kubernetes CSI Developer Documentation",
-            "url": "https://kubernetes-csi.github.io/docs/"
+            "title": "Kubernetes - Blue/Green Deployments",
+            "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y"
           }
         ]
       },
@@ -2872,19 +2938,6 @@
             "type": "video",
             "title": "The basics of stateful applications in Kubernetes",
             "url": "https://www.youtube.com/watch?v=GieXzb91I40"
-          }
-        ]
-      },
-      {
-        "id": "0l0xpsabglvs_t6oAP-XG",
-        "name": "Deployment Patterns",
-        "type": "topic",
-        "description": "It is a deployment strategy used in Kubernetes for deploying new versions of an application by running two identical production environments, one with the current version (blue) and the other with the new version (green). After the green environment is fully tested, traffic is routed from the blue environment to the green environment, providing a seamless transition for users and avoiding any downtime or disruption. In Kubernetes, Blue-Green Deployments can be implemented using a variety of tools and techniques, including deployment strategies, traffic routing, and load balancing.",
-        "resources": [
-          {
-            "type": "video",
-            "title": "Kubernetes - Blue/Green Deployments",
-            "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y"
           }
         ]
       },
@@ -2912,24 +2965,6 @@
         ]
       },
       {
-        "id": "1-Nb8rCMJEZrYm20sEcRJ",
-        "name": "Custom Schedulers and Extenders",
-        "type": "subtopic",
-        "description": "Custom Scheduler Extenders in Kubernetes enhance the scheduling capabilities of Kubernetes by allowing users to define their own scheduling logic based on custom metrics and constraints. They are implemented as custom Kubernetes controllers that run alongside the Kubernetes scheduler. Custom Scheduler Extenders can be used to implement scheduling policies specific to an organization's needs and can be developed using various programming languages. They intercept scheduling requests, add custom scheduling logic based on user-defined rules, and pass requests back to the Kubernetes scheduler.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Create a custom Kubernetes scheduler",
-            "url": "https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/"
-          },
-          {
-            "type": "video",
-            "title": "Custom Scheduler Kubernetes | Multiple Schedulers Kubernetes",
-            "url": "https://www.youtube.com/watch?v=NiB7sjXmiZc"
-          }
-        ]
-      },
-      {
         "id": "dATdEyNWlpDNKjedCXLyb",
         "name": "GitOps",
         "type": "subtopic",
@@ -2948,24 +2983,6 @@
         ]
       },
       {
-        "id": "9P7l-RBOkUxs3Z_UpKQO-",
-        "name": "Custom Resource Definitions (CRDs)",
-        "type": "subtopic",
-        "description": "Custom Resource Definitions (CRDs) in Kubernetes extend the Kubernetes API by defining new resource types specific to an organization's needs. CRDs create custom resources that can manage a wide variety of resources, such as applications, databases, storage, and networking. They are defined using YAML or JSON manifests and can be created and managed using the Kubernetes API server. Once created, custom resources can be managed using Kubernetes controllers and integrated with other Kubernetes components. CRDs are a powerful tool for streamlining operations in Kubernetes and enabling organizations to manage resources in a more efficient and customized way.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Custom Resources - Documentation",
-            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
-          },
-          {
-            "type": "video",
-            "title": "Custom Resource Definition (CRD) Explained with Demo",
-            "url": "https://www.youtube.com/watch?v=u1X5Rf7fWwM"
-          }
-        ]
-      },
-      {
         "id": "FAEFOhLdp7xrmctHFxiOM",
         "name": "Helm Charts",
         "type": "subtopic",
@@ -2980,24 +2997,6 @@
             "type": "video",
             "title": "What is Helm in Kubernetes? Helm and Helm Charts explained",
             "url": "https://www.youtube.com/watch?v=-ykwb1d0DXU"
-          }
-        ]
-      },
-      {
-        "id": "UeJcKv3jhenjNzHM-0R86",
-        "name": "Kubernetes Extensions and APIs",
-        "type": "subtopic",
-        "description": "Kubernetes (k8s) extensions and APIs are used to customize the behavior of Kubernetes and add new capabilities to the system. Kubernetes extensions, including Custom Resource Definitions (CRDs), Custom Controllers, Custom Scheduler Extenders, and Custom Metrics APIs, enhance Kubernetes functionality. Kubernetes APIs are used to manage resources in a Kubernetes cluster and interact with the system. Kubernetes extensions and APIs together provide a powerful toolkit for customizing and extending Kubernetes, enabling users to build custom components and APIs that streamline operations in Kubernetes.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Extensions - Documentation",
-            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/#extensions"
-          },
-          {
-            "type": "official",
-            "title": "The Kubernetes API - Documentation",
-            "url": "https://kubernetes.io/docs/concepts/overview/kubernetes-api/"
           }
         ]
       },
@@ -3092,9 +3091,382 @@
             "url": "https://www.youtube.com/watch?v=keNQ6V_W4VE&ab_channel=Rancher"
           }
         ]
+      },
+      {
+        "id": "L9rVPEEXFwisQOwT_LQ4v",
+        "name": "Creating Custom Controllers",
+        "type": "subtopic",
+        "description": "Custom controllers in Kubernetes automate the management of custom resources that are not natively supported by Kubernetes. They are implemented as Kubernetes controllers that watch custom resources and react to changes in their state. Custom resources are created by extending the Kubernetes API with new resource types specific to an organization's needs. Custom controllers can be developed using various programming languages and frameworks, such as the Operator Framework. The Operator Framework provides tools and best practices for developing, testing, and deploying custom controllers.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Custom Controllers",
+            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers"
+          },
+          {
+            "type": "video",
+            "title": "Extending Kubernetes with Custom Controllers",
+            "url": "https://www.youtube.com/results?search_query=Custom+controllers+in+k8s"
+          }
+        ]
+      },
+      {
+        "id": "1-Nb8rCMJEZrYm20sEcRJ",
+        "name": "Custom Schedulers and Extenders",
+        "type": "subtopic",
+        "description": "Custom Scheduler Extenders in Kubernetes enhance the scheduling capabilities of Kubernetes by allowing users to define their own scheduling logic based on custom metrics and constraints. They are implemented as custom Kubernetes controllers that run alongside the Kubernetes scheduler. Custom Scheduler Extenders can be used to implement scheduling policies specific to an organization's needs and can be developed using various programming languages. They intercept scheduling requests, add custom scheduling logic based on user-defined rules, and pass requests back to the Kubernetes scheduler.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Create a custom Kubernetes scheduler",
+            "url": "https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/"
+          },
+          {
+            "type": "video",
+            "title": "Custom Scheduler Kubernetes | Multiple Schedulers Kubernetes",
+            "url": "https://www.youtube.com/watch?v=NiB7sjXmiZc"
+          }
+        ]
+      },
+      {
+        "id": "2cQKTxln3dIk5IjX2UZdM",
+        "name": "Adding and Managing Worker Nodes",
+        "type": "subtopic",
+        "description": "Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine, depending on the cluster. Each node is managed by the control plane and contains the services necessary to run Pods.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Node Management",
+            "url": "https://kubernetes.io/docs/concepts/architecture/nodes/#management"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes 101: Nodes Tutorial",
+            "url": "https://www.youtube.com/watch?v=xhwi3zIVR-8"
+          }
+        ]
+      },
+      {
+        "id": "9P7l-RBOkUxs3Z_UpKQO-",
+        "name": "Custom Resource Definitions (CRDs)",
+        "type": "subtopic",
+        "description": "Custom Resource Definitions (CRDs) in Kubernetes extend the Kubernetes API by defining new resource types specific to an organization's needs. CRDs create custom resources that can manage a wide variety of resources, such as applications, databases, storage, and networking. They are defined using YAML or JSON manifests and can be created and managed using the Kubernetes API server. Once created, custom resources can be managed using Kubernetes controllers and integrated with other Kubernetes components. CRDs are a powerful tool for streamlining operations in Kubernetes and enabling organizations to manage resources in a more efficient and customized way.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Custom Resources - Documentation",
+            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
+          },
+          {
+            "type": "video",
+            "title": "Custom Resource Definition (CRD) Explained with Demo",
+            "url": "https://www.youtube.com/watch?v=u1X5Rf7fWwM"
+          }
+        ]
+      },
+      {
+        "id": "auZgEQ6FC3nUjuyx0zANh",
+        "name": "Multi-Cluster Management",
+        "type": "subtopic",
+        "description": "Multi-Cluster Management in Kubernetes (k8s) refers to the ability to manage multiple Kubernetes clusters using a single control plane. This approach allows administrators to centrally manage and orchestrate resources across multiple clusters, regardless of where they are located, without having to switch between multiple management consoles or tools.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Configure Access to Multiple Clusters - Documentation",
+            "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/"
+          },
+          {
+            "type": "video",
+            "title": "Kubernetes Cluster Management Strategies",
+            "url": "https://www.youtube.com/watch?v=966TJ6mlOYY"
+          }
+        ]
+      },
+      {
+        "id": "UeJcKv3jhenjNzHM-0R86",
+        "name": "Kubernetes Extensions and APIs",
+        "type": "subtopic",
+        "description": "Kubernetes (k8s) extensions and APIs are used to customize the behavior of Kubernetes and add new capabilities to the system. Kubernetes extensions, including Custom Resource Definitions (CRDs), Custom Controllers, Custom Scheduler Extenders, and Custom Metrics APIs, enhance Kubernetes functionality. Kubernetes APIs are used to manage resources in a Kubernetes cluster and interact with the system. Kubernetes extensions and APIs together provide a powerful toolkit for customizing and extending Kubernetes, enabling users to build custom components and APIs that streamline operations in Kubernetes.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Extensions - Documentation",
+            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/#extensions"
+          },
+          {
+            "type": "official",
+            "title": "The Kubernetes API - Documentation",
+            "url": "https://kubernetes.io/docs/concepts/overview/kubernetes-api/"
+          }
+        ]
       }
     ],
     "edges": [
+      {
+        "source": "qLeEEwBvlGt1fP5Qcreah",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "q-Ky0ietZGpyUcBQfh-BJ",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9oo2fxTM2_p0VYPBroqxa",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3fzuXKH7az_LVnmnoXB1p",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zrbSJa3k7a3TE0aYbWi9c",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qSatCdBTDXPu-IFWzUI99",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YaIs8lquWIe1D7RCUBZmC",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-d2PIXm0V_Iehe8cws8zK",
+        "target": "1MdrzhktCWjpmxiYYBdz7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IF09l0-pryGpMbDt__ocr",
+        "target": "1MdrzhktCWjpmxiYYBdz7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TUGQX7y1gs-aKPge2F1NU",
+        "target": "1MdrzhktCWjpmxiYYBdz7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "r3fzAN5DzratAKnnT8hzb",
+        "target": "1MdrzhktCWjpmxiYYBdz7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "u24UlZKI86vaguj_VpMv1",
+        "target": "dj7Tb2XTX4kxRUYiTjlhM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "S0CwGC2gMG-SqnLNldqBD",
+        "target": "dj7Tb2XTX4kxRUYiTjlhM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rgHgNU_aLUibLhl_Cyw3F",
+        "target": "aUJ_w2L8nxNq3DfAW97Gd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jUOlITLqnIvSu97I_3nBz",
+        "target": "aUJ_w2L8nxNq3DfAW97Gd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Qelo1YvAcUoX5PA-RYbNp",
+        "target": "aUJ_w2L8nxNq3DfAW97Gd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "44rhdieUCWsGFC_1__9kk",
+        "target": "aUJ_w2L8nxNq3DfAW97Gd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8RLR6gRjIyTn6GCugEfgk",
+        "target": "eWKkdiBhD5x2sGYajmHEs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OHz4QMmA3lqL_C7aWL8Ga",
+        "target": "eWKkdiBhD5x2sGYajmHEs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AJiRBEaKU8qYEm0fqN389",
+        "target": "SG3wtV2rt9nmLEkgrp_zP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jOq0WwLrq8tlmOgo64QDc",
+        "target": "SG3wtV2rt9nmLEkgrp_zP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "s0gHg8CqwrSylpSPu8arA",
+        "target": "SG3wtV2rt9nmLEkgrp_zP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Nja7IFWcFTLsPcqbvRNm9",
+        "target": "SG3wtV2rt9nmLEkgrp_zP",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ldYTEPt_hI4PXxr3tgJi5",
+        "target": "AgsQnQjyTLUFhFpRdcE13",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pDjNsK5vI9FmKZbQm0lDP",
+        "target": "AgsQnQjyTLUFhFpRdcE13",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FANswgUhUb5Iuah2fni3L",
+        "target": "AgsQnQjyTLUFhFpRdcE13",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PP4ld_vvjpY3QltBBsXKD",
+        "target": "URnYf9jMprFz-o26fbU2P",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "55RV9psPCmcg8G_P_zQo9",
+        "target": "URnYf9jMprFz-o26fbU2P",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-XxQtiLDAkXs7IFM_Ddw6",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nqUBHBFUYFdYqCKZvfXBR",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "70lTSIVh0AD6M8fMMuWzY",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zXUsHAI1HFhcY2BFAcypv",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CL0hKTcml40InmyVUXpY2",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_Gva1eGcYqpmZNPyV03lt",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TRKzlDW2PQN9bWTyz3NWL",
+        "target": "xZDXM_8qb4VL15tNGG0ws",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "044IUUCgZP4oQ9UxUG2iy",
+        "target": "03mGA5AyL7mpF6y3EMW7A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "c1KVczGRjh9bhMpbPP6sA",
+        "target": "03mGA5AyL7mpF6y3EMW7A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RC5MoYtG2rom-d4FW5qD2",
+        "target": "03mGA5AyL7mpF6y3EMW7A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZrVhYTw63aVVIFAEJDG5r",
+        "target": "03mGA5AyL7mpF6y3EMW7A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "M-iTb_7EWZIJ3JpdViICx",
+        "target": "03mGA5AyL7mpF6y3EMW7A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LJUJ1NIUsajb1AUdvJjqW",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Pymc9H-lRHVPy7M9eSaPD",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dATdEyNWlpDNKjedCXLyb",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FAEFOhLdp7xrmctHFxiOM",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "88IGeC3dAopHLGtLozxdY",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9-oaTlzKmcxTfaRycz1w3",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yMSXdwDO36CLtp2TBC7aB",
+        "target": "0l0xpsabglvs_t6oAP-XG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "L9rVPEEXFwisQOwT_LQ4v",
+        "target": "t8SJbGVXsUDECxePLDk_w",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1-Nb8rCMJEZrYm20sEcRJ",
+        "target": "t8SJbGVXsUDECxePLDk_w",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2cQKTxln3dIk5IjX2UZdM",
+        "target": "t8SJbGVXsUDECxePLDk_w",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9P7l-RBOkUxs3Z_UpKQO-",
+        "target": "t8SJbGVXsUDECxePLDk_w",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "auZgEQ6FC3nUjuyx0zANh",
+        "target": "t8SJbGVXsUDECxePLDk_w",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UeJcKv3jhenjNzHM-0R86",
+        "target": "t8SJbGVXsUDECxePLDk_w",
+        "type": "subtopic_of"
+      },
       {
         "source": "3OpGaQhyNtk1n1MLp-tlb",
         "target": "1MdrzhktCWjpmxiYYBdz7",
@@ -3139,271 +3511,6 @@
         "source": "xZDXM_8qb4VL15tNGG0ws",
         "target": "URnYf9jMprFz-o26fbU2P",
         "type": "next_in_flow"
-      },
-      {
-        "source": "qLeEEwBvlGt1fP5Qcreah",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "q-Ky0ietZGpyUcBQfh-BJ",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9oo2fxTM2_p0VYPBroqxa",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3fzuXKH7az_LVnmnoXB1p",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zrbSJa3k7a3TE0aYbWi9c",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qSatCdBTDXPu-IFWzUI99",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YaIs8lquWIe1D7RCUBZmC",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TUGQX7y1gs-aKPge2F1NU",
-        "target": "1MdrzhktCWjpmxiYYBdz7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-d2PIXm0V_Iehe8cws8zK",
-        "target": "1MdrzhktCWjpmxiYYBdz7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "r3fzAN5DzratAKnnT8hzb",
-        "target": "1MdrzhktCWjpmxiYYBdz7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jUOlITLqnIvSu97I_3nBz",
-        "target": "aUJ_w2L8nxNq3DfAW97Gd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "S0CwGC2gMG-SqnLNldqBD",
-        "target": "dj7Tb2XTX4kxRUYiTjlhM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "pDjNsK5vI9FmKZbQm0lDP",
-        "target": "AgsQnQjyTLUFhFpRdcE13",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ldYTEPt_hI4PXxr3tgJi5",
-        "target": "AgsQnQjyTLUFhFpRdcE13",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FANswgUhUb5Iuah2fni3L",
-        "target": "AgsQnQjyTLUFhFpRdcE13",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "044IUUCgZP4oQ9UxUG2iy",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "70lTSIVh0AD6M8fMMuWzY",
-        "target": "xZDXM_8qb4VL15tNGG0ws",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Nja7IFWcFTLsPcqbvRNm9",
-        "target": "SG3wtV2rt9nmLEkgrp_zP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rgHgNU_aLUibLhl_Cyw3F",
-        "target": "aUJ_w2L8nxNq3DfAW97Gd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IF09l0-pryGpMbDt__ocr",
-        "target": "1MdrzhktCWjpmxiYYBdz7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AJiRBEaKU8qYEm0fqN389",
-        "target": "1MdrzhktCWjpmxiYYBdz7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Qelo1YvAcUoX5PA-RYbNp",
-        "target": "aUJ_w2L8nxNq3DfAW97Gd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "44rhdieUCWsGFC_1__9kk",
-        "target": "aUJ_w2L8nxNq3DfAW97Gd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "u24UlZKI86vaguj_VpMv1",
-        "target": "dj7Tb2XTX4kxRUYiTjlhM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "s0gHg8CqwrSylpSPu8arA",
-        "target": "SG3wtV2rt9nmLEkgrp_zP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-XxQtiLDAkXs7IFM_Ddw6",
-        "target": "AgsQnQjyTLUFhFpRdcE13",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nqUBHBFUYFdYqCKZvfXBR",
-        "target": "AgsQnQjyTLUFhFpRdcE13",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "c1KVczGRjh9bhMpbPP6sA",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RC5MoYtG2rom-d4FW5qD2",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zXUsHAI1HFhcY2BFAcypv",
-        "target": "xZDXM_8qb4VL15tNGG0ws",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CL0hKTcml40InmyVUXpY2",
-        "target": "xZDXM_8qb4VL15tNGG0ws",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_Gva1eGcYqpmZNPyV03lt",
-        "target": "xZDXM_8qb4VL15tNGG0ws",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TRKzlDW2PQN9bWTyz3NWL",
-        "target": "xZDXM_8qb4VL15tNGG0ws",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jOq0WwLrq8tlmOgo64QDc",
-        "target": "SG3wtV2rt9nmLEkgrp_zP",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8RLR6gRjIyTn6GCugEfgk",
-        "target": "eWKkdiBhD5x2sGYajmHEs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OHz4QMmA3lqL_C7aWL8Ga",
-        "target": "eWKkdiBhD5x2sGYajmHEs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PP4ld_vvjpY3QltBBsXKD",
-        "target": "eWKkdiBhD5x2sGYajmHEs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "55RV9psPCmcg8G_P_zQo9",
-        "target": "URnYf9jMprFz-o26fbU2P",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LJUJ1NIUsajb1AUdvJjqW",
-        "target": "URnYf9jMprFz-o26fbU2P",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Pymc9H-lRHVPy7M9eSaPD",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dATdEyNWlpDNKjedCXLyb",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FAEFOhLdp7xrmctHFxiOM",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "88IGeC3dAopHLGtLozxdY",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yMSXdwDO36CLtp2TBC7aB",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "L9rVPEEXFwisQOwT_LQ4v",
-        "target": "xZDXM_8qb4VL15tNGG0ws",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1-Nb8rCMJEZrYm20sEcRJ",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9P7l-RBOkUxs3Z_UpKQO-",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UeJcKv3jhenjNzHM-0R86",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZrVhYTw63aVVIFAEJDG5r",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "M-iTb_7EWZIJ3JpdViICx",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2cQKTxln3dIk5IjX2UZdM",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "auZgEQ6FC3nUjuyx0zANh",
-        "target": "03mGA5AyL7mpF6y3EMW7A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9-oaTlzKmcxTfaRycz1w3",
-        "target": "0l0xpsabglvs_t6oAP-XG",
-        "type": "subtopic_of"
       }
     ]
   }

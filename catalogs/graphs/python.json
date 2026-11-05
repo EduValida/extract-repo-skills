@@ -3,10 +3,10 @@
     "slug": "python",
     "title": "Python Developer",
     "description": "Step by step guide to becoming a Python developer in 2026",
-    "extracted_at": "2026-10-28T23:43:19.016070+00:00",
+    "extracted_at": "2026-11-05T02:15:23.950127+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/python",
     "total_topics": 22,
-    "total_subtopics": 65
+    "total_subtopics": 67
   },
   "tree": {
     "title": "Python Developer",
@@ -35,7 +35,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/learn-the-basics@GISOFMKvnBys0O0IMpz2J.md",
-        "subtopics_count": 16,
+        "subtopics_count": 14,
         "subtopics": [
           {
             "id": "UT_SR7G-LYtzqooWrEtF1",
@@ -64,7 +64,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjSgal6OIEfzK4upXvkHSxW"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/lists@UT_SR7G-LYtzqooWrEtF1.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/lists@UT_SR7G-LYtzqooWrEtF1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "i7xIGiXU-k5UIKHIhQPjE",
@@ -93,31 +95,9 @@
                 "url": "https://www.youtube.com/watch?v=fR_D_KIAYrE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/tuples@i7xIGiXU-k5UIKHIhQPjE.md"
-          },
-          {
-            "id": "soZFqivM3YBuljeX6PoaX",
-            "name": "Sets",
-            "type": "subtopic",
-            "description": "Python Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Python Official Documentation on Sets",
-                "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
-              },
-              {
-                "type": "article",
-                "title": "An In-Depth Guide to Working with Python Sets",
-                "url": "https://learnpython.com/blog/python-sets/"
-              },
-              {
-                "type": "video",
-                "title": "Python Sets tutorial for Beginners",
-                "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/sets@soZFqivM3YBuljeX6PoaX.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/tuples@i7xIGiXU-k5UIKHIhQPjE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6xRncUs3_vxVbDur567QA",
@@ -146,7 +126,9 @@
                 "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/basic-syntax@6xRncUs3_vxVbDur567QA.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/basic-syntax@6xRncUs3_vxVbDur567QA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bc9CL_HMT-R6nXO1eR-gP",
@@ -175,7 +157,9 @@
                 "url": "https://roadmap.sh/python/keyerror"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/dictionaries@bc9CL_HMT-R6nXO1eR-gP.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/dictionaries@bc9CL_HMT-R6nXO1eR-gP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dEFLBGpiH6nbSMeR7ecaT",
@@ -209,7 +193,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhN-sfWgCU1z_Qhakc1AGOn"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/variables-and-data-types@dEFLBGpiH6nbSMeR7ecaT.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/variables-and-data-types@dEFLBGpiH6nbSMeR7ecaT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "R9DQNc0AyAQ2HLpP4HOk6",
@@ -228,26 +214,9 @@
                 "url": "https://roadmap.sh/python/division"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/type-casting@R9DQNc0AyAQ2HLpP4HOk6.md"
-          },
-          {
-            "id": "tbR_h9NpZ5tBTYuCfwkcY",
-            "name": "@",
-            "type": "subtopic",
-            "description": "The @ symbol is a binary operator used to perform matrix multiplication between two objects, such as NumPy arrays or standard Python lists converted into matrices. Introduced in PEP 465, it provides a clean and readable syntax that distinguishes matrix multiplication from standard element-wise multiplication, which is typically handled by the asterisk (\\*) operator.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "A dedicated infix operator for matrix multiplication",
-                "url": "https://peps.python.org/pep-0465/"
-              },
-              {
-                "type": "article",
-                "title": "Matrix Multiplication in Python: The Complete Decision Guide",
-                "url": "https://roadmap.sh/python-data-analysis/matrix-multiplication"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/@tbR_h9NpZ5tBTYuCfwkcY.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/type-casting@R9DQNc0AyAQ2HLpP4HOk6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "so95CO6Qw3I0S98ISENS-",
@@ -286,7 +255,30 @@
                 "url": "https://roadmap.sh/python/exponent"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/operators@so95CO6Qw3I0S98ISENS-.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/operators@so95CO6Qw3I0S98ISENS-.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "tbR_h9NpZ5tBTYuCfwkcY",
+            "name": "@",
+            "type": "subtopic",
+            "description": "The @ symbol is a binary operator used to perform matrix multiplication between two objects, such as NumPy arrays or standard Python lists converted into matrices. Introduced in PEP 465, it provides a clean and readable syntax that distinguishes matrix multiplication from standard element-wise multiplication, which is typically handled by the asterisk (\\*) operator.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "A dedicated infix operator for matrix multiplication",
+                "url": "https://peps.python.org/pep-0465/"
+              },
+              {
+                "type": "article",
+                "title": "Matrix Multiplication in Python: The Complete Decision Guide",
+                "url": "https://roadmap.sh/python-data-analysis/matrix-multiplication"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/@tbR_h9NpZ5tBTYuCfwkcY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-DJgS6l2qngfwurExlmmT",
@@ -320,7 +312,9 @@
                 "url": "https://roadmap.sh/python/reduce"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/functions-builtin-functions@-DJgS6l2qngfwurExlmmT.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/functions-builtin-functions@-DJgS6l2qngfwurExlmmT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Sg5w8zO2Ji-uDJKEoWey9",
@@ -349,7 +343,9 @@
                 "url": "https://www.youtube.com/watch?v=tb6EYiHtcXU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/working-with-strings@Sg5w8zO2Ji-uDJKEoWey9.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/working-with-strings@Sg5w8zO2Ji-uDJKEoWey9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fNTb9y3zs1HPYclAmu_Wv",
@@ -378,7 +374,9 @@
                 "url": "https://www.youtube.com/watch?v=V_NXT2-QIlE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/exceptions@fNTb9y3zs1HPYclAmu_Wv.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/exceptions@fNTb9y3zs1HPYclAmu_Wv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NP1kjSk0ujU0Gx-ajNHlR",
@@ -412,7 +410,9 @@
                 "url": "https://roadmap.sh/python/or"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/conditionals@NP1kjSk0ujU0Gx-ajNHlR.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/conditionals@NP1kjSk0ujU0Gx-ajNHlR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "__ndo1gcuUUtzmBnMIAbR",
@@ -431,26 +431,9 @@
                 "url": "https://www.w3schools.com/python/python_comments.asp"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/comments@__ndo1gcuUUtzmBnMIAbR.md"
-          },
-          {
-            "id": "syV0DT_3ITgIFDbwPts8i",
-            "name": "Type Annot.",
-            "type": "subtopic",
-            "description": "Type annotations let developers specify the expected data types of variables, function parameters, and return values in Python. The interpreter does not enforce these hints at runtime, but tools like mypy and pyright use them to catch type errors before execution. A function can declare def add(a: int, b: int) -> int: to signal that it expects integers and returns one. Type annotations make code easier to read and help catch bugs early, especially in larger codebases.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Type Annotations",
-                "url": "https://typing.python.org/en/latest/spec/annotations.html"
-              },
-              {
-                "type": "article",
-                "title": "Understanding type annotation in Python",
-                "url": "https://blog.logrocket.com/understanding-type-annotation-python/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/type-annot@syV0DT_3ITgIFDbwPts8i.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/comments@__ndo1gcuUUtzmBnMIAbR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Dvy7BnNzK55qbh_SgOk8m",
@@ -474,7 +457,9 @@
                 "url": "https://www.youtube.com/watch?v=KWgYha0clzw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/loops@Dvy7BnNzK55qbh_SgOk8m.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/loops@Dvy7BnNzK55qbh_SgOk8m.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -506,84 +491,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/data-structures--algorithms@VJSIbYJcy2MC6MOFBrqXi.md",
-        "subtopics_count": 11,
+        "subtopics_count": 3,
         "subtopics": [
-          {
-            "id": "1dfOTOGsOk5XE3bnZs8Ht",
-            "name": "PyPI",
-            "type": "subtopic",
-            "description": "PyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "PyPI Website",
-                "url": "https://pypi.org/"
-              },
-              {
-                "type": "article",
-                "title": "How to Publish an Open-Source Python Package to PyPI",
-                "url": "https://realpython.com/pypi-publish-python-package/"
-              },
-              {
-                "type": "video",
-                "title": "Getting Started with Pip and PyPI in Python",
-                "url": "https://www.youtube.com/watch?v=bPSfNKvhooA"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pypi@1dfOTOGsOk5XE3bnZs8Ht.md"
-          },
-          {
-            "id": "iVhQnp6hpgVZDNJ0XoVra",
-            "name": "Pip",
-            "type": "subtopic",
-            "description": "The standard package manager for Python is pip. It allows you to install and manage packages that aren’t part of the Python standard library.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "pip Documentation",
-                "url": "https://pip.pypa.io/en/stable/installation/"
-              },
-              {
-                "type": "article",
-                "title": "Using Pythons pip to Manage Your Projects Dependencies",
-                "url": "https://realpython.com/what-is-pip/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pip@iVhQnp6hpgVZDNJ0XoVra.md"
-          },
-          {
-            "id": "uh67D1u-Iv5cZamRgFEJg",
-            "name": "Conda",
-            "type": "subtopic",
-            "description": "Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Conda Documentation",
-                "url": "https://docs.conda.io/en/latest/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/conda@uh67D1u-Iv5cZamRgFEJg.md"
-          },
-          {
-            "id": "p3Frfs6oxpuciUzeCEsvb",
-            "name": "uv",
-            "type": "subtopic",
-            "description": "uv is an \"extremely fast\" python package installer and resolver.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "astral-sh/uv",
-                "url": "https://github.com/astral-sh/uv"
-              },
-              {
-                "type": "article",
-                "title": "@UV for Python",
-                "url": "https://www.youtube.com/watch?v=qh98qOND6MI&t"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/uv@p3Frfs6oxpuciUzeCEsvb.md"
-          },
           {
             "id": "OPD4WdMO7q4gRZMcRCQh1",
             "name": "Arrays and Linked Lists",
@@ -611,31 +520,9 @@
                 "url": "https://www.youtube.com/watch?v=odW9FU8jPRQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/arrays-and-linked-lists@OPD4WdMO7q4gRZMcRCQh1.md"
-          },
-          {
-            "id": "xDgXISgVUMRHh9hu4h6Hl",
-            "name": "pdm",
-            "type": "subtopic",
-            "description": "PDM is a modern Python package manager that supports PEP 582, which allows packages to be installed in a `__pypackages__` directory instead of the traditional `site-packages` directory. It aims to provide a streamlined and improved experience for managing dependencies, building, and publishing Python projects. PDM also includes features like dependency resolution, virtual environment management, and project scaffolding.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "pdm",
-                "url": "https://pdm-project.org/en/latest/"
-              },
-              {
-                "type": "opensource",
-                "title": "pdm",
-                "url": "https://github.com/pdm-project/pdm"
-              },
-              {
-                "type": "article",
-                "title": "Introduction to PDM: A Python Project and Dependency Manager",
-                "url": "https://betterstack.com/community/guides/scaling-python/pdm-explained/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pdm@xDgXISgVUMRHh9hu4h6Hl.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/arrays-and-linked-lists@OPD4WdMO7q4gRZMcRCQh1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DG4fi1e5ec2BVckPLsTJS",
@@ -664,7 +551,9 @@
                 "url": "https://www.youtube.com/watch?v=jalSiaIi8j4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/hashmaps@DG4fi1e5ec2BVckPLsTJS.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/hashmaps@DG4fi1e5ec2BVckPLsTJS.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0NlRczh6ZEaFLlT6LORWz",
@@ -688,84 +577,9 @@
                 "url": "https://realpython.com/queue-in-python/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/heaps-stacks-and-queues@0NlRczh6ZEaFLlT6LORWz.md"
-          },
-          {
-            "id": "uJIqgsqUbE62Tyo3K75Qx",
-            "name": "Binary Search Tree",
-            "type": "subtopic",
-            "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Binary search in Python 101: Implementation and use cases",
-                "url": "https://roadmap.sh/python/binary-search"
-              },
-              {
-                "type": "article",
-                "title": "How to Implement Binary Search Tree in Python",
-                "url": "https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/"
-              },
-              {
-                "type": "article",
-                "title": "Binary Search Tree in Python",
-                "url": "https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python"
-              },
-              {
-                "type": "video",
-                "title": "Tree Data Structure | Illustrated Data Structures",
-                "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/binary-search-tree@uJIqgsqUbE62Tyo3K75Qx.md"
-          },
-          {
-            "id": "kLBgy_nxxjE8SxdVi04bq",
-            "name": "Recursion",
-            "type": "subtopic",
-            "description": "Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Recursion in Python: An Introduction",
-                "url": "https://realpython.com/python-recursion/"
-              },
-              {
-                "type": "article",
-                "title": "Binary search in Python 101: Implementation and use cases",
-                "url": "https://roadmap.sh/python/binary-search"
-              },
-              {
-                "type": "article",
-                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
-                "url": "https://roadmap.sh/python/merge-sort"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/recursion@kLBgy_nxxjE8SxdVi04bq.md"
-          },
-          {
-            "id": "vvTmjcWCVclOPY4f_5uB0",
-            "name": "Sorting Algorithms",
-            "type": "subtopic",
-            "description": "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Sorting Algorithms in Python",
-                "url": "https://realpython.com/sorting-algorithms-python/"
-              },
-              {
-                "type": "article",
-                "title": "Python - Sorting Algorithms",
-                "url": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
-              },
-              {
-                "type": "article",
-                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
-                "url": "https://roadmap.sh/python/merge-sort"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/sorting-algorithms@vvTmjcWCVclOPY4f_5uB0.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/heaps-stacks-and-queues@0NlRczh6ZEaFLlT6LORWz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -787,8 +601,55 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/modules@274uk28wzxn6EKWQzLpHs.md",
-        "subtopics_count": 2,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "soZFqivM3YBuljeX6PoaX",
+            "name": "Sets",
+            "type": "subtopic",
+            "description": "Python Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Python Official Documentation on Sets",
+                "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+              },
+              {
+                "type": "article",
+                "title": "An In-Depth Guide to Working with Python Sets",
+                "url": "https://learnpython.com/blog/python-sets/"
+              },
+              {
+                "type": "video",
+                "title": "Python Sets tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/sets@soZFqivM3YBuljeX6PoaX.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "syV0DT_3ITgIFDbwPts8i",
+            "name": "Type Annot.",
+            "type": "subtopic",
+            "description": "Type annotations let developers specify the expected data types of variables, function parameters, and return values in Python. The interpreter does not enforce these hints at runtime, but tools like mypy and pyright use them to catch type errors before execution. A function can declare def add(a: int, b: int) -> int: to signal that it expects integers and returns one. Type annotations make code easier to read and help catch bugs early, especially in larger codebases.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Type Annotations",
+                "url": "https://typing.python.org/en/latest/spec/annotations.html"
+              },
+              {
+                "type": "article",
+                "title": "Understanding type annotation in Python",
+                "url": "https://blog.logrocket.com/understanding-type-annotation-python/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/type-annot@syV0DT_3ITgIFDbwPts8i.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "08XifLQ20c4FKI_4AWNBQ",
             "name": "Builtin",
@@ -816,7 +677,9 @@
                 "url": "https://roadmap.sh/python/set-environment-variable"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/builtin@08XifLQ20c4FKI_4AWNBQ.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/builtin@08XifLQ20c4FKI_4AWNBQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "l7k0qTYe42wYBTlT2-1cy",
@@ -840,7 +703,9 @@
                 "url": "https://realpython.com/python-modules-packages/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/custom@l7k0qTYe42wYBTlT2-1cy.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/custom@l7k0qTYe42wYBTlT2-1cy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -945,8 +810,92 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/package-managers@qeCMw-sJ2FR4UxvU9DDzv.md",
-        "subtopics_count": 1,
+        "subtopics_count": 6,
         "subtopics": [
+          {
+            "id": "1dfOTOGsOk5XE3bnZs8Ht",
+            "name": "PyPI",
+            "type": "subtopic",
+            "description": "PyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "PyPI Website",
+                "url": "https://pypi.org/"
+              },
+              {
+                "type": "article",
+                "title": "How to Publish an Open-Source Python Package to PyPI",
+                "url": "https://realpython.com/pypi-publish-python-package/"
+              },
+              {
+                "type": "video",
+                "title": "Getting Started with Pip and PyPI in Python",
+                "url": "https://www.youtube.com/watch?v=bPSfNKvhooA"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/pypi@1dfOTOGsOk5XE3bnZs8Ht.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "iVhQnp6hpgVZDNJ0XoVra",
+            "name": "Pip",
+            "type": "subtopic",
+            "description": "The standard package manager for Python is pip. It allows you to install and manage packages that aren’t part of the Python standard library.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "pip Documentation",
+                "url": "https://pip.pypa.io/en/stable/installation/"
+              },
+              {
+                "type": "article",
+                "title": "Using Pythons pip to Manage Your Projects Dependencies",
+                "url": "https://realpython.com/what-is-pip/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/pip@iVhQnp6hpgVZDNJ0XoVra.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "uh67D1u-Iv5cZamRgFEJg",
+            "name": "Conda",
+            "type": "subtopic",
+            "description": "Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Conda Documentation",
+                "url": "https://docs.conda.io/en/latest/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/conda@uh67D1u-Iv5cZamRgFEJg.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "p3Frfs6oxpuciUzeCEsvb",
+            "name": "uv",
+            "type": "subtopic",
+            "description": "uv is an \"extremely fast\" python package installer and resolver.",
+            "resources": [
+              {
+                "type": "opensource",
+                "title": "astral-sh/uv",
+                "url": "https://github.com/astral-sh/uv"
+              },
+              {
+                "type": "article",
+                "title": "@UV for Python",
+                "url": "https://www.youtube.com/watch?v=qh98qOND6MI&t"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/uv@p3Frfs6oxpuciUzeCEsvb.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "uXd2B01GVBEQNXQE8RATT",
             "name": "Poetry",
@@ -964,7 +913,35 @@
                 "url": "https://www.youtube.com/watch?v=Ji2XDxmXSOM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/poetry@uXd2B01GVBEQNXQE8RATT.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/poetry@uXd2B01GVBEQNXQE8RATT.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "xDgXISgVUMRHh9hu4h6Hl",
+            "name": "pdm",
+            "type": "subtopic",
+            "description": "PDM is a modern Python package manager that supports PEP 582, which allows packages to be installed in a `__pypackages__` directory instead of the traditional `site-packages` directory. It aims to provide a streamlined and improved experience for managing dependencies, building, and publishing Python projects. PDM also includes features like dependency resolution, virtual environment management, and project scaffolding.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "pdm",
+                "url": "https://pdm-project.org/en/latest/"
+              },
+              {
+                "type": "opensource",
+                "title": "pdm",
+                "url": "https://github.com/pdm-project/pdm"
+              },
+              {
+                "type": "article",
+                "title": "Introduction to PDM: A Python Project and Dependency Manager",
+                "url": "https://betterstack.com/community/guides/scaling-python/pdm-explained/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/pdm@xDgXISgVUMRHh9hu4h6Hl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1042,7 +1019,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/common-packages@_94NrQ3quc4t_PPOsFSN0.md",
-        "subtopics_count": 1,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "GHKAY9gOykEbxkEeR30wL",
@@ -1056,7 +1033,119 @@
                 "url": "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pyprojecttoml@GHKAY9gOykEbxkEeR30wL.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/pyprojecttoml@GHKAY9gOykEbxkEeR30wL.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "yDP0K1gXlDmVSgTtGJaPY",
+            "name": "Configuration",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
+              {
+                "id": "InUJIGmTnf0X4cSoLuCEQ",
+                "name": "gevent",
+                "type": "subtopic",
+                "description": "gevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "gevent Website",
+                    "url": "http://www.gevent.org/"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "gevent/gevent",
+                    "url": "https://github.com/gevent/gevent"
+                  },
+                  {
+                    "type": "article",
+                    "title": "gevent For the Working Python Developer",
+                    "url": "https://sdiehl.github.io/gevent-tutorial/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/python/content/gevent@InUJIGmTnf0X4cSoLuCEQ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "7zcpXN3krnS3tMRWVNIVe",
+                "name": "Plotly Dash",
+                "type": "subtopic",
+                "description": "Plotly Dash is a Python framework that allows you to build analytical web applications. It's a high-level library that enables you to create interactive, web-based data visualization dashboards without requiring extensive knowledge of web development.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Plotly Dash Documentation",
+                    "url": "https://dash.plotly.com/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "20 Minutes Tutorial",
+                    "url": "http://dash.plotly.com/tutorial"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/python/content/plotly-dash@7zcpXN3krnS3tMRWVNIVe.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "zey2C6BdzsHJAlb_K3qrP",
+                "name": "Tornado",
+                "type": "subtopic",
+                "description": "Tornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Tornado Website",
+                    "url": "https://www.tornadoweb.org/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "A Step-by-Step Tutorial on Python Tornado",
+                    "url": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Tornado Python Framework",
+                    "url": "https://www.youtube.com/watch?v=-gJ21qzpieA"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/python/content/tornado@zey2C6BdzsHJAlb_K3qrP.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "DHtskqATeAVKgaazdhXKD",
+                "name": "Pyramid",
+                "type": "subtopic",
+                "description": "Pyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Pyramid Website",
+                    "url": "https://trypyramid.com/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Pyramid Documentation",
+                    "url": "https://trypyramid.com/documentation.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Pyramid Framework Introduction",
+                    "url": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/python/content/pyramid@DHtskqATeAVKgaazdhXKD.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           }
         ]
       },
@@ -1112,6 +1201,43 @@
         "subtopics_count": 3,
         "subtopics": [
           {
+            "id": "o1wi39VnjnFfWIC8XcuAK",
+            "name": "typing",
+            "type": "subtopic",
+            "description": "The `typing` module provides support for type hints in Python, allowing developers to specify expected data types for variables, function parameters, and return values. Type hints improve code readability, enable better editor support and static analysis, and help catch potential bugs early without changing how Python executes programs at runtime.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Typing Module",
+                "url": "https://docs.python.org/3/library/typing.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/typing@o1wi39VnjnFfWIC8XcuAK.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "gIcJ3bUVQXqO1Wx4gUKd5",
+            "name": "mypy",
+            "type": "subtopic",
+            "description": "mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "mypy documentation",
+                "url": "https://mypy-lang.org/"
+              },
+              {
+                "type": "opensource",
+                "title": "python/mypy",
+                "url": "https://github.com/python/mypy"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/mypy@gIcJ3bUVQXqO1Wx4gUKd5.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
             "id": "IWq-tfkz-pSC1ztZl60vM",
             "name": "Pipenv",
             "type": "subtopic",
@@ -1123,35 +1249,9 @@
                 "url": "https://pipenv.pypa.io/en/latest/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pipenv@IWq-tfkz-pSC1ztZl60vM.md"
-          },
-          {
-            "id": "_IXXTSwQOgYzYIUuKVWNE",
-            "name": "virtualenv",
-            "type": "subtopic",
-            "description": "`virtualenv` is a tool to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Virtual Environments",
-                "url": "https://virtualenv.pypa.io/en/latest/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/virtualenv@_IXXTSwQOgYzYIUuKVWNE.md"
-          },
-          {
-            "id": "N5VaKMbgQ0V_BC5tadV65",
-            "name": "pyenv",
-            "type": "subtopic",
-            "description": "pyenv is a tool for managing multiple versions of the Python programming language on Unix-like systems. It works by setting environment variables to point to the directory where the desired version of Python is installed. This allows you to switch between different versions of Python without having to modify your system's default Python installation.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "pyenv/pyenv",
-                "url": "https://github.com/pyenv/pyenv"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pyenv@N5VaKMbgQ0V_BC5tadV65.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/pipenv@IWq-tfkz-pSC1ztZl60vM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1183,8 +1283,91 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/object-oriented-programming@P_Di-XPSDITmU3xKQew8G.md",
-        "subtopics_count": 4,
+        "subtopics_count": 5,
         "subtopics": [
+          {
+            "id": "uJIqgsqUbE62Tyo3K75Qx",
+            "name": "Binary Search Tree",
+            "type": "subtopic",
+            "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Binary search in Python 101: Implementation and use cases",
+                "url": "https://roadmap.sh/python/binary-search"
+              },
+              {
+                "type": "article",
+                "title": "How to Implement Binary Search Tree in Python",
+                "url": "https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/"
+              },
+              {
+                "type": "article",
+                "title": "Binary Search Tree in Python",
+                "url": "https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python"
+              },
+              {
+                "type": "video",
+                "title": "Tree Data Structure | Illustrated Data Structures",
+                "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/binary-search-tree@uJIqgsqUbE62Tyo3K75Qx.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "kLBgy_nxxjE8SxdVi04bq",
+            "name": "Recursion",
+            "type": "subtopic",
+            "description": "Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Recursion in Python: An Introduction",
+                "url": "https://realpython.com/python-recursion/"
+              },
+              {
+                "type": "article",
+                "title": "Binary search in Python 101: Implementation and use cases",
+                "url": "https://roadmap.sh/python/binary-search"
+              },
+              {
+                "type": "article",
+                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+                "url": "https://roadmap.sh/python/merge-sort"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/recursion@kLBgy_nxxjE8SxdVi04bq.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "vvTmjcWCVclOPY4f_5uB0",
+            "name": "Sorting Algorithms",
+            "type": "subtopic",
+            "description": "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Sorting Algorithms in Python",
+                "url": "https://realpython.com/sorting-algorithms-python/"
+              },
+              {
+                "type": "article",
+                "title": "Python - Sorting Algorithms",
+                "url": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
+              },
+              {
+                "type": "article",
+                "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+                "url": "https://roadmap.sh/python/merge-sort"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/sorting-algorithms@vvTmjcWCVclOPY4f_5uB0.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "AqwzR8dZKLQIoj_6KKZ3t",
             "name": "Classes",
@@ -1212,7 +1395,9 @@
                 "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/classes@AqwzR8dZKLQIoj_6KKZ3t.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/classes@AqwzR8dZKLQIoj_6KKZ3t.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zAS4YiEJ6VPsyABrkIG8i",
@@ -1236,50 +1421,9 @@
                 "url": "https://roadmap.sh/python/super-init"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/methods@zAS4YiEJ6VPsyABrkIG8i.md"
-          },
-          {
-            "id": "S0FLE70szSVUPI0CDEQK7",
-            "name": "Inheritance",
-            "type": "subtopic",
-            "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (the child class or subclass) is derived from an existing class (the parent class or superclass). The child class inherits attributes and methods from the parent class, allowing for code reuse and the creation of hierarchical relationships between classes. This promotes a more organized and maintainable codebase by establishing a clear structure and reducing redundancy.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Python Official Documentation on Inheritance",
-                "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
-              },
-              {
-                "type": "article",
-                "title": "Python super() and init: Multiple Inheritance Guide",
-                "url": "https://roadmap.sh/python/super-init"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/inheritance@S0FLE70szSVUPI0CDEQK7.md"
-          },
-          {
-            "id": "3dC2o3WXdx4plFhDP2Vqk",
-            "name": "Encapsulation",
-            "type": "subtopic",
-            "description": "Encapsulation is a way to bundle data (attributes) and the methods that operate on that data into a single unit, known as a class. It restricts direct access to some of the object's components and prevents the accidental modification of data. This is achieved by declaring some attributes or methods as private, meaning they can only be accessed from within the class itself.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Encapsulation in Python: All You Need to Know",
-                "url": "https://roadmap.sh/python/encapsulation"
-              },
-              {
-                "type": "article",
-                "title": "Encapsulation",
-                "url": "https://programming-25.mooc.fi/part-9/3-encapsulation"
-              },
-              {
-                "type": "video",
-                "title": "Encapsulation - Advanced Python Tutorial #5",
-                "url": "https://www.youtube.com/watch?v=dzmYoSzL8ok"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/encapsulation@3dC2o3WXdx4plFhDP2Vqk.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/methods@zAS4YiEJ6VPsyABrkIG8i.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1403,39 +1547,6 @@
         "subtopics_count": 5,
         "subtopics": [
           {
-            "id": "o1wi39VnjnFfWIC8XcuAK",
-            "name": "typing",
-            "type": "subtopic",
-            "description": "The `typing` module provides support for type hints in Python, allowing developers to specify expected data types for variables, function parameters, and return values. Type hints improve code readability, enable better editor support and static analysis, and help catch potential bugs early without changing how Python executes programs at runtime.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Typing Module",
-                "url": "https://docs.python.org/3/library/typing.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/typing@o1wi39VnjnFfWIC8XcuAK.md"
-          },
-          {
-            "id": "gIcJ3bUVQXqO1Wx4gUKd5",
-            "name": "mypy",
-            "type": "subtopic",
-            "description": "mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "mypy documentation",
-                "url": "https://mypy-lang.org/"
-              },
-              {
-                "type": "opensource",
-                "title": "python/mypy",
-                "url": "https://github.com/python/mypy"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/mypy@gIcJ3bUVQXqO1Wx4gUKd5.md"
-          },
-          {
             "id": "1q9HWgu9jDTK757hTNOmE",
             "name": "pyright",
             "type": "subtopic",
@@ -1447,7 +1558,9 @@
                 "url": "https://microsoft.github.io/pyright/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pyright@1q9HWgu9jDTK757hTNOmE.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/pyright@1q9HWgu9jDTK757hTNOmE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9mFR_ueXbIB2IrkqU2s85",
@@ -1461,7 +1574,25 @@
                 "url": "https://pyrefly.org"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pyre@9mFR_ueXbIB2IrkqU2s85.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/pyre@9mFR_ueXbIB2IrkqU2s85.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "_IXXTSwQOgYzYIUuKVWNE",
+            "name": "virtualenv",
+            "type": "subtopic",
+            "description": "`virtualenv` is a tool to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Virtual Environments",
+                "url": "https://virtualenv.pypa.io/en/latest/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/virtualenv@_IXXTSwQOgYzYIUuKVWNE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "W3VALz5evFo1qqkQbMN1R",
@@ -1490,7 +1621,25 @@
                 "url": "https://www.youtube.com/watch?v=XIdQ6gO3Anc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pydantic@W3VALz5evFo1qqkQbMN1R.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/pydantic@W3VALz5evFo1qqkQbMN1R.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "N5VaKMbgQ0V_BC5tadV65",
+            "name": "pyenv",
+            "type": "subtopic",
+            "description": "pyenv is a tool for managing multiple versions of the Python programming language on Unix-like systems. It works by setting environment variables to point to the directory where the desired version of Python is installed. This allows you to switch between different versions of Python without having to modify your system's default Python installation.",
+            "resources": [
+              {
+                "type": "opensource",
+                "title": "pyenv/pyenv",
+                "url": "https://github.com/pyenv/pyenv"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/pyenv@N5VaKMbgQ0V_BC5tadV65.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1507,32 +1656,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/learn-a-framework@0-ShORjGnQlAdcwjtxdEB.md",
-        "subtopics_count": 9,
+        "subtopics_count": 4,
         "subtopics": [
-          {
-            "id": "InUJIGmTnf0X4cSoLuCEQ",
-            "name": "gevent",
-            "type": "subtopic",
-            "description": "gevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "gevent Website",
-                "url": "http://www.gevent.org/"
-              },
-              {
-                "type": "opensource",
-                "title": "gevent/gevent",
-                "url": "https://github.com/gevent/gevent"
-              },
-              {
-                "type": "article",
-                "title": "gevent For the Working Python Developer",
-                "url": "https://sdiehl.github.io/gevent-tutorial/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/gevent@InUJIGmTnf0X4cSoLuCEQ.md"
-          },
           {
             "id": "IBVAvFtN4mnIPbIuyUvEb",
             "name": "aiohttp",
@@ -1555,50 +1680,9 @@
                 "url": "https://www.youtube.com/watch?v=nFn4_nA_yk8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/aiohttp@IBVAvFtN4mnIPbIuyUvEb.md"
-          },
-          {
-            "id": "7zcpXN3krnS3tMRWVNIVe",
-            "name": "Plotly Dash",
-            "type": "subtopic",
-            "description": "Plotly Dash is a Python framework that allows you to build analytical web applications. It's a high-level library that enables you to create interactive, web-based data visualization dashboards without requiring extensive knowledge of web development.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Plotly Dash Documentation",
-                "url": "https://dash.plotly.com/"
-              },
-              {
-                "type": "official",
-                "title": "20 Minutes Tutorial",
-                "url": "http://dash.plotly.com/tutorial"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/plotly-dash@7zcpXN3krnS3tMRWVNIVe.md"
-          },
-          {
-            "id": "zey2C6BdzsHJAlb_K3qrP",
-            "name": "Tornado",
-            "type": "subtopic",
-            "description": "Tornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Tornado Website",
-                "url": "https://www.tornadoweb.org/"
-              },
-              {
-                "type": "article",
-                "title": "A Step-by-Step Tutorial on Python Tornado",
-                "url": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
-              },
-              {
-                "type": "video",
-                "title": "Tornado Python Framework",
-                "url": "https://www.youtube.com/watch?v=-gJ21qzpieA"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/tornado@zey2C6BdzsHJAlb_K3qrP.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/aiohttp@IBVAvFtN4mnIPbIuyUvEb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9RGpqsj9jHz0_-r7EvRcw",
@@ -1627,79 +1711,72 @@
                 "url": "https://www.youtube.com/watch?v=w4UQkgxKuaI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/sanic@9RGpqsj9jHz0_-r7EvRcw.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/sanic@9RGpqsj9jHz0_-r7EvRcw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "DHtskqATeAVKgaazdhXKD",
-            "name": "Pyramid",
-            "type": "subtopic",
-            "description": "Pyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
-            "resources": [
+            "id": "NYOaEGM47I2oqnroxyVZV",
+            "name": "Synchronous + Asynchronous",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 2,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Pyramid Website",
-                "url": "https://trypyramid.com/"
+                "id": "XeQSmvAsGSTi8dd7QVHxn",
+                "name": "Fast API",
+                "type": "subtopic",
+                "description": "FastAPI is a modern Python web framework used for building APIs with high performance and automatic documentation. It leverages Python type hints for request validation, serialization, and editor support, making API development faster and less error-prone. FastAPI is commonly used for backend services, microservices, and machine learning model deployment due to its speed and ease of use.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "FastAPI Documentation",
+                    "url": "https://fastapi.tiangolo.com/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Create an API with Fast-API (Full 19 Hour Course)",
+                    "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/python/content/fast-api@XeQSmvAsGSTi8dd7QVHxn.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Pyramid Documentation",
-                "url": "https://trypyramid.com/documentation.html"
-              },
-              {
-                "type": "article",
-                "title": "Pyramid Framework Introduction",
-                "url": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
+                "id": "x1V8GjdjANTnhP6YXMbgC",
+                "name": "Django",
+                "type": "subtopic",
+                "description": "Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Django Roadmap",
+                    "url": "https://roadmap.sh/django"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Getting Started",
+                    "url": "https://www.djangoproject.com/start/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Is Django Synchronous or Asynchronous?",
+                    "url": "https://stackoverflow.com/questions/58548089/django-is-synchronous-or-asynchronous"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Python Django Tutorial for Beginners",
+                    "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/python/content/django@x1V8GjdjANTnhP6YXMbgC.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pyramid@DHtskqATeAVKgaazdhXKD.md"
-          },
-          {
-            "id": "XeQSmvAsGSTi8dd7QVHxn",
-            "name": "Fast API",
-            "type": "subtopic",
-            "description": "FastAPI is a modern Python web framework used for building APIs with high performance and automatic documentation. It leverages Python type hints for request validation, serialization, and editor support, making API development faster and less error-prone. FastAPI is commonly used for backend services, microservices, and machine learning model deployment due to its speed and ease of use.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "FastAPI Documentation",
-                "url": "https://fastapi.tiangolo.com/"
-              },
-              {
-                "type": "video",
-                "title": "Create an API with Fast-API (Full 19 Hour Course)",
-                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/fast-api@XeQSmvAsGSTi8dd7QVHxn.md"
-          },
-          {
-            "id": "x1V8GjdjANTnhP6YXMbgC",
-            "name": "Django",
-            "type": "subtopic",
-            "description": "Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Django Roadmap",
-                "url": "https://roadmap.sh/django"
-              },
-              {
-                "type": "official",
-                "title": "Getting Started",
-                "url": "https://www.djangoproject.com/start/"
-              },
-              {
-                "type": "article",
-                "title": "Is Django Synchronous or Asynchronous?",
-                "url": "https://stackoverflow.com/questions/58548089/django-is-synchronous-or-asynchronous"
-              },
-              {
-                "type": "video",
-                "title": "Python Django Tutorial for Beginners",
-                "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/django@x1V8GjdjANTnhP6YXMbgC.md"
+            ]
           },
           {
             "id": "HKsGyRzntjh1UbRZSWh_4",
@@ -1718,7 +1795,9 @@
                 "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/flask@HKsGyRzntjh1UbRZSWh_4.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/flask@HKsGyRzntjh1UbRZSWh_4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1745,8 +1824,55 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/concurrency@u4nRzWQ4zhDFMOrZ2I_uJ.md",
-        "subtopics_count": 4,
+        "subtopics_count": 5,
         "subtopics": [
+          {
+            "id": "S0FLE70szSVUPI0CDEQK7",
+            "name": "Inheritance",
+            "type": "subtopic",
+            "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (the child class or subclass) is derived from an existing class (the parent class or superclass). The child class inherits attributes and methods from the parent class, allowing for code reuse and the creation of hierarchical relationships between classes. This promotes a more organized and maintainable codebase by establishing a clear structure and reducing redundancy.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Python Official Documentation on Inheritance",
+                "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
+              },
+              {
+                "type": "article",
+                "title": "Python super() and init: Multiple Inheritance Guide",
+                "url": "https://roadmap.sh/python/super-init"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/inheritance@S0FLE70szSVUPI0CDEQK7.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "3dC2o3WXdx4plFhDP2Vqk",
+            "name": "Encapsulation",
+            "type": "subtopic",
+            "description": "Encapsulation is a way to bundle data (attributes) and the methods that operate on that data into a single unit, known as a class. It restricts direct access to some of the object's components and prevents the accidental modification of data. This is achieved by declaring some attributes or methods as private, meaning they can only be accessed from within the class itself.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Encapsulation in Python: All You Need to Know",
+                "url": "https://roadmap.sh/python/encapsulation"
+              },
+              {
+                "type": "article",
+                "title": "Encapsulation",
+                "url": "https://programming-25.mooc.fi/part-9/3-encapsulation"
+              },
+              {
+                "type": "video",
+                "title": "Encapsulation - Advanced Python Tutorial #5",
+                "url": "https://www.youtube.com/watch?v=dzmYoSzL8ok"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/encapsulation@3dC2o3WXdx4plFhDP2Vqk.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "HSY5OUc_M5S6OcFXPRtkx",
             "name": "Multiprocessing",
@@ -1774,7 +1900,9 @@
                 "url": "https://realpython.com/python-multiprocessing/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/multiprocessing@HSY5OUc_M5S6OcFXPRtkx.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/multiprocessing@HSY5OUc_M5S6OcFXPRtkx.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Mow7RvropbC4ZGDpcGZmw",
@@ -1793,7 +1921,9 @@
                 "url": "https://realpython.com/async-io-python/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/asynchrony@Mow7RvropbC4ZGDpcGZmw.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/asynchrony@Mow7RvropbC4ZGDpcGZmw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bS7WeVKm2kEElu3sBKcIC",
@@ -1812,31 +1942,9 @@
                 "url": "https://roadmap.sh/python/multithreading"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/gil@bS7WeVKm2kEElu3sBKcIC.md"
-          },
-          {
-            "id": "UIx0XYaOgXXlYbbQtjiPq",
-            "name": "Threading",
-            "type": "subtopic",
-            "description": "[Multithreading](https://roadmap.sh/python/multithreading) allows multiple threads within a single process. However, because of GIL, threads cannot run in parallel on different cores, which makes multithreading suitable for I/O tasks (e.g., network requests) but not for computational tasks.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Python Threading Library",
-                "url": "https://docs.python.org/3/library/threading.html"
-              },
-              {
-                "type": "article",
-                "title": "Python Multithreading: The Most Practical Intro",
-                "url": "https://roadmap.sh/python/multithreading"
-              },
-              {
-                "type": "article",
-                "title": "Introduction to Threading in Python",
-                "url": "https://realpython.com/intro-to-python-threading/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/python/content/threading@UIx0XYaOgXXlYbbQtjiPq.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/gil@bS7WeVKm2kEElu3sBKcIC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1872,7 +1980,9 @@
                 "url": "https://github.com/google/yapf"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/yapf@tsh_vbhzKz1-H9Vh69tsK.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/yapf@tsh_vbhzKz1-H9Vh69tsK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DS6nuAUhUYcqiJDmQisKM",
@@ -1891,7 +2001,9 @@
                 "url": "https://black.readthedocs.io/en/stable/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/black@DS6nuAUhUYcqiJDmQisKM.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/black@DS6nuAUhUYcqiJDmQisKM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6cB0pvUO1-gvCtgqozP-Q",
@@ -1905,7 +2017,9 @@
                 "url": "https://docs.astral.sh/ruff/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/ruff@6cB0pvUO1-gvCtgqozP-Q.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/ruff@6cB0pvUO1-gvCtgqozP-Q.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "maYNuTKYyZndxk1z29-UY",
@@ -1919,7 +2033,9 @@
                 "url": "https://www.sphinx-doc.org/en/master/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/sphinx@maYNuTKYyZndxk1z29-UY.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/sphinx@maYNuTKYyZndxk1z29-UY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1951,8 +2067,34 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/python/content/file-handling@Nf3kRDSl_vas6QPXG7eVa.md",
-        "subtopics_count": 1,
+        "subtopics_count": 2,
         "subtopics": [
+          {
+            "id": "UIx0XYaOgXXlYbbQtjiPq",
+            "name": "Threading",
+            "type": "subtopic",
+            "description": "[Multithreading](https://roadmap.sh/python/multithreading) allows multiple threads within a single process. However, because of GIL, threads cannot run in parallel on different cores, which makes multithreading suitable for I/O tasks (e.g., network requests) but not for computational tasks.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Python Threading Library",
+                "url": "https://docs.python.org/3/library/threading.html"
+              },
+              {
+                "type": "article",
+                "title": "Python Multithreading: The Most Practical Intro",
+                "url": "https://roadmap.sh/python/multithreading"
+              },
+              {
+                "type": "article",
+                "title": "Introduction to Threading in Python",
+                "url": "https://realpython.com/intro-to-python-threading/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/python/content/threading@UIx0XYaOgXXlYbbQtjiPq.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "bqnwMKY4R0rirup3q_hb_",
             "name": "glob",
@@ -1970,7 +2112,9 @@
                 "url": "https://realpython.com/ref/stdlib/glob/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/glob@bqnwMKY4R0rirup3q_hb_.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/glob@bqnwMKY4R0rirup3q_hb_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2006,7 +2150,9 @@
                 "url": "https://tox.wiki/en/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/tox@jPFOiwbqfaGshaGDBWb5x.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/tox@jPFOiwbqfaGshaGDBWb5x.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "b4he_RO17C3ScNeUd6v2b",
@@ -2025,7 +2171,9 @@
                 "url": "https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/unittest--pyunit@b4he_RO17C3ScNeUd6v2b.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/unittest--pyunit@b4he_RO17C3ScNeUd6v2b.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aVclygxoA9ePU5IxaORSH",
@@ -2044,7 +2192,9 @@
                 "url": "https://www.digitalocean.com/community/tutorials/how-to-write-doctests-in-python"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/doctest@aVclygxoA9ePU5IxaORSH.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/doctest@aVclygxoA9ePU5IxaORSH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3FDwJpesfelEyJrNWtm0V",
@@ -2073,7 +2223,9 @@
                 "url": "https://www.youtube.com/watch?v=cHYq1MRoyI0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/python/content/pytest@3FDwJpesfelEyJrNWtm0V.md"
+            "file_path": "developer-roadmap/roadmaps/python/content/pytest@3FDwJpesfelEyJrNWtm0V.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2157,29 +2309,6 @@
             "type": "video",
             "title": "why are Tuples even a thing?",
             "url": "https://www.youtube.com/watch?v=fR_D_KIAYrE"
-          }
-        ]
-      },
-      {
-        "id": "soZFqivM3YBuljeX6PoaX",
-        "name": "Sets",
-        "type": "subtopic",
-        "description": "Python Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Python Official Documentation on Sets",
-            "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
-          },
-          {
-            "type": "article",
-            "title": "An In-Depth Guide to Working with Python Sets",
-            "url": "https://learnpython.com/blog/python-sets/"
-          },
-          {
-            "type": "video",
-            "title": "Python Sets tutorial for Beginners",
-            "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
           }
         ]
       },
@@ -2291,24 +2420,6 @@
         ]
       },
       {
-        "id": "tbR_h9NpZ5tBTYuCfwkcY",
-        "name": "@",
-        "type": "subtopic",
-        "description": "The @ symbol is a binary operator used to perform matrix multiplication between two objects, such as NumPy arrays or standard Python lists converted into matrices. Introduced in PEP 465, it provides a clean and readable syntax that distinguishes matrix multiplication from standard element-wise multiplication, which is typically handled by the asterisk (\\*) operator.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "A dedicated infix operator for matrix multiplication",
-            "url": "https://peps.python.org/pep-0465/"
-          },
-          {
-            "type": "article",
-            "title": "Matrix Multiplication in Python: The Complete Decision Guide",
-            "url": "https://roadmap.sh/python-data-analysis/matrix-multiplication"
-          }
-        ]
-      },
-      {
         "id": "so95CO6Qw3I0S98ISENS-",
         "name": "Operators",
         "type": "subtopic",
@@ -2343,6 +2454,24 @@
             "type": "article",
             "title": "Python Exponent: 5 Methods for Exponentiation + Applications",
             "url": "https://roadmap.sh/python/exponent"
+          }
+        ]
+      },
+      {
+        "id": "tbR_h9NpZ5tBTYuCfwkcY",
+        "name": "@",
+        "type": "subtopic",
+        "description": "The @ symbol is a binary operator used to perform matrix multiplication between two objects, such as NumPy arrays or standard Python lists converted into matrices. Introduced in PEP 465, it provides a clean and readable syntax that distinguishes matrix multiplication from standard element-wise multiplication, which is typically handled by the asterisk (\\*) operator.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "A dedicated infix operator for matrix multiplication",
+            "url": "https://peps.python.org/pep-0465/"
+          },
+          {
+            "type": "article",
+            "title": "Matrix Multiplication in Python: The Complete Decision Guide",
+            "url": "https://roadmap.sh/python-data-analysis/matrix-multiplication"
           }
         ]
       },
@@ -2487,24 +2616,6 @@
         ]
       },
       {
-        "id": "syV0DT_3ITgIFDbwPts8i",
-        "name": "Type Annot.",
-        "type": "subtopic",
-        "description": "Type annotations let developers specify the expected data types of variables, function parameters, and return values in Python. The interpreter does not enforce these hints at runtime, but tools like mypy and pyright use them to catch type errors before execution. A function can declare def add(a: int, b: int) -> int: to signal that it expects integers and returns one. Type annotations make code easier to read and help catch bugs early, especially in larger codebases.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Type Annotations",
-            "url": "https://typing.python.org/en/latest/spec/annotations.html"
-          },
-          {
-            "type": "article",
-            "title": "Understanding type annotation in Python",
-            "url": "https://blog.logrocket.com/understanding-type-annotation-python/"
-          }
-        ]
-      },
-      {
         "id": "Dvy7BnNzK55qbh_SgOk8m",
         "name": "Loops",
         "type": "subtopic",
@@ -2556,78 +2667,6 @@
         ]
       },
       {
-        "id": "1dfOTOGsOk5XE3bnZs8Ht",
-        "name": "PyPI",
-        "type": "subtopic",
-        "description": "PyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "PyPI Website",
-            "url": "https://pypi.org/"
-          },
-          {
-            "type": "article",
-            "title": "How to Publish an Open-Source Python Package to PyPI",
-            "url": "https://realpython.com/pypi-publish-python-package/"
-          },
-          {
-            "type": "video",
-            "title": "Getting Started with Pip and PyPI in Python",
-            "url": "https://www.youtube.com/watch?v=bPSfNKvhooA"
-          }
-        ]
-      },
-      {
-        "id": "iVhQnp6hpgVZDNJ0XoVra",
-        "name": "Pip",
-        "type": "subtopic",
-        "description": "The standard package manager for Python is pip. It allows you to install and manage packages that aren’t part of the Python standard library.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "pip Documentation",
-            "url": "https://pip.pypa.io/en/stable/installation/"
-          },
-          {
-            "type": "article",
-            "title": "Using Pythons pip to Manage Your Projects Dependencies",
-            "url": "https://realpython.com/what-is-pip/"
-          }
-        ]
-      },
-      {
-        "id": "uh67D1u-Iv5cZamRgFEJg",
-        "name": "Conda",
-        "type": "subtopic",
-        "description": "Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Conda Documentation",
-            "url": "https://docs.conda.io/en/latest/"
-          }
-        ]
-      },
-      {
-        "id": "p3Frfs6oxpuciUzeCEsvb",
-        "name": "uv",
-        "type": "subtopic",
-        "description": "uv is an \"extremely fast\" python package installer and resolver.",
-        "resources": [
-          {
-            "type": "opensource",
-            "title": "astral-sh/uv",
-            "url": "https://github.com/astral-sh/uv"
-          },
-          {
-            "type": "article",
-            "title": "@UV for Python",
-            "url": "https://www.youtube.com/watch?v=qh98qOND6MI&t"
-          }
-        ]
-      },
-      {
         "id": "OPD4WdMO7q4gRZMcRCQh1",
         "name": "Arrays and Linked Lists",
         "type": "subtopic",
@@ -2652,29 +2691,6 @@
             "type": "video",
             "title": "Linked List Data Structure | Illustrated Data Structures",
             "url": "https://www.youtube.com/watch?v=odW9FU8jPRQ"
-          }
-        ]
-      },
-      {
-        "id": "xDgXISgVUMRHh9hu4h6Hl",
-        "name": "pdm",
-        "type": "subtopic",
-        "description": "PDM is a modern Python package manager that supports PEP 582, which allows packages to be installed in a `__pypackages__` directory instead of the traditional `site-packages` directory. It aims to provide a streamlined and improved experience for managing dependencies, building, and publishing Python projects. PDM also includes features like dependency resolution, virtual environment management, and project scaffolding.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "pdm",
-            "url": "https://pdm-project.org/en/latest/"
-          },
-          {
-            "type": "opensource",
-            "title": "pdm",
-            "url": "https://github.com/pdm-project/pdm"
-          },
-          {
-            "type": "article",
-            "title": "Introduction to PDM: A Python Project and Dependency Manager",
-            "url": "https://betterstack.com/community/guides/scaling-python/pdm-explained/"
           }
         ]
       },
@@ -2730,80 +2746,6 @@
         ]
       },
       {
-        "id": "uJIqgsqUbE62Tyo3K75Qx",
-        "name": "Binary Search Tree",
-        "type": "subtopic",
-        "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Binary search in Python 101: Implementation and use cases",
-            "url": "https://roadmap.sh/python/binary-search"
-          },
-          {
-            "type": "article",
-            "title": "How to Implement Binary Search Tree in Python",
-            "url": "https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/"
-          },
-          {
-            "type": "article",
-            "title": "Binary Search Tree in Python",
-            "url": "https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python"
-          },
-          {
-            "type": "video",
-            "title": "Tree Data Structure | Illustrated Data Structures",
-            "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
-          }
-        ]
-      },
-      {
-        "id": "kLBgy_nxxjE8SxdVi04bq",
-        "name": "Recursion",
-        "type": "subtopic",
-        "description": "Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Recursion in Python: An Introduction",
-            "url": "https://realpython.com/python-recursion/"
-          },
-          {
-            "type": "article",
-            "title": "Binary search in Python 101: Implementation and use cases",
-            "url": "https://roadmap.sh/python/binary-search"
-          },
-          {
-            "type": "article",
-            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
-            "url": "https://roadmap.sh/python/merge-sort"
-          }
-        ]
-      },
-      {
-        "id": "vvTmjcWCVclOPY4f_5uB0",
-        "name": "Sorting Algorithms",
-        "type": "subtopic",
-        "description": "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Sorting Algorithms in Python",
-            "url": "https://realpython.com/sorting-algorithms-python/"
-          },
-          {
-            "type": "article",
-            "title": "Python - Sorting Algorithms",
-            "url": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
-          },
-          {
-            "type": "article",
-            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
-            "url": "https://roadmap.sh/python/merge-sort"
-          }
-        ]
-      },
-      {
         "id": "274uk28wzxn6EKWQzLpHs",
         "name": "Modules",
         "type": "topic",
@@ -2818,6 +2760,47 @@
             "type": "article",
             "title": "Modules in Python",
             "url": "https://www.programiz.com/python-programming/modules"
+          }
+        ]
+      },
+      {
+        "id": "soZFqivM3YBuljeX6PoaX",
+        "name": "Sets",
+        "type": "subtopic",
+        "description": "Python Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Python Official Documentation on Sets",
+            "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+          },
+          {
+            "type": "article",
+            "title": "An In-Depth Guide to Working with Python Sets",
+            "url": "https://learnpython.com/blog/python-sets/"
+          },
+          {
+            "type": "video",
+            "title": "Python Sets tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
+          }
+        ]
+      },
+      {
+        "id": "syV0DT_3ITgIFDbwPts8i",
+        "name": "Type Annot.",
+        "type": "subtopic",
+        "description": "Type annotations let developers specify the expected data types of variables, function parameters, and return values in Python. The interpreter does not enforce these hints at runtime, but tools like mypy and pyright use them to catch type errors before execution. A function can declare def add(a: int, b: int) -> int: to signal that it expects integers and returns one. Type annotations make code easier to read and help catch bugs early, especially in larger codebases.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Type Annotations",
+            "url": "https://typing.python.org/en/latest/spec/annotations.html"
+          },
+          {
+            "type": "article",
+            "title": "Understanding type annotation in Python",
+            "url": "https://blog.logrocket.com/understanding-type-annotation-python/"
           }
         ]
       },
@@ -2965,6 +2948,78 @@
         ]
       },
       {
+        "id": "1dfOTOGsOk5XE3bnZs8Ht",
+        "name": "PyPI",
+        "type": "subtopic",
+        "description": "PyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PyPI Website",
+            "url": "https://pypi.org/"
+          },
+          {
+            "type": "article",
+            "title": "How to Publish an Open-Source Python Package to PyPI",
+            "url": "https://realpython.com/pypi-publish-python-package/"
+          },
+          {
+            "type": "video",
+            "title": "Getting Started with Pip and PyPI in Python",
+            "url": "https://www.youtube.com/watch?v=bPSfNKvhooA"
+          }
+        ]
+      },
+      {
+        "id": "iVhQnp6hpgVZDNJ0XoVra",
+        "name": "Pip",
+        "type": "subtopic",
+        "description": "The standard package manager for Python is pip. It allows you to install and manage packages that aren’t part of the Python standard library.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "pip Documentation",
+            "url": "https://pip.pypa.io/en/stable/installation/"
+          },
+          {
+            "type": "article",
+            "title": "Using Pythons pip to Manage Your Projects Dependencies",
+            "url": "https://realpython.com/what-is-pip/"
+          }
+        ]
+      },
+      {
+        "id": "uh67D1u-Iv5cZamRgFEJg",
+        "name": "Conda",
+        "type": "subtopic",
+        "description": "Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Conda Documentation",
+            "url": "https://docs.conda.io/en/latest/"
+          }
+        ]
+      },
+      {
+        "id": "p3Frfs6oxpuciUzeCEsvb",
+        "name": "uv",
+        "type": "subtopic",
+        "description": "uv is an \"extremely fast\" python package installer and resolver.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "astral-sh/uv",
+            "url": "https://github.com/astral-sh/uv"
+          },
+          {
+            "type": "article",
+            "title": "@UV for Python",
+            "url": "https://www.youtube.com/watch?v=qh98qOND6MI&t"
+          }
+        ]
+      },
+      {
         "id": "uXd2B01GVBEQNXQE8RATT",
         "name": "Poetry",
         "type": "subtopic",
@@ -2979,6 +3034,29 @@
             "type": "video",
             "title": "Python Poetry - Basics",
             "url": "https://www.youtube.com/watch?v=Ji2XDxmXSOM"
+          }
+        ]
+      },
+      {
+        "id": "xDgXISgVUMRHh9hu4h6Hl",
+        "name": "pdm",
+        "type": "subtopic",
+        "description": "PDM is a modern Python package manager that supports PEP 582, which allows packages to be installed in a `__pypackages__` directory instead of the traditional `site-packages` directory. It aims to provide a streamlined and improved experience for managing dependencies, building, and publishing Python projects. PDM also includes features like dependency resolution, virtual environment management, and project scaffolding.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "pdm",
+            "url": "https://pdm-project.org/en/latest/"
+          },
+          {
+            "type": "opensource",
+            "title": "pdm",
+            "url": "https://github.com/pdm-project/pdm"
+          },
+          {
+            "type": "article",
+            "title": "Introduction to PDM: A Python Project and Dependency Manager",
+            "url": "https://betterstack.com/community/guides/scaling-python/pdm-explained/"
           }
         ]
       },
@@ -3067,6 +3145,100 @@
         ]
       },
       {
+        "id": "yDP0K1gXlDmVSgTtGJaPY",
+        "name": "Configuration",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "InUJIGmTnf0X4cSoLuCEQ",
+        "name": "gevent",
+        "type": "subtopic",
+        "description": "gevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "gevent Website",
+            "url": "http://www.gevent.org/"
+          },
+          {
+            "type": "opensource",
+            "title": "gevent/gevent",
+            "url": "https://github.com/gevent/gevent"
+          },
+          {
+            "type": "article",
+            "title": "gevent For the Working Python Developer",
+            "url": "https://sdiehl.github.io/gevent-tutorial/"
+          }
+        ]
+      },
+      {
+        "id": "7zcpXN3krnS3tMRWVNIVe",
+        "name": "Plotly Dash",
+        "type": "subtopic",
+        "description": "Plotly Dash is a Python framework that allows you to build analytical web applications. It's a high-level library that enables you to create interactive, web-based data visualization dashboards without requiring extensive knowledge of web development.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Plotly Dash Documentation",
+            "url": "https://dash.plotly.com/"
+          },
+          {
+            "type": "official",
+            "title": "20 Minutes Tutorial",
+            "url": "http://dash.plotly.com/tutorial"
+          }
+        ]
+      },
+      {
+        "id": "zey2C6BdzsHJAlb_K3qrP",
+        "name": "Tornado",
+        "type": "subtopic",
+        "description": "Tornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Tornado Website",
+            "url": "https://www.tornadoweb.org/"
+          },
+          {
+            "type": "article",
+            "title": "A Step-by-Step Tutorial on Python Tornado",
+            "url": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
+          },
+          {
+            "type": "video",
+            "title": "Tornado Python Framework",
+            "url": "https://www.youtube.com/watch?v=-gJ21qzpieA"
+          }
+        ]
+      },
+      {
+        "id": "DHtskqATeAVKgaazdhXKD",
+        "name": "Pyramid",
+        "type": "subtopic",
+        "description": "Pyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Pyramid Website",
+            "url": "https://trypyramid.com/"
+          },
+          {
+            "type": "official",
+            "title": "Pyramid Documentation",
+            "url": "https://trypyramid.com/documentation.html"
+          },
+          {
+            "type": "article",
+            "title": "Pyramid Framework Introduction",
+            "url": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
+          }
+        ]
+      },
+      {
         "id": "7t6mJBsaFMWPi7o9fbhhq",
         "name": "Regular Expressions",
         "type": "topic",
@@ -3113,6 +3285,37 @@
         ]
       },
       {
+        "id": "o1wi39VnjnFfWIC8XcuAK",
+        "name": "typing",
+        "type": "subtopic",
+        "description": "The `typing` module provides support for type hints in Python, allowing developers to specify expected data types for variables, function parameters, and return values. Type hints improve code readability, enable better editor support and static analysis, and help catch potential bugs early without changing how Python executes programs at runtime.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Typing Module",
+            "url": "https://docs.python.org/3/library/typing.html"
+          }
+        ]
+      },
+      {
+        "id": "gIcJ3bUVQXqO1Wx4gUKd5",
+        "name": "mypy",
+        "type": "subtopic",
+        "description": "mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "mypy documentation",
+            "url": "https://mypy-lang.org/"
+          },
+          {
+            "type": "opensource",
+            "title": "python/mypy",
+            "url": "https://github.com/python/mypy"
+          }
+        ]
+      },
+      {
         "id": "IWq-tfkz-pSC1ztZl60vM",
         "name": "Pipenv",
         "type": "subtopic",
@@ -3122,32 +3325,6 @@
             "type": "official",
             "title": "Pipenv Documentation",
             "url": "https://pipenv.pypa.io/en/latest/"
-          }
-        ]
-      },
-      {
-        "id": "_IXXTSwQOgYzYIUuKVWNE",
-        "name": "virtualenv",
-        "type": "subtopic",
-        "description": "`virtualenv` is a tool to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Virtual Environments",
-            "url": "https://virtualenv.pypa.io/en/latest/"
-          }
-        ]
-      },
-      {
-        "id": "N5VaKMbgQ0V_BC5tadV65",
-        "name": "pyenv",
-        "type": "subtopic",
-        "description": "pyenv is a tool for managing multiple versions of the Python programming language on Unix-like systems. It works by setting environment variables to point to the directory where the desired version of Python is installed. This allows you to switch between different versions of Python without having to modify your system's default Python installation.",
-        "resources": [
-          {
-            "type": "opensource",
-            "title": "pyenv/pyenv",
-            "url": "https://github.com/pyenv/pyenv"
           }
         ]
       },
@@ -3176,6 +3353,80 @@
             "type": "video",
             "title": "Python OOP Tutorial",
             "url": "https://www.youtube.com/watch?v=IbMDCwVm63M"
+          }
+        ]
+      },
+      {
+        "id": "uJIqgsqUbE62Tyo3K75Qx",
+        "name": "Binary Search Tree",
+        "type": "subtopic",
+        "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Binary search in Python 101: Implementation and use cases",
+            "url": "https://roadmap.sh/python/binary-search"
+          },
+          {
+            "type": "article",
+            "title": "How to Implement Binary Search Tree in Python",
+            "url": "https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/"
+          },
+          {
+            "type": "article",
+            "title": "Binary Search Tree in Python",
+            "url": "https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python"
+          },
+          {
+            "type": "video",
+            "title": "Tree Data Structure | Illustrated Data Structures",
+            "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
+          }
+        ]
+      },
+      {
+        "id": "kLBgy_nxxjE8SxdVi04bq",
+        "name": "Recursion",
+        "type": "subtopic",
+        "description": "Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Recursion in Python: An Introduction",
+            "url": "https://realpython.com/python-recursion/"
+          },
+          {
+            "type": "article",
+            "title": "Binary search in Python 101: Implementation and use cases",
+            "url": "https://roadmap.sh/python/binary-search"
+          },
+          {
+            "type": "article",
+            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+            "url": "https://roadmap.sh/python/merge-sort"
+          }
+        ]
+      },
+      {
+        "id": "vvTmjcWCVclOPY4f_5uB0",
+        "name": "Sorting Algorithms",
+        "type": "subtopic",
+        "description": "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Sorting Algorithms in Python",
+            "url": "https://realpython.com/sorting-algorithms-python/"
+          },
+          {
+            "type": "article",
+            "title": "Python - Sorting Algorithms",
+            "url": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
+          },
+          {
+            "type": "article",
+            "title": "Merge Sort in Python: Step-by-Step Guide + Code",
+            "url": "https://roadmap.sh/python/merge-sort"
           }
         ]
       },
@@ -3227,47 +3478,6 @@
             "type": "article",
             "title": "Python super() and init: Multiple Inheritance Guide",
             "url": "https://roadmap.sh/python/super-init"
-          }
-        ]
-      },
-      {
-        "id": "S0FLE70szSVUPI0CDEQK7",
-        "name": "Inheritance",
-        "type": "subtopic",
-        "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (the child class or subclass) is derived from an existing class (the parent class or superclass). The child class inherits attributes and methods from the parent class, allowing for code reuse and the creation of hierarchical relationships between classes. This promotes a more organized and maintainable codebase by establishing a clear structure and reducing redundancy.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Python Official Documentation on Inheritance",
-            "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
-          },
-          {
-            "type": "article",
-            "title": "Python super() and init: Multiple Inheritance Guide",
-            "url": "https://roadmap.sh/python/super-init"
-          }
-        ]
-      },
-      {
-        "id": "3dC2o3WXdx4plFhDP2Vqk",
-        "name": "Encapsulation",
-        "type": "subtopic",
-        "description": "Encapsulation is a way to bundle data (attributes) and the methods that operate on that data into a single unit, known as a class. It restricts direct access to some of the object's components and prevents the accidental modification of data. This is achieved by declaring some attributes or methods as private, meaning they can only be accessed from within the class itself.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Encapsulation in Python: All You Need to Know",
-            "url": "https://roadmap.sh/python/encapsulation"
-          },
-          {
-            "type": "article",
-            "title": "Encapsulation",
-            "url": "https://programming-25.mooc.fi/part-9/3-encapsulation"
-          },
-          {
-            "type": "video",
-            "title": "Encapsulation - Advanced Python Tutorial #5",
-            "url": "https://www.youtube.com/watch?v=dzmYoSzL8ok"
           }
         ]
       },
@@ -3377,37 +3587,6 @@
         ]
       },
       {
-        "id": "o1wi39VnjnFfWIC8XcuAK",
-        "name": "typing",
-        "type": "subtopic",
-        "description": "The `typing` module provides support for type hints in Python, allowing developers to specify expected data types for variables, function parameters, and return values. Type hints improve code readability, enable better editor support and static analysis, and help catch potential bugs early without changing how Python executes programs at runtime.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Typing Module",
-            "url": "https://docs.python.org/3/library/typing.html"
-          }
-        ]
-      },
-      {
-        "id": "gIcJ3bUVQXqO1Wx4gUKd5",
-        "name": "mypy",
-        "type": "subtopic",
-        "description": "mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "mypy documentation",
-            "url": "https://mypy-lang.org/"
-          },
-          {
-            "type": "opensource",
-            "title": "python/mypy",
-            "url": "https://github.com/python/mypy"
-          }
-        ]
-      },
-      {
         "id": "1q9HWgu9jDTK757hTNOmE",
         "name": "pyright",
         "type": "subtopic",
@@ -3430,6 +3609,19 @@
             "type": "official",
             "title": "pyrefly Documentation",
             "url": "https://pyrefly.org"
+          }
+        ]
+      },
+      {
+        "id": "_IXXTSwQOgYzYIUuKVWNE",
+        "name": "virtualenv",
+        "type": "subtopic",
+        "description": "`virtualenv` is a tool to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Virtual Environments",
+            "url": "https://virtualenv.pypa.io/en/latest/"
           }
         ]
       },
@@ -3462,6 +3654,19 @@
         ]
       },
       {
+        "id": "N5VaKMbgQ0V_BC5tadV65",
+        "name": "pyenv",
+        "type": "subtopic",
+        "description": "pyenv is a tool for managing multiple versions of the Python programming language on Unix-like systems. It works by setting environment variables to point to the directory where the desired version of Python is installed. This allows you to switch between different versions of Python without having to modify your system's default Python installation.",
+        "resources": [
+          {
+            "type": "opensource",
+            "title": "pyenv/pyenv",
+            "url": "https://github.com/pyenv/pyenv"
+          }
+        ]
+      },
+      {
         "id": "0-ShORjGnQlAdcwjtxdEB",
         "name": "Learn a Framework",
         "type": "topic",
@@ -3471,29 +3676,6 @@
             "type": "article",
             "title": "Pyscript: A Browser-Based Python Framework",
             "url": "https://thenewstack.io/pyscript-a-browser-based-python-framework/"
-          }
-        ]
-      },
-      {
-        "id": "InUJIGmTnf0X4cSoLuCEQ",
-        "name": "gevent",
-        "type": "subtopic",
-        "description": "gevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "gevent Website",
-            "url": "http://www.gevent.org/"
-          },
-          {
-            "type": "opensource",
-            "title": "gevent/gevent",
-            "url": "https://github.com/gevent/gevent"
-          },
-          {
-            "type": "article",
-            "title": "gevent For the Working Python Developer",
-            "url": "https://sdiehl.github.io/gevent-tutorial/"
           }
         ]
       },
@@ -3517,47 +3699,6 @@
             "type": "video",
             "title": "Python Asyncio, Requests, Aiohttp | Make faster API Calls",
             "url": "https://www.youtube.com/watch?v=nFn4_nA_yk8"
-          }
-        ]
-      },
-      {
-        "id": "7zcpXN3krnS3tMRWVNIVe",
-        "name": "Plotly Dash",
-        "type": "subtopic",
-        "description": "Plotly Dash is a Python framework that allows you to build analytical web applications. It's a high-level library that enables you to create interactive, web-based data visualization dashboards without requiring extensive knowledge of web development.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Plotly Dash Documentation",
-            "url": "https://dash.plotly.com/"
-          },
-          {
-            "type": "official",
-            "title": "20 Minutes Tutorial",
-            "url": "http://dash.plotly.com/tutorial"
-          }
-        ]
-      },
-      {
-        "id": "zey2C6BdzsHJAlb_K3qrP",
-        "name": "Tornado",
-        "type": "subtopic",
-        "description": "Tornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Tornado Website",
-            "url": "https://www.tornadoweb.org/"
-          },
-          {
-            "type": "article",
-            "title": "A Step-by-Step Tutorial on Python Tornado",
-            "url": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
-          },
-          {
-            "type": "video",
-            "title": "Tornado Python Framework",
-            "url": "https://www.youtube.com/watch?v=-gJ21qzpieA"
           }
         ]
       },
@@ -3590,27 +3731,11 @@
         ]
       },
       {
-        "id": "DHtskqATeAVKgaazdhXKD",
-        "name": "Pyramid",
-        "type": "subtopic",
-        "description": "Pyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Pyramid Website",
-            "url": "https://trypyramid.com/"
-          },
-          {
-            "type": "official",
-            "title": "Pyramid Documentation",
-            "url": "https://trypyramid.com/documentation.html"
-          },
-          {
-            "type": "article",
-            "title": "Pyramid Framework Introduction",
-            "url": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
-          }
-        ]
+        "id": "NYOaEGM47I2oqnroxyVZV",
+        "name": "Synchronous + Asynchronous",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "XeQSmvAsGSTi8dd7QVHxn",
@@ -3700,6 +3825,47 @@
         ]
       },
       {
+        "id": "S0FLE70szSVUPI0CDEQK7",
+        "name": "Inheritance",
+        "type": "subtopic",
+        "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (the child class or subclass) is derived from an existing class (the parent class or superclass). The child class inherits attributes and methods from the parent class, allowing for code reuse and the creation of hierarchical relationships between classes. This promotes a more organized and maintainable codebase by establishing a clear structure and reducing redundancy.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Python Official Documentation on Inheritance",
+            "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
+          },
+          {
+            "type": "article",
+            "title": "Python super() and init: Multiple Inheritance Guide",
+            "url": "https://roadmap.sh/python/super-init"
+          }
+        ]
+      },
+      {
+        "id": "3dC2o3WXdx4plFhDP2Vqk",
+        "name": "Encapsulation",
+        "type": "subtopic",
+        "description": "Encapsulation is a way to bundle data (attributes) and the methods that operate on that data into a single unit, known as a class. It restricts direct access to some of the object's components and prevents the accidental modification of data. This is achieved by declaring some attributes or methods as private, meaning they can only be accessed from within the class itself.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Encapsulation in Python: All You Need to Know",
+            "url": "https://roadmap.sh/python/encapsulation"
+          },
+          {
+            "type": "article",
+            "title": "Encapsulation",
+            "url": "https://programming-25.mooc.fi/part-9/3-encapsulation"
+          },
+          {
+            "type": "video",
+            "title": "Encapsulation - Advanced Python Tutorial #5",
+            "url": "https://www.youtube.com/watch?v=dzmYoSzL8ok"
+          }
+        ]
+      },
+      {
         "id": "HSY5OUc_M5S6OcFXPRtkx",
         "name": "Multiprocessing",
         "type": "subtopic",
@@ -3760,29 +3926,6 @@
             "type": "article",
             "title": "Python Multithreading: The Most Practical Intro",
             "url": "https://roadmap.sh/python/multithreading"
-          }
-        ]
-      },
-      {
-        "id": "UIx0XYaOgXXlYbbQtjiPq",
-        "name": "Threading",
-        "type": "subtopic",
-        "description": "[Multithreading](https://roadmap.sh/python/multithreading) allows multiple threads within a single process. However, because of GIL, threads cannot run in parallel on different cores, which makes multithreading suitable for I/O tasks (e.g., network requests) but not for computational tasks.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Python Threading Library",
-            "url": "https://docs.python.org/3/library/threading.html"
-          },
-          {
-            "type": "article",
-            "title": "Python Multithreading: The Most Practical Intro",
-            "url": "https://roadmap.sh/python/multithreading"
-          },
-          {
-            "type": "article",
-            "title": "Introduction to Threading in Python",
-            "url": "https://realpython.com/intro-to-python-threading/"
           }
         ]
       },
@@ -3886,6 +4029,29 @@
             "type": "video",
             "title": "Python File Handling for Beginners",
             "url": "https://www.youtube.com/watch?v=BRrem1k3904"
+          }
+        ]
+      },
+      {
+        "id": "UIx0XYaOgXXlYbbQtjiPq",
+        "name": "Threading",
+        "type": "subtopic",
+        "description": "[Multithreading](https://roadmap.sh/python/multithreading) allows multiple threads within a single process. However, because of GIL, threads cannot run in parallel on different cores, which makes multithreading suitable for I/O tasks (e.g., network requests) but not for computational tasks.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Python Threading Library",
+            "url": "https://docs.python.org/3/library/threading.html"
+          },
+          {
+            "type": "article",
+            "title": "Python Multithreading: The Most Practical Intro",
+            "url": "https://roadmap.sh/python/multithreading"
+          },
+          {
+            "type": "article",
+            "title": "Introduction to Threading in Python",
+            "url": "https://realpython.com/intro-to-python-threading/"
           }
         ]
       },
@@ -4005,6 +4171,341 @@
     ],
     "edges": [
       {
+        "source": "UT_SR7G-LYtzqooWrEtF1",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i7xIGiXU-k5UIKHIhQPjE",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6xRncUs3_vxVbDur567QA",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bc9CL_HMT-R6nXO1eR-gP",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dEFLBGpiH6nbSMeR7ecaT",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "R9DQNc0AyAQ2HLpP4HOk6",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "so95CO6Qw3I0S98ISENS-",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tbR_h9NpZ5tBTYuCfwkcY",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-DJgS6l2qngfwurExlmmT",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Sg5w8zO2Ji-uDJKEoWey9",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fNTb9y3zs1HPYclAmu_Wv",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NP1kjSk0ujU0Gx-ajNHlR",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "__ndo1gcuUUtzmBnMIAbR",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dvy7BnNzK55qbh_SgOk8m",
+        "target": "GISOFMKvnBys0O0IMpz2J",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OPD4WdMO7q4gRZMcRCQh1",
+        "target": "VJSIbYJcy2MC6MOFBrqXi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DG4fi1e5ec2BVckPLsTJS",
+        "target": "VJSIbYJcy2MC6MOFBrqXi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0NlRczh6ZEaFLlT6LORWz",
+        "target": "VJSIbYJcy2MC6MOFBrqXi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "soZFqivM3YBuljeX6PoaX",
+        "target": "274uk28wzxn6EKWQzLpHs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "syV0DT_3ITgIFDbwPts8i",
+        "target": "274uk28wzxn6EKWQzLpHs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "08XifLQ20c4FKI_4AWNBQ",
+        "target": "274uk28wzxn6EKWQzLpHs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "l7k0qTYe42wYBTlT2-1cy",
+        "target": "274uk28wzxn6EKWQzLpHs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1dfOTOGsOk5XE3bnZs8Ht",
+        "target": "qeCMw-sJ2FR4UxvU9DDzv",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iVhQnp6hpgVZDNJ0XoVra",
+        "target": "qeCMw-sJ2FR4UxvU9DDzv",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uh67D1u-Iv5cZamRgFEJg",
+        "target": "qeCMw-sJ2FR4UxvU9DDzv",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "p3Frfs6oxpuciUzeCEsvb",
+        "target": "qeCMw-sJ2FR4UxvU9DDzv",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uXd2B01GVBEQNXQE8RATT",
+        "target": "qeCMw-sJ2FR4UxvU9DDzv",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xDgXISgVUMRHh9hu4h6Hl",
+        "target": "qeCMw-sJ2FR4UxvU9DDzv",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GHKAY9gOykEbxkEeR30wL",
+        "target": "_94NrQ3quc4t_PPOsFSN0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yDP0K1gXlDmVSgTtGJaPY",
+        "target": "_94NrQ3quc4t_PPOsFSN0",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "InUJIGmTnf0X4cSoLuCEQ",
+        "target": "yDP0K1gXlDmVSgTtGJaPY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7zcpXN3krnS3tMRWVNIVe",
+        "target": "yDP0K1gXlDmVSgTtGJaPY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zey2C6BdzsHJAlb_K3qrP",
+        "target": "yDP0K1gXlDmVSgTtGJaPY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DHtskqATeAVKgaazdhXKD",
+        "target": "yDP0K1gXlDmVSgTtGJaPY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "o1wi39VnjnFfWIC8XcuAK",
+        "target": "3RNy7Sp28d-NMx0Yh4bdx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gIcJ3bUVQXqO1Wx4gUKd5",
+        "target": "3RNy7Sp28d-NMx0Yh4bdx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IWq-tfkz-pSC1ztZl60vM",
+        "target": "3RNy7Sp28d-NMx0Yh4bdx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uJIqgsqUbE62Tyo3K75Qx",
+        "target": "P_Di-XPSDITmU3xKQew8G",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kLBgy_nxxjE8SxdVi04bq",
+        "target": "P_Di-XPSDITmU3xKQew8G",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vvTmjcWCVclOPY4f_5uB0",
+        "target": "P_Di-XPSDITmU3xKQew8G",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AqwzR8dZKLQIoj_6KKZ3t",
+        "target": "P_Di-XPSDITmU3xKQew8G",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zAS4YiEJ6VPsyABrkIG8i",
+        "target": "P_Di-XPSDITmU3xKQew8G",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1q9HWgu9jDTK757hTNOmE",
+        "target": "1PXApuUpPmJjgi12cmWo4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9mFR_ueXbIB2IrkqU2s85",
+        "target": "1PXApuUpPmJjgi12cmWo4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_IXXTSwQOgYzYIUuKVWNE",
+        "target": "1PXApuUpPmJjgi12cmWo4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "W3VALz5evFo1qqkQbMN1R",
+        "target": "1PXApuUpPmJjgi12cmWo4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "N5VaKMbgQ0V_BC5tadV65",
+        "target": "1PXApuUpPmJjgi12cmWo4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IBVAvFtN4mnIPbIuyUvEb",
+        "target": "0-ShORjGnQlAdcwjtxdEB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9RGpqsj9jHz0_-r7EvRcw",
+        "target": "0-ShORjGnQlAdcwjtxdEB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NYOaEGM47I2oqnroxyVZV",
+        "target": "0-ShORjGnQlAdcwjtxdEB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HKsGyRzntjh1UbRZSWh_4",
+        "target": "0-ShORjGnQlAdcwjtxdEB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XeQSmvAsGSTi8dd7QVHxn",
+        "target": "NYOaEGM47I2oqnroxyVZV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "x1V8GjdjANTnhP6YXMbgC",
+        "target": "NYOaEGM47I2oqnroxyVZV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "S0FLE70szSVUPI0CDEQK7",
+        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3dC2o3WXdx4plFhDP2Vqk",
+        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HSY5OUc_M5S6OcFXPRtkx",
+        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Mow7RvropbC4ZGDpcGZmw",
+        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bS7WeVKm2kEElu3sBKcIC",
+        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tsh_vbhzKz1-H9Vh69tsK",
+        "target": "0F0ppU_ClIUKZ23Q6BVZp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DS6nuAUhUYcqiJDmQisKM",
+        "target": "0F0ppU_ClIUKZ23Q6BVZp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6cB0pvUO1-gvCtgqozP-Q",
+        "target": "0F0ppU_ClIUKZ23Q6BVZp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "maYNuTKYyZndxk1z29-UY",
+        "target": "0F0ppU_ClIUKZ23Q6BVZp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UIx0XYaOgXXlYbbQtjiPq",
+        "target": "Nf3kRDSl_vas6QPXG7eVa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bqnwMKY4R0rirup3q_hb_",
+        "target": "Nf3kRDSl_vas6QPXG7eVa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jPFOiwbqfaGshaGDBWb5x",
+        "target": "WQOYjuwKIWB2meea4JnsV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "b4he_RO17C3ScNeUd6v2b",
+        "target": "WQOYjuwKIWB2meea4JnsV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aVclygxoA9ePU5IxaORSH",
+        "target": "WQOYjuwKIWB2meea4JnsV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3FDwJpesfelEyJrNWtm0V",
+        "target": "WQOYjuwKIWB2meea4JnsV",
+        "type": "subtopic_of"
+      },
+      {
         "source": "VJSIbYJcy2MC6MOFBrqXi",
         "target": "274uk28wzxn6EKWQzLpHs",
         "type": "next_in_flow"
@@ -4033,331 +4534,6 @@
         "source": "P_Di-XPSDITmU3xKQew8G",
         "target": "3RNy7Sp28d-NMx0Yh4bdx",
         "type": "next_in_flow"
-      },
-      {
-        "source": "6xRncUs3_vxVbDur567QA",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dEFLBGpiH6nbSMeR7ecaT",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NP1kjSk0ujU0Gx-ajNHlR",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Dvy7BnNzK55qbh_SgOk8m",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "R9DQNc0AyAQ2HLpP4HOk6",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fNTb9y3zs1HPYclAmu_Wv",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-DJgS6l2qngfwurExlmmT",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UT_SR7G-LYtzqooWrEtF1",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bc9CL_HMT-R6nXO1eR-gP",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OPD4WdMO7q4gRZMcRCQh1",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HSY5OUc_M5S6OcFXPRtkx",
-        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "W3VALz5evFo1qqkQbMN1R",
-        "target": "1PXApuUpPmJjgi12cmWo4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tsh_vbhzKz1-H9Vh69tsK",
-        "target": "0F0ppU_ClIUKZ23Q6BVZp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DS6nuAUhUYcqiJDmQisKM",
-        "target": "0F0ppU_ClIUKZ23Q6BVZp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6cB0pvUO1-gvCtgqozP-Q",
-        "target": "0F0ppU_ClIUKZ23Q6BVZp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jPFOiwbqfaGshaGDBWb5x",
-        "target": "WQOYjuwKIWB2meea4JnsV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "b4he_RO17C3ScNeUd6v2b",
-        "target": "WQOYjuwKIWB2meea4JnsV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aVclygxoA9ePU5IxaORSH",
-        "target": "WQOYjuwKIWB2meea4JnsV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3FDwJpesfelEyJrNWtm0V",
-        "target": "WQOYjuwKIWB2meea4JnsV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Sg5w8zO2Ji-uDJKEoWey9",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bqnwMKY4R0rirup3q_hb_",
-        "target": "Nf3kRDSl_vas6QPXG7eVa",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "__ndo1gcuUUtzmBnMIAbR",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tbR_h9NpZ5tBTYuCfwkcY",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "InUJIGmTnf0X4cSoLuCEQ",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IBVAvFtN4mnIPbIuyUvEb",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zey2C6BdzsHJAlb_K3qrP",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9RGpqsj9jHz0_-r7EvRcw",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DHtskqATeAVKgaazdhXKD",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7zcpXN3krnS3tMRWVNIVe",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "maYNuTKYyZndxk1z29-UY",
-        "target": "0F0ppU_ClIUKZ23Q6BVZp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IWq-tfkz-pSC1ztZl60vM",
-        "target": "3RNy7Sp28d-NMx0Yh4bdx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_IXXTSwQOgYzYIUuKVWNE",
-        "target": "3RNy7Sp28d-NMx0Yh4bdx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "N5VaKMbgQ0V_BC5tadV65",
-        "target": "3RNy7Sp28d-NMx0Yh4bdx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GHKAY9gOykEbxkEeR30wL",
-        "target": "_94NrQ3quc4t_PPOsFSN0",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XeQSmvAsGSTi8dd7QVHxn",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "x1V8GjdjANTnhP6YXMbgC",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HKsGyRzntjh1UbRZSWh_4",
-        "target": "0-ShORjGnQlAdcwjtxdEB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "i7xIGiXU-k5UIKHIhQPjE",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "soZFqivM3YBuljeX6PoaX",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DG4fi1e5ec2BVckPLsTJS",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Mow7RvropbC4ZGDpcGZmw",
-        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9mFR_ueXbIB2IrkqU2s85",
-        "target": "1PXApuUpPmJjgi12cmWo4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "so95CO6Qw3I0S98ISENS-",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "syV0DT_3ITgIFDbwPts8i",
-        "target": "GISOFMKvnBys0O0IMpz2J",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0NlRczh6ZEaFLlT6LORWz",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uJIqgsqUbE62Tyo3K75Qx",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kLBgy_nxxjE8SxdVi04bq",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vvTmjcWCVclOPY4f_5uB0",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bS7WeVKm2kEElu3sBKcIC",
-        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UIx0XYaOgXXlYbbQtjiPq",
-        "target": "u4nRzWQ4zhDFMOrZ2I_uJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1q9HWgu9jDTK757hTNOmE",
-        "target": "1PXApuUpPmJjgi12cmWo4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gIcJ3bUVQXqO1Wx4gUKd5",
-        "target": "1PXApuUpPmJjgi12cmWo4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "o1wi39VnjnFfWIC8XcuAK",
-        "target": "1PXApuUpPmJjgi12cmWo4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "08XifLQ20c4FKI_4AWNBQ",
-        "target": "274uk28wzxn6EKWQzLpHs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "l7k0qTYe42wYBTlT2-1cy",
-        "target": "274uk28wzxn6EKWQzLpHs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AqwzR8dZKLQIoj_6KKZ3t",
-        "target": "P_Di-XPSDITmU3xKQew8G",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "S0FLE70szSVUPI0CDEQK7",
-        "target": "P_Di-XPSDITmU3xKQew8G",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zAS4YiEJ6VPsyABrkIG8i",
-        "target": "P_Di-XPSDITmU3xKQew8G",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1dfOTOGsOk5XE3bnZs8Ht",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "iVhQnp6hpgVZDNJ0XoVra",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uh67D1u-Iv5cZamRgFEJg",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uXd2B01GVBEQNXQE8RATT",
-        "target": "qeCMw-sJ2FR4UxvU9DDzv",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "p3Frfs6oxpuciUzeCEsvb",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xDgXISgVUMRHh9hu4h6Hl",
-        "target": "VJSIbYJcy2MC6MOFBrqXi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3dC2o3WXdx4plFhDP2Vqk",
-        "target": "P_Di-XPSDITmU3xKQew8G",
-        "type": "subtopic_of"
       }
     ]
   }

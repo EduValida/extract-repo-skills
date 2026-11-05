@@ -3,7 +3,7 @@
     "slug": "leetcode",
     "title": "LeetCode",
     "description": "Step-by-step guide to pass your coding interview",
-    "extracted_at": "2026-10-29T01:04:17.917413+00:00",
+    "extracted_at": "2026-11-05T02:15:12.547639+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/leetcode",
     "total_topics": 21,
     "total_subtopics": 116
@@ -30,8 +30,41 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/leetcode/content/what-is-leetcode@DUZWC157r-xhcJZ__p8wQ.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "HVD9G3JlLBsAg111vQILj",
+            "name": "JavaScript",
+            "type": "subtopic",
+            "description": "JavaScript is a solid choice if you already use it professionally or are preparing for frontend-focused roles. Its array methods and object literals are expressive, and most algorithmic patterns translate naturally to it. The main limitation is that JavaScript lacks a built-in heap or priority queue, so you will need to implement one or use a library when heap problems arise. If you are comfortable with JavaScript and do not want to switch languages just for interviews, it is a perfectly valid choice.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated JavaScript Roadmap",
+                "url": "https://roadmap.sh/javascript"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/javascript@HVD9G3JlLBsAg111vQILj.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "XyRCXhZjQFcDNaUSNNQV-",
+            "name": "Ruby",
+            "type": "subtopic",
+            "description": "Ruby is an expressive, readable language with clean syntax and strong built-in enumerable methods that make array and hash manipulation concise. It is less common in technical interviews than Python, JavaScript, or Java, but it is a valid choice if you use it professionally and are comfortable with it. One practical consideration is that Ruby solutions on LeetCode are sometimes slower than equivalent solutions in compiled languages, which can occasionally cause timeout issues on harder problems. Use Ruby if it is your strongest language, but be aware of this limitation.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Ruby Roadmap",
+                "url": "https://roadmap.sh/ruby"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/ruby@XyRCXhZjQFcDNaUSNNQV-.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "ScTtg57POE0kxlZFxYUCs",
@@ -51,88 +84,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/leetcode/content/what-are-coding-patterns@ScTtg57POE0kxlZFxYUCs.md",
-        "subtopics_count": 0,
-        "subtopics": []
-      },
-      {
-        "id": "SKsKYHmpPBjG9tHHFbTLI",
-        "name": "Pick a language",
-        "type": "topic",
-        "description": "For LeetCode and technical interviews, the language you use matters less than how well you know it. Pick one language and stick with it throughout your preparation. Switching between languages wastes time and splits your focus. What interviewers care about is whether you can write clean, correct code and explain your reasoning clearly. That said, some languages have practical advantages: Python is concise and fast to write, which is helpful under time pressure. Java and C++ are common in companies that care about performance. JavaScript is a natural choice if you are coming from frontend development.",
-        "resources": [],
-        "file_path": "developer-roadmap/roadmaps/leetcode/content/pick-a-language@SKsKYHmpPBjG9tHHFbTLI.md",
-        "subtopics_count": 8,
+        "subtopics_count": 1,
         "subtopics": [
-          {
-            "id": "BZvNEZjCNuHPg5SkX90bt",
-            "name": "Python",
-            "type": "subtopic",
-            "description": "Python is the most popular language for LeetCode preparation and for good reason. Its syntax is concise, its built-in data structures like lists, dictionaries, and sets map directly to the structures you use in almost every problem, and the standard library includes a heap module and collections utilities that save significant time. Writing a sliding window or a DFS in Python requires far fewer lines than in most other languages. If you do not have a strong preference, Python is the recommended default for this roadmap.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Python Roadmap",
-                "url": "https://roadmap.sh/python"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/python@BZvNEZjCNuHPg5SkX90bt.md"
-          },
-          {
-            "id": "HVD9G3JlLBsAg111vQILj",
-            "name": "JavaScript",
-            "type": "subtopic",
-            "description": "JavaScript is a solid choice if you already use it professionally or are preparing for frontend-focused roles. Its array methods and object literals are expressive, and most algorithmic patterns translate naturally to it. The main limitation is that JavaScript lacks a built-in heap or priority queue, so you will need to implement one or use a library when heap problems arise. If you are comfortable with JavaScript and do not want to switch languages just for interviews, it is a perfectly valid choice.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated JavaScript Roadmap",
-                "url": "https://roadmap.sh/javascript"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/javascript@HVD9G3JlLBsAg111vQILj.md"
-          },
-          {
-            "id": "gjZZOwmYkXQHPfg9Ynz80",
-            "name": "Java",
-            "type": "subtopic",
-            "description": "Java is one of the most commonly used interview languages, especially at large companies with backend and enterprise codebases. Its type system is verbose but explicit, and the standard library is comprehensive with well-documented data structures including priority queues, linked lists, and tree maps. Java forces you to think about types and interfaces clearly, which can actually help structure your thinking on harder problems. The main downside for interview prep is boilerplate: simple operations require more lines than in Python or Ruby. If Java is your primary language, it is a strong and widely accepted choice.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Java Roadmap",
-                "url": "https://roadmap.sh/java"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/java@gjZZOwmYkXQHPfg9Ynz80.md"
-          },
-          {
-            "id": "XyRCXhZjQFcDNaUSNNQV-",
-            "name": "Ruby",
-            "type": "subtopic",
-            "description": "Ruby is an expressive, readable language with clean syntax and strong built-in enumerable methods that make array and hash manipulation concise. It is less common in technical interviews than Python, JavaScript, or Java, but it is a valid choice if you use it professionally and are comfortable with it. One practical consideration is that Ruby solutions on LeetCode are sometimes slower than equivalent solutions in compiled languages, which can occasionally cause timeout issues on harder problems. Use Ruby if it is your strongest language, but be aware of this limitation.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Ruby Roadmap",
-                "url": "https://roadmap.sh/ruby"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/ruby@XyRCXhZjQFcDNaUSNNQV-.md"
-          },
-          {
-            "id": "acgRMEuL4ZGGRHpZ7kXSo",
-            "name": "C",
-            "type": "subtopic",
-            "description": "C is a general-purpose, procedural programming language that provides low-level access to system memory and efficient mapping to machine instructions. It is known for its minimalist design, which relies on a simple set of keywords and a straightforward syntax to perform tasks. C remains a foundational language for building operating systems, embedded systems, and high-performance applications where execution speed and resource efficiency are critical.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated C Roadmap",
-                "url": "https://roadmap.sh/c"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/scala@acgRMEuL4ZGGRHpZ7kXSo.md"
-          },
           {
             "id": "IWmq4UFB5j6O3UJfarh1u",
             "name": "C++",
@@ -150,7 +103,68 @@
                 "url": "https://www.learncpp.com/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/c@IWmq4UFB5j6O3UJfarh1u.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/c@IWmq4UFB5j6O3UJfarh1u.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "SKsKYHmpPBjG9tHHFbTLI",
+        "name": "Pick a language",
+        "type": "topic",
+        "description": "For LeetCode and technical interviews, the language you use matters less than how well you know it. Pick one language and stick with it throughout your preparation. Switching between languages wastes time and splits your focus. What interviewers care about is whether you can write clean, correct code and explain your reasoning clearly. That said, some languages have practical advantages: Python is concise and fast to write, which is helpful under time pressure. Java and C++ are common in companies that care about performance. JavaScript is a natural choice if you are coming from frontend development.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/leetcode/content/pick-a-language@SKsKYHmpPBjG9tHHFbTLI.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "BZvNEZjCNuHPg5SkX90bt",
+            "name": "Python",
+            "type": "subtopic",
+            "description": "Python is the most popular language for LeetCode preparation and for good reason. Its syntax is concise, its built-in data structures like lists, dictionaries, and sets map directly to the structures you use in almost every problem, and the standard library includes a heap module and collections utilities that save significant time. Writing a sliding window or a DFS in Python requires far fewer lines than in most other languages. If you do not have a strong preference, Python is the recommended default for this roadmap.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Python Roadmap",
+                "url": "https://roadmap.sh/python"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/python@BZvNEZjCNuHPg5SkX90bt.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "gjZZOwmYkXQHPfg9Ynz80",
+            "name": "Java",
+            "type": "subtopic",
+            "description": "Java is one of the most commonly used interview languages, especially at large companies with backend and enterprise codebases. Its type system is verbose but explicit, and the standard library is comprehensive with well-documented data structures including priority queues, linked lists, and tree maps. Java forces you to think about types and interfaces clearly, which can actually help structure your thinking on harder problems. The main downside for interview prep is boilerplate: simple operations require more lines than in Python or Ruby. If Java is your primary language, it is a strong and widely accepted choice.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Java Roadmap",
+                "url": "https://roadmap.sh/java"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/java@gjZZOwmYkXQHPfg9Ynz80.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "acgRMEuL4ZGGRHpZ7kXSo",
+            "name": "C",
+            "type": "subtopic",
+            "description": "C is a general-purpose, procedural programming language that provides low-level access to system memory and efficient mapping to machine instructions. It is known for its minimalist design, which relies on a simple set of keywords and a straightforward syntax to perform tasks. C remains a foundational language for building operating systems, embedded systems, and high-performance applications where execution speed and resource efficiency are critical.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated C Roadmap",
+                "url": "https://roadmap.sh/c"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/scala@acgRMEuL4ZGGRHpZ7kXSo.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "OkdM_PJge70j5tsjT2Esl",
@@ -164,7 +178,9 @@
                 "url": "https://roadmap.sh/golang"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/go@OkdM_PJge70j5tsjT2Esl.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/go@OkdM_PJge70j5tsjT2Esl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9h1mz0xAUvPrnRm9VndJF",
@@ -178,7 +194,9 @@
                 "url": "https://roadmap.sh/rust"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/rust@9h1mz0xAUvPrnRm9VndJF.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/rust@9h1mz0xAUvPrnRm9VndJF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -229,7 +247,9 @@
                 "url": "https://www.youtube.com/watch?v=aRE7Nxb3Qfs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/two-sum@XbfUbWaGtpcEGa31QyrXN.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/two-sum@XbfUbWaGtpcEGa31QyrXN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "iqR33GoIxK-CJdbatQqg3",
@@ -248,7 +268,9 @@
                 "url": "https://backoffice.roadmap.sh/tree/leetcode"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/valid-anagram@iqR33GoIxK-CJdbatQqg3.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/valid-anagram@iqR33GoIxK-CJdbatQqg3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_wCmBewDz7Qb21u8HSZtp",
@@ -267,7 +289,9 @@
                 "url": "https://www.youtube.com/watch?v=a1_r3cLQ6wg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/contains-duplicate@_wCmBewDz7Qb21u8HSZtp.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/contains-duplicate@_wCmBewDz7Qb21u8HSZtp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "p7_B-NIBlqyKzR2PkrVWC",
@@ -286,7 +310,9 @@
                 "url": "https://www.youtube.com/watch?v=eDmxPfVa81k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/group-anagrams@p7_B-NIBlqyKzR2PkrVWC.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/group-anagrams@p7_B-NIBlqyKzR2PkrVWC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-RjNtskTl7CZYWUpQ6YPh",
@@ -305,7 +331,9 @@
                 "url": "https://www.youtube.com/watch?v=6_v6OoxvMOE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/top-k-frequent-elements@-RjNtskTl7CZYWUpQ6YPh.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/top-k-frequent-elements@-RjNtskTl7CZYWUpQ6YPh.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JtV6pQzvcXFoNG01tx9pq",
@@ -339,7 +367,9 @@
                 "url": "https://leetcode.com/problems/majority-element/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@JtV6pQzvcXFoNG01tx9pq.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@JtV6pQzvcXFoNG01tx9pq.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -385,7 +415,9 @@
                 "url": "https://www.youtube.com/watch?v=rYyn9Vc-dBQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/valid-palindrome@x6-LRp_zgv3WNE-gsS3Cw.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/valid-palindrome@x6-LRp_zgv3WNE-gsS3Cw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "yis4-_D0GREukouiRcCwC",
@@ -409,7 +441,9 @@
                 "url": "https://www.youtube.com/watch?v=cRBSOz49fQk&t=39s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/3sum@yis4-_D0GREukouiRcCwC.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/3sum@yis4-_D0GREukouiRcCwC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YxfJQl5bHYnhryt9RooV0",
@@ -433,7 +467,9 @@
                 "url": "https://www.youtube.com/watch?v=mVkyZzmuQmg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/container-with-most-water@YxfJQl5bHYnhryt9RooV0.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/container-with-most-water@YxfJQl5bHYnhryt9RooV0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "GuWseHiGMKbBqkYKrZNuT",
@@ -457,7 +493,9 @@
                 "url": "https://www.youtube.com/watch?v=KFdHpOlz8hs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/trapping-rain-water@GuWseHiGMKbBqkYKrZNuT.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/trapping-rain-water@GuWseHiGMKbBqkYKrZNuT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "vTpv8AliKFv0Sf13PmVCo",
@@ -476,7 +514,9 @@
                 "url": "https://www.youtube.com/watch?v=ciPrKYoOQkI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/two-sum-ii@vTpv8AliKFv0Sf13PmVCo.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/two-sum-ii@vTpv8AliKFv0Sf13PmVCo.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NFOzXHoSHj1_2_isVifsY",
@@ -510,7 +550,9 @@
                 "url": "https://leetcode.com/problems/4sum/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@NFOzXHoSHj1_2_isVifsY.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@NFOzXHoSHj1_2_isVifsY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -556,7 +598,9 @@
                 "url": "https://www.youtube.com/watch?v=7-_V-ufnF4c"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/valid-parentheses@YNt85B--HBS2IKDFVLJpx.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/valid-parentheses@YNt85B--HBS2IKDFVLJpx.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XjJhO0gX0Dw8yF09TnJwK",
@@ -580,7 +624,9 @@
                 "url": "https://www.youtube.com/watch?v=RfMroCV17-4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/min-stack@XjJhO0gX0Dw8yF09TnJwK.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/min-stack@XjJhO0gX0Dw8yF09TnJwK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "pMCIlFk-XfN91VNYtWjXq",
@@ -604,7 +650,9 @@
                 "url": "https://www.youtube.com/watch?v=_ZEvmycwXHs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/daily-temperatures@pMCIlFk-XfN91VNYtWjXq.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/daily-temperatures@pMCIlFk-XfN91VNYtWjXq.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-dW4-xzasJY2CrwS2PyhN",
@@ -628,7 +676,9 @@
                 "url": "https://www.youtube.com/watch?v=oC4saZRNwfI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/generate-parentheses@-dW4-xzasJY2CrwS2PyhN.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/generate-parentheses@-dW4-xzasJY2CrwS2PyhN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zLM5eW7hZ7TrUzyNpvMyG",
@@ -652,7 +702,9 @@
                 "url": "https://www.youtube.com/watch?v=Bzat9vgD0fs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/largest-rectangle-in-hist@zLM5eW7hZ7TrUzyNpvMyG.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/largest-rectangle-in-hist@zLM5eW7hZ7TrUzyNpvMyG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VpquOgXr8OG_jLkeDSk3H",
@@ -686,7 +738,9 @@
                 "url": "https://leetcode.com/problems/next-greater-element-i/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@VpquOgXr8OG_jLkeDSk3H.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@VpquOgXr8OG_jLkeDSk3H.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -727,7 +781,9 @@
                 "url": "https://www.youtube.com/watch?v=B7lMQIcIyN4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/binary-search@kxvOWb6wyF8GWarP6jrqK.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/binary-search@kxvOWb6wyF8GWarP6jrqK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aDKtHMczSpCIT-ST0irRa",
@@ -751,7 +807,9 @@
                 "url": "https://www.youtube.com/watch?v=4Ik1nCLjwcI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/search-in-rotated-array@aDKtHMczSpCIT-ST0irRa.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/search-in-rotated-array@aDKtHMczSpCIT-ST0irRa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XYTIX8oNH3qCmXjRbycDi",
@@ -775,7 +833,9 @@
                 "url": "https://www.youtube.com/watch?v=H2U24n4bcQQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/minimum-in-rotated-array@XYTIX8oNH3qCmXjRbycDi.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/minimum-in-rotated-array@XYTIX8oNH3qCmXjRbycDi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wyU9wyyQ54KgMeRsbS9AM",
@@ -799,7 +859,9 @@
                 "url": "https://www.youtube.com/watch?v=qyfekrNni90"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/koko-eating-bananas@wyU9wyyQ54KgMeRsbS9AM.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/koko-eating-bananas@wyU9wyyQ54KgMeRsbS9AM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kV9z7UQsYFMR6umo0fDM1",
@@ -823,7 +885,9 @@
                 "url": "http://youtube.com/watch?v=eUvfNcHhi5o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/median-of-two-arrays@kV9z7UQsYFMR6umo0fDM1.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/median-of-two-arrays@kV9z7UQsYFMR6umo0fDM1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "2r0q7Gic8orJx2w28OH_I",
@@ -857,7 +921,9 @@
                 "url": "https://leetcode.com/problems/find-peak-element/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@2r0q7Gic8orJx2w28OH_I.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@2r0q7Gic8orJx2w28OH_I.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -903,7 +969,9 @@
                 "url": "https://www.youtube.com/watch?v=kJZrMGpyWpk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/best-time-to-buy-and-sell@K7qTp-hRmxxVLYvr4ftr7.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/best-time-to-buy-and-sell@K7qTp-hRmxxVLYvr4ftr7.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wnHn7ooWZSUfk3HahuyG6",
@@ -927,7 +995,9 @@
                 "url": "https://www.youtube.com/watch?v=V3lL9RaZKaA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/substring-without-repetition@wnHn7ooWZSUfk3HahuyG6.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/substring-without-repetition@wnHn7ooWZSUfk3HahuyG6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "P7scdQHmNUPA6UI36yBtL",
@@ -951,7 +1021,9 @@
                 "url": "https://www.youtube.com/watch?v=WJaij9ffOIY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/minimum-window-substring@P7scdQHmNUPA6UI36yBtL.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/minimum-window-substring@P7scdQHmNUPA6UI36yBtL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aLQVocF91X1-IrTP7Vb_b",
@@ -975,7 +1047,9 @@
                 "url": "https://www.youtube.com/watch?v=tkNWKvxI3mU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/character-replacement@aLQVocF91X1-IrTP7Vb_b.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/character-replacement@aLQVocF91X1-IrTP7Vb_b.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zIpM4hiGUSXwkokZFRzSB",
@@ -999,7 +1073,9 @@
                 "url": "https://www.youtube.com/watch?v=5VjQD62gOYA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/sliding-window-maximum@zIpM4hiGUSXwkokZFRzSB.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/sliding-window-maximum@zIpM4hiGUSXwkokZFRzSB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "AMT2zQPDlKUm-d2vT1Sae",
@@ -1033,7 +1109,9 @@
                 "url": "https://leetcode.com/problems/max-consecutive-ones-iii/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@AMT2zQPDlKUm-d2vT1Sae.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@AMT2zQPDlKUm-d2vT1Sae.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1094,7 +1172,9 @@
                 "url": "https://www.youtube.com/watch?v=NhapasNIKuQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/reverse-linked-list@0P0VTUhQxWj0BGygtuKYJ.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/reverse-linked-list@0P0VTUhQxWj0BGygtuKYJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qEYz2Dj1hqLDBFWYX7XmE",
@@ -1118,7 +1198,9 @@
                 "url": "https://www.youtube.com/watch?v=5Rec4JS9H5o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-two-sorted-lists@qEYz2Dj1hqLDBFWYX7XmE.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-two-sorted-lists@qEYz2Dj1hqLDBFWYX7XmE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qAWeeYfvFD8-LTZgZ2LVa",
@@ -1147,7 +1229,9 @@
                 "url": "https://www.youtube.com/watch?v=y-ckZ2hpC8Y"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/linked-list-cycle@qAWeeYfvFD8-LTZgZ2LVa.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/linked-list-cycle@qAWeeYfvFD8-LTZgZ2LVa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "FYgKuhnZ20g6-v4UrQDJc",
@@ -1171,7 +1255,9 @@
                 "url": "https://www.youtube.com/watch?v=Pno7rUOZM-o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/reorder-list@FYgKuhnZ20g6-v4UrQDJc.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/reorder-list@FYgKuhnZ20g6-v4UrQDJc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eHnN9thTtLPIUtz9Z28OL",
@@ -1195,7 +1281,9 @@
                 "url": "https://www.youtube.com/watch?v=ptYUCjfNhJY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-k-sorted-lists@eHnN9thTtLPIUtz9Z28OL.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-k-sorted-lists@eHnN9thTtLPIUtz9Z28OL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Ur6eSm0t-jQD2j710Vc89",
@@ -1229,7 +1317,9 @@
                 "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@Ur6eSm0t-jQD2j710Vc89.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@Ur6eSm0t-jQD2j710Vc89.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1285,7 +1375,9 @@
                 "url": "http://youtube.com/watch?v=2_tm34ZtYT4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/binary-tree-level-order@7ac9oA-reXh7xFHj3LRX0.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/binary-tree-level-order@7ac9oA-reXh7xFHj3LRX0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3ny1naGanScRUAOv2IiYz",
@@ -1309,11 +1401,13 @@
                 "url": "https://www.youtube.com/watch?v=ScvTcU2Aifs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/maximum-depth-of-binary-tree@3ny1naGanScRUAOv2IiYz.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/maximum-depth-of-binary-tree@3ny1naGanScRUAOv2IiYz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "cHPRRjBTrznI6UBC-WQP6",
-            "name": "Lowest Common Ancestor ",
+            "name": "Lowest Common Ancestor",
             "type": "subtopic",
             "description": "Given a BST and two nodes, find their lowest common ancestor. Because it is a BST, you can use the values to decide whether to go left, right, or stop: the ancestor is where the two nodes diverge. This problem teaches you to exploit BST ordering as a navigation tool, rather than doing a general tree search.",
             "resources": [
@@ -1333,7 +1427,9 @@
                 "url": "https://www.youtube.com/watch?v=r6AXIfdi9oQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/lowest-common-ancestor@cHPRRjBTrznI6UBC-WQP6.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/lowest-common-ancestor@cHPRRjBTrznI6UBC-WQP6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5htwCuI4Dz_G2ar1enQZv",
@@ -1357,11 +1453,13 @@
                 "url": "https://www.youtube.com/watch?v=mOdetMWwtoI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/binary-tree-maximum-path-sum@5htwCuI4Dz_G2ar1enQZv.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/binary-tree-maximum-path-sum@5htwCuI4Dz_G2ar1enQZv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DH3ZU-8q765Kjm7SIu_qP",
-            "name": "Serialize and Deserialize ",
+            "name": "Serialize and Deserialize",
             "type": "subtopic",
             "description": "Design an algorithm to convert a binary tree to a string and reconstruct it exactly from that string. One approach uses BFS level-order, encoding null pointers explicitly so the structure can be recovered. This problem teaches you that tree traversal is not just for reading trees but also for encoding and rebuilding them, a fundamental idea in tree design problems.",
             "resources": [
@@ -1376,7 +1474,9 @@
                 "url": "https://www.youtube.com/watch?v=Q9DrSCqg1rw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/serialize-and-deserialize@DH3ZU-8q765Kjm7SIu_qP.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/serialize-and-deserialize@DH3ZU-8q765Kjm7SIu_qP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XjViEOLzyd_BK9dhgNtdK",
@@ -1410,7 +1510,9 @@
                 "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@XjViEOLzyd_BK9dhgNtdK.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@XjViEOLzyd_BK9dhgNtdK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1461,7 +1563,9 @@
                 "url": "https://www.youtube.com/watch?v=ZmGk7h8KZLs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/kth-largest-element-in-an-array@tMvbBpZDawi2RjSFgOaWc.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/kth-largest-element-in-an-array@tMvbBpZDawi2RjSFgOaWc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "iou03PtccY58DXKHARz_P",
@@ -1485,7 +1589,9 @@
                 "url": "https://www.youtube.com/watch?v=IGRUukbD6p8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/k-closest-points-to-origin@iou03PtccY58DXKHARz_P.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/k-closest-points-to-origin@iou03PtccY58DXKHARz_P.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "HLTc2xupm-CNM9rgzrcwS",
@@ -1509,7 +1615,9 @@
                 "url": "https://www.youtube.com/watch?v=CHlCkJadQ7o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/task-scheduler@HLTc2xupm-CNM9rgzrcwS.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/task-scheduler@HLTc2xupm-CNM9rgzrcwS.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CJ8Hk6XfXuLHmBO6xdUv6",
@@ -1528,7 +1636,9 @@
                 "url": "https://www.youtube.com/watch?v=SdURPlHqc1g"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/find-median-from-data-stream@CJ8Hk6XfXuLHmBO6xdUv6.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/find-median-from-data-stream@CJ8Hk6XfXuLHmBO6xdUv6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EC2dVHYWqGnu_1HmBeAPT",
@@ -1552,7 +1662,9 @@
                 "url": "https://www.youtube.com/watch?v=RyrVWP76lVo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-k-sorted-lists@EC2dVHYWqGnu_1HmBeAPT.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-k-sorted-lists@EC2dVHYWqGnu_1HmBeAPT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "2vhZHAKoFeNoi1utHcPPw",
@@ -1586,7 +1698,9 @@
                 "url": "https://leetcode.com/problems/sliding-window-median/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@2vhZHAKoFeNoi1utHcPPw.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@2vhZHAKoFeNoi1utHcPPw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1637,7 +1751,9 @@
                 "url": "https://www.youtube.com/watch?v=UP3dOYJa05s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/subsets@2AfJtRru4gll77Vl-6IJM.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/subsets@2AfJtRru4gll77Vl-6IJM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "P0ODrjdYJGSHvn02sjWIe",
@@ -1661,7 +1777,9 @@
                 "url": "https://www.youtube.com/watch?v=utBw5FbYswk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/combination-sum@P0ODrjdYJGSHvn02sjWIe.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/combination-sum@P0ODrjdYJGSHvn02sjWIe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-9-5g5Qyb3JiSwEfabmRD",
@@ -1685,7 +1803,9 @@
                 "url": "https://www.youtube.com/watch?v=gFm1lEfnzUQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/permutations@-9-5g5Qyb3JiSwEfabmRD.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/permutations@-9-5g5Qyb3JiSwEfabmRD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "boJmdiyIgbV61MDKsB-k-",
@@ -1709,7 +1829,9 @@
                 "url": "https://www.youtube.com/watch?v=Sn2DqF-S2h8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-search@boJmdiyIgbV61MDKsB-k-.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-search@boJmdiyIgbV61MDKsB-k-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fBtsnKP5n3WBjMycwIfir",
@@ -1728,7 +1850,9 @@
                 "url": "https://www.youtube.com/watch?v=wGbuCyNpxIg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/n-queens@fBtsnKP5n3WBjMycwIfir.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/n-queens@fBtsnKP5n3WBjMycwIfir.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "G1SqIZkN9dBKsv2LxqP8D",
@@ -1762,7 +1886,9 @@
                 "url": "https://leetcode.com/problems/sudoku-solver/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@G1SqIZkN9dBKsv2LxqP8D.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@G1SqIZkN9dBKsv2LxqP8D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1808,7 +1934,9 @@
                 "url": "https://www.youtube.com/watch?v=8mhw5WT2x0U"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/implement-trie@_zumaNoKiaD4zS3wntAsd.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/implement-trie@_zumaNoKiaD4zS3wntAsd.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "xRqfE6liWrkLOVqqkXtjy",
@@ -1832,7 +1960,9 @@
                 "url": "https://www.youtube.com/watch?v=wyUO7Oq9uS4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/design-add-and-search-words@xRqfE6liWrkLOVqqkXtjy.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/design-add-and-search-words@xRqfE6liWrkLOVqqkXtjy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "46Y-wvaUJZwd32mRqrRix",
@@ -1851,7 +1981,9 @@
                 "url": "https://www.youtube.com/watch?v=EmvsBM7o-5k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-search-ii@46Y-wvaUJZwd32mRqrRix.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-search-ii@46Y-wvaUJZwd32mRqrRix.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "8HrT_SZWMlscj13G0gIID",
@@ -1875,7 +2007,9 @@
                 "url": "https://www.youtube.com/watch?v=bl8ue-dTxgs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/longest-common-prefix@8HrT_SZWMlscj13G0gIID.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/longest-common-prefix@8HrT_SZWMlscj13G0gIID.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IINhLJ2evjsS_v2DH3AA1",
@@ -1899,7 +2033,9 @@
                 "url": "https://www.youtube.com/watch?v=HdQeNCwE2tU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/replace-words@IINhLJ2evjsS_v2DH3AA1.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/replace-words@IINhLJ2evjsS_v2DH3AA1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "y-quVGz8J5Rmz2ixUFwBI",
@@ -1933,7 +2069,9 @@
                 "url": "https://leetcode.com/problems/search-suggestions-system/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@y-quVGz8J5Rmz2ixUFwBI.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@y-quVGz8J5Rmz2ixUFwBI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1979,7 +2117,9 @@
                 "url": "https://www.youtube.com/watch?v=gCswsDauXPc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/number-of-islands@LInRfygQmBDTFbezzM97o.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/number-of-islands@LInRfygQmBDTFbezzM97o.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WO238sUhvIiZHdLF6Kmfl",
@@ -2003,7 +2143,9 @@
                 "url": "https://www.youtube.com/watch?v=wWE7YzuBBkE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/clone-graph@WO238sUhvIiZHdLF6Kmfl.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/clone-graph@WO238sUhvIiZHdLF6Kmfl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "mhSb4eQV970bLlOfFg84p",
@@ -2022,7 +2164,9 @@
                 "url": "https://www.youtube.com/watch?v=pDvvDvgHUKE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/pacific-atlantic-water-flow@mhSb4eQV970bLlOfFg84p.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/pacific-atlantic-water-flow@mhSb4eQV970bLlOfFg84p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CLOI_M9A3D1UFavCYKCSE",
@@ -2046,7 +2190,9 @@
                 "url": "https://www.youtube.com/watch?v=nz5V5pOiT8w"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/course-schedule@CLOI_M9A3D1UFavCYKCSE.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/course-schedule@CLOI_M9A3D1UFavCYKCSE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "J8YZFOS2sVwILJWdUphIU",
@@ -2070,7 +2216,9 @@
                 "url": "https://www.youtube.com/watch?v=ZVJ3asMoZ18"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-ladder@J8YZFOS2sVwILJWdUphIU.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-ladder@J8YZFOS2sVwILJWdUphIU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Q0AxfKbRuyY5rY2pO5xcP",
@@ -2104,7 +2252,9 @@
                 "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@Q0AxfKbRuyY5rY2pO5xcP.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@Q0AxfKbRuyY5rY2pO5xcP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2139,7 +2289,9 @@
                 "url": "https://www.youtube.com/watch?v=YHx6r9pM5e0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/network-delay-time@zSqCHDbPvWsDRtEURoVNK.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/network-delay-time@zSqCHDbPvWsDRtEURoVNK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5NxA27PJ7_pN40xzd7Slp",
@@ -2163,7 +2315,9 @@
                 "url": "https://www.youtube.com/watch?v=8VPIrqwQ8sQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/min-cost-to-connect-all-points@5NxA27PJ7_pN40xzd7Slp.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/min-cost-to-connect-all-points@5NxA27PJ7_pN40xzd7Slp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ijY7CmX7wD5uP_6WwO97H",
@@ -2187,7 +2341,9 @@
                 "url": "https://www.youtube.com/watch?v=Jbb9qNIAyg0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/cheapest-flights-within-k-stops@ijY7CmX7wD5uP_6WwO97H.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/cheapest-flights-within-k-stops@ijY7CmX7wD5uP_6WwO97H.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0x9RwyrxbUZj30e-tMdWP",
@@ -2211,7 +2367,9 @@
                 "url": "https://www.youtube.com/watch?v=9WYhuzn8hd8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/swim-in-rising-water@0x9RwyrxbUZj30e-tMdWP.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/swim-in-rising-water@0x9RwyrxbUZj30e-tMdWP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Edk5ydpwut57XDc08QEgc",
@@ -2235,7 +2393,9 @@
                 "url": "https://www.youtube.com/watch?v=iHhNWam4BSM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/reconstruct-itinerary@Edk5ydpwut57XDc08QEgc.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/reconstruct-itinerary@Edk5ydpwut57XDc08QEgc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "i4A57jKrkhlw-jW3i3HSi",
@@ -2269,7 +2429,9 @@
                 "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@i4A57jKrkhlw-jW3i3HSi.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@i4A57jKrkhlw-jW3i3HSi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2315,7 +2477,9 @@
                 "url": "https://www.youtube.com/watch?v=Ifek5h5VqJw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/climbing-stairs@bXcvRnpO1aVN8XLLTSghB.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/climbing-stairs@bXcvRnpO1aVN8XLLTSghB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "GeLGoM3ocxZ-gjMUes4sE",
@@ -2339,7 +2503,9 @@
                 "url": "https://www.youtube.com/watch?v=kIII1uT6F8Y"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/house-robber@GeLGoM3ocxZ-gjMUes4sE.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/house-robber@GeLGoM3ocxZ-gjMUes4sE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WtOHLWoHNkE9JdxtmBlwC",
@@ -2363,7 +2529,9 @@
                 "url": "https://www.youtube.com/watch?v=Z6fauIHQiUk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/coin-change@WtOHLWoHNkE9JdxtmBlwC.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/coin-change@WtOHLWoHNkE9JdxtmBlwC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "h9yvrxDYEZ9mCqbeKoPEu",
@@ -2387,7 +2555,9 @@
                 "url": "https://www.youtube.com/watch?v=iQP5XFeXiMQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/longest-increasing-subsequ@h9yvrxDYEZ9mCqbeKoPEu.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/longest-increasing-subsequ@h9yvrxDYEZ9mCqbeKoPEu.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "1i59D4ME10oOkxthILaNP",
@@ -2411,7 +2581,9 @@
                 "url": "https://www.youtube.com/watch?v=TK9pptFzH-A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-break@1i59D4ME10oOkxthILaNP.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/word-break@1i59D4ME10oOkxthILaNP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EBqzxy-2FWK4FwHyNKVHP",
@@ -2445,7 +2617,9 @@
                 "url": "https://leetcode.com/problems/maximum-product-subarray/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@EBqzxy-2FWK4FwHyNKVHP.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@EBqzxy-2FWK4FwHyNKVHP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2491,7 +2665,9 @@
                 "url": "https://www.youtube.com/watch?v=Ee-rJmkwaTM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/unique-paths@xhEBSwgHsrCQolM9UvJ-c.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/unique-paths@xhEBSwgHsrCQolM9UvJ-c.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "iodbhwYOWDM5JTaaqG4-m",
@@ -2515,7 +2691,9 @@
                 "url": "https://www.youtube.com/watch?v=4ClOkX0SWW4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/longest-common-subsequence@iodbhwYOWDM5JTaaqG4-m.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/longest-common-subsequence@iodbhwYOWDM5JTaaqG4-m.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "xemUw3R72U4hvgHSOcaMg",
@@ -2539,7 +2717,9 @@
                 "url": "https://www.youtube.com/watch?v=c3KYnQ-VEhs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/edit-distance@xemUw3R72U4hvgHSOcaMg.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/edit-distance@xemUw3R72U4hvgHSOcaMg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ImPbL26vNvxvPm4Kg5Vpl",
@@ -2563,7 +2743,9 @@
                 "url": "https://www.youtube.com/watch?v=o3-PUPXiVfI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/burst-balloons@ImPbL26vNvxvPm4Kg5Vpl.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/burst-balloons@ImPbL26vNvxvPm4Kg5Vpl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XTDdSFywX863IErL0rmc6",
@@ -2587,7 +2769,9 @@
                 "url": "https://www.youtube.com/watch?v=3vbBrl-LeDc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/regular-expression-matching@XTDdSFywX863IErL0rmc6.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/regular-expression-matching@XTDdSFywX863IErL0rmc6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "licG83FALxf4jPOV7v_an",
@@ -2621,7 +2805,9 @@
                 "url": "https://leetcode.com/problems/distinct-subsequences/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@licG83FALxf4jPOV7v_an.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@licG83FALxf4jPOV7v_an.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2667,7 +2853,9 @@
                 "url": "https://www.youtube.com/watch?v=Gtugy3mRV-A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/jump-game@so5popgQyB5vNRz_NYxo6.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/jump-game@so5popgQyB5vNRz_NYxo6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "gJ1O1H12KoNejTV_q0dsf",
@@ -2691,7 +2879,9 @@
                 "url": "https://www.youtube.com/watch?v=CsDI-yQuGeM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/jump-game-ii@gJ1O1H12KoNejTV_q0dsf.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/jump-game-ii@gJ1O1H12KoNejTV_q0dsf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "UWJLu3cfCGo487MOeu63T",
@@ -2715,7 +2905,9 @@
                 "url": "https://www.youtube.com/watch?v=9h-2YiTNam4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/gas-station@UWJLu3cfCGo487MOeu63T.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/gas-station@UWJLu3cfCGo487MOeu63T.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "V7pvMzno_woUHHSfLTv7q",
@@ -2739,7 +2931,9 @@
                 "url": "https://www.youtube.com/watch?v=5NCjHqx2v-k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/partition-labels@V7pvMzno_woUHHSfLTv7q.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/partition-labels@V7pvMzno_woUHHSfLTv7q.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Mc1jQ5_-trqgCckM23cjQ",
@@ -2763,7 +2957,9 @@
                 "url": "https://www.youtube.com/watch?v=XsrJgwGlRoc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/non-overlapping-intervals@Mc1jQ5_-trqgCckM23cjQ.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/non-overlapping-intervals@Mc1jQ5_-trqgCckM23cjQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KHLCYCZqfXqVlHAs7YVHv",
@@ -2797,7 +2993,9 @@
                 "url": "https://leetcode.com/problems/ipo/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@KHLCYCZqfXqVlHAs7YVHv.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@KHLCYCZqfXqVlHAs7YVHv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2838,7 +3036,9 @@
                 "url": "https://www.youtube.com/watch?v=iT9_MU2L3H0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-intervals@JsjPXTe3Zp5E7vCWUMeSe.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/merge-intervals@JsjPXTe3Zp5E7vCWUMeSe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "BhiAYH1ug08LnPH8DtR1D",
@@ -2862,7 +3062,9 @@
                 "url": "https://www.youtube.com/watch?v=wCBtjZxw1xY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/insert-interval@BhiAYH1ug08LnPH8DtR1D.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/insert-interval@BhiAYH1ug08LnPH8DtR1D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "k0XOp6P-EIyRKrSbsgr0w",
@@ -2886,7 +3088,9 @@
                 "url": "https://www.youtube.com/watch?v=2LUQ6tBdGxo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/non-overlapping-intervals@k0XOp6P-EIyRKrSbsgr0w.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/non-overlapping-intervals@k0XOp6P-EIyRKrSbsgr0w.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9evXTNz1IVOnqWCQ7L5BW",
@@ -2910,7 +3114,9 @@
                 "url": "https://www.youtube.com/watch?v=5nqLIwo0oC0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/meeting-rooms@9evXTNz1IVOnqWCQ7L5BW.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/meeting-rooms@9evXTNz1IVOnqWCQ7L5BW.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eYPhWnyTPhfbXco_G4bN_",
@@ -2929,7 +3135,9 @@
                 "url": "https://www.youtube.com/watch?v=FZtDTYzVUhU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/min-interval-to-include-query@eYPhWnyTPhfbXco_G4bN_.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/min-interval-to-include-query@eYPhWnyTPhfbXco_G4bN_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Q-vNw7YUh-4U6im7nrHe8",
@@ -2963,7 +3171,9 @@
                 "url": "https://leetcode.com/problems/my-calendar-i/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@Q-vNw7YUh-4U6im7nrHe8.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@Q-vNw7YUh-4U6im7nrHe8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -3014,7 +3224,9 @@
                 "url": "https://www.youtube.com/watch?v=mriHA5vEh0A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/single-number@4UGevGjQBhbISeh_5bm_e.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/single-number@4UGevGjQBhbISeh_5bm_e.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XzQHEP8HYq_vYFWLon4rI",
@@ -3038,7 +3250,9 @@
                 "url": "https://www.youtube.com/watch?v=1JfdvPk-iHg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/number-of-1-bits@XzQHEP8HYq_vYFWLon4rI.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/number-of-1-bits@XzQHEP8HYq_vYFWLon4rI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "jZscKonByp5QDMcXUA50W",
@@ -3062,7 +3276,9 @@
                 "url": "https://www.youtube.com/watch?v=awxaRgUB4Kw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/counting-bits@jZscKonByp5QDMcXUA50W.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/counting-bits@jZscKonByp5QDMcXUA50W.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KHR39YdCVeSGJtHrcLJyT",
@@ -3086,7 +3302,9 @@
                 "url": "https://www.youtube.com/watch?v=-5z9dimxxmI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/reverse-bits@KHR39YdCVeSGJtHrcLJyT.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/reverse-bits@KHR39YdCVeSGJtHrcLJyT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "cUgRS-8TyPT98LemGFBf3",
@@ -3110,7 +3328,9 @@
                 "url": "https://www.youtube.com/watch?v=6vETcY7qfEo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/sum-of-two-integers@cUgRS-8TyPT98LemGFBf3.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/sum-of-two-integers@cUgRS-8TyPT98LemGFBf3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "awYK5VUD2HS9ywJQfFYU7",
@@ -3144,7 +3364,9 @@
                 "url": "https://leetcode.com/problems/single-number-ii/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@awYK5VUD2HS9ywJQfFYU7.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-exercises@awYK5VUD2HS9ywJQfFYU7.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -3185,7 +3407,9 @@
                 "url": "https://www.youtube.com/watch?v=-jhbxNJijyE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/rotate-image@P9U_DFbutAYwQGZjjf-oP.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/rotate-image@P9U_DFbutAYwQGZjjf-oP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "H6lLJWRhjRVq5ZqKEJ8bL",
@@ -3209,7 +3433,9 @@
                 "url": "https://www.youtube.com/watch?v=fcn8qkRcFVM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/spiral-matrix@H6lLJWRhjRVq5ZqKEJ8bL.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/spiral-matrix@H6lLJWRhjRVq5ZqKEJ8bL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ScROycnqOk2U2GW-Ghy2W",
@@ -3233,7 +3459,9 @@
                 "url": "https://www.youtube.com/watch?v=dSxt3ZCbIqA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/set-matrix-zeroes@ScROycnqOk2U2GW-Ghy2W.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/set-matrix-zeroes@ScROycnqOk2U2GW-Ghy2W.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VVB6zLZG6IxB4LQg8jIYT",
@@ -3257,7 +3485,9 @@
                 "url": "https://www.youtube.com/watch?v=LkD0D0Xy-ro"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/happy-number@VVB6zLZG6IxB4LQg8jIYT.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/happy-number@VVB6zLZG6IxB4LQg8jIYT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ea7dib41v61Vz--ewLcF4",
@@ -3281,7 +3511,9 @@
                 "url": "https://www.youtube.com/watch?v=bP4lhQP7_ao"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/powx-n@ea7dib41v61Vz--ewLcF4.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/powx-n@ea7dib41v61Vz--ewLcF4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0u8IQZvJV7ORHcBfUBQ7R",
@@ -3315,7 +3547,9 @@
                 "url": "https://leetcode.com/problems/excel-sheet-column-number/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@0u8IQZvJV7ORHcBfUBQ7R.md"
+            "file_path": "developer-roadmap/roadmaps/leetcode/content/more-excersises@0u8IQZvJV7ORHcBfUBQ7R.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -3342,6 +3576,32 @@
         ]
       },
       {
+        "id": "HVD9G3JlLBsAg111vQILj",
+        "name": "JavaScript",
+        "type": "subtopic",
+        "description": "JavaScript is a solid choice if you already use it professionally or are preparing for frontend-focused roles. Its array methods and object literals are expressive, and most algorithmic patterns translate naturally to it. The main limitation is that JavaScript lacks a built-in heap or priority queue, so you will need to implement one or use a library when heap problems arise. If you are comfortable with JavaScript and do not want to switch languages just for interviews, it is a perfectly valid choice.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript"
+          }
+        ]
+      },
+      {
+        "id": "XyRCXhZjQFcDNaUSNNQV-",
+        "name": "Ruby",
+        "type": "subtopic",
+        "description": "Ruby is an expressive, readable language with clean syntax and strong built-in enumerable methods that make array and hash manipulation concise. It is less common in technical interviews than Python, JavaScript, or Java, but it is a valid choice if you use it professionally and are comfortable with it. One practical consideration is that Ruby solutions on LeetCode are sometimes slower than equivalent solutions in compiled languages, which can occasionally cause timeout issues on harder problems. Use Ruby if it is your strongest language, but be aware of this limitation.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Ruby Roadmap",
+            "url": "https://roadmap.sh/ruby"
+          }
+        ]
+      },
+      {
         "id": "ScTtg57POE0kxlZFxYUCs",
         "name": "What are coding patterns?",
         "type": "topic",
@@ -3356,6 +3616,24 @@
             "type": "video",
             "title": "Data Structure and Algorithm Patterns for LeetCode Interviews",
             "url": "https://www.youtube.com/watch?v=Z_c4byLrNBU"
+          }
+        ]
+      },
+      {
+        "id": "IWmq4UFB5j6O3UJfarh1u",
+        "name": "C++",
+        "type": "subtopic",
+        "description": "C++ is the language of choice for competitive programmers and is common in companies where raw performance matters, such as systems, gaming, or high-frequency trading. It has the fastest execution time of any commonly used interview language and gives you direct access to the standard template library, which includes a heap, set, map, and many other useful structures. The tradeoff is verbosity and the overhead of managing memory manually in some cases. If you are already proficient in C++, it is an excellent interview language. If you are starting from scratch, the learning curve is steep.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated C++ Roadmap",
+            "url": "https://roadmap.sh/cpp"
+          },
+          {
+            "type": "article",
+            "title": "Learn C++ – Skill up with our free tutorials",
+            "url": "https://www.learncpp.com/"
           }
         ]
       },
@@ -3380,19 +3658,6 @@
         ]
       },
       {
-        "id": "HVD9G3JlLBsAg111vQILj",
-        "name": "JavaScript",
-        "type": "subtopic",
-        "description": "JavaScript is a solid choice if you already use it professionally or are preparing for frontend-focused roles. Its array methods and object literals are expressive, and most algorithmic patterns translate naturally to it. The main limitation is that JavaScript lacks a built-in heap or priority queue, so you will need to implement one or use a library when heap problems arise. If you are comfortable with JavaScript and do not want to switch languages just for interviews, it is a perfectly valid choice.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated JavaScript Roadmap",
-            "url": "https://roadmap.sh/javascript"
-          }
-        ]
-      },
-      {
         "id": "gjZZOwmYkXQHPfg9Ynz80",
         "name": "Java",
         "type": "subtopic",
@@ -3406,19 +3671,6 @@
         ]
       },
       {
-        "id": "XyRCXhZjQFcDNaUSNNQV-",
-        "name": "Ruby",
-        "type": "subtopic",
-        "description": "Ruby is an expressive, readable language with clean syntax and strong built-in enumerable methods that make array and hash manipulation concise. It is less common in technical interviews than Python, JavaScript, or Java, but it is a valid choice if you use it professionally and are comfortable with it. One practical consideration is that Ruby solutions on LeetCode are sometimes slower than equivalent solutions in compiled languages, which can occasionally cause timeout issues on harder problems. Use Ruby if it is your strongest language, but be aware of this limitation.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Ruby Roadmap",
-            "url": "https://roadmap.sh/ruby"
-          }
-        ]
-      },
-      {
         "id": "acgRMEuL4ZGGRHpZ7kXSo",
         "name": "C",
         "type": "subtopic",
@@ -3428,24 +3680,6 @@
             "type": "roadmap",
             "title": "Visit the Dedicated C Roadmap",
             "url": "https://roadmap.sh/c"
-          }
-        ]
-      },
-      {
-        "id": "IWmq4UFB5j6O3UJfarh1u",
-        "name": "C++",
-        "type": "subtopic",
-        "description": "C++ is the language of choice for competitive programmers and is common in companies where raw performance matters, such as systems, gaming, or high-frequency trading. It has the fastest execution time of any commonly used interview language and gives you direct access to the standard template library, which includes a heap, set, map, and many other useful structures. The tradeoff is verbosity and the overhead of managing memory manually in some cases. If you are already proficient in C++, it is an excellent interview language. If you are starting from scratch, the learning curve is steep.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated C++ Roadmap",
-            "url": "https://roadmap.sh/cpp"
-          },
-          {
-            "type": "article",
-            "title": "Learn C++ – Skill up with our free tutorials",
-            "url": "https://www.learncpp.com/"
           }
         ]
       },
@@ -4542,7 +4776,7 @@
       },
       {
         "id": "cHPRRjBTrznI6UBC-WQP6",
-        "name": "Lowest Common Ancestor ",
+        "name": "Lowest Common Ancestor",
         "type": "subtopic",
         "description": "Given a BST and two nodes, find their lowest common ancestor. Because it is a BST, you can use the values to decide whether to go left, right, or stop: the ancestor is where the two nodes diverge. This problem teaches you to exploit BST ordering as a navigation tool, rather than doing a general tree search.",
         "resources": [
@@ -4588,7 +4822,7 @@
       },
       {
         "id": "DH3ZU-8q765Kjm7SIu_qP",
-        "name": "Serialize and Deserialize ",
+        "name": "Serialize and Deserialize",
         "type": "subtopic",
         "description": "Design an algorithm to convert a binary tree to a string and reconstruct it exactly from that string. One approach uses BFS level-order, encoding null pointers explicitly so the structure can be recovered. This problem teaches you that tree traversal is not just for reading trees but also for encoding and rebuilding them, a fundamental idea in tree design problems.",
         "resources": [
@@ -6435,94 +6669,44 @@
     ],
     "edges": [
       {
-        "source": "NHv86YI2-MSH8BkfUsaEx",
-        "target": "Ovs61JkceGbWV3BfUo4Ra",
-        "type": "next_in_flow"
+        "source": "HVD9G3JlLBsAg111vQILj",
+        "target": "DUZWC157r-xhcJZ__p8wQ",
+        "type": "subtopic_of"
       },
       {
-        "source": "Ovs61JkceGbWV3BfUo4Ra",
-        "target": "OkNQABVymkpxvHE7gVids",
-        "type": "next_in_flow"
+        "source": "XyRCXhZjQFcDNaUSNNQV-",
+        "target": "DUZWC157r-xhcJZ__p8wQ",
+        "type": "subtopic_of"
       },
       {
-        "source": "OkNQABVymkpxvHE7gVids",
-        "target": "1boDzMfojddbf1ZwzOvEV",
-        "type": "next_in_flow"
+        "source": "IWmq4UFB5j6O3UJfarh1u",
+        "target": "ScTtg57POE0kxlZFxYUCs",
+        "type": "subtopic_of"
       },
       {
-        "source": "1boDzMfojddbf1ZwzOvEV",
-        "target": "lDT9PtNMP8lSdeH7EVBoH",
-        "type": "next_in_flow"
+        "source": "BZvNEZjCNuHPg5SkX90bt",
+        "target": "SKsKYHmpPBjG9tHHFbTLI",
+        "type": "subtopic_of"
       },
       {
-        "source": "lDT9PtNMP8lSdeH7EVBoH",
-        "target": "PQ31G4_7Y5K6D34hVRyRK",
-        "type": "next_in_flow"
+        "source": "gjZZOwmYkXQHPfg9Ynz80",
+        "target": "SKsKYHmpPBjG9tHHFbTLI",
+        "type": "subtopic_of"
       },
       {
-        "source": "PQ31G4_7Y5K6D34hVRyRK",
-        "target": "mvcSC0kFiD0AT5a2ffU5l",
-        "type": "next_in_flow"
+        "source": "acgRMEuL4ZGGRHpZ7kXSo",
+        "target": "SKsKYHmpPBjG9tHHFbTLI",
+        "type": "subtopic_of"
       },
       {
-        "source": "mvcSC0kFiD0AT5a2ffU5l",
-        "target": "gEZFGJPq0JFjpRwl3z3XK",
-        "type": "next_in_flow"
+        "source": "OkdM_PJge70j5tsjT2Esl",
+        "target": "SKsKYHmpPBjG9tHHFbTLI",
+        "type": "subtopic_of"
       },
       {
-        "source": "gEZFGJPq0JFjpRwl3z3XK",
-        "target": "dmY-zE1Lql_HfTnhMfKMV",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "dmY-zE1Lql_HfTnhMfKMV",
-        "target": "ssT7KZITndEvfyqmjeclx",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "ssT7KZITndEvfyqmjeclx",
-        "target": "jNYQFvR3IafFXbAQHL4bF",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "jNYQFvR3IafFXbAQHL4bF",
-        "target": "sRU06JyWqwCnRDYEAV53L",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "sRU06JyWqwCnRDYEAV53L",
-        "target": "sXyW3ZAURJUze8_g9PvwW",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "sXyW3ZAURJUze8_g9PvwW",
-        "target": "MU6i1n0KKiAU_FkBTB3hW",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "MU6i1n0KKiAU_FkBTB3hW",
-        "target": "zHDAHN1gN5Ofx2eyQg5_7",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "zHDAHN1gN5Ofx2eyQg5_7",
-        "target": "VIXFdmkwl9vw6LyxxoT74",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "VIXFdmkwl9vw6LyxxoT74",
-        "target": "Rx59jh-ynzC5wRGja3jvg",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "SKsKYHmpPBjG9tHHFbTLI",
-        "target": "C4M0XfOtB9_Q8srAJU__A",
-        "type": "next_in_flow"
-      },
-      {
-        "source": "C4M0XfOtB9_Q8srAJU__A",
-        "target": "NHv86YI2-MSH8BkfUsaEx",
-        "type": "next_in_flow"
+        "source": "9h1mz0xAUvPrnRm9VndJF",
+        "target": "SKsKYHmpPBjG9tHHFbTLI",
+        "type": "subtopic_of"
       },
       {
         "source": "XbfUbWaGtpcEGa31QyrXN",
@@ -7065,44 +7249,94 @@
         "type": "subtopic_of"
       },
       {
-        "source": "BZvNEZjCNuHPg5SkX90bt",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "NHv86YI2-MSH8BkfUsaEx",
+        "target": "Ovs61JkceGbWV3BfUo4Ra",
+        "type": "next_in_flow"
       },
       {
-        "source": "gjZZOwmYkXQHPfg9Ynz80",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "Ovs61JkceGbWV3BfUo4Ra",
+        "target": "OkNQABVymkpxvHE7gVids",
+        "type": "next_in_flow"
       },
       {
-        "source": "acgRMEuL4ZGGRHpZ7kXSo",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "OkNQABVymkpxvHE7gVids",
+        "target": "1boDzMfojddbf1ZwzOvEV",
+        "type": "next_in_flow"
       },
       {
-        "source": "OkdM_PJge70j5tsjT2Esl",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "1boDzMfojddbf1ZwzOvEV",
+        "target": "lDT9PtNMP8lSdeH7EVBoH",
+        "type": "next_in_flow"
       },
       {
-        "source": "HVD9G3JlLBsAg111vQILj",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "lDT9PtNMP8lSdeH7EVBoH",
+        "target": "PQ31G4_7Y5K6D34hVRyRK",
+        "type": "next_in_flow"
       },
       {
-        "source": "IWmq4UFB5j6O3UJfarh1u",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "PQ31G4_7Y5K6D34hVRyRK",
+        "target": "mvcSC0kFiD0AT5a2ffU5l",
+        "type": "next_in_flow"
       },
       {
-        "source": "XyRCXhZjQFcDNaUSNNQV-",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "mvcSC0kFiD0AT5a2ffU5l",
+        "target": "gEZFGJPq0JFjpRwl3z3XK",
+        "type": "next_in_flow"
       },
       {
-        "source": "9h1mz0xAUvPrnRm9VndJF",
-        "target": "SKsKYHmpPBjG9tHHFbTLI",
-        "type": "subtopic_of"
+        "source": "gEZFGJPq0JFjpRwl3z3XK",
+        "target": "dmY-zE1Lql_HfTnhMfKMV",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "dmY-zE1Lql_HfTnhMfKMV",
+        "target": "ssT7KZITndEvfyqmjeclx",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "ssT7KZITndEvfyqmjeclx",
+        "target": "jNYQFvR3IafFXbAQHL4bF",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "jNYQFvR3IafFXbAQHL4bF",
+        "target": "sRU06JyWqwCnRDYEAV53L",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "sRU06JyWqwCnRDYEAV53L",
+        "target": "sXyW3ZAURJUze8_g9PvwW",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "sXyW3ZAURJUze8_g9PvwW",
+        "target": "MU6i1n0KKiAU_FkBTB3hW",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "MU6i1n0KKiAU_FkBTB3hW",
+        "target": "zHDAHN1gN5Ofx2eyQg5_7",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "zHDAHN1gN5Ofx2eyQg5_7",
+        "target": "VIXFdmkwl9vw6LyxxoT74",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "VIXFdmkwl9vw6LyxxoT74",
+        "target": "Rx59jh-ynzC5wRGja3jvg",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "SKsKYHmpPBjG9tHHFbTLI",
+        "target": "C4M0XfOtB9_Q8srAJU__A",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "C4M0XfOtB9_Q8srAJU__A",
+        "target": "NHv86YI2-MSH8BkfUsaEx",
+        "type": "next_in_flow"
       }
     ]
   }

@@ -3,10 +3,10 @@
     "slug": "cloud-computing",
     "title": "Cloud Computing",
     "description": "Step-by-Step Guide to becoming a Cloud Computing expert in 2026",
-    "extracted_at": "2026-10-29T01:03:50.230896+00:00",
+    "extracted_at": "2026-11-05T02:14:43.425756+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/cloud-computing",
     "total_topics": 24,
-    "total_subtopics": 93
+    "total_subtopics": 96
   },
   "tree": {
     "title": "Cloud Computing",
@@ -40,449 +40,580 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/cloud-computing/content/introduction@CmpV2Rroh7rgqfc2lRTyL.md",
-        "subtopics_count": 18,
+        "subtopics_count": 2,
         "subtopics": [
           {
-            "id": "h9BCI9D062c6TXWO3jZRU",
-            "name": "Cloud vs On-Premises",
-            "type": "subtopic",
-            "description": "On-premises infrastructure means owning and operating physical servers in your own data center or server room. Cloud infrastructure means renting virtualized resources from a provider who manages the physical layer. The trade-off is control versus convenience: on-premises gives full hardware control and predictable costs at scale, while cloud offers speed, elasticity, and lower upfront investment.",
-            "resources": [
+            "id": "fnygfhaQmDB4DHfOvTtlo",
+            "name": "Basic Terminology",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 16,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "What is On-Premises Data Centers vs. Cloud Computing?",
-                "url": "https://www.hpe.com/uk/en/what-is/on-premises-vs-cloud.html"
+                "id": "tfwWrcTGOEb-VWN523N6v",
+                "name": "Distributed Systems",
+                "type": "subtopic",
+                "description": "",
+                "resources": [],
+                "file_path": null,
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "On Premise vs Cloud : Is Cloud Computing the future?",
-                "url": "https://www.youtube.com/watch?v=FuPh2o-GMDA"
+                "id": "h9BCI9D062c6TXWO3jZRU",
+                "name": "Cloud vs On-Premises",
+                "type": "subtopic",
+                "description": "On-premises infrastructure means owning and operating physical servers in your own data center or server room. Cloud infrastructure means renting virtualized resources from a provider who manages the physical layer. The trade-off is control versus convenience: on-premises gives full hardware control and predictable costs at scale, while cloud offers speed, elasticity, and lower upfront investment.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is On-Premises Data Centers vs. Cloud Computing?",
+                    "url": "https://www.hpe.com/uk/en/what-is/on-premises-vs-cloud.html"
+                  },
+                  {
+                    "type": "video",
+                    "title": "On Premise vs Cloud : Is Cloud Computing the future?",
+                    "url": "https://www.youtube.com/watch?v=FuPh2o-GMDA"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cloud-vs-on-premises@h9BCI9D062c6TXWO3jZRU.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Gt-f9Sa0RxHI-GbU8g7NH",
+                "name": "Region, Availability Zone",
+                "type": "subtopic",
+                "description": "A region is a geographic area where a cloud provider operates one or more data centers, such as us-east-1 or europe-west1. Within a region, availability zones are physically separate data centers connected by low-latency links. Distributing workloads across availability zones protects against single data center failures without the latency of cross-region replication.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "AWS Regions / Availability Zones",
+                    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Regions and zones - GCP",
+                    "url": "https://docs.cloud.google.com/compute/docs/regions-zones"
+                  },
+                  {
+                    "type": "official",
+                    "title": "What are availability zones? - Azure",
+                    "url": "https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview?tabs=azure-cli%2Call"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Geographies, Regions & Availability Zones",
+                    "url": "https://www.youtube.com/watch?v=C-nNw1mGwzE"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/region-availability-zone@Gt-f9Sa0RxHI-GbU8g7NH.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "jvuiicfmxaRpZW_ZOS2jH",
+                "name": "Instance",
+                "type": "subtopic",
+                "description": "An instance is a single virtual server running in the cloud. You choose its size (CPU, memory, storage) from a catalog of instance types and pay for it by the second or hour. Instances are the basic unit of compute in IaaS environments.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is an Instance In Cloud Computing?",
+                    "url": "https://aws.amazon.com/what-is/cloud-instances/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What Is an Instance in Cloud Computing? See How It Powers Your Apps",
+                    "url": "https://visualoneintelligence.com/what-is-an-instance-in-cloud-computing/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Cloud Computing Explained: The Most Important Concepts To Know",
+                    "url": "https://www.youtube.com/watch?v=ZaA0kNm18pE"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/instance@jvuiicfmxaRpZW_ZOS2jH.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "rGvAbV42VkmhN3Z_X0lEc",
+                "name": "Cluster",
+                "type": "subtopic",
+                "description": "A cluster is a group of servers (or instances) that work together as a single system. Clusters are used to distribute workloads, provide redundancy, and scale horizontally. Kubernetes clusters, database clusters, and Hadoop clusters are common examples in cloud environments.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is Cluster Computing?",
+                    "url": "https://aws.amazon.com/what-is/cluster-computing/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What Is Cluster Computing",
+                    "url": "https://expanso.io/blog/cluster-computing-in-cloud-computing/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "How Clusters Work in Distributed Systems: A Deep Dive",
+                    "url": "https://www.youtube.com/watch?v=pjWhtRtaJiA&t=84s"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cluster@rGvAbV42VkmhN3Z_X0lEc.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "M0Py2aGC7Mrka86tq7Lfb",
+                "name": "Workload",
+                "type": "subtopic",
+                "description": "A workload is any application, service, or process running on cloud infrastructure. The term is used to describe what you are running without specifying how: a web application, a batch job, a machine learning training run, and a real-time data pipeline are all workloads. Cloud architecture decisions are often framed around workload characteristics such as latency sensitivity, statefulness, and compute intensity.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What are Cloud Workloads?",
+                    "url": "https://www.hpe.com/int/en/what-is/cloud-workloads.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Cloud Workloads: Types, Common Tasks, and Security Best Practices",
+                    "url": "https://www.aquasec.com/cloud-native-academy/cspm/cloud-workload/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/workload@M0Py2aGC7Mrka86tq7Lfb.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "9xD14Zy5lV6DZMlvz-Ijo",
+                "name": "Multi-Tenancy",
+                "type": "subtopic",
+                "description": "Multi-tenancy means multiple customers share the same physical infrastructure, with each customer's data and workloads isolated from the others. Cloud providers are multi-tenant by default. Isolation is enforced through virtualization, network policies, and IAM controls. Understanding multi-tenancy is important for reasoning about security boundaries and compliance requirements.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is multitenancy? | Multitenant architecture",
+                    "url": "https://www.cloudflare.com/learning/cloud/what-is-multitenancy/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Multitenancy Explained",
+                    "url": "https://www.youtube.com/watch?v=60ccSmOxpMw&t=10s"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/multi-tenancy@9xD14Zy5lV6DZMlvz-Ijo.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "L19SMhSUxAduv8xs5j9Mm",
+                "name": "Elasticity",
+                "type": "subtopic",
+                "description": "Elasticity is the ability of a system to automatically provision and release resources in response to demand. A highly elastic system scales out when traffic increases and scales back in when it drops, paying only for what it uses. Elasticity is one of the defining properties of cloud computing and the basis for auto scaling and serverless architectures.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is elasticity in cloud computing?",
+                    "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-elastic-computing"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is cloud elasticity?",
+                    "url": "https://cloud.google.com/discover/what-is-cloud-elasticity?hl=en"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is Scalability and Elasticity in Cloud Computing?",
+                    "url": "https://www.youtube.com/watch?v=qk_L-a3mCnA&pp=ygUQY2xvdWQgZWxhc3RpY2l0edIHCQksDAGHKiGM7w%3D%3D"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/elasticity@L19SMhSUxAduv8xs5j9Mm.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "7fzvnLgJK4KC77Xf5M24c",
+                "name": "Scalability",
+                "type": "subtopic",
+                "description": "Scalability is the capacity of a system to handle growing demand. Vertical scaling adds more power to a single machine (bigger instance). Horizontal scaling adds more machines. Cloud environments favor horizontal scaling because it avoids single points of failure and can be automated. Scalability is a design property, while elasticity is the mechanism that achieves it dynamically.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "A Word on Scalability",
+                    "url": "https://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Performance vs Scalability",
+                    "url": "https://blog.professorbeekums.com/performance-vs-scalability/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Scalable Architecture: A Definition and How-To Guide",
+                    "url": "https://www.sentinelone.com/blog/scalable-architecture/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Scaling Distributed Systems - Software Architecture Introduction",
+                    "url": "https://www.youtube.com/watch?v=gxfERVP18-g"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/scalability@7fzvnLgJK4KC77Xf5M24c.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "_Tq4N_A7ds7u0wWzK6hoz",
+                "name": "Provisioning",
+                "type": "subtopic",
+                "description": "Provisioning is the process of setting up and configuring cloud resources so they are ready to use. This includes creating instances, allocating storage, configuring networks, and applying security policies. Provisioning can be done manually through a console, programmatically via an API, or declaratively through Infrastructure as Code tools.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is provisioning? - RedHat",
+                    "url": "https://www.redhat.com/en/topics/automation/what-is-provisioning"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is Cloud Provisioning? Process, Types & Best Practices",
+                    "url": "https://spacelift.io/blog/cloud-provisioning"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Open Answers: What is provisioning?",
+                    "url": "https://www.youtube.com/watch?v=hWvDlmhASpk"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/provisioning@_Tq4N_A7ds7u0wWzK6hoz.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "YcSsXeZxpoDlV83vGcYXu",
+                "name": "Latency & Throughput",
+                "type": "subtopic",
+                "description": "Latency is the time it takes for a single request to travel from sender to receiver and back. Throughput is the amount of data or number of requests a system can handle per unit of time. Both are used to measure and design cloud system performance: low-latency systems respond quickly to individual requests, while high-throughput systems handle large volumes of work efficiently.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is Network Latency?",
+                    "url": "https://aws.amazon.com/what-is/latency/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What’s the Difference Between Throughput and Latency?",
+                    "url": "https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is Latency? (In about a minute)",
+                    "url": "https://www.youtube.com/watch?v=S0NKk86HRdg"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/latency--throughput@YcSsXeZxpoDlV83vGcYXu.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "k8RPB21gJRticdeWN_U4F",
+                "name": "Endpoint",
+                "type": "subtopic",
+                "description": "An endpoint is a URL or network address where a service can be reached. Cloud services expose endpoints for APIs, storage buckets, databases, and load balancers. Endpoints can be public (accessible from the internet) or private (accessible only within a VPC). Managing endpoints is a routine part of configuring cloud services and access control.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Cloud Endpoints documentation - GCP",
+                    "url": "https://docs.cloud.google.com/endpoints/docs"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is Cloud Endpoint…?",
+                    "url": "https://medium.com/@abhishekjrajput71/what-is-cloud-endpoint-ddd9bab01140"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Cloud Endpoints",
+                    "url": "https://www.youtube.com/watch?v=ZN81DZqS28U"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/endpoint@k8RPB21gJRticdeWN_U4F.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "ZSUdk8DU6-4f3RszN-bvx",
+                "name": "SLA",
+                "type": "subtopic",
+                "description": "An SLA (Service Level Agreement) is a contract between a cloud provider and a customer that defines the expected level of service, typically expressed as an uptime percentage. AWS S3, for example, offers a 99.99% availability SLA. SLAs also specify what compensation the provider offers if the target is not met. Understanding SLAs is important when designing for reliability and choosing between services.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is SLA (Service Level Agreement)?",
+                    "url": "https://aws.amazon.com/what-is/service-level-agreement/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is a Cloud SLA?",
+                    "url": "https://www.digitalocean.com/resources/articles/cloud-sla"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is a Service-Level Agreement (SLA)?",
+                    "url": "https://www.youtube.com/watch?v=V-ypx6Rmu_k"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/sla@ZSUdk8DU6-4f3RszN-bvx.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "jJd0ed5hW_z-j3dSUdWVZ",
+                "name": "DaaS",
+                "type": "subtopic",
+                "description": "DaaS (Desktop as a Service) delivers a virtual desktop environment from the cloud to any device with a browser or thin client. The provider hosts and manages the underlying infrastructure, operating system, and desktop software. It is used by organizations that need to provide a consistent, secure desktop experience to remote or distributed workforces without managing physical machines.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is desktop as a service (DaaS)?",
+                    "url": "https://www.ibm.com/think/topics/desktop-as-a-service"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Introduction to Desktop-as-a-Service | Desktop as a Service (DaaS) | Examples & Advantages",
+                    "url": "https://www.youtube.com/watch?v=5Em7GEso1x0https://www.youtube.com/watch?v=C4U9woDXKWY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/daas@jJd0ed5hW_z-j3dSUdWVZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "R9OG8gvuGBMXi-Dkt58uL",
+                "name": "IaaS",
+                "type": "subtopic",
+                "description": "IaaS (Infrastructure as a Service) gives you raw computing resources over the internet: virtual machines, storage, and networking, without the overhead of managing physical hardware. You control the operating system and everything above it; the provider manages the physical layer. EC2, Google Compute Engine, and Azure Virtual Machines are IaaS products. IaaS is the foundation most other cloud service models build on.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is IaaS?",
+                    "url": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-iaas"
+                  },
+                  {
+                    "type": "video",
+                    "title": "IaaS Explained",
+                    "url": "https://www.youtube.com/watch?v=XRdmfo4M_YA"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/iaas@R9OG8gvuGBMXi-Dkt58uL.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8yMuf0G_0R21XJOjufwcB",
+                "name": "FaaS",
+                "type": "subtopic",
+                "description": "FaaS (Function as a Service) lets you deploy individual functions that run in response to events, with no server management. The provider handles all infrastructure, scaling to zero when idle and scaling out automatically under load. AWS Lambda, Google Cloud Functions, and Azure Functions are the main platforms. FaaS is the compute model behind serverless architectures.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "What is function as a service (FaaS)?",
+                    "url": "https://www.ibm.com/think/topics/faas"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is FaaS (Functions as a Service)?",
+                    "url": "https://www.youtube.com/watch?v=EOIja7yFScs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/faas@8yMuf0G_0R21XJOjufwcB.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cloud-vs-on-premises@h9BCI9D062c6TXWO3jZRU.md"
+            ]
           },
           {
-            "id": "Gt-f9Sa0RxHI-GbU8g7NH",
-            "name": "Region, Availability Zone",
-            "type": "subtopic",
-            "description": "A region is a geographic area where a cloud provider operates one or more data centers, such as us-east-1 or europe-west1. Within a region, availability zones are physically separate data centers connected by low-latency links. Distributing workloads across availability zones protects against single data center failures without the latency of cross-region replication.",
-            "resources": [
+            "id": "mTtc7kTggMVhsPvjUe_KM",
+            "name": "Pre-requisites",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 6,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "AWS Regions / Availability Zones",
-                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
+                "id": "xCgNhwbS_ELxEyRHD1enO",
+                "name": "Python",
+                "type": "subtopic",
+                "description": "Python is a general-purpose programming language widely used for scripting, automation, and interacting with cloud APIs. In a cloud context, it is the go-to language for writing infrastructure automation scripts, Lambda functions, CLI tools, and data pipelines. Most cloud provider SDKs (boto3 for AWS, google-cloud for GCP, azure-sdk for Azure) have first-class Python support.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Python Roadmap",
+                    "url": "https://roadmap.sh/python"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Python Full Course for Beginners",
+                    "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Day-0 | Python for DevOps Course Syllabus | Learn Python from Basics | #abhishekveeramalla #python",
+                    "url": "https://www.youtube.com/watch?v=H21U4jX_SLQ&list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/python@xCgNhwbS_ELxEyRHD1enO.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Regions and zones - GCP",
-                "url": "https://docs.cloud.google.com/compute/docs/regions-zones"
+                "id": "sre_s0dvpOP0DTM66a3hu",
+                "name": "Linux",
+                "type": "subtopic",
+                "description": "Linux is the operating system that runs the vast majority of cloud servers, containers, and managed services. Working in the cloud means reading logs, navigating filesystems, managing processes, and configuring services from a Linux shell. A solid grasp of Linux is assumed across the entire cloud stack.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Linux Roadmap",
+                    "url": "https://roadmap.sh/linux"
+                  },
+                  {
+                    "type": "course",
+                    "title": "Linux from scratch - Cisco",
+                    "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Linux Commands Cheat Sheet",
+                    "url": "https://assets.hostinger.com/content/tutorials/pdf/Linux-Commands-Cheat-Sheet.pdf"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Introduction to Linux",
+                    "url": "https://youtu.be/sWbUDq4S6Y8"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/linux@sre_s0dvpOP0DTM66a3hu.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "What are availability zones? - Azure",
-                "url": "https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview?tabs=azure-cli%2Call"
+                "id": "uxm_BIAyhfFmcE94k9i9J",
+                "name": "Shell / Bash",
+                "type": "subtopic",
+                "description": "Bash is the default shell on most Linux systems and the primary language for writing automation scripts in cloud environments. It is used to chain commands, manage files, interact with CLIs, and automate repetitive tasks. Cloud practitioners use Bash daily when working with tools like the AWS CLI, kubectl, or Terraform.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Shell/Bash Roadmap",
+                    "url": "https://roadmap.sh/shell-bash"
+                  },
+                  {
+                    "type": "video",
+                    "title": "The Complete Bash Scripting Course",
+                    "url": "https://www.youtube.com/watch?v=Sx9zG7wa4FA&t=1s"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Shell Scripting Crash Course - Beginner Level",
+                    "url": "https://www.youtube.com/watch?v=v-F3YLd6oMw"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/shell--bash@uxm_BIAyhfFmcE94k9i9J.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Geographies, Regions & Availability Zones",
-                "url": "https://www.youtube.com/watch?v=C-nNw1mGwzE"
+                "id": "kvNIi3aY5rn69_hYkDyUK",
+                "name": "Version Control",
+                "type": "subtopic",
+                "description": "Version control tracks changes to code and configuration over time, enabling collaboration and rollback. Git is the standard tool. In cloud workflows, version control is the foundation of CI/CD pipelines, Infrastructure as Code practices, and GitOps, where the Git repository is the single source of truth for both application and infrastructure state.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Git and GitHub Roadmap",
+                    "url": "https://roadmap.sh/git-github"
+                  },
+                  {
+                    "type": "course",
+                    "title": "Why version control? (Interactive Lesson)",
+                    "url": "https://inter-git.com/lessons/introduction"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is version control?",
+                    "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/version-control@kvNIi3aY5rn69_hYkDyUK.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8y280d5BPXrDZwtsHZCaX",
+                "name": "Networking Basics",
+                "type": "subtopic",
+                "description": "Networking basics covers the fundamental concepts that underpin how computers communicate: IP addresses, subnets, ports, protocols (TCP, UDP, HTTP, HTTPS), and DNS. Cloud networking builds directly on these concepts, and without them, topics like VPCs, security groups, and load balancers are difficult to reason about. Understanding what happens when a request travels from a client to a server is the minimum baseline.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Network Engineer Roadmap",
+                    "url": "https://roadmap.sh/network-engineer"
+                  },
+                  {
+                    "type": "article",
+                    "title": "WebSocket vs. HTTP: Which protocol should you use?",
+                    "url": "https://roadmap.sh/network-engineer/websocket-vs-http"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How does the internet work?",
+                    "url": "https://roadmap.sh/guides/what-is-internet"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Computer Networking Course",
+                    "url": "https://www.youtube.com/playlist?list=PLR0bgGon_WTKY2irHaG_lNRZTrA7gAaCj"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/networking-basics@8y280d5BPXrDZwtsHZCaX.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "tENGACXKSKVPmZy9a3D2z",
+                "name": "Cybersecurity Basics",
+                "type": "subtopic",
+                "description": "Cybersecurity basics covers the core concepts a cloud practitioner needs before working with security services: what encryption is and how it works, what a firewall does, what a certificate is and why it matters, and the difference between authentication and authorization. Cloud environments expose a large attack surface, and knowing the vocabulary makes the security sections of the roadmap approachable.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Cyber Security Roadmap",
+                    "url": "https://roadmap.sh/cyber-security"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What Is Cloud Security? - Google Cloud",
+                    "url": "https://cloud.google.com/learn/what-is-cloud-security"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Cloud Security",
+                    "url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-cloud-security/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Harvard CS50’s Intro to Cybersecurity – Full University Course",
+                    "url": "https://www.youtube.com/watch?v=9HOpanT0GRs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cybersecurity-basics@tENGACXKSKVPmZy9a3D2z.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/region-availability-zone@Gt-f9Sa0RxHI-GbU8g7NH.md"
-          },
-          {
-            "id": "xCgNhwbS_ELxEyRHD1enO",
-            "name": "Python",
-            "type": "subtopic",
-            "description": "Python is a general-purpose programming language widely used for scripting, automation, and interacting with cloud APIs. In a cloud context, it is the go-to language for writing infrastructure automation scripts, Lambda functions, CLI tools, and data pipelines. Most cloud provider SDKs (boto3 for AWS, google-cloud for GCP, azure-sdk for Azure) have first-class Python support.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Python Roadmap",
-                "url": "https://roadmap.sh/python"
-              },
-              {
-                "type": "video",
-                "title": "Python Full Course for Beginners",
-                "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
-              },
-              {
-                "type": "video",
-                "title": "Day-0 | Python for DevOps Course Syllabus | Learn Python from Basics | #abhishekveeramalla #python",
-                "url": "https://www.youtube.com/watch?v=H21U4jX_SLQ&list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/python@xCgNhwbS_ELxEyRHD1enO.md"
-          },
-          {
-            "id": "jvuiicfmxaRpZW_ZOS2jH",
-            "name": "Instance",
-            "type": "subtopic",
-            "description": "An instance is a single virtual server running in the cloud. You choose its size (CPU, memory, storage) from a catalog of instance types and pay for it by the second or hour. Instances are the basic unit of compute in IaaS environments.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is an Instance In Cloud Computing?",
-                "url": "https://aws.amazon.com/what-is/cloud-instances/"
-              },
-              {
-                "type": "article",
-                "title": "What Is an Instance in Cloud Computing? See How It Powers Your Apps",
-                "url": "https://visualoneintelligence.com/what-is-an-instance-in-cloud-computing/"
-              },
-              {
-                "type": "article",
-                "title": "Cloud Computing Explained: The Most Important Concepts To Know",
-                "url": "https://www.youtube.com/watch?v=ZaA0kNm18pE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/instance@jvuiicfmxaRpZW_ZOS2jH.md"
-          },
-          {
-            "id": "rGvAbV42VkmhN3Z_X0lEc",
-            "name": "Cluster",
-            "type": "subtopic",
-            "description": "A cluster is a group of servers (or instances) that work together as a single system. Clusters are used to distribute workloads, provide redundancy, and scale horizontally. Kubernetes clusters, database clusters, and Hadoop clusters are common examples in cloud environments.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is Cluster Computing?",
-                "url": "https://aws.amazon.com/what-is/cluster-computing/"
-              },
-              {
-                "type": "article",
-                "title": "What Is Cluster Computing",
-                "url": "https://expanso.io/blog/cluster-computing-in-cloud-computing/"
-              },
-              {
-                "type": "video",
-                "title": "How Clusters Work in Distributed Systems: A Deep Dive",
-                "url": "https://www.youtube.com/watch?v=pjWhtRtaJiA&t=84s"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cluster@rGvAbV42VkmhN3Z_X0lEc.md"
-          },
-          {
-            "id": "sre_s0dvpOP0DTM66a3hu",
-            "name": "Linux",
-            "type": "subtopic",
-            "description": "Linux is the operating system that runs the vast majority of cloud servers, containers, and managed services. Working in the cloud means reading logs, navigating filesystems, managing processes, and configuring services from a Linux shell. A solid grasp of Linux is assumed across the entire cloud stack.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Linux Roadmap",
-                "url": "https://roadmap.sh/linux"
-              },
-              {
-                "type": "course",
-                "title": "Linux from scratch - Cisco",
-                "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched"
-              },
-              {
-                "type": "article",
-                "title": "Linux Commands Cheat Sheet",
-                "url": "https://assets.hostinger.com/content/tutorials/pdf/Linux-Commands-Cheat-Sheet.pdf"
-              },
-              {
-                "type": "video",
-                "title": "Introduction to Linux",
-                "url": "https://youtu.be/sWbUDq4S6Y8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/linux@sre_s0dvpOP0DTM66a3hu.md"
-          },
-          {
-            "id": "M0Py2aGC7Mrka86tq7Lfb",
-            "name": "Workload",
-            "type": "subtopic",
-            "description": "A workload is any application, service, or process running on cloud infrastructure. The term is used to describe what you are running without specifying how: a web application, a batch job, a machine learning training run, and a real-time data pipeline are all workloads. Cloud architecture decisions are often framed around workload characteristics such as latency sensitivity, statefulness, and compute intensity.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What are Cloud Workloads?",
-                "url": "https://www.hpe.com/int/en/what-is/cloud-workloads.html"
-              },
-              {
-                "type": "article",
-                "title": "Cloud Workloads: Types, Common Tasks, and Security Best Practices",
-                "url": "https://www.aquasec.com/cloud-native-academy/cspm/cloud-workload/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/workload@M0Py2aGC7Mrka86tq7Lfb.md"
-          },
-          {
-            "id": "uxm_BIAyhfFmcE94k9i9J",
-            "name": "Shell / Bash",
-            "type": "subtopic",
-            "description": "Bash is the default shell on most Linux systems and the primary language for writing automation scripts in cloud environments. It is used to chain commands, manage files, interact with CLIs, and automate repetitive tasks. Cloud practitioners use Bash daily when working with tools like the AWS CLI, kubectl, or Terraform.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Shell/Bash Roadmap",
-                "url": "https://roadmap.sh/shell-bash"
-              },
-              {
-                "type": "video",
-                "title": "The Complete Bash Scripting Course",
-                "url": "https://www.youtube.com/watch?v=Sx9zG7wa4FA&t=1s"
-              },
-              {
-                "type": "video",
-                "title": "Shell Scripting Crash Course - Beginner Level",
-                "url": "https://www.youtube.com/watch?v=v-F3YLd6oMw"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/shell--bash@uxm_BIAyhfFmcE94k9i9J.md"
-          },
-          {
-            "id": "9xD14Zy5lV6DZMlvz-Ijo",
-            "name": "Multi-Tenancy",
-            "type": "subtopic",
-            "description": "Multi-tenancy means multiple customers share the same physical infrastructure, with each customer's data and workloads isolated from the others. Cloud providers are multi-tenant by default. Isolation is enforced through virtualization, network policies, and IAM controls. Understanding multi-tenancy is important for reasoning about security boundaries and compliance requirements.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is multitenancy? | Multitenant architecture",
-                "url": "https://www.cloudflare.com/learning/cloud/what-is-multitenancy/"
-              },
-              {
-                "type": "video",
-                "title": "Multitenancy Explained",
-                "url": "https://www.youtube.com/watch?v=60ccSmOxpMw&t=10s"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/multi-tenancy@9xD14Zy5lV6DZMlvz-Ijo.md"
-          },
-          {
-            "id": "kvNIi3aY5rn69_hYkDyUK",
-            "name": "Version Control",
-            "type": "subtopic",
-            "description": "Version control tracks changes to code and configuration over time, enabling collaboration and rollback. Git is the standard tool. In cloud workflows, version control is the foundation of CI/CD pipelines, Infrastructure as Code practices, and GitOps, where the Git repository is the single source of truth for both application and infrastructure state.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Git and GitHub Roadmap",
-                "url": "https://roadmap.sh/git-github"
-              },
-              {
-                "type": "course",
-                "title": "Why version control? (Interactive Lesson)",
-                "url": "https://inter-git.com/lessons/introduction"
-              },
-              {
-                "type": "article",
-                "title": "What is version control?",
-                "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/version-control@kvNIi3aY5rn69_hYkDyUK.md"
-          },
-          {
-            "id": "L19SMhSUxAduv8xs5j9Mm",
-            "name": "Elasticity",
-            "type": "subtopic",
-            "description": "Elasticity is the ability of a system to automatically provision and release resources in response to demand. A highly elastic system scales out when traffic increases and scales back in when it drops, paying only for what it uses. Elasticity is one of the defining properties of cloud computing and the basis for auto scaling and serverless architectures.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is elasticity in cloud computing?",
-                "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-elastic-computing"
-              },
-              {
-                "type": "article",
-                "title": "What is cloud elasticity?",
-                "url": "https://cloud.google.com/discover/what-is-cloud-elasticity?hl=en"
-              },
-              {
-                "type": "video",
-                "title": "What is Scalability and Elasticity in Cloud Computing?",
-                "url": "https://www.youtube.com/watch?v=qk_L-a3mCnA&pp=ygUQY2xvdWQgZWxhc3RpY2l0edIHCQksDAGHKiGM7w%3D%3D"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/elasticity@L19SMhSUxAduv8xs5j9Mm.md"
-          },
-          {
-            "id": "8y280d5BPXrDZwtsHZCaX",
-            "name": "Networking Basics",
-            "type": "subtopic",
-            "description": "Networking basics covers the fundamental concepts that underpin how computers communicate: IP addresses, subnets, ports, protocols (TCP, UDP, HTTP, HTTPS), and DNS. Cloud networking builds directly on these concepts, and without them, topics like VPCs, security groups, and load balancers are difficult to reason about. Understanding what happens when a request travels from a client to a server is the minimum baseline.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Network Engineer Roadmap",
-                "url": "https://roadmap.sh/network-engineer"
-              },
-              {
-                "type": "article",
-                "title": "WebSocket vs. HTTP: Which protocol should you use?",
-                "url": "https://roadmap.sh/network-engineer/websocket-vs-http"
-              },
-              {
-                "type": "article",
-                "title": "How does the internet work?",
-                "url": "https://roadmap.sh/guides/what-is-internet"
-              },
-              {
-                "type": "video",
-                "title": "Computer Networking Course",
-                "url": "https://www.youtube.com/playlist?list=PLR0bgGon_WTKY2irHaG_lNRZTrA7gAaCj"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/networking-basics@8y280d5BPXrDZwtsHZCaX.md"
-          },
-          {
-            "id": "7fzvnLgJK4KC77Xf5M24c",
-            "name": "Scalability",
-            "type": "subtopic",
-            "description": "Scalability is the capacity of a system to handle growing demand. Vertical scaling adds more power to a single machine (bigger instance). Horizontal scaling adds more machines. Cloud environments favor horizontal scaling because it avoids single points of failure and can be automated. Scalability is a design property, while elasticity is the mechanism that achieves it dynamically.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "A Word on Scalability",
-                "url": "https://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html"
-              },
-              {
-                "type": "article",
-                "title": "Performance vs Scalability",
-                "url": "https://blog.professorbeekums.com/performance-vs-scalability/"
-              },
-              {
-                "type": "article",
-                "title": "Scalable Architecture: A Definition and How-To Guide",
-                "url": "https://www.sentinelone.com/blog/scalable-architecture/"
-              },
-              {
-                "type": "video",
-                "title": "Scaling Distributed Systems - Software Architecture Introduction",
-                "url": "https://www.youtube.com/watch?v=gxfERVP18-g"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/scalability@7fzvnLgJK4KC77Xf5M24c.md"
-          },
-          {
-            "id": "tENGACXKSKVPmZy9a3D2z",
-            "name": "Cybersecurity Basics",
-            "type": "subtopic",
-            "description": "Cybersecurity basics covers the core concepts a cloud practitioner needs before working with security services: what encryption is and how it works, what a firewall does, what a certificate is and why it matters, and the difference between authentication and authorization. Cloud environments expose a large attack surface, and knowing the vocabulary makes the security sections of the roadmap approachable.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Cyber Security Roadmap",
-                "url": "https://roadmap.sh/cyber-security"
-              },
-              {
-                "type": "article",
-                "title": "What Is Cloud Security? - Google Cloud",
-                "url": "https://cloud.google.com/learn/what-is-cloud-security"
-              },
-              {
-                "type": "article",
-                "title": "Cloud Security",
-                "url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-cloud-security/"
-              },
-              {
-                "type": "video",
-                "title": "Harvard CS50’s Intro to Cybersecurity – Full University Course",
-                "url": "https://www.youtube.com/watch?v=9HOpanT0GRs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cybersecurity-basics@tENGACXKSKVPmZy9a3D2z.md"
-          },
-          {
-            "id": "_Tq4N_A7ds7u0wWzK6hoz",
-            "name": "Provisioning",
-            "type": "subtopic",
-            "description": "Provisioning is the process of setting up and configuring cloud resources so they are ready to use. This includes creating instances, allocating storage, configuring networks, and applying security policies. Provisioning can be done manually through a console, programmatically via an API, or declaratively through Infrastructure as Code tools.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is provisioning? - RedHat",
-                "url": "https://www.redhat.com/en/topics/automation/what-is-provisioning"
-              },
-              {
-                "type": "article",
-                "title": "What is Cloud Provisioning? Process, Types & Best Practices",
-                "url": "https://spacelift.io/blog/cloud-provisioning"
-              },
-              {
-                "type": "video",
-                "title": "Open Answers: What is provisioning?",
-                "url": "https://www.youtube.com/watch?v=hWvDlmhASpk"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/provisioning@_Tq4N_A7ds7u0wWzK6hoz.md"
-          },
-          {
-            "id": "YcSsXeZxpoDlV83vGcYXu",
-            "name": "Latency & Throughput",
-            "type": "subtopic",
-            "description": "Latency is the time it takes for a single request to travel from sender to receiver and back. Throughput is the amount of data or number of requests a system can handle per unit of time. Both are used to measure and design cloud system performance: low-latency systems respond quickly to individual requests, while high-throughput systems handle large volumes of work efficiently.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is Network Latency?",
-                "url": "https://aws.amazon.com/what-is/latency/"
-              },
-              {
-                "type": "article",
-                "title": "What’s the Difference Between Throughput and Latency?",
-                "url": "https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/"
-              },
-              {
-                "type": "video",
-                "title": "What is Latency? (In about a minute)",
-                "url": "https://www.youtube.com/watch?v=S0NKk86HRdg"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/latency--throughput@YcSsXeZxpoDlV83vGcYXu.md"
-          },
-          {
-            "id": "k8RPB21gJRticdeWN_U4F",
-            "name": "Endpoint",
-            "type": "subtopic",
-            "description": "An endpoint is a URL or network address where a service can be reached. Cloud services expose endpoints for APIs, storage buckets, databases, and load balancers. Endpoints can be public (accessible from the internet) or private (accessible only within a VPC). Managing endpoints is a routine part of configuring cloud services and access control.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Cloud Endpoints documentation - GCP",
-                "url": "https://docs.cloud.google.com/endpoints/docs"
-              },
-              {
-                "type": "article",
-                "title": "What is Cloud Endpoint…?",
-                "url": "https://medium.com/@abhishekjrajput71/what-is-cloud-endpoint-ddd9bab01140"
-              },
-              {
-                "type": "video",
-                "title": "Cloud Endpoints",
-                "url": "https://www.youtube.com/watch?v=ZN81DZqS28U"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/endpoint@k8RPB21gJRticdeWN_U4F.md"
-          },
-          {
-            "id": "ZSUdk8DU6-4f3RszN-bvx",
-            "name": "SLA",
-            "type": "subtopic",
-            "description": "An SLA (Service Level Agreement) is a contract between a cloud provider and a customer that defines the expected level of service, typically expressed as an uptime percentage. AWS S3, for example, offers a 99.99% availability SLA. SLAs also specify what compensation the provider offers if the target is not met. Understanding SLAs is important when designing for reliability and choosing between services.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is SLA (Service Level Agreement)?",
-                "url": "https://aws.amazon.com/what-is/service-level-agreement/"
-              },
-              {
-                "type": "article",
-                "title": "What is a Cloud SLA?",
-                "url": "https://www.digitalocean.com/resources/articles/cloud-sla"
-              },
-              {
-                "type": "video",
-                "title": "What is a Service-Level Agreement (SLA)?",
-                "url": "https://www.youtube.com/watch?v=V-ypx6Rmu_k"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/sla@ZSUdk8DU6-4f3RszN-bvx.md"
+            ]
           }
         ]
       },
@@ -533,7 +664,9 @@
                 "url": "https://www.youtube.com/watch?v=KaCyfQ7luVY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/public-cloud@PJ9UmcON8LX42-WIO-2_2.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/public-cloud@PJ9UmcON8LX42-WIO-2_2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "xDffQ2SRjviebdg53wEPL",
@@ -552,7 +685,9 @@
                 "url": "https://www.youtube.com/watch?v=DIeTEFtg-Zw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/private-cloud@xDffQ2SRjviebdg53wEPL.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/private-cloud@xDffQ2SRjviebdg53wEPL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IclOoslRbKjy6zZ0jqTh3",
@@ -571,7 +706,9 @@
                 "url": "https://www.youtube.com/watch?v=3kGFBBy3Lyg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/hybrid-cloud@IclOoslRbKjy6zZ0jqTh3.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/hybrid-cloud@IclOoslRbKjy6zZ0jqTh3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ZNYIAFU40oZ-fnB2zvy8X",
@@ -590,7 +727,9 @@
                 "url": "https://www.youtube.com/watch?v=AjtdZ3gFRjU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/multi-cloud@ZNYIAFU40oZ-fnB2zvy8X.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/multi-cloud@ZNYIAFU40oZ-fnB2zvy8X.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -617,7 +756,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cloud-service-models@zs0QY4OjZXl8Q-fVBgcIc.md",
-        "subtopics_count": 5,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "hc4MoEOryNA-W0Yfz3DD9",
@@ -636,49 +775,13 @@
                 "url": "https://www.youtube.com/watch?v=UEHdYNXiIUU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/saas@hc4MoEOryNA-W0Yfz3DD9.md"
-          },
-          {
-            "id": "jJd0ed5hW_z-j3dSUdWVZ",
-            "name": "DaaS",
-            "type": "subtopic",
-            "description": "DaaS (Desktop as a Service) delivers a virtual desktop environment from the cloud to any device with a browser or thin client. The provider hosts and manages the underlying infrastructure, operating system, and desktop software. It is used by organizations that need to provide a consistent, secure desktop experience to remote or distributed workforces without managing physical machines.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is desktop as a service (DaaS)?",
-                "url": "https://www.ibm.com/think/topics/desktop-as-a-service"
-              },
-              {
-                "type": "video",
-                "title": "Introduction to Desktop-as-a-Service | Desktop as a Service (DaaS) | Examples & Advantages",
-                "url": "https://www.youtube.com/watch?v=5Em7GEso1x0https://www.youtube.com/watch?v=C4U9woDXKWY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/daas@jJd0ed5hW_z-j3dSUdWVZ.md"
-          },
-          {
-            "id": "R9OG8gvuGBMXi-Dkt58uL",
-            "name": "IaaS ",
-            "type": "subtopic",
-            "description": "IaaS (Infrastructure as a Service) gives you raw computing resources over the internet: virtual machines, storage, and networking, without the overhead of managing physical hardware. You control the operating system and everything above it; the provider manages the physical layer. EC2, Google Compute Engine, and Azure Virtual Machines are IaaS products. IaaS is the foundation most other cloud service models build on.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is IaaS?",
-                "url": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-iaas"
-              },
-              {
-                "type": "video",
-                "title": "IaaS Explained",
-                "url": "https://www.youtube.com/watch?v=XRdmfo4M_YA"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/iaas@R9OG8gvuGBMXi-Dkt58uL.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/saas@hc4MoEOryNA-W0Yfz3DD9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9lhFMRCpD8xv5gsYoIciT",
-            "name": "PaaS ",
+            "name": "PaaS",
             "type": "subtopic",
             "description": "PaaS (Platform as a Service) provides a managed environment for deploying and running applications, abstracting away the underlying infrastructure. You bring your code; the platform handles the runtime, scaling, patching, and availability. Google App Engine, AWS Elastic Beanstalk, and Heroku are PaaS examples. PaaS trades infrastructure control for reduced operational burden.",
             "resources": [
@@ -693,26 +796,9 @@
                 "url": "https://www.youtube.com/watch?v=QAbqJzd0PEE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/paas@9lhFMRCpD8xv5gsYoIciT.md"
-          },
-          {
-            "id": "8yMuf0G_0R21XJOjufwcB",
-            "name": "FaaS ",
-            "type": "subtopic",
-            "description": "FaaS (Function as a Service) lets you deploy individual functions that run in response to events, with no server management. The provider handles all infrastructure, scaling to zero when idle and scaling out automatically under load. AWS Lambda, Google Cloud Functions, and Azure Functions are the main platforms. FaaS is the compute model behind serverless architectures.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "What is function as a service (FaaS)?",
-                "url": "https://www.ibm.com/think/topics/faas"
-              },
-              {
-                "type": "video",
-                "title": "What is FaaS (Functions as a Service)?",
-                "url": "https://www.youtube.com/watch?v=EOIja7yFScs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/faas@8yMuf0G_0R21XJOjufwcB.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/paas@9lhFMRCpD8xv5gsYoIciT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -763,7 +849,9 @@
                 "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/regional-cloud@lg-3HxQvY6AkoHvNtrCIq.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/regional-cloud@lg-3HxQvY6AkoHvNtrCIq.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VW0HHHlI29BdosxtSGGKH",
@@ -787,7 +875,9 @@
                 "url": "https://flycloud.io/en/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/developer-focused@VW0HHHlI29BdosxtSGGKH.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/developer-focused@VW0HHHlI29BdosxtSGGKH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NGDa1J5qSObdBhEr16xJQ",
@@ -806,7 +896,9 @@
                 "url": "https://www.oracle.com/es/cloud/hyperscaler-cloud/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/hyperscalers@NGDa1J5qSObdBhEr16xJQ.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/hyperscalers@NGDa1J5qSObdBhEr16xJQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "oty9N2o89-RpLNKyWi4k0",
@@ -825,31 +917,9 @@
                 "url": "https://www.vultr.com/pricing/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/managed-kubernetes@oty9N2o89-RpLNKyWi4k0.md"
-          },
-          {
-            "id": "54FZABfiiluudsw8dU2qj",
-            "name": "Azure",
-            "type": "subtopic",
-            "description": "Microsoft Azure is the second-largest cloud provider, with particular strength in enterprise environments due to its deep integration with Microsoft products such as Active Directory, Office 365, and Windows Server. Azure is the preferred choice for organizations already running Microsoft workloads and has strong hybrid cloud capabilities through services like Azure Arc.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "What is Azure?",
-                "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
-              },
-              {
-                "type": "official",
-                "title": "Azure Docs",
-                "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
-              },
-              {
-                "type": "video",
-                "title": "Microsoft Azure Fundamentals Certification Course",
-                "url": "https://www.youtube.com/watch?v=5abffC-K40c&t=12s"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/azure@54FZABfiiluudsw8dU2qj.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/managed-kubernetes@oty9N2o89-RpLNKyWi4k0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "sgvJHF88U8-J-pIvPvhZQ",
@@ -878,7 +948,9 @@
                 "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/aws@sgvJHF88U8-J-pIvPvhZQ.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/aws@sgvJHF88U8-J-pIvPvhZQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "C-VDFWbrIx4Rmv4u4-ZVm",
@@ -902,7 +974,35 @@
                 "url": "https://www.youtube.com/watch?v=dn9cSRImmVA&list=PLEiEAq2VkUUI0xT8VNpjBuWvmnLHxPcsE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/gcp@C-VDFWbrIx4Rmv4u4-ZVm.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/gcp@C-VDFWbrIx4Rmv4u4-ZVm.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "54FZABfiiluudsw8dU2qj",
+            "name": "Azure",
+            "type": "subtopic",
+            "description": "Microsoft Azure is the second-largest cloud provider, with particular strength in enterprise environments due to its deep integration with Microsoft products such as Active Directory, Office 365, and Windows Server. Azure is the preferred choice for organizations already running Microsoft workloads and has strong hybrid cloud capabilities through services like Azure Arc.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "What is Azure?",
+                "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
+              },
+              {
+                "type": "official",
+                "title": "Azure Docs",
+                "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
+              },
+              {
+                "type": "video",
+                "title": "Microsoft Azure Fundamentals Certification Course",
+                "url": "https://www.youtube.com/watch?v=5abffC-K40c&t=12s"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/azure@54FZABfiiluudsw8dU2qj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "OlcReqFvoZ7x0qpxclNbc",
@@ -921,7 +1021,9 @@
                 "url": "https://cast.ai/blog/vendor-lock-in-and-how-to-break-free/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/provider-lock-in@OlcReqFvoZ7x0qpxclNbc.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/provider-lock-in@OlcReqFvoZ7x0qpxclNbc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -982,7 +1084,9 @@
                 "url": "https://www.youtube.com/watch?v=IPaU-N7p4L0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/network-topology@ePXTBUCFKWMC2xStg4QHF.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/network-topology@ePXTBUCFKWMC2xStg4QHF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "gIza15GnIgZo3bHc-VHjb",
@@ -1011,7 +1115,9 @@
                 "url": "https://www.youtube.com/watch?v=z8INzy9E628"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/upstream-connectivity@gIza15GnIgZo3bHc-VHjb.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/upstream-connectivity@gIza15GnIgZo3bHc-VHjb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "70_wTkH5n3H3xZvlDAdAR",
@@ -1040,7 +1146,9 @@
                 "url": "https://www.techtarget.com/it-infrastructure/definition/What-are-hot-and-cold-aisles-in-the-data-center"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/racks-pods--aisles@70_wTkH5n3H3xZvlDAdAR.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/racks-pods--aisles@70_wTkH5n3H3xZvlDAdAR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "M1DAJcrU9NLo45pMv2wyy",
@@ -1069,7 +1177,9 @@
                 "url": "https://www.youtube.com/watch?v=iRLCUWbi0o4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/power--cooling@M1DAJcrU9NLo45pMv2wyy.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/power--cooling@M1DAJcrU9NLo45pMv2wyy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "U3SOP9hNy9i2ERJZu2_iJ",
@@ -1098,7 +1208,9 @@
                 "url": "https://www.youtube.com/watch?v=ckoi0RTEgcY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/lights-out-operations@U3SOP9hNy9i2ERJZu2_iJ.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/lights-out-operations@U3SOP9hNy9i2ERJZu2_iJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1144,7 +1256,9 @@
                 "url": "https://www.youtube.com/watch?v=LMAEbB2a50M"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/hypervisors@2WrbFJYVhDNYBVw9VBdzk.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/hypervisors@2WrbFJYVhDNYBVw9VBdzk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6HyyXlNIXIwolZr1GTxBW",
@@ -1173,7 +1287,9 @@
                 "url": "https://www.youtube.com/watch?v=cs8TyED7SEM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vm-migration-live-migration@6HyyXlNIXIwolZr1GTxBW.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vm-migration-live-migration@6HyyXlNIXIwolZr1GTxBW.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1234,7 +1350,9 @@
                 "url": "https://www.youtube.com/watch?v=pg19Z8LL06w&t=44s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/docker@y4cGmBercrAh04iQW_JrN.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/docker@y4cGmBercrAh04iQW_JrN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "nKOss-TkhAcH7rMwLVJ1u",
@@ -1263,7 +1381,9 @@
                 "url": "https://www.youtube.com/watch?v=eyNBf1sqdBQ&pp=ygUcdmlydHVhbCBtYWNoaW5lIHZzIGNvbnRhaW5lcg%3D%3D"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vms-vs-containers@nKOss-TkhAcH7rMwLVJ1u.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vms-vs-containers@nKOss-TkhAcH7rMwLVJ1u.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1319,7 +1439,9 @@
                 "url": "https://azure.microsoft.com/en-us/products/category/databases"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/managed-relational-dbs@KJa5CodbjfKEPZPad_aVH.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/managed-relational-dbs@KJa5CodbjfKEPZPad_aVH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0SHKWbY18cJehL8OOsQbb",
@@ -1348,7 +1470,9 @@
                 "url": "https://www.youtube.com/watch?v=Q5aTUc7c4jg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/nosql-databases@0SHKWbY18cJehL8OOsQbb.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/nosql-databases@0SHKWbY18cJehL8OOsQbb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1394,7 +1518,9 @@
                 "url": "https://docs.cloud.google.com/compute/docs/instances"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/virtual-machine-instances@wz1_dxRMcya5qArNCQIXy.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/virtual-machine-instances@wz1_dxRMcya5qArNCQIXy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "cJ1LV6oDoABd2L1dtDpoB",
@@ -1418,7 +1544,9 @@
                 "url": "https://www.youtube.com/watch?v=3xH1SAWWdl0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/bare-metal-cloud@cJ1LV6oDoABd2L1dtDpoB.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/bare-metal-cloud@cJ1LV6oDoABd2L1dtDpoB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1450,7 +1578,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/cloud-computing/content/scaling@kNq5sRZ4wX4sy2pq04pyg.md",
-        "subtopics_count": 4,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "d5bjMIQSsB2UlYE55oeMz",
@@ -1474,7 +1602,9 @@
                 "url": "https://www.youtube.com/watch?v=p_ae4BFESj4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/auto-scaling@d5bjMIQSsB2UlYE55oeMz.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/auto-scaling@d5bjMIQSsB2UlYE55oeMz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Xyx9wrhKEMMf7iyG-ElxX",
@@ -1498,7 +1628,9 @@
                 "url": "https://www.prosperops.com/blog/spot-instances-vs-reserved-instances/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/spot--reserved-instances@Xyx9wrhKEMMf7iyG-ElxX.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/spot--reserved-instances@Xyx9wrhKEMMf7iyG-ElxX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Q4Ttb6uMZr35fVj7Bubqe",
@@ -1527,8 +1659,37 @@
                 "url": "https://www.youtube.com/watch?v=LJNNMTicv1c"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/virtual-private-cloud@Q4Ttb6uMZr35fVj7Bubqe.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/virtual-private-cloud@Q4Ttb6uMZr35fVj7Bubqe.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "Yim9sxfbsQBiM6HTB3xaW",
+        "name": "Core Networking",
+        "type": "topic",
+        "description": "Core networking covers the fundamental building blocks of a cloud network: isolated virtual networks, subnet segmentation, routing, and address management. These are configured before any workload is deployed and form the foundation that all other networking features build on.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is cloud networking? - Cloudflare",
+            "url": "https://www.cloudflare.com/en-gb/learning/cloud/what-is-cloud-networking/"
           },
+          {
+            "type": "article",
+            "title": "What is cloud networking? - Cisco",
+            "url": "https://www.cisco.com/site/us/en/learn/topics/cloud-networking/what-is-cloud-networking.html"
+          },
+          {
+            "type": "video",
+            "title": "Cloud Networking Explained",
+            "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/cloud-computing/content/core-networking@Yim9sxfbsQBiM6HTB3xaW.md",
+        "subtopics_count": 4,
+        "subtopics": [
           {
             "id": "OAEFYuE5sD3U47Kiex4Bo",
             "name": "Subnets & Routing",
@@ -1556,35 +1717,10 @@
                 "url": "https://www.youtube.com/watch?v=KiWXRL-2TnY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/subnets--routing@OAEFYuE5sD3U47Kiex4Bo.md"
-          }
-        ]
-      },
-      {
-        "id": "Yim9sxfbsQBiM6HTB3xaW",
-        "name": "Core Networking",
-        "type": "topic",
-        "description": "Core networking covers the fundamental building blocks of a cloud network: isolated virtual networks, subnet segmentation, routing, and address management. These are configured before any workload is deployed and form the foundation that all other networking features build on.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is cloud networking? - Cloudflare",
-            "url": "https://www.cloudflare.com/en-gb/learning/cloud/what-is-cloud-networking/"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/subnets--routing@OAEFYuE5sD3U47Kiex4Bo.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
-          {
-            "type": "article",
-            "title": "What is cloud networking? - Cisco",
-            "url": "https://www.cisco.com/site/us/en/learn/topics/cloud-networking/what-is-cloud-networking.html"
-          },
-          {
-            "type": "video",
-            "title": "Cloud Networking Explained",
-            "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/cloud-computing/content/core-networking@Yim9sxfbsQBiM6HTB3xaW.md",
-        "subtopics_count": 3,
-        "subtopics": [
           {
             "id": "ag58krahDzkHzCZzBdxp-",
             "name": "NAT & IP Management",
@@ -1607,7 +1743,9 @@
                 "url": "https://www.youtube.com/watch?v=5WfiTHiU4x8&t=102s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/nat--ip-management@ag58krahDzkHzCZzBdxp-.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/nat--ip-management@ag58krahDzkHzCZzBdxp-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ztCFSoR4a5qQiGrHyoroM",
@@ -1636,7 +1774,9 @@
                 "url": "https://www.youtube.com/watch?v=Jv0IqaM9KOs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vlans--vxlan@ztCFSoR4a5qQiGrHyoroM.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vlans--vxlan@ztCFSoR4a5qQiGrHyoroM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "mHqFe6Avcnb--U3t4hhdR",
@@ -1660,7 +1800,9 @@
                 "url": "https://www.youtube.com/watch?v=Z5Gi2Bpd82M"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/sdn@mHqFe6Avcnb--U3t4hhdR.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/sdn@mHqFe6Avcnb--U3t4hhdR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1706,7 +1848,9 @@
                 "url": "https://www.youtube.com/watch?v=mpQZVYPuDGU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/dns-in-the-cloud@6MDgQ61_A4HbS9Kv5BXnX.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/dns-in-the-cloud@6MDgQ61_A4HbS9Kv5BXnX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YXpKsHX1YX40NlezjO6Ut",
@@ -1735,7 +1879,9 @@
                 "url": "https://www.youtube.com/watch?v=sCR3SAVdyCc&t=10s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/load-balancers@YXpKsHX1YX40NlezjO6Ut.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/load-balancers@YXpKsHX1YX40NlezjO6Ut.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "sAt-dQwgeATknlYeDIwxG",
@@ -1759,7 +1905,9 @@
                 "url": "https://www.youtube.com/watch?v=uYDT2SsHImQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/firewalls--security-groups@sAt-dQwgeATknlYeDIwxG.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/firewalls--security-groups@sAt-dQwgeATknlYeDIwxG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "jLeK4ZrgzX2mrIVg-g-bV",
@@ -1783,7 +1931,9 @@
                 "url": "https://www.youtube.com/watch?v=R-JUOpCgTZc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vpn--direct-connect@jLeK4ZrgzX2mrIVg-g-bV.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/vpn--direct-connect@jLeK4ZrgzX2mrIVg-g-bV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "F3tQ6Rjx5K6fjuzaBRIRA",
@@ -1812,7 +1962,9 @@
                 "url": "https://www.youtube.com/watch?v=6DXEPcXKQNY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cdn--edge-caching@F3tQ6Rjx5K6fjuzaBRIRA.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cdn--edge-caching@F3tQ6Rjx5K6fjuzaBRIRA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1858,7 +2010,9 @@
                 "url": "https://www.youtube.com/watch?v=ZfTOQJlLsAs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/object-storage@bDJ2MVYcv3AcPcmclnDbA.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/object-storage@bDJ2MVYcv3AcPcmclnDbA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KrjIsi9FMlSY7V7usJeWN",
@@ -1877,7 +2031,9 @@
                 "url": "https://www.youtube.com/watch?v=PmxWTTpXNLI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/block-storage@KrjIsi9FMlSY7V7usJeWN.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/block-storage@KrjIsi9FMlSY7V7usJeWN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ee9YyghfSXFtl_bcklqEE",
@@ -1896,7 +2052,9 @@
                 "url": "https://www.youtube.com/watch?v=AV4Ei1qW89o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/file-storage@ee9YyghfSXFtl_bcklqEE.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/file-storage@ee9YyghfSXFtl_bcklqEE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "n6f1pgFXvNzJ9gTedUj0m",
@@ -1920,7 +2078,9 @@
                 "url": "https://www.youtube.com/watch?v=7eGw4vhyeTA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/nas-and-san@n6f1pgFXvNzJ9gTedUj0m.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/nas-and-san@n6f1pgFXvNzJ9gTedUj0m.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1966,7 +2126,9 @@
                 "url": "https://www.youtube.com/watch?v=C60ckS2110Y&t=132s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/storage-classes--tiering@Jgyc7dy8SHuVWGtFjQl7n.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/storage-classes--tiering@Jgyc7dy8SHuVWGtFjQl7n.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "nLIyyX91uVY_h6Oj8JKfk",
@@ -1990,7 +2152,9 @@
                 "url": "https://www.youtube.com/watch?v=yZ_vXYb2ziw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/data-archiving@nLIyyX91uVY_h6Oj8JKfk.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/data-archiving@nLIyyX91uVY_h6Oj8JKfk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "hs37Ky-3menrSIncCrRfL",
@@ -2014,7 +2178,9 @@
                 "url": "https://group2000.com/articles/cloud-based-data-retention-whats-the-point/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/retention--compliance@hs37Ky-3menrSIncCrRfL.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/retention--compliance@hs37Ky-3menrSIncCrRfL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2060,7 +2226,9 @@
                 "url": "https://www.youtube.com/watch?v=20tpk8A_xa0&t=54s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/stateless-functions@43Y2oyfiMiXyU8NVWhtC9.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/stateless-functions@43Y2oyfiMiXyU8NVWhtC9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "jiZ3oucNAmedmDx1lVbhi",
@@ -2084,7 +2252,9 @@
                 "url": "https://www.youtube.com/watch?v=gOuAqRaDdHA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/event-driven-architecture@jiZ3oucNAmedmDx1lVbhi.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/event-driven-architecture@jiZ3oucNAmedmDx1lVbhi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_T1Q7hCgTL6MBTr8UnkiA",
@@ -2118,7 +2288,9 @@
                 "url": "https://www.youtube.com/watch?v=vxJobGtqKVM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/serverless-platforms@_T1Q7hCgTL6MBTr8UnkiA.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/serverless-platforms@_T1Q7hCgTL6MBTr8UnkiA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3ulfrXL4OM-6ynF0EzClY",
@@ -2137,7 +2309,9 @@
                 "url": "https://dev.to/florianlenz/why-serverless-advantages-and-disadvantages-of-serverless-computing-explained-2m1m"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/trade-offs-of-serverless@3ulfrXL4OM-6ynF0EzClY.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/trade-offs-of-serverless@3ulfrXL4OM-6ynF0EzClY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2198,7 +2372,9 @@
                 "url": "https://www.youtube.com/watch?v=NdeTGlZ__Do"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/monolithic-vs-microservices@nhc40UHb4Vh8L82JZaGS9.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/monolithic-vs-microservices@nhc40UHb4Vh8L82JZaGS9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "pMKt_JfhRyvWidIF1I-VZ",
@@ -2222,7 +2398,9 @@
                 "url": "https://www.youtube.com/watch?v=IFkDbsgn8yg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/microservices-communication@pMKt_JfhRyvWidIF1I-VZ.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/microservices-communication@pMKt_JfhRyvWidIF1I-VZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "knI6CzqoCqo2nwUQDO8aO",
@@ -2246,7 +2424,9 @@
                 "url": "https://www.youtube.com/watch?v=vh1YtWjfcyk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/service-mesh@knI6CzqoCqo2nwUQDO8aO.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/service-mesh@knI6CzqoCqo2nwUQDO8aO.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2297,7 +2477,9 @@
                 "url": "https://www.youtube.com/watch?v=Jn9yBBymXbQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/edge-vs-cloud@GR1iKhAx2w6uhGLnKj5qY.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/edge-vs-cloud@GR1iKhAx2w6uhGLnKj5qY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2384,7 +2566,9 @@
                 "url": "https://www.youtube.com/watch?v=l5k1ai_GBDE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/terraform@BaaSRLtKgCAOBtfnKdQhZ.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/terraform@BaaSRLtKgCAOBtfnKdQhZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "jUUG_326hAgM8iB5EZPiD",
@@ -2408,7 +2592,9 @@
                 "url": "https://www.youtube.com/watch?v=9In7ysQJGBs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/configuration-management@jUUG_326hAgM8iB5EZPiD.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/configuration-management@jUUG_326hAgM8iB5EZPiD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WJGbntOf6pwit7EfXKrdl",
@@ -2432,7 +2618,9 @@
                 "url": "https://www.youtube.com/watch?v=gO5ItcaIUrY&"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/levels-of-automation@WJGbntOf6pwit7EfXKrdl.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/levels-of-automation@WJGbntOf6pwit7EfXKrdl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2488,7 +2676,9 @@
                 "url": "https://roadmap.sh/questions/kubernetes"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/kubernetes@oDtWOXJmuvQAGAcKJTYCa.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/kubernetes@oDtWOXJmuvQAGAcKJTYCa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0qK3AmOfaRpIb0Tb7H0Mi",
@@ -2517,7 +2707,9 @@
                 "url": "https://www.youtube.com/watch?v=f5EpcWp0THw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/gitops@0qK3AmOfaRpIb0Tb7H0Mi.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/gitops@0qK3AmOfaRpIb0Tb7H0Mi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2573,7 +2765,9 @@
                 "url": "https://www.youtube.com/watch?v=M4CXOocovZ4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cicd-pipelines@ekEXVpRbd5ZeqYWMOtbFe.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cicd-pipelines@ekEXVpRbd5ZeqYWMOtbFe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "85DzmItKOUyxLA3uhyzik",
@@ -2592,7 +2786,9 @@
                 "url": "https://www.harness.io/harness-devops-academy/what-is-artifact-registry"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/artifact-registries@85DzmItKOUyxLA3uhyzik.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/artifact-registries@85DzmItKOUyxLA3uhyzik.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "h92mw_ciIss4630qmgrMP",
@@ -2616,7 +2812,9 @@
                 "url": "https://www.youtube.com/watch?v=AWVTKBUnoIg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/deployment-strategies@h92mw_ciIss4630qmgrMP.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/deployment-strategies@h92mw_ciIss4630qmgrMP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2667,31 +2865,9 @@
                 "url": "https://www.youtube.com/watch?v=fWYC2HQKdm8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/shared-responsibility-model@3ZKQcTJUB53ATRMoRyc2E.md"
-          },
-          {
-            "id": "D46EfZbDhtrHh4K5RMf0D",
-            "name": "RBAC",
-            "type": "subtopic",
-            "description": "RBAC (Role-Based Access Control) assigns permissions to roles rather than to individual users. Users or service accounts are then assigned roles, inheriting the permissions those roles define. This simplifies permission management at scale: instead of editing hundreds of individual user policies, you manage a smaller set of roles. Cloud providers implement RBAC through IAM role policies (AWS), IAM roles and bindings (GCP), and Azure Role Assignments. Kubernetes also uses RBAC to control access to cluster resources.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Role-Based Access Control",
-                "url": "https://auth0.com/docs/manage-users/access-control/rbac"
-              },
-              {
-                "type": "article",
-                "title": "What is Role-based Access Control (RBAC)?",
-                "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control"
-              },
-              {
-                "type": "video",
-                "title": "Role-based Access Control (RBAC) vs. Attribute-based Access Control (ABAC)",
-                "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/rbac@D46EfZbDhtrHh4K5RMf0D.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/shared-responsibility-model@3ZKQcTJUB53ATRMoRyc2E.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Rnfs1EerXfgEu3suK6U7N",
@@ -2720,7 +2896,35 @@
                 "url": "https://www.youtube.com/watch?v=aNj36g7fSsU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/iam@Rnfs1EerXfgEu3suK6U7N.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/iam@Rnfs1EerXfgEu3suK6U7N.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "D46EfZbDhtrHh4K5RMf0D",
+            "name": "RBAC",
+            "type": "subtopic",
+            "description": "RBAC (Role-Based Access Control) assigns permissions to roles rather than to individual users. Users or service accounts are then assigned roles, inheriting the permissions those roles define. This simplifies permission management at scale: instead of editing hundreds of individual user policies, you manage a smaller set of roles. Cloud providers implement RBAC through IAM role policies (AWS), IAM roles and bindings (GCP), and Azure Role Assignments. Kubernetes also uses RBAC to control access to cluster resources.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Role-Based Access Control",
+                "url": "https://auth0.com/docs/manage-users/access-control/rbac"
+              },
+              {
+                "type": "article",
+                "title": "What is Role-based Access Control (RBAC)?",
+                "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control"
+              },
+              {
+                "type": "video",
+                "title": "Role-based Access Control (RBAC) vs. Attribute-based Access Control (ABAC)",
+                "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/rbac@D46EfZbDhtrHh4K5RMf0D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2771,7 +2975,9 @@
                 "url": "https://www.youtube.com/watch?v=FMMWSLIcaME"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/zero-trust@O_HEtoFuv7NOgAbtGvFIC.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/zero-trust@O_HEtoFuv7NOgAbtGvFIC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EalIN2w9Lc_gc0Du3VrUk",
@@ -2800,7 +3006,9 @@
                 "url": "https://www.youtube.com/watch?v=bEnaFCjDPOE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/encryption@EalIN2w9Lc_gc0Du3VrUk.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/encryption@EalIN2w9Lc_gc0Du3VrUk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zmo3ivQDSowBsMhQqfyfT",
@@ -2829,7 +3037,9 @@
                 "url": "https://www.youtube.com/watch?v=BqekRTA6VCs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/secrets-management@zmo3ivQDSowBsMhQqfyfT.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/secrets-management@zmo3ivQDSowBsMhQqfyfT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "8yGuA_WI87w6m2mIxy91L",
@@ -2848,7 +3058,9 @@
                 "url": "https://www.comptia.org/content/articles/what-is-cybersecurity-compliance"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/privacy--compliance@8yGuA_WI87w6m2mIxy91L.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/privacy--compliance@8yGuA_WI87w6m2mIxy91L.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2894,7 +3106,9 @@
                 "url": "https://cloud.google.com/cost-management?hl=en"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cost-monitoring-and-budgets@H9ZovkWKkLf1CKXqSx4Jv.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/cost-monitoring-and-budgets@H9ZovkWKkLf1CKXqSx4Jv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7HiuJo5rh7Nwa5GaDqGOh",
@@ -2913,7 +3127,9 @@
                 "url": "https://kubex.ai/cloud-resource-optimization/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/resource-optimization@7HiuJo5rh7Nwa5GaDqGOh.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/resource-optimization@7HiuJo5rh7Nwa5GaDqGOh.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kvBzoEv91mQ3UENVgdrK-",
@@ -2942,7 +3158,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLUSCToibAswns2k7ZyDUfWBouQPPlJo-X"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/finops@kvBzoEv91mQ3UENVgdrK-.md"
+            "file_path": "developer-roadmap/roadmaps/cloud-computing/content/finops@kvBzoEv91mQ3UENVgdrK-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2977,6 +3195,20 @@
             "url": "https://www.youtube.com/watch?v=EN4fEbcFZ_E&list=PLEiEAq2VkUUIJ3o1tehvtux0_Ynf42CBN&index=2&t=10049s"
           }
         ]
+      },
+      {
+        "id": "fnygfhaQmDB4DHfOvTtlo",
+        "name": "Basic Terminology",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "tfwWrcTGOEb-VWN523N6v",
+        "name": "Distributed Systems",
+        "type": "subtopic",
+        "description": "",
+        "resources": []
       },
       {
         "id": "h9BCI9D062c6TXWO3jZRU",
@@ -3021,29 +3253,6 @@
             "type": "video",
             "title": "Geographies, Regions & Availability Zones",
             "url": "https://www.youtube.com/watch?v=C-nNw1mGwzE"
-          }
-        ]
-      },
-      {
-        "id": "xCgNhwbS_ELxEyRHD1enO",
-        "name": "Python",
-        "type": "subtopic",
-        "description": "Python is a general-purpose programming language widely used for scripting, automation, and interacting with cloud APIs. In a cloud context, it is the go-to language for writing infrastructure automation scripts, Lambda functions, CLI tools, and data pipelines. Most cloud provider SDKs (boto3 for AWS, google-cloud for GCP, azure-sdk for Azure) have first-class Python support.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Python Roadmap",
-            "url": "https://roadmap.sh/python"
-          },
-          {
-            "type": "video",
-            "title": "Python Full Course for Beginners",
-            "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
-          },
-          {
-            "type": "video",
-            "title": "Day-0 | Python for DevOps Course Syllabus | Learn Python from Basics | #abhishekveeramalla #python",
-            "url": "https://www.youtube.com/watch?v=H21U4jX_SLQ&list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv"
           }
         ]
       },
@@ -3094,34 +3303,6 @@
         ]
       },
       {
-        "id": "sre_s0dvpOP0DTM66a3hu",
-        "name": "Linux",
-        "type": "subtopic",
-        "description": "Linux is the operating system that runs the vast majority of cloud servers, containers, and managed services. Working in the cloud means reading logs, navigating filesystems, managing processes, and configuring services from a Linux shell. A solid grasp of Linux is assumed across the entire cloud stack.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Linux Roadmap",
-            "url": "https://roadmap.sh/linux"
-          },
-          {
-            "type": "course",
-            "title": "Linux from scratch - Cisco",
-            "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched"
-          },
-          {
-            "type": "article",
-            "title": "Linux Commands Cheat Sheet",
-            "url": "https://assets.hostinger.com/content/tutorials/pdf/Linux-Commands-Cheat-Sheet.pdf"
-          },
-          {
-            "type": "video",
-            "title": "Introduction to Linux",
-            "url": "https://youtu.be/sWbUDq4S6Y8"
-          }
-        ]
-      },
-      {
         "id": "M0Py2aGC7Mrka86tq7Lfb",
         "name": "Workload",
         "type": "subtopic",
@@ -3140,29 +3321,6 @@
         ]
       },
       {
-        "id": "uxm_BIAyhfFmcE94k9i9J",
-        "name": "Shell / Bash",
-        "type": "subtopic",
-        "description": "Bash is the default shell on most Linux systems and the primary language for writing automation scripts in cloud environments. It is used to chain commands, manage files, interact with CLIs, and automate repetitive tasks. Cloud practitioners use Bash daily when working with tools like the AWS CLI, kubectl, or Terraform.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Shell/Bash Roadmap",
-            "url": "https://roadmap.sh/shell-bash"
-          },
-          {
-            "type": "video",
-            "title": "The Complete Bash Scripting Course",
-            "url": "https://www.youtube.com/watch?v=Sx9zG7wa4FA&t=1s"
-          },
-          {
-            "type": "video",
-            "title": "Shell Scripting Crash Course - Beginner Level",
-            "url": "https://www.youtube.com/watch?v=v-F3YLd6oMw"
-          }
-        ]
-      },
-      {
         "id": "9xD14Zy5lV6DZMlvz-Ijo",
         "name": "Multi-Tenancy",
         "type": "subtopic",
@@ -3177,29 +3335,6 @@
             "type": "video",
             "title": "Multitenancy Explained",
             "url": "https://www.youtube.com/watch?v=60ccSmOxpMw&t=10s"
-          }
-        ]
-      },
-      {
-        "id": "kvNIi3aY5rn69_hYkDyUK",
-        "name": "Version Control",
-        "type": "subtopic",
-        "description": "Version control tracks changes to code and configuration over time, enabling collaboration and rollback. Git is the standard tool. In cloud workflows, version control is the foundation of CI/CD pipelines, Infrastructure as Code practices, and GitOps, where the Git repository is the single source of truth for both application and infrastructure state.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Git and GitHub Roadmap",
-            "url": "https://roadmap.sh/git-github"
-          },
-          {
-            "type": "course",
-            "title": "Why version control? (Interactive Lesson)",
-            "url": "https://inter-git.com/lessons/introduction"
-          },
-          {
-            "type": "article",
-            "title": "What is version control?",
-            "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
           }
         ]
       },
@@ -3223,34 +3358,6 @@
             "type": "video",
             "title": "What is Scalability and Elasticity in Cloud Computing?",
             "url": "https://www.youtube.com/watch?v=qk_L-a3mCnA&pp=ygUQY2xvdWQgZWxhc3RpY2l0edIHCQksDAGHKiGM7w%3D%3D"
-          }
-        ]
-      },
-      {
-        "id": "8y280d5BPXrDZwtsHZCaX",
-        "name": "Networking Basics",
-        "type": "subtopic",
-        "description": "Networking basics covers the fundamental concepts that underpin how computers communicate: IP addresses, subnets, ports, protocols (TCP, UDP, HTTP, HTTPS), and DNS. Cloud networking builds directly on these concepts, and without them, topics like VPCs, security groups, and load balancers are difficult to reason about. Understanding what happens when a request travels from a client to a server is the minimum baseline.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Network Engineer Roadmap",
-            "url": "https://roadmap.sh/network-engineer"
-          },
-          {
-            "type": "article",
-            "title": "WebSocket vs. HTTP: Which protocol should you use?",
-            "url": "https://roadmap.sh/network-engineer/websocket-vs-http"
-          },
-          {
-            "type": "article",
-            "title": "How does the internet work?",
-            "url": "https://roadmap.sh/guides/what-is-internet"
-          },
-          {
-            "type": "video",
-            "title": "Computer Networking Course",
-            "url": "https://www.youtube.com/playlist?list=PLR0bgGon_WTKY2irHaG_lNRZTrA7gAaCj"
           }
         ]
       },
@@ -3279,34 +3386,6 @@
             "type": "video",
             "title": "Scaling Distributed Systems - Software Architecture Introduction",
             "url": "https://www.youtube.com/watch?v=gxfERVP18-g"
-          }
-        ]
-      },
-      {
-        "id": "tENGACXKSKVPmZy9a3D2z",
-        "name": "Cybersecurity Basics",
-        "type": "subtopic",
-        "description": "Cybersecurity basics covers the core concepts a cloud practitioner needs before working with security services: what encryption is and how it works, what a firewall does, what a certificate is and why it matters, and the difference between authentication and authorization. Cloud environments expose a large attack surface, and knowing the vocabulary makes the security sections of the roadmap approachable.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Cyber Security Roadmap",
-            "url": "https://roadmap.sh/cyber-security"
-          },
-          {
-            "type": "article",
-            "title": "What Is Cloud Security? - Google Cloud",
-            "url": "https://cloud.google.com/learn/what-is-cloud-security"
-          },
-          {
-            "type": "article",
-            "title": "Cloud Security",
-            "url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-cloud-security/"
-          },
-          {
-            "type": "video",
-            "title": "Harvard CS50’s Intro to Cybersecurity – Full University Course",
-            "url": "https://www.youtube.com/watch?v=9HOpanT0GRs"
           }
         ]
       },
@@ -3399,6 +3478,220 @@
             "type": "video",
             "title": "What is a Service-Level Agreement (SLA)?",
             "url": "https://www.youtube.com/watch?v=V-ypx6Rmu_k"
+          }
+        ]
+      },
+      {
+        "id": "jJd0ed5hW_z-j3dSUdWVZ",
+        "name": "DaaS",
+        "type": "subtopic",
+        "description": "DaaS (Desktop as a Service) delivers a virtual desktop environment from the cloud to any device with a browser or thin client. The provider hosts and manages the underlying infrastructure, operating system, and desktop software. It is used by organizations that need to provide a consistent, secure desktop experience to remote or distributed workforces without managing physical machines.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is desktop as a service (DaaS)?",
+            "url": "https://www.ibm.com/think/topics/desktop-as-a-service"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Desktop-as-a-Service | Desktop as a Service (DaaS) | Examples & Advantages",
+            "url": "https://www.youtube.com/watch?v=5Em7GEso1x0https://www.youtube.com/watch?v=C4U9woDXKWY"
+          }
+        ]
+      },
+      {
+        "id": "R9OG8gvuGBMXi-Dkt58uL",
+        "name": "IaaS",
+        "type": "subtopic",
+        "description": "IaaS (Infrastructure as a Service) gives you raw computing resources over the internet: virtual machines, storage, and networking, without the overhead of managing physical hardware. You control the operating system and everything above it; the provider manages the physical layer. EC2, Google Compute Engine, and Azure Virtual Machines are IaaS products. IaaS is the foundation most other cloud service models build on.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is IaaS?",
+            "url": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-iaas"
+          },
+          {
+            "type": "video",
+            "title": "IaaS Explained",
+            "url": "https://www.youtube.com/watch?v=XRdmfo4M_YA"
+          }
+        ]
+      },
+      {
+        "id": "8yMuf0G_0R21XJOjufwcB",
+        "name": "FaaS",
+        "type": "subtopic",
+        "description": "FaaS (Function as a Service) lets you deploy individual functions that run in response to events, with no server management. The provider handles all infrastructure, scaling to zero when idle and scaling out automatically under load. AWS Lambda, Google Cloud Functions, and Azure Functions are the main platforms. FaaS is the compute model behind serverless architectures.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "What is function as a service (FaaS)?",
+            "url": "https://www.ibm.com/think/topics/faas"
+          },
+          {
+            "type": "video",
+            "title": "What is FaaS (Functions as a Service)?",
+            "url": "https://www.youtube.com/watch?v=EOIja7yFScs"
+          }
+        ]
+      },
+      {
+        "id": "mTtc7kTggMVhsPvjUe_KM",
+        "name": "Pre-requisites",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "xCgNhwbS_ELxEyRHD1enO",
+        "name": "Python",
+        "type": "subtopic",
+        "description": "Python is a general-purpose programming language widely used for scripting, automation, and interacting with cloud APIs. In a cloud context, it is the go-to language for writing infrastructure automation scripts, Lambda functions, CLI tools, and data pipelines. Most cloud provider SDKs (boto3 for AWS, google-cloud for GCP, azure-sdk for Azure) have first-class Python support.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Python Roadmap",
+            "url": "https://roadmap.sh/python"
+          },
+          {
+            "type": "video",
+            "title": "Python Full Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
+          },
+          {
+            "type": "video",
+            "title": "Day-0 | Python for DevOps Course Syllabus | Learn Python from Basics | #abhishekveeramalla #python",
+            "url": "https://www.youtube.com/watch?v=H21U4jX_SLQ&list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv"
+          }
+        ]
+      },
+      {
+        "id": "sre_s0dvpOP0DTM66a3hu",
+        "name": "Linux",
+        "type": "subtopic",
+        "description": "Linux is the operating system that runs the vast majority of cloud servers, containers, and managed services. Working in the cloud means reading logs, navigating filesystems, managing processes, and configuring services from a Linux shell. A solid grasp of Linux is assumed across the entire cloud stack.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Linux Roadmap",
+            "url": "https://roadmap.sh/linux"
+          },
+          {
+            "type": "course",
+            "title": "Linux from scratch - Cisco",
+            "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched"
+          },
+          {
+            "type": "article",
+            "title": "Linux Commands Cheat Sheet",
+            "url": "https://assets.hostinger.com/content/tutorials/pdf/Linux-Commands-Cheat-Sheet.pdf"
+          },
+          {
+            "type": "video",
+            "title": "Introduction to Linux",
+            "url": "https://youtu.be/sWbUDq4S6Y8"
+          }
+        ]
+      },
+      {
+        "id": "uxm_BIAyhfFmcE94k9i9J",
+        "name": "Shell / Bash",
+        "type": "subtopic",
+        "description": "Bash is the default shell on most Linux systems and the primary language for writing automation scripts in cloud environments. It is used to chain commands, manage files, interact with CLIs, and automate repetitive tasks. Cloud practitioners use Bash daily when working with tools like the AWS CLI, kubectl, or Terraform.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Shell/Bash Roadmap",
+            "url": "https://roadmap.sh/shell-bash"
+          },
+          {
+            "type": "video",
+            "title": "The Complete Bash Scripting Course",
+            "url": "https://www.youtube.com/watch?v=Sx9zG7wa4FA&t=1s"
+          },
+          {
+            "type": "video",
+            "title": "Shell Scripting Crash Course - Beginner Level",
+            "url": "https://www.youtube.com/watch?v=v-F3YLd6oMw"
+          }
+        ]
+      },
+      {
+        "id": "kvNIi3aY5rn69_hYkDyUK",
+        "name": "Version Control",
+        "type": "subtopic",
+        "description": "Version control tracks changes to code and configuration over time, enabling collaboration and rollback. Git is the standard tool. In cloud workflows, version control is the foundation of CI/CD pipelines, Infrastructure as Code practices, and GitOps, where the Git repository is the single source of truth for both application and infrastructure state.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Git and GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "course",
+            "title": "Why version control? (Interactive Lesson)",
+            "url": "https://inter-git.com/lessons/introduction"
+          },
+          {
+            "type": "article",
+            "title": "What is version control?",
+            "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+          }
+        ]
+      },
+      {
+        "id": "8y280d5BPXrDZwtsHZCaX",
+        "name": "Networking Basics",
+        "type": "subtopic",
+        "description": "Networking basics covers the fundamental concepts that underpin how computers communicate: IP addresses, subnets, ports, protocols (TCP, UDP, HTTP, HTTPS), and DNS. Cloud networking builds directly on these concepts, and without them, topics like VPCs, security groups, and load balancers are difficult to reason about. Understanding what happens when a request travels from a client to a server is the minimum baseline.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Network Engineer Roadmap",
+            "url": "https://roadmap.sh/network-engineer"
+          },
+          {
+            "type": "article",
+            "title": "WebSocket vs. HTTP: Which protocol should you use?",
+            "url": "https://roadmap.sh/network-engineer/websocket-vs-http"
+          },
+          {
+            "type": "article",
+            "title": "How does the internet work?",
+            "url": "https://roadmap.sh/guides/what-is-internet"
+          },
+          {
+            "type": "video",
+            "title": "Computer Networking Course",
+            "url": "https://www.youtube.com/playlist?list=PLR0bgGon_WTKY2irHaG_lNRZTrA7gAaCj"
+          }
+        ]
+      },
+      {
+        "id": "tENGACXKSKVPmZy9a3D2z",
+        "name": "Cybersecurity Basics",
+        "type": "subtopic",
+        "description": "Cybersecurity basics covers the core concepts a cloud practitioner needs before working with security services: what encryption is and how it works, what a firewall does, what a certificate is and why it matters, and the difference between authentication and authorization. Cloud environments expose a large attack surface, and knowing the vocabulary makes the security sections of the roadmap approachable.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Cyber Security Roadmap",
+            "url": "https://roadmap.sh/cyber-security"
+          },
+          {
+            "type": "article",
+            "title": "What Is Cloud Security? - Google Cloud",
+            "url": "https://cloud.google.com/learn/what-is-cloud-security"
+          },
+          {
+            "type": "article",
+            "title": "Cloud Security",
+            "url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-cloud-security/"
+          },
+          {
+            "type": "video",
+            "title": "Harvard CS50’s Intro to Cybersecurity – Full University Course",
+            "url": "https://www.youtube.com/watch?v=9HOpanT0GRs"
           }
         ]
       },
@@ -3544,44 +3837,8 @@
         ]
       },
       {
-        "id": "jJd0ed5hW_z-j3dSUdWVZ",
-        "name": "DaaS",
-        "type": "subtopic",
-        "description": "DaaS (Desktop as a Service) delivers a virtual desktop environment from the cloud to any device with a browser or thin client. The provider hosts and manages the underlying infrastructure, operating system, and desktop software. It is used by organizations that need to provide a consistent, secure desktop experience to remote or distributed workforces without managing physical machines.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is desktop as a service (DaaS)?",
-            "url": "https://www.ibm.com/think/topics/desktop-as-a-service"
-          },
-          {
-            "type": "video",
-            "title": "Introduction to Desktop-as-a-Service | Desktop as a Service (DaaS) | Examples & Advantages",
-            "url": "https://www.youtube.com/watch?v=5Em7GEso1x0https://www.youtube.com/watch?v=C4U9woDXKWY"
-          }
-        ]
-      },
-      {
-        "id": "R9OG8gvuGBMXi-Dkt58uL",
-        "name": "IaaS ",
-        "type": "subtopic",
-        "description": "IaaS (Infrastructure as a Service) gives you raw computing resources over the internet: virtual machines, storage, and networking, without the overhead of managing physical hardware. You control the operating system and everything above it; the provider manages the physical layer. EC2, Google Compute Engine, and Azure Virtual Machines are IaaS products. IaaS is the foundation most other cloud service models build on.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is IaaS?",
-            "url": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-iaas"
-          },
-          {
-            "type": "video",
-            "title": "IaaS Explained",
-            "url": "https://www.youtube.com/watch?v=XRdmfo4M_YA"
-          }
-        ]
-      },
-      {
         "id": "9lhFMRCpD8xv5gsYoIciT",
-        "name": "PaaS ",
+        "name": "PaaS",
         "type": "subtopic",
         "description": "PaaS (Platform as a Service) provides a managed environment for deploying and running applications, abstracting away the underlying infrastructure. You bring your code; the platform handles the runtime, scaling, patching, and availability. Google App Engine, AWS Elastic Beanstalk, and Heroku are PaaS examples. PaaS trades infrastructure control for reduced operational burden.",
         "resources": [
@@ -3594,24 +3851,6 @@
             "type": "video",
             "title": "PaaS Explained",
             "url": "https://www.youtube.com/watch?v=QAbqJzd0PEE"
-          }
-        ]
-      },
-      {
-        "id": "8yMuf0G_0R21XJOjufwcB",
-        "name": "FaaS ",
-        "type": "subtopic",
-        "description": "FaaS (Function as a Service) lets you deploy individual functions that run in response to events, with no server management. The provider handles all infrastructure, scaling to zero when idle and scaling out automatically under load. AWS Lambda, Google Cloud Functions, and Azure Functions are the main platforms. FaaS is the compute model behind serverless architectures.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "What is function as a service (FaaS)?",
-            "url": "https://www.ibm.com/think/topics/faas"
-          },
-          {
-            "type": "video",
-            "title": "What is FaaS (Functions as a Service)?",
-            "url": "https://www.youtube.com/watch?v=EOIja7yFScs"
           }
         ]
       },
@@ -3721,29 +3960,6 @@
         ]
       },
       {
-        "id": "54FZABfiiluudsw8dU2qj",
-        "name": "Azure",
-        "type": "subtopic",
-        "description": "Microsoft Azure is the second-largest cloud provider, with particular strength in enterprise environments due to its deep integration with Microsoft products such as Active Directory, Office 365, and Windows Server. Azure is the preferred choice for organizations already running Microsoft workloads and has strong hybrid cloud capabilities through services like Azure Arc.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "What is Azure?",
-            "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
-          },
-          {
-            "type": "official",
-            "title": "Azure Docs",
-            "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
-          },
-          {
-            "type": "video",
-            "title": "Microsoft Azure Fundamentals Certification Course",
-            "url": "https://www.youtube.com/watch?v=5abffC-K40c&t=12s"
-          }
-        ]
-      },
-      {
         "id": "sgvJHF88U8-J-pIvPvhZQ",
         "name": "AWS",
         "type": "subtopic",
@@ -3791,6 +4007,29 @@
             "type": "video",
             "title": "Google Cloud Platform Full Course",
             "url": "https://www.youtube.com/watch?v=dn9cSRImmVA&list=PLEiEAq2VkUUI0xT8VNpjBuWvmnLHxPcsE"
+          }
+        ]
+      },
+      {
+        "id": "54FZABfiiluudsw8dU2qj",
+        "name": "Azure",
+        "type": "subtopic",
+        "description": "Microsoft Azure is the second-largest cloud provider, with particular strength in enterprise environments due to its deep integration with Microsoft products such as Active Directory, Office 365, and Windows Server. Azure is the preferred choice for organizations already running Microsoft workloads and has strong hybrid cloud capabilities through services like Azure Arc.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "What is Azure?",
+            "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
+          },
+          {
+            "type": "official",
+            "title": "Azure Docs",
+            "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
+          },
+          {
+            "type": "video",
+            "title": "Microsoft Azure Fundamentals Certification Course",
+            "url": "https://www.youtube.com/watch?v=5abffC-K40c&t=12s"
           }
         ]
       },
@@ -4379,6 +4618,29 @@
         ]
       },
       {
+        "id": "Yim9sxfbsQBiM6HTB3xaW",
+        "name": "Core Networking",
+        "type": "topic",
+        "description": "Core networking covers the fundamental building blocks of a cloud network: isolated virtual networks, subnet segmentation, routing, and address management. These are configured before any workload is deployed and form the foundation that all other networking features build on.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is cloud networking? - Cloudflare",
+            "url": "https://www.cloudflare.com/en-gb/learning/cloud/what-is-cloud-networking/"
+          },
+          {
+            "type": "article",
+            "title": "What is cloud networking? - Cisco",
+            "url": "https://www.cisco.com/site/us/en/learn/topics/cloud-networking/what-is-cloud-networking.html"
+          },
+          {
+            "type": "video",
+            "title": "Cloud Networking Explained",
+            "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ"
+          }
+        ]
+      },
+      {
         "id": "OAEFYuE5sD3U47Kiex4Bo",
         "name": "Subnets & Routing",
         "type": "subtopic",
@@ -4403,29 +4665,6 @@
             "type": "video",
             "title": "What is CIDR (Classless Inter Domain Routing)?",
             "url": "https://www.youtube.com/watch?v=KiWXRL-2TnY"
-          }
-        ]
-      },
-      {
-        "id": "Yim9sxfbsQBiM6HTB3xaW",
-        "name": "Core Networking",
-        "type": "topic",
-        "description": "Core networking covers the fundamental building blocks of a cloud network: isolated virtual networks, subnet segmentation, routing, and address management. These are configured before any workload is deployed and form the foundation that all other networking features build on.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is cloud networking? - Cloudflare",
-            "url": "https://www.cloudflare.com/en-gb/learning/cloud/what-is-cloud-networking/"
-          },
-          {
-            "type": "article",
-            "title": "What is cloud networking? - Cisco",
-            "url": "https://www.cisco.com/site/us/en/learn/topics/cloud-networking/what-is-cloud-networking.html"
-          },
-          {
-            "type": "video",
-            "title": "Cloud Networking Explained",
-            "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ"
           }
         ]
       },
@@ -5439,29 +5678,6 @@
         ]
       },
       {
-        "id": "D46EfZbDhtrHh4K5RMf0D",
-        "name": "RBAC",
-        "type": "subtopic",
-        "description": "RBAC (Role-Based Access Control) assigns permissions to roles rather than to individual users. Users or service accounts are then assigned roles, inheriting the permissions those roles define. This simplifies permission management at scale: instead of editing hundreds of individual user policies, you manage a smaller set of roles. Cloud providers implement RBAC through IAM role policies (AWS), IAM roles and bindings (GCP), and Azure Role Assignments. Kubernetes also uses RBAC to control access to cluster resources.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Role-Based Access Control",
-            "url": "https://auth0.com/docs/manage-users/access-control/rbac"
-          },
-          {
-            "type": "article",
-            "title": "What is Role-based Access Control (RBAC)?",
-            "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control"
-          },
-          {
-            "type": "video",
-            "title": "Role-based Access Control (RBAC) vs. Attribute-based Access Control (ABAC)",
-            "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k"
-          }
-        ]
-      },
-      {
         "id": "Rnfs1EerXfgEu3suK6U7N",
         "name": "IAM",
         "type": "subtopic",
@@ -5486,6 +5702,29 @@
             "type": "video",
             "title": "Identity & Access Management (IAM)",
             "url": "https://www.youtube.com/watch?v=aNj36g7fSsU"
+          }
+        ]
+      },
+      {
+        "id": "D46EfZbDhtrHh4K5RMf0D",
+        "name": "RBAC",
+        "type": "subtopic",
+        "description": "RBAC (Role-Based Access Control) assigns permissions to roles rather than to individual users. Users or service accounts are then assigned roles, inheriting the permissions those roles define. This simplifies permission management at scale: instead of editing hundreds of individual user policies, you manage a smaller set of roles. Cloud providers implement RBAC through IAM role policies (AWS), IAM roles and bindings (GCP), and Azure Role Assignments. Kubernetes also uses RBAC to control access to cluster resources.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Role-Based Access Control",
+            "url": "https://auth0.com/docs/manage-users/access-control/rbac"
+          },
+          {
+            "type": "article",
+            "title": "What is Role-based Access Control (RBAC)?",
+            "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control"
+          },
+          {
+            "type": "video",
+            "title": "Role-based Access Control (RBAC) vs. Attribute-based Access Control (ABAC)",
+            "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k"
           }
         ]
       },
@@ -5699,64 +5938,124 @@
     ],
     "edges": [
       {
-        "source": "vUkTAHtC646jCzCWLURcx",
-        "target": "zs0QY4OjZXl8Q-fVBgcIc",
-        "type": "next_in_flow"
+        "source": "fnygfhaQmDB4DHfOvTtlo",
+        "target": "CmpV2Rroh7rgqfc2lRTyL",
+        "type": "subtopic_of"
       },
       {
-        "source": "zs0QY4OjZXl8Q-fVBgcIc",
-        "target": "z0cO65gXaZFPmvNY2MeeO",
-        "type": "next_in_flow"
+        "source": "mTtc7kTggMVhsPvjUe_KM",
+        "target": "CmpV2Rroh7rgqfc2lRTyL",
+        "type": "subtopic_of"
       },
       {
-        "source": "mzzInqS9ezMmvcGxy8J3v",
-        "target": "O5hz-hI_7DiQ72KPJgD0r",
-        "type": "next_in_flow"
+        "source": "tfwWrcTGOEb-VWN523N6v",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "O5hz-hI_7DiQ72KPJgD0r",
-        "target": "50vqMpkllyAh--lCZtC6K",
-        "type": "next_in_flow"
+        "source": "h9BCI9D062c6TXWO3jZRU",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "H2HIcZ82D26Zk5jmeo7cj",
-        "target": "kNq5sRZ4wX4sy2pq04pyg",
-        "type": "next_in_flow"
+        "source": "Gt-f9Sa0RxHI-GbU8g7NH",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "gOmuHHTiPL1Aa4nB8wKo1",
-        "target": "s7bsoR_uzOhMtKmjh9wmd",
-        "type": "next_in_flow"
+        "source": "jvuiicfmxaRpZW_ZOS2jH",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "s7bsoR_uzOhMtKmjh9wmd",
-        "target": "N_7Yz27r81GSjPjCYGP8o",
-        "type": "next_in_flow"
+        "source": "rGvAbV42VkmhN3Z_X0lEc",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "9c1KBNkFO7J7MdkFHXqQo",
-        "target": "juArOFm1mI8tq_t0wFyAQ",
-        "type": "next_in_flow"
+        "source": "M0Py2aGC7Mrka86tq7Lfb",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "juArOFm1mI8tq_t0wFyAQ",
-        "target": "GVNifuoultxXmOyoY3Ecr",
-        "type": "next_in_flow"
+        "source": "9xD14Zy5lV6DZMlvz-Ijo",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "50vqMpkllyAh--lCZtC6K",
-        "target": "OzumOmHT24rSFPT2BkZ5e",
-        "type": "next_in_flow"
+        "source": "L19SMhSUxAduv8xs5j9Mm",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "OzumOmHT24rSFPT2BkZ5e",
-        "target": "H2HIcZ82D26Zk5jmeo7cj",
-        "type": "next_in_flow"
+        "source": "7fzvnLgJK4KC77Xf5M24c",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
       },
       {
-        "source": "N_7Yz27r81GSjPjCYGP8o",
-        "target": "I5gzEcUkupIptVi2Vr8Wb",
-        "type": "next_in_flow"
+        "source": "_Tq4N_A7ds7u0wWzK6hoz",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YcSsXeZxpoDlV83vGcYXu",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k8RPB21gJRticdeWN_U4F",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZSUdk8DU6-4f3RszN-bvx",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jJd0ed5hW_z-j3dSUdWVZ",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "R9OG8gvuGBMXi-Dkt58uL",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8yMuf0G_0R21XJOjufwcB",
+        "target": "fnygfhaQmDB4DHfOvTtlo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xCgNhwbS_ELxEyRHD1enO",
+        "target": "mTtc7kTggMVhsPvjUe_KM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sre_s0dvpOP0DTM66a3hu",
+        "target": "mTtc7kTggMVhsPvjUe_KM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uxm_BIAyhfFmcE94k9i9J",
+        "target": "mTtc7kTggMVhsPvjUe_KM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kvNIi3aY5rn69_hYkDyUK",
+        "target": "mTtc7kTggMVhsPvjUe_KM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8y280d5BPXrDZwtsHZCaX",
+        "target": "mTtc7kTggMVhsPvjUe_KM",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tENGACXKSKVPmZy9a3D2z",
+        "target": "mTtc7kTggMVhsPvjUe_KM",
+        "type": "subtopic_of"
       },
       {
         "source": "PJ9UmcON8LX42-WIO-2_2",
@@ -5776,76 +6075,6 @@
       {
         "source": "ZNYIAFU40oZ-fnB2zvy8X",
         "target": "vUkTAHtC646jCzCWLURcx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y4cGmBercrAh04iQW_JrN",
-        "target": "50vqMpkllyAh--lCZtC6K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nKOss-TkhAcH7rMwLVJ1u",
-        "target": "50vqMpkllyAh--lCZtC6K",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "d5bjMIQSsB2UlYE55oeMz",
-        "target": "kNq5sRZ4wX4sy2pq04pyg",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Xyx9wrhKEMMf7iyG-ElxX",
-        "target": "kNq5sRZ4wX4sy2pq04pyg",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bDJ2MVYcv3AcPcmclnDbA",
-        "target": "oNH7G9hOzIXogUZjWL8L3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KrjIsi9FMlSY7V7usJeWN",
-        "target": "oNH7G9hOzIXogUZjWL8L3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ee9YyghfSXFtl_bcklqEE",
-        "target": "oNH7G9hOzIXogUZjWL8L3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KJa5CodbjfKEPZPad_aVH",
-        "target": "OzumOmHT24rSFPT2BkZ5e",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0SHKWbY18cJehL8OOsQbb",
-        "target": "OzumOmHT24rSFPT2BkZ5e",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3ZKQcTJUB53ATRMoRyc2E",
-        "target": "rWv-Mw5kWRqIi6ZwYBT2Z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "O_HEtoFuv7NOgAbtGvFIC",
-        "target": "dYpy5_RlgNu4W0FloppGi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EalIN2w9Lc_gc0Du3VrUk",
-        "target": "dYpy5_RlgNu4W0FloppGi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zmo3ivQDSowBsMhQqfyfT",
-        "target": "dYpy5_RlgNu4W0FloppGi",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8yGuA_WI87w6m2mIxy91L",
-        "target": "dYpy5_RlgNu4W0FloppGi",
         "type": "subtopic_of"
       },
       {
@@ -5869,7 +6098,27 @@
         "type": "subtopic_of"
       },
       {
+        "source": "NGDa1J5qSObdBhEr16xJQ",
+        "target": "z0cO65gXaZFPmvNY2MeeO",
+        "type": "subtopic_of"
+      },
+      {
         "source": "oty9N2o89-RpLNKyWi4k0",
+        "target": "z0cO65gXaZFPmvNY2MeeO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sgvJHF88U8-J-pIvPvhZQ",
+        "target": "z0cO65gXaZFPmvNY2MeeO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "C-VDFWbrIx4Rmv4u4-ZVm",
+        "target": "z0cO65gXaZFPmvNY2MeeO",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "54FZABfiiluudsw8dU2qj",
         "target": "z0cO65gXaZFPmvNY2MeeO",
         "type": "subtopic_of"
       },
@@ -5904,6 +6153,81 @@
         "type": "subtopic_of"
       },
       {
+        "source": "2WrbFJYVhDNYBVw9VBdzk",
+        "target": "O5hz-hI_7DiQ72KPJgD0r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6HyyXlNIXIwolZr1GTxBW",
+        "target": "O5hz-hI_7DiQ72KPJgD0r",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y4cGmBercrAh04iQW_JrN",
+        "target": "50vqMpkllyAh--lCZtC6K",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nKOss-TkhAcH7rMwLVJ1u",
+        "target": "50vqMpkllyAh--lCZtC6K",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KJa5CodbjfKEPZPad_aVH",
+        "target": "OzumOmHT24rSFPT2BkZ5e",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0SHKWbY18cJehL8OOsQbb",
+        "target": "OzumOmHT24rSFPT2BkZ5e",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wz1_dxRMcya5qArNCQIXy",
+        "target": "H2HIcZ82D26Zk5jmeo7cj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cJ1LV6oDoABd2L1dtDpoB",
+        "target": "H2HIcZ82D26Zk5jmeo7cj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "d5bjMIQSsB2UlYE55oeMz",
+        "target": "kNq5sRZ4wX4sy2pq04pyg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Xyx9wrhKEMMf7iyG-ElxX",
+        "target": "kNq5sRZ4wX4sy2pq04pyg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Q4Ttb6uMZr35fVj7Bubqe",
+        "target": "kNq5sRZ4wX4sy2pq04pyg",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OAEFYuE5sD3U47Kiex4Bo",
+        "target": "Yim9sxfbsQBiM6HTB3xaW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ag58krahDzkHzCZzBdxp-",
+        "target": "Yim9sxfbsQBiM6HTB3xaW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ztCFSoR4a5qQiGrHyoroM",
+        "target": "Yim9sxfbsQBiM6HTB3xaW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mHqFe6Avcnb--U3t4hhdR",
+        "target": "Yim9sxfbsQBiM6HTB3xaW",
+        "type": "subtopic_of"
+      },
+      {
         "source": "6MDgQ61_A4HbS9Kv5BXnX",
         "target": "L2p-V7Q42tIkOumwvU4gn",
         "type": "subtopic_of"
@@ -5919,28 +6243,28 @@
         "type": "subtopic_of"
       },
       {
+        "source": "jLeK4ZrgzX2mrIVg-g-bV",
+        "target": "L2p-V7Q42tIkOumwvU4gn",
+        "type": "subtopic_of"
+      },
+      {
         "source": "F3tQ6Rjx5K6fjuzaBRIRA",
         "target": "L2p-V7Q42tIkOumwvU4gn",
         "type": "subtopic_of"
       },
       {
-        "source": "2WrbFJYVhDNYBVw9VBdzk",
-        "target": "O5hz-hI_7DiQ72KPJgD0r",
+        "source": "bDJ2MVYcv3AcPcmclnDbA",
+        "target": "oNH7G9hOzIXogUZjWL8L3",
         "type": "subtopic_of"
       },
       {
-        "source": "6HyyXlNIXIwolZr1GTxBW",
-        "target": "O5hz-hI_7DiQ72KPJgD0r",
+        "source": "KrjIsi9FMlSY7V7usJeWN",
+        "target": "oNH7G9hOzIXogUZjWL8L3",
         "type": "subtopic_of"
       },
       {
-        "source": "wz1_dxRMcya5qArNCQIXy",
-        "target": "H2HIcZ82D26Zk5jmeo7cj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cJ1LV6oDoABd2L1dtDpoB",
-        "target": "H2HIcZ82D26Zk5jmeo7cj",
+        "source": "ee9YyghfSXFtl_bcklqEE",
+        "target": "oNH7G9hOzIXogUZjWL8L3",
         "type": "subtopic_of"
       },
       {
@@ -6004,17 +6328,17 @@
         "type": "subtopic_of"
       },
       {
+        "source": "BaaSRLtKgCAOBtfnKdQhZ",
+        "target": "GVNifuoultxXmOyoY3Ecr",
+        "type": "subtopic_of"
+      },
+      {
         "source": "jUUG_326hAgM8iB5EZPiD",
         "target": "GVNifuoultxXmOyoY3Ecr",
         "type": "subtopic_of"
       },
       {
         "source": "WJGbntOf6pwit7EfXKrdl",
-        "target": "GVNifuoultxXmOyoY3Ecr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "BaaSRLtKgCAOBtfnKdQhZ",
         "target": "GVNifuoultxXmOyoY3Ecr",
         "type": "subtopic_of"
       },
@@ -6044,8 +6368,38 @@
         "type": "subtopic_of"
       },
       {
+        "source": "3ZKQcTJUB53ATRMoRyc2E",
+        "target": "rWv-Mw5kWRqIi6ZwYBT2Z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Rnfs1EerXfgEu3suK6U7N",
+        "target": "rWv-Mw5kWRqIi6ZwYBT2Z",
+        "type": "subtopic_of"
+      },
+      {
         "source": "D46EfZbDhtrHh4K5RMf0D",
         "target": "rWv-Mw5kWRqIi6ZwYBT2Z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "O_HEtoFuv7NOgAbtGvFIC",
+        "target": "dYpy5_RlgNu4W0FloppGi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EalIN2w9Lc_gc0Du3VrUk",
+        "target": "dYpy5_RlgNu4W0FloppGi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zmo3ivQDSowBsMhQqfyfT",
+        "target": "dYpy5_RlgNu4W0FloppGi",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8yGuA_WI87w6m2mIxy91L",
+        "target": "dYpy5_RlgNu4W0FloppGi",
         "type": "subtopic_of"
       },
       {
@@ -6064,164 +6418,64 @@
         "type": "subtopic_of"
       },
       {
-        "source": "NGDa1J5qSObdBhEr16xJQ",
+        "source": "vUkTAHtC646jCzCWLURcx",
+        "target": "zs0QY4OjZXl8Q-fVBgcIc",
+        "type": "next_in_flow"
+      },
+      {
+        "source": "zs0QY4OjZXl8Q-fVBgcIc",
         "target": "z0cO65gXaZFPmvNY2MeeO",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "h9BCI9D062c6TXWO3jZRU",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
+        "source": "mzzInqS9ezMmvcGxy8J3v",
+        "target": "O5hz-hI_7DiQ72KPJgD0r",
+        "type": "next_in_flow"
       },
       {
-        "source": "9xD14Zy5lV6DZMlvz-Ijo",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
+        "source": "O5hz-hI_7DiQ72KPJgD0r",
+        "target": "50vqMpkllyAh--lCZtC6K",
+        "type": "next_in_flow"
       },
       {
-        "source": "Gt-f9Sa0RxHI-GbU8g7NH",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jvuiicfmxaRpZW_ZOS2jH",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "M0Py2aGC7Mrka86tq7Lfb",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_Tq4N_A7ds7u0wWzK6hoz",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "L19SMhSUxAduv8xs5j9Mm",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7fzvnLgJK4KC77Xf5M24c",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YcSsXeZxpoDlV83vGcYXu",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rGvAbV42VkmhN3Z_X0lEc",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "k8RPB21gJRticdeWN_U4F",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZSUdk8DU6-4f3RszN-bvx",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uxm_BIAyhfFmcE94k9i9J",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kvNIi3aY5rn69_hYkDyUK",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8y280d5BPXrDZwtsHZCaX",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tENGACXKSKVPmZy9a3D2z",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xCgNhwbS_ELxEyRHD1enO",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "sre_s0dvpOP0DTM66a3hu",
-        "target": "CmpV2Rroh7rgqfc2lRTyL",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8yMuf0G_0R21XJOjufwcB",
-        "target": "zs0QY4OjZXl8Q-fVBgcIc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jJd0ed5hW_z-j3dSUdWVZ",
-        "target": "zs0QY4OjZXl8Q-fVBgcIc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Rnfs1EerXfgEu3suK6U7N",
-        "target": "rWv-Mw5kWRqIi6ZwYBT2Z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "R9OG8gvuGBMXi-Dkt58uL",
-        "target": "zs0QY4OjZXl8Q-fVBgcIc",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Q4Ttb6uMZr35fVj7Bubqe",
+        "source": "H2HIcZ82D26Zk5jmeo7cj",
         "target": "kNq5sRZ4wX4sy2pq04pyg",
-        "type": "subtopic_of"
+        "type": "next_in_flow"
       },
       {
-        "source": "OAEFYuE5sD3U47Kiex4Bo",
-        "target": "kNq5sRZ4wX4sy2pq04pyg",
-        "type": "subtopic_of"
+        "source": "gOmuHHTiPL1Aa4nB8wKo1",
+        "target": "s7bsoR_uzOhMtKmjh9wmd",
+        "type": "next_in_flow"
       },
       {
-        "source": "ag58krahDzkHzCZzBdxp-",
-        "target": "Yim9sxfbsQBiM6HTB3xaW",
-        "type": "subtopic_of"
+        "source": "s7bsoR_uzOhMtKmjh9wmd",
+        "target": "N_7Yz27r81GSjPjCYGP8o",
+        "type": "next_in_flow"
       },
       {
-        "source": "ztCFSoR4a5qQiGrHyoroM",
-        "target": "Yim9sxfbsQBiM6HTB3xaW",
-        "type": "subtopic_of"
+        "source": "9c1KBNkFO7J7MdkFHXqQo",
+        "target": "juArOFm1mI8tq_t0wFyAQ",
+        "type": "next_in_flow"
       },
       {
-        "source": "mHqFe6Avcnb--U3t4hhdR",
-        "target": "Yim9sxfbsQBiM6HTB3xaW",
-        "type": "subtopic_of"
+        "source": "juArOFm1mI8tq_t0wFyAQ",
+        "target": "GVNifuoultxXmOyoY3Ecr",
+        "type": "next_in_flow"
       },
       {
-        "source": "jLeK4ZrgzX2mrIVg-g-bV",
-        "target": "L2p-V7Q42tIkOumwvU4gn",
-        "type": "subtopic_of"
+        "source": "50vqMpkllyAh--lCZtC6K",
+        "target": "OzumOmHT24rSFPT2BkZ5e",
+        "type": "next_in_flow"
       },
       {
-        "source": "54FZABfiiluudsw8dU2qj",
-        "target": "z0cO65gXaZFPmvNY2MeeO",
-        "type": "subtopic_of"
+        "source": "OzumOmHT24rSFPT2BkZ5e",
+        "target": "H2HIcZ82D26Zk5jmeo7cj",
+        "type": "next_in_flow"
       },
       {
-        "source": "sgvJHF88U8-J-pIvPvhZQ",
-        "target": "z0cO65gXaZFPmvNY2MeeO",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "C-VDFWbrIx4Rmv4u4-ZVm",
-        "target": "z0cO65gXaZFPmvNY2MeeO",
-        "type": "subtopic_of"
+        "source": "N_7Yz27r81GSjPjCYGP8o",
+        "target": "I5gzEcUkupIptVi2Vr8Wb",
+        "type": "next_in_flow"
       }
     ]
   }
