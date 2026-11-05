@@ -1,0 +1,438 @@
+{
+  "title": "Blockchain Developer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Blockchain"
+        },
+        {
+          "title": "Blockchain Structure"
+        },
+        {
+          "title": "Why it matters?"
+        },
+        {
+          "title": "Cryptography & Hashing"
+        },
+        {
+          "title": "Applications and Uses"
+        },
+        {
+          "title": "Decentralization"
+        },
+        {
+          "title": "Decentralization vs Trust"
+        },
+        {
+          "title": "EVM-Based"
+        },
+        {
+          "title": "Blockchain Networks"
+        },
+        {
+          "title": "Ethereum"
+        },
+        {
+          "title": "Polygon"
+        },
+        {
+          "title": "Consensus Protocols"
+        },
+        {
+          "title": "BNB Chain"
+        },
+        {
+          "title": "Gnosis Chain"
+        },
+        {
+          "title": "PoS"
+        },
+        {
+          "title": "PoW"
+        },
+        {
+          "title": "Avalanche"
+        },
+        {
+          "title": "BFT"
+        },
+        {
+          "title": "PoH"
+        },
+        {
+          "title": "Fantom"
+        },
+        {
+          "title": "Moonbeam / Moonriver"
+        },
+        {
+          "title": "Basic Blockchain Operations"
+        },
+        {
+          "title": "Blockchain Interoperability"
+        },
+        {
+          "title": "UTXO-Based"
+        },
+        {
+          "title": "Storage"
+        },
+        {
+          "title": "Bitcoin"
+        },
+        {
+          "title": "Cardano"
+        },
+        {
+          "title": "Blockchain Forking"
+        },
+        {
+          "title": "TVM-Based"
+        },
+        {
+          "title": "TVM-Based (2)"
+        },
+        {
+          "title": "Cryptocurrencies"
+        },
+        {
+          "title": "Cryptowallets"
+        },
+        {
+          "title": "Mining & Incentive Models"
+        },
+        {
+          "title": "Environmental Considerations"
+        }
+      ]
+    },
+    {
+      "title": "Understanding Blockchain"
+    },
+    {
+      "title": "Types of Blockchains",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Everscale"
+        },
+        {
+          "title": "Gosh"
+        },
+        {
+          "title": "TON"
+        },
+        {
+          "title": "Venom"
+        },
+        {
+          "title": "L2 Blockchains"
+        },
+        {
+          "title": "Optimism"
+        },
+        {
+          "title": "Arbitrum"
+        },
+        {
+          "title": "Base"
+        },
+        {
+          "title": "Starknet"
+        },
+        {
+          "title": "Solana"
+        }
+      ]
+    },
+    {
+      "title": "Smart Contracts",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Solidity"
+        },
+        {
+          "title": "Rust"
+        },
+        {
+          "title": "Vyper"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Unit Tests"
+        },
+        {
+          "title": "Remix"
+        },
+        {
+          "title": "VS Code"
+        },
+        {
+          "title": "Integration Tests"
+        },
+        {
+          "title": "Code Coverage"
+        },
+        {
+          "title": "Hardhat"
+        },
+        {
+          "title": "Foundry"
+        },
+        {
+          "title": "Brownie"
+        },
+        {
+          "title": "Truffle"
+        },
+        {
+          "title": "Deployment"
+        },
+        {
+          "title": "Monitoring"
+        },
+        {
+          "title": "OpenZeppelin"
+        },
+        {
+          "title": "Upgrades"
+        },
+        {
+          "title": "ERC Tokens"
+        },
+        {
+          "title": "Git"
+        },
+        {
+          "title": "Crypto Wallets"
+        },
+        {
+          "title": "Crypto Faucets"
+        },
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Decentralized Storage"
+        },
+        {
+          "title": "GitLab"
+        },
+        {
+          "title": "Bitbucket"
+        },
+        {
+          "title": "Slither"
+        },
+        {
+          "title": "Echidna"
+        },
+        {
+          "title": "Diligent Fuzzing"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Practices"
+        }
+      ]
+    },
+    {
+      "title": "Supporting Languages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Fuzz Testing & Static Analysis"
+        },
+        {
+          "title": "Common Threat Vectors"
+        },
+        {
+          "title": "Source of Randomness Attacks"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Oracles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hybrid Smart Contracts"
+        },
+        {
+          "title": "Chainlink"
+        },
+        {
+          "title": "Oracle Networks"
+        }
+      ]
+    },
+    {
+      "title": "Frontend Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React"
+        },
+        {
+          "title": "Angular"
+        },
+        {
+          "title": "Vue"
+        }
+      ]
+    },
+    {
+      "title": "Client Libraries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "web3.js"
+        },
+        {
+          "title": "Moralis"
+        },
+        {
+          "title": "ethers.js"
+        }
+      ]
+    },
+    {
+      "title": "dApps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Testing"
+        },
+        {
+          "title": "Deployment"
+        },
+        {
+          "title": "Maintenance"
+        },
+        {
+          "title": "Architecture"
+        },
+        {
+          "title": "Security"
+        },
+        {
+          "title": "State & Payment Channels"
+        },
+        {
+          "title": "Optimistic Rollups & Fraud Proofs"
+        }
+      ]
+    },
+    {
+      "title": "Client Nodes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Geth"
+        },
+        {
+          "title": "Besu"
+        },
+        {
+          "title": "Nethermind"
+        },
+        {
+          "title": "Substrate"
+        }
+      ]
+    },
+    {
+      "title": "Building for Scale",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zk Rollups & Zero Knowledge Proof"
+        },
+        {
+          "title": "Validium"
+        },
+        {
+          "title": "Plasma"
+        },
+        {
+          "title": "Sidechains"
+        },
+        {
+          "title": "Ethereum 2.0"
+        },
+        {
+          "title": "On-Chain Scaling"
+        }
+      ]
+    },
+    {
+      "title": "Applicability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Defi"
+        },
+        {
+          "title": "DAOs"
+        },
+        {
+          "title": "NFTs"
+        },
+        {
+          "title": "Payments"
+        },
+        {
+          "title": "Insurance"
+        }
+      ]
+    },
+    {
+      "title": "Node as a Service",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Alchemy"
+        },
+        {
+          "title": "Infura"
+        },
+        {
+          "title": "Pokt Network"
+        },
+        {
+          "title": "Quicknode"
+        }
+      ]
+    }
+  ]
+}

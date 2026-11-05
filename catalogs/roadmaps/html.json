@@ -1,0 +1,313 @@
+{
+  "title": "HTML",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are markup languages?"
+        },
+        {
+          "title": "Frontend Development"
+        },
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "How the web works",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is HTTP?"
+        },
+        {
+          "title": "Domain names"
+        },
+        {
+          "title": "Hosting"
+        },
+        {
+          "title": "DNS"
+        },
+        {
+          "title": "Tags and Attributes"
+        },
+        {
+          "title": "Browsers"
+        },
+        {
+          "title": "Case Insensitivity"
+        },
+        {
+          "title": "What is SEO?"
+        },
+        {
+          "title": "HTML Entities"
+        },
+        {
+          "title": "HTML Comments"
+        }
+      ]
+    },
+    {
+      "title": "Basic Tags",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "!DOCTYPE"
+        },
+        {
+          "title": "Whitespaces"
+        },
+        {
+          "title": "html"
+        },
+        {
+          "title": "body"
+        },
+        {
+          "title": "head"
+        },
+        {
+          "title": "meta"
+        }
+      ]
+    },
+    {
+      "title": "Textual Tags",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "h1 to h6"
+        },
+        {
+          "title": "p"
+        },
+        {
+          "title": "title"
+        },
+        {
+          "title": "br"
+        },
+        {
+          "title": "hr"
+        },
+        {
+          "title": "pre"
+        },
+        {
+          "title": "b / strong"
+        },
+        {
+          "title": "mark"
+        },
+        {
+          "title": "i / em"
+        },
+        {
+          "title": "sup"
+        },
+        {
+          "title": "sub"
+        },
+        {
+          "title": "Links"
+        }
+      ]
+    },
+    {
+      "title": "Grouping text",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "div"
+        },
+        {
+          "title": "span"
+        }
+      ]
+    },
+    {
+      "title": "Standard attributes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "class"
+        },
+        {
+          "title": "id"
+        },
+        {
+          "title": "Data Attributes"
+        },
+        {
+          "title": "style"
+        }
+      ]
+    },
+    {
+      "title": "Lists and Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ordered lists"
+        },
+        {
+          "title": "Unordered lists"
+        },
+        {
+          "title": "Definition lists"
+        },
+        {
+          "title": "Nested lists"
+        }
+      ]
+    },
+    {
+      "title": "Table Tag",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Priority Hints"
+        },
+        {
+          "title": "img vs figure"
+        }
+      ]
+    },
+    {
+      "title": "Embedding Media",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Images"
+        },
+        {
+          "title": "Video"
+        },
+        {
+          "title": "Audio"
+        },
+        {
+          "title": "iframe"
+        },
+        {
+          "title": "CSP"
+        }
+      ]
+    },
+    {
+      "title": "Using Forms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Labels and Inputs"
+        },
+        {
+          "title": "File Uploads"
+        },
+        {
+          "title": "del"
+        },
+        {
+          "title": "s"
+        },
+        {
+          "title": "ins"
+        },
+        {
+          "title": "Form Validation"
+        },
+        {
+          "title": "Limitations"
+        },
+        {
+          "title": "cite"
+        },
+        {
+          "title": "abbr"
+        },
+        {
+          "title": "dfn"
+        },
+        {
+          "title": "address"
+        },
+        {
+          "title": "blockquote"
+        },
+        {
+          "title": "q"
+        }
+      ]
+    },
+    {
+      "title": "Semantic Markup"
+    },
+    {
+      "title": "Styling Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "header"
+        },
+        {
+          "title": "nav"
+        },
+        {
+          "title": "main"
+        },
+        {
+          "title": "Inline CSS"
+        },
+        {
+          "title": "article"
+        },
+        {
+          "title": "section"
+        },
+        {
+          "title": "Internal CSS"
+        },
+        {
+          "title": "aside"
+        },
+        {
+          "title": "footer"
+        },
+        {
+          "title": "External CSS"
+        }
+      ]
+    },
+    {
+      "title": "Including JavaScript"
+    },
+    {
+      "title": "Accessibility"
+    },
+    {
+      "title": "Basics of SEO"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "title": "Inference Engineering",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Open vs Closed Models"
+        },
+        {
+          "title": "Inference vs. Training"
+        },
+        {
+          "title": "Shared vs. Dedicated Inf."
+        },
+        {
+          "title": "Time to First Token"
+        },
+        {
+          "title": "The Inference Stack"
+        },
+        {
+          "title": "Tokens Per Second"
+        },
+        {
+          "title": "Inter-Token Latency"
+        },
+        {
+          "title": "Latency vs. Throughput"
+        },
+        {
+          "title": "Latency Percentiles"
+        },
+        {
+          "title": "End-to-End Metrics"
+        },
+        {
+          "title": "Real-Time Factor"
+        },
+        {
+          "title": "Prefill & Decode Phases"
+        },
+        {
+          "title": "Online vs. Offline Inf."
+        },
+        {
+          "title": "Asynchronous Inference"
+        },
+        {
+          "title": "AI-Native Applications"
+        },
+        {
+          "title": "Consumer vs. B2B"
+        },
+        {
+          "title": "Reasoning Models"
+        },
+        {
+          "title": "Model Selection"
+        },
+        {
+          "title": "Model Evaluation"
+        },
+        {
+          "title": "Fine-Tuning"
+        },
+        {
+          "title": "Distillation"
+        }
+      ]
+    },
+    {
+      "title": "Neural Networks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Encoder-Decoder Arch."
+        }
+      ]
+    },
+    {
+      "title": "Large Language Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Transformer Blocks"
+        },
+        {
+          "title": "Attention Mechanism"
+        },
+        {
+          "title": "KV Cache"
+        },
+        {
+          "title": "Mixture of Experts (MoE)"
+        }
+      ]
+    },
+    {
+      "title": "Image & Video Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Diffusion Models"
+        },
+        {
+          "title": "Image Generation Arch."
+        },
+        {
+          "title": "Few-Step Image Generation"
+        },
+        {
+          "title": "Video Generation Models"
+        }
+      ]
+    },
+    {
+      "title": "Bottleneck Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ops:Byte Ratio"
+        },
+        {
+          "title": "Arithmetic Intensity"
+        },
+        {
+          "title": "Roofline Model"
+        },
+        {
+          "title": "LLM Bottlenecks"
+        },
+        {
+          "title": "Image & Video Bottlenecks"
+        }
+      ]
+    },
+    {
+      "title": "Attention Optimization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "FlashAttention"
+        },
+        {
+          "title": "PagedAttention"
+        },
+        {
+          "title": "Attention Variants"
+        }
+      ]
+    },
+    {
+      "title": "GPU Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Memory"
+        },
+        {
+          "title": "Compute"
+        },
+        {
+          "title": "Hopper"
+        },
+        {
+          "title": "Blackwell"
+        },
+        {
+          "title": "Instances & Interconnects"
+        },
+        {
+          "title": "Grace & Vera"
+        },
+        {
+          "title": "Sizing & Procurement"
+        }
+      ]
+    },
+    {
+      "title": "GPU Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "NVIDIA"
+        },
+        {
+          "title": "Other Accelerators"
+        }
+      ]
+    },
+    {
+      "title": "Local & Edge Inference",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Desktop Inference"
+        },
+        {
+          "title": "Mobile Inference"
+        }
+      ]
+    },
+    {
+      "title": "CUDA",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kernel Selection & Fusion"
+        },
+        {
+          "title": "Writing Custom Kernels"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks & Libraries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PyTorch"
+        },
+        {
+          "title": "Transformers & Diffusers"
+        }
+      ]
+    },
+    {
+      "title": "Model Formats & Runtimes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TensorRT"
+        },
+        {
+          "title": "safetensors"
+        },
+        {
+          "title": "ONNX Runtime"
+        }
+      ]
+    },
+    {
+      "title": "Inference Engines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "vLLM"
+        },
+        {
+          "title": "SGLang"
+        },
+        {
+          "title": "TensorRT-LLM"
+        },
+        {
+          "title": "AIPerf"
+        },
+        {
+          "title": "Locust"
+        },
+        {
+          "title": "NVIDIA Dynamo"
+        },
+        {
+          "title": "SGLang Genai-bench"
+        }
+      ]
+    },
+    {
+      "title": "Benchmarking & Profiling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Profiling Performance"
+        },
+        {
+          "title": "Performance Benchmarking"
+        }
+      ]
+    },
+    {
+      "title": "Quantization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Quantization-Aware Training"
+        },
+        {
+          "title": "Post-Training Quantization"
+        },
+        {
+          "title": "Measuring Quality Impact"
+        },
+        {
+          "title": "ModelOpt"
+        }
+      ]
+    },
+    {
+      "title": "Speculative Decoding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Draft-Target Decoding"
+        },
+        {
+          "title": "Structured Outputs"
+        },
+        {
+          "title": "EAGLE"
+        },
+        {
+          "title": "Constrained Decoding"
+        },
+        {
+          "title": "N-gram"
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Caching Approaches"
+        },
+        {
+          "title": "KV Cache Storage"
+        },
+        {
+          "title": "Cache-Aware Routing"
+        },
+        {
+          "title": "Long Context Handling"
+        }
+      ]
+    },
+    {
+      "title": "Model Parallelism",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pipeline Parallelism"
+        },
+        {
+          "title": "Tensor Parallelism"
+        },
+        {
+          "title": "Expert Parallelism"
+        },
+        {
+          "title": "Multi-Node Inference"
+        }
+      ]
+    },
+    {
+      "title": "Disaggregation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "NVIDIA Dynamo"
+        }
+      ]
+    },
+    {
+      "title": "Vision Language Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Video Processing for VLMs"
+        },
+        {
+          "title": "Omni-Modal Models"
+        }
+      ]
+    },
+    {
+      "title": "Embedding Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BERT-style models"
+        },
+        {
+          "title": "LLM-based models"
+        },
+        {
+          "title": "Embedding Model Inference"
+        }
+      ]
+    },
+    {
+      "title": "Speech",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Voice Activity Detection"
+        },
+        {
+          "title": "Auto. Speech Recognition"
+        },
+        {
+          "title": "Text-to-Speech (TTS)"
+        },
+        {
+          "title": "Streaming TTS"
+        },
+        {
+          "title": "Speech-to-Speech Models"
+        }
+      ]
+    },
+    {
+      "title": "Image & Video Generation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Image Generation Inference"
+        },
+        {
+          "title": "Video Generation Inference"
+        }
+      ]
+    },
+    {
+      "title": "Containerization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dependency Management"
+        },
+        {
+          "title": "NIMs"
+        },
+        {
+          "title": "Continuous Batching"
+        }
+      ]
+    },
+    {
+      "title": "Autoscaling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cold Starts"
+        },
+        {
+          "title": "Routing & Load Balancing"
+        },
+        {
+          "title": "LoRA-Aware Routing"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Cloud",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GPU Procurement"
+        },
+        {
+          "title": "Capacity Management"
+        },
+        {
+          "title": "Request Queueing"
+        },
+        {
+          "title": "Geo-Aware Load Balancing"
+        },
+        {
+          "title": "Scale to Zero"
+        },
+        {
+          "title": "Indep. Component Scaling"
+        }
+      ]
+    },
+    {
+      "title": "Testing & Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Security and Compliance"
+        },
+        {
+          "title": "Zero-Downtime Deplo."
+        },
+        {
+          "title": "Cost Estimation"
+        },
+        {
+          "title": "Observability"
+        }
+      ]
+    }
+  ]
+}

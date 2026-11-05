@@ -1,0 +1,170 @@
+{
+  "title": "Prompt Engineering Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LLMs and how they work?"
+        },
+        {
+          "title": "What is a Prompt?"
+        },
+        {
+          "title": "What is Prompt Engineering?"
+        },
+        {
+          "title": "LLM"
+        },
+        {
+          "title": "Tokens"
+        },
+        {
+          "title": "Context Window"
+        },
+        {
+          "title": "Hallucination"
+        },
+        {
+          "title": "Agents"
+        },
+        {
+          "title": "Prompt Injection"
+        },
+        {
+          "title": "Model Weights / Parameters"
+        },
+        {
+          "title": "Fine-Tuning vs Prompt Engg."
+        },
+        {
+          "title": "RAG"
+        },
+        {
+          "title": "AI vs AGI"
+        }
+      ]
+    },
+    {
+      "title": "Sampling Parameters",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Temperature"
+        },
+        {
+          "title": "Top-K"
+        },
+        {
+          "title": "Top-P"
+        }
+      ]
+    },
+    {
+      "title": "Output Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OpenAI"
+        },
+        {
+          "title": "Google"
+        },
+        {
+          "title": "Anthropic"
+        },
+        {
+          "title": "Meta"
+        },
+        {
+          "title": "xAI"
+        },
+        {
+          "title": "Max Tokens"
+        },
+        {
+          "title": "Stop Sequences"
+        }
+      ]
+    },
+    {
+      "title": "Repetition Penalties",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Frequency Penalty"
+        },
+        {
+          "title": "Presence Penalty"
+        }
+      ]
+    },
+    {
+      "title": "Structured Outputs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Step-back Prompting"
+        },
+        {
+          "title": "Zero-Shot Prompting"
+        },
+        {
+          "title": "Chain of Thought (CoT) Prompting"
+        },
+        {
+          "title": "One-Shot / Few-Shot Prompting"
+        },
+        {
+          "title": "Self-Consistency Prompting"
+        },
+        {
+          "title": "System Prompting"
+        },
+        {
+          "title": "Tree of Thoughts (ToT) Prompting"
+        },
+        {
+          "title": "Role Prompting"
+        },
+        {
+          "title": "ReAct Prompting"
+        },
+        {
+          "title": "Contextual Prompting"
+        },
+        {
+          "title": "Prompt Tuning"
+        }
+      ]
+    },
+    {
+      "title": "Automatic Prompt Engineering"
+    },
+    {
+      "title": "AI Red Teaming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prompt Debiasing"
+        },
+        {
+          "title": "Prompt Ensembling"
+        },
+        {
+          "title": "LLM Self Evaluation"
+        },
+        {
+          "title": "Calibrating LLMs"
+        }
+      ]
+    }
+  ]
+}

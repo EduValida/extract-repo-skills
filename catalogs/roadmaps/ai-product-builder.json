@@ -1,0 +1,181 @@
+{
+  "title": "AI Product Builder",
+  "topics": [
+    {
+      "title": "AI Product Creation Cycle"
+    },
+    {
+      "title": "Definition & Scope",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Problem Definition"
+        },
+        {
+          "title": "App Anatomy"
+        },
+        {
+          "title": "Feature Scoping"
+        },
+        {
+          "title": "Tech Stack & Constraints"
+        }
+      ]
+    },
+    {
+      "title": "1. Prototyping",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Choose a Prototype Tool"
+        },
+        {
+          "title": "Lovable"
+        },
+        {
+          "title": "Replit"
+        },
+        {
+          "title": "Feedback & Validation"
+        },
+        {
+          "title": "v0"
+        },
+        {
+          "title": "Claude Design"
+        },
+        {
+          "title": "Bolt"
+        },
+        {
+          "title": "Hope"
+        },
+        {
+          "title": "Claude Code"
+        },
+        {
+          "title": "Gemini CLI"
+        },
+        {
+          "title": "Codex"
+        }
+      ]
+    },
+    {
+      "title": "2. Generation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Codex"
+        },
+        {
+          "title": "Claude Code"
+        },
+        {
+          "title": "Cursor"
+        },
+        {
+          "title": "Copilot"
+        }
+      ]
+    },
+    {
+      "title": "3. Refinement",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTML / CSS / JavaScript"
+        },
+        {
+          "title": "React"
+        },
+        {
+          "title": "Browsers / DevTools"
+        },
+        {
+          "title": "Node.js"
+        }
+      ]
+    },
+    {
+      "title": "4. Collaboration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "New Feature / Structural Change"
+        },
+        {
+          "title": "Targeted Change"
+        },
+        {
+          "title": "User Testing"
+        },
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "E2E Testing"
+        },
+        {
+          "title": "Cloudflare"
+        },
+        {
+          "title": "Vercel"
+        },
+        {
+          "title": "Bit Cloud"
+        },
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "GitLab"
+        },
+        {
+          "title": "Bit Cloud (2)"
+        },
+        {
+          "title": "DigitalOcean"
+        },
+        {
+          "title": "Azure DevOps"
+        },
+        {
+          "title": "Railway"
+        },
+        {
+          "title": "Render"
+        },
+        {
+          "title": "AWS"
+        },
+        {
+          "title": "Azure"
+        },
+        {
+          "title": "GCP"
+        },
+        {
+          "title": "MongoDB / Atlas"
+        },
+        {
+          "title": "PostgreSQL / MySQL"
+        },
+        {
+          "title": "Supabase"
+        }
+      ]
+    },
+    {
+      "title": "5. Deployment"
+    }
+  ]
+}

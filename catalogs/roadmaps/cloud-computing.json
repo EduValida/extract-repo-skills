@@ -1,0 +1,448 @@
+{
+  "title": "Cloud Computing",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cloud vs On-Premises"
+        },
+        {
+          "title": "Region, Availability Zone"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Instance"
+        },
+        {
+          "title": "Cluster"
+        },
+        {
+          "title": "Linux"
+        },
+        {
+          "title": "Workload"
+        },
+        {
+          "title": "Shell / Bash"
+        },
+        {
+          "title": "Multi-Tenancy"
+        },
+        {
+          "title": "Version Control"
+        },
+        {
+          "title": "Elasticity"
+        },
+        {
+          "title": "Networking Basics"
+        },
+        {
+          "title": "Scalability"
+        },
+        {
+          "title": "Cybersecurity Basics"
+        },
+        {
+          "title": "Provisioning"
+        },
+        {
+          "title": "Latency & Throughput"
+        },
+        {
+          "title": "Endpoint"
+        },
+        {
+          "title": "SLA"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Deployment Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Public Cloud"
+        },
+        {
+          "title": "Private Cloud"
+        },
+        {
+          "title": "Hybrid Cloud"
+        },
+        {
+          "title": "Multi-Cloud"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Service Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SaaS"
+        },
+        {
+          "title": "DaaS"
+        },
+        {
+          "title": "IaaS"
+        },
+        {
+          "title": "PaaS"
+        },
+        {
+          "title": "FaaS"
+        }
+      ]
+    },
+    {
+      "title": "Provider Landscape",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Regional Cloud"
+        },
+        {
+          "title": "Developer-Focused"
+        },
+        {
+          "title": "Hyperscalers"
+        },
+        {
+          "title": "Managed Kubernetes"
+        },
+        {
+          "title": "Azure"
+        },
+        {
+          "title": "AWS"
+        },
+        {
+          "title": "GCP"
+        },
+        {
+          "title": "Provider Lock-In"
+        }
+      ]
+    },
+    {
+      "title": "Data Centers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Network Topology"
+        },
+        {
+          "title": "Upstream Connectivity"
+        },
+        {
+          "title": "Racks, Pods, & Aisles"
+        },
+        {
+          "title": "Power & Cooling"
+        },
+        {
+          "title": "Lights-Out Operations"
+        }
+      ]
+    },
+    {
+      "title": "Virtual Machines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hypervisors"
+        },
+        {
+          "title": "VM Migration, Live Migration"
+        }
+      ]
+    },
+    {
+      "title": "Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker"
+        },
+        {
+          "title": "VMs vs Containers"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Managed Relational DBs"
+        },
+        {
+          "title": "NoSQL Databases"
+        }
+      ]
+    },
+    {
+      "title": "Instance Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Virtual Machine Instances"
+        },
+        {
+          "title": "Bare Metal Cloud"
+        }
+      ]
+    },
+    {
+      "title": "Scaling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Auto Scaling"
+        },
+        {
+          "title": "Spot & Reserved Instances"
+        },
+        {
+          "title": "Virtual Private Cloud"
+        },
+        {
+          "title": "Subnets & Routing"
+        }
+      ]
+    },
+    {
+      "title": "Core Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "NAT & IP Management"
+        },
+        {
+          "title": "VLANs & VXLAN"
+        },
+        {
+          "title": "SDN"
+        }
+      ]
+    },
+    {
+      "title": "Traffic Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DNS in the Cloud"
+        },
+        {
+          "title": "Load Balancers"
+        },
+        {
+          "title": "Firewalls & Security Groups"
+        },
+        {
+          "title": "VPN & Direct Connect"
+        },
+        {
+          "title": "CDN & Edge Caching"
+        }
+      ]
+    },
+    {
+      "title": "Storage Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Object Storage"
+        },
+        {
+          "title": "Block Storage"
+        },
+        {
+          "title": "File Storage"
+        },
+        {
+          "title": "NAS and SAN"
+        }
+      ]
+    },
+    {
+      "title": "Data Lifecycle",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Storage Classes & Tiering"
+        },
+        {
+          "title": "Data Archiving"
+        },
+        {
+          "title": "Retention & Compliance"
+        }
+      ]
+    },
+    {
+      "title": "Serverless Computing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stateless Functions"
+        },
+        {
+          "title": "Event-Driven Architecture"
+        },
+        {
+          "title": "Serverless Platforms"
+        },
+        {
+          "title": "Trade-offs of Serverless"
+        }
+      ]
+    },
+    {
+      "title": "Microservices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Monolithic vs Microservices"
+        },
+        {
+          "title": "Microservices Communication"
+        },
+        {
+          "title": "Service Mesh"
+        }
+      ]
+    },
+    {
+      "title": "Edge Computing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Edge vs Cloud"
+        }
+      ]
+    },
+    {
+      "title": "AI/ML Services"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Terraform"
+        },
+        {
+          "title": "Configuration Management"
+        },
+        {
+          "title": "Levels of Automation"
+        }
+      ]
+    },
+    {
+      "title": "Container Orchestration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "GitOps"
+        }
+      ]
+    },
+    {
+      "title": "CI/CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CI/CD Pipelines"
+        },
+        {
+          "title": "Artifact Registries"
+        },
+        {
+          "title": "Deployment Strategies"
+        }
+      ]
+    },
+    {
+      "title": "Access Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shared Responsibility Model"
+        },
+        {
+          "title": "RBAC"
+        },
+        {
+          "title": "IAM"
+        }
+      ]
+    },
+    {
+      "title": "Data Protection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zero Trust"
+        },
+        {
+          "title": "Encryption"
+        },
+        {
+          "title": "Secrets Management"
+        },
+        {
+          "title": "Privacy & Compliance"
+        }
+      ]
+    },
+    {
+      "title": "Pricing Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cost Monitoring and Budgets"
+        },
+        {
+          "title": "Resource Optimization"
+        },
+        {
+          "title": "FinOps"
+        }
+      ]
+    }
+  ]
+}

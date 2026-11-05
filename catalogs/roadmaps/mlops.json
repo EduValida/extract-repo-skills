@@ -1,0 +1,243 @@
+{
+  "title": "MLOps Roadmap",
+  "topics": [
+    {
+      "title": "What is MLOps?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MLOps Components"
+        },
+        {
+          "title": "Version Control"
+        },
+        {
+          "title": "CI/CD"
+        },
+        {
+          "title": "Orchestration"
+        },
+        {
+          "title": "Experiment Tracking"
+        },
+        {
+          "title": "Data Lineage"
+        },
+        {
+          "title": "MLOps Principles"
+        },
+        {
+          "title": "Model Training & Serving"
+        },
+        {
+          "title": "Monitoring & Observability"
+        }
+      ]
+    },
+    {
+      "title": "Programming Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Bash"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "SQL"
+        }
+      ]
+    },
+    {
+      "title": "Version Control Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        },
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "DVC"
+        }
+      ]
+    },
+    {
+      "title": "CI/CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GItLab"
+        },
+        {
+          "title": "Jenkins"
+        },
+        {
+          "title": "GitHub Actions"
+        },
+        {
+          "title": "CML"
+        }
+      ]
+    },
+    {
+      "title": "ML Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Maths & Statistics"
+        },
+        {
+          "title": "Machine Learning"
+        },
+        {
+          "title": "Deep Learning"
+        },
+        {
+          "title": "Scikit-learn"
+        },
+        {
+          "title": "TensorFlow"
+        },
+        {
+          "title": "Model Evaluation"
+        },
+        {
+          "title": "PyTorch"
+        },
+        {
+          "title": "MLFlow"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Computing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cloud-native ML Services"
+        },
+        {
+          "title": "AWS / Azure / GCP"
+        }
+      ]
+    },
+    {
+      "title": "Containerization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker"
+        },
+        {
+          "title": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "title": "Data Engineering Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Pipelines"
+        },
+        {
+          "title": "Data Lakes & Warehouses"
+        },
+        {
+          "title": "Spark"
+        },
+        {
+          "title": "Data Ingestion Arch."
+        },
+        {
+          "title": "Kafka"
+        },
+        {
+          "title": "Flink"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure as Code",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Terraform"
+        },
+        {
+          "title": "Ansible"
+        }
+      ]
+    },
+    {
+      "title": "Orchestration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "KubeFlow"
+        },
+        {
+          "title": "Airflow"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring & Observability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prometheus"
+        },
+        {
+          "title": "Grafana"
+        }
+      ]
+    },
+    {
+      "title": "Edge AI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PyTorch Mobile"
+        },
+        {
+          "title": "Jetson"
+        },
+        {
+          "title": "TFLite"
+        }
+      ]
+    },
+    {
+      "title": "Explainable AI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SHAP"
+        },
+        {
+          "title": "LIME"
+        }
+      ]
+    }
+  ]
+}

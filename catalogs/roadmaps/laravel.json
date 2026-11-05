@@ -1,0 +1,369 @@
+{
+  "title": "Laravel",
+  "topics": [
+    {
+      "title": "Installing Laravel",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Laravel Herd"
+        },
+        {
+          "title": "App"
+        },
+        {
+          "title": "Bootstrap"
+        },
+        {
+          "title": "Config"
+        },
+        {
+          "title": "Database"
+        },
+        {
+          "title": "Resources"
+        },
+        {
+          "title": "Public"
+        },
+        {
+          "title": "Routes"
+        },
+        {
+          "title": "Storage"
+        },
+        {
+          "title": "Tests"
+        },
+        {
+          "title": "Vendor"
+        }
+      ]
+    },
+    {
+      "title": "What is Laravel?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why Web Frameworks?"
+        },
+        {
+          "title": "Laravel for Full Stack"
+        },
+        {
+          "title": "Laravel for Frontend"
+        }
+      ]
+    },
+    {
+      "title": "Create a new project"
+    },
+    {
+      "title": "Starter Kits",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Livewire"
+        },
+        {
+          "title": "Inertia"
+        },
+        {
+          "title": "Breeze"
+        },
+        {
+          "title": "Jetstream"
+        }
+      ]
+    },
+    {
+      "title": "Request–Response Flow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Route model binding"
+        },
+        {
+          "title": "Rate limiting"
+        },
+        {
+          "title": "CORS"
+        },
+        {
+          "title": "Caching"
+        }
+      ]
+    },
+    {
+      "title": "Basic Routes"
+    },
+    {
+      "title": "View Routes"
+    },
+    {
+      "title": "Redirect Routes"
+    },
+    {
+      "title": "Route parameters"
+    },
+    {
+      "title": "Named routes"
+    },
+    {
+      "title": "Route groups"
+    },
+    {
+      "title": "Basic controllers"
+    },
+    {
+      "title": "Resource controllers"
+    },
+    {
+      "title": "Single-action controllers"
+    },
+    {
+      "title": "Middleware",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Global vs Route"
+        }
+      ]
+    },
+    {
+      "title": "Dependency injection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CRUD Operations"
+        },
+        {
+          "title": "Relationships"
+        },
+        {
+          "title": "Casts, Accessors"
+        },
+        {
+          "title": "Query scopes"
+        }
+      ]
+    },
+    {
+      "title": "Blade Templating"
+    },
+    {
+      "title": "Displaying data"
+    },
+    {
+      "title": "Blade Directives",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "loops"
+        },
+        {
+          "title": "if, else"
+        }
+      ]
+    },
+    {
+      "title": "Components"
+    },
+    {
+      "title": "Eloquent ORM"
+    },
+    {
+      "title": "Layouts"
+    },
+    {
+      "title": "Blade + Livewire"
+    },
+    {
+      "title": "Configuration"
+    },
+    {
+      "title": "Query Builder"
+    },
+    {
+      "title": "Migrations, seeders"
+    },
+    {
+      "title": "Retrieving data & files"
+    },
+    {
+      "title": "Pagination",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Policies"
+        },
+        {
+          "title": "Gates"
+        }
+      ]
+    },
+    {
+      "title": "Creating Responses",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Views"
+        },
+        {
+          "title": "Files"
+        },
+        {
+          "title": "Redirects"
+        },
+        {
+          "title": "JSON"
+        },
+        {
+          "title": "Streamed Responses"
+        },
+        {
+          "title": "Forms"
+        },
+        {
+          "title": "Manual validation"
+        },
+        {
+          "title": "Error messages"
+        },
+        {
+          "title": "Handling Exceptions"
+        },
+        {
+          "title": "Message Customization"
+        },
+        {
+          "title": "HTTP Exceptions"
+        }
+      ]
+    },
+    {
+      "title": "Authentication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "With Starter Kits"
+        },
+        {
+          "title": "Manual Authentication"
+        },
+        {
+          "title": "Sanctum"
+        },
+        {
+          "title": "Passport"
+        },
+        {
+          "title": "Telescope"
+        },
+        {
+          "title": "Debugbar"
+        }
+      ]
+    },
+    {
+      "title": "Authorization"
+    },
+    {
+      "title": "Encryption & Hashing"
+    },
+    {
+      "title": "Logging Basics"
+    },
+    {
+      "title": "Debugging basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pest"
+        },
+        {
+          "title": "PHPUnit"
+        }
+      ]
+    },
+    {
+      "title": "Log Stacks & Messages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Artisan"
+        },
+        {
+          "title": "Sail"
+        },
+        {
+          "title": "Pint"
+        },
+        {
+          "title": "Octane"
+        },
+        {
+          "title": "Pulse"
+        }
+      ]
+    },
+    {
+      "title": "Unit & Feature tests",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Configuration"
+        },
+        {
+          "title": "Optimization"
+        },
+        {
+          "title": "Health Route"
+        },
+        {
+          "title": "Laravel Cloud"
+        },
+        {
+          "title": "Laravel Forge"
+        }
+      ]
+    },
+    {
+      "title": "Queues & Jobs"
+    },
+    {
+      "title": "Events & Listeners"
+    },
+    {
+      "title": "Notifications"
+    },
+    {
+      "title": "Task Schedulling"
+    },
+    {
+      "title": "File Storage"
+    },
+    {
+      "title": "Localization"
+    },
+    {
+      "title": "Facades"
+    },
+    {
+      "title": "Package Management"
+    }
+  ]
+}

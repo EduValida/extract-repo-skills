@@ -1,0 +1,332 @@
+{
+  "title": "DevSecOps",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DevSecOps vs DevOps"
+        }
+      ]
+    },
+    {
+      "title": "Learn a Programming Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Ruby"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Rust"
+        },
+        {
+          "title": "Bash"
+        },
+        {
+          "title": "JavaScript / Node.js"
+        },
+        {
+          "title": "PowerShell"
+        },
+        {
+          "title": "Vim / Nano / Emacs"
+        }
+      ]
+    },
+    {
+      "title": "Scripting Knowledge",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Firewalls"
+        },
+        {
+          "title": "ACLs"
+        },
+        {
+          "title": "VLANs"
+        },
+        {
+          "title": "Network Segmentation"
+        },
+        {
+          "title": "DNS"
+        },
+        {
+          "title": "HTTP"
+        },
+        {
+          "title": "TLS"
+        }
+      ]
+    },
+    {
+      "title": "CIA Triad"
+    },
+    {
+      "title": "Authentication"
+    },
+    {
+      "title": "Authorization"
+    },
+    {
+      "title": "OWASP Top 10"
+    },
+    {
+      "title": "Encryption",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Symmetric"
+        },
+        {
+          "title": "Asymmetric"
+        },
+        {
+          "title": "Burp Suite"
+        },
+        {
+          "title": "Nmap basics"
+        },
+        {
+          "title": "Wireshark basics"
+        }
+      ]
+    },
+    {
+      "title": "Networking Basics"
+    },
+    {
+      "title": "Secure Coding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SQL Injection Prevention"
+        },
+        {
+          "title": "XSS Prevention"
+        },
+        {
+          "title": "Input Validation Patterns"
+        }
+      ]
+    },
+    {
+      "title": "Identity Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IAM"
+        },
+        {
+          "title": "Least Privilege"
+        },
+        {
+          "title": "Role Based Access"
+        },
+        {
+          "title": "SOAR Concepts"
+        },
+        {
+          "title": "Automated Patching"
+        },
+        {
+          "title": "Nessus"
+        },
+        {
+          "title": "Nmap"
+        },
+        {
+          "title": "OpenVAS"
+        },
+        {
+          "title": "Qualys"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SIEM"
+        },
+        {
+          "title": "Alert Types"
+        },
+        {
+          "title": "Log Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Threat Modeling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "STRIDE"
+        },
+        {
+          "title": "PASTA"
+        },
+        {
+          "title": "Threat Modeling Workflows"
+        },
+        {
+          "title": "Attack Surface Mapping"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CSPM"
+        },
+        {
+          "title": "IAM"
+        },
+        {
+          "title": "Key Management Service"
+        },
+        {
+          "title": "Defense in Depth Concepts"
+        },
+        {
+          "title": "Zero Trust Concepts"
+        },
+        {
+          "title": "Secure API Design"
+        },
+        {
+          "title": "Multi Region Security Planning"
+        },
+        {
+          "title": "Large Scale Identity Strategy"
+        },
+        {
+          "title": "IDS"
+        },
+        {
+          "title": "IPS"
+        },
+        {
+          "title": "DDoS Miligation Strategy"
+        },
+        {
+          "title": "Secure Network Zoning"
+        }
+      ]
+    },
+    {
+      "title": "Container Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "Docker"
+        },
+        {
+          "title": "Image Scanning"
+        }
+      ]
+    },
+    {
+      "title": "Incident Response",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IR Lifecycle"
+        },
+        {
+          "title": "Forensics"
+        },
+        {
+          "title": "Containment"
+        },
+        {
+          "title": "Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Operations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "bcrypt"
+        },
+        {
+          "title": "SHA 256"
+        },
+        {
+          "title": "Cryptographic Hashing"
+        },
+        {
+          "title": "PKI Design and Failover"
+        },
+        {
+          "title": "Certificate Lifecycle"
+        },
+        {
+          "title": "SOAR Automation"
+        },
+        {
+          "title": "Supply Chain Security"
+        },
+        {
+          "title": "Endpoint Detection"
+        },
+        {
+          "title": "SBOMS"
+        },
+        {
+          "title": "Response Strategy"
+        },
+        {
+          "title": "Build Pipeline Hardening"
+        },
+        {
+          "title": "Dependency Risk Management"
+        },
+        {
+          "title": "SOC 2"
+        },
+        {
+          "title": "ISO 27001"
+        },
+        {
+          "title": "Audit & Compliance Mapping"
+        },
+        {
+          "title": "NIST"
+        },
+        {
+          "title": "Risk Quantification"
+        }
+      ]
+    }
+  ]
+}

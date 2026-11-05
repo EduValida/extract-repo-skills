@@ -1,0 +1,613 @@
+{
+  "title": "Go Developer",
+  "topics": [
+    {
+      "title": "Introduction to Go",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why use Go"
+        },
+        {
+          "title": "History of Go"
+        },
+        {
+          "title": "Setting up the Environment"
+        },
+        {
+          "title": "Hello World in Go"
+        },
+        {
+          "title": "`go` command"
+        }
+      ]
+    },
+    {
+      "title": "Variables & Constants",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "var vs :="
+        },
+        {
+          "title": "Zero Values"
+        },
+        {
+          "title": "const and iota"
+        },
+        {
+          "title": "Scope and Shadowing"
+        }
+      ]
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integers (Signed, Unsigned)"
+        },
+        {
+          "title": "Floating Points"
+        },
+        {
+          "title": "Complex Numbers"
+        },
+        {
+          "title": "Boolean"
+        },
+        {
+          "title": "Runes"
+        }
+      ]
+    },
+    {
+      "title": "Commands & Docs"
+    },
+    {
+      "title": "Arrays",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Raw String Literals"
+        },
+        {
+          "title": "Interpreted String Literals"
+        },
+        {
+          "title": "Type Conversion"
+        }
+      ]
+    },
+    {
+      "title": "Slices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Capacity and Growth"
+        },
+        {
+          "title": "make()"
+        },
+        {
+          "title": "Slice to Array Conversion"
+        },
+        {
+          "title": "Array to Slice Conversion"
+        }
+      ]
+    },
+    {
+      "title": "Strings"
+    },
+    {
+      "title": "Maps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Comma-Ok Idiom"
+        }
+      ]
+    },
+    {
+      "title": "Structs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Struct Tags & JSON"
+        },
+        {
+          "title": "Embedding Structs"
+        }
+      ]
+    },
+    {
+      "title": "Conditionals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "if"
+        },
+        {
+          "title": "if-else"
+        },
+        {
+          "title": "switch"
+        },
+        {
+          "title": "Functions Basics"
+        },
+        {
+          "title": "Variadic Functions"
+        },
+        {
+          "title": "Multiple Return Values"
+        },
+        {
+          "title": "Anonymous Functions"
+        },
+        {
+          "title": "Closures"
+        },
+        {
+          "title": "Named Return Values"
+        },
+        {
+          "title": "Call by Value"
+        }
+      ]
+    },
+    {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "for range"
+        },
+        {
+          "title": "for loop"
+        },
+        {
+          "title": "Iterating Maps"
+        },
+        {
+          "title": "Iterating Strings"
+        },
+        {
+          "title": "continue"
+        },
+        {
+          "title": "break"
+        },
+        {
+          "title": "goto (discouraged)"
+        }
+      ]
+    },
+    {
+      "title": "Functions"
+    },
+    {
+      "title": "Pointers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pointers Basics"
+        },
+        {
+          "title": "Pointers with Structs"
+        },
+        {
+          "title": "With Maps & Slices"
+        },
+        {
+          "title": "Memory Management"
+        },
+        {
+          "title": "Garbage Collection"
+        }
+      ]
+    },
+    {
+      "title": "Methods vs Functions"
+    },
+    {
+      "title": "Pointer Receivers"
+    },
+    {
+      "title": "Value Receivers"
+    },
+    {
+      "title": "Generics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why Generics?"
+        },
+        {
+          "title": "Generic Functions"
+        },
+        {
+          "title": "Generic Types / Interfaces"
+        },
+        {
+          "title": "Type Constraints"
+        },
+        {
+          "title": "Type Inference"
+        },
+        {
+          "title": "Error Handling Basics"
+        },
+        {
+          "title": "`error` interface"
+        },
+        {
+          "title": "errors.New"
+        },
+        {
+          "title": "fmt.Errorf"
+        },
+        {
+          "title": "Wrapping/Unwrapping Errors"
+        },
+        {
+          "title": "Sentinel Errors"
+        },
+        {
+          "title": "`panic` and `recover`"
+        },
+        {
+          "title": "Stack Traces & Debugging"
+        }
+      ]
+    },
+    {
+      "title": "Interfaces",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Interfaces Basics"
+        },
+        {
+          "title": "Empty Interfaces"
+        },
+        {
+          "title": "Embedding Interfaces"
+        },
+        {
+          "title": "Type Assertions"
+        },
+        {
+          "title": "Type Switch"
+        }
+      ]
+    },
+    {
+      "title": "Modules & Dependencies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "go mod init"
+        },
+        {
+          "title": "go mod tidy"
+        },
+        {
+          "title": "go mod vendor"
+        }
+      ]
+    },
+    {
+      "title": "Packages"
+    },
+    {
+      "title": "Package Import Rules"
+    },
+    {
+      "title": "Using 3rd Party Packages"
+    },
+    {
+      "title": "Goroutines"
+    },
+    {
+      "title": "Publishing Modules"
+    },
+    {
+      "title": "Channels",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Select Statement"
+        },
+        {
+          "title": "Buffered vs Unbuffered"
+        }
+      ]
+    },
+    {
+      "title": "Worker Pools"
+    },
+    {
+      "title": "`context` Package",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Deadlines & Cancellations"
+        },
+        {
+          "title": "Common Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "fan-in"
+        },
+        {
+          "title": "fan-out"
+        },
+        {
+          "title": "pipeline"
+        }
+      ]
+    },
+    {
+      "title": "`sync` Package",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mutexes"
+        },
+        {
+          "title": "WaitGroups"
+        },
+        {
+          "title": "`testing` package basics"
+        },
+        {
+          "title": "Table-driven Tests"
+        },
+        {
+          "title": "Mocks and Stubs"
+        },
+        {
+          "title": "`httptest`  for HTTP Tests"
+        },
+        {
+          "title": "Benchmarks"
+        },
+        {
+          "title": "Coverage"
+        }
+      ]
+    },
+    {
+      "title": "Race Detection"
+    },
+    {
+      "title": "Standard Library",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "I/O & File Handling"
+        },
+        {
+          "title": "flag"
+        },
+        {
+          "title": "time"
+        },
+        {
+          "title": "encoding/json"
+        },
+        {
+          "title": "os"
+        },
+        {
+          "title": "bufio"
+        },
+        {
+          "title": "slog"
+        },
+        {
+          "title": "regexp"
+        },
+        {
+          "title": "go:embed for embedding"
+        }
+      ]
+    },
+    {
+      "title": "Building CLIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "urfave/cli"
+        },
+        {
+          "title": "Cobra"
+        },
+        {
+          "title": "bubbletea"
+        }
+      ]
+    },
+    {
+      "title": "Web Development",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "net/http (standard)"
+        },
+        {
+          "title": "gRPC & Protocol Buffers"
+        }
+      ]
+    },
+    {
+      "title": "ORMs & DB Access",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pgx"
+        },
+        {
+          "title": "GORM"
+        },
+        {
+          "title": "gin"
+        },
+        {
+          "title": "echo"
+        },
+        {
+          "title": "fiber"
+        },
+        {
+          "title": "beego"
+        }
+      ]
+    },
+    {
+      "title": "Logging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zerolog"
+        },
+        {
+          "title": "Zap"
+        }
+      ]
+    },
+    {
+      "title": "Realtime Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Melody"
+        },
+        {
+          "title": "Centrifugo"
+        },
+        {
+          "title": "go vet"
+        },
+        {
+          "title": "goimports"
+        },
+        {
+          "title": "go generate"
+        },
+        {
+          "title": "go run"
+        },
+        {
+          "title": "go build"
+        },
+        {
+          "title": "Build Tags"
+        },
+        {
+          "title": "go install"
+        },
+        {
+          "title": "go fmt"
+        },
+        {
+          "title": "revive"
+        },
+        {
+          "title": "staticcheck"
+        },
+        {
+          "title": "go mod"
+        },
+        {
+          "title": "go test"
+        },
+        {
+          "title": "golangci-lint"
+        },
+        {
+          "title": "go clean"
+        },
+        {
+          "title": "go doc"
+        },
+        {
+          "title": "pprof"
+        },
+        {
+          "title": "trace"
+        },
+        {
+          "title": "go version"
+        },
+        {
+          "title": "Race Detector"
+        },
+        {
+          "title": "govulncheck"
+        },
+        {
+          "title": "Building Executables"
+        },
+        {
+          "title": "Memory Mgmt. in Depth"
+        },
+        {
+          "title": "Cross-compilation"
+        },
+        {
+          "title": "Escape Analysis"
+        },
+        {
+          "title": "Reflection"
+        },
+        {
+          "title": "Unsafe Package"
+        },
+        {
+          "title": "Build Constraints & Tags"
+        },
+        {
+          "title": "CGO Basics"
+        },
+        {
+          "title": "Compiler & Linker Flags"
+        },
+        {
+          "title": "Plugins & Dynamic Loading"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "title": "Network Engineer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CCNA"
+        },
+        {
+          "title": "CCNP"
+        },
+        {
+          "title": "CompTIA Network+"
+        },
+        {
+          "title": "Client"
+        },
+        {
+          "title": "Server"
+        },
+        {
+          "title": "CompTIA Security+"
+        },
+        {
+          "title": "Host"
+        },
+        {
+          "title": "Package"
+        },
+        {
+          "title": "Cloud Certifications"
+        },
+        {
+          "title": "Frame"
+        },
+        {
+          "title": "Bandwidth"
+        },
+        {
+          "title": "How does the Internet Work?"
+        },
+        {
+          "title": "Latency"
+        },
+        {
+          "title": "Throughput"
+        },
+        {
+          "title": "Protocol"
+        },
+        {
+          "title": "Port"
+        },
+        {
+          "title": "Socket"
+        },
+        {
+          "title": "IP Address"
+        },
+        {
+          "title": "LAN"
+        },
+        {
+          "title": "WAN"
+        },
+        {
+          "title": "Mac Address"
+        },
+        {
+          "title": "ARP"
+        },
+        {
+          "title": "MAN"
+        },
+        {
+          "title": "WLAN"
+        },
+        {
+          "title": "Transmission Media Types"
+        },
+        {
+          "title": "PAN"
+        },
+        {
+          "title": "SAN"
+        },
+        {
+          "title": "VPN"
+        },
+        {
+          "title": "Cloud"
+        },
+        {
+          "title": "TCP"
+        },
+        {
+          "title": "UDP"
+        },
+        {
+          "title": "ICMP"
+        },
+        {
+          "title": "Client-Server Network"
+        },
+        {
+          "title": "Peer-to-Peer Network"
+        },
+        {
+          "title": "HTTP / HTTPS"
+        },
+        {
+          "title": "WebSocket"
+        },
+        {
+          "title": "SSL / TLS"
+        },
+        {
+          "title": "SSH"
+        },
+        {
+          "title": "FTP / SFTP"
+        },
+        {
+          "title": "NTP"
+        },
+        {
+          "title": "SNTP"
+        },
+        {
+          "title": "SMTP / IMAP"
+        },
+        {
+          "title": "DHCP"
+        },
+        {
+          "title": "DNS"
+        },
+        {
+          "title": "Cloudflare"
+        },
+        {
+          "title": "Google"
+        },
+        {
+          "title": "OpenDNS"
+        },
+        {
+          "title": "Quad9"
+        }
+      ]
+    },
+    {
+      "title": "What are Networks?"
+    },
+    {
+      "title": "Network Devices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Routers"
+        },
+        {
+          "title": "Switches"
+        },
+        {
+          "title": "Hub"
+        },
+        {
+          "title": "Modems"
+        },
+        {
+          "title": "Access Points"
+        },
+        {
+          "title": "Physical"
+        }
+      ]
+    },
+    {
+      "title": "OSI Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Link"
+        },
+        {
+          "title": "Network"
+        },
+        {
+          "title": "Transport"
+        },
+        {
+          "title": "Session"
+        },
+        {
+          "title": "Presentation"
+        }
+      ]
+    },
+    {
+      "title": "TCP/IP Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Network Access"
+        },
+        {
+          "title": "Internet"
+        },
+        {
+          "title": "Transport"
+        },
+        {
+          "title": "Application"
+        },
+        {
+          "title": "Application (2)"
+        }
+      ]
+    },
+    {
+      "title": "Network Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Two-Tier"
+        },
+        {
+          "title": "Design Best Practices"
+        },
+        {
+          "title": "Three-Tier"
+        },
+        {
+          "title": "Spine-Leaf"
+        }
+      ]
+    },
+    {
+      "title": "Network Simulators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cisco Packet Tracer"
+        },
+        {
+          "title": "GNS3"
+        },
+        {
+          "title": "EVE-NG"
+        },
+        {
+          "title": "Static vs Dynamic NAT"
+        }
+      ]
+    },
+    {
+      "title": "Linux for Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shell & Scripting"
+        },
+        {
+          "title": "PAT/NAT Overload"
+        },
+        {
+          "title": "NAT64"
+        }
+      ]
+    },
+    {
+      "title": "IP Addressing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IPv4 vs IPv6"
+        },
+        {
+          "title": "NAT vs PAT"
+        },
+        {
+          "title": "Public vs Private Addresses"
+        },
+        {
+          "title": "IP vs MAC vs ARP"
+        }
+      ]
+    },
+    {
+      "title": "Subnetting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Subnet Masks"
+        },
+        {
+          "title": "CIDR"
+        },
+        {
+          "title": "VLSM"
+        },
+        {
+          "title": "Supernetting"
+        }
+      ]
+    },
+    {
+      "title": "Routing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "RIP"
+        },
+        {
+          "title": "OSPF"
+        },
+        {
+          "title": "BGP"
+        },
+        {
+          "title": "MPLS"
+        },
+        {
+          "title": "Static vs Dynamic Routing"
+        },
+        {
+          "title": "EIGRP"
+        },
+        {
+          "title": "Default Gateway"
+        },
+        {
+          "title": "SD-WAN"
+        },
+        {
+          "title": "VRFs"
+        }
+      ]
+    },
+    {
+      "title": "Switching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "STP"
+        },
+        {
+          "title": "VLANs"
+        },
+        {
+          "title": "VXLAN"
+        },
+        {
+          "title": "Link Aggregation"
+        },
+        {
+          "title": "MAC Address Tables"
+        }
+      ]
+    },
+    {
+      "title": "Tunneling & VPNs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IPSec vs SSL VPN"
+        },
+        {
+          "title": "Site-to-Site vs Remote Access"
+        },
+        {
+          "title": "MLPS VPN"
+        },
+        {
+          "title": "GRE/IPSec Tunnels"
+        },
+        {
+          "title": "WiFi Standards"
+        },
+        {
+          "title": "Access Points"
+        },
+        {
+          "title": "Controllers"
+        },
+        {
+          "title": "AP Placement & Coverage"
+        }
+      ]
+    },
+    {
+      "title": "Wireless Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Bluetooth"
+        },
+        {
+          "title": "NFC"
+        },
+        {
+          "title": "Roaming & Band Steering"
+        },
+        {
+          "title": "Zigbee & Z-Wave"
+        },
+        {
+          "title": "Channel Planning"
+        },
+        {
+          "title": "Mobile Networks"
+        },
+        {
+          "title": "Wireless Site Surveys"
+        },
+        {
+          "title": "Hotspot and Tethering"
+        },
+        {
+          "title": "LoRaWAN"
+        },
+        {
+          "title": "Satellite"
+        }
+      ]
+    },
+    {
+      "title": "Packet Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Wireless Security"
+        },
+        {
+          "title": "WPA vs WPS"
+        }
+      ]
+    },
+    {
+      "title": "High Availability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HSRP"
+        },
+        {
+          "title": "VRRP"
+        },
+        {
+          "title": "GLBP"
+        },
+        {
+          "title": "Load Balancer"
+        }
+      ]
+    },
+    {
+      "title": "Traffic Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "QoS (Quality of Service)"
+        },
+        {
+          "title": "Round Robin"
+        },
+        {
+          "title": "Traffic shaping"
+        },
+        {
+          "title": "Least Connections"
+        },
+        {
+          "title": "Packet prioritization"
+        },
+        {
+          "title": "Failover"
+        }
+      ]
+    },
+    {
+      "title": "Firewalls",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Packet Filtering"
+        }
+      ]
+    },
+    {
+      "title": "Network Attacks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stateful Inspection"
+        },
+        {
+          "title": "DoS & DDoS"
+        }
+      ]
+    },
+    {
+      "title": "Encryption Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Next-Generation"
+        }
+      ]
+    },
+    {
+      "title": "IDS / IPS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Proxy"
+        }
+      ]
+    },
+    {
+      "title": "ACLs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Circuit Level Gateway"
+        }
+      ]
+    },
+    {
+      "title": "Zero Trust Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Web Application"
+        },
+        {
+          "title": "ping"
+        },
+        {
+          "title": "nslookup"
+        },
+        {
+          "title": "netstat"
+        },
+        {
+          "title": "speedtest"
+        },
+        {
+          "title": "traceroute / tracert"
+        },
+        {
+          "title": "ipconfig / ifconfig"
+        }
+      ]
+    },
+    {
+      "title": "Troubleshooting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Methdologies"
+        },
+        {
+          "title": "Common Networks Issues"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Networking Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cloud Network Types"
+        },
+        {
+          "title": "AWS"
+        },
+        {
+          "title": "Azure"
+        },
+        {
+          "title": "GCP"
+        },
+        {
+          "title": "Virtual Networks"
+        },
+        {
+          "title": "Netmiko"
+        },
+        {
+          "title": "NAPALM"
+        },
+        {
+          "title": "Cloud Routing"
+        }
+      ]
+    },
+    {
+      "title": "APIs for Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Load Balancing"
+        },
+        {
+          "title": "Python for Networking"
+        },
+        {
+          "title": "Cloud VPN"
+        },
+        {
+          "title": "YANG"
+        },
+        {
+          "title": "NETCONF"
+        },
+        {
+          "title": "RESTCONF"
+        },
+        {
+          "title": "Security Groups"
+        }
+      ]
+    },
+    {
+      "title": "Network Automation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ansible"
+        },
+        {
+          "title": "Wireshark"
+        },
+        {
+          "title": "Nmap"
+        },
+        {
+          "title": "Terraform"
+        },
+        {
+          "title": "NetFlow / sFlow"
+        },
+        {
+          "title": "SNMP"
+        },
+        {
+          "title": "Prometheus"
+        },
+        {
+          "title": "Grafana"
+        },
+        {
+          "title": "Datadog"
+        },
+        {
+          "title": "Dynatrace"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure as Code"
+    },
+    {
+      "title": "Observability"
+    }
+  ]
+}

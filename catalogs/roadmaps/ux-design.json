@@ -1,0 +1,320 @@
+{
+  "title": "UX Design",
+  "topics": [
+    {
+      "title": "Human Decision Making",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nudge Theory"
+        },
+        {
+          "title": "BJ Fogg's Behavior Model"
+        },
+        {
+          "title": "Persuasive Technology"
+        },
+        {
+          "title": "CREATE Action Funnel"
+        },
+        {
+          "title": "Behavioral Science"
+        },
+        {
+          "title": "Spectrum of Thinking Interventions"
+        },
+        {
+          "title": "Behavioral Economics"
+        },
+        {
+          "title": "Dual Process Theory"
+        },
+        {
+          "title": "Behavior Design"
+        }
+      ]
+    },
+    {
+      "title": "Behavior Change Strategies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BJ Fogg's Behavior Grid"
+        }
+      ]
+    },
+    {
+      "title": "Cheating",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Defaulting"
+        },
+        {
+          "title": "Making it Incidental"
+        },
+        {
+          "title": "Help user Avoiding the Cue"
+        },
+        {
+          "title": "Automate the Act of Repetition"
+        },
+        {
+          "title": "Replace the Routine"
+        },
+        {
+          "title": "Use Consciousness to Interfere"
+        },
+        {
+          "title": "Mindfulness to Avoid Acting on the Cue"
+        },
+        {
+          "title": "Crowd Out Old Habit with New Behavior"
+        },
+        {
+          "title": "Nir Eyal's Hook Model"
+        },
+        {
+          "title": "Cue Routine Reward Model"
+        }
+      ]
+    },
+    {
+      "title": "Make or Change Habits"
+    },
+    {
+      "title": "Support Conscious Action",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Target Outcome"
+        },
+        {
+          "title": "Educate & Encourage User"
+        },
+        {
+          "title": "Target Actor"
+        },
+        {
+          "title": "Help User think about their Action"
+        },
+        {
+          "title": "Create User Personas"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Product",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Target Action"
+        },
+        {
+          "title": "Business Model Canvas"
+        },
+        {
+          "title": "Lean Canvas"
+        },
+        {
+          "title": "Business Model Inspirator"
+        },
+        {
+          "title": "Competitor Analysis"
+        },
+        {
+          "title": "Five Forces Model"
+        },
+        {
+          "title": "SWOT Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Conceptual Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "User Stories"
+        },
+        {
+          "title": "In general, keep it short and simple"
+        },
+        {
+          "title": "Make it easy to understand and complete"
+        },
+        {
+          "title": "Figma"
+        },
+        {
+          "title": "Make progress visible to user"
+        },
+        {
+          "title": "Sketch"
+        },
+        {
+          "title": "Make progress meaningful to reward user"
+        },
+        {
+          "title": "Balsamiq"
+        },
+        {
+          "title": "Make successful completion clearly visible"
+        }
+      ]
+    },
+    {
+      "title": "Prototyping",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Good Layout Rules"
+        },
+        {
+          "title": "Customer Experience Map by Mel Edwards"
+        },
+        {
+          "title": "Simple Flowchart"
+        },
+        {
+          "title": "Event-driven Process Chain Model (EPC)"
+        },
+        {
+          "title": "Call to Action"
+        },
+        {
+          "title": "How-to-Tips"
+        },
+        {
+          "title": "Business Process Model & Notation (BPMN)"
+        },
+        {
+          "title": "Status Reports"
+        },
+        {
+          "title": "Reminders & Planning Prompts"
+        },
+        {
+          "title": "Behavior Change Games"
+        },
+        {
+          "title": "Decision-Making Support"
+        },
+        {
+          "title": "Gamification"
+        },
+        {
+          "title": "Goal Trackers"
+        },
+        {
+          "title": "Reminders"
+        },
+        {
+          "title": "Social Sharing"
+        },
+        {
+          "title": "Planners"
+        },
+        {
+          "title": "Tutorials"
+        }
+      ]
+    },
+    {
+      "title": "UX Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tell User what the Action is and ask for it"
+        },
+        {
+          "title": "Clear the Page of Distractions"
+        },
+        {
+          "title": "Make it Clear, Where to Act"
+        },
+        {
+          "title": "Make UI Professional and Beautiful"
+        },
+        {
+          "title": "Deploy Strong Authority on Subject"
+        },
+        {
+          "title": "Be Authentic and Personal"
+        }
+      ]
+    },
+    {
+      "title": "Measuring the Impact",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gather Lessons, Prioritize & Integrate"
+        },
+        {
+          "title": "Deploy Social Proof"
+        },
+        {
+          "title": "Prime User-Relevant Associations"
+        },
+        {
+          "title": "Avoid Direct Payments"
+        },
+        {
+          "title": "Multivariate Testing"
+        },
+        {
+          "title": "Avoid Choice Overload"
+        },
+        {
+          "title": "Incremental A/B Testing"
+        },
+        {
+          "title": "Avoid Cognitive Overhead"
+        },
+        {
+          "title": "Leverage Loss-Aversion"
+        },
+        {
+          "title": "Use Peer Comparisons"
+        },
+        {
+          "title": "Use Competition"
+        },
+        {
+          "title": "Frame Text to Avoid Temporal Myopia"
+        },
+        {
+          "title": "Elicit Implementation Intentions"
+        },
+        {
+          "title": "Remind of Prior Commitment to Act"
+        },
+        {
+          "title": "Default Everything"
+        },
+        {
+          "title": "Make Commitment to Friends"
+        },
+        {
+          "title": "Lessen the Burden of Action / Info"
+        },
+        {
+          "title": "Make Reward Scarce"
+        },
+        {
+          "title": "Deploy Peer Comparisons"
+        }
+      ]
+    }
+  ]
+}

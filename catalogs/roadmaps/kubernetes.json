@@ -1,0 +1,254 @@
+{
+  "title": "Kubernetes Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Overview of Kubernetes"
+        },
+        {
+          "title": "Why use Kubernetes?"
+        },
+        {
+          "title": "Key Concepts and Terminologies"
+        },
+        {
+          "title": "Kubernetes Alternatives"
+        }
+      ]
+    },
+    {
+      "title": "Containers"
+    },
+    {
+      "title": "Setting up Kubernetes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Deploying your First Application"
+        },
+        {
+          "title": "Choosing a Managed Provider"
+        },
+        {
+          "title": "Installing a Local Cluster"
+        }
+      ]
+    },
+    {
+      "title": "Running Applications",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pods"
+        },
+        {
+          "title": "ReplicaSets"
+        },
+        {
+          "title": "Deployments"
+        },
+        {
+          "title": "StatefulSets"
+        },
+        {
+          "title": "Jobs"
+        }
+      ]
+    },
+    {
+      "title": "Services and Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gateway API"
+        },
+        {
+          "title": "External Access to Services"
+        },
+        {
+          "title": "Load Balancing"
+        },
+        {
+          "title": "Networking & Pod-to-Pod Communication"
+        }
+      ]
+    },
+    {
+      "title": "Configuration Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Injecting Pod Config with ConfigMaps"
+        },
+        {
+          "title": "Using Secrets for Sensitive Data"
+        }
+      ]
+    },
+    {
+      "title": "Resource Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Setting Resource Requests and Limits"
+        },
+        {
+          "title": "Assigning Quotas to Namespaces"
+        },
+        {
+          "title": "Monitoring & Optimizing Resource Usage"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Role Based Access Control (RBAC)"
+        },
+        {
+          "title": "Network Security"
+        },
+        {
+          "title": "Container and Pod Security"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring and Logging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Traces"
+        },
+        {
+          "title": "Logs"
+        },
+        {
+          "title": "Metrics"
+        },
+        {
+          "title": "Resource Health"
+        },
+        {
+          "title": "Observability Engines"
+        }
+      ]
+    },
+    {
+      "title": "Autoscaling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Horizontal Pod Autoscaler (HPA)"
+        },
+        {
+          "title": "Vertical Pod Autoscaler (VPA)"
+        },
+        {
+          "title": "Cluster Autoscaling"
+        },
+        {
+          "title": "Should you manage your own Cluster?"
+        },
+        {
+          "title": "Installing the Control Plane"
+        },
+        {
+          "title": "Adding and Managing Worker Nodes"
+        },
+        {
+          "title": "Multi-Cluster Management"
+        }
+      ]
+    },
+    {
+      "title": "Scheduling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basics"
+        },
+        {
+          "title": "Taints and Tolerations"
+        },
+        {
+          "title": "Topology Spread Constraints"
+        },
+        {
+          "title": "Pod Priorities"
+        },
+        {
+          "title": "Evictions"
+        },
+        {
+          "title": "Creating Custom Controllers"
+        }
+      ]
+    },
+    {
+      "title": "Storage and Volumes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CSI Drivers"
+        },
+        {
+          "title": "Stateful Applications"
+        }
+      ]
+    },
+    {
+      "title": "Deployment Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CI / CD Integration"
+        },
+        {
+          "title": "Custom Schedulers and Extenders"
+        },
+        {
+          "title": "GitOps"
+        },
+        {
+          "title": "Custom Resource Definitions (CRDs)"
+        },
+        {
+          "title": "Helm Charts"
+        },
+        {
+          "title": "Kubernetes Extensions and APIs"
+        },
+        {
+          "title": "Canary Deployments"
+        },
+        {
+          "title": "Blue-Green Deployments"
+        },
+        {
+          "title": "Rolling Updates / Rollbacks"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Topics"
+    }
+  ]
+}

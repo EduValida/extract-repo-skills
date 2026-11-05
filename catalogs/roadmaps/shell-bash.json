@@ -1,0 +1,615 @@
+{
+  "title": "Shell / Bash Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Bash?"
+        },
+        {
+          "title": "CLI vs GUI"
+        },
+        {
+          "title": "What is scripting?"
+        }
+      ]
+    },
+    {
+      "title": "Popular Shells",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "bash"
+        },
+        {
+          "title": "dash"
+        },
+        {
+          "title": "fish"
+        },
+        {
+          "title": "zsh"
+        },
+        {
+          "title": "ksh"
+        },
+        {
+          "title": "tcsh"
+        },
+        {
+          "title": "PowerShell"
+        },
+        {
+          "title": "cmd"
+        }
+      ]
+    },
+    {
+      "title": "Setting Up Bash"
+    },
+    {
+      "title": "Files & Directories",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pwd"
+        },
+        {
+          "title": "echo"
+        },
+        {
+          "title": "ls"
+        },
+        {
+          "title": "cd"
+        },
+        {
+          "title": "touch"
+        },
+        {
+          "title": "rm"
+        },
+        {
+          "title": "mkdir"
+        },
+        {
+          "title": "rmdir"
+        },
+        {
+          "title": "cp"
+        },
+        {
+          "title": "mv"
+        },
+        {
+          "title": "cat"
+        },
+        {
+          "title": "find"
+        },
+        {
+          "title": "Navigate between dirs"
+        },
+        {
+          "title": "*"
+        },
+        {
+          "title": "?"
+        },
+        {
+          "title": "[...]"
+        },
+        {
+          "title": "{...}"
+        }
+      ]
+    },
+    {
+      "title": "Tab Completion"
+    },
+    {
+      "title": "Repeat Commands"
+    },
+    {
+      "title": "Help Commands"
+    },
+    {
+      "title": "Bash Alias"
+    },
+    {
+      "title": "Stop Execution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "wc"
+        },
+        {
+          "title": "grep"
+        },
+        {
+          "title": "cut, paste"
+        },
+        {
+          "title": "sort"
+        },
+        {
+          "title": "less, more"
+        },
+        {
+          "title": "join, split"
+        },
+        {
+          "title": "uniq"
+        },
+        {
+          "title": "head, tail"
+        },
+        {
+          "title": "tr"
+        },
+        {
+          "title": "nl"
+        },
+        {
+          "title": "find"
+        },
+        {
+          "title": "sed"
+        },
+        {
+          "title": "awk"
+        }
+      ]
+    },
+    {
+      "title": "Redirects & Pipelines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "stdin, stdout, stderr"
+        },
+        {
+          "title": "Output redirection"
+        },
+        {
+          "title": "Input redirection"
+        },
+        {
+          "title": "Error redirection"
+        },
+        {
+          "title": "Pipes"
+        },
+        {
+          "title": "Command substitution"
+        },
+        {
+          "title": "Process substitution"
+        }
+      ]
+    },
+    {
+      "title": "Basic Editor Ops."
+    },
+    {
+      "title": "Text Editors",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nano"
+        },
+        {
+          "title": "Vim"
+        },
+        {
+          "title": "Emacs"
+        },
+        {
+          "title": "Vi"
+        }
+      ]
+    },
+    {
+      "title": "Bash Script Anatomy"
+    },
+    {
+      "title": "Running Shell Scripts",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Direct Execution"
+        },
+        {
+          "title": "Running with Bash"
+        },
+        {
+          "title": "Running with Source"
+        },
+        {
+          "title": "Environment vs Shell vars."
+        },
+        {
+          "title": "Create, Print, Modify"
+        },
+        {
+          "title": "Variable Scopes"
+        },
+        {
+          "title": "Special variables"
+        },
+        {
+          "title": "Variables best practices"
+        }
+      ]
+    },
+    {
+      "title": "Bash Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Strings"
+        },
+        {
+          "title": "Numeric"
+        },
+        {
+          "title": "Arrays"
+        },
+        {
+          "title": "Associative Arrays"
+        }
+      ]
+    },
+    {
+      "title": "Input/Output",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Read user input"
+        },
+        {
+          "title": "printf formatting"
+        },
+        {
+          "title": "Here documents"
+        },
+        {
+          "title": "Here strings"
+        },
+        {
+          "title": "Arithmetic expansion"
+        },
+        {
+          "title": "expr"
+        },
+        {
+          "title": "bc"
+        },
+        {
+          "title": "let"
+        },
+        {
+          "title": "awk"
+        }
+      ]
+    },
+    {
+      "title": "Comments",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "$1, $2, $3"
+        },
+        {
+          "title": "$0"
+        },
+        {
+          "title": "$*"
+        },
+        {
+          "title": "$@"
+        },
+        {
+          "title": "$#"
+        },
+        {
+          "title": "shift"
+        }
+      ]
+    },
+    {
+      "title": "Bash Operators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arithmetic"
+        },
+        {
+          "title": "Comparison"
+        },
+        {
+          "title": "String operators"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "File test"
+        }
+      ]
+    },
+    {
+      "title": "String Manipulation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "String length"
+        },
+        {
+          "title": "Substring extraction"
+        },
+        {
+          "title": "Pattern replacement"
+        },
+        {
+          "title": "Case conversion"
+        }
+      ]
+    },
+    {
+      "title": "Script Arguments"
+    },
+    {
+      "title": "Exit Codes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "exit"
+        },
+        {
+          "title": "$?"
+        },
+        {
+          "title": "Success vs failure"
+        }
+      ]
+    },
+    {
+      "title": "File Permissions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "rwx"
+        },
+        {
+          "title": "chmod"
+        },
+        {
+          "title": "chown"
+        },
+        {
+          "title": "chgrp"
+        }
+      ]
+    },
+    {
+      "title": "Conditionals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "if"
+        },
+        {
+          "title": "case"
+        }
+      ]
+    },
+    {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "for"
+        },
+        {
+          "title": "while"
+        },
+        {
+          "title": "until"
+        },
+        {
+          "title": "break, continue"
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Function Scopes"
+        },
+        {
+          "title": "Recursive Functions"
+        }
+      ]
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "set -x"
+        },
+        {
+          "title": "bash -n"
+        },
+        {
+          "title": "shellcheck"
+        },
+        {
+          "title": "Bash Debug"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "set -e"
+        },
+        {
+          "title": "set -o"
+        },
+        {
+          "title": "set -u"
+        },
+        {
+          "title": "trap"
+        },
+        {
+          "title": "Error logging"
+        },
+        {
+          "title": "ping"
+        },
+        {
+          "title": "curl"
+        },
+        {
+          "title": "wget"
+        },
+        {
+          "title": "ssh"
+        },
+        {
+          "title": "scp"
+        },
+        {
+          "title": "rsync"
+        },
+        {
+          "title": "ifconfig, ip"
+        },
+        {
+          "title": "netstat, ss"
+        },
+        {
+          "title": "tar"
+        },
+        {
+          "title": "zip, unzip"
+        }
+      ]
+    },
+    {
+      "title": "Regular Expressions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basic regex syntax"
+        },
+        {
+          "title": "Extended regex"
+        }
+      ]
+    },
+    {
+      "title": "Process Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "nohup"
+        },
+        {
+          "title": "jobs"
+        },
+        {
+          "title": "disown"
+        },
+        {
+          "title": "fg, bg"
+        },
+        {
+          "title": "ps"
+        },
+        {
+          "title": "top, htop"
+        },
+        {
+          "title": "Process substitution"
+        },
+        {
+          "title": "free"
+        },
+        {
+          "title": "df, du"
+        },
+        {
+          "title": "uptime"
+        },
+        {
+          "title": "iostat, vmstat"
+        },
+        {
+          "title": "brew"
+        },
+        {
+          "title": "apt"
+        },
+        {
+          "title": "cron, crontab"
+        },
+        {
+          "title": "at"
+        }
+      ]
+    },
+    {
+      "title": "Package Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "dnf"
+        },
+        {
+          "title": "yum"
+        },
+        {
+          "title": "gzip, gunzip"
+        },
+        {
+          "title": "bzip2, xz"
+        },
+        {
+          "title": "systemd timers"
+        }
+      ]
+    }
+  ]
+}

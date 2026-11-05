@@ -1,0 +1,518 @@
+{
+  "title": "QA Engineer",
+  "topics": [
+    {
+      "title": "Learn the Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Quality Assurance?"
+        },
+        {
+          "title": "Test Oracles"
+        },
+        {
+          "title": "QA Mindset"
+        },
+        {
+          "title": "Test Prioritization"
+        },
+        {
+          "title": "Testing Approaches"
+        },
+        {
+          "title": "Manage your Testing"
+        },
+        {
+          "title": "Project Management"
+        },
+        {
+          "title": "White Box Testing"
+        },
+        {
+          "title": "Spiral"
+        },
+        {
+          "title": "qTest"
+        },
+        {
+          "title": "Atlassian"
+        },
+        {
+          "title": "Assembla"
+        },
+        {
+          "title": "TestRail"
+        },
+        {
+          "title": "Gray Box Testing"
+        },
+        {
+          "title": "V Model"
+        },
+        {
+          "title": "TestLink"
+        },
+        {
+          "title": "YouTrack"
+        },
+        {
+          "title": "Trello"
+        },
+        {
+          "title": "Zephyr"
+        },
+        {
+          "title": "Testing Techniques"
+        },
+        {
+          "title": "Functional Testing"
+        },
+        {
+          "title": "UAT"
+        },
+        {
+          "title": "Exploratory Testing"
+        },
+        {
+          "title": "Sanity Testing"
+        }
+      ]
+    },
+    {
+      "title": "SDLC Delivery Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Black Box Testing"
+        },
+        {
+          "title": "Waterfall"
+        },
+        {
+          "title": "Agile Model"
+        },
+        {
+          "title": "Kanban"
+        },
+        {
+          "title": "Scrum"
+        },
+        {
+          "title": "XP"
+        },
+        {
+          "title": "SAFe"
+        }
+      ]
+    },
+    {
+      "title": "Testing Methodologies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Non-Functional Testing"
+        },
+        {
+          "title": "Regression Testing"
+        },
+        {
+          "title": "Load Testing"
+        },
+        {
+          "title": "TDD"
+        },
+        {
+          "title": "BDD"
+        },
+        {
+          "title": "Smoke Testing"
+        },
+        {
+          "title": "Performance Testing"
+        },
+        {
+          "title": "ATDD"
+        },
+        {
+          "title": "RCA"
+        },
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Stress Testing"
+        },
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "Security Testing"
+        },
+        {
+          "title": "Mocking"
+        },
+        {
+          "title": "Accessibility Testing"
+        }
+      ]
+    },
+    {
+      "title": "Manual Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Test Cases and Scenarios"
+        },
+        {
+          "title": "Compatibility"
+        },
+        {
+          "title": "Verification and Validation"
+        },
+        {
+          "title": "Test Planning"
+        }
+      ]
+    },
+    {
+      "title": "Frontend Automation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Webdriver.io"
+        },
+        {
+          "title": "Browser / Dev Tools"
+        },
+        {
+          "title": "Playwright"
+        },
+        {
+          "title": "Jasmine"
+        },
+        {
+          "title": "HTML, CSS, JavaScript"
+        },
+        {
+          "title": "QA Wolf"
+        },
+        {
+          "title": "Robot"
+        },
+        {
+          "title": "Ajax"
+        },
+        {
+          "title": "Caching"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Selenium"
+        },
+        {
+          "title": "SWAs, PWAs, JAMStack"
+        },
+        {
+          "title": "Jest"
+        },
+        {
+          "title": "Nightwatch"
+        },
+        {
+          "title": "CSR vs SSR"
+        },
+        {
+          "title": "Puppeteer"
+        },
+        {
+          "title": "Responsive vs Adaptive"
+        }
+      ]
+    },
+    {
+      "title": "Backend Automation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Karateframework"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Playwright"
+        },
+        {
+          "title": "Soap UI"
+        },
+        {
+          "title": "Postman / Newman"
+        },
+        {
+          "title": "REST Assured"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Tests",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Wave"
+        },
+        {
+          "title": "AXE"
+        },
+        {
+          "title": "Chrome DevTools"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Automation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Espresso"
+        },
+        {
+          "title": "Detox"
+        },
+        {
+          "title": "Appium"
+        },
+        {
+          "title": "SwiftTesting"
+        }
+      ]
+    },
+    {
+      "title": "Load & Performance Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lighthouse"
+        },
+        {
+          "title": "Locust"
+        },
+        {
+          "title": "Webpage Test"
+        },
+        {
+          "title": "Gatling"
+        },
+        {
+          "title": "K6"
+        },
+        {
+          "title": "Artillery"
+        },
+        {
+          "title": "Vegeta"
+        },
+        {
+          "title": "JMeter"
+        }
+      ]
+    },
+    {
+      "title": "Security Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Authentication / Authorization"
+        },
+        {
+          "title": "Secrets Management"
+        },
+        {
+          "title": "Vulnerability Scanning"
+        },
+        {
+          "title": "OWASP 10"
+        },
+        {
+          "title": "Attack Vectors"
+        }
+      ]
+    },
+    {
+      "title": "Email Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Selenium IDE"
+        },
+        {
+          "title": "Ghost Inspector"
+        },
+        {
+          "title": "BugBug"
+        },
+        {
+          "title": "Mailinator"
+        },
+        {
+          "title": "Gmail Tester"
+        }
+      ]
+    },
+    {
+      "title": "Testing Data Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Delphix"
+        }
+      ]
+    },
+    {
+      "title": "Reporting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TestRail"
+        },
+        {
+          "title": "Allure"
+        },
+        {
+          "title": "jUnit"
+        },
+        {
+          "title": "Drone"
+        },
+        {
+          "title": "Jenkins"
+        },
+        {
+          "title": "GitLab CI"
+        },
+        {
+          "title": "Bamboo"
+        },
+        {
+          "title": "Circle CI"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring & Logs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "New Relic"
+        },
+        {
+          "title": "RunScope"
+        },
+        {
+          "title": "Kibana"
+        },
+        {
+          "title": "Datadog"
+        },
+        {
+          "title": "Pager Duty"
+        },
+        {
+          "title": "Grafana"
+        },
+        {
+          "title": "Sentry"
+        }
+      ]
+    },
+    {
+      "title": "Version Control System",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Repo Hosting Services",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Bitbucket"
+        },
+        {
+          "title": "GitLab"
+        }
+      ]
+    },
+    {
+      "title": "Repo Hosting Services (2)"
+    },
+    {
+      "title": "CI / CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Travis CI"
+        },
+        {
+          "title": "TeamCity"
+        },
+        {
+          "title": "Azure DevOps Services"
+        }
+      ]
+    },
+    {
+      "title": "Headless Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zombie.js"
+        },
+        {
+          "title": "Puppeteer"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Playwright"
+        },
+        {
+          "title": "Headless Chrome"
+        },
+        {
+          "title": "Headless Fox"
+        },
+        {
+          "title": "HTML Unit"
+        }
+      ]
+    }
+  ]
+}

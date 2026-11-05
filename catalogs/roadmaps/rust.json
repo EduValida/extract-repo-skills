@@ -1,0 +1,447 @@
+{
+  "title": "Rust Developer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Rust?"
+        },
+        {
+          "title": "Why use Rust?"
+        },
+        {
+          "title": "Variables, DataTypes and Constants"
+        },
+        {
+          "title": "Control Flow and Constructs"
+        },
+        {
+          "title": "Installing Rust and Cargo"
+        },
+        {
+          "title": "IDEs and Rust Toolchains"
+        },
+        {
+          "title": "Functions and Method Syntax"
+        },
+        {
+          "title": "Rust REPL (Rust Playground)"
+        },
+        {
+          "title": "Pattern Matching & Destructuring"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Structs"
+        },
+        {
+          "title": "Traits"
+        },
+        {
+          "title": "Impl Blocks"
+        },
+        {
+          "title": "Integers"
+        },
+        {
+          "title": "Boolean"
+        },
+        {
+          "title": "Floats"
+        },
+        {
+          "title": "Character"
+        },
+        {
+          "title": "Tuple"
+        },
+        {
+          "title": "String"
+        },
+        {
+          "title": "Array"
+        },
+        {
+          "title": "Hashmap"
+        },
+        {
+          "title": "Vector"
+        },
+        {
+          "title": "Hashset"
+        },
+        {
+          "title": "LinkedList"
+        },
+        {
+          "title": "Stack"
+        },
+        {
+          "title": "Queue"
+        },
+        {
+          "title": "Binary Heap"
+        },
+        {
+          "title": "Ownsership Rules & Memory Safety"
+        },
+        {
+          "title": "Borrowing, References and Slices"
+        },
+        {
+          "title": "Deep Dive: Stack vs Heap"
+        },
+        {
+          "title": "BTreeMap"
+        },
+        {
+          "title": "BTreeSet"
+        },
+        {
+          "title": "Mutex"
+        },
+        {
+          "title": "RwLock"
+        },
+        {
+          "title": "Channels"
+        },
+        {
+          "title": "RC"
+        },
+        {
+          "title": "Arc"
+        },
+        {
+          "title": "Box"
+        }
+      ]
+    },
+    {
+      "title": "Language Basics"
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Option and Result Enumerations"
+        },
+        {
+          "title": "Propagating Errors and `?` Operator"
+        },
+        {
+          "title": "Custom Error Types and Traits"
+        }
+      ]
+    },
+    {
+      "title": "Modules & Crates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code Organization & Namespacing"
+        },
+        {
+          "title": "Dependency Management with Cargo"
+        },
+        {
+          "title": "Publishing on Crates.io"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unit & Integration Testing"
+        },
+        {
+          "title": "Mocking & Property Based Testing"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency & Parallelism",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Threads, Channels and Message Passing"
+        },
+        {
+          "title": "Atomic Operations & Memory Barriers"
+        },
+        {
+          "title": "Futures and Async/Await Paradigm"
+        }
+      ]
+    },
+    {
+      "title": "Traits & Generics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Trait Definitions & Implementations"
+        },
+        {
+          "title": "Trait Bounds and Associated Types"
+        },
+        {
+          "title": "Generics & Type-Level Programming"
+        }
+      ]
+    },
+    {
+      "title": "Lifetimes & Borrow Checker",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Explicit Lifetime Annotations"
+        },
+        {
+          "title": "Lifetime Elision Rules"
+        },
+        {
+          "title": "Covariant & Contravariant Lifetimes"
+        }
+      ]
+    },
+    {
+      "title": "Macros & Metaprogramming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Declarative Macros with macro_rules!"
+        },
+        {
+          "title": "Procedural Macros & Custom Derive"
+        },
+        {
+          "title": "Domain Specific Languages (DSLs)"
+        }
+      ]
+    },
+    {
+      "title": "Web Development",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Axum"
+        },
+        {
+          "title": "Actix"
+        },
+        {
+          "title": "Leptos"
+        },
+        {
+          "title": "Loco"
+        },
+        {
+          "title": "Rocket"
+        }
+      ]
+    },
+    {
+      "title": "Asynchronous Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tokio"
+        },
+        {
+          "title": "async-std"
+        },
+        {
+          "title": "termion"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "smol"
+        },
+        {
+          "title": "reqwest"
+        },
+        {
+          "title": "hyper"
+        },
+        {
+          "title": "quinn"
+        }
+      ]
+    },
+    {
+      "title": "Serialization / Deserialization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Serde"
+        },
+        {
+          "title": "json-rust"
+        },
+        {
+          "title": "toml-rust"
+        }
+      ]
+    },
+    {
+      "title": "Database and ORM",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Diesel"
+        },
+        {
+          "title": "sqlx"
+        },
+        {
+          "title": "rusqlite"
+        },
+        {
+          "title": "embedded-hal"
+        },
+        {
+          "title": "rppal"
+        },
+        {
+          "title": "nrf-hal"
+        }
+      ]
+    },
+    {
+      "title": "Cryptography",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "rust-crypto"
+        },
+        {
+          "title": "ring"
+        },
+        {
+          "title": "clap"
+        },
+        {
+          "title": "sodiumoxide"
+        },
+        {
+          "title": "tauri"
+        },
+        {
+          "title": "gtk-rs"
+        },
+        {
+          "title": "Iced"
+        },
+        {
+          "title": "GPUI"
+        }
+      ]
+    },
+    {
+      "title": "CLI Utilities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "structopt"
+        }
+      ]
+    },
+    {
+      "title": "Game Development",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "bevy"
+        },
+        {
+          "title": "fyrox"
+        },
+        {
+          "title": "ggez"
+        },
+        {
+          "title": "macroquad"
+        },
+        {
+          "title": "wgpu-rs"
+        }
+      ]
+    },
+    {
+      "title": "GUI Development"
+    },
+    {
+      "title": "Embedded and Systems"
+    },
+    {
+      "title": "WebAssembly (WASM)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "wasm-pack"
+        },
+        {
+          "title": "wasmer"
+        },
+        {
+          "title": "wasm-bindgen"
+        }
+      ]
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "rust-gdb"
+        },
+        {
+          "title": "rust-lldb"
+        }
+      ]
+    },
+    {
+      "title": "Documenting with `rustdoc`"
+    },
+    {
+      "title": "Performance and Profiling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Criterion.rs"
+        }
+      ]
+    }
+  ]
+}

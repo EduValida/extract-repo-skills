@@ -1,0 +1,342 @@
+{
+  "title": "Data Analyst Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Data Analytics"
+        },
+        {
+          "title": "Key Concepts of Data"
+        },
+        {
+          "title": "Collection"
+        },
+        {
+          "title": "Cleanup"
+        },
+        {
+          "title": "Exploration"
+        },
+        {
+          "title": "Visualisation"
+        },
+        {
+          "title": "Statistical Analysis"
+        },
+        {
+          "title": "Machine Learning"
+        }
+      ]
+    },
+    {
+      "title": "Types of Data Analytics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Descriptive Analytics"
+        },
+        {
+          "title": "Diagnostic Analytics"
+        },
+        {
+          "title": "Predictive Analytics"
+        },
+        {
+          "title": "Prescriptive Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Excel",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IF"
+        },
+        {
+          "title": "DATEDIF"
+        },
+        {
+          "title": "VLOOKUP / HLOOKUP"
+        },
+        {
+          "title": "REPLACE / SUBSTITUTE"
+        },
+        {
+          "title": "UPPER / LOWER / PROPER"
+        },
+        {
+          "title": "CONCAT"
+        },
+        {
+          "title": "TRIM"
+        },
+        {
+          "title": "AVERAGE"
+        },
+        {
+          "title": "COUNT"
+        },
+        {
+          "title": "SUM"
+        },
+        {
+          "title": "MIN / MAX"
+        },
+        {
+          "title": "Charting"
+        },
+        {
+          "title": "Pivot Tables"
+        }
+      ]
+    },
+    {
+      "title": "Learn a Language"
+    },
+    {
+      "title": "Data Manipulation Lib's."
+    },
+    {
+      "title": "Data Viz. Libraries"
+    },
+    {
+      "title": "Data Collection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CSV Files"
+        },
+        {
+          "title": "Web Scraping"
+        },
+        {
+          "title": "APIs"
+        },
+        {
+          "title": "Databases"
+        }
+      ]
+    },
+    {
+      "title": "Data Cleanup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Handling Missing Data"
+        },
+        {
+          "title": "Removing Duplicates"
+        },
+        {
+          "title": "Finding Outliers"
+        },
+        {
+          "title": "Data Transformation"
+        },
+        {
+          "title": "Dplyr"
+        },
+        {
+          "title": "Pandas"
+        }
+      ]
+    },
+    {
+      "title": "Descriptive Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dispersion"
+        },
+        {
+          "title": "Range"
+        },
+        {
+          "title": "Variance"
+        },
+        {
+          "title": "Visualizing Distributions"
+        },
+        {
+          "title": "Standard Deviation"
+        },
+        {
+          "title": "Central Tendency"
+        },
+        {
+          "title": "Mean"
+        },
+        {
+          "title": "Tableau"
+        },
+        {
+          "title": "Median"
+        },
+        {
+          "title": "Mode"
+        },
+        {
+          "title": "Matplotlib"
+        },
+        {
+          "title": "ggplot2"
+        },
+        {
+          "title": "Distribution Shape"
+        },
+        {
+          "title": "Seaborn"
+        },
+        {
+          "title": "Skewness"
+        },
+        {
+          "title": "Kurtosis"
+        },
+        {
+          "title": "Bar"
+        },
+        {
+          "title": "Histograms"
+        },
+        {
+          "title": "Line"
+        },
+        {
+          "title": "Stacked"
+        },
+        {
+          "title": "Scatter"
+        },
+        {
+          "title": "Heatmap"
+        },
+        {
+          "title": "Funnel"
+        },
+        {
+          "title": "Pie"
+        }
+      ]
+    },
+    {
+      "title": "Data Visualisation"
+    },
+    {
+      "title": "Statistical Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hypothesis Testing"
+        },
+        {
+          "title": "Correlation Analysis"
+        },
+        {
+          "title": "Regression"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Big Data Concepts"
+        },
+        {
+          "title": "Supervised Learning"
+        },
+        {
+          "title": "Data Storage Solutions"
+        },
+        {
+          "title": "Unsupervised Learning"
+        },
+        {
+          "title": "Reinforcement Learning"
+        },
+        {
+          "title": "Hadoop"
+        },
+        {
+          "title": "Spark"
+        },
+        {
+          "title": "Parallel Processing"
+        },
+        {
+          "title": "MPI"
+        },
+        {
+          "title": "MapReduce"
+        }
+      ]
+    },
+    {
+      "title": "Big Data Technologies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Decision Trees"
+        },
+        {
+          "title": "Naive Byes"
+        },
+        {
+          "title": "KNN"
+        },
+        {
+          "title": "K-Means Clustering"
+        },
+        {
+          "title": "Logistic Regression"
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning (Optional)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Model Evaluation"
+        },
+        {
+          "title": "Neural Networks"
+        },
+        {
+          "title": "CNNs"
+        },
+        {
+          "title": "RNN"
+        },
+        {
+          "title": "Tensorflow"
+        },
+        {
+          "title": "Pytorch"
+        },
+        {
+          "title": "Image Recognition"
+        },
+        {
+          "title": "NLP"
+        }
+      ]
+    }
+  ]
+}

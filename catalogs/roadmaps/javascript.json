@@ -1,0 +1,447 @@
+{
+  "title": "JavaScript Roadmap",
+  "topics": [
+    {
+      "title": "Introduction to JavaScript",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is JavaScript"
+        },
+        {
+          "title": "History of JavaScript"
+        },
+        {
+          "title": "JavaScript Versions"
+        },
+        {
+          "title": "How to run JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "All about Variables",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "var"
+        },
+        {
+          "title": "let"
+        },
+        {
+          "title": "const"
+        },
+        {
+          "title": "Variable Declarations"
+        },
+        {
+          "title": "Hoisting"
+        },
+        {
+          "title": "Variable Naming Rules"
+        },
+        {
+          "title": "Variable Scopes"
+        },
+        {
+          "title": "Object Prototype"
+        },
+        {
+          "title": "Block"
+        },
+        {
+          "title": "Function"
+        },
+        {
+          "title": "Global"
+        },
+        {
+          "title": "Prototypal Inheritance"
+        },
+        {
+          "title": "Built-in Objects"
+        },
+        {
+          "title": "JSON"
+        }
+      ]
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "string"
+        },
+        {
+          "title": "undefined"
+        },
+        {
+          "title": "number"
+        },
+        {
+          "title": "bigint"
+        },
+        {
+          "title": "Object"
+        },
+        {
+          "title": "boolean"
+        },
+        {
+          "title": "null"
+        },
+        {
+          "title": "typeof operator"
+        },
+        {
+          "title": "Symbol"
+        }
+      ]
+    },
+    {
+      "title": "Type Casting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type Conversion vs Coercion"
+        },
+        {
+          "title": "Implicit Type Casting"
+        },
+        {
+          "title": "Explicit Type Casting"
+        }
+      ]
+    },
+    {
+      "title": "Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Map"
+        },
+        {
+          "title": "Structured Data"
+        },
+        {
+          "title": "Weak Map"
+        },
+        {
+          "title": "Set"
+        },
+        {
+          "title": "Keyed Collections"
+        },
+        {
+          "title": "Weak Set"
+        },
+        {
+          "title": "Typed Arrays"
+        },
+        {
+          "title": "Indexed Collections"
+        },
+        {
+          "title": "Arrays"
+        },
+        {
+          "title": "for"
+        },
+        {
+          "title": "break / continue"
+        },
+        {
+          "title": "do...while"
+        },
+        {
+          "title": "for...of loop"
+        }
+      ]
+    },
+    {
+      "title": "Equality Comparisons",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "=="
+        },
+        {
+          "title": "==="
+        },
+        {
+          "title": "Object.is"
+        },
+        {
+          "title": "isLooselyEqual"
+        },
+        {
+          "title": "isStrictlyEqual"
+        },
+        {
+          "title": "SameValueZero"
+        },
+        {
+          "title": "SameValue"
+        }
+      ]
+    },
+    {
+      "title": "Loops and Iterations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "while"
+        },
+        {
+          "title": "for...in loop"
+        },
+        {
+          "title": "if...else"
+        },
+        {
+          "title": "Switch"
+        }
+      ]
+    },
+    {
+      "title": "Control Flow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Conditional Statements"
+        },
+        {
+          "title": "Exceptional Handling"
+        },
+        {
+          "title": "Default Params"
+        },
+        {
+          "title": "Rest"
+        },
+        {
+          "title": "throw statement"
+        },
+        {
+          "title": "try/catch/finally"
+        },
+        {
+          "title": "Error Objects"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Lexical Scoping"
+        },
+        {
+          "title": "Closures"
+        }
+      ]
+    },
+    {
+      "title": "Expressions & Operators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Conditional Operators"
+        },
+        {
+          "title": "Comma Operators"
+        },
+        {
+          "title": "Unary Operators"
+        },
+        {
+          "title": "Assignment Operators"
+        },
+        {
+          "title": "Comparison Operators"
+        },
+        {
+          "title": "Arithmetic Operators"
+        },
+        {
+          "title": "Bitwise Operators"
+        },
+        {
+          "title": "Logical Operators"
+        },
+        {
+          "title": "BigInt Operators"
+        },
+        {
+          "title": "String Operators"
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Function Parameters"
+        },
+        {
+          "title": "Arrow Functions"
+        },
+        {
+          "title": "IIFEs"
+        },
+        {
+          "title": "arguments object"
+        },
+        {
+          "title": "Scope & Function Stack"
+        },
+        {
+          "title": "Built-in Functions"
+        }
+      ]
+    },
+    {
+      "title": "DOM APIs"
+    },
+    {
+      "title": "Strict Mode"
+    },
+    {
+      "title": "Using (this) keyword",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "in a method"
+        },
+        {
+          "title": "in a function"
+        },
+        {
+          "title": "using it alone"
+        },
+        {
+          "title": "in event handlers"
+        },
+        {
+          "title": "Function Borrowing"
+        },
+        {
+          "title": "in arrow functions"
+        },
+        {
+          "title": "Explicit Binding"
+        },
+        {
+          "title": "call"
+        },
+        {
+          "title": "apply"
+        },
+        {
+          "title": "bind"
+        }
+      ]
+    },
+    {
+      "title": "Asynchronous JavaScript",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Callback Hell"
+        },
+        {
+          "title": "Event Loop"
+        },
+        {
+          "title": "Callbacks"
+        },
+        {
+          "title": "Promises"
+        },
+        {
+          "title": "setTimeout"
+        },
+        {
+          "title": "async/await"
+        },
+        {
+          "title": "setInterval"
+        }
+      ]
+    },
+    {
+      "title": "Working with APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "XMLHTTPRequest"
+        },
+        {
+          "title": "Fetch"
+        }
+      ]
+    },
+    {
+      "title": "Classes"
+    },
+    {
+      "title": "Iterators and Generators"
+    },
+    {
+      "title": "Modules in JavaScript",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CommonJS"
+        },
+        {
+          "title": "ESM"
+        }
+      ]
+    },
+    {
+      "title": "Memory Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Memory Lifecycle"
+        },
+        {
+          "title": "Garbage Collection"
+        }
+      ]
+    },
+    {
+      "title": "Using Browser DevTools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Debugging Issues"
+        },
+        {
+          "title": "Debugging Memory Leaks"
+        },
+        {
+          "title": "Debugging Performance"
+        }
+      ]
+    }
+  ]
+}

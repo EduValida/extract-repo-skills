@@ -1,0 +1,373 @@
+{
+  "title": "CSS",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "Frontend development"
+        }
+      ]
+    },
+    {
+      "title": "CSS Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Inline CSS"
+        },
+        {
+          "title": "Internal CSS"
+        },
+        {
+          "title": "External CSS"
+        },
+        {
+          "title": "Cascading order"
+        }
+      ]
+    },
+    {
+      "title": "Rules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Properties & Values"
+        },
+        {
+          "title": "Selector"
+        },
+        {
+          "title": "Declaration"
+        }
+      ]
+    },
+    {
+      "title": "Comments"
+    },
+    {
+      "title": "Simple selectors",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "element"
+        },
+        {
+          "title": "class"
+        },
+        {
+          "title": "id"
+        },
+        {
+          "title": "universal"
+        },
+        {
+          "title": "grouping"
+        }
+      ]
+    },
+    {
+      "title": "Combinator selectors",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "descendant"
+        },
+        {
+          "title": "child"
+        },
+        {
+          "title": "Next Sibling"
+        },
+        {
+          "title": "Subsequent Sibling"
+        }
+      ]
+    },
+    {
+      "title": "Attribute selectors",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Font families"
+        },
+        {
+          "title": "Font Style"
+        },
+        {
+          "title": "Font Size"
+        },
+        {
+          "title": "Font Weight"
+        },
+        {
+          "title": "Font Shorthand"
+        },
+        {
+          "title": "Google Fonts"
+        },
+        {
+          "title": "Font Variant"
+        }
+      ]
+    },
+    {
+      "title": "Text Styling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Color"
+        },
+        {
+          "title": "Direction"
+        },
+        {
+          "title": "Text Alignment"
+        },
+        {
+          "title": "Text Decoration"
+        },
+        {
+          "title": "Text Transform"
+        },
+        {
+          "title": "Text Spacing"
+        },
+        {
+          "title": "Line Height"
+        },
+        {
+          "title": "Text Shadows"
+        }
+      ]
+    },
+    {
+      "title": "Opacity"
+    },
+    {
+      "title": "Background",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Background Color"
+        },
+        {
+          "title": "Background Image"
+        },
+        {
+          "title": "Background Gradient"
+        },
+        {
+          "title": "rgb"
+        },
+        {
+          "title": "hsl"
+        },
+        {
+          "title": "hex"
+        },
+        {
+          "title": "Background Position"
+        },
+        {
+          "title": "Named Colors"
+        },
+        {
+          "title": "Background Attachment"
+        },
+        {
+          "title": "rgba, hsla"
+        },
+        {
+          "title": "Relative"
+        },
+        {
+          "title": "Absolute"
+        },
+        {
+          "title": "Sticky"
+        },
+        {
+          "title": "Fixed"
+        },
+        {
+          "title": "Static"
+        }
+      ]
+    },
+    {
+      "title": "Box Model"
+    },
+    {
+      "title": "Padding"
+    },
+    {
+      "title": "Margin"
+    },
+    {
+      "title": "Width / Height"
+    },
+    {
+      "title": "Border"
+    },
+    {
+      "title": "Outline"
+    },
+    {
+      "title": "Box Shadows"
+    },
+    {
+      "title": "Position"
+    },
+    {
+      "title": "Display",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "inline"
+        },
+        {
+          "title": "block"
+        },
+        {
+          "title": "inline-block"
+        },
+        {
+          "title": "none"
+        },
+        {
+          "title": "visibility"
+        }
+      ]
+    },
+    {
+      "title": "CSS Units",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Absolute vs Relative"
+        },
+        {
+          "title": "Units with functions"
+        }
+      ]
+    },
+    {
+      "title": "Z-Index / Stacking Context"
+    },
+    {
+      "title": "CSS Specificity"
+    },
+    {
+      "title": "Tables"
+    },
+    {
+      "title": "Lists"
+    },
+    {
+      "title": "Pseudo Classes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Floating Elements"
+        },
+        {
+          "title": "Multicolumn layout"
+        },
+        {
+          "title": "Flexbox"
+        },
+        {
+          "title": "Grid"
+        }
+      ]
+    },
+    {
+      "title": "Pseudo Elements"
+    },
+    {
+      "title": "Images and Filters",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Transforms"
+        },
+        {
+          "title": "Keyframe Animations"
+        },
+        {
+          "title": "Transitions"
+        }
+      ]
+    },
+    {
+      "title": "Flow Layout"
+    },
+    {
+      "title": "CSS Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sass"
+        },
+        {
+          "title": "PostCSS"
+        },
+        {
+          "title": "BEM"
+        },
+        {
+          "title": "CSS Modules"
+        },
+        {
+          "title": "CSS-in-JS"
+        }
+      ]
+    },
+    {
+      "title": "CSS Variables",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Performance"
+        },
+        {
+          "title": "Accessibility"
+        }
+      ]
+    },
+    {
+      "title": "Media Queries"
+    },
+    {
+      "title": "Container Queries"
+    },
+    {
+      "title": "Responsive typography"
+    }
+  ]
+}

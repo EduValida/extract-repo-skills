@@ -1,0 +1,309 @@
+{
+  "title": "Technical Writer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Who is a Technical Writer?"
+        },
+        {
+          "title": "What is Technical Writing?"
+        },
+        {
+          "title": "Role of Technical Writers inOrganizations"
+        },
+        {
+          "title": "Forms of Technical Writing"
+        },
+        {
+          "title": "Growth as a Technical Writer"
+        }
+      ]
+    },
+    {
+      "title": "Required Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Technology Expertise"
+        },
+        {
+          "title": "Language Proficiency"
+        },
+        {
+          "title": "Written Communication Proficiency"
+        }
+      ]
+    },
+    {
+      "title": "Tooling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Research Tools"
+        },
+        {
+          "title": "Blogging Platforms"
+        },
+        {
+          "title": "Publishing Tools"
+        },
+        {
+          "title": "SEO Tools"
+        },
+        {
+          "title": "Plagiarism Checker"
+        },
+        {
+          "title": "Editing Tools"
+        },
+        {
+          "title": "Git / Version Control"
+        },
+        {
+          "title": "Markdown"
+        }
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Story Telling"
+        },
+        {
+          "title": "Subtle Selling"
+        },
+        {
+          "title": "Content Structure"
+        },
+        {
+          "title": "Call to Actions"
+        },
+        {
+          "title": "References"
+        },
+        {
+          "title": "Crafting Great Titles"
+        },
+        {
+          "title": "Content Objectives & Intent"
+        },
+        {
+          "title": "User Persona"
+        },
+        {
+          "title": "Writing Style Guides"
+        }
+      ]
+    },
+    {
+      "title": "Content Research",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Topic Score"
+        },
+        {
+          "title": "Keyword Volume"
+        },
+        {
+          "title": "Communities & Forums"
+        },
+        {
+          "title": "Search Trends"
+        },
+        {
+          "title": "Support Request Evaluation"
+        }
+      ]
+    },
+    {
+      "title": "Types of Technical Content",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Product Content"
+        },
+        {
+          "title": "General Product Prose"
+        },
+        {
+          "title": "How-to Guides"
+        }
+      ]
+    },
+    {
+      "title": "Developer Docs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "User Goals"
+        },
+        {
+          "title": "Docs Generation Tools"
+        },
+        {
+          "title": "Troubleshooting"
+        },
+        {
+          "title": "Developer Journey"
+        },
+        {
+          "title": "API Definitions"
+        },
+        {
+          "title": "Developer Support"
+        },
+        {
+          "title": "Docs Structure"
+        },
+        {
+          "title": "Platform Support"
+        }
+      ]
+    },
+    {
+      "title": "API Reference",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Comparative Posts"
+        },
+        {
+          "title": "Tutorials"
+        }
+      ]
+    },
+    {
+      "title": "Help Content"
+    },
+    {
+      "title": "Technical Content Marketing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ICP & Buyer Persona"
+        },
+        {
+          "title": "Buyer Journey & Content Funnel"
+        },
+        {
+          "title": "Short-tail Keywords"
+        },
+        {
+          "title": "Long-Tail Keywords"
+        },
+        {
+          "title": "Backlinking"
+        },
+        {
+          "title": "SEO Keywords"
+        }
+      ]
+    },
+    {
+      "title": "Content SEO"
+    },
+    {
+      "title": "Top-funnel Content",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pillar Content"
+        },
+        {
+          "title": "Awareness Blog Posts"
+        },
+        {
+          "title": "Research Reports"
+        }
+      ]
+    },
+    {
+      "title": "Mid-funnel Content",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Generic Gated Content"
+        },
+        {
+          "title": "White-papers"
+        },
+        {
+          "title": "eBook"
+        }
+      ]
+    },
+    {
+      "title": "Bottom-funnel Content"
+    },
+    {
+      "title": "Release Notes / Product Announcements"
+    },
+    {
+      "title": "Customer Case-Studies"
+    },
+    {
+      "title": "Technical Website Copy"
+    },
+    {
+      "title": "Content Optimization"
+    },
+    {
+      "title": "Content Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Link Shorteners / Tracking"
+        },
+        {
+          "title": "Platform Tracking and Metrics"
+        },
+        {
+          "title": "Conversion Tracking"
+        },
+        {
+          "title": "Content Aging & Timelines"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions"
+    },
+    {
+      "title": "Content Distribution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Canonical Link"
+        },
+        {
+          "title": "OpenGraph Data"
+        },
+        {
+          "title": "Content Distribution Channels"
+        },
+        {
+          "title": "Content Distribution Amplification Strategies"
+        }
+      ]
+    }
+  ]
+}

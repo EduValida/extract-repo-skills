@@ -1,0 +1,781 @@
+{
+  "title": "SEO",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is SEO"
+        },
+        {
+          "title": "What is GEO"
+        },
+        {
+          "title": "Search Intent"
+        },
+        {
+          "title": "What is AEO"
+        },
+        {
+          "title": "Semantic Search"
+        },
+        {
+          "title": "Lexical vs Vector Search"
+        },
+        {
+          "title": "Hybrid Search"
+        },
+        {
+          "title": "SERP, Index, Crawl"
+        },
+        {
+          "title": "Backlinks & Anchor Text"
+        },
+        {
+          "title": "Canonical"
+        },
+        {
+          "title": "Nofollow, Noindex"
+        },
+        {
+          "title": "Organic vs Paid vs Direct"
+        }
+      ]
+    },
+    {
+      "title": "How Search Engines Work",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Crawling, Indexing, Ranking"
+        },
+        {
+          "title": "Retrieval vs Ranking"
+        },
+        {
+          "title": "Personalization, Localization"
+        },
+        {
+          "title": "Training Data vs Grounding"
+        }
+      ]
+    },
+    {
+      "title": "White, Black, Grey Hat SEO"
+    },
+    {
+      "title": "Spam Policies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Link Schemes"
+        },
+        {
+          "title": "Cloaking & Doorways"
+        },
+        {
+          "title": "Scaled Content Abuse"
+        },
+        {
+          "title": "Site Reputation Abuse"
+        },
+        {
+          "title": "Expired Domain Abuse"
+        }
+      ]
+    },
+    {
+      "title": "Manual Actions & Recovery"
+    },
+    {
+      "title": "Algorithm Updates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Core Updates"
+        },
+        {
+          "title": "Spam Updates"
+        },
+        {
+          "title": "Folders & URL Structure"
+        },
+        {
+          "title": "Helpful Content System"
+        },
+        {
+          "title": "Internal Linking"
+        },
+        {
+          "title": "Tracking Volatility"
+        }
+      ]
+    },
+    {
+      "title": "Website Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Site Hierarchy & Depth"
+        },
+        {
+          "title": "Machine-Readable Content"
+        }
+      ]
+    },
+    {
+      "title": "HTTP & Status Codes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Redirect Chains & Loops"
+        },
+        {
+          "title": "Sitemaps"
+        },
+        {
+          "title": "Robots.txt"
+        }
+      ]
+    },
+    {
+      "title": "Crawling & Indexing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Crawl Budget"
+        },
+        {
+          "title": "Index Coverage & Bloat"
+        },
+        {
+          "title": "Googlebot"
+        },
+        {
+          "title": "Bingbot"
+        },
+        {
+          "title": "Log File Analysis"
+        },
+        {
+          "title": "Managing AI Crawlers"
+        },
+        {
+          "title": "GPTBot"
+        },
+        {
+          "title": "ClaudeBot"
+        },
+        {
+          "title": "Controls & Pay-Per-Crawl"
+        },
+        {
+          "title": "Google-Extended"
+        },
+        {
+          "title": "PerplexityBot"
+        },
+        {
+          "title": "Screaming Frog"
+        },
+        {
+          "title": "Sitebulb"
+        }
+      ]
+    },
+    {
+      "title": "Rendering & JavaScript SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SSR vs CSR vs Hydration"
+        },
+        {
+          "title": "Canonicalization"
+        },
+        {
+          "title": "Pagination"
+        },
+        {
+          "title": "Faceted Navigation"
+        },
+        {
+          "title": "URL Parameters"
+        }
+      ]
+    },
+    {
+      "title": "Site Migrations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Planning & Checklists"
+        },
+        {
+          "title": "Domain & Protocol Changes"
+        },
+        {
+          "title": "Redirect Mapping"
+        },
+        {
+          "title": "Post-Migration Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Core Web Vitals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PageSpeed Insights"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Friendliness"
+    },
+    {
+      "title": "HTTPS & Security"
+    },
+    {
+      "title": "On-Page SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Title Tags"
+        },
+        {
+          "title": "Internal Anchor Text"
+        },
+        {
+          "title": "Meta Descriptions"
+        },
+        {
+          "title": "Image Optimization"
+        },
+        {
+          "title": "Heading Structure"
+        },
+        {
+          "title": "Formatting & Readibility"
+        },
+        {
+          "title": "URL Slugs"
+        },
+        {
+          "title": "Keyword Placement"
+        }
+      ]
+    },
+    {
+      "title": "Keyword Research",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Semrush"
+        },
+        {
+          "title": "Ahrefs"
+        },
+        {
+          "title": "Volume, Difficulty & Potential"
+        },
+        {
+          "title": "Google Keyword Planner"
+        },
+        {
+          "title": "SERP Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Topic Clusters"
+    },
+    {
+      "title": "Question Mining",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "People Also Ask"
+        },
+        {
+          "title": "Forums & Communities"
+        },
+        {
+          "title": "AI Chat Prompts"
+        }
+      ]
+    },
+    {
+      "title": "Competitor Gap Analysis"
+    },
+    {
+      "title": "E-E-A-T"
+    },
+    {
+      "title": "Information Gain"
+    },
+    {
+      "title": "Primary Data & Visuals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Original Research & Surveys"
+        },
+        {
+          "title": "Proprietary Datasets"
+        },
+        {
+          "title": "Case Studies & Benchmarks"
+        },
+        {
+          "title": "Custom Charts & Images"
+        }
+      ]
+    },
+    {
+      "title": "Entity SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Entities vs Keywords"
+        },
+        {
+          "title": "Attributes & Relationships"
+        },
+        {
+          "title": "Disambiguation & Salience"
+        },
+        {
+          "title": "Knowledge Graphs"
+        }
+      ]
+    },
+    {
+      "title": "Structured Data & Schema",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Article, FAQ & HowTo"
+        },
+        {
+          "title": "Breadcrumb, Video & Review"
+        },
+        {
+          "title": "SameAs & Entity Linking"
+        },
+        {
+          "title": "Org. & Person Schema"
+        },
+        {
+          "title": "Product & Place Schema"
+        },
+        {
+          "title": "Authors & Brands"
+        }
+      ]
+    },
+    {
+      "title": "Structuring for AI Extraction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TL;DRs"
+        },
+        {
+          "title": "Data Tables"
+        },
+        {
+          "title": "Direct Answers"
+        }
+      ]
+    },
+    {
+      "title": "Featured Snippets"
+    },
+    {
+      "title": "SERP Features",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sitelinks"
+        },
+        {
+          "title": "Knowledge Panels"
+        }
+      ]
+    },
+    {
+      "title": "Content Lifecicle",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Content Freshness & Decay"
+        },
+        {
+          "title": "Duplicate Content"
+        },
+        {
+          "title": "Content Consolidation"
+        },
+        {
+          "title": "Image & Video Packs"
+        },
+        {
+          "title": "Pruning & Deindexing"
+        },
+        {
+          "title": "Breadcrumb rich result"
+        }
+      ]
+    },
+    {
+      "title": "AI Tools for Content",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Surfer SEO"
+        },
+        {
+          "title": "Clearscope"
+        },
+        {
+          "title": "MarketMuse"
+        },
+        {
+          "title": "Frase"
+        },
+        {
+          "title": "RAG"
+        },
+        {
+          "title": "Embeddings"
+        },
+        {
+          "title": "Chunking"
+        },
+        {
+          "title": "Dense Retrieval"
+        },
+        {
+          "title": "Query Fan-Out"
+        },
+        {
+          "title": "Multi-Step AI Intent"
+        },
+        {
+          "title": "AI Overviews"
+        },
+        {
+          "title": "Google AI Mode"
+        },
+        {
+          "title": "ChatGPT Search"
+        },
+        {
+          "title": "Perplexity"
+        },
+        {
+          "title": "Copilot & Gemini"
+        },
+        {
+          "title": "Chat-Based Search"
+        }
+      ]
+    },
+    {
+      "title": "How AI is Changing SEO"
+    },
+    {
+      "title": "Citation Resources"
+    },
+    {
+      "title": "Preferred Sources"
+    },
+    {
+      "title": "Agentic Search",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How Agents Browse"
+        },
+        {
+          "title": "MCP & Structured Access"
+        },
+        {
+          "title": "Domain Authority"
+        },
+        {
+          "title": "Page Authority"
+        },
+        {
+          "title": "Trust Flow"
+        },
+        {
+          "title": "Citation Flow"
+        },
+        {
+          "title": "Nofollow, Sponsored, UGC"
+        },
+        {
+          "title": "Ahrefs"
+        },
+        {
+          "title": "BuzzStream"
+        },
+        {
+          "title": "Majestic"
+        },
+        {
+          "title": "Pitchbox"
+        }
+      ]
+    },
+    {
+      "title": "Link Building"
+    },
+    {
+      "title": "Digital PR",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data-Driven PR"
+        }
+      ]
+    },
+    {
+      "title": "Influencer Outreach"
+    },
+    {
+      "title": "Entity Consistency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Author & Org. Consistency"
+        },
+        {
+          "title": "Directories & Databases"
+        },
+        {
+          "title": "Social Profiles"
+        },
+        {
+          "title": "Unlinked Brand Mentions"
+        }
+      ]
+    },
+    {
+      "title": "Community Presence",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Niche Forums"
+        },
+        {
+          "title": "Google Business Profile"
+        },
+        {
+          "title": "NAP Consistency"
+        },
+        {
+          "title": "Local Citations"
+        },
+        {
+          "title": "Local Landing Pages"
+        },
+        {
+          "title": "Reviews & Velocity"
+        },
+        {
+          "title": "Local Links"
+        },
+        {
+          "title": "Local Pack & Maps"
+        },
+        {
+          "title": "Multi-Location SEO"
+        },
+        {
+          "title": "BrightLocal"
+        },
+        {
+          "title": "Whitespark"
+        }
+      ]
+    },
+    {
+      "title": "Local Search"
+    },
+    {
+      "title": "International SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hreflang"
+        },
+        {
+          "title": "ccTLD, Subfolder, Subdomain"
+        },
+        {
+          "title": "Geo-Targeting & Localization"
+        }
+      ]
+    },
+    {
+      "title": "Video SEO"
+    },
+    {
+      "title": "E-commerce SEO"
+    },
+    {
+      "title": "News & Discovery SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Google Discover"
+        }
+      ]
+    },
+    {
+      "title": "Google Search Console",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GSC API & BigQuery Export"
+        }
+      ]
+    },
+    {
+      "title": "Visibility Metrics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Impressions, Clicks & CTR"
+        },
+        {
+          "title": "Position & Share of Search"
+        },
+        {
+          "title": "Branded vs Non-Branded"
+        },
+        {
+          "title": "Query & Topic Coverage"
+        }
+      ]
+    },
+    {
+      "title": "Rank Tracking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AccuRanker"
+        },
+        {
+          "title": "Semrush"
+        }
+      ]
+    },
+    {
+      "title": "Traffic Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Google Analytics"
+        },
+        {
+          "title": "Microsoft Clarity"
+        },
+        {
+          "title": "Google Data Studio"
+        },
+        {
+          "title": "LLM Referral Traffic"
+        }
+      ]
+    },
+    {
+      "title": "Zero-Click Attribution"
+    },
+    {
+      "title": "AI Visibility Measurement",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prompt Coverage & Mention"
+        },
+        {
+          "title": "Citation Rate & Position"
+        },
+        {
+          "title": "Competitive Answer Share"
+        },
+        {
+          "title": "Ahrefs Brand Radar"
+        },
+        {
+          "title": "Entity & Sentiment"
+        },
+        {
+          "title": "Profound"
+        },
+        {
+          "title": "Otterly"
+        },
+        {
+          "title": "Peec"
+        }
+      ]
+    },
+    {
+      "title": "GEO & SEO Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Content & Schema A/B Tests"
+        },
+        {
+          "title": "Before/After Prompt Tests"
+        },
+        {
+          "title": "Competitor Benchmarking"
+        }
+      ]
+    },
+    {
+      "title": "SEO Audits"
+    }
+  ]
+}

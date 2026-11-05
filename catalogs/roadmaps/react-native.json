@@ -1,0 +1,350 @@
+{
+  "title": "React Native Developer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is React Native?"
+        },
+        {
+          "title": "Why use React Native?"
+        },
+        {
+          "title": "React Native Alternatives"
+        }
+      ]
+    },
+    {
+      "title": "Learn the Pre-requisites",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript Basics"
+        },
+        {
+          "title": "CSS Basics"
+        },
+        {
+          "title": "Components"
+        },
+        {
+          "title": "JSX"
+        },
+        {
+          "title": "State"
+        },
+        {
+          "title": "Props"
+        }
+      ]
+    },
+    {
+      "title": "Environment Setup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React Native CLI"
+        },
+        {
+          "title": "Metro Bundler"
+        },
+        {
+          "title": "Expo"
+        },
+        {
+          "title": "create-expo-app"
+        },
+        {
+          "title": "Expo Snack"
+        },
+        {
+          "title": "Expo Tradeoffs"
+        }
+      ]
+    },
+    {
+      "title": "Development Workflow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Running on Device"
+        },
+        {
+          "title": "In-App Developer Menu"
+        },
+        {
+          "title": "SafeAreaView"
+        },
+        {
+          "title": "Enabling Fast Refresh"
+        },
+        {
+          "title": "View"
+        },
+        {
+          "title": "KeyboardAvoidingView"
+        },
+        {
+          "title": "LogBox"
+        },
+        {
+          "title": "Sourcemaps"
+        },
+        {
+          "title": "DevTools"
+        }
+      ]
+    },
+    {
+      "title": "Core Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Text Input"
+        },
+        {
+          "title": "Text"
+        },
+        {
+          "title": "Image"
+        },
+        {
+          "title": "Button"
+        },
+        {
+          "title": "Listings"
+        },
+        {
+          "title": "Switch"
+        },
+        {
+          "title": "ImageBackground"
+        },
+        {
+          "title": "ActivityIndicator"
+        },
+        {
+          "title": "StatusBar"
+        },
+        {
+          "title": "Modal"
+        },
+        {
+          "title": "Pressable"
+        }
+      ]
+    },
+    {
+      "title": "Writing Platform Specific Code",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ScrollView"
+        },
+        {
+          "title": "ListViews"
+        },
+        {
+          "title": "FlatList"
+        },
+        {
+          "title": "SectionList"
+        },
+        {
+          "title": "RefreshControl"
+        },
+        {
+          "title": "Platform Module"
+        },
+        {
+          "title": "File Extensions"
+        },
+        {
+          "title": "react-native-web"
+        }
+      ]
+    },
+    {
+      "title": "Styling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stylesheets"
+        },
+        {
+          "title": "Layouts & Flexbox"
+        },
+        {
+          "title": "Accessibility"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Connectivity Status"
+        },
+        {
+          "title": "WebSockets"
+        },
+        {
+          "title": "Fetch"
+        }
+      ]
+    },
+    {
+      "title": "Push Notifications"
+    },
+    {
+      "title": "Interactions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Touchables"
+        },
+        {
+          "title": "Gesture Handling"
+        },
+        {
+          "title": "Scrolling & Swiping"
+        },
+        {
+          "title": "Screen Navigation"
+        },
+        {
+          "title": "Animations"
+        }
+      ]
+    },
+    {
+      "title": "DeepLinking"
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Networking"
+        },
+        {
+          "title": "react-native-async-storage"
+        },
+        {
+          "title": "Storage"
+        },
+        {
+          "title": "Permissions"
+        },
+        {
+          "title": "expo-secure-store"
+        },
+        {
+          "title": "expo-file-system"
+        },
+        {
+          "title": "expo-sqlite"
+        },
+        {
+          "title": "Other Storage Options"
+        }
+      ]
+    },
+    {
+      "title": "Storage",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jest"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React Native Testing Library"
+        },
+        {
+          "title": "Detox"
+        },
+        {
+          "title": "React Test Renderer"
+        },
+        {
+          "title": "Appium"
+        }
+      ]
+    },
+    {
+      "title": "Performance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Understand Frame Rates"
+        },
+        {
+          "title": "Common Problem Sources"
+        },
+        {
+          "title": "Speeding up Builds"
+        },
+        {
+          "title": "Optimizing Flatlist Config"
+        },
+        {
+          "title": "RAM Bundles + Inline Requires"
+        },
+        {
+          "title": "Profiling"
+        }
+      ]
+    },
+    {
+      "title": "Using Native Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "For iOS"
+        },
+        {
+          "title": "For Android"
+        }
+      ]
+    },
+    {
+      "title": "Publishing Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apple App store"
+        },
+        {
+          "title": "Google Play Store"
+        }
+      ]
+    }
+  ]
+}

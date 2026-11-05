@@ -1,0 +1,375 @@
+{
+  "title": "Linux Roadmap",
+  "topics": [
+    {
+      "title": "Navigation Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basic Commands"
+        },
+        {
+          "title": "Moving Files / Directories"
+        },
+        {
+          "title": "Creating & Deleting Files / Dirs"
+        },
+        {
+          "title": "Directory Hierarchy Overview"
+        }
+      ]
+    },
+    {
+      "title": "Editing Files",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nano"
+        },
+        {
+          "title": "Vim"
+        },
+        {
+          "title": "stdout / stdin / stderr"
+        },
+        {
+          "title": "cut"
+        }
+      ]
+    },
+    {
+      "title": "Shell and Other Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Command Path"
+        },
+        {
+          "title": "Environment Variables"
+        },
+        {
+          "title": "paste"
+        },
+        {
+          "title": "sort"
+        },
+        {
+          "title": "head"
+        },
+        {
+          "title": "tr"
+        },
+        {
+          "title": "Command Help"
+        },
+        {
+          "title": "tail"
+        },
+        {
+          "title": "join"
+        },
+        {
+          "title": "split"
+        },
+        {
+          "title": "Redirects"
+        },
+        {
+          "title": "tee"
+        },
+        {
+          "title": "Super User"
+        }
+      ]
+    },
+    {
+      "title": "Working with Files",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "File Permissions"
+        },
+        {
+          "title": "Archiving and Compressing"
+        },
+        {
+          "title": "Copying and Renaming"
+        },
+        {
+          "title": "Soft Links / Hard Links"
+        }
+      ]
+    },
+    {
+      "title": "Text Processing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pipe"
+        },
+        {
+          "title": "nl"
+        },
+        {
+          "title": "wc"
+        },
+        {
+          "title": "expand"
+        },
+        {
+          "title": "unexpand"
+        },
+        {
+          "title": "uniq"
+        },
+        {
+          "title": "grep"
+        },
+        {
+          "title": "awk"
+        }
+      ]
+    },
+    {
+      "title": "Server Review",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Uptime and Load"
+        },
+        {
+          "title": "Authentication Logs"
+        },
+        {
+          "title": "Services Running"
+        },
+        {
+          "title": "Available Memory / Disk"
+        },
+        {
+          "title": "Inodes"
+        },
+        {
+          "title": "Filesystems"
+        },
+        {
+          "title": "Mounts"
+        },
+        {
+          "title": "LVM"
+        }
+      ]
+    },
+    {
+      "title": "Process Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Background / Foreground Processes"
+        },
+        {
+          "title": "Listing / Finding Processes"
+        },
+        {
+          "title": "Process Signals"
+        },
+        {
+          "title": "Killing Processes"
+        },
+        {
+          "title": "Process Priorities"
+        },
+        {
+          "title": "Process Forking"
+        }
+      ]
+    },
+    {
+      "title": "User Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Create / Delete / Update"
+        },
+        {
+          "title": "Users and Groups"
+        },
+        {
+          "title": "Managing Permissions"
+        }
+      ]
+    },
+    {
+      "title": "Service Management (systemd)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating New Services"
+        },
+        {
+          "title": "Checking Service Logs"
+        },
+        {
+          "title": "Starting / Stopping Services"
+        },
+        {
+          "title": "Checking Service Status"
+        }
+      ]
+    },
+    {
+      "title": "Package Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Package Repositories"
+        },
+        {
+          "title": "Snap"
+        },
+        {
+          "title": "Finding & Installing Packages"
+        },
+        {
+          "title": "Listing Installed Packages"
+        },
+        {
+          "title": "Install / Remove / Upgrade Packages"
+        }
+      ]
+    },
+    {
+      "title": "Disks and Filesystems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Swap"
+        },
+        {
+          "title": "Adding Disks"
+        }
+      ]
+    },
+    {
+      "title": "Booting Linux",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Logs"
+        },
+        {
+          "title": "Boot Loaders"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TCP/IP Stack"
+        },
+        {
+          "title": "Subnetting"
+        },
+        {
+          "title": "Ethernet & arp/rarp"
+        },
+        {
+          "title": "IP Routing"
+        },
+        {
+          "title": "DHCP"
+        },
+        {
+          "title": "DNS Resolution"
+        },
+        {
+          "title": "SSH"
+        },
+        {
+          "title": "Netfilter"
+        },
+        {
+          "title": "File Transfer"
+        }
+      ]
+    },
+    {
+      "title": "Shell Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Literals"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Loops"
+        },
+        {
+          "title": "Conditionals"
+        },
+        {
+          "title": "Debugging"
+        }
+      ]
+    },
+    {
+      "title": "Troubleshooting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ICMP"
+        },
+        {
+          "title": "ping"
+        },
+        {
+          "title": "traceroute"
+        },
+        {
+          "title": "netstat"
+        },
+        {
+          "title": "Packet Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Containerization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ulimits"
+        },
+        {
+          "title": "cgroups"
+        },
+        {
+          "title": "Container Runtime"
+        },
+        {
+          "title": "Docker"
+        }
+      ]
+    }
+  ]
+}

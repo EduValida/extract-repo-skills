@@ -1,0 +1,603 @@
+{
+  "title": "Scala",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docs"
+        },
+        {
+          "title": "Books"
+        },
+        {
+          "title": "Courses"
+        },
+        {
+          "title": "YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Setting Up Scala",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integers"
+        },
+        {
+          "title": "Float"
+        },
+        {
+          "title": "IntelliJ IDEA"
+        },
+        {
+          "title": "Strings"
+        },
+        {
+          "title": "Booleans"
+        },
+        {
+          "title": "VS Code"
+        },
+        {
+          "title": "Unit"
+        },
+        {
+          "title": "Nothing"
+        },
+        {
+          "title": "Vim"
+        },
+        {
+          "title": "Emacs"
+        },
+        {
+          "title": "Type Hierarchy"
+        },
+        {
+          "title": "Zed"
+        },
+        {
+          "title": "Sublime"
+        },
+        {
+          "title": "Type Parameters"
+        },
+        {
+          "title": "Conversions"
+        }
+      ]
+    },
+    {
+      "title": "Variables & Constants"
+    },
+    {
+      "title": "Operators"
+    },
+    {
+      "title": "Conditionals"
+    },
+    {
+      "title": "Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Object"
+        },
+        {
+          "title": "Trait"
+        },
+        {
+          "title": "Class"
+        }
+      ]
+    },
+    {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Array"
+        },
+        {
+          "title": "Range"
+        },
+        {
+          "title": "Seq"
+        },
+        {
+          "title": "List"
+        },
+        {
+          "title": "Vector"
+        },
+        {
+          "title": "Set"
+        },
+        {
+          "title": "Map"
+        },
+        {
+          "title": "Mutable Collections"
+        },
+        {
+          "title": "find"
+        },
+        {
+          "title": "filter"
+        },
+        {
+          "title": "foreach"
+        },
+        {
+          "title": "map"
+        },
+        {
+          "title": "flatMap"
+        },
+        {
+          "title": "foldLeft"
+        },
+        {
+          "title": "collect / collectFirst"
+        }
+      ]
+    },
+    {
+      "title": "Try/Catch",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Functions & Methods"
+        },
+        {
+          "title": "Method Calls"
+        },
+        {
+          "title": "Anonymous Func / Lambda"
+        },
+        {
+          "title": "Total/Partial Funcs"
+        },
+        {
+          "title": "Funcs returning Funcs"
+        }
+      ]
+    },
+    {
+      "title": "Working with Strings",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Regex"
+        },
+        {
+          "title": "-I2xIkYxxMhrTaajRQmG3"
+        }
+      ]
+    },
+    {
+      "title": "Pattern Matching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Case Classes"
+        },
+        {
+          "title": "Sealed Traits"
+        },
+        {
+          "title": "apply Method"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Case Objects"
+        },
+        {
+          "title": "unapply Method"
+        },
+        {
+          "title": "for comprehension"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Option"
+        },
+        {
+          "title": "Either"
+        },
+        {
+          "title": "Try"
+        }
+      ]
+    },
+    {
+      "title": "Laziness",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lazy vals"
+        },
+        {
+          "title": "by-name Parameters"
+        },
+        {
+          "title": "Lazy Collections"
+        }
+      ]
+    },
+    {
+      "title": "Scope & Visibility",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Iterators"
+        },
+        {
+          "title": "private / protected"
+        },
+        {
+          "title": "Views"
+        },
+        {
+          "title": "package"
+        },
+        {
+          "title": "LazyList"
+        },
+        {
+          "title": "Implicit Parameter"
+        }
+      ]
+    },
+    {
+      "title": "Recursion",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Early returns"
+        },
+        {
+          "title": "Tail Recursion"
+        },
+        {
+          "title": "Trampolines"
+        }
+      ]
+    },
+    {
+      "title": "Build Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ScalaCLI"
+        },
+        {
+          "title": "sbt"
+        },
+        {
+          "title": "Mill"
+        },
+        {
+          "title": "Gradle"
+        },
+        {
+          "title": "Maven"
+        }
+      ]
+    },
+    {
+      "title": "Ecosystems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cats"
+        },
+        {
+          "title": "ZIO"
+        },
+        {
+          "title": "Li Haoyi"
+        },
+        {
+          "title": "Akka / Pekko"
+        },
+        {
+          "title": "No Ecosystem"
+        }
+      ]
+    },
+    {
+      "title": "Platforms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JVM"
+        },
+        {
+          "title": "Scala Native"
+        },
+        {
+          "title": "Scala.js"
+        }
+      ]
+    },
+    {
+      "title": "Referencial Transparency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pure Functions"
+        }
+      ]
+    },
+    {
+      "title": "Monads",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Category Theory"
+        }
+      ]
+    },
+    {
+      "title": "Capabilities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Capture Checking"
+        }
+      ]
+    },
+    {
+      "title": "Typeclasses"
+    },
+    {
+      "title": "Type System",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Variance"
+        },
+        {
+          "title": "Context Bounds"
+        },
+        {
+          "title": "ScalaTest"
+        },
+        {
+          "title": "JUnit"
+        },
+        {
+          "title": "mUnit"
+        },
+        {
+          "title": "uTest"
+        },
+        {
+          "title": "ZIO Test"
+        },
+        {
+          "title": "specs2"
+        },
+        {
+          "title": "ScalaTest (2)"
+        },
+        {
+          "title": "Gatling"
+        }
+      ]
+    },
+    {
+      "title": "Macros"
+    },
+    {
+      "title": "Testing"
+    },
+    {
+      "title": "Backend",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "sttp"
+        },
+        {
+          "title": "Scalatra"
+        },
+        {
+          "title": "Play"
+        },
+        {
+          "title": "Tapir"
+        },
+        {
+          "title": "AkkaHTTP"
+        },
+        {
+          "title": "http4s"
+        }
+      ]
+    },
+    {
+      "title": "Effect Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cats Effect"
+        },
+        {
+          "title": "ZIO"
+        },
+        {
+          "title": "Calico"
+        },
+        {
+          "title": "Laminar"
+        },
+        {
+          "title": "Slinky"
+        },
+        {
+          "title": "React.js"
+        },
+        {
+          "title": "ScalaFX"
+        },
+        {
+          "title": "JavaFX"
+        },
+        {
+          "title": "scala-android-plugin"
+        },
+        {
+          "title": "Scala on Android"
+        }
+      ]
+    },
+    {
+      "title": "GUI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ox"
+        },
+        {
+          "title": "Gears"
+        },
+        {
+          "title": "FS2"
+        },
+        {
+          "title": "Kyo"
+        },
+        {
+          "title": "Akka & Peko Streams"
+        },
+        {
+          "title": "ZIO Streams"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency"
+    },
+    {
+      "title": "Distributed Computing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Spark"
+        },
+        {
+          "title": "Akka"
+        },
+        {
+          "title": "GraalVM Native Image"
+        }
+      ]
+    },
+    {
+      "title": "Data Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pekko"
+        },
+        {
+          "title": "ScalikeJDBC"
+        },
+        {
+          "title": "Doobie"
+        },
+        {
+          "title": "Slick"
+        },
+        {
+          "title": "Quill"
+        },
+        {
+          "title": "PlayJSON"
+        },
+        {
+          "title": "Circe"
+        },
+        {
+          "title": "Jsoniter"
+        },
+        {
+          "title": "uPickle"
+        }
+      ]
+    },
+    {
+      "title": "Video game Engines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Indigo"
+        },
+        {
+          "title": "CosPlay"
+        },
+        {
+          "title": "LibGDX w/ Scala"
+        }
+      ]
+    },
+    {
+      "title": "Macros & the Type System",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Monocle"
+        },
+        {
+          "title": "Shapeless"
+        },
+        {
+          "title": "Chimney"
+        },
+        {
+          "title": "Scalameta"
+        },
+        {
+          "title": "Magnolia"
+        }
+      ]
+    }
+  ]
+}

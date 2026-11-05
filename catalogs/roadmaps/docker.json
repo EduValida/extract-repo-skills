@@ -1,0 +1,220 @@
+{
+  "title": "Docker Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Containers?"
+        },
+        {
+          "title": "Why do we need Containers?"
+        },
+        {
+          "title": "Bare Metal vs VMs vs Containers"
+        },
+        {
+          "title": "Package Managers"
+        },
+        {
+          "title": "Docker and OCI"
+        },
+        {
+          "title": "Users / Groups Permissions"
+        },
+        {
+          "title": "Shell Commands"
+        },
+        {
+          "title": "Shell Scripting"
+        },
+        {
+          "title": "Programming Languages"
+        },
+        {
+          "title": "Application Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Underlying Technologies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Namespaces"
+        },
+        {
+          "title": "cgroups"
+        },
+        {
+          "title": "Union Filesystems"
+        }
+      ]
+    },
+    {
+      "title": "Installation / Setup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker Desktop (Win/Mac/Linux)"
+        },
+        {
+          "title": "Docker Engine ( Linux )"
+        }
+      ]
+    },
+    {
+      "title": "Basics of Docker"
+    },
+    {
+      "title": "Data Persistence",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ephemeral Container Filesystem"
+        },
+        {
+          "title": "Volume Mounts"
+        },
+        {
+          "title": "Bind Mounts"
+        },
+        {
+          "title": "Runtime Configuration Options"
+        }
+      ]
+    },
+    {
+      "title": "Using 3rd Party Container Images",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Databases"
+        },
+        {
+          "title": "Command Line Utilities"
+        }
+      ]
+    },
+    {
+      "title": "Container Registries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dockerhub"
+        },
+        {
+          "title": "Others (ghcr, ecr, gcr, acr, etc)"
+        },
+        {
+          "title": "Image Tagging Best Practices"
+        }
+      ]
+    },
+    {
+      "title": "Running Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "docker compose"
+        },
+        {
+          "title": "docker run"
+        },
+        {
+          "title": "Image Security"
+        },
+        {
+          "title": "Runtime Security"
+        }
+      ]
+    },
+    {
+      "title": "Building Container Images",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dockerfiles"
+        },
+        {
+          "title": "Efficient Layer Caching"
+        },
+        {
+          "title": "Image Size and Security"
+        }
+      ]
+    },
+    {
+      "title": "Container Security"
+    },
+    {
+      "title": "Docker CLI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Containers"
+        },
+        {
+          "title": "Images"
+        },
+        {
+          "title": "Networks"
+        },
+        {
+          "title": "Volumes"
+        }
+      ]
+    },
+    {
+      "title": "Networking"
+    },
+    {
+      "title": "Developer Experience",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hot Reloading"
+        },
+        {
+          "title": "Debuggers"
+        },
+        {
+          "title": "Tests"
+        },
+        {
+          "title": "Continuous Integration"
+        }
+      ]
+    },
+    {
+      "title": "Deploying Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nomad"
+        },
+        {
+          "title": "Docker Swarm"
+        },
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "PaaS Options"
+        }
+      ]
+    }
+  ]
+}

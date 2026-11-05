@@ -1,0 +1,515 @@
+{
+  "title": "Claude Code",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Vibe Coding?"
+        },
+        {
+          "title": "What is a Coding Agent?"
+        },
+        {
+          "title": "CLI"
+        },
+        {
+          "title": "Desktop"
+        },
+        {
+          "title": "What is Agentic Loop?"
+        },
+        {
+          "title": "Mobile"
+        },
+        {
+          "title": "Web"
+        },
+        {
+          "title": "Setting up Claude"
+        },
+        {
+          "title": "Editor Extensions"
+        },
+        {
+          "title": "Subscription"
+        },
+        {
+          "title": "API usage"
+        },
+        {
+          "title": "Remote Control"
+        },
+        {
+          "title": "Teleport & Handoff"
+        },
+        {
+          "title": "Dispatch"
+        },
+        {
+          "title": "Channels"
+        },
+        {
+          "title": "Slack"
+        },
+        {
+          "title": "Chrome"
+        }
+      ]
+    },
+    {
+      "title": "Ways to use Claude",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CLAUDE.md"
+        },
+        {
+          "title": "Skills"
+        },
+        {
+          "title": "Context"
+        },
+        {
+          "title": "Modes"
+        },
+        {
+          "title": "Tools"
+        },
+        {
+          "title": "Models"
+        },
+        {
+          "title": "MCP"
+        },
+        {
+          "title": "Plugins"
+        },
+        {
+          "title": "Hooks"
+        },
+        {
+          "title": "Subagents"
+        },
+        {
+          "title": "Common Usecases"
+        },
+        {
+          "title": "Opus"
+        },
+        {
+          "title": "Sonnet"
+        },
+        {
+          "title": "Haiku"
+        },
+        {
+          "title": "Fable"
+        }
+      ]
+    },
+    {
+      "title": "Using Claude Code",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ctrl+C"
+        },
+        {
+          "title": "Ctrl+R"
+        },
+        {
+          "title": "Ctrl+O"
+        },
+        {
+          "title": "Ctrl+B"
+        },
+        {
+          "title": "Ctrl+G"
+        },
+        {
+          "title": "Plan"
+        },
+        {
+          "title": "Auto"
+        },
+        {
+          "title": "Esc"
+        },
+        {
+          "title": "Esc + Esc"
+        },
+        {
+          "title": "Shift+Tab"
+        },
+        {
+          "title": "Slash Commands (/)"
+        },
+        {
+          "title": "!"
+        },
+        {
+          "title": "\\"
+        },
+        {
+          "title": "@"
+        },
+        {
+          "title": "claude"
+        },
+        {
+          "title": "claude -r"
+        },
+        {
+          "title": "claude \"query\""
+        },
+        {
+          "title": "claude -p"
+        },
+        {
+          "title": "claude -c"
+        },
+        {
+          "title": "--add-dir"
+        },
+        {
+          "title": "--cloud"
+        },
+        {
+          "title": "--teleport"
+        },
+        {
+          "title": "--bare"
+        },
+        {
+          "title": "--permission-mode"
+        },
+        {
+          "title": "/help"
+        },
+        {
+          "title": "/usage"
+        },
+        {
+          "title": "/clear"
+        },
+        {
+          "title": "/goal"
+        },
+        {
+          "title": "/exit"
+        },
+        {
+          "title": "/export"
+        },
+        {
+          "title": "/status"
+        },
+        {
+          "title": "/rewind"
+        },
+        {
+          "title": "/doctor"
+        },
+        {
+          "title": "/plan"
+        },
+        {
+          "title": "/schedule"
+        },
+        {
+          "title": "/desktop"
+        },
+        {
+          "title": "/ultrareview"
+        },
+        {
+          "title": "/code-review"
+        },
+        {
+          "title": "/remote-control"
+        },
+        {
+          "title": "/context"
+        },
+        {
+          "title": "/compact"
+        },
+        {
+          "title": "/memory"
+        },
+        {
+          "title": "/init"
+        },
+        {
+          "title": "/config"
+        },
+        {
+          "title": "/permissions"
+        },
+        {
+          "title": "/model"
+        },
+        {
+          "title": "/agents"
+        },
+        {
+          "title": "/mcp"
+        },
+        {
+          "title": "/hooks"
+        },
+        {
+          "title": "SessionStart"
+        },
+        {
+          "title": "SessionEnd"
+        },
+        {
+          "title": "PreToolUse"
+        },
+        {
+          "title": "PostToolUse"
+        },
+        {
+          "title": "UserPromptSubmit"
+        },
+        {
+          "title": "SubagentStop"
+        },
+        {
+          "title": "Stop"
+        },
+        {
+          "title": "PermissionRequest"
+        }
+      ]
+    },
+    {
+      "title": "Claude Workflow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Permission Modes"
+        },
+        {
+          "title": "Manage Sessions"
+        }
+      ]
+    },
+    {
+      "title": "Usage Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Resume"
+        },
+        {
+          "title": "Rewind"
+        }
+      ]
+    },
+    {
+      "title": "CLAUDE.md",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How to Structure"
+        },
+        {
+          "title": "Locations"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Skills"
+        },
+        {
+          "title": "Skill Best Practices"
+        }
+      ]
+    },
+    {
+      "title": "Hooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hook Events & Matchers"
+        },
+        {
+          "title": "Hook Types"
+        },
+        {
+          "title": "Hook Inputs & Outputs"
+        }
+      ]
+    },
+    {
+      "title": "Manage Context",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Understand Claude Pricing"
+        },
+        {
+          "title": "Use /compact and /clear"
+        },
+        {
+          "title": "Be mindful of extensions"
+        }
+      ]
+    },
+    {
+      "title": "Model Configuration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Use subagents and hooks"
+        },
+        {
+          "title": "Thinking modes & Effort"
+        }
+      ]
+    },
+    {
+      "title": "Customize Status Line",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prompt Caching"
+        }
+      ]
+    },
+    {
+      "title": "Output Styles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Artifacts"
+        }
+      ]
+    },
+    {
+      "title": "Connecting Tools with MCP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Skills for MCP"
+        },
+        {
+          "title": "Channels"
+        },
+        {
+          "title": "Tunnels"
+        }
+      ]
+    },
+    {
+      "title": "Plugins",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code Intelligence"
+        }
+      ]
+    },
+    {
+      "title": "Scheduling Jobs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Loops"
+        },
+        {
+          "title": "Desktop Scheduled tasks"
+        },
+        {
+          "title": "Cloud Scheduled tasks"
+        },
+        {
+          "title": "Git Worktrees"
+        },
+        {
+          "title": "Subagents"
+        },
+        {
+          "title": "Agent View"
+        },
+        {
+          "title": "Agent Team"
+        },
+        {
+          "title": "Dynamic Workflows"
+        }
+      ]
+    },
+    {
+      "title": "Scaling Claude"
+    },
+    {
+      "title": "CI/CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Headless mode"
+        },
+        {
+          "title": "Agent SDK"
+        },
+        {
+          "title": "GitLab"
+        },
+        {
+          "title": "GitHub Actions"
+        }
+      ]
+    },
+    {
+      "title": "Code Review",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ultrareview"
+        },
+        {
+          "title": "Code Review on PRs"
+        }
+      ]
+    },
+    {
+      "title": "Security Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Claude Code Security"
+        },
+        {
+          "title": "Sandboxing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "title": "Computer Science",
+  "topics": [
+    {
+      "title": "Pick a Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "C#"
+        },
+        {
+          "title": "C++"
+        },
+        {
+          "title": "C"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "Rust"
+        }
+      ]
+    },
+    {
+      "title": "Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Linked List"
+        },
+        {
+          "title": "Array"
+        },
+        {
+          "title": "Queue"
+        },
+        {
+          "title": "Stack"
+        },
+        {
+          "title": "Heap"
+        },
+        {
+          "title": "Tree"
+        },
+        {
+          "title": "Graph"
+        },
+        {
+          "title": "Hash Table"
+        },
+        {
+          "title": "Binary Tree"
+        },
+        {
+          "title": "Directed Graph"
+        },
+        {
+          "title": "Constant"
+        },
+        {
+          "title": "Binary Search Tree"
+        },
+        {
+          "title": "Undirected Graph"
+        },
+        {
+          "title": "Big O"
+        },
+        {
+          "title": "Logarithmic"
+        },
+        {
+          "title": "Full Binary Tree"
+        },
+        {
+          "title": "Spanning Tree"
+        },
+        {
+          "title": "Big-Theta"
+        },
+        {
+          "title": "Linear"
+        },
+        {
+          "title": "Complete Binary Tree"
+        },
+        {
+          "title": "Big Omega"
+        },
+        {
+          "title": "Polynomial"
+        },
+        {
+          "title": "Balanced Tree"
+        },
+        {
+          "title": "Exponential"
+        },
+        {
+          "title": "Small O"
+        },
+        {
+          "title": "Unbalanced Tree"
+        }
+      ]
+    },
+    {
+      "title": "Asymptotic Notation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Factorial"
+        },
+        {
+          "title": "Small Omega"
+        },
+        {
+          "title": "Tail Recursion"
+        },
+        {
+          "title": "Breadth First Search"
+        },
+        {
+          "title": "Pre-Order Traversal"
+        },
+        {
+          "title": "Non-Tail Recursion"
+        },
+        {
+          "title": "Depth First Search"
+        },
+        {
+          "title": "In-Order Traversal"
+        },
+        {
+          "title": "Bellman Ford's Algorithm"
+        },
+        {
+          "title": "Post Order Traversal"
+        },
+        {
+          "title": "Dijkstra's Algorithm"
+        },
+        {
+          "title": "Breadth First Search (2)"
+        },
+        {
+          "title": "Binary Search"
+        },
+        {
+          "title": "Depth First Search (2)"
+        },
+        {
+          "title": "A* Algorithm"
+        },
+        {
+          "title": "Linear Search"
+        }
+      ]
+    },
+    {
+      "title": "Common Algorithms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Adjacency List"
+        },
+        {
+          "title": "Adjacency Matrix"
+        },
+        {
+          "title": "Bubble Sort"
+        },
+        {
+          "title": "Selection Sort"
+        },
+        {
+          "title": "Insertion Sort"
+        },
+        {
+          "title": "Heap Sort"
+        },
+        {
+          "title": "Quick Sort"
+        },
+        {
+          "title": "Merge Sort"
+        }
+      ]
+    },
+    {
+      "title": "String Search & Manipulations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Search Pattern in Text"
+        },
+        {
+          "title": "Suffix Arrays"
+        },
+        {
+          "title": "Substring Search"
+        },
+        {
+          "title": "Brute Force Search"
+        },
+        {
+          "title": "Robin-Karp"
+        },
+        {
+          "title": "Knuth-Morris Pratt"
+        },
+        {
+          "title": "Boyer-Moore"
+        }
+      ]
+    },
+    {
+      "title": "Floating Point Math"
+    },
+    {
+      "title": "Endianess",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MFU Cache"
+        },
+        {
+          "title": "Dijkstra's Algorithm"
+        },
+        {
+          "title": "Finding Hamiltonian Paths"
+        },
+        {
+          "title": "LRU Cache"
+        },
+        {
+          "title": "Huffman Coding"
+        },
+        {
+          "title": "Solving N Queen Problem"
+        },
+        {
+          "title": "LFU Cache"
+        },
+        {
+          "title": "Kruskal's Algorithm"
+        },
+        {
+          "title": "Maze Solving Problem"
+        },
+        {
+          "title": "Ford-Fulkerson Algorithm"
+        },
+        {
+          "title": "The Knight's Tour Problem"
+        },
+        {
+          "title": "Prim's Algorithm"
+        },
+        {
+          "title": "Rabin-Karp Algorithm"
+        },
+        {
+          "title": "ASCII"
+        },
+        {
+          "title": "Big Endian"
+        },
+        {
+          "title": "Little Endian"
+        }
+      ]
+    },
+    {
+      "title": "Character Encodings",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unicode"
+        }
+      ]
+    },
+    {
+      "title": "Bitwise Operators"
+    },
+    {
+      "title": "Design Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GoF Design Patterns"
+        },
+        {
+          "title": "Architectural Patterns"
+        },
+        {
+          "title": "Dependency Injection"
+        },
+        {
+          "title": "Null Object Pattern"
+        },
+        {
+          "title": "Type Object Pattern"
+        }
+      ]
+    },
+    {
+      "title": "Common UML Diagrams",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Class Diagrams"
+        },
+        {
+          "title": "Usecase Diagrams"
+        },
+        {
+          "title": "Activity Diagrams"
+        },
+        {
+          "title": "Statemachine Diagrams"
+        },
+        {
+          "title": "Sequence Diagrams"
+        }
+      ]
+    },
+    {
+      "title": "Basic Math Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Probability"
+        },
+        {
+          "title": "Combinatorics"
+        },
+        {
+          "title": "SQL vs NoSQL Databases"
+        },
+        {
+          "title": "Normalization / Denormalization"
+        },
+        {
+          "title": "Entity-Relationship Model"
+        }
+      ]
+    },
+    {
+      "title": "Complexity Classes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "P"
+        },
+        {
+          "title": "NP"
+        },
+        {
+          "title": "P = NP"
+        },
+        {
+          "title": "NP Hard"
+        },
+        {
+          "title": "Co-NP"
+        }
+      ]
+    },
+    {
+      "title": "Tries"
+    },
+    {
+      "title": "NP Complete",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Travelling Salesman Problem"
+        },
+        {
+          "title": "Knapsack Problem"
+        },
+        {
+          "title": "Longest Path Problem"
+        },
+        {
+          "title": "DQL"
+        },
+        {
+          "title": "DCL"
+        }
+      ]
+    },
+    {
+      "title": "Balanced Search Trees"
+    },
+    {
+      "title": "System Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AVL Trees"
+        },
+        {
+          "title": "Horizontal vs Vertical Scaling"
+        },
+        {
+          "title": "Load Balancing"
+        },
+        {
+          "title": "Red / Black Trees"
+        },
+        {
+          "title": "Clustering"
+        },
+        {
+          "title": "Caching"
+        },
+        {
+          "title": "2 3 Search Trees"
+        },
+        {
+          "title": "CDN"
+        },
+        {
+          "title": "Proxy"
+        },
+        {
+          "title": "Queues"
+        },
+        {
+          "title": "2 3 4 Trees"
+        },
+        {
+          "title": "Architectural Styles"
+        },
+        {
+          "title": "K-ary / M-ary Tree"
+        },
+        {
+          "title": "REST"
+        },
+        {
+          "title": "GraphQL"
+        },
+        {
+          "title": "gRPC"
+        },
+        {
+          "title": "B-Tree"
+        },
+        {
+          "title": "Cloud Design Patterns"
+        },
+        {
+          "title": "K-D Trees"
+        },
+        {
+          "title": "Long Polling"
+        },
+        {
+          "title": "Short Polling"
+        },
+        {
+          "title": "Skip Lists"
+        },
+        {
+          "title": "Web Sockets"
+        },
+        {
+          "title": "SSE"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DDL"
+        },
+        {
+          "title": "DML"
+        },
+        {
+          "title": "Locking"
+        },
+        {
+          "title": "ACID Model"
+        },
+        {
+          "title": "BASE"
+        },
+        {
+          "title": "CAP Theorem"
+        },
+        {
+          "title": "PACELC"
+        },
+        {
+          "title": "Indexes"
+        },
+        {
+          "title": "Views"
+        },
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "Stored Procedures"
+        },
+        {
+          "title": "Database Federation"
+        },
+        {
+          "title": "Replication"
+        },
+        {
+          "title": "Sharding"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OSI Model"
+        },
+        {
+          "title": "TCP/IP Model"
+        },
+        {
+          "title": "DNS"
+        },
+        {
+          "title": "HTTP"
+        },
+        {
+          "title": "TLS & HTTPS"
+        },
+        {
+          "title": "Sockets"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hashing / Encryption / Encoding"
+        },
+        {
+          "title": "Public Key Cryptography"
+        },
+        {
+          "title": "Hashing Algorithms"
+        },
+        {
+          "title": "OWASP Top 10"
+        }
+      ]
+    },
+    {
+      "title": "How Computers Work",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How CPU Executes Programs"
+        },
+        {
+          "title": "Registers and RAM"
+        },
+        {
+          "title": "Instructions and Programs"
+        },
+        {
+          "title": "CPU Cache"
+        },
+        {
+          "title": "How Computers Calculate"
+        }
+      ]
+    },
+    {
+      "title": "Processes and Threads",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Process Forking"
+        },
+        {
+          "title": "Memory Management"
+        },
+        {
+          "title": "Lock / Mutex / Semaphore"
+        },
+        {
+          "title": "Concurrency in Multiple Cores"
+        },
+        {
+          "title": "Scheduling Algorithms"
+        },
+        {
+          "title": "CPU Interrupts"
+        },
+        {
+          "title": "Processes vs Threads"
+        }
+      ]
+    }
+  ]
+}

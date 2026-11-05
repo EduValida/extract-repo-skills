@@ -1,0 +1,534 @@
+{
+  "title": "System Design Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is System Design?"
+        },
+        {
+          "title": "How to approach System Design?"
+        }
+      ]
+    },
+    {
+      "title": "Performance vs Scalability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CAP Theorem"
+        }
+      ]
+    },
+    {
+      "title": "Latency vs Throughput"
+    },
+    {
+      "title": "Availability vs Consistency"
+    },
+    {
+      "title": "Consistency Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Weak Consistency"
+        },
+        {
+          "title": "Eventual Consistency"
+        },
+        {
+          "title": "Strong Consistency"
+        }
+      ]
+    },
+    {
+      "title": "Availability Patterns"
+    },
+    {
+      "title": "Background Jobs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Fail-Over"
+        },
+        {
+          "title": "Replication"
+        },
+        {
+          "title": "Event-Driven"
+        },
+        {
+          "title": "Schedule Driven"
+        },
+        {
+          "title": "Returning Results"
+        }
+      ]
+    },
+    {
+      "title": "Domain Name System",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Key-Value Store"
+        },
+        {
+          "title": "Document Store"
+        },
+        {
+          "title": "Wide Column Store"
+        },
+        {
+          "title": "Graph Databases"
+        },
+        {
+          "title": "Replication"
+        }
+      ]
+    },
+    {
+      "title": "Content Delivery Networks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Availability in Numbers"
+        },
+        {
+          "title": "Pull CDNs"
+        },
+        {
+          "title": "Push CDNs"
+        }
+      ]
+    },
+    {
+      "title": "Load Balancers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LB vs Reverse Proxy"
+        },
+        {
+          "title": "Load Balancing Algorithms"
+        },
+        {
+          "title": "Layer 7 Load Balancing"
+        },
+        {
+          "title": "Layer 4 Load Balancing"
+        },
+        {
+          "title": "Horizontal Scaling"
+        }
+      ]
+    },
+    {
+      "title": "Application Layer",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Microservices"
+        },
+        {
+          "title": "Service Discovery"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sharding"
+        },
+        {
+          "title": "SQL vs NoSQL"
+        },
+        {
+          "title": "Federation"
+        },
+        {
+          "title": "Denormalization"
+        },
+        {
+          "title": "SQL Tuning"
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Refresh Ahead"
+        },
+        {
+          "title": "Write-behind"
+        },
+        {
+          "title": "Write-through"
+        },
+        {
+          "title": "Cache Aside"
+        }
+      ]
+    },
+    {
+      "title": "Asynchronism",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Back Pressure"
+        },
+        {
+          "title": "Task Queues"
+        },
+        {
+          "title": "Message Queues"
+        }
+      ]
+    },
+    {
+      "title": "Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UDP"
+        },
+        {
+          "title": "HTTP"
+        },
+        {
+          "title": "TCP"
+        },
+        {
+          "title": "RPC"
+        },
+        {
+          "title": "gRPC"
+        },
+        {
+          "title": "REST"
+        },
+        {
+          "title": "GraphQL"
+        }
+      ]
+    },
+    {
+      "title": "Idempotent Operations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Client Caching"
+        },
+        {
+          "title": "CDN Caching"
+        },
+        {
+          "title": "Web Server Caching"
+        },
+        {
+          "title": "Database Caching"
+        },
+        {
+          "title": "Application Caching"
+        }
+      ]
+    },
+    {
+      "title": "Performance Antipatterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Busy Database"
+        },
+        {
+          "title": "Improper Instantiation"
+        },
+        {
+          "title": "Busy Frontend"
+        },
+        {
+          "title": "Monolithic Persistence"
+        },
+        {
+          "title": "Chatty I/O"
+        },
+        {
+          "title": "Noisy Neighbor"
+        },
+        {
+          "title": "Retry Storm"
+        },
+        {
+          "title": "Synchronous I/O"
+        },
+        {
+          "title": "No Caching"
+        },
+        {
+          "title": "Extraneous Fetching"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Health Monitoring"
+        },
+        {
+          "title": "Availability Monitoring"
+        },
+        {
+          "title": "Performance Monitoring"
+        },
+        {
+          "title": "Security Monitoring"
+        },
+        {
+          "title": "Usage Monitoring"
+        },
+        {
+          "title": "Instrumentation"
+        },
+        {
+          "title": "Visualization & Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Design Patterns"
+    },
+    {
+      "title": "Design & Implementation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Strangler Fig"
+        },
+        {
+          "title": "Sidecar"
+        },
+        {
+          "title": "Static Content Hosting"
+        },
+        {
+          "title": "Leader Election"
+        },
+        {
+          "title": "CQRS"
+        },
+        {
+          "title": "Pipes & Filters"
+        },
+        {
+          "title": "Ambassador"
+        },
+        {
+          "title": "Gateway Routing"
+        },
+        {
+          "title": "Gateway Offloading"
+        },
+        {
+          "title": "Gateway Aggregation"
+        },
+        {
+          "title": "External Config Store"
+        },
+        {
+          "title": "Compute Resource Consolidation"
+        },
+        {
+          "title": "Backends for Frontend"
+        },
+        {
+          "title": "Anti-Corruption Layer"
+        }
+      ]
+    },
+    {
+      "title": "Messaging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Async Request Reply"
+        }
+      ]
+    },
+    {
+      "title": "Data Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sequential Convoy"
+        },
+        {
+          "title": "Valet Key"
+        },
+        {
+          "title": "Scheduling Agent Supervisor"
+        },
+        {
+          "title": "Static Content Hosting"
+        },
+        {
+          "title": "Queue-Based Load Leveling"
+        },
+        {
+          "title": "Sharding"
+        },
+        {
+          "title": "Publisher/Subscriber"
+        },
+        {
+          "title": "Materialized View"
+        },
+        {
+          "title": "Priority Queue"
+        },
+        {
+          "title": "Index Table"
+        },
+        {
+          "title": "Pipes and Filters"
+        },
+        {
+          "title": "Event Sourcing"
+        },
+        {
+          "title": "Competing Consumers"
+        },
+        {
+          "title": "CQRS"
+        },
+        {
+          "title": "Choreography"
+        },
+        {
+          "title": "Cache-Aside"
+        },
+        {
+          "title": "Claim Check"
+        }
+      ]
+    },
+    {
+      "title": "Reliability Patterns"
+    },
+    {
+      "title": "Availability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Deployment Stamps"
+        },
+        {
+          "title": "Throttling"
+        },
+        {
+          "title": "Geodes"
+        },
+        {
+          "title": "Health Endpoint Monitoring"
+        },
+        {
+          "title": "Queue-Based Load Leveling"
+        }
+      ]
+    },
+    {
+      "title": "High Availability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Deployment Stamps"
+        },
+        {
+          "title": "Geodes"
+        },
+        {
+          "title": "Bulkhead"
+        },
+        {
+          "title": "Health Endpoint Monitoring"
+        },
+        {
+          "title": "Circuit Breaker"
+        }
+      ]
+    },
+    {
+      "title": "Resiliency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Bulkhead"
+        },
+        {
+          "title": "Circuit Breaker"
+        },
+        {
+          "title": "Compensating Transaction"
+        },
+        {
+          "title": "Health Endpoint Monitoring"
+        },
+        {
+          "title": "Leader Election"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Queue-Based Load Leveling"
+        },
+        {
+          "title": "Federated Identity"
+        },
+        {
+          "title": "Retry"
+        },
+        {
+          "title": "Gatekeeper"
+        },
+        {
+          "title": "Scheduler Agent Supervisor"
+        },
+        {
+          "title": "Valet Key"
+        }
+      ]
+    }
+  ]
+}

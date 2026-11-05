@@ -1,0 +1,351 @@
+{
+  "title": "Forward Deployed Engineer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "From X to FDE"
+        },
+        {
+          "title": "Delta"
+        },
+        {
+          "title": "UAT"
+        },
+        {
+          "title": "Roles & Responsabilities"
+        },
+        {
+          "title": "Last-Mile Integration"
+        },
+        {
+          "title": "FDE Tiers"
+        },
+        {
+          "title": "Day 2 Operations"
+        },
+        {
+          "title": "Productized Consulting"
+        },
+        {
+          "title": "Embedded Engineering"
+        }
+      ]
+    },
+    {
+      "title": "Learn a Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "JavaScript / TypeScript"
+        },
+        {
+          "title": "Java / Scala"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Rust"
+        },
+        {
+          "title": "C++"
+        }
+      ]
+    },
+    {
+      "title": "DSA & System Design"
+    },
+    {
+      "title": "Git & GitHub"
+    },
+    {
+      "title": "Linux Skills"
+    },
+    {
+      "title": "Frontend Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "React"
+        }
+      ]
+    },
+    {
+      "title": "Backend Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Node.js"
+        },
+        {
+          "title": "SQL"
+        },
+        {
+          "title": "PostgreSQL"
+        },
+        {
+          "title": "NoSQL DBs"
+        },
+        {
+          "title": "GraphQL"
+        },
+        {
+          "title": "APIs Design"
+        }
+      ]
+    },
+    {
+      "title": "Data Engineering Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Modeling"
+        },
+        {
+          "title": "Data Pipelines"
+        },
+        {
+          "title": "Data Warehouses"
+        },
+        {
+          "title": "Spark"
+        },
+        {
+          "title": "Airflow"
+        }
+      ]
+    },
+    {
+      "title": "AI Engineering Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LLM Fundamentals"
+        },
+        {
+          "title": "Prompt Engineering"
+        },
+        {
+          "title": "Context Engineering"
+        },
+        {
+          "title": "Vector DBs"
+        },
+        {
+          "title": "RAGs"
+        },
+        {
+          "title": "Choosing Model Providers"
+        },
+        {
+          "title": "Prompt Management"
+        }
+      ]
+    },
+    {
+      "title": "AI Agents",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Agent Architectures"
+        },
+        {
+          "title": "Tools & Functions"
+        },
+        {
+          "title": "Memory & State"
+        },
+        {
+          "title": "MCP"
+        },
+        {
+          "title": "Multi-Agents"
+        }
+      ]
+    },
+    {
+      "title": "Vibe Coding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Codex"
+        },
+        {
+          "title": "Claude Code"
+        },
+        {
+          "title": "Cursor"
+        },
+        {
+          "title": "Gemini"
+        },
+        {
+          "title": "OpenCode"
+        },
+        {
+          "title": "OpenClaw"
+        }
+      ]
+    },
+    {
+      "title": "Integration Engineering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Working with Legacy Systems"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Platforms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Azure"
+        },
+        {
+          "title": "AWS"
+        },
+        {
+          "title": "GCP"
+        },
+        {
+          "title": "Terraform"
+        }
+      ]
+    },
+    {
+      "title": "Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker"
+        },
+        {
+          "title": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "title": "DevOps Skills"
+    },
+    {
+      "title": "Observability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Building Eval Pipelines"
+        },
+        {
+          "title": "Debugging Agent Logic"
+        },
+        {
+          "title": "Inference Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DevSecOps"
+        },
+        {
+          "title": "API Security"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "AI Governance"
+        },
+        {
+          "title": "Data Privacy & Compliance"
+        }
+      ]
+    },
+    {
+      "title": "MLOps"
+    },
+    {
+      "title": "Discovery & Scoping",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Requirements Gathering"
+        },
+        {
+          "title": "Scoping & Sequencing"
+        },
+        {
+          "title": "Scope, Speed, Quality"
+        }
+      ]
+    },
+    {
+      "title": "Business Acumen",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Enterprise Workflow"
+        },
+        {
+          "title": "ROI & AI Impact"
+        },
+        {
+          "title": "Stakeholder Management"
+        },
+        {
+          "title": "Product Feedback Loop"
+        },
+        {
+          "title": "Time-to-Value"
+        }
+      ]
+    },
+    {
+      "title": "Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Technical Writing"
+        },
+        {
+          "title": "Executive Reporting"
+        }
+      ]
+    }
+  ]
+}

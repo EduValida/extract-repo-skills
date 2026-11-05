@@ -1,0 +1,624 @@
+{
+  "title": "iOS Developer",
+  "topics": [
+    {
+      "title": "Objective-C",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Interoperability with Swift"
+        },
+        {
+          "title": "Objective-C Basics"
+        }
+      ]
+    },
+    {
+      "title": "Pick a Language"
+    },
+    {
+      "title": "Swift (Recommended)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "History and Why Swift?"
+        },
+        {
+          "title": "Benefits over Objective-C"
+        },
+        {
+          "title": "Swift Basics"
+        }
+      ]
+    },
+    {
+      "title": "iOS Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Core OS"
+        },
+        {
+          "title": "Core Services"
+        },
+        {
+          "title": "Cocoa Touch"
+        },
+        {
+          "title": "Media"
+        },
+        {
+          "title": "Core Graphics"
+        },
+        {
+          "title": "Core Animation"
+        },
+        {
+          "title": "AVFoundation"
+        },
+        {
+          "title": "Core Image"
+        },
+        {
+          "title": "Core Audio"
+        },
+        {
+          "title": "Metal"
+        }
+      ]
+    },
+    {
+      "title": "Core Programming Concepts",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OOP"
+        },
+        {
+          "title": "Functional Programming"
+        },
+        {
+          "title": "Memory Management"
+        },
+        {
+          "title": "ViewController Lifecycle"
+        },
+        {
+          "title": "Error Handling"
+        },
+        {
+          "title": "Concurrency (GCD, async/await)"
+        }
+      ]
+    },
+    {
+      "title": "Version Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Git"
+        },
+        {
+          "title": "Installing"
+        },
+        {
+          "title": "Preferences"
+        },
+        {
+          "title": "New Project"
+        }
+      ]
+    },
+    {
+      "title": "Xcode",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Interface overview"
+        },
+        {
+          "title": "Toolbar"
+        },
+        {
+          "title": "Navigators"
+        },
+        {
+          "title": "Editors"
+        },
+        {
+          "title": "Project Files"
+        },
+        {
+          "title": "Groups"
+        }
+      ]
+    },
+    {
+      "title": "UIKit",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Components"
+        },
+        {
+          "title": "Views"
+        },
+        {
+          "title": "View Controllers"
+        },
+        {
+          "title": "User Interactions"
+        },
+        {
+          "title": "Basic Interfaces"
+        },
+        {
+          "title": "Declarative Syntax"
+        },
+        {
+          "title": "Storyboards"
+        },
+        {
+          "title": "Components (2)"
+        },
+        {
+          "title": "Xibs"
+        },
+        {
+          "title": "State Management"
+        },
+        {
+          "title": "Navigation"
+        },
+        {
+          "title": "Data binding"
+        },
+        {
+          "title": "View Transitions"
+        }
+      ]
+    },
+    {
+      "title": "SwiftUI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Breakpoints"
+        },
+        {
+          "title": "Debug Navigator"
+        },
+        {
+          "title": "Stepping"
+        },
+        {
+          "title": "Interface Builder"
+        },
+        {
+          "title": "IBOutlets"
+        },
+        {
+          "title": "Building Interfaces"
+        },
+        {
+          "title": "IBActions"
+        },
+        {
+          "title": "Views and Modifiers"
+        },
+        {
+          "title": "Auto layout"
+        },
+        {
+          "title": "Navigation"
+        },
+        {
+          "title": "View Transitions"
+        }
+      ]
+    },
+    {
+      "title": "UI Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HIG"
+        }
+      ]
+    },
+    {
+      "title": "UIKit (2)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Views, View Controllers"
+        },
+        {
+          "title": "Navigation Controllers, Segues"
+        },
+        {
+          "title": "Navigation Stacks"
+        },
+        {
+          "title": "Pushing Presenting"
+        },
+        {
+          "title": "Modals and Navigation"
+        },
+        {
+          "title": "Combine"
+        },
+        {
+          "title": "Publishers / Subscribers"
+        },
+        {
+          "title": "Operators & Pipelines"
+        },
+        {
+          "title": "Combine and MVVM"
+        },
+        {
+          "title": "RxSwift"
+        }
+      ]
+    },
+    {
+      "title": "SwiftUI (2)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Navigation Stacks"
+        },
+        {
+          "title": "Navigation View"
+        },
+        {
+          "title": "NavigationLink"
+        },
+        {
+          "title": "Presenting / Dismissing views"
+        }
+      ]
+    },
+    {
+      "title": "Core Animation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basics / Creating Animations"
+        },
+        {
+          "title": "Lottie"
+        }
+      ]
+    },
+    {
+      "title": "Architectural Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MVC"
+        },
+        {
+          "title": "MVP"
+        },
+        {
+          "title": "MVVM"
+        },
+        {
+          "title": "MVVM-C"
+        },
+        {
+          "title": "VIPER"
+        },
+        {
+          "title": "TCA"
+        }
+      ]
+    },
+    {
+      "title": "Reactive Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Observables & observers"
+        },
+        {
+          "title": "Subjects"
+        },
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "Schedulers"
+        },
+        {
+          "title": "RxSwift with MVVM"
+        }
+      ]
+    },
+    {
+      "title": "Delegate Pattern",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Implementing Delegates"
+        },
+        {
+          "title": "Understanding and using Closures"
+        },
+        {
+          "title": "Capturing Values & Memory Mgmt."
+        },
+        {
+          "title": "Callback Hell"
+        }
+      ]
+    },
+    {
+      "title": "Callbacks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Closures"
+        }
+      ]
+    },
+    {
+      "title": "Data Persistence",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Core Data"
+        },
+        {
+          "title": "User Defaults"
+        },
+        {
+          "title": "Keychain"
+        },
+        {
+          "title": "File System"
+        },
+        {
+          "title": "SQLite"
+        }
+      ]
+    },
+    {
+      "title": "Async / Await",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Concurrency"
+        }
+      ]
+    },
+    {
+      "title": "JSON / XML",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Parsing"
+        },
+        {
+          "title": "Serializing"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTTP / HTTPs"
+        },
+        {
+          "title": "REST"
+        },
+        {
+          "title": "GraphQL"
+        },
+        {
+          "title": "URLSession"
+        },
+        {
+          "title": "Alamofire"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency and Multithreading",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GCD"
+        },
+        {
+          "title": "Operation Queues"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Manager",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CocoaPods"
+        },
+        {
+          "title": "Carthage"
+        },
+        {
+          "title": "Swift Package Manager"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks & Library",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "XCFramework"
+        },
+        {
+          "title": "Static Library"
+        },
+        {
+          "title": "Dynamic Library"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Accessibility Inspector"
+        },
+        {
+          "title": "Voice Over"
+        },
+        {
+          "title": "Dynamic Type"
+        },
+        {
+          "title": "Frameworks"
+        },
+        {
+          "title": "ARKit"
+        },
+        {
+          "title": "Unit & UI Testing"
+        },
+        {
+          "title": "HealthKit"
+        },
+        {
+          "title": "XCTest"
+        },
+        {
+          "title": "GameKit"
+        },
+        {
+          "title": "XCUITest"
+        },
+        {
+          "title": "MapKit"
+        },
+        {
+          "title": "Core ML"
+        },
+        {
+          "title": "Test Plan & Coverage"
+        }
+      ]
+    },
+    {
+      "title": "Code Quality Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SwiftLint"
+        },
+        {
+          "title": "Tailor"
+        },
+        {
+          "title": "SwiftFormat"
+        }
+      ]
+    },
+    {
+      "title": "Debugging Techniques",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Xcode Debugger"
+        },
+        {
+          "title": "Profiling Instruments"
+        }
+      ]
+    },
+    {
+      "title": "CI / CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jenkins"
+        },
+        {
+          "title": "CircleCI"
+        },
+        {
+          "title": "GitHub Actions"
+        },
+        {
+          "title": "GitLab"
+        },
+        {
+          "title": "Azure DevOps"
+        }
+      ]
+    },
+    {
+      "title": "App Store Distribution"
+    },
+    {
+      "title": "TestFlight"
+    },
+    {
+      "title": "FastLane"
+    },
+    {
+      "title": "App Store Optimization (ASO)"
+    },
+    {
+      "title": "Keeping Updated with WWDC",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Latest Swift Version"
+        },
+        {
+          "title": "Latest iOS SDK"
+        },
+        {
+          "title": "New Feature Announcements"
+        }
+      ]
+    }
+  ]
+}

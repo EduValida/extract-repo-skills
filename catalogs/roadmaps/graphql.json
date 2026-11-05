@@ -1,0 +1,235 @@
+{
+  "title": "GraphQL",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is GraphQL"
+        },
+        {
+          "title": "Problems GraphQL Solves"
+        },
+        {
+          "title": "Thinking in Graphs"
+        },
+        {
+          "title": "GraphQL on Frontend"
+        },
+        {
+          "title": "GraphQL on Backend"
+        }
+      ]
+    },
+    {
+      "title": "GraphQL Queries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Queries?"
+        },
+        {
+          "title": "Fields"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Aliases"
+        },
+        {
+          "title": "Arguments"
+        },
+        {
+          "title": "Directives"
+        },
+        {
+          "title": "Fragments"
+        }
+      ]
+    },
+    {
+      "title": "Mutations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Mutations?"
+        },
+        {
+          "title": "Multiple Fields in Mutation"
+        },
+        {
+          "title": "Operation Name"
+        },
+        {
+          "title": "Type System"
+        }
+      ]
+    },
+    {
+      "title": "Subscriptions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Subscriptions"
+        },
+        {
+          "title": "Fields"
+        },
+        {
+          "title": "Event Based Subscriptions"
+        },
+        {
+          "title": "Live Queries"
+        },
+        {
+          "title": "@defer / @stream directives"
+        }
+      ]
+    },
+    {
+      "title": "Schema",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Scalars"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Objects"
+        }
+      ]
+    },
+    {
+      "title": "Validation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Root Fields"
+        },
+        {
+          "title": "Interfaces"
+        },
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Resolvers"
+        },
+        {
+          "title": "Unions"
+        },
+        {
+          "title": "Arguments"
+        },
+        {
+          "title": "Synchronous"
+        },
+        {
+          "title": "Asynchronous"
+        },
+        {
+          "title": "Scalar Coercion"
+        },
+        {
+          "title": "Lists (2)"
+        },
+        {
+          "title": "Validation"
+        },
+        {
+          "title": "Producing the Result"
+        }
+      ]
+    },
+    {
+      "title": "Execution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GraphQL Over HTTP Spec"
+        },
+        {
+          "title": "Caching"
+        },
+        {
+          "title": "Batching"
+        },
+        {
+          "title": "Authorization"
+        }
+      ]
+    },
+    {
+      "title": "Serving over Internet"
+    },
+    {
+      "title": "Pagination",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Specification"
+        },
+        {
+          "title": "Realtime"
+        },
+        {
+          "title": "Authorization"
+        },
+        {
+          "title": "GraphQL Go"
+        },
+        {
+          "title": "Specification (2)"
+        },
+        {
+          "title": "GraphQL.js"
+        },
+        {
+          "title": "Authorization (2)"
+        },
+        {
+          "title": "GraphQL Java"
+        },
+        {
+          "title": "Graphene"
+        },
+        {
+          "title": "graphql-http"
+        },
+        {
+          "title": "GraphQL Yoga"
+        },
+        {
+          "title": "Apollo Server"
+        },
+        {
+          "title": "graphql-http (2)"
+        },
+        {
+          "title": "mercurius"
+        },
+        {
+          "title": "Relay"
+        },
+        {
+          "title": "Apollo Client"
+        },
+        {
+          "title": "Urql"
+        }
+      ]
+    }
+  ]
+}

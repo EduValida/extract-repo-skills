@@ -1,0 +1,504 @@
+{
+  "title": "C Programming",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Applications"
+        },
+        {
+          "title": "C vs Assembly"
+        },
+        {
+          "title": "C vs C++"
+        }
+      ]
+    },
+    {
+      "title": "Setting up",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Installing C"
+        },
+        {
+          "title": "Running your First Program"
+        },
+        {
+          "title": "Code Editors / IDEs"
+        },
+        {
+          "title": "vim / nvim"
+        },
+        {
+          "title": "VSCode"
+        }
+      ]
+    },
+    {
+      "title": "Variables",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Declaration vs Definition"
+        },
+        {
+          "title": "Initialization"
+        },
+        {
+          "title": "Printing Variables"
+        },
+        {
+          "title": "integers"
+        },
+        {
+          "title": "float"
+        },
+        {
+          "title": "char"
+        },
+        {
+          "title": "double"
+        },
+        {
+          "title": "Fixed-width integers"
+        },
+        {
+          "title": "booleans"
+        },
+        {
+          "title": "Extended Types"
+        }
+      ]
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type Conversion"
+        },
+        {
+          "title": "Type Qualifiers"
+        },
+        {
+          "title": "const"
+        },
+        {
+          "title": "volatile"
+        },
+        {
+          "title": "restrict"
+        },
+        {
+          "title": "_Atomic"
+        }
+      ]
+    },
+    {
+      "title": "Operators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Comparison"
+        },
+        {
+          "title": "Arithmetic"
+        },
+        {
+          "title": "Bitwise"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "Ternary"
+        }
+      ]
+    },
+    {
+      "title": "Control Flow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "if else / switch"
+        },
+        {
+          "title": "for / while / do while loops"
+        },
+        {
+          "title": "break / continue"
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "main Function"
+        },
+        {
+          "title": "Recursive Functions"
+        },
+        {
+          "title": "Variable Scopes"
+        },
+        {
+          "title": "Memory Model"
+        },
+        {
+          "title": "Variadic Functions"
+        },
+        {
+          "title": "Stack vs Heap"
+        },
+        {
+          "title": "Command-Line Arguments"
+        },
+        {
+          "title": "Lifetime of Objects"
+        },
+        {
+          "title": "Pointer Basics & Syntax"
+        },
+        {
+          "title": "Null Pointers"
+        },
+        {
+          "title": "void Pointers"
+        },
+        {
+          "title": "Pointer Arithmetic"
+        },
+        {
+          "title": "malloc"
+        },
+        {
+          "title": "calloc"
+        },
+        {
+          "title": "realloc"
+        },
+        {
+          "title": "free"
+        },
+        {
+          "title": "Dynamic Memory Allocation"
+        },
+        {
+          "title": "Memory Leakage"
+        },
+        {
+          "title": "Dangling Pointers"
+        },
+        {
+          "title": "Undefined Behavior"
+        },
+        {
+          "title": "Buffer Overflow"
+        }
+      ]
+    },
+    {
+      "title": "Pointers & Memory"
+    },
+    {
+      "title": "Arrays"
+    },
+    {
+      "title": "Strings"
+    },
+    {
+      "title": "User-Defined Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Typedef"
+        },
+        {
+          "title": "Structs"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Unions"
+        }
+      ]
+    },
+    {
+      "title": "Common Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dynamic Arrays"
+        },
+        {
+          "title": "Linked Lists"
+        },
+        {
+          "title": "Hash Maps"
+        },
+        {
+          "title": "Ring Buffers / FIFO Queues"
+        }
+      ]
+    },
+    {
+      "title": "Structuring Codebase",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Header Files"
+        },
+        {
+          "title": "Linkage"
+        },
+        {
+          "title": "static"
+        },
+        {
+          "title": "extern"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "errno"
+        },
+        {
+          "title": "Exit Codes"
+        },
+        {
+          "title": "Input / Output"
+        },
+        {
+          "title": "setjmp / longjmp"
+        },
+        {
+          "title": "Data Utilities"
+        }
+      ]
+    },
+    {
+      "title": "File I/O",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Text Processing"
+        },
+        {
+          "title": "Streams"
+        },
+        {
+          "title": "Math & Time"
+        },
+        {
+          "title": "File Pointers"
+        },
+        {
+          "title": "Diagnostics & Limits"
+        },
+        {
+          "title": "Binary vs Text Mode"
+        }
+      ]
+    },
+    {
+      "title": "Standard Library",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OS & Signal Interfaces"
+        }
+      ]
+    },
+    {
+      "title": "Build & Compilation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Preprocessors"
+        },
+        {
+          "title": "Macros"
+        },
+        {
+          "title": "Conditional Compilation"
+        },
+        {
+          "title": "Predefined Macros"
+        },
+        {
+          "title": "Compilers"
+        },
+        {
+          "title": "GCC / Clang"
+        },
+        {
+          "title": "TinyCC"
+        },
+        {
+          "title": "Optimization Levels"
+        },
+        {
+          "title": "Symbol Tables"
+        },
+        {
+          "title": "Linking"
+        },
+        {
+          "title": "ABI"
+        },
+        {
+          "title": "Build Systems"
+        },
+        {
+          "title": "GNU Make"
+        },
+        {
+          "title": "CMake"
+        },
+        {
+          "title": "Ninja"
+        },
+        {
+          "title": "Meson"
+        },
+        {
+          "title": "Package Managers"
+        },
+        {
+          "title": "vcpkg"
+        },
+        {
+          "title": "Conan"
+        }
+      ]
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GDB"
+        },
+        {
+          "title": "LLDB"
+        },
+        {
+          "title": "WinDbg"
+        },
+        {
+          "title": "Valgrind"
+        },
+        {
+          "title": "strace"
+        },
+        {
+          "title": "ASan & LSan"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "assert.h"
+        },
+        {
+          "title": "Unity"
+        },
+        {
+          "title": "CMocka"
+        },
+        {
+          "title": "Check"
+        }
+      ]
+    },
+    {
+      "title": "Idioms & Design Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Function pointers & Callbacks"
+        },
+        {
+          "title": "Opaque Pointers"
+        },
+        {
+          "title": "Object-Oriented C"
+        },
+        {
+          "title": "RAII-Simulated Cleanup"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "POSIX Threads"
+        },
+        {
+          "title": "Mutexes"
+        },
+        {
+          "title": "IPC"
+        }
+      ]
+    },
+    {
+      "title": "Process Management"
+    },
+    {
+      "title": "C Standards",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C89 / C90"
+        },
+        {
+          "title": "C99"
+        },
+        {
+          "title": "C11"
+        },
+        {
+          "title": "C17"
+        },
+        {
+          "title": "C23"
+        }
+      ]
+    }
+  ]
+}

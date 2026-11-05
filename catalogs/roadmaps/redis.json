@@ -1,0 +1,567 @@
+{
+  "title": "Redis Roadmap",
+  "topics": [
+    {
+      "title": "What is Redis?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "In-memory Data Structure Store"
+        },
+        {
+          "title": "Key-value Database"
+        },
+        {
+          "title": "Cache"
+        },
+        {
+          "title": "Message Broker"
+        },
+        {
+          "title": "Caching"
+        },
+        {
+          "title": "Real-time Analytics"
+        },
+        {
+          "title": "Redis vs SQL/NoSQL DBs"
+        },
+        {
+          "title": "Session Management"
+        },
+        {
+          "title": "When to choose Redis?"
+        },
+        {
+          "title": "Pub/Sub Messaging"
+        },
+        {
+          "title": "Leaderboards and Counters"
+        },
+        {
+          "title": "Starting the Server"
+        },
+        {
+          "title": "Using Package Managers"
+        },
+        {
+          "title": "Data Persistence Options"
+        },
+        {
+          "title": "Connecting using Redis CLI"
+        },
+        {
+          "title": "Pre-compiled Binaries"
+        },
+        {
+          "title": "Rich Data Structures"
+        },
+        {
+          "title": "Basic Commands / SET, GET"
+        },
+        {
+          "title": "Using Docker"
+        },
+        {
+          "title": "High Performance and Scalability"
+        }
+      ]
+    },
+    {
+      "title": "Strings",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SET"
+        },
+        {
+          "title": "GET"
+        },
+        {
+          "title": "INCR"
+        },
+        {
+          "title": "DECR"
+        },
+        {
+          "title": "APPEND"
+        },
+        {
+          "title": "STRLEN"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Hashes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Setting and Getting Keys"
+        },
+        {
+          "title": "HSET"
+        },
+        {
+          "title": "HGET"
+        },
+        {
+          "title": "DEL"
+        },
+        {
+          "title": "expire"
+        },
+        {
+          "title": "TTL"
+        },
+        {
+          "title": "HGETALL"
+        },
+        {
+          "title": "HDEL"
+        },
+        {
+          "title": "Overview of Data Types"
+        },
+        {
+          "title": "HEXISTS"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Sorted Sets",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ZADD"
+        },
+        {
+          "title": "ZRANGE"
+        },
+        {
+          "title": "ZREM"
+        },
+        {
+          "title": "ZRANK"
+        },
+        {
+          "title": "ZRANGEBYSCORE"
+        },
+        {
+          "title": "ZINCRBY"
+        },
+        {
+          "title": "ZCOUNT"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Sets",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SADD"
+        },
+        {
+          "title": "SREM"
+        },
+        {
+          "title": "SMEMBERS"
+        },
+        {
+          "title": "SISMEMBER"
+        },
+        {
+          "title": "SINTER"
+        },
+        {
+          "title": "SCARD"
+        },
+        {
+          "title": "SUNION"
+        },
+        {
+          "title": "SDIFF"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "More Commands (2)"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Lists",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LPUSH"
+        },
+        {
+          "title": "RPUSH"
+        },
+        {
+          "title": "LPOP"
+        },
+        {
+          "title": "RPOP"
+        },
+        {
+          "title": "LRANGE"
+        },
+        {
+          "title": "LINDEX"
+        },
+        {
+          "title": "LLEN"
+        },
+        {
+          "title": "LMOVE"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Atomicity in Redis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Naming Conventions"
+        },
+        {
+          "title": "Retrieval by Pattern"
+        },
+        {
+          "title": "Expiration"
+        }
+      ]
+    },
+    {
+      "title": "Pipelining"
+    },
+    {
+      "title": "Batch Operations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GEOADD"
+        },
+        {
+          "title": "GEOSEARCH"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Bitmaps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SETBIT"
+        },
+        {
+          "title": "GETBIT"
+        },
+        {
+          "title": "BITOP"
+        },
+        {
+          "title": "BITPOS"
+        },
+        {
+          "title": "BITCOUNT"
+        },
+        {
+          "title": "Usecases"
+        },
+        {
+          "title": "XREAD"
+        },
+        {
+          "title": "XADD"
+        },
+        {
+          "title": "XLEN"
+        },
+        {
+          "title": "XRANGE"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases (2)"
+        }
+      ]
+    },
+    {
+      "title": "HyperLogLog",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PFMERGE"
+        },
+        {
+          "title": "PFADD"
+        },
+        {
+          "title": "PFCOUNT"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Streams"
+    },
+    {
+      "title": "Geospatial Indexes"
+    },
+    {
+      "title": "Pub/Sub",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SUBSCRIBE"
+        },
+        {
+          "title": "UNSUBSCRIBE"
+        },
+        {
+          "title": "PUBLISH"
+        },
+        {
+          "title": "More Commands"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Transactions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "WATCH"
+        },
+        {
+          "title": "EXEC"
+        },
+        {
+          "title": "MULTI"
+        },
+        {
+          "title": "Optimistic Locking"
+        }
+      ]
+    },
+    {
+      "title": "Lua Scripting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "EVAL"
+        },
+        {
+          "title": "EVALSHA"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Persistence Options",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "No Persistence Option"
+        },
+        {
+          "title": "How RDB Works?"
+        },
+        {
+          "title": "Configuring Save Interval"
+        },
+        {
+          "title": "Usecases / Best Practices"
+        },
+        {
+          "title": "Usecases / Best Practices (2)"
+        },
+        {
+          "title": "How AOF Works?"
+        }
+      ]
+    },
+    {
+      "title": "Authentication"
+    },
+    {
+      "title": "Network Security"
+    },
+    {
+      "title": "SSL/TLS Encryption",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Max Memory Policy"
+        },
+        {
+          "title": "Memory Management"
+        },
+        {
+          "title": "Slow Log Analysis"
+        },
+        {
+          "title": "redis-benchmark"
+        },
+        {
+          "title": "Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Replication Basics"
+    },
+    {
+      "title": "Redis Sentinel"
+    },
+    {
+      "title": "Clustering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AOF rewrite & compaction"
+        },
+        {
+          "title": "Truncation / Corruption"
+        },
+        {
+          "title": "Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Redis Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Search"
+        },
+        {
+          "title": "RedisTimeSeries"
+        },
+        {
+          "title": "RedisBloom"
+        },
+        {
+          "title": "RedisJSON"
+        },
+        {
+          "title": "RDB vs AOF Tradeoffs"
+        },
+        {
+          "title": "Hybrid Persistence"
+        }
+      ]
+    },
+    {
+      "title": "redis.conf",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "INFO"
+        },
+        {
+          "title": "MONITOR"
+        },
+        {
+          "title": "RedisInsight"
+        },
+        {
+          "title": "RedisCommander"
+        }
+      ]
+    },
+    {
+      "title": "Upgrading Redis"
+    },
+    {
+      "title": "Backup and Recovery"
+    },
+    {
+      "title": "Disaster Recovery"
+    },
+    {
+      "title": "Redis Enterprise",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Active-Active geo Distribution"
+        },
+        {
+          "title": "Redis on Flash"
+        },
+        {
+          "title": "Security and Compliance"
+        },
+        {
+          "title": "When to consider enterprise?"
+        }
+      ]
+    }
+  ]
+}

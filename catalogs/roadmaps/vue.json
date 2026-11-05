@@ -1,0 +1,317 @@
+{
+  "title": "Vue Developer",
+  "topics": [
+    {
+      "title": "App Configurations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Error / Warn Handler"
+        },
+        {
+          "title": "Global Properties"
+        },
+        {
+          "title": "Performance"
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "create-vue"
+        },
+        {
+          "title": "Component Registration"
+        },
+        {
+          "title": "Single File Components"
+        },
+        {
+          "title": "v-model"
+        },
+        {
+          "title": "Props"
+        },
+        {
+          "title": "Events"
+        },
+        {
+          "title": "Attribute Inheritance"
+        }
+      ]
+    },
+    {
+      "title": "Templates"
+    },
+    {
+      "title": "API Styles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Options API"
+        },
+        {
+          "title": "Composition API"
+        }
+      ]
+    },
+    {
+      "title": "Directives",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "v-text"
+        },
+        {
+          "title": "v-html"
+        },
+        {
+          "title": "v-bind"
+        },
+        {
+          "title": "v-model"
+        },
+        {
+          "title": "v-once"
+        },
+        {
+          "title": "v-pre"
+        },
+        {
+          "title": "v-show"
+        },
+        {
+          "title": "v-if"
+        },
+        {
+          "title": "v-else"
+        },
+        {
+          "title": "v-else-if"
+        },
+        {
+          "title": "v-for"
+        },
+        {
+          "title": "v-on"
+        },
+        {
+          "title": "v-slot"
+        },
+        {
+          "title": "v-cloak"
+        }
+      ]
+    },
+    {
+      "title": "Lifecycle Hooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Conditional Rendering"
+        },
+        {
+          "title": "Rendering Lists"
+        }
+      ]
+    },
+    {
+      "title": "Forms Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Input Bindings"
+        },
+        {
+          "title": "Optimizing Renders"
+        },
+        {
+          "title": "v-model"
+        },
+        {
+          "title": "Modifiers"
+        }
+      ]
+    },
+    {
+      "title": "Event Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Async Components"
+        },
+        {
+          "title": "Binding Events"
+        },
+        {
+          "title": "Teleport Components"
+        },
+        {
+          "title": "Inline / Method Handlers"
+        },
+        {
+          "title": "Provide / Inject"
+        },
+        {
+          "title": "Event Modifiers"
+        },
+        {
+          "title": "Custom Directives"
+        },
+        {
+          "title": "Key Modifiers"
+        },
+        {
+          "title": "Plugins"
+        },
+        {
+          "title": "Mouse Button Modifiers"
+        },
+        {
+          "title": "Watchers"
+        },
+        {
+          "title": "Slots"
+        }
+      ]
+    },
+    {
+      "title": "Computed Properties",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Debugging"
+        },
+        {
+          "title": "VueUse"
+        }
+      ]
+    },
+    {
+      "title": "SSG",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "VitePress"
+        }
+      ]
+    },
+    {
+      "title": "Routing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vue Router"
+        },
+        {
+          "title": "Tailwind CSS"
+        },
+        {
+          "title": "Vuetify"
+        },
+        {
+          "title": "Element UI"
+        }
+      ]
+    },
+    {
+      "title": "Forms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Transition"
+        },
+        {
+          "title": "Transition Group"
+        },
+        {
+          "title": "FormKit"
+        },
+        {
+          "title": "Vee Validate"
+        },
+        {
+          "title": "Vuelidate"
+        }
+      ]
+    },
+    {
+      "title": "SSR",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Quasar"
+        },
+        {
+          "title": "Nuxt.js"
+        },
+        {
+          "title": "Vitest"
+        },
+        {
+          "title": "Vue Testing Library"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Playwright"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pinia"
+        }
+      ]
+    },
+    {
+      "title": "API Calls",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apollo"
+        },
+        {
+          "title": "Axios"
+        },
+        {
+          "title": "fetch"
+        },
+        {
+          "title": "Tanstack Query"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Capacitor"
+        }
+      ]
+    }
+  ]
+}

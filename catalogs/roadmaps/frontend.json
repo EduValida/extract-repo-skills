@@ -1,0 +1,461 @@
+{
+  "title": "Frontend Developer",
+  "topics": [
+    {
+      "title": "Internet",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How does the internet work?"
+        },
+        {
+          "title": "What is HTTP?"
+        },
+        {
+          "title": "What is Domain Name?"
+        },
+        {
+          "title": "What is hosting?"
+        },
+        {
+          "title": "DNS and how it works?"
+        },
+        {
+          "title": "Browsers and how they work?"
+        }
+      ]
+    },
+    {
+      "title": "HTML"
+    },
+    {
+      "title": "CSS"
+    },
+    {
+      "title": "JavaScript"
+    },
+    {
+      "title": "Version Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        }
+      ]
+    },
+    {
+      "title": "VCS Hosting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "GitLab"
+        },
+        {
+          "title": "React"
+        },
+        {
+          "title": "Vue.js"
+        },
+        {
+          "title": "Angular"
+        }
+      ]
+    },
+    {
+      "title": "Package Managers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "yarn"
+        },
+        {
+          "title": "npm"
+        },
+        {
+          "title": "pnpm"
+        },
+        {
+          "title": "Bun"
+        }
+      ]
+    },
+    {
+      "title": "CSS Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tailwind"
+        }
+      ]
+    },
+    {
+      "title": "Learn a Framework",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Svelte"
+        },
+        {
+          "title": "Solid JS"
+        }
+      ]
+    },
+    {
+      "title": "Learn the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How LLMs work"
+        },
+        {
+          "title": "AI vs Traditional Coding"
+        },
+        {
+          "title": "Applications"
+        },
+        {
+          "title": "Code Reviews"
+        },
+        {
+          "title": "Refactoring"
+        },
+        {
+          "title": "Docs Generation"
+        }
+      ]
+    },
+    {
+      "title": "AI Assisted Coding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Claude Code"
+        },
+        {
+          "title": "Cursor"
+        },
+        {
+          "title": "Copilot"
+        },
+        {
+          "title": "Antigravity"
+        }
+      ]
+    },
+    {
+      "title": "Prompting Techniques"
+    },
+    {
+      "title": "Agents"
+    },
+    {
+      "title": "MCP"
+    },
+    {
+      "title": "Skills"
+    },
+    {
+      "title": "Implementing AI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gemini"
+        },
+        {
+          "title": "OpenAI"
+        },
+        {
+          "title": "Anthropic"
+        }
+      ]
+    },
+    {
+      "title": "Linters & Formatters",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Biome"
+        },
+        {
+          "title": "Prettier"
+        },
+        {
+          "title": "ESLint"
+        }
+      ]
+    },
+    {
+      "title": "Module Bundlers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vite"
+        },
+        {
+          "title": "SWC"
+        },
+        {
+          "title": "esbuild"
+        },
+        {
+          "title": "Rollup"
+        },
+        {
+          "title": "Rolldown"
+        },
+        {
+          "title": "Parcel"
+        }
+      ]
+    },
+    {
+      "title": "Auth Strategies"
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vitest"
+        },
+        {
+          "title": "Playwright"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Jest"
+        },
+        {
+          "title": "GitHub Pages"
+        },
+        {
+          "title": "Vercel"
+        },
+        {
+          "title": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "title": "Web Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CORS"
+        },
+        {
+          "title": "HTTPS"
+        },
+        {
+          "title": "CSP"
+        },
+        {
+          "title": "OWASP Risks"
+        }
+      ]
+    },
+    {
+      "title": "Web APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Angular"
+        }
+      ]
+    },
+    {
+      "title": "React",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Next.js"
+        },
+        {
+          "title": "Tanstack Start"
+        },
+        {
+          "title": "Astro"
+        },
+        {
+          "title": "react-router"
+        }
+      ]
+    },
+    {
+      "title": "Vue.js",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Netlify"
+        },
+        {
+          "title": "Nuxt.js"
+        }
+      ]
+    },
+    {
+      "title": "SSR"
+    },
+    {
+      "title": "SvelteKit",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Render"
+        },
+        {
+          "title": "Svelte"
+        }
+      ]
+    },
+    {
+      "title": "Type Checkers"
+    },
+    {
+      "title": "SSG",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Astro"
+        },
+        {
+          "title": "Next.js"
+        },
+        {
+          "title": "Vuepress"
+        },
+        {
+          "title": "Eleventy"
+        },
+        {
+          "title": "Nuxt.js"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Railway"
+        }
+      ]
+    },
+    {
+      "title": "Design Systems"
+    },
+    {
+      "title": "Performance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lighthouse"
+        },
+        {
+          "title": "DevTools Usage"
+        },
+        {
+          "title": "Service Workers"
+        },
+        {
+          "title": "Cache-Control"
+        },
+        {
+          "title": "Streamed Responses"
+        }
+      ]
+    },
+    {
+      "title": "Web Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTML Templates"
+        },
+        {
+          "title": "Custom Elements"
+        }
+      ]
+    },
+    {
+      "title": "GraphQL",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apollo"
+        },
+        {
+          "title": "Relay Modern"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility"
+    },
+    {
+      "title": "PWAs"
+    },
+    {
+      "title": "Mobile Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React Native"
+        },
+        {
+          "title": "Flutter"
+        },
+        {
+          "title": "Ionic"
+        }
+      ]
+    },
+    {
+      "title": "Desktop Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shadow DOM"
+        },
+        {
+          "title": "Electron"
+        },
+        {
+          "title": "Tauri"
+        },
+        {
+          "title": "Flutter"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "title": "BI Analyst",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is BI?"
+        },
+        {
+          "title": "Why BI Matters?"
+        },
+        {
+          "title": "BI Analyst vs Other Roles"
+        },
+        {
+          "title": "Responsibilities"
+        },
+        {
+          "title": "Skills"
+        }
+      ]
+    },
+    {
+      "title": "Types of BI Operations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Operational BI"
+        },
+        {
+          "title": "Tactical BI"
+        },
+        {
+          "title": "Strategic BI"
+        }
+      ]
+    },
+    {
+      "title": "Metrics and KPIs"
+    },
+    {
+      "title": "Stakeholder Identification"
+    },
+    {
+      "title": "Key Business Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Finance"
+        },
+        {
+          "title": "Marketing"
+        },
+        {
+          "title": "Operations"
+        },
+        {
+          "title": "HR"
+        }
+      ]
+    },
+    {
+      "title": "Types of Data Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Descriptive Analysis"
+        },
+        {
+          "title": "Diagnostic Analysis"
+        },
+        {
+          "title": "Predictive Analysis"
+        },
+        {
+          "title": "Prescriptive Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Central Tendency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mean"
+        },
+        {
+          "title": "Mode"
+        },
+        {
+          "title": "Median"
+        },
+        {
+          "title": "Range"
+        },
+        {
+          "title": "Variance"
+        },
+        {
+          "title": "STD"
+        },
+        {
+          "title": "IQR"
+        },
+        {
+          "title": "Skewness"
+        },
+        {
+          "title": "Kurtosis"
+        }
+      ]
+    },
+    {
+      "title": "Variables & Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Categorical vs Numerical"
+        },
+        {
+          "title": "Discrete vs Continuous"
+        }
+      ]
+    },
+    {
+      "title": "Descriptive Statistics"
+    },
+    {
+      "title": "Dispersion"
+    },
+    {
+      "title": "Inferential Statistics"
+    },
+    {
+      "title": "Correlation Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Correlation vs Causation"
+        }
+      ]
+    },
+    {
+      "title": "Distribution"
+    },
+    {
+      "title": "Regression Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Linear Regression"
+        },
+        {
+          "title": "Beyond Linear Regression"
+        }
+      ]
+    },
+    {
+      "title": "Hypothesis Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Population & Sample"
+        },
+        {
+          "title": "Statistical tests"
+        },
+        {
+          "title": "p-value"
+        },
+        {
+          "title": "Confidence Intervals"
+        },
+        {
+          "title": "Types of Errors"
+        }
+      ]
+    },
+    {
+      "title": "Types of data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Structured"
+        },
+        {
+          "title": "Semistructured"
+        },
+        {
+          "title": "Unstructured"
+        },
+        {
+          "title": "Databases"
+        },
+        {
+          "title": "Mobile Apps"
+        },
+        {
+          "title": "Web"
+        },
+        {
+          "title": "APIs"
+        },
+        {
+          "title": "Cloud"
+        },
+        {
+          "title": "IoT"
+        },
+        {
+          "title": "CSV"
+        },
+        {
+          "title": "Excel"
+        },
+        {
+          "title": "XML"
+        },
+        {
+          "title": "JSON"
+        },
+        {
+          "title": "Other formats"
+        }
+      ]
+    },
+    {
+      "title": "Data Sources"
+    },
+    {
+      "title": "What is Data?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Analog vs Digital Data"
+        }
+      ]
+    },
+    {
+      "title": "SQL Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basic Queries"
+        },
+        {
+          "title": "Advanced Queries"
+        },
+        {
+          "title": "Window Functions"
+        },
+        {
+          "title": "Performance"
+        }
+      ]
+    },
+    {
+      "title": "Data Formats"
+    },
+    {
+      "title": "Popular Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PostgreSQL"
+        },
+        {
+          "title": "MySQL"
+        },
+        {
+          "title": "Oracle"
+        },
+        {
+          "title": "SQLite"
+        }
+      ]
+    },
+    {
+      "title": "Data Cleaning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Standardisation"
+        },
+        {
+          "title": "Excel"
+        },
+        {
+          "title": "SQL"
+        },
+        {
+          "title": "Missing Values"
+        },
+        {
+          "title": "Pandas"
+        },
+        {
+          "title": "dplyr"
+        },
+        {
+          "title": "Outliers"
+        },
+        {
+          "title": "Duplicates"
+        }
+      ]
+    },
+    {
+      "title": "Exploratory Data Analysis"
+    },
+    {
+      "title": "Data Trans. Techniques"
+    },
+    {
+      "title": "Viz. Fundamentals"
+    },
+    {
+      "title": "Chart Categories",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Barplot"
+        },
+        {
+          "title": "Lineplot"
+        },
+        {
+          "title": "Histogram"
+        },
+        {
+          "title": "Scatterplot"
+        },
+        {
+          "title": "Heatmap"
+        },
+        {
+          "title": "Map"
+        }
+      ]
+    },
+    {
+      "title": "Viz. Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Color theory"
+        },
+        {
+          "title": "Accessibility"
+        },
+        {
+          "title": "Design principles"
+        },
+        {
+          "title": "Misleading charts"
+        },
+        {
+          "title": "Mobile-responsiveness"
+        }
+      ]
+    },
+    {
+      "title": "Excel"
+    },
+    {
+      "title": "BI Platforms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tableau"
+        },
+        {
+          "title": "Qlik"
+        },
+        {
+          "title": "Looker"
+        }
+      ]
+    },
+    {
+      "title": "Programming Languages"
+    },
+    {
+      "title": "Cloud Computing Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cloud data warehouses"
+        },
+        {
+          "title": "AWS, GCP, Azure"
+        }
+      ]
+    },
+    {
+      "title": "Time Series Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Trends"
+        },
+        {
+          "title": "Seasonality"
+        },
+        {
+          "title": "Forecasting"
+        }
+      ]
+    },
+    {
+      "title": "A/B Testing"
+    },
+    {
+      "title": "Cohort Analysis"
+    },
+    {
+      "title": "Basic Machine Learning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Supervised Learning"
+        },
+        {
+          "title": "Unsupervised Learning"
+        },
+        {
+          "title": "Reinforcement Learning"
+        }
+      ]
+    },
+    {
+      "title": "Com. & Storytelling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Storytelling Framework"
+        },
+        {
+          "title": "Presentation Design"
+        },
+        {
+          "title": "Dashboard Design"
+        },
+        {
+          "title": "Writing Exec. Summaries"
+        }
+      ]
+    },
+    {
+      "title": "Soft Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Business Acumen"
+        },
+        {
+          "title": "Critical Thinking"
+        },
+        {
+          "title": "Project Management"
+        },
+        {
+          "title": "Change Management"
+        },
+        {
+          "title": "Stakeholder Management"
+        }
+      ]
+    },
+    {
+      "title": "Data Quality",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Timeliness"
+        },
+        {
+          "title": "Relevance"
+        },
+        {
+          "title": "Interpretability"
+        },
+        {
+          "title": "Accesibility"
+        },
+        {
+          "title": "Coherence"
+        },
+        {
+          "title": "Accuracy"
+        }
+      ]
+    },
+    {
+      "title": "Data Lineage"
+    },
+    {
+      "title": "Ethical Data Use"
+    },
+    {
+      "title": "Bias Recognition",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Algorithmic Bias"
+        },
+        {
+          "title": "Mitigation Strategies"
+        }
+      ]
+    },
+    {
+      "title": "Data Privacy",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CCPA"
+        },
+        {
+          "title": "GDPR"
+        }
+      ]
+    },
+    {
+      "title": "Data Architectures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Warehouse"
+        },
+        {
+          "title": "Data Lake"
+        },
+        {
+          "title": "Data Mart"
+        },
+        {
+          "title": "Cloud BI Ecosystem"
+        }
+      ]
+    },
+    {
+      "title": "Data Modeling for BI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Normalizayion"
+        },
+        {
+          "title": "Fact vs Dimension Tables"
+        },
+        {
+          "title": "Star vs Snowflake Schema"
+        },
+        {
+          "title": "Calc. Fields & Measures"
+        }
+      ]
+    },
+    {
+      "title": "ETL basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Airflow"
+        },
+        {
+          "title": "dbt"
+        }
+      ]
+    },
+    {
+      "title": "Building Your Portfolio",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "End-to-end Projects"
+        },
+        {
+          "title": "Dashboard Design"
+        },
+        {
+          "title": "Data Pipeline Design"
+        }
+      ]
+    },
+    {
+      "title": "Professional Development"
+    },
+    {
+      "title": "Certifications"
+    },
+    {
+      "title": "Networking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BI Communities"
+        },
+        {
+          "title": "BI Competitions"
+        },
+        {
+          "title": "Open-Source Projects"
+        },
+        {
+          "title": "Conferences & Webinars"
+        }
+      ]
+    },
+    {
+      "title": "Job Preparation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Resume optimization"
+        },
+        {
+          "title": "Portfolio presentation"
+        },
+        {
+          "title": "Interview preparation"
+        },
+        {
+          "title": "Salary negotiation"
+        }
+      ]
+    }
+  ]
+}

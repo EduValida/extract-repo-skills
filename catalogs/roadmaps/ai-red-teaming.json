@@ -1,0 +1,217 @@
+{
+  "title": "AI Red Teaming",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI Security Fundamentals"
+        },
+        {
+          "title": "Why Red Team AI Systems?"
+        },
+        {
+          "title": "Ethical Considerations"
+        },
+        {
+          "title": "Supervised Learning"
+        },
+        {
+          "title": "Role of Red Teams"
+        },
+        {
+          "title": "Unsupervised Learning"
+        },
+        {
+          "title": "Confidentiality, Integrity, Availability"
+        },
+        {
+          "title": "Reinforcement Learning"
+        },
+        {
+          "title": "Threat Modeling"
+        },
+        {
+          "title": "Neural Networks"
+        },
+        {
+          "title": "Risk Management"
+        },
+        {
+          "title": "Generative Models"
+        },
+        {
+          "title": "Vulnerability Assessment"
+        }
+      ]
+    },
+    {
+      "title": "Prompt Hacking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Large Language Models"
+        },
+        {
+          "title": "Prompt Engineering"
+        },
+        {
+          "title": "Model Weight Stealing"
+        },
+        {
+          "title": "Unauthorized Access"
+        },
+        {
+          "title": "Data Poisoning"
+        }
+      ]
+    },
+    {
+      "title": "Model Vulnerabilities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jailbreak Techniques"
+        },
+        {
+          "title": "Safety Filter Bypasses"
+        },
+        {
+          "title": "Prompt Injection"
+        },
+        {
+          "title": "Direct"
+        },
+        {
+          "title": "Indirect"
+        },
+        {
+          "title": "Countermeasures"
+        }
+      ]
+    },
+    {
+      "title": "Code Injection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Adversarial Examples"
+        },
+        {
+          "title": "Model Inversion"
+        },
+        {
+          "title": "Insecure Deserialization"
+        },
+        {
+          "title": "Remote Code Execution"
+        },
+        {
+          "title": "Black Box Testing"
+        },
+        {
+          "title": "Adversarial Training"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "White Box Testing"
+        },
+        {
+          "title": "Robust Model Design"
+        },
+        {
+          "title": "API Protection"
+        },
+        {
+          "title": "Grey Box Testing"
+        },
+        {
+          "title": "Continuous Monitoring"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Automated vs Manual"
+        },
+        {
+          "title": "Authorization"
+        },
+        {
+          "title": "Continuous Testing"
+        },
+        {
+          "title": "Conferences"
+        },
+        {
+          "title": "Research Groups"
+        },
+        {
+          "title": "Forums"
+        },
+        {
+          "title": "Testing Platforms"
+        },
+        {
+          "title": "Monitoring Solutions"
+        },
+        {
+          "title": "Lab Environments"
+        },
+        {
+          "title": "Benchmark Datasets"
+        },
+        {
+          "title": "LLM Security Testing"
+        },
+        {
+          "title": "CTF Challenges"
+        },
+        {
+          "title": "Custom Testing Scripts"
+        },
+        {
+          "title": "Agentic AI Security"
+        },
+        {
+          "title": "Red Team Simulations"
+        },
+        {
+          "title": "Reporting Tools"
+        },
+        {
+          "title": "Responsible Disclosure"
+        },
+        {
+          "title": "Specialized Courses"
+        },
+        {
+          "title": "Emerging Threats"
+        },
+        {
+          "title": "Industry Credentials"
+        },
+        {
+          "title": "Advanced Techniques"
+        },
+        {
+          "title": "Research Opportunities"
+        },
+        {
+          "title": "Industry Standards"
+        }
+      ]
+    }
+  ]
+}

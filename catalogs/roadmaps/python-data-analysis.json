@@ -1,0 +1,409 @@
+{
+  "title": "Python for Data Analysis",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arithmetic"
+        },
+        {
+          "title": "Integers"
+        },
+        {
+          "title": "Floats"
+        },
+        {
+          "title": "Comparison"
+        },
+        {
+          "title": "Booleans"
+        },
+        {
+          "title": "Strings"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "Null"
+        },
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Tuples"
+        },
+        {
+          "title": "Printing Variables"
+        },
+        {
+          "title": "Sets"
+        },
+        {
+          "title": "Dictionaries"
+        },
+        {
+          "title": "Conditionals"
+        },
+        {
+          "title": "Loops"
+        },
+        {
+          "title": "Type Casting"
+        },
+        {
+          "title": "Working with Strings"
+        },
+        {
+          "title": "List Comprehensions"
+        }
+      ]
+    },
+    {
+      "title": "Functions & Methods",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pip"
+        },
+        {
+          "title": "conda"
+        },
+        {
+          "title": "uv"
+        },
+        {
+          "title": "Built-in Functions"
+        },
+        {
+          "title": "virtualenv / venv"
+        },
+        {
+          "title": "Defining Functions"
+        },
+        {
+          "title": "args & kwargs"
+        },
+        {
+          "title": "JupyterLab"
+        },
+        {
+          "title": "Lambda Functions"
+        },
+        {
+          "title": "Google Colab"
+        },
+        {
+          "title": "VS Code"
+        }
+      ]
+    },
+    {
+      "title": "Environment Setup"
+    },
+    {
+      "title": "SQL Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SQLAlchemy"
+        },
+        {
+          "title": "sqlite3"
+        },
+        {
+          "title": "Pandas"
+        },
+        {
+          "title": "DuckDB"
+        }
+      ]
+    },
+    {
+      "title": "NumPy",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arrays & ndarray"
+        },
+        {
+          "title": "Array Operations"
+        },
+        {
+          "title": "Indexing & Slicing"
+        },
+        {
+          "title": "Series and DataFrame"
+        },
+        {
+          "title": "Linear Algebra Basics"
+        },
+        {
+          "title": "Reading Data"
+        },
+        {
+          "title": "Random Module"
+        },
+        {
+          "title": "Indexing & Slicing (2)"
+        }
+      ]
+    },
+    {
+      "title": "Pandas",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Polars"
+        },
+        {
+          "title": "Filtering & Querying"
+        },
+        {
+          "title": "Groupby & Aggregation"
+        }
+      ]
+    },
+    {
+      "title": "Reading Local Files",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Merging & Joining"
+        },
+        {
+          "title": "CSV"
+        },
+        {
+          "title": "Excel"
+        },
+        {
+          "title": "Reshaping"
+        },
+        {
+          "title": "JSON"
+        },
+        {
+          "title": "Parquet"
+        }
+      ]
+    },
+    {
+      "title": "Reading Web Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "APIs with requests"
+        },
+        {
+          "title": "BeautifulSoup"
+        },
+        {
+          "title": "scrapy"
+        },
+        {
+          "title": "isnull, isna"
+        },
+        {
+          "title": "Dropping vs. Imputing"
+        },
+        {
+          "title": "Forward / Backward Fill"
+        },
+        {
+          "title": "IQR"
+        },
+        {
+          "title": "Z-score"
+        },
+        {
+          "title": "Visual Inspection"
+        }
+      ]
+    },
+    {
+      "title": "Data Cleaning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "strip, replace, split"
+        },
+        {
+          "title": "re"
+        },
+        {
+          "title": "Pandas String Methods"
+        },
+        {
+          "title": "Casting Types"
+        },
+        {
+          "title": "Parsing Dates"
+        },
+        {
+          "title": "Encoding Categories"
+        }
+      ]
+    },
+    {
+      "title": "Exploratory Data Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mean, Median, Mode"
+        },
+        {
+          "title": "Variance & Std. Deviation"
+        },
+        {
+          "title": "Correlation & Covariance"
+        },
+        {
+          "title": "Histogram"
+        },
+        {
+          "title": "Boxplot"
+        },
+        {
+          "title": "Scatterplot"
+        },
+        {
+          "title": "Correlation Matrix"
+        },
+        {
+          "title": "Cross-tabulation"
+        }
+      ]
+    },
+    {
+      "title": "Matplotlib",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Plot Categories"
+        },
+        {
+          "title": "Subplots and figures"
+        },
+        {
+          "title": "Customizing Plots"
+        },
+        {
+          "title": "Saving figures"
+        }
+      ]
+    },
+    {
+      "title": "Seaborn",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Distribution plots"
+        },
+        {
+          "title": "Categorical Plots"
+        },
+        {
+          "title": "Regression Plots"
+        },
+        {
+          "title": "Heatmaps"
+        },
+        {
+          "title": "Customizing Plots"
+        }
+      ]
+    },
+    {
+      "title": "Interactive Visualization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Plotly"
+        }
+      ]
+    },
+    {
+      "title": "Dashboards",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dash"
+        },
+        {
+          "title": "Streamlit"
+        },
+        {
+          "title": "Power BI / Tableau"
+        }
+      ]
+    },
+    {
+      "title": "OOP for Data Analysis"
+    },
+    {
+      "title": "Statistics & ML",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SciPy"
+        },
+        {
+          "title": "Scikit-learn"
+        }
+      ]
+    },
+    {
+      "title": "Geospatial Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GeoPandas"
+        }
+      ]
+    },
+    {
+      "title": "Big Data Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dask"
+        },
+        {
+          "title": "PySpark"
+        }
+      ]
+    },
+    {
+      "title": "Data Pipelines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Airflow"
+        }
+      ]
+    }
+  ]
+}

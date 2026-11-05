@@ -1,0 +1,311 @@
+{
+  "title": "React Developer",
+  "topics": [
+    {
+      "title": "CLI Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vite"
+        },
+        {
+          "title": "Component Lifecycle"
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Functional Components"
+        },
+        {
+          "title": "Lists and Keys"
+        },
+        {
+          "title": "JSX"
+        },
+        {
+          "title": "Render Props"
+        },
+        {
+          "title": "Props vs State"
+        },
+        {
+          "title": "Refs"
+        },
+        {
+          "title": "Conditional Rendering"
+        },
+        {
+          "title": "Composition"
+        }
+      ]
+    },
+    {
+      "title": "Rendering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Events"
+        },
+        {
+          "title": "High Order Components"
+        }
+      ]
+    },
+    {
+      "title": "Hooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Custom Hooks"
+        },
+        {
+          "title": "useEffect"
+        },
+        {
+          "title": "useState"
+        },
+        {
+          "title": "Hooks Best Practices"
+        },
+        {
+          "title": "useCallback"
+        },
+        {
+          "title": "useRef"
+        },
+        {
+          "title": "useMemo"
+        },
+        {
+          "title": "useReducer"
+        },
+        {
+          "title": "useContext"
+        }
+      ]
+    },
+    {
+      "title": "Routers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React Router"
+        },
+        {
+          "title": "Tanstack Router"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jotai"
+        },
+        {
+          "title": "Zustand"
+        },
+        {
+          "title": "Context"
+        },
+        {
+          "title": "MobX"
+        }
+      ]
+    },
+    {
+      "title": "Writing CSS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Panda CSS"
+        },
+        {
+          "title": "CSS Modules"
+        },
+        {
+          "title": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "title": "Component / Libraries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Material UI"
+        },
+        {
+          "title": "Chakra UI"
+        },
+        {
+          "title": "Shadcn UI"
+        }
+      ]
+    },
+    {
+      "title": "Headless Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Base UI"
+        },
+        {
+          "title": "Radix UI"
+        },
+        {
+          "title": "React Aria"
+        },
+        {
+          "title": "Ark UI"
+        },
+        {
+          "title": "Apollo"
+        },
+        {
+          "title": "Relay"
+        },
+        {
+          "title": "urql"
+        },
+        {
+          "title": "Tanstack Query"
+        },
+        {
+          "title": "swr"
+        },
+        {
+          "title": "Axios"
+        },
+        {
+          "title": "rtk-query"
+        }
+      ]
+    },
+    {
+      "title": "API Calls"
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Playwright"
+        },
+        {
+          "title": "Vitest"
+        },
+        {
+          "title": "react-testing-library"
+        },
+        {
+          "title": "Jest"
+        },
+        {
+          "title": "Cypress"
+        }
+      ]
+    },
+    {
+      "title": "Forms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React Hook Form"
+        },
+        {
+          "title": "Formish"
+        },
+        {
+          "title": "Formik"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "react-router"
+        },
+        {
+          "title": "Astro"
+        },
+        {
+          "title": "Next.js"
+        }
+      ]
+    },
+    {
+      "title": "Types & Validation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TypeScript"
+        },
+        {
+          "title": "Zod"
+        },
+        {
+          "title": "Valibot"
+        }
+      ]
+    },
+    {
+      "title": "Animation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Framer Motion"
+        },
+        {
+          "title": "react spring"
+        },
+        {
+          "title": "GSock"
+        }
+      ]
+    },
+    {
+      "title": "Error Boundaries"
+    },
+    {
+      "title": "Server APIs"
+    },
+    {
+      "title": "Suspense"
+    },
+    {
+      "title": "Portals"
+    },
+    {
+      "title": "Mobile Applications",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "React Native"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "title": "Software Architect",
+  "topics": [
+    {
+      "title": "Understand the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Software Architecture"
+        },
+        {
+          "title": "What is a Software Architect"
+        },
+        {
+          "title": "Levels of Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Responsibilities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Application Architecture"
+        },
+        {
+          "title": "Solution Architecture"
+        },
+        {
+          "title": "Enterprise Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Important Skills to Learn",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Design & Architecture"
+        },
+        {
+          "title": "Decision Making"
+        },
+        {
+          "title": "Simplifying Things"
+        },
+        {
+          "title": "How to Code"
+        },
+        {
+          "title": "Documentation"
+        },
+        {
+          "title": "Communication"
+        },
+        {
+          "title": "Estimate and Evaluate"
+        },
+        {
+          "title": "Balance"
+        },
+        {
+          "title": "Consult & Coach"
+        },
+        {
+          "title": "Marketing Skills"
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills"
+    },
+    {
+      "title": "Programming Languages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Java / Kotlin / Scala / Swift"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Ruby"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "JavaScript / TypeScript"
+        },
+        {
+          "title": ".NET Framework Based"
+        }
+      ]
+    },
+    {
+      "title": "Patterns & Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MVC, MVP, MVVM"
+        },
+        {
+          "title": "CQRS, Eventual Consistency"
+        },
+        {
+          "title": "OOP"
+        },
+        {
+          "title": "Actors"
+        },
+        {
+          "title": "ACID, CAP Theorem"
+        },
+        {
+          "title": "SOLID"
+        },
+        {
+          "title": "TDD"
+        },
+        {
+          "title": "DDD"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        },
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Slack"
+        },
+        {
+          "title": "Trello"
+        },
+        {
+          "title": "Atlassian Tools"
+        }
+      ]
+    },
+    {
+      "title": "Tools (2)"
+    },
+    {
+      "title": "Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Microservices"
+        },
+        {
+          "title": "Serverless"
+        },
+        {
+          "title": "Client / Server"
+        },
+        {
+          "title": "Layered"
+        },
+        {
+          "title": "Distributed Systems"
+        },
+        {
+          "title": "Service Oriented"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hashing Algorithms"
+        },
+        {
+          "title": "PKI"
+        },
+        {
+          "title": "OWASP"
+        },
+        {
+          "title": "Auth Strategies"
+        }
+      ]
+    },
+    {
+      "title": "Working with Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hadoop, Spark, MapReduce"
+        },
+        {
+          "title": "ETL, Datawarehouses"
+        },
+        {
+          "title": "SQL Databases"
+        },
+        {
+          "title": "NoSQL Databases"
+        }
+      ]
+    },
+    {
+      "title": "APIs & Integrations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "gRPC"
+        },
+        {
+          "title": "Apache Spark"
+        },
+        {
+          "title": "Hadoop"
+        },
+        {
+          "title": "ESB, SOAP"
+        },
+        {
+          "title": "Datawarehouse Principles"
+        },
+        {
+          "title": "REST"
+        },
+        {
+          "title": "GraphQL"
+        },
+        {
+          "title": "BPM, BPEL"
+        },
+        {
+          "title": "Messaging Queues"
+        }
+      ]
+    },
+    {
+      "title": "Web, Mobile",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Reactive Programming"
+        },
+        {
+          "title": "Functional Programming"
+        },
+        {
+          "title": "React, Vue, Angular"
+        },
+        {
+          "title": "SPA, SSR, SSG"
+        },
+        {
+          "title": "Microfrontends"
+        },
+        {
+          "title": "W3C and WHATWG"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BABOK"
+        },
+        {
+          "title": "IAF"
+        },
+        {
+          "title": "UML"
+        },
+        {
+          "title": "TOGAF"
+        }
+      ]
+    },
+    {
+      "title": "Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PMI"
+        },
+        {
+          "title": "ITIL"
+        },
+        {
+          "title": "RUP"
+        },
+        {
+          "title": "Prince2"
+        },
+        {
+          "title": "LeSS"
+        },
+        {
+          "title": "SaFE"
+        },
+        {
+          "title": "XP"
+        },
+        {
+          "title": "Kanban"
+        },
+        {
+          "title": "Scrum"
+        }
+      ]
+    },
+    {
+      "title": "Networks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OSI"
+        },
+        {
+          "title": "TCP/IP Model"
+        },
+        {
+          "title": "HTTP, HTTPS"
+        },
+        {
+          "title": "Proxies"
+        },
+        {
+          "title": "Firewalls"
+        }
+      ]
+    },
+    {
+      "title": "Operations Knowledge",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Infrastructure as Code"
+        },
+        {
+          "title": "Cloud Providers"
+        },
+        {
+          "title": "Serverless Concepts"
+        },
+        {
+          "title": "Linux / Unix"
+        },
+        {
+          "title": "Service Mesh"
+        },
+        {
+          "title": "CI / CD"
+        },
+        {
+          "title": "Containers"
+        },
+        {
+          "title": "Cloud Design Patterns"
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Software",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MS Dynamics"
+        },
+        {
+          "title": "SAP ERP, HANA, Business Objects"
+        },
+        {
+          "title": "IBM BPM"
+        },
+        {
+          "title": "EMC DMS"
+        },
+        {
+          "title": "Salesforce"
+        }
+      ]
+    }
+  ]
+}

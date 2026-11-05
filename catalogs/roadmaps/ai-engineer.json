@@ -1,0 +1,643 @@
+{
+  "title": "AI Engineer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is an AI Engineer?"
+        },
+        {
+          "title": "Roles and Responsiblities"
+        },
+        {
+          "title": "Impact on Product Development"
+        },
+        {
+          "title": "AI Engineer vs ML Engineer"
+        },
+        {
+          "title": "AI vs AGI"
+        },
+        {
+          "title": "Large Language Model (LLM)"
+        },
+        {
+          "title": "Training"
+        },
+        {
+          "title": "Embeddings"
+        },
+        {
+          "title": "Inference"
+        },
+        {
+          "title": "Vector DBs"
+        },
+        {
+          "title": "RAGs"
+        },
+        {
+          "title": "AI Agents"
+        },
+        {
+          "title": "Context Window"
+        },
+        {
+          "title": "Fine-tuning"
+        },
+        {
+          "title": "Prompt Engineering"
+        },
+        {
+          "title": "Inference Engineering"
+        },
+        {
+          "title": "Context Engineering"
+        }
+      ]
+    },
+    {
+      "title": "How LLMs Work",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tokens"
+        },
+        {
+          "title": "Context"
+        },
+        {
+          "title": "Sampling Parameters"
+        },
+        {
+          "title": "Temperature"
+        },
+        {
+          "title": "Top-K"
+        },
+        {
+          "title": "Top-P"
+        },
+        {
+          "title": "Repetition Penalties"
+        }
+      ]
+    },
+    {
+      "title": "Prompt Engineering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Input Format"
+        },
+        {
+          "title": "Context vs Prompt Eng."
+        },
+        {
+          "title": "System Prompting"
+        },
+        {
+          "title": "What is a Context Layer?"
+        },
+        {
+          "title": "Context Sources"
+        },
+        {
+          "title": "MCP"
+        },
+        {
+          "title": "Role & Behavior"
+        },
+        {
+          "title": "Context Security"
+        },
+        {
+          "title": "Context"
+        },
+        {
+          "title": "Constraints"
+        },
+        {
+          "title": "Structured Output"
+        },
+        {
+          "title": "Context Evaluation"
+        },
+        {
+          "title": "Zero-Shot"
+        },
+        {
+          "title": "Few-Shot"
+        },
+        {
+          "title": "RAG & Dynamic Filters"
+        },
+        {
+          "title": "ReAct"
+        },
+        {
+          "title": "CoT"
+        },
+        {
+          "title": "Memory Systems"
+        },
+        {
+          "title": "Context Compaction"
+        },
+        {
+          "title": "Function Calling"
+        },
+        {
+          "title": "Long-Context Processing"
+        },
+        {
+          "title": "Prompt Caching"
+        },
+        {
+          "title": "State & Historical Context"
+        },
+        {
+          "title": "Streaming Responses"
+        },
+        {
+          "title": "Multi-agent Context Sharing"
+        },
+        {
+          "title": "Context Isolation"
+        },
+        {
+          "title": "Context Failure Modes"
+        },
+        {
+          "title": "modus"
+        },
+        {
+          "title": "DataHub"
+        },
+        {
+          "title": "PostHog"
+        },
+        {
+          "title": "Atlan"
+        }
+      ]
+    },
+    {
+      "title": "Context Engineering"
+    },
+    {
+      "title": "Type of Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pre-trained Models"
+        },
+        {
+          "title": "Closed vs Open Source Models"
+        },
+        {
+          "title": "Self-Hosted Models"
+        }
+      ]
+    },
+    {
+      "title": "Hugging Face",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hugging Face Tasks"
+        },
+        {
+          "title": "Hugging Face Hub"
+        },
+        {
+          "title": "Transformers.js"
+        },
+        {
+          "title": "OpenAI Response API"
+        },
+        {
+          "title": "Claude Messages API"
+        },
+        {
+          "title": "Google Gemini APi"
+        },
+        {
+          "title": "Hugging Face Inference SDK"
+        },
+        {
+          "title": "OpenAI-compatible APIs"
+        }
+      ]
+    },
+    {
+      "title": "Choosing the Right Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Anthropic Claude"
+        },
+        {
+          "title": "Google Gemini"
+        },
+        {
+          "title": "OpenAI (GPT, o-series)"
+        },
+        {
+          "title": "Mistral"
+        },
+        {
+          "title": "Cohere"
+        },
+        {
+          "title": "Meta Llama"
+        },
+        {
+          "title": "DeepSeek"
+        },
+        {
+          "title": "Gemma"
+        },
+        {
+          "title": "Qwen"
+        }
+      ]
+    },
+    {
+      "title": "Ollama"
+    },
+    {
+      "title": "LM Studio"
+    },
+    {
+      "title": "OpenRouter"
+    },
+    {
+      "title": "What are Embeddings",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Semantic Search"
+        },
+        {
+          "title": "Data Classification"
+        },
+        {
+          "title": "Recommendation Systems"
+        },
+        {
+          "title": "Anomaly Detection"
+        }
+      ]
+    },
+    {
+      "title": "Embedding Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Open AI Embeddings API"
+        },
+        {
+          "title": "Purpose and Functionality"
+        },
+        {
+          "title": "Gemini Embedding"
+        },
+        {
+          "title": "Cohere"
+        },
+        {
+          "title": "Chroma"
+        },
+        {
+          "title": "Pinecone"
+        },
+        {
+          "title": "Weaviate"
+        },
+        {
+          "title": "FAISS"
+        },
+        {
+          "title": "Sentence Transformers"
+        },
+        {
+          "title": "LanceDB"
+        },
+        {
+          "title": "Qdrant"
+        },
+        {
+          "title": "Models on Hugging Face"
+        },
+        {
+          "title": "Supabase"
+        },
+        {
+          "title": "Jina"
+        },
+        {
+          "title": "MongoDB Atlas"
+        },
+        {
+          "title": "Indexing Embeddings"
+        },
+        {
+          "title": "Performing Similarity Search"
+        }
+      ]
+    },
+    {
+      "title": "Vector Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "RAG Usecases"
+        }
+      ]
+    },
+    {
+      "title": "What are RAGs?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "RAG vs Fine-tuning"
+        },
+        {
+          "title": "Chunking"
+        },
+        {
+          "title": "Embedding"
+        },
+        {
+          "title": "Vector Database"
+        },
+        {
+          "title": "Retrieval Process"
+        },
+        {
+          "title": "Generation"
+        },
+        {
+          "title": "Using SDKs Directly"
+        },
+        {
+          "title": "Langchain"
+        },
+        {
+          "title": "Llama Index"
+        },
+        {
+          "title": "Haystack"
+        },
+        {
+          "title": "RAGFlow"
+        }
+      ]
+    },
+    {
+      "title": "AI Agents",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Agents Usecases"
+        },
+        {
+          "title": "ReAct Prompting"
+        },
+        {
+          "title": "Tools & Function Calling"
+        },
+        {
+          "title": "Multi-agents"
+        },
+        {
+          "title": "Manual Implementation"
+        },
+        {
+          "title": "OpenAI AgentKit & Agent SDK"
+        },
+        {
+          "title": "Claude Agent SDK"
+        },
+        {
+          "title": "Vertex AI Agent Builder"
+        },
+        {
+          "title": "Google ADK"
+        }
+      ]
+    },
+    {
+      "title": "Model Context Protocol (MCP)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MCP Host"
+        },
+        {
+          "title": "MCP Client"
+        },
+        {
+          "title": "MCP Server"
+        },
+        {
+          "title": "Data Layer"
+        },
+        {
+          "title": "Transport Layer"
+        },
+        {
+          "title": "Building an MCP Server"
+        },
+        {
+          "title": "Building an MCP Client"
+        },
+        {
+          "title": "Connect to Local Server"
+        },
+        {
+          "title": "Connect to Remote Server"
+        }
+      ]
+    },
+    {
+      "title": "AI Safety and Ethics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prompt Injection Attacks"
+        },
+        {
+          "title": "Security and Privacy Concerns"
+        },
+        {
+          "title": "Bias and Fairness"
+        },
+        {
+          "title": "Content Moderation APIs"
+        },
+        {
+          "title": "Adding end-user IDs in prompts"
+        },
+        {
+          "title": "Conducting adversarial testing"
+        },
+        {
+          "title": "Robust prompt engineering"
+        },
+        {
+          "title": "Know your Customers / Usecases"
+        },
+        {
+          "title": "Constraining outputs and inputs"
+        }
+      ]
+    },
+    {
+      "title": "LLM Observability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tracing & logging"
+        },
+        {
+          "title": "Cost/latency monitoring"
+        },
+        {
+          "title": "Production monitoring"
+        },
+        {
+          "title": "LangSmith"
+        },
+        {
+          "title": "Langfuse"
+        },
+        {
+          "title": "Helicone"
+        },
+        {
+          "title": "Arize AI"
+        }
+      ]
+    },
+    {
+      "title": "LLM Evaluations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Deterministic Evals"
+        },
+        {
+          "title": "Model-Based Evals"
+        },
+        {
+          "title": "Human Evals"
+        },
+        {
+          "title": "Evaluation Metrics"
+        },
+        {
+          "title": "DeepEval"
+        },
+        {
+          "title": "RAGAS"
+        }
+      ]
+    },
+    {
+      "title": "Regression Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Multimodal AI Usecases"
+        },
+        {
+          "title": "Image Understanding"
+        },
+        {
+          "title": "Image Generation"
+        },
+        {
+          "title": "Video Understanding"
+        },
+        {
+          "title": "Audio Processing"
+        },
+        {
+          "title": "Text-to-Speech"
+        },
+        {
+          "title": "Speech-to-Text"
+        },
+        {
+          "title": "OpenAI Vision API"
+        },
+        {
+          "title": "DALL-E API"
+        },
+        {
+          "title": "NanoBanana API"
+        },
+        {
+          "title": "Whisper API"
+        },
+        {
+          "title": "Hugging Face Models"
+        },
+        {
+          "title": "LangChain for Multimodal Apps"
+        },
+        {
+          "title": "LlamaIndex for Multimodal Apps"
+        }
+      ]
+    },
+    {
+      "title": "Multimodal AI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Claude Code"
+        },
+        {
+          "title": "Gemini"
+        },
+        {
+          "title": "Codex"
+        },
+        {
+          "title": "Cursor"
+        },
+        {
+          "title": "OpenCode"
+        },
+        {
+          "title": "Replit"
+        }
+      ]
+    },
+    {
+      "title": "Development Tools"
+    }
+  ]
+}

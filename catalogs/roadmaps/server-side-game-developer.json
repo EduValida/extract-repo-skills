@@ -1,0 +1,589 @@
+{
+  "title": "Server Side Game Developer",
+  "topics": [
+    {
+      "title": "Server-Side Development"
+    },
+    {
+      "title": "TCP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checksum"
+        },
+        {
+          "title": "Segment Structure"
+        },
+        {
+          "title": "Vulnerability"
+        },
+        {
+          "title": "Max Segment Size"
+        },
+        {
+          "title": "Window Scaling"
+        },
+        {
+          "title": "Denial of Service"
+        },
+        {
+          "title": "Connection"
+        },
+        {
+          "title": "Connection Hijacking"
+        },
+        {
+          "title": "Resource Usage"
+        },
+        {
+          "title": "Veto"
+        },
+        {
+          "title": "Max Segment Scaling"
+        },
+        {
+          "title": "Timestamp"
+        },
+        {
+          "title": "Congestion Control"
+        },
+        {
+          "title": "Data Transfer"
+        },
+        {
+          "title": "Reliable Transmission"
+        },
+        {
+          "title": "Out-of-Band Data"
+        },
+        {
+          "title": "Selective Ack."
+        }
+      ]
+    },
+    {
+      "title": "UDP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Reliability"
+        },
+        {
+          "title": "Datagram"
+        },
+        {
+          "title": "Congestion Control"
+        },
+        {
+          "title": "Checksum"
+        },
+        {
+          "title": "Packet Structure"
+        }
+      ]
+    },
+    {
+      "title": "TCP vs UDP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ordered vs Unordered"
+        },
+        {
+          "title": "Heavy vs Lightweight"
+        },
+        {
+          "title": "Packet vs Datagram"
+        },
+        {
+          "title": "Reliable vs Unreliable"
+        },
+        {
+          "title": "Streaming vs Broadcast"
+        },
+        {
+          "title": "Flow Control"
+        },
+        {
+          "title": "Error Detection"
+        }
+      ]
+    },
+    {
+      "title": "IP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Capability"
+        },
+        {
+          "title": "Reliability"
+        },
+        {
+          "title": "Link Capacity"
+        },
+        {
+          "title": "ARP"
+        },
+        {
+          "title": "DNS"
+        },
+        {
+          "title": "DHCP"
+        },
+        {
+          "title": "IPv6"
+        }
+      ]
+    },
+    {
+      "title": "Transactions"
+    },
+    {
+      "title": "Programming Languages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C#"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "C/C++"
+        },
+        {
+          "title": "Erlang"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Go"
+        }
+      ]
+    },
+    {
+      "title": "Category",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IPv4"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TLS"
+        }
+      ]
+    },
+    {
+      "title": "Socket Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Byte Manipulation"
+        },
+        {
+          "title": "Address Conversion"
+        },
+        {
+          "title": "Descriptor"
+        },
+        {
+          "title": "API"
+        },
+        {
+          "title": "BSD Socket"
+        },
+        {
+          "title": "Winsock"
+        }
+      ]
+    },
+    {
+      "title": "Function",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Datagram Construction"
+        },
+        {
+          "title": "Sharding"
+        },
+        {
+          "title": "IP Addressing"
+        },
+        {
+          "title": "Routing"
+        },
+        {
+          "title": "Fiber"
+        }
+      ]
+    },
+    {
+      "title": "Serialization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JSON"
+        },
+        {
+          "title": "TOML"
+        },
+        {
+          "title": "XML"
+        },
+        {
+          "title": "YAML"
+        },
+        {
+          "title": "Protobuf"
+        }
+      ]
+    },
+    {
+      "title": "Multithreading",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Thread Local Storage"
+        },
+        {
+          "title": "Windows"
+        },
+        {
+          "title": "pthread"
+        },
+        {
+          "title": "Redis"
+        },
+        {
+          "title": "Memcached"
+        }
+      ]
+    },
+    {
+      "title": "Synchronization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Condition Variable"
+        },
+        {
+          "title": "Spinlock"
+        },
+        {
+          "title": "Barrier"
+        },
+        {
+          "title": "Future & Promises"
+        },
+        {
+          "title": "Channel"
+        },
+        {
+          "title": "Mutex"
+        },
+        {
+          "title": "Semaphore"
+        }
+      ]
+    },
+    {
+      "title": "Programming Techniques",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Design Patterns"
+        },
+        {
+          "title": "TDD"
+        },
+        {
+          "title": "Dependency Injection"
+        },
+        {
+          "title": "Dump Analysis"
+        },
+        {
+          "title": "Functional Programming"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MS SQL"
+        },
+        {
+          "title": "DynamoDB"
+        },
+        {
+          "title": "Coroutine"
+        },
+        {
+          "title": "MySQL"
+        },
+        {
+          "title": "MongoDB"
+        },
+        {
+          "title": "ORM"
+        },
+        {
+          "title": "PostgreSQL"
+        },
+        {
+          "title": "Cassandra"
+        },
+        {
+          "title": "DAL"
+        },
+        {
+          "title": "Couchbase"
+        },
+        {
+          "title": "SSL"
+        }
+      ]
+    },
+    {
+      "title": "Cipher",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Thread Building Block (C++)"
+        },
+        {
+          "title": "Concurrency (Java)"
+        },
+        {
+          "title": "Update Process"
+        },
+        {
+          "title": "Determinism"
+        }
+      ]
+    },
+    {
+      "title": "RPC / REST",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "REST"
+        },
+        {
+          "title": "gRPC"
+        },
+        {
+          "title": "FRP"
+        }
+      ]
+    },
+    {
+      "title": "Message Queues",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apache Kafka"
+        },
+        {
+          "title": "RabbitMQ"
+        }
+      ]
+    },
+    {
+      "title": "Task-Based",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Asnc-await (C#)"
+        },
+        {
+          "title": "goroutine (Go)"
+        }
+      ]
+    },
+    {
+      "title": "Reactive Approach",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OORP"
+        }
+      ]
+    },
+    {
+      "title": "Reactive Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Synchrony"
+        }
+      ]
+    },
+    {
+      "title": "Reactive Approach (2)"
+    },
+    {
+      "title": "Multithreading (2)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Serverless"
+        }
+      ]
+    },
+    {
+      "title": "Asynchronous"
+    },
+    {
+      "title": "Actor Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Akk.net (C#)"
+        },
+        {
+          "title": "Akka (Java)"
+        }
+      ]
+    },
+    {
+      "title": "Proactor",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IOCP"
+        },
+        {
+          "title": "io_uring"
+        },
+        {
+          "title": "select"
+        },
+        {
+          "title": "epoll"
+        },
+        {
+          "title": "Registered IO"
+        }
+      ]
+    },
+    {
+      "title": "Reactor",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "WSA Poll"
+        },
+        {
+          "title": "kqueue"
+        }
+      ]
+    },
+    {
+      "title": "Containerization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker"
+        },
+        {
+          "title": "Docker Compose"
+        }
+      ]
+    },
+    {
+      "title": "Cloud",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Azure"
+        },
+        {
+          "title": "GCP"
+        },
+        {
+          "title": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "Data Clustering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apache Spark"
+        }
+      ]
+    },
+    {
+      "title": "AI"
+    },
+    {
+      "title": "Cloud ML",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "Amazon ML"
+        },
+        {
+          "title": "Azure ML"
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TensorFlow"
+        },
+        {
+          "title": "Pytorch"
+        }
+      ]
+    }
+  ]
+}

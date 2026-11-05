@@ -1,0 +1,363 @@
+{
+  "title": "Ruby on Rails",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How the web works"
+        },
+        {
+          "title": "Why Web Frameworks?"
+        },
+        {
+          "title": "MVC architecture"
+        },
+        {
+          "title": "Create an App"
+        },
+        {
+          "title": "Rails & Frontend"
+        },
+        {
+          "title": "Rails Command Line"
+        },
+        {
+          "title": "Rails Generators"
+        },
+        {
+          "title": "app"
+        },
+        {
+          "title": "bin"
+        },
+        {
+          "title": "config"
+        },
+        {
+          "title": "db"
+        },
+        {
+          "title": "Gemfile"
+        },
+        {
+          "title": "public"
+        }
+      ]
+    },
+    {
+      "title": "Setting up Ruby on Rails",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hotwire"
+        },
+        {
+          "title": "RESTful Routes"
+        }
+      ]
+    },
+    {
+      "title": "Request Reponse Flow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nested Routes"
+        }
+      ]
+    },
+    {
+      "title": "Routing Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Non-RESTful Routes"
+        },
+        {
+          "title": "Redirects"
+        },
+        {
+          "title": "Constraints"
+        }
+      ]
+    },
+    {
+      "title": "Controllers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Controllers"
+        },
+        {
+          "title": "Controller Actions"
+        },
+        {
+          "title": "(Strong) Parameters"
+        },
+        {
+          "title": "Controller Callbacks (filters)"
+        },
+        {
+          "title": "Sessions"
+        },
+        {
+          "title": "Cookies"
+        },
+        {
+          "title": "Basic Queries"
+        },
+        {
+          "title": "Conditions"
+        },
+        {
+          "title": "Ordering"
+        },
+        {
+          "title": "Joins"
+        },
+        {
+          "title": "Aggregations"
+        },
+        {
+          "title": "Scopes"
+        },
+        {
+          "title": "Raw SQL"
+        },
+        {
+          "title": "Query Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Named Routes"
+        },
+        {
+          "title": "Customizing Routes"
+        },
+        {
+          "title": "Inspecting Routes"
+        },
+        {
+          "title": "Creating Models"
+        },
+        {
+          "title": "Data Types"
+        },
+        {
+          "title": "Model Methods"
+        },
+        {
+          "title": "Model Relationships"
+        },
+        {
+          "title": "Validations"
+        },
+        {
+          "title": "Callbacks"
+        }
+      ]
+    },
+    {
+      "title": "Active Record"
+    },
+    {
+      "title": "Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Migrations"
+        },
+        {
+          "title": "PostgreSQL"
+        },
+        {
+          "title": "SQLite"
+        },
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "MariaDB"
+        },
+        {
+          "title": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Action Views",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ERB Templates"
+        },
+        {
+          "title": "Rendering Views"
+        },
+        {
+          "title": "form_for"
+        },
+        {
+          "title": "form_with"
+        },
+        {
+          "title": "Layouts & yield"
+        },
+        {
+          "title": "Form Elements"
+        },
+        {
+          "title": "Partials"
+        },
+        {
+          "title": "Helpers"
+        },
+        {
+          "title": "ViewComponent"
+        },
+        {
+          "title": "Phlex"
+        },
+        {
+          "title": "Nested Forms"
+        },
+        {
+          "title": "Form Validation"
+        }
+      ]
+    },
+    {
+      "title": "Pagination",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pagy"
+        },
+        {
+          "title": "Kaminari"
+        }
+      ]
+    },
+    {
+      "title": "Caching"
+    },
+    {
+      "title": "Assets Pipeline",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Advanced Asset Management"
+        }
+      ]
+    },
+    {
+      "title": "Authentication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Devise"
+        }
+      ]
+    },
+    {
+      "title": "Authorization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pundit"
+        },
+        {
+          "title": "CanCanCan"
+        }
+      ]
+    },
+    {
+      "title": "Logging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Rails Logger"
+        }
+      ]
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pry"
+        },
+        {
+          "title": "debug"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Minitest"
+        },
+        {
+          "title": "RSpec"
+        },
+        {
+          "title": "Factory Bot"
+        },
+        {
+          "title": "Capybara"
+        }
+      ]
+    },
+    {
+      "title": "Plugins & Engines"
+    },
+    {
+      "title": "Mailbox & Mailer"
+    },
+    {
+      "title": "Background Jobs"
+    },
+    {
+      "title": "Security"
+    },
+    {
+      "title": "Storage"
+    },
+    {
+      "title": "Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kamal"
+        }
+      ]
+    },
+    {
+      "title": "Rails Internationalization"
+    }
+  ]
+}

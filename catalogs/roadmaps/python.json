@@ -1,0 +1,318 @@
+{
+  "title": "Python Developer",
+  "topics": [
+    {
+      "title": "Learn the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Tuples"
+        },
+        {
+          "title": "Sets"
+        },
+        {
+          "title": "Basic Syntax"
+        },
+        {
+          "title": "Dictionaries"
+        },
+        {
+          "title": "Variables and Data Types"
+        },
+        {
+          "title": "Type Casting"
+        },
+        {
+          "title": "@"
+        },
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "Functions, Builtin Functions"
+        },
+        {
+          "title": "Working with Strings"
+        },
+        {
+          "title": "Exceptions"
+        },
+        {
+          "title": "Conditionals"
+        },
+        {
+          "title": "Comments"
+        },
+        {
+          "title": "Type Annot."
+        },
+        {
+          "title": "Loops"
+        }
+      ]
+    },
+    {
+      "title": "Data Structures & Algorithms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PyPI"
+        },
+        {
+          "title": "Pip"
+        },
+        {
+          "title": "Conda"
+        },
+        {
+          "title": "uv"
+        },
+        {
+          "title": "Arrays and Linked Lists"
+        },
+        {
+          "title": "pdm"
+        },
+        {
+          "title": "HashMaps"
+        },
+        {
+          "title": "Heaps, Stacks and Queues"
+        },
+        {
+          "title": "Binary Search Tree"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Sorting Algorithms"
+        }
+      ]
+    },
+    {
+      "title": "Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Builtin"
+        },
+        {
+          "title": "Custom"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling"
+    },
+    {
+      "title": "Lambdas"
+    },
+    {
+      "title": "Decorators"
+    },
+    {
+      "title": "Package Managers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Poetry"
+        }
+      ]
+    },
+    {
+      "title": "Iterators"
+    },
+    {
+      "title": "Common Packages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pyproject.toml"
+        }
+      ]
+    },
+    {
+      "title": "Regular Expressions"
+    },
+    {
+      "title": "Variable Scope",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pipenv"
+        },
+        {
+          "title": "virtualenv"
+        },
+        {
+          "title": "pyenv"
+        }
+      ]
+    },
+    {
+      "title": "Object Oriented Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Classes"
+        },
+        {
+          "title": "Methods"
+        },
+        {
+          "title": "Inheritance"
+        },
+        {
+          "title": "Encapsulation"
+        }
+      ]
+    },
+    {
+      "title": "List Comprehensions"
+    },
+    {
+      "title": "Generator Expressions"
+    },
+    {
+      "title": "Paradigms"
+    },
+    {
+      "title": "Context Manager"
+    },
+    {
+      "title": "Static Typing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "typing"
+        },
+        {
+          "title": "mypy"
+        },
+        {
+          "title": "pyright"
+        },
+        {
+          "title": "pyre"
+        },
+        {
+          "title": "Pydantic"
+        }
+      ]
+    },
+    {
+      "title": "Learn a Framework",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "gevent"
+        },
+        {
+          "title": "aiohttp"
+        },
+        {
+          "title": "Plotly Dash"
+        },
+        {
+          "title": "Tornado"
+        },
+        {
+          "title": "Sanic"
+        },
+        {
+          "title": "Pyramid"
+        },
+        {
+          "title": "Fast API"
+        },
+        {
+          "title": "Django"
+        },
+        {
+          "title": "Flask"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Multiprocessing"
+        },
+        {
+          "title": "Asynchrony"
+        },
+        {
+          "title": "GIL"
+        },
+        {
+          "title": "Threading"
+        }
+      ]
+    },
+    {
+      "title": "Code Formatting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "yapf"
+        },
+        {
+          "title": "black"
+        },
+        {
+          "title": "ruff"
+        },
+        {
+          "title": "Sphinx"
+        }
+      ]
+    },
+    {
+      "title": "File Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "glob"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "tox"
+        },
+        {
+          "title": "unittest / pyUnit"
+        },
+        {
+          "title": "doctest"
+        },
+        {
+          "title": "pytest"
+        }
+      ]
+    }
+  ]
+}

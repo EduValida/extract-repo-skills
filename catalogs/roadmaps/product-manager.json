@@ -1,0 +1,657 @@
+{
+  "title": "Product Manager",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Product Development Lifecycle"
+        },
+        {
+          "title": "Development"
+        },
+        {
+          "title": "What is Product Management?"
+        },
+        {
+          "title": "Introduction"
+        },
+        {
+          "title": "Product vs Project Management"
+        },
+        {
+          "title": "Growth"
+        },
+        {
+          "title": "Roles and Responsibilities"
+        },
+        {
+          "title": "Maturity"
+        },
+        {
+          "title": "Key Skills"
+        },
+        {
+          "title": "Decline"
+        },
+        {
+          "title": "Mind Mapping"
+        },
+        {
+          "title": "Brainwriting"
+        },
+        {
+          "title": "SCAMPER"
+        }
+      ]
+    },
+    {
+      "title": "Product Identification",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Brainstorming Techniques"
+        },
+        {
+          "title": "Iterative Process"
+        },
+        {
+          "title": "Blue Ocean Strategy"
+        },
+        {
+          "title": "Selection"
+        },
+        {
+          "title": "Discovery"
+        },
+        {
+          "title": "TRIZ (Theory of Inventive Problem Solving)"
+        },
+        {
+          "title": "Validation"
+        },
+        {
+          "title": "Problem Framing"
+        },
+        {
+          "title": "Execution"
+        }
+      ]
+    },
+    {
+      "title": "Market Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Identifying Market Needs"
+        },
+        {
+          "title": "Competitive Analysis"
+        },
+        {
+          "title": "Emerging Market Trends"
+        }
+      ]
+    },
+    {
+      "title": "User Research",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "User Personas"
+        },
+        {
+          "title": "User Interviews"
+        },
+        {
+          "title": "Surveys and Questionnaires"
+        },
+        {
+          "title": "Ethnographic Research"
+        }
+      ]
+    },
+    {
+      "title": "Positioning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "USP (Unique Selling Point)"
+        },
+        {
+          "title": "Market Segmentation"
+        },
+        {
+          "title": "Case Studies"
+        }
+      ]
+    },
+    {
+      "title": "Vision & Mission",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Statement"
+        },
+        {
+          "title": "Proposition"
+        },
+        {
+          "title": "Capabilities"
+        },
+        {
+          "title": "Solved Constraints"
+        },
+        {
+          "title": "Future Constraints"
+        },
+        {
+          "title": "Reference Materials"
+        },
+        {
+          "title": "Narrative"
+        }
+      ]
+    },
+    {
+      "title": "Value vs Features",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Feature Creep"
+        },
+        {
+          "title": "Finding Balance"
+        }
+      ]
+    },
+    {
+      "title": "Strategic Thinking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Competitive Strategy"
+        },
+        {
+          "title": "Five Forces Analysis"
+        },
+        {
+          "title": "Competetive Advantage"
+        },
+        {
+          "title": "Strategic Partners"
+        },
+        {
+          "title": "Identify Partners"
+        },
+        {
+          "title": "Managing Partnerships"
+        }
+      ]
+    },
+    {
+      "title": "Value Proposition",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Defining Value Proposition"
+        },
+        {
+          "title": "Value Proposition Canvas"
+        }
+      ]
+    },
+    {
+      "title": "Defining Goals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Target"
+        },
+        {
+          "title": "Baseline"
+        },
+        {
+          "title": "Trend"
+        },
+        {
+          "title": "Timeframe"
+        }
+      ]
+    },
+    {
+      "title": "Product Requirements",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Writing PRDs"
+        },
+        {
+          "title": "User Stories"
+        },
+        {
+          "title": "Job Stories"
+        }
+      ]
+    },
+    {
+      "title": "Product Roadmap",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating a Roadmap"
+        },
+        {
+          "title": "Prioritising Features"
+        },
+        {
+          "title": "Continuous Roadmapping"
+        },
+        {
+          "title": "Outcome-Based Roadmaps"
+        },
+        {
+          "title": "Communicating the Roadmap"
+        }
+      ]
+    },
+    {
+      "title": "Backlog Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prioritization Techniques"
+        },
+        {
+          "title": "Grooming Sessions"
+        },
+        {
+          "title": "User Story Mapping"
+        }
+      ]
+    },
+    {
+      "title": "Release Strategies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Feature Toggles"
+        },
+        {
+          "title": "Phased Rollouts"
+        },
+        {
+          "title": "Dark Launches"
+        }
+      ]
+    },
+    {
+      "title": "UX / UI Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Principles of UX Design"
+        },
+        {
+          "title": "Wireframing and Prototyping"
+        },
+        {
+          "title": "Design Thinking"
+        }
+      ]
+    },
+    {
+      "title": "Service Design"
+    },
+    {
+      "title": "Interaction Design"
+    },
+    {
+      "title": "Go-to-Market Strategy",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Launch Planning"
+        },
+        {
+          "title": "Marketing Strategies"
+        },
+        {
+          "title": "Growth Hacking"
+        }
+      ]
+    },
+    {
+      "title": "User Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Usability Testing"
+        },
+        {
+          "title": "A/B Testing"
+        },
+        {
+          "title": "Remote User Testing"
+        },
+        {
+          "title": "Scrum Basics"
+        }
+      ]
+    },
+    {
+      "title": "Working with Engineering Teams",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sprint Planning"
+        },
+        {
+          "title": "Daily Standups"
+        },
+        {
+          "title": "Retrospectives"
+        },
+        {
+          "title": "Minimum Viable Product (MVP)"
+        }
+      ]
+    },
+    {
+      "title": "Agile Methodology",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kanban Basics"
+        }
+      ]
+    },
+    {
+      "title": "Key Product Metrics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DAU (Daily Active Users)"
+        },
+        {
+          "title": "MAU (Monthly Active Users)"
+        },
+        {
+          "title": "Conversion Rate"
+        },
+        {
+          "title": "Retention Rate"
+        },
+        {
+          "title": "Churn Rate"
+        },
+        {
+          "title": "LTV (Lifetime Value)"
+        },
+        {
+          "title": "CAC (Customer Acquisition Cost)"
+        },
+        {
+          "title": "North Star Metric"
+        }
+      ]
+    },
+    {
+      "title": "Data-Driven Decision Making",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "A/B Testing"
+        },
+        {
+          "title": "Cohort Analysis"
+        },
+        {
+          "title": "Predictive Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Feedback Loops"
+    },
+    {
+      "title": "Communication Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Interpersonal"
+        },
+        {
+          "title": "Communication Techniques"
+        },
+        {
+          "title": "Difficult Conversations"
+        },
+        {
+          "title": "Active Listening"
+        },
+        {
+          "title": "Conflict Resolution"
+        }
+      ]
+    },
+    {
+      "title": "Managing Stakeholders",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Business"
+        },
+        {
+          "title": "Alignment & Buy-In"
+        },
+        {
+          "title": "Showing Impact"
+        },
+        {
+          "title": "Identifying Stakeholders"
+        },
+        {
+          "title": "Stakeholder Mapping"
+        },
+        {
+          "title": "Stakeholder Engagement"
+        },
+        {
+          "title": "Remote Stakeholders"
+        }
+      ]
+    },
+    {
+      "title": "Roadmapping Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Product Board"
+        },
+        {
+          "title": "Aha"
+        },
+        {
+          "title": "Notion"
+        }
+      ]
+    },
+    {
+      "title": "Project Management Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jira"
+        },
+        {
+          "title": "Linear"
+        },
+        {
+          "title": "Trello"
+        }
+      ]
+    },
+    {
+      "title": "Analytics Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Amplitude"
+        },
+        {
+          "title": "Heap"
+        },
+        {
+          "title": "Looker"
+        }
+      ]
+    },
+    {
+      "title": "Communication Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Slack"
+        },
+        {
+          "title": "Teams"
+        },
+        {
+          "title": "Discord"
+        }
+      ]
+    },
+    {
+      "title": "Identifying Risks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Risk Identification Techniques"
+        },
+        {
+          "title": "Risk Register"
+        }
+      ]
+    },
+    {
+      "title": "Risk Assessment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Qualitative Risk Assessment"
+        },
+        {
+          "title": "Quantitative Risk Assessment"
+        }
+      ]
+    },
+    {
+      "title": "Risk Mitigation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mitigation Strategies"
+        },
+        {
+          "title": "Contingency Planning"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring and Controlling Risks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Risk Monitoring Tools"
+        },
+        {
+          "title": "Risk Audits"
+        }
+      ]
+    },
+    {
+      "title": "Scaling Products",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Growth Strategies"
+        },
+        {
+          "title": "Internationalization"
+        },
+        {
+          "title": "Platform Thinking"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Predictive Analytics"
+        },
+        {
+          "title": "ML in Product Mgmt."
+        },
+        {
+          "title": "AI in Product Mgmt."
+        }
+      ]
+    },
+    {
+      "title": "Portfolio Management"
+    },
+    {
+      "title": "Leadership and Influence",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Building and Leading Teams"
+        },
+        {
+          "title": "Influencing without Authority"
+        },
+        {
+          "title": "Emotional Intelligence"
+        }
+      ]
+    }
+  ]
+}

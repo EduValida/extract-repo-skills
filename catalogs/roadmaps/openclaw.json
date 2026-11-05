@@ -1,0 +1,370 @@
+{
+  "title": "OpenClaw",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gateway"
+        },
+        {
+          "title": "Agents"
+        },
+        {
+          "title": "Agent Loop"
+        },
+        {
+          "title": "OpenClaw vs Claude Code"
+        },
+        {
+          "title": "Context Window"
+        },
+        {
+          "title": "Use cases"
+        },
+        {
+          "title": "Channels"
+        },
+        {
+          "title": "Skills"
+        },
+        {
+          "title": "Memory System"
+        },
+        {
+          "title": "Proactive Core"
+        }
+      ]
+    },
+    {
+      "title": "How OpenClaw Works"
+    },
+    {
+      "title": "Setting up OpenClaw"
+    },
+    {
+      "title": "Local Machine",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Anthropic"
+        },
+        {
+          "title": "Gemini"
+        },
+        {
+          "title": "AGENTS.md"
+        },
+        {
+          "title": "USER.md"
+        }
+      ]
+    },
+    {
+      "title": "VPS/Cloud",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why and Why not?"
+        },
+        {
+          "title": "Why and Why not? (2)"
+        },
+        {
+          "title": "Why and Why not? (3)"
+        },
+        {
+          "title": "Security Best Practices"
+        },
+        {
+          "title": "Raspberry Pi"
+        },
+        {
+          "title": "Mac Mini"
+        },
+        {
+          "title": "Security Best Practices (2)"
+        },
+        {
+          "title": "Pick a Provider"
+        }
+      ]
+    },
+    {
+      "title": "Dedicated Hardware",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Telegram"
+        },
+        {
+          "title": "WhatsApp"
+        },
+        {
+          "title": "iMessage"
+        },
+        {
+          "title": "Slack"
+        }
+      ]
+    },
+    {
+      "title": "Installation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker"
+        }
+      ]
+    },
+    {
+      "title": "Onboarding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OpenAI"
+        },
+        {
+          "title": "Ollama"
+        },
+        {
+          "title": "Auth & Model Providers"
+        },
+        {
+          "title": "Adding First Channel"
+        },
+        {
+          "title": "Workspace Settings"
+        },
+        {
+          "title": "SOUL.md"
+        },
+        {
+          "title": "Gateway Settings"
+        },
+        {
+          "title": "MEMORY.md"
+        },
+        {
+          "title": "Adding Daemon"
+        },
+        {
+          "title": "memory/YYYY-MM-DD.md"
+        },
+        {
+          "title": "Other Workspace Files"
+        }
+      ]
+    },
+    {
+      "title": "Hooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Discord"
+        },
+        {
+          "title": "Signal"
+        },
+        {
+          "title": "Hook Structure"
+        },
+        {
+          "title": "Event Types"
+        },
+        {
+          "title": "Securing Webhooks"
+        },
+        {
+          "title": "Interval & Active Hours"
+        },
+        {
+          "title": "HEARTBEAT.md"
+        },
+        {
+          "title": "Managing & Disabling Jobs"
+        }
+      ]
+    },
+    {
+      "title": "Webhooks"
+    },
+    {
+      "title": "Usage Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "doctor"
+        },
+        {
+          "title": "onboard"
+        },
+        {
+          "title": "doctor --deep"
+        },
+        {
+          "title": "security audit"
+        },
+        {
+          "title": "gateway"
+        },
+        {
+          "title": "gateway start | stop | restart"
+        },
+        {
+          "title": "channels list"
+        },
+        {
+          "title": "channels login"
+        },
+        {
+          "title": "channels add --channel"
+        },
+        {
+          "title": "channels remove --channel"
+        },
+        {
+          "title": "channels status --probe"
+        },
+        {
+          "title": "models list | set | status"
+        },
+        {
+          "title": "models auth add"
+        },
+        {
+          "title": "models auth setup-token"
+        },
+        {
+          "title": "cron list"
+        },
+        {
+          "title": "cron add"
+        },
+        {
+          "title": "memory index --all"
+        },
+        {
+          "title": "memory search \"<query>\""
+        },
+        {
+          "title": "backup create"
+        }
+      ]
+    },
+    {
+      "title": "Heartbeats"
+    },
+    {
+      "title": "Automating Tasks"
+    },
+    {
+      "title": "Cron Jobs"
+    },
+    {
+      "title": "Sessions"
+    },
+    {
+      "title": "Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Skills"
+        },
+        {
+          "title": "Installing from ClawHub"
+        },
+        {
+          "title": "Security Risks"
+        }
+      ]
+    },
+    {
+      "title": "Plugins",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Installing Plugins"
+        },
+        {
+          "title": "Creating Plugins"
+        },
+        {
+          "title": "Security Risks"
+        }
+      ]
+    },
+    {
+      "title": "MCP"
+    },
+    {
+      "title": "Multi-Agents",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Routing Rules"
+        },
+        {
+          "title": "/status"
+        },
+        {
+          "title": "/new"
+        },
+        {
+          "title": "/model"
+        },
+        {
+          "title": "/context"
+        },
+        {
+          "title": "/compact"
+        },
+        {
+          "title": "/help"
+        },
+        {
+          "title": "/reset"
+        },
+        {
+          "title": "/stop"
+        },
+        {
+          "title": "/usage"
+        },
+        {
+          "title": "/think"
+        },
+        {
+          "title": "/fast"
+        },
+        {
+          "title": "/reasoning"
+        },
+        {
+          "title": "/allowlist"
+        },
+        {
+          "title": "/config"
+        },
+        {
+          "title": "/mcp"
+        },
+        {
+          "title": "/plugins"
+        }
+      ]
+    }
+  ]
+}
