@@ -1,0 +1,480 @@
+{
+  "title": "C++ Developer Roadmap",
+  "topics": [
+    {
+      "title": "Introduction to Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is C++?"
+        },
+        {
+          "title": "Why use C++"
+        },
+        {
+          "title": "C vs C++"
+        }
+      ]
+    },
+    {
+      "title": "Setting up your Environment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Installing C++"
+        },
+        {
+          "title": "Code Editors / IDEs"
+        }
+      ]
+    },
+    {
+      "title": "Basic Operations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arithmetic Operators"
+        },
+        {
+          "title": "Logical Operators"
+        }
+      ]
+    },
+    {
+      "title": "Control Flow & Statements",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "if else / switch / goto"
+        },
+        {
+          "title": "for / while / do while loops"
+        }
+      ]
+    },
+    {
+      "title": "Pointers and References",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Running your First Program"
+        },
+        {
+          "title": "References"
+        },
+        {
+          "title": "Memory Model"
+        },
+        {
+          "title": "Lifetime of Objects"
+        },
+        {
+          "title": "Smart Pointers"
+        },
+        {
+          "title": "weak_ptr"
+        }
+      ]
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Bitwise Operators"
+        },
+        {
+          "title": "Static Typing"
+        },
+        {
+          "title": "Dynamic Typing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RTTI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Operator Overloading"
+        },
+        {
+          "title": "Lambdas"
+        },
+        {
+          "title": "Static Polymorphism"
+        },
+        {
+          "title": "Function Overloading"
+        }
+      ]
+    },
+    {
+      "title": "Structuring Codebase",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Forward Declaration"
+        },
+        {
+          "title": "Headers / CPP Files"
+        },
+        {
+          "title": "Namespaces"
+        },
+        {
+          "title": "Scope"
+        }
+      ]
+    },
+    {
+      "title": "Structures and Classes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Virtual Methods"
+        },
+        {
+          "title": "Virtual Tables"
+        },
+        {
+          "title": "Dynamic Polymorphism"
+        },
+        {
+          "title": "Object Oriented Programming"
+        },
+        {
+          "title": "Multiple Inheritance"
+        },
+        {
+          "title": "Diamond Inheritance"
+        },
+        {
+          "title": "Rule of Zero, Five, Three"
+        },
+        {
+          "title": "Type Traits"
+        },
+        {
+          "title": "SFINAE"
+        }
+      ]
+    },
+    {
+      "title": "Language Concepts",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "shared_ptr"
+        },
+        {
+          "title": "unique_ptr"
+        },
+        {
+          "title": "Raw Pointers"
+        },
+        {
+          "title": "New/Delete Operators"
+        },
+        {
+          "title": "Memory Leakage"
+        },
+        {
+          "title": "auto (Automatic Type Deduction)"
+        },
+        {
+          "title": "Type Casting"
+        },
+        {
+          "title": "static_cast"
+        },
+        {
+          "title": "const_cast"
+        },
+        {
+          "title": "dynamic_cast"
+        },
+        {
+          "title": "reinterpret_cast"
+        },
+        {
+          "title": "Undefined Behavior (UB)"
+        }
+      ]
+    },
+    {
+      "title": "Exception Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Exit Codes"
+        },
+        {
+          "title": "Exceptions"
+        }
+      ]
+    },
+    {
+      "title": "Standard Library + STL",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Access Violations"
+        },
+        {
+          "title": "Argument Dependent Lookup (ADL)"
+        },
+        {
+          "title": "Macros"
+        },
+        {
+          "title": "Iterators"
+        },
+        {
+          "title": "iostream"
+        },
+        {
+          "title": "Algorithms"
+        },
+        {
+          "title": "Date / Time"
+        },
+        {
+          "title": "Multithreading"
+        },
+        {
+          "title": "Libraries",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Boost"
+            },
+            {
+              "title": "OpenCV"
+            },
+            {
+              "title": "POCO"
+            },
+            {
+              "title": "Tensorflow"
+            },
+            {
+              "title": "protobuf"
+            },
+            {
+              "title": "spdlog"
+            },
+            {
+              "title": "gRPC"
+            },
+            {
+              "title": "pybind11"
+            },
+            {
+              "title": "fmt"
+            },
+            {
+              "title": "opencl"
+            },
+            {
+              "title": "ranges_v3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Templates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Template Specialization"
+        },
+        {
+          "title": "Full Template Specialization"
+        },
+        {
+          "title": "Partial Template Specialization"
+        },
+        {
+          "title": "Variadic Templates"
+        }
+      ]
+    },
+    {
+      "title": "Debuggers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Name Mangling"
+        },
+        {
+          "title": "GDB"
+        },
+        {
+          "title": "WinDBg"
+        },
+        {
+          "title": "Debugging Symbols"
+        },
+        {
+          "title": "Understanding Debugger Messages"
+        }
+      ]
+    },
+    {
+      "title": "Standards",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Containers"
+        },
+        {
+          "title": "C++ 11 / 14"
+        },
+        {
+          "title": "C++ 23"
+        },
+        {
+          "title": "C++ 20"
+        },
+        {
+          "title": "C++ 17"
+        }
+      ]
+    },
+    {
+      "title": "Idioms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Non-Copyable / Non-Moveable"
+        },
+        {
+          "title": "Erase-Remove"
+        },
+        {
+          "title": "Copy and Swap"
+        },
+        {
+          "title": "Copy on Write"
+        },
+        {
+          "title": "Pimpl"
+        },
+        {
+          "title": "CRTP"
+        }
+      ]
+    },
+    {
+      "title": "Compilers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Compiler Stages"
+        },
+        {
+          "title": "Compilers and Features"
+        },
+        {
+          "title": "MinGW",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Spack"
+            },
+            {
+              "title": "vcpkg"
+            },
+            {
+              "title": "NuGet"
+            },
+            {
+              "title": "Conan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Build Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CMAKE"
+        },
+        {
+          "title": "Makefile"
+        },
+        {
+          "title": "Ninja"
+        }
+      ]
+    },
+    {
+      "title": "Package Managers"
+    },
+    {
+      "title": "Working with Libraries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C++ 0x"
+        },
+        {
+          "title": "RAII"
+        },
+        {
+          "title": "Licensing"
+        },
+        {
+          "title": "Library Inclusion"
+        },
+        {
+          "title": "gtest / gmock"
+        },
+        {
+          "title": "Qt"
+        },
+        {
+          "title": "Catch2"
+        },
+        {
+          "title": "Orbit Profiler"
+        },
+        {
+          "title": "PyTorch C++"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "title": "Swift & Swift UI",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Swift?"
+        },
+        {
+          "title": "Why use Swift?"
+        },
+        {
+          "title": "Swift vs Objective-C"
+        },
+        {
+          "title": "Where Swift is used?"
+        }
+      ]
+    },
+    {
+      "title": "Constants & Variables"
+    },
+    {
+      "title": "Installing Swift",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type System",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Type Safety"
+            },
+            {
+              "title": "Type Inference"
+            },
+            {
+              "title": "Type Casting"
+            },
+            {
+              "title": "Memory Safety"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Type Annotations"
+    },
+    {
+      "title": "Print & String Interpolation"
+    },
+    {
+      "title": "Comments"
+    },
+    {
+      "title": "Semicolons",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers"
+            },
+            {
+              "title": "Booleans"
+            },
+            {
+              "title": "Floats & Doubles"
+            },
+            {
+              "title": "Optionals & nil"
+            },
+            {
+              "title": "Strings"
+            },
+            {
+              "title": "Tuples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Operators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arithmetic"
+        },
+        {
+          "title": "Comparison"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "Nil-Coalescing"
+        }
+      ]
+    },
+    {
+      "title": "if / else"
+    },
+    {
+      "title": "Basic Functions"
+    },
+    {
+      "title": "switch / case"
+    },
+    {
+      "title": "Parameters"
+    },
+    {
+      "title": "Return Types"
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "throwing"
+        },
+        {
+          "title": "catching"
+        },
+        {
+          "title": "propagating"
+        }
+      ]
+    },
+    {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Control Flow",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "for"
+            },
+            {
+              "title": "while"
+            },
+            {
+              "title": "repeat..while"
+            },
+            {
+              "title": "continue & break"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Function Types"
+    },
+    {
+      "title": "Nested Functions"
+    },
+    {
+      "title": "Closures"
+    },
+    {
+      "title": "Trailing Closures"
+    },
+    {
+      "title": "Enumerations"
+    },
+    {
+      "title": "Protocols"
+    },
+    {
+      "title": "Structures & Classes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Properties",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Computed"
+            },
+            {
+              "title": "Wrappers"
+            }
+          ]
+        },
+        {
+          "title": "Methods"
+        },
+        {
+          "title": "Initialization"
+        },
+        {
+          "title": "Inheritance"
+        },
+        {
+          "title": "Subscripts"
+        },
+        {
+          "title": "Extensions"
+        },
+        {
+          "title": "Optional Chaining"
+        }
+      ]
+    },
+    {
+      "title": "Generics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Protocols & Generics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Stored"
+            },
+            {
+              "title": "Observers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is SwiftUI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UIKit vs SwiftUI"
+        }
+      ]
+    },
+    {
+      "title": "App lifecycle"
+    },
+    {
+      "title": "Views",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Navigation Views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "NavigationStack"
+            },
+            {
+              "title": "font"
+            },
+            {
+              "title": "NavigationPath"
+            },
+            {
+              "title": "padding"
+            },
+            {
+              "title": "TabView"
+            },
+            {
+              "title": "background"
+            },
+            {
+              "title": "NavigationLink"
+            },
+            {
+              "title": "clipShape"
+            },
+            {
+              "title": "ViewBuilder"
+            }
+          ]
+        },
+        {
+          "title": "Layout Views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HStack"
+            },
+            {
+              "title": "Text"
+            },
+            {
+              "title": "VStack"
+            },
+            {
+              "title": "Image"
+            },
+            {
+              "title": "ZStack"
+            },
+            {
+              "title": "Button"
+            },
+            {
+              "title": "Grid"
+            },
+            {
+              "title": "List"
+            },
+            {
+              "title": "GeometryReader"
+            },
+            {
+              "title": "Form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Flow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "@State"
+        },
+        {
+          "title": "@Binding"
+        },
+        {
+          "title": "@StateObject"
+        },
+        {
+          "title": "@ObservedObject"
+        },
+        {
+          "title": "State Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Using Packages"
+            },
+            {
+              "title": "Creating Packages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Animations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Implicit animations"
+        },
+        {
+          "title": "Explicit animations"
+        },
+        {
+          "title": "Transitions"
+        },
+        {
+          "title": "Animatable Protocol"
+        }
+      ]
+    },
+    {
+      "title": "User Interaction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UI Controls"
+        },
+        {
+          "title": "Gestures"
+        },
+        {
+          "title": "Drag & Drop"
+        },
+        {
+          "title": "Localization"
+        },
+        {
+          "title": "Accessibility"
+        },
+        {
+          "title": "Advanced Swift & SwiftUI",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Asynchronous Functions"
+            },
+            {
+              "title": "Asynchronous Sequences"
+            },
+            {
+              "title": "Tasks & Task Groups"
+            },
+            {
+              "title": "Unstructured Concurrency"
+            },
+            {
+              "title": "Actors"
+            },
+            {
+              "title": "Strict Concurrency Checking"
+            },
+            {
+              "title": "SwiftUI with Async/Await"
+            }
+          ]
+        },
+        {
+          "title": "Core Data"
+        }
+      ]
+    },
+    {
+      "title": "Access Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "@EnvironmentObject"
+        }
+      ]
+    },
+    {
+      "title": "ARC"
+    },
+    {
+      "title": "Result Builders"
+    },
+    {
+      "title": "Macros"
+    },
+    {
+      "title": "Data persistance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SwiftData"
+        },
+        {
+          "title": "CloudKit"
+        },
+        {
+          "title": "Firabase"
+        },
+        {
+          "title": "Realm"
+        },
+        {
+          "title": "GRDB"
+        },
+        {
+          "title": "Databases"
+        },
+        {
+          "title": "FileManager"
+        },
+        {
+          "title": "UserDefaults, AppStorage"
+        }
+      ]
+    },
+    {
+      "title": "Swift Package Manager",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Plugins"
+        }
+      ]
+    },
+    {
+      "title": "App Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MVVM"
+        },
+        {
+          "title": "Clean Architecture"
+        },
+        {
+          "title": "Dependency Injection"
+        }
+      ]
+    },
+    {
+      "title": "Swift Package Index",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "swift-log"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ecosystem & Tooling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Swift Testing"
+            }
+          ]
+        },
+        {
+          "title": "XCTest"
+        }
+      ]
+    },
+    {
+      "title": "Logging & Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "XCode debugging"
+        },
+        {
+          "title": "SwiftUI inspector"
+        },
+        {
+          "title": "CocoaLumberjack"
+        }
+      ]
+    },
+    {
+      "title": "Server Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vapor"
+        },
+        {
+          "title": "Hummingbird"
+        },
+        {
+          "title": "MongoKitten"
+        }
+      ]
+    },
+    {
+      "title": "IDEs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DocC"
+        },
+        {
+          "title": "Xcode"
+        },
+        {
+          "title": "VSCode"
+        },
+        {
+          "title": "Emacs"
+        },
+        {
+          "title": "Neovim"
+        }
+      ]
+    },
+    {
+      "title": "Networking Libraries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Alamofire"
+        },
+        {
+          "title": "swift-nio"
+        },
+        {
+          "title": "Moya"
+        }
+      ]
+    },
+    {
+      "title": "Static Linux SDK",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Swift Charts"
+        },
+        {
+          "title": "Swift Playgrounds"
+        }
+      ]
+    },
+    {
+      "title": "SDKs for Wasm"
+    },
+    {
+      "title": "Swift for Server Apps"
+    }
+  ]
+}

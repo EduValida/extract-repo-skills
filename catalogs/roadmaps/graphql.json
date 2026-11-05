@@ -1,0 +1,302 @@
+{
+  "title": "GraphQL",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is GraphQL"
+        },
+        {
+          "title": "Problems GraphQL Solves"
+        },
+        {
+          "title": "Thinking in Graphs"
+        },
+        {
+          "title": "GraphQL on Frontend"
+        },
+        {
+          "title": "GraphQL on Backend"
+        }
+      ]
+    },
+    {
+      "title": "GraphQL Queries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Queries?"
+        },
+        {
+          "title": "Fields"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Aliases"
+        },
+        {
+          "title": "Arguments"
+        },
+        {
+          "title": "Directives"
+        },
+        {
+          "title": "Fragments"
+        }
+      ]
+    },
+    {
+      "title": "Mutations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Mutations?"
+        },
+        {
+          "title": "Multiple Fields in Mutation"
+        },
+        {
+          "title": "Operation Name"
+        }
+      ]
+    },
+    {
+      "title": "Subscriptions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type System"
+        },
+        {
+          "title": "What are Subscriptions"
+        },
+        {
+          "title": "Fields"
+        },
+        {
+          "title": "Event Based Subscriptions"
+        },
+        {
+          "title": "Live Queries"
+        },
+        {
+          "title": "@defer / @stream directives"
+        }
+      ]
+    },
+    {
+      "title": "Schema",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Scalars"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Objects"
+        }
+      ]
+    },
+    {
+      "title": "Validation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Root Fields"
+        },
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Interfaces"
+        },
+        {
+          "title": "Resolvers"
+        },
+        {
+          "title": "Unions"
+        },
+        {
+          "title": "Arguments"
+        }
+      ]
+    },
+    {
+      "title": "Execution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Synchronous"
+        },
+        {
+          "title": "Asynchronous"
+        },
+        {
+          "title": "GraphQL Over HTTP",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL Over HTTP Spec"
+            },
+            {
+              "title": "Caching"
+            },
+            {
+              "title": "Batching"
+            },
+            {
+              "title": "Authorization"
+            }
+          ]
+        },
+        {
+          "title": "Scalar Coercion"
+        }
+      ]
+    },
+    {
+      "title": "Serving over Internet",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Validation"
+        }
+      ]
+    },
+    {
+      "title": "Pagination",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Producing the Result"
+        },
+        {
+          "title": "GraphQL Over WebSockets",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Specification"
+            },
+            {
+              "title": "Realtime"
+            },
+            {
+              "title": "Authorization"
+            }
+          ]
+        },
+        {
+          "title": "Go Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL Go"
+            }
+          ]
+        },
+        {
+          "title": "GraphQL Over SSE",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Specification"
+            },
+            {
+              "title": "Authorization"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL.js"
+            }
+          ]
+        },
+        {
+          "title": "Java Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL Java"
+            }
+          ]
+        },
+        {
+          "title": "Python Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Graphene"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "graphql-http"
+            },
+            {
+              "title": "GraphQL Yoga"
+            },
+            {
+              "title": "Apollo Server"
+            },
+            {
+              "title": "mercurius"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript (2)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "graphql-http"
+            },
+            {
+              "title": "Relay"
+            },
+            {
+              "title": "Apollo Client"
+            },
+            {
+              "title": "Urql"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

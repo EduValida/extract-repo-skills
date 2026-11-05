@@ -1,0 +1,454 @@
+{
+  "title": "Ruby",
+  "topics": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Setting things Up",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Package Managers"
+        },
+        {
+          "title": "Installers"
+        },
+        {
+          "title": "Managers"
+        },
+        {
+          "title": "Floats"
+        }
+      ]
+    },
+    {
+      "title": "Constants & Variables"
+    },
+    {
+      "title": "puts, print, p"
+    },
+    {
+      "title": "Comments"
+    },
+    {
+      "title": "Naming conventions"
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integers"
+        },
+        {
+          "title": "Booleans"
+        },
+        {
+          "title": "Strings"
+        },
+        {
+          "title": "Hashes"
+        },
+        {
+          "title": "Arrays"
+        },
+        {
+          "title": "Symbols"
+        }
+      ]
+    },
+    {
+      "title": "Type Casting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "nil"
+        }
+      ]
+    },
+    {
+      "title": "Operators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arithmetic"
+        },
+        {
+          "title": "case"
+        },
+        {
+          "title": "Comparison"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "Assignment"
+        },
+        {
+          "title": "Ranges"
+        }
+      ]
+    },
+    {
+      "title": "Conditional Statements",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "unless"
+        },
+        {
+          "title": "if, elsif, else"
+        }
+      ]
+    },
+    {
+      "title": "Loops & Enumerations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "while"
+        },
+        {
+          "title": "until"
+        },
+        {
+          "title": "do/while"
+        },
+        {
+          "title": "for"
+        },
+        {
+          "title": "each"
+        },
+        {
+          "title": "times"
+        },
+        {
+          "title": "break"
+        },
+        {
+          "title": "next"
+        },
+        {
+          "title": "redo"
+        }
+      ]
+    },
+    {
+      "title": "Enumerable",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Querying"
+        },
+        {
+          "title": "Fetching"
+        },
+        {
+          "title": "Searching & Filtering"
+        },
+        {
+          "title": "Sorting"
+        },
+        {
+          "title": "Iterating"
+        }
+      ]
+    },
+    {
+      "title": "Handling exceptions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "begin, rescue, ensure"
+        }
+      ]
+    },
+    {
+      "title": "Interactive Ruby (irb)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Methods (aka functions)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Defining methods"
+            },
+            {
+              "title": "Method Parameters"
+            },
+            {
+              "title": "Scope"
+            },
+            {
+              "title": "Chaining Methods"
+            }
+          ]
+        },
+        {
+          "title": "Package Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RubyGems"
+            },
+            {
+              "title": "Bundler"
+            }
+          ]
+        },
+        {
+          "title": "Environments",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RVM"
+            },
+            {
+              "title": "Rbenv"
+            }
+          ]
+        },
+        {
+          "title": "Blocks, Procs & Lambdas",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Blocks"
+            },
+            {
+              "title": "Procs"
+            },
+            {
+              "title": "Lambdas"
+            }
+          ]
+        },
+        {
+          "title": "Classes & Objects",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Defining Classes"
+            },
+            {
+              "title": "Instance variables"
+            },
+            {
+              "title": "Attributes accessors"
+            },
+            {
+              "title": "Inheritance",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Modules & Mixins"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Advanced Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Closures"
+            },
+            {
+              "title": "Method Lookup"
+            },
+            {
+              "title": "Monkey Patching"
+            },
+            {
+              "title": "Refinements"
+            },
+            {
+              "title": "Singleton Classes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Date & Time"
+    },
+    {
+      "title": "Regex"
+    },
+    {
+      "title": "File I/O",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Structures & Algorithms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Stacks  & queues"
+            },
+            {
+              "title": "Search Algorithms"
+            },
+            {
+              "title": "Sorting Algorithms"
+            },
+            {
+              "title": "Recursion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Metaprogramming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "send"
+        },
+        {
+          "title": "define_method"
+        },
+        {
+          "title": "method_missing"
+        },
+        {
+          "title": "Ruby DSL"
+        }
+      ]
+    },
+    {
+      "title": "Concurrency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Threads"
+        },
+        {
+          "title": "Ractors"
+        },
+        {
+          "title": "Fibers"
+        },
+        {
+          "title": "Concurrent Ruby"
+        },
+        {
+          "title": "Debugging",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Pry"
+            },
+            {
+              "title": "irb"
+            },
+            {
+              "title": "byebug"
+            },
+            {
+              "title": "debug"
+            }
+          ]
+        },
+        {
+          "title": "Pick a Framework",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Ruby on Rails"
+            },
+            {
+              "title": "Rack"
+            },
+            {
+              "title": "Sinatra"
+            }
+          ]
+        },
+        {
+          "title": "Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RSpec"
+            },
+            {
+              "title": "Minitest"
+            },
+            {
+              "title": "Test::Unit"
+            }
+          ]
+        },
+        {
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VS Code"
+            },
+            {
+              "title": "RubyMine"
+            }
+          ]
+        },
+        {
+          "title": "Linting & Formating",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RuboCop"
+            },
+            {
+              "title": "Standard"
+            }
+          ]
+        },
+        {
+          "title": "Documentation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RDoc"
+            },
+            {
+              "title": "YARD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,10 +3,10 @@
     "slug": "aws",
     "title": "AWS Roadmap",
     "description": "Step by step guide to learning AWS in 2026",
-    "extracted_at": "2026-10-29T01:03:44.797113+00:00",
+    "extracted_at": "2026-11-05T02:14:37.825329+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/aws",
     "total_topics": 18,
-    "total_subtopics": 83
+    "total_subtopics": 85
   },
   "tree": {
     "title": "AWS Roadmap",
@@ -64,7 +64,9 @@
                 "url": "https://aws.amazon.com/what-is-cloud-computing/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/what-is-cloud-computing@74JxgfJ_1qmVNZ_QRp9Ne.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/what-is-cloud-computing@74JxgfJ_1qmVNZ_QRp9Ne.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "i4ijY3T5gLgNz0XqRipXe",
@@ -83,7 +85,9 @@
                 "url": "https://youtu.be/9CVBohl6w0Q?si=cEDnXpd1sGkpf0K2"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/iaas-vs-paas-vs-saas@i4ijY3T5gLgNz0XqRipXe.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/iaas-vs-paas-vs-saas@i4ijY3T5gLgNz0XqRipXe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3hatcMVLDbMuz73uTx-9P",
@@ -107,7 +111,9 @@
                 "url": "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/public-vs-private-vs-hybrid-cloud@3hatcMVLDbMuz73uTx-9P.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/public-vs-private-vs-hybrid-cloud@3hatcMVLDbMuz73uTx-9P.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Dg1v9TV-wGSNLPfAals_y",
@@ -131,7 +137,9 @@
                 "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/introduction-to-aws@Dg1v9TV-wGSNLPfAals_y.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/introduction-to-aws@Dg1v9TV-wGSNLPfAals_y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -153,8 +161,115 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/ec2@cL7vis8H5L2vv6LqJ5wvC.md",
-        "subtopics_count": 13,
+        "subtopics_count": 2,
         "subtopics": [
+          {
+            "id": "kcBGBLPuZkuI-Omv8mOe7",
+            "name": "Start with Essential Services",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 6,
+            "subtopics": [
+              {
+                "id": "_U2bKjxIrAAk7TMrPttpb",
+                "name": "CPU Credits",
+                "type": "subtopic",
+                "description": "CPU credits apply to burstable instance types in the T family. These instances earn credits when running below their baseline CPU threshold and spend credits when bursting above it. When credits run out, performance is throttled to the baseline, unless unlimited mode is enabled.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Burstable Performance Instances and CPU Credits",
+                    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/cpu-credits@_U2bKjxIrAAk7TMrPttpb.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "A0u7CJwj5ULAMiAm12vZI",
+                "name": "Storage / Volumes",
+                "type": "subtopic",
+                "description": "EC2 instances use EBS (Elastic Block Store) volumes as their primary block storage. EBS volumes persist independently of the instance lifecycle and can be snapshotted for backup. You can attach multiple volumes to an instance and choose volume types based on IOPS and throughput requirements.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Elastic Block Store",
+                    "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/storage--volumes@A0u7CJwj5ULAMiAm12vZI.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "wFT-fddGn__DRoqG0joFk",
+                "name": "Keypairs",
+                "type": "subtopic",
+                "description": "Key pairs are part of Amazon EC2 and are used to securely log into your instances. A key pair consists of a public key and a private key. Amazon EC2 generates the key pair and gives you the private key, whereas the public key is stored with AWS. When you launch an EC2 instance, you specify the name of the key pair. You can then use the private key to securely connect to your instance. Key pairs are region-specific, meaning you need to create separate key pairs for each region in which you operate your instances.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "EC2 - Keypairs",
+                    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/keypairs@wFT-fddGn__DRoqG0joFk.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "DCvkZSp25pjaimG0THLTu",
+                "name": "Elastic IP",
+                "type": "subtopic",
+                "description": "\"Elastic IP\" in AWS EC2 is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is associated with your AWS account not a particular instance, and you control that address until you choose to explicitly release it. Unlike traditional static IP addresses, however, Elastic IP addresses allow you to mask the failure of an instance or software by rapidly remapping the address to another instance in your account.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Elastic IP Addresses",
+                    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/elastic-ip@DCvkZSp25pjaimG0THLTu.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "ZKjjgXZ89zV2atWcSal-s",
+                "name": "User Data Scripts",
+                "type": "subtopic",
+                "description": "\"User Data Scripts\" in EC2 instances are used to perform common automated configuration tasks and even run scripts after the instance starts. These scripts run as the root user, and can be used to install software or download files from an S3 bucket. You can pass up to 16 KB of data to an instance, either as plain text or base64-encoded. The User Data script is executed only one time when the instance is first launched. If you stop and start the instance, the script does not run again. However, it will run on every boot if the instance reboots.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "User Data Scripts EC2",
+                    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/user-data-scripts@ZKjjgXZ89zV2atWcSal-s.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8v9T6Y6JC7qaqIgkbT-nr",
+                "name": "Purchasing Options",
+                "type": "subtopic",
+                "description": "EC2 offers several purchasing models to balance cost and flexibility. On-Demand instances are billed per second with no commitment. Reserved Instances offer significant discounts in exchange for a one- or three-year commitment. Spot Instances let you bid on unused capacity at steep discounts, but can be interrupted with short notice. Savings Plans offer flexible discount commitments that apply across instance families.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Purchasing Options",
+                    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/purchasing-options@8v9T6Y6JC7qaqIgkbT-nr.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
           {
             "id": "VHD2ISW9WoSWjp8Hh6Zft",
             "name": "Instance Types",
@@ -167,180 +282,9 @@
                 "url": "https://aws.amazon.com/ec2/instance-types"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/instance-types@VHD2ISW9WoSWjp8Hh6Zft.md"
-          },
-          {
-            "id": "_U2bKjxIrAAk7TMrPttpb",
-            "name": "CPU Credits",
-            "type": "subtopic",
-            "description": "CPU credits apply to burstable instance types in the T family. These instances earn credits when running below their baseline CPU threshold and spend credits when bursting above it. When credits run out, performance is throttled to the baseline, unless unlimited mode is enabled.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Burstable Performance Instances and CPU Credits",
-                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/cpu-credits@_U2bKjxIrAAk7TMrPttpb.md"
-          },
-          {
-            "id": "A0u7CJwj5ULAMiAm12vZI",
-            "name": "Storage / Volumes",
-            "type": "subtopic",
-            "description": "EC2 instances use EBS (Elastic Block Store) volumes as their primary block storage. EBS volumes persist independently of the instance lifecycle and can be snapshotted for backup. You can attach multiple volumes to an instance and choose volume types based on IOPS and throughput requirements.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Elastic Block Store",
-                "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/storage--volumes@A0u7CJwj5ULAMiAm12vZI.md"
-          },
-          {
-            "id": "wFT-fddGn__DRoqG0joFk",
-            "name": "Keypairs",
-            "type": "subtopic",
-            "description": "Key pairs are part of Amazon EC2 and are used to securely log into your instances. A key pair consists of a public key and a private key. Amazon EC2 generates the key pair and gives you the private key, whereas the public key is stored with AWS. When you launch an EC2 instance, you specify the name of the key pair. You can then use the private key to securely connect to your instance. Key pairs are region-specific, meaning you need to create separate key pairs for each region in which you operate your instances.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "EC2 - Keypairs",
-                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/keypairs@wFT-fddGn__DRoqG0joFk.md"
-          },
-          {
-            "id": "DCvkZSp25pjaimG0THLTu",
-            "name": "Elastic IP",
-            "type": "subtopic",
-            "description": "\"Elastic IP\" in AWS EC2 is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is associated with your AWS account not a particular instance, and you control that address until you choose to explicitly release it. Unlike traditional static IP addresses, however, Elastic IP addresses allow you to mask the failure of an instance or software by rapidly remapping the address to another instance in your account.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Elastic IP Addresses",
-                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/elastic-ip@DCvkZSp25pjaimG0THLTu.md"
-          },
-          {
-            "id": "ZKjjgXZ89zV2atWcSal-s",
-            "name": "User Data Scripts",
-            "type": "subtopic",
-            "description": "\"User Data Scripts\" in EC2 instances are used to perform common automated configuration tasks and even run scripts after the instance starts. These scripts run as the root user, and can be used to install software or download files from an S3 bucket. You can pass up to 16 KB of data to an instance, either as plain text or base64-encoded. The User Data script is executed only one time when the instance is first launched. If you stop and start the instance, the script does not run again. However, it will run on every boot if the instance reboots.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "User Data Scripts EC2",
-                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/user-data-scripts@ZKjjgXZ89zV2atWcSal-s.md"
-          },
-          {
-            "id": "8v9T6Y6JC7qaqIgkbT-nr",
-            "name": "Purchasing Options",
-            "type": "subtopic",
-            "description": "EC2 offers several purchasing models to balance cost and flexibility. On-Demand instances are billed per second with no commitment. Reserved Instances offer significant discounts in exchange for a one- or three-year commitment. Spot Instances let you bid on unused capacity at steep discounts, but can be interrupted with short notice. Savings Plans offer flexible discount commitments that apply across instance families.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Purchasing Options",
-                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/purchasing-options@8v9T6Y6JC7qaqIgkbT-nr.md"
-          },
-          {
-            "id": "kG7tlZjv_hJbHGooBkxS0",
-            "name": "Sandbox / Sending Limits",
-            "type": "subtopic",
-            "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Sandbox / Sending Limits",
-                "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/sandbox--sending-limits@kG7tlZjv_hJbHGooBkxS0.md"
-          },
-          {
-            "id": "cwGuOrmbSTcSoH80skLTk",
-            "name": "Identity-based",
-            "type": "subtopic",
-            "description": "Identity-based policies are attached to IAM identities: users, groups, or roles. They define what actions that identity is allowed to perform across AWS services and resources. These are the most common type of IAM policy.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Identity Based Policies",
-                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/identity-based@cwGuOrmbSTcSoH80skLTk.md"
-          },
-          {
-            "id": "bTCVHXPG-LtaaFmgiB2SL",
-            "name": "Identity Verification",
-            "type": "subtopic",
-            "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Identity Verification",
-                "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/identity-verification@bTCVHXPG-LtaaFmgiB2SL.md"
-          },
-          {
-            "id": "v_YmmlOk-DkzJ8mI5Ftgr",
-            "name": "Resource-based",
-            "type": "subtopic",
-            "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Identity Based Policies",
-                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/resource-based@v_YmmlOk-DkzJ8mI5Ftgr.md"
-          },
-          {
-            "id": "zwVd1vNm1ks6MdHZoi-5W",
-            "name": "DKIM Setup",
-            "type": "subtopic",
-            "description": "DKIM (DomainKeys Identified Mail) adds a cryptographic signature to outgoing emails that recipients can verify. Setting up DKIM in SES involves publishing DNS records with a public key that SES uses to sign your messages. Proper DKIM configuration improves deliverability and is required for compliance with modern email authentication standards.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "DKIM",
-                "url": "https://dkim.org/"
-              },
-              {
-                "type": "article",
-                "title": "DKIM - Cloudflare",
-                "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/dkim-setup@zwVd1vNm1ks6MdHZoi-5W.md"
-          },
-          {
-            "id": "i7X1GfOx5AZYFskepW4Zr",
-            "name": "Instance Profiles",
-            "type": "subtopic",
-            "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Instance Profiles",
-                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/instance-profiles@i7X1GfOx5AZYFskepW4Zr.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/instance-types@VHD2ISW9WoSWjp8Hh6Zft.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -362,7 +306,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/vpc@Sv2aT8eI1RvJhvoKVYQEX.md",
-        "subtopics_count": 11,
+        "subtopics_count": 7,
         "subtopics": [
           {
             "id": "z9R1BWUGalmnw0E7QqiW6",
@@ -381,7 +325,9 @@
                 "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/aws-global-infrastructure@z9R1BWUGalmnw0E7QqiW6.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/aws-global-infrastructure@z9R1BWUGalmnw0E7QqiW6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0flGtxZmxQKxO3c3sguwp",
@@ -395,7 +341,9 @@
                 "url": "https://aws.amazon.com/compliance/shared-responsibility-model/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/shared-responsibility-model@0flGtxZmxQKxO3c3sguwp.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/shared-responsibility-model@0flGtxZmxQKxO3c3sguwp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eKuC7VmkGVYFnbC2Rvn8D",
@@ -409,7 +357,9 @@
                 "url": "https://aws.amazon.com/architecture/well-architected"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/well-architected-framework@eKuC7VmkGVYFnbC2Rvn8D.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/well-architected-framework@eKuC7VmkGVYFnbC2Rvn8D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "2hFBv2fhKDYBN-9ITs82J",
@@ -428,7 +378,9 @@
                 "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/cidr-blocks@2hFBv2fhKDYBN-9ITs82J.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/cidr-blocks@2hFBv2fhKDYBN-9ITs82J.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Y64TE0U20kllmykjdfhHp",
@@ -442,7 +394,9 @@
                 "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/subnets@Y64TE0U20kllmykjdfhHp.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/subnets@Y64TE0U20kllmykjdfhHp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ymuURDwW8JG3NSIXcl0FL",
@@ -456,7 +410,9 @@
                 "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/private-subnet@ymuURDwW8JG3NSIXcl0FL.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/private-subnet@ymuURDwW8JG3NSIXcl0FL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ABCH1rATHmecyWHyK3n-m",
@@ -470,68 +426,9 @@
                 "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/public-subnet@ABCH1rATHmecyWHyK3n-m.md"
-          },
-          {
-            "id": "FCdOnwQubhOnCFFnF8uJN",
-            "name": "Route Tables",
-            "type": "subtopic",
-            "description": "A _Route Table_ in AWS VPC is a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the traffic for the subnet. By default, your VPC has a main route table that you can modify. You can also create additional custom route tables for your VPC. A subnet can only be associated with one route table at a time, but you can change the association.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Route Tables",
-                "url": "https://docs.aws.amazon.com/quicksight/latest/user/vpc-route-table.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/route-tables@FCdOnwQubhOnCFFnF8uJN.md"
-          },
-          {
-            "id": "Cd9gdbkCFdrTLrnJMy5F3",
-            "name": "Security Groups",
-            "type": "subtopic",
-            "description": "Security groups act as virtual firewalls for EC2 instances and other resources. They control inbound and outbound traffic using rules based on protocol, port, and source or destination. Security groups are stateful, meaning return traffic for allowed connections is automatically permitted.",
-            "resources": [
-              {
-                "type": "course",
-                "title": "Cloud Network Exposure: Hands-on Security Group Exercise",
-                "url": "https://ransomleak.com/exercises/cloud-network-exposure/"
-              },
-              {
-                "type": "official",
-                "title": "Security Groups",
-                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/security-groups@Cd9gdbkCFdrTLrnJMy5F3.md"
-          },
-          {
-            "id": "Le8yOJzpzxH1xgd7XEU2B",
-            "name": "Internet Gateway",
-            "type": "subtopic",
-            "description": "An Internet Gateway is a horizontally scaled, redundant component that connects a VPC to the internet. Attaching one to a VPC and adding a route in a public subnet's route table enables resources with public IPs to send and receive internet traffic. Each VPC can have one Internet Gateway attached.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Internet Gateway",
-                "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/internet-gateway@Le8yOJzpzxH1xgd7XEU2B.md"
-          },
-          {
-            "id": "6D-gs32jrCyvMVhr9PSAY",
-            "name": "NAT Gateway",
-            "type": "subtopic",
-            "description": "A NAT Gateway allows resources in a private subnet to initiate outbound connections to the internet without being directly reachable from it. It is placed in a public subnet and translates the private IP addresses of outgoing traffic to its own public IP. NAT Gateways are managed by AWS and scale automatically.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "NAT Gateway",
-                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/public-subnet@ABCH1rATHmecyWHyK3n-m.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -553,8 +450,77 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/iam@xmKeB4hEi2DunmhAsvS1X.md",
-        "subtopics_count": 3,
+        "subtopics_count": 7,
         "subtopics": [
+          {
+            "id": "FCdOnwQubhOnCFFnF8uJN",
+            "name": "Route Tables",
+            "type": "subtopic",
+            "description": "A _Route Table_ in AWS VPC is a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the traffic for the subnet. By default, your VPC has a main route table that you can modify. You can also create additional custom route tables for your VPC. A subnet can only be associated with one route table at a time, but you can change the association.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Route Tables",
+                "url": "https://docs.aws.amazon.com/quicksight/latest/user/vpc-route-table.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/route-tables@FCdOnwQubhOnCFFnF8uJN.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Cd9gdbkCFdrTLrnJMy5F3",
+            "name": "Security Groups",
+            "type": "subtopic",
+            "description": "Security groups act as virtual firewalls for EC2 instances and other resources. They control inbound and outbound traffic using rules based on protocol, port, and source or destination. Security groups are stateful, meaning return traffic for allowed connections is automatically permitted.",
+            "resources": [
+              {
+                "type": "course",
+                "title": "Cloud Network Exposure: Hands-on Security Group Exercise",
+                "url": "https://ransomleak.com/exercises/cloud-network-exposure/"
+              },
+              {
+                "type": "official",
+                "title": "Security Groups",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/security-groups@Cd9gdbkCFdrTLrnJMy5F3.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Le8yOJzpzxH1xgd7XEU2B",
+            "name": "Internet Gateway",
+            "type": "subtopic",
+            "description": "An Internet Gateway is a horizontally scaled, redundant component that connects a VPC to the internet. Attaching one to a VPC and adding a route in a public subnet's route table enables resources with public IPs to send and receive internet traffic. Each VPC can have one Internet Gateway attached.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Internet Gateway",
+                "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/internet-gateway@Le8yOJzpzxH1xgd7XEU2B.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "6D-gs32jrCyvMVhr9PSAY",
+            "name": "NAT Gateway",
+            "type": "subtopic",
+            "description": "A NAT Gateway allows resources in a private subnet to initiate outbound connections to the internet without being directly reachable from it. It is placed in a public subnet and translates the private IP addresses of outgoing traffic to its own public IP. NAT Gateways are managed by AWS and scale automatically.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "NAT Gateway",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/nat-gateway@6D-gs32jrCyvMVhr9PSAY.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "eQAn3e-k9WNufPqOnwY_K",
             "name": "Policies",
@@ -567,7 +533,42 @@
                 "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_access-management.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/policies@eQAn3e-k9WNufPqOnwY_K.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/policies@eQAn3e-k9WNufPqOnwY_K.md",
+            "subtopics_count": 2,
+            "subtopics": [
+              {
+                "id": "cwGuOrmbSTcSoH80skLTk",
+                "name": "Identity-based",
+                "type": "subtopic",
+                "description": "Identity-based policies are attached to IAM identities: users, groups, or roles. They define what actions that identity is allowed to perform across AWS services and resources. These are the most common type of IAM policy.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Identity Based Policies",
+                    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/identity-based@cwGuOrmbSTcSoH80skLTk.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+                "name": "Resource-based",
+                "type": "subtopic",
+                "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Identity Based Policies",
+                    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/resource-based@v_YmmlOk-DkzJ8mI5Ftgr.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
             "id": "Nn2zawk6A31NwZa40jOhX",
@@ -581,7 +582,9 @@
                 "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/users--user-groups@Nn2zawk6A31NwZa40jOhX.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/users--user-groups@Nn2zawk6A31NwZa40jOhX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7nI202hX41mI5ms9LZonh",
@@ -595,7 +598,225 @@
                 "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-roles.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/roles@7nI202hX41mI5ms9LZonh.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/roles@7nI202hX41mI5ms9LZonh.md",
+            "subtopics_count": 2,
+            "subtopics": [
+              {
+                "id": "i7X1GfOx5AZYFskepW4Zr",
+                "name": "Instance Profiles",
+                "type": "subtopic",
+                "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Instance Profiles",
+                    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/instance-profiles@i7X1GfOx5AZYFskepW4Zr.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "0IMdO7g_5El1elvDXJJ_0",
+                "name": "Assuming Roles",
+                "type": "subtopic",
+                "description": "Assuming a role means temporarily taking on a different set of permissions defined by that role. This is done using the STS AssumeRole API call, which returns short-lived credentials. It is commonly used for cross-account access, least-privilege application permissions, and federated identity scenarios.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Assuming Roles",
+                    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/assuming-roles@0IMdO7g_5El1elvDXJJ_0.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-bwXo6xvF1yzyWEm5oZhJ",
+        "name": "SES",
+        "type": "topic",
+        "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SES",
+            "url": "https://aws.amazon.com/ses/"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/ses@-bwXo6xvF1yzyWEm5oZhJ.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "C0ngVzsV5v-wrFbSzAhuu",
+            "name": "Step 4 - Serverless",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 7,
+            "subtopics": [
+              {
+                "id": "kG7tlZjv_hJbHGooBkxS0",
+                "name": "Sandbox / Sending Limits",
+                "type": "subtopic",
+                "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Sandbox / Sending Limits",
+                    "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/sandbox--sending-limits@kG7tlZjv_hJbHGooBkxS0.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "bTCVHXPG-LtaaFmgiB2SL",
+                "name": "Identity Verification",
+                "type": "subtopic",
+                "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Identity Verification",
+                    "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/identity-verification@bTCVHXPG-LtaaFmgiB2SL.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "zwVd1vNm1ks6MdHZoi-5W",
+                "name": "DKIM Setup",
+                "type": "subtopic",
+                "description": "DKIM (DomainKeys Identified Mail) adds a cryptographic signature to outgoing emails that recipients can verify. Setting up DKIM in SES involves publishing DNS records with a public key that SES uses to sign your messages. Proper DKIM configuration improves deliverability and is required for compliance with modern email authentication standards.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "DKIM",
+                    "url": "https://dkim.org/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "DKIM - Cloudflare",
+                    "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/dkim-setup@zwVd1vNm1ks6MdHZoi-5W.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "0NWTFssjg9SbDXQRkN5kF",
+                "name": "Feedback Handling",
+                "type": "subtopic",
+                "description": "SES can receive delivery notifications, bounces, and complaint feedback from recipient mail servers. These events are delivered via SNS or SQS and should be processed to remove invalid addresses and maintain a clean sending list. Ignoring bounce and complaint feedback leads to reputation damage and account suspension.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Feedbacks",
+                    "url": "https://aws.amazon.com/ses/faqs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/feedback-handling@0NWTFssjg9SbDXQRkN5kF.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "4svXYQYmqjUZU39z8OyhD",
+                "name": "Configuration Sets",
+                "type": "subtopic",
+                "description": "Configuration sets in SES are groups of rules applied to outgoing emails. They enable tracking of events like sends, bounces, complaints, and clicks by routing data to CloudWatch, SNS, Kinesis, or S3. You can also use them to apply dedicated IP pools or TLS settings.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "SES",
+                    "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/configuration-sets@4svXYQYmqjUZU39z8OyhD.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Vo_PBfB7LxYL27nBBVoVp",
+                "name": "Sender Reputation",
+                "type": "subtopic",
+                "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Sender Reputation",
+                    "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/sender-reputation@Vo_PBfB7LxYL27nBBVoVp.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "pnX1dfkjS8woWc4KGXlh_",
+                "name": "Dedicated IP",
+                "type": "subtopic",
+                "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Dedicated IP",
+                    "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/dedicated-ip@pnX1dfkjS8woWc4KGXlh_.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PN3xAYfQ-_QgZCRCnsEca",
+        "name": "S3",
+        "type": "topic",
+        "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Public S3 Buckets: Hands-on Exercise",
+            "url": "https://ransomleak.com/exercises/public-storage-buckets/"
+          },
+          {
+            "type": "official",
+            "title": "S3",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/s3@PN3xAYfQ-_QgZCRCnsEca.md",
+        "subtopics_count": 1,
+        "subtopics": [
+          {
+            "id": "rTgjDj5HqbjRpcJ7PR-EC",
+            "name": "Buckets / Objects",
+            "type": "subtopic",
+            "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Bucket / Object",
+                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/buckets--objects@rTgjDj5HqbjRpcJ7PR-EC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -626,7 +847,9 @@
                 "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/amis@AfagmWcllSi81D2XIQz0V.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/amis@AfagmWcllSi81D2XIQz0V.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "K0GCk5_HDvP0_ZqsUc3tG",
@@ -640,7 +863,9 @@
                 "url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-launch-templates-for-amazon-ec2-instances/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/launch-templates@K0GCk5_HDvP0_ZqsUc3tG.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/launch-templates@K0GCk5_HDvP0_ZqsUc3tG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "gBKHVG7FvlCEgINKmw00s",
@@ -654,7 +879,9 @@
                 "url": "https://docs.aws.amazon.com/eks/latest/best-practices/cas.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/auto-scaling-groups@gBKHVG7FvlCEgINKmw00s.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/auto-scaling-groups@gBKHVG7FvlCEgINKmw00s.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fRBaiw8Qx8kapzCphmM4v",
@@ -668,7 +895,9 @@
                 "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/scaling-policies@fRBaiw8Qx8kapzCphmM4v.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/scaling-policies@fRBaiw8Qx8kapzCphmM4v.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YAZPKMbmrxYNqF6alXMyL",
@@ -682,144 +911,9 @@
                 "url": "https://aws.amazon.com/elasticloadbalancing/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/elastic-load-balancers@YAZPKMbmrxYNqF6alXMyL.md"
-          }
-        ]
-      },
-      {
-        "id": "PN3xAYfQ-_QgZCRCnsEca",
-        "name": "S3",
-        "type": "topic",
-        "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Public S3 Buckets: Hands-on Exercise",
-            "url": "https://ransomleak.com/exercises/public-storage-buckets/"
-          },
-          {
-            "type": "official",
-            "title": "S3",
-            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/aws/content/s3@PN3xAYfQ-_QgZCRCnsEca.md",
-        "subtopics_count": 3,
-        "subtopics": [
-          {
-            "id": "0IMdO7g_5El1elvDXJJ_0",
-            "name": "Assuming Roles",
-            "type": "subtopic",
-            "description": "Assuming a role means temporarily taking on a different set of permissions defined by that role. This is done using the STS AssumeRole API call, which returns short-lived credentials. It is commonly used for cross-account access, least-privilege application permissions, and federated identity scenarios.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Assuming Roles",
-                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/assuming-roles@0IMdO7g_5El1elvDXJJ_0.md"
-          },
-          {
-            "id": "rTgjDj5HqbjRpcJ7PR-EC",
-            "name": "Buckets / Objects",
-            "type": "subtopic",
-            "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Bucket / Object",
-                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/buckets--objects@rTgjDj5HqbjRpcJ7PR-EC.md"
-          },
-          {
-            "id": "8i6zpjkMC_Pg-tDNmrx4n",
-            "name": "Bucket / Object Lifecycle",
-            "type": "subtopic",
-            "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Bucket / Object Lifecycle",
-                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/bucket--object-lifecycle@8i6zpjkMC_Pg-tDNmrx4n.md"
-          }
-        ]
-      },
-      {
-        "id": "-bwXo6xvF1yzyWEm5oZhJ",
-        "name": "SES",
-        "type": "topic",
-        "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "SES",
-            "url": "https://aws.amazon.com/ses/"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/aws/content/ses@-bwXo6xvF1yzyWEm5oZhJ.md",
-        "subtopics_count": 4,
-        "subtopics": [
-          {
-            "id": "0NWTFssjg9SbDXQRkN5kF",
-            "name": "Feedback Handling",
-            "type": "subtopic",
-            "description": "SES can receive delivery notifications, bounces, and complaint feedback from recipient mail servers. These events are delivered via SNS or SQS and should be processed to remove invalid addresses and maintain a clean sending list. Ignoring bounce and complaint feedback leads to reputation damage and account suspension.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Feedbacks",
-                "url": "https://aws.amazon.com/ses/faqs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/feedback-handling@0NWTFssjg9SbDXQRkN5kF.md"
-          },
-          {
-            "id": "4svXYQYmqjUZU39z8OyhD",
-            "name": "Configuration Sets",
-            "type": "subtopic",
-            "description": "Configuration sets in SES are groups of rules applied to outgoing emails. They enable tracking of events like sends, bounces, complaints, and clicks by routing data to CloudWatch, SNS, Kinesis, or S3. You can also use them to apply dedicated IP pools or TLS settings.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "SES",
-                "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/configuration-sets@4svXYQYmqjUZU39z8OyhD.md"
-          },
-          {
-            "id": "Vo_PBfB7LxYL27nBBVoVp",
-            "name": "Sender Reputation",
-            "type": "subtopic",
-            "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Sender Reputation",
-                "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/sender-reputation@Vo_PBfB7LxYL27nBBVoVp.md"
-          },
-          {
-            "id": "pnX1dfkjS8woWc4KGXlh_",
-            "name": "Dedicated IP",
-            "type": "subtopic",
-            "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Dedicated IP",
-                "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/dedicated-ip@pnX1dfkjS8woWc4KGXlh_.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/elastic-load-balancers@YAZPKMbmrxYNqF6alXMyL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -850,7 +944,9 @@
                 "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/hosted-zones@z-o-2cGYSM6KW_CNJyw3p.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/hosted-zones@z-o-2cGYSM6KW_CNJyw3p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IQhPG1La7dZeSXnX23D1n",
@@ -864,7 +960,9 @@
                 "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/routing-policies@IQhPG1La7dZeSXnX23D1n.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/routing-policies@IQhPG1La7dZeSXnX23D1n.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LXG_znJ3XzPAlDxUH2-Xp",
@@ -878,7 +976,9 @@
                 "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-health-checks.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/health-checks@LXG_znJ3XzPAlDxUH2-Xp.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/health-checks@LXG_znJ3XzPAlDxUH2-Xp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -895,8 +995,24 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/storage-types@PJaAqax4fABnkObY5UwNp.md",
-        "subtopics_count": 3,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "8i6zpjkMC_Pg-tDNmrx4n",
+            "name": "Bucket / Object Lifecycle",
+            "type": "subtopic",
+            "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Bucket / Object Lifecycle",
+                "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/bucket--object-lifecycle@8i6zpjkMC_Pg-tDNmrx4n.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "Ll5FPCtkpYq_niJd7WoTC",
             "name": "Standard",
@@ -909,7 +1025,9 @@
                 "url": "https://aws.amazon.com/s3/pricing/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/standard@Ll5FPCtkpYq_niJd7WoTC.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/standard@Ll5FPCtkpYq_niJd7WoTC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JlkLNQ8wRzGkjaootNKOD",
@@ -923,7 +1041,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/s3-ia@JlkLNQ8wRzGkjaootNKOD.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/s3-ia@JlkLNQ8wRzGkjaootNKOD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IikKYP58sT2H1lM8glm-g",
@@ -937,7 +1057,9 @@
                 "url": "https://aws.amazon.com/s3/storage-classes/glacier/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/glacier@IikKYP58sT2H1lM8glm-g.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/glacier@IikKYP58sT2H1lM8glm-g.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -968,7 +1090,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/metrics@2vQPmVNk1QpMM-15RKG8b.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/metrics@2vQPmVNk1QpMM-15RKG8b.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "tHQ6NRVDPCPEOmzgjQDLX",
@@ -982,7 +1106,9 @@
                 "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/cloudwatch-events.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/events@tHQ6NRVDPCPEOmzgjQDLX.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/events@tHQ6NRVDPCPEOmzgjQDLX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "oC6KIjWAXw0hLl4FwkB9F",
@@ -996,7 +1122,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/logs@oC6KIjWAXw0hLl4FwkB9F.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/logs@oC6KIjWAXw0hLl4FwkB9F.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1013,22 +1141,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/rds@fkMF-2PQZ00UdwxhQt1ds.md",
-        "subtopics_count": 6,
+        "subtopics_count": 3,
         "subtopics": [
-          {
-            "id": "uo5HIyePegnJooortvWLu",
-            "name": "General Purpose",
-            "type": "subtopic",
-            "description": "General Purpose SSD storage in RDS uses gp2 or gp3 volumes and is suitable for most database workloads. gp3 lets you provision IOPS and throughput independently from storage size, offering better cost control. This storage type is a good starting point unless your application has specific high-IOPS requirements.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "General Purpose Storage",
-                "url": "https://aws.amazon.com/ebs/general-purpose/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/general-purpose@uo5HIyePegnJooortvWLu.md"
-          },
           {
             "id": "l9oq3LiEd8ZrPtupPk-Fn",
             "name": "DB Instances",
@@ -1041,21 +1155,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/db-instances@l9oq3LiEd8ZrPtupPk-Fn.md"
-          },
-          {
-            "id": "3l1ji4JToj277vpgONmLw",
-            "name": "Provisioned IOPS",
-            "type": "subtopic",
-            "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Provisioned IOPS",
-                "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/provisioned-iops@3l1ji4JToj277vpgONmLw.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/db-instances@l9oq3LiEd8ZrPtupPk-Fn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Xs057ESpvxXg2r_rDQnOa",
@@ -1069,21 +1171,58 @@
                 "url": "https://aws.amazon.com/rds/instance-types/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/storage-types@Xs057ESpvxXg2r_rDQnOa.md"
-          },
-          {
-            "id": "y0CoNcEFHyz350f7pNddt",
-            "name": "Magnetic",
-            "type": "subtopic",
-            "description": "\"Magnetic\" in AWS refers to Magnetic storage, also known as Amazon EBS (Elastic Block Store) Magnetic volumes. These storage types are designed for workloads where data is accessed infrequently, and sceneries where the lowest storage cost is important. Magnetic volumes offer cost-effective storage for applications with moderate or bursty I/O requirements. Though magnetic storage provides the lowest cost per gigabyte of all EBS volume types, it has the poorest performance capability and a higher latency compared to solid-state drive storage options.",
-            "resources": [
+            "file_path": "developer-roadmap/roadmaps/aws/content/storage-types@Xs057ESpvxXg2r_rDQnOa.md",
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Magnetic Storage",
-                "url": "https://aws.amazon.com/ebs/previous-generation/"
+                "id": "uo5HIyePegnJooortvWLu",
+                "name": "General Purpose",
+                "type": "subtopic",
+                "description": "General Purpose SSD storage in RDS uses gp2 or gp3 volumes and is suitable for most database workloads. gp3 lets you provision IOPS and throughput independently from storage size, offering better cost control. This storage type is a good starting point unless your application has specific high-IOPS requirements.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "General Purpose Storage",
+                    "url": "https://aws.amazon.com/ebs/general-purpose/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/general-purpose@uo5HIyePegnJooortvWLu.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "3l1ji4JToj277vpgONmLw",
+                "name": "Provisioned IOPS",
+                "type": "subtopic",
+                "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Provisioned IOPS",
+                    "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/provisioned-iops@3l1ji4JToj277vpgONmLw.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "y0CoNcEFHyz350f7pNddt",
+                "name": "Magnetic",
+                "type": "subtopic",
+                "description": "\"Magnetic\" in AWS refers to Magnetic storage, also known as Amazon EBS (Elastic Block Store) Magnetic volumes. These storage types are designed for workloads where data is accessed infrequently, and sceneries where the lowest storage cost is important. Magnetic volumes offer cost-effective storage for applications with moderate or bursty I/O requirements. Though magnetic storage provides the lowest cost per gigabyte of all EBS volume types, it has the poorest performance capability and a higher latency compared to solid-state drive storage options.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Magnetic Storage",
+                    "url": "https://aws.amazon.com/ebs/previous-generation/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/aws/content/magnetic@y0CoNcEFHyz350f7pNddt.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/magnetic@y0CoNcEFHyz350f7pNddt.md"
+            ]
           },
           {
             "id": "tBKc7tHOiJaTmwEl3q--Y",
@@ -1097,7 +1236,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/backup--restore@tBKc7tHOiJaTmwEl3q--Y.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/backup--restore@tBKc7tHOiJaTmwEl3q--Y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1114,7 +1255,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/dynamodb@wGb0TEDnSe_bmv9Krx4qB.md",
-        "subtopics_count": 8,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "DN_iuLo9gYDqU8JleE1WJ",
@@ -1128,7 +1269,9 @@
                 "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/tables--items--attributes@DN_iuLo9gYDqU8JleE1WJ.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/tables--items--attributes@DN_iuLo9gYDqU8JleE1WJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "oWtWgaFznTPJhQIyfIIQf",
@@ -1142,7 +1285,9 @@
                 "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/primary-keys--secondary-indexes@oWtWgaFznTPJhQIyfIIQf.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/primary-keys--secondary-indexes@oWtWgaFznTPJhQIyfIIQf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aU1lv80xXNkQTD41Qfln5",
@@ -1156,21 +1301,9 @@
                 "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/data-modeling@aU1lv80xXNkQTD41Qfln5.md"
-          },
-          {
-            "id": "0C3GCGdSXozJK2MNeWerg",
-            "name": "Streams",
-            "type": "subtopic",
-            "description": "DynamoDB Streams captures a time-ordered sequence of item-level changes in a table. Each stream record contains information about what changed, including the old and new item state. Streams are commonly used to trigger Lambda functions for event-driven processing or to replicate data to other systems.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Streams",
-                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/streams@0C3GCGdSXozJK2MNeWerg.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/data-modeling@aU1lv80xXNkQTD41Qfln5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KtXww9J0znwzTwL7GKfaY",
@@ -1184,7 +1317,9 @@
                 "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/capacity-settings@KtXww9J0znwzTwL7GKfaY.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/capacity-settings@KtXww9J0znwzTwL7GKfaY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0ctJa-V6aenimSr5h303J",
@@ -1198,21 +1333,9 @@
                 "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/limits@0ctJa-V6aenimSr5h303J.md"
-          },
-          {
-            "id": "NWvasq-AcwxmOKZPDv3ue",
-            "name": "Backup / Restore",
-            "type": "subtopic",
-            "description": "DynamoDB supports on-demand backups that create full snapshots of a table at any point in time, stored without affecting table performance. Point-in-time recovery (PITR) lets you restore a table to any second within the last 35 days. Backups are stored in AWS-managed infrastructure and do not count against your table's storage.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Backup & Restore",
-                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/backup--restore@NWvasq-AcwxmOKZPDv3ue.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/limits@0ctJa-V6aenimSr5h303J.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "yauCWo1VoG-X483-4mfdn",
@@ -1226,7 +1349,9 @@
                 "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/dynamodb-local@yauCWo1VoG-X483-4mfdn.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/dynamodb-local@yauCWo1VoG-X483-4mfdn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1243,7 +1368,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/elasticache@9TcYdsdmvKWWHoyE6uNbC.md",
-        "subtopics_count": 4,
+        "subtopics_count": 1,
         "subtopics": [
           {
             "id": "PYgs4niQRlLKCBMfM4qf9",
@@ -1257,54 +1382,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/quota-limits.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/quotas@PYgs4niQRlLKCBMfM4qf9.md"
-          },
-          {
-            "id": "PphzNicIJawVElmY5rn8f",
-            "name": "Clusters / ECS Container Agents",
-            "type": "subtopic",
-            "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Clusters",
-                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
-              },
-              {
-                "type": "official",
-                "title": "ECS Container Agents",
-                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/clusters--ecs-container-agents@PphzNicIJawVElmY5rn8f.md"
-          },
-          {
-            "id": "1lHXxpoF11yE3rfoQCbTG",
-            "name": "Tasks",
-            "type": "subtopic",
-            "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Tasks in ECS",
-                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/tasks@1lHXxpoF11yE3rfoQCbTG.md"
-          },
-          {
-            "id": "1r2FL3OEOh0S9ee0OVnrN",
-            "name": "Launch Config / Autoscaling Groups",
-            "type": "subtopic",
-            "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Launch Config in EC2",
-                "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/launch-config--autoscaling-groups@1r2FL3OEOh0S9ee0OVnrN.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/quotas@PYgs4niQRlLKCBMfM4qf9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1326,8 +1406,41 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/ecr@_c_Wq84yIu4ac7e0RzDtC.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "0C3GCGdSXozJK2MNeWerg",
+            "name": "Streams",
+            "type": "subtopic",
+            "description": "DynamoDB Streams captures a time-ordered sequence of item-level changes in a table. Each stream record contains information about what changed, including the old and new item state. Streams are commonly used to trigger Lambda functions for event-driven processing or to replicate data to other systems.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Streams",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/streams@0C3GCGdSXozJK2MNeWerg.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "NWvasq-AcwxmOKZPDv3ue",
+            "name": "Backup / Restore",
+            "type": "subtopic",
+            "description": "DynamoDB supports on-demand backups that create full snapshots of a table at any point in time, stored without affecting table performance. Point-in-time recovery (PITR) lets you restore a table to any second within the last 35 days. Backups are stored in AWS-managed infrastructure and do not count against your table's storage.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Backup & Restore",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/backup--restore@NWvasq-AcwxmOKZPDv3ue.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "zFgnu2fL0EUKIMz9tVH1j",
@@ -1356,7 +1469,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-working-with.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/distributions@fAK7GRKunmoidlD32OBma.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/distributions@fAK7GRKunmoidlD32OBma.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dO9ZfUyNia7L_fCh4d0n7",
@@ -1370,7 +1485,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/security-iam.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/policies@dO9ZfUyNia7L_fCh4d0n7.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/policies@dO9ZfUyNia7L_fCh4d0n7.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "hRXbAADgRTXEFwbBXeNu7",
@@ -1384,38 +1501,9 @@
                 "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/invalidations@hRXbAADgRTXEFwbBXeNu7.md"
-          }
-        ]
-      },
-      {
-        "id": "EqUT0wpdPRDGtGAZ7nneY",
-        "name": "ECS",
-        "type": "topic",
-        "description": "ECS (Elastic Container Service) is AWS's container orchestration service. It runs Docker containers on a cluster of EC2 instances or on Fargate without managing servers. ECS handles scheduling, scaling, and integrating containers with other AWS services.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Amazon Elastic Container Service (ECS)",
-            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/aws/content/ecs@EqUT0wpdPRDGtGAZ7nneY.md",
-        "subtopics_count": 1,
-        "subtopics": [
-          {
-            "id": "zSiSbIdBgFLBBAnp4I9vX",
-            "name": "Services",
-            "type": "subtopic",
-            "description": "AWS ECS Services are defined as a set of part or all of your task definitions that run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster. If any of your tasks should fail or stop for any reason, the Amazon ECS service scheduler launches another instance of your task definition to replace it and maintain the desired count of tasks, ensuring the service's reliability and availability. ECS services can be scaled manually or with automated scaling policies based on CloudWatch alarms. In addition, ECS service scheduling options define how Amazon ECS places and terminates tasks.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Services in ECS",
-                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/services@zSiSbIdBgFLBBAnp4I9vX.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/invalidations@hRXbAADgRTXEFwbBXeNu7.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1441,6 +1529,108 @@
         "subtopics": []
       },
       {
+        "id": "EqUT0wpdPRDGtGAZ7nneY",
+        "name": "ECS",
+        "type": "topic",
+        "description": "ECS (Elastic Container Service) is AWS's container orchestration service. It runs Docker containers on a cluster of EC2 instances or on Fargate without managing servers. ECS handles scheduling, scaling, and integrating containers with other AWS services.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Elastic Container Service (ECS)",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/aws/content/ecs@EqUT0wpdPRDGtGAZ7nneY.md",
+        "subtopics_count": 5,
+        "subtopics": [
+          {
+            "id": "PphzNicIJawVElmY5rn8f",
+            "name": "Clusters / ECS Container Agents",
+            "type": "subtopic",
+            "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Clusters",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
+              },
+              {
+                "type": "official",
+                "title": "ECS Container Agents",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/clusters--ecs-container-agents@PphzNicIJawVElmY5rn8f.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "1lHXxpoF11yE3rfoQCbTG",
+            "name": "Tasks",
+            "type": "subtopic",
+            "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Tasks in ECS",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/tasks@1lHXxpoF11yE3rfoQCbTG.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "zSiSbIdBgFLBBAnp4I9vX",
+            "name": "Services",
+            "type": "subtopic",
+            "description": "AWS ECS Services are defined as a set of part or all of your task definitions that run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster. If any of your tasks should fail or stop for any reason, the Amazon ECS service scheduler launches another instance of your task definition to replace it and maintain the desired count of tasks, ensuring the service's reliability and availability. ECS services can be scaled manually or with automated scaling policies based on CloudWatch alarms. In addition, ECS service scheduling options define how Amazon ECS places and terminates tasks.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Services in ECS",
+                "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/services@zSiSbIdBgFLBBAnp4I9vX.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "1r2FL3OEOh0S9ee0OVnrN",
+            "name": "Launch Config / Autoscaling Groups",
+            "type": "subtopic",
+            "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Launch Config in EC2",
+                "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/launch-config--autoscaling-groups@1r2FL3OEOh0S9ee0OVnrN.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "OI8y54RhFpfS_l1L9VTZe",
+            "name": "Fargate",
+            "type": "subtopic",
+            "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Amazon Fargate",
+                "url": "https://aws.amazon.com/fargate/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/fargate@OI8y54RhFpfS_l1L9VTZe.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
         "id": "741vsAPTXJLVUlazFg0q4",
         "name": "Lambda",
         "type": "topic",
@@ -1453,7 +1643,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/aws/content/lambda@741vsAPTXJLVUlazFg0q4.md",
-        "subtopics_count": 9,
+        "subtopics_count": 8,
         "subtopics": [
           {
             "id": "SdCNevKjyhFcreMSWY6BT",
@@ -1472,21 +1662,9 @@
                 "url": "https://www.youtube.com/watch?v=e1tkFsFOBHA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/creating--invoking-functions@SdCNevKjyhFcreMSWY6BT.md"
-          },
-          {
-            "id": "KWjIAakMIlxn_jso22h0M",
-            "name": "Custom Runtimes",
-            "type": "subtopic",
-            "description": "Lambda provides managed runtimes for languages like Python, Node.js, Java, and Go. For unsupported languages or custom configurations, you can provide a custom runtime using the Lambda Runtime API. The runtime is responsible for fetching events from Lambda and returning responses.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "AWS Lambda Runtimes",
-                "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/custom-runtimes@KWjIAakMIlxn_jso22h0M.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/creating--invoking-functions@SdCNevKjyhFcreMSWY6BT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CL93C0NGFQmScVnftnRtO",
@@ -1505,7 +1683,25 @@
                 "url": "https://www.youtube.com/watch?v=jyuZDkiHe2Q"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/layers@CL93C0NGFQmScVnftnRtO.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/layers@CL93C0NGFQmScVnftnRtO.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "KWjIAakMIlxn_jso22h0M",
+            "name": "Custom Runtimes",
+            "type": "subtopic",
+            "description": "Lambda provides managed runtimes for languages like Python, Node.js, Java, and Go. For unsupported languages or custom configurations, you can provide a custom runtime using the Lambda Runtime API. The runtime is responsible for fetching events from Lambda and returning responses.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Lambda Runtimes",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/custom-runtimes@KWjIAakMIlxn_jso22h0M.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "75ZjuGozDfoZPLj32P2t2",
@@ -1519,7 +1715,9 @@
                 "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/versioning--aliases@75ZjuGozDfoZPLj32P2t2.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/versioning--aliases@75ZjuGozDfoZPLj32P2t2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0CUfDEMwCwSHVdqkP8lOG",
@@ -1533,7 +1731,9 @@
                 "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/event-bridge--scheduled-execution@0CUfDEMwCwSHVdqkP8lOG.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/event-bridge--scheduled-execution@0CUfDEMwCwSHVdqkP8lOG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EuOv19jDSj56Cy7PqvtNv",
@@ -1547,35 +1747,9 @@
                 "url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md"
-          },
-          {
-            "id": "OI8y54RhFpfS_l1L9VTZe",
-            "name": "Fargate",
-            "type": "subtopic",
-            "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Amazon Fargate",
-                "url": "https://aws.amazon.com/fargate/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/fargate@OI8y54RhFpfS_l1L9VTZe.md"
-          },
-          {
-            "id": "5SF5nO94NFDkHY8UJoeAY",
-            "name": "Lambda@Edge",
-            "type": "subtopic",
-            "description": "Lambda Edge is a feature of AWS Lambda that allows you to run coding functions at AWS edge locations, closest to your customers. This can result in lower latency response times and better customer experiences. It allows you to customize the content that CloudFront delivers, executing the code after the CloudFront response or request. Lambda@Edge scales automatically, from a few requests per day to thousands per second.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "AWS Lambda Edge",
-                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/lambdaedge@5SF5nO94NFDkHY8UJoeAY.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "T0dvezPWX6rAiKweT0TkG",
@@ -1589,7 +1763,25 @@
                 "url": "https://aws.amazon.com/api-gateway/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/aws/content/api-gateway@T0dvezPWX6rAiKweT0TkG.md"
+            "file_path": "developer-roadmap/roadmaps/aws/content/api-gateway@T0dvezPWX6rAiKweT0TkG.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "5SF5nO94NFDkHY8UJoeAY",
+            "name": "Lambda@Edge",
+            "type": "subtopic",
+            "description": "Lambda Edge is a feature of AWS Lambda that allows you to run coding functions at AWS edge locations, closest to your customers. This can result in lower latency response times and better customer experiences. It allows you to customize the content that CloudFront delivers, executing the code after the CloudFront response or request. Lambda@Edge scales automatically, from a few requests per day to thousands per second.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "AWS Lambda Edge",
+                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/aws/content/lambdaedge@5SF5nO94NFDkHY8UJoeAY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -1731,17 +1923,11 @@
         ]
       },
       {
-        "id": "VHD2ISW9WoSWjp8Hh6Zft",
-        "name": "Instance Types",
-        "type": "subtopic",
-        "description": "EC2 instance types determine the hardware profile of a virtual machine, covering combinations of CPU, memory, storage, and networking capacity. They are grouped into families optimized for different workloads: general purpose, compute optimized, memory optimized, storage optimized, and accelerated computing. Choosing the right instance type affects both performance and cost.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "AWS EC2 Instance Types",
-            "url": "https://aws.amazon.com/ec2/instance-types"
-          }
-        ]
+        "id": "kcBGBLPuZkuI-Omv8mOe7",
+        "name": "Start with Essential Services",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "_U2bKjxIrAAk7TMrPttpb",
@@ -1822,85 +2008,15 @@
         ]
       },
       {
-        "id": "kG7tlZjv_hJbHGooBkxS0",
-        "name": "Sandbox / Sending Limits",
+        "id": "VHD2ISW9WoSWjp8Hh6Zft",
+        "name": "Instance Types",
         "type": "subtopic",
-        "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
+        "description": "EC2 instance types determine the hardware profile of a virtual machine, covering combinations of CPU, memory, storage, and networking capacity. They are grouped into families optimized for different workloads: general purpose, compute optimized, memory optimized, storage optimized, and accelerated computing. Choosing the right instance type affects both performance and cost.",
         "resources": [
           {
             "type": "official",
-            "title": "Sandbox / Sending Limits",
-            "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
-          }
-        ]
-      },
-      {
-        "id": "cwGuOrmbSTcSoH80skLTk",
-        "name": "Identity-based",
-        "type": "subtopic",
-        "description": "Identity-based policies are attached to IAM identities: users, groups, or roles. They define what actions that identity is allowed to perform across AWS services and resources. These are the most common type of IAM policy.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Identity Based Policies",
-            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
-          }
-        ]
-      },
-      {
-        "id": "bTCVHXPG-LtaaFmgiB2SL",
-        "name": "Identity Verification",
-        "type": "subtopic",
-        "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Identity Verification",
-            "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
-          }
-        ]
-      },
-      {
-        "id": "v_YmmlOk-DkzJ8mI5Ftgr",
-        "name": "Resource-based",
-        "type": "subtopic",
-        "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Identity Based Policies",
-            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
-          }
-        ]
-      },
-      {
-        "id": "zwVd1vNm1ks6MdHZoi-5W",
-        "name": "DKIM Setup",
-        "type": "subtopic",
-        "description": "DKIM (DomainKeys Identified Mail) adds a cryptographic signature to outgoing emails that recipients can verify. Setting up DKIM in SES involves publishing DNS records with a public key that SES uses to sign your messages. Proper DKIM configuration improves deliverability and is required for compliance with modern email authentication standards.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "DKIM",
-            "url": "https://dkim.org/"
-          },
-          {
-            "type": "article",
-            "title": "DKIM - Cloudflare",
-            "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
-          }
-        ]
-      },
-      {
-        "id": "i7X1GfOx5AZYFskepW4Zr",
-        "name": "Instance Profiles",
-        "type": "subtopic",
-        "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Instance Profiles",
-            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
+            "title": "AWS EC2 Instance Types",
+            "url": "https://aws.amazon.com/ec2/instance-types"
           }
         ]
       },
@@ -2024,6 +2140,24 @@
         ]
       },
       {
+        "id": "xmKeB4hEi2DunmhAsvS1X",
+        "name": "IAM",
+        "type": "topic",
+        "description": "IAM (Identity and Access Management) controls who can access AWS services and what actions they can perform. It manages users, groups, roles, and the policies attached to them. Every API call made to AWS is authenticated and authorized through IAM.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Over-Permissive IAM: Hands-on Privilege Escalation Exercise",
+            "url": "https://ransomleak.com/exercises/over-permissive-iam/"
+          },
+          {
+            "type": "official",
+            "title": "IAM - User Guide",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+          }
+        ]
+      },
+      {
         "id": "FCdOnwQubhOnCFFnF8uJN",
         "name": "Route Tables",
         "type": "subtopic",
@@ -2081,24 +2215,6 @@
         ]
       },
       {
-        "id": "xmKeB4hEi2DunmhAsvS1X",
-        "name": "IAM",
-        "type": "topic",
-        "description": "IAM (Identity and Access Management) controls who can access AWS services and what actions they can perform. It manages users, groups, roles, and the policies attached to them. Every API call made to AWS is authenticated and authorized through IAM.",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Over-Permissive IAM: Hands-on Privilege Escalation Exercise",
-            "url": "https://ransomleak.com/exercises/over-permissive-iam/"
-          },
-          {
-            "type": "official",
-            "title": "IAM - User Guide",
-            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
-          }
-        ]
-      },
-      {
         "id": "eQAn3e-k9WNufPqOnwY_K",
         "name": "Policies",
         "type": "subtopic",
@@ -2108,6 +2224,32 @@
             "type": "official",
             "title": "Permissions and Policies",
             "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_access-management.html"
+          }
+        ]
+      },
+      {
+        "id": "cwGuOrmbSTcSoH80skLTk",
+        "name": "Identity-based",
+        "type": "subtopic",
+        "description": "Identity-based policies are attached to IAM identities: users, groups, or roles. They define what actions that identity is allowed to perform across AWS services and resources. These are the most common type of IAM policy.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Identity Based Policies",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+          }
+        ]
+      },
+      {
+        "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+        "name": "Resource-based",
+        "type": "subtopic",
+        "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Identity Based Policies",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
           }
         ]
       },
@@ -2134,6 +2276,179 @@
             "type": "official",
             "title": "Create Your First Role",
             "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-roles.html"
+          }
+        ]
+      },
+      {
+        "id": "i7X1GfOx5AZYFskepW4Zr",
+        "name": "Instance Profiles",
+        "type": "subtopic",
+        "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Instance Profiles",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
+          }
+        ]
+      },
+      {
+        "id": "0IMdO7g_5El1elvDXJJ_0",
+        "name": "Assuming Roles",
+        "type": "subtopic",
+        "description": "Assuming a role means temporarily taking on a different set of permissions defined by that role. This is done using the STS AssumeRole API call, which returns short-lived credentials. It is commonly used for cross-account access, least-privilege application permissions, and federated identity scenarios.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Assuming Roles",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
+          }
+        ]
+      },
+      {
+        "id": "-bwXo6xvF1yzyWEm5oZhJ",
+        "name": "SES",
+        "type": "topic",
+        "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SES",
+            "url": "https://aws.amazon.com/ses/"
+          }
+        ]
+      },
+      {
+        "id": "C0ngVzsV5v-wrFbSzAhuu",
+        "name": "Step 4 - Serverless",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "kG7tlZjv_hJbHGooBkxS0",
+        "name": "Sandbox / Sending Limits",
+        "type": "subtopic",
+        "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Sandbox / Sending Limits",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
+          }
+        ]
+      },
+      {
+        "id": "bTCVHXPG-LtaaFmgiB2SL",
+        "name": "Identity Verification",
+        "type": "subtopic",
+        "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Identity Verification",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "zwVd1vNm1ks6MdHZoi-5W",
+        "name": "DKIM Setup",
+        "type": "subtopic",
+        "description": "DKIM (DomainKeys Identified Mail) adds a cryptographic signature to outgoing emails that recipients can verify. Setting up DKIM in SES involves publishing DNS records with a public key that SES uses to sign your messages. Proper DKIM configuration improves deliverability and is required for compliance with modern email authentication standards.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "DKIM",
+            "url": "https://dkim.org/"
+          },
+          {
+            "type": "article",
+            "title": "DKIM - Cloudflare",
+            "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
+          }
+        ]
+      },
+      {
+        "id": "0NWTFssjg9SbDXQRkN5kF",
+        "name": "Feedback Handling",
+        "type": "subtopic",
+        "description": "SES can receive delivery notifications, bounces, and complaint feedback from recipient mail servers. These events are delivered via SNS or SQS and should be processed to remove invalid addresses and maintain a clean sending list. Ignoring bounce and complaint feedback leads to reputation damage and account suspension.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Feedbacks",
+            "url": "https://aws.amazon.com/ses/faqs"
+          }
+        ]
+      },
+      {
+        "id": "4svXYQYmqjUZU39z8OyhD",
+        "name": "Configuration Sets",
+        "type": "subtopic",
+        "description": "Configuration sets in SES are groups of rules applied to outgoing emails. They enable tracking of events like sends, bounces, complaints, and clicks by routing data to CloudWatch, SNS, Kinesis, or S3. You can also use them to apply dedicated IP pools or TLS settings.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SES",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
+          }
+        ]
+      },
+      {
+        "id": "Vo_PBfB7LxYL27nBBVoVp",
+        "name": "Sender Reputation",
+        "type": "subtopic",
+        "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Sender Reputation",
+            "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
+          }
+        ]
+      },
+      {
+        "id": "pnX1dfkjS8woWc4KGXlh_",
+        "name": "Dedicated IP",
+        "type": "subtopic",
+        "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Dedicated IP",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
+          }
+        ]
+      },
+      {
+        "id": "PN3xAYfQ-_QgZCRCnsEca",
+        "name": "S3",
+        "type": "topic",
+        "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Public S3 Buckets: Hands-on Exercise",
+            "url": "https://ransomleak.com/exercises/public-storage-buckets/"
+          },
+          {
+            "type": "official",
+            "title": "S3",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "rTgjDj5HqbjRpcJ7PR-EC",
+        "name": "Buckets / Objects",
+        "type": "subtopic",
+        "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Bucket / Object",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
           }
         ]
       },
@@ -2216,128 +2531,6 @@
         ]
       },
       {
-        "id": "PN3xAYfQ-_QgZCRCnsEca",
-        "name": "S3",
-        "type": "topic",
-        "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Public S3 Buckets: Hands-on Exercise",
-            "url": "https://ransomleak.com/exercises/public-storage-buckets/"
-          },
-          {
-            "type": "official",
-            "title": "S3",
-            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
-          }
-        ]
-      },
-      {
-        "id": "0IMdO7g_5El1elvDXJJ_0",
-        "name": "Assuming Roles",
-        "type": "subtopic",
-        "description": "Assuming a role means temporarily taking on a different set of permissions defined by that role. This is done using the STS AssumeRole API call, which returns short-lived credentials. It is commonly used for cross-account access, least-privilege application permissions, and federated identity scenarios.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Assuming Roles",
-            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
-          }
-        ]
-      },
-      {
-        "id": "rTgjDj5HqbjRpcJ7PR-EC",
-        "name": "Buckets / Objects",
-        "type": "subtopic",
-        "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Bucket / Object",
-            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
-          }
-        ]
-      },
-      {
-        "id": "8i6zpjkMC_Pg-tDNmrx4n",
-        "name": "Bucket / Object Lifecycle",
-        "type": "subtopic",
-        "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Bucket / Object Lifecycle",
-            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
-          }
-        ]
-      },
-      {
-        "id": "-bwXo6xvF1yzyWEm5oZhJ",
-        "name": "SES",
-        "type": "topic",
-        "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "SES",
-            "url": "https://aws.amazon.com/ses/"
-          }
-        ]
-      },
-      {
-        "id": "0NWTFssjg9SbDXQRkN5kF",
-        "name": "Feedback Handling",
-        "type": "subtopic",
-        "description": "SES can receive delivery notifications, bounces, and complaint feedback from recipient mail servers. These events are delivered via SNS or SQS and should be processed to remove invalid addresses and maintain a clean sending list. Ignoring bounce and complaint feedback leads to reputation damage and account suspension.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Feedbacks",
-            "url": "https://aws.amazon.com/ses/faqs"
-          }
-        ]
-      },
-      {
-        "id": "4svXYQYmqjUZU39z8OyhD",
-        "name": "Configuration Sets",
-        "type": "subtopic",
-        "description": "Configuration sets in SES are groups of rules applied to outgoing emails. They enable tracking of events like sends, bounces, complaints, and clicks by routing data to CloudWatch, SNS, Kinesis, or S3. You can also use them to apply dedicated IP pools or TLS settings.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "SES",
-            "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
-          }
-        ]
-      },
-      {
-        "id": "Vo_PBfB7LxYL27nBBVoVp",
-        "name": "Sender Reputation",
-        "type": "subtopic",
-        "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Sender Reputation",
-            "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
-          }
-        ]
-      },
-      {
-        "id": "pnX1dfkjS8woWc4KGXlh_",
-        "name": "Dedicated IP",
-        "type": "subtopic",
-        "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Dedicated IP",
-            "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
-          }
-        ]
-      },
-      {
         "id": "f89qL7Cg9R_LTxBEG4jUK",
         "name": "Route53",
         "type": "topic",
@@ -2399,6 +2592,19 @@
             "type": "official",
             "title": "Storage Types",
             "url": "https://aws.amazon.com/s3/storage-classes/"
+          }
+        ]
+      },
+      {
+        "id": "8i6zpjkMC_Pg-tDNmrx4n",
+        "name": "Bucket / Object Lifecycle",
+        "type": "subtopic",
+        "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Bucket / Object Lifecycle",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
           }
         ]
       },
@@ -2507,19 +2713,6 @@
         ]
       },
       {
-        "id": "uo5HIyePegnJooortvWLu",
-        "name": "General Purpose",
-        "type": "subtopic",
-        "description": "General Purpose SSD storage in RDS uses gp2 or gp3 volumes and is suitable for most database workloads. gp3 lets you provision IOPS and throughput independently from storage size, offering better cost control. This storage type is a good starting point unless your application has specific high-IOPS requirements.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "General Purpose Storage",
-            "url": "https://aws.amazon.com/ebs/general-purpose/"
-          }
-        ]
-      },
-      {
         "id": "l9oq3LiEd8ZrPtupPk-Fn",
         "name": "DB Instances",
         "type": "subtopic",
@@ -2533,19 +2726,6 @@
         ]
       },
       {
-        "id": "3l1ji4JToj277vpgONmLw",
-        "name": "Provisioned IOPS",
-        "type": "subtopic",
-        "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Provisioned IOPS",
-            "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
-          }
-        ]
-      },
-      {
         "id": "Xs057ESpvxXg2r_rDQnOa",
         "name": "Storage Types",
         "type": "subtopic",
@@ -2555,6 +2735,32 @@
             "type": "official",
             "title": "RDS Storage Types",
             "url": "https://aws.amazon.com/rds/instance-types/"
+          }
+        ]
+      },
+      {
+        "id": "uo5HIyePegnJooortvWLu",
+        "name": "General Purpose",
+        "type": "subtopic",
+        "description": "General Purpose SSD storage in RDS uses gp2 or gp3 volumes and is suitable for most database workloads. gp3 lets you provision IOPS and throughput independently from storage size, offering better cost control. This storage type is a good starting point unless your application has specific high-IOPS requirements.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "General Purpose Storage",
+            "url": "https://aws.amazon.com/ebs/general-purpose/"
+          }
+        ]
+      },
+      {
+        "id": "3l1ji4JToj277vpgONmLw",
+        "name": "Provisioned IOPS",
+        "type": "subtopic",
+        "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Provisioned IOPS",
+            "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
           }
         ]
       },
@@ -2637,19 +2843,6 @@
         ]
       },
       {
-        "id": "0C3GCGdSXozJK2MNeWerg",
-        "name": "Streams",
-        "type": "subtopic",
-        "description": "DynamoDB Streams captures a time-ordered sequence of item-level changes in a table. Each stream record contains information about what changed, including the old and new item state. Streams are commonly used to trigger Lambda functions for event-driven processing or to replicate data to other systems.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Streams",
-            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
-          }
-        ]
-      },
-      {
         "id": "KtXww9J0znwzTwL7GKfaY",
         "name": "Capacity Settings",
         "type": "subtopic",
@@ -2672,19 +2865,6 @@
             "type": "official",
             "title": "Limit Settings",
             "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
-          }
-        ]
-      },
-      {
-        "id": "NWvasq-AcwxmOKZPDv3ue",
-        "name": "Backup / Restore",
-        "type": "subtopic",
-        "description": "DynamoDB supports on-demand backups that create full snapshots of a table at any point in time, stored without affecting table performance. Point-in-time recovery (PITR) lets you restore a table to any second within the last 35 days. Backups are stored in AWS-managed infrastructure and do not count against your table's storage.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Backup & Restore",
-            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
           }
         ]
       },
@@ -2728,50 +2908,6 @@
         ]
       },
       {
-        "id": "PphzNicIJawVElmY5rn8f",
-        "name": "Clusters / ECS Container Agents",
-        "type": "subtopic",
-        "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Clusters",
-            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
-          },
-          {
-            "type": "official",
-            "title": "ECS Container Agents",
-            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
-          }
-        ]
-      },
-      {
-        "id": "1lHXxpoF11yE3rfoQCbTG",
-        "name": "Tasks",
-        "type": "subtopic",
-        "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Tasks in ECS",
-            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
-          }
-        ]
-      },
-      {
-        "id": "1r2FL3OEOh0S9ee0OVnrN",
-        "name": "Launch Config / Autoscaling Groups",
-        "type": "subtopic",
-        "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Launch Config in EC2",
-            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
-          }
-        ]
-      },
-      {
         "id": "_c_Wq84yIu4ac7e0RzDtC",
         "name": "ECR",
         "type": "topic",
@@ -2786,6 +2922,32 @@
             "type": "official",
             "title": "Concepts of Amazon ECR",
             "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/concept-and-components.html"
+          }
+        ]
+      },
+      {
+        "id": "0C3GCGdSXozJK2MNeWerg",
+        "name": "Streams",
+        "type": "subtopic",
+        "description": "DynamoDB Streams captures a time-ordered sequence of item-level changes in a table. Each stream record contains information about what changed, including the old and new item state. Streams are commonly used to trigger Lambda functions for event-driven processing or to replicate data to other systems.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Streams",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
+          }
+        ]
+      },
+      {
+        "id": "NWvasq-AcwxmOKZPDv3ue",
+        "name": "Backup / Restore",
+        "type": "subtopic",
+        "description": "DynamoDB supports on-demand backups that create full snapshots of a table at any point in time, stored without affecting table performance. Point-in-time recovery (PITR) lets you restore a table to any second within the last 35 days. Backups are stored in AWS-managed infrastructure and do not count against your table's storage.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Backup & Restore",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
           }
         ]
       },
@@ -2842,6 +3004,24 @@
         ]
       },
       {
+        "id": "kvHzEDZQV72AUjqisg8PB",
+        "name": "EKS",
+        "type": "topic",
+        "description": "EKS (Elastic Kubernetes Service) is a managed Kubernetes service that runs the Kubernetes control plane on AWS. It handles upgrades, patching, and high availability of the control plane, while you manage the worker nodes or use Fargate for serverless pods. EKS is compatible with standard Kubernetes tooling and APIs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Amazon Elastic Kubernetes Service (EKS)",
+            "url": "https://aws.amazon.com/eks/"
+          },
+          {
+            "type": "official",
+            "title": "Concepts of Amazon EKS",
+            "url": "https://docs.aws.amazon.com/eks/"
+          }
+        ]
+      },
+      {
         "id": "EqUT0wpdPRDGtGAZ7nneY",
         "name": "ECS",
         "type": "topic",
@@ -2851,6 +3031,37 @@
             "type": "official",
             "title": "Amazon Elastic Container Service (ECS)",
             "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+          }
+        ]
+      },
+      {
+        "id": "PphzNicIJawVElmY5rn8f",
+        "name": "Clusters / ECS Container Agents",
+        "type": "subtopic",
+        "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Clusters",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
+          },
+          {
+            "type": "official",
+            "title": "ECS Container Agents",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
+          }
+        ]
+      },
+      {
+        "id": "1lHXxpoF11yE3rfoQCbTG",
+        "name": "Tasks",
+        "type": "subtopic",
+        "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Tasks in ECS",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
           }
         ]
       },
@@ -2868,20 +3079,28 @@
         ]
       },
       {
-        "id": "kvHzEDZQV72AUjqisg8PB",
-        "name": "EKS",
-        "type": "topic",
-        "description": "EKS (Elastic Kubernetes Service) is a managed Kubernetes service that runs the Kubernetes control plane on AWS. It handles upgrades, patching, and high availability of the control plane, while you manage the worker nodes or use Fargate for serverless pods. EKS is compatible with standard Kubernetes tooling and APIs.",
+        "id": "1r2FL3OEOh0S9ee0OVnrN",
+        "name": "Launch Config / Autoscaling Groups",
+        "type": "subtopic",
+        "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
         "resources": [
           {
             "type": "official",
-            "title": "Amazon Elastic Kubernetes Service (EKS)",
-            "url": "https://aws.amazon.com/eks/"
-          },
+            "title": "Launch Config in EC2",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
+          }
+        ]
+      },
+      {
+        "id": "OI8y54RhFpfS_l1L9VTZe",
+        "name": "Fargate",
+        "type": "subtopic",
+        "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
+        "resources": [
           {
             "type": "official",
-            "title": "Concepts of Amazon EKS",
-            "url": "https://docs.aws.amazon.com/eks/"
+            "title": "Amazon Fargate",
+            "url": "https://aws.amazon.com/fargate/"
           }
         ]
       },
@@ -2917,19 +3136,6 @@
         ]
       },
       {
-        "id": "KWjIAakMIlxn_jso22h0M",
-        "name": "Custom Runtimes",
-        "type": "subtopic",
-        "description": "Lambda provides managed runtimes for languages like Python, Node.js, Java, and Go. For unsupported languages or custom configurations, you can provide a custom runtime using the Lambda Runtime API. The runtime is responsible for fetching events from Lambda and returning responses.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "AWS Lambda Runtimes",
-            "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
-          }
-        ]
-      },
-      {
         "id": "CL93C0NGFQmScVnftnRtO",
         "name": "Layers",
         "type": "subtopic",
@@ -2944,6 +3150,19 @@
             "type": "video",
             "title": "Create and Use Lambda Layers",
             "url": "https://www.youtube.com/watch?v=jyuZDkiHe2Q"
+          }
+        ]
+      },
+      {
+        "id": "KWjIAakMIlxn_jso22h0M",
+        "name": "Custom Runtimes",
+        "type": "subtopic",
+        "description": "Lambda provides managed runtimes for languages like Python, Node.js, Java, and Go. For unsupported languages or custom configurations, you can provide a custom runtime using the Lambda Runtime API. The runtime is responsible for fetching events from Lambda and returning responses.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "AWS Lambda Runtimes",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
           }
         ]
       },
@@ -2987,15 +3206,15 @@
         ]
       },
       {
-        "id": "OI8y54RhFpfS_l1L9VTZe",
-        "name": "Fargate",
+        "id": "T0dvezPWX6rAiKweT0TkG",
+        "name": "API Gateway",
         "type": "subtopic",
-        "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
+        "description": "API Gateway is a fully managed service for creating, deploying, and securing APIs at scale. It supports REST, HTTP, and WebSocket APIs and integrates directly with Lambda, making it a common entry point for serverless backends. It handles request routing, authentication, rate limiting, and response transformation.",
         "resources": [
           {
             "type": "official",
-            "title": "Amazon Fargate",
-            "url": "https://aws.amazon.com/fargate/"
+            "title": "AWS API Gateway",
+            "url": "https://aws.amazon.com/api-gateway/"
           }
         ]
       },
@@ -3011,22 +3230,434 @@
             "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html"
           }
         ]
-      },
-      {
-        "id": "T0dvezPWX6rAiKweT0TkG",
-        "name": "API Gateway",
-        "type": "subtopic",
-        "description": "API Gateway is a fully managed service for creating, deploying, and securing APIs at scale. It supports REST, HTTP, and WebSocket APIs and integrates directly with Lambda, making it a common entry point for serverless backends. It handles request routing, authentication, rate limiting, and response transformation.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "AWS API Gateway",
-            "url": "https://aws.amazon.com/api-gateway/"
-          }
-        ]
       }
     ],
     "edges": [
+      {
+        "source": "74JxgfJ_1qmVNZ_QRp9Ne",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i4ijY3T5gLgNz0XqRipXe",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3hatcMVLDbMuz73uTx-9P",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dg1v9TV-wGSNLPfAals_y",
+        "target": "Py9nst2FDJ1_hoXeX_qSF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kcBGBLPuZkuI-Omv8mOe7",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VHD2ISW9WoSWjp8Hh6Zft",
+        "target": "cL7vis8H5L2vv6LqJ5wvC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_U2bKjxIrAAk7TMrPttpb",
+        "target": "kcBGBLPuZkuI-Omv8mOe7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A0u7CJwj5ULAMiAm12vZI",
+        "target": "kcBGBLPuZkuI-Omv8mOe7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wFT-fddGn__DRoqG0joFk",
+        "target": "kcBGBLPuZkuI-Omv8mOe7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DCvkZSp25pjaimG0THLTu",
+        "target": "kcBGBLPuZkuI-Omv8mOe7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZKjjgXZ89zV2atWcSal-s",
+        "target": "kcBGBLPuZkuI-Omv8mOe7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8v9T6Y6JC7qaqIgkbT-nr",
+        "target": "kcBGBLPuZkuI-Omv8mOe7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "z9R1BWUGalmnw0E7QqiW6",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0flGtxZmxQKxO3c3sguwp",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eKuC7VmkGVYFnbC2Rvn8D",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2hFBv2fhKDYBN-9ITs82J",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Y64TE0U20kllmykjdfhHp",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ymuURDwW8JG3NSIXcl0FL",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ABCH1rATHmecyWHyK3n-m",
+        "target": "Sv2aT8eI1RvJhvoKVYQEX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FCdOnwQubhOnCFFnF8uJN",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Cd9gdbkCFdrTLrnJMy5F3",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Le8yOJzpzxH1xgd7XEU2B",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6D-gs32jrCyvMVhr9PSAY",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eQAn3e-k9WNufPqOnwY_K",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Nn2zawk6A31NwZa40jOhX",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7nI202hX41mI5ms9LZonh",
+        "target": "xmKeB4hEi2DunmhAsvS1X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cwGuOrmbSTcSoH80skLTk",
+        "target": "eQAn3e-k9WNufPqOnwY_K",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v_YmmlOk-DkzJ8mI5Ftgr",
+        "target": "eQAn3e-k9WNufPqOnwY_K",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i7X1GfOx5AZYFskepW4Zr",
+        "target": "7nI202hX41mI5ms9LZonh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0IMdO7g_5El1elvDXJJ_0",
+        "target": "7nI202hX41mI5ms9LZonh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "C0ngVzsV5v-wrFbSzAhuu",
+        "target": "-bwXo6xvF1yzyWEm5oZhJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kG7tlZjv_hJbHGooBkxS0",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bTCVHXPG-LtaaFmgiB2SL",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zwVd1vNm1ks6MdHZoi-5W",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0NWTFssjg9SbDXQRkN5kF",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4svXYQYmqjUZU39z8OyhD",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Vo_PBfB7LxYL27nBBVoVp",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pnX1dfkjS8woWc4KGXlh_",
+        "target": "C0ngVzsV5v-wrFbSzAhuu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rTgjDj5HqbjRpcJ7PR-EC",
+        "target": "PN3xAYfQ-_QgZCRCnsEca",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AfagmWcllSi81D2XIQz0V",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "K0GCk5_HDvP0_ZqsUc3tG",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gBKHVG7FvlCEgINKmw00s",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fRBaiw8Qx8kapzCphmM4v",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YAZPKMbmrxYNqF6alXMyL",
+        "target": "dOAZG-NbjWiVdPKYEhWxj",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "z-o-2cGYSM6KW_CNJyw3p",
+        "target": "f89qL7Cg9R_LTxBEG4jUK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IQhPG1La7dZeSXnX23D1n",
+        "target": "f89qL7Cg9R_LTxBEG4jUK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LXG_znJ3XzPAlDxUH2-Xp",
+        "target": "f89qL7Cg9R_LTxBEG4jUK",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8i6zpjkMC_Pg-tDNmrx4n",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ll5FPCtkpYq_niJd7WoTC",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JlkLNQ8wRzGkjaootNKOD",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IikKYP58sT2H1lM8glm-g",
+        "target": "PJaAqax4fABnkObY5UwNp",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2vQPmVNk1QpMM-15RKG8b",
+        "target": "VAYxwJH10PFjGS8poKd9-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tHQ6NRVDPCPEOmzgjQDLX",
+        "target": "VAYxwJH10PFjGS8poKd9-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oC6KIjWAXw0hLl4FwkB9F",
+        "target": "VAYxwJH10PFjGS8poKd9-",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "l9oq3LiEd8ZrPtupPk-Fn",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Xs057ESpvxXg2r_rDQnOa",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tBKc7tHOiJaTmwEl3q--Y",
+        "target": "fkMF-2PQZ00UdwxhQt1ds",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uo5HIyePegnJooortvWLu",
+        "target": "Xs057ESpvxXg2r_rDQnOa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3l1ji4JToj277vpgONmLw",
+        "target": "Xs057ESpvxXg2r_rDQnOa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y0CoNcEFHyz350f7pNddt",
+        "target": "Xs057ESpvxXg2r_rDQnOa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DN_iuLo9gYDqU8JleE1WJ",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oWtWgaFznTPJhQIyfIIQf",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aU1lv80xXNkQTD41Qfln5",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KtXww9J0znwzTwL7GKfaY",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0ctJa-V6aenimSr5h303J",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yauCWo1VoG-X483-4mfdn",
+        "target": "wGb0TEDnSe_bmv9Krx4qB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PYgs4niQRlLKCBMfM4qf9",
+        "target": "9TcYdsdmvKWWHoyE6uNbC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0C3GCGdSXozJK2MNeWerg",
+        "target": "_c_Wq84yIu4ac7e0RzDtC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NWvasq-AcwxmOKZPDv3ue",
+        "target": "_c_Wq84yIu4ac7e0RzDtC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fAK7GRKunmoidlD32OBma",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dO9ZfUyNia7L_fCh4d0n7",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hRXbAADgRTXEFwbBXeNu7",
+        "target": "zFgnu2fL0EUKIMz9tVH1j",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PphzNicIJawVElmY5rn8f",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1lHXxpoF11yE3rfoQCbTG",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zSiSbIdBgFLBBAnp4I9vX",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1r2FL3OEOh0S9ee0OVnrN",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OI8y54RhFpfS_l1L9VTZe",
+        "target": "EqUT0wpdPRDGtGAZ7nneY",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SdCNevKjyhFcreMSWY6BT",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CL93C0NGFQmScVnftnRtO",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KWjIAakMIlxn_jso22h0M",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "75ZjuGozDfoZPLj32P2t2",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0CUfDEMwCwSHVdqkP8lOG",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EuOv19jDSj56Cy7PqvtNv",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "T0dvezPWX6rAiKweT0TkG",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5SF5nO94NFDkHY8UJoeAY",
+        "target": "741vsAPTXJLVUlazFg0q4",
+        "type": "subtopic_of"
+      },
       {
         "source": "cL7vis8H5L2vv6LqJ5wvC",
         "target": "Sv2aT8eI1RvJhvoKVYQEX",
@@ -3086,421 +3717,6 @@
         "source": "kvHzEDZQV72AUjqisg8PB",
         "target": "741vsAPTXJLVUlazFg0q4",
         "type": "next_in_flow"
-      },
-      {
-        "source": "74JxgfJ_1qmVNZ_QRp9Ne",
-        "target": "Py9nst2FDJ1_hoXeX_qSF",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "i4ijY3T5gLgNz0XqRipXe",
-        "target": "Py9nst2FDJ1_hoXeX_qSF",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3hatcMVLDbMuz73uTx-9P",
-        "target": "Py9nst2FDJ1_hoXeX_qSF",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Dg1v9TV-wGSNLPfAals_y",
-        "target": "Py9nst2FDJ1_hoXeX_qSF",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VHD2ISW9WoSWjp8Hh6Zft",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2hFBv2fhKDYBN-9ITs82J",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eQAn3e-k9WNufPqOnwY_K",
-        "target": "xmKeB4hEi2DunmhAsvS1X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rTgjDj5HqbjRpcJ7PR-EC",
-        "target": "PN3xAYfQ-_QgZCRCnsEca",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IQhPG1La7dZeSXnX23D1n",
-        "target": "f89qL7Cg9R_LTxBEG4jUK",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "z-o-2cGYSM6KW_CNJyw3p",
-        "target": "f89qL7Cg9R_LTxBEG4jUK",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LXG_znJ3XzPAlDxUH2-Xp",
-        "target": "f89qL7Cg9R_LTxBEG4jUK",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tHQ6NRVDPCPEOmzgjQDLX",
-        "target": "VAYxwJH10PFjGS8poKd9-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2vQPmVNk1QpMM-15RKG8b",
-        "target": "VAYxwJH10PFjGS8poKd9-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "oC6KIjWAXw0hLl4FwkB9F",
-        "target": "VAYxwJH10PFjGS8poKd9-",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aU1lv80xXNkQTD41Qfln5",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "oWtWgaFznTPJhQIyfIIQf",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DN_iuLo9gYDqU8JleE1WJ",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KtXww9J0znwzTwL7GKfaY",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0ctJa-V6aenimSr5h303J",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yauCWo1VoG-X483-4mfdn",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "75ZjuGozDfoZPLj32P2t2",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KWjIAakMIlxn_jso22h0M",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SdCNevKjyhFcreMSWY6BT",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0CUfDEMwCwSHVdqkP8lOG",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EuOv19jDSj56Cy7PqvtNv",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5SF5nO94NFDkHY8UJoeAY",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dO9ZfUyNia7L_fCh4d0n7",
-        "target": "zFgnu2fL0EUKIMz9tVH1j",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fAK7GRKunmoidlD32OBma",
-        "target": "zFgnu2fL0EUKIMz9tVH1j",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hRXbAADgRTXEFwbBXeNu7",
-        "target": "zFgnu2fL0EUKIMz9tVH1j",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PYgs4niQRlLKCBMfM4qf9",
-        "target": "9TcYdsdmvKWWHoyE6uNbC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ll5FPCtkpYq_niJd7WoTC",
-        "target": "PJaAqax4fABnkObY5UwNp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JlkLNQ8wRzGkjaootNKOD",
-        "target": "PJaAqax4fABnkObY5UwNp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IikKYP58sT2H1lM8glm-g",
-        "target": "PJaAqax4fABnkObY5UwNp",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Y64TE0U20kllmykjdfhHp",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FCdOnwQubhOnCFFnF8uJN",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ymuURDwW8JG3NSIXcl0FL",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ABCH1rATHmecyWHyK3n-m",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "z9R1BWUGalmnw0E7QqiW6",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0flGtxZmxQKxO3c3sguwp",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eKuC7VmkGVYFnbC2Rvn8D",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_U2bKjxIrAAk7TMrPttpb",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "A0u7CJwj5ULAMiAm12vZI",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wFT-fddGn__DRoqG0joFk",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DCvkZSp25pjaimG0THLTu",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZKjjgXZ89zV2atWcSal-s",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8v9T6Y6JC7qaqIgkbT-nr",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Cd9gdbkCFdrTLrnJMy5F3",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Le8yOJzpzxH1xgd7XEU2B",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6D-gs32jrCyvMVhr9PSAY",
-        "target": "Sv2aT8eI1RvJhvoKVYQEX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Nn2zawk6A31NwZa40jOhX",
-        "target": "xmKeB4hEi2DunmhAsvS1X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7nI202hX41mI5ms9LZonh",
-        "target": "xmKeB4hEi2DunmhAsvS1X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8i6zpjkMC_Pg-tDNmrx4n",
-        "target": "PN3xAYfQ-_QgZCRCnsEca",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0C3GCGdSXozJK2MNeWerg",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NWvasq-AcwxmOKZPDv3ue",
-        "target": "wGb0TEDnSe_bmv9Krx4qB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CL93C0NGFQmScVnftnRtO",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "T0dvezPWX6rAiKweT0TkG",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cwGuOrmbSTcSoH80skLTk",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "v_YmmlOk-DkzJ8mI5Ftgr",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "i7X1GfOx5AZYFskepW4Zr",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0IMdO7g_5El1elvDXJJ_0",
-        "target": "PN3xAYfQ-_QgZCRCnsEca",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AfagmWcllSi81D2XIQz0V",
-        "target": "dOAZG-NbjWiVdPKYEhWxj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "K0GCk5_HDvP0_ZqsUc3tG",
-        "target": "dOAZG-NbjWiVdPKYEhWxj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gBKHVG7FvlCEgINKmw00s",
-        "target": "dOAZG-NbjWiVdPKYEhWxj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fRBaiw8Qx8kapzCphmM4v",
-        "target": "dOAZG-NbjWiVdPKYEhWxj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YAZPKMbmrxYNqF6alXMyL",
-        "target": "dOAZG-NbjWiVdPKYEhWxj",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kG7tlZjv_hJbHGooBkxS0",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bTCVHXPG-LtaaFmgiB2SL",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zwVd1vNm1ks6MdHZoi-5W",
-        "target": "cL7vis8H5L2vv6LqJ5wvC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0NWTFssjg9SbDXQRkN5kF",
-        "target": "-bwXo6xvF1yzyWEm5oZhJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4svXYQYmqjUZU39z8OyhD",
-        "target": "-bwXo6xvF1yzyWEm5oZhJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Vo_PBfB7LxYL27nBBVoVp",
-        "target": "-bwXo6xvF1yzyWEm5oZhJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "pnX1dfkjS8woWc4KGXlh_",
-        "target": "-bwXo6xvF1yzyWEm5oZhJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "l9oq3LiEd8ZrPtupPk-Fn",
-        "target": "fkMF-2PQZ00UdwxhQt1ds",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Xs057ESpvxXg2r_rDQnOa",
-        "target": "fkMF-2PQZ00UdwxhQt1ds",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tBKc7tHOiJaTmwEl3q--Y",
-        "target": "fkMF-2PQZ00UdwxhQt1ds",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uo5HIyePegnJooortvWLu",
-        "target": "fkMF-2PQZ00UdwxhQt1ds",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3l1ji4JToj277vpgONmLw",
-        "target": "fkMF-2PQZ00UdwxhQt1ds",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y0CoNcEFHyz350f7pNddt",
-        "target": "fkMF-2PQZ00UdwxhQt1ds",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PphzNicIJawVElmY5rn8f",
-        "target": "9TcYdsdmvKWWHoyE6uNbC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1lHXxpoF11yE3rfoQCbTG",
-        "target": "9TcYdsdmvKWWHoyE6uNbC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zSiSbIdBgFLBBAnp4I9vX",
-        "target": "EqUT0wpdPRDGtGAZ7nneY",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1r2FL3OEOh0S9ee0OVnrN",
-        "target": "9TcYdsdmvKWWHoyE6uNbC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OI8y54RhFpfS_l1L9VTZe",
-        "target": "741vsAPTXJLVUlazFg0q4",
-        "type": "subtopic_of"
       }
     ]
   }

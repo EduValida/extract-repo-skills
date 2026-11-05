@@ -1,0 +1,115 @@
+{
+  "title": "Backend Beginner",
+  "topics": [
+    {
+      "title": "Pick a Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Python"
+        }
+      ]
+    },
+    {
+      "title": "Version Control Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Repo hosting services",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Github"
+        }
+      ]
+    },
+    {
+      "title": "Relational Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "title": "Learn about APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "REST"
+        },
+        {
+          "title": "JSON APIs"
+        },
+        {
+          "title": "Authentication"
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Redis"
+        },
+        {
+          "title": "JWT"
+        }
+      ]
+    },
+    {
+      "title": "More about Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ORMs"
+        },
+        {
+          "title": "ACID"
+        },
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "N+1 Problem"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Functional Testing"
+        }
+      ]
+    }
+  ]
+}

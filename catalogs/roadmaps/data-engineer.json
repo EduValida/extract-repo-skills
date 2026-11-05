@@ -1,0 +1,786 @@
+{
+  "title": "Data Engineer Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Data Engineering?"
+        },
+        {
+          "title": "Data Eng. vs Data Science"
+        },
+        {
+          "title": "Skills & Responsibilities"
+        },
+        {
+          "title": "Data Engineering Lifecycle"
+        },
+        {
+          "title": "Choosing the Right Technologies"
+        }
+      ]
+    },
+    {
+      "title": "Data Engineering Lifecycle",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Generation"
+        },
+        {
+          "title": "Data Storage"
+        },
+        {
+          "title": "Data Ingestion"
+        },
+        {
+          "title": "Data Serving"
+        }
+      ]
+    },
+    {
+      "title": "Programming Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python is recommended",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Java"
+            },
+            {
+              "title": "Go"
+            }
+          ]
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Scala"
+        }
+      ]
+    },
+    {
+      "title": "Data Structures & Algorithms"
+    },
+    {
+      "title": "Git and GitHub"
+    },
+    {
+      "title": "Linux Basics"
+    },
+    {
+      "title": "Networking Fundamentals"
+    },
+    {
+      "title": "Distributed Systems Basics"
+    },
+    {
+      "title": "Sources of Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Understand Different Steps",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "APIs"
+            },
+            {
+              "title": "Mobile Apps"
+            }
+          ]
+        },
+        {
+          "title": "Database"
+        },
+        {
+          "title": "Logs"
+        },
+        {
+          "title": "IoT"
+        }
+      ]
+    },
+    {
+      "title": "Data Collection Ideas",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Learn SQL"
+        },
+        {
+          "title": "Data Normalization"
+        }
+      ]
+    },
+    {
+      "title": "Database Fundamentals"
+    },
+    {
+      "title": "Relational Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Relational Databases",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MySQL"
+            },
+            {
+              "title": "PostgreSQL"
+            },
+            {
+              "title": "MariaDB"
+            },
+            {
+              "title": "Aurora DB"
+            },
+            {
+              "title": "Oracle"
+            },
+            {
+              "title": "MS SQL"
+            }
+          ]
+        },
+        {
+          "title": "Data and AI Regulations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ECPA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Document",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Modelling Techniques"
+        },
+        {
+          "title": "CAP Theorem"
+        },
+        {
+          "title": "OLTP vs OLAP"
+        },
+        {
+          "title": "Slowly Changing Dimension"
+        },
+        {
+          "title": "Horizontal vs Vertical Scaling"
+        },
+        {
+          "title": "Star vs Snowflake Schema"
+        },
+        {
+          "title": "MongoDB"
+        },
+        {
+          "title": "ElasticSearch"
+        }
+      ]
+    },
+    {
+      "title": "Column",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cassandra"
+        },
+        {
+          "title": "BigTable"
+        },
+        {
+          "title": "HBase"
+        }
+      ]
+    },
+    {
+      "title": "NoSQL Databases"
+    },
+    {
+      "title": "Graph",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Neo4j"
+        },
+        {
+          "title": "Neptune"
+        }
+      ]
+    },
+    {
+      "title": "Key-Value",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Indexing"
+        },
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "Redis"
+        },
+        {
+          "title": "Memcached"
+        }
+      ]
+    },
+    {
+      "title": "Data Mesh",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DynamoDB"
+        },
+        {
+          "title": "Data Mart"
+        },
+        {
+          "title": "Cloud Architectures"
+        },
+        {
+          "title": "Amazon EC2 ( Compute)"
+        }
+      ]
+    },
+    {
+      "title": "Data Warehouse",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CosmosDB"
+        },
+        {
+          "title": "CouchDB"
+        },
+        {
+          "title": "Google BigQuery"
+        },
+        {
+          "title": "Snowflake"
+        }
+      ]
+    },
+    {
+      "title": "What is Data Warehouse?"
+    },
+    {
+      "title": "Data Warehouse Architectures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Other Data Architectures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Data Fabric"
+            },
+            {
+              "title": "Data Hub"
+            },
+            {
+              "title": "Metadata-first Architecture"
+            },
+            {
+              "title": "Serverless Options"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Lake",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Amazon Redshift"
+        },
+        {
+          "title": "Databricks Delta Lake"
+        },
+        {
+          "title": "Snowflake"
+        },
+        {
+          "title": "Onehouse"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Computing"
+    },
+    {
+      "title": "Types of Data Ingestion",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "S3 (Storage)"
+        },
+        {
+          "title": "Batch"
+        },
+        {
+          "title": "Amazon RDS (Database)"
+        },
+        {
+          "title": "Hybrid"
+        },
+        {
+          "title": "Glue (ETL)"
+        },
+        {
+          "title": "Realtime"
+        }
+      ]
+    },
+    {
+      "title": "Data Pipelines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ETL Process",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Extract Data"
+            },
+            {
+              "title": "Transform Data"
+            },
+            {
+              "title": "Load Data"
+            }
+          ]
+        },
+        {
+          "title": "Data Pipeline Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache Airflow"
+            },
+            {
+              "title": "dbt"
+            },
+            {
+              "title": "Luigi"
+            },
+            {
+              "title": "Prefect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cluster Computing Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Cluster Computing"
+        },
+        {
+          "title": "Distributed File Systems"
+        },
+        {
+          "title": "HDFS"
+        }
+      ]
+    },
+    {
+      "title": "Big Data Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apache Spark"
+        },
+        {
+          "title": "Job Scheduling"
+        },
+        {
+          "title": "Hadoop Ecosystem",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HDFS"
+            },
+            {
+              "title": "YARN"
+            },
+            {
+              "title": "MapReduce"
+            }
+          ]
+        },
+        {
+          "title": "Cluster Management Tools"
+        },
+        {
+          "title": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "title": "Containers & Orchestration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Apache Hadoop YARN"
+        },
+        {
+          "title": "Docker"
+        },
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "Circle CI"
+        },
+        {
+          "title": "Google Cloud GKE"
+        },
+        {
+          "title": "AWS EKS"
+        }
+      ]
+    },
+    {
+      "title": "CI/CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub Actions"
+        },
+        {
+          "title": "GitLab CI"
+        },
+        {
+          "title": "ArgoCD"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prometheus"
+        },
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Datadog"
+        },
+        {
+          "title": "Sentry"
+        },
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "New Relic"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "End-to-End Testing"
+        },
+        {
+          "title": "Functional Testing"
+        },
+        {
+          "title": "A/B Testing"
+        }
+      ]
+    },
+    {
+      "title": "Messaging Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What and why use them?"
+        },
+        {
+          "title": "Async vs Sync Communication"
+        },
+        {
+          "title": "Load Testing"
+        },
+        {
+          "title": "Messages vs Streams"
+        },
+        {
+          "title": "Smoke Testing"
+        },
+        {
+          "title": "Best Practices"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure as Code - IaC",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AWS",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Azure Virtual Machines"
+            },
+            {
+              "title": "Azure Blob Storage"
+            },
+            {
+              "title": "Azure SQL Database"
+            },
+            {
+              "title": "Data Factory (ETL)"
+            }
+          ]
+        },
+        {
+          "title": "Azure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Compute Engine (Compute)"
+            },
+            {
+              "title": "Google Cloud Storage"
+            },
+            {
+              "title": "Cloud SQL (Database)"
+            },
+            {
+              "title": "Dataflow"
+            }
+          ]
+        },
+        {
+          "title": "Declarative vs Imperative"
+        },
+        {
+          "title": "Common Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache Kafka"
+            },
+            {
+              "title": "RabbitMQ"
+            },
+            {
+              "title": "AWS SQS"
+            },
+            {
+              "title": "AWS SNS"
+            }
+          ]
+        },
+        {
+          "title": "Idempotency"
+        },
+        {
+          "title": "Reusability"
+        },
+        {
+          "title": "Environmental Management"
+        }
+      ]
+    },
+    {
+      "title": "Data Analytics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Common Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Terraform"
+            },
+            {
+              "title": "OpenTofu"
+            },
+            {
+              "title": "AWS CDK"
+            },
+            {
+              "title": "Google Deployment  Mgr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business Intelligence",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BI Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Microsoft Power BI"
+            },
+            {
+              "title": "Streamlit"
+            },
+            {
+              "title": "Tableu"
+            },
+            {
+              "title": "Looker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reverse ETL",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ETL vs Reverse ETL"
+        },
+        {
+          "title": "Reverse ETL Usecases"
+        }
+      ]
+    },
+    {
+      "title": "Authentication, Authorization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hightouch"
+            },
+            {
+              "title": "Census"
+            },
+            {
+              "title": "Segment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Encryption"
+    },
+    {
+      "title": "Tokenization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Quality"
+        }
+      ]
+    },
+    {
+      "title": "Data Masking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Lineage"
+        }
+      ]
+    },
+    {
+      "title": "Data Obfuscation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Metadata Management"
+        },
+        {
+          "title": "Data Interoperability"
+        },
+        {
+          "title": "Data Quality"
+        },
+        {
+          "title": "Data Governance & Privacy",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GDPR"
+            },
+            {
+              "title": "EU AI Act"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

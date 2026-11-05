@@ -3,10 +3,10 @@
     "slug": "ai-product-builder",
     "title": "AI Product Builder",
     "description": "A step-by-step guide to building and shipping products with AI.",
-    "extracted_at": "2026-10-29T01:03:40.237450+00:00",
+    "extracted_at": "2026-11-05T02:14:33.121091+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/ai-product-builder",
     "total_topics": 7,
-    "total_subtopics": 45
+    "total_subtopics": 55
   },
   "tree": {
     "title": "AI Product Builder",
@@ -14,7 +14,7 @@
     "topics": [
       {
         "id": "COeXWV8fCTHXPZnErXcGZ",
-        "name": "AI Product Creation Cycle ",
+        "name": "AI Product Creation Cycle",
         "type": "topic",
         "description": "AI tools are changing how software is built. The traditional approach of writing code from scratch is being replaced by a new paradigm: you generate a working product from your requirements, test it with real users, and refine it in repeated cycles until it is ready to ship.",
         "resources": [
@@ -30,32 +30,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/ai-product-creation-cycle@COeXWV8fCTHXPZnErXcGZ.md",
-        "subtopics_count": 0,
-        "subtopics": []
-      },
-      {
-        "id": "4dxljr8BtYkJDXbLeE0gW",
-        "name": "Definition & Scope",
-        "type": "topic",
-        "description": "Before writing a single prompt, you need to know what you are building and why. This means defining the problem, identifying the core features, and setting the project's technical boundaries. A clear scope saves time and prevents the AI from generating things you do not need.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to scope your AI product",
-            "url": "https://uxdesign.cc/how-to-scope-your-ai-product-5b9885ef3851"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/definition--scope@4dxljr8BtYkJDXbLeE0gW.md",
-        "subtopics_count": 4,
+        "subtopics_count": 1,
         "subtopics": [
-          {
-            "id": "kxDCkO0aZLY4_hd4_ykH6",
-            "name": "Problem Definition",
-            "type": "subtopic",
-            "description": "Start by writing one or two sentences describing the problem your app solves and who it solves it for. If you cannot explain the problem clearly, the generated output will be unfocused. This is the most important input you give to the entire process.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/problem-definition@kxDCkO0aZLY4_hd4_ykH6.md"
-          },
           {
             "id": "ncU03bZztHwt9VrQbEZ15",
             "name": "App Anatomy",
@@ -83,7 +59,36 @@
                 "url": "https://dev.to/techelopment/web-application-architecture-front-end-middleware-and-back-end-2ld7"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/app-anatomy@ncU03bZztHwt9VrQbEZ15.md"
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/app-anatomy@ncU03bZztHwt9VrQbEZ15.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "4dxljr8BtYkJDXbLeE0gW",
+        "name": "Definition & Scope",
+        "type": "topic",
+        "description": "Before writing a single prompt, you need to know what you are building and why. This means defining the problem, identifying the core features, and setting the project's technical boundaries. A clear scope saves time and prevents the AI from generating things you do not need.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to scope your AI product",
+            "url": "https://uxdesign.cc/how-to-scope-your-ai-product-5b9885ef3851"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/definition--scope@4dxljr8BtYkJDXbLeE0gW.md",
+        "subtopics_count": 3,
+        "subtopics": [
+          {
+            "id": "kxDCkO0aZLY4_hd4_ykH6",
+            "name": "Problem Definition",
+            "type": "subtopic",
+            "description": "Start by writing one or two sentences describing the problem your app solves and who it solves it for. If you cannot explain the problem clearly, the generated output will be unfocused. This is the most important input you give to the entire process.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/problem-definition@kxDCkO0aZLY4_hd4_ykH6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5qljkbrUWUAn-5Ng2AiaJ",
@@ -97,7 +102,9 @@
                 "url": "https://www.freecodecamp.org/news/how-to-effectively-scope-your-software-projects-from-planning-to-execution-e96cbcac54b9/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/feature-scoping@5qljkbrUWUAn-5Ng2AiaJ.md"
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/feature-scoping@5qljkbrUWUAn-5Ng2AiaJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "tN2X9NW0PhcP21OptheoD",
@@ -116,7 +123,9 @@
                 "url": "https://thebootstrappedfounder.com/the-best-tech-stack-in-the-age-of-ai/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/tech-stack--constraints@tN2X9NW0PhcP21OptheoD.md"
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/tech-stack--constraints@tN2X9NW0PhcP21OptheoD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -133,8 +142,154 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/1-prototyping@ZGqeasMGuEiZvrdyjSNuM.md",
-        "subtopics_count": 11,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "dMQmG-rvw-F2Dc0zfJFmR",
+            "name": "AI App Builders",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 6,
+            "subtopics": [
+              {
+                "id": "T-NUiQvT8dKmg6UDGVSt_",
+                "name": "Lovable",
+                "type": "subtopic",
+                "description": "Lovable generates a working front-end application from a text description. It is one of the fastest ways to move from an idea to a clickable prototype. The output is sufficient for early user testing but may require refinement before it is ready for production.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Lovable Docs",
+                    "url": "https://docs.lovable.dev/introduction/welcome"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is Lovable AI? A Deep Dive into the Builder | UI Bakery Blog",
+                    "url": "https://uibakery.io/blog/what-is-lovable-ai"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Master Lovable In 24 Minutes",
+                    "url": "https://www.youtube.com/watch?v=rqvtLxwMklo"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/lovable@T-NUiQvT8dKmg6UDGVSt_.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Gf1egAjfyQyAJ4I-aT_Ip",
+                "name": "Replit",
+                "type": "subtopic",
+                "description": "Replit is a browser-based coding environment that also supports AI-assisted app generation. It is useful when you want to prototype and immediately run the code in the same place. It works well for small projects and quick experiments.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Replit Docs",
+                    "url": "https://docs.replit.com/getting-started/intro-replit"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is Replit? An honest look at the AI app builder in 2025",
+                    "url": "https://www.eesel.ai/blog/replit"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Getting Started with Replit",
+                    "url": "https://www.youtube.com/watch?v=St95nPOwsa8&list=PLto9KpJAqHMTzEMDAFT4r5LlI4NByngyT"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/replit@Gf1egAjfyQyAJ4I-aT_Ip.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Z6x8QhsYOO9LB6fHGMTLL",
+                "name": "Claude Design",
+                "type": "subtopic",
+                "description": "",
+                "resources": [],
+                "file_path": null,
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "xKBoLYQgpLDmOtDweVHei",
+                "name": "v0",
+                "type": "subtopic",
+                "description": "v0 is Vercel's UI generation tool. You describe a component or screen, and it produces React code ready to use in your project. It is best for generating individual UI components rather than full applications.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "v0 Docs",
+                    "url": "https://v0.app/docs"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Transforming how you work with v0 - Vercel",
+                    "url": "https://vercel.com/blog/transforming-how-you-work-with-v0"
+                  },
+                  {
+                    "type": "video",
+                    "title": "How To Use v0 by Vercel For Beginners",
+                    "url": "https://www.youtube.com/watch?v=41SR07p243Q"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/v0@xKBoLYQgpLDmOtDweVHei.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8ePFxmPv_Vm7SKoleM1tT",
+                "name": "Hope",
+                "type": "subtopic",
+                "description": "Hope is an agentic architect that transforms human prompts into composable, production-ready software. By automating complex engineering, it bridges the gap between rapid prototyping and professional standards, enabling teams to build scalable, enterprise-grade systems in hours.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Hope: Ships to Production",
+                    "url": "https://bit.cloud/products/hope-ai?c=ai-roadmap"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Get started with Hope",
+                    "url": "https://bit.cloud/docsc=rsh-a?c=rsh-a"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/hope-ai@8ePFxmPv_Vm7SKoleM1tT.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "YZi89ogkfzKIivbdFmcP_",
+                "name": "Bolt",
+                "type": "subtopic",
+                "description": "Bolt generates full-stack applications from a prompt and produces clean, readable code. It is faster than writing from scratch and gives you more control over the output than most no-code tools. It works particularly well for standard web app structures.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Getting Started with Bolt",
+                    "url": "https://bolt.new/docs"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Bolt.new Review 2025: The Good, Bad, and Surprising Findings for Developers",
+                    "url": "https://trickle.so/blog/bolt-new-review"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Bolt.New AI Tutorial for Beginners: Create an App in Under 20 Minutes!",
+                    "url": "https://www.youtube.com/watch?v=5zfOitaKfmM"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/bolt@YZi89ogkfzKIivbdFmcP_.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
           {
             "id": "mQzAgHoM3DS_zn2zr2FXg",
             "name": "Choose a Prototype Tool",
@@ -152,55 +307,9 @@
                 "url": "https://www.coursera.org/articles/prototyping-tools"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/choose-a-prototype-tool@mQzAgHoM3DS_zn2zr2FXg.md"
-          },
-          {
-            "id": "T-NUiQvT8dKmg6UDGVSt_",
-            "name": "Lovable",
-            "type": "subtopic",
-            "description": "Lovable generates a working front-end application from a text description. It is one of the fastest ways to move from an idea to a clickable prototype. The output is sufficient for early user testing but may require refinement before it is ready for production.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Lovable Docs",
-                "url": "https://docs.lovable.dev/introduction/welcome"
-              },
-              {
-                "type": "article",
-                "title": "What is Lovable AI? A Deep Dive into the Builder | UI Bakery Blog",
-                "url": "https://uibakery.io/blog/what-is-lovable-ai"
-              },
-              {
-                "type": "video",
-                "title": "Master Lovable In 24 Minutes",
-                "url": "https://www.youtube.com/watch?v=rqvtLxwMklo"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/lovable@T-NUiQvT8dKmg6UDGVSt_.md"
-          },
-          {
-            "id": "Gf1egAjfyQyAJ4I-aT_Ip",
-            "name": "Replit",
-            "type": "subtopic",
-            "description": "Replit is a browser-based coding environment that also supports AI-assisted app generation. It is useful when you want to prototype and immediately run the code in the same place. It works well for small projects and quick experiments.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Replit Docs",
-                "url": "https://docs.replit.com/getting-started/intro-replit"
-              },
-              {
-                "type": "article",
-                "title": "What is Replit? An honest look at the AI app builder in 2025",
-                "url": "https://www.eesel.ai/blog/replit"
-              },
-              {
-                "type": "video",
-                "title": "Getting Started with Replit",
-                "url": "https://www.youtube.com/watch?v=St95nPOwsa8&list=PLto9KpJAqHMTzEMDAFT4r5LlI4NByngyT"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/replit@Gf1egAjfyQyAJ4I-aT_Ip.md"
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/choose-a-prototype-tool@mQzAgHoM3DS_zn2zr2FXg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ZQ-kWlp5v9fimgHmG5hlR",
@@ -208,159 +317,103 @@
             "type": "subtopic",
             "description": "Before generating the full product, share the prototype with your team and some potential users. You are looking for obvious gaps or misunderstandings in the design. Catching these at the prototype stage is much cheaper than fixing them after generation.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/feedback--validation@ZQ-kWlp5v9fimgHmG5hlR.md"
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/feedback--validation@ZQ-kWlp5v9fimgHmG5hlR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "xKBoLYQgpLDmOtDweVHei",
-            "name": "v0",
-            "type": "subtopic",
-            "description": "v0 is Vercel's UI generation tool. You describe a component or screen, and it produces React code ready to use in your project. It is best for generating individual UI components rather than full applications.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "v0 Docs",
-                "url": "https://v0.app/docs"
-              },
-              {
-                "type": "article",
-                "title": "Transforming how you work with v0 - Vercel",
-                "url": "https://vercel.com/blog/transforming-how-you-work-with-v0"
-              },
-              {
-                "type": "video",
-                "title": "How To Use v0 by Vercel For Beginners",
-                "url": "https://www.youtube.com/watch?v=41SR07p243Q"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/v0@xKBoLYQgpLDmOtDweVHei.md"
-          },
-          {
-            "id": "Z6x8QhsYOO9LB6fHGMTLL",
-            "name": "Claude Design",
-            "type": "subtopic",
+            "id": "ZiRcBBzSVAspwTg3BXNGZ",
+            "name": "Technical but Powerful",
+            "type": "group",
             "description": "",
             "resources": [],
-            "file_path": null
-          },
-          {
-            "id": "YZi89ogkfzKIivbdFmcP_",
-            "name": "Bolt",
-            "type": "subtopic",
-            "description": "Bolt generates full-stack applications from a prompt and produces clean, readable code. It is faster than writing from scratch and gives you more control over the output than most no-code tools. It works particularly well for standard web app structures.",
-            "resources": [
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Getting Started with Bolt",
-                "url": "https://bolt.new/docs"
+                "id": "G86QePmTB5LX4_dMkVgoK",
+                "name": "Claude Code",
+                "type": "subtopic",
+                "description": "Claude Code is a terminal-based AI tool built by Anthropic. It is designed to reason through complex code problems, explain unfamiliar codebases, and help with debugging. It works best when you need to understand what the generated code is doing before modifying it.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Claude Code Roadmap",
+                    "url": "https://roadmap.sh/claude-code"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Claude Code Overview",
+                    "url": "https://code.claude.com/docs/en/overview"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Claude Code: From Zero to Hero",
+                    "url": "https://medium.com/@dan.avila7/claude-code-from-zero-to-hero-bebe2436ac32"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Claude Code Tutorial for Beginners",
+                    "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/claude-code@G86QePmTB5LX4_dMkVgoK.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Bolt.new Review 2025: The Good, Bad, and Surprising Findings for Developers",
-                "url": "https://trickle.so/blog/bolt-new-review"
+                "id": "vGtnZaa5vH02cTgkVG6A-",
+                "name": "Gemini CLI",
+                "type": "subtopic",
+                "description": "Gemini CLI is Google's command-line AI tool for developers. It integrates with your existing terminal workflow and can assist with code generation, explanation, and refactoring. It is a practical option if you are already working within the Google Cloud infrastructure.",
+                "resources": [
+                  {
+                    "type": "course",
+                    "title": "Hands-on with Gemini CLI",
+                    "url": "https://codelabs.developers.google.com/gemini-cli-hands-on#0"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Gemini CLI Docs",
+                    "url": "https://geminicli.com/docs/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Gemini CLI: The AI agent that lives in your terminal",
+                    "url": "https://www.youtube.com/watch?v=C5Cjvpfzc_0"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/gemini-cli@vGtnZaa5vH02cTgkVG6A-.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Bolt.New AI Tutorial for Beginners: Create an App in Under 20 Minutes!",
-                "url": "https://www.youtube.com/watch?v=5zfOitaKfmM"
+                "id": "S7uHXLcxvtegkI1kirVS9",
+                "name": "Codex",
+                "type": "subtopic",
+                "description": "Codex is OpenAI's code-focused model, available through the API and integrated into tools like GitHub Copilot. It is strong at generating boilerplate and translating natural language descriptions into working code. It works best for well-defined, contained tasks rather than open-ended architectural decisions.",
+                "resources": [
+                  {
+                    "type": "course",
+                    "title": "Introduction to OpenAI Codex",
+                    "url": "https://www.coursera.org/learn/introduction-to-openai-codex"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Codex Docs",
+                    "url": "https://developers.openai.com/codex"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Getting started with Codex",
+                    "url": "https://www.youtube.com/watch?v=px7XlbYgk7I"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/codex@S7uHXLcxvtegkI1kirVS9.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/bolt@YZi89ogkfzKIivbdFmcP_.md"
-          },
-          {
-            "id": "8ePFxmPv_Vm7SKoleM1tT",
-            "name": "Hope",
-            "type": "subtopic",
-            "description": "Hope is an agentic architect that transforms human prompts into composable, production-ready software. By automating complex engineering, it bridges the gap between rapid prototyping and professional standards, enabling teams to build scalable, enterprise-grade systems in hours.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Hope: Ships to Production",
-                "url": "https://bit.cloud/products/hope-ai?c=ai-roadmap"
-              },
-              {
-                "type": "official",
-                "title": "Get started with Hope",
-                "url": "https://bit.cloud/docsc=rsh-a?c=rsh-a"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/hope-ai@8ePFxmPv_Vm7SKoleM1tT.md"
-          },
-          {
-            "id": "G86QePmTB5LX4_dMkVgoK",
-            "name": "Claude Code",
-            "type": "subtopic",
-            "description": "Claude Code is a terminal-based AI tool built by Anthropic. It is designed to reason through complex code problems, explain unfamiliar codebases, and help with debugging. It works best when you need to understand what the generated code is doing before modifying it.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Claude Code Roadmap",
-                "url": "https://roadmap.sh/claude-code"
-              },
-              {
-                "type": "official",
-                "title": "Claude Code Overview",
-                "url": "https://code.claude.com/docs/en/overview"
-              },
-              {
-                "type": "article",
-                "title": "Claude Code: From Zero to Hero",
-                "url": "https://medium.com/@dan.avila7/claude-code-from-zero-to-hero-bebe2436ac32"
-              },
-              {
-                "type": "video",
-                "title": "Claude Code Tutorial for Beginners",
-                "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/claude-code@G86QePmTB5LX4_dMkVgoK.md"
-          },
-          {
-            "id": "vGtnZaa5vH02cTgkVG6A-",
-            "name": "Gemini CLI",
-            "type": "subtopic",
-            "description": "Gemini CLI is Google's command-line AI tool for developers. It integrates with your existing terminal workflow and can assist with code generation, explanation, and refactoring. It is a practical option if you are already working within the Google Cloud infrastructure.",
-            "resources": [
-              {
-                "type": "course",
-                "title": "Hands-on with Gemini CLI",
-                "url": "https://codelabs.developers.google.com/gemini-cli-hands-on#0"
-              },
-              {
-                "type": "official",
-                "title": "Gemini CLI Docs",
-                "url": "https://geminicli.com/docs/"
-              },
-              {
-                "type": "video",
-                "title": "Gemini CLI: The AI agent that lives in your terminal",
-                "url": "https://www.youtube.com/watch?v=C5Cjvpfzc_0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/gemini-cli@vGtnZaa5vH02cTgkVG6A-.md"
-          },
-          {
-            "id": "S7uHXLcxvtegkI1kirVS9",
-            "name": "Codex",
-            "type": "subtopic",
-            "description": "Codex is OpenAI's code-focused model, available through the API and integrated into tools like GitHub Copilot. It is strong at generating boilerplate and translating natural language descriptions into working code. It works best for well-defined, contained tasks rather than open-ended architectural decisions.",
-            "resources": [
-              {
-                "type": "course",
-                "title": "Introduction to OpenAI Codex",
-                "url": "https://www.coursera.org/learn/introduction-to-openai-codex"
-              },
-              {
-                "type": "official",
-                "title": "Codex Docs",
-                "url": "https://developers.openai.com/codex"
-              },
-              {
-                "type": "video",
-                "title": "Getting started with Codex",
-                "url": "https://www.youtube.com/watch?v=px7XlbYgk7I"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/codex@S7uHXLcxvtegkI1kirVS9.md"
+            ]
           }
         ]
       },
@@ -371,113 +424,132 @@
         "description": "This is the step where your prototype and requirements are turned into a working codebase by an AI tool. The output should include a front end, a back end, a database schema, and an API layer. The quality of the output depends directly on the clarity of your inputs.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/2-generation@DCcj2_9a7aYi6qCnI4TMV.md",
-        "subtopics_count": 4,
+        "subtopics_count": 1,
         "subtopics": [
           {
-            "id": "xCoG801UzwsRaK0xmI9_B",
-            "name": "Codex",
-            "type": "subtopic",
-            "description": "Codex is best for translating a clearly defined requirement into working code. Describe the specific behavior you want; it generates the implementation. It works well for adding a new function, rewriting a poorly structured block, or converting logic from one pattern to another. Keep the scope narrow; the more specific the input, the more useful the output.",
-            "resources": [
+            "id": "JIiHcmpaZuTcsdbRJjZYr",
+            "name": "Use AI-assisted Coding Tools",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "course",
-                "title": "Introduction to OpenAI Codex",
-                "url": "https://www.coursera.org/learn/introduction-to-openai-codex"
+                "id": "Fa06GTSwYb9x0QuGsp8et",
+                "name": "Claude Code",
+                "type": "subtopic",
+                "description": "Claude Code works in the terminal and is best used when you need to understand a piece of generated code before modifying it. Give it a specific problem; ask it to explain a function, trace a bug, or rewrite a block of logic. It reasons through the code step by step, which makes it reliable for changes where the consequences are not immediately obvious.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Claude Code Roadmap",
+                    "url": "https://roadmap.sh/claude-code"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Claude Code Overview",
+                    "url": "https://code.claude.com/docs/en/overview"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Claude Code: From Zero to Hero",
+                    "url": "https://medium.com/@dan.avila7/claude-code-from-zero-to-hero-bebe2436ac32"
+                  },
+                  {
+                    "type": "video",
+                    "title": "laude Code Tutorial for Beginners",
+                    "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/claude-code@Fa06GTSwYb9x0QuGsp8et.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Codex Docs",
-                "url": "https://developers.openai.com/codex"
+                "id": "xCoG801UzwsRaK0xmI9_B",
+                "name": "Codex",
+                "type": "subtopic",
+                "description": "Codex is best for translating a clearly defined requirement into working code. Describe the specific behavior you want; it generates the implementation. It works well for adding a new function, rewriting a poorly structured block, or converting logic from one pattern to another. Keep the scope narrow; the more specific the input, the more useful the output.",
+                "resources": [
+                  {
+                    "type": "course",
+                    "title": "Introduction to OpenAI Codex",
+                    "url": "https://www.coursera.org/learn/introduction-to-openai-codex"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Codex Docs",
+                    "url": "https://developers.openai.com/codex"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Getting started with Codex",
+                    "url": "https://www.youtube.com/watch?v=px7XlbYgk7I"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/codex@xCoG801UzwsRaK0xmI9_B.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Getting started with Codex",
-                "url": "https://www.youtube.com/watch?v=px7XlbYgk7I"
+                "id": "BEw1Iowb0KMiChtDGvKep",
+                "name": "Cursor",
+                "type": "subtopic",
+                "description": "Cursor lets you select any part of the codebase and ask questions or request changes directly in the editor. It is the most practical tool for navigating AI-generated code you did not write yourself. Use it to understand what a file does, rename a pattern across the codebase, or make a targeted edit without having to read every line around it.",
+                "resources": [
+                  {
+                    "type": "course",
+                    "title": "Cursor Learn",
+                    "url": "https://cursor.com/learn"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Cursor Docs",
+                    "url": "https://cursor.com/docs"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Cursor AI Tutorial for Beginners",
+                    "url": "https://www.youtube.com/watch?v=3289vhOUdKA"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Cursor Tutorial for Beginners (AI Code Editor)",
+                    "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/cursor@BEw1Iowb0KMiChtDGvKep.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "6HLxaflojoF0-cuIuPDeG",
+                "name": "Copilot",
+                "type": "subtopic",
+                "description": "Copilot works inline as you type and is best used when you know what you want to write but want to move faster. It predicts the next line or block based on the surrounding code. It is less useful for understanding unfamiliar code and more useful for extending code you already understand; use it when adding new logic to an existing file.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "GitHub Copilot Docs",
+                    "url": "https://docs.github.com/en/copilot"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Copilot Tutorials",
+                    "url": "https://github.com/features/copilot/tutorials"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Intro to GitHob Copilot in Visual Studio",
+                    "url": "https://www.youtube.com/watch?v=z1ycDvspv8U"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/copilot@6HLxaflojoF0-cuIuPDeG.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/codex@xCoG801UzwsRaK0xmI9_B.md"
-          },
-          {
-            "id": "Fa06GTSwYb9x0QuGsp8et",
-            "name": "Claude Code",
-            "type": "subtopic",
-            "description": "Claude Code works in the terminal and is best used when you need to understand a piece of generated code before modifying it. Give it a specific problem; ask it to explain a function, trace a bug, or rewrite a block of logic. It reasons through the code step by step, which makes it reliable for changes where the consequences are not immediately obvious.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Claude Code Roadmap",
-                "url": "https://roadmap.sh/claude-code"
-              },
-              {
-                "type": "official",
-                "title": "Claude Code Overview",
-                "url": "https://code.claude.com/docs/en/overview"
-              },
-              {
-                "type": "article",
-                "title": "Claude Code: From Zero to Hero",
-                "url": "https://medium.com/@dan.avila7/claude-code-from-zero-to-hero-bebe2436ac32"
-              },
-              {
-                "type": "video",
-                "title": "laude Code Tutorial for Beginners",
-                "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/claude-code@Fa06GTSwYb9x0QuGsp8et.md"
-          },
-          {
-            "id": "BEw1Iowb0KMiChtDGvKep",
-            "name": "Cursor",
-            "type": "subtopic",
-            "description": "Cursor lets you select any part of the codebase and ask questions or request changes directly in the editor. It is the most practical tool for navigating AI-generated code you did not write yourself. Use it to understand what a file does, rename a pattern across the codebase, or make a targeted edit without having to read every line around it.",
-            "resources": [
-              {
-                "type": "course",
-                "title": "Cursor Learn",
-                "url": "https://cursor.com/learn"
-              },
-              {
-                "type": "official",
-                "title": "Cursor Docs",
-                "url": "https://cursor.com/docs"
-              },
-              {
-                "type": "video",
-                "title": "Cursor AI Tutorial for Beginners",
-                "url": "https://www.youtube.com/watch?v=3289vhOUdKA"
-              },
-              {
-                "type": "video",
-                "title": "Cursor Tutorial for Beginners (AI Code Editor)",
-                "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/cursor@BEw1Iowb0KMiChtDGvKep.md"
-          },
-          {
-            "id": "6HLxaflojoF0-cuIuPDeG",
-            "name": "Copilot",
-            "type": "subtopic",
-            "description": "Copilot works inline as you type and is best used when you know what you want to write but want to move faster. It predicts the next line or block based on the surrounding code. It is less useful for understanding unfamiliar code and more useful for extending code you already understand; use it when adding new logic to an existing file.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "GitHub Copilot Docs",
-                "url": "https://docs.github.com/en/copilot"
-              },
-              {
-                "type": "official",
-                "title": "Copilot Tutorials",
-                "url": "https://github.com/features/copilot/tutorials"
-              },
-              {
-                "type": "video",
-                "title": "Intro to GitHob Copilot in Visual Studio",
-                "url": "https://www.youtube.com/watch?v=z1ycDvspv8U"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/copilot@6HLxaflojoF0-cuIuPDeG.md"
+            ]
           }
         ]
       },
@@ -488,113 +560,152 @@
         "description": "Once you have a generated codebase, you will need to adjust it. Some changes are small and targeted; others require regenerating a larger part of the application. Knowing which type of change you are dealing with before you start saves time and reduces the risk of breaking something that already works.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/3-refinement@S9fE9eG1YWSfVRi8h13U1.md",
-        "subtopics_count": 4,
+        "subtopics_count": 3,
         "subtopics": [
           {
-            "id": "Cem2u4lHoA8KW-0GqVzcw",
-            "name": "HTML / CSS / JavaScript",
-            "type": "subtopic",
-            "description": "These are the three foundational technologies of every web app. HTML defines the structure of a page, CSS controls how it looks, and JavaScript makes it interactive. You will encounter them when refining the front end of any generated application.",
-            "resources": [
+            "id": "Id9k9YZWSzxynoGgyz7WF",
+            "name": "Learn by the need",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Frontend Roadmap",
-                "url": "https://roadmap.sh/frontend"
+                "id": "Cem2u4lHoA8KW-0GqVzcw",
+                "name": "HTML / CSS / JavaScript",
+                "type": "subtopic",
+                "description": "These are the three foundational technologies of every web app. HTML defines the structure of a page, CSS controls how it looks, and JavaScript makes it interactive. You will encounter them when refining the front end of any generated application.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Frontend Roadmap",
+                    "url": "https://roadmap.sh/frontend"
+                  },
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated HTML Roadmap",
+                    "url": "https://roadmap.sh/html"
+                  },
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated CSS Roadmap",
+                    "url": "https://roadmap.sh/css"
+                  },
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated JavaScript Roadmap",
+                    "url": "https://roadmap.sh/javascript"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/html--css--javascript@Cem2u4lHoA8KW-0GqVzcw.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "roadmap",
-                "title": "Visit the Dedicated HTML Roadmap",
-                "url": "https://roadmap.sh/html"
+                "id": "aHQ8f3ulEeUxTYCifzcPq",
+                "name": "React",
+                "type": "subtopic",
+                "description": "React is the most widely used library for building web interfaces. Most AI-generated front ends use React by default. You will need a basic understanding of components, props, and state when making targeted changes to the UI layer of a generated app.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated React Roadmap",
+                    "url": "https://roadmap.sh/react"
+                  },
+                  {
+                    "type": "official",
+                    "title": "React Docs",
+                    "url": "https://react.dev/reference/react"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Full Stack React Developer Course",
+                    "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/react@aHQ8f3ulEeUxTYCifzcPq.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "roadmap",
-                "title": "Visit the Dedicated CSS Roadmap",
-                "url": "https://roadmap.sh/css"
+                "id": "iRey4hwJCIraoNsIZELZv",
+                "name": "Browsers / DevTools",
+                "type": "subtopic",
+                "description": "Browser developer tools let you inspect HTML, debug JavaScript, monitor network requests, and measure performance directly in the browser. They are the first place to look when something in the front end is not working as expected.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "How Browsers Work",
+                    "url": "https://www.ramotion.com/blog/what-is-web-browser/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What are browser developer tools?",
+                    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools"
+                  },
+                  {
+                    "type": "video",
+                    "title": "How Do Web Browsers Work?",
+                    "url": "https://www.youtube.com/watch?v=5rLFYtXHo9s"
+                  },
+                  {
+                    "type": "video",
+                    "title": "nderstand Browser Dev Tools Network Tab (and avoid these mistakes...)",
+                    "url": "https://www.youtube.com/watch?v=2CC0fugc_2o"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/browsers--devtools@iRey4hwJCIraoNsIZELZv.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "roadmap",
-                "title": "Visit the Dedicated JavaScript Roadmap",
-                "url": "https://roadmap.sh/javascript"
+                "id": "d_2Uq2_Befe1tqM8_Y8lq",
+                "name": "Node.js",
+                "type": "subtopic",
+                "description": "Node.js is the runtime that allows JavaScript to run on a server. Most AI-generated back ends use Node.js. You will need a basic understanding of it when modifying API routes, adding middleware, or debugging server-side logic.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Node.js Roadmap",
+                    "url": "https://roadmap.sh/nodejs"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Node.jsLearn Node.js Official WebsiteDocs",
+                    "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Node.js and Express.js Full Course",
+                    "url": "https://www.youtube.com/watch?v=Oe421EPjeBE"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/nodejs@d_2Uq2_Befe1tqM8_Y8lq.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/html--css--javascript@Cem2u4lHoA8KW-0GqVzcw.md"
+            ]
           },
           {
-            "id": "aHQ8f3ulEeUxTYCifzcPq",
-            "name": "React",
+            "id": "ydzaN2EHBVAavHS3iPQ40",
+            "name": "Targeted Change",
             "type": "subtopic",
-            "description": "React is the most widely used library for building web interfaces. Most AI-generated front ends use React by default. You will need a basic understanding of components, props, and state when making targeted changes to the UI layer of a generated app.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated React Roadmap",
-                "url": "https://roadmap.sh/react"
-              },
-              {
-                "type": "official",
-                "title": "React Docs",
-                "url": "https://react.dev/reference/react"
-              },
-              {
-                "type": "video",
-                "title": "Full Stack React Developer Course",
-                "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/react@aHQ8f3ulEeUxTYCifzcPq.md"
+            "description": "A targeted change is a small, localized fix: a bug in a component, a layout adjustment, a logic tweak. Use AI-assisted coding tools like Cursor, Claude Code, or Copilot to make these changes directly in the code without touching the broader architecture.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/targeted-change@ydzaN2EHBVAavHS3iPQ40.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "iRey4hwJCIraoNsIZELZv",
-            "name": "Browsers / DevTools",
+            "id": "HZHzCLbK-oQh7gSokxHWq",
+            "name": "New Feature / Structural Change",
             "type": "subtopic",
-            "description": "Browser developer tools let you inspect HTML, debug JavaScript, monitor network requests, and measure performance directly in the browser. They are the first place to look when something in the front end is not working as expected.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How Browsers Work",
-                "url": "https://www.ramotion.com/blog/what-is-web-browser/"
-              },
-              {
-                "type": "article",
-                "title": "What are browser developer tools?",
-                "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools"
-              },
-              {
-                "type": "video",
-                "title": "How Do Web Browsers Work?",
-                "url": "https://www.youtube.com/watch?v=5rLFYtXHo9s"
-              },
-              {
-                "type": "video",
-                "title": "nderstand Browser Dev Tools Network Tab (and avoid these mistakes...)",
-                "url": "https://www.youtube.com/watch?v=2CC0fugc_2o"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/browsers--devtools@iRey4hwJCIraoNsIZELZv.md"
-          },
-          {
-            "id": "d_2Uq2_Befe1tqM8_Y8lq",
-            "name": "Node.js",
-            "type": "subtopic",
-            "description": "Node.js is the runtime that allows JavaScript to run on a server. Most AI-generated back ends use Node.js. You will need a basic understanding of it when modifying API routes, adding middleware, or debugging server-side logic.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Node.js Roadmap",
-                "url": "https://roadmap.sh/nodejs"
-              },
-              {
-                "type": "official",
-                "title": "Node.jsLearn Node.js Official WebsiteDocs",
-                "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
-              },
-              {
-                "type": "video",
-                "title": "Node.js and Express.js Full Course",
-                "url": "https://www.youtube.com/watch?v=Oe421EPjeBE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/nodejs@d_2Uq2_Befe1tqM8_Y8lq.md"
+            "description": "When a change affects the architecture of the app, such as adding a new service, reworking the data model, or introducing a new user flow, go back through the generation tool rather than patching the code manually. This keeps the codebase consistent and reduces technical debt.",
+            "resources": [],
+            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/new-feature--structural-change@HZHzCLbK-oQh7gSokxHWq.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -605,493 +716,583 @@
         "description": "At this stage, you bring other people into the process: teammates, testers, or early users. Their feedback drives the next round of refinement. This node also covers the tools and practices that keep the codebase stable when multiple people are working on it at the same time.",
         "resources": [],
         "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/4-collaboration@rcR8DMzELUnmJ7I_pwWpI.md",
-        "subtopics_count": 22,
+        "subtopics_count": 6,
         "subtopics": [
           {
-            "id": "HZHzCLbK-oQh7gSokxHWq",
-            "name": "New Feature / Structural Change",
-            "type": "subtopic",
-            "description": "When a change affects the architecture of the app, such as adding a new service, reworking the data model, or introducing a new user flow, go back through the generation tool rather than patching the code manually. This keeps the codebase consistent and reduces technical debt.",
+            "id": "ThETtPpHUIwDaBWQDbFLy",
+            "name": "Testing & Feedback",
+            "type": "group",
+            "description": "",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/new-feature--structural-change@HZHzCLbK-oQh7gSokxHWq.md"
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
+              {
+                "id": "aRA5S0Mmmhx9F0nhD3Wcp",
+                "name": "User Testing",
+                "type": "subtopic",
+                "description": "User testing means putting the app in front of real people and watching how they use it. You are not looking for opinions; you are looking for moments where they hesitate, get confused, or do something unexpected. Each session gives you concrete input for the next refinement cycle.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is User Testing? Definition, Types & Methods",
+                    "url": "https://trymata.com/blog/what-is-user-testing/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/user-testing@aRA5S0Mmmhx9F0nhD3Wcp.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "VxqhYHA9YpWx70GIhKghY",
+                "name": "Unit Testing",
+                "type": "subtopic",
+                "description": "A unit test checks that a single function or component behaves as expected in isolation. AI-generated codebases sometimes include unit tests automatically; if they do not, write them for the parts of the code that handle critical business logic. They are the fastest type of test to run and the easiest to debug when they fail.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is Unit Testing?",
+                    "url": "https://www.guru99.com/unit-testing-guide.html"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is Unit Testing?",
+                    "url": "https://youtu.be/x95ez7_V7rA?si=JhCVhcEN7zZOkxdp"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/unit-testing@VxqhYHA9YpWx70GIhKghY.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "MXPA6I8K1_aKKQpgk2EcW",
+                "name": "Integration Testing",
+                "type": "subtopic",
+                "description": "Integration tests check that different parts of the app work correctly together; for example, that a form submission reaches the database and returns the right response. They catch problems that unit tests miss because they test the connections between components, not the components themselves.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Integration Testing",
+                    "url": "https://www.guru99.com/integration-testing.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Unit Test vs Integration Test: What's the Difference?",
+                    "url": "https://www.testim.io/blog/unit-test-vs-integration-test/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is Integration Testing?",
+                    "url": "https://www.youtube.com/watch?v=kRD6PA6uxiY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/integration-testing@MXPA6I8K1_aKKQpgk2EcW.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "MB_6yVmgPZugbjxGzoq09",
+                "name": "E2E Testing",
+                "type": "subtopic",
+                "description": "End-to-end tests simulate a real user moving through the app from start to finish. They verify that the full system works as expected in an environment that resembles production. Tools like Playwright or Cypress automate these flows so you can run them on every deployment without manual effort.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "End to End Testing",
+                    "url": "https://microsoft.github.io/code-with-engineering-playbook/automated-testing/e2e-testing/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "End to End Testing: Importance, Process, Best Practices & Frameworks",
+                    "url": "https://testgrid.io/blog/end-to-end-testing-a-detailed-guide/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/e2e-testing@MB_6yVmgPZugbjxGzoq09.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
-            "id": "ydzaN2EHBVAavHS3iPQ40",
-            "name": "Targeted Change",
-            "type": "subtopic",
-            "description": "A targeted change is a small, localized fix: a bug in a component, a layout adjustment, a logic tweak. Use AI-assisted coding tools like Cursor, Claude Code, or Copilot to make these changes directly in the code without touching the broader architecture.",
+            "id": "bv3qgEUNtK7njDPjPV3eW",
+            "name": "Serverless Providers",
+            "type": "group",
+            "description": "",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/targeted-change@ydzaN2EHBVAavHS3iPQ40.md"
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
+              {
+                "id": "Q6PzFpT_4kElowvvB2u_v",
+                "name": "Cloudflare",
+                "type": "subtopic",
+                "description": "Cloudflare offers serverless deployment for front-end apps and lightweight back-end functions through Cloudflare Workers and Pages. It has a generous free tier and deploys to a global edge network, which means fast load times for users anywhere in the world.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Cloudflare Roadmap",
+                    "url": "https://roadmap.sh/cloudflare"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Getting started with Cloudflare",
+                    "url": "https://developers.cloudflare.com/pages/get-started/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is Cloudflare?",
+                    "url": "https://www.youtube.com/watch?v=XHvmX3FhTwU"
+                  },
+                  {
+                    "type": "video",
+                    "title": "IntroLearn Cloudflare Workers 101 - Full Course for Beginnersduction to Cloudflare",
+                    "url": "https://www.youtube.com/watch?v=24cml1rKGBs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/cloudflare@Q6PzFpT_4kElowvvB2u_v.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "wUg8ypt4aWXgMYGiaIdgy",
+                "name": "Vercel",
+                "type": "subtopic",
+                "description": "Vercel is a platform designed for deploying and hosting web applications, particularly those built with modern frontend frameworks and static site generators. It provides features like automatic deployments from Git repositories, serverless functions, and a global content delivery network (CDN) to ensure fast and reliable performance. Vercel simplifies the process of taking a frontend project from development to production.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Vercel Documentation",
+                    "url": "https://vercel.com/docs"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Vercel Quick Start",
+                    "url": "https://vercel.com/docs/getting-started-with-vercel"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Vercel Tutorial - Host a Website for Free",
+                    "url": "https://www.youtube.com/watch?v=Vx5nPGdsFaU"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/vercel@wUg8ypt4aWXgMYGiaIdgy.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "NCO0PyktX4UzVCsyqZpAO",
+                "name": "Bit Cloud",
+                "type": "subtopic",
+                "description": "Bit Cloud is how humans and AI agents build software autonomously. It enables them to build and maintain software as independent, decoupled building blocks—each owned separately, yet composable into larger systems—so everyone can work in parallel without friction.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Bit Cloud",
+                    "url": "https://bit.cloud/?c=img-bit-rnd&utm_source=roadmap&utm_medium=display&utm_campaign=img-bit-rnd"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Get started",
+                    "url": "https://bit.cloud/docs?c=rsh-a"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Deployment docs",
+                    "url": "https://bit.cloud/docs/deployments/deploy-apps?c=rsh-a"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/bit-cloud@NCO0PyktX4UzVCsyqZpAO.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
-            "id": "aRA5S0Mmmhx9F0nhD3Wcp",
-            "name": "User Testing",
-            "type": "subtopic",
-            "description": "User testing means putting the app in front of real people and watching how they use it. You are not looking for opinions; you are looking for moments where they hesitate, get confused, or do something unexpected. Each session gives you concrete input for the next refinement cycle.",
-            "resources": [
+            "id": "Yk5YVV70I4_uuTxeCwDIL",
+            "name": "Change Management & CI",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "What is User Testing? Definition, Types & Methods",
-                "url": "https://trymata.com/blog/what-is-user-testing/"
+                "id": "OFscURhjqJfh8qA3SKSfh",
+                "name": "GitHub",
+                "type": "subtopic",
+                "description": "GitHub is the most widely used platform for hosting and managing code. It tracks every change to the codebase, makes it easy to collaborate with others, and integrates with most CI/CD tools. Setting up a GitHub repository should be one of the first things you do after generating the codebase.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit Dedicated Git & GitHub Roadmap",
+                    "url": "https://roadmap.sh/git-github"
+                  },
+                  {
+                    "type": "official",
+                    "title": "GitHub Docs",
+                    "url": "https://docs.github.com/en/get-started/quickstart"
+                  },
+                  {
+                    "type": "video",
+                    "title": "What is GitHub?",
+                    "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/github@OFscURhjqJfh8qA3SKSfh.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "f_d4JlYSbP9BHuCR0kBpP",
+                "name": "GitLab",
+                "type": "subtopic",
+                "description": "GitLab is an alternative to GitHub that combines version control with built-in CI/CD pipelines and project management tools. It is a good option if you want everything in one platform or if your organization already uses it.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "https://about.gitlab.com/get-started/ Documentation",
+                    "url": "https://docs.gitlab.com/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Get Started with Gitlab",
+                    "url": "https://about.gitlab.com/get-started/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "GitLab Explained: What is GitLab and Why Use It?",
+                    "url": "https://www.youtube.com/watch?v=bnF7f1zGpo4"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/gitlab@f_d4JlYSbP9BHuCR0kBpP.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "AlE1rcdp-5RVihRMpshnh",
+                "name": "Bit Cloud",
+                "type": "subtopic",
+                "description": "Bit Cloud is how humans and AI agents build software autonomously. It enables them to build and maintain software as independent, decoupled building blocks—each owned separately, yet composable into larger systems—so everyone can work in parallel without friction.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Bit Cloud",
+                    "url": "https://bit.cloud/?c=img-bit-rnd&utm_source=roadmap&utm_medium=display&utm_campaign=img-bit-rnd"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Get started with Hope",
+                    "url": "https://bit.cloud/docs?c=rsh-a"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Get started with your agent",
+                    "url": "https://bit.cloud/docs/install-bit/?c=rsh-a"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/bit-cloud@AlE1rcdp-5RVihRMpshnh.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "DAEMRai6FpPrmRkmKTOhV",
+                "name": "Azure DevOps",
+                "type": "subtopic",
+                "description": "Azure DevOps is Microsoft's platform for managing code, pipelines, and project tasks. It integrates tightly with Azure infrastructure and is a common choice in enterprise environments. It covers version control, CI/CD, and issue tracking in a single platform.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Azure DevOps",
+                    "url": "https://azure.microsoft.com/en-us/products/devops"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+                    "url": "https://www.youtube.com/watch?v=4BibQ69MD8c"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/azure-devops@DAEMRai6FpPrmRkmKTOhV.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/user-testing@aRA5S0Mmmhx9F0nhD3Wcp.md"
+            ]
           },
           {
-            "id": "VxqhYHA9YpWx70GIhKghY",
-            "name": "Unit Testing",
-            "type": "subtopic",
-            "description": "A unit test checks that a single function or component behaves as expected in isolation. AI-generated codebases sometimes include unit tests automatically; if they do not, write them for the parts of the code that handle critical business logic. They are the fastest type of test to run and the easiest to debug when they fail.",
-            "resources": [
+            "id": "clSDYfcH3VBMFK_yfvay8",
+            "name": "Platform as a Service (PaaS)",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "What is Unit Testing?",
-                "url": "https://www.guru99.com/unit-testing-guide.html"
+                "id": "ZxLukZLdGXGvV4MRHmoGh",
+                "name": "DigitalOcean",
+                "type": "subtopic",
+                "description": "DigitalOcean is a cloud provider focused on simplicity and developer experience. Its App Platform lets you deploy a full-stack application from a GitHub repository with minimal configuration. It is a practical middle ground between the simplicity of serverless platforms and the complexity of AWS or GCP.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "DigitalOcean",
+                    "url": "https://www.digitalocean.com/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "DigitalOcean Tutorials",
+                    "url": "https://www.digitalocean.com/community/tutorials"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Getting Started With Kubernetes on DigitalOcean",
+                    "url": "https://www.youtube.com/watch?v=cJKdo-glRD0"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/digitalocean@ZxLukZLdGXGvV4MRHmoGh.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "What is Unit Testing?",
-                "url": "https://youtu.be/x95ez7_V7rA?si=JhCVhcEN7zZOkxdp"
+                "id": "Sv7QfwPKaTsviScn2axhk",
+                "name": "Railway",
+                "type": "subtopic",
+                "description": "Railway is a deployment platform designed for speed and simplicity. It detects the type of project automatically and configures the deployment environment accordingly. It supports databases, back-end services, and front-end apps in the same project, which makes it convenient for full-stack deployments.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Railway",
+                    "url": "https://railway.com/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Quick Start Tutorial",
+                    "url": "https://docs.railway.com/quick-start"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Fastest Way to Deploy a Full Stack Web App (Railway)",
+                    "url": "https://www.youtube.com/watch?v=JQIKobOcQ9k"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/railway@Sv7QfwPKaTsviScn2axhk.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "OBGQ-1bjYBdYi-_oFpmj8",
+                "name": "Render",
+                "type": "subtopic",
+                "description": "Render is a cloud platform that supports web services, background workers, cron jobs, and static sites. It is straightforward to configure and deploy directly from a GitHub repository. It is a good option for full-stack apps that need a persistent server without the overhead of managing infrastructure manually.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Render Docs + Quickstarts",
+                    "url": "https://render.com/docs"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Render: Cloud Deployment with Less Engineering",
+                    "url": "https://thenewstack.io/render-cloud-deployment-with-less-engineering/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Deploy any application with one click using Render | Cloud Application Platform",
+                    "url": "https://www.youtube.com/watch?v=yWxBUcG_C7g"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/render@OBGQ-1bjYBdYi-_oFpmj8.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/unit-testing@VxqhYHA9YpWx70GIhKghY.md"
+            ]
           },
           {
-            "id": "MXPA6I8K1_aKKQpgk2EcW",
-            "name": "Integration Testing",
-            "type": "subtopic",
-            "description": "Integration tests check that different parts of the app work correctly together; for example, that a form submission reaches the database and returns the right response. They catch problems that unit tests miss because they test the connections between components, not the components themselves.",
-            "resources": [
+            "id": "11WuZ6IE4a89gHN26b6NR",
+            "name": "Cloud Providers",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Integration Testing",
-                "url": "https://www.guru99.com/integration-testing.html"
+                "id": "-MWVEd4dEfGcwBTxKh9WM",
+                "name": "AWS",
+                "type": "subtopic",
+                "description": "AWS is the largest cloud provider in the world. It offers infrastructure for computing, storage, databases, networking, and dozens of other services. It requires more configuration than PaaS options but gives you complete control over how your application runs and scales.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated AWS Roadmap",
+                    "url": "https://roadmap.sh/aws"
+                  },
+                  {
+                    "type": "official",
+                    "title": "AWS Cloud Essentials",
+                    "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Overview of Amazon Web Services",
+                    "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/aws@-MWVEd4dEfGcwBTxKh9WM.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Unit Test vs Integration Test: What's the Difference?",
-                "url": "https://www.testim.io/blog/unit-test-vs-integration-test/"
+                "id": "UoZoN-nN8eTnI-J5ma-oq",
+                "name": "Azure",
+                "type": "subtopic",
+                "description": "Azure is Microsoft's cloud platform. It is a strong choice for teams already using Microsoft tools or working in enterprise environments. It covers the full range of infrastructure needs and integrates well with GitHub, Active Directory, and other Microsoft services.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Azure Website",
+                    "url": "https://azure.microsoft.com/en-us/"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "Microsoft Azure Guide",
+                    "url": "https://github.com/mikeroyal/Azure-Guide"
+                  },
+                  {
+                    "type": "video",
+                    "title": "icrosoft Azure Fundamentals Certification Course (AZ-900)",
+                    "url": "https://www.youtube.com/watch?v=5abffC-K40c"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/azure@UoZoN-nN8eTnI-J5ma-oq.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "What is Integration Testing?",
-                "url": "https://www.youtube.com/watch?v=kRD6PA6uxiY"
+                "id": "6hl4_ft8onzq80v_nD8Q4",
+                "name": "GCP",
+                "type": "subtopic",
+                "description": "Google Cloud Platform is Google's cloud infrastructure service. It is particularly strong for data processing, machine learning workloads, and applications that need to integrate with other Google services. It is a competitive alternative to AWS for teams comfortable with Google's ecosystem.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Google Cloud Platform",
+                    "url": "https://cloud.google.com"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Cloud Computing, Hosting Services, and APIs",
+                    "url": "https://cloud.google.com/gcp"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Google Cloud Platform Video Course",
+                    "url": "https://www.youtube.com/watch?v=fZOz13joN0o"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/gcp@6hl4_ft8onzq80v_nD8Q4.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/integration-testing@MXPA6I8K1_aKKQpgk2EcW.md"
+            ]
           },
           {
-            "id": "MB_6yVmgPZugbjxGzoq09",
-            "name": "E2E Testing",
-            "type": "subtopic",
-            "description": "End-to-end tests simulate a real user moving through the app from start to finish. They verify that the full system works as expected in an environment that resembles production. Tools like Playwright or Cypress automate these flows so you can run them on every deployment without manual effort.",
-            "resources": [
+            "id": "6xHEBaKv1rHuLsPR7yrS3",
+            "name": "Connect to a Database",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "End to End Testing",
-                "url": "https://microsoft.github.io/code-with-engineering-playbook/automated-testing/e2e-testing/"
+                "id": "gwHXA4WBrZN0VeAx5NKz7",
+                "name": "MongoDB / Atlas",
+                "type": "subtopic",
+                "description": "MongoDB is a document-based database that stores data in a flexible, JSON-like format. Atlas is MongoDB's managed cloud service, which handles backups, scaling, and monitoring automatically. It is a good fit for apps where the data structure is likely to change as the product evolves.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit Dedicated MongoDB Roadmap",
+                    "url": "https://roadmap.sh/mongodb"
+                  },
+                  {
+                    "type": "official",
+                    "title": "MongoDB Website",
+                    "url": "https://www.mongodb.com/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Learning Path for MongoDB Developers",
+                    "url": "https://learn.mongodb.com/catalog"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Vector Search in MongoDB Atlas",
+                    "url": "https://www.mongodb.com/products/platform/atlas-vector-search"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/mongodb--atlas@gwHXA4WBrZN0VeAx5NKz7.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "End to End Testing: Importance, Process, Best Practices & Frameworks",
-                "url": "https://testgrid.io/blog/end-to-end-testing-a-detailed-guide/"
+                "id": "kfl0oJKi1OusryrSqO2jn",
+                "name": "PostgreSQL / MySQL",
+                "type": "subtopic",
+                "description": "PostgreSQL and MySQL are relational databases that store data in structured tables with defined relationships. They are the most widely used databases for web applications and are well supported by every major cloud provider. Use them when your data has a clear, stable structure and relationships between entities matter.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit Dedicated PostgreSQL DBA Roadmap",
+                    "url": "https://roadmap.sh/postgresql-dba"
+                  },
+                  {
+                    "type": "official",
+                    "title": "PostgreSQL Docs",
+                    "url": "https://www.postgresql.org/docs/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "MySQL Docs",
+                    "url": "https://dev.mysql.com/doc/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Learn PostgreSQL - Full Tutorial for Beginners",
+                    "url": "https://www.postgresqltutorial.com/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "MySQL Tutorial",
+                    "url": "https://www.mysqltutorial.org/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/postgresql--mysql@kfl0oJKi1OusryrSqO2jn.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "p4Ku5RT5uOVYPuduqz80M",
+                "name": "Supabase",
+                "type": "subtopic",
+                "description": "Supabase is an open-source alternative to Firebase built on top of PostgreSQL. It provides a managed database, built-in authentication, real-time subscriptions, and an auto-generated API. It is one of the fastest ways to add a back end to a generated front-end application.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Supabase Docs",
+                    "url": "https://supabase.com/docs"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Supabase Full Course 2025 | Become a Supabase Pro in 1.5 Hours",
+                    "url": "https://www.youtube.com/watch?v=kyphLGnSz6Q"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/supabase@p4Ku5RT5uOVYPuduqz80M.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/e2e-testing@MB_6yVmgPZugbjxGzoq09.md"
-          },
-          {
-            "id": "Q6PzFpT_4kElowvvB2u_v",
-            "name": "Cloudflare",
-            "type": "subtopic",
-            "description": "Cloudflare offers serverless deployment for front-end apps and lightweight back-end functions through Cloudflare Workers and Pages. It has a generous free tier and deploys to a global edge network, which means fast load times for users anywhere in the world.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Cloudflare Roadmap",
-                "url": "https://roadmap.sh/cloudflare"
-              },
-              {
-                "type": "official",
-                "title": "Getting started with Cloudflare",
-                "url": "https://developers.cloudflare.com/pages/get-started/"
-              },
-              {
-                "type": "video",
-                "title": "What is Cloudflare?",
-                "url": "https://www.youtube.com/watch?v=XHvmX3FhTwU"
-              },
-              {
-                "type": "video",
-                "title": "IntroLearn Cloudflare Workers 101 - Full Course for Beginnersduction to Cloudflare",
-                "url": "https://www.youtube.com/watch?v=24cml1rKGBs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/cloudflare@Q6PzFpT_4kElowvvB2u_v.md"
-          },
-          {
-            "id": "wUg8ypt4aWXgMYGiaIdgy",
-            "name": "Vercel",
-            "type": "subtopic",
-            "description": "Vercel is a platform designed for deploying and hosting web applications, particularly those built with modern frontend frameworks and static site generators. It provides features like automatic deployments from Git repositories, serverless functions, and a global content delivery network (CDN) to ensure fast and reliable performance. Vercel simplifies the process of taking a frontend project from development to production.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Vercel Documentation",
-                "url": "https://vercel.com/docs"
-              },
-              {
-                "type": "official",
-                "title": "Vercel Quick Start",
-                "url": "https://vercel.com/docs/getting-started-with-vercel"
-              },
-              {
-                "type": "video",
-                "title": "Vercel Tutorial - Host a Website for Free",
-                "url": "https://www.youtube.com/watch?v=Vx5nPGdsFaU"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/vercel@wUg8ypt4aWXgMYGiaIdgy.md"
-          },
-          {
-            "id": "NCO0PyktX4UzVCsyqZpAO",
-            "name": "Bit Cloud",
-            "type": "subtopic",
-            "description": "Bit Cloud is how humans and AI agents build software autonomously. It enables them to build and maintain software as independent, decoupled building blocks—each owned separately, yet composable into larger systems—so everyone can work in parallel without friction.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Bit Cloud",
-                "url": "https://bit.cloud/?c=img-bit-rnd&utm_source=roadmap&utm_medium=display&utm_campaign=img-bit-rnd"
-              },
-              {
-                "type": "official",
-                "title": "Get started",
-                "url": "https://bit.cloud/docs?c=rsh-a"
-              },
-              {
-                "type": "official",
-                "title": "Deployment docs",
-                "url": "https://bit.cloud/docs/deployments/deploy-apps?c=rsh-a"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/bit-cloud@NCO0PyktX4UzVCsyqZpAO.md"
-          },
-          {
-            "id": "OFscURhjqJfh8qA3SKSfh",
-            "name": "GitHub",
-            "type": "subtopic",
-            "description": "GitHub is the most widely used platform for hosting and managing code. It tracks every change to the codebase, makes it easy to collaborate with others, and integrates with most CI/CD tools. Setting up a GitHub repository should be one of the first things you do after generating the codebase.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit Dedicated Git & GitHub Roadmap",
-                "url": "https://roadmap.sh/git-github"
-              },
-              {
-                "type": "official",
-                "title": "GitHub Docs",
-                "url": "https://docs.github.com/en/get-started/quickstart"
-              },
-              {
-                "type": "video",
-                "title": "What is GitHub?",
-                "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/github@OFscURhjqJfh8qA3SKSfh.md"
-          },
-          {
-            "id": "f_d4JlYSbP9BHuCR0kBpP",
-            "name": "GitLab",
-            "type": "subtopic",
-            "description": "GitLab is an alternative to GitHub that combines version control with built-in CI/CD pipelines and project management tools. It is a good option if you want everything in one platform or if your organization already uses it.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "https://about.gitlab.com/get-started/ Documentation",
-                "url": "https://docs.gitlab.com/"
-              },
-              {
-                "type": "official",
-                "title": "Get Started with Gitlab",
-                "url": "https://about.gitlab.com/get-started/"
-              },
-              {
-                "type": "video",
-                "title": "GitLab Explained: What is GitLab and Why Use It?",
-                "url": "https://www.youtube.com/watch?v=bnF7f1zGpo4"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/gitlab@f_d4JlYSbP9BHuCR0kBpP.md"
-          },
-          {
-            "id": "AlE1rcdp-5RVihRMpshnh",
-            "name": "Bit Cloud",
-            "type": "subtopic",
-            "description": "Bit Cloud is how humans and AI agents build software autonomously. It enables them to build and maintain software as independent, decoupled building blocks—each owned separately, yet composable into larger systems—so everyone can work in parallel without friction.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Bit Cloud",
-                "url": "https://bit.cloud/?c=img-bit-rnd&utm_source=roadmap&utm_medium=display&utm_campaign=img-bit-rnd"
-              },
-              {
-                "type": "official",
-                "title": "Get started with Hope",
-                "url": "https://bit.cloud/docs?c=rsh-a"
-              },
-              {
-                "type": "official",
-                "title": "Get started with your agent",
-                "url": "https://bit.cloud/docs/install-bit/?c=rsh-a"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/bit-cloud@AlE1rcdp-5RVihRMpshnh.md"
-          },
-          {
-            "id": "ZxLukZLdGXGvV4MRHmoGh",
-            "name": "DigitalOcean",
-            "type": "subtopic",
-            "description": "DigitalOcean is a cloud provider focused on simplicity and developer experience. Its App Platform lets you deploy a full-stack application from a GitHub repository with minimal configuration. It is a practical middle ground between the simplicity of serverless platforms and the complexity of AWS or GCP.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "DigitalOcean",
-                "url": "https://www.digitalocean.com/"
-              },
-              {
-                "type": "official",
-                "title": "DigitalOcean Tutorials",
-                "url": "https://www.digitalocean.com/community/tutorials"
-              },
-              {
-                "type": "video",
-                "title": "Getting Started With Kubernetes on DigitalOcean",
-                "url": "https://www.youtube.com/watch?v=cJKdo-glRD0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/digitalocean@ZxLukZLdGXGvV4MRHmoGh.md"
-          },
-          {
-            "id": "DAEMRai6FpPrmRkmKTOhV",
-            "name": "Azure DevOps",
-            "type": "subtopic",
-            "description": "Azure DevOps is Microsoft's platform for managing code, pipelines, and project tasks. It integrates tightly with Azure infrastructure and is a common choice in enterprise environments. It covers version control, CI/CD, and issue tracking in a single platform.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Azure DevOps",
-                "url": "https://azure.microsoft.com/en-us/products/devops"
-              },
-              {
-                "type": "video",
-                "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
-                "url": "https://www.youtube.com/watch?v=4BibQ69MD8c"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/azure-devops@DAEMRai6FpPrmRkmKTOhV.md"
-          },
-          {
-            "id": "Sv7QfwPKaTsviScn2axhk",
-            "name": "Railway",
-            "type": "subtopic",
-            "description": "Railway is a deployment platform designed for speed and simplicity. It detects the type of project automatically and configures the deployment environment accordingly. It supports databases, back-end services, and front-end apps in the same project, which makes it convenient for full-stack deployments.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Railway",
-                "url": "https://railway.com/"
-              },
-              {
-                "type": "official",
-                "title": "Quick Start Tutorial",
-                "url": "https://docs.railway.com/quick-start"
-              },
-              {
-                "type": "video",
-                "title": "Fastest Way to Deploy a Full Stack Web App (Railway)",
-                "url": "https://www.youtube.com/watch?v=JQIKobOcQ9k"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/railway@Sv7QfwPKaTsviScn2axhk.md"
-          },
-          {
-            "id": "OBGQ-1bjYBdYi-_oFpmj8",
-            "name": "Render",
-            "type": "subtopic",
-            "description": "Render is a cloud platform that supports web services, background workers, cron jobs, and static sites. It is straightforward to configure and deploy directly from a GitHub repository. It is a good option for full-stack apps that need a persistent server without the overhead of managing infrastructure manually.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Render Docs + Quickstarts",
-                "url": "https://render.com/docs"
-              },
-              {
-                "type": "article",
-                "title": "Render: Cloud Deployment with Less Engineering",
-                "url": "https://thenewstack.io/render-cloud-deployment-with-less-engineering/"
-              },
-              {
-                "type": "video",
-                "title": "Deploy any application with one click using Render | Cloud Application Platform",
-                "url": "https://www.youtube.com/watch?v=yWxBUcG_C7g"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/render@OBGQ-1bjYBdYi-_oFpmj8.md"
-          },
-          {
-            "id": "-MWVEd4dEfGcwBTxKh9WM",
-            "name": "AWS",
-            "type": "subtopic",
-            "description": "AWS is the largest cloud provider in the world. It offers infrastructure for computing, storage, databases, networking, and dozens of other services. It requires more configuration than PaaS options but gives you complete control over how your application runs and scales.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated AWS Roadmap",
-                "url": "https://roadmap.sh/aws"
-              },
-              {
-                "type": "official",
-                "title": "AWS Cloud Essentials",
-                "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
-              },
-              {
-                "type": "official",
-                "title": "Overview of Amazon Web Services",
-                "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/aws@-MWVEd4dEfGcwBTxKh9WM.md"
-          },
-          {
-            "id": "UoZoN-nN8eTnI-J5ma-oq",
-            "name": "Azure",
-            "type": "subtopic",
-            "description": "Azure is Microsoft's cloud platform. It is a strong choice for teams already using Microsoft tools or working in enterprise environments. It covers the full range of infrastructure needs and integrates well with GitHub, Active Directory, and other Microsoft services.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Azure Website",
-                "url": "https://azure.microsoft.com/en-us/"
-              },
-              {
-                "type": "opensource",
-                "title": "Microsoft Azure Guide",
-                "url": "https://github.com/mikeroyal/Azure-Guide"
-              },
-              {
-                "type": "video",
-                "title": "icrosoft Azure Fundamentals Certification Course (AZ-900)",
-                "url": "https://www.youtube.com/watch?v=5abffC-K40c"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/azure@UoZoN-nN8eTnI-J5ma-oq.md"
-          },
-          {
-            "id": "6hl4_ft8onzq80v_nD8Q4",
-            "name": "GCP",
-            "type": "subtopic",
-            "description": "Google Cloud Platform is Google's cloud infrastructure service. It is particularly strong for data processing, machine learning workloads, and applications that need to integrate with other Google services. It is a competitive alternative to AWS for teams comfortable with Google's ecosystem.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Google Cloud Platform",
-                "url": "https://cloud.google.com"
-              },
-              {
-                "type": "official",
-                "title": "Cloud Computing, Hosting Services, and APIs",
-                "url": "https://cloud.google.com/gcp"
-              },
-              {
-                "type": "video",
-                "title": "Google Cloud Platform Video Course",
-                "url": "https://www.youtube.com/watch?v=fZOz13joN0o"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/gcp@6hl4_ft8onzq80v_nD8Q4.md"
-          },
-          {
-            "id": "gwHXA4WBrZN0VeAx5NKz7",
-            "name": "MongoDB / Atlas",
-            "type": "subtopic",
-            "description": "MongoDB is a document-based database that stores data in a flexible, JSON-like format. Atlas is MongoDB's managed cloud service, which handles backups, scaling, and monitoring automatically. It is a good fit for apps where the data structure is likely to change as the product evolves.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit Dedicated MongoDB Roadmap",
-                "url": "https://roadmap.sh/mongodb"
-              },
-              {
-                "type": "official",
-                "title": "MongoDB Website",
-                "url": "https://www.mongodb.com/"
-              },
-              {
-                "type": "official",
-                "title": "Learning Path for MongoDB Developers",
-                "url": "https://learn.mongodb.com/catalog"
-              },
-              {
-                "type": "official",
-                "title": "Vector Search in MongoDB Atlas",
-                "url": "https://www.mongodb.com/products/platform/atlas-vector-search"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/mongodb--atlas@gwHXA4WBrZN0VeAx5NKz7.md"
-          },
-          {
-            "id": "kfl0oJKi1OusryrSqO2jn",
-            "name": "PostgreSQL / MySQL",
-            "type": "subtopic",
-            "description": "PostgreSQL and MySQL are relational databases that store data in structured tables with defined relationships. They are the most widely used databases for web applications and are well supported by every major cloud provider. Use them when your data has a clear, stable structure and relationships between entities matter.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit Dedicated PostgreSQL DBA Roadmap",
-                "url": "https://roadmap.sh/postgresql-dba"
-              },
-              {
-                "type": "official",
-                "title": "PostgreSQL Docs",
-                "url": "https://www.postgresql.org/docs/"
-              },
-              {
-                "type": "official",
-                "title": "MySQL Docs",
-                "url": "https://dev.mysql.com/doc/"
-              },
-              {
-                "type": "article",
-                "title": "Learn PostgreSQL - Full Tutorial for Beginners",
-                "url": "https://www.postgresqltutorial.com/"
-              },
-              {
-                "type": "article",
-                "title": "MySQL Tutorial",
-                "url": "https://www.mysqltutorial.org/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/postgresql--mysql@kfl0oJKi1OusryrSqO2jn.md"
-          },
-          {
-            "id": "p4Ku5RT5uOVYPuduqz80M",
-            "name": "Supabase",
-            "type": "subtopic",
-            "description": "Supabase is an open-source alternative to Firebase built on top of PostgreSQL. It provides a managed database, built-in authentication, real-time subscriptions, and an auto-generated API. It is one of the fastest ways to add a back end to a generated front-end application.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Supabase Docs",
-                "url": "https://supabase.com/docs"
-              },
-              {
-                "type": "video",
-                "title": "Supabase Full Course 2025 | Become a Supabase Pro in 1.5 Hours",
-                "url": "https://www.youtube.com/watch?v=kyphLGnSz6Q"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/ai-product-builder/content/supabase@p4Ku5RT5uOVYPuduqz80M.md"
+            ]
           }
         ]
       },
@@ -1117,7 +1318,7 @@
     "nodes": [
       {
         "id": "COeXWV8fCTHXPZnErXcGZ",
-        "name": "AI Product Creation Cycle ",
+        "name": "AI Product Creation Cycle",
         "type": "topic",
         "description": "AI tools are changing how software is built. The traditional approach of writing code from scratch is being replaced by a new paradigm: you generate a working product from your requirements, test it with real users, and refine it in repeated cycles until it is ready to ship.",
         "resources": [
@@ -1132,26 +1333,6 @@
             "url": "https://www.digitalocean.com/resources/articles/building-ai-products#understanding-the-ai-product-lifecycle"
           }
         ]
-      },
-      {
-        "id": "4dxljr8BtYkJDXbLeE0gW",
-        "name": "Definition & Scope",
-        "type": "topic",
-        "description": "Before writing a single prompt, you need to know what you are building and why. This means defining the problem, identifying the core features, and setting the project's technical boundaries. A clear scope saves time and prevents the AI from generating things you do not need.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to scope your AI product",
-            "url": "https://uxdesign.cc/how-to-scope-your-ai-product-5b9885ef3851"
-          }
-        ]
-      },
-      {
-        "id": "kxDCkO0aZLY4_hd4_ykH6",
-        "name": "Problem Definition",
-        "type": "subtopic",
-        "description": "Start by writing one or two sentences describing the problem your app solves and who it solves it for. If you cannot explain the problem clearly, the generated output will be unfocused. This is the most important input you give to the entire process.",
-        "resources": []
       },
       {
         "id": "ncU03bZztHwt9VrQbEZ15",
@@ -1180,6 +1361,26 @@
             "url": "https://dev.to/techelopment/web-application-architecture-front-end-middleware-and-back-end-2ld7"
           }
         ]
+      },
+      {
+        "id": "4dxljr8BtYkJDXbLeE0gW",
+        "name": "Definition & Scope",
+        "type": "topic",
+        "description": "Before writing a single prompt, you need to know what you are building and why. This means defining the problem, identifying the core features, and setting the project's technical boundaries. A clear scope saves time and prevents the AI from generating things you do not need.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to scope your AI product",
+            "url": "https://uxdesign.cc/how-to-scope-your-ai-product-5b9885ef3851"
+          }
+        ]
+      },
+      {
+        "id": "kxDCkO0aZLY4_hd4_ykH6",
+        "name": "Problem Definition",
+        "type": "subtopic",
+        "description": "Start by writing one or two sentences describing the problem your app solves and who it solves it for. If you cannot explain the problem clearly, the generated output will be unfocused. This is the most important input you give to the entire process.",
+        "resources": []
       },
       {
         "id": "5qljkbrUWUAn-5Ng2AiaJ",
@@ -1226,22 +1427,11 @@
         ]
       },
       {
-        "id": "mQzAgHoM3DS_zn2zr2FXg",
-        "name": "Choose a Prototype Tool",
-        "type": "subtopic",
-        "description": "Developers are increasingly moving away from traditional design tools like Figma and Miro toward AI prototyping tools that generate a working version of the app directly from a text description. Tools like Lovable, Replit, and Bolt let you go from idea to something clickable in minutes, which makes it easier to validate a concept before committing to a full generation cycle. Choose based on your familiarity and the complexity of what you are building.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Best AI Prototyping Tools in 2026: Ranked by Use Case",
-            "url": "https://www.banani.co/blog/best-ai-prototyping-tools"
-          },
-          {
-            "type": "article",
-            "title": "Prototyping Tools: A Comprehensive Guide Intro",
-            "url": "https://www.coursera.org/articles/prototyping-tools"
-          }
-        ]
+        "id": "dMQmG-rvw-F2Dc0zfJFmR",
+        "name": "AI App Builders",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "T-NUiQvT8dKmg6UDGVSt_",
@@ -1290,10 +1480,10 @@
         ]
       },
       {
-        "id": "ZQ-kWlp5v9fimgHmG5hlR",
-        "name": "Feedback & Validation",
+        "id": "Z6x8QhsYOO9LB6fHGMTLL",
+        "name": "Claude Design",
         "type": "subtopic",
-        "description": "Before generating the full product, share the prototype with your team and some potential users. You are looking for obvious gaps or misunderstandings in the design. Catching these at the prototype stage is much cheaper than fixing them after generation.",
+        "description": "",
         "resources": []
       },
       {
@@ -1320,11 +1510,22 @@
         ]
       },
       {
-        "id": "Z6x8QhsYOO9LB6fHGMTLL",
-        "name": "Claude Design",
+        "id": "8ePFxmPv_Vm7SKoleM1tT",
+        "name": "Hope",
         "type": "subtopic",
-        "description": "",
-        "resources": []
+        "description": "Hope is an agentic architect that transforms human prompts into composable, production-ready software. By automating complex engineering, it bridges the gap between rapid prototyping and professional standards, enabling teams to build scalable, enterprise-grade systems in hours.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Hope: Ships to Production",
+            "url": "https://bit.cloud/products/hope-ai?c=ai-roadmap"
+          },
+          {
+            "type": "official",
+            "title": "Get started with Hope",
+            "url": "https://bit.cloud/docsc=rsh-a?c=rsh-a"
+          }
+        ]
       },
       {
         "id": "YZi89ogkfzKIivbdFmcP_",
@@ -1350,22 +1551,36 @@
         ]
       },
       {
-        "id": "8ePFxmPv_Vm7SKoleM1tT",
-        "name": "Hope",
+        "id": "mQzAgHoM3DS_zn2zr2FXg",
+        "name": "Choose a Prototype Tool",
         "type": "subtopic",
-        "description": "Hope is an agentic architect that transforms human prompts into composable, production-ready software. By automating complex engineering, it bridges the gap between rapid prototyping and professional standards, enabling teams to build scalable, enterprise-grade systems in hours.",
+        "description": "Developers are increasingly moving away from traditional design tools like Figma and Miro toward AI prototyping tools that generate a working version of the app directly from a text description. Tools like Lovable, Replit, and Bolt let you go from idea to something clickable in minutes, which makes it easier to validate a concept before committing to a full generation cycle. Choose based on your familiarity and the complexity of what you are building.",
         "resources": [
           {
-            "type": "official",
-            "title": "Hope: Ships to Production",
-            "url": "https://bit.cloud/products/hope-ai?c=ai-roadmap"
+            "type": "article",
+            "title": "Best AI Prototyping Tools in 2026: Ranked by Use Case",
+            "url": "https://www.banani.co/blog/best-ai-prototyping-tools"
           },
           {
-            "type": "official",
-            "title": "Get started with Hope",
-            "url": "https://bit.cloud/docsc=rsh-a?c=rsh-a"
+            "type": "article",
+            "title": "Prototyping Tools: A Comprehensive Guide Intro",
+            "url": "https://www.coursera.org/articles/prototyping-tools"
           }
         ]
+      },
+      {
+        "id": "ZQ-kWlp5v9fimgHmG5hlR",
+        "name": "Feedback & Validation",
+        "type": "subtopic",
+        "description": "Before generating the full product, share the prototype with your team and some potential users. You are looking for obvious gaps or misunderstandings in the design. Catching these at the prototype stage is much cheaper than fixing them after generation.",
+        "resources": []
+      },
+      {
+        "id": "ZiRcBBzSVAspwTg3BXNGZ",
+        "name": "Technical but Powerful",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "G86QePmTB5LX4_dMkVgoK",
@@ -1449,27 +1664,11 @@
         "resources": []
       },
       {
-        "id": "xCoG801UzwsRaK0xmI9_B",
-        "name": "Codex",
-        "type": "subtopic",
-        "description": "Codex is best for translating a clearly defined requirement into working code. Describe the specific behavior you want; it generates the implementation. It works well for adding a new function, rewriting a poorly structured block, or converting logic from one pattern to another. Keep the scope narrow; the more specific the input, the more useful the output.",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Introduction to OpenAI Codex",
-            "url": "https://www.coursera.org/learn/introduction-to-openai-codex"
-          },
-          {
-            "type": "official",
-            "title": "Codex Docs",
-            "url": "https://developers.openai.com/codex"
-          },
-          {
-            "type": "video",
-            "title": "Getting started with Codex",
-            "url": "https://www.youtube.com/watch?v=px7XlbYgk7I"
-          }
-        ]
+        "id": "JIiHcmpaZuTcsdbRJjZYr",
+        "name": "Use AI-assisted Coding Tools",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "Fa06GTSwYb9x0QuGsp8et",
@@ -1496,6 +1695,29 @@
             "type": "video",
             "title": "laude Code Tutorial for Beginners",
             "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
+          }
+        ]
+      },
+      {
+        "id": "xCoG801UzwsRaK0xmI9_B",
+        "name": "Codex",
+        "type": "subtopic",
+        "description": "Codex is best for translating a clearly defined requirement into working code. Describe the specific behavior you want; it generates the implementation. It works well for adding a new function, rewriting a poorly structured block, or converting logic from one pattern to another. Keep the scope narrow; the more specific the input, the more useful the output.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Introduction to OpenAI Codex",
+            "url": "https://www.coursera.org/learn/introduction-to-openai-codex"
+          },
+          {
+            "type": "official",
+            "title": "Codex Docs",
+            "url": "https://developers.openai.com/codex"
+          },
+          {
+            "type": "video",
+            "title": "Getting started with Codex",
+            "url": "https://www.youtube.com/watch?v=px7XlbYgk7I"
           }
         ]
       },
@@ -1555,6 +1777,13 @@
         "name": "3. Refinement",
         "type": "topic",
         "description": "Once you have a generated codebase, you will need to adjust it. Some changes are small and targeted; others require regenerating a larger part of the application. Knowing which type of change you are dealing with before you start saves time and reduces the risk of breaking something that already works.",
+        "resources": []
+      },
+      {
+        "id": "Id9k9YZWSzxynoGgyz7WF",
+        "name": "Learn by the need",
+        "type": "group",
+        "description": "",
         "resources": []
       },
       {
@@ -1660,10 +1889,10 @@
         ]
       },
       {
-        "id": "rcR8DMzELUnmJ7I_pwWpI",
-        "name": "4. Collaboration",
-        "type": "topic",
-        "description": "At this stage, you bring other people into the process: teammates, testers, or early users. Their feedback drives the next round of refinement. This node also covers the tools and practices that keep the codebase stable when multiple people are working on it at the same time.",
+        "id": "ydzaN2EHBVAavHS3iPQ40",
+        "name": "Targeted Change",
+        "type": "subtopic",
+        "description": "A targeted change is a small, localized fix: a bug in a component, a layout adjustment, a logic tweak. Use AI-assisted coding tools like Cursor, Claude Code, or Copilot to make these changes directly in the code without touching the broader architecture.",
         "resources": []
       },
       {
@@ -1674,10 +1903,17 @@
         "resources": []
       },
       {
-        "id": "ydzaN2EHBVAavHS3iPQ40",
-        "name": "Targeted Change",
-        "type": "subtopic",
-        "description": "A targeted change is a small, localized fix: a bug in a component, a layout adjustment, a logic tweak. Use AI-assisted coding tools like Cursor, Claude Code, or Copilot to make these changes directly in the code without touching the broader architecture.",
+        "id": "rcR8DMzELUnmJ7I_pwWpI",
+        "name": "4. Collaboration",
+        "type": "topic",
+        "description": "At this stage, you bring other people into the process: teammates, testers, or early users. Their feedback drives the next round of refinement. This node also covers the tools and practices that keep the codebase stable when multiple people are working on it at the same time.",
+        "resources": []
+      },
+      {
+        "id": "ThETtPpHUIwDaBWQDbFLy",
+        "name": "Testing & Feedback",
+        "type": "group",
+        "description": "",
         "resources": []
       },
       {
@@ -1751,6 +1987,13 @@
             "url": "https://testgrid.io/blog/end-to-end-testing-a-detailed-guide/"
           }
         ]
+      },
+      {
+        "id": "bv3qgEUNtK7njDPjPV3eW",
+        "name": "Serverless Providers",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "Q6PzFpT_4kElowvvB2u_v",
@@ -1827,6 +2070,13 @@
         ]
       },
       {
+        "id": "Yk5YVV70I4_uuTxeCwDIL",
+        "name": "Change Management & CI",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "OFscURhjqJfh8qA3SKSfh",
         "name": "GitHub",
         "type": "subtopic",
@@ -1896,6 +2146,31 @@
         ]
       },
       {
+        "id": "DAEMRai6FpPrmRkmKTOhV",
+        "name": "Azure DevOps",
+        "type": "subtopic",
+        "description": "Azure DevOps is Microsoft's platform for managing code, pipelines, and project tasks. It integrates tightly with Azure infrastructure and is a common choice in enterprise environments. It covers version control, CI/CD, and issue tracking in a single platform.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Azure DevOps",
+            "url": "https://azure.microsoft.com/en-us/products/devops"
+          },
+          {
+            "type": "video",
+            "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+            "url": "https://www.youtube.com/watch?v=4BibQ69MD8c"
+          }
+        ]
+      },
+      {
+        "id": "clSDYfcH3VBMFK_yfvay8",
+        "name": "Platform as a Service (PaaS)",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "ZxLukZLdGXGvV4MRHmoGh",
         "name": "DigitalOcean",
         "type": "subtopic",
@@ -1915,24 +2190,6 @@
             "type": "video",
             "title": "Getting Started With Kubernetes on DigitalOcean",
             "url": "https://www.youtube.com/watch?v=cJKdo-glRD0"
-          }
-        ]
-      },
-      {
-        "id": "DAEMRai6FpPrmRkmKTOhV",
-        "name": "Azure DevOps",
-        "type": "subtopic",
-        "description": "Azure DevOps is Microsoft's platform for managing code, pipelines, and project tasks. It integrates tightly with Azure infrastructure and is a common choice in enterprise environments. It covers version control, CI/CD, and issue tracking in a single platform.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Azure DevOps",
-            "url": "https://azure.microsoft.com/en-us/products/devops"
-          },
-          {
-            "type": "video",
-            "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
-            "url": "https://www.youtube.com/watch?v=4BibQ69MD8c"
           }
         ]
       },
@@ -1981,6 +2238,13 @@
             "url": "https://www.youtube.com/watch?v=yWxBUcG_C7g"
           }
         ]
+      },
+      {
+        "id": "11WuZ6IE4a89gHN26b6NR",
+        "name": "Cloud Providers",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "-MWVEd4dEfGcwBTxKh9WM",
@@ -2050,6 +2314,13 @@
             "url": "https://www.youtube.com/watch?v=fZOz13joN0o"
           }
         ]
+      },
+      {
+        "id": "6xHEBaKv1rHuLsPR7yrS3",
+        "name": "Connect to a Database",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "gwHXA4WBrZN0VeAx5NKz7",
@@ -2146,6 +2417,11 @@
     ],
     "edges": [
       {
+        "source": "ncU03bZztHwt9VrQbEZ15",
+        "target": "COeXWV8fCTHXPZnErXcGZ",
+        "type": "subtopic_of"
+      },
+      {
         "source": "kxDCkO0aZLY4_hd4_ykH6",
         "target": "4dxljr8BtYkJDXbLeE0gW",
         "type": "subtopic_of"
@@ -2161,8 +2437,8 @@
         "type": "subtopic_of"
       },
       {
-        "source": "ncU03bZztHwt9VrQbEZ15",
-        "target": "4dxljr8BtYkJDXbLeE0gW",
+        "source": "dMQmG-rvw-F2Dc0zfJFmR",
+        "target": "ZGqeasMGuEiZvrdyjSNuM",
         "type": "subtopic_of"
       },
       {
@@ -2176,198 +2452,243 @@
         "type": "subtopic_of"
       },
       {
-        "source": "HZHzCLbK-oQh7gSokxHWq",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ydzaN2EHBVAavHS3iPQ40",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OFscURhjqJfh8qA3SKSfh",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "f_d4JlYSbP9BHuCR0kBpP",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AlE1rcdp-5RVihRMpshnh",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DAEMRai6FpPrmRkmKTOhV",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aRA5S0Mmmhx9F0nhD3Wcp",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VxqhYHA9YpWx70GIhKghY",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MXPA6I8K1_aKKQpgk2EcW",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MB_6yVmgPZugbjxGzoq09",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vGtnZaa5vH02cTgkVG6A-",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "S7uHXLcxvtegkI1kirVS9",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "G86QePmTB5LX4_dMkVgoK",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YZi89ogkfzKIivbdFmcP_",
+        "source": "ZiRcBBzSVAspwTg3BXNGZ",
         "target": "ZGqeasMGuEiZvrdyjSNuM",
         "type": "subtopic_of"
       },
       {
         "source": "T-NUiQvT8dKmg6UDGVSt_",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
+        "target": "dMQmG-rvw-F2Dc0zfJFmR",
         "type": "subtopic_of"
       },
       {
         "source": "Gf1egAjfyQyAJ4I-aT_Ip",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8ePFxmPv_Vm7SKoleM1tT",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xKBoLYQgpLDmOtDweVHei",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
+        "target": "dMQmG-rvw-F2Dc0zfJFmR",
         "type": "subtopic_of"
       },
       {
         "source": "Z6x8QhsYOO9LB6fHGMTLL",
-        "target": "ZGqeasMGuEiZvrdyjSNuM",
+        "target": "dMQmG-rvw-F2Dc0zfJFmR",
         "type": "subtopic_of"
       },
       {
-        "source": "BEw1Iowb0KMiChtDGvKep",
-        "target": "DCcj2_9a7aYi6qCnI4TMV",
+        "source": "xKBoLYQgpLDmOtDweVHei",
+        "target": "dMQmG-rvw-F2Dc0zfJFmR",
         "type": "subtopic_of"
       },
       {
-        "source": "xCoG801UzwsRaK0xmI9_B",
+        "source": "8ePFxmPv_Vm7SKoleM1tT",
+        "target": "dMQmG-rvw-F2Dc0zfJFmR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YZi89ogkfzKIivbdFmcP_",
+        "target": "dMQmG-rvw-F2Dc0zfJFmR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "G86QePmTB5LX4_dMkVgoK",
+        "target": "ZiRcBBzSVAspwTg3BXNGZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vGtnZaa5vH02cTgkVG6A-",
+        "target": "ZiRcBBzSVAspwTg3BXNGZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "S7uHXLcxvtegkI1kirVS9",
+        "target": "ZiRcBBzSVAspwTg3BXNGZ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JIiHcmpaZuTcsdbRJjZYr",
         "target": "DCcj2_9a7aYi6qCnI4TMV",
         "type": "subtopic_of"
       },
       {
         "source": "Fa06GTSwYb9x0QuGsp8et",
-        "target": "DCcj2_9a7aYi6qCnI4TMV",
+        "target": "JIiHcmpaZuTcsdbRJjZYr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xCoG801UzwsRaK0xmI9_B",
+        "target": "JIiHcmpaZuTcsdbRJjZYr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BEw1Iowb0KMiChtDGvKep",
+        "target": "JIiHcmpaZuTcsdbRJjZYr",
         "type": "subtopic_of"
       },
       {
         "source": "6HLxaflojoF0-cuIuPDeG",
-        "target": "DCcj2_9a7aYi6qCnI4TMV",
+        "target": "JIiHcmpaZuTcsdbRJjZYr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Id9k9YZWSzxynoGgyz7WF",
+        "target": "S9fE9eG1YWSfVRi8h13U1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ydzaN2EHBVAavHS3iPQ40",
+        "target": "S9fE9eG1YWSfVRi8h13U1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HZHzCLbK-oQh7gSokxHWq",
+        "target": "S9fE9eG1YWSfVRi8h13U1",
         "type": "subtopic_of"
       },
       {
         "source": "Cem2u4lHoA8KW-0GqVzcw",
-        "target": "S9fE9eG1YWSfVRi8h13U1",
+        "target": "Id9k9YZWSzxynoGgyz7WF",
         "type": "subtopic_of"
       },
       {
         "source": "aHQ8f3ulEeUxTYCifzcPq",
-        "target": "S9fE9eG1YWSfVRi8h13U1",
+        "target": "Id9k9YZWSzxynoGgyz7WF",
         "type": "subtopic_of"
       },
       {
         "source": "iRey4hwJCIraoNsIZELZv",
-        "target": "S9fE9eG1YWSfVRi8h13U1",
+        "target": "Id9k9YZWSzxynoGgyz7WF",
         "type": "subtopic_of"
       },
       {
         "source": "d_2Uq2_Befe1tqM8_Y8lq",
-        "target": "S9fE9eG1YWSfVRi8h13U1",
+        "target": "Id9k9YZWSzxynoGgyz7WF",
         "type": "subtopic_of"
       },
       {
-        "source": "-MWVEd4dEfGcwBTxKh9WM",
+        "source": "ThETtPpHUIwDaBWQDbFLy",
         "target": "rcR8DMzELUnmJ7I_pwWpI",
         "type": "subtopic_of"
       },
       {
-        "source": "UoZoN-nN8eTnI-J5ma-oq",
+        "source": "bv3qgEUNtK7njDPjPV3eW",
         "target": "rcR8DMzELUnmJ7I_pwWpI",
         "type": "subtopic_of"
       },
       {
-        "source": "6hl4_ft8onzq80v_nD8Q4",
+        "source": "Yk5YVV70I4_uuTxeCwDIL",
         "target": "rcR8DMzELUnmJ7I_pwWpI",
         "type": "subtopic_of"
       },
       {
-        "source": "wUg8ypt4aWXgMYGiaIdgy",
+        "source": "clSDYfcH3VBMFK_yfvay8",
         "target": "rcR8DMzELUnmJ7I_pwWpI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "11WuZ6IE4a89gHN26b6NR",
+        "target": "rcR8DMzELUnmJ7I_pwWpI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6xHEBaKv1rHuLsPR7yrS3",
+        "target": "rcR8DMzELUnmJ7I_pwWpI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aRA5S0Mmmhx9F0nhD3Wcp",
+        "target": "ThETtPpHUIwDaBWQDbFLy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VxqhYHA9YpWx70GIhKghY",
+        "target": "ThETtPpHUIwDaBWQDbFLy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MXPA6I8K1_aKKQpgk2EcW",
+        "target": "ThETtPpHUIwDaBWQDbFLy",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MB_6yVmgPZugbjxGzoq09",
+        "target": "ThETtPpHUIwDaBWQDbFLy",
         "type": "subtopic_of"
       },
       {
         "source": "Q6PzFpT_4kElowvvB2u_v",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
+        "target": "bv3qgEUNtK7njDPjPV3eW",
         "type": "subtopic_of"
       },
       {
-        "source": "OBGQ-1bjYBdYi-_oFpmj8",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Sv7QfwPKaTsviScn2axhk",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZxLukZLdGXGvV4MRHmoGh",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gwHXA4WBrZN0VeAx5NKz7",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kfl0oJKi1OusryrSqO2jn",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "p4Ku5RT5uOVYPuduqz80M",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
+        "source": "wUg8ypt4aWXgMYGiaIdgy",
+        "target": "bv3qgEUNtK7njDPjPV3eW",
         "type": "subtopic_of"
       },
       {
         "source": "NCO0PyktX4UzVCsyqZpAO",
-        "target": "rcR8DMzELUnmJ7I_pwWpI",
+        "target": "bv3qgEUNtK7njDPjPV3eW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OFscURhjqJfh8qA3SKSfh",
+        "target": "Yk5YVV70I4_uuTxeCwDIL",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "f_d4JlYSbP9BHuCR0kBpP",
+        "target": "Yk5YVV70I4_uuTxeCwDIL",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AlE1rcdp-5RVihRMpshnh",
+        "target": "Yk5YVV70I4_uuTxeCwDIL",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DAEMRai6FpPrmRkmKTOhV",
+        "target": "Yk5YVV70I4_uuTxeCwDIL",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZxLukZLdGXGvV4MRHmoGh",
+        "target": "clSDYfcH3VBMFK_yfvay8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Sv7QfwPKaTsviScn2axhk",
+        "target": "clSDYfcH3VBMFK_yfvay8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OBGQ-1bjYBdYi-_oFpmj8",
+        "target": "clSDYfcH3VBMFK_yfvay8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-MWVEd4dEfGcwBTxKh9WM",
+        "target": "11WuZ6IE4a89gHN26b6NR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UoZoN-nN8eTnI-J5ma-oq",
+        "target": "11WuZ6IE4a89gHN26b6NR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6hl4_ft8onzq80v_nD8Q4",
+        "target": "11WuZ6IE4a89gHN26b6NR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gwHXA4WBrZN0VeAx5NKz7",
+        "target": "6xHEBaKv1rHuLsPR7yrS3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kfl0oJKi1OusryrSqO2jn",
+        "target": "6xHEBaKv1rHuLsPR7yrS3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "p4Ku5RT5uOVYPuduqz80M",
+        "target": "6xHEBaKv1rHuLsPR7yrS3",
         "type": "subtopic_of"
       }
     ]

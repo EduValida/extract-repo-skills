@@ -1,0 +1,413 @@
+{
+  "title": "MongoDB",
+  "topics": [
+    {
+      "title": "MongoDB Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BSON vs JSON"
+        },
+        {
+          "title": "SQL vs NoSQL"
+        },
+        {
+          "title": "Embedded Objects & Arrays"
+        },
+        {
+          "title": "What is MongoDB?"
+        },
+        {
+          "title": "String"
+        },
+        {
+          "title": "Double"
+        },
+        {
+          "title": "When to use MongoDB?"
+        },
+        {
+          "title": "Object"
+        },
+        {
+          "title": "Array"
+        },
+        {
+          "title": "What is MongoDB Atlas?"
+        },
+        {
+          "title": "MongoDB Terminology"
+        }
+      ]
+    },
+    {
+      "title": "Data Model & Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Undefined"
+        },
+        {
+          "title": "Binary Data"
+        },
+        {
+          "title": "Boolean"
+        },
+        {
+          "title": "Object ID"
+        },
+        {
+          "title": "Null"
+        },
+        {
+          "title": "Date"
+        }
+      ]
+    },
+    {
+      "title": "Collections & Methods",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Counting Documents"
+        },
+        {
+          "title": "insert() and relevant"
+        },
+        {
+          "title": "Regular Expression"
+        },
+        {
+          "title": "find() and relevant"
+        },
+        {
+          "title": "Symbol"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "update() and relevant"
+        },
+        {
+          "title": "Int32/Int"
+        },
+        {
+          "title": "delete() and relevant"
+        },
+        {
+          "title": "Decimal128"
+        },
+        {
+          "title": "bulkWrite() and relevant"
+        },
+        {
+          "title": "validate()"
+        }
+      ]
+    },
+    {
+      "title": "Query Operators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Array Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$in"
+            },
+            {
+              "title": "$nin"
+            },
+            {
+              "title": "$all"
+            },
+            {
+              "title": "$elemMatch"
+            },
+            {
+              "title": "$size"
+            }
+          ]
+        },
+        {
+          "title": "Projection Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$project"
+            },
+            {
+              "title": "$include"
+            },
+            {
+              "title": "$exclude"
+            },
+            {
+              "title": "$slice"
+            }
+          ]
+        },
+        {
+          "title": "Comparison Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$eq"
+            },
+            {
+              "title": "$gt"
+            },
+            {
+              "title": "$lt"
+            },
+            {
+              "title": "$lte"
+            },
+            {
+              "title": "$gte"
+            },
+            {
+              "title": "$ne"
+            }
+          ]
+        },
+        {
+          "title": "Element Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$exists"
+            },
+            {
+              "title": "$type"
+            },
+            {
+              "title": "$regex"
+            }
+          ]
+        },
+        {
+          "title": "$not"
+        },
+        {
+          "title": "$nor"
+        }
+      ]
+    },
+    {
+      "title": "Creating Indexes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Int64 / Long"
+        },
+        {
+          "title": "Timestamp"
+        },
+        {
+          "title": "Max Key"
+        },
+        {
+          "title": "Min Key"
+        },
+        {
+          "title": "Single Field"
+        },
+        {
+          "title": "Compound"
+        },
+        {
+          "title": "Text"
+        },
+        {
+          "title": "Expiring"
+        }
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Geospatial Indexes"
+        },
+        {
+          "title": "Atlas Search Indexes"
+        },
+        {
+          "title": "Query Optimization"
+        },
+        {
+          "title": "Language Drivers"
+        },
+        {
+          "title": "MongoDB Connectors",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Kafka"
+            },
+            {
+              "title": "Spark"
+            },
+            {
+              "title": "Elastic Search"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Aggregation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "$or"
+        },
+        {
+          "title": "Logical Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$and"
+            }
+          ]
+        },
+        {
+          "title": "Pipelines, Stages and Operators"
+        },
+        {
+          "title": "Common Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$match"
+            },
+            {
+              "title": "$group"
+            },
+            {
+              "title": "$sort"
+            },
+            {
+              "title": "$project"
+            },
+            {
+              "title": "$skip"
+            },
+            {
+              "title": "$limit"
+            },
+            {
+              "title": "$unwind"
+            },
+            {
+              "title": "$lookup"
+            },
+            {
+              "title": "$sum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Transactions"
+    },
+    {
+      "title": "Developer Tools"
+    },
+    {
+      "title": "Scaling MongoDB",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Replicasets"
+        },
+        {
+          "title": "Backup & Recovery",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "mongodump"
+            },
+            {
+              "title": "mongorestore"
+            }
+          ]
+        },
+        {
+          "title": "Sharded Clusters"
+        },
+        {
+          "title": "Tuning Configuration"
+        },
+        {
+          "title": "Indexing"
+        },
+        {
+          "title": "Query Optimization"
+        }
+      ]
+    },
+    {
+      "title": "MongoDB Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Role-based Access Control"
+        },
+        {
+          "title": "X.509 Certificate Auth"
+        },
+        {
+          "title": "Encryption",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Encryption at Rest"
+            },
+            {
+              "title": "Queryable Encryption"
+            },
+            {
+              "title": "Client-Side Field Level"
+            },
+            {
+              "title": "TLS / SSL Encryption"
+            }
+          ]
+        },
+        {
+          "title": "Kerberos Authentication"
+        },
+        {
+          "title": "LDAP Proxy Auth"
+        },
+        {
+          "title": "MongoDB Audit"
+        }
+      ]
+    }
+  ]
+}

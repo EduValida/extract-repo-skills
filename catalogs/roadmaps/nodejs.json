@@ -1,0 +1,481 @@
+{
+  "title": "Node.js Developer",
+  "topics": [
+    {
+      "title": "Introduction to Node.js",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Node.js?"
+        },
+        {
+          "title": "Why use Node.js?"
+        },
+        {
+          "title": "History of Node.js"
+        },
+        {
+          "title": "Node.js vs Browser"
+        },
+        {
+          "title": "Running Node.js Code"
+        }
+      ]
+    },
+    {
+      "title": "Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CommonJS"
+        },
+        {
+          "title": "ESM"
+        },
+        {
+          "title": "Creating & Importing"
+        }
+      ]
+    },
+    {
+      "title": "npm",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "npx"
+        },
+        {
+          "title": "Global Installation"
+        },
+        {
+          "title": "Local Installation"
+        },
+        {
+          "title": "Semantic Versioning"
+        },
+        {
+          "title": "Installing Packages",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Updating Packages"
+            },
+            {
+              "title": "Running Scripts"
+            },
+            {
+              "title": "npm workspaces"
+            },
+            {
+              "title": "Creating Packages"
+            }
+          ]
+        },
+        {
+          "title": "Promises"
+        },
+        {
+          "title": "async/await"
+        },
+        {
+          "title": "Writing Async Code",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Cluster"
+            },
+            {
+              "title": "Worker Threads"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "[global] keyword"
+        },
+        {
+          "title": "System Errors"
+        },
+        {
+          "title": "User Specified Errors"
+        },
+        {
+          "title": "Assertion Errors"
+        },
+        {
+          "title": "JavaScript Errors"
+        },
+        {
+          "title": "Types of Errors",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Uncaught Exceptions"
+            },
+            {
+              "title": "Handling Async Errors"
+            },
+            {
+              "title": "Callstack / Stack Trace"
+            },
+            {
+              "title": "Using Debugger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Async Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Event Emitter"
+        },
+        {
+          "title": "Event Loop"
+        },
+        {
+          "title": "Callbacks"
+        },
+        {
+          "title": "setTimeout"
+        },
+        {
+          "title": "setInterval"
+        }
+      ]
+    },
+    {
+      "title": "Command Line Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "process.env"
+        },
+        {
+          "title": "setImmediate"
+        },
+        {
+          "title": "dotenv package"
+        },
+        {
+          "title": "process.nextTick"
+        },
+        {
+          "title": "Environment Variables",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "process.stdin"
+            },
+            {
+              "title": "Inquirer Package"
+            },
+            {
+              "title": "prompts package"
+            }
+          ]
+        },
+        {
+          "title": "Exitting / Exit Codes"
+        },
+        {
+          "title": "Taking Input",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "stdout / stderr"
+            },
+            {
+              "title": "chalk package"
+            },
+            {
+              "title": "figlet package"
+            },
+            {
+              "title": "cli-progress"
+            }
+          ]
+        },
+        {
+          "title": "Printing Output",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "process.argv"
+            },
+            {
+              "title": "commander"
+            }
+          ]
+        },
+        {
+          "title": "Command line args",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Mongoose"
+            },
+            {
+              "title": "Prisma"
+            },
+            {
+              "title": "Native Drivers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Working with Files",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "__dirname"
+        },
+        {
+          "title": "__filename"
+        },
+        {
+          "title": "process.cwd()"
+        },
+        {
+          "title": "path module"
+        },
+        {
+          "title": "fs module"
+        },
+        {
+          "title": "glob"
+        },
+        {
+          "title": "globby"
+        },
+        {
+          "title": "jsonwebtoken"
+        },
+        {
+          "title": "fs-extra"
+        },
+        {
+          "title": "chokidar"
+        },
+        {
+          "title": "passport.js"
+        },
+        {
+          "title": "Opensource Packages",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Express.js"
+            },
+            {
+              "title": "fastify"
+            },
+            {
+              "title": "NestJS"
+            },
+            {
+              "title": "Hono"
+            }
+          ]
+        },
+        {
+          "title": "Authentication",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "http module"
+            },
+            {
+              "title": "axios"
+            },
+            {
+              "title": "ky"
+            },
+            {
+              "title": "fetch"
+            },
+            {
+              "title": "got package"
+            }
+          ]
+        },
+        {
+          "title": "Making API Calls",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Jest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Building & Consuming APIs"
+    },
+    {
+      "title": "Monitor Changes (Dev)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "--watch"
+        },
+        {
+          "title": "nodemon"
+        }
+      ]
+    },
+    {
+      "title": "Template Engines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ejs"
+        },
+        {
+          "title": "pug"
+        },
+        {
+          "title": "marko"
+        },
+        {
+          "title": "NoSQL DBs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Drizzle"
+            },
+            {
+              "title": "TypeORM"
+            },
+            {
+              "title": "Knex"
+            },
+            {
+              "title": "Sequelize"
+            },
+            {
+              "title": "Prisma"
+            },
+            {
+              "title": "Native Drivers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Working with Databases"
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vitest"
+        },
+        {
+          "title": "node:test"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Playwright"
+        }
+      ]
+    },
+    {
+      "title": "Logging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Winston"
+        },
+        {
+          "title": "Morgan"
+        }
+      ]
+    },
+    {
+      "title": "Keep app Running",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pm2"
+        }
+      ]
+    },
+    {
+      "title": "Threads",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Child Process"
+        }
+      ]
+    },
+    {
+      "title": "Streams"
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Memory Leaks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Garbage Collection"
+            }
+          ]
+        },
+        {
+          "title": "node --inspect"
+        },
+        {
+          "title": "Using APM"
+        }
+      ]
+    },
+    {
+      "title": "Common Built-in Modules"
+    }
+  ]
+}

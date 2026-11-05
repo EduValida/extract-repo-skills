@@ -1,0 +1,445 @@
+{
+  "title": "Android Developer",
+  "topics": [
+    {
+      "title": "Pick a Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kotlin"
+        }
+      ]
+    },
+    {
+      "title": "The Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Development IDE"
+        },
+        {
+          "title": "Basics of Kotlin"
+        },
+        {
+          "title": "Basics of OOP"
+        },
+        {
+          "title": "Data Structures and Algorithms"
+        },
+        {
+          "title": "What is and how to use Gradle?"
+        },
+        {
+          "title": "Create a Basic Hello World App"
+        },
+        {
+          "title": "Services"
+        },
+        {
+          "title": "Intent"
+        },
+        {
+          "title": "Content Provider"
+        },
+        {
+          "title": "Implicit Intents"
+        },
+        {
+          "title": "Activity LifeCycle"
+        },
+        {
+          "title": "Broadcast Receiver"
+        },
+        {
+          "title": "Explicit Intents"
+        },
+        {
+          "title": "State Changes"
+        },
+        {
+          "title": "Intent Filters"
+        }
+      ]
+    },
+    {
+      "title": "Version Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Java"
+        },
+        {
+          "title": "Git"
+        },
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Bitbucket"
+        },
+        {
+          "title": "GitLab"
+        }
+      ]
+    },
+    {
+      "title": "App Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Activity"
+        }
+      ]
+    },
+    {
+      "title": "Interface & Navigation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "VCS Hosting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Navigation Components"
+            }
+          ]
+        },
+        {
+          "title": "Jetpack Compose"
+        },
+        {
+          "title": "Tasks & Backstack"
+        },
+        {
+          "title": "Layouts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Text"
+            },
+            {
+              "title": "Column / Row"
+            },
+            {
+              "title": "Lazy Column / Row"
+            },
+            {
+              "title": "Button"
+            },
+            {
+              "title": "Box"
+            },
+            {
+              "title": "Icon"
+            },
+            {
+              "title": "Scaffold"
+            },
+            {
+              "title": "NavHost"
+            },
+            {
+              "title": "ConstraintLayout"
+            },
+            {
+              "title": "remember / State"
+            }
+          ]
+        },
+        {
+          "title": "Elements",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Image"
+            },
+            {
+              "title": "BottomSheet"
+            },
+            {
+              "title": "TextField"
+            },
+            {
+              "title": "TabRow"
+            },
+            {
+              "title": "Card"
+            },
+            {
+              "title": "Animations"
+            }
+          ]
+        },
+        {
+          "title": "UI Patterns",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Dialog"
+            },
+            {
+              "title": "Drawer"
+            }
+          ]
+        },
+        {
+          "title": "App Shortcuts"
+        }
+      ]
+    },
+    {
+      "title": "Design & Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Navigation & State",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ViewModel state"
+            },
+            {
+              "title": "Side effects"
+            }
+          ]
+        },
+        {
+          "title": "Constraint"
+        }
+      ]
+    },
+    {
+      "title": "Storage",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shared Preferences"
+        },
+        {
+          "title": "DataStore"
+        },
+        {
+          "title": "MVI"
+        },
+        {
+          "title": "MVVM"
+        },
+        {
+          "title": "Room Database"
+        },
+        {
+          "title": "MVP"
+        },
+        {
+          "title": "MVC"
+        },
+        {
+          "title": "File System"
+        }
+      ]
+    },
+    {
+      "title": "Security"
+    },
+    {
+      "title": "Asynchronism",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Legacy : XML Views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ImageView"
+            },
+            {
+              "title": "Fragments"
+            },
+            {
+              "title": "RecycleView"
+            }
+          ]
+        },
+        {
+          "title": "TextView"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Crashlytics"
+        },
+        {
+          "title": "Remote Config"
+        },
+        {
+          "title": "Firebase",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Google Admob"
+            },
+            {
+              "title": "Google Play Services"
+            },
+            {
+              "title": "Google Maps"
+            }
+          ]
+        },
+        {
+          "title": "Coroutines"
+        },
+        {
+          "title": "Threads"
+        },
+        {
+          "title": "RxJava"
+        },
+        {
+          "title": "RxKotlin"
+        }
+      ]
+    },
+    {
+      "title": "Network",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Repository Pattern"
+        },
+        {
+          "title": "Builder Pattern"
+        },
+        {
+          "title": "Factory Pattern"
+        },
+        {
+          "title": "Retro"
+        },
+        {
+          "title": "Observer Pattern"
+        },
+        {
+          "title": "OkHttp"
+        },
+        {
+          "title": "Flow"
+        },
+        {
+          "title": "Apollo-Android"
+        },
+        {
+          "title": "RxKotlin"
+        },
+        {
+          "title": "RxJava"
+        }
+      ]
+    },
+    {
+      "title": "Common Services",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cloud Messaging"
+        },
+        {
+          "title": "FireStore"
+        },
+        {
+          "title": "Espresso"
+        },
+        {
+          "title": "JUnit"
+        }
+      ]
+    },
+    {
+      "title": "Linting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "WorkManager"
+        },
+        {
+          "title": "Ktlint"
+        },
+        {
+          "title": "Detekt"
+        }
+      ]
+    },
+    {
+      "title": "Testing"
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Timber"
+        },
+        {
+          "title": "LiveData"
+        },
+        {
+          "title": "Leak Canary"
+        },
+        {
+          "title": "Dependency Injection"
+        },
+        {
+          "title": "Chucker"
+        },
+        {
+          "title": "Dagger"
+        },
+        {
+          "title": "Jetpack Benchmark"
+        },
+        {
+          "title": "Hilt"
+        },
+        {
+          "title": "Koin"
+        }
+      ]
+    },
+    {
+      "title": "Distribution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Firebase Distribution"
+        },
+        {
+          "title": "Signed APK"
+        },
+        {
+          "title": "Google Playstore"
+        }
+      ]
+    }
+  ]
+}

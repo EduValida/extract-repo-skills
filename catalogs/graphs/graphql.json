@@ -3,10 +3,10 @@
     "slug": "graphql",
     "title": "GraphQL",
     "description": "Step by step guide to learn GraphQL in 2026",
-    "extracted_at": "2026-10-29T01:04:10.916474+00:00",
+    "extracted_at": "2026-11-05T02:15:05.070030+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/graphql",
     "total_topics": 9,
-    "total_subtopics": 57
+    "total_subtopics": 66
   },
   "tree": {
     "title": "GraphQL",
@@ -49,7 +49,9 @@
                 "url": "https://www.howtographql.com/basics/0-introduction/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/what-is-graphql@cMfsRtvzvDZZJ0TqeUOxm.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/what-is-graphql@cMfsRtvzvDZZJ0TqeUOxm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "2rlmLn_yQQV-7DpX1qT98",
@@ -57,7 +59,9 @@
             "type": "subtopic",
             "description": "GraphQL solves major API problems including over-fetching (getting unnecessary data), under-fetching (multiple requests needed), inefficient versioning, and lack of flexibility. It enables precise data requests, single queries for multiple resources, seamless versioning through schema evolution, and microservice communication through federation.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/problems-graphql-solves@2rlmLn_yQQV-7DpX1qT98.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/problems-graphql-solves@2rlmLn_yQQV-7DpX1qT98.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "J5mU0v491qrm-mr1W3Msd",
@@ -71,7 +75,9 @@
                 "url": "https://graphql.org/learn/thinking-in-graphs/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/thinking-in-graphs@J5mU0v491qrm-mr1W3Msd.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/thinking-in-graphs@J5mU0v491qrm-mr1W3Msd.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6r9XbwlBtHmJrhviG2cTD",
@@ -85,7 +91,9 @@
                 "url": "https://www.howtographql.com/react-apollo/0-introduction/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-on-frontend@6r9XbwlBtHmJrhviG2cTD.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-on-frontend@6r9XbwlBtHmJrhviG2cTD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ODQ8zrHc2rsc8PN-APKvz",
@@ -99,7 +107,9 @@
                 "url": "https://www.howtographql.com/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-on-backend@ODQ8zrHc2rsc8PN-APKvz.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-on-backend@ODQ8zrHc2rsc8PN-APKvz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -130,7 +140,9 @@
                 "url": "https://graphql.org/learn/queries/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/what-are-queries@2SU4dcaz7zwGsF7g8FjmI.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/what-are-queries@2SU4dcaz7zwGsF7g8FjmI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Pc9H7AcoqJQkWnuhbytyD",
@@ -144,7 +156,9 @@
                 "url": "https://graphql.org/learn/queries/#fields"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/fields@Pc9H7AcoqJQkWnuhbytyD.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/fields@Pc9H7AcoqJQkWnuhbytyD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YZaFEK547FYricfOuANvH",
@@ -163,7 +177,9 @@
                 "url": "https://dgraph.io/docs/graphql/api/variables/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/variables@YZaFEK547FYricfOuANvH.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/variables@YZaFEK547FYricfOuANvH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "B77yLU4SuRChSjEbmYwc-",
@@ -177,7 +193,9 @@
                 "url": "https://graphql.org/learn/queries/#aliases"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/aliases@B77yLU4SuRChSjEbmYwc-.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/aliases@B77yLU4SuRChSjEbmYwc-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "hrpb108R8Gyu3hhzkMYzL",
@@ -191,7 +209,9 @@
                 "url": "https://graphql.org/learn/queries/#arguments"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/arguments@hrpb108R8Gyu3hhzkMYzL.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/arguments@hrpb108R8Gyu3hhzkMYzL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MnmwccPahqPCzOhqjfbsY",
@@ -205,7 +225,9 @@
                 "url": "https://graphql.org/learn/queries/#directives"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/directives@MnmwccPahqPCzOhqjfbsY.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/directives@MnmwccPahqPCzOhqjfbsY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CehwjrCG_wbUU-TFNCuJn",
@@ -219,7 +241,9 @@
                 "url": "https://graphql.org/learn/queries/#fragments"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/fragments@CehwjrCG_wbUU-TFNCuJn.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/fragments@CehwjrCG_wbUU-TFNCuJn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -236,7 +260,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/graphql/content/mutations@jy_91mhFWbpR6sYVbuX1x.md",
-        "subtopics_count": 4,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "9Q2pGidY-rfkltHq3vChp",
@@ -250,7 +274,9 @@
                 "url": "https://graphql.org/learn/mutations/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/what-are-mutations@9Q2pGidY-rfkltHq3vChp.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/what-are-mutations@9Q2pGidY-rfkltHq3vChp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "AySlY8AyI6jE-cy-qKKOU",
@@ -264,7 +290,9 @@
                 "url": "https://graphql.org/learn/mutations/#multiple-fields-in-mutations"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/multiple-fields-in-mutation@AySlY8AyI6jE-cy-qKKOU.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/multiple-fields-in-mutation@AySlY8AyI6jE-cy-qKKOU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "q9TYEygvUyHourdZIvk8G",
@@ -278,21 +306,9 @@
                 "url": "https://graphql.org/learn/queries/#operation-name"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/operation-name@q9TYEygvUyHourdZIvk8G.md"
-          },
-          {
-            "id": "jpu0_FAlxtD-H80mPcod5",
-            "name": "Type System",
-            "type": "subtopic",
-            "description": "GraphQL is strongly typed with a type system that defines data types available in applications. It includes Scalar, Object, Query, Mutation, and Enum types. The type system defines the schema, acting as a contract between client and server for predictable API interactions.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get started with Type system",
-                "url": "https://graphql.org/learn/schema/#type-system"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/type-system@jpu0_FAlxtD-H80mPcod5.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/operation-name@q9TYEygvUyHourdZIvk8G.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -309,8 +325,24 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/graphql/content/subscriptions@IbEqXlGjsyNLKE9dZrPPk.md",
-        "subtopics_count": 5,
+        "subtopics_count": 6,
         "subtopics": [
+          {
+            "id": "jpu0_FAlxtD-H80mPcod5",
+            "name": "Type System",
+            "type": "subtopic",
+            "description": "GraphQL is strongly typed with a type system that defines data types available in applications. It includes Scalar, Object, Query, Mutation, and Enum types. The type system defines the schema, acting as a contract between client and server for predictable API interactions.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get started with Type system",
+                "url": "https://graphql.org/learn/schema/#type-system"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/graphql/content/type-system@jpu0_FAlxtD-H80mPcod5.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "RlBc-hWEUOPaEQLTgJa-K",
             "name": "What are Subscriptions",
@@ -323,7 +355,9 @@
                 "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/what-are-subscriptions@RlBc-hWEUOPaEQLTgJa-K.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/what-are-subscriptions@RlBc-hWEUOPaEQLTgJa-K.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "HPdntdgTar1T34CZX8Y6y",
@@ -337,7 +371,9 @@
                 "url": "https://graphql.org/learn/queries/#fields"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/fields@HPdntdgTar1T34CZX8Y6y.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/fields@HPdntdgTar1T34CZX8Y6y.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kJMyRhasBKfBypent3GxK",
@@ -356,7 +392,9 @@
                 "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/event-based-subscriptions@kJMyRhasBKfBypent3GxK.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/event-based-subscriptions@kJMyRhasBKfBypent3GxK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CHdzww8_TNfeM6Bp1oTPI",
@@ -370,7 +408,9 @@
                 "url": "https://the-guild.dev/blog/collecting-graphql-live-query-resource-identifier-with-graphql-tools"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/live-queries@CHdzww8_TNfeM6Bp1oTPI.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/live-queries@CHdzww8_TNfeM6Bp1oTPI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "t6XxFB_lx27kS4FE2_GMH",
@@ -384,7 +424,9 @@
                 "url": "https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/defer--stream-directives@t6XxFB_lx27kS4FE2_GMH.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/defer--stream-directives@t6XxFB_lx27kS4FE2_GMH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -415,7 +457,9 @@
                 "url": "https://graphql.org/learn/schema/#scalar-types"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/scalars@U-tLelmNQtR-pUq-sxU_2.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/scalars@U-tLelmNQtR-pUq-sxU_2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wfOsfb0zSAIdNkwFHfBcw",
@@ -429,7 +473,9 @@
                 "url": "https://graphql.org/learn/schema/#enumeration-types"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/enums@wfOsfb0zSAIdNkwFHfBcw.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/enums@wfOsfb0zSAIdNkwFHfBcw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LX9vZpx7yKlf0iR6AtBWz",
@@ -448,7 +494,9 @@
                 "url": "https://graphql.org/graphql-js/object-types/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/objects@LX9vZpx7yKlf0iR6AtBWz.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/objects@LX9vZpx7yKlf0iR6AtBWz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -465,7 +513,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/graphql/content/validation@iYkHCKTsjtvo40f3eZoet.md",
-        "subtopics_count": 12,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "AlJlHZD3_SPoLNaqdM-pB",
@@ -479,21 +527,9 @@
                 "url": "https://graphql.org/learn/execution/#root-fields-resolvers"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/root-fields@AlJlHZD3_SPoLNaqdM-pB.md"
-          },
-          {
-            "id": "tc_rjJZrr2x3bp8mcoQ0F",
-            "name": "Interfaces",
-            "type": "subtopic",
-            "description": "Interfaces in GraphQL define a set of fields that implementing types must include. They enable polymorphism by allowing common field querying across different types that implement the same interface, promoting code reuse and consistent API design.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get started with Interfaces",
-                "url": "https://graphql.org/learn/schema/#interfaces"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/interfaces@tc_rjJZrr2x3bp8mcoQ0F.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/root-fields@AlJlHZD3_SPoLNaqdM-pB.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "d2ikbo4sZq7PmaCi5znkd",
@@ -507,7 +543,25 @@
                 "url": "https://graphql.org/learn/schema/#lists-and-non-null"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/lists@d2ikbo4sZq7PmaCi5znkd.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/lists@d2ikbo4sZq7PmaCi5znkd.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "tc_rjJZrr2x3bp8mcoQ0F",
+            "name": "Interfaces",
+            "type": "subtopic",
+            "description": "Interfaces in GraphQL define a set of fields that implementing types must include. They enable polymorphism by allowing common field querying across different types that implement the same interface, promoting code reuse and consistent API design.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get started with Interfaces",
+                "url": "https://graphql.org/learn/schema/#interfaces"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/graphql/content/interfaces@tc_rjJZrr2x3bp8mcoQ0F.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VDur5xYBC0LJtQgDrSEyj",
@@ -521,7 +575,9 @@
                 "url": "https://the-guild.dev/blog/better-type-safety-for-resolvers-with-graphql-codegen"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/resolvers@VDur5xYBC0LJtQgDrSEyj.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/resolvers@VDur5xYBC0LJtQgDrSEyj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "59COH3rerJJzKr6vrj4bF",
@@ -535,7 +591,9 @@
                 "url": "https://graphql.org/learn/schema/#union-types"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/unions@59COH3rerJJzKr6vrj4bF.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/unions@59COH3rerJJzKr6vrj4bF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "A54vi3Ao7fBHyTuqoH_it",
@@ -549,96 +607,9 @@
                 "url": "https://graphql.org/learn/schema/#arguments"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/arguments@A54vi3Ao7fBHyTuqoH_it.md"
-          },
-          {
-            "id": "uPpsj2kCdgKsJpmTaw86u",
-            "name": "Synchronous",
-            "type": "subtopic",
-            "description": "Synchronous resolvers in GraphQL execute immediately and return their results directly without waiting for external operations. They complete their execution before returning any value, making them simpler but potentially blocking if they perform complex computations.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "GraphQL Execution",
-                "url": "https://graphql.org/learn/execution/"
-              },
-              {
-                "type": "article",
-                "title": "Understanding Resolvers",
-                "url": "https://www.apollographql.com/docs/apollo-server/data/resolvers/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/synchronous@uPpsj2kCdgKsJpmTaw86u.md"
-          },
-          {
-            "id": "tbDvQBtLRAcD-xYX9V7Va",
-            "name": "Asynchronous",
-            "type": "subtopic",
-            "description": "Asynchronous resolvers in GraphQL are functions that return promises instead of immediate values. They allow resolvers to wait for external operations like database queries or API calls to complete before returning results, enabling non-blocking execution.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get Started with Asynchronous",
-                "url": "https://graphql.org/learn/execution/#asynchronous-resolvers"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/asynchronous@tbDvQBtLRAcD-xYX9V7Va.md"
-          },
-          {
-            "id": "QFUOmJlPkkjpcl1vJxg9h",
-            "name": "Scalar Coercion",
-            "type": "subtopic",
-            "description": "Scalar coercion in GraphQL converts input values from one type to another when they don't match the expected type but can be successfully converted. This process is implemented using custom scalar types with coerce functions that handle the type conversion.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get started with Scalar coercion",
-                "url": "https://graphql.org/learn/execution/#scalar-coercion"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/scalar-coercion@QFUOmJlPkkjpcl1vJxg9h.md"
-          },
-          {
-            "id": "sJ1_c3e08aehiqNMbIEEP",
-            "name": "Lists",
-            "type": "subtopic",
-            "description": "Lists in GraphQL represent ordered collections of items and can be used as return types for fields. They can contain any type of items including scalars and objects, with resolver functions typically returning data as arrays from databases or APIs.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get started with Lists and Non-Null",
-                "url": "https://graphql.org/learn/schema/#lists-and-non-null"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/lists@sJ1_c3e08aehiqNMbIEEP.md"
-          },
-          {
-            "id": "I4wNBXV4xEZ0LWBhv5FwF",
-            "name": "Validation",
-            "type": "subtopic",
-            "description": "Validation in GraphQL ensures queries and mutations adhere to schema rules by verifying field access, type correctness, and input constraints. GraphQL servers validate all incoming operations before execution, returning errors for invalid queries with specific details about violations.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get Started with Validation in GraphQL",
-                "url": "https://graphql.org/learn/validation/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/validation@I4wNBXV4xEZ0LWBhv5FwF.md"
-          },
-          {
-            "id": "zQHifboRreE4OgJ7GnUlp",
-            "name": "Producing the Result",
-            "type": "subtopic",
-            "description": "Producing the result in GraphQL involves generating the final response to queries and mutations. This process includes parsing the request, validating against the schema, executing resolvers to fetch data, and formatting the response according to the query requirements.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get Started with GraphQL",
-                "url": "https://graphql.org/learn/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/producing-the-result@zQHifboRreE4OgJ7GnUlp.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/arguments@A54vi3Ao7fBHyTuqoH_it.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -663,59 +634,131 @@
         "subtopics_count": 4,
         "subtopics": [
           {
-            "id": "V3bgswBFr1xames3F8S_V",
-            "name": "GraphQL Over HTTP Spec",
+            "id": "uPpsj2kCdgKsJpmTaw86u",
+            "name": "Synchronous",
             "type": "subtopic",
-            "description": "The GraphQL over HTTP specification defines standard practices for serving GraphQL over HTTP, including request/response formats, status codes, and content types. It ensures interoperability between different GraphQL implementations and provides guidance for consistent API behavior across platforms.",
-            "resources": [],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-over-http-spec@V3bgswBFr1xames3F8S_V.md"
-          },
-          {
-            "id": "UYwuUVTeurwODV4_Kdt_W",
-            "name": "Caching",
-            "type": "subtopic",
-            "description": "Caching in GraphQL improves performance by storing query results for reuse. Strategies include HTTP caching, response caching, dataloader for batching requests, and normalized caching at the client level to reduce redundant API calls and improve user experience. There are several types of caching that can be used in GraphQL: *   Client-side caching *   Server-side caching *   CDN caching",
+            "description": "Synchronous resolvers in GraphQL execute immediately and return their results directly without waiting for external operations. They complete their execution before returning any value, making them simpler but potentially blocking if they perform complex computations.",
             "resources": [
               {
                 "type": "official",
-                "title": "Get started with Caching",
-                "url": "https://graphql.org/learn/caching/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/caching@UYwuUVTeurwODV4_Kdt_W.md"
-          },
-          {
-            "id": "v9gVexHfDkpG9z3NL5S-9",
-            "name": "Batching",
-            "type": "subtopic",
-            "description": "Batching in GraphQL combines multiple queries into a single request to reduce network overhead and improve performance. DataLoader is a common pattern that batches and caches database requests, preventing N+1 query problems and optimizing data fetching efficiency.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "DataLoader",
-                "url": "https://github.com/graphql/dataloader"
+                "title": "GraphQL Execution",
+                "url": "https://graphql.org/learn/execution/"
               },
               {
                 "type": "article",
-                "title": "Solving the N+1 Problem",
-                "url": "https://shopify.engineering/solving-the-n-1-problem-for-graphql-through-batching"
+                "title": "Understanding Resolvers",
+                "url": "https://www.apollographql.com/docs/apollo-server/data/resolvers/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/batching@v9gVexHfDkpG9z3NL5S-9.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/synchronous@uPpsj2kCdgKsJpmTaw86u.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "i-zcfN6RNXhA_sb7DcIon",
-            "name": "Authorization",
+            "id": "tbDvQBtLRAcD-xYX9V7Va",
+            "name": "Asynchronous",
             "type": "subtopic",
-            "description": "Authorization in GraphQL over HTTP determines whether a client has the necessary permissions to access specific data or perform requested operations. This process typically occurs at the resolver level, where the server evaluates the user's identity and roles against the requested fields before returning any information. By implementing authorization checks directly within the business logic or through middleware, developers ensure that sensitive data remains protected regardless of the transport layer used for the request.",
+            "description": "Asynchronous resolvers in GraphQL are functions that return promises instead of immediate values. They allow resolvers to wait for external operations like database queries or API calls to complete before returning results, enabling non-blocking execution.",
             "resources": [
               {
                 "type": "official",
-                "title": "Get Started with Authorization",
-                "url": "https://graphql.org/learn/authorization/"
+                "title": "Get Started with Asynchronous",
+                "url": "https://graphql.org/learn/execution/#asynchronous-resolvers"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/authorization@i-zcfN6RNXhA_sb7DcIon.md"
+            "file_path": "developer-roadmap/roadmaps/graphql/content/asynchronous@tbDvQBtLRAcD-xYX9V7Va.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Ya0ORdmEHEPpp1GAzMLVT",
+            "name": "GraphQL Over HTTP",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
+              {
+                "id": "V3bgswBFr1xames3F8S_V",
+                "name": "GraphQL Over HTTP Spec",
+                "type": "subtopic",
+                "description": "The GraphQL over HTTP specification defines standard practices for serving GraphQL over HTTP, including request/response formats, status codes, and content types. It ensures interoperability between different GraphQL implementations and provides guidance for consistent API behavior across platforms.",
+                "resources": [],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-over-http-spec@V3bgswBFr1xames3F8S_V.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "UYwuUVTeurwODV4_Kdt_W",
+                "name": "Caching",
+                "type": "subtopic",
+                "description": "Caching in GraphQL improves performance by storing query results for reuse. Strategies include HTTP caching, response caching, dataloader for batching requests, and normalized caching at the client level to reduce redundant API calls and improve user experience. There are several types of caching that can be used in GraphQL: *   Client-side caching *   Server-side caching *   CDN caching",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Get started with Caching",
+                    "url": "https://graphql.org/learn/caching/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/caching@UYwuUVTeurwODV4_Kdt_W.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "v9gVexHfDkpG9z3NL5S-9",
+                "name": "Batching",
+                "type": "subtopic",
+                "description": "Batching in GraphQL combines multiple queries into a single request to reduce network overhead and improve performance. DataLoader is a common pattern that batches and caches database requests, preventing N+1 query problems and optimizing data fetching efficiency.",
+                "resources": [
+                  {
+                    "type": "opensource",
+                    "title": "DataLoader",
+                    "url": "https://github.com/graphql/dataloader"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Solving the N+1 Problem",
+                    "url": "https://shopify.engineering/solving-the-n-1-problem-for-graphql-through-batching"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/batching@v9gVexHfDkpG9z3NL5S-9.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "i-zcfN6RNXhA_sb7DcIon",
+                "name": "Authorization",
+                "type": "subtopic",
+                "description": "Authorization in GraphQL over HTTP determines whether a client has the necessary permissions to access specific data or perform requested operations. This process typically occurs at the resolver level, where the server evaluates the user's identity and roles against the requested fields before returning any information. By implementing authorization checks directly within the business logic or through middleware, developers ensure that sensitive data remains protected regardless of the transport layer used for the request.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Get Started with Authorization",
+                    "url": "https://graphql.org/learn/authorization/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/authorization@i-zcfN6RNXhA_sb7DcIon.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "QFUOmJlPkkjpcl1vJxg9h",
+            "name": "Scalar Coercion",
+            "type": "subtopic",
+            "description": "Scalar coercion in GraphQL converts input values from one type to another when they don't match the expected type but can be successfully converted. This process is implemented using custom scalar types with coerce functions that handle the type conversion.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get started with Scalar coercion",
+                "url": "https://graphql.org/learn/execution/#scalar-coercion"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/graphql/content/scalar-coercion@QFUOmJlPkkjpcl1vJxg9h.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -732,8 +775,41 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/graphql/content/serving-over-internet@inhjhH-7xJyX8o4DQqErF.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "sJ1_c3e08aehiqNMbIEEP",
+            "name": "Lists",
+            "type": "subtopic",
+            "description": "Lists in GraphQL represent ordered collections of items and can be used as return types for fields. They can contain any type of items including scalars and objects, with resolver functions typically returning data as arrays from databases or APIs.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get started with Lists and Non-Null",
+                "url": "https://graphql.org/learn/schema/#lists-and-non-null"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/graphql/content/lists@sJ1_c3e08aehiqNMbIEEP.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "I4wNBXV4xEZ0LWBhv5FwF",
+            "name": "Validation",
+            "type": "subtopic",
+            "description": "Validation in GraphQL ensures queries and mutations adhere to schema rules by verifying field access, type correctness, and input constraints. GraphQL servers validate all incoming operations before execution, returning errors for invalid queries with specific details about violations.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Get Started with Validation in GraphQL",
+                "url": "https://graphql.org/learn/validation/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/graphql/content/validation@I4wNBXV4xEZ0LWBhv5FwF.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "Uf8XxJPs7RzKVhlxiQdbB",
@@ -748,290 +824,428 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/graphql/content/pagination@Uf8XxJPs7RzKVhlxiQdbB.md",
-        "subtopics_count": 17,
+        "subtopics_count": 9,
         "subtopics": [
           {
-            "id": "A-PQ3_FVuCK3Eud75hsdj",
-            "name": "Specification",
+            "id": "zQHifboRreE4OgJ7GnUlp",
+            "name": "Producing the Result",
             "type": "subtopic",
-            "description": "The GraphQL specification is the official standard that defines the GraphQL query language, type system, execution algorithm, and validation rules. It ensures consistency across different GraphQL implementations and serves as the authoritative reference for developers building GraphQL services and tools.",
+            "description": "Producing the result in GraphQL involves generating the final response to queries and mutations. This process includes parsing the request, validating against the schema, executing resolvers to fetch data, and formatting the response according to the query requirements.",
             "resources": [
               {
                 "type": "official",
-                "title": "GraphQL Specification",
-                "url": "https://spec.graphql.org/"
+                "title": "Get Started with GraphQL",
+                "url": "https://graphql.org/learn/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/graphql/content/producing-the-result@zQHifboRreE4OgJ7GnUlp.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "st02HY5-DEab1pYXkBc3S",
+            "name": "GraphQL Over WebSockets",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
+              {
+                "id": "A-PQ3_FVuCK3Eud75hsdj",
+                "name": "Specification",
+                "type": "subtopic",
+                "description": "The GraphQL specification is the official standard that defines the GraphQL query language, type system, execution algorithm, and validation rules. It ensures consistency across different GraphQL implementations and serves as the authoritative reference for developers building GraphQL services and tools.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "GraphQL Specification",
+                    "url": "https://spec.graphql.org/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "GraphQL Foundation",
+                    "url": "https://foundation.graphql.org/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/specification@A-PQ3_FVuCK3Eud75hsdj.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "GraphQL Foundation",
-                "url": "https://foundation.graphql.org/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/specification@A-PQ3_FVuCK3Eud75hsdj.md"
-          },
-          {
-            "id": "2YLm_S1j_832pb1OGSNaM",
-            "name": "Realtime",
-            "type": "subtopic",
-            "description": "Realtime GraphQL enables live data updates through subscriptions, allowing clients to receive instant notifications when data changes. Implemented using WebSockets, Server-Sent Events, or polling, it's essential for chat applications, live feeds, and collaborative tools requiring immediate data synchronization.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Get Started with Real Time with GraphQL",
-                "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/realtime@2YLm_S1j_832pb1OGSNaM.md"
-          },
-          {
-            "id": "GzwPvLybxTJM96fUhQUOi",
-            "name": "Authorization",
-            "type": "subtopic",
-            "description": "Authorization in GraphQL over WebSockets involves validating that a client has the necessary permissions to maintain a persistent connection and receive specific real-time updates. Since standard HTTP headers are typically only sent during the initial handshake, authorization is often handled during the connection initialization phase by passing authentication tokens through connection parameters. Once the connection is established, the server verifies these credentials against the requested operations to ensure that data access remains secure throughout the lifecycle of the subscription.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get Started with Authorization",
-                "url": "https://graphql.org/learn/authorization/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/authorization@GzwPvLybxTJM96fUhQUOi.md"
-          },
-          {
-            "id": "9nVo95gRNGHGIbaJQPH1x",
-            "name": "GraphQL Go",
-            "type": "subtopic",
-            "description": "GraphQL Go refers to implementing GraphQL servers and clients using the Go programming language. Popular libraries include graphql-go/graphql for schema-first development and 99designs/gqlgen for code-first generation. Go's strong typing and performance make it excellent for building scalable GraphQL APIs.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "graphql-go/graphql",
-                "url": "https://github.com/graphql-go/graphql"
+                "id": "2YLm_S1j_832pb1OGSNaM",
+                "name": "Realtime",
+                "type": "subtopic",
+                "description": "Realtime GraphQL enables live data updates through subscriptions, allowing clients to receive instant notifications when data changes. Implemented using WebSockets, Server-Sent Events, or polling, it's essential for chat applications, live feeds, and collaborative tools requiring immediate data synchronization.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Get Started with Real Time with GraphQL",
+                    "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/realtime@2YLm_S1j_832pb1OGSNaM.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "opensource",
-                "title": "99designs/gqlgen",
-                "url": "https://github.com/99designs/gqlgen"
+                "id": "GzwPvLybxTJM96fUhQUOi",
+                "name": "Authorization",
+                "type": "subtopic",
+                "description": "Authorization in GraphQL over WebSockets involves validating that a client has the necessary permissions to maintain a persistent connection and receive specific real-time updates. Since standard HTTP headers are typically only sent during the initial handshake, authorization is often handled during the connection initialization phase by passing authentication tokens through connection parameters. Once the connection is established, the server verifies these credentials against the requested operations to ensure that data access remains secure throughout the lifecycle of the subscription.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Get Started with Authorization",
+                    "url": "https://graphql.org/learn/authorization/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/authorization@GzwPvLybxTJM96fUhQUOi.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-go@9nVo95gRNGHGIbaJQPH1x.md"
+            ]
           },
           {
-            "id": "O8k-m6s9B_uXkLsXKVFnL",
-            "name": "Specification",
-            "type": "subtopic",
-            "description": "The GraphQL specification defines the core language, type system, execution model, and validation rules for GraphQL. Maintained by the GraphQL Foundation, it provides the technical foundation that all GraphQL implementations must follow to ensure interoperability and consistency across platforms.",
-            "resources": [
+            "id": "1q77xUifPS5sLx5tktXxF",
+            "name": "Go Implementation",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 1,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "GraphQL Specification",
-                "url": "https://spec.graphql.org/"
+                "id": "9nVo95gRNGHGIbaJQPH1x",
+                "name": "GraphQL Go",
+                "type": "subtopic",
+                "description": "GraphQL Go refers to implementing GraphQL servers and clients using the Go programming language. Popular libraries include graphql-go/graphql for schema-first development and 99designs/gqlgen for code-first generation. Go's strong typing and performance make it excellent for building scalable GraphQL APIs.",
+                "resources": [
+                  {
+                    "type": "opensource",
+                    "title": "graphql-go/graphql",
+                    "url": "https://github.com/graphql-go/graphql"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "99designs/gqlgen",
+                    "url": "https://github.com/99designs/gqlgen"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-go@9nVo95gRNGHGIbaJQPH1x.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "F4nR2VZ4k1uekWXINoMKH",
+            "name": "GraphQL Over SSE",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 2,
+            "subtopics": [
+              {
+                "id": "O8k-m6s9B_uXkLsXKVFnL",
+                "name": "Specification",
+                "type": "subtopic",
+                "description": "The GraphQL specification defines the core language, type system, execution model, and validation rules for GraphQL. Maintained by the GraphQL Foundation, it provides the technical foundation that all GraphQL implementations must follow to ensure interoperability and consistency across platforms.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "GraphQL Specification",
+                    "url": "https://spec.graphql.org/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "GraphQL Foundation",
+                    "url": "https://foundation.graphql.org/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/specification@O8k-m6s9B_uXkLsXKVFnL.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "GraphQL Foundation",
-                "url": "https://foundation.graphql.org/"
+                "id": "G50ZMlmP7Ru5LcFne5Rhu",
+                "name": "Authorization",
+                "type": "subtopic",
+                "description": "Authorization for GraphQL over Server-Sent Events (SSE) involves verifying a client's identity and permissions before establishing a persistent stream of data. Since standard HTTP headers are only sent during the initial handshake of an SSE connection, authentication tokens are typically passed via query parameters or specialized sub-protocols when the request is first initiated. Once the connection is established, the server enforces access control rules to ensure that the events pushed to the client match the data the user is authorized to receive.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Get Started with Authorization",
+                    "url": "https://graphql.org/learn/authorization/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/authorization@G50ZMlmP7Ru5LcFne5Rhu.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/specification@O8k-m6s9B_uXkLsXKVFnL.md"
+            ]
           },
           {
-            "id": "jCzrMElTo-c9xGcpPOOPl",
-            "name": "GraphQL.js",
-            "type": "subtopic",
-            "description": "GraphQL.js is the reference implementation of GraphQL for JavaScript and Node.js. It provides the core functionality for parsing, validating, and executing GraphQL queries, serving as the foundation for many other GraphQL tools and libraries in the JavaScript ecosystem.",
-            "resources": [
+            "id": "qmlQ3184CZ9HgvRHVcPT6",
+            "name": "JavaScript Implementation",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 1,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "GraphQL.js Repository",
-                "url": "https://github.com/graphql/graphql-js"
+                "id": "jCzrMElTo-c9xGcpPOOPl",
+                "name": "GraphQL.js",
+                "type": "subtopic",
+                "description": "GraphQL.js is the reference implementation of GraphQL for JavaScript and Node.js. It provides the core functionality for parsing, validating, and executing GraphQL queries, serving as the foundation for many other GraphQL tools and libraries in the JavaScript ecosystem.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "GraphQL.js Repository",
+                    "url": "https://github.com/graphql/graphql-js"
+                  },
+                  {
+                    "type": "official",
+                    "title": "GraphQL.js Documentation",
+                    "url": "https://graphql.org/graphql-js/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphqljs@jCzrMElTo-c9xGcpPOOPl.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "-STVQpKbY5I9eTExdJ6mc",
+            "name": "Java Implementation",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 1,
+            "subtopics": [
+              {
+                "id": "7szipojhVb2VoL3VcS619",
+                "name": "GraphQL Java",
+                "type": "subtopic",
+                "description": "GraphQL Java is a popular library for implementing GraphQL APIs in Java applications. It provides schema-first development capabilities, runtime query execution, and integrates well with Spring Boot and other Java frameworks, making it a solid choice for enterprise GraphQL implementations.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "GraphQL Java Repository",
+                    "url": "https://github.com/graphql-java/graphql-java"
+                  },
+                  {
+                    "type": "article",
+                    "title": "GraphQL Java Documentation",
+                    "url": "https://www.graphql-java.com/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-java@7szipojhVb2VoL3VcS619.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "kS01-perdFxHsTKTwvuC4",
+            "name": "Python Implementation",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 1,
+            "subtopics": [
+              {
+                "id": "r3Yf5pxzgSGAckOPr3eSt",
+                "name": "Graphene",
+                "type": "subtopic",
+                "description": "Graphene is a Python library that facilitates building GraphQL APIs. It allows developers to define GraphQL schemas using Python classes, mapping these classes to data sources and resolvers. Graphene simplifies the process of creating GraphQL endpoints in Python web applications, providing tools for defining types, fields, and queries.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Graphene",
+                    "url": "https://graphene-python.org/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Graphene",
+                    "url": "https://github.com/graphql-python/graphene?tab=readme-ov-file"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphene@r3Yf5pxzgSGAckOPr3eSt.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
+          {
+            "id": "_8RiK9B8endMNBjiKsazU",
+            "name": "JavaScript",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
+              {
+                "id": "N-vsu-wvOikuoTbzdgX3X",
+                "name": "graphql-http",
+                "type": "subtopic",
+                "description": "GraphQL over HTTP is a specification that defines how GraphQL queries and mutations should be transported over HTTP. It standardizes request/response formats, HTTP methods, status codes, and headers, ensuring consistent GraphQL API communication across different implementations.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "GraphQL over HTTP Specification",
+                    "url": "https://graphql.github.io/graphql-over-http/"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "graphql-http Library",
+                    "url": "https://github.com/graphql/graphql-http"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-http@N-vsu-wvOikuoTbzdgX3X.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "GraphQL.js Documentation",
-                "url": "https://graphql.org/graphql-js/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphqljs@jCzrMElTo-c9xGcpPOOPl.md"
-          },
-          {
-            "id": "G50ZMlmP7Ru5LcFne5Rhu",
-            "name": "Authorization",
-            "type": "subtopic",
-            "description": "Authorization for GraphQL over Server-Sent Events (SSE) involves verifying a client's identity and permissions before establishing a persistent stream of data. Since standard HTTP headers are only sent during the initial handshake of an SSE connection, authentication tokens are typically passed via query parameters or specialized sub-protocols when the request is first initiated. Once the connection is established, the server enforces access control rules to ensure that the events pushed to the client match the data the user is authorized to receive.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Get Started with Authorization",
-                "url": "https://graphql.org/learn/authorization/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/authorization@G50ZMlmP7Ru5LcFne5Rhu.md"
-          },
-          {
-            "id": "7szipojhVb2VoL3VcS619",
-            "name": "GraphQL Java",
-            "type": "subtopic",
-            "description": "GraphQL Java is a popular library for implementing GraphQL APIs in Java applications. It provides schema-first development capabilities, runtime query execution, and integrates well with Spring Boot and other Java frameworks, making it a solid choice for enterprise GraphQL implementations.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "GraphQL Java Repository",
-                "url": "https://github.com/graphql-java/graphql-java"
+                "id": "Gotb1xtxySCVC5MrnkPSs",
+                "name": "GraphQL Yoga",
+                "type": "subtopic",
+                "description": "GraphQL Yoga is an open-source GraphQL server library for Node.js built on Express.js. It provides minimal boilerplate setup with built-in authentication, authorization, data validation, and subscription support for real-time updates, making GraphQL server development streamlined.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "GraphQL Armor - for Yoga Server 2",
+                    "url": "https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-yoga@Gotb1xtxySCVC5MrnkPSs.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "GraphQL Java Documentation",
-                "url": "https://www.graphql-java.com/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-java@7szipojhVb2VoL3VcS619.md"
-          },
-          {
-            "id": "r3Yf5pxzgSGAckOPr3eSt",
-            "name": "Graphene",
-            "type": "subtopic",
-            "description": "Graphene is a Python library that facilitates building GraphQL APIs. It allows developers to define GraphQL schemas using Python classes, mapping these classes to data sources and resolvers. Graphene simplifies the process of creating GraphQL endpoints in Python web applications, providing tools for defining types, fields, and queries.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Graphene",
-                "url": "https://graphene-python.org/"
+                "id": "o_VkyoN6DmUUkfl0u0cro",
+                "name": "Apollo Server",
+                "type": "subtopic",
+                "description": "Apollo Server is a popular open-source library for building GraphQL servers in JavaScript. It provides tools for parsing, validating, executing resolvers, and formatting responses with built-in features for authentication, authorization, data validation, and real-time subscriptions.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Apollo Tutorial - Introduction",
+                    "url": "https://www.howtographql.com/react-apollo/0-introduction/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/apollo-server@o_VkyoN6DmUUkfl0u0cro.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Graphene",
-                "url": "https://github.com/graphql-python/graphene?tab=readme-ov-file"
+                "id": "iTV2H8clmRTOksul4v38p",
+                "name": "mercurius",
+                "type": "subtopic",
+                "description": "Mercurius is a high-performance GraphQL server library for Fastify, offering excellent performance and minimal memory usage. It provides schema-first development, built-in caching, subscriptions support, and integration with Fastify's ecosystem for building fast, scalable GraphQL APIs.",
+                "resources": [
+                  {
+                    "type": "opensource",
+                    "title": "Mercurius Repository",
+                    "url": "https://github.com/mercurius-js/mercurius"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Mercurius Documentation",
+                    "url": "https://mercurius.dev/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/mercurius@iTV2H8clmRTOksul4v38p.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphene@r3Yf5pxzgSGAckOPr3eSt.md"
+            ]
           },
           {
-            "id": "N-vsu-wvOikuoTbzdgX3X",
-            "name": "graphql-http",
-            "type": "subtopic",
-            "description": "GraphQL over HTTP is a specification that defines how GraphQL queries and mutations should be transported over HTTP. It standardizes request/response formats, HTTP methods, status codes, and headers, ensuring consistent GraphQL API communication across different implementations.",
-            "resources": [
+            "id": "3lQ4cxevkw0p8v7fHm4I7",
+            "name": "JavaScript",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "GraphQL over HTTP Specification",
-                "url": "https://graphql.github.io/graphql-over-http/"
+                "id": "datKo3vPDwXoyVskcrdkc",
+                "name": "graphql-http",
+                "type": "subtopic",
+                "description": "GraphQL HTTP is a specification for serving GraphQL over HTTP protocol. It defines standard methods for sending queries and mutations, primarily using POST requests with JSON payloads in the request body, and receiving results in the response body.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Overview of GraphQL HTTP",
+                    "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Get Started with GraphQL HTTP",
+                    "url": "https://graphql.org/learn/serving-over-http/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-http@datKo3vPDwXoyVskcrdkc.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "opensource",
-                "title": "graphql-http Library",
-                "url": "https://github.com/graphql/graphql-http"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-http@N-vsu-wvOikuoTbzdgX3X.md"
-          },
-          {
-            "id": "Gotb1xtxySCVC5MrnkPSs",
-            "name": "GraphQL Yoga",
-            "type": "subtopic",
-            "description": "GraphQL Yoga is an open-source GraphQL server library for Node.js built on Express.js. It provides minimal boilerplate setup with built-in authentication, authorization, data validation, and subscription support for real-time updates, making GraphQL server development streamlined.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "GraphQL Armor - for Yoga Server 2",
-                "url": "https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-yoga@Gotb1xtxySCVC5MrnkPSs.md"
-          },
-          {
-            "id": "o_VkyoN6DmUUkfl0u0cro",
-            "name": "Apollo Server",
-            "type": "subtopic",
-            "description": "Apollo Server is a popular open-source library for building GraphQL servers in JavaScript. It provides tools for parsing, validating, executing resolvers, and formatting responses with built-in features for authentication, authorization, data validation, and real-time subscriptions.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Apollo Tutorial - Introduction",
-                "url": "https://www.howtographql.com/react-apollo/0-introduction/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/apollo-server@o_VkyoN6DmUUkfl0u0cro.md"
-          },
-          {
-            "id": "datKo3vPDwXoyVskcrdkc",
-            "name": "graphql-http",
-            "type": "subtopic",
-            "description": "GraphQL HTTP is a specification for serving GraphQL over HTTP protocol. It defines standard methods for sending queries and mutations, primarily using POST requests with JSON payloads in the request body, and receiving results in the response body.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Overview of GraphQL HTTP",
-                "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp"
+                "id": "Ab_ngkf6bmejvcp9okuw6",
+                "name": "Relay",
+                "type": "subtopic",
+                "description": "Relay is Facebook's GraphQL client designed for React applications, emphasizing performance and data consistency. It uses a declarative approach with fragments, automatic query optimization, pagination handling, and strict conventions for building scalable, efficient GraphQL applications.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "GraphQL Code Generator & Relay Compiler",
+                    "url": "https://the-guild.dev/blog/graphql-codegen-relay-compiler"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/relay@Ab_ngkf6bmejvcp9okuw6.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Get Started with GraphQL HTTP",
-                "url": "https://graphql.org/learn/serving-over-http/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/graphql-http@datKo3vPDwXoyVskcrdkc.md"
-          },
-          {
-            "id": "iTV2H8clmRTOksul4v38p",
-            "name": "mercurius",
-            "type": "subtopic",
-            "description": "Mercurius is a high-performance GraphQL server library for Fastify, offering excellent performance and minimal memory usage. It provides schema-first development, built-in caching, subscriptions support, and integration with Fastify's ecosystem for building fast, scalable GraphQL APIs.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "Mercurius Repository",
-                "url": "https://github.com/mercurius-js/mercurius"
+                "id": "D5O7ky5eXwm_Ys1IcFNaq",
+                "name": "Apollo Client",
+                "type": "subtopic",
+                "description": "Apollo Client is a popular GraphQL client library for JavaScript that provides data fetching, caching, and state management. It offers declarative data fetching with React hooks, intelligent caching, optimistic UI updates, and error handling for building efficient GraphQL-powered applications.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Why Apollo Client - Frontend?",
+                    "url": "https://www.howtographql.com/react-apollo/0-introduction/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/apollo-client@D5O7ky5eXwm_Ys1IcFNaq.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Mercurius Documentation",
-                "url": "https://mercurius.dev/"
+                "id": "WP0Oo_YMfLBlXqDQQtKes",
+                "name": "Urql",
+                "type": "subtopic",
+                "description": "URQL is a lightweight, highly customizable GraphQL client for React, Vue, and Svelte. It provides caching, real-time subscriptions, offline support, and a modular architecture with exchanges for extending functionality, offering an alternative to Apollo Client with better performance.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "urql - Formidable Labs",
+                    "url": "https://formidable.com/open-source/urql/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/graphql/content/urql@WP0Oo_YMfLBlXqDQQtKes.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/mercurius@iTV2H8clmRTOksul4v38p.md"
-          },
-          {
-            "id": "Ab_ngkf6bmejvcp9okuw6",
-            "name": "Relay",
-            "type": "subtopic",
-            "description": "Relay is Facebook's GraphQL client designed for React applications, emphasizing performance and data consistency. It uses a declarative approach with fragments, automatic query optimization, pagination handling, and strict conventions for building scalable, efficient GraphQL applications.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "GraphQL Code Generator & Relay Compiler",
-                "url": "https://the-guild.dev/blog/graphql-codegen-relay-compiler"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/relay@Ab_ngkf6bmejvcp9okuw6.md"
-          },
-          {
-            "id": "D5O7ky5eXwm_Ys1IcFNaq",
-            "name": "Apollo Client",
-            "type": "subtopic",
-            "description": "Apollo Client is a popular GraphQL client library for JavaScript that provides data fetching, caching, and state management. It offers declarative data fetching with React hooks, intelligent caching, optimistic UI updates, and error handling for building efficient GraphQL-powered applications.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Why Apollo Client - Frontend?",
-                "url": "https://www.howtographql.com/react-apollo/0-introduction/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/apollo-client@D5O7ky5eXwm_Ys1IcFNaq.md"
-          },
-          {
-            "id": "WP0Oo_YMfLBlXqDQQtKes",
-            "name": "Urql",
-            "type": "subtopic",
-            "description": "URQL is a lightweight, highly customizable GraphQL client for React, Vue, and Svelte. It provides caching, real-time subscriptions, offline support, and a modular architecture with exchanges for extending functionality, offering an alternative to Apollo Client with better performance.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "urql - Formidable Labs",
-                "url": "https://formidable.com/open-source/urql/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/graphql/content/urql@WP0Oo_YMfLBlXqDQQtKes.md"
+            ]
           }
         ]
       }
@@ -1283,19 +1497,6 @@
         ]
       },
       {
-        "id": "jpu0_FAlxtD-H80mPcod5",
-        "name": "Type System",
-        "type": "subtopic",
-        "description": "GraphQL is strongly typed with a type system that defines data types available in applications. It includes Scalar, Object, Query, Mutation, and Enum types. The type system defines the schema, acting as a contract between client and server for predictable API interactions.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get started with Type system",
-            "url": "https://graphql.org/learn/schema/#type-system"
-          }
-        ]
-      },
-      {
         "id": "IbEqXlGjsyNLKE9dZrPPk",
         "name": "Subscriptions",
         "type": "topic",
@@ -1305,6 +1506,19 @@
             "type": "article",
             "title": "Subscriptions and Live Queries - Real Time with GraphQL",
             "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
+          }
+        ]
+      },
+      {
+        "id": "jpu0_FAlxtD-H80mPcod5",
+        "name": "Type System",
+        "type": "subtopic",
+        "description": "GraphQL is strongly typed with a type system that defines data types available in applications. It includes Scalar, Object, Query, Mutation, and Enum types. The type system defines the schema, acting as a contract between client and server for predictable API interactions.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get started with Type system",
+            "url": "https://graphql.org/learn/schema/#type-system"
           }
         ]
       },
@@ -1462,19 +1676,6 @@
         ]
       },
       {
-        "id": "tc_rjJZrr2x3bp8mcoQ0F",
-        "name": "Interfaces",
-        "type": "subtopic",
-        "description": "Interfaces in GraphQL define a set of fields that implementing types must include. They enable polymorphism by allowing common field querying across different types that implement the same interface, promoting code reuse and consistent API design.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get started with Interfaces",
-            "url": "https://graphql.org/learn/schema/#interfaces"
-          }
-        ]
-      },
-      {
         "id": "d2ikbo4sZq7PmaCi5znkd",
         "name": "Lists",
         "type": "subtopic",
@@ -1484,6 +1685,19 @@
             "type": "official",
             "title": "Get started with Lists",
             "url": "https://graphql.org/learn/schema/#lists-and-non-null"
+          }
+        ]
+      },
+      {
+        "id": "tc_rjJZrr2x3bp8mcoQ0F",
+        "name": "Interfaces",
+        "type": "subtopic",
+        "description": "Interfaces in GraphQL define a set of fields that implementing types must include. They enable polymorphism by allowing common field querying across different types that implement the same interface, promoting code reuse and consistent API design.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get started with Interfaces",
+            "url": "https://graphql.org/learn/schema/#interfaces"
           }
         ]
       },
@@ -1527,6 +1741,24 @@
         ]
       },
       {
+        "id": "72wGg6yP8WnEdmkeKL9vh",
+        "name": "Execution",
+        "type": "topic",
+        "description": "Execution in GraphQL is the process of running queries or mutations and returning results to clients. The GraphQL engine performs parsing, validation, and data retrieval steps to produce the final response, coordinating resolver functions to fetch data from various sources.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get Started with Execution in GraphQL",
+            "url": "https://graphql.org/learn/execution/"
+          },
+          {
+            "type": "official",
+            "title": "Intro to Execution",
+            "url": "https://graphql.org/graphql-js/execution/"
+          }
+        ]
+      },
+      {
         "id": "uPpsj2kCdgKsJpmTaw86u",
         "name": "Synchronous",
         "type": "subtopic",
@@ -1558,74 +1790,11 @@
         ]
       },
       {
-        "id": "QFUOmJlPkkjpcl1vJxg9h",
-        "name": "Scalar Coercion",
-        "type": "subtopic",
-        "description": "Scalar coercion in GraphQL converts input values from one type to another when they don't match the expected type but can be successfully converted. This process is implemented using custom scalar types with coerce functions that handle the type conversion.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get started with Scalar coercion",
-            "url": "https://graphql.org/learn/execution/#scalar-coercion"
-          }
-        ]
-      },
-      {
-        "id": "sJ1_c3e08aehiqNMbIEEP",
-        "name": "Lists",
-        "type": "subtopic",
-        "description": "Lists in GraphQL represent ordered collections of items and can be used as return types for fields. They can contain any type of items including scalars and objects, with resolver functions typically returning data as arrays from databases or APIs.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get started with Lists and Non-Null",
-            "url": "https://graphql.org/learn/schema/#lists-and-non-null"
-          }
-        ]
-      },
-      {
-        "id": "I4wNBXV4xEZ0LWBhv5FwF",
-        "name": "Validation",
-        "type": "subtopic",
-        "description": "Validation in GraphQL ensures queries and mutations adhere to schema rules by verifying field access, type correctness, and input constraints. GraphQL servers validate all incoming operations before execution, returning errors for invalid queries with specific details about violations.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get Started with Validation in GraphQL",
-            "url": "https://graphql.org/learn/validation/"
-          }
-        ]
-      },
-      {
-        "id": "zQHifboRreE4OgJ7GnUlp",
-        "name": "Producing the Result",
-        "type": "subtopic",
-        "description": "Producing the result in GraphQL involves generating the final response to queries and mutations. This process includes parsing the request, validating against the schema, executing resolvers to fetch data, and formatting the response according to the query requirements.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get Started with GraphQL",
-            "url": "https://graphql.org/learn/"
-          }
-        ]
-      },
-      {
-        "id": "72wGg6yP8WnEdmkeKL9vh",
-        "name": "Execution",
-        "type": "topic",
-        "description": "Execution in GraphQL is the process of running queries or mutations and returning results to clients. The GraphQL engine performs parsing, validation, and data retrieval steps to produce the final response, coordinating resolver functions to fetch data from various sources.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get Started with Execution in GraphQL",
-            "url": "https://graphql.org/learn/execution/"
-          },
-          {
-            "type": "official",
-            "title": "Intro to Execution",
-            "url": "https://graphql.org/graphql-js/execution/"
-          }
-        ]
+        "id": "Ya0ORdmEHEPpp1GAzMLVT",
+        "name": "GraphQL Over HTTP",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "V3bgswBFr1xames3F8S_V",
@@ -1679,6 +1848,19 @@
         ]
       },
       {
+        "id": "QFUOmJlPkkjpcl1vJxg9h",
+        "name": "Scalar Coercion",
+        "type": "subtopic",
+        "description": "Scalar coercion in GraphQL converts input values from one type to another when they don't match the expected type but can be successfully converted. This process is implemented using custom scalar types with coerce functions that handle the type conversion.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get started with Scalar coercion",
+            "url": "https://graphql.org/learn/execution/#scalar-coercion"
+          }
+        ]
+      },
+      {
         "id": "inhjhH-7xJyX8o4DQqErF",
         "name": "Serving over Internet",
         "type": "topic",
@@ -1688,6 +1870,32 @@
             "type": "official",
             "title": "Introduction to Serving over HTTPs",
             "url": "https://graphql.org/learn/serving-over-http/"
+          }
+        ]
+      },
+      {
+        "id": "sJ1_c3e08aehiqNMbIEEP",
+        "name": "Lists",
+        "type": "subtopic",
+        "description": "Lists in GraphQL represent ordered collections of items and can be used as return types for fields. They can contain any type of items including scalars and objects, with resolver functions typically returning data as arrays from databases or APIs.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get started with Lists and Non-Null",
+            "url": "https://graphql.org/learn/schema/#lists-and-non-null"
+          }
+        ]
+      },
+      {
+        "id": "I4wNBXV4xEZ0LWBhv5FwF",
+        "name": "Validation",
+        "type": "subtopic",
+        "description": "Validation in GraphQL ensures queries and mutations adhere to schema rules by verifying field access, type correctness, and input constraints. GraphQL servers validate all incoming operations before execution, returning errors for invalid queries with specific details about violations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get Started with Validation in GraphQL",
+            "url": "https://graphql.org/learn/validation/"
           }
         ]
       },
@@ -1703,6 +1911,26 @@
             "url": "https://graphql.org/learn/pagination/"
           }
         ]
+      },
+      {
+        "id": "zQHifboRreE4OgJ7GnUlp",
+        "name": "Producing the Result",
+        "type": "subtopic",
+        "description": "Producing the result in GraphQL involves generating the final response to queries and mutations. This process includes parsing the request, validating against the schema, executing resolvers to fetch data, and formatting the response according to the query requirements.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get Started with GraphQL",
+            "url": "https://graphql.org/learn/"
+          }
+        ]
+      },
+      {
+        "id": "st02HY5-DEab1pYXkBc3S",
+        "name": "GraphQL Over WebSockets",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "A-PQ3_FVuCK3Eud75hsdj",
@@ -1749,6 +1977,13 @@
         ]
       },
       {
+        "id": "1q77xUifPS5sLx5tktXxF",
+        "name": "Go Implementation",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "9nVo95gRNGHGIbaJQPH1x",
         "name": "GraphQL Go",
         "type": "subtopic",
@@ -1765,6 +2000,13 @@
             "url": "https://github.com/99designs/gqlgen"
           }
         ]
+      },
+      {
+        "id": "F4nR2VZ4k1uekWXINoMKH",
+        "name": "GraphQL Over SSE",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "O8k-m6s9B_uXkLsXKVFnL",
@@ -1785,6 +2027,26 @@
         ]
       },
       {
+        "id": "G50ZMlmP7Ru5LcFne5Rhu",
+        "name": "Authorization",
+        "type": "subtopic",
+        "description": "Authorization for GraphQL over Server-Sent Events (SSE) involves verifying a client's identity and permissions before establishing a persistent stream of data. Since standard HTTP headers are only sent during the initial handshake of an SSE connection, authentication tokens are typically passed via query parameters or specialized sub-protocols when the request is first initiated. Once the connection is established, the server enforces access control rules to ensure that the events pushed to the client match the data the user is authorized to receive.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Get Started with Authorization",
+            "url": "https://graphql.org/learn/authorization/"
+          }
+        ]
+      },
+      {
+        "id": "qmlQ3184CZ9HgvRHVcPT6",
+        "name": "JavaScript Implementation",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "jCzrMElTo-c9xGcpPOOPl",
         "name": "GraphQL.js",
         "type": "subtopic",
@@ -1803,17 +2065,11 @@
         ]
       },
       {
-        "id": "G50ZMlmP7Ru5LcFne5Rhu",
-        "name": "Authorization",
-        "type": "subtopic",
-        "description": "Authorization for GraphQL over Server-Sent Events (SSE) involves verifying a client's identity and permissions before establishing a persistent stream of data. Since standard HTTP headers are only sent during the initial handshake of an SSE connection, authentication tokens are typically passed via query parameters or specialized sub-protocols when the request is first initiated. Once the connection is established, the server enforces access control rules to ensure that the events pushed to the client match the data the user is authorized to receive.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Get Started with Authorization",
-            "url": "https://graphql.org/learn/authorization/"
-          }
-        ]
+        "id": "-STVQpKbY5I9eTExdJ6mc",
+        "name": "Java Implementation",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "7szipojhVb2VoL3VcS619",
@@ -1834,6 +2090,13 @@
         ]
       },
       {
+        "id": "kS01-perdFxHsTKTwvuC4",
+        "name": "Python Implementation",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "r3Yf5pxzgSGAckOPr3eSt",
         "name": "Graphene",
         "type": "subtopic",
@@ -1850,6 +2113,13 @@
             "url": "https://github.com/graphql-python/graphene?tab=readme-ov-file"
           }
         ]
+      },
+      {
+        "id": "_8RiK9B8endMNBjiKsazU",
+        "name": "JavaScript",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "N-vsu-wvOikuoTbzdgX3X",
@@ -1896,24 +2166,6 @@
         ]
       },
       {
-        "id": "datKo3vPDwXoyVskcrdkc",
-        "name": "graphql-http",
-        "type": "subtopic",
-        "description": "GraphQL HTTP is a specification for serving GraphQL over HTTP protocol. It defines standard methods for sending queries and mutations, primarily using POST requests with JSON payloads in the request body, and receiving results in the response body.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Overview of GraphQL HTTP",
-            "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp"
-          },
-          {
-            "type": "official",
-            "title": "Get Started with GraphQL HTTP",
-            "url": "https://graphql.org/learn/serving-over-http/"
-          }
-        ]
-      },
-      {
         "id": "iTV2H8clmRTOksul4v38p",
         "name": "mercurius",
         "type": "subtopic",
@@ -1928,6 +2180,31 @@
             "type": "article",
             "title": "Mercurius Documentation",
             "url": "https://mercurius.dev/"
+          }
+        ]
+      },
+      {
+        "id": "3lQ4cxevkw0p8v7fHm4I7",
+        "name": "JavaScript",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "datKo3vPDwXoyVskcrdkc",
+        "name": "graphql-http",
+        "type": "subtopic",
+        "description": "GraphQL HTTP is a specification for serving GraphQL over HTTP protocol. It defines standard methods for sending queries and mutations, primarily using POST requests with JSON payloads in the request body, and receiving results in the response body.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Overview of GraphQL HTTP",
+            "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp"
+          },
+          {
+            "type": "official",
+            "title": "Get Started with GraphQL HTTP",
+            "url": "https://graphql.org/learn/serving-over-http/"
           }
         ]
       },
@@ -1973,6 +2250,336 @@
     ],
     "edges": [
       {
+        "source": "cMfsRtvzvDZZJ0TqeUOxm",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2rlmLn_yQQV-7DpX1qT98",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "J5mU0v491qrm-mr1W3Msd",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6r9XbwlBtHmJrhviG2cTD",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ODQ8zrHc2rsc8PN-APKvz",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2SU4dcaz7zwGsF7g8FjmI",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Pc9H7AcoqJQkWnuhbytyD",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YZaFEK547FYricfOuANvH",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "B77yLU4SuRChSjEbmYwc-",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hrpb108R8Gyu3hhzkMYzL",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MnmwccPahqPCzOhqjfbsY",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CehwjrCG_wbUU-TFNCuJn",
+        "target": "W_Lg8086ZhrIqtck1sgnb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9Q2pGidY-rfkltHq3vChp",
+        "target": "jy_91mhFWbpR6sYVbuX1x",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AySlY8AyI6jE-cy-qKKOU",
+        "target": "jy_91mhFWbpR6sYVbuX1x",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "q9TYEygvUyHourdZIvk8G",
+        "target": "jy_91mhFWbpR6sYVbuX1x",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jpu0_FAlxtD-H80mPcod5",
+        "target": "IbEqXlGjsyNLKE9dZrPPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RlBc-hWEUOPaEQLTgJa-K",
+        "target": "IbEqXlGjsyNLKE9dZrPPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HPdntdgTar1T34CZX8Y6y",
+        "target": "IbEqXlGjsyNLKE9dZrPPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kJMyRhasBKfBypent3GxK",
+        "target": "IbEqXlGjsyNLKE9dZrPPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CHdzww8_TNfeM6Bp1oTPI",
+        "target": "IbEqXlGjsyNLKE9dZrPPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "t6XxFB_lx27kS4FE2_GMH",
+        "target": "IbEqXlGjsyNLKE9dZrPPk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U-tLelmNQtR-pUq-sxU_2",
+        "target": "lj1WEh4WbfBsoZFYsi1Yz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wfOsfb0zSAIdNkwFHfBcw",
+        "target": "lj1WEh4WbfBsoZFYsi1Yz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LX9vZpx7yKlf0iR6AtBWz",
+        "target": "lj1WEh4WbfBsoZFYsi1Yz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AlJlHZD3_SPoLNaqdM-pB",
+        "target": "iYkHCKTsjtvo40f3eZoet",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "d2ikbo4sZq7PmaCi5znkd",
+        "target": "iYkHCKTsjtvo40f3eZoet",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tc_rjJZrr2x3bp8mcoQ0F",
+        "target": "iYkHCKTsjtvo40f3eZoet",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VDur5xYBC0LJtQgDrSEyj",
+        "target": "iYkHCKTsjtvo40f3eZoet",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "59COH3rerJJzKr6vrj4bF",
+        "target": "iYkHCKTsjtvo40f3eZoet",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A54vi3Ao7fBHyTuqoH_it",
+        "target": "iYkHCKTsjtvo40f3eZoet",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uPpsj2kCdgKsJpmTaw86u",
+        "target": "72wGg6yP8WnEdmkeKL9vh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tbDvQBtLRAcD-xYX9V7Va",
+        "target": "72wGg6yP8WnEdmkeKL9vh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ya0ORdmEHEPpp1GAzMLVT",
+        "target": "72wGg6yP8WnEdmkeKL9vh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QFUOmJlPkkjpcl1vJxg9h",
+        "target": "72wGg6yP8WnEdmkeKL9vh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V3bgswBFr1xames3F8S_V",
+        "target": "Ya0ORdmEHEPpp1GAzMLVT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UYwuUVTeurwODV4_Kdt_W",
+        "target": "Ya0ORdmEHEPpp1GAzMLVT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v9gVexHfDkpG9z3NL5S-9",
+        "target": "Ya0ORdmEHEPpp1GAzMLVT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i-zcfN6RNXhA_sb7DcIon",
+        "target": "Ya0ORdmEHEPpp1GAzMLVT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sJ1_c3e08aehiqNMbIEEP",
+        "target": "inhjhH-7xJyX8o4DQqErF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "I4wNBXV4xEZ0LWBhv5FwF",
+        "target": "inhjhH-7xJyX8o4DQqErF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zQHifboRreE4OgJ7GnUlp",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "st02HY5-DEab1pYXkBc3S",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1q77xUifPS5sLx5tktXxF",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "F4nR2VZ4k1uekWXINoMKH",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qmlQ3184CZ9HgvRHVcPT6",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-STVQpKbY5I9eTExdJ6mc",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kS01-perdFxHsTKTwvuC4",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_8RiK9B8endMNBjiKsazU",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3lQ4cxevkw0p8v7fHm4I7",
+        "target": "Uf8XxJPs7RzKVhlxiQdbB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A-PQ3_FVuCK3Eud75hsdj",
+        "target": "st02HY5-DEab1pYXkBc3S",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2YLm_S1j_832pb1OGSNaM",
+        "target": "st02HY5-DEab1pYXkBc3S",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GzwPvLybxTJM96fUhQUOi",
+        "target": "st02HY5-DEab1pYXkBc3S",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9nVo95gRNGHGIbaJQPH1x",
+        "target": "1q77xUifPS5sLx5tktXxF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "O8k-m6s9B_uXkLsXKVFnL",
+        "target": "F4nR2VZ4k1uekWXINoMKH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "G50ZMlmP7Ru5LcFne5Rhu",
+        "target": "F4nR2VZ4k1uekWXINoMKH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jCzrMElTo-c9xGcpPOOPl",
+        "target": "qmlQ3184CZ9HgvRHVcPT6",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7szipojhVb2VoL3VcS619",
+        "target": "-STVQpKbY5I9eTExdJ6mc",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "r3Yf5pxzgSGAckOPr3eSt",
+        "target": "kS01-perdFxHsTKTwvuC4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "N-vsu-wvOikuoTbzdgX3X",
+        "target": "_8RiK9B8endMNBjiKsazU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Gotb1xtxySCVC5MrnkPSs",
+        "target": "_8RiK9B8endMNBjiKsazU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "o_VkyoN6DmUUkfl0u0cro",
+        "target": "_8RiK9B8endMNBjiKsazU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iTV2H8clmRTOksul4v38p",
+        "target": "_8RiK9B8endMNBjiKsazU",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "datKo3vPDwXoyVskcrdkc",
+        "target": "3lQ4cxevkw0p8v7fHm4I7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ab_ngkf6bmejvcp9okuw6",
+        "target": "3lQ4cxevkw0p8v7fHm4I7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "D5O7ky5eXwm_Ys1IcFNaq",
+        "target": "3lQ4cxevkw0p8v7fHm4I7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WP0Oo_YMfLBlXqDQQtKes",
+        "target": "3lQ4cxevkw0p8v7fHm4I7",
+        "type": "subtopic_of"
+      },
+      {
         "source": "W_Lg8086ZhrIqtck1sgnb",
         "target": "jy_91mhFWbpR6sYVbuX1x",
         "type": "next_in_flow"
@@ -2011,291 +2618,6 @@
         "source": "JfXwzkN29UGz17FYHHE3A",
         "target": "W_Lg8086ZhrIqtck1sgnb",
         "type": "next_in_flow"
-      },
-      {
-        "source": "2rlmLn_yQQV-7DpX1qT98",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cMfsRtvzvDZZJ0TqeUOxm",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "J5mU0v491qrm-mr1W3Msd",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6r9XbwlBtHmJrhviG2cTD",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ODQ8zrHc2rsc8PN-APKvz",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YZaFEK547FYricfOuANvH",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "B77yLU4SuRChSjEbmYwc-",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hrpb108R8Gyu3hhzkMYzL",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MnmwccPahqPCzOhqjfbsY",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CehwjrCG_wbUU-TFNCuJn",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Pc9H7AcoqJQkWnuhbytyD",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2SU4dcaz7zwGsF7g8FjmI",
-        "target": "W_Lg8086ZhrIqtck1sgnb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AySlY8AyI6jE-cy-qKKOU",
-        "target": "jy_91mhFWbpR6sYVbuX1x",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "q9TYEygvUyHourdZIvk8G",
-        "target": "jy_91mhFWbpR6sYVbuX1x",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9Q2pGidY-rfkltHq3vChp",
-        "target": "jy_91mhFWbpR6sYVbuX1x",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RlBc-hWEUOPaEQLTgJa-K",
-        "target": "IbEqXlGjsyNLKE9dZrPPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kJMyRhasBKfBypent3GxK",
-        "target": "IbEqXlGjsyNLKE9dZrPPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CHdzww8_TNfeM6Bp1oTPI",
-        "target": "IbEqXlGjsyNLKE9dZrPPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "t6XxFB_lx27kS4FE2_GMH",
-        "target": "IbEqXlGjsyNLKE9dZrPPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "N-vsu-wvOikuoTbzdgX3X",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Gotb1xtxySCVC5MrnkPSs",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "o_VkyoN6DmUUkfl0u0cro",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "iTV2H8clmRTOksul4v38p",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jCzrMElTo-c9xGcpPOOPl",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9nVo95gRNGHGIbaJQPH1x",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7szipojhVb2VoL3VcS619",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "r3Yf5pxzgSGAckOPr3eSt",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "V3bgswBFr1xames3F8S_V",
-        "target": "72wGg6yP8WnEdmkeKL9vh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UYwuUVTeurwODV4_Kdt_W",
-        "target": "72wGg6yP8WnEdmkeKL9vh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "v9gVexHfDkpG9z3NL5S-9",
-        "target": "72wGg6yP8WnEdmkeKL9vh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "i-zcfN6RNXhA_sb7DcIon",
-        "target": "72wGg6yP8WnEdmkeKL9vh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uPpsj2kCdgKsJpmTaw86u",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tbDvQBtLRAcD-xYX9V7Va",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QFUOmJlPkkjpcl1vJxg9h",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "sJ1_c3e08aehiqNMbIEEP",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "I4wNBXV4xEZ0LWBhv5FwF",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "A-PQ3_FVuCK3Eud75hsdj",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2YLm_S1j_832pb1OGSNaM",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GzwPvLybxTJM96fUhQUOi",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "O8k-m6s9B_uXkLsXKVFnL",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "G50ZMlmP7Ru5LcFne5Rhu",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "datKo3vPDwXoyVskcrdkc",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ab_ngkf6bmejvcp9okuw6",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "D5O7ky5eXwm_Ys1IcFNaq",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WP0Oo_YMfLBlXqDQQtKes",
-        "target": "Uf8XxJPs7RzKVhlxiQdbB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VDur5xYBC0LJtQgDrSEyj",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zQHifboRreE4OgJ7GnUlp",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AlJlHZD3_SPoLNaqdM-pB",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jpu0_FAlxtD-H80mPcod5",
-        "target": "jy_91mhFWbpR6sYVbuX1x",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HPdntdgTar1T34CZX8Y6y",
-        "target": "IbEqXlGjsyNLKE9dZrPPk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U-tLelmNQtR-pUq-sxU_2",
-        "target": "lj1WEh4WbfBsoZFYsi1Yz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wfOsfb0zSAIdNkwFHfBcw",
-        "target": "lj1WEh4WbfBsoZFYsi1Yz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tc_rjJZrr2x3bp8mcoQ0F",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "d2ikbo4sZq7PmaCi5znkd",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LX9vZpx7yKlf0iR6AtBWz",
-        "target": "lj1WEh4WbfBsoZFYsi1Yz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "59COH3rerJJzKr6vrj4bF",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "A54vi3Ao7fBHyTuqoH_it",
-        "target": "iYkHCKTsjtvo40f3eZoet",
-        "type": "subtopic_of"
       }
     ]
   }

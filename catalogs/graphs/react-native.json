@@ -3,10 +3,10 @@
     "slug": "react-native",
     "title": "React Native Developer",
     "description": "Step by step guide to becoming a React Native developer in 2026",
-    "extracted_at": "2026-10-29T01:04:33.698926+00:00",
+    "extracted_at": "2026-11-05T02:15:28.303528+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/react-native",
     "total_topics": 17,
-    "total_subtopics": 78
+    "total_subtopics": 82
   },
   "tree": {
     "title": "React Native Developer",
@@ -49,7 +49,9 @@
                 "url": "https://reactnative.dev/docs/getting-started"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/what-is-react-native@cMfsRtvzvDZZJ0TqeUOxm.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/what-is-react-native@cMfsRtvzvDZZJ0TqeUOxm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "2rlmLn_yQQV-7DpX1qT98",
@@ -63,7 +65,9 @@
                 "url": "https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/why-use-react-native@2rlmLn_yQQV-7DpX1qT98.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/why-use-react-native@2rlmLn_yQQV-7DpX1qT98.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ODQ8zrHc2rsc8PN-APKvz",
@@ -87,7 +91,9 @@
                 "url": "https://dotnet.microsoft.com/apps/xamarin"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-alternatives@ODQ8zrHc2rsc8PN-APKvz.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-alternatives@ODQ8zrHc2rsc8PN-APKvz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -114,7 +120,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/learn-the-pre-requisites@cSXsu17F1Oy34Wp6J-N3C.md",
-        "subtopics_count": 6,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "1oUJXtHGQ29ZZU9sxwGo2",
@@ -128,7 +134,9 @@
                 "url": "https://roadmap.sh/javascript"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/javascript-basics@1oUJXtHGQ29ZZU9sxwGo2.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/javascript-basics@1oUJXtHGQ29ZZU9sxwGo2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "SnF3xtzBh-x4Z_qUQUg7H",
@@ -152,83 +160,104 @@
                 "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/css-basics@SnF3xtzBh-x4Z_qUQUg7H.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/css-basics@SnF3xtzBh-x4Z_qUQUg7H.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "k9_hVOBd9ZmC4HLuAf46v",
-            "name": "Components",
-            "type": "subtopic",
-            "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
-            "resources": [
+            "id": "XDWpxBbW4vfJBO0jLtOZ5",
+            "name": "React Basics",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "Components",
-                "url": "https://react.dev/learn/your-first-component"
+                "id": "s5YKenJY2Xv_PZBSxegEm",
+                "name": "JSX",
+                "type": "subtopic",
+                "description": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code. It was developed to be used with React and has become an integral part of working with React.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Components",
+                    "url": "https://react.dev/learn/your-first-component"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Writing Markup with JSX",
+                    "url": "https://react.dev/learn/writing-markup-with-jsx"
+                  },
+                  {
+                    "type": "official",
+                    "title": "JavaScript in JSX with Curly Braces",
+                    "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/jsx@s5YKenJY2Xv_PZBSxegEm.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Props",
-                "url": "https://react.dev/learn/passing-props-to-a-component"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/components@k9_hVOBd9ZmC4HLuAf46v.md"
-          },
-          {
-            "id": "s5YKenJY2Xv_PZBSxegEm",
-            "name": "JSX",
-            "type": "subtopic",
-            "description": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code. It was developed to be used with React and has become an integral part of working with React.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Components",
-                "url": "https://react.dev/learn/your-first-component"
+                "id": "k9_hVOBd9ZmC4HLuAf46v",
+                "name": "Components",
+                "type": "subtopic",
+                "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Components",
+                    "url": "https://react.dev/learn/your-first-component"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Props",
+                    "url": "https://react.dev/learn/passing-props-to-a-component"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/components@k9_hVOBd9ZmC4HLuAf46v.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Writing Markup with JSX",
-                "url": "https://react.dev/learn/writing-markup-with-jsx"
+                "id": "V7r1Hqk9IXTfjkjAg7-BT",
+                "name": "State",
+                "type": "subtopic",
+                "description": "State is an object that holds data managed within a React component. It allows components to become dynamic and interactive by keeping track of its data changes. When the state of a component changes, React re-renders the component and updates the DOM accordingly.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Component State",
+                    "url": "https://react.dev/learn/managing-state"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/state@V7r1Hqk9IXTfjkjAg7-BT.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "JavaScript in JSX with Curly Braces",
-                "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+                "id": "0gH7vI_Hy7s9hO2TF6hR3",
+                "name": "Props",
+                "type": "subtopic",
+                "description": "In React, **props** are short for _properties_ and are used to pass data from a parent component to a child component. They are similar to function arguments, and they help make components reusable and maintainable.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Components",
+                    "url": "https://react.dev/learn/your-first-component"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Props",
+                    "url": "https://react.dev/learn/passing-props-to-a-component"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/props@0gH7vI_Hy7s9hO2TF6hR3.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/jsx@s5YKenJY2Xv_PZBSxegEm.md"
-          },
-          {
-            "id": "V7r1Hqk9IXTfjkjAg7-BT",
-            "name": "State",
-            "type": "subtopic",
-            "description": "State is an object that holds data managed within a React component. It allows components to become dynamic and interactive by keeping track of its data changes. When the state of a component changes, React re-renders the component and updates the DOM accordingly.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Component State",
-                "url": "https://react.dev/learn/managing-state"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/state@V7r1Hqk9IXTfjkjAg7-BT.md"
-          },
-          {
-            "id": "0gH7vI_Hy7s9hO2TF6hR3",
-            "name": "Props",
-            "type": "subtopic",
-            "description": "In React, **props** are short for _properties_ and are used to pass data from a parent component to a child component. They are similar to function arguments, and they help make components reusable and maintainable.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Components",
-                "url": "https://react.dev/learn/your-first-component"
-              },
-              {
-                "type": "official",
-                "title": "Props",
-                "url": "https://react.dev/learn/passing-props-to-a-component"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/props@0gH7vI_Hy7s9hO2TF6hR3.md"
+            ]
           }
         ]
       },
@@ -255,7 +284,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/environment-setup@lNmddXrT8IHVtWobh3-oq.md",
-        "subtopics_count": 6,
+        "subtopics_count": 3,
         "subtopics": [
           {
             "id": "bxWLf0RDAl9Zaczkon9Rl",
@@ -274,7 +303,9 @@
                 "url": "https://github.com/react-native-community/cli"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-cli@bxWLf0RDAl9Zaczkon9Rl.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-cli@bxWLf0RDAl9Zaczkon9Rl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VhSEH_RoWFt1z2lial7xZ",
@@ -293,7 +324,9 @@
                 "url": "https://reactnative.dev/docs/metro"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/metro-bundler@VhSEH_RoWFt1z2lial7xZ.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/metro-bundler@VhSEH_RoWFt1z2lial7xZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "yW7nDDJbjmm8XKJI0hq3Q",
@@ -307,49 +340,9 @@
                 "url": "https://docs.expo.dev/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/expo@yW7nDDJbjmm8XKJI0hq3Q.md"
-          },
-          {
-            "id": "uLH9eo2G09wGO80XtFI5x",
-            "name": "create-expo-app",
-            "type": "subtopic",
-            "description": "`create-expo-app` is a command line tool that generates a React Native project that works out of the box with Expo. It is the easiest way to get started building a new React Native application.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Create Expo App",
-                "url": "https://docs.expo.dev/tutorial/create-your-first-app/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/create-expo-app@uLH9eo2G09wGO80XtFI5x.md"
-          },
-          {
-            "id": "9eOwhh2k59nvH-ztuDNjg",
-            "name": "Expo Snack",
-            "type": "subtopic",
-            "description": "Expo Snack is an online playground and development environment for creating and testing React Native projects. With Snack, you can easily edit and preview your code changes directly in your browser or on a mobile device using the Expo Go app. It offers a fast, easy, and convenient way to develop, test, and share your projects without needing to set up a local development environment.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Expo Snack",
-                "url": "https://snack.expo.dev/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-snack@9eOwhh2k59nvH-ztuDNjg.md"
-          },
-          {
-            "id": "zzOyoDcAQYkNNv07TIKeZ",
-            "name": "Expo Tradeoffs",
-            "type": "subtopic",
-            "description": "Expo is a managed framework that simplifies React Native development by providing a set of pre-built tools, libraries, and services. While it offers a faster development cycle and easier configuration, it comes with specific limitations regarding native code control. Developers using Expo cannot easily add custom native modules that require direct modification of the Android or iOS project files without using the \"eject\" process or development builds. Furthermore, the reliance on the Expo SDK means that project updates must align with their release schedule, which can occasionally lead to dependency conflicts when using highly specific third-party native libraries.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Should you use Expo or Bare React Native?",
-                "url": "https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo@yW7nDDJbjmm8XKJI0hq3Q.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -371,8 +364,40 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/development-workflow@T4AhL9Zls2iNZMituGdtl.md",
-        "subtopics_count": 9,
+        "subtopics_count": 5,
         "subtopics": [
+          {
+            "id": "uLH9eo2G09wGO80XtFI5x",
+            "name": "create-expo-app",
+            "type": "subtopic",
+            "description": "`create-expo-app` is a command line tool that generates a React Native project that works out of the box with Expo. It is the easiest way to get started building a new React Native application.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Create Expo App",
+                "url": "https://docs.expo.dev/tutorial/create-your-first-app/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/create-expo-app@uLH9eo2G09wGO80XtFI5x.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "9eOwhh2k59nvH-ztuDNjg",
+            "name": "Expo Snack",
+            "type": "subtopic",
+            "description": "Expo Snack is an online playground and development environment for creating and testing React Native projects. With Snack, you can easily edit and preview your code changes directly in your browser or on a mobile device using the Expo Go app. It offers a fast, easy, and convenient way to develop, test, and share your projects without needing to set up a local development environment.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Expo Snack",
+                "url": "https://snack.expo.dev/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-snack@9eOwhh2k59nvH-ztuDNjg.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "KyKMZ8Aa5XUAIWelGTiSt",
             "name": "Running on Device",
@@ -385,129 +410,126 @@
                 "url": "https://reactnative.dev/docs/running-on-device"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/running-on-device@KyKMZ8Aa5XUAIWelGTiSt.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/running-on-device@KyKMZ8Aa5XUAIWelGTiSt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "tOt_vvmnBtOUbgokmVa5P",
-            "name": "In-App Developer Menu",
+            "id": "zzOyoDcAQYkNNv07TIKeZ",
+            "name": "Expo Tradeoffs",
             "type": "subtopic",
-            "description": "The In-App Developer Menu is a built-in interface in React Native that provides essential tools for debugging and development. By triggering this menu through a specific gesture or keyboard shortcut, you can access features such as refreshing the application, enabling fast refresh, inspecting elements, and toggling performance monitors. It serves as a central control panel that allows you to manage your app's state and development settings directly on the device or simulator while you write your code.",
+            "description": "Expo is a managed framework that simplifies React Native development by providing a set of pre-built tools, libraries, and services. While it offers a faster development cycle and easier configuration, it comes with specific limitations regarding native code control. Developers using Expo cannot easily add custom native modules that require direct modification of the Android or iOS project files without using the \"eject\" process or development builds. Furthermore, the reliance on the Expo SDK means that project updates must align with their release schedule, which can occasionally lead to dependency conflicts when using highly specific third-party native libraries.",
             "resources": [
-              {
-                "type": "official",
-                "title": "Debugging",
-                "url": "https://reactnative.dev/docs/debugging"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/in-app-developer-menu@tOt_vvmnBtOUbgokmVa5P.md"
-          },
-          {
-            "id": "UqCpoPzYio3ng3RFlbvZ7",
-            "name": "SafeAreaView",
-            "type": "subtopic",
-            "description": "SafeAreaView is a component designed to render content within the safe area boundaries of a device screen. It automatically applies padding to ensure that your UI elements, such as text or buttons, are not obscured by system notches, home indicators, or rounded corners found on modern smartphones. By wrapping your content in this component, you maintain a clean layout that remains visible and accessible across different device models.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "SafeAreaView",
-                "url": "https://reactnative.dev/docs/safeareaview"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/safeareaview@UqCpoPzYio3ng3RFlbvZ7.md"
-          },
-          {
-            "id": "wWwaEdnvBsvj6jD9LJ4Jj",
-            "name": "Enabling Fast Refresh",
-            "type": "subtopic",
-            "description": "Fast Refresh is a React Native feature that allows you to get near-instant feedback while making changes in your code. It achieves this by reloading only the portion of the app that was changed, without losing the current state. This makes the development process a lot smoother as you don't have to wait for the entire app to rebuild after making a change.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Fast Refresh",
-                "url": "https://reactnative.dev/docs/fast-refresh"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/enabling-fast-refresh@wWwaEdnvBsvj6jD9LJ4Jj.md"
-          },
-          {
-            "id": "GrFL32pZ_eOmdJRzSlH8b",
-            "name": "View",
-            "type": "subtopic",
-            "description": "`View` is the fundamental layout container in React Native, similar to a `div` in web development. It supports flexbox layout, styling, touch handling, and nesting, and is the building block for nearly every screen and component.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "View",
-                "url": "https://reactnative.dev/docs/view"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/view@GrFL32pZ_eOmdJRzSlH8b.md"
-          },
-          {
-            "id": "8bn1PFd9h0ek6_T-cl1cS",
-            "name": "KeyboardAvoidingView",
-            "type": "subtopic",
-            "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "KeyboardAvoidingView",
-                "url": "https://reactnative.dev/docs/keyboardavoidingview"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/keyboardavoidingview@8bn1PFd9h0ek6_T-cl1cS.md"
-          },
-          {
-            "id": "Tz-bRjQVkZedphelhAlWM",
-            "name": "LogBox",
-            "type": "subtopic",
-            "description": "LogBox is React Native's in-app display for logs, warnings, and errors during development. It groups and formats them, with stack traces for errors, so problems are easier to spot and address in your code.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Debugging LogBox",
-                "url": "https://reactnative.dev/docs/debugging#logbox"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/logbox@Tz-bRjQVkZedphelhAlWM.md"
-          },
-          {
-            "id": "Dq490IqEJXoFZRnBFJI8N",
-            "name": "Sourcemaps",
-            "type": "subtopic",
-            "description": "Sourcemaps are files that act as a bridge between your bundled, minified JavaScript code and the original source code you actually wrote. When an error occurs in a production environment, the stack trace typically points to the transformed bundle, which is difficult to read. By using sourcemaps, developer tools can map these obfuscated locations back to the exact files and line numbers in your original project, making it much easier to identify and fix bugs.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "SourceMaps",
-                "url": "https://reactnative.dev/docs/debugging-release-builds#enabling-source-maps"
-              },
               {
                 "type": "article",
-                "title": "Source Maps (MDN)",
-                "url": "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map"
+                "title": "Should you use Expo or Bare React Native?",
+                "url": "https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/sourcemaps@Dq490IqEJXoFZRnBFJI8N.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "HHx3VSfV7xf6RqACrxjBf",
-            "name": "DevTools",
-            "type": "subtopic",
-            "description": "React Native DevTools is the modern, built-in debugging experience for React Native. It is designed for debugging React app concerns, such as inspecting components, stepping through JavaScript, and profiling, while the native layers are still debugged with the tools in Android Studio and Xcode.",
-            "resources": [
+            "id": "fz-xz5Nbk5DHHcTUb9cBS",
+            "name": "Debugging",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 5,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "React Native DevTools",
-                "url": "https://reactnative.dev/docs/react-native-devtools"
+                "id": "tOt_vvmnBtOUbgokmVa5P",
+                "name": "In-App Developer Menu",
+                "type": "subtopic",
+                "description": "The In-App Developer Menu is a built-in interface in React Native that provides essential tools for debugging and development. By triggering this menu through a specific gesture or keyboard shortcut, you can access features such as refreshing the application, enabling fast refresh, inspecting elements, and toggling performance monitors. It serves as a central control panel that allows you to manage your app's state and development settings directly on the device or simulator while you write your code.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Debugging",
+                    "url": "https://reactnative.dev/docs/debugging"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/in-app-developer-menu@tOt_vvmnBtOUbgokmVa5P.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "React DevTools",
-                "url": "https://reactnative.dev/docs/react-devtools"
+                "id": "wWwaEdnvBsvj6jD9LJ4Jj",
+                "name": "Enabling Fast Refresh",
+                "type": "subtopic",
+                "description": "Fast Refresh is a React Native feature that allows you to get near-instant feedback while making changes in your code. It achieves this by reloading only the portion of the app that was changed, without losing the current state. This makes the development process a lot smoother as you don't have to wait for the entire app to rebuild after making a change.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Fast Refresh",
+                    "url": "https://reactnative.dev/docs/fast-refresh"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/enabling-fast-refresh@wWwaEdnvBsvj6jD9LJ4Jj.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Tz-bRjQVkZedphelhAlWM",
+                "name": "LogBox",
+                "type": "subtopic",
+                "description": "LogBox is React Native's in-app display for logs, warnings, and errors during development. It groups and formats them, with stack traces for errors, so problems are easier to spot and address in your code.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Debugging LogBox",
+                    "url": "https://reactnative.dev/docs/debugging#logbox"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/logbox@Tz-bRjQVkZedphelhAlWM.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Dq490IqEJXoFZRnBFJI8N",
+                "name": "Sourcemaps",
+                "type": "subtopic",
+                "description": "Sourcemaps are files that act as a bridge between your bundled, minified JavaScript code and the original source code you actually wrote. When an error occurs in a production environment, the stack trace typically points to the transformed bundle, which is difficult to read. By using sourcemaps, developer tools can map these obfuscated locations back to the exact files and line numbers in your original project, making it much easier to identify and fix bugs.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "SourceMaps",
+                    "url": "https://reactnative.dev/docs/debugging-release-builds#enabling-source-maps"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Source Maps (MDN)",
+                    "url": "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/sourcemaps@Dq490IqEJXoFZRnBFJI8N.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "HHx3VSfV7xf6RqACrxjBf",
+                "name": "DevTools",
+                "type": "subtopic",
+                "description": "React Native DevTools is the modern, built-in debugging experience for React Native. It is designed for debugging React app concerns, such as inspecting components, stepping through JavaScript, and profiling, while the native layers are still debugged with the tools in Android Studio and Xcode.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "React Native DevTools",
+                    "url": "https://reactnative.dev/docs/react-native-devtools"
+                  },
+                  {
+                    "type": "official",
+                    "title": "React DevTools",
+                    "url": "https://reactnative.dev/docs/react-devtools"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/devtools@HHx3VSfV7xf6RqACrxjBf.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/devtools@HHx3VSfV7xf6RqACrxjBf.md"
+            ]
           }
         ]
       },
@@ -529,21 +551,56 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/core-components@fnujIq6QAFB6bmTisuZ3T.md",
-        "subtopics_count": 11,
+        "subtopics_count": 7,
         "subtopics": [
           {
-            "id": "Frz1RYp3y9OwRb-3t2e85",
-            "name": "Text Input",
+            "id": "GrFL32pZ_eOmdJRzSlH8b",
+            "name": "View",
             "type": "subtopic",
-            "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+            "description": "`View` is the fundamental layout container in React Native, similar to a `div` in web development. It supports flexbox layout, styling, touch handling, and nesting, and is the building block for nearly every screen and component.",
             "resources": [
               {
                 "type": "official",
-                "title": "Text Input",
-                "url": "https://reactnative.dev/docs/textinput"
+                "title": "View",
+                "url": "https://reactnative.dev/docs/view"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/text-input@Frz1RYp3y9OwRb-3t2e85.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/view@GrFL32pZ_eOmdJRzSlH8b.md",
+            "subtopics_count": 2,
+            "subtopics": [
+              {
+                "id": "UqCpoPzYio3ng3RFlbvZ7",
+                "name": "SafeAreaView",
+                "type": "subtopic",
+                "description": "SafeAreaView is a component designed to render content within the safe area boundaries of a device screen. It automatically applies padding to ensure that your UI elements, such as text or buttons, are not obscured by system notches, home indicators, or rounded corners found on modern smartphones. By wrapping your content in this component, you maintain a clean layout that remains visible and accessible across different device models.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "SafeAreaView",
+                    "url": "https://reactnative.dev/docs/safeareaview"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/safeareaview@UqCpoPzYio3ng3RFlbvZ7.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8bn1PFd9h0ek6_T-cl1cS",
+                "name": "KeyboardAvoidingView",
+                "type": "subtopic",
+                "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "KeyboardAvoidingView",
+                    "url": "https://reactnative.dev/docs/keyboardavoidingview"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/keyboardavoidingview@8bn1PFd9h0ek6_T-cl1cS.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
             "id": "OFhyYyxtrCBy_UUb5YBv5",
@@ -557,21 +614,9 @@
                 "url": "https://reactnative.dev/docs/text"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/text@OFhyYyxtrCBy_UUb5YBv5.md"
-          },
-          {
-            "id": "E7N8tSg2amZW-vc-X46JU",
-            "name": "Image",
-            "type": "subtopic",
-            "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Image",
-                "url": "https://reactnative.dev/docs/image"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/image@E7N8tSg2amZW-vc-X46JU.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/text@OFhyYyxtrCBy_UUb5YBv5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kkH9H9Qh1FD7sLItoWw69",
@@ -585,7 +630,9 @@
                 "url": "https://reactnative.dev/docs/button"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/button@kkH9H9Qh1FD7sLItoWw69.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/button@kkH9H9Qh1FD7sLItoWw69.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "x-OZCZcX6uhN3Yr5BAATn",
@@ -609,21 +656,9 @@
                 "url": "https://reactnative.dev/docs/sectionlist"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/listings@x-OZCZcX6uhN3Yr5BAATn.md"
-          },
-          {
-            "id": "ouNTekf4VpZv-Vja8_bfM",
-            "name": "Switch",
-            "type": "subtopic",
-            "description": "A Switch is a visual component in React Native that provides a toggle interface for users to switch between two states, typically on and off. It functions as a controlled component, meaning it relies on a boolean value passed through properties to determine its current state and a callback function to handle changes when the user interacts with it. This component is commonly used in settings menus or forms where a binary selection is required.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Switch",
-                "url": "https://reactnative.dev/docs/switch"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/switch@ouNTekf4VpZv-Vja8_bfM.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/listings@x-OZCZcX6uhN3Yr5BAATn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "GFGhnx5xUer2DdRI-SO4D",
@@ -637,7 +672,9 @@
                 "url": "https://reactnative.dev/docs/imagebackground"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/imagebackground@GFGhnx5xUer2DdRI-SO4D.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/imagebackground@GFGhnx5xUer2DdRI-SO4D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "hHFR59RrdMIWxcQe72qCs",
@@ -651,21 +688,9 @@
                 "url": "https://reactnative.dev/docs/activityindicator"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/activityindicator@hHFR59RrdMIWxcQe72qCs.md"
-          },
-          {
-            "id": "QOOZs9qtz49agfZwi6k1B",
-            "name": "StatusBar",
-            "type": "subtopic",
-            "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "StatusBar",
-                "url": "https://reactnative.dev/docs/statusbar"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/statusbar@QOOZs9qtz49agfZwi6k1B.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/activityindicator@hHFR59RrdMIWxcQe72qCs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "V34mZCkpoT49o-74XoATS",
@@ -679,21 +704,9 @@
                 "url": "https://reactnative.dev/docs/modal"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/modal@V34mZCkpoT49o-74XoATS.md"
-          },
-          {
-            "id": "4BgVq-cZYEXgqktvlNnet",
-            "name": "Pressable",
-            "type": "subtopic",
-            "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Pressable",
-                "url": "https://reactnative.dev/docs/pressable"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/pressable@4BgVq-cZYEXgqktvlNnet.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/modal@V34mZCkpoT49o-74XoATS.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -715,7 +728,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/writing-platform-specific-code@HiUbRfOv8OttFd85pDUHN.md",
-        "subtopics_count": 8,
+        "subtopics_count": 7,
         "subtopics": [
           {
             "id": "yN283SRWoALOEZh9iTn-L",
@@ -729,7 +742,9 @@
                 "url": "https://reactnative.dev/docs/ScrollView"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/scrollview@yN283SRWoALOEZh9iTn-L.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/scrollview@yN283SRWoALOEZh9iTn-L.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "h3ypxGxeHDCTxURHg6D2d",
@@ -753,7 +768,9 @@
                 "url": "https://reactnative.dev/docs/sectionlist"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/listviews@h3ypxGxeHDCTxURHg6D2d.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/listviews@h3ypxGxeHDCTxURHg6D2d.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "CYqLNGyOe9f9hVhbyUnTX",
@@ -767,7 +784,9 @@
                 "url": "https://reactnative.dev/docs/flatlist"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/flatlist@CYqLNGyOe9f9hVhbyUnTX.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/flatlist@CYqLNGyOe9f9hVhbyUnTX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "gLJMD9X7chy8OxdALht8g",
@@ -781,7 +800,9 @@
                 "url": "https://reactnative.dev/docs/sectionlist"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/sectionlist@gLJMD9X7chy8OxdALht8g.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/sectionlist@gLJMD9X7chy8OxdALht8g.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "m8Nu71Y61Ha_fLxdtWTkn",
@@ -805,7 +826,9 @@
                 "url": "https://reactnative.dev/docs/FlatList"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/refreshcontrol@m8Nu71Y61Ha_fLxdtWTkn.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/refreshcontrol@m8Nu71Y61Ha_fLxdtWTkn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KZIrRSYq_I-YzpFaYLuWi",
@@ -824,7 +847,9 @@
                 "url": "https://reactnative.dev/docs/platform-specific-code"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/platform-module@KZIrRSYq_I-YzpFaYLuWi.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/platform-module@KZIrRSYq_I-YzpFaYLuWi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LLANnVosxOUCPTtuBfNgu",
@@ -843,26 +868,9 @@
                 "url": "https://reactnative.dev/docs/app-extensions"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/file-extensions@LLANnVosxOUCPTtuBfNgu.md"
-          },
-          {
-            "id": "UQpyXrC2cs_jDXxVTlQOu",
-            "name": "react-native-web",
-            "type": "subtopic",
-            "description": "React Native for Web is a library that allows developers to run React Native components and APIs on the web using React DOM. It maps React Native components, such as Views and Text, to their equivalent HTML elements, enabling the reuse of a single codebase across mobile and browser platforms. This integration ensures that styles and interactions defined in React Native are translated effectively into standard web technologies.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "react-native-web - npm",
-                "url": "https://www.npmjs.com/package/react-native-web"
-              },
-              {
-                "type": "article",
-                "title": "Complete Guide to React Native for Web",
-                "url": "https://blog.logrocket.com/complete-guide-react-native-web/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-web@UQpyXrC2cs_jDXxVTlQOu.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/file-extensions@LLANnVosxOUCPTtuBfNgu.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -879,8 +887,88 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/styling@ervpuL89myBW3oR9r-4lH.md",
-        "subtopics_count": 3,
+        "subtopics_count": 7,
         "subtopics": [
+          {
+            "id": "Frz1RYp3y9OwRb-3t2e85",
+            "name": "Text Input",
+            "type": "subtopic",
+            "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Text Input",
+                "url": "https://reactnative.dev/docs/textinput"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/text-input@Frz1RYp3y9OwRb-3t2e85.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "E7N8tSg2amZW-vc-X46JU",
+            "name": "Image",
+            "type": "subtopic",
+            "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Image",
+                "url": "https://reactnative.dev/docs/image"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/image@E7N8tSg2amZW-vc-X46JU.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "ouNTekf4VpZv-Vja8_bfM",
+            "name": "Switch",
+            "type": "subtopic",
+            "description": "A Switch is a visual component in React Native that provides a toggle interface for users to switch between two states, typically on and off. It functions as a controlled component, meaning it relies on a boolean value passed through properties to determine its current state and a callback function to handle changes when the user interacts with it. This component is commonly used in settings menus or forms where a binary selection is required.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Switch",
+                "url": "https://reactnative.dev/docs/switch"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/switch@ouNTekf4VpZv-Vja8_bfM.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "QOOZs9qtz49agfZwi6k1B",
+            "name": "StatusBar",
+            "type": "subtopic",
+            "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "StatusBar",
+                "url": "https://reactnative.dev/docs/statusbar"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/statusbar@QOOZs9qtz49agfZwi6k1B.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "4BgVq-cZYEXgqktvlNnet",
+            "name": "Pressable",
+            "type": "subtopic",
+            "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Pressable",
+                "url": "https://reactnative.dev/docs/pressable"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/pressable@4BgVq-cZYEXgqktvlNnet.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "wB0D9koC6jpt1rzX8F07F",
             "name": "Stylesheets",
@@ -893,7 +981,9 @@
                 "url": "https://reactnative.dev/docs/stylesheet"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/stylesheets@wB0D9koC6jpt1rzX8F07F.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/stylesheets@wB0D9koC6jpt1rzX8F07F.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "e-r3tuRZ3PzhFegES0oOm",
@@ -912,8 +1002,200 @@
                 "url": "https://reactnative.dev/docs/layout-props"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/layouts--flexbox@e-r3tuRZ3PzhFegES0oOm.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/layouts--flexbox@e-r3tuRZ3PzhFegES0oOm.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "GYdz9a1yLiewAeMRSyfLr",
+        "name": "Interactions",
+        "type": "topic",
+        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
           },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/interactions@GYdz9a1yLiewAeMRSyfLr.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "A7ZIe8nlQnHU5g3LM3Eif",
+            "name": "Touchables",
+            "type": "subtopic",
+            "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Handling Touches",
+                "url": "https://reactnative.dev/docs/handling-touches"
+              },
+              {
+                "type": "official",
+                "title": "TouchableOpacity",
+                "url": "https://reactnative.dev/docs/touchableopacity"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/touchables@A7ZIe8nlQnHU5g3LM3Eif.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "UQpyXrC2cs_jDXxVTlQOu",
+            "name": "react-native-web",
+            "type": "subtopic",
+            "description": "React Native for Web is a library that allows developers to run React Native components and APIs on the web using React DOM. It maps React Native components, such as Views and Text, to their equivalent HTML elements, enabling the reuse of a single codebase across mobile and browser platforms. This integration ensures that styles and interactions defined in React Native are translated effectively into standard web technologies.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "react-native-web - npm",
+                "url": "https://www.npmjs.com/package/react-native-web"
+              },
+              {
+                "type": "article",
+                "title": "Complete Guide to React Native for Web",
+                "url": "https://blog.logrocket.com/complete-guide-react-native-web/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-web@UQpyXrC2cs_jDXxVTlQOu.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "xf7L5J42yQq3LE7lG2plp",
+            "name": "Gesture Handling",
+            "type": "subtopic",
+            "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Animations",
+                "url": "https://reactnative.dev/docs/animations"
+              },
+              {
+                "type": "official",
+                "title": "LayoutAnimations",
+                "url": "https://reactnative.dev/docs/layoutanimation"
+              },
+              {
+                "type": "official",
+                "title": "Animated",
+                "url": "https://reactnative.dev/docs/animated"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/gesture-handling@xf7L5J42yQq3LE7lG2plp.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "nk6zdVNRz_xE71mVUOFsi",
+            "name": "Scrolling & Swiping",
+            "type": "subtopic",
+            "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Handling Touches",
+                "url": "https://reactnative.dev/docs/handling-touches"
+              },
+              {
+                "type": "official",
+                "title": "Using a ScrollView",
+                "url": "https://reactnative.dev/docs/using-a-scrollview"
+              },
+              {
+                "type": "article",
+                "title": "React Native Gesture Handler: Swipe, long-press, and more",
+                "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/scrolling--swiping@nk6zdVNRz_xE71mVUOFsi.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+            "name": "Screen Navigation",
+            "type": "subtopic",
+            "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "React Navigation",
+                "url": "https://reactnavigation.org/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/screen-navigation@Jr2iuQqyCbx6CyTJj4Qz2.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "3NLcPO-hqQV1EacoPLVrv",
+            "name": "Animations",
+            "type": "subtopic",
+            "description": "Animations in React Native allow developers to create smooth, fluid, and dynamic user interfaces by changing the properties of components over time. The framework provides the Animated API to handle simple, high-performance transitions, as well as the LayoutAnimation API for animating global layout changes. These tools enable the transformation of elements through movements, scaling, opacity changes, and rotations to provide visual feedback and enhance the overall user experience within a mobile application.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Animations",
+                "url": "https://reactnative.dev/docs/animations"
+              },
+              {
+                "type": "official",
+                "title": "LayoutAnimations",
+                "url": "https://reactnative.dev/docs/layoutanimation"
+              },
+              {
+                "type": "official",
+                "title": "Animated",
+                "url": "https://reactnative.dev/docs/animated"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/animations@3NLcPO-hqQV1EacoPLVrv.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "CAQJaGs24wx1SqKOU44aB",
+        "name": "Push Notifications",
+        "type": "topic",
+        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PushNotificationIOS",
+            "url": "https://reactnative.dev/docs/pushnotificationios"
+          },
+          {
+            "type": "official",
+            "title": "Expo Notifications",
+            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/"
+          },
+          {
+            "type": "article",
+            "title": "Expo push notifications setup",
+            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/"
+          },
+          {
+            "type": "video",
+            "title": "Expo Notifications with EAS | Complete Guide",
+            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/push-notifications@CAQJaGs24wx1SqKOU44aB.md",
+        "subtopics_count": 1,
+        "subtopics": [
           {
             "id": "KoXTwQUqPt_ZhOFuaelny",
             "name": "Accessibility",
@@ -926,7 +1208,9 @@
                 "url": "https://reactnative.dev/docs/accessibility"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/accessibility@KoXTwQUqPt_ZhOFuaelny.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/accessibility@KoXTwQUqPt_ZhOFuaelny.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -977,7 +1261,9 @@
                 "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/connectivity-status@k7uVPyhbPgvO6HxAfxxYZ.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/connectivity-status@k7uVPyhbPgvO6HxAfxxYZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aSCgax1M4wlmzkJSZV_fv",
@@ -1006,7 +1292,9 @@
                 "url": "https://roadmap.sh/network-engineer/websocket-vs-sse"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/websockets@aSCgax1M4wlmzkJSZV_fv.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/websockets@aSCgax1M4wlmzkJSZV_fv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "f7KFPFS2-EA90pumYHM9T",
@@ -1025,165 +1313,9 @@
                 "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/fetch@f7KFPFS2-EA90pumYHM9T.md"
-          }
-        ]
-      },
-      {
-        "id": "CAQJaGs24wx1SqKOU44aB",
-        "name": "Push Notifications",
-        "type": "topic",
-        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "PushNotificationIOS",
-            "url": "https://reactnative.dev/docs/pushnotificationios"
-          },
-          {
-            "type": "official",
-            "title": "Expo Notifications",
-            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/"
-          },
-          {
-            "type": "article",
-            "title": "Expo push notifications setup",
-            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/"
-          },
-          {
-            "type": "video",
-            "title": "Expo Notifications with EAS | Complete Guide",
-            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/react-native/content/push-notifications@CAQJaGs24wx1SqKOU44aB.md",
-        "subtopics_count": 0,
-        "subtopics": []
-      },
-      {
-        "id": "GYdz9a1yLiewAeMRSyfLr",
-        "name": "Interactions",
-        "type": "topic",
-        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Animations",
-            "url": "https://reactnative.dev/docs/animations"
-          },
-          {
-            "type": "official",
-            "title": "LayoutAnimations",
-            "url": "https://reactnative.dev/docs/layoutanimation"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/react-native/content/interactions@GYdz9a1yLiewAeMRSyfLr.md",
-        "subtopics_count": 5,
-        "subtopics": [
-          {
-            "id": "A7ZIe8nlQnHU5g3LM3Eif",
-            "name": "Touchables",
-            "type": "subtopic",
-            "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Handling Touches",
-                "url": "https://reactnative.dev/docs/handling-touches"
-              },
-              {
-                "type": "official",
-                "title": "TouchableOpacity",
-                "url": "https://reactnative.dev/docs/touchableopacity"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/touchables@A7ZIe8nlQnHU5g3LM3Eif.md"
-          },
-          {
-            "id": "xf7L5J42yQq3LE7lG2plp",
-            "name": "Gesture Handling",
-            "type": "subtopic",
-            "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Animations",
-                "url": "https://reactnative.dev/docs/animations"
-              },
-              {
-                "type": "official",
-                "title": "LayoutAnimations",
-                "url": "https://reactnative.dev/docs/layoutanimation"
-              },
-              {
-                "type": "official",
-                "title": "Animated",
-                "url": "https://reactnative.dev/docs/animated"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/gesture-handling@xf7L5J42yQq3LE7lG2plp.md"
-          },
-          {
-            "id": "nk6zdVNRz_xE71mVUOFsi",
-            "name": "Scrolling & Swiping",
-            "type": "subtopic",
-            "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Handling Touches",
-                "url": "https://reactnative.dev/docs/handling-touches"
-              },
-              {
-                "type": "official",
-                "title": "Using a ScrollView",
-                "url": "https://reactnative.dev/docs/using-a-scrollview"
-              },
-              {
-                "type": "article",
-                "title": "React Native Gesture Handler: Swipe, long-press, and more",
-                "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/scrolling--swiping@nk6zdVNRz_xE71mVUOFsi.md"
-          },
-          {
-            "id": "Jr2iuQqyCbx6CyTJj4Qz2",
-            "name": "Screen Navigation",
-            "type": "subtopic",
-            "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "React Navigation",
-                "url": "https://reactnavigation.org/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/screen-navigation@Jr2iuQqyCbx6CyTJj4Qz2.md"
-          },
-          {
-            "id": "3NLcPO-hqQV1EacoPLVrv",
-            "name": "Animations",
-            "type": "subtopic",
-            "description": "Animations in React Native allow developers to create smooth, fluid, and dynamic user interfaces by changing the properties of components over time. The framework provides the Animated API to handle simple, high-performance transitions, as well as the LayoutAnimation API for animating global layout changes. These tools enable the transformation of elements through movements, scaling, opacity changes, and rotations to provide visual feedback and enhance the overall user experience within a mobile application.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Animations",
-                "url": "https://reactnative.dev/docs/animations"
-              },
-              {
-                "type": "official",
-                "title": "LayoutAnimations",
-                "url": "https://reactnative.dev/docs/layoutanimation"
-              },
-              {
-                "type": "official",
-                "title": "Animated",
-                "url": "https://reactnative.dev/docs/animated"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/animations@3NLcPO-hqQV1EacoPLVrv.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/fetch@f7KFPFS2-EA90pumYHM9T.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1231,7 +1363,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/security@CGtVwhVGc8Vea5RfzJvQG.md",
-        "subtopics_count": 9,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "LRBHwYiT0Yyi18PwR49rc",
@@ -1245,7 +1377,9 @@
                 "url": "https://reactnative.dev/docs/security#authentication-and-deep-linking"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/authentication@LRBHwYiT0Yyi18PwR49rc.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/authentication@LRBHwYiT0Yyi18PwR49rc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ee4QqFTosXNcTgoQIok8i",
@@ -1264,7 +1398,9 @@
                 "url": "https://medium.com/@Blochware/efficient-network-communication-best-practices-for-handling-api-calls-in-react-native-b5bebbc8ba71"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/networking@ee4QqFTosXNcTgoQIok8i.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/networking@ee4QqFTosXNcTgoQIok8i.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WsJGiMjHSQ6MpPd5wuP9h",
@@ -1278,7 +1414,9 @@
                 "url": "https://github.com/react-native-async-storage/async-storage"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-async-storage@WsJGiMjHSQ6MpPd5wuP9h.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-async-storage@WsJGiMjHSQ6MpPd5wuP9h.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NdjmP1bZNYriV08vb-iRw",
@@ -1297,7 +1435,99 @@
                 "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/storage@NdjmP1bZNYriV08vb-iRw.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/storage@NdjmP1bZNYriV08vb-iRw.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "grThT8cvnrbgsa1mx2Dew",
+            "name": "Expo Ecosystem",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
+              {
+                "id": "JgBfwmOgcVi_a96L5NGwr",
+                "name": "expo-secure-store",
+                "type": "subtopic",
+                "description": "Expo Secure Store is a built-in package provided by the Expo SDK to store encrypted data securely on users' devices. It is a key-value storage system, but it is not designed to store larger amounts of data such as app databases or complex data structures. It is most appropriate for storing secret keys, access tokens, and small user preferences.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "secure-store",
+                    "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "expo-secure-store package",
+                    "url": "https://www.npmjs.com/package/expo-secure-store?activeTab=readme"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/expo-secure-store@JgBfwmOgcVi_a96L5NGwr.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "9pvrXH5Drdsa1cr93UBdc",
+                "name": "expo-file-system",
+                "type": "subtopic",
+                "description": "Expo File System is a universal module that provides access to the file system on the device. Using this module, you can perform various file operations like reading, writing, copying, moving, and deleting files and folders. It also supports reading file metadata and querying file URI.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Expo File System",
+                    "url": "https://docs.expo.dev/versions/latest/sdk/filesystem/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/expo-file-system@9pvrXH5Drdsa1cr93UBdc.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "oK8z23a_CjcDjBJ843_Jn",
+                "name": "expo-sqlite",
+                "type": "subtopic",
+                "description": "expo-sqlite is a module that provides an interface for a local SQLite database in React Native applications. It allows developers to store, query, and manage structured data directly on a device using standard SQL commands. This library is designed to work seamlessly within the Expo ecosystem, providing a reliable way to persist data offline without needing to configure complex native database drivers.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "expo-sqlite",
+                    "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "vZMsm-MtsqmQMD-MG6zJY",
+                "name": "Other Storage Options",
+                "type": "subtopic",
+                "description": "Beyond basic local storage solutions, React Native applications often require more specialized ways to manage data. These options include libraries like SQLite for relational database management, Realm for high-performance object-oriented storage, or WatermelonDB for reactive data synchronization. These tools are typically used when an application needs to handle complex data structures, perform advanced queries, or maintain large datasets locally on the device.",
+                "resources": [
+                  {
+                    "type": "opensource",
+                    "title": "Async Storage",
+                    "url": "https://github.com/react-native-async-storage/async-storage"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "Realm - GitHub",
+                    "url": "https://github.com/realm/realm-js"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Firebase Realtime Database",
+                    "url": "https://firebase.google.com/docs/database"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/other-storage-options@vZMsm-MtsqmQMD-MG6zJY.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
             "id": "sPITeu8bS7n04NdEiBibY",
@@ -1336,78 +1566,9 @@
                 "url": "https://www.youtube.com/watch?v=cUWGLik3nYQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/permissions@sPITeu8bS7n04NdEiBibY.md"
-          },
-          {
-            "id": "JgBfwmOgcVi_a96L5NGwr",
-            "name": "expo-secure-store",
-            "type": "subtopic",
-            "description": "Expo Secure Store is a built-in package provided by the Expo SDK to store encrypted data securely on users' devices. It is a key-value storage system, but it is not designed to store larger amounts of data such as app databases or complex data structures. It is most appropriate for storing secret keys, access tokens, and small user preferences.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "secure-store",
-                "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
-              },
-              {
-                "type": "opensource",
-                "title": "expo-secure-store package",
-                "url": "https://www.npmjs.com/package/expo-secure-store?activeTab=readme"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-secure-store@JgBfwmOgcVi_a96L5NGwr.md"
-          },
-          {
-            "id": "9pvrXH5Drdsa1cr93UBdc",
-            "name": "expo-file-system",
-            "type": "subtopic",
-            "description": "Expo File System is a universal module that provides access to the file system on the device. Using this module, you can perform various file operations like reading, writing, copying, moving, and deleting files and folders. It also supports reading file metadata and querying file URI.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Expo File System",
-                "url": "https://docs.expo.dev/versions/latest/sdk/filesystem/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-file-system@9pvrXH5Drdsa1cr93UBdc.md"
-          },
-          {
-            "id": "oK8z23a_CjcDjBJ843_Jn",
-            "name": "expo-sqlite",
-            "type": "subtopic",
-            "description": "expo-sqlite is a module that provides an interface for a local SQLite database in React Native applications. It allows developers to store, query, and manage structured data directly on a device using standard SQL commands. This library is designed to work seamlessly within the Expo ecosystem, providing a reliable way to persist data offline without needing to configure complex native database drivers.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "expo-sqlite",
-                "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
-          },
-          {
-            "id": "vZMsm-MtsqmQMD-MG6zJY",
-            "name": "Other Storage Options",
-            "type": "subtopic",
-            "description": "Beyond basic local storage solutions, React Native applications often require more specialized ways to manage data. These options include libraries like SQLite for relational database management, Realm for high-performance object-oriented storage, or WatermelonDB for reactive data synchronization. These tools are typically used when an application needs to handle complex data structures, perform advanced queries, or maintain large datasets locally on the device.",
-            "resources": [
-              {
-                "type": "opensource",
-                "title": "Async Storage",
-                "url": "https://github.com/react-native-async-storage/async-storage"
-              },
-              {
-                "type": "opensource",
-                "title": "Realm - GitHub",
-                "url": "https://github.com/realm/realm-js"
-              },
-              {
-                "type": "article",
-                "title": "Firebase Realtime Database",
-                "url": "https://firebase.google.com/docs/database"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/other-storage-options@vZMsm-MtsqmQMD-MG6zJY.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/permissions@sPITeu8bS7n04NdEiBibY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1448,7 +1609,9 @@
                 "url": "https://www.youtube.com/watch?v=7r4xVDI2vho"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/jest@06gsRokwjxVa2xyLY4qAb.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/jest@06gsRokwjxVa2xyLY4qAb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1475,174 +1638,92 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react-native/content/testing@G15Aey-Spax_iUHpm1v38.md",
-        "subtopics_count": 4,
+        "subtopics_count": 1,
         "subtopics": [
           {
-            "id": "-b4LfjCjkSZ6ZsSv3eFm6",
-            "name": "React Native Testing Library",
-            "type": "subtopic",
-            "description": "React Native Testing Library (RNTL) is a collection of tools and utilities to test React Native components. It is built on top of the Testing Library ecosystem, designed to work seamlessly with Jest and other testing frameworks. Its primary goal is to enable efficient and effective testing by providing simple and intuitive APIs that promote best practices, like testing UI components in isolation and promoting accessibility checks.",
-            "resources": [
+            "id": "zam_qKfqtKuYyPGos1CrF",
+            "name": "E2E Testing",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "React Native Testing Library",
-                "url": "https://callstack.github.io/react-native-testing-library/"
+                "id": "-b4LfjCjkSZ6ZsSv3eFm6",
+                "name": "React Native Testing Library",
+                "type": "subtopic",
+                "description": "React Native Testing Library (RNTL) is a collection of tools and utilities to test React Native components. It is built on top of the Testing Library ecosystem, designed to work seamlessly with Jest and other testing frameworks. Its primary goal is to enable efficient and effective testing by providing simple and intuitive APIs that promote best practices, like testing UI components in isolation and promoting accessibility checks.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "React Native Testing Library",
+                    "url": "https://callstack.github.io/react-native-testing-library/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "React Native Testing Library (Docs)",
+                    "url": "https://testing-library.com/docs/react-native-testing-library/intro/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-testing-library@-b4LfjCjkSZ6ZsSv3eFm6.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "React Native Testing Library (Docs)",
-                "url": "https://testing-library.com/docs/react-native-testing-library/intro/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/react-native-testing-library@-b4LfjCjkSZ6ZsSv3eFm6.md"
-          },
-          {
-            "id": "3m7ANLJvtx3zie4y86MNU",
-            "name": "Detox",
-            "type": "subtopic",
-            "description": "Detox is an end-to-end testing framework for React Native applications. It enables you to run tests on an actual device or in a simulator/emulator environment. The goal of Detox is to maintain a high level of confidence in your application's behavior while allowing for quick test runs and easy debugging.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Detox Documentation",
-                "url": "https://wix.github.io/Detox/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/detox@3m7ANLJvtx3zie4y86MNU.md"
-          },
-          {
-            "id": "81tmis0km2h1zsjS2HsP5",
-            "name": "React Test Renderer",
-            "type": "subtopic",
-            "description": "React Test Renderer is a library provided by the React team that allows you to render React components as JavaScript objects without depending on the DOM or a native mobile environment. The package is now deprecated, and the React team recommends migrating tests to React Native Testing Library instead.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "react-test-renderer Deprecation Warnings",
-                "url": "https://react.dev/warnings/react-test-renderer"
+                "id": "3m7ANLJvtx3zie4y86MNU",
+                "name": "Detox",
+                "type": "subtopic",
+                "description": "Detox is an end-to-end testing framework for React Native applications. It enables you to run tests on an actual device or in a simulator/emulator environment. The goal of Detox is to maintain a high level of confidence in your application's behavior while allowing for quick test runs and easy debugging.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Detox Documentation",
+                    "url": "https://wix.github.io/Detox/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/detox@3m7ANLJvtx3zie4y86MNU.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "official",
-                "title": "Testing React Native Apps with Jest",
-                "url": "https://jestjs.io/docs/tutorial-react-native"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/react-test-renderer@81tmis0km2h1zsjS2HsP5.md"
-          },
-          {
-            "id": "spTzJMS7cE0cNa7tVQhVQ",
-            "name": "Appium",
-            "type": "subtopic",
-            "description": "Appium is an open-source test automation framework for mobile devices, targeting native, hybrid, or mobile-web apps for iOS, Android, and Windows platforms. Appium works with multiple programming languages, including JavaScript, Ruby, Python, Java, and C#. Appium uses the WebDriver protocol, which allows you to write tests that can interact with your app through a series of commands. The WebDriver protocol interprets these commands into actions that are then performed on the app.",
-            "resources": [
+                "id": "81tmis0km2h1zsjS2HsP5",
+                "name": "React Test Renderer",
+                "type": "subtopic",
+                "description": "React Test Renderer is a library provided by the React team that allows you to render React components as JavaScript objects without depending on the DOM or a native mobile environment. The package is now deprecated, and the React team recommends migrating tests to React Native Testing Library instead.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "react-test-renderer Deprecation Warnings",
+                    "url": "https://react.dev/warnings/react-test-renderer"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Testing React Native Apps with Jest",
+                    "url": "https://jestjs.io/docs/tutorial-react-native"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/react-test-renderer@81tmis0km2h1zsjS2HsP5.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
               {
-                "type": "official",
-                "title": "Appium Documentation",
-                "url": "https://appium.io/docs/en/latest/"
+                "id": "spTzJMS7cE0cNa7tVQhVQ",
+                "name": "Appium",
+                "type": "subtopic",
+                "description": "Appium is an open-source test automation framework for mobile devices, targeting native, hybrid, or mobile-web apps for iOS, Android, and Windows platforms. Appium works with multiple programming languages, including JavaScript, Ruby, Python, Java, and C#. Appium uses the WebDriver protocol, which allows you to write tests that can interact with your app through a series of commands. The WebDriver protocol interprets these commands into actions that are then performed on the app.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Appium Documentation",
+                    "url": "https://appium.io/docs/en/latest/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react-native/content/appium@spTzJMS7cE0cNa7tVQhVQ.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/appium@spTzJMS7cE0cNa7tVQhVQ.md"
-          }
-        ]
-      },
-      {
-        "id": "NIJzKzWlsciAjxUpm4K2v",
-        "name": "Performance",
-        "type": "topic",
-        "description": "Performance is a crucial aspect of any application, and React Native is no exception. Optimizing performance in your React Native apps will not only lead to a better user experience but also lessen the load on device resources.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Performance",
-            "url": "https://reactnative.dev/docs/performance"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/react-native/content/performance@NIJzKzWlsciAjxUpm4K2v.md",
-        "subtopics_count": 6,
-        "subtopics": [
-          {
-            "id": "1U3AiCDWEVEKsofWtqavi",
-            "name": "Understand Frame Rates",
-            "type": "subtopic",
-            "description": "Frame rate measures the frequency at which individual images, known as frames, are displayed on a screen to create the illusion of motion. In React Native applications, maintaining a consistent frame rate—typically 60 frames per second—is essential for ensuring that animations and transitions feel smooth and responsive to the user. When the frame rate drops, the interface experiences stuttering or lag, which occurs if the JavaScript thread or the UI thread becomes overwhelmed by heavy computations or inefficient rendering cycles.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Performance Overview",
-                "url": "https://reactnative.dev/docs/performance"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/understand-frame-rates@1U3AiCDWEVEKsofWtqavi.md"
-          },
-          {
-            "id": "afwB90L-q2hIwrA0LtWbG",
-            "name": "Common Problem Sources",
-            "type": "subtopic",
-            "description": "Performance issues in React Native often stem from an overloaded JavaScript thread, which handles business logic, API calls, and state management. When this thread becomes blocked by heavy computations or excessive re-renders, the user interface feels unresponsive or choppy. Other frequent causes include inefficient list rendering, large image assets that consume excessive memory, and unnecessary communication overhead between the JavaScript bridge and the native modules. Identifying these bottlenecks involves analyzing how components update their state and ensuring that resource-intensive tasks are offloaded to native code or handled asynchronously.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Performance Problems",
-                "url": "https://reactnative.dev/docs/performance#common-sources-of-performance-problems"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/common-problem-sources@afwB90L-q2hIwrA0LtWbG.md"
-          },
-          {
-            "id": "LL2ZkB7BuELyY2mPQhkAj",
-            "name": "Speeding up Builds",
-            "type": "subtopic",
-            "description": "Building your React Native app could be expensive and take several minutes of developers time. This can be problematic as your project grows and generally in bigger organizations with multiple React Native developers.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Speeding up your Build phase",
-                "url": "https://reactnative.dev/docs/build-speed"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/speeding-up-builds@LL2ZkB7BuELyY2mPQhkAj.md"
-          },
-          {
-            "id": "PyPjHnKIWpnFHal8RuSmX",
-            "name": "Optimizing Flatlist Config",
-            "type": "subtopic",
-            "description": "Optimizing Flatlist configuration involves fine-tuning the properties of the Flatlist component to improve scrolling performance and memory usage in large data lists. By leveraging props such as `initialNumToRender`, `maxToRenderPerBatch`, `windowSize`, and `removeClippedSubviews`, developers can control how many items are rendered at once and how off-screen elements are handled. Adjusting these settings reduces the workload on the JavaScript bridge and helps maintain a smooth frame rate during complex list interactions.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Optimizing Flatlist Configuration",
-                "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/optimizing-flatlist-config@PyPjHnKIWpnFHal8RuSmX.md"
-          },
-          {
-            "id": "u5I-EOnA_yt6AQsRX-qr0",
-            "name": "RAM Bundles + Inline Requires",
-            "type": "subtopic",
-            "description": "Inline requires defer loading a module until it is first used instead of at startup, which trims the time to interactive for apps with many screens or rarely used features. Random Access Module (RAM) bundles are an older format that served the same purpose by loading modules on demand, but they are not supported with Hermes, whose bytecode gives the same or better startup performance. On current React Native versions, prefer Hermes, lazy-loading screen-level components, and inline requires, which the React Native CLI applies automatically.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Optimizing JavaScript loading",
-                "url": "https://reactnative.dev/docs/optimizing-javascript-loading"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/ram-bundles--inline-requires@u5I-EOnA_yt6AQsRX-qr0.md"
-          },
-          {
-            "id": "apXv-E6LvOuOMj3EpzwuA",
-            "name": "Profiling",
-            "type": "subtopic",
-            "description": "Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu. For iOS, Instruments is an invaluable tool, and on Android you should learn to use `systrace`.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Profiling React Native",
-                "url": "https://reactnative.dev/docs/profiling"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/profiling@apXv-E6LvOuOMj3EpzwuA.md"
+            ]
           }
         ]
       },
@@ -1673,7 +1754,9 @@
                 "url": "https://reactnative.dev/docs/legacy/native-modules-ios"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/for-ios@b-1-JcwLSGMyH3gXS59lY.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/for-ios@b-1-JcwLSGMyH3gXS59lY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wMxTB8WgU6e-oYMtQFCDY",
@@ -1687,7 +1770,122 @@
                 "url": "https://reactnative.dev/docs/legacy/native-modules-android"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/for-android@wMxTB8WgU6e-oYMtQFCDY.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/for-android@wMxTB8WgU6e-oYMtQFCDY.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "NIJzKzWlsciAjxUpm4K2v",
+        "name": "Performance",
+        "type": "topic",
+        "description": "Performance is a crucial aspect of any application, and React Native is no exception. Optimizing performance in your React Native apps will not only lead to a better user experience but also lessen the load on device resources.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Performance",
+            "url": "https://reactnative.dev/docs/performance"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react-native/content/performance@NIJzKzWlsciAjxUpm4K2v.md",
+        "subtopics_count": 6,
+        "subtopics": [
+          {
+            "id": "1U3AiCDWEVEKsofWtqavi",
+            "name": "Understand Frame Rates",
+            "type": "subtopic",
+            "description": "Frame rate measures the frequency at which individual images, known as frames, are displayed on a screen to create the illusion of motion. In React Native applications, maintaining a consistent frame rate—typically 60 frames per second—is essential for ensuring that animations and transitions feel smooth and responsive to the user. When the frame rate drops, the interface experiences stuttering or lag, which occurs if the JavaScript thread or the UI thread becomes overwhelmed by heavy computations or inefficient rendering cycles.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Performance Overview",
+                "url": "https://reactnative.dev/docs/performance"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/understand-frame-rates@1U3AiCDWEVEKsofWtqavi.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "afwB90L-q2hIwrA0LtWbG",
+            "name": "Common Problem Sources",
+            "type": "subtopic",
+            "description": "Performance issues in React Native often stem from an overloaded JavaScript thread, which handles business logic, API calls, and state management. When this thread becomes blocked by heavy computations or excessive re-renders, the user interface feels unresponsive or choppy. Other frequent causes include inefficient list rendering, large image assets that consume excessive memory, and unnecessary communication overhead between the JavaScript bridge and the native modules. Identifying these bottlenecks involves analyzing how components update their state and ensuring that resource-intensive tasks are offloaded to native code or handled asynchronously.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Performance Problems",
+                "url": "https://reactnative.dev/docs/performance#common-sources-of-performance-problems"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/common-problem-sources@afwB90L-q2hIwrA0LtWbG.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "LL2ZkB7BuELyY2mPQhkAj",
+            "name": "Speeding up Builds",
+            "type": "subtopic",
+            "description": "Building your React Native app could be expensive and take several minutes of developers time. This can be problematic as your project grows and generally in bigger organizations with multiple React Native developers.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Speeding up your Build phase",
+                "url": "https://reactnative.dev/docs/build-speed"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/speeding-up-builds@LL2ZkB7BuELyY2mPQhkAj.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "PyPjHnKIWpnFHal8RuSmX",
+            "name": "Optimizing Flatlist Config",
+            "type": "subtopic",
+            "description": "Optimizing Flatlist configuration involves fine-tuning the properties of the Flatlist component to improve scrolling performance and memory usage in large data lists. By leveraging props such as `initialNumToRender`, `maxToRenderPerBatch`, `windowSize`, and `removeClippedSubviews`, developers can control how many items are rendered at once and how off-screen elements are handled. Adjusting these settings reduces the workload on the JavaScript bridge and helps maintain a smooth frame rate during complex list interactions.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Optimizing Flatlist Configuration",
+                "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/optimizing-flatlist-config@PyPjHnKIWpnFHal8RuSmX.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "u5I-EOnA_yt6AQsRX-qr0",
+            "name": "RAM Bundles + Inline Requires",
+            "type": "subtopic",
+            "description": "Inline requires defer loading a module until it is first used instead of at startup, which trims the time to interactive for apps with many screens or rarely used features. Random Access Module (RAM) bundles are an older format that served the same purpose by loading modules on demand, but they are not supported with Hermes, whose bytecode gives the same or better startup performance. On current React Native versions, prefer Hermes, lazy-loading screen-level components, and inline requires, which the React Native CLI applies automatically.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Optimizing JavaScript loading",
+                "url": "https://reactnative.dev/docs/optimizing-javascript-loading"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/ram-bundles--inline-requires@u5I-EOnA_yt6AQsRX-qr0.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "apXv-E6LvOuOMj3EpzwuA",
+            "name": "Profiling",
+            "type": "subtopic",
+            "description": "Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu. For iOS, Instruments is an invaluable tool, and on Android you should learn to use `systrace`.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Profiling React Native",
+                "url": "https://reactnative.dev/docs/profiling"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react-native/content/profiling@apXv-E6LvOuOMj3EpzwuA.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1723,7 +1921,9 @@
                 "url": "https://reactnative.dev/docs/publishing-to-app-store"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/apple-app-store@1s9Y1dUtjpW9pu74ipX99.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/apple-app-store@1s9Y1dUtjpW9pu74ipX99.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "D8T9cZ5zKi_KZDr9tDpCf",
@@ -1737,7 +1937,9 @@
                 "url": "https://reactnative.dev/docs/signed-apk-android"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react-native/content/google-play-store@D8T9cZ5zKi_KZDr9tDpCf.md"
+            "file_path": "developer-roadmap/roadmaps/react-native/content/google-play-store@D8T9cZ5zKi_KZDr9tDpCf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -1877,22 +2079,11 @@
         ]
       },
       {
-        "id": "k9_hVOBd9ZmC4HLuAf46v",
-        "name": "Components",
-        "type": "subtopic",
-        "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Components",
-            "url": "https://react.dev/learn/your-first-component"
-          },
-          {
-            "type": "official",
-            "title": "Props",
-            "url": "https://react.dev/learn/passing-props-to-a-component"
-          }
-        ]
+        "id": "XDWpxBbW4vfJBO0jLtOZ5",
+        "name": "React Basics",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "s5YKenJY2Xv_PZBSxegEm",
@@ -1914,6 +2105,24 @@
             "type": "official",
             "title": "JavaScript in JSX with Curly Braces",
             "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+          }
+        ]
+      },
+      {
+        "id": "k9_hVOBd9ZmC4HLuAf46v",
+        "name": "Components",
+        "type": "subtopic",
+        "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component"
+          },
+          {
+            "type": "official",
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component"
           }
         ]
       },
@@ -2021,6 +2230,24 @@
         ]
       },
       {
+        "id": "T4AhL9Zls2iNZMituGdtl",
+        "name": "Development Workflow",
+        "type": "topic",
+        "description": "The development workflow in React Native involves a continuous cycle of writing code, testing components, and refining the user interface across both iOS and Android platforms. Developers typically utilize tools like Metro Bundler to compile JavaScript code in real-time, allowing for immediate feedback through features like Fast Refresh. This process integrates version control systems, debugging",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device"
+          },
+          {
+            "type": "article",
+            "title": "Continuous Integration and Deployment for React Native Apps",
+            "url": "https://dev.to/medaimane/continuous-integration-and-deployment-for-react-native-apps-streamlining-development-workflow-4i04"
+          }
+        ]
+      },
+      {
         "id": "uLH9eo2G09wGO80XtFI5x",
         "name": "create-expo-app",
         "type": "subtopic",
@@ -2047,6 +2274,19 @@
         ]
       },
       {
+        "id": "KyKMZ8Aa5XUAIWelGTiSt",
+        "name": "Running on Device",
+        "type": "subtopic",
+        "description": "Running your React Native application on a physical device allows you to test your code in a real-world environment, providing a more accurate representation of performance, touch interactions, and hardware integration compared to an emulator or simulator. To achieve this, you connect your mobile device to your development machine via USB or a local Wi-Fi network and use tools like Metro Bundler to transmit the application bundle directly to the device. This process enables developers to utilize features like Fast Refresh to see code changes instantly on their phone screen, ensuring that the user experience remains consistent across different hardware configurations.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device"
+          }
+        ]
+      },
+      {
         "id": "zzOyoDcAQYkNNv07TIKeZ",
         "name": "Expo Tradeoffs",
         "type": "subtopic",
@@ -2060,35 +2300,11 @@
         ]
       },
       {
-        "id": "T4AhL9Zls2iNZMituGdtl",
-        "name": "Development Workflow",
-        "type": "topic",
-        "description": "The development workflow in React Native involves a continuous cycle of writing code, testing components, and refining the user interface across both iOS and Android platforms. Developers typically utilize tools like Metro Bundler to compile JavaScript code in real-time, allowing for immediate feedback through features like Fast Refresh. This process integrates version control systems, debugging",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Running on Device",
-            "url": "https://reactnative.dev/docs/running-on-device"
-          },
-          {
-            "type": "article",
-            "title": "Continuous Integration and Deployment for React Native Apps",
-            "url": "https://dev.to/medaimane/continuous-integration-and-deployment-for-react-native-apps-streamlining-development-workflow-4i04"
-          }
-        ]
-      },
-      {
-        "id": "KyKMZ8Aa5XUAIWelGTiSt",
-        "name": "Running on Device",
-        "type": "subtopic",
-        "description": "Running your React Native application on a physical device allows you to test your code in a real-world environment, providing a more accurate representation of performance, touch interactions, and hardware integration compared to an emulator or simulator. To achieve this, you connect your mobile device to your development machine via USB or a local Wi-Fi network and use tools like Metro Bundler to transmit the application bundle directly to the device. This process enables developers to utilize features like Fast Refresh to see code changes instantly on their phone screen, ensuring that the user experience remains consistent across different hardware configurations.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Running on Device",
-            "url": "https://reactnative.dev/docs/running-on-device"
-          }
-        ]
+        "id": "fz-xz5Nbk5DHHcTUb9cBS",
+        "name": "Debugging",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "tOt_vvmnBtOUbgokmVa5P",
@@ -2104,19 +2320,6 @@
         ]
       },
       {
-        "id": "UqCpoPzYio3ng3RFlbvZ7",
-        "name": "SafeAreaView",
-        "type": "subtopic",
-        "description": "SafeAreaView is a component designed to render content within the safe area boundaries of a device screen. It automatically applies padding to ensure that your UI elements, such as text or buttons, are not obscured by system notches, home indicators, or rounded corners found on modern smartphones. By wrapping your content in this component, you maintain a clean layout that remains visible and accessible across different device models.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "SafeAreaView",
-            "url": "https://reactnative.dev/docs/safeareaview"
-          }
-        ]
-      },
-      {
         "id": "wWwaEdnvBsvj6jD9LJ4Jj",
         "name": "Enabling Fast Refresh",
         "type": "subtopic",
@@ -2126,32 +2329,6 @@
             "type": "official",
             "title": "Fast Refresh",
             "url": "https://reactnative.dev/docs/fast-refresh"
-          }
-        ]
-      },
-      {
-        "id": "GrFL32pZ_eOmdJRzSlH8b",
-        "name": "View",
-        "type": "subtopic",
-        "description": "`View` is the fundamental layout container in React Native, similar to a `div` in web development. It supports flexbox layout, styling, touch handling, and nesting, and is the building block for nearly every screen and component.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "View",
-            "url": "https://reactnative.dev/docs/view"
-          }
-        ]
-      },
-      {
-        "id": "8bn1PFd9h0ek6_T-cl1cS",
-        "name": "KeyboardAvoidingView",
-        "type": "subtopic",
-        "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "KeyboardAvoidingView",
-            "url": "https://reactnative.dev/docs/keyboardavoidingview"
           }
         ]
       },
@@ -2223,15 +2400,41 @@
         ]
       },
       {
-        "id": "Frz1RYp3y9OwRb-3t2e85",
-        "name": "Text Input",
+        "id": "GrFL32pZ_eOmdJRzSlH8b",
+        "name": "View",
         "type": "subtopic",
-        "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+        "description": "`View` is the fundamental layout container in React Native, similar to a `div` in web development. It supports flexbox layout, styling, touch handling, and nesting, and is the building block for nearly every screen and component.",
         "resources": [
           {
             "type": "official",
-            "title": "Text Input",
-            "url": "https://reactnative.dev/docs/textinput"
+            "title": "View",
+            "url": "https://reactnative.dev/docs/view"
+          }
+        ]
+      },
+      {
+        "id": "UqCpoPzYio3ng3RFlbvZ7",
+        "name": "SafeAreaView",
+        "type": "subtopic",
+        "description": "SafeAreaView is a component designed to render content within the safe area boundaries of a device screen. It automatically applies padding to ensure that your UI elements, such as text or buttons, are not obscured by system notches, home indicators, or rounded corners found on modern smartphones. By wrapping your content in this component, you maintain a clean layout that remains visible and accessible across different device models.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "SafeAreaView",
+            "url": "https://reactnative.dev/docs/safeareaview"
+          }
+        ]
+      },
+      {
+        "id": "8bn1PFd9h0ek6_T-cl1cS",
+        "name": "KeyboardAvoidingView",
+        "type": "subtopic",
+        "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "KeyboardAvoidingView",
+            "url": "https://reactnative.dev/docs/keyboardavoidingview"
           }
         ]
       },
@@ -2245,19 +2448,6 @@
             "type": "official",
             "title": "Text",
             "url": "https://reactnative.dev/docs/text"
-          }
-        ]
-      },
-      {
-        "id": "E7N8tSg2amZW-vc-X46JU",
-        "name": "Image",
-        "type": "subtopic",
-        "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Image",
-            "url": "https://reactnative.dev/docs/image"
           }
         ]
       },
@@ -2298,19 +2488,6 @@
         ]
       },
       {
-        "id": "ouNTekf4VpZv-Vja8_bfM",
-        "name": "Switch",
-        "type": "subtopic",
-        "description": "A Switch is a visual component in React Native that provides a toggle interface for users to switch between two states, typically on and off. It functions as a controlled component, meaning it relies on a boolean value passed through properties to determine its current state and a callback function to handle changes when the user interacts with it. This component is commonly used in settings menus or forms where a binary selection is required.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Switch",
-            "url": "https://reactnative.dev/docs/switch"
-          }
-        ]
-      },
-      {
         "id": "GFGhnx5xUer2DdRI-SO4D",
         "name": "ImageBackground",
         "type": "subtopic",
@@ -2337,19 +2514,6 @@
         ]
       },
       {
-        "id": "QOOZs9qtz49agfZwi6k1B",
-        "name": "StatusBar",
-        "type": "subtopic",
-        "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "StatusBar",
-            "url": "https://reactnative.dev/docs/statusbar"
-          }
-        ]
-      },
-      {
         "id": "V34mZCkpoT49o-74XoATS",
         "name": "Modal",
         "type": "subtopic",
@@ -2359,19 +2523,6 @@
             "type": "official",
             "title": "Modal",
             "url": "https://reactnative.dev/docs/modal"
-          }
-        ]
-      },
-      {
-        "id": "4BgVq-cZYEXgqktvlNnet",
-        "name": "Pressable",
-        "type": "subtopic",
-        "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Pressable",
-            "url": "https://reactnative.dev/docs/pressable"
           }
         ]
       },
@@ -2515,24 +2666,6 @@
         ]
       },
       {
-        "id": "UQpyXrC2cs_jDXxVTlQOu",
-        "name": "react-native-web",
-        "type": "subtopic",
-        "description": "React Native for Web is a library that allows developers to run React Native components and APIs on the web using React DOM. It maps React Native components, such as Views and Text, to their equivalent HTML elements, enabling the reuse of a single codebase across mobile and browser platforms. This integration ensures that styles and interactions defined in React Native are translated effectively into standard web technologies.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "react-native-web - npm",
-            "url": "https://www.npmjs.com/package/react-native-web"
-          },
-          {
-            "type": "article",
-            "title": "Complete Guide to React Native for Web",
-            "url": "https://blog.logrocket.com/complete-guide-react-native-web/"
-          }
-        ]
-      },
-      {
         "id": "ervpuL89myBW3oR9r-4lH",
         "name": "Styling",
         "type": "topic",
@@ -2542,6 +2675,71 @@
             "type": "official",
             "title": "Styling",
             "url": "https://reactnative.dev/docs/style"
+          }
+        ]
+      },
+      {
+        "id": "Frz1RYp3y9OwRb-3t2e85",
+        "name": "Text Input",
+        "type": "subtopic",
+        "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Text Input",
+            "url": "https://reactnative.dev/docs/textinput"
+          }
+        ]
+      },
+      {
+        "id": "E7N8tSg2amZW-vc-X46JU",
+        "name": "Image",
+        "type": "subtopic",
+        "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Image",
+            "url": "https://reactnative.dev/docs/image"
+          }
+        ]
+      },
+      {
+        "id": "ouNTekf4VpZv-Vja8_bfM",
+        "name": "Switch",
+        "type": "subtopic",
+        "description": "A Switch is a visual component in React Native that provides a toggle interface for users to switch between two states, typically on and off. It functions as a controlled component, meaning it relies on a boolean value passed through properties to determine its current state and a callback function to handle changes when the user interacts with it. This component is commonly used in settings menus or forms where a binary selection is required.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Switch",
+            "url": "https://reactnative.dev/docs/switch"
+          }
+        ]
+      },
+      {
+        "id": "QOOZs9qtz49agfZwi6k1B",
+        "name": "StatusBar",
+        "type": "subtopic",
+        "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "StatusBar",
+            "url": "https://reactnative.dev/docs/statusbar"
+          }
+        ]
+      },
+      {
+        "id": "4BgVq-cZYEXgqktvlNnet",
+        "name": "Pressable",
+        "type": "subtopic",
+        "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Pressable",
+            "url": "https://reactnative.dev/docs/pressable"
           }
         ]
       },
@@ -2573,6 +2771,170 @@
             "type": "official",
             "title": "Layout Props",
             "url": "https://reactnative.dev/docs/layout-props"
+          }
+        ]
+      },
+      {
+        "id": "GYdz9a1yLiewAeMRSyfLr",
+        "name": "Interactions",
+        "type": "topic",
+        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          }
+        ]
+      },
+      {
+        "id": "A7ZIe8nlQnHU5g3LM3Eif",
+        "name": "Touchables",
+        "type": "subtopic",
+        "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Handling Touches",
+            "url": "https://reactnative.dev/docs/handling-touches"
+          },
+          {
+            "type": "official",
+            "title": "TouchableOpacity",
+            "url": "https://reactnative.dev/docs/touchableopacity"
+          }
+        ]
+      },
+      {
+        "id": "UQpyXrC2cs_jDXxVTlQOu",
+        "name": "react-native-web",
+        "type": "subtopic",
+        "description": "React Native for Web is a library that allows developers to run React Native components and APIs on the web using React DOM. It maps React Native components, such as Views and Text, to their equivalent HTML elements, enabling the reuse of a single codebase across mobile and browser platforms. This integration ensures that styles and interactions defined in React Native are translated effectively into standard web technologies.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "react-native-web - npm",
+            "url": "https://www.npmjs.com/package/react-native-web"
+          },
+          {
+            "type": "article",
+            "title": "Complete Guide to React Native for Web",
+            "url": "https://blog.logrocket.com/complete-guide-react-native-web/"
+          }
+        ]
+      },
+      {
+        "id": "xf7L5J42yQq3LE7lG2plp",
+        "name": "Gesture Handling",
+        "type": "subtopic",
+        "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          },
+          {
+            "type": "official",
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated"
+          }
+        ]
+      },
+      {
+        "id": "nk6zdVNRz_xE71mVUOFsi",
+        "name": "Scrolling & Swiping",
+        "type": "subtopic",
+        "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Handling Touches",
+            "url": "https://reactnative.dev/docs/handling-touches"
+          },
+          {
+            "type": "official",
+            "title": "Using a ScrollView",
+            "url": "https://reactnative.dev/docs/using-a-scrollview"
+          },
+          {
+            "type": "article",
+            "title": "React Native Gesture Handler: Swipe, long-press, and more",
+            "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/"
+          }
+        ]
+      },
+      {
+        "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+        "name": "Screen Navigation",
+        "type": "subtopic",
+        "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "React Navigation",
+            "url": "https://reactnavigation.org/"
+          }
+        ]
+      },
+      {
+        "id": "3NLcPO-hqQV1EacoPLVrv",
+        "name": "Animations",
+        "type": "subtopic",
+        "description": "Animations in React Native allow developers to create smooth, fluid, and dynamic user interfaces by changing the properties of components over time. The framework provides the Animated API to handle simple, high-performance transitions, as well as the LayoutAnimation API for animating global layout changes. These tools enable the transformation of elements through movements, scaling, opacity changes, and rotations to provide visual feedback and enhance the overall user experience within a mobile application.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations"
+          },
+          {
+            "type": "official",
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation"
+          },
+          {
+            "type": "official",
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated"
+          }
+        ]
+      },
+      {
+        "id": "CAQJaGs24wx1SqKOU44aB",
+        "name": "Push Notifications",
+        "type": "topic",
+        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PushNotificationIOS",
+            "url": "https://reactnative.dev/docs/pushnotificationios"
+          },
+          {
+            "type": "official",
+            "title": "Expo Notifications",
+            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/"
+          },
+          {
+            "type": "article",
+            "title": "Expo push notifications setup",
+            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/"
+          },
+          {
+            "type": "video",
+            "title": "Expo Notifications with EAS | Complete Guide",
+            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE"
           }
         ]
       },
@@ -2682,152 +3044,6 @@
         ]
       },
       {
-        "id": "CAQJaGs24wx1SqKOU44aB",
-        "name": "Push Notifications",
-        "type": "topic",
-        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "PushNotificationIOS",
-            "url": "https://reactnative.dev/docs/pushnotificationios"
-          },
-          {
-            "type": "official",
-            "title": "Expo Notifications",
-            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/"
-          },
-          {
-            "type": "article",
-            "title": "Expo push notifications setup",
-            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/"
-          },
-          {
-            "type": "video",
-            "title": "Expo Notifications with EAS | Complete Guide",
-            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE"
-          }
-        ]
-      },
-      {
-        "id": "GYdz9a1yLiewAeMRSyfLr",
-        "name": "Interactions",
-        "type": "topic",
-        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Animations",
-            "url": "https://reactnative.dev/docs/animations"
-          },
-          {
-            "type": "official",
-            "title": "LayoutAnimations",
-            "url": "https://reactnative.dev/docs/layoutanimation"
-          }
-        ]
-      },
-      {
-        "id": "A7ZIe8nlQnHU5g3LM3Eif",
-        "name": "Touchables",
-        "type": "subtopic",
-        "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Handling Touches",
-            "url": "https://reactnative.dev/docs/handling-touches"
-          },
-          {
-            "type": "official",
-            "title": "TouchableOpacity",
-            "url": "https://reactnative.dev/docs/touchableopacity"
-          }
-        ]
-      },
-      {
-        "id": "xf7L5J42yQq3LE7lG2plp",
-        "name": "Gesture Handling",
-        "type": "subtopic",
-        "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Animations",
-            "url": "https://reactnative.dev/docs/animations"
-          },
-          {
-            "type": "official",
-            "title": "LayoutAnimations",
-            "url": "https://reactnative.dev/docs/layoutanimation"
-          },
-          {
-            "type": "official",
-            "title": "Animated",
-            "url": "https://reactnative.dev/docs/animated"
-          }
-        ]
-      },
-      {
-        "id": "nk6zdVNRz_xE71mVUOFsi",
-        "name": "Scrolling & Swiping",
-        "type": "subtopic",
-        "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Handling Touches",
-            "url": "https://reactnative.dev/docs/handling-touches"
-          },
-          {
-            "type": "official",
-            "title": "Using a ScrollView",
-            "url": "https://reactnative.dev/docs/using-a-scrollview"
-          },
-          {
-            "type": "article",
-            "title": "React Native Gesture Handler: Swipe, long-press, and more",
-            "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/"
-          }
-        ]
-      },
-      {
-        "id": "Jr2iuQqyCbx6CyTJj4Qz2",
-        "name": "Screen Navigation",
-        "type": "subtopic",
-        "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "React Navigation",
-            "url": "https://reactnavigation.org/"
-          }
-        ]
-      },
-      {
-        "id": "3NLcPO-hqQV1EacoPLVrv",
-        "name": "Animations",
-        "type": "subtopic",
-        "description": "Animations in React Native allow developers to create smooth, fluid, and dynamic user interfaces by changing the properties of components over time. The framework provides the Animated API to handle simple, high-performance transitions, as well as the LayoutAnimation API for animating global layout changes. These tools enable the transformation of elements through movements, scaling, opacity changes, and rotations to provide visual feedback and enhance the overall user experience within a mobile application.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Animations",
-            "url": "https://reactnative.dev/docs/animations"
-          },
-          {
-            "type": "official",
-            "title": "LayoutAnimations",
-            "url": "https://reactnative.dev/docs/layoutanimation"
-          },
-          {
-            "type": "official",
-            "title": "Animated",
-            "url": "https://reactnative.dev/docs/animated"
-          }
-        ]
-      },
-      {
         "id": "dckRzKDKj-mLB3-OxwjPh",
         "name": "DeepLinking",
         "type": "topic",
@@ -2931,42 +3147,11 @@
         ]
       },
       {
-        "id": "sPITeu8bS7n04NdEiBibY",
-        "name": "Permissions",
-        "type": "subtopic",
-        "description": "Permissions in React Native are how your app requests access to sensitive user data or device features, like the camera, microphone, or location. When your app needs to use one of these features, it must first ask the user for permission. This is done through native modules that interact with the underlying operating system (iOS or Android) to display a permission request dialog. The user can then grant or deny the request, and your app needs to handle both scenarios gracefully.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "PermissionsAndroid",
-            "url": "https://reactnative.dev/docs/permissionsandroid"
-          },
-          {
-            "type": "opensource",
-            "title": "react-native-permissions",
-            "url": "https://github.com/zoontek/react-native-permissions"
-          },
-          {
-            "type": "article",
-            "title": "Managing app permissions in React Native",
-            "url": "https://blog.logrocket.com/react-native-permissions/"
-          },
-          {
-            "type": "article",
-            "title": "Mastering Permission handling in React Native",
-            "url": "https://medium.com/@uddishverma22/mastering-permission-handling-in-react-native-2076862c7e7b"
-          },
-          {
-            "type": "video",
-            "title": "React Native Permissions Tutorial (react-native-permissions)",
-            "url": "https://www.youtube.com/watch?v=ZQzcVY3CoFQ"
-          },
-          {
-            "type": "video",
-            "title": "React Native Permissions: A Guide to Implementation",
-            "url": "https://www.youtube.com/watch?v=cUWGLik3nYQ"
-          }
-        ]
+        "id": "grThT8cvnrbgsa1mx2Dew",
+        "name": "Expo Ecosystem",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "JgBfwmOgcVi_a96L5NGwr",
@@ -3036,6 +3221,44 @@
         ]
       },
       {
+        "id": "sPITeu8bS7n04NdEiBibY",
+        "name": "Permissions",
+        "type": "subtopic",
+        "description": "Permissions in React Native are how your app requests access to sensitive user data or device features, like the camera, microphone, or location. When your app needs to use one of these features, it must first ask the user for permission. This is done through native modules that interact with the underlying operating system (iOS or Android) to display a permission request dialog. The user can then grant or deny the request, and your app needs to handle both scenarios gracefully.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "PermissionsAndroid",
+            "url": "https://reactnative.dev/docs/permissionsandroid"
+          },
+          {
+            "type": "opensource",
+            "title": "react-native-permissions",
+            "url": "https://github.com/zoontek/react-native-permissions"
+          },
+          {
+            "type": "article",
+            "title": "Managing app permissions in React Native",
+            "url": "https://blog.logrocket.com/react-native-permissions/"
+          },
+          {
+            "type": "article",
+            "title": "Mastering Permission handling in React Native",
+            "url": "https://medium.com/@uddishverma22/mastering-permission-handling-in-react-native-2076862c7e7b"
+          },
+          {
+            "type": "video",
+            "title": "React Native Permissions Tutorial (react-native-permissions)",
+            "url": "https://www.youtube.com/watch?v=ZQzcVY3CoFQ"
+          },
+          {
+            "type": "video",
+            "title": "React Native Permissions: A Guide to Implementation",
+            "url": "https://www.youtube.com/watch?v=cUWGLik3nYQ"
+          }
+        ]
+      },
+      {
         "id": "w0WW1kg_0BEMeLa1l2gb5",
         "name": "Storage",
         "type": "topic",
@@ -3093,6 +3316,13 @@
             "url": "https://github.com/callstack/react-native-testing-library"
           }
         ]
+      },
+      {
+        "id": "zam_qKfqtKuYyPGos1CrF",
+        "name": "E2E Testing",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "-b4LfjCjkSZ6ZsSv3eFm6",
@@ -3153,6 +3383,45 @@
             "type": "official",
             "title": "Appium Documentation",
             "url": "https://appium.io/docs/en/latest/"
+          }
+        ]
+      },
+      {
+        "id": "0BMpZDc-1rSvETwX82zON",
+        "name": "Using Native Modules",
+        "type": "topic",
+        "description": "Native Modules allow React Native applications to access platform-specific features and native APIs that are not available through the default JavaScript bridge. By writing custom code in languages like Swift or Objective-C for iOS, and Java or Kotlin for Android, developers can integrate high-performance native libraries or device-specific hardware functionality directly into their applications. This mechanism enables the execution of complex tasks that require direct interaction with the underlying operating system.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Native Modules Introduction",
+            "url": "https://reactnative.dev/docs/native-platform"
+          }
+        ]
+      },
+      {
+        "id": "b-1-JcwLSGMyH3gXS59lY",
+        "name": "For iOS",
+        "type": "subtopic",
+        "description": "iOS native modules in React Native allow developers to tap into the rich ecosystem of iOS features and functionalities that are not directly accessible through the standard React Native APIs. For instance, a Camera module can be implemented using the AVFoundation framework, enabling developers to capture photos and videos directly from their applications.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "iOS Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-ios"
+          }
+        ]
+      },
+      {
+        "id": "wMxTB8WgU6e-oYMtQFCDY",
+        "name": "For Android",
+        "type": "subtopic",
+        "description": "Native modules in React Native provide a powerful way to access device-specific features and capabilities that are not available through the standard React Native APIs. For example, a Bluetooth module can be created using the Android Bluetooth API, allowing applications to scan for nearby Bluetooth devices, connect to them, and transfer data.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Android Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-android"
           }
         ]
       },
@@ -3248,45 +3517,6 @@
         ]
       },
       {
-        "id": "0BMpZDc-1rSvETwX82zON",
-        "name": "Using Native Modules",
-        "type": "topic",
-        "description": "Native Modules allow React Native applications to access platform-specific features and native APIs that are not available through the default JavaScript bridge. By writing custom code in languages like Swift or Objective-C for iOS, and Java or Kotlin for Android, developers can integrate high-performance native libraries or device-specific hardware functionality directly into their applications. This mechanism enables the execution of complex tasks that require direct interaction with the underlying operating system.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Native Modules Introduction",
-            "url": "https://reactnative.dev/docs/native-platform"
-          }
-        ]
-      },
-      {
-        "id": "b-1-JcwLSGMyH3gXS59lY",
-        "name": "For iOS",
-        "type": "subtopic",
-        "description": "iOS native modules in React Native allow developers to tap into the rich ecosystem of iOS features and functionalities that are not directly accessible through the standard React Native APIs. For instance, a Camera module can be implemented using the AVFoundation framework, enabling developers to capture photos and videos directly from their applications.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "iOS Native Modules",
-            "url": "https://reactnative.dev/docs/legacy/native-modules-ios"
-          }
-        ]
-      },
-      {
-        "id": "wMxTB8WgU6e-oYMtQFCDY",
-        "name": "For Android",
-        "type": "subtopic",
-        "description": "Native modules in React Native provide a powerful way to access device-specific features and capabilities that are not available through the standard React Native APIs. For example, a Bluetooth module can be created using the Android Bluetooth API, allowing applications to scan for nearby Bluetooth devices, connect to them, and transfer data.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Android Native Modules",
-            "url": "https://reactnative.dev/docs/legacy/native-modules-android"
-          }
-        ]
-      },
-      {
         "id": "4U-HZQGH7kaWCB94Xy8Mh",
         "name": "Publishing Apps",
         "type": "topic",
@@ -3332,6 +3562,416 @@
       }
     ],
     "edges": [
+      {
+        "source": "cMfsRtvzvDZZJ0TqeUOxm",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2rlmLn_yQQV-7DpX1qT98",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ODQ8zrHc2rsc8PN-APKvz",
+        "target": "JfXwzkN29UGz17FYHHE3A",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1oUJXtHGQ29ZZU9sxwGo2",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SnF3xtzBh-x4Z_qUQUg7H",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XDWpxBbW4vfJBO0jLtOZ5",
+        "target": "cSXsu17F1Oy34Wp6J-N3C",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "s5YKenJY2Xv_PZBSxegEm",
+        "target": "XDWpxBbW4vfJBO0jLtOZ5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k9_hVOBd9ZmC4HLuAf46v",
+        "target": "XDWpxBbW4vfJBO0jLtOZ5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V7r1Hqk9IXTfjkjAg7-BT",
+        "target": "XDWpxBbW4vfJBO0jLtOZ5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0gH7vI_Hy7s9hO2TF6hR3",
+        "target": "XDWpxBbW4vfJBO0jLtOZ5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bxWLf0RDAl9Zaczkon9Rl",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VhSEH_RoWFt1z2lial7xZ",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yW7nDDJbjmm8XKJI0hq3Q",
+        "target": "lNmddXrT8IHVtWobh3-oq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uLH9eo2G09wGO80XtFI5x",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9eOwhh2k59nvH-ztuDNjg",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KyKMZ8Aa5XUAIWelGTiSt",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zzOyoDcAQYkNNv07TIKeZ",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fz-xz5Nbk5DHHcTUb9cBS",
+        "target": "T4AhL9Zls2iNZMituGdtl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tOt_vvmnBtOUbgokmVa5P",
+        "target": "fz-xz5Nbk5DHHcTUb9cBS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wWwaEdnvBsvj6jD9LJ4Jj",
+        "target": "fz-xz5Nbk5DHHcTUb9cBS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Tz-bRjQVkZedphelhAlWM",
+        "target": "fz-xz5Nbk5DHHcTUb9cBS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Dq490IqEJXoFZRnBFJI8N",
+        "target": "fz-xz5Nbk5DHHcTUb9cBS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HHx3VSfV7xf6RqACrxjBf",
+        "target": "fz-xz5Nbk5DHHcTUb9cBS",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GrFL32pZ_eOmdJRzSlH8b",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "OFhyYyxtrCBy_UUb5YBv5",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kkH9H9Qh1FD7sLItoWw69",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "x-OZCZcX6uhN3Yr5BAATn",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GFGhnx5xUer2DdRI-SO4D",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "hHFR59RrdMIWxcQe72qCs",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "V34mZCkpoT49o-74XoATS",
+        "target": "fnujIq6QAFB6bmTisuZ3T",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UqCpoPzYio3ng3RFlbvZ7",
+        "target": "GrFL32pZ_eOmdJRzSlH8b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8bn1PFd9h0ek6_T-cl1cS",
+        "target": "GrFL32pZ_eOmdJRzSlH8b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yN283SRWoALOEZh9iTn-L",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "h3ypxGxeHDCTxURHg6D2d",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "CYqLNGyOe9f9hVhbyUnTX",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gLJMD9X7chy8OxdALht8g",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "m8Nu71Y61Ha_fLxdtWTkn",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KZIrRSYq_I-YzpFaYLuWi",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LLANnVosxOUCPTtuBfNgu",
+        "target": "HiUbRfOv8OttFd85pDUHN",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Frz1RYp3y9OwRb-3t2e85",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "E7N8tSg2amZW-vc-X46JU",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ouNTekf4VpZv-Vja8_bfM",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QOOZs9qtz49agfZwi6k1B",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4BgVq-cZYEXgqktvlNnet",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wB0D9koC6jpt1rzX8F07F",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "e-r3tuRZ3PzhFegES0oOm",
+        "target": "ervpuL89myBW3oR9r-4lH",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "A7ZIe8nlQnHU5g3LM3Eif",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UQpyXrC2cs_jDXxVTlQOu",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xf7L5J42yQq3LE7lG2plp",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nk6zdVNRz_xE71mVUOFsi",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Jr2iuQqyCbx6CyTJj4Qz2",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3NLcPO-hqQV1EacoPLVrv",
+        "target": "GYdz9a1yLiewAeMRSyfLr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KoXTwQUqPt_ZhOFuaelny",
+        "target": "CAQJaGs24wx1SqKOU44aB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "k7uVPyhbPgvO6HxAfxxYZ",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aSCgax1M4wlmzkJSZV_fv",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "f7KFPFS2-EA90pumYHM9T",
+        "target": "7GBV5sfOaGxHwpkNUvFWE",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LRBHwYiT0Yyi18PwR49rc",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ee4QqFTosXNcTgoQIok8i",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WsJGiMjHSQ6MpPd5wuP9h",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NdjmP1bZNYriV08vb-iRw",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "grThT8cvnrbgsa1mx2Dew",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sPITeu8bS7n04NdEiBibY",
+        "target": "CGtVwhVGc8Vea5RfzJvQG",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JgBfwmOgcVi_a96L5NGwr",
+        "target": "grThT8cvnrbgsa1mx2Dew",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9pvrXH5Drdsa1cr93UBdc",
+        "target": "grThT8cvnrbgsa1mx2Dew",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oK8z23a_CjcDjBJ843_Jn",
+        "target": "grThT8cvnrbgsa1mx2Dew",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vZMsm-MtsqmQMD-MG6zJY",
+        "target": "grThT8cvnrbgsa1mx2Dew",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "06gsRokwjxVa2xyLY4qAb",
+        "target": "w0WW1kg_0BEMeLa1l2gb5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zam_qKfqtKuYyPGos1CrF",
+        "target": "G15Aey-Spax_iUHpm1v38",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-b4LfjCjkSZ6ZsSv3eFm6",
+        "target": "zam_qKfqtKuYyPGos1CrF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3m7ANLJvtx3zie4y86MNU",
+        "target": "zam_qKfqtKuYyPGos1CrF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "81tmis0km2h1zsjS2HsP5",
+        "target": "zam_qKfqtKuYyPGos1CrF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "spTzJMS7cE0cNa7tVQhVQ",
+        "target": "zam_qKfqtKuYyPGos1CrF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "b-1-JcwLSGMyH3gXS59lY",
+        "target": "0BMpZDc-1rSvETwX82zON",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wMxTB8WgU6e-oYMtQFCDY",
+        "target": "0BMpZDc-1rSvETwX82zON",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1U3AiCDWEVEKsofWtqavi",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "afwB90L-q2hIwrA0LtWbG",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LL2ZkB7BuELyY2mPQhkAj",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PyPjHnKIWpnFHal8RuSmX",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "u5I-EOnA_yt6AQsRX-qr0",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "apXv-E6LvOuOMj3EpzwuA",
+        "target": "NIJzKzWlsciAjxUpm4K2v",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1s9Y1dUtjpW9pu74ipX99",
+        "target": "4U-HZQGH7kaWCB94Xy8Mh",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "D8T9cZ5zKi_KZDr9tDpCf",
+        "target": "4U-HZQGH7kaWCB94Xy8Mh",
+        "type": "subtopic_of"
+      },
       {
         "source": "cSXsu17F1Oy34Wp6J-N3C",
         "target": "lNmddXrT8IHVtWobh3-oq",
@@ -3401,396 +4041,6 @@
         "source": "0BMpZDc-1rSvETwX82zON",
         "target": "4U-HZQGH7kaWCB94Xy8Mh",
         "type": "next_in_flow"
-      },
-      {
-        "source": "2rlmLn_yQQV-7DpX1qT98",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cMfsRtvzvDZZJ0TqeUOxm",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ODQ8zrHc2rsc8PN-APKvz",
-        "target": "JfXwzkN29UGz17FYHHE3A",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SnF3xtzBh-x4Z_qUQUg7H",
-        "target": "cSXsu17F1Oy34Wp6J-N3C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1oUJXtHGQ29ZZU9sxwGo2",
-        "target": "cSXsu17F1Oy34Wp6J-N3C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VhSEH_RoWFt1z2lial7xZ",
-        "target": "lNmddXrT8IHVtWobh3-oq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bxWLf0RDAl9Zaczkon9Rl",
-        "target": "lNmddXrT8IHVtWobh3-oq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yW7nDDJbjmm8XKJI0hq3Q",
-        "target": "lNmddXrT8IHVtWobh3-oq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KyKMZ8Aa5XUAIWelGTiSt",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GFGhnx5xUer2DdRI-SO4D",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kkH9H9Qh1FD7sLItoWw69",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "OFhyYyxtrCBy_UUb5YBv5",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "hHFR59RrdMIWxcQe72qCs",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "V34mZCkpoT49o-74XoATS",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "x-OZCZcX6uhN3Yr5BAATn",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wB0D9koC6jpt1rzX8F07F",
-        "target": "ervpuL89myBW3oR9r-4lH",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nk6zdVNRz_xE71mVUOFsi",
-        "target": "GYdz9a1yLiewAeMRSyfLr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Jr2iuQqyCbx6CyTJj4Qz2",
-        "target": "GYdz9a1yLiewAeMRSyfLr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xf7L5J42yQq3LE7lG2plp",
-        "target": "GYdz9a1yLiewAeMRSyfLr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3NLcPO-hqQV1EacoPLVrv",
-        "target": "GYdz9a1yLiewAeMRSyfLr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "A7ZIe8nlQnHU5g3LM3Eif",
-        "target": "GYdz9a1yLiewAeMRSyfLr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NdjmP1bZNYriV08vb-iRw",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ee4QqFTosXNcTgoQIok8i",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LRBHwYiT0Yyi18PwR49rc",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LL2ZkB7BuELyY2mPQhkAj",
-        "target": "NIJzKzWlsciAjxUpm4K2v",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PyPjHnKIWpnFHal8RuSmX",
-        "target": "NIJzKzWlsciAjxUpm4K2v",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "afwB90L-q2hIwrA0LtWbG",
-        "target": "NIJzKzWlsciAjxUpm4K2v",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1U3AiCDWEVEKsofWtqavi",
-        "target": "NIJzKzWlsciAjxUpm4K2v",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "u5I-EOnA_yt6AQsRX-qr0",
-        "target": "NIJzKzWlsciAjxUpm4K2v",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "apXv-E6LvOuOMj3EpzwuA",
-        "target": "NIJzKzWlsciAjxUpm4K2v",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1s9Y1dUtjpW9pu74ipX99",
-        "target": "4U-HZQGH7kaWCB94Xy8Mh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "sPITeu8bS7n04NdEiBibY",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "81tmis0km2h1zsjS2HsP5",
-        "target": "G15Aey-Spax_iUHpm1v38",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-b4LfjCjkSZ6ZsSv3eFm6",
-        "target": "G15Aey-Spax_iUHpm1v38",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3m7ANLJvtx3zie4y86MNU",
-        "target": "G15Aey-Spax_iUHpm1v38",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "spTzJMS7cE0cNa7tVQhVQ",
-        "target": "G15Aey-Spax_iUHpm1v38",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JgBfwmOgcVi_a96L5NGwr",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9pvrXH5Drdsa1cr93UBdc",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "oK8z23a_CjcDjBJ843_Jn",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vZMsm-MtsqmQMD-MG6zJY",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "CYqLNGyOe9f9hVhbyUnTX",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gLJMD9X7chy8OxdALht8g",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "m8Nu71Y61Ha_fLxdtWTkn",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tOt_vvmnBtOUbgokmVa5P",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wWwaEdnvBsvj6jD9LJ4Jj",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Tz-bRjQVkZedphelhAlWM",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Dq490IqEJXoFZRnBFJI8N",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HHx3VSfV7xf6RqACrxjBf",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uLH9eo2G09wGO80XtFI5x",
-        "target": "lNmddXrT8IHVtWobh3-oq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9eOwhh2k59nvH-ztuDNjg",
-        "target": "lNmddXrT8IHVtWobh3-oq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zzOyoDcAQYkNNv07TIKeZ",
-        "target": "lNmddXrT8IHVtWobh3-oq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "k9_hVOBd9ZmC4HLuAf46v",
-        "target": "cSXsu17F1Oy34Wp6J-N3C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "V7r1Hqk9IXTfjkjAg7-BT",
-        "target": "cSXsu17F1Oy34Wp6J-N3C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "s5YKenJY2Xv_PZBSxegEm",
-        "target": "cSXsu17F1Oy34Wp6J-N3C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0gH7vI_Hy7s9hO2TF6hR3",
-        "target": "cSXsu17F1Oy34Wp6J-N3C",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Frz1RYp3y9OwRb-3t2e85",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "E7N8tSg2amZW-vc-X46JU",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ouNTekf4VpZv-Vja8_bfM",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QOOZs9qtz49agfZwi6k1B",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4BgVq-cZYEXgqktvlNnet",
-        "target": "fnujIq6QAFB6bmTisuZ3T",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "h3ypxGxeHDCTxURHg6D2d",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "e-r3tuRZ3PzhFegES0oOm",
-        "target": "ervpuL89myBW3oR9r-4lH",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KoXTwQUqPt_ZhOFuaelny",
-        "target": "ervpuL89myBW3oR9r-4lH",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "D8T9cZ5zKi_KZDr9tDpCf",
-        "target": "4U-HZQGH7kaWCB94Xy8Mh",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yN283SRWoALOEZh9iTn-L",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GrFL32pZ_eOmdJRzSlH8b",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UqCpoPzYio3ng3RFlbvZ7",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8bn1PFd9h0ek6_T-cl1cS",
-        "target": "T4AhL9Zls2iNZMituGdtl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KZIrRSYq_I-YzpFaYLuWi",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LLANnVosxOUCPTtuBfNgu",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UQpyXrC2cs_jDXxVTlQOu",
-        "target": "HiUbRfOv8OttFd85pDUHN",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "k7uVPyhbPgvO6HxAfxxYZ",
-        "target": "7GBV5sfOaGxHwpkNUvFWE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aSCgax1M4wlmzkJSZV_fv",
-        "target": "7GBV5sfOaGxHwpkNUvFWE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "f7KFPFS2-EA90pumYHM9T",
-        "target": "7GBV5sfOaGxHwpkNUvFWE",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WsJGiMjHSQ6MpPd5wuP9h",
-        "target": "CGtVwhVGc8Vea5RfzJvQG",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "06gsRokwjxVa2xyLY4qAb",
-        "target": "w0WW1kg_0BEMeLa1l2gb5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "b-1-JcwLSGMyH3gXS59lY",
-        "target": "0BMpZDc-1rSvETwX82zON",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wMxTB8WgU6e-oYMtQFCDY",
-        "target": "0BMpZDc-1rSvETwX82zON",
-        "type": "subtopic_of"
       }
     ]
   }

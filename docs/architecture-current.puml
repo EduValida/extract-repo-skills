@@ -1,55 +1,81 @@
 @startuml
-title Arquitetura — preparação de evidências de contribuições Git
+' Título intencionalmente fora da imagem para não duplicar o título do slide.
+' Para usar o diagrama fora de uma apresentação, descomente a linha abaixo.
+' title Arquitetura — preparação de evidências de contribuições Git
+
 left to right direction
 skinparam shadowing false
-skinparam roundcorner 12
-skinparam nodesep 10
-skinparam ranksep 12
-skinparam defaultFontSize 12
-skinparam ArrowColor #9CA3AF
+skinparam roundcorner 10
+skinparam nodesep 18
+skinparam ranksep 35
+skinparam defaultFontSize 13
+skinparam defaultTextAlignment center
+skinparam ArrowColor #64748B
+skinparam ArrowThickness 1.2
+skinparam ArrowFontColor #475569
+skinparam ArrowFontSize 11
 skinparam rectangle {
-  BackgroundColor #E7EFE7
-  BorderColor #C5DCC5
-  FontColor #365B36
-  FontColor<<principal>> white
+  BackgroundColor #FFFFFF
+  BorderColor #CBD5E1
+  FontColor #334155
+  BorderThickness 1
+  FontColor<<principal>> #FFFFFF
+  BackgroundColor<<principal>> #182540
+  BorderColor<<principal>> #182540
+  FontColor<<stage>> #365B36
+  BackgroundColor<<stage>> #E7EFE7
+  BorderColor<<stage>> #C5DCC5
+  BackgroundColor<<manifest>> #E2E8F0
+  BackgroundColor<<reference>> #E2E8F0
+  BorderColor<<reference>> #CBD5E1
+  FontColor<<reference>> #334155
+  BorderColor<<external>> #94A3B8
+  BackgroundColor<<external>> #F8FAFC
+  FontColor<<external>> #64748B
+  BorderStyle<<external>> dashed
+}
+skinparam package {
+  BackgroundColor #F1F5F9
+  BorderColor #CBD5E1
+  FontColor #334155
+  FontStyle bold
+  BorderThickness 1
+}
+skinparam frame {
+  BorderColor #94A3B8
+  BorderThickness 1
+  FontColor #475569
+  FontStyle bold
+  FontSize 12
+  BackgroundColor transparent
 }
 hide stereotype
 
-rectangle "Entrada\nGit + e-mails do autor\nReferência e limites" as Input <<principal>> #182540
-rectangle "Seleção e coleta\nContribuições do autor\nContexto e métricas" as Collect
+frame "Este projeto" as Scope {
+  rectangle "<b>Entrada</b>\nGit + e-mails do autor\nReferência e limites" as Input <<principal>>
+  rectangle "<b>Seleção e coleta</b>\nContribuições do autor\nContexto e métricas" as Collect <<stage>>
 
-' O bloco embutido mantém os artefatos verticais e as setas nas bordas do pacote.
-rectangle Bundle #F8FAFC [
-<b>Pacote estático</b>
-{{uml
-skinparam backgroundColor transparent
-skinparam shadowing false
-skinparam roundcorner 12
-skinparam nodesep 10
-skinparam ranksep 10
-skinparam defaultFontSize 12
-skinparam rectangle {
-  BackgroundColor #E7EFE7
-  BorderColor #C5DCC5
-  FontColor #365B36
+  package "Pacote estático · 5 artefatos + manifesto" as Bundle {
+    rectangle "<b>git-log.json</b>\nHistórico e autoria" as Log
+    rectangle "<b>git-diff.json</b>\nAlterações e evidências" as Diff
+    rectangle "<b>languages.json</b>\nLinguagens e linhas" as Lang
+    rectangle "<b>project-context.json</b>\nEstrutura e configuração" as Proj
+    rectangle "<b>contribution-context.json</b>\nContexto e funções" as Ctx
+    rectangle "<b>Manifesto</b>\nRecorte, cobertura e hashes" as Man <<manifest>>
+
+    ' As arestas ocultas apenas organizam os cartões em 3 colunas × 2 linhas.
+    Proj -[hidden]right-> Log
+    Ctx -[hidden]right-> Diff
+    Man -[hidden]right-> Lang
+    Proj -[hidden]down-> Ctx
+    Ctx -[hidden]down-> Man
+  }
+
+  rectangle "<b>Catálogo versionado</b>\nCompetências e critérios" as Catalog <<reference>>
+  rectangle "<b>Preparação local</b>\nPacote + catálogo + instruções" as Prepare <<principal>>
 }
-rectangle "Histórico e autoria\ngit-log.json" as Log
-rectangle "Alterações e evidências\ngit-diff.json" as Diff
-rectangle "Linguagens e linhas\nlanguages.json" as Languages
-rectangle "Estrutura e configuração\nproject-context.json" as Project
-rectangle "Contexto e funções\ncontribution-context.json" as Context
-rectangle "Manifesto\nRecorte, cobertura e hashes" as Manifest #E2E8F0
-Log -[hidden]-> Diff
-Diff -[hidden]-> Languages
-Languages -[hidden]-> Project
-Project -[hidden]-> Context
-Context -[hidden]-> Manifest
-}}
-]
 
-rectangle "Catálogo versionado\nCompetências e critérios" as Catalog
-rectangle "Preparação da entrada\nPacote + catálogo + instruções" as Prepare <<principal>> #182540
-rectangle "Análise semântica com LLM\nOutro projeto" as External #F1F5F9
+rectangle "<b>Análise semântica com LLM</b>\nProjeto consumidor" as External <<external>>
 
 Input --> Collect
 Collect --> Bundle

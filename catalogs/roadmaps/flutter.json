@@ -1,0 +1,416 @@
+{
+  "title": "Flutter Developer",
+  "topics": [
+    {
+      "title": "Basics of Dart",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dart Pad"
+        },
+        {
+          "title": "Flutter CLI"
+        },
+        {
+          "title": "FVM"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Built-in Types"
+        },
+        {
+          "title": "Functions"
+        },
+        {
+          "title": "Control Flow Statements"
+        }
+      ]
+    },
+    {
+      "title": "Development Environment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VS Code"
+            },
+            {
+              "title": "Android Studio"
+            },
+            {
+              "title": "IntelliJ Idea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Widgets",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Responsive Widgets"
+        },
+        {
+          "title": "Inherited Widgets"
+        },
+        {
+          "title": "Stateless Widgets"
+        },
+        {
+          "title": "Stateful Widgets"
+        },
+        {
+          "title": "Styled Widgets"
+        }
+      ]
+    },
+    {
+      "title": "Working with Assets",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "Fonts"
+        },
+        {
+          "title": "Images"
+        },
+        {
+          "title": "Other File Types"
+        }
+      ]
+    },
+    {
+      "title": "Version Control Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Repo Hosting Services",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        }
+      ]
+    },
+    {
+      "title": "Package Managers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Material Widgets"
+        },
+        {
+          "title": "Cupertino Widgets"
+        },
+        {
+          "title": "pub.dev"
+        },
+        {
+          "title": "flutter pub / dart pub"
+        }
+      ]
+    },
+    {
+      "title": "Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dependency Injection"
+        },
+        {
+          "title": "Design Patterns"
+        },
+        {
+          "title": "SOLID Principles"
+        },
+        {
+          "title": "OOP"
+        }
+      ]
+    },
+    {
+      "title": "Working with APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JSON Serialize / Deserialize"
+        },
+        {
+          "title": "Web Sockets"
+        },
+        {
+          "title": "GraphQL"
+        },
+        {
+          "title": "RESTful APIs"
+        },
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Collections"
+        },
+        {
+          "title": "Isolates"
+        }
+      ]
+    },
+    {
+      "title": "Storage",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SQLite"
+        },
+        {
+          "title": "Shared Preferences"
+        },
+        {
+          "title": "Firebase"
+        },
+        {
+          "title": "Core Libraries"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Dart",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Streams"
+        },
+        {
+          "title": "Futures"
+        },
+        {
+          "title": "Lambdas"
+        },
+        {
+          "title": "Functional Programming"
+        },
+        {
+          "title": "Async / Await"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ChangeNotifier"
+        },
+        {
+          "title": "ValueNotifier"
+        },
+        {
+          "title": "Riverpod"
+        },
+        {
+          "title": "Provider"
+        },
+        {
+          "title": "Animation Controller"
+        }
+      ]
+    },
+    {
+      "title": "Reactive Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Storage"
+        },
+        {
+          "title": "Firestore"
+        },
+        {
+          "title": "Push Notifications"
+        },
+        {
+          "title": "Remote Config"
+        },
+        {
+          "title": "Cloud Functions"
+        },
+        {
+          "title": "RxDart"
+        }
+      ]
+    },
+    {
+      "title": "Animations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Animated Builder"
+        },
+        {
+          "title": "Animated Widget"
+        },
+        {
+          "title": "Curved Animation"
+        },
+        {
+          "title": "Opacity"
+        }
+      ]
+    },
+    {
+      "title": "Flutter Internals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Redux"
+        },
+        {
+          "title": "BLoC"
+        },
+        {
+          "title": "GetX"
+        },
+        {
+          "title": "Render Objects"
+        },
+        {
+          "title": "3 Trees"
+        },
+        {
+          "title": "Immutability"
+        },
+        {
+          "title": "Fast Lane"
+        },
+        {
+          "title": "Codemagic"
+        },
+        {
+          "title": "Bitrise"
+        }
+      ]
+    },
+    {
+      "title": "Dev Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hero"
+        },
+        {
+          "title": "Flutter Inspector"
+        },
+        {
+          "title": "Flutter Outline"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Widget Testing"
+        },
+        {
+          "title": "TDD"
+        },
+        {
+          "title": "BDD"
+        }
+      ]
+    },
+    {
+      "title": "CI / CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub Actions"
+        },
+        {
+          "title": "Firebase App Dist"
+        }
+      ]
+    },
+    {
+      "title": "Analytics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Memory Allocation"
+        },
+        {
+          "title": "Segment"
+        },
+        {
+          "title": "Mix Panel"
+        },
+        {
+          "title": "Firebase Analytics"
+        },
+        {
+          "title": "Google Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Guidelines & Protocols"
+        },
+        {
+          "title": "AppStore"
+        },
+        {
+          "title": "Playstore"
+        }
+      ]
+    }
+  ]
+}

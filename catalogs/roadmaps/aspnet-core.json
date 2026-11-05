@@ -1,0 +1,631 @@
+{
+  "title": "ASP.NET Core Developer",
+  "topics": [
+    {
+      "title": "Learn the Basics of C#",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C#"
+        },
+        {
+          "title": ".NET"
+        },
+        {
+          "title": ".NET CLI"
+        },
+        {
+          "title": "StyleCop Rules"
+        }
+      ]
+    },
+    {
+      "title": "General Development Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git - Version Control"
+        },
+        {
+          "title": "GitHub, GitLab, BitBucket"
+        },
+        {
+          "title": "HTTP / HTTPs Protocol"
+        },
+        {
+          "title": "Data Structures and Algorithms"
+        }
+      ]
+    },
+    {
+      "title": "ASP.NET Core Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Special thanks for the roadmap contribution",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MVC"
+            },
+            {
+              "title": "REST"
+            },
+            {
+              "title": "Minimal APIs"
+            },
+            {
+              "title": "Razor Pages"
+            },
+            {
+              "title": "Razor Components"
+            },
+            {
+              "title": "Middlewares"
+            },
+            {
+              "title": "Filters and Attributes"
+            },
+            {
+              "title": "App Settings and Configs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Database Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SQL Basics"
+        },
+        {
+          "title": "Database Design Basics"
+        },
+        {
+          "title": "Stored Procedures"
+        },
+        {
+          "title": "Constraints"
+        },
+        {
+          "title": "Triggers"
+        }
+      ]
+    },
+    {
+      "title": "Object Relational Mapping",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "RepoDB"
+        },
+        {
+          "title": "Dapper"
+        },
+        {
+          "title": "Entity Framework Core"
+        },
+        {
+          "title": "NHibernate"
+        },
+        {
+          "title": "Framework Basics"
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Redis"
+        },
+        {
+          "title": "Memcached"
+        },
+        {
+          "title": "Distributed Cache"
+        },
+        {
+          "title": "Memory Cache"
+        },
+        {
+          "title": "Entity Framework 2nd Level Cache"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Injection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code First + Migrations"
+        },
+        {
+          "title": "Change Tracker API"
+        },
+        {
+          "title": "Lazy, Eager, Explicit Loading"
+        },
+        {
+          "title": "Scrutor"
+        }
+      ]
+    },
+    {
+      "title": "Life Cycles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Scoped"
+        },
+        {
+          "title": "Transient"
+        },
+        {
+          "title": "Singleton"
+        }
+      ]
+    },
+    {
+      "title": "DI Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Microsoft.Extensions"
+        },
+        {
+          "title": "AutoFac"
+        }
+      ]
+    },
+    {
+      "title": "Search Engines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Elastic Search"
+        }
+      ]
+    },
+    {
+      "title": "Cloud",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cosmos DB"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Serilog"
+        }
+      ]
+    },
+    {
+      "title": "Relational",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Solr"
+        },
+        {
+          "title": "Sphinx"
+        },
+        {
+          "title": "SQL Server"
+        },
+        {
+          "title": "PostgreSQL"
+        },
+        {
+          "title": "MariaDB"
+        },
+        {
+          "title": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "NoSQL",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dynamo DB"
+        },
+        {
+          "title": "MongoDB"
+        },
+        {
+          "title": "Cassandra"
+        },
+        {
+          "title": "LiteDB"
+        }
+      ]
+    },
+    {
+      "title": "Log Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "NLog"
+        }
+      ]
+    },
+    {
+      "title": "GraphQL",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GraphQL .NET"
+        },
+        {
+          "title": "HotChocolate"
+        }
+      ]
+    },
+    {
+      "title": "REST",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gridlify"
+        },
+        {
+          "title": "Odata"
+        }
+      ]
+    },
+    {
+      "title": "API Clients and Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "gRPC"
+        }
+      ]
+    },
+    {
+      "title": "Real-Time Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CouchDB"
+        },
+        {
+          "title": "Web Sockets"
+        },
+        {
+          "title": "SignalR Core"
+        }
+      ]
+    },
+    {
+      "title": "Object Mapping",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AutoMapper"
+        },
+        {
+          "title": "Mapperly"
+        },
+        {
+          "title": "Manual Mapping"
+        },
+        {
+          "title": "Native Background Service"
+        }
+      ]
+    },
+    {
+      "title": "Task Scheduling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hangfire"
+        },
+        {
+          "title": "Quartz"
+        },
+        {
+          "title": "Coravel"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "E2E Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "WebApplicationFactory"
+            },
+            {
+              "title": "Playwright"
+            },
+            {
+              "title": "Puppeteer"
+            },
+            {
+              "title": "Test Containers"
+            },
+            {
+              "title": ".NET Aspire"
+            },
+            {
+              "title": "Cypress"
+            }
+          ]
+        },
+        {
+          "title": "Integration Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Respawn"
+            }
+          ]
+        },
+        {
+          "title": "Behavior Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MSTest"
+            },
+            {
+              "title": "RecNRoll"
+            },
+            {
+              "title": "Light BDD"
+            },
+            {
+              "title": "Shouldly"
+            }
+          ]
+        },
+        {
+          "title": "Unit Testing Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "XUnit"
+            },
+            {
+              "title": "NUnit"
+            }
+          ]
+        },
+        {
+          "title": "Fake Data Generation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AutoFixture"
+            },
+            {
+              "title": "Bogus"
+            }
+          ]
+        },
+        {
+          "title": "Mocking",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "NSubstitute"
+            },
+            {
+              "title": "Moq"
+            },
+            {
+              "title": "FakeItEasy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Microservices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Message Brokers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Kafka"
+            },
+            {
+              "title": "ActiveMQ"
+            },
+            {
+              "title": "RabbitMQ"
+            },
+            {
+              "title": "NetMQ"
+            },
+            {
+              "title": "Azure Service Bus"
+            }
+          ]
+        },
+        {
+          "title": "GitHub Actions"
+        },
+        {
+          "title": "Azure Pipelines"
+        },
+        {
+          "title": "Message Bus",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "NServiceBus"
+            },
+            {
+              "title": "Mass Transit"
+            },
+            {
+              "title": "EasyNetQ"
+            }
+          ]
+        },
+        {
+          "title": "API Gateway",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Ocelot"
+            },
+            {
+              "title": "YARP"
+            }
+          ]
+        },
+        {
+          "title": "Containerization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Docker"
+            },
+            {
+              "title": "Kubernetes"
+            }
+          ]
+        },
+        {
+          "title": "Other",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": ".NET Aspire"
+            },
+            {
+              "title": "Orleans"
+            },
+            {
+              "title": "SteelToe"
+            },
+            {
+              "title": "Dapr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "CI / CD",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitLab CI/CD"
+        },
+        {
+          "title": "Circle CI"
+        },
+        {
+          "title": "Scalar"
+        }
+      ]
+    },
+    {
+      "title": "Template Engines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Razor"
+        },
+        {
+          "title": "Scriban"
+        },
+        {
+          "title": "Fluid"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Blazor"
+        },
+        {
+          "title": ".NET MAUI"
+        },
+        {
+          "title": "MediatR"
+        },
+        {
+          "title": "FluentValidation"
+        },
+        {
+          "title": "Polly"
+        },
+        {
+          "title": "Marten"
+        },
+        {
+          "title": "Nuke"
+        },
+        {
+          "title": "Benchmark.NET"
+        },
+        {
+          "title": "Distributed Lock"
+        }
+      ]
+    }
+  ]
+}

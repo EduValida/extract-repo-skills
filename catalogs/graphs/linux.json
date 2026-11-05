@@ -3,7 +3,7 @@
     "slug": "linux",
     "title": "Linux Roadmap",
     "description": "Step by step guide to learning Linux in 2026",
-    "extracted_at": "2026-10-29T01:04:18.711110+00:00",
+    "extracted_at": "2026-11-05T02:15:13.322723+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/linux",
     "total_topics": 16,
     "total_subtopics": 86
@@ -74,7 +74,9 @@
                 "url": "https://www.linuxbash.sh/post/basic-navigation-commands-cd-ls-and-pwd"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/basic-commands@qLeEEwBvlGt1fP5Qcreah.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/basic-commands@qLeEEwBvlGt1fP5Qcreah.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "q-Ky0ietZGpyUcBQfh-BJ",
@@ -98,7 +100,9 @@
                 "url": "https://labex.io/tutorials/linux-linux-mv-command-file-moving-and-renaming-209743"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/moving-files--directories@q-Ky0ietZGpyUcBQfh-BJ.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/moving-files--directories@q-Ky0ietZGpyUcBQfh-BJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "9oo2fxTM2_p0VYPBroqxa",
@@ -122,7 +126,9 @@
                 "url": "https://dev.to/alkesh009/linux-basics-part-4-creating-moving-and-deleting-files-and-folders-5hip"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/creating--deleting-files--dirs@9oo2fxTM2_p0VYPBroqxa.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/creating--deleting-files--dirs@9oo2fxTM2_p0VYPBroqxa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3fzuXKH7az_LVnmnoXB1p",
@@ -146,7 +152,9 @@
                 "url": "https://youtu.be/A3G-3hp88mo?si=sTJTSzubdb0Vizjr"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/directory-hierarchy-overview@3fzuXKH7az_LVnmnoXB1p.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/directory-hierarchy-overview@3fzuXKH7az_LVnmnoXB1p.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -178,37 +186,8 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/editing-files@HGmeYvRf7_XusZl_K4x9k.md",
-        "subtopics_count": 4,
+        "subtopics_count": 2,
         "subtopics": [
-          {
-            "id": "yqRwmcZThjQuqh2ao0dWK",
-            "name": "Nano",
-            "type": "subtopic",
-            "description": "Nano is a popular, user-friendly text editor used for creating and editing files directly within the Linux command line interface (CLI). It is an alternative to editors like `Vi` and `Emacs` and is considered more straightforward for beginners due to its simple and intuitive interface.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "nano - Text editor",
-                "url": "https://www.nano-editor.org/"
-              },
-              {
-                "type": "article",
-                "title": "Editing Files With Nano in Linux",
-                "url": "https://itsfoss.com/nano-editor-guide/"
-              },
-              {
-                "type": "article",
-                "title": "Nano in Linux",
-                "url": "https://ioflood.com/blog/nano-linux-command/"
-              },
-              {
-                "type": "video",
-                "title": "Nano editor fundamentals",
-                "url": "https://www.youtube.com/watch?v=gyKiDczLIZ4&ab_channel=HackerSploit"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/nano@yqRwmcZThjQuqh2ao0dWK.md"
-          },
           {
             "id": "XiZz7EFIey1XKS292GN4t",
             "name": "Vim",
@@ -241,50 +220,40 @@
                 "url": "https://www.youtube.com/watch?v=wACD8WEnImo&list=PLT98CRl2KxKHy4A5N70jMRYAROzzC2a6x&ab_channel=LearnLinuxTV"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/vim@XiZz7EFIey1XKS292GN4t.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/vim@XiZz7EFIey1XKS292GN4t.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "t3fxSgCgtxuMtHjclPHA6",
-            "name": "stdout / stdin / stderr",
+            "id": "yqRwmcZThjQuqh2ao0dWK",
+            "name": "Nano",
             "type": "subtopic",
-            "description": "Linux processes use three standard data streams: STDIN (input), STDOUT (output), and STDERR (error messages). STDOUT handles normal command output while STDERR specifically handles error messages. You can redirect these streams using operators like `>` for stdout and `2>` for stderr, allowing separate handling of normal output and errors for better scripting and debugging.",
+            "description": "Nano is a popular, user-friendly text editor used for creating and editing files directly within the Linux command line interface (CLI). It is an alternative to editors like `Vi` and `Emacs` and is considered more straightforward for beginners due to its simple and intuitive interface.",
             "resources": [
               {
-                "type": "article",
-                "title": "Linux Fundamentals - I/O, Standard Streams, and Redirection",
-                "url": "https://www.putorius.net/linux-io-file-descriptors-and-redirection.html"
+                "type": "official",
+                "title": "nano - Text editor",
+                "url": "https://www.nano-editor.org/"
               },
               {
                 "type": "article",
-                "title": "Understanding 'stdin', 'stdout' and 'stderr' in Linux",
-                "url": "https://www.slingacademy.com/article/understanding-stdin-stdout-and-stderr-in-linux/"
+                "title": "Editing Files With Nano in Linux",
+                "url": "https://itsfoss.com/nano-editor-guide/"
               },
               {
                 "type": "article",
-                "title": "Working with data streams on the Linux command line",
-                "url": "https://opensource.com/article/18/10/linux-data-streams"
+                "title": "Nano in Linux",
+                "url": "https://ioflood.com/blog/nano-linux-command/"
+              },
+              {
+                "type": "video",
+                "title": "Nano editor fundamentals",
+                "url": "https://www.youtube.com/watch?v=gyKiDczLIZ4&ab_channel=HackerSploit"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/stdout--stdin--stderr@t3fxSgCgtxuMtHjclPHA6.md"
-          },
-          {
-            "id": "Z5Mf_e5G24IkmxEHgYBe2",
-            "name": "cut",
-            "type": "subtopic",
-            "description": "The `cut` command is a text processing utility that allows you to cut out sections of each line from a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Cut Command in Linux | Linuxize",
-                "url": "https://linuxize.com/post/linux-cut-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux cut Command: Text Cutting",
-                "url": "https://labex.io/tutorials/linux-linux-cut-command-text-cutting-219187"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/cut@Z5Mf_e5G24IkmxEHgYBe2.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/nano@yqRwmcZThjQuqh2ao0dWK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -311,7 +280,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/shell-and-other-basics@8QBMyL8D5jPovxN8jyZW9.md",
-        "subtopics_count": 13,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "moGMHNR58wFlzhS7je1wc",
@@ -330,7 +299,9 @@
                 "url": "https://www.cyberciti.biz/howto/finding-a-path-of-a-linux-command-like-a-pro/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/command-path@moGMHNR58wFlzhS7je1wc.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/command-path@moGMHNR58wFlzhS7je1wc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zwXEmpPYjA7_msS43z7I0",
@@ -354,7 +325,9 @@
                 "url": "https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/environment-variables@zwXEmpPYjA7_msS43z7I0.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/environment-variables@zwXEmpPYjA7_msS43z7I0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5658kdqJw-pIOyyhll80a",
@@ -373,69 +346,9 @@
                 "url": "https://linuxhandbook.com/paste-command/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/paste@5658kdqJw-pIOyyhll80a.md"
-          },
-          {
-            "id": "1WRIy3xHtQfiQFZrprobP",
-            "name": "sort",
-            "type": "subtopic",
-            "description": "Linux provides a variety of tools for processing and manipulating text files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Sort Command in Linux - 10 Useful Examples",
-                "url": "https://linuxhandbook.com/sort-command/"
-              },
-              {
-                "type": "article",
-                "title": "Sort Command in Linux with Practical Examples",
-                "url": "https://tecadmin.net/linux-sort-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux sort Command: Text Sorting",
-                "url": "https://labex.io/tutorials/linux-linux-sort-command-text-sorting-219196"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/sort@1WRIy3xHtQfiQFZrprobP.md"
-          },
-          {
-            "id": "6xdkFk_GT93MigeTSSGCp",
-            "name": "head",
-            "type": "subtopic",
-            "description": "The `head` command in Linux is a text processing utility that allows a user to output the first part (or the \"head\") of files. It is commonly used for previewing the start of a file without loading the entire document into memory, which can act as an efficient way of quickly examining the data in very large files. By default, the `head` command prints the first 10 lines of each file to standard output, which is the terminal in most systems.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Head Command in Linux - 5 Essential Examples",
-                "url": "https://linuxhandbook.com/head-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux head Command: File Beginning Display",
-                "url": "https://labex.io/tutorials/linux-linux-head-command-file-beginning-display-214302"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/head@6xdkFk_GT93MigeTSSGCp.md"
-          },
-          {
-            "id": "O9Vci_WpUY-79AkA4HDx3",
-            "name": "tr",
-            "type": "subtopic",
-            "description": "The `tr` command in Linux is a command-line utility that translates or substitutes characters. It reads from the standard input and writes to the standard output. Although commonly used for translation applications, `tr` has versatile functionality in the text processing aspect of Linux. Ranging from replacing a list of characters, to deleting or squeezing character repetitions, `tr` presents a robust tool for stream-based text manipulations.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "tr Command in Linux: 6 Useful Examples",
-                "url": "https://linuxhandbook.com/tr-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux tr Command with Practical Examples",
-                "url": "https://labex.io/tutorials/linux-linux-tr-command-with-practical-examples-422963"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/tr@O9Vci_WpUY-79AkA4HDx3.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/paste@5658kdqJw-pIOyyhll80a.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KaMSsQnJzNqGHg0Oia4uy",
@@ -464,74 +377,9 @@
                 "url": "https://labex.io/tutorials/linux-get-help-on-linux-commands-18000"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/command-help@KaMSsQnJzNqGHg0Oia4uy.md"
-          },
-          {
-            "id": "Yyk28H6TiteZEGv6Aps1h",
-            "name": "tail",
-            "type": "subtopic",
-            "description": "The `tail` command in Linux is a utility used in text processing. Fundamentally, it's used to output the last part of the files. The command reads data from standard input or from a file and outputs the last `N` bytes, lines, blocks, characters or words to the standard output (or a different file). By default, `tail` returns the last 10 lines of each file to the standard output. This command is common in situations where the user is interested in the most recent entries in a text file, such as log files.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "5 Practical Examples of Tail Command in Linux",
-                "url": "https://linuxhandbook.com/tail-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux Tail Command | Linuxize",
-                "url": "https://linuxize.com/post/linux-tail-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux tail Command: File End Display",
-                "url": "https://labex.io/tutorials/linux-linux-tail-command-file-end-display-214303"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/tail@Yyk28H6TiteZEGv6Aps1h.md"
-          },
-          {
-            "id": "vfcCS1GoyKpU1rQaE8I5r",
-            "name": "join",
-            "type": "subtopic",
-            "description": "`join` is a powerful text processing command in Linux. It lets you combine lines of two files on a common field, which works similar to the 'Join' operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "join(1) — Linux manual page",
-                "url": "https://www.man7.org/linux/man-pages/man1/join.1.html"
-              },
-              {
-                "type": "article",
-                "title": "join command in Linux with examples",
-                "url": "https://linuxconfig.org/join"
-              },
-              {
-                "type": "article",
-                "title": "Linux join Command: File Joining",
-                "url": "https://labex.io/tutorials/linux-linux-join-command-file-joining-219193"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/join@vfcCS1GoyKpU1rQaE8I5r.md"
-          },
-          {
-            "id": "Pl9s2ti25hsSEljXJvBTj",
-            "name": "split",
-            "type": "subtopic",
-            "description": "Linux provides an extensive set of tools for manipulating text data. One of such utilities is the `split` command that is used, as the name suggests, to split large files into smaller files. The `split` command in Linux divides a file into multiple equal parts, based on the lines or bytes specified by the user.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Split Command in Linux: 9 Useful Examples",
-                "url": "https://linuxhandbook.com/split-command/"
-              },
-              {
-                "type": "article",
-                "title": "Split Command in Linux: Usage Guide with Examples",
-                "url": "https://ioflood.com/blog/split-linux-command/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/split@Pl9s2ti25hsSEljXJvBTj.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/command-help@KaMSsQnJzNqGHg0Oia4uy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JgoZzx4BfK7tmosgpZOsf",
@@ -550,26 +398,9 @@
                 "url": "https://www.gnu.org/software/bash/manual/html_node/Redirections.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/redirects@JgoZzx4BfK7tmosgpZOsf.md"
-          },
-          {
-            "id": "Bo9CdrGJej-QcNmw46k9t",
-            "name": "tee",
-            "type": "subtopic",
-            "description": "The `tee` command reads from standard input and writes to both standard output and files simultaneously, like a T-splitter in plumbing. It enables users to view results in the terminal while saving output to files concurrently. Syntax: `command | tee file`. Extremely useful for documenting terminal activities and preserving command outputs for later analysis.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Tee Command in Linux Explained with Examples",
-                "url": "https://linuxhandbook.com/tee-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux Tee Command",
-                "url": "https://linuxize.com/post/linux-tee-command/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/tee@Bo9CdrGJej-QcNmw46k9t.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/redirects@JgoZzx4BfK7tmosgpZOsf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NIBSZGE9PskVrluJpdom0",
@@ -593,7 +424,9 @@
                 "url": "https://www.scaler.com/topics/super-user-in-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/super-user@NIBSZGE9PskVrluJpdom0.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/super-user@NIBSZGE9PskVrluJpdom0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -659,7 +492,9 @@
                 "url": "https://learn.webterm.app/en/courses/terminal-advanced"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/file-permissions@TnrT-cqMA8urew9nLv0Ns.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/file-permissions@TnrT-cqMA8urew9nLv0Ns.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "iD073xTmpzvQFfXwcwXcY",
@@ -673,7 +508,9 @@
                 "url": "https://labex.io/tutorials/linux-file-packaging-and-compression-385413"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/archiving-and-compressing@iD073xTmpzvQFfXwcwXcY.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/archiving-and-compressing@iD073xTmpzvQFfXwcwXcY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "abKO6KuuIfl9ruVxBw6t_",
@@ -702,7 +539,9 @@
                 "url": "https://labex.io/tutorials/linux-linux-mv-command-file-moving-and-renaming-209743"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/copying-and-renaming@abKO6KuuIfl9ruVxBw6t_.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/copying-and-renaming@abKO6KuuIfl9ruVxBw6t_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KaXHG_EKxI5PUXmcvlJt6",
@@ -726,7 +565,9 @@
                 "url": "https://labex.io/tutorials/linux-how-to-understand-the-difference-between-hard-and-symbolic-links-in-linux-409929"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/soft-links--hard-links@KaXHG_EKxI5PUXmcvlJt6.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/soft-links--hard-links@KaXHG_EKxI5PUXmcvlJt6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -758,8 +599,196 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/text-processing@-B2Dvz7160Er0OBHzS6ro.md",
-        "subtopics_count": 8,
+        "subtopics_count": 17,
         "subtopics": [
+          {
+            "id": "t3fxSgCgtxuMtHjclPHA6",
+            "name": "stdout / stdin / stderr",
+            "type": "subtopic",
+            "description": "Linux processes use three standard data streams: STDIN (input), STDOUT (output), and STDERR (error messages). STDOUT handles normal command output while STDERR specifically handles error messages. You can redirect these streams using operators like `>` for stdout and `2>` for stderr, allowing separate handling of normal output and errors for better scripting and debugging.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Linux Fundamentals - I/O, Standard Streams, and Redirection",
+                "url": "https://www.putorius.net/linux-io-file-descriptors-and-redirection.html"
+              },
+              {
+                "type": "article",
+                "title": "Understanding 'stdin', 'stdout' and 'stderr' in Linux",
+                "url": "https://www.slingacademy.com/article/understanding-stdin-stdout-and-stderr-in-linux/"
+              },
+              {
+                "type": "article",
+                "title": "Working with data streams on the Linux command line",
+                "url": "https://opensource.com/article/18/10/linux-data-streams"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/stdout--stdin--stderr@t3fxSgCgtxuMtHjclPHA6.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Z5Mf_e5G24IkmxEHgYBe2",
+            "name": "cut",
+            "type": "subtopic",
+            "description": "The `cut` command is a text processing utility that allows you to cut out sections of each line from a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Cut Command in Linux | Linuxize",
+                "url": "https://linuxize.com/post/linux-cut-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux cut Command: Text Cutting",
+                "url": "https://labex.io/tutorials/linux-linux-cut-command-text-cutting-219187"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/cut@Z5Mf_e5G24IkmxEHgYBe2.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "1WRIy3xHtQfiQFZrprobP",
+            "name": "sort",
+            "type": "subtopic",
+            "description": "Linux provides a variety of tools for processing and manipulating text files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Sort Command in Linux - 10 Useful Examples",
+                "url": "https://linuxhandbook.com/sort-command/"
+              },
+              {
+                "type": "article",
+                "title": "Sort Command in Linux with Practical Examples",
+                "url": "https://tecadmin.net/linux-sort-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux sort Command: Text Sorting",
+                "url": "https://labex.io/tutorials/linux-linux-sort-command-text-sorting-219196"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/sort@1WRIy3xHtQfiQFZrprobP.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "O9Vci_WpUY-79AkA4HDx3",
+            "name": "tr",
+            "type": "subtopic",
+            "description": "The `tr` command in Linux is a command-line utility that translates or substitutes characters. It reads from the standard input and writes to the standard output. Although commonly used for translation applications, `tr` has versatile functionality in the text processing aspect of Linux. Ranging from replacing a list of characters, to deleting or squeezing character repetitions, `tr` presents a robust tool for stream-based text manipulations.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "tr Command in Linux: 6 Useful Examples",
+                "url": "https://linuxhandbook.com/tr-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux tr Command with Practical Examples",
+                "url": "https://labex.io/tutorials/linux-linux-tr-command-with-practical-examples-422963"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/tr@O9Vci_WpUY-79AkA4HDx3.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "6xdkFk_GT93MigeTSSGCp",
+            "name": "head",
+            "type": "subtopic",
+            "description": "The `head` command in Linux is a text processing utility that allows a user to output the first part (or the \"head\") of files. It is commonly used for previewing the start of a file without loading the entire document into memory, which can act as an efficient way of quickly examining the data in very large files. By default, the `head` command prints the first 10 lines of each file to standard output, which is the terminal in most systems.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Head Command in Linux - 5 Essential Examples",
+                "url": "https://linuxhandbook.com/head-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux head Command: File Beginning Display",
+                "url": "https://labex.io/tutorials/linux-linux-head-command-file-beginning-display-214302"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/head@6xdkFk_GT93MigeTSSGCp.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Yyk28H6TiteZEGv6Aps1h",
+            "name": "tail",
+            "type": "subtopic",
+            "description": "The `tail` command in Linux is a utility used in text processing. Fundamentally, it's used to output the last part of the files. The command reads data from standard input or from a file and outputs the last `N` bytes, lines, blocks, characters or words to the standard output (or a different file). By default, `tail` returns the last 10 lines of each file to the standard output. This command is common in situations where the user is interested in the most recent entries in a text file, such as log files.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "5 Practical Examples of Tail Command in Linux",
+                "url": "https://linuxhandbook.com/tail-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux Tail Command | Linuxize",
+                "url": "https://linuxize.com/post/linux-tail-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux tail Command: File End Display",
+                "url": "https://labex.io/tutorials/linux-linux-tail-command-file-end-display-214303"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/tail@Yyk28H6TiteZEGv6Aps1h.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "vfcCS1GoyKpU1rQaE8I5r",
+            "name": "join",
+            "type": "subtopic",
+            "description": "`join` is a powerful text processing command in Linux. It lets you combine lines of two files on a common field, which works similar to the 'Join' operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "join(1) — Linux manual page",
+                "url": "https://www.man7.org/linux/man-pages/man1/join.1.html"
+              },
+              {
+                "type": "article",
+                "title": "join command in Linux with examples",
+                "url": "https://linuxconfig.org/join"
+              },
+              {
+                "type": "article",
+                "title": "Linux join Command: File Joining",
+                "url": "https://labex.io/tutorials/linux-linux-join-command-file-joining-219193"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/join@vfcCS1GoyKpU1rQaE8I5r.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Pl9s2ti25hsSEljXJvBTj",
+            "name": "split",
+            "type": "subtopic",
+            "description": "Linux provides an extensive set of tools for manipulating text data. One of such utilities is the `split` command that is used, as the name suggests, to split large files into smaller files. The `split` command in Linux divides a file into multiple equal parts, based on the lines or bytes specified by the user.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Split Command in Linux: 9 Useful Examples",
+                "url": "https://linuxhandbook.com/split-command/"
+              },
+              {
+                "type": "article",
+                "title": "Split Command in Linux: Usage Guide with Examples",
+                "url": "https://ioflood.com/blog/split-linux-command/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/split@Pl9s2ti25hsSEljXJvBTj.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "v32PJl4fzIFTOirOm6G44",
             "name": "pipe",
@@ -787,7 +816,30 @@
                 "url": "https://learn.webterm.app/en/courses/terminal-fundamentals"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/pipe@v32PJl4fzIFTOirOm6G44.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/pipe@v32PJl4fzIFTOirOm6G44.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Bo9CdrGJej-QcNmw46k9t",
+            "name": "tee",
+            "type": "subtopic",
+            "description": "The `tee` command reads from standard input and writes to both standard output and files simultaneously, like a T-splitter in plumbing. It enables users to view results in the terminal while saving output to files concurrently. Syntax: `command | tee file`. Extremely useful for documenting terminal activities and preserving command outputs for later analysis.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Tee Command in Linux Explained with Examples",
+                "url": "https://linuxhandbook.com/tee-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux Tee Command",
+                "url": "https://linuxize.com/post/linux-tee-command/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/tee@Bo9CdrGJej-QcNmw46k9t.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YSfGrmT795miIeIZrtC3D",
@@ -811,7 +863,9 @@
                 "url": "https://hopeness.medium.com/master-the-linux-nl-command-a-comprehensive-guide-79c6adf50fa9"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/nl@YSfGrmT795miIeIZrtC3D.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/nl@YSfGrmT795miIeIZrtC3D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LIGOJwrXexnIcPyHVlhQ8",
@@ -835,7 +889,9 @@
                 "url": "https://labex.io/tutorials/linux-linux-wc-command-text-counting-219200"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/wc@LIGOJwrXexnIcPyHVlhQ8.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/wc@LIGOJwrXexnIcPyHVlhQ8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "TZuDVFS7DZFBgaSYYXoGe",
@@ -854,7 +910,9 @@
                 "url": "https://commandmasters.com/commands/expand-common/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/expand@TZuDVFS7DZFBgaSYYXoGe.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/expand@TZuDVFS7DZFBgaSYYXoGe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "sKduFaX6xZaUUBdXRMKCL",
@@ -878,7 +936,9 @@
                 "url": "https://labex.io/tutorials/linux-linux-unexpand-command-with-practical-examples-422975"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/unexpand@sKduFaX6xZaUUBdXRMKCL.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/unexpand@sKduFaX6xZaUUBdXRMKCL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qnBbzphImflQbEbtFub9x",
@@ -902,7 +962,9 @@
                 "url": "https://www.redhat.com/en/blog/uniq-command-lists"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/uniq@qnBbzphImflQbEbtFub9x.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/uniq@qnBbzphImflQbEbtFub9x.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "umlhxidsvtZG9k40Ca0Ac",
@@ -926,7 +988,9 @@
                 "url": "https://labex.io/tutorials/linux-linux-grep-command-pattern-searching-219192"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/grep@umlhxidsvtZG9k40Ca0Ac.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/grep@umlhxidsvtZG9k40Ca0Ac.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "QTmECqpRVMjNgQU70uCF8",
@@ -955,206 +1019,9 @@
                 "url": "https://www.youtube.com/watch?v=9YOZmI-zWok"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/awk@QTmECqpRVMjNgQU70uCF8.md"
-          }
-        ]
-      },
-      {
-        "id": "jSzfQf0MlnXtWHCc-HYvr",
-        "name": "Server Review",
-        "type": "topic",
-        "description": "Server review in Linux involves assessing performance, security, and configuration to identify improvements and issues. Check security enhancements, log files, user accounts, network configuration, and software versions. Common commands: `free -m` for memory, `df -h` for disk usage, `uptime` for CPU load. Critical task for system administrators and DevOps professionals to ensure optimal performance, security, and reliability.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Linux Server Management Essentials",
-            "url": "https://www.ictbroadcast.com/linux-server-management-essentials-administration-monitoring-and-maintenance-guidelines-for-success/"
-          },
-          {
-            "type": "article",
-            "title": "Essential Linux Server Maintenance Checklist",
-            "url": "https://tecadmin.net/linux-server-maintenance-checklist/"
-          },
-          {
-            "type": "article",
-            "title": "Optimizing Linux Server Performance",
-            "url": "https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/linux/content/server-review@jSzfQf0MlnXtWHCc-HYvr.md",
-        "subtopics_count": 8,
-        "subtopics": [
-          {
-            "id": "19lTWqAvZFT2CDlhLlPSq",
-            "name": "Uptime and Load",
-            "type": "subtopic",
-            "description": "The `uptime` command shows system running time and load averages for 1, 5, and 15-minute intervals. Load average indicates computational work and processes waiting for CPU time. High load suggests insufficient resources or misconfigurations. Example: `uptime` shows \"2 days, 20 min\" uptime and \"0.00, 0.01, 0.05\" load averages. Essential for performance monitoring and capacity planning.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Linux Uptime Command With Usage Examples",
-                "url": "https://www.tecmint.com/linux-uptime-command-examples/"
-              },
-              {
-                "type": "article",
-                "title": "How to Check Uptime in Linux Command Line",
-                "url": "https://linuxhandbook.com/uptime-command/"
-              },
-              {
-                "type": "article",
-                "title": "Linux Load Average: What is Load Average in Linux?",
-                "url": "https://www.digitalocean.com/community/tutorials/load-average-in-linux"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/uptime-and-load@19lTWqAvZFT2CDlhLlPSq.md"
-          },
-          {
-            "id": "WwybfdKuP9ogCGpT7d3NU",
-            "name": "Authentication Logs",
-            "type": "subtopic",
-            "description": "Authentication logs in Linux record all auth-related events like logins, password changes, and sudo commands. Located at `/var/log/auth.log` (Debian) or `/var/log/secure` (RHEL/CentOS), these logs help detect brute force attacks and unauthorized access attempts. Use `tail /var/log/auth.log` to view recent entries. Regular log analysis is essential for server security monitoring.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Monitoring Linux Authentication Logs",
-                "url": "https://betterstack.com/community/guides/logging/monitoring-linux-auth-logs/"
-              },
-              {
-                "type": "article",
-                "title": "How to Check Linux Login History - Linux Handbook",
-                "url": "https://linuxhandbook.com/linux-login-history/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/authentication-logs@WwybfdKuP9ogCGpT7d3NU.md"
-          },
-          {
-            "id": "ewUuI_x-YhOQIYd3MTgJJ",
-            "name": "Services Running",
-            "type": "subtopic",
-            "description": "Linux servers run various services including web, database, DNS, and mail servers. System administrators use tools like `systemctl`, `service`, `netstat`, `ss`, and `lsof` to manage and monitor services. Use `systemctl --type=service` to list all active services with their status. Essential for server management, resource monitoring, and troubleshooting.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How to List Linux Services With systemctl",
-                "url": "https://www.howtogeek.com/839285/how-to-list-linux-services-with-systemctl/"
-              },
-              {
-                "type": "article",
-                "title": "Service Management in Linux: A Comprehensive Guide",
-                "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
-              },
-              {
-                "type": "article",
-                "title": "How to Manage Services in Linux: systemd and SysVinit",
-                "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/services-running@ewUuI_x-YhOQIYd3MTgJJ.md"
-          },
-          {
-            "id": "tx0nh6cbBjVxwNlyrBNYm",
-            "name": "Available Memory / Disk",
-            "type": "subtopic",
-            "description": "Linux provides tools like `free`, `vmstat`, and `top` to monitor system memory usage and performance. The `free -h` command shows total, used, free, shared, buffer/cache, and available memory in human-readable format. Regular memory monitoring helps maintain optimal server performance, prevent overload, and troubleshoot resource issues effectively.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "5 Best Ways To Check Available Memory In Linux",
-                "url": "https://itslinuxfoss.com/5-ways-check-available-memory-linux/"
-              },
-              {
-                "type": "article",
-                "title": "Free vs. Available Memory in Linux",
-                "url": "https://linuxblog.io/free-vs-available-memory-in-linux/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/available-memory--disk@tx0nh6cbBjVxwNlyrBNYm.md"
-          },
-          {
-            "id": "AwQJYL60NNbA5_z7iLcM7",
-            "name": "Inodes",
-            "type": "subtopic",
-            "description": "An inode (index node) is a data structure in Linux filesystems that stores metadata about files and directories except their names and actual data. Contains file size, owner, permissions, timestamps, and more. Each file has a unique inode number for identification. Understanding inodes helps with advanced operations like linking and file recovery. Use `ls -i filename` to view inode numbers.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Introduction to Inodes",
-                "url": "https://linuxjourney.com/lesson/inodes"
-              },
-              {
-                "type": "article",
-                "title": "Index Nodes — The Linux Kernel documentation",
-                "url": "https://www.kernel.org/doc/html/latest/filesystems/ext4/inodes.html?highlight=inode"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/inodes@AwQJYL60NNbA5_z7iLcM7.md"
-          },
-          {
-            "id": "LFPhSHOhUqM98fUxMjQUw",
-            "name": "Filesystems",
-            "type": "subtopic",
-            "description": "Filesystems define how files are stored and organized on Linux storage disks, ensuring data integrity, reliability, and efficient access. Linux supports various types like EXT4, XFS, BTRFS with different performance and recovery capabilities. All files start from root directory '/'. Use `df -T` to display filesystem types and disk usage status. Essential for Linux administration tasks.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Filesystems in the Linux Kernel",
-                "url": "https://docs.kernel.org/filesystems/index.html"
-              },
-              {
-                "type": "article",
-                "title": "df command in Linux (Check Disk Space)",
-                "url": "https://linuxize.com/post/how-to-check-disk-space-in-linux-using-the-df-command/"
-              },
-              {
-                "type": "article",
-                "title": "Partitions And Filesystems In Linux - Introduction",
-                "url": "https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/filesystems@LFPhSHOhUqM98fUxMjQUw.md"
-          },
-          {
-            "id": "zmb5lK_EGMAChPoPvP9E0",
-            "name": "Mounts",
-            "type": "subtopic",
-            "description": "Mounting in Linux attaches filesystems to specific directories (mount points) in the directory tree, allowing the OS to access data on storage devices. The `mount` command performs this operation. Example: `mount /dev/sdb1 /mnt` mounts second partition to `/mnt` directory. The `/mnt` directory is conventionally used for temporary mounting operations. Essential for Linux disk and filesystem management.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "The mount command manual page",
-                "url": "https://man7.org/linux/man-pages/man8/mount.8.html"
-              },
-              {
-                "type": "article",
-                "title": "Mounting, unmounting and the /mnt directory - The Linux Documentation Project",
-                "url": "https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html"
-              },
-              {
-                "type": "article",
-                "title": "Linux mount command with Examples",
-                "url": "https://phoenixnap.com/kb/linux-mount-command"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/mounts@zmb5lK_EGMAChPoPvP9E0.md"
-          },
-          {
-            "id": "I3LNa1cM_zRkBy8wKdz3g",
-            "name": "LVM",
-            "type": "subtopic",
-            "description": "LVM provides logical volume management through device mapper framework, offering flexible disk management with resizing, mirroring, and moving capabilities. Three levels: Physical Volumes (PVs - actual disks), Volume Groups (VGs - storage pools), and Logical Volumes (LVs - carved portions). Create with `pvcreate`, `vgcreate`, and `lvcreate` commands. Essential for enterprise storage systems.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "The Complete Beginner's Guide to LVM in Linux",
-                "url": "https://linuxhandbook.com/lvm-guide/"
-              },
-              {
-                "type": "article",
-                "title": "A Beginner's Guide to LVM in Linux - It's FOSS",
-                "url": "https://itsfoss.com/lvm-guide/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/lvm@I3LNa1cM_zRkBy8wKdz3g.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/awk@QTmECqpRVMjNgQU70uCF8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1195,7 +1062,9 @@
                 "url": "https://linuxhandbook.com/run-process-background/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/background--foreground-processes@mUKoiGUTpIaUgQNF3BND_.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/background--foreground-processes@mUKoiGUTpIaUgQNF3BND_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "lf3_CRyOI2ZXGzz5ff451",
@@ -1219,7 +1088,9 @@
                 "url": "https://www.redhat.com/en/blog/linux-proc-filesystem"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/listing--finding-processes@lf3_CRyOI2ZXGzz5ff451.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/listing--finding-processes@lf3_CRyOI2ZXGzz5ff451.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "VkLWTvKnRXzvLGWza2v45",
@@ -1238,7 +1109,9 @@
                 "url": "https://linux-audit.com/processes/linux-process-signals/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/process-signals@VkLWTvKnRXzvLGWza2v45.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/process-signals@VkLWTvKnRXzvLGWza2v45.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "0FLUI9r7znMqi6YKReLzD",
@@ -1257,7 +1130,9 @@
                 "url": "https://linuxize.com/post/kill-command-in-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/killing-processes@0FLUI9r7znMqi6YKReLzD.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/killing-processes@0FLUI9r7znMqi6YKReLzD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5anSYRhaKIs3dCLWlvZfT",
@@ -1276,7 +1151,9 @@
                 "url": "https://www.itsmarttricks.com/how-to-manipulate-process-priority-in-linux-using-nice-and-renice-commands/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/process-priorities@5anSYRhaKIs3dCLWlvZfT.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/process-priorities@5anSYRhaKIs3dCLWlvZfT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Rib7h9lh_ndiXkwNbftz_",
@@ -1300,7 +1177,130 @@
                 "url": "https://medium.com/@joshuaudayagiri/linux-process-calls-creating-process-using-fork-52a1eac7de8b"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/process-forking@Rib7h9lh_ndiXkwNbftz_.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/process-forking@Rib7h9lh_ndiXkwNbftz_.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "jSzfQf0MlnXtWHCc-HYvr",
+        "name": "Server Review",
+        "type": "topic",
+        "description": "Server review in Linux involves assessing performance, security, and configuration to identify improvements and issues. Check security enhancements, log files, user accounts, network configuration, and software versions. Common commands: `free -m` for memory, `df -h` for disk usage, `uptime` for CPU load. Critical task for system administrators and DevOps professionals to ensure optimal performance, security, and reliability.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Server Management Essentials",
+            "url": "https://www.ictbroadcast.com/linux-server-management-essentials-administration-monitoring-and-maintenance-guidelines-for-success/"
+          },
+          {
+            "type": "article",
+            "title": "Essential Linux Server Maintenance Checklist",
+            "url": "https://tecadmin.net/linux-server-maintenance-checklist/"
+          },
+          {
+            "type": "article",
+            "title": "Optimizing Linux Server Performance",
+            "url": "https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/linux/content/server-review@jSzfQf0MlnXtWHCc-HYvr.md",
+        "subtopics_count": 4,
+        "subtopics": [
+          {
+            "id": "19lTWqAvZFT2CDlhLlPSq",
+            "name": "Uptime and Load",
+            "type": "subtopic",
+            "description": "The `uptime` command shows system running time and load averages for 1, 5, and 15-minute intervals. Load average indicates computational work and processes waiting for CPU time. High load suggests insufficient resources or misconfigurations. Example: `uptime` shows \"2 days, 20 min\" uptime and \"0.00, 0.01, 0.05\" load averages. Essential for performance monitoring and capacity planning.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Linux Uptime Command With Usage Examples",
+                "url": "https://www.tecmint.com/linux-uptime-command-examples/"
+              },
+              {
+                "type": "article",
+                "title": "How to Check Uptime in Linux Command Line",
+                "url": "https://linuxhandbook.com/uptime-command/"
+              },
+              {
+                "type": "article",
+                "title": "Linux Load Average: What is Load Average in Linux?",
+                "url": "https://www.digitalocean.com/community/tutorials/load-average-in-linux"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/uptime-and-load@19lTWqAvZFT2CDlhLlPSq.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "WwybfdKuP9ogCGpT7d3NU",
+            "name": "Authentication Logs",
+            "type": "subtopic",
+            "description": "Authentication logs in Linux record all auth-related events like logins, password changes, and sudo commands. Located at `/var/log/auth.log` (Debian) or `/var/log/secure` (RHEL/CentOS), these logs help detect brute force attacks and unauthorized access attempts. Use `tail /var/log/auth.log` to view recent entries. Regular log analysis is essential for server security monitoring.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Monitoring Linux Authentication Logs",
+                "url": "https://betterstack.com/community/guides/logging/monitoring-linux-auth-logs/"
+              },
+              {
+                "type": "article",
+                "title": "How to Check Linux Login History - Linux Handbook",
+                "url": "https://linuxhandbook.com/linux-login-history/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/authentication-logs@WwybfdKuP9ogCGpT7d3NU.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "ewUuI_x-YhOQIYd3MTgJJ",
+            "name": "Services Running",
+            "type": "subtopic",
+            "description": "Linux servers run various services including web, database, DNS, and mail servers. System administrators use tools like `systemctl`, `service`, `netstat`, `ss`, and `lsof` to manage and monitor services. Use `systemctl --type=service` to list all active services with their status. Essential for server management, resource monitoring, and troubleshooting.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "How to List Linux Services With systemctl",
+                "url": "https://www.howtogeek.com/839285/how-to-list-linux-services-with-systemctl/"
+              },
+              {
+                "type": "article",
+                "title": "Service Management in Linux: A Comprehensive Guide",
+                "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+              },
+              {
+                "type": "article",
+                "title": "How to Manage Services in Linux: systemd and SysVinit",
+                "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/services-running@ewUuI_x-YhOQIYd3MTgJJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "tx0nh6cbBjVxwNlyrBNYm",
+            "name": "Available Memory / Disk",
+            "type": "subtopic",
+            "description": "Linux provides tools like `free`, `vmstat`, and `top` to monitor system memory usage and performance. The `free -h` command shows total, used, free, shared, buffer/cache, and available memory in human-readable format. Regular memory monitoring helps maintain optimal server performance, prevent overload, and troubleshoot resource issues effectively.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "5 Best Ways To Check Available Memory In Linux",
+                "url": "https://itslinuxfoss.com/5-ways-check-available-memory-linux/"
+              },
+              {
+                "type": "article",
+                "title": "Free vs. Available Memory in Linux",
+                "url": "https://linuxblog.io/free-vs-available-memory-in-linux/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/available-memory--disk@tx0nh6cbBjVxwNlyrBNYm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1327,7 +1327,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/user-management@g6n7f1Qi0BPr_BGvisWuz.md",
-        "subtopics_count": 3,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "R9TZfkgVUQNLnMpDhovJa",
@@ -1351,7 +1351,9 @@
                 "url": "https://dev.to/austinozor/user-management-in-linux-a-beginners-guide-to-creating-modifying-and-deleting-users-fhf"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/create--delete--update@R9TZfkgVUQNLnMpDhovJa.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/create--delete--update@R9TZfkgVUQNLnMpDhovJa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "h8wc8XEwWYHErna68w7Mg",
@@ -1380,8 +1382,37 @@
                 "url": "https://dev.to/austinozor/user-management-in-linux-a-beginners-guide-to-creating-modifying-and-deleting-users-fhf"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/users-and-groups@h8wc8XEwWYHErna68w7Mg.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/users-and-groups@h8wc8XEwWYHErna68w7Mg.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "F1sU3O1ouxTOvpidDfN3k",
+        "name": "Service Management (systemd)",
+        "type": "topic",
+        "description": "Service management controls Linux services (daemons) during boot and shutdown processes. Common systemctl commands include start, stop, restart, reload, status, enable/disable. Modern Linux uses systemd while older systems use SystemV or Upstart. Example: `sudo systemctl start sshd` starts SSH service. Essential skill for Linux system administration and maintaining secure, stable systems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to Master Linux Service Management with Systemctl",
+            "url": "https://labex.io/tutorials/linux-how-to-master-linux-service-management-with-systemctl-392864"
           },
+          {
+            "type": "article",
+            "title": "Service Management in Linux: A Comprehensive Guide",
+            "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+          },
+          {
+            "type": "article",
+            "title": "How to Manage Services in Linux: systemd and SysVinit",
+            "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/linux/content/service-management-systemd@F1sU3O1ouxTOvpidDfN3k.md",
+        "subtopics_count": 5,
+        "subtopics": [
           {
             "id": "L6RMExeqi9501y-eCHDt1",
             "name": "Managing Permissions",
@@ -1409,35 +1440,10 @@
                 "url": "https://www.youtube.com/watch?v=LnKoncbQBsM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/managing-permissions@L6RMExeqi9501y-eCHDt1.md"
-          }
-        ]
-      },
-      {
-        "id": "F1sU3O1ouxTOvpidDfN3k",
-        "name": "Service Management (systemd)",
-        "type": "topic",
-        "description": "Service management controls Linux services (daemons) during boot and shutdown processes. Common systemctl commands include start, stop, restart, reload, status, enable/disable. Modern Linux uses systemd while older systems use SystemV or Upstart. Example: `sudo systemctl start sshd` starts SSH service. Essential skill for Linux system administration and maintaining secure, stable systems.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to Master Linux Service Management with Systemctl",
-            "url": "https://labex.io/tutorials/linux-how-to-master-linux-service-management-with-systemctl-392864"
+            "file_path": "developer-roadmap/roadmaps/linux/content/managing-permissions@L6RMExeqi9501y-eCHDt1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
-          {
-            "type": "article",
-            "title": "Service Management in Linux: A Comprehensive Guide",
-            "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
-          },
-          {
-            "type": "article",
-            "title": "How to Manage Services in Linux: systemd and SysVinit",
-            "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/linux/content/service-management-systemd@F1sU3O1ouxTOvpidDfN3k.md",
-        "subtopics_count": 4,
-        "subtopics": [
           {
             "id": "34UUrc8Yjc_8lvTL8itc3",
             "name": "Creating New Services",
@@ -1455,7 +1461,9 @@
                 "url": "https://www.fosslinux.com/111815/a-guide-to-creating-linux-services-with-systemd.htm"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/creating-new-services@34UUrc8Yjc_8lvTL8itc3.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/creating-new-services@34UUrc8Yjc_8lvTL8itc3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "FStz-bftQBK0M6zz2Bxl4",
@@ -1474,7 +1482,9 @@
                 "url": "https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/checking-service-logs@FStz-bftQBK0M6zz2Bxl4.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/checking-service-logs@FStz-bftQBK0M6zz2Bxl4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "DuEfJNrm4Jfmp8-8Pggrf",
@@ -1498,7 +1508,9 @@
                 "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/starting--stopping-services@DuEfJNrm4Jfmp8-8Pggrf.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/starting--stopping-services@DuEfJNrm4Jfmp8-8Pggrf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "xk5Xgi797HlVjdZJRfwX1",
@@ -1512,7 +1524,9 @@
                 "url": "https://www.baeldung.com/linux/initialization-managers-service-status"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/checking-service-status@xk5Xgi797HlVjdZJRfwX1.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/checking-service-status@xk5Xgi797HlVjdZJRfwX1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1578,7 +1592,9 @@
                 "url": "https://wiki.archlinux.org/title/Official_repositories"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/package-repositories@2oQiuQ2j02SCt9t5eV6hg.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/package-repositories@2oQiuQ2j02SCt9t5eV6hg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eKyMZn30UxQeBZQ7FxFbF",
@@ -1597,7 +1613,9 @@
                 "url": "https://itsfoss.com/install-snap-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/snap@eKyMZn30UxQeBZQ7FxFbF.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/snap@eKyMZn30UxQeBZQ7FxFbF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Z23eJZjmWoeXQuezR9AhG",
@@ -1631,7 +1649,9 @@
                 "url": "https://linuxsimply.com/linux-basics/package-management/best-package-manager/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/finding--installing-packages@Z23eJZjmWoeXQuezR9AhG.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/finding--installing-packages@Z23eJZjmWoeXQuezR9AhG.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "48wAoAAlCNt3j5mBpKTWC",
@@ -1655,7 +1675,9 @@
                 "url": "https://geekflare.com/dev/linux-package-manager-explained/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/listing-installed-packages@48wAoAAlCNt3j5mBpKTWC.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/listing-installed-packages@48wAoAAlCNt3j5mBpKTWC.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "xEHiB-egkkcBuZmgMoqHT",
@@ -1663,7 +1685,9 @@
             "type": "subtopic",
             "description": "Linux package management handles installing, removing, and upgrading pre-compiled software modules. Different distributions use specific package managers: `apt` (Debian/Ubuntu), `yum`/`dnf` (Fedora/RHEL/CentOS), `zypper` (SUSE). Example installation: `sudo apt-get install packagename`. Each manager has specific commands for removal and upgrades. Critical skill for effective Linux system administration.",
             "resources": [],
-            "file_path": "developer-roadmap/roadmaps/linux/content/install--remove--upgrade-packages@xEHiB-egkkcBuZmgMoqHT.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/install--remove--upgrade-packages@xEHiB-egkkcBuZmgMoqHT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1690,26 +1714,101 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/disks-and-filesystems@Fn_uYKigJRgb7r_iYGVBr.md",
-        "subtopics_count": 2,
+        "subtopics_count": 6,
         "subtopics": [
           {
-            "id": "AWosNs2nvDGV8r6WvgBI1",
-            "name": "Swap",
+            "id": "AwQJYL60NNbA5_z7iLcM7",
+            "name": "Inodes",
             "type": "subtopic",
-            "description": "Swap space extends physical memory by using disk storage when RAM is full. Inactive memory pages move to swap, freeing RAM but with performance impact due to slower disk access. Swap can exist as dedicated partitions or regular files. Create with `fallocate`, `mkswap`, and `swapon` commands. Critical for memory management and system stability optimization.",
+            "description": "An inode (index node) is a data structure in Linux filesystems that stores metadata about files and directories except their names and actual data. Contains file size, owner, permissions, timestamps, and more. Each file has a unique inode number for identification. Understanding inodes helps with advanced operations like linking and file recovery. Use `ls -i filename` to view inode numbers.",
             "resources": [
               {
                 "type": "article",
-                "title": "Swap - Arch Wiki",
-                "url": "https://wiki.archlinux.org/title/Swap"
+                "title": "Introduction to Inodes",
+                "url": "https://linuxjourney.com/lesson/inodes"
               },
               {
                 "type": "article",
-                "title": "How to Increase Swap Space on Linux",
-                "url": "https://linuxconfig.org/how-to-increase-swap-space-on-linux"
+                "title": "Index Nodes — The Linux Kernel documentation",
+                "url": "https://www.kernel.org/doc/html/latest/filesystems/ext4/inodes.html?highlight=inode"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/swap@AWosNs2nvDGV8r6WvgBI1.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/inodes@AwQJYL60NNbA5_z7iLcM7.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "LFPhSHOhUqM98fUxMjQUw",
+            "name": "Filesystems",
+            "type": "subtopic",
+            "description": "Filesystems define how files are stored and organized on Linux storage disks, ensuring data integrity, reliability, and efficient access. Linux supports various types like EXT4, XFS, BTRFS with different performance and recovery capabilities. All files start from root directory '/'. Use `df -T` to display filesystem types and disk usage status. Essential for Linux administration tasks.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Filesystems in the Linux Kernel",
+                "url": "https://docs.kernel.org/filesystems/index.html"
+              },
+              {
+                "type": "article",
+                "title": "df command in Linux (Check Disk Space)",
+                "url": "https://linuxize.com/post/how-to-check-disk-space-in-linux-using-the-df-command/"
+              },
+              {
+                "type": "article",
+                "title": "Partitions And Filesystems In Linux - Introduction",
+                "url": "https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/filesystems@LFPhSHOhUqM98fUxMjQUw.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "zmb5lK_EGMAChPoPvP9E0",
+            "name": "Mounts",
+            "type": "subtopic",
+            "description": "Mounting in Linux attaches filesystems to specific directories (mount points) in the directory tree, allowing the OS to access data on storage devices. The `mount` command performs this operation. Example: `mount /dev/sdb1 /mnt` mounts second partition to `/mnt` directory. The `/mnt` directory is conventionally used for temporary mounting operations. Essential for Linux disk and filesystem management.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "The mount command manual page",
+                "url": "https://man7.org/linux/man-pages/man8/mount.8.html"
+              },
+              {
+                "type": "article",
+                "title": "Mounting, unmounting and the /mnt directory - The Linux Documentation Project",
+                "url": "https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html"
+              },
+              {
+                "type": "article",
+                "title": "Linux mount command with Examples",
+                "url": "https://phoenixnap.com/kb/linux-mount-command"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/mounts@zmb5lK_EGMAChPoPvP9E0.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "I3LNa1cM_zRkBy8wKdz3g",
+            "name": "LVM",
+            "type": "subtopic",
+            "description": "LVM provides logical volume management through device mapper framework, offering flexible disk management with resizing, mirroring, and moving capabilities. Three levels: Physical Volumes (PVs - actual disks), Volume Groups (VGs - storage pools), and Logical Volumes (LVs - carved portions). Create with `pvcreate`, `vgcreate`, and `lvcreate` commands. Essential for enterprise storage systems.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "The Complete Beginner's Guide to LVM in Linux",
+                "url": "https://linuxhandbook.com/lvm-guide/"
+              },
+              {
+                "type": "article",
+                "title": "A Beginner's Guide to LVM in Linux - It's FOSS",
+                "url": "https://itsfoss.com/lvm-guide/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/lvm@I3LNa1cM_zRkBy8wKdz3g.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "4xBaZPk0eSsWG1vK3e2yW",
@@ -1728,7 +1827,30 @@
                 "url": "https://www.tecmint.com/add-new-disk-to-an-existing-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/adding-disks@4xBaZPk0eSsWG1vK3e2yW.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/adding-disks@4xBaZPk0eSsWG1vK3e2yW.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "AWosNs2nvDGV8r6WvgBI1",
+            "name": "Swap",
+            "type": "subtopic",
+            "description": "Swap space extends physical memory by using disk storage when RAM is full. Inactive memory pages move to swap, freeing RAM but with performance impact due to slower disk access. Swap can exist as dedicated partitions or regular files. Create with `fallocate`, `mkswap`, and `swapon` commands. Critical for memory management and system stability optimization.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Swap - Arch Wiki",
+                "url": "https://wiki.archlinux.org/title/Swap"
+              },
+              {
+                "type": "article",
+                "title": "How to Increase Swap Space on Linux",
+                "url": "https://linuxconfig.org/how-to-increase-swap-space-on-linux"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/swap@AWosNs2nvDGV8r6WvgBI1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1779,7 +1901,9 @@
                 "url": "https://linuxconfig.org/what-is-dmesg-and-how-do-i-use-it"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/logs@ru7mpLQZKE1QxAdiA1sS3.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/logs@ru7mpLQZKE1QxAdiA1sS3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "o5lSQFW-V_PqndGqo1mp3",
@@ -1808,7 +1932,9 @@
                 "url": "https://phoenixnap.com/kb/what-is-grub"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/boot-loaders@o5lSQFW-V_PqndGqo1mp3.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/boot-loaders@o5lSQFW-V_PqndGqo1mp3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1835,7 +1961,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/networking@Mb42VFjCzMZn_PovKIfKx.md",
-        "subtopics_count": 9,
+        "subtopics_count": 8,
         "subtopics": [
           {
             "id": "0pciSsiQqIGJh3x8465_s",
@@ -1859,7 +1985,9 @@
                 "url": "https://linuxhandbook.com/netstat-command/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/tcpip-stack@0pciSsiQqIGJh3x8465_s.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/tcpip-stack@0pciSsiQqIGJh3x8465_s.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Xszo9vXuwwXZo26seHehD",
@@ -1883,7 +2011,9 @@
                 "url": "https://www.howtouselinux.com/post/find-subnet-mask-on-linux"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/subnetting@Xszo9vXuwwXZo26seHehD.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/subnetting@Xszo9vXuwwXZo26seHehD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "4ees23q281J1DPVAc7iXd",
@@ -1912,26 +2042,9 @@
                 "url": "https://www.youtube.com/watch?v=HLziLmaYsO0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/ethernet--arprarp@4ees23q281J1DPVAc7iXd.md"
-          },
-          {
-            "id": "D0yUzzaJsfhtdBWMtquAj",
-            "name": "IP Routing",
-            "type": "subtopic",
-            "description": "IP routing in Linux involves configuring routing tables and network routes for packet forwarding across networks. The kernel handles route selection to send packets to their destinations. Use the `ip` command (replacing deprecated `ifconfig`) for network configuration. Example: `ip route show` displays all kernel-known routes for network troubleshooting and management.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Linux Set Up Routing with ip Command",
-                "url": "https://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/"
-              },
-              {
-                "type": "article",
-                "title": "Linux Networking: A Simplified Guide to IP Addresses",
-                "url": "https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/ip-routing@D0yUzzaJsfhtdBWMtquAj.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/ethernet--arprarp@4ees23q281J1DPVAc7iXd.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "X6Jw95kbyPgsDNRhvkQP9",
@@ -1950,7 +2063,30 @@
                 "url": "https://network-guides.com/dhcp-protocol/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/dhcp@X6Jw95kbyPgsDNRhvkQP9.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/dhcp@X6Jw95kbyPgsDNRhvkQP9.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "D0yUzzaJsfhtdBWMtquAj",
+            "name": "IP Routing",
+            "type": "subtopic",
+            "description": "IP routing in Linux involves configuring routing tables and network routes for packet forwarding across networks. The kernel handles route selection to send packets to their destinations. Use the `ip` command (replacing deprecated `ifconfig`) for network configuration. Example: `ip route show` displays all kernel-known routes for network troubleshooting and management.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Linux Set Up Routing with ip Command",
+                "url": "https://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/"
+              },
+              {
+                "type": "article",
+                "title": "Linux Networking: A Simplified Guide to IP Addresses",
+                "url": "https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/ip-routing@D0yUzzaJsfhtdBWMtquAj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "f5oQYhmjNM2_FD7Qe1zGK",
@@ -1979,7 +2115,9 @@
                 "url": "https://linuxhandbook.com/dig-command/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/dns-resolution@f5oQYhmjNM2_FD7Qe1zGK.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/dns-resolution@f5oQYhmjNM2_FD7Qe1zGK.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "uk6UMuI8Uhf02TBAGVeLS",
@@ -2003,26 +2141,9 @@
                 "url": "https://www.cloudflare.com/learning/access-management/what-is-ssh/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/ssh@uk6UMuI8Uhf02TBAGVeLS.md"
-          },
-          {
-            "id": "bZ8Yj6QfBeDdh8hRM_aZs",
-            "name": "Netfilter",
-            "type": "subtopic",
-            "description": "Netfilter is a Linux kernel framework for manipulating and filtering network packets with hooks at various stages (pre-routing, input, forward, output, post-routing). Used for firewalls and NAT management with iptables configuration. Essential for traffic control, packet modification, logging, and intrusion detection in Linux networking systems.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "netfilter/iptables project homepage",
-                "url": "https://netfilter.org/"
-              },
-              {
-                "type": "article",
-                "title": "Packet filtering in Linux - iptables, nftables and firewalld",
-                "url": "https://wyssmann.com/blog/2021/07/packet-filtering-in-linux-iptables-nftables-and-firewalld/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/netfilter@bZ8Yj6QfBeDdh8hRM_aZs.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/ssh@uk6UMuI8Uhf02TBAGVeLS.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "tVrbVcNEfc11FbEUoO2Dk",
@@ -2051,7 +2172,9 @@
                 "url": "https://linuxize.com/post/wget-command-examples/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/file-transfer@tVrbVcNEfc11FbEUoO2Dk.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/file-transfer@tVrbVcNEfc11FbEUoO2Dk.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2083,7 +2206,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/shell-programming@4tFZ1PLpz50bddf7zSFrW.md",
-        "subtopics_count": 5,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "-pW7R76yNIeGf7TQoX4QL",
@@ -2102,7 +2225,9 @@
                 "url": "https://www.baeldung.com/linux/special-characters-in-shell-scripts"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/literals@-pW7R76yNIeGf7TQoX4QL.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/literals@-pW7R76yNIeGf7TQoX4QL.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "JyxvZOb7iusOSUYSlniGl",
@@ -2126,7 +2251,9 @@
                 "url": "https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/variables@JyxvZOb7iusOSUYSlniGl.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/variables@JyxvZOb7iusOSUYSlniGl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WJT-yrMq8cEI87RHWA2jY",
@@ -2145,7 +2272,9 @@
                 "url": "https://linuxconfig.org/bash-loops-with-examples"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/loops@WJT-yrMq8cEI87RHWA2jY.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/loops@WJT-yrMq8cEI87RHWA2jY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "rQxfp7UWqN72iqewZhOdc",
@@ -2159,7 +2288,9 @@
                 "url": "https://linuxconfig.org/bash-scripting-conditionals"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/conditionals@rQxfp7UWqN72iqewZhOdc.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/conditionals@rQxfp7UWqN72iqewZhOdc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "rOGnHbGIr3xPCFdpkqoeK",
@@ -2183,7 +2314,30 @@
                 "url": "https://thelinuxcode.com/debug-bash-script/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/debugging@rOGnHbGIr3xPCFdpkqoeK.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/debugging@rOGnHbGIr3xPCFdpkqoeK.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "bZ8Yj6QfBeDdh8hRM_aZs",
+            "name": "Netfilter",
+            "type": "subtopic",
+            "description": "Netfilter is a Linux kernel framework for manipulating and filtering network packets with hooks at various stages (pre-routing, input, forward, output, post-routing). Used for firewalls and NAT management with iptables configuration. Essential for traffic control, packet modification, logging, and intrusion detection in Linux networking systems.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "netfilter/iptables project homepage",
+                "url": "https://netfilter.org/"
+              },
+              {
+                "type": "article",
+                "title": "Packet filtering in Linux - iptables, nftables and firewalld",
+                "url": "https://wyssmann.com/blog/2021/07/packet-filtering-in-linux-iptables-nftables-and-firewalld/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/netfilter@bZ8Yj6QfBeDdh8hRM_aZs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2210,7 +2364,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/troubleshooting@bdQNcr1sj94aX_gjwf2Fa.md",
-        "subtopics_count": 5,
+        "subtopics_count": 4,
         "subtopics": [
           {
             "id": "Ymf3u_sG1dyt8ZR_LbwqJ",
@@ -2229,26 +2383,9 @@
                 "url": "https://www.howtouselinux.com/post/icmp-packets"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/icmp@Ymf3u_sG1dyt8ZR_LbwqJ.md"
-          },
-          {
-            "id": "Uc36t92UAlILgM3_XxcMG",
-            "name": "ping",
-            "type": "subtopic",
-            "description": "The `ping` command is essential for Linux network troubleshooting, checking connectivity between your host and target machines. It sends ICMP ECHO\\_REQUEST packets and listens for ECHO\\_RESPONSE returns, providing insights into connection health and speed. Use `ping <target IP or hostname>` to diagnose network connectivity issues and identify reachability problems efficiently.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Ping Command in Linux",
-                "url": "https://linuxize.com/post/linux-ping-command/"
-              },
-              {
-                "type": "article",
-                "title": "Ping Command Examples in Linux - It's FOSS",
-                "url": "https://itsfoss.com/ping-command/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/ping@Uc36t92UAlILgM3_XxcMG.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/icmp@Ymf3u_sG1dyt8ZR_LbwqJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "BnB3Rirh4R7a7LW7-k-95",
@@ -2267,7 +2404,9 @@
                 "url": "https://www.howtogeek.com/657780/how-to-use-the-traceroute-command-on-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/traceroute@BnB3Rirh4R7a7LW7-k-95.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/traceroute@BnB3Rirh4R7a7LW7-k-95.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "yrxNYMluJ9OAQCKuM5W1u",
@@ -2286,7 +2425,9 @@
                 "url": "https://www.howtogeek.com/513003/how-to-use-netstat-on-linux/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/netstat@yrxNYMluJ9OAQCKuM5W1u.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/netstat@yrxNYMluJ9OAQCKuM5W1u.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7seneb4TWts4v1_x8xlcZ",
@@ -2310,7 +2451,9 @@
                 "url": "https://www.linuxlinks.com/best-free-open-source-network-analyzers/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/packet-analysis@7seneb4TWts4v1_x8xlcZ.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/packet-analysis@7seneb4TWts4v1_x8xlcZ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2342,8 +2485,29 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/linux/content/containerization@3OpGaQhyNtk1n1MLp-tlb.md",
-        "subtopics_count": 4,
+        "subtopics_count": 5,
         "subtopics": [
+          {
+            "id": "Uc36t92UAlILgM3_XxcMG",
+            "name": "ping",
+            "type": "subtopic",
+            "description": "The `ping` command is essential for Linux network troubleshooting, checking connectivity between your host and target machines. It sends ICMP ECHO\\_REQUEST packets and listens for ECHO\\_RESPONSE returns, providing insights into connection health and speed. Use `ping <target IP or hostname>` to diagnose network connectivity issues and identify reachability problems efficiently.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "Ping Command in Linux",
+                "url": "https://linuxize.com/post/linux-ping-command/"
+              },
+              {
+                "type": "article",
+                "title": "Ping Command Examples in Linux - It's FOSS",
+                "url": "https://itsfoss.com/ping-command/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/linux/content/ping@Uc36t92UAlILgM3_XxcMG.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "QgfenmhMc18cU_JngQ1n0",
             "name": "ulimits",
@@ -2366,7 +2530,9 @@
                 "url": "https://www.dummies.com/article/technology/computers/operating-systems/linux/10-linux-troubleshooting-tips-274301/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/ulimits@QgfenmhMc18cU_JngQ1n0.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/ulimits@QgfenmhMc18cU_JngQ1n0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "23lsrUw8ux6ZP9JlDNNu2",
@@ -2390,7 +2556,9 @@
                 "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/resource_management_guide/chap-introduction_to_control_groups"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/cgroups@23lsrUw8ux6ZP9JlDNNu2.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/cgroups@23lsrUw8ux6ZP9JlDNNu2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bVCwRoFsYb3HD8X4xuKOo",
@@ -2414,7 +2582,9 @@
                 "url": "https://opensource.com/article/21/9/container-runtimes"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/container-runtime@bVCwRoFsYb3HD8X4xuKOo.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/container-runtime@bVCwRoFsYb3HD8X4xuKOo.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MfengY3ouz6sSOx3PXYf8",
@@ -2443,7 +2613,9 @@
                 "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/linux/content/docker@MfengY3ouz6sSOx3PXYf8.md"
+            "file_path": "developer-roadmap/roadmaps/linux/content/docker@MfengY3ouz6sSOx3PXYf8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2610,34 +2782,6 @@
         ]
       },
       {
-        "id": "yqRwmcZThjQuqh2ao0dWK",
-        "name": "Nano",
-        "type": "subtopic",
-        "description": "Nano is a popular, user-friendly text editor used for creating and editing files directly within the Linux command line interface (CLI). It is an alternative to editors like `Vi` and `Emacs` and is considered more straightforward for beginners due to its simple and intuitive interface.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "nano - Text editor",
-            "url": "https://www.nano-editor.org/"
-          },
-          {
-            "type": "article",
-            "title": "Editing Files With Nano in Linux",
-            "url": "https://itsfoss.com/nano-editor-guide/"
-          },
-          {
-            "type": "article",
-            "title": "Nano in Linux",
-            "url": "https://ioflood.com/blog/nano-linux-command/"
-          },
-          {
-            "type": "video",
-            "title": "Nano editor fundamentals",
-            "url": "https://www.youtube.com/watch?v=gyKiDczLIZ4&ab_channel=HackerSploit"
-          }
-        ]
-      },
-      {
         "id": "XiZz7EFIey1XKS292GN4t",
         "name": "Vim",
         "type": "subtopic",
@@ -2671,43 +2815,30 @@
         ]
       },
       {
-        "id": "t3fxSgCgtxuMtHjclPHA6",
-        "name": "stdout / stdin / stderr",
+        "id": "yqRwmcZThjQuqh2ao0dWK",
+        "name": "Nano",
         "type": "subtopic",
-        "description": "Linux processes use three standard data streams: STDIN (input), STDOUT (output), and STDERR (error messages). STDOUT handles normal command output while STDERR specifically handles error messages. You can redirect these streams using operators like `>` for stdout and `2>` for stderr, allowing separate handling of normal output and errors for better scripting and debugging.",
+        "description": "Nano is a popular, user-friendly text editor used for creating and editing files directly within the Linux command line interface (CLI). It is an alternative to editors like `Vi` and `Emacs` and is considered more straightforward for beginners due to its simple and intuitive interface.",
         "resources": [
           {
-            "type": "article",
-            "title": "Linux Fundamentals - I/O, Standard Streams, and Redirection",
-            "url": "https://www.putorius.net/linux-io-file-descriptors-and-redirection.html"
+            "type": "official",
+            "title": "nano - Text editor",
+            "url": "https://www.nano-editor.org/"
           },
           {
             "type": "article",
-            "title": "Understanding 'stdin', 'stdout' and 'stderr' in Linux",
-            "url": "https://www.slingacademy.com/article/understanding-stdin-stdout-and-stderr-in-linux/"
+            "title": "Editing Files With Nano in Linux",
+            "url": "https://itsfoss.com/nano-editor-guide/"
           },
           {
             "type": "article",
-            "title": "Working with data streams on the Linux command line",
-            "url": "https://opensource.com/article/18/10/linux-data-streams"
-          }
-        ]
-      },
-      {
-        "id": "Z5Mf_e5G24IkmxEHgYBe2",
-        "name": "cut",
-        "type": "subtopic",
-        "description": "The `cut` command is a text processing utility that allows you to cut out sections of each line from a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Cut Command in Linux | Linuxize",
-            "url": "https://linuxize.com/post/linux-cut-command/"
+            "title": "Nano in Linux",
+            "url": "https://ioflood.com/blog/nano-linux-command/"
           },
           {
-            "type": "article",
-            "title": "Linux cut Command: Text Cutting",
-            "url": "https://labex.io/tutorials/linux-linux-cut-command-text-cutting-219187"
+            "type": "video",
+            "title": "Nano editor fundamentals",
+            "url": "https://www.youtube.com/watch?v=gyKiDczLIZ4&ab_channel=HackerSploit"
           }
         ]
       },
@@ -2794,65 +2925,6 @@
         ]
       },
       {
-        "id": "1WRIy3xHtQfiQFZrprobP",
-        "name": "sort",
-        "type": "subtopic",
-        "description": "Linux provides a variety of tools for processing and manipulating text files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Sort Command in Linux - 10 Useful Examples",
-            "url": "https://linuxhandbook.com/sort-command/"
-          },
-          {
-            "type": "article",
-            "title": "Sort Command in Linux with Practical Examples",
-            "url": "https://tecadmin.net/linux-sort-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux sort Command: Text Sorting",
-            "url": "https://labex.io/tutorials/linux-linux-sort-command-text-sorting-219196"
-          }
-        ]
-      },
-      {
-        "id": "6xdkFk_GT93MigeTSSGCp",
-        "name": "head",
-        "type": "subtopic",
-        "description": "The `head` command in Linux is a text processing utility that allows a user to output the first part (or the \"head\") of files. It is commonly used for previewing the start of a file without loading the entire document into memory, which can act as an efficient way of quickly examining the data in very large files. By default, the `head` command prints the first 10 lines of each file to standard output, which is the terminal in most systems.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Head Command in Linux - 5 Essential Examples",
-            "url": "https://linuxhandbook.com/head-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux head Command: File Beginning Display",
-            "url": "https://labex.io/tutorials/linux-linux-head-command-file-beginning-display-214302"
-          }
-        ]
-      },
-      {
-        "id": "O9Vci_WpUY-79AkA4HDx3",
-        "name": "tr",
-        "type": "subtopic",
-        "description": "The `tr` command in Linux is a command-line utility that translates or substitutes characters. It reads from the standard input and writes to the standard output. Although commonly used for translation applications, `tr` has versatile functionality in the text processing aspect of Linux. Ranging from replacing a list of characters, to deleting or squeezing character repetitions, `tr` presents a robust tool for stream-based text manipulations.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "tr Command in Linux: 6 Useful Examples",
-            "url": "https://linuxhandbook.com/tr-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux tr Command with Practical Examples",
-            "url": "https://labex.io/tutorials/linux-linux-tr-command-with-practical-examples-422963"
-          }
-        ]
-      },
-      {
         "id": "KaMSsQnJzNqGHg0Oia4uy",
         "name": "Command Help",
         "type": "subtopic",
@@ -2881,70 +2953,6 @@
         ]
       },
       {
-        "id": "Yyk28H6TiteZEGv6Aps1h",
-        "name": "tail",
-        "type": "subtopic",
-        "description": "The `tail` command in Linux is a utility used in text processing. Fundamentally, it's used to output the last part of the files. The command reads data from standard input or from a file and outputs the last `N` bytes, lines, blocks, characters or words to the standard output (or a different file). By default, `tail` returns the last 10 lines of each file to the standard output. This command is common in situations where the user is interested in the most recent entries in a text file, such as log files.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "5 Practical Examples of Tail Command in Linux",
-            "url": "https://linuxhandbook.com/tail-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux Tail Command | Linuxize",
-            "url": "https://linuxize.com/post/linux-tail-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux tail Command: File End Display",
-            "url": "https://labex.io/tutorials/linux-linux-tail-command-file-end-display-214303"
-          }
-        ]
-      },
-      {
-        "id": "vfcCS1GoyKpU1rQaE8I5r",
-        "name": "join",
-        "type": "subtopic",
-        "description": "`join` is a powerful text processing command in Linux. It lets you combine lines of two files on a common field, which works similar to the 'Join' operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "join(1) — Linux manual page",
-            "url": "https://www.man7.org/linux/man-pages/man1/join.1.html"
-          },
-          {
-            "type": "article",
-            "title": "join command in Linux with examples",
-            "url": "https://linuxconfig.org/join"
-          },
-          {
-            "type": "article",
-            "title": "Linux join Command: File Joining",
-            "url": "https://labex.io/tutorials/linux-linux-join-command-file-joining-219193"
-          }
-        ]
-      },
-      {
-        "id": "Pl9s2ti25hsSEljXJvBTj",
-        "name": "split",
-        "type": "subtopic",
-        "description": "Linux provides an extensive set of tools for manipulating text data. One of such utilities is the `split` command that is used, as the name suggests, to split large files into smaller files. The `split` command in Linux divides a file into multiple equal parts, based on the lines or bytes specified by the user.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Split Command in Linux: 9 Useful Examples",
-            "url": "https://linuxhandbook.com/split-command/"
-          },
-          {
-            "type": "article",
-            "title": "Split Command in Linux: Usage Guide with Examples",
-            "url": "https://ioflood.com/blog/split-linux-command/"
-          }
-        ]
-      },
-      {
         "id": "JgoZzx4BfK7tmosgpZOsf",
         "name": "Redirects",
         "type": "subtopic",
@@ -2959,24 +2967,6 @@
             "type": "article",
             "title": "Redirections (Bash Reference Manual)",
             "url": "https://www.gnu.org/software/bash/manual/html_node/Redirections.html"
-          }
-        ]
-      },
-      {
-        "id": "Bo9CdrGJej-QcNmw46k9t",
-        "name": "tee",
-        "type": "subtopic",
-        "description": "The `tee` command reads from standard input and writes to both standard output and files simultaneously, like a T-splitter in plumbing. It enables users to view results in the terminal while saving output to files concurrently. Syntax: `command | tee file`. Extremely useful for documenting terminal activities and preserving command outputs for later analysis.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Tee Command in Linux Explained with Examples",
-            "url": "https://linuxhandbook.com/tee-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux Tee Command",
-            "url": "https://linuxize.com/post/linux-tee-command/"
           }
         ]
       },
@@ -3157,6 +3147,170 @@
         ]
       },
       {
+        "id": "t3fxSgCgtxuMtHjclPHA6",
+        "name": "stdout / stdin / stderr",
+        "type": "subtopic",
+        "description": "Linux processes use three standard data streams: STDIN (input), STDOUT (output), and STDERR (error messages). STDOUT handles normal command output while STDERR specifically handles error messages. You can redirect these streams using operators like `>` for stdout and `2>` for stderr, allowing separate handling of normal output and errors for better scripting and debugging.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Fundamentals - I/O, Standard Streams, and Redirection",
+            "url": "https://www.putorius.net/linux-io-file-descriptors-and-redirection.html"
+          },
+          {
+            "type": "article",
+            "title": "Understanding 'stdin', 'stdout' and 'stderr' in Linux",
+            "url": "https://www.slingacademy.com/article/understanding-stdin-stdout-and-stderr-in-linux/"
+          },
+          {
+            "type": "article",
+            "title": "Working with data streams on the Linux command line",
+            "url": "https://opensource.com/article/18/10/linux-data-streams"
+          }
+        ]
+      },
+      {
+        "id": "Z5Mf_e5G24IkmxEHgYBe2",
+        "name": "cut",
+        "type": "subtopic",
+        "description": "The `cut` command is a text processing utility that allows you to cut out sections of each line from a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Cut Command in Linux | Linuxize",
+            "url": "https://linuxize.com/post/linux-cut-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux cut Command: Text Cutting",
+            "url": "https://labex.io/tutorials/linux-linux-cut-command-text-cutting-219187"
+          }
+        ]
+      },
+      {
+        "id": "1WRIy3xHtQfiQFZrprobP",
+        "name": "sort",
+        "type": "subtopic",
+        "description": "Linux provides a variety of tools for processing and manipulating text files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Sort Command in Linux - 10 Useful Examples",
+            "url": "https://linuxhandbook.com/sort-command/"
+          },
+          {
+            "type": "article",
+            "title": "Sort Command in Linux with Practical Examples",
+            "url": "https://tecadmin.net/linux-sort-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux sort Command: Text Sorting",
+            "url": "https://labex.io/tutorials/linux-linux-sort-command-text-sorting-219196"
+          }
+        ]
+      },
+      {
+        "id": "O9Vci_WpUY-79AkA4HDx3",
+        "name": "tr",
+        "type": "subtopic",
+        "description": "The `tr` command in Linux is a command-line utility that translates or substitutes characters. It reads from the standard input and writes to the standard output. Although commonly used for translation applications, `tr` has versatile functionality in the text processing aspect of Linux. Ranging from replacing a list of characters, to deleting or squeezing character repetitions, `tr` presents a robust tool for stream-based text manipulations.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "tr Command in Linux: 6 Useful Examples",
+            "url": "https://linuxhandbook.com/tr-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux tr Command with Practical Examples",
+            "url": "https://labex.io/tutorials/linux-linux-tr-command-with-practical-examples-422963"
+          }
+        ]
+      },
+      {
+        "id": "6xdkFk_GT93MigeTSSGCp",
+        "name": "head",
+        "type": "subtopic",
+        "description": "The `head` command in Linux is a text processing utility that allows a user to output the first part (or the \"head\") of files. It is commonly used for previewing the start of a file without loading the entire document into memory, which can act as an efficient way of quickly examining the data in very large files. By default, the `head` command prints the first 10 lines of each file to standard output, which is the terminal in most systems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Head Command in Linux - 5 Essential Examples",
+            "url": "https://linuxhandbook.com/head-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux head Command: File Beginning Display",
+            "url": "https://labex.io/tutorials/linux-linux-head-command-file-beginning-display-214302"
+          }
+        ]
+      },
+      {
+        "id": "Yyk28H6TiteZEGv6Aps1h",
+        "name": "tail",
+        "type": "subtopic",
+        "description": "The `tail` command in Linux is a utility used in text processing. Fundamentally, it's used to output the last part of the files. The command reads data from standard input or from a file and outputs the last `N` bytes, lines, blocks, characters or words to the standard output (or a different file). By default, `tail` returns the last 10 lines of each file to the standard output. This command is common in situations where the user is interested in the most recent entries in a text file, such as log files.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "5 Practical Examples of Tail Command in Linux",
+            "url": "https://linuxhandbook.com/tail-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux Tail Command | Linuxize",
+            "url": "https://linuxize.com/post/linux-tail-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux tail Command: File End Display",
+            "url": "https://labex.io/tutorials/linux-linux-tail-command-file-end-display-214303"
+          }
+        ]
+      },
+      {
+        "id": "vfcCS1GoyKpU1rQaE8I5r",
+        "name": "join",
+        "type": "subtopic",
+        "description": "`join` is a powerful text processing command in Linux. It lets you combine lines of two files on a common field, which works similar to the 'Join' operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "join(1) — Linux manual page",
+            "url": "https://www.man7.org/linux/man-pages/man1/join.1.html"
+          },
+          {
+            "type": "article",
+            "title": "join command in Linux with examples",
+            "url": "https://linuxconfig.org/join"
+          },
+          {
+            "type": "article",
+            "title": "Linux join Command: File Joining",
+            "url": "https://labex.io/tutorials/linux-linux-join-command-file-joining-219193"
+          }
+        ]
+      },
+      {
+        "id": "Pl9s2ti25hsSEljXJvBTj",
+        "name": "split",
+        "type": "subtopic",
+        "description": "Linux provides an extensive set of tools for manipulating text data. One of such utilities is the `split` command that is used, as the name suggests, to split large files into smaller files. The `split` command in Linux divides a file into multiple equal parts, based on the lines or bytes specified by the user.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Split Command in Linux: 9 Useful Examples",
+            "url": "https://linuxhandbook.com/split-command/"
+          },
+          {
+            "type": "article",
+            "title": "Split Command in Linux: Usage Guide with Examples",
+            "url": "https://ioflood.com/blog/split-linux-command/"
+          }
+        ]
+      },
+      {
         "id": "v32PJl4fzIFTOirOm6G44",
         "name": "pipe",
         "type": "subtopic",
@@ -3181,6 +3335,24 @@
             "type": "course",
             "title": "Terminal Fundamentals: pipes, redirects and grep in a browser sandbox (Hands-on)",
             "url": "https://learn.webterm.app/en/courses/terminal-fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "Bo9CdrGJej-QcNmw46k9t",
+        "name": "tee",
+        "type": "subtopic",
+        "description": "The `tee` command reads from standard input and writes to both standard output and files simultaneously, like a T-splitter in plumbing. It enables users to view results in the terminal while saving output to files concurrently. Syntax: `command | tee file`. Extremely useful for documenting terminal activities and preserving command outputs for later analysis.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Tee Command in Linux Explained with Examples",
+            "url": "https://linuxhandbook.com/tee-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux Tee Command",
+            "url": "https://linuxize.com/post/linux-tee-command/"
           }
         ]
       },
@@ -3346,193 +3518,6 @@
         ]
       },
       {
-        "id": "jSzfQf0MlnXtWHCc-HYvr",
-        "name": "Server Review",
-        "type": "topic",
-        "description": "Server review in Linux involves assessing performance, security, and configuration to identify improvements and issues. Check security enhancements, log files, user accounts, network configuration, and software versions. Common commands: `free -m` for memory, `df -h` for disk usage, `uptime` for CPU load. Critical task for system administrators and DevOps professionals to ensure optimal performance, security, and reliability.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Linux Server Management Essentials",
-            "url": "https://www.ictbroadcast.com/linux-server-management-essentials-administration-monitoring-and-maintenance-guidelines-for-success/"
-          },
-          {
-            "type": "article",
-            "title": "Essential Linux Server Maintenance Checklist",
-            "url": "https://tecadmin.net/linux-server-maintenance-checklist/"
-          },
-          {
-            "type": "article",
-            "title": "Optimizing Linux Server Performance",
-            "url": "https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques"
-          }
-        ]
-      },
-      {
-        "id": "19lTWqAvZFT2CDlhLlPSq",
-        "name": "Uptime and Load",
-        "type": "subtopic",
-        "description": "The `uptime` command shows system running time and load averages for 1, 5, and 15-minute intervals. Load average indicates computational work and processes waiting for CPU time. High load suggests insufficient resources or misconfigurations. Example: `uptime` shows \"2 days, 20 min\" uptime and \"0.00, 0.01, 0.05\" load averages. Essential for performance monitoring and capacity planning.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Linux Uptime Command With Usage Examples",
-            "url": "https://www.tecmint.com/linux-uptime-command-examples/"
-          },
-          {
-            "type": "article",
-            "title": "How to Check Uptime in Linux Command Line",
-            "url": "https://linuxhandbook.com/uptime-command/"
-          },
-          {
-            "type": "article",
-            "title": "Linux Load Average: What is Load Average in Linux?",
-            "url": "https://www.digitalocean.com/community/tutorials/load-average-in-linux"
-          }
-        ]
-      },
-      {
-        "id": "WwybfdKuP9ogCGpT7d3NU",
-        "name": "Authentication Logs",
-        "type": "subtopic",
-        "description": "Authentication logs in Linux record all auth-related events like logins, password changes, and sudo commands. Located at `/var/log/auth.log` (Debian) or `/var/log/secure` (RHEL/CentOS), these logs help detect brute force attacks and unauthorized access attempts. Use `tail /var/log/auth.log` to view recent entries. Regular log analysis is essential for server security monitoring.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Monitoring Linux Authentication Logs",
-            "url": "https://betterstack.com/community/guides/logging/monitoring-linux-auth-logs/"
-          },
-          {
-            "type": "article",
-            "title": "How to Check Linux Login History - Linux Handbook",
-            "url": "https://linuxhandbook.com/linux-login-history/"
-          }
-        ]
-      },
-      {
-        "id": "ewUuI_x-YhOQIYd3MTgJJ",
-        "name": "Services Running",
-        "type": "subtopic",
-        "description": "Linux servers run various services including web, database, DNS, and mail servers. System administrators use tools like `systemctl`, `service`, `netstat`, `ss`, and `lsof` to manage and monitor services. Use `systemctl --type=service` to list all active services with their status. Essential for server management, resource monitoring, and troubleshooting.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to List Linux Services With systemctl",
-            "url": "https://www.howtogeek.com/839285/how-to-list-linux-services-with-systemctl/"
-          },
-          {
-            "type": "article",
-            "title": "Service Management in Linux: A Comprehensive Guide",
-            "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
-          },
-          {
-            "type": "article",
-            "title": "How to Manage Services in Linux: systemd and SysVinit",
-            "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
-          }
-        ]
-      },
-      {
-        "id": "tx0nh6cbBjVxwNlyrBNYm",
-        "name": "Available Memory / Disk",
-        "type": "subtopic",
-        "description": "Linux provides tools like `free`, `vmstat`, and `top` to monitor system memory usage and performance. The `free -h` command shows total, used, free, shared, buffer/cache, and available memory in human-readable format. Regular memory monitoring helps maintain optimal server performance, prevent overload, and troubleshoot resource issues effectively.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "5 Best Ways To Check Available Memory In Linux",
-            "url": "https://itslinuxfoss.com/5-ways-check-available-memory-linux/"
-          },
-          {
-            "type": "article",
-            "title": "Free vs. Available Memory in Linux",
-            "url": "https://linuxblog.io/free-vs-available-memory-in-linux/"
-          }
-        ]
-      },
-      {
-        "id": "AwQJYL60NNbA5_z7iLcM7",
-        "name": "Inodes",
-        "type": "subtopic",
-        "description": "An inode (index node) is a data structure in Linux filesystems that stores metadata about files and directories except their names and actual data. Contains file size, owner, permissions, timestamps, and more. Each file has a unique inode number for identification. Understanding inodes helps with advanced operations like linking and file recovery. Use `ls -i filename` to view inode numbers.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Introduction to Inodes",
-            "url": "https://linuxjourney.com/lesson/inodes"
-          },
-          {
-            "type": "article",
-            "title": "Index Nodes — The Linux Kernel documentation",
-            "url": "https://www.kernel.org/doc/html/latest/filesystems/ext4/inodes.html?highlight=inode"
-          }
-        ]
-      },
-      {
-        "id": "LFPhSHOhUqM98fUxMjQUw",
-        "name": "Filesystems",
-        "type": "subtopic",
-        "description": "Filesystems define how files are stored and organized on Linux storage disks, ensuring data integrity, reliability, and efficient access. Linux supports various types like EXT4, XFS, BTRFS with different performance and recovery capabilities. All files start from root directory '/'. Use `df -T` to display filesystem types and disk usage status. Essential for Linux administration tasks.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Filesystems in the Linux Kernel",
-            "url": "https://docs.kernel.org/filesystems/index.html"
-          },
-          {
-            "type": "article",
-            "title": "df command in Linux (Check Disk Space)",
-            "url": "https://linuxize.com/post/how-to-check-disk-space-in-linux-using-the-df-command/"
-          },
-          {
-            "type": "article",
-            "title": "Partitions And Filesystems In Linux - Introduction",
-            "url": "https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems"
-          }
-        ]
-      },
-      {
-        "id": "zmb5lK_EGMAChPoPvP9E0",
-        "name": "Mounts",
-        "type": "subtopic",
-        "description": "Mounting in Linux attaches filesystems to specific directories (mount points) in the directory tree, allowing the OS to access data on storage devices. The `mount` command performs this operation. Example: `mount /dev/sdb1 /mnt` mounts second partition to `/mnt` directory. The `/mnt` directory is conventionally used for temporary mounting operations. Essential for Linux disk and filesystem management.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "The mount command manual page",
-            "url": "https://man7.org/linux/man-pages/man8/mount.8.html"
-          },
-          {
-            "type": "article",
-            "title": "Mounting, unmounting and the /mnt directory - The Linux Documentation Project",
-            "url": "https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html"
-          },
-          {
-            "type": "article",
-            "title": "Linux mount command with Examples",
-            "url": "https://phoenixnap.com/kb/linux-mount-command"
-          }
-        ]
-      },
-      {
-        "id": "I3LNa1cM_zRkBy8wKdz3g",
-        "name": "LVM",
-        "type": "subtopic",
-        "description": "LVM provides logical volume management through device mapper framework, offering flexible disk management with resizing, mirroring, and moving capabilities. Three levels: Physical Volumes (PVs - actual disks), Volume Groups (VGs - storage pools), and Logical Volumes (LVs - carved portions). Create with `pvcreate`, `vgcreate`, and `lvcreate` commands. Essential for enterprise storage systems.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "The Complete Beginner's Guide to LVM in Linux",
-            "url": "https://linuxhandbook.com/lvm-guide/"
-          },
-          {
-            "type": "article",
-            "title": "A Beginner's Guide to LVM in Linux - It's FOSS",
-            "url": "https://itsfoss.com/lvm-guide/"
-          }
-        ]
-      },
-      {
         "id": "h01Y6dW09ChidlM2HYoav",
         "name": "Process Management",
         "type": "topic",
@@ -3669,6 +3654,111 @@
         ]
       },
       {
+        "id": "jSzfQf0MlnXtWHCc-HYvr",
+        "name": "Server Review",
+        "type": "topic",
+        "description": "Server review in Linux involves assessing performance, security, and configuration to identify improvements and issues. Check security enhancements, log files, user accounts, network configuration, and software versions. Common commands: `free -m` for memory, `df -h` for disk usage, `uptime` for CPU load. Critical task for system administrators and DevOps professionals to ensure optimal performance, security, and reliability.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Server Management Essentials",
+            "url": "https://www.ictbroadcast.com/linux-server-management-essentials-administration-monitoring-and-maintenance-guidelines-for-success/"
+          },
+          {
+            "type": "article",
+            "title": "Essential Linux Server Maintenance Checklist",
+            "url": "https://tecadmin.net/linux-server-maintenance-checklist/"
+          },
+          {
+            "type": "article",
+            "title": "Optimizing Linux Server Performance",
+            "url": "https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques"
+          }
+        ]
+      },
+      {
+        "id": "19lTWqAvZFT2CDlhLlPSq",
+        "name": "Uptime and Load",
+        "type": "subtopic",
+        "description": "The `uptime` command shows system running time and load averages for 1, 5, and 15-minute intervals. Load average indicates computational work and processes waiting for CPU time. High load suggests insufficient resources or misconfigurations. Example: `uptime` shows \"2 days, 20 min\" uptime and \"0.00, 0.01, 0.05\" load averages. Essential for performance monitoring and capacity planning.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Uptime Command With Usage Examples",
+            "url": "https://www.tecmint.com/linux-uptime-command-examples/"
+          },
+          {
+            "type": "article",
+            "title": "How to Check Uptime in Linux Command Line",
+            "url": "https://linuxhandbook.com/uptime-command/"
+          },
+          {
+            "type": "article",
+            "title": "Linux Load Average: What is Load Average in Linux?",
+            "url": "https://www.digitalocean.com/community/tutorials/load-average-in-linux"
+          }
+        ]
+      },
+      {
+        "id": "WwybfdKuP9ogCGpT7d3NU",
+        "name": "Authentication Logs",
+        "type": "subtopic",
+        "description": "Authentication logs in Linux record all auth-related events like logins, password changes, and sudo commands. Located at `/var/log/auth.log` (Debian) or `/var/log/secure` (RHEL/CentOS), these logs help detect brute force attacks and unauthorized access attempts. Use `tail /var/log/auth.log` to view recent entries. Regular log analysis is essential for server security monitoring.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Monitoring Linux Authentication Logs",
+            "url": "https://betterstack.com/community/guides/logging/monitoring-linux-auth-logs/"
+          },
+          {
+            "type": "article",
+            "title": "How to Check Linux Login History - Linux Handbook",
+            "url": "https://linuxhandbook.com/linux-login-history/"
+          }
+        ]
+      },
+      {
+        "id": "ewUuI_x-YhOQIYd3MTgJJ",
+        "name": "Services Running",
+        "type": "subtopic",
+        "description": "Linux servers run various services including web, database, DNS, and mail servers. System administrators use tools like `systemctl`, `service`, `netstat`, `ss`, and `lsof` to manage and monitor services. Use `systemctl --type=service` to list all active services with their status. Essential for server management, resource monitoring, and troubleshooting.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to List Linux Services With systemctl",
+            "url": "https://www.howtogeek.com/839285/how-to-list-linux-services-with-systemctl/"
+          },
+          {
+            "type": "article",
+            "title": "Service Management in Linux: A Comprehensive Guide",
+            "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+          },
+          {
+            "type": "article",
+            "title": "How to Manage Services in Linux: systemd and SysVinit",
+            "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+          }
+        ]
+      },
+      {
+        "id": "tx0nh6cbBjVxwNlyrBNYm",
+        "name": "Available Memory / Disk",
+        "type": "subtopic",
+        "description": "Linux provides tools like `free`, `vmstat`, and `top` to monitor system memory usage and performance. The `free -h` command shows total, used, free, shared, buffer/cache, and available memory in human-readable format. Regular memory monitoring helps maintain optimal server performance, prevent overload, and troubleshoot resource issues effectively.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "5 Best Ways To Check Available Memory In Linux",
+            "url": "https://itslinuxfoss.com/5-ways-check-available-memory-linux/"
+          },
+          {
+            "type": "article",
+            "title": "Free vs. Available Memory in Linux",
+            "url": "https://linuxblog.io/free-vs-available-memory-in-linux/"
+          }
+        ]
+      },
+      {
         "id": "g6n7f1Qi0BPr_BGvisWuz",
         "name": "User Management",
         "type": "topic",
@@ -3743,6 +3833,29 @@
         ]
       },
       {
+        "id": "F1sU3O1ouxTOvpidDfN3k",
+        "name": "Service Management (systemd)",
+        "type": "topic",
+        "description": "Service management controls Linux services (daemons) during boot and shutdown processes. Common systemctl commands include start, stop, restart, reload, status, enable/disable. Modern Linux uses systemd while older systems use SystemV or Upstart. Example: `sudo systemctl start sshd` starts SSH service. Essential skill for Linux system administration and maintaining secure, stable systems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How to Master Linux Service Management with Systemctl",
+            "url": "https://labex.io/tutorials/linux-how-to-master-linux-service-management-with-systemctl-392864"
+          },
+          {
+            "type": "article",
+            "title": "Service Management in Linux: A Comprehensive Guide",
+            "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+          },
+          {
+            "type": "article",
+            "title": "How to Manage Services in Linux: systemd and SysVinit",
+            "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+          }
+        ]
+      },
+      {
         "id": "L6RMExeqi9501y-eCHDt1",
         "name": "Managing Permissions",
         "type": "subtopic",
@@ -3767,29 +3880,6 @@
             "type": "video",
             "title": "Linux File Permissions in 5 Minutes",
             "url": "https://www.youtube.com/watch?v=LnKoncbQBsM"
-          }
-        ]
-      },
-      {
-        "id": "F1sU3O1ouxTOvpidDfN3k",
-        "name": "Service Management (systemd)",
-        "type": "topic",
-        "description": "Service management controls Linux services (daemons) during boot and shutdown processes. Common systemctl commands include start, stop, restart, reload, status, enable/disable. Modern Linux uses systemd while older systems use SystemV or Upstart. Example: `sudo systemctl start sshd` starts SSH service. Essential skill for Linux system administration and maintaining secure, stable systems.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How to Master Linux Service Management with Systemctl",
-            "url": "https://labex.io/tutorials/linux-how-to-master-linux-service-management-with-systemctl-392864"
-          },
-          {
-            "type": "article",
-            "title": "Service Management in Linux: A Comprehensive Guide",
-            "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
-          },
-          {
-            "type": "article",
-            "title": "How to Manage Services in Linux: systemd and SysVinit",
-            "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
           }
         ]
       },
@@ -4031,20 +4121,84 @@
         ]
       },
       {
-        "id": "AWosNs2nvDGV8r6WvgBI1",
-        "name": "Swap",
+        "id": "AwQJYL60NNbA5_z7iLcM7",
+        "name": "Inodes",
         "type": "subtopic",
-        "description": "Swap space extends physical memory by using disk storage when RAM is full. Inactive memory pages move to swap, freeing RAM but with performance impact due to slower disk access. Swap can exist as dedicated partitions or regular files. Create with `fallocate`, `mkswap`, and `swapon` commands. Critical for memory management and system stability optimization.",
+        "description": "An inode (index node) is a data structure in Linux filesystems that stores metadata about files and directories except their names and actual data. Contains file size, owner, permissions, timestamps, and more. Each file has a unique inode number for identification. Understanding inodes helps with advanced operations like linking and file recovery. Use `ls -i filename` to view inode numbers.",
         "resources": [
           {
             "type": "article",
-            "title": "Swap - Arch Wiki",
-            "url": "https://wiki.archlinux.org/title/Swap"
+            "title": "Introduction to Inodes",
+            "url": "https://linuxjourney.com/lesson/inodes"
           },
           {
             "type": "article",
-            "title": "How to Increase Swap Space on Linux",
-            "url": "https://linuxconfig.org/how-to-increase-swap-space-on-linux"
+            "title": "Index Nodes — The Linux Kernel documentation",
+            "url": "https://www.kernel.org/doc/html/latest/filesystems/ext4/inodes.html?highlight=inode"
+          }
+        ]
+      },
+      {
+        "id": "LFPhSHOhUqM98fUxMjQUw",
+        "name": "Filesystems",
+        "type": "subtopic",
+        "description": "Filesystems define how files are stored and organized on Linux storage disks, ensuring data integrity, reliability, and efficient access. Linux supports various types like EXT4, XFS, BTRFS with different performance and recovery capabilities. All files start from root directory '/'. Use `df -T` to display filesystem types and disk usage status. Essential for Linux administration tasks.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Filesystems in the Linux Kernel",
+            "url": "https://docs.kernel.org/filesystems/index.html"
+          },
+          {
+            "type": "article",
+            "title": "df command in Linux (Check Disk Space)",
+            "url": "https://linuxize.com/post/how-to-check-disk-space-in-linux-using-the-df-command/"
+          },
+          {
+            "type": "article",
+            "title": "Partitions And Filesystems In Linux - Introduction",
+            "url": "https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems"
+          }
+        ]
+      },
+      {
+        "id": "zmb5lK_EGMAChPoPvP9E0",
+        "name": "Mounts",
+        "type": "subtopic",
+        "description": "Mounting in Linux attaches filesystems to specific directories (mount points) in the directory tree, allowing the OS to access data on storage devices. The `mount` command performs this operation. Example: `mount /dev/sdb1 /mnt` mounts second partition to `/mnt` directory. The `/mnt` directory is conventionally used for temporary mounting operations. Essential for Linux disk and filesystem management.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "The mount command manual page",
+            "url": "https://man7.org/linux/man-pages/man8/mount.8.html"
+          },
+          {
+            "type": "article",
+            "title": "Mounting, unmounting and the /mnt directory - The Linux Documentation Project",
+            "url": "https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html"
+          },
+          {
+            "type": "article",
+            "title": "Linux mount command with Examples",
+            "url": "https://phoenixnap.com/kb/linux-mount-command"
+          }
+        ]
+      },
+      {
+        "id": "I3LNa1cM_zRkBy8wKdz3g",
+        "name": "LVM",
+        "type": "subtopic",
+        "description": "LVM provides logical volume management through device mapper framework, offering flexible disk management with resizing, mirroring, and moving capabilities. Three levels: Physical Volumes (PVs - actual disks), Volume Groups (VGs - storage pools), and Logical Volumes (LVs - carved portions). Create with `pvcreate`, `vgcreate`, and `lvcreate` commands. Essential for enterprise storage systems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "The Complete Beginner's Guide to LVM in Linux",
+            "url": "https://linuxhandbook.com/lvm-guide/"
+          },
+          {
+            "type": "article",
+            "title": "A Beginner's Guide to LVM in Linux - It's FOSS",
+            "url": "https://itsfoss.com/lvm-guide/"
           }
         ]
       },
@@ -4063,6 +4217,24 @@
             "type": "article",
             "title": "How to Add a New Disk to an Existing Linux Server",
             "url": "https://www.tecmint.com/add-new-disk-to-an-existing-linux/"
+          }
+        ]
+      },
+      {
+        "id": "AWosNs2nvDGV8r6WvgBI1",
+        "name": "Swap",
+        "type": "subtopic",
+        "description": "Swap space extends physical memory by using disk storage when RAM is full. Inactive memory pages move to swap, freeing RAM but with performance impact due to slower disk access. Swap can exist as dedicated partitions or regular files. Create with `fallocate`, `mkswap`, and `swapon` commands. Critical for memory management and system stability optimization.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Swap - Arch Wiki",
+            "url": "https://wiki.archlinux.org/title/Swap"
+          },
+          {
+            "type": "article",
+            "title": "How to Increase Swap Space on Linux",
+            "url": "https://linuxconfig.org/how-to-increase-swap-space-on-linux"
           }
         ]
       },
@@ -4238,24 +4410,6 @@
         ]
       },
       {
-        "id": "D0yUzzaJsfhtdBWMtquAj",
-        "name": "IP Routing",
-        "type": "subtopic",
-        "description": "IP routing in Linux involves configuring routing tables and network routes for packet forwarding across networks. The kernel handles route selection to send packets to their destinations. Use the `ip` command (replacing deprecated `ifconfig`) for network configuration. Example: `ip route show` displays all kernel-known routes for network troubleshooting and management.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Linux Set Up Routing with ip Command",
-            "url": "https://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/"
-          },
-          {
-            "type": "article",
-            "title": "Linux Networking: A Simplified Guide to IP Addresses",
-            "url": "https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing"
-          }
-        ]
-      },
-      {
         "id": "X6Jw95kbyPgsDNRhvkQP9",
         "name": "DHCP",
         "type": "subtopic",
@@ -4270,6 +4424,24 @@
             "type": "article",
             "title": "DHCP Protocol: How Dynamic Host Configuration Protocol Works",
             "url": "https://network-guides.com/dhcp-protocol/"
+          }
+        ]
+      },
+      {
+        "id": "D0yUzzaJsfhtdBWMtquAj",
+        "name": "IP Routing",
+        "type": "subtopic",
+        "description": "IP routing in Linux involves configuring routing tables and network routes for packet forwarding across networks. The kernel handles route selection to send packets to their destinations. Use the `ip` command (replacing deprecated `ifconfig`) for network configuration. Example: `ip route show` displays all kernel-known routes for network troubleshooting and management.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Set Up Routing with ip Command",
+            "url": "https://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/"
+          },
+          {
+            "type": "article",
+            "title": "Linux Networking: A Simplified Guide to IP Addresses",
+            "url": "https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing"
           }
         ]
       },
@@ -4321,24 +4493,6 @@
             "type": "article",
             "title": "What is SSH? | Secure Shell (SSH) Protocol - Cloudflare",
             "url": "https://www.cloudflare.com/learning/access-management/what-is-ssh/"
-          }
-        ]
-      },
-      {
-        "id": "bZ8Yj6QfBeDdh8hRM_aZs",
-        "name": "Netfilter",
-        "type": "subtopic",
-        "description": "Netfilter is a Linux kernel framework for manipulating and filtering network packets with hooks at various stages (pre-routing, input, forward, output, post-routing). Used for firewalls and NAT management with iptables configuration. Essential for traffic control, packet modification, logging, and intrusion detection in Linux networking systems.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "netfilter/iptables project homepage",
-            "url": "https://netfilter.org/"
-          },
-          {
-            "type": "article",
-            "title": "Packet filtering in Linux - iptables, nftables and firewalld",
-            "url": "https://wyssmann.com/blog/2021/07/packet-filtering-in-linux-iptables-nftables-and-firewalld/"
           }
         ]
       },
@@ -4494,6 +4648,24 @@
         ]
       },
       {
+        "id": "bZ8Yj6QfBeDdh8hRM_aZs",
+        "name": "Netfilter",
+        "type": "subtopic",
+        "description": "Netfilter is a Linux kernel framework for manipulating and filtering network packets with hooks at various stages (pre-routing, input, forward, output, post-routing). Used for firewalls and NAT management with iptables configuration. Essential for traffic control, packet modification, logging, and intrusion detection in Linux networking systems.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "netfilter/iptables project homepage",
+            "url": "https://netfilter.org/"
+          },
+          {
+            "type": "article",
+            "title": "Packet filtering in Linux - iptables, nftables and firewalld",
+            "url": "https://wyssmann.com/blog/2021/07/packet-filtering-in-linux-iptables-nftables-and-firewalld/"
+          }
+        ]
+      },
+      {
         "id": "bdQNcr1sj94aX_gjwf2Fa",
         "name": "Troubleshooting",
         "type": "topic",
@@ -4531,24 +4703,6 @@
             "type": "article",
             "title": "Understanding ICMP Packets with Examples",
             "url": "https://www.howtouselinux.com/post/icmp-packets"
-          }
-        ]
-      },
-      {
-        "id": "Uc36t92UAlILgM3_XxcMG",
-        "name": "ping",
-        "type": "subtopic",
-        "description": "The `ping` command is essential for Linux network troubleshooting, checking connectivity between your host and target machines. It sends ICMP ECHO\\_REQUEST packets and listens for ECHO\\_RESPONSE returns, providing insights into connection health and speed. Use `ping <target IP or hostname>` to diagnose network connectivity issues and identify reachability problems efficiently.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Ping Command in Linux",
-            "url": "https://linuxize.com/post/linux-ping-command/"
-          },
-          {
-            "type": "article",
-            "title": "Ping Command Examples in Linux - It's FOSS",
-            "url": "https://itsfoss.com/ping-command/"
           }
         ]
       },
@@ -4636,6 +4790,24 @@
             "type": "article",
             "title": "What is Containerization? - DigitalOcean",
             "url": "https://www.digitalocean.com/resources/articles/what-is-containerization"
+          }
+        ]
+      },
+      {
+        "id": "Uc36t92UAlILgM3_XxcMG",
+        "name": "ping",
+        "type": "subtopic",
+        "description": "The `ping` command is essential for Linux network troubleshooting, checking connectivity between your host and target machines. It sends ICMP ECHO\\_REQUEST packets and listens for ECHO\\_RESPONSE returns, providing insights into connection health and speed. Use `ping <target IP or hostname>` to diagnose network connectivity issues and identify reachability problems efficiently.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Ping Command in Linux",
+            "url": "https://linuxize.com/post/linux-ping-command/"
+          },
+          {
+            "type": "article",
+            "title": "Ping Command Examples in Linux - It's FOSS",
+            "url": "https://itsfoss.com/ping-command/"
           }
         ]
       },
@@ -4739,6 +4911,436 @@
     ],
     "edges": [
       {
+        "source": "qLeEEwBvlGt1fP5Qcreah",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "q-Ky0ietZGpyUcBQfh-BJ",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9oo2fxTM2_p0VYPBroqxa",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3fzuXKH7az_LVnmnoXB1p",
+        "target": "y7KjVfSI6CAduyHd4mBFT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XiZz7EFIey1XKS292GN4t",
+        "target": "HGmeYvRf7_XusZl_K4x9k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yqRwmcZThjQuqh2ao0dWK",
+        "target": "HGmeYvRf7_XusZl_K4x9k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "moGMHNR58wFlzhS7je1wc",
+        "target": "8QBMyL8D5jPovxN8jyZW9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zwXEmpPYjA7_msS43z7I0",
+        "target": "8QBMyL8D5jPovxN8jyZW9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5658kdqJw-pIOyyhll80a",
+        "target": "8QBMyL8D5jPovxN8jyZW9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KaMSsQnJzNqGHg0Oia4uy",
+        "target": "8QBMyL8D5jPovxN8jyZW9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JgoZzx4BfK7tmosgpZOsf",
+        "target": "8QBMyL8D5jPovxN8jyZW9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NIBSZGE9PskVrluJpdom0",
+        "target": "8QBMyL8D5jPovxN8jyZW9",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TnrT-cqMA8urew9nLv0Ns",
+        "target": "RsOTPZPZGTEIt1Lk41bQV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iD073xTmpzvQFfXwcwXcY",
+        "target": "RsOTPZPZGTEIt1Lk41bQV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "abKO6KuuIfl9ruVxBw6t_",
+        "target": "RsOTPZPZGTEIt1Lk41bQV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KaXHG_EKxI5PUXmcvlJt6",
+        "target": "RsOTPZPZGTEIt1Lk41bQV",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "t3fxSgCgtxuMtHjclPHA6",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Z5Mf_e5G24IkmxEHgYBe2",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1WRIy3xHtQfiQFZrprobP",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "O9Vci_WpUY-79AkA4HDx3",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6xdkFk_GT93MigeTSSGCp",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Yyk28H6TiteZEGv6Aps1h",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vfcCS1GoyKpU1rQaE8I5r",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Pl9s2ti25hsSEljXJvBTj",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v32PJl4fzIFTOirOm6G44",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Bo9CdrGJej-QcNmw46k9t",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YSfGrmT795miIeIZrtC3D",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LIGOJwrXexnIcPyHVlhQ8",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "TZuDVFS7DZFBgaSYYXoGe",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "sKduFaX6xZaUUBdXRMKCL",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qnBbzphImflQbEbtFub9x",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "umlhxidsvtZG9k40Ca0Ac",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QTmECqpRVMjNgQU70uCF8",
+        "target": "-B2Dvz7160Er0OBHzS6ro",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mUKoiGUTpIaUgQNF3BND_",
+        "target": "h01Y6dW09ChidlM2HYoav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "lf3_CRyOI2ZXGzz5ff451",
+        "target": "h01Y6dW09ChidlM2HYoav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "VkLWTvKnRXzvLGWza2v45",
+        "target": "h01Y6dW09ChidlM2HYoav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0FLUI9r7znMqi6YKReLzD",
+        "target": "h01Y6dW09ChidlM2HYoav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5anSYRhaKIs3dCLWlvZfT",
+        "target": "h01Y6dW09ChidlM2HYoav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Rib7h9lh_ndiXkwNbftz_",
+        "target": "h01Y6dW09ChidlM2HYoav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "19lTWqAvZFT2CDlhLlPSq",
+        "target": "jSzfQf0MlnXtWHCc-HYvr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WwybfdKuP9ogCGpT7d3NU",
+        "target": "jSzfQf0MlnXtWHCc-HYvr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ewUuI_x-YhOQIYd3MTgJJ",
+        "target": "jSzfQf0MlnXtWHCc-HYvr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tx0nh6cbBjVxwNlyrBNYm",
+        "target": "jSzfQf0MlnXtWHCc-HYvr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "R9TZfkgVUQNLnMpDhovJa",
+        "target": "g6n7f1Qi0BPr_BGvisWuz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "h8wc8XEwWYHErna68w7Mg",
+        "target": "g6n7f1Qi0BPr_BGvisWuz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "L6RMExeqi9501y-eCHDt1",
+        "target": "F1sU3O1ouxTOvpidDfN3k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "34UUrc8Yjc_8lvTL8itc3",
+        "target": "F1sU3O1ouxTOvpidDfN3k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FStz-bftQBK0M6zz2Bxl4",
+        "target": "F1sU3O1ouxTOvpidDfN3k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "DuEfJNrm4Jfmp8-8Pggrf",
+        "target": "F1sU3O1ouxTOvpidDfN3k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xk5Xgi797HlVjdZJRfwX1",
+        "target": "F1sU3O1ouxTOvpidDfN3k",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "2oQiuQ2j02SCt9t5eV6hg",
+        "target": "4eINX8jYMJxfYh7ZV47YI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eKyMZn30UxQeBZQ7FxFbF",
+        "target": "4eINX8jYMJxfYh7ZV47YI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Z23eJZjmWoeXQuezR9AhG",
+        "target": "4eINX8jYMJxfYh7ZV47YI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "48wAoAAlCNt3j5mBpKTWC",
+        "target": "4eINX8jYMJxfYh7ZV47YI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xEHiB-egkkcBuZmgMoqHT",
+        "target": "4eINX8jYMJxfYh7ZV47YI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AwQJYL60NNbA5_z7iLcM7",
+        "target": "Fn_uYKigJRgb7r_iYGVBr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LFPhSHOhUqM98fUxMjQUw",
+        "target": "Fn_uYKigJRgb7r_iYGVBr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zmb5lK_EGMAChPoPvP9E0",
+        "target": "Fn_uYKigJRgb7r_iYGVBr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "I3LNa1cM_zRkBy8wKdz3g",
+        "target": "Fn_uYKigJRgb7r_iYGVBr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4xBaZPk0eSsWG1vK3e2yW",
+        "target": "Fn_uYKigJRgb7r_iYGVBr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AWosNs2nvDGV8r6WvgBI1",
+        "target": "Fn_uYKigJRgb7r_iYGVBr",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ru7mpLQZKE1QxAdiA1sS3",
+        "target": "DQEa8LrJ9TVW4ULBE4aHJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "o5lSQFW-V_PqndGqo1mp3",
+        "target": "DQEa8LrJ9TVW4ULBE4aHJ",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "0pciSsiQqIGJh3x8465_s",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Xszo9vXuwwXZo26seHehD",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4ees23q281J1DPVAc7iXd",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "X6Jw95kbyPgsDNRhvkQP9",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "D0yUzzaJsfhtdBWMtquAj",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "f5oQYhmjNM2_FD7Qe1zGK",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uk6UMuI8Uhf02TBAGVeLS",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tVrbVcNEfc11FbEUoO2Dk",
+        "target": "Mb42VFjCzMZn_PovKIfKx",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-pW7R76yNIeGf7TQoX4QL",
+        "target": "4tFZ1PLpz50bddf7zSFrW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JyxvZOb7iusOSUYSlniGl",
+        "target": "4tFZ1PLpz50bddf7zSFrW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WJT-yrMq8cEI87RHWA2jY",
+        "target": "4tFZ1PLpz50bddf7zSFrW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rQxfp7UWqN72iqewZhOdc",
+        "target": "4tFZ1PLpz50bddf7zSFrW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rOGnHbGIr3xPCFdpkqoeK",
+        "target": "4tFZ1PLpz50bddf7zSFrW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bZ8Yj6QfBeDdh8hRM_aZs",
+        "target": "4tFZ1PLpz50bddf7zSFrW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ymf3u_sG1dyt8ZR_LbwqJ",
+        "target": "bdQNcr1sj94aX_gjwf2Fa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "BnB3Rirh4R7a7LW7-k-95",
+        "target": "bdQNcr1sj94aX_gjwf2Fa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yrxNYMluJ9OAQCKuM5W1u",
+        "target": "bdQNcr1sj94aX_gjwf2Fa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7seneb4TWts4v1_x8xlcZ",
+        "target": "bdQNcr1sj94aX_gjwf2Fa",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Uc36t92UAlILgM3_XxcMG",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QgfenmhMc18cU_JngQ1n0",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "23lsrUw8ux6ZP9JlDNNu2",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bVCwRoFsYb3HD8X4xuKOo",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MfengY3ouz6sSOx3PXYf8",
+        "target": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "subtopic_of"
+      },
+      {
         "source": "HGmeYvRf7_XusZl_K4x9k",
         "target": "8QBMyL8D5jPovxN8jyZW9",
         "type": "next_in_flow"
@@ -4797,436 +5399,6 @@
         "source": "bdQNcr1sj94aX_gjwf2Fa",
         "target": "3OpGaQhyNtk1n1MLp-tlb",
         "type": "next_in_flow"
-      },
-      {
-        "source": "qLeEEwBvlGt1fP5Qcreah",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "q-Ky0ietZGpyUcBQfh-BJ",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9oo2fxTM2_p0VYPBroqxa",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3fzuXKH7az_LVnmnoXB1p",
-        "target": "y7KjVfSI6CAduyHd4mBFT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yqRwmcZThjQuqh2ao0dWK",
-        "target": "HGmeYvRf7_XusZl_K4x9k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KaMSsQnJzNqGHg0Oia4uy",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "moGMHNR58wFlzhS7je1wc",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zwXEmpPYjA7_msS43z7I0",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JgoZzx4BfK7tmosgpZOsf",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NIBSZGE9PskVrluJpdom0",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TnrT-cqMA8urew9nLv0Ns",
-        "target": "RsOTPZPZGTEIt1Lk41bQV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "iD073xTmpzvQFfXwcwXcY",
-        "target": "RsOTPZPZGTEIt1Lk41bQV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "abKO6KuuIfl9ruVxBw6t_",
-        "target": "RsOTPZPZGTEIt1Lk41bQV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KaXHG_EKxI5PUXmcvlJt6",
-        "target": "RsOTPZPZGTEIt1Lk41bQV",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "19lTWqAvZFT2CDlhLlPSq",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mUKoiGUTpIaUgQNF3BND_",
-        "target": "h01Y6dW09ChidlM2HYoav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "34UUrc8Yjc_8lvTL8itc3",
-        "target": "F1sU3O1ouxTOvpidDfN3k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FStz-bftQBK0M6zz2Bxl4",
-        "target": "F1sU3O1ouxTOvpidDfN3k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "DuEfJNrm4Jfmp8-8Pggrf",
-        "target": "F1sU3O1ouxTOvpidDfN3k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xk5Xgi797HlVjdZJRfwX1",
-        "target": "F1sU3O1ouxTOvpidDfN3k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "o5lSQFW-V_PqndGqo1mp3",
-        "target": "DQEa8LrJ9TVW4ULBE4aHJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ru7mpLQZKE1QxAdiA1sS3",
-        "target": "DQEa8LrJ9TVW4ULBE4aHJ",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0pciSsiQqIGJh3x8465_s",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Xszo9vXuwwXZo26seHehD",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4ees23q281J1DPVAc7iXd",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "D0yUzzaJsfhtdBWMtquAj",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "f5oQYhmjNM2_FD7Qe1zGK",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uk6UMuI8Uhf02TBAGVeLS",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tVrbVcNEfc11FbEUoO2Dk",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rOGnHbGIr3xPCFdpkqoeK",
-        "target": "4tFZ1PLpz50bddf7zSFrW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "BnB3Rirh4R7a7LW7-k-95",
-        "target": "bdQNcr1sj94aX_gjwf2Fa",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yrxNYMluJ9OAQCKuM5W1u",
-        "target": "bdQNcr1sj94aX_gjwf2Fa",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ymf3u_sG1dyt8ZR_LbwqJ",
-        "target": "bdQNcr1sj94aX_gjwf2Fa",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7seneb4TWts4v1_x8xlcZ",
-        "target": "bdQNcr1sj94aX_gjwf2Fa",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MfengY3ouz6sSOx3PXYf8",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "R9TZfkgVUQNLnMpDhovJa",
-        "target": "g6n7f1Qi0BPr_BGvisWuz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "h8wc8XEwWYHErna68w7Mg",
-        "target": "g6n7f1Qi0BPr_BGvisWuz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "L6RMExeqi9501y-eCHDt1",
-        "target": "g6n7f1Qi0BPr_BGvisWuz",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XiZz7EFIey1XKS292GN4t",
-        "target": "HGmeYvRf7_XusZl_K4x9k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WwybfdKuP9ogCGpT7d3NU",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ewUuI_x-YhOQIYd3MTgJJ",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tx0nh6cbBjVxwNlyrBNYm",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "lf3_CRyOI2ZXGzz5ff451",
-        "target": "h01Y6dW09ChidlM2HYoav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "VkLWTvKnRXzvLGWza2v45",
-        "target": "h01Y6dW09ChidlM2HYoav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "0FLUI9r7znMqi6YKReLzD",
-        "target": "h01Y6dW09ChidlM2HYoav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5anSYRhaKIs3dCLWlvZfT",
-        "target": "h01Y6dW09ChidlM2HYoav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Rib7h9lh_ndiXkwNbftz_",
-        "target": "h01Y6dW09ChidlM2HYoav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "X6Jw95kbyPgsDNRhvkQP9",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bZ8Yj6QfBeDdh8hRM_aZs",
-        "target": "Mb42VFjCzMZn_PovKIfKx",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WJT-yrMq8cEI87RHWA2jY",
-        "target": "4tFZ1PLpz50bddf7zSFrW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rQxfp7UWqN72iqewZhOdc",
-        "target": "4tFZ1PLpz50bddf7zSFrW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Uc36t92UAlILgM3_XxcMG",
-        "target": "bdQNcr1sj94aX_gjwf2Fa",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bVCwRoFsYb3HD8X4xuKOo",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-pW7R76yNIeGf7TQoX4QL",
-        "target": "4tFZ1PLpz50bddf7zSFrW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JyxvZOb7iusOSUYSlniGl",
-        "target": "4tFZ1PLpz50bddf7zSFrW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QgfenmhMc18cU_JngQ1n0",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "23lsrUw8ux6ZP9JlDNNu2",
-        "target": "3OpGaQhyNtk1n1MLp-tlb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "t3fxSgCgtxuMtHjclPHA6",
-        "target": "HGmeYvRf7_XusZl_K4x9k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Z5Mf_e5G24IkmxEHgYBe2",
-        "target": "HGmeYvRf7_XusZl_K4x9k",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5658kdqJw-pIOyyhll80a",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1WRIy3xHtQfiQFZrprobP",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6xdkFk_GT93MigeTSSGCp",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "O9Vci_WpUY-79AkA4HDx3",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Yyk28H6TiteZEGv6Aps1h",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vfcCS1GoyKpU1rQaE8I5r",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Pl9s2ti25hsSEljXJvBTj",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "v32PJl4fzIFTOirOm6G44",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Bo9CdrGJej-QcNmw46k9t",
-        "target": "8QBMyL8D5jPovxN8jyZW9",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YSfGrmT795miIeIZrtC3D",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LIGOJwrXexnIcPyHVlhQ8",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "TZuDVFS7DZFBgaSYYXoGe",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "sKduFaX6xZaUUBdXRMKCL",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qnBbzphImflQbEbtFub9x",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "umlhxidsvtZG9k40Ca0Ac",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QTmECqpRVMjNgQU70uCF8",
-        "target": "-B2Dvz7160Er0OBHzS6ro",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "2oQiuQ2j02SCt9t5eV6hg",
-        "target": "4eINX8jYMJxfYh7ZV47YI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Z23eJZjmWoeXQuezR9AhG",
-        "target": "4eINX8jYMJxfYh7ZV47YI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "48wAoAAlCNt3j5mBpKTWC",
-        "target": "4eINX8jYMJxfYh7ZV47YI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "xEHiB-egkkcBuZmgMoqHT",
-        "target": "4eINX8jYMJxfYh7ZV47YI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eKyMZn30UxQeBZQ7FxFbF",
-        "target": "4eINX8jYMJxfYh7ZV47YI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AwQJYL60NNbA5_z7iLcM7",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LFPhSHOhUqM98fUxMjQUw",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AWosNs2nvDGV8r6WvgBI1",
-        "target": "Fn_uYKigJRgb7r_iYGVBr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zmb5lK_EGMAChPoPvP9E0",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4xBaZPk0eSsWG1vK3e2yW",
-        "target": "Fn_uYKigJRgb7r_iYGVBr",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "I3LNa1cM_zRkBy8wKdz3g",
-        "target": "jSzfQf0MlnXtWHCc-HYvr",
-        "type": "subtopic_of"
       }
     ]
   }

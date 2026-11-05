@@ -1,0 +1,356 @@
+{
+  "title": "Software Design and Architecture",
+  "topics": [
+    {
+      "title": "Clean Code Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Minimap of Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Clean Code"
+            },
+            {
+              "title": "Programming Paradigms"
+            },
+            {
+              "title": "Object Oriented Programming"
+            },
+            {
+              "title": "Design Principles"
+            },
+            {
+              "title": "Design Patterns"
+            },
+            {
+              "title": "Architectural Principles"
+            },
+            {
+              "title": "Architectural Styles"
+            },
+            {
+              "title": "Architectural Patterns"
+            },
+            {
+              "title": "Enterprise Patterns"
+            }
+          ]
+        },
+        {
+          "title": "Be consistent"
+        },
+        {
+          "title": "Meaningful names over comments"
+        },
+        {
+          "title": "Indentation and Code Style"
+        },
+        {
+          "title": "Keep methods / classes / files small"
+        }
+      ]
+    },
+    {
+      "title": "Programming Paradigms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pure functions"
+        },
+        {
+          "title": "Structured Programming"
+        },
+        {
+          "title": "Minimize cyclomatic complexity"
+        },
+        {
+          "title": "Functional Programming"
+        },
+        {
+          "title": "Avoid passing nulls, booleans"
+        },
+        {
+          "title": "Object Oriented Programming"
+        }
+      ]
+    },
+    {
+      "title": "Object Oriented Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Primary Principles",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Polymorphism"
+            },
+            {
+              "title": "Inheritance"
+            },
+            {
+              "title": "Encapsulation"
+            },
+            {
+              "title": "Abstraction"
+            }
+          ]
+        },
+        {
+          "title": "Law of Demeter"
+        },
+        {
+          "title": "SOLID"
+        }
+      ]
+    },
+    {
+      "title": "Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tell, don't ask"
+        },
+        {
+          "title": "DRY"
+        },
+        {
+          "title": "Hollywood Principle"
+        },
+        {
+          "title": "YAGNI"
+        },
+        {
+          "title": "Composition over Inheritance"
+        },
+        {
+          "title": "Encapsulate what varies"
+        },
+        {
+          "title": "Program against abstractions"
+        }
+      ]
+    },
+    {
+      "title": "Design Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Keep framework code distant"
+        },
+        {
+          "title": "Use correct constructs"
+        },
+        {
+          "title": "Tests should be fast and independent"
+        },
+        {
+          "title": "Organize code by actor it belongs to"
+        },
+        {
+          "title": "Command query separation"
+        },
+        {
+          "title": "Keep it simple and refactor often"
+        },
+        {
+          "title": "GoF Design Patterns"
+        },
+        {
+          "title": "PoSA Patterns"
+        }
+      ]
+    },
+    {
+      "title": "Model-Driven Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Paradigm Features",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Abstract Classes"
+            },
+            {
+              "title": "Concrete Classes"
+            },
+            {
+              "title": "Scope / Visibility"
+            },
+            {
+              "title": "Interfaces"
+            }
+          ]
+        },
+        {
+          "title": "Domain Models"
+        },
+        {
+          "title": "Anemic Models"
+        },
+        {
+          "title": "Domain Language"
+        },
+        {
+          "title": "Class Variants"
+        }
+      ]
+    },
+    {
+      "title": "Messaging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Event-Driven"
+        },
+        {
+          "title": "Publish-Subscribe"
+        }
+      ]
+    },
+    {
+      "title": "Distributed",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Client-Server"
+        },
+        {
+          "title": "Peer-to-Peer"
+        }
+      ]
+    },
+    {
+      "title": "Architectural Styles"
+    },
+    {
+      "title": "Architectural Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Component Principles"
+        },
+        {
+          "title": "Policy vs Detail"
+        },
+        {
+          "title": "Coupling and Cohesion"
+        },
+        {
+          "title": "Boundaries"
+        }
+      ]
+    },
+    {
+      "title": "Structural",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Layered Architectures"
+        },
+        {
+          "title": "Component-Based"
+        },
+        {
+          "title": "Monolithic"
+        },
+        {
+          "title": "Layered"
+        }
+      ]
+    },
+    {
+      "title": "Architectural Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Domain-Driven Design"
+        },
+        {
+          "title": "Model-View Controller"
+        },
+        {
+          "title": "Microservices"
+        },
+        {
+          "title": "Blackboard Pattern"
+        },
+        {
+          "title": "Microkernel"
+        },
+        {
+          "title": "Serverless Architecture"
+        },
+        {
+          "title": "Message Queues / Streams"
+        },
+        {
+          "title": "Event Sourcing"
+        },
+        {
+          "title": "CQRS"
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DTOs"
+        },
+        {
+          "title": "Identity Maps"
+        },
+        {
+          "title": "Usecases"
+        },
+        {
+          "title": "Repositories"
+        },
+        {
+          "title": "Mappers"
+        },
+        {
+          "title": "Transaction Script"
+        },
+        {
+          "title": "Commands / Queries"
+        },
+        {
+          "title": "Value Objects"
+        },
+        {
+          "title": "SOA"
+        },
+        {
+          "title": "Domain Models"
+        },
+        {
+          "title": "Entities"
+        },
+        {
+          "title": "ORMs"
+        }
+      ]
+    }
+  ]
+}

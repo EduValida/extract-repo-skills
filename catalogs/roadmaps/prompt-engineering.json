@@ -1,0 +1,216 @@
+{
+  "title": "Prompt Engineering Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LLMs and how they work?"
+        },
+        {
+          "title": "What is a Prompt?"
+        },
+        {
+          "title": "Common Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LLM"
+            },
+            {
+              "title": "Tokens"
+            },
+            {
+              "title": "Context Window"
+            },
+            {
+              "title": "Hallucination"
+            },
+            {
+              "title": "Agents"
+            },
+            {
+              "title": "Prompt Injection"
+            },
+            {
+              "title": "Model Weights / Parameters"
+            },
+            {
+              "title": "Fine-Tuning vs Prompt Engg."
+            },
+            {
+              "title": "AI vs AGI"
+            },
+            {
+              "title": "RAG"
+            }
+          ]
+        },
+        {
+          "title": "What is Prompt Engineering?"
+        }
+      ]
+    },
+    {
+      "title": "Sampling Parameters",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LLM Configuration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Temperature"
+            },
+            {
+              "title": "Top-K"
+            },
+            {
+              "title": "Top-P"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Output Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Models offered by ____",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OpenAI"
+            },
+            {
+              "title": "Google"
+            },
+            {
+              "title": "Anthropic"
+            },
+            {
+              "title": "Meta"
+            },
+            {
+              "title": "xAI"
+            }
+          ]
+        },
+        {
+          "title": "Max Tokens"
+        }
+      ]
+    },
+    {
+      "title": "Structured Outputs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Step-back Prompting"
+        },
+        {
+          "title": "Chain of Thought (CoT) Prompting"
+        },
+        {
+          "title": "Self-Consistency Prompting"
+        },
+        {
+          "title": "System / Role / Contextual",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "System Prompting"
+            },
+            {
+              "title": "Role Prompting"
+            },
+            {
+              "title": "Contextual Prompting"
+            }
+          ]
+        },
+        {
+          "title": "Tree of Thoughts (ToT) Prompting"
+        },
+        {
+          "title": "ReAct Prompting"
+        },
+        {
+          "title": "Prompt Tuning"
+        }
+      ]
+    },
+    {
+      "title": "Repetition Penalties",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stop Sequences"
+        },
+        {
+          "title": "Frequency Penalty"
+        },
+        {
+          "title": "Presence Penalty"
+        }
+      ]
+    },
+    {
+      "title": "Automatic Prompt Engineering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prompting Techniques",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Zero-Shot Prompting"
+            },
+            {
+              "title": "One-Shot / Few-Shot Prompting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI Red Teaming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Improving Reliability",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prompt Debiasing"
+            },
+            {
+              "title": "Prompt Ensembling"
+            },
+            {
+              "title": "LLM Self Evaluation"
+            },
+            {
+              "title": "Calibrating LLMs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

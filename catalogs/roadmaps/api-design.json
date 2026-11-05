@@ -1,0 +1,370 @@
+{
+  "title": "API Design",
+  "topics": [
+    {
+      "title": "Learn the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTTP"
+        },
+        {
+          "title": "What are APIs"
+        },
+        {
+          "title": "HTTP Versions"
+        },
+        {
+          "title": "URL, Query & Path Parameters"
+        },
+        {
+          "title": "HTTP Methods"
+        },
+        {
+          "title": "Content Negotiation"
+        },
+        {
+          "title": "HTTP Status Codes"
+        },
+        {
+          "title": "Understand TCP / IP"
+        },
+        {
+          "title": "HTTP Headers"
+        },
+        {
+          "title": "Basics of DNS"
+        },
+        {
+          "title": "Cookies"
+        }
+      ]
+    },
+    {
+      "title": "Different API Styles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTTP Caching"
+        },
+        {
+          "title": "Design First",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "REST Principles"
+            },
+            {
+              "title": "URI Design"
+            },
+            {
+              "title": "Resource modeling"
+            },
+            {
+              "title": "Naming Conventions"
+            },
+            {
+              "title": "Versioning Strategies"
+            },
+            {
+              "title": "HATEOAS"
+            }
+          ]
+        },
+        {
+          "title": "RESTful APIs"
+        },
+        {
+          "title": "Simple JSON APIs"
+        },
+        {
+          "title": "SOAP APIs"
+        },
+        {
+          "title": "gRPC APIs"
+        },
+        {
+          "title": "GraphQL APIs"
+        },
+        {
+          "title": "Handling data & requests",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CRUD Operations"
+            },
+            {
+              "title": "Filtering, Sorting & Search"
+            },
+            {
+              "title": "Pagination"
+            },
+            {
+              "title": "Idempotency"
+            }
+          ]
+        },
+        {
+          "title": "Traffic control & Error handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Rate Limiting"
+            },
+            {
+              "title": "Error Handling"
+            },
+            {
+              "title": "RFC 7807 -  Problem Details"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Building JSON / RESTful APIs"
+    },
+    {
+      "title": "Real-time APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Web Sockets"
+        },
+        {
+          "title": "Server Sent Events"
+        },
+        {
+          "title": "Streaming Responses"
+        }
+      ]
+    },
+    {
+      "title": "Authentication Methods",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basic Auth"
+        },
+        {
+          "title": "JWT"
+        },
+        {
+          "title": "Token Based Auth"
+        },
+        {
+          "title": "OAuth 2.0"
+        },
+        {
+          "title": "OIDC"
+        },
+        {
+          "title": "Session Based Auth"
+        }
+      ]
+    },
+    {
+      "title": "Authorization Methods",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ABAC"
+        },
+        {
+          "title": "DAC"
+        },
+        {
+          "title": "PBAC"
+        },
+        {
+          "title": "RBAC"
+        },
+        {
+          "title": "MAC"
+        },
+        {
+          "title": "ReBAC"
+        }
+      ]
+    },
+    {
+      "title": "API Keys & Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Key Generation & Rotation"
+        },
+        {
+          "title": "Scopes & Permissions"
+        }
+      ]
+    },
+    {
+      "title": "API Documentation Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Swagger / Open API"
+        },
+        {
+          "title": "Readme.com"
+        },
+        {
+          "title": "Stoplight"
+        },
+        {
+          "title": "Postman"
+        }
+      ]
+    },
+    {
+      "title": "API Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Best Practices"
+        },
+        {
+          "title": "Common Vulnerabilities"
+        },
+        {
+          "title": "Performance Metrics"
+        }
+      ]
+    },
+    {
+      "title": "API Performance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Caching Strategies"
+        },
+        {
+          "title": "Load Balancing"
+        },
+        {
+          "title": "Rate Limiting / Throttling"
+        },
+        {
+          "title": "Synchronous vs Asynchronous APIs"
+        },
+        {
+          "title": "Profiling and Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "API Integration Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Performance Testing"
+        },
+        {
+          "title": "Event Driven Architecture"
+        },
+        {
+          "title": "Error Handling / Retries"
+        },
+        {
+          "title": "API Gateways"
+        },
+        {
+          "title": "Microservices Architecture"
+        }
+      ]
+    },
+    {
+      "title": "API Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Webhooks vs Polling"
+        },
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "BFF Pattern"
+        },
+        {
+          "title": "Functional Testing"
+        },
+        {
+          "title": "Batch Processing"
+        },
+        {
+          "title": "Load Testing"
+        }
+      ]
+    },
+    {
+      "title": "Observability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Messaging Queues"
+        },
+        {
+          "title": "Mocking APIs"
+        },
+        {
+          "title": "Contract Testing"
+        },
+        {
+          "title": "Kafka"
+        },
+        {
+          "title": "Rabbit MQ"
+        }
+      ]
+    },
+    {
+      "title": "API Lifecycle Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GDPR"
+        },
+        {
+          "title": "CCPA"
+        }
+      ]
+    },
+    {
+      "title": "Standards and Compliance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PII"
+        },
+        {
+          "title": "PCI DSS"
+        },
+        {
+          "title": "HIPAA"
+        }
+      ]
+    }
+  ]
+}

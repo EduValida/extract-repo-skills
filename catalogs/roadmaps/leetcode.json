@@ -1,0 +1,500 @@
+{
+  "title": "LeetCode",
+  "topics": [
+    {
+      "title": "What is LeetCode",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Ruby"
+        }
+      ]
+    },
+    {
+      "title": "What are coding patterns?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C++"
+        }
+      ]
+    },
+    {
+      "title": "Pick a language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "C"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Rust"
+        }
+      ]
+    },
+    {
+      "title": "Arrays & Hashing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Two Sum"
+        },
+        {
+          "title": "Valid Anagram"
+        },
+        {
+          "title": "Contains Duplicate"
+        },
+        {
+          "title": "Group Anagrams"
+        },
+        {
+          "title": "Top K Frequent Elements"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Two Pointers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Valid Palindrome"
+        },
+        {
+          "title": "3Sum"
+        },
+        {
+          "title": "Container With Most Water"
+        },
+        {
+          "title": "Trapping Rain Water"
+        },
+        {
+          "title": "Two Sum II"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Stacks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Valid Parentheses"
+        },
+        {
+          "title": "Min Stack"
+        },
+        {
+          "title": "Daily Temperatures"
+        },
+        {
+          "title": "Generate Parentheses"
+        },
+        {
+          "title": "Largest Rectangle in Hist."
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Binary Search",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Binary Search"
+        },
+        {
+          "title": "Search in Rotated Array"
+        },
+        {
+          "title": "Minimum in Rotated Array"
+        },
+        {
+          "title": "Koko Eating Bananas"
+        },
+        {
+          "title": "Median of Two Arrays"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Sliding Window",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Best Time to Buy and Sell"
+        },
+        {
+          "title": "Substring Without Repetition"
+        },
+        {
+          "title": "Minimum Window Substring"
+        },
+        {
+          "title": "Character Replacement"
+        },
+        {
+          "title": "Sliding Window Maximum"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Linked List",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Reverse Linked List"
+        },
+        {
+          "title": "Merge Two Sorted Lists"
+        },
+        {
+          "title": "Linked List Cycle"
+        },
+        {
+          "title": "Reorder List"
+        },
+        {
+          "title": "Merge K Sorted Lists"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Trees",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Binary Tree Level Order"
+        },
+        {
+          "title": "Maximum Depth of Binary Tree"
+        },
+        {
+          "title": "Lowest Common Ancestor"
+        },
+        {
+          "title": "Binary Tree Maximum Path Sum"
+        },
+        {
+          "title": "Serialize and Deserialize"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Heap / Priority Queue",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kth Largest Element in an Array"
+        },
+        {
+          "title": "K Closest Points to Origin"
+        },
+        {
+          "title": "Task Scheduler"
+        },
+        {
+          "title": "Find Median from Data Stream"
+        },
+        {
+          "title": "Merge K Sorted Lists"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Backtracking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Subsets"
+        },
+        {
+          "title": "Combination Sum"
+        },
+        {
+          "title": "Permutations"
+        },
+        {
+          "title": "Word Search"
+        },
+        {
+          "title": "N-Queens"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Tries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Implement Trie"
+        },
+        {
+          "title": "Design Add and Search Words"
+        },
+        {
+          "title": "Word Search II"
+        },
+        {
+          "title": "Longest Common Prefix"
+        },
+        {
+          "title": "Replace Words"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Graphs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Number of Islands"
+        },
+        {
+          "title": "Clone Graph"
+        },
+        {
+          "title": "Pacific Atlantic Water Flow"
+        },
+        {
+          "title": "Course Schedule"
+        },
+        {
+          "title": "Word Ladder"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Graphs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Network Delay Time"
+        },
+        {
+          "title": "Min Cost to Connect All Points"
+        },
+        {
+          "title": "Cheapest Flights Within K Stops"
+        },
+        {
+          "title": "Swim in Rising Water"
+        },
+        {
+          "title": "Reconstruct Itinerary"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "1-D Dynamic Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Climbing Stairs"
+        },
+        {
+          "title": "House Robber"
+        },
+        {
+          "title": "Coin Change"
+        },
+        {
+          "title": "Longest Increasing Subsequ."
+        },
+        {
+          "title": "Word Break"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "2-D Dynamic Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unique Paths"
+        },
+        {
+          "title": "Longest Common Subsequence"
+        },
+        {
+          "title": "Edit Distance"
+        },
+        {
+          "title": "Burst Balloons"
+        },
+        {
+          "title": "Regular Expression Matching"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Greedy",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jump Game"
+        },
+        {
+          "title": "Jump Game II"
+        },
+        {
+          "title": "Gas Station"
+        },
+        {
+          "title": "Partition Labels"
+        },
+        {
+          "title": "Non-overlapping Intervals"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Intervals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Merge Intervals"
+        },
+        {
+          "title": "Insert Interval"
+        },
+        {
+          "title": "Non-overlapping Intervals"
+        },
+        {
+          "title": "Meeting Rooms"
+        },
+        {
+          "title": "Min. Interval to Include Query"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Bit Manipulation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Single Number"
+        },
+        {
+          "title": "Number of 1 Bits"
+        },
+        {
+          "title": "Counting Bits"
+        },
+        {
+          "title": "Reverse Bits"
+        },
+        {
+          "title": "Sum of Two Integers"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    },
+    {
+      "title": "Math & Geometry",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Rotate Image"
+        },
+        {
+          "title": "Spiral Matrix"
+        },
+        {
+          "title": "Set Matrix Zeroes"
+        },
+        {
+          "title": "Happy Number"
+        },
+        {
+          "title": "Pow(x, n)"
+        },
+        {
+          "title": "More Exercises"
+        }
+      ]
+    }
+  ]
+}

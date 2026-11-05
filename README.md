@@ -122,15 +122,28 @@ curl -X POST http://127.0.0.1:8000/analyses \
 
 ## Catálogo e Grafos de Habilidades
 
-Os grafos de habilidades ficam organizados em `catalogs/graphs/`.
+Os grafos extraídos ficam em `catalogs/graphs/`. Os roadmaps enxutos ficam em
+`catalogs/roadmaps/` e são gerados a partir da árvore dos grafos.
 
-Para baixar ou atualizar os 95 roadmaps oficiais diretamente do roadmap.sh em formato de grafo estruturado (nós, conexões e descrições):
+Para baixar ou atualizar os 95 roadmaps oficiais diretamente do roadmap.sh em
+formato de grafo estruturado:
 
 ```bash
 uv run python scripts/extract_roadmap_graph.py --all
 ```
 
-Ao solicitar uma análise informando `"skill": "rust"`, o serviço carrega automaticamente `catalogs/graphs/rust.json` e restringe o esquema do modelo para validar exclusivamente as competências daquela árvore.
+Para regenerar os roadmaps enxutos:
+
+```bash
+uv run python scripts/build_roadmaps.py
+```
+
+O schema, os campos e as regras de geração estão em
+[`docs/roadmap-schema.md`](docs/roadmap-schema.md).
+
+O campo `skill` recebe o título do roadmap. Por exemplo, `"Network Engineer"`
+carrega `catalogs/roadmaps/network-engineer.json`. Slugs antigos continuam
+aceitos como fallback.
 
 ---
 

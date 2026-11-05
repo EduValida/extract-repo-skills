@@ -1,0 +1,614 @@
+{
+  "title": "Backend Developer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How does the internet work?"
+        },
+        {
+          "title": "What is HTTP?"
+        },
+        {
+          "title": "What is Domain Name?"
+        },
+        {
+          "title": "What is hosting?"
+        },
+        {
+          "title": "DNS and how it works?"
+        },
+        {
+          "title": "Browsers and how they work?"
+        }
+      ]
+    },
+    {
+      "title": "Frontend Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Pick a Backend Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Ruby"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "C#"
+        },
+        {
+          "title": "PHP"
+        },
+        {
+          "title": "Rust"
+        },
+        {
+          "title": "MySQL"
+        },
+        {
+          "title": "MariaDB"
+        },
+        {
+          "title": "MS SQL"
+        }
+      ]
+    },
+    {
+      "title": "Version Control Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Repo Hosting Services",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "GitLab"
+        }
+      ]
+    },
+    {
+      "title": "Relational Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Migrations"
+        },
+        {
+          "title": "PostgreSQL"
+        },
+        {
+          "title": "SQLite"
+        },
+        {
+          "title": "Oracle"
+        },
+        {
+          "title": "N+1 Problem"
+        }
+      ]
+    },
+    {
+      "title": "Learn about APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Open API Specs"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "AI in Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Refactoring"
+            },
+            {
+              "title": "Documentation Generation"
+            }
+          ]
+        },
+        {
+          "title": "AI Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Gemini"
+            },
+            {
+              "title": "OpenAI"
+            },
+            {
+              "title": "Anthropic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JWT"
+        },
+        {
+          "title": "OAuth"
+        },
+        {
+          "title": "Basic Authentication"
+        },
+        {
+          "title": "Server Side",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Redis"
+            },
+            {
+              "title": "Memcached"
+            },
+            {
+              "title": "HTTP Caching"
+            }
+          ]
+        },
+        {
+          "title": "Token Authentication"
+        },
+        {
+          "title": "Cookie Based Auth"
+        },
+        {
+          "title": "OpenID"
+        },
+        {
+          "title": "SAML"
+        },
+        {
+          "title": "Web Security"
+        },
+        {
+          "title": "Hashing Algorithms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MD5"
+            },
+            {
+              "title": "SHA"
+            },
+            {
+              "title": "scrypt"
+            },
+            {
+              "title": "bcrypt"
+            },
+            {
+              "title": "OWASP Risks"
+            },
+            {
+              "title": "HTTPS"
+            },
+            {
+              "title": "SSL/TLS"
+            },
+            {
+              "title": "CORS"
+            },
+            {
+              "title": "Server Security"
+            },
+            {
+              "title": "CSP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn about Web Servers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nginx"
+        },
+        {
+          "title": "Apache"
+        },
+        {
+          "title": "Caddy"
+        },
+        {
+          "title": "MS IIS"
+        }
+      ]
+    },
+    {
+      "title": "Learn the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How LLMs work"
+        },
+        {
+          "title": "AI vs Traditional Coding"
+        },
+        {
+          "title": "Embeddings"
+        },
+        {
+          "title": "Vectors"
+        }
+      ]
+    },
+    {
+      "title": "Applications",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code Reviews"
+        }
+      ]
+    },
+    {
+      "title": "AI Assisted Coding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "API Styles",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "REST"
+            },
+            {
+              "title": "JSON APIs"
+            },
+            {
+              "title": "SOAP"
+            },
+            {
+              "title": "gRPC"
+            },
+            {
+              "title": "GraphQL"
+            }
+          ]
+        },
+        {
+          "title": "RAGs"
+        },
+        {
+          "title": "Claude Code"
+        },
+        {
+          "title": "Cursor"
+        },
+        {
+          "title": "Copilot"
+        },
+        {
+          "title": "Antigravity"
+        },
+        {
+          "title": "Prompting Techniques"
+        },
+        {
+          "title": "Agents"
+        },
+        {
+          "title": "MCP"
+        },
+        {
+          "title": "Skills"
+        }
+      ]
+    },
+    {
+      "title": "Integration Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Streaming"
+        },
+        {
+          "title": "Structured Outputs"
+        },
+        {
+          "title": "Function Calling"
+        }
+      ]
+    },
+    {
+      "title": "CI / CD"
+    },
+    {
+      "title": "More about Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "ORMs"
+        },
+        {
+          "title": "ACID"
+        },
+        {
+          "title": "Normalization"
+        },
+        {
+          "title": "Failure Modes"
+        },
+        {
+          "title": "Profiling Performance"
+        },
+        {
+          "title": "Monolith"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Functional Testing"
+        },
+        {
+          "title": "Containerization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LXC"
+            }
+          ]
+        },
+        {
+          "title": "Container Orchestration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Redis"
+            },
+            {
+              "title": "Observability"
+            },
+            {
+              "title": "DynamoDB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Message Brokers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kafka"
+        },
+        {
+          "title": "RabbitMQ"
+        }
+      ]
+    },
+    {
+      "title": "Architectural Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Microservices"
+        },
+        {
+          "title": "SOA"
+        },
+        {
+          "title": "Serverless"
+        },
+        {
+          "title": "Service Mesh"
+        },
+        {
+          "title": "Twelve Factor Apps"
+        }
+      ]
+    },
+    {
+      "title": "Search Engines",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Elasticsearch"
+        },
+        {
+          "title": "Solr"
+        },
+        {
+          "title": "Server Sent Events"
+        }
+      ]
+    },
+    {
+      "title": "Real-Time Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "WebSockets"
+        },
+        {
+          "title": "Long / Short Polling"
+        }
+      ]
+    },
+    {
+      "title": "Scaling Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Database Indexes"
+        },
+        {
+          "title": "Data Replication"
+        },
+        {
+          "title": "Sharding Strategies"
+        },
+        {
+          "title": "CAP Theorem"
+        }
+      ]
+    },
+    {
+      "title": "NoSQL Databases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MongoDB"
+        },
+        {
+          "title": "Firebase"
+        },
+        {
+          "title": "CouchDB"
+        },
+        {
+          "title": "RethinkDB"
+        },
+        {
+          "title": "Neo4j"
+        },
+        {
+          "title": "ClickHouse"
+        },
+        {
+          "title": "Influx DB"
+        },
+        {
+          "title": "AWS Neptune"
+        },
+        {
+          "title": "Cassandra"
+        },
+        {
+          "title": "TimescaleDB"
+        },
+        {
+          "title": "DGraph"
+        },
+        {
+          "title": "ScyllaDB"
+        }
+      ]
+    },
+    {
+      "title": "Building For Scale",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Click to visit the roadmap",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Graceful Degradation"
+            },
+            {
+              "title": "Throttling"
+            },
+            {
+              "title": "Backpressure"
+            },
+            {
+              "title": "Loadshifting"
+            },
+            {
+              "title": "Circuit Breaker"
+            }
+          ]
+        },
+        {
+          "title": "Instrumentation"
+        },
+        {
+          "title": "Monitoring"
+        },
+        {
+          "title": "Telemetry"
+        }
+      ]
+    }
+  ]
+}

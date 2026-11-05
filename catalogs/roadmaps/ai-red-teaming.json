@@ -1,0 +1,254 @@
+{
+  "title": "AI Red Teaming",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI Security Fundamentals"
+        },
+        {
+          "title": "Why Red Team AI Systems?"
+        },
+        {
+          "title": "Ethical Considerations"
+        },
+        {
+          "title": "Role of Red Teams"
+        }
+      ]
+    },
+    {
+      "title": "Prompt Hacking",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Jailbreak Techniques"
+        },
+        {
+          "title": "Safety Filter Bypasses"
+        },
+        {
+          "title": "Model Extraction",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Data Poisoning"
+            },
+            {
+              "title": "Adversarial Examples"
+            },
+            {
+              "title": "Model Inversion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Model Vulnerabilities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Model Weight Stealing"
+        },
+        {
+          "title": "Prompt Injection"
+        },
+        {
+          "title": "Unauthorized Access"
+        },
+        {
+          "title": "Direct"
+        },
+        {
+          "title": "Indirect"
+        }
+      ]
+    },
+    {
+      "title": "Code Injection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "System Security",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Insecure Deserialization"
+            },
+            {
+              "title": "Remote Code Execution"
+            }
+          ]
+        },
+        {
+          "title": "Countermeasures"
+        },
+        {
+          "title": "Model Manipulation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Adversarial Training"
+            },
+            {
+              "title": "Robust Model Design"
+            },
+            {
+              "title": "Continuous Monitoring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Testing Methodologies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Black Box Testing"
+            },
+            {
+              "title": "White Box Testing"
+            },
+            {
+              "title": "Grey Box Testing"
+            },
+            {
+              "title": "Automated vs Manual"
+            },
+            {
+              "title": "Continuous Testing"
+            }
+          ]
+        },
+        {
+          "title": "API Protection"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Defense Strategies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Conferences"
+            },
+            {
+              "title": "Research Groups"
+            },
+            {
+              "title": "Forums"
+            }
+          ]
+        },
+        {
+          "title": "Authorization"
+        },
+        {
+          "title": "Tools and Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Testing Platforms"
+            },
+            {
+              "title": "Monitoring Solutions"
+            },
+            {
+              "title": "Benchmark Datasets"
+            },
+            {
+              "title": "Custom Testing Scripts"
+            },
+            {
+              "title": "Reporting Tools"
+            }
+          ]
+        },
+        {
+          "title": "Real-world Applications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LLM Security Testing"
+            },
+            {
+              "title": "Agentic AI Security"
+            },
+            {
+              "title": "Responsible Disclosure"
+            }
+          ]
+        },
+        {
+          "title": "Community Engagement",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lab Environments"
+            },
+            {
+              "title": "CTF Challenges"
+            },
+            {
+              "title": "Red Team Simulations"
+            }
+          ]
+        },
+        {
+          "title": "Practical Experience",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Specialized Courses"
+            },
+            {
+              "title": "Industry Credentials"
+            }
+          ]
+        },
+        {
+          "title": "Future Directions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Emerging Threats"
+            },
+            {
+              "title": "Advanced Techniques"
+            },
+            {
+              "title": "Research Opportunities"
+            },
+            {
+              "title": "Industry Standards"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

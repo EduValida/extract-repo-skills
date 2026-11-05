@@ -1,0 +1,77 @@
+{
+  "title": "Vibe Coding",
+  "topics": [
+    {
+      "title": "What is vibe coding?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI Assisted Coding Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Gemini"
+            },
+            {
+              "title": "Codex"
+            },
+            {
+              "title": "Cursor"
+            },
+            {
+              "title": "Devin"
+            },
+            {
+              "title": "Copilot"
+            }
+          ]
+        },
+        {
+          "title": "Frontend-Focused",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "v0"
+            },
+            {
+              "title": "Lovable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The vibe coder mindset"
+    },
+    {
+      "title": "Plan before you Code"
+    },
+    {
+      "title": "Tech Stack and Coding"
+    },
+    {
+      "title": "Security Best Practices"
+    },
+    {
+      "title": "Prompting Best Practices"
+    },
+    {
+      "title": "Context"
+    },
+    {
+      "title": "Debugging"
+    },
+    {
+      "title": "Master Version Control"
+    },
+    {
+      "title": "Testing"
+    }
+  ]
+}

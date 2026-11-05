@@ -1,0 +1,492 @@
+{
+  "title": "Django",
+  "topics": [
+    {
+      "title": "Virtual envs"
+    },
+    {
+      "title": "Installing  Django"
+    },
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How the Web Works"
+        },
+        {
+          "title": "Why use web frameworks"
+        },
+        {
+          "title": "The MVC Model"
+        }
+      ]
+    },
+    {
+      "title": "Projects & Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Project Structure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "manage.py"
+            },
+            {
+              "title": "settings.py"
+            },
+            {
+              "title": "urls.py"
+            }
+          ]
+        },
+        {
+          "title": "App Structure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "models.py"
+            },
+            {
+              "title": "views.py"
+            },
+            {
+              "title": "tests.py"
+            },
+            {
+              "title": "admin.py"
+            },
+            {
+              "title": "migrations"
+            },
+            {
+              "title": "urls.py"
+            }
+          ]
+        },
+        {
+          "title": "Other Files",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "static"
+            },
+            {
+              "title": "media"
+            },
+            {
+              "title": "templates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Running your Project",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Routing Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "URL patterns"
+            },
+            {
+              "title": "Path converters"
+            },
+            {
+              "title": "Regex Paths"
+            },
+            {
+              "title": "Named URLs"
+            },
+            {
+              "title": "Reverse URL"
+            },
+            {
+              "title": "Routing Middleware"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Request Reponse Flow"
+    },
+    {
+      "title": "Views",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Function-based views"
+        },
+        {
+          "title": "Class-based views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Generic views"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Customizing Views",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ListView"
+        },
+        {
+          "title": "DetailView"
+        }
+      ]
+    },
+    {
+      "title": "DTL Syntax",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Filters & custom filters"
+        },
+        {
+          "title": "Tags & custom tags"
+        },
+        {
+          "title": "for"
+        },
+        {
+          "title": "if"
+        },
+        {
+          "title": "Comments"
+        }
+      ]
+    },
+    {
+      "title": "Templates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CreateView"
+        },
+        {
+          "title": "UpdateView"
+        }
+      ]
+    },
+    {
+      "title": "Template Inheritance"
+    },
+    {
+      "title": "Models",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DeleteView"
+        },
+        {
+          "title": "Model Fields",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Fields types"
+            },
+            {
+              "title": "Field options"
+            }
+          ]
+        },
+        {
+          "title": "Custom fields"
+        }
+      ]
+    },
+    {
+      "title": "Model relationships"
+    },
+    {
+      "title": "Model methods"
+    },
+    {
+      "title": "Setting up the Database",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Supported DBs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SQLite"
+            },
+            {
+              "title": "PostgreSQL"
+            },
+            {
+              "title": "MySQL"
+            },
+            {
+              "title": "MariaDB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Model inheritance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Querying data"
+        },
+        {
+          "title": "Create, Update, Delete"
+        },
+        {
+          "title": "Aggregations"
+        },
+        {
+          "title": "Filtering & lookups"
+        },
+        {
+          "title": "Raw SQL"
+        },
+        {
+          "title": "Transactions"
+        }
+      ]
+    },
+    {
+      "title": "Migrations"
+    },
+    {
+      "title": "Django ORM",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Validation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Django Forms"
+            },
+            {
+              "title": "Model Forms"
+            },
+            {
+              "title": "Form Validation"
+            },
+            {
+              "title": "CSRF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Static Files",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Whitenoise"
+        }
+      ]
+    },
+    {
+      "title": "Pagination"
+    },
+    {
+      "title": "Message Framework"
+    },
+    {
+      "title": "Django Shell"
+    },
+    {
+      "title": "Django Admin",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Admin Customization"
+        },
+        {
+          "title": "Views & ViewSets"
+        },
+        {
+          "title": "Routers"
+        }
+      ]
+    },
+    {
+      "title": "Middleware",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Fixtures"
+        },
+        {
+          "title": "Query Optimization"
+        },
+        {
+          "title": "Customization"
+        }
+      ]
+    },
+    {
+      "title": "Authentication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Built-in user model"
+        },
+        {
+          "title": "Custom user model"
+        },
+        {
+          "title": "django-allauth"
+        }
+      ]
+    },
+    {
+      "title": "Authorization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Users & Permissions"
+        }
+      ]
+    },
+    {
+      "title": "Django  REST Framework",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Serializers"
+        }
+      ]
+    },
+    {
+      "title": "Django Ninja"
+    },
+    {
+      "title": "Logging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Logging Framework",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Loggers"
+            },
+            {
+              "title": "Handlers"
+            },
+            {
+              "title": "Filters"
+            },
+            {
+              "title": "Formatters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Debugging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Error Pages"
+        },
+        {
+          "title": "debug_toolbar"
+        },
+        {
+          "title": "PDB, IPDB"
+        },
+        {
+          "title": "django_silk"
+        }
+      ]
+    },
+    {
+      "title": "Django Test Framework",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "pytest"
+        },
+        {
+          "title": "unittest & TestCase"
+        },
+        {
+          "title": "Asynchronous Django",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Celery"
+            }
+          ]
+        },
+        {
+          "title": "Caching"
+        },
+        {
+          "title": "Background Tasks"
+        },
+        {
+          "title": "Localization"
+        },
+        {
+          "title": "Signals"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Production Checklist"
+        }
+      ]
+    }
+  ]
+}

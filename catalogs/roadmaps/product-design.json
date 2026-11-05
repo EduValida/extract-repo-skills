@@ -1,0 +1,460 @@
+{
+  "title": "Product Design",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Product Design vs UX"
+        },
+        {
+          "title": "Product Design vs UI"
+        }
+      ]
+    },
+    {
+      "title": "Defining Success",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Goal Setting"
+        },
+        {
+          "title": "Product Vision"
+        },
+        {
+          "title": "Value Proposition"
+        },
+        {
+          "title": "Product-Market Fit"
+        },
+        {
+          "title": "Success Metrics"
+        }
+      ]
+    },
+    {
+      "title": "Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "User-Centered Design"
+        },
+        {
+          "title": "Functionality over Polish"
+        },
+        {
+          "title": "Consistency & Coherence"
+        },
+        {
+          "title": "Collaboration by Design"
+        },
+        {
+          "title": "Iteration over Perfection"
+        }
+      ]
+    },
+    {
+      "title": "Gathering Information",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Interviews"
+        },
+        {
+          "title": "Surveys"
+        },
+        {
+          "title": "Contextual Inquiry"
+        },
+        {
+          "title": "Heatmaps"
+        },
+        {
+          "title": "Session Recordings"
+        }
+      ]
+    },
+    {
+      "title": "Mapping Context",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Journey Mapping"
+        },
+        {
+          "title": "Task Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Organizing Research",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Synthesizing Research"
+        },
+        {
+          "title": "Research Repository"
+        }
+      ]
+    },
+    {
+      "title": "Framing the Problem",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Personas"
+        },
+        {
+          "title": "Empathy Maps"
+        },
+        {
+          "title": "Jobs-to-be-Done"
+        },
+        {
+          "title": "Problem Statements"
+        },
+        {
+          "title": "How Might We Questions"
+        }
+      ]
+    },
+    {
+      "title": "Prioritizing Opportunities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Product Sense"
+        },
+        {
+          "title": "Business & User Needs"
+        },
+        {
+          "title": "Opportunity Solution Trees"
+        },
+        {
+          "title": "Priorization Frameworks"
+        }
+      ]
+    },
+    {
+      "title": "Business Alignment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Business Understanding"
+        },
+        {
+          "title": "Product Strategy"
+        },
+        {
+          "title": "Kano"
+        },
+        {
+          "title": "RICE"
+        },
+        {
+          "title": "Business Metrics & OKRs"
+        },
+        {
+          "title": "MoSCoW"
+        }
+      ]
+    },
+    {
+      "title": "Aligning Teams",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stakeholder Alignment"
+        },
+        {
+          "title": "Agile UX, Lean UX"
+        },
+        {
+          "title": "Design Workshops & Sprints"
+        }
+      ]
+    },
+    {
+      "title": "Managing Risk",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Assumption Mapping"
+        },
+        {
+          "title": "Risk Identification"
+        }
+      ]
+    },
+    {
+      "title": "Information Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Site Maps"
+        },
+        {
+          "title": "Navigation"
+        },
+        {
+          "title": "User Flows"
+        },
+        {
+          "title": "Content Organization"
+        },
+        {
+          "title": "Task Flows"
+        }
+      ]
+    },
+    {
+      "title": "Ideation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Brainstorming"
+        },
+        {
+          "title": "Mind Maps"
+        },
+        {
+          "title": "Sketching"
+        },
+        {
+          "title": "Wireframing"
+        },
+        {
+          "title": "Prototyping"
+        }
+      ]
+    },
+    {
+      "title": "Testing Designs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Usability Testing"
+        },
+        {
+          "title": "Accessibility Testing"
+        }
+      ]
+    },
+    {
+      "title": "Measuring Quality",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UX Benchmarking"
+        },
+        {
+          "title": "Expert Review"
+        }
+      ]
+    },
+    {
+      "title": "Improving Designs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Critiques & Reviews"
+        }
+      ]
+    },
+    {
+      "title": "Visual Foundations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Color"
+        },
+        {
+          "title": "Typography"
+        },
+        {
+          "title": "Layout & Grid"
+        },
+        {
+          "title": "Icons"
+        },
+        {
+          "title": "Visual Hierarchy"
+        }
+      ]
+    },
+    {
+      "title": "Interface Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Components"
+        },
+        {
+          "title": "UI Patterns"
+        },
+        {
+          "title": "Design Tokens"
+        },
+        {
+          "title": "Interface States"
+        }
+      ]
+    },
+    {
+      "title": "Motion & Interaction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Micro-interactions"
+        },
+        {
+          "title": "Motion Principles"
+        }
+      ]
+    },
+    {
+      "title": "Content Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UX Writing"
+        },
+        {
+          "title": "Voice & Tone"
+        },
+        {
+          "title": "Microcopy"
+        }
+      ]
+    },
+    {
+      "title": "Designing Responsibly",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Inclusive Design"
+        },
+        {
+          "title": "Ethical Design"
+        }
+      ]
+    },
+    {
+      "title": "AI-Assisted Design"
+    },
+    {
+      "title": "Technical Constraints",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stack & Platform Constraints"
+        },
+        {
+          "title": "API & Data Limitations"
+        },
+        {
+          "title": "Performance Constraints"
+        }
+      ]
+    },
+    {
+      "title": "Feasibility Assessment"
+    },
+    {
+      "title": "Design Handoff",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Specs"
+        },
+        {
+          "title": "Figma Dev Mode"
+        },
+        {
+          "title": "Edge Cases & States"
+        },
+        {
+          "title": "Zeplin"
+        }
+      ]
+    },
+    {
+      "title": "Launch Readiness"
+    },
+    {
+      "title": "Developer Collaboration"
+    },
+    {
+      "title": "Design Systems"
+    },
+    {
+      "title": "Operating at Scale",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DesignOps"
+        }
+      ]
+    },
+    {
+      "title": "Multi-platform Design"
+    },
+    {
+      "title": "Product Performance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Product Analytics"
+        },
+        {
+          "title": "HEART Framework"
+        }
+      ]
+    },
+    {
+      "title": "Experimentation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "A/B Testing"
+        },
+        {
+          "title": "Feature Flags"
+        }
+      ]
+    },
+    {
+      "title": "Continuous Improvement"
+    }
+  ]
+}

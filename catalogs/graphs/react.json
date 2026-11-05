@@ -3,10 +3,10 @@
     "slug": "react",
     "title": "React Developer",
     "description": "Everything that is there to learn about React and the ecosystem in 2026.",
-    "extracted_at": "2026-10-29T01:04:32.923308+00:00",
+    "extracted_at": "2026-11-05T02:15:27.534288+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/react",
     "total_topics": 20,
-    "total_subtopics": 62
+    "total_subtopics": 66
   },
   "tree": {
     "title": "React Developer",
@@ -25,7 +25,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/cli-tools@tU4Umtnfu01t9gLlnlK6b.md",
-        "subtopics_count": 2,
+        "subtopics_count": 1,
         "subtopics": [
           {
             "id": "y9ToYDix-koRbR6FLydFw",
@@ -54,36 +54,9 @@
                 "url": "https://www.youtube.com/watch?v=89NJdbYTgJ8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/vite@y9ToYDix-koRbR6FLydFw.md"
-          },
-          {
-            "id": "8OBlgDRUg-CTgDXY-QHyO",
-            "name": "Component Lifecycle",
-            "type": "subtopic",
-            "description": "The component lifecycle describes the different stages a component goes through, from being created and added to the page, to updating, and finally being removed. In function components, lifecycle behavior is handled through hooks like useEffect instead of separate lifecycle methods. Knowing this lifecycle helps developers run code at the right moment, such as fetching data when a component first appears.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Lifecycle of Reactive Effects",
-                "url": "https://react.dev/learn/lifecycle-of-reactive-effects"
-              },
-              {
-                "type": "official",
-                "title": "Class Component",
-                "url": "https://react.dev/reference/react/Component"
-              },
-              {
-                "type": "article",
-                "title": "React component lifecycle: React lifecycle methods & hooks",
-                "url": "https://tsh.io/blog/react-component-lifecycle-methods-vs-hooks/"
-              },
-              {
-                "type": "article",
-                "title": "The React lifecycle: methods and hooks explained",
-                "url": "https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained#react-hooks-and-the-component-lifecycle"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/component-lifecycle@8OBlgDRUg-CTgDXY-QHyO.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/vite@y9ToYDix-koRbR6FLydFw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -115,8 +88,39 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/components@79K4xgljcoSHkCYI1D55O.md",
-        "subtopics_count": 8,
+        "subtopics_count": 6,
         "subtopics": [
+          {
+            "id": "8OBlgDRUg-CTgDXY-QHyO",
+            "name": "Component Lifecycle",
+            "type": "subtopic",
+            "description": "The component lifecycle describes the different stages a component goes through, from being created and added to the page, to updating, and finally being removed. In function components, lifecycle behavior is handled through hooks like useEffect instead of separate lifecycle methods. Knowing this lifecycle helps developers run code at the right moment, such as fetching data when a component first appears.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Lifecycle of Reactive Effects",
+                "url": "https://react.dev/learn/lifecycle-of-reactive-effects"
+              },
+              {
+                "type": "official",
+                "title": "Class Component",
+                "url": "https://react.dev/reference/react/Component"
+              },
+              {
+                "type": "article",
+                "title": "React component lifecycle: React lifecycle methods & hooks",
+                "url": "https://tsh.io/blog/react-component-lifecycle-methods-vs-hooks/"
+              },
+              {
+                "type": "article",
+                "title": "The React lifecycle: methods and hooks explained",
+                "url": "https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained#react-hooks-and-the-component-lifecycle"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react/content/component-lifecycle@8OBlgDRUg-CTgDXY-QHyO.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "8mw4TxlLN4ZKAlLl-_NVV",
             "name": "Functional Components",
@@ -149,7 +153,9 @@
                 "url": "https://www.youtube.com/watch?v=NJ_qbsLf52w"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/functional-components@8mw4TxlLN4ZKAlLl-_NVV.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/functional-components@8mw4TxlLN4ZKAlLl-_NVV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "HeWVCPHqVnnbOn6zIim4K",
@@ -178,7 +184,9 @@
                 "url": "https://www.robinwieruch.de/react-list-key/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/lists-and-keys@HeWVCPHqVnnbOn6zIim4K.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/lists-and-keys@HeWVCPHqVnnbOn6zIim4K.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WREBxWSNQDD_6fzpHL6CE",
@@ -202,7 +210,9 @@
                 "url": "https://www.codeguage.com/courses/react/jsx"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/jsx@WREBxWSNQDD_6fzpHL6CE.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/jsx@WREBxWSNQDD_6fzpHL6CE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "vdumdIglnouf1KyGIGZnc",
@@ -226,7 +236,9 @@
                 "url": "https://www.patterns.dev/posts/render-props-pattern/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/render-props@vdumdIglnouf1KyGIGZnc.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/render-props@vdumdIglnouf1KyGIGZnc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "RFuy3Eho3mnW1GpP08BVw",
@@ -255,8 +267,37 @@
                 "url": "https://www.robinwieruch.de/react-derive-state-props/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/props-vs-state@RFuy3Eho3mnW1GpP08BVw.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/props-vs-state@RFuy3Eho3mnW1GpP08BVw.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "0uiGsC5SWavNdlFqizkKe",
+        "name": "Rendering",
+        "type": "topic",
+        "description": "Rendering is the process where React takes your component code and turns it into actual elements on the screen. React decides when to re-render a component based on changes to its state or props. Understanding how rendering works helps explain why an app updates the way it does, and where performance issues can come from.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Render and Commit - Official Docs",
+            "url": "https://react.dev/learn/render-and-commit"
           },
+          {
+            "type": "article",
+            "title": "Rendering in React - ui.dev",
+            "url": "https://ui.dev/why-react-renders"
+          },
+          {
+            "type": "article",
+            "title": "Fix the slow render before you fix the re-render",
+            "url": "https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/react/content/rendering@0uiGsC5SWavNdlFqizkKe.md",
+        "subtopics_count": 5,
+        "subtopics": [
           {
             "id": "_zNAOhFWMcWqP4oxNPCXF",
             "name": "Refs",
@@ -284,7 +325,9 @@
                 "url": "https://www.youtube.com/watch?v=t2ypzz6gJm0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/refs@_zNAOhFWMcWqP4oxNPCXF.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/refs@_zNAOhFWMcWqP4oxNPCXF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "aE6XBgH23135_9QmD4ff2",
@@ -308,7 +351,35 @@
                 "url": "https://www.youtube.com/watch?v=4oCVDkb_EIs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/conditional-rendering@aE6XBgH23135_9QmD4ff2.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/conditional-rendering@aE6XBgH23135_9QmD4ff2.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Nex2HcTOYIbfqUzXyxSMY",
+            "name": "Events",
+            "type": "subtopic",
+            "description": "React wraps native browser events in its own system called synthetic events, so they behave consistently across different browsers. You attach event handlers directly in JSX, such as onClick or onChange, and they receive an event object similar to the native one. This lets components respond to user interaction like clicks, typing, or form submissions.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Responding to Events",
+                "url": "https://react.dev/learn/responding-to-events"
+              },
+              {
+                "type": "official",
+                "title": "React Event Object (Synthetic Event)",
+                "url": "https://react.dev/reference/react-dom/components/common#react-event-object"
+              },
+              {
+                "type": "article",
+                "title": "React Event Handler",
+                "url": "https://www.robinwieruch.de/react-event-handler/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react/content/events@Nex2HcTOYIbfqUzXyxSMY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "4T59gdcwdXqj9kCuK7cfp",
@@ -337,58 +408,9 @@
                 "url": "https://formidable.com/blog/2021/react-composition/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/composition@4T59gdcwdXqj9kCuK7cfp.md"
-          }
-        ]
-      },
-      {
-        "id": "0uiGsC5SWavNdlFqizkKe",
-        "name": "Rendering",
-        "type": "topic",
-        "description": "Rendering is the process where React takes your component code and turns it into actual elements on the screen. React decides when to re-render a component based on changes to its state or props. Understanding how rendering works helps explain why an app updates the way it does, and where performance issues can come from.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Render and Commit - Official Docs",
-            "url": "https://react.dev/learn/render-and-commit"
-          },
-          {
-            "type": "article",
-            "title": "Rendering in React - ui.dev",
-            "url": "https://ui.dev/why-react-renders"
-          },
-          {
-            "type": "article",
-            "title": "Fix the slow render before you fix the re-render",
-            "url": "https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/react/content/rendering@0uiGsC5SWavNdlFqizkKe.md",
-        "subtopics_count": 2,
-        "subtopics": [
-          {
-            "id": "Nex2HcTOYIbfqUzXyxSMY",
-            "name": "Events",
-            "type": "subtopic",
-            "description": "React wraps native browser events in its own system called synthetic events, so they behave consistently across different browsers. You attach event handlers directly in JSX, such as onClick or onChange, and they receive an event object similar to the native one. This lets components respond to user interaction like clicks, typing, or form submissions.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Responding to Events",
-                "url": "https://react.dev/learn/responding-to-events"
-              },
-              {
-                "type": "official",
-                "title": "React Event Object (Synthetic Event)",
-                "url": "https://react.dev/reference/react-dom/components/common#react-event-object"
-              },
-              {
-                "type": "article",
-                "title": "React Event Handler",
-                "url": "https://www.robinwieruch.de/react-event-handler/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/events@Nex2HcTOYIbfqUzXyxSMY.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/composition@4T59gdcwdXqj9kCuK7cfp.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zOENl96GUZRw2PP2KxIck",
@@ -417,7 +439,9 @@
                 "url": "https://www.youtube.com/watch?v=B6aNv8nkUSw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/high-order-components@zOENl96GUZRw2PP2KxIck.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/high-order-components@zOENl96GUZRw2PP2KxIck.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -434,8 +458,196 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/hooks@LbLQhonBqzxHU6B-L--Vq.md",
-        "subtopics_count": 9,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "mkmz1JuNsTOR1D4vqilCX",
+            "name": "Basic Hooks",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 7,
+            "subtopics": [
+              {
+                "id": "FK59Zsm5ENA9g11XWCan_",
+                "name": "useState",
+                "type": "subtopic",
+                "description": "`useState` is a React Hook that lets you add state to functional components. When you call `useState`, you get back the current state value and a function to update it, allowing components to store and manage data that persists between renders.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "useState Documentation",
+                    "url": "https://react.dev/reference/react/useState"
+                  },
+                  {
+                    "type": "official",
+                    "title": "State: A Component's Memory",
+                    "url": "https://react.dev/learn/state-a-components-memory"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Adding Interactivity",
+                    "url": "https://react.dev/learn/adding-interactivity"
+                  },
+                  {
+                    "type": "article",
+                    "title": "eact Hooks: useState Explained",
+                    "url": "https://www.robinwieruch.de/react-usestate-hook/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/usestate@FK59Zsm5ENA9g11XWCan_.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "8OnzX03hkZ9K9i__tjmFX",
+                "name": "useEffect",
+                "type": "subtopic",
+                "description": "`useEffect` is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Using the Effect Hook",
+                    "url": "https://react.dev/reference/react/useEffect"
+                  },
+                  {
+                    "type": "article",
+                    "title": "React useEffect Hook by Example",
+                    "url": "https://www.robinwieruch.de/react-useeffect-hook/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/useeffect@8OnzX03hkZ9K9i__tjmFX.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "dgoDNDtW2_q9R9yhkXrcz",
+                "name": "useCallback",
+                "type": "subtopic",
+                "description": "`useCallback` is a React hook that returns a memoized version of a callback function. It's used to optimize performance by preventing unnecessary re-renders. Specifically, it helps avoid recreating functions when their dependencies haven't changed, which can be useful when passing callbacks to child components that rely on referential equality to prevent re-rendering.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "React Documentation on useCallback",
+                    "url": "https://react.dev/reference/react/useCallback"
+                  },
+                  {
+                    "type": "article",
+                    "title": "useCallback Explained in Depth",
+                    "url": "https://kentcdodds.com/blog/usememo-and-usecallback"
+                  },
+                  {
+                    "type": "article",
+                    "title": "useCallback Hook: An Introductory Guide",
+                    "url": "https://dmitripavlutin.com/dont-overuse-react-usecallback/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/usecallback@dgoDNDtW2_q9R9yhkXrcz.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "t_laNdMmdLApYszqXRdWg",
+                "name": "useRef",
+                "type": "subtopic",
+                "description": "`useRef` is a React hook that provides a way to create a mutable reference that persists across component re-renders. It stores a value that doesn't cause re-renders when it changes.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "useRef",
+                    "url": "https://react.dev/reference/react/useRef"
+                  },
+                  {
+                    "type": "video",
+                    "title": "WebDevSimplified",
+                    "url": "https://www.youtube.com/watch?v=t2ypzz6gJm0"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/useref@t_laNdMmdLApYszqXRdWg.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "v48Mv0wQqjXbvy8x6gDjQ",
+                "name": "useReducer",
+                "type": "subtopic",
+                "description": "`useReducer`: An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method. (If you’re familiar with Redux, you already know how this works.)",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "useReducer Docs",
+                    "url": "https://react.dev/reference/react/useReducer"
+                  },
+                  {
+                    "type": "article",
+                    "title": "The React useReducer Hook",
+                    "url": "https://www.telerik.com/blogs/react-usereducer-hook"
+                  },
+                  {
+                    "type": "article",
+                    "title": "A guide to the React useReducer Hook",
+                    "url": "https://blog.logrocket.com/react-usereducer-hook-ultimate-guide/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Learn React Hooks: useReducer - Simply Explained!",
+                    "url": "https://www.youtube.com/watch?v=rgp_iCVS8ys&t"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/usereducer@v48Mv0wQqjXbvy8x6gDjQ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "w3bNp7OkehI1gjx8NzlC8",
+                "name": "useMemo",
+                "type": "subtopic",
+                "description": "`useMemo` is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "useMemo Docs",
+                    "url": "https://react.dev/reference/react/useMemo"
+                  },
+                  {
+                    "type": "article",
+                    "title": "useMemo and useCallback - Josh W. Comeau",
+                    "url": "https://www.joshwcomeau.com/react/usememo-and-usecallback/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/usememo@w3bNp7OkehI1gjx8NzlC8.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "D5_O-uElftYGQr_bTU_se",
+                "name": "useContext",
+                "type": "subtopic",
+                "description": "The `useContext` Hook lets us share data between components without having to pass props down through every level of the component tree. This is particularly useful when many components need to access the same data or when components are deeply nested.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Using useContext",
+                    "url": "https://react.dev/reference/react/useContext"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Explore the concept of context",
+                    "url": "https://react.dev/learn/passing-data-deeply-with-context"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Learn useContext In 13 Minutes",
+                    "url": "https://www.youtube.com/watch?v=5LrDIWkK_Bc"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/usecontext@D5_O-uElftYGQr_bTU_se.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
           {
             "id": "HX75SExuzR5AP7TQ94qid",
             "name": "Creating Custom Hooks",
@@ -458,55 +670,9 @@
                 "url": "https://www.youtube.com/watch?v=I2Bgi0Qcdvc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/creating-custom-hooks@HX75SExuzR5AP7TQ94qid.md"
-          },
-          {
-            "id": "8OnzX03hkZ9K9i__tjmFX",
-            "name": "useEffect",
-            "type": "subtopic",
-            "description": "`useEffect` is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Using the Effect Hook",
-                "url": "https://react.dev/reference/react/useEffect"
-              },
-              {
-                "type": "article",
-                "title": "React useEffect Hook by Example",
-                "url": "https://www.robinwieruch.de/react-useeffect-hook/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/useeffect@8OnzX03hkZ9K9i__tjmFX.md"
-          },
-          {
-            "id": "FK59Zsm5ENA9g11XWCan_",
-            "name": "useState",
-            "type": "subtopic",
-            "description": "`useState` is a React Hook that lets you add state to functional components. When you call `useState`, you get back the current state value and a function to update it, allowing components to store and manage data that persists between renders.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "useState Documentation",
-                "url": "https://react.dev/reference/react/useState"
-              },
-              {
-                "type": "official",
-                "title": "State: A Component's Memory",
-                "url": "https://react.dev/learn/state-a-components-memory"
-              },
-              {
-                "type": "official",
-                "title": "Adding Interactivity",
-                "url": "https://react.dev/learn/adding-interactivity"
-              },
-              {
-                "type": "article",
-                "title": "eact Hooks: useState Explained",
-                "url": "https://www.robinwieruch.de/react-usestate-hook/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/usestate@FK59Zsm5ENA9g11XWCan_.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/creating-custom-hooks@HX75SExuzR5AP7TQ94qid.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "mkyU0ug8MXxV4biHuOity",
@@ -535,122 +701,82 @@
                 "url": "https://utopia-insights.dev/react-custom-hooks-best-practices-and-examples/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/hooks-best-practices@mkyU0ug8MXxV4biHuOity.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/hooks-best-practices@mkyU0ug8MXxV4biHuOity.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "dgoDNDtW2_q9R9yhkXrcz",
-            "name": "useCallback",
-            "type": "subtopic",
-            "description": "`useCallback` is a React hook that returns a memoized version of a callback function. It's used to optimize performance by preventing unnecessary re-renders. Specifically, it helps avoid recreating functions when their dependencies haven't changed, which can be useful when passing callbacks to child components that rely on referential equality to prevent re-rendering.",
-            "resources": [
+            "id": "EyspErq0ByXTgkgk3SGUz",
+            "name": "Common Hooks",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 2,
+            "subtopics": [
               {
-                "type": "official",
-                "title": "React Documentation on useCallback",
-                "url": "https://react.dev/reference/react/useCallback"
+                "id": "nl5imPsdY2oEWlg-9TTuk",
+                "name": "Zustand",
+                "type": "subtopic",
+                "description": "Zustand is a small state management library that uses a single store defined with a simple function, without requiring reducers or actions like Redux. Components can read and update the store directly through a hook, with minimal boilerplate. Its simplicity and small bundle size make it a common choice for apps that outgrow plain Context.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Zustand - Official Website",
+                    "url": "https://zustand-demo.pmnd.rs/"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "Zustand Repository",
+                    "url": "https://github.com/pmndrs/zustand"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Working with Zustand",
+                    "url": "https://tkdodo.eu/blog/working-with-zustand"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Zustand Tutorial for Beginners",
+                    "url": "https://www.youtube.com/watch?v=AYO4qHAnLQI&t"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/zustand@nl5imPsdY2oEWlg-9TTuk.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "useCallback Explained in Depth",
-                "url": "https://kentcdodds.com/blog/usememo-and-usecallback"
-              },
-              {
-                "type": "article",
-                "title": "useCallback Hook: An Introductory Guide",
-                "url": "https://dmitripavlutin.com/dont-overuse-react-usecallback/"
+                "id": "1kbrCI5JS0c9wbzxXpgFU",
+                "name": "MobX",
+                "type": "subtopic",
+                "description": "MobX is a state management library based on observable data, where changes to state automatically trigger updates in any component using that data. It relies on decorators or plain functions to mark state as observable, and React components re-render only when the specific data they use changes. It takes a more reactive, less explicit approach compared to libraries like Redux.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Official Website: MobX",
+                    "url": "https://mobx.js.org/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How to Improve State Management in React with MobX",
+                    "url": "https://medium.com/whitespectre/how-to-improve-state-management-in-react-with-mobx-568808ff86a4"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Mobx React - State Management",
+                    "url": "https://www.youtube.com/watch?v=AgcaGGkYy_8"
+                  },
+                  {
+                    "type": "video",
+                    "title": "MobX Tutorial with React and Typescript",
+                    "url": "https://www.youtube.com/watch?v=ElgfQdq-Htk"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/mobx@1kbrCI5JS0c9wbzxXpgFU.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/usecallback@dgoDNDtW2_q9R9yhkXrcz.md"
-          },
-          {
-            "id": "t_laNdMmdLApYszqXRdWg",
-            "name": "useRef",
-            "type": "subtopic",
-            "description": "`useRef` is a React hook that provides a way to create a mutable reference that persists across component re-renders. It stores a value that doesn't cause re-renders when it changes.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "useRef",
-                "url": "https://react.dev/reference/react/useRef"
-              },
-              {
-                "type": "video",
-                "title": "WebDevSimplified",
-                "url": "https://www.youtube.com/watch?v=t2ypzz6gJm0"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/useref@t_laNdMmdLApYszqXRdWg.md"
-          },
-          {
-            "id": "w3bNp7OkehI1gjx8NzlC8",
-            "name": "useMemo",
-            "type": "subtopic",
-            "description": "`useMemo` is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "useMemo Docs",
-                "url": "https://react.dev/reference/react/useMemo"
-              },
-              {
-                "type": "article",
-                "title": "useMemo and useCallback - Josh W. Comeau",
-                "url": "https://www.joshwcomeau.com/react/usememo-and-usecallback/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/usememo@w3bNp7OkehI1gjx8NzlC8.md"
-          },
-          {
-            "id": "v48Mv0wQqjXbvy8x6gDjQ",
-            "name": "useReducer",
-            "type": "subtopic",
-            "description": "`useReducer`: An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method. (If you’re familiar with Redux, you already know how this works.)",
-            "resources": [
-              {
-                "type": "official",
-                "title": "useReducer Docs",
-                "url": "https://react.dev/reference/react/useReducer"
-              },
-              {
-                "type": "article",
-                "title": "The React useReducer Hook",
-                "url": "https://www.telerik.com/blogs/react-usereducer-hook"
-              },
-              {
-                "type": "article",
-                "title": "A guide to the React useReducer Hook",
-                "url": "https://blog.logrocket.com/react-usereducer-hook-ultimate-guide/"
-              },
-              {
-                "type": "video",
-                "title": "Learn React Hooks: useReducer - Simply Explained!",
-                "url": "https://www.youtube.com/watch?v=rgp_iCVS8ys&t"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/usereducer@v48Mv0wQqjXbvy8x6gDjQ.md"
-          },
-          {
-            "id": "D5_O-uElftYGQr_bTU_se",
-            "name": "useContext",
-            "type": "subtopic",
-            "description": "The `useContext` Hook lets us share data between components without having to pass props down through every level of the component tree. This is particularly useful when many components need to access the same data or when components are deeply nested.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Using useContext",
-                "url": "https://react.dev/reference/react/useContext"
-              },
-              {
-                "type": "official",
-                "title": "Explore the concept of context",
-                "url": "https://react.dev/learn/passing-data-deeply-with-context"
-              },
-              {
-                "type": "video",
-                "title": "Learn useContext In 13 Minutes",
-                "url": "https://www.youtube.com/watch?v=5LrDIWkK_Bc"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/usecontext@D5_O-uElftYGQr_bTU_se.md"
+            ]
           }
         ]
       },
@@ -696,7 +822,9 @@
                 "url": "https://dev.to/pedrotech/react-router-v7-a-crash-course-2m86"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-router@jvp43wFkKlGQX2y7IxkbM.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-router@jvp43wFkKlGQX2y7IxkbM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zWL8VLx_g0SWubavJDs6i",
@@ -720,7 +848,9 @@
                 "url": "https://www.youtube.com/watch?v=AN9rD7y9MS8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/tanstack-router@zWL8VLx_g0SWubavJDs6i.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/tanstack-router@zWL8VLx_g0SWubavJDs6i.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -742,7 +872,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/state-management@I7_mX4h-Yywp1YyTJRKXI.md",
-        "subtopics_count": 4,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "yI6XiNW04EL78UL4lkVgd",
@@ -766,36 +896,9 @@
                 "url": "https://www.youtube.com/watch?v=ZcKzPZN7Ids"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/jotai@yI6XiNW04EL78UL4lkVgd.md"
-          },
-          {
-            "id": "nl5imPsdY2oEWlg-9TTuk",
-            "name": "Zustand",
-            "type": "subtopic",
-            "description": "Zustand is a small state management library that uses a single store defined with a simple function, without requiring reducers or actions like Redux. Components can read and update the store directly through a hook, with minimal boilerplate. Its simplicity and small bundle size make it a common choice for apps that outgrow plain Context.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Zustand - Official Website",
-                "url": "https://zustand-demo.pmnd.rs/"
-              },
-              {
-                "type": "opensource",
-                "title": "Zustand Repository",
-                "url": "https://github.com/pmndrs/zustand"
-              },
-              {
-                "type": "article",
-                "title": "Working with Zustand",
-                "url": "https://tkdodo.eu/blog/working-with-zustand"
-              },
-              {
-                "type": "video",
-                "title": "Zustand Tutorial for Beginners",
-                "url": "https://www.youtube.com/watch?v=AYO4qHAnLQI&t"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/zustand@nl5imPsdY2oEWlg-9TTuk.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/jotai@yI6XiNW04EL78UL4lkVgd.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "10uL0r388lKh8pWYWqRZD",
@@ -819,36 +922,9 @@
                 "url": "https://www.youtube.com/watch?v=t9WmZFnE6Hg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/context@10uL0r388lKh8pWYWqRZD.md"
-          },
-          {
-            "id": "1kbrCI5JS0c9wbzxXpgFU",
-            "name": "MobX",
-            "type": "subtopic",
-            "description": "MobX is a state management library based on observable data, where changes to state automatically trigger updates in any component using that data. It relies on decorators or plain functions to mark state as observable, and React components re-render only when the specific data they use changes. It takes a more reactive, less explicit approach compared to libraries like Redux.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Official Website: MobX",
-                "url": "https://mobx.js.org/"
-              },
-              {
-                "type": "article",
-                "title": "How to Improve State Management in React with MobX",
-                "url": "https://medium.com/whitespectre/how-to-improve-state-management-in-react-with-mobx-568808ff86a4"
-              },
-              {
-                "type": "video",
-                "title": "Mobx React - State Management",
-                "url": "https://www.youtube.com/watch?v=AgcaGGkYy_8"
-              },
-              {
-                "type": "video",
-                "title": "MobX Tutorial with React and Typescript",
-                "url": "https://www.youtube.com/watch?v=ElgfQdq-Htk"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/mobx@1kbrCI5JS0c9wbzxXpgFU.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/context@10uL0r388lKh8pWYWqRZD.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -899,7 +975,9 @@
                 "url": "https://www.youtube.com/watch?v=UlY-Ixddjm0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/panda-css@akVNUPOqaTXaSHoQFlkP_.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/panda-css@akVNUPOqaTXaSHoQFlkP_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "awoEhwPKjUcR84XGL6Som",
@@ -923,7 +1001,9 @@
                 "url": "https://www.youtube.com/watch?v=pKMWU9OrA2s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/css-modules@awoEhwPKjUcR84XGL6Som.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/css-modules@awoEhwPKjUcR84XGL6Som.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KO3viVIJJREtxXxsocN7j",
@@ -952,7 +1032,9 @@
                 "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/tailwind-css@KO3viVIJJREtxXxsocN7j.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/tailwind-css@KO3viVIJJREtxXxsocN7j.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -998,7 +1080,9 @@
                 "url": "https://www.youtube.com/watch?v=5cvg2qZwYrI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/material-ui@gy7eBxPOlwG8BvxHVLDQ9.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/material-ui@gy7eBxPOlwG8BvxHVLDQ9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "uqphqAnlcJOLnwHZs5jWu",
@@ -1027,7 +1111,9 @@
                 "url": "https://youtu.be/s-bIsz-NR3c"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/chakra-ui@uqphqAnlcJOLnwHZs5jWu.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/chakra-ui@uqphqAnlcJOLnwHZs5jWu.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "njKsYNkwTXPQ1NjlGKXab",
@@ -1056,7 +1142,9 @@
                 "url": "https://www.youtube.com/watch?v=v0_AT8zaLo8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/shadcn-ui@njKsYNkwTXPQ1NjlGKXab.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/shadcn-ui@njKsYNkwTXPQ1NjlGKXab.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1083,7 +1171,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/headless-components@MnDgQq9Vcxsu3wDqv5uh2.md",
-        "subtopics_count": 11,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "wuwnktmNGfmvIbZhe8YCB",
@@ -1091,7 +1179,9 @@
             "type": "subtopic",
             "description": "",
             "resources": [],
-            "file_path": null
+            "file_path": null,
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XL9XOV2h0BAuA5cFcM5L_",
@@ -1120,7 +1210,88 @@
                 "url": "https://www.youtube.com/playlist?list=PLlNdnoKwDZdwANQoaakE8-kYMyKFOETlo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/radix-ui@XL9XOV2h0BAuA5cFcM5L_.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/radix-ui@XL9XOV2h0BAuA5cFcM5L_.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "zWcMFfyiWJddGbiIhmdKm",
+            "name": "GraphQL",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
+              {
+                "id": "8nMbfGxe3STMbrAVcqHHh",
+                "name": "Apollo",
+                "type": "subtopic",
+                "description": "Apollo Client is a library for working with GraphQL APIs in React. It handles sending queries and mutations, caching the results, and keeping the UI in sync as data changes. It is one of the most established tools for GraphQL in the React ecosystem, with hooks like useQuery and useMutation built in.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Apollo Website",
+                    "url": "https://www.apollographql.com"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Official Docs",
+                    "url": "https://www.apollographql.com/docs/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "Official YouTube Channel",
+                    "url": "https://www.youtube.com/c/ApolloGraphQL/"
+                  },
+                  {
+                    "type": "video",
+                    "title": "GraphQL With React Tutorial - Apollo Client",
+                    "url": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/apollo@8nMbfGxe3STMbrAVcqHHh.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "cLfM342sZfsCwmPPxQpEI",
+                "name": "Relay",
+                "type": "subtopic",
+                "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It's a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Official Website",
+                    "url": "https://relay.dev/"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Introduction to Relay modern",
+                    "url": "https://relay.dev/docs/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/relay@cLfM342sZfsCwmPPxQpEI.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "9M5jRu0pj8KMvg9f-2oqZ",
+                "name": "urql",
+                "type": "subtopic",
+                "description": "urql is a lightweight GraphQL client for React, built to be simpler and smaller than alternatives like Apollo or Relay. It supports caching, and its behavior can be extended through a system of exchanges, which are similar to middleware. It suits projects that want GraphQL support without a heavy setup.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "urql - Formidable Labs",
+                    "url": "https://formidable.com/open-source/urql/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/urql@9M5jRu0pj8KMvg9f-2oqZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
           },
           {
             "id": "RvDfKoa_HIW3QDBfkPv3m",
@@ -1139,7 +1310,9 @@
                 "url": "https://www.youtube.com/watch?v=lTPh6NGLAmk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-aria@RvDfKoa_HIW3QDBfkPv3m.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-aria@RvDfKoa_HIW3QDBfkPv3m.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kiCTo0U6VgNON8rv_Ktlj",
@@ -1168,145 +1341,104 @@
                 "url": "https://www.youtube.com/watch?v=zjo-77I0unk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/ark-ui@kiCTo0U6VgNON8rv_Ktlj.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/ark-ui@kiCTo0U6VgNON8rv_Ktlj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "8nMbfGxe3STMbrAVcqHHh",
-            "name": "Apollo",
-            "type": "subtopic",
-            "description": "Apollo Client is a library for working with GraphQL APIs in React. It handles sending queries and mutations, caching the results, and keeping the UI in sync as data changes. It is one of the most established tools for GraphQL in the React ecosystem, with hooks like useQuery and useMutation built in.",
-            "resources": [
+            "id": "KNAlIYCENB4VMuQGqJNk3",
+            "name": "REST",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 4,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "Apollo Website",
-                "url": "https://www.apollographql.com"
+                "id": "5EPmbiNdP_vhIXclv_GjV",
+                "name": "Tanstack Query",
+                "type": "subtopic",
+                "description": "TanStack Query, previously known as React Query, is a powerful library for fetching, caching, synchronizing, and updating server state in your React applications. It simplifies the process of handling asynchronous data, reducing boilerplate code and improving the user experience by providing features like automatic retries, background updates, and optimistic updates. It essentially helps you manage data fetching and caching in a declarative and efficient way.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "TanStack Query",
+                    "url": "https://tanstack.com/query/latest"
+                  },
+                  {
+                    "type": "opensource",
+                    "title": "TanStack Query",
+                    "url": "https://github.com/TanStack/query"
+                  },
+                  {
+                    "type": "article",
+                    "title": "TanStack for Beginners: A Complete Guide & Tutorial",
+                    "url": "https://codeparrot.ai/blogs/tanstack-for-beginners-a-complete-guide-tutorial"
+                  },
+                  {
+                    "type": "video",
+                    "title": "TanStack Query - How to become a React Query God",
+                    "url": "https://www.youtube.com/watch?v=mPaCnwpFvZY"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/tanstack-query@5EPmbiNdP_vhIXclv_GjV.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "Official Docs",
-                "url": "https://www.apollographql.com/docs/"
+                "id": "ElqWQClryfSYdL7P_mgYK",
+                "name": "Axios",
+                "type": "subtopic",
+                "description": "Axios is a promise-based HTTP client used to make requests from a React app to a server. It works similarly to the built-in fetch function but adds features like automatic JSON parsing, request and response interceptors, and easier error handling. It remains popular even though modern fetch has closed some of the gap between the two.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "Axios Getting Started",
+                    "url": "https://axios-http.com/docs/intro"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How to make HTTP requests with Axios",
+                    "url": "https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/axios@ElqWQClryfSYdL7P_mgYK.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "Official YouTube Channel",
-                "url": "https://www.youtube.com/c/ApolloGraphQL/"
+                "id": "-ea1KsXEyz-4voHXklG_J",
+                "name": "swr",
+                "type": "subtopic",
+                "description": "SWR is a data fetching library for React whose name comes from \"stale-while-revalidate\", a caching strategy where old data is shown immediately while fresh data loads in the background. It handles caching, revalidation, and re-fetching on focus or network reconnect with minimal setup. It was built by the team behind Next.js.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "SWR: React Hooks for Data Fetching",
+                    "url": "https://swr.vercel.app/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/swr@-ea1KsXEyz-4voHXklG_J.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "video",
-                "title": "GraphQL With React Tutorial - Apollo Client",
-                "url": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+                "id": "h49-tjEkKcq7d7ikRHIOx",
+                "name": "rtk-query",
+                "type": "subtopic",
+                "description": "[RTK Query](https://redux-toolkit.js.org/rtk-query/overview) is a data fetching and caching tool that is included in the Redux Toolkit package. It is designed to simplify common use cases for fetching data, including caching, polling, and invalidation.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "RTK Query - Official Website",
+                    "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/react/content/rtk-query@h49-tjEkKcq7d7ikRHIOx.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/apollo@8nMbfGxe3STMbrAVcqHHh.md"
-          },
-          {
-            "id": "cLfM342sZfsCwmPPxQpEI",
-            "name": "Relay",
-            "type": "subtopic",
-            "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It's a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Official Website",
-                "url": "https://relay.dev/"
-              },
-              {
-                "type": "official",
-                "title": "Introduction to Relay modern",
-                "url": "https://relay.dev/docs/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/relay@cLfM342sZfsCwmPPxQpEI.md"
-          },
-          {
-            "id": "9M5jRu0pj8KMvg9f-2oqZ",
-            "name": "urql",
-            "type": "subtopic",
-            "description": "urql is a lightweight GraphQL client for React, built to be simpler and smaller than alternatives like Apollo or Relay. It supports caching, and its behavior can be extended through a system of exchanges, which are similar to middleware. It suits projects that want GraphQL support without a heavy setup.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "urql - Formidable Labs",
-                "url": "https://formidable.com/open-source/urql/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/urql@9M5jRu0pj8KMvg9f-2oqZ.md"
-          },
-          {
-            "id": "5EPmbiNdP_vhIXclv_GjV",
-            "name": "Tanstack Query",
-            "type": "subtopic",
-            "description": "TanStack Query, previously known as React Query, is a powerful library for fetching, caching, synchronizing, and updating server state in your React applications. It simplifies the process of handling asynchronous data, reducing boilerplate code and improving the user experience by providing features like automatic retries, background updates, and optimistic updates. It essentially helps you manage data fetching and caching in a declarative and efficient way.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "TanStack Query",
-                "url": "https://tanstack.com/query/latest"
-              },
-              {
-                "type": "opensource",
-                "title": "TanStack Query",
-                "url": "https://github.com/TanStack/query"
-              },
-              {
-                "type": "article",
-                "title": "TanStack for Beginners: A Complete Guide & Tutorial",
-                "url": "https://codeparrot.ai/blogs/tanstack-for-beginners-a-complete-guide-tutorial"
-              },
-              {
-                "type": "video",
-                "title": "TanStack Query - How to become a React Query God",
-                "url": "https://www.youtube.com/watch?v=mPaCnwpFvZY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/tanstack-query@5EPmbiNdP_vhIXclv_GjV.md"
-          },
-          {
-            "id": "-ea1KsXEyz-4voHXklG_J",
-            "name": "swr",
-            "type": "subtopic",
-            "description": "SWR is a data fetching library for React whose name comes from \"stale-while-revalidate\", a caching strategy where old data is shown immediately while fresh data loads in the background. It handles caching, revalidation, and re-fetching on focus or network reconnect with minimal setup. It was built by the team behind Next.js.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "SWR: React Hooks for Data Fetching",
-                "url": "https://swr.vercel.app/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/swr@-ea1KsXEyz-4voHXklG_J.md"
-          },
-          {
-            "id": "ElqWQClryfSYdL7P_mgYK",
-            "name": "Axios",
-            "type": "subtopic",
-            "description": "Axios is a promise-based HTTP client used to make requests from a React app to a server. It works similarly to the built-in fetch function but adds features like automatic JSON parsing, request and response interceptors, and easier error handling. It remains popular even though modern fetch has closed some of the gap between the two.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "Axios Getting Started",
-                "url": "https://axios-http.com/docs/intro"
-              },
-              {
-                "type": "article",
-                "title": "How to make HTTP requests with Axios",
-                "url": "https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/axios@ElqWQClryfSYdL7P_mgYK.md"
-          },
-          {
-            "id": "h49-tjEkKcq7d7ikRHIOx",
-            "name": "rtk-query",
-            "type": "subtopic",
-            "description": "[RTK Query](https://redux-toolkit.js.org/rtk-query/overview) is a data fetching and caching tool that is included in the Redux Toolkit package. It is designed to simplify common use cases for fetching data, including caching, polling, and invalidation.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "RTK Query - Official Website",
-                "url": "https://redux-toolkit.js.org/rtk-query/overview"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/rtk-query@h49-tjEkKcq7d7ikRHIOx.md"
+            ]
           }
         ]
       },
@@ -1373,7 +1505,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/playwright@g39P0c6M2sHNoUPs0m8tr.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/playwright@g39P0c6M2sHNoUPs0m8tr.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "LULjhsPNONyI5912DKzPw",
@@ -1392,7 +1526,9 @@
                 "url": "https://www.youtube.com/watch?v=cM_AeQHzlGg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/vitest@LULjhsPNONyI5912DKzPw.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/vitest@LULjhsPNONyI5912DKzPw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "cQllxv7qGbRtM9O5llgN6",
@@ -1411,7 +1547,9 @@
                 "url": "https://www.robinwieruch.de/react-testing-library/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-testing-library@cQllxv7qGbRtM9O5llgN6.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-testing-library@cQllxv7qGbRtM9O5llgN6.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "opa61u9gYgSpoPtxp58wu",
@@ -1430,7 +1568,9 @@
                 "url": "https://developer.mozilla.org/en-US/blog/test-javascript-with-jest-on-vultr/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/jest@opa61u9gYgSpoPtxp58wu.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/jest@opa61u9gYgSpoPtxp58wu.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "zN7Ps1puD-YpHbKi1pHH8",
@@ -1454,7 +1594,9 @@
                 "url": "https://www.youtube.com/watch?v=7N63cMKosIE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/cypress@zN7Ps1puD-YpHbKi1pHH8.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/cypress@zN7Ps1puD-YpHbKi1pHH8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1476,7 +1618,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/forms@KHcC5pFN3qLnsbPPKpYd2.md",
-        "subtopics_count": 3,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "_5ht0PAdVOJWPzTRS1mVg",
@@ -1495,7 +1637,9 @@
                 "url": "https://react-hook-form.com/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-hook-form@_5ht0PAdVOJWPzTRS1mVg.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-hook-form@_5ht0PAdVOJWPzTRS1mVg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_-2WpGnJ1CMj_acD1dr_i",
@@ -1514,36 +1658,9 @@
                 "url": "https://github.com/open-circle/formisch"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/formish@_-2WpGnJ1CMj_acD1dr_i.md"
-          },
-          {
-            "id": "gr1CaLvL7tFOkIRywSsID",
-            "name": "Formik",
-            "type": "subtopic",
-            "description": "Formik is a library for building forms in React, handling values, validation, and submission through a consistent API. It uses controlled inputs, meaning form state is tracked in React state as the user types. It was one of the most popular form libraries before performance-focused alternatives like React Hook Form gained traction.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Official Website — Formik",
-                "url": "https://formik.org/"
-              },
-              {
-                "type": "opensource",
-                "title": "formik/formik",
-                "url": "https://github.com/formik/formik"
-              },
-              {
-                "type": "video",
-                "title": "Formik - Building React Forms easier",
-                "url": "https://www.youtube.com/watch?v=khGypss-RJs"
-              },
-              {
-                "type": "video",
-                "title": "React Formik Tutorial with Yup (React Form Validation)",
-                "url": "https://www.youtube.com/watch?v=7Ophfq0lEAY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/react/content/formik@gr1CaLvL7tFOkIRywSsID.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/formish@_-2WpGnJ1CMj_acD1dr_i.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1575,7 +1692,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/react/content/frameworks@W-atg_Msa9uPLr6RXAKSb.md",
-        "subtopics_count": 3,
+        "subtopics_count": 4,
         "subtopics": [
           {
             "id": "-WjJBYCmRRj08n_9HxohY",
@@ -1594,7 +1711,40 @@
                 "url": "https://github.com/remix-run/react-router"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-router@-WjJBYCmRRj08n_9HxohY.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-router@-WjJBYCmRRj08n_9HxohY.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "gr1CaLvL7tFOkIRywSsID",
+            "name": "Formik",
+            "type": "subtopic",
+            "description": "Formik is a library for building forms in React, handling values, validation, and submission through a consistent API. It uses controlled inputs, meaning form state is tracked in React state as the user types. It was one of the most popular form libraries before performance-focused alternatives like React Hook Form gained traction.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Official Website — Formik",
+                "url": "https://formik.org/"
+              },
+              {
+                "type": "opensource",
+                "title": "formik/formik",
+                "url": "https://github.com/formik/formik"
+              },
+              {
+                "type": "video",
+                "title": "Formik - Building React Forms easier",
+                "url": "https://www.youtube.com/watch?v=khGypss-RJs"
+              },
+              {
+                "type": "video",
+                "title": "React Formik Tutorial with Yup (React Form Validation)",
+                "url": "https://www.youtube.com/watch?v=7Ophfq0lEAY"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/react/content/formik@gr1CaLvL7tFOkIRywSsID.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_HoZkE7FH-v3wI_722ZTF",
@@ -1618,7 +1768,9 @@
                 "url": "https://www.youtube.com/watch?v=d6CsWTVa42o"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/astro@_HoZkE7FH-v3wI_722ZTF.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/astro@_HoZkE7FH-v3wI_722ZTF.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "HdWq9ue0JdwmwqSIN2OD_",
@@ -1647,7 +1799,9 @@
                 "url": "https://www.youtube.com/watch?v=9P8mASSREYM&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/nextjs@HdWq9ue0JdwmwqSIN2OD_.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/nextjs@HdWq9ue0JdwmwqSIN2OD_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1698,7 +1852,9 @@
                 "url": "https://www.youtube.com/watch?v=BwuLxPH8IDs"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/typescript@ElgRwv5LSVg5FXGx-2K2s.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/typescript@ElgRwv5LSVg5FXGx-2K2s.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "K3RZ8ESxWCpLKHePF87Hy",
@@ -1717,7 +1873,9 @@
                 "url": "https://www.youtube.com/watch?v=L6BE-U3oy80"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/zod@K3RZ8ESxWCpLKHePF87Hy.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/zod@K3RZ8ESxWCpLKHePF87Hy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "EOQGj1ALgdp6u9thVHdmc",
@@ -1736,7 +1894,9 @@
                 "url": "https://github.com/open-circle/valibot"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/valibot@EOQGj1ALgdp6u9thVHdmc.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/valibot@EOQGj1ALgdp6u9thVHdmc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1782,7 +1942,9 @@
                 "url": "https://www.youtube.com/watch?v=hjbxaYTMhy0&list=PLA4qBVt61k3Phpwt7uqaptIg9NYZ5aNu_"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/framer-motion@H6-XGDjs4f-qbv13v5av0.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/framer-motion@H6-XGDjs4f-qbv13v5av0.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WzoB5B6SdOI4Mzv6U51nY",
@@ -1806,7 +1968,9 @@
                 "url": "https://www.youtube.com/watch?v=f2vdduklY20&list=PLLnpHn493BHGrM7tAQL8qVtqwqzbuuE5_"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-spring@WzoB5B6SdOI4Mzv6U51nY.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-spring@WzoB5B6SdOI4Mzv6U51nY.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "y2dI1DVLWKAkv6VRpgaQa",
@@ -1830,7 +1994,9 @@
                 "url": "https://www.youtube.com/watch?v=EOa7ccPWvXg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/gsock@y2dI1DVLWKAkv6VRpgaQa.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/gsock@y2dI1DVLWKAkv6VRpgaQa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1950,7 +2116,9 @@
                 "url": "https://reactnative.dev/docs/getting-started"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/react/content/react-native@NvXAq1vN2wpncdW-yTL4c.md"
+            "file_path": "developer-roadmap/roadmaps/react/content/react-native@NvXAq1vN2wpncdW-yTL4c.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2000,34 +2168,6 @@
         ]
       },
       {
-        "id": "8OBlgDRUg-CTgDXY-QHyO",
-        "name": "Component Lifecycle",
-        "type": "subtopic",
-        "description": "The component lifecycle describes the different stages a component goes through, from being created and added to the page, to updating, and finally being removed. In function components, lifecycle behavior is handled through hooks like useEffect instead of separate lifecycle methods. Knowing this lifecycle helps developers run code at the right moment, such as fetching data when a component first appears.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Lifecycle of Reactive Effects",
-            "url": "https://react.dev/learn/lifecycle-of-reactive-effects"
-          },
-          {
-            "type": "official",
-            "title": "Class Component",
-            "url": "https://react.dev/reference/react/Component"
-          },
-          {
-            "type": "article",
-            "title": "React component lifecycle: React lifecycle methods & hooks",
-            "url": "https://tsh.io/blog/react-component-lifecycle-methods-vs-hooks/"
-          },
-          {
-            "type": "article",
-            "title": "The React lifecycle: methods and hooks explained",
-            "url": "https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained#react-hooks-and-the-component-lifecycle"
-          }
-        ]
-      },
-      {
         "id": "79K4xgljcoSHkCYI1D55O",
         "name": "Components",
         "type": "topic",
@@ -2052,6 +2192,34 @@
             "type": "video",
             "title": "Components & Templates in React",
             "url": "https://www.youtube.com/watch?v=9D1x7-2FmTA"
+          }
+        ]
+      },
+      {
+        "id": "8OBlgDRUg-CTgDXY-QHyO",
+        "name": "Component Lifecycle",
+        "type": "subtopic",
+        "description": "The component lifecycle describes the different stages a component goes through, from being created and added to the page, to updating, and finally being removed. In function components, lifecycle behavior is handled through hooks like useEffect instead of separate lifecycle methods. Knowing this lifecycle helps developers run code at the right moment, such as fetching data when a component first appears.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Lifecycle of Reactive Effects",
+            "url": "https://react.dev/learn/lifecycle-of-reactive-effects"
+          },
+          {
+            "type": "official",
+            "title": "Class Component",
+            "url": "https://react.dev/reference/react/Component"
+          },
+          {
+            "type": "article",
+            "title": "React component lifecycle: React lifecycle methods & hooks",
+            "url": "https://tsh.io/blog/react-component-lifecycle-methods-vs-hooks/"
+          },
+          {
+            "type": "article",
+            "title": "The React lifecycle: methods and hooks explained",
+            "url": "https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained#react-hooks-and-the-component-lifecycle"
           }
         ]
       },
@@ -2191,6 +2359,29 @@
         ]
       },
       {
+        "id": "0uiGsC5SWavNdlFqizkKe",
+        "name": "Rendering",
+        "type": "topic",
+        "description": "Rendering is the process where React takes your component code and turns it into actual elements on the screen. React decides when to re-render a component based on changes to its state or props. Understanding how rendering works helps explain why an app updates the way it does, and where performance issues can come from.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Render and Commit - Official Docs",
+            "url": "https://react.dev/learn/render-and-commit"
+          },
+          {
+            "type": "article",
+            "title": "Rendering in React - ui.dev",
+            "url": "https://ui.dev/why-react-renders"
+          },
+          {
+            "type": "article",
+            "title": "Fix the slow render before you fix the re-render",
+            "url": "https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render"
+          }
+        ]
+      },
+      {
         "id": "_zNAOhFWMcWqP4oxNPCXF",
         "name": "Refs",
         "type": "subtopic",
@@ -2242,6 +2433,29 @@
         ]
       },
       {
+        "id": "Nex2HcTOYIbfqUzXyxSMY",
+        "name": "Events",
+        "type": "subtopic",
+        "description": "React wraps native browser events in its own system called synthetic events, so they behave consistently across different browsers. You attach event handlers directly in JSX, such as onClick or onChange, and they receive an event object similar to the native one. This lets components respond to user interaction like clicks, typing, or form submissions.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Responding to Events",
+            "url": "https://react.dev/learn/responding-to-events"
+          },
+          {
+            "type": "official",
+            "title": "React Event Object (Synthetic Event)",
+            "url": "https://react.dev/reference/react-dom/components/common#react-event-object"
+          },
+          {
+            "type": "article",
+            "title": "React Event Handler",
+            "url": "https://www.robinwieruch.de/react-event-handler/"
+          }
+        ]
+      },
+      {
         "id": "4T59gdcwdXqj9kCuK7cfp",
         "name": "Composition",
         "type": "subtopic",
@@ -2266,52 +2480,6 @@
             "type": "article",
             "title": "Achieving Reusability With React Composition",
             "url": "https://formidable.com/blog/2021/react-composition/"
-          }
-        ]
-      },
-      {
-        "id": "0uiGsC5SWavNdlFqizkKe",
-        "name": "Rendering",
-        "type": "topic",
-        "description": "Rendering is the process where React takes your component code and turns it into actual elements on the screen. React decides when to re-render a component based on changes to its state or props. Understanding how rendering works helps explain why an app updates the way it does, and where performance issues can come from.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Render and Commit - Official Docs",
-            "url": "https://react.dev/learn/render-and-commit"
-          },
-          {
-            "type": "article",
-            "title": "Rendering in React - ui.dev",
-            "url": "https://ui.dev/why-react-renders"
-          },
-          {
-            "type": "article",
-            "title": "Fix the slow render before you fix the re-render",
-            "url": "https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render"
-          }
-        ]
-      },
-      {
-        "id": "Nex2HcTOYIbfqUzXyxSMY",
-        "name": "Events",
-        "type": "subtopic",
-        "description": "React wraps native browser events in its own system called synthetic events, so they behave consistently across different browsers. You attach event handlers directly in JSX, such as onClick or onChange, and they receive an event object similar to the native one. This lets components respond to user interaction like clicks, typing, or form submissions.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Responding to Events",
-            "url": "https://react.dev/learn/responding-to-events"
-          },
-          {
-            "type": "official",
-            "title": "React Event Object (Synthetic Event)",
-            "url": "https://react.dev/reference/react-dom/components/common#react-event-object"
-          },
-          {
-            "type": "article",
-            "title": "React Event Handler",
-            "url": "https://www.robinwieruch.de/react-event-handler/"
           }
         ]
       },
@@ -2357,45 +2525,11 @@
         ]
       },
       {
-        "id": "HX75SExuzR5AP7TQ94qid",
-        "name": "Creating Custom Hooks",
-        "type": "subtopic",
-        "description": "A custom hook is a function you write yourself that starts with \"use\" and calls other hooks inside it. It lets you extract reusable logic, such as fetching data or tracking window size, out of a component and share it across multiple components. Custom hooks follow the same rules as built-in hooks, since they are really just regular functions built on top of them.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Reusing Logic with Custom Hooks",
-            "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
-          },
-          {
-            "type": "article",
-            "title": "How to create a custom Hook (2) followed by Examples",
-            "url": "https://www.robinwieruch.de/react-custom-hook/"
-          },
-          {
-            "type": "video",
-            "title": "Custom Hooks in React",
-            "url": "https://www.youtube.com/watch?v=I2Bgi0Qcdvc"
-          }
-        ]
-      },
-      {
-        "id": "8OnzX03hkZ9K9i__tjmFX",
-        "name": "useEffect",
-        "type": "subtopic",
-        "description": "`useEffect` is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Using the Effect Hook",
-            "url": "https://react.dev/reference/react/useEffect"
-          },
-          {
-            "type": "article",
-            "title": "React useEffect Hook by Example",
-            "url": "https://www.robinwieruch.de/react-useeffect-hook/"
-          }
-        ]
+        "id": "mkmz1JuNsTOR1D4vqilCX",
+        "name": "Basic Hooks",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "FK59Zsm5ENA9g11XWCan_",
@@ -2426,30 +2560,20 @@
         ]
       },
       {
-        "id": "mkyU0ug8MXxV4biHuOity",
-        "name": "Hooks Best Practices",
+        "id": "8OnzX03hkZ9K9i__tjmFX",
+        "name": "useEffect",
         "type": "subtopic",
-        "description": "To fully leverage the capabilities of React Hooks, it is crucial to adopt best practices that not only enhance code readability but also optimize performance. By adhering to these practices, developers can create cleaner, more maintainable components that make the most of React's powerful features, leading to a more efficient and enjoyable development experience.",
+        "description": "`useEffect` is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
         "resources": [
           {
             "type": "official",
-            "title": "Rules of Hooks",
-            "url": "https://react.dev/reference/rules/rules-of-hooks/"
+            "title": "Using the Effect Hook",
+            "url": "https://react.dev/reference/react/useEffect"
           },
           {
             "type": "article",
-            "title": "React Hooks Best Practices: Unlocking Efficiency and Elegance",
-            "url": "https://medium.com/womenintechnology/react-hooks-best-practices-unlocking-efficiency-and-elegance-da23f7e1418a"
-          },
-          {
-            "type": "article",
-            "title": "Mastering React Hooks: Best Practices and Common Pitfalls",
-            "url": "https://dev.to/codesensei/mastering-react-hooks-best-practices-and-common-pitfalls-3d9i"
-          },
-          {
-            "type": "article",
-            "title": "React Custom Hooks: Best Practices and Examples",
-            "url": "https://utopia-insights.dev/react-custom-hooks-best-practices-and-examples/"
+            "title": "React useEffect Hook by Example",
+            "url": "https://www.robinwieruch.de/react-useeffect-hook/"
           }
         ]
       },
@@ -2495,24 +2619,6 @@
         ]
       },
       {
-        "id": "w3bNp7OkehI1gjx8NzlC8",
-        "name": "useMemo",
-        "type": "subtopic",
-        "description": "`useMemo` is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "useMemo Docs",
-            "url": "https://react.dev/reference/react/useMemo"
-          },
-          {
-            "type": "article",
-            "title": "useMemo and useCallback - Josh W. Comeau",
-            "url": "https://www.joshwcomeau.com/react/usememo-and-usecallback/"
-          }
-        ]
-      },
-      {
         "id": "v48Mv0wQqjXbvy8x6gDjQ",
         "name": "useReducer",
         "type": "subtopic",
@@ -2541,6 +2647,24 @@
         ]
       },
       {
+        "id": "w3bNp7OkehI1gjx8NzlC8",
+        "name": "useMemo",
+        "type": "subtopic",
+        "description": "`useMemo` is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "useMemo Docs",
+            "url": "https://react.dev/reference/react/useMemo"
+          },
+          {
+            "type": "article",
+            "title": "useMemo and useCallback - Josh W. Comeau",
+            "url": "https://www.joshwcomeau.com/react/usememo-and-usecallback/"
+          }
+        ]
+      },
+      {
         "id": "D5_O-uElftYGQr_bTU_se",
         "name": "useContext",
         "type": "subtopic",
@@ -2560,6 +2684,120 @@
             "type": "video",
             "title": "Learn useContext In 13 Minutes",
             "url": "https://www.youtube.com/watch?v=5LrDIWkK_Bc"
+          }
+        ]
+      },
+      {
+        "id": "HX75SExuzR5AP7TQ94qid",
+        "name": "Creating Custom Hooks",
+        "type": "subtopic",
+        "description": "A custom hook is a function you write yourself that starts with \"use\" and calls other hooks inside it. It lets you extract reusable logic, such as fetching data or tracking window size, out of a component and share it across multiple components. Custom hooks follow the same rules as built-in hooks, since they are really just regular functions built on top of them.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Reusing Logic with Custom Hooks",
+            "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+          },
+          {
+            "type": "article",
+            "title": "How to create a custom Hook (2) followed by Examples",
+            "url": "https://www.robinwieruch.de/react-custom-hook/"
+          },
+          {
+            "type": "video",
+            "title": "Custom Hooks in React",
+            "url": "https://www.youtube.com/watch?v=I2Bgi0Qcdvc"
+          }
+        ]
+      },
+      {
+        "id": "mkyU0ug8MXxV4biHuOity",
+        "name": "Hooks Best Practices",
+        "type": "subtopic",
+        "description": "To fully leverage the capabilities of React Hooks, it is crucial to adopt best practices that not only enhance code readability but also optimize performance. By adhering to these practices, developers can create cleaner, more maintainable components that make the most of React's powerful features, leading to a more efficient and enjoyable development experience.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Rules of Hooks",
+            "url": "https://react.dev/reference/rules/rules-of-hooks/"
+          },
+          {
+            "type": "article",
+            "title": "React Hooks Best Practices: Unlocking Efficiency and Elegance",
+            "url": "https://medium.com/womenintechnology/react-hooks-best-practices-unlocking-efficiency-and-elegance-da23f7e1418a"
+          },
+          {
+            "type": "article",
+            "title": "Mastering React Hooks: Best Practices and Common Pitfalls",
+            "url": "https://dev.to/codesensei/mastering-react-hooks-best-practices-and-common-pitfalls-3d9i"
+          },
+          {
+            "type": "article",
+            "title": "React Custom Hooks: Best Practices and Examples",
+            "url": "https://utopia-insights.dev/react-custom-hooks-best-practices-and-examples/"
+          }
+        ]
+      },
+      {
+        "id": "EyspErq0ByXTgkgk3SGUz",
+        "name": "Common Hooks",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
+        "id": "nl5imPsdY2oEWlg-9TTuk",
+        "name": "Zustand",
+        "type": "subtopic",
+        "description": "Zustand is a small state management library that uses a single store defined with a simple function, without requiring reducers or actions like Redux. Components can read and update the store directly through a hook, with minimal boilerplate. Its simplicity and small bundle size make it a common choice for apps that outgrow plain Context.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Zustand - Official Website",
+            "url": "https://zustand-demo.pmnd.rs/"
+          },
+          {
+            "type": "opensource",
+            "title": "Zustand Repository",
+            "url": "https://github.com/pmndrs/zustand"
+          },
+          {
+            "type": "article",
+            "title": "Working with Zustand",
+            "url": "https://tkdodo.eu/blog/working-with-zustand"
+          },
+          {
+            "type": "video",
+            "title": "Zustand Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=AYO4qHAnLQI&t"
+          }
+        ]
+      },
+      {
+        "id": "1kbrCI5JS0c9wbzxXpgFU",
+        "name": "MobX",
+        "type": "subtopic",
+        "description": "MobX is a state management library based on observable data, where changes to state automatically trigger updates in any component using that data. It relies on decorators or plain functions to mark state as observable, and React components re-render only when the specific data they use changes. It takes a more reactive, less explicit approach compared to libraries like Redux.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Official Website: MobX",
+            "url": "https://mobx.js.org/"
+          },
+          {
+            "type": "article",
+            "title": "How to Improve State Management in React with MobX",
+            "url": "https://medium.com/whitespectre/how-to-improve-state-management-in-react-with-mobx-568808ff86a4"
+          },
+          {
+            "type": "video",
+            "title": "Mobx React - State Management",
+            "url": "https://www.youtube.com/watch?v=AgcaGGkYy_8"
+          },
+          {
+            "type": "video",
+            "title": "MobX Tutorial with React and Typescript",
+            "url": "https://www.youtube.com/watch?v=ElgfQdq-Htk"
           }
         ]
       },
@@ -2669,34 +2907,6 @@
         ]
       },
       {
-        "id": "nl5imPsdY2oEWlg-9TTuk",
-        "name": "Zustand",
-        "type": "subtopic",
-        "description": "Zustand is a small state management library that uses a single store defined with a simple function, without requiring reducers or actions like Redux. Components can read and update the store directly through a hook, with minimal boilerplate. Its simplicity and small bundle size make it a common choice for apps that outgrow plain Context.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Zustand - Official Website",
-            "url": "https://zustand-demo.pmnd.rs/"
-          },
-          {
-            "type": "opensource",
-            "title": "Zustand Repository",
-            "url": "https://github.com/pmndrs/zustand"
-          },
-          {
-            "type": "article",
-            "title": "Working with Zustand",
-            "url": "https://tkdodo.eu/blog/working-with-zustand"
-          },
-          {
-            "type": "video",
-            "title": "Zustand Tutorial for Beginners",
-            "url": "https://www.youtube.com/watch?v=AYO4qHAnLQI&t"
-          }
-        ]
-      },
-      {
         "id": "10uL0r388lKh8pWYWqRZD",
         "name": "Context",
         "type": "subtopic",
@@ -2716,34 +2926,6 @@
             "type": "video",
             "title": "React Context API Crash Course",
             "url": "https://www.youtube.com/watch?v=t9WmZFnE6Hg"
-          }
-        ]
-      },
-      {
-        "id": "1kbrCI5JS0c9wbzxXpgFU",
-        "name": "MobX",
-        "type": "subtopic",
-        "description": "MobX is a state management library based on observable data, where changes to state automatically trigger updates in any component using that data. It relies on decorators or plain functions to mark state as observable, and React components re-render only when the specific data they use changes. It takes a more reactive, less explicit approach compared to libraries like Redux.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Official Website: MobX",
-            "url": "https://mobx.js.org/"
-          },
-          {
-            "type": "article",
-            "title": "How to Improve State Management in React with MobX",
-            "url": "https://medium.com/whitespectre/how-to-improve-state-management-in-react-with-mobx-568808ff86a4"
-          },
-          {
-            "type": "video",
-            "title": "Mobx React - State Management",
-            "url": "https://www.youtube.com/watch?v=AgcaGGkYy_8"
-          },
-          {
-            "type": "video",
-            "title": "MobX Tutorial with React and Typescript",
-            "url": "https://www.youtube.com/watch?v=ElgfQdq-Htk"
           }
         ]
       },
@@ -3000,50 +3182,11 @@
         ]
       },
       {
-        "id": "RvDfKoa_HIW3QDBfkPv3m",
-        "name": "React Aria",
-        "type": "subtopic",
-        "description": "React Aria is style-free out of the box, allowing you to build custom designs to fit your application or design system using any styling and animation solution. Each component is broken down into individual parts with built-in states, render props, and slots that make styling a breeze.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Getting Started with React Aria",
-            "url": "https://react-spectrum.adobe.com/react-aria/"
-          },
-          {
-            "type": "video",
-            "title": "Why You Should Use React Aria Components",
-            "url": "https://www.youtube.com/watch?v=lTPh6NGLAmk"
-          }
-        ]
-      },
-      {
-        "id": "kiCTo0U6VgNON8rv_Ktlj",
-        "name": "Ark UI",
-        "type": "subtopic",
-        "description": "Ark UI is a headless component library that provides the state and accessibility logic for common UI patterns, and works across multiple frameworks, not just React. It gives full control over markup and styling while handling the more complex interaction logic behind the scenes. It shares some underlying tooling with Panda CSS.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Official Website",
-            "url": "https://ark-ui.com/"
-          },
-          {
-            "type": "official",
-            "title": "Official Website",
-            "url": "https://ark-ui.com/docs/overview/about"
-          },
-          {
-            "type": "article",
-            "title": "What is ARK UI?",
-            "url": "https://shaxadd.medium.com/enhance-your-user-interfaces-with-ark-ui-a-comprehensive-guide-7e87dd0a79cf"
-          },
-          {
-            "type": "video",
-            "title": "Hands On ARK UI",
-            "url": "https://www.youtube.com/watch?v=zjo-77I0unk"
-          }
-        ]
+        "id": "zWcMFfyiWJddGbiIhmdKm",
+        "name": "GraphQL",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "8nMbfGxe3STMbrAVcqHHh",
@@ -3105,6 +3248,59 @@
         ]
       },
       {
+        "id": "RvDfKoa_HIW3QDBfkPv3m",
+        "name": "React Aria",
+        "type": "subtopic",
+        "description": "React Aria is style-free out of the box, allowing you to build custom designs to fit your application or design system using any styling and animation solution. Each component is broken down into individual parts with built-in states, render props, and slots that make styling a breeze.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Getting Started with React Aria",
+            "url": "https://react-spectrum.adobe.com/react-aria/"
+          },
+          {
+            "type": "video",
+            "title": "Why You Should Use React Aria Components",
+            "url": "https://www.youtube.com/watch?v=lTPh6NGLAmk"
+          }
+        ]
+      },
+      {
+        "id": "kiCTo0U6VgNON8rv_Ktlj",
+        "name": "Ark UI",
+        "type": "subtopic",
+        "description": "Ark UI is a headless component library that provides the state and accessibility logic for common UI patterns, and works across multiple frameworks, not just React. It gives full control over markup and styling while handling the more complex interaction logic behind the scenes. It shares some underlying tooling with Panda CSS.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Official Website",
+            "url": "https://ark-ui.com/"
+          },
+          {
+            "type": "official",
+            "title": "Official Website",
+            "url": "https://ark-ui.com/docs/overview/about"
+          },
+          {
+            "type": "article",
+            "title": "What is ARK UI?",
+            "url": "https://shaxadd.medium.com/enhance-your-user-interfaces-with-ark-ui-a-comprehensive-guide-7e87dd0a79cf"
+          },
+          {
+            "type": "video",
+            "title": "Hands On ARK UI",
+            "url": "https://www.youtube.com/watch?v=zjo-77I0unk"
+          }
+        ]
+      },
+      {
+        "id": "KNAlIYCENB4VMuQGqJNk3",
+        "name": "REST",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "5EPmbiNdP_vhIXclv_GjV",
         "name": "Tanstack Query",
         "type": "subtopic",
@@ -3133,19 +3329,6 @@
         ]
       },
       {
-        "id": "-ea1KsXEyz-4voHXklG_J",
-        "name": "swr",
-        "type": "subtopic",
-        "description": "SWR is a data fetching library for React whose name comes from \"stale-while-revalidate\", a caching strategy where old data is shown immediately while fresh data loads in the background. It handles caching, revalidation, and re-fetching on focus or network reconnect with minimal setup. It was built by the team behind Next.js.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "SWR: React Hooks for Data Fetching",
-            "url": "https://swr.vercel.app/"
-          }
-        ]
-      },
-      {
         "id": "ElqWQClryfSYdL7P_mgYK",
         "name": "Axios",
         "type": "subtopic",
@@ -3160,6 +3343,19 @@
             "type": "article",
             "title": "How to make HTTP requests with Axios",
             "url": "https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why"
+          }
+        ]
+      },
+      {
+        "id": "-ea1KsXEyz-4voHXklG_J",
+        "name": "swr",
+        "type": "subtopic",
+        "description": "SWR is a data fetching library for React whose name comes from \"stale-while-revalidate\", a caching strategy where old data is shown immediately while fresh data loads in the background. It handles caching, revalidation, and re-fetching on focus or network reconnect with minimal setup. It was built by the team behind Next.js.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "SWR: React Hooks for Data Fetching",
+            "url": "https://swr.vercel.app/"
           }
         ]
       },
@@ -3367,34 +3563,6 @@
         ]
       },
       {
-        "id": "gr1CaLvL7tFOkIRywSsID",
-        "name": "Formik",
-        "type": "subtopic",
-        "description": "Formik is a library for building forms in React, handling values, validation, and submission through a consistent API. It uses controlled inputs, meaning form state is tracked in React state as the user types. It was one of the most popular form libraries before performance-focused alternatives like React Hook Form gained traction.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Official Website — Formik",
-            "url": "https://formik.org/"
-          },
-          {
-            "type": "opensource",
-            "title": "formik/formik",
-            "url": "https://github.com/formik/formik"
-          },
-          {
-            "type": "video",
-            "title": "Formik - Building React Forms easier",
-            "url": "https://www.youtube.com/watch?v=khGypss-RJs"
-          },
-          {
-            "type": "video",
-            "title": "React Formik Tutorial with Yup (React Form Validation)",
-            "url": "https://www.youtube.com/watch?v=7Ophfq0lEAY"
-          }
-        ]
-      },
-      {
         "id": "W-atg_Msa9uPLr6RXAKSb",
         "name": "Frameworks",
         "type": "topic",
@@ -3437,6 +3605,34 @@
             "type": "opensource",
             "title": "remix-run react-router",
             "url": "https://github.com/remix-run/react-router"
+          }
+        ]
+      },
+      {
+        "id": "gr1CaLvL7tFOkIRywSsID",
+        "name": "Formik",
+        "type": "subtopic",
+        "description": "Formik is a library for building forms in React, handling values, validation, and submission through a consistent API. It uses controlled inputs, meaning form state is tracked in React state as the user types. It was one of the most popular form libraries before performance-focused alternatives like React Hook Form gained traction.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Official Website — Formik",
+            "url": "https://formik.org/"
+          },
+          {
+            "type": "opensource",
+            "title": "formik/formik",
+            "url": "https://github.com/formik/formik"
+          },
+          {
+            "type": "video",
+            "title": "Formik - Building React Forms easier",
+            "url": "https://www.youtube.com/watch?v=khGypss-RJs"
+          },
+          {
+            "type": "video",
+            "title": "React Formik Tutorial with Yup (React Form Validation)",
+            "url": "https://www.youtube.com/watch?v=7Ophfq0lEAY"
           }
         ]
       },
@@ -3766,6 +3962,336 @@
     ],
     "edges": [
       {
+        "source": "y9ToYDix-koRbR6FLydFw",
+        "target": "tU4Umtnfu01t9gLlnlK6b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8OBlgDRUg-CTgDXY-QHyO",
+        "target": "79K4xgljcoSHkCYI1D55O",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8mw4TxlLN4ZKAlLl-_NVV",
+        "target": "79K4xgljcoSHkCYI1D55O",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HeWVCPHqVnnbOn6zIim4K",
+        "target": "79K4xgljcoSHkCYI1D55O",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WREBxWSNQDD_6fzpHL6CE",
+        "target": "79K4xgljcoSHkCYI1D55O",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vdumdIglnouf1KyGIGZnc",
+        "target": "79K4xgljcoSHkCYI1D55O",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RFuy3Eho3mnW1GpP08BVw",
+        "target": "79K4xgljcoSHkCYI1D55O",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_zNAOhFWMcWqP4oxNPCXF",
+        "target": "0uiGsC5SWavNdlFqizkKe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aE6XBgH23135_9QmD4ff2",
+        "target": "0uiGsC5SWavNdlFqizkKe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Nex2HcTOYIbfqUzXyxSMY",
+        "target": "0uiGsC5SWavNdlFqizkKe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4T59gdcwdXqj9kCuK7cfp",
+        "target": "0uiGsC5SWavNdlFqizkKe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zOENl96GUZRw2PP2KxIck",
+        "target": "0uiGsC5SWavNdlFqizkKe",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mkmz1JuNsTOR1D4vqilCX",
+        "target": "LbLQhonBqzxHU6B-L--Vq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HX75SExuzR5AP7TQ94qid",
+        "target": "LbLQhonBqzxHU6B-L--Vq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mkyU0ug8MXxV4biHuOity",
+        "target": "LbLQhonBqzxHU6B-L--Vq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EyspErq0ByXTgkgk3SGUz",
+        "target": "LbLQhonBqzxHU6B-L--Vq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "FK59Zsm5ENA9g11XWCan_",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8OnzX03hkZ9K9i__tjmFX",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dgoDNDtW2_q9R9yhkXrcz",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "t_laNdMmdLApYszqXRdWg",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "v48Mv0wQqjXbvy8x6gDjQ",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "w3bNp7OkehI1gjx8NzlC8",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "D5_O-uElftYGQr_bTU_se",
+        "target": "mkmz1JuNsTOR1D4vqilCX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nl5imPsdY2oEWlg-9TTuk",
+        "target": "EyspErq0ByXTgkgk3SGUz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1kbrCI5JS0c9wbzxXpgFU",
+        "target": "EyspErq0ByXTgkgk3SGUz",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "jvp43wFkKlGQX2y7IxkbM",
+        "target": "NStw6bi_pPB49K41BFSgo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zWL8VLx_g0SWubavJDs6i",
+        "target": "NStw6bi_pPB49K41BFSgo",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "yI6XiNW04EL78UL4lkVgd",
+        "target": "I7_mX4h-Yywp1YyTJRKXI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "10uL0r388lKh8pWYWqRZD",
+        "target": "I7_mX4h-Yywp1YyTJRKXI",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "akVNUPOqaTXaSHoQFlkP_",
+        "target": "DfrCkbD-HEHwLymv10zb5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "awoEhwPKjUcR84XGL6Som",
+        "target": "DfrCkbD-HEHwLymv10zb5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KO3viVIJJREtxXxsocN7j",
+        "target": "DfrCkbD-HEHwLymv10zb5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gy7eBxPOlwG8BvxHVLDQ9",
+        "target": "thfnymb_UIiKxakKfiua5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "uqphqAnlcJOLnwHZs5jWu",
+        "target": "thfnymb_UIiKxakKfiua5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "njKsYNkwTXPQ1NjlGKXab",
+        "target": "thfnymb_UIiKxakKfiua5",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wuwnktmNGfmvIbZhe8YCB",
+        "target": "MnDgQq9Vcxsu3wDqv5uh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XL9XOV2h0BAuA5cFcM5L_",
+        "target": "MnDgQq9Vcxsu3wDqv5uh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zWcMFfyiWJddGbiIhmdKm",
+        "target": "MnDgQq9Vcxsu3wDqv5uh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RvDfKoa_HIW3QDBfkPv3m",
+        "target": "MnDgQq9Vcxsu3wDqv5uh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kiCTo0U6VgNON8rv_Ktlj",
+        "target": "MnDgQq9Vcxsu3wDqv5uh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KNAlIYCENB4VMuQGqJNk3",
+        "target": "MnDgQq9Vcxsu3wDqv5uh2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8nMbfGxe3STMbrAVcqHHh",
+        "target": "zWcMFfyiWJddGbiIhmdKm",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cLfM342sZfsCwmPPxQpEI",
+        "target": "zWcMFfyiWJddGbiIhmdKm",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "9M5jRu0pj8KMvg9f-2oqZ",
+        "target": "zWcMFfyiWJddGbiIhmdKm",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5EPmbiNdP_vhIXclv_GjV",
+        "target": "KNAlIYCENB4VMuQGqJNk3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ElqWQClryfSYdL7P_mgYK",
+        "target": "KNAlIYCENB4VMuQGqJNk3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-ea1KsXEyz-4voHXklG_J",
+        "target": "KNAlIYCENB4VMuQGqJNk3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "h49-tjEkKcq7d7ikRHIOx",
+        "target": "KNAlIYCENB4VMuQGqJNk3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "g39P0c6M2sHNoUPs0m8tr",
+        "target": "e_lwZ-a72-tAan2KDX6k3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "LULjhsPNONyI5912DKzPw",
+        "target": "e_lwZ-a72-tAan2KDX6k3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cQllxv7qGbRtM9O5llgN6",
+        "target": "e_lwZ-a72-tAan2KDX6k3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "opa61u9gYgSpoPtxp58wu",
+        "target": "e_lwZ-a72-tAan2KDX6k3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zN7Ps1puD-YpHbKi1pHH8",
+        "target": "e_lwZ-a72-tAan2KDX6k3",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_5ht0PAdVOJWPzTRS1mVg",
+        "target": "KHcC5pFN3qLnsbPPKpYd2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_-2WpGnJ1CMj_acD1dr_i",
+        "target": "KHcC5pFN3qLnsbPPKpYd2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-WjJBYCmRRj08n_9HxohY",
+        "target": "W-atg_Msa9uPLr6RXAKSb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gr1CaLvL7tFOkIRywSsID",
+        "target": "W-atg_Msa9uPLr6RXAKSb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_HoZkE7FH-v3wI_722ZTF",
+        "target": "W-atg_Msa9uPLr6RXAKSb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "HdWq9ue0JdwmwqSIN2OD_",
+        "target": "W-atg_Msa9uPLr6RXAKSb",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ElgRwv5LSVg5FXGx-2K2s",
+        "target": "UNlvRp6k3_RDoTAAIEfJ1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "K3RZ8ESxWCpLKHePF87Hy",
+        "target": "UNlvRp6k3_RDoTAAIEfJ1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EOQGj1ALgdp6u9thVHdmc",
+        "target": "UNlvRp6k3_RDoTAAIEfJ1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "H6-XGDjs4f-qbv13v5av0",
+        "target": "bRpeoo9zXrnZ2IHSI7JX4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WzoB5B6SdOI4Mzv6U51nY",
+        "target": "bRpeoo9zXrnZ2IHSI7JX4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "y2dI1DVLWKAkv6VRpgaQa",
+        "target": "bRpeoo9zXrnZ2IHSI7JX4",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NvXAq1vN2wpncdW-yTL4c",
+        "target": "txARr3lgTvy-vJCj5zAb1",
+        "type": "subtopic_of"
+      },
+      {
         "source": "tU4Umtnfu01t9gLlnlK6b",
         "target": "79K4xgljcoSHkCYI1D55O",
         "type": "next_in_flow"
@@ -3829,316 +4355,6 @@
         "source": "W-atg_Msa9uPLr6RXAKSb",
         "target": "UNlvRp6k3_RDoTAAIEfJ1",
         "type": "next_in_flow"
-      },
-      {
-        "source": "y9ToYDix-koRbR6FLydFw",
-        "target": "tU4Umtnfu01t9gLlnlK6b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HX75SExuzR5AP7TQ94qid",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mkyU0ug8MXxV4biHuOity",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "jvp43wFkKlGQX2y7IxkbM",
-        "target": "NStw6bi_pPB49K41BFSgo",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zWL8VLx_g0SWubavJDs6i",
-        "target": "NStw6bi_pPB49K41BFSgo",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "yI6XiNW04EL78UL4lkVgd",
-        "target": "I7_mX4h-Yywp1YyTJRKXI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "10uL0r388lKh8pWYWqRZD",
-        "target": "I7_mX4h-Yywp1YyTJRKXI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "akVNUPOqaTXaSHoQFlkP_",
-        "target": "DfrCkbD-HEHwLymv10zb5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "awoEhwPKjUcR84XGL6Som",
-        "target": "DfrCkbD-HEHwLymv10zb5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KO3viVIJJREtxXxsocN7j",
-        "target": "DfrCkbD-HEHwLymv10zb5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gy7eBxPOlwG8BvxHVLDQ9",
-        "target": "thfnymb_UIiKxakKfiua5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "uqphqAnlcJOLnwHZs5jWu",
-        "target": "thfnymb_UIiKxakKfiua5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "njKsYNkwTXPQ1NjlGKXab",
-        "target": "thfnymb_UIiKxakKfiua5",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "LULjhsPNONyI5912DKzPw",
-        "target": "e_lwZ-a72-tAan2KDX6k3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cQllxv7qGbRtM9O5llgN6",
-        "target": "e_lwZ-a72-tAan2KDX6k3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "opa61u9gYgSpoPtxp58wu",
-        "target": "e_lwZ-a72-tAan2KDX6k3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-WjJBYCmRRj08n_9HxohY",
-        "target": "W-atg_Msa9uPLr6RXAKSb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_HoZkE7FH-v3wI_722ZTF",
-        "target": "W-atg_Msa9uPLr6RXAKSb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HdWq9ue0JdwmwqSIN2OD_",
-        "target": "W-atg_Msa9uPLr6RXAKSb",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_5ht0PAdVOJWPzTRS1mVg",
-        "target": "KHcC5pFN3qLnsbPPKpYd2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ElgRwv5LSVg5FXGx-2K2s",
-        "target": "UNlvRp6k3_RDoTAAIEfJ1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "K3RZ8ESxWCpLKHePF87Hy",
-        "target": "UNlvRp6k3_RDoTAAIEfJ1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "H6-XGDjs4f-qbv13v5av0",
-        "target": "bRpeoo9zXrnZ2IHSI7JX4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WzoB5B6SdOI4Mzv6U51nY",
-        "target": "bRpeoo9zXrnZ2IHSI7JX4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "y2dI1DVLWKAkv6VRpgaQa",
-        "target": "bRpeoo9zXrnZ2IHSI7JX4",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NvXAq1vN2wpncdW-yTL4c",
-        "target": "txARr3lgTvy-vJCj5zAb1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EOQGj1ALgdp6u9thVHdmc",
-        "target": "UNlvRp6k3_RDoTAAIEfJ1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_-2WpGnJ1CMj_acD1dr_i",
-        "target": "KHcC5pFN3qLnsbPPKpYd2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wuwnktmNGfmvIbZhe8YCB",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RvDfKoa_HIW3QDBfkPv3m",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8nMbfGxe3STMbrAVcqHHh",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cLfM342sZfsCwmPPxQpEI",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "9M5jRu0pj8KMvg9f-2oqZ",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-ea1KsXEyz-4voHXklG_J",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5EPmbiNdP_vhIXclv_GjV",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ElqWQClryfSYdL7P_mgYK",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "h49-tjEkKcq7d7ikRHIOx",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8OnzX03hkZ9K9i__tjmFX",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dgoDNDtW2_q9R9yhkXrcz",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "t_laNdMmdLApYszqXRdWg",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "w3bNp7OkehI1gjx8NzlC8",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "v48Mv0wQqjXbvy8x6gDjQ",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "D5_O-uElftYGQr_bTU_se",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "FK59Zsm5ENA9g11XWCan_",
-        "target": "LbLQhonBqzxHU6B-L--Vq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8mw4TxlLN4ZKAlLl-_NVV",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WREBxWSNQDD_6fzpHL6CE",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RFuy3Eho3mnW1GpP08BVw",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aE6XBgH23135_9QmD4ff2",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4T59gdcwdXqj9kCuK7cfp",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nl5imPsdY2oEWlg-9TTuk",
-        "target": "I7_mX4h-Yywp1YyTJRKXI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XL9XOV2h0BAuA5cFcM5L_",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kiCTo0U6VgNON8rv_Ktlj",
-        "target": "MnDgQq9Vcxsu3wDqv5uh2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zN7Ps1puD-YpHbKi1pHH8",
-        "target": "e_lwZ-a72-tAan2KDX6k3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "g39P0c6M2sHNoUPs0m8tr",
-        "target": "e_lwZ-a72-tAan2KDX6k3",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gr1CaLvL7tFOkIRywSsID",
-        "target": "KHcC5pFN3qLnsbPPKpYd2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1kbrCI5JS0c9wbzxXpgFU",
-        "target": "I7_mX4h-Yywp1YyTJRKXI",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8OBlgDRUg-CTgDXY-QHyO",
-        "target": "tU4Umtnfu01t9gLlnlK6b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "HeWVCPHqVnnbOn6zIim4K",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vdumdIglnouf1KyGIGZnc",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_zNAOhFWMcWqP4oxNPCXF",
-        "target": "79K4xgljcoSHkCYI1D55O",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Nex2HcTOYIbfqUzXyxSMY",
-        "target": "0uiGsC5SWavNdlFqizkKe",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zOENl96GUZRw2PP2KxIck",
-        "target": "0uiGsC5SWavNdlFqizkKe",
-        "type": "subtopic_of"
       }
     ]
   }

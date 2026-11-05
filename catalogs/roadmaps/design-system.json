@@ -1,0 +1,504 @@
+{
+  "title": "Design System",
+  "topics": [
+    {
+      "title": "Understand the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is a Design System?"
+        },
+        {
+          "title": "Need of Design System"
+        },
+        {
+          "title": "Design System vs Component Library"
+        },
+        {
+          "title": "What is Atomic Design"
+        },
+        {
+          "title": "Component Library"
+        },
+        {
+          "title": "Stakeholders Involved in Building"
+        },
+        {
+          "title": "Design System Examples"
+        }
+      ]
+    },
+    {
+      "title": "Terminology",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Component"
+        },
+        {
+          "title": "Design Language"
+        },
+        {
+          "title": "Governance"
+        },
+        {
+          "title": "Guidelines"
+        },
+        {
+          "title": "Pattern"
+        }
+      ]
+    },
+    {
+      "title": "Making a Design System",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Making it from Scratch"
+        },
+        {
+          "title": "Making it from Existing Design"
+        },
+        {
+          "title": "Pilot"
+        },
+        {
+          "title": "Token"
+        },
+        {
+          "title": "Performing a Visual Audit"
+        }
+      ]
+    },
+    {
+      "title": "Existing Design Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UI Kit"
+        },
+        {
+          "title": "Identify Existing Design Process"
+        },
+        {
+          "title": "Identify Design Elements",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Icons"
+            },
+            {
+              "title": "Sizing"
+            },
+            {
+              "title": "Visual Forms"
+            },
+            {
+              "title": "Color"
+            },
+            {
+              "title": "Spaces"
+            },
+            {
+              "title": "Typography"
+            }
+          ]
+        },
+        {
+          "title": "A/B Tests & Experiments"
+        },
+        {
+          "title": "Regional Requirements"
+        },
+        {
+          "title": "Documentation"
+        },
+        {
+          "title": "Analytics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Component Analytics"
+            },
+            {
+              "title": "Logging"
+            },
+            {
+              "title": "Tooling Analytics"
+            },
+            {
+              "title": "Service and Health Metrics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Creating Design Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Identify Components",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Avatar"
+            },
+            {
+              "title": "Banners"
+            },
+            {
+              "title": "Badges"
+            },
+            {
+              "title": "Cards"
+            },
+            {
+              "title": "Forms"
+            },
+            {
+              "title": "Buttons"
+            },
+            {
+              "title": "Dropdowns"
+            },
+            {
+              "title": "...other"
+            }
+          ]
+        },
+        {
+          "title": "Brand",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Writing Guidelines"
+            },
+            {
+              "title": "Tone of Voice"
+            },
+            {
+              "title": "Terminology"
+            },
+            {
+              "title": "Design Principles"
+            },
+            {
+              "title": "Vision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Defining Design Tokens",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Layout",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Units"
+            },
+            {
+              "title": "Grid"
+            },
+            {
+              "title": "Breakpoints"
+            },
+            {
+              "title": "Spacking"
+            }
+          ]
+        },
+        {
+          "title": "Accessibility"
+        },
+        {
+          "title": "Logo",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Monochrome Version"
+            },
+            {
+              "title": "Small Use Guidance"
+            },
+            {
+              "title": "Placement Guidance"
+            },
+            {
+              "title": "Usage Guidance"
+            },
+            {
+              "title": "File Formats"
+            }
+          ]
+        },
+        {
+          "title": "Functional Colors"
+        },
+        {
+          "title": "Dark Mode"
+        },
+        {
+          "title": "Guidelines"
+        },
+        {
+          "title": "Typography",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Responsiveness"
+            },
+            {
+              "title": "Grid Relation"
+            },
+            {
+              "title": "Guidelines"
+            },
+            {
+              "title": "Readability"
+            },
+            {
+              "title": "Performance"
+            }
+          ]
+        },
+        {
+          "title": "Guidelines (2)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Accessibility"
+            },
+            {
+              "title": "User Onboarding"
+            },
+            {
+              "title": "Microcopy Guidelines"
+            }
+          ]
+        },
+        {
+          "title": "Iconography",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Accessibility"
+            },
+            {
+              "title": "Style"
+            },
+            {
+              "title": "Naming"
+            },
+            {
+              "title": "Grid Relation"
+            },
+            {
+              "title": "Sizes"
+            },
+            {
+              "title": "Keywords"
+            },
+            {
+              "title": "Reserved Icons"
+            },
+            {
+              "title": "Guidelines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Creating Core Components",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Design",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Design Editor"
+            },
+            {
+              "title": "Plugins"
+            },
+            {
+              "title": "Version Control"
+            },
+            {
+              "title": "Contribution Guidelines"
+            }
+          ]
+        },
+        {
+          "title": "Avatar"
+        },
+        {
+          "title": "Input Text"
+        },
+        {
+          "title": "Banner"
+        }
+      ]
+    },
+    {
+      "title": "Tooling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Input Checkbox"
+        },
+        {
+          "title": "Badge"
+        },
+        {
+          "title": "Input Radio"
+        },
+        {
+          "title": "Button"
+        },
+        {
+          "title": "Input Switch"
+        },
+        {
+          "title": "Card"
+        },
+        {
+          "title": "List"
+        },
+        {
+          "title": "Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Component Catalog"
+            },
+            {
+              "title": "Documentation"
+            },
+            {
+              "title": "Code Style"
+            },
+            {
+              "title": "Unit Testing"
+            },
+            {
+              "title": "Accessibility Testing"
+            },
+            {
+              "title": "Semantic Versioning"
+            },
+            {
+              "title": "Release Strategy"
+            },
+            {
+              "title": "Commit Guidelines"
+            },
+            {
+              "title": "PR Templates"
+            },
+            {
+              "title": "Contribution Guidelines"
+            }
+          ]
+        },
+        {
+          "title": "Carousel"
+        },
+        {
+          "title": "Loading Indicator"
+        },
+        {
+          "title": "Dropdown"
+        },
+        {
+          "title": "Modal"
+        },
+        {
+          "title": "Icon"
+        },
+        {
+          "title": "Tabs"
+        }
+      ]
+    },
+    {
+      "title": "Project Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Select"
+        },
+        {
+          "title": "Toast"
+        },
+        {
+          "title": "Textarea"
+        },
+        {
+          "title": "Tooltip"
+        },
+        {
+          "title": "Task Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Roadmap"
+            },
+            {
+              "title": "Milestones"
+            },
+            {
+              "title": "Ticketing"
+            }
+          ]
+        },
+        {
+          "title": "Communications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Community Meetings"
+            },
+            {
+              "title": "Communication Channel"
+            },
+            {
+              "title": "Open Hours"
+            },
+            {
+              "title": "FAQs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

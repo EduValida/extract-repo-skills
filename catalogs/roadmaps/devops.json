@@ -1,0 +1,541 @@
+{
+  "title": "DevOps Roadmap",
+  "topics": [
+    {
+      "title": "Learn a Programming Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Ruby"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Rust"
+        },
+        {
+          "title": "JavaScript / Node.js"
+        },
+        {
+          "title": "Scripting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Operating System",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Windows"
+        },
+        {
+          "title": "Unix",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "FreeBSD"
+            },
+            {
+              "title": "Ubuntu / Debian"
+            },
+            {
+              "title": "OpenBSD"
+            },
+            {
+              "title": "SUSE Linux"
+            },
+            {
+              "title": "NetBSD"
+            },
+            {
+              "title": "RHEL / Derivatives"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terminal Knowledge",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Power Shell"
+        },
+        {
+          "title": "Process Monitoring"
+        },
+        {
+          "title": "Performance Monitoring"
+        },
+        {
+          "title": "Networking Tools"
+        },
+        {
+          "title": "Text Manipulation"
+        },
+        {
+          "title": "Vim / Nano /  Emacs"
+        }
+      ]
+    },
+    {
+      "title": "Version Control Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        }
+      ]
+    },
+    {
+      "title": "VCS Hosting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "GitLab"
+        },
+        {
+          "title": "Bitbucket"
+        },
+        {
+          "title": "FTP / SFTP"
+        },
+        {
+          "title": "DNS"
+        },
+        {
+          "title": "HTTP"
+        },
+        {
+          "title": "HTTPS"
+        },
+        {
+          "title": "SSL / TLS"
+        },
+        {
+          "title": "SSH"
+        },
+        {
+          "title": "OSI Model"
+        }
+      ]
+    },
+    {
+      "title": "Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LXC"
+        }
+      ]
+    },
+    {
+      "title": "What is and how to setup X ?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Editors",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Forward Proxy"
+            },
+            {
+              "title": "Caching Server"
+            },
+            {
+              "title": "Docker"
+            },
+            {
+              "title": "Load Balancer"
+            }
+          ]
+        },
+        {
+          "title": "Reverse Proxy"
+        },
+        {
+          "title": "Firewall"
+        },
+        {
+          "title": "Nginx"
+        },
+        {
+          "title": "Caddy"
+        },
+        {
+          "title": "Tomcat"
+        },
+        {
+          "title": "Apache"
+        },
+        {
+          "title": "Web Server",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AWS Lambda"
+            },
+            {
+              "title": "Cloudflare"
+            },
+            {
+              "title": "Azure Functions"
+            },
+            {
+              "title": "Vercel"
+            },
+            {
+              "title": "Netlify"
+            },
+            {
+              "title": "GCP Functions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Networking & Protocols"
+    },
+    {
+      "title": "Cloud Providers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "White / Grey Listing"
+        },
+        {
+          "title": "AWS"
+        },
+        {
+          "title": "Azure"
+        },
+        {
+          "title": "SMTP"
+        },
+        {
+          "title": "DMARC"
+        },
+        {
+          "title": "Google Cloud"
+        },
+        {
+          "title": "IMAP"
+        },
+        {
+          "title": "SPF"
+        },
+        {
+          "title": "Digital Ocean"
+        },
+        {
+          "title": "POP3S"
+        },
+        {
+          "title": "Hetzner"
+        },
+        {
+          "title": "Render"
+        },
+        {
+          "title": "Domain Keys"
+        },
+        {
+          "title": "Email Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Papertrail"
+            },
+            {
+              "title": "Chef"
+            },
+            {
+              "title": "Splunk"
+            },
+            {
+              "title": "Salt"
+            },
+            {
+              "title": "Loki"
+            },
+            {
+              "title": "Elastic Stack"
+            },
+            {
+              "title": "Railway"
+            },
+            {
+              "title": "TeamCity"
+            },
+            {
+              "title": "GitLab CI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Serverless",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IIS"
+        }
+      ]
+    },
+    {
+      "title": "Configuration Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Alibaba Cloud"
+        },
+        {
+          "title": "Heroku"
+        },
+        {
+          "title": "Ansible"
+        },
+        {
+          "title": "Puppet"
+        }
+      ]
+    },
+    {
+      "title": "Provisioning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AWS CDK"
+        },
+        {
+          "title": "CloudFormation"
+        },
+        {
+          "title": "Pulumi"
+        }
+      ]
+    },
+    {
+      "title": "CI / CD Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Buildkite"
+        },
+        {
+          "title": "Jenkins"
+        },
+        {
+          "title": "Circle CI"
+        },
+        {
+          "title": "Terraform"
+        },
+        {
+          "title": "Octopus Deploy"
+        },
+        {
+          "title": "GitHub Actions"
+        }
+      ]
+    },
+    {
+      "title": "Logs Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Graylog"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure Monitoring",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prometheus"
+        },
+        {
+          "title": "Grafana"
+        }
+      ]
+    },
+    {
+      "title": "Secret Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sealed Secrets"
+        },
+        {
+          "title": "Vault"
+        },
+        {
+          "title": "Cloud Specific Tools"
+        },
+        {
+          "title": "Artifactory"
+        }
+      ]
+    },
+    {
+      "title": "Container Orchestration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GKE / EKS / AKS"
+        },
+        {
+          "title": "AWS ECS / Fargate"
+        },
+        {
+          "title": "Docker Swarm"
+        },
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "OpenShift"
+        }
+      ]
+    },
+    {
+      "title": "Observability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zabbix"
+        },
+        {
+          "title": "Datadog"
+        },
+        {
+          "title": "Jaeger"
+        },
+        {
+          "title": "New Relic"
+        },
+        {
+          "title": "Datadog (2)"
+        },
+        {
+          "title": "Prometheus"
+        }
+      ]
+    },
+    {
+      "title": "Artifact Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Nexus"
+        },
+        {
+          "title": "Cloud Smith"
+        }
+      ]
+    },
+    {
+      "title": "GitOps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ESO"
+        },
+        {
+          "title": "SOPs"
+        },
+        {
+          "title": "ArgoCD"
+        },
+        {
+          "title": "FluxCD"
+        }
+      ]
+    },
+    {
+      "title": "Service Mesh",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Istio"
+        },
+        {
+          "title": "Consul"
+        },
+        {
+          "title": "Linkerd"
+        },
+        {
+          "title": "Envoy"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Design Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OpenTelemetry"
+        },
+        {
+          "title": "Dynatrace"
+        },
+        {
+          "title": "Availability"
+        },
+        {
+          "title": "Data Management"
+        },
+        {
+          "title": "Design and Implementation"
+        },
+        {
+          "title": "Management and Monitoring"
+        }
+      ]
+    }
+  ]
+}

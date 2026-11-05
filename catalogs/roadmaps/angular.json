@@ -1,0 +1,579 @@
+{
+  "title": "Angular Developer",
+  "topics": [
+    {
+      "title": "Introduction to Angular",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Component Anatomy"
+        },
+        {
+          "title": "Creating Components"
+        },
+        {
+          "title": "Angular and History"
+        },
+        {
+          "title": "Angular Architecture"
+        },
+        {
+          "title": "Template"
+        },
+        {
+          "title": "Setting up a New Project"
+        }
+      ]
+    },
+    {
+      "title": "Components"
+    },
+    {
+      "title": "Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Metadata"
+        },
+        {
+          "title": "Selector"
+        },
+        {
+          "title": "Styles"
+        },
+        {
+          "title": "Standalone"
+        },
+        {
+          "title": "Imports"
+        },
+        {
+          "title": "Provider"
+        },
+        {
+          "title": "viewProvider"
+        },
+        {
+          "title": "Encapsulation"
+        },
+        {
+          "title": "changeDetection"
+        },
+        {
+          "title": "Parent-Child Interaction"
+        },
+        {
+          "title": "ViewChild"
+        },
+        {
+          "title": "ContentChild"
+        }
+      ]
+    },
+    {
+      "title": "Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Module Architecture"
+        },
+        {
+          "title": "Creating Modules"
+        },
+        {
+          "title": "Feature Modules"
+        },
+        {
+          "title": "Lazy Loading Modules"
+        },
+        {
+          "title": "Dependencies"
+        }
+      ]
+    },
+    {
+      "title": "Understand Binding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Interpolation"
+        },
+        {
+          "title": "Template Statements"
+        },
+        {
+          "title": "Data Binding"
+        },
+        {
+          "title": "Property Binding"
+        },
+        {
+          "title": "Attribute Binding"
+        },
+        {
+          "title": "Event Binding"
+        },
+        {
+          "title": "Two-way Binding"
+        }
+      ]
+    },
+    {
+      "title": "Templates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Structural Directives"
+        },
+        {
+          "title": "Attribute Directives"
+        }
+      ]
+    },
+    {
+      "title": "Template Syntax",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Component Lifecycle"
+        },
+        {
+          "title": "Dynamic Components"
+        },
+        {
+          "title": "@else"
+        },
+        {
+          "title": "@if"
+        },
+        {
+          "title": "@else if"
+        },
+        {
+          "title": "@for"
+        },
+        {
+          "title": "@switch"
+        },
+        {
+          "title": "@case"
+        },
+        {
+          "title": "@default"
+        },
+        {
+          "title": "@let"
+        },
+        {
+          "title": "@defer"
+        }
+      ]
+    },
+    {
+      "title": "Pipes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pipes Precedence"
+        },
+        {
+          "title": "Change Detection"
+        },
+        {
+          "title": "Common Pipes"
+        },
+        {
+          "title": "Custom Pipes"
+        }
+      ]
+    },
+    {
+      "title": "Directives",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Custom Directives"
+        },
+        {
+          "title": "Configuration"
+        }
+      ]
+    },
+    {
+      "title": "Services  & Remote Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Control Flow"
+        },
+        {
+          "title": "Template Ref Vars"
+        },
+        {
+          "title": "@Input & @Output"
+        },
+        {
+          "title": "Dependency Injection"
+        }
+      ]
+    },
+    {
+      "title": "Routing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lazy Loading"
+        },
+        {
+          "title": "Router Outlets"
+        },
+        {
+          "title": "Router Links"
+        }
+      ]
+    },
+    {
+      "title": "Forms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Reactive Forms"
+        },
+        {
+          "title": "Typed Forms"
+        },
+        {
+          "title": "Template-driven Forms"
+        },
+        {
+          "title": "Dynamic Forms"
+        },
+        {
+          "title": "Custom Validators"
+        },
+        {
+          "title": "Control Value Accessor"
+        }
+      ]
+    },
+    {
+      "title": "HTTP Client",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Setting Up the Client"
+        },
+        {
+          "title": "Making Requests"
+        }
+      ]
+    },
+    {
+      "title": "RxJS Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Router Events"
+        },
+        {
+          "title": "Guards"
+        },
+        {
+          "title": "Observable Pattern"
+        }
+      ]
+    },
+    {
+      "title": "Zones",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zoneless Applications"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Writing Interceptors"
+        },
+        {
+          "title": "NGXS"
+        },
+        {
+          "title": "NgRx"
+        }
+      ]
+    },
+    {
+      "title": "Signals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Observable Lifecycle"
+        },
+        {
+          "title": "RxJS vs Promises"
+        },
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "RxJS Interop"
+        },
+        {
+          "title": "Filtering"
+        },
+        {
+          "title": "Inputs as Signals"
+        },
+        {
+          "title": "Rate Limiting"
+        },
+        {
+          "title": "Transformation"
+        }
+      ]
+    },
+    {
+      "title": "Developer Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Angular CLI"
+        },
+        {
+          "title": "DevTools"
+        },
+        {
+          "title": "Local Setup"
+        },
+        {
+          "title": "Deployment"
+        },
+        {
+          "title": "End-to-End Testing"
+        },
+        {
+          "title": "Schematics"
+        },
+        {
+          "title": "Build Environments"
+        },
+        {
+          "title": "CLI Builders"
+        }
+      ]
+    },
+    {
+      "title": "SSR",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Queries as Signals"
+        },
+        {
+          "title": "Model Inputs"
+        }
+      ]
+    },
+    {
+      "title": "SSG",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AnalogJS"
+        },
+        {
+          "title": "Language Service"
+        },
+        {
+          "title": "Libraries"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Using Libraries"
+        },
+        {
+          "title": "Creating Libraries"
+        },
+        {
+          "title": "Cross-site Scripting"
+        },
+        {
+          "title": "HTTP Vulnerabilities"
+        },
+        {
+          "title": "Sanitization"
+        },
+        {
+          "title": "Cross-site Request Forgery"
+        },
+        {
+          "title": "AoT Compilation"
+        },
+        {
+          "title": "Trusting Safe Values"
+        },
+        {
+          "title": "HttpClient CSRF"
+        },
+        {
+          "title": "Enforce Trusted Types"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Combination"
+        },
+        {
+          "title": "Attributes"
+        },
+        {
+          "title": "UI Components"
+        },
+        {
+          "title": "Containers"
+        },
+        {
+          "title": "Routing"
+        },
+        {
+          "title": "Link Identification"
+        }
+      ]
+    },
+    {
+      "title": "Performance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "XSRF protection"
+        },
+        {
+          "title": "Deferrable Views"
+        },
+        {
+          "title": "Cross-site Script Inclusion"
+        },
+        {
+          "title": "Image Optimization"
+        },
+        {
+          "title": "Zone Pollution"
+        },
+        {
+          "title": "Slow Computations"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Localize Package"
+        },
+        {
+          "title": "Locales by ID"
+        },
+        {
+          "title": "Translation Files"
+        },
+        {
+          "title": "Multiple Locales"
+        },
+        {
+          "title": "Transitions & Triggers"
+        },
+        {
+          "title": "Complex Sequences"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Testing Services"
+        },
+        {
+          "title": "Testing Pipes"
+        },
+        {
+          "title": "Hydration"
+        },
+        {
+          "title": "Testing Requests"
+        },
+        {
+          "title": "Testing Directives"
+        },
+        {
+          "title": "Services with Dependencies"
+        },
+        {
+          "title": "Component Bindings"
+        },
+        {
+          "title": "Debugging Tests"
+        },
+        {
+          "title": "Component Templates"
+        },
+        {
+          "title": "Code Coverage"
+        }
+      ]
+    },
+    {
+      "title": "Animation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Reusable Animations"
+        },
+        {
+          "title": "Route Transitions"
+        }
+      ]
+    }
+  ]
+}

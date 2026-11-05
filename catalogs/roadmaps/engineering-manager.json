@@ -1,0 +1,576 @@
+{
+  "title": "Engineering Manager",
+  "topics": [
+    {
+      "title": "What is Engineering Management?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Process"
+        },
+        {
+          "title": "EM vs Tech Lead vs IC"
+        },
+        {
+          "title": "People"
+        },
+        {
+          "title": "Product"
+        },
+        {
+          "title": "Quality and Process",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "System Monitoring & Performance"
+            },
+            {
+              "title": "CI/CD Implementation"
+            },
+            {
+              "title": "Development / Release Workflow"
+            },
+            {
+              "title": "Testing Strategies"
+            },
+            {
+              "title": "Technical Standards Setting"
+            },
+            {
+              "title": "Security  Best Practices"
+            },
+            {
+              "title": "Incident Management"
+            }
+          ]
+        },
+        {
+          "title": "Technical Strategy",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Technical Roadmapping"
+            },
+            {
+              "title": "Architectural Decision-Making"
+            },
+            {
+              "title": "Build vs Buy Evaluation"
+            },
+            {
+              "title": "Technical Risk Assessment"
+            },
+            {
+              "title": "Scaling Infrastructure"
+            },
+            {
+              "title": "Legacy System Retirement"
+            }
+          ]
+        },
+        {
+          "title": "Foundational Knowledge",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Software Engineering Background"
+            },
+            {
+              "title": "System Design and Architecture"
+            },
+            {
+              "title": "Technical Debt and Management"
+            },
+            {
+              "title": "Code Review Best Practices"
+            },
+            {
+              "title": "Technical Documentation"
+            }
+          ]
+        },
+        {
+          "title": "Leadership Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Delegation"
+            },
+            {
+              "title": "Conflict Resolution"
+            },
+            {
+              "title": "Feedback Delivery"
+            },
+            {
+              "title": "Team Motivation"
+            },
+            {
+              "title": "Trust / Influence Building"
+            },
+            {
+              "title": "Emotional Intelligence"
+            }
+          ]
+        },
+        {
+          "title": "Team Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hiring and Recruitment"
+            },
+            {
+              "title": "Team Structure and Design"
+            },
+            {
+              "title": "Performance Evaluations"
+            },
+            {
+              "title": "Career Development Planning"
+            },
+            {
+              "title": "Mentoring and Coaching"
+            }
+          ]
+        },
+        {
+          "title": "Communication",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "One-on-One Meetings"
+            },
+            {
+              "title": "Team Meetings"
+            },
+            {
+              "title": "Status Reporting"
+            },
+            {
+              "title": "Stakeholder Management"
+            },
+            {
+              "title": "Cross-functional Collaboration"
+            }
+          ]
+        },
+        {
+          "title": "Execution",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Agile methodologies"
+            },
+            {
+              "title": "Project Tracking"
+            },
+            {
+              "title": "Milestone Management"
+            },
+            {
+              "title": "Scope Management"
+            },
+            {
+              "title": "Timeline Estimation"
+            }
+          ]
+        },
+        {
+          "title": "Project Planning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Resource Allocation"
+            },
+            {
+              "title": "Sprint Planning"
+            },
+            {
+              "title": "Release Management"
+            },
+            {
+              "title": "Risk Management"
+            },
+            {
+              "title": "Dependency management"
+            }
+          ]
+        },
+        {
+          "title": "Strategic Thinking",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Product strategy alignment"
+            },
+            {
+              "title": "Business Case Development"
+            },
+            {
+              "title": "ROI analysis"
+            },
+            {
+              "title": "Market awareness"
+            },
+            {
+              "title": "Competitive Analysis"
+            }
+          ]
+        },
+        {
+          "title": "Measurement",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "KPI Definition"
+            },
+            {
+              "title": "Velocity Tracking"
+            },
+            {
+              "title": "Quality Metrics"
+            },
+            {
+              "title": "Team Health Metrics"
+            },
+            {
+              "title": "Project Postmortems"
+            }
+          ]
+        },
+        {
+          "title": "Business Acumen",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Budget Planning"
+            },
+            {
+              "title": "Resource forecasting"
+            },
+            {
+              "title": "Cost Optimization"
+            },
+            {
+              "title": "Vendor Management"
+            }
+          ]
+        },
+        {
+          "title": "Company Culture"
+        },
+        {
+          "title": "Change management"
+        },
+        {
+          "title": "Organization structure"
+        },
+        {
+          "title": "Politics navigation"
+        },
+        {
+          "title": "Team Culture",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Defining and Enforcing Values"
+            },
+            {
+              "title": "Inclusive environment creation"
+            },
+            {
+              "title": "Team Traditions and Rituals"
+            },
+            {
+              "title": "Recognition programs"
+            },
+            {
+              "title": "Social connections"
+            },
+            {
+              "title": "Bias Recognition / Mitigation"
+            }
+          ]
+        },
+        {
+          "title": "Cross-department collaboration"
+        },
+        {
+          "title": "Engineering Culture",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Innovation fostering"
+            },
+            {
+              "title": "Learning culture development"
+            },
+            {
+              "title": "Knowledge sharing practices"
+            },
+            {
+              "title": "Technical excellence mindset"
+            },
+            {
+              "title": "Blameless Post-mortems"
+            }
+          ]
+        },
+        {
+          "title": "Risk Mitigation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Contingency planning"
+            },
+            {
+              "title": "Disaster recovery"
+            },
+            {
+              "title": "Business continuity"
+            },
+            {
+              "title": "Security incident handling"
+            },
+            {
+              "title": "Production issues management"
+            }
+          ]
+        },
+        {
+          "title": "Incident Response",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Emergency protocols"
+            },
+            {
+              "title": "War Room Management"
+            },
+            {
+              "title": "Stakeholder Communication"
+            },
+            {
+              "title": "Service Recovery"
+            },
+            {
+              "title": "Post-incident analysis"
+            }
+          ]
+        },
+        {
+          "title": "Team Support",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Burnout prevention"
+            },
+            {
+              "title": "Critical situation leadership"
+            },
+            {
+              "title": "Emergency staffing"
+            },
+            {
+              "title": "Stress management"
+            },
+            {
+              "title": "Work-life balance during crises"
+            }
+          ]
+        },
+        {
+          "title": "Partner Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Vendor relationships"
+            },
+            {
+              "title": "Technology partnerships"
+            },
+            {
+              "title": "Integration management"
+            },
+            {
+              "title": "API strategy"
+            },
+            {
+              "title": "External collaboration"
+            }
+          ]
+        },
+        {
+          "title": "Customer Relations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Customer feedback integration"
+            },
+            {
+              "title": "Technical customer support"
+            },
+            {
+              "title": "Customer success alignment"
+            },
+            {
+              "title": "Feature prioritization"
+            },
+            {
+              "title": "Technical partnerships"
+            }
+          ]
+        },
+        {
+          "title": "Documentation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Architecture documentation"
+            },
+            {
+              "title": "Process documentation"
+            },
+            {
+              "title": "Decision records"
+            },
+            {
+              "title": "Best Practices"
+            },
+            {
+              "title": "Lessons Learned"
+            }
+          ]
+        },
+        {
+          "title": "Executive Communication",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Board presentations"
+            },
+            {
+              "title": "Executive summaries"
+            },
+            {
+              "title": "Strategic proposals"
+            },
+            {
+              "title": "Budget requests"
+            },
+            {
+              "title": "Vision alignment"
+            }
+          ]
+        },
+        {
+          "title": "Knowledge Transfer",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Mentoring Programs"
+            },
+            {
+              "title": "Knowledge bases"
+            },
+            {
+              "title": "Tech Talks"
+            },
+            {
+              "title": "Brown Bags"
+            }
+          ]
+        },
+        {
+          "title": "Technical Change",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Migration planning"
+            },
+            {
+              "title": "Legacy system retirement"
+            },
+            {
+              "title": "Technology adoption"
+            },
+            {
+              "title": "Tool transitions"
+            },
+            {
+              "title": "Process changes"
+            }
+          ]
+        },
+        {
+          "title": "Organizational Change",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Change strategy"
+            },
+            {
+              "title": "Impact assessment"
+            },
+            {
+              "title": "Stakeholder management"
+            },
+            {
+              "title": "Communication planning"
+            },
+            {
+              "title": "Resistance management"
+            }
+          ]
+        },
+        {
+          "title": "Team Change",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Reorganizations"
+            },
+            {
+              "title": "Team mergers"
+            },
+            {
+              "title": "Role transitions"
+            },
+            {
+              "title": "Responsibility shifts"
+            },
+            {
+              "title": "Culture evolution"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

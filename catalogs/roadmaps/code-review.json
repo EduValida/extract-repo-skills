@@ -1,0 +1,24 @@
+{
+  "title": "Code Review Pyramid",
+  "topics": [
+    {
+      "title": "Documentation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code Styles"
+        },
+        {
+          "title": "Tests"
+        }
+      ]
+    },
+    {
+      "title": "Implementation Semantics"
+    },
+    {
+      "title": "API Semantics"
+    }
+  ]
+}

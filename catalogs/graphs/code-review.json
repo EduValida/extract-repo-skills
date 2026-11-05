@@ -3,7 +3,7 @@
     "slug": "code-review",
     "title": "Code Review Pyramid",
     "description": "Learn what to focus on when conducting a code review.",
-    "extracted_at": "2026-10-29T01:03:51.795595+00:00",
+    "extracted_at": "2026-11-05T02:14:44.986147+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/code-review",
     "total_topics": 3,
     "total_subtopics": 2
@@ -27,7 +27,9 @@
             "type": "subtopic",
             "description": "",
             "resources": [],
-            "file_path": null
+            "file_path": null,
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "UDHO5T8xijJUCoX0CCvZD",
@@ -35,7 +37,9 @@
             "type": "subtopic",
             "description": "",
             "resources": [],
-            "file_path": null
+            "file_path": null,
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },

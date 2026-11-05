@@ -1,0 +1,249 @@
+{
+  "title": "Docker Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Containers?"
+        },
+        {
+          "title": "Why do we need Containers?"
+        },
+        {
+          "title": "Bare Metal vs VMs vs Containers"
+        },
+        {
+          "title": "Package Managers"
+        },
+        {
+          "title": "Docker and OCI"
+        },
+        {
+          "title": "Users / Groups Permissions"
+        }
+      ]
+    },
+    {
+      "title": "Underlying Technologies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shell Commands"
+        },
+        {
+          "title": "Namespaces"
+        },
+        {
+          "title": "cgroups"
+        },
+        {
+          "title": "Union Filesystems"
+        }
+      ]
+    },
+    {
+      "title": "Installation / Setup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Docker Desktop (Win/Mac/Linux)"
+        },
+        {
+          "title": "Docker Engine ( Linux )"
+        }
+      ]
+    },
+    {
+      "title": "Basics of Docker"
+    },
+    {
+      "title": "Using 3rd Party Container Images",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shell Scripting"
+        }
+      ]
+    },
+    {
+      "title": "Data Persistence",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ephemeral Container Filesystem"
+        },
+        {
+          "title": "Volume Mounts"
+        }
+      ]
+    },
+    {
+      "title": "Container Registries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dockerhub"
+        }
+      ]
+    },
+    {
+      "title": "Running Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Just get the basic idea of these",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bind Mounts"
+            }
+          ]
+        },
+        {
+          "title": "docker compose",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Runtime Configuration Options"
+            }
+          ]
+        },
+        {
+          "title": "docker run"
+        }
+      ]
+    },
+    {
+      "title": "Building Container Images",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dockerfiles"
+        },
+        {
+          "title": "Efficient Layer Caching"
+        },
+        {
+          "title": "Image Size and Security"
+        },
+        {
+          "title": "Images"
+        },
+        {
+          "title": "Volumes"
+        }
+      ]
+    },
+    {
+      "title": "Docker CLI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Others (ghcr, ecr, gcr, acr, etc)"
+        },
+        {
+          "title": "Image Tagging Best Practices"
+        },
+        {
+          "title": "Containers"
+        },
+        {
+          "title": "Networks"
+        }
+      ]
+    },
+    {
+      "title": "Container Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Image Security"
+        },
+        {
+          "title": "Runtime Security"
+        },
+        {
+          "title": "Nomad"
+        },
+        {
+          "title": "Docker Swarm"
+        }
+      ]
+    },
+    {
+      "title": "Networking"
+    },
+    {
+      "title": "Developer Experience",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Linux Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Programming Languages"
+            },
+            {
+              "title": "Application Architecture"
+            }
+          ]
+        },
+        {
+          "title": "Web Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Databases"
+            },
+            {
+              "title": "Command Line Utilities"
+            }
+          ]
+        },
+        {
+          "title": "Hot Reloading"
+        },
+        {
+          "title": "Debuggers"
+        },
+        {
+          "title": "Tests"
+        },
+        {
+          "title": "Continuous Integration"
+        }
+      ]
+    },
+    {
+      "title": "Deploying Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "PaaS Options"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Spring Boot Developer",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Terminology"
+        },
+        {
+          "title": "Architecture"
+        },
+        {
+          "title": "Why use Spring?"
+        },
+        {
+          "title": "Configuration"
+        },
+        {
+          "title": "Dependency Injection"
+        },
+        {
+          "title": "Spring IOC"
+        },
+        {
+          "title": "Spring AOP"
+        },
+        {
+          "title": "Spring MVC"
+        },
+        {
+          "title": "Annotations"
+        },
+        {
+          "title": "Spring Bean Scope"
+        }
+      ]
+    },
+    {
+      "title": "Spring Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Authorization"
+        },
+        {
+          "title": "OAuth2"
+        },
+        {
+          "title": "JWT Authentication"
+        }
+      ]
+    },
+    {
+      "title": "Spring Boot Starters"
+    },
+    {
+      "title": "Autoconfiguration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Spring Cloud Gateway"
+        }
+      ]
+    },
+    {
+      "title": "Actuators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cloud Config"
+        }
+      ]
+    },
+    {
+      "title": "Hibernate",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "Relationships"
+        },
+        {
+          "title": "Entity Lifecycle"
+        }
+      ]
+    },
+    {
+      "title": "Embedded Server"
+    },
+    {
+      "title": "Spring Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Spring Data JPA"
+        },
+        {
+          "title": "Spring Data MongoDB"
+        },
+        {
+          "title": "Spring Data JDBC"
+        },
+        {
+          "title": "JPA Test"
+        }
+      ]
+    },
+    {
+      "title": "Microservices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Spring Cloud",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Spring Cloud Circuit Breaker"
+            },
+            {
+              "title": "Spring Cloud Open Feign"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spring MVC",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Micrometer"
+        },
+        {
+          "title": "Eureka"
+        },
+        {
+          "title": "Servlet"
+        },
+        {
+          "title": "JSP Files"
+        },
+        {
+          "title": "Architecture"
+        },
+        {
+          "title": "Components"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mock MVC"
+        },
+        {
+          "title": "@SpringBootTest Annotation"
+        },
+        {
+          "title": "@MockBean Annotation"
+        }
+      ]
+    }
+  ]
+}

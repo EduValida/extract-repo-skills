@@ -1,0 +1,181 @@
+{
+  "title": "Full Stack Developer",
+  "topics": [
+    {
+      "title": "HTML"
+    },
+    {
+      "title": "CSS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint - Static Webpages"
+        }
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Project ideas and suggestions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Checkpoint - Interactivity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "npm"
+    },
+    {
+      "title": "React"
+    },
+    {
+      "title": "Tailwind CSS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint - Collaborative Work"
+        },
+        {
+          "title": "Checkpoint - Frontend Apps"
+        }
+      ]
+    },
+    {
+      "title": "GitHub",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint - External Packages"
+        }
+      ]
+    },
+    {
+      "title": "Git"
+    },
+    {
+      "title": "Node.js",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint — CLI Apps"
+        }
+      ]
+    },
+    {
+      "title": "PostgreSQL"
+    },
+    {
+      "title": "Redis"
+    },
+    {
+      "title": "JWT Auth",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Backend Starts here",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Checkpoint — Complete App"
+            },
+            {
+              "title": "Route53"
+            },
+            {
+              "title": "SES"
+            },
+            {
+              "title": "EC2"
+            },
+            {
+              "title": "VPC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "RESTful APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint — Simple CRUD Apps"
+        }
+      ]
+    },
+    {
+      "title": "Linux Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DevOps starts here",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Checkpoint — Automation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Basic AWS Services",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "S3"
+        }
+      ]
+    },
+    {
+      "title": "Monit"
+    },
+    {
+      "title": "Ansible",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint — CI / CD"
+        },
+        {
+          "title": "Checkpoint — Infrastructure"
+        }
+      ]
+    },
+    {
+      "title": "GitHub Actions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint — Deployment"
+        },
+        {
+          "title": "Checkpoint — Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Terraform"
+    }
+  ]
+}

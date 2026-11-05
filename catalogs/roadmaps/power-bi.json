@@ -1,0 +1,529 @@
+{
+  "title": "Power BI",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Licensing Tiers"
+        },
+        {
+          "title": "Installing Power BI"
+        }
+      ]
+    },
+    {
+      "title": "Data Source Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Desktop",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Power BI Ecosystem"
+            }
+          ]
+        },
+        {
+          "title": "Files"
+        },
+        {
+          "title": "Service"
+        },
+        {
+          "title": "Mobile"
+        },
+        {
+          "title": "Databases"
+        },
+        {
+          "title": "Clouds"
+        },
+        {
+          "title": "APIs"
+        }
+      ]
+    },
+    {
+      "title": "Connection Modes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Import Mode"
+        },
+        {
+          "title": "DirectQuery"
+        },
+        {
+          "title": "Direct Lake"
+        },
+        {
+          "title": "Data Cleaning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Data Types & Casting"
+            },
+            {
+              "title": "Removing Duplicates"
+            },
+            {
+              "title": "Handling Errors"
+            }
+          ]
+        },
+        {
+          "title": "Dual Storage Mode"
+        },
+        {
+          "title": "Column & Value Transforms.",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Changing Text"
+            },
+            {
+              "title": "Changing Numbers"
+            },
+            {
+              "title": "Changing Dates"
+            },
+            {
+              "title": "Conditional Columns"
+            },
+            {
+              "title": "Custom Columns"
+            },
+            {
+              "title": "Splitting Columns"
+            }
+          ]
+        },
+        {
+          "title": "Table Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Joins"
+            },
+            {
+              "title": "Appending Tables"
+            },
+            {
+              "title": "Pivot & Transpose"
+            }
+          ]
+        },
+        {
+          "title": "Query Performance",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Parameters & Functions"
+            },
+            {
+              "title": "Query Folding"
+            },
+            {
+              "title": "Incremental Refresh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Power Query",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Applied Steps"
+        },
+        {
+          "title": "Data Profiling"
+        }
+      ]
+    },
+    {
+      "title": "M Language Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Advanced Editor"
+        }
+      ]
+    },
+    {
+      "title": "Schema Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Facts & Dimensions"
+        },
+        {
+          "title": "Star vs Snowflake Schema"
+        },
+        {
+          "title": "Granularity"
+        }
+      ]
+    },
+    {
+      "title": "Relationships",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Relationships and Cardinality"
+        },
+        {
+          "title": "Cross Filter Direction"
+        }
+      ]
+    },
+    {
+      "title": "Model Objects",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Calculated Tables & Columns"
+        },
+        {
+          "title": "Hierarchies"
+        },
+        {
+          "title": "Aggregations"
+        }
+      ]
+    },
+    {
+      "title": "Model Optimization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Performance Analyzer"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DAX vs. M Language"
+        },
+        {
+          "title": "Function Families",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Aggregation Functions"
+            },
+            {
+              "title": "Logical Functions"
+            },
+            {
+              "title": "Window Functions"
+            },
+            {
+              "title": "Iterator Functions"
+            },
+            {
+              "title": "Time Intelligence"
+            },
+            {
+              "title": "Table Manipulation"
+            }
+          ]
+        },
+        {
+          "title": "DAX Syntax"
+        },
+        {
+          "title": "Columns vs Measures"
+        },
+        {
+          "title": "Variables in DAX"
+        }
+      ]
+    },
+    {
+      "title": "Context & Filtering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Row vs Filter Context"
+        },
+        {
+          "title": "CALCULATE Function"
+        },
+        {
+          "title": "Context Transition"
+        }
+      ]
+    },
+    {
+      "title": "Advanced DAX",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Quick Measures"
+        },
+        {
+          "title": "Bar & Column Charts"
+        },
+        {
+          "title": "Field Parameters"
+        },
+        {
+          "title": "Line & Area Charts"
+        },
+        {
+          "title": "Visual Calculations"
+        },
+        {
+          "title": "Pie & Donut Charts"
+        },
+        {
+          "title": "Calculation Groups"
+        },
+        {
+          "title": "DAX Performance"
+        }
+      ]
+    },
+    {
+      "title": "Visualization Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Scatter & Bubble Charts"
+        },
+        {
+          "title": "Combination Charts"
+        },
+        {
+          "title": "Gauges, Cards, & KPIs"
+        },
+        {
+          "title": "Design Principles"
+        },
+        {
+          "title": "Matrix & Table Visuals"
+        },
+        {
+          "title": "Accessibility"
+        },
+        {
+          "title": "Maps"
+        },
+        {
+          "title": "Custom Visuals"
+        }
+      ]
+    },
+    {
+      "title": "Formatting & filtering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Drill-through & Drill-down"
+        },
+        {
+          "title": "Formatting & Themes"
+        },
+        {
+          "title": "Bookmarks"
+        },
+        {
+          "title": "Conditional Formatting"
+        },
+        {
+          "title": "Sorting Data"
+        },
+        {
+          "title": "Slicers and Filters"
+        }
+      ]
+    },
+    {
+      "title": "Interactivity",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Buttons & Navigation"
+        },
+        {
+          "title": "Explore Feature"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Visuals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Custom Tooltips"
+        },
+        {
+          "title": "Cross-filtering"
+        },
+        {
+          "title": "Decomposition Tree"
+        },
+        {
+          "title": "Key Influencers"
+        },
+        {
+          "title": "Small Multiples"
+        },
+        {
+          "title": "Q&A Visual"
+        }
+      ]
+    },
+    {
+      "title": "Publishing & Sharing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Workspaces"
+        },
+        {
+          "title": "Dashboards vs Reports"
+        },
+        {
+          "title": "Paginated Reports (RDL)"
+        },
+        {
+          "title": "Publishing Reports"
+        },
+        {
+          "title": "Sharing & Permissions"
+        },
+        {
+          "title": "Apps"
+        }
+      ]
+    },
+    {
+      "title": "Data & Infrastructure",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "On-premises Data Gateway"
+        },
+        {
+          "title": "Refresh & Change Detection"
+        }
+      ]
+    },
+    {
+      "title": "Collaboration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Subscriptions and Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Access Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Row-Level Security"
+        },
+        {
+          "title": "Object-Level Security"
+        },
+        {
+          "title": "Workspace Roles"
+        }
+      ]
+    },
+    {
+      "title": "Governance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tenant Settings"
+        },
+        {
+          "title": "Audit Logs"
+        },
+        {
+          "title": "Certified Datasets"
+        },
+        {
+          "title": "Sensitivity Labels"
+        },
+        {
+          "title": "Data Loss Prevention"
+        }
+      ]
+    },
+    {
+      "title": "Workflow & Lifecycle",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Power Automate"
+        },
+        {
+          "title": "Deployment Pipelines"
+        }
+      ]
+    },
+    {
+      "title": "Integrations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Power BI Embedded"
+        },
+        {
+          "title": "REST API"
+        },
+        {
+          "title": "Power BI with Excel"
+        },
+        {
+          "title": "Python & R"
+        },
+        {
+          "title": "Microsoft Fabric"
+        }
+      ]
+    }
+  ]
+}

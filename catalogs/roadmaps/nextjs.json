@@ -1,0 +1,378 @@
+{
+  "title": "Next.js",
+  "topics": [
+    {
+      "title": "React Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why Next.js"
+        },
+        {
+          "title": "Next.js"
+        },
+        {
+          "title": "Remix"
+        },
+        {
+          "title": "SSR"
+        },
+        {
+          "title": "SPA"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript Basics"
+        },
+        {
+          "title": "Why Frontend Frameworks"
+        },
+        {
+          "title": "Why React"
+        },
+        {
+          "title": "SPA vs SSR"
+        }
+      ]
+    },
+    {
+      "title": "create-next-app"
+    },
+    {
+      "title": "Next.js Routing Basics"
+    },
+    {
+      "title": "Rendering Strategies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CSR"
+        },
+        {
+          "title": "SSG"
+        },
+        {
+          "title": "Rendering",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Images"
+            },
+            {
+              "title": "Videos"
+            },
+            {
+              "title": "Fonts"
+            },
+            {
+              "title": "Metadata"
+            },
+            {
+              "title": "Package Bundling"
+            },
+            {
+              "title": "Lazy Loading"
+            },
+            {
+              "title": "Analytics"
+            },
+            {
+              "title": "Instrumentation"
+            },
+            {
+              "title": "OpenTelemetry"
+            },
+            {
+              "title": "Static Assets"
+            },
+            {
+              "title": "Scripts"
+            },
+            {
+              "title": "Third Party Libraries"
+            },
+            {
+              "title": "Memory Usage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Routing Terminology"
+    },
+    {
+      "title": "Types of routers"
+    },
+    {
+      "title": "Rendering Pages"
+    },
+    {
+      "title": "Layouts and Templates"
+    },
+    {
+      "title": "Loading and Streaming"
+    },
+    {
+      "title": "Routing Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Routing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Pages"
+            },
+            {
+              "title": "App"
+            },
+            {
+              "title": "Why use App Router?"
+            }
+          ]
+        },
+        {
+          "title": "Parallel Routes"
+        },
+        {
+          "title": "Intercepting Routes"
+        }
+      ]
+    },
+    {
+      "title": "Error States"
+    },
+    {
+      "title": "API Endpoints",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Static vs Dynamic"
+        },
+        {
+          "title": "Caching"
+        },
+        {
+          "title": "Streaming"
+        },
+        {
+          "title": "Reditects"
+        }
+      ]
+    },
+    {
+      "title": "Structuring Routes"
+    },
+    {
+      "title": "Proxy",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Use cases"
+        },
+        {
+          "title": "Route Matcher"
+        },
+        {
+          "title": "Using Cookies"
+        },
+        {
+          "title": "Setting Headers"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization"
+    },
+    {
+      "title": "Fetching Locations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Client"
+        },
+        {
+          "title": "Server"
+        }
+      ]
+    },
+    {
+      "title": "Handling Sensitive Data"
+    },
+    {
+      "title": "Data Fetching Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Working with data",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Preloading Data"
+            }
+          ]
+        },
+        {
+          "title": "Parallel vs Sequential"
+        }
+      ]
+    },
+    {
+      "title": "Caching Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Memoization in Fetch"
+        },
+        {
+          "title": "React Cache"
+        }
+      ]
+    },
+    {
+      "title": "Server Actions"
+    },
+    {
+      "title": "Runtimes and Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Node.js"
+        },
+        {
+          "title": "Edge"
+        }
+      ]
+    },
+    {
+      "title": "Client Rendered"
+    },
+    {
+      "title": "Server Rendered"
+    },
+    {
+      "title": "Global CSS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Revalidating Cached Data"
+        },
+        {
+          "title": "Revalidation Errors"
+        },
+        {
+          "title": "Ways to Write CSS",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CSS Modules"
+            },
+            {
+              "title": "Tailwind CSS"
+            },
+            {
+              "title": "Sass"
+            },
+            {
+              "title": "CSS in JS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Composition"
+    },
+    {
+      "title": "Setting things Up",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TypeScript"
+        },
+        {
+          "title": "ESLint"
+        },
+        {
+          "title": "Prettier"
+        }
+      ]
+    },
+    {
+      "title": "Environment Variables"
+    },
+    {
+      "title": "Markdown and MDX"
+    },
+    {
+      "title": "Preparing for Production"
+    },
+    {
+      "title": "Custom Server",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Testing Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Vitest"
+            },
+            {
+              "title": "Jest"
+            },
+            {
+              "title": "Playwright"
+            },
+            {
+              "title": "Cypress"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deployment Options",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Node.js Server"
+        },
+        {
+          "title": "Docker Container"
+        },
+        {
+          "title": "Static Export"
+        },
+        {
+          "title": "Adapters"
+        }
+      ]
+    }
+  ]
+}

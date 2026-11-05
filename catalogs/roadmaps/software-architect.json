@@ -1,0 +1,444 @@
+{
+  "title": "Software Architect",
+  "topics": [
+    {
+      "title": "Understand the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Software Architecture"
+        },
+        {
+          "title": "What is a Software Architect"
+        },
+        {
+          "title": "Software Architect",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Design & Architecture"
+            },
+            {
+              "title": "Decision Making"
+            },
+            {
+              "title": "Simplifying Things"
+            }
+          ]
+        },
+        {
+          "title": "Levels of Architecture",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Application Architecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Responsibilities",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Solution Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Important Skills to Learn",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "How to Code"
+        },
+        {
+          "title": "Documentation"
+        },
+        {
+          "title": "Communication"
+        },
+        {
+          "title": "Estimate and Evaluate"
+        },
+        {
+          "title": "Balance"
+        },
+        {
+          "title": "Consult & Coach"
+        }
+      ]
+    },
+    {
+      "title": "Programming Languages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Enterprise Architecture"
+        },
+        {
+          "title": "Java / Kotlin / Scala / Swift"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Ruby"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "JavaScript / TypeScript"
+        },
+        {
+          "title": ".NET Framework Based"
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
+        }
+      ]
+    },
+    {
+      "title": "Patterns & Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "MVC, MVP, MVVM"
+        },
+        {
+          "title": "CQRS, Eventual Consistency"
+        },
+        {
+          "title": "OOP"
+        },
+        {
+          "title": "Actors"
+        },
+        {
+          "title": "ACID, CAP Theorem"
+        },
+        {
+          "title": "SOLID"
+        },
+        {
+          "title": "TDD"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        },
+        {
+          "title": "Slack"
+        },
+        {
+          "title": "Trello"
+        },
+        {
+          "title": "Atlassian Tools"
+        }
+      ]
+    },
+    {
+      "title": "Tools (2)"
+    },
+    {
+      "title": "Architecture",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Microservices"
+        },
+        {
+          "title": "Serverless"
+        },
+        {
+          "title": "DDD"
+        },
+        {
+          "title": "Client / Server"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Marketing Skills"
+        },
+        {
+          "title": "Hashing Algorithms"
+        },
+        {
+          "title": "PKI"
+        },
+        {
+          "title": "OWASP"
+        },
+        {
+          "title": "Auth Strategies"
+        }
+      ]
+    },
+    {
+      "title": "Working with Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hadoop, Spark, MapReduce"
+        },
+        {
+          "title": "ETL, Datawarehouses"
+        },
+        {
+          "title": "SQL Databases"
+        },
+        {
+          "title": "NoSQL Databases"
+        }
+      ]
+    },
+    {
+      "title": "Web, Mobile",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Layered"
+        },
+        {
+          "title": "Reactive Programming"
+        },
+        {
+          "title": "Distributed Systems"
+        },
+        {
+          "title": "Functional Programming"
+        },
+        {
+          "title": "Service Oriented"
+        },
+        {
+          "title": "React, Vue, Angular"
+        },
+        {
+          "title": "SPA, SSR, SSG"
+        },
+        {
+          "title": "Microfrontends"
+        },
+        {
+          "title": "W3C and WHATWG"
+        }
+      ]
+    },
+    {
+      "title": "APIs & Integrations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Analytics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache Spark"
+            },
+            {
+              "title": "Hadoop"
+            },
+            {
+              "title": "Datawarehouse Principles"
+            }
+          ]
+        },
+        {
+          "title": "gRPC"
+        },
+        {
+          "title": "ESB, SOAP"
+        },
+        {
+          "title": "GraphQL"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "REST"
+        },
+        {
+          "title": "BABOK"
+        },
+        {
+          "title": "IAF"
+        }
+      ]
+    },
+    {
+      "title": "Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PMI"
+        },
+        {
+          "title": "ITIL"
+        },
+        {
+          "title": "RUP"
+        },
+        {
+          "title": "Prince2"
+        },
+        {
+          "title": "Certifications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LeSS"
+            },
+            {
+              "title": "SaFE"
+            },
+            {
+              "title": "XP"
+            },
+            {
+              "title": "Kanban"
+            },
+            {
+              "title": "Scrum"
+            }
+          ]
+        },
+        {
+          "title": "Agile Model",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "EMC DMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Networks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UML"
+        },
+        {
+          "title": "TOGAF"
+        },
+        {
+          "title": "OSI"
+        },
+        {
+          "title": "TCP/IP Model"
+        },
+        {
+          "title": "HTTP, HTTPS"
+        },
+        {
+          "title": "Proxies"
+        }
+      ]
+    },
+    {
+      "title": "Operations Knowledge",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "BPM, BPEL"
+        },
+        {
+          "title": "Infrastructure as Code"
+        },
+        {
+          "title": "Messaging Queues"
+        },
+        {
+          "title": "Cloud Providers"
+        },
+        {
+          "title": "Serverless Concepts"
+        },
+        {
+          "title": "Linux / Unix"
+        },
+        {
+          "title": "Service Mesh"
+        },
+        {
+          "title": "CI / CD"
+        },
+        {
+          "title": "Containers"
+        },
+        {
+          "title": "Cloud Design Patterns"
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Software",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Firewalls"
+        },
+        {
+          "title": "MS Dynamics"
+        },
+        {
+          "title": "SAP ERP, HANA, Business Objects"
+        },
+        {
+          "title": "IBM BPM"
+        },
+        {
+          "title": "Salesforce"
+        }
+      ]
+    }
+  ]
+}

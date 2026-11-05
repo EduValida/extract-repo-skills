@@ -1,0 +1,598 @@
+{
+  "title": "Developer Relations",
+  "topics": [
+    {
+      "title": "What is DevRel?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Advocacy"
+        },
+        {
+          "title": "History and Evolution"
+        },
+        {
+          "title": "Education"
+        },
+        {
+          "title": "Importance of DevRel"
+        },
+        {
+          "title": "Community Support"
+        },
+        {
+          "title": "Content Creation"
+        },
+        {
+          "title": "Feedback Loop"
+        }
+      ]
+    },
+    {
+      "title": "Public Speaking"
+    },
+    {
+      "title": "Presentation Techniques",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Key Responsibilities",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Rules of Three"
+            },
+            {
+              "title": "PechaKucha"
+            },
+            {
+              "title": "Storytelling"
+            },
+            {
+              "title": "Mind Mapping"
+            },
+            {
+              "title": "Visualization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Writing Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Communication Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Technical Documentation"
+            },
+            {
+              "title": "Blog Posts"
+            }
+          ]
+        },
+        {
+          "title": "Social Media"
+        }
+      ]
+    },
+    {
+      "title": "Basic Programming Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Developer Experience"
+        },
+        {
+          "title": "Developer Journey"
+        },
+        {
+          "title": "Developer Marketing"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Networking"
+        },
+        {
+          "title": "Online Communities"
+        }
+      ]
+    },
+    {
+      "title": "IDEs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Technical Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VS Code"
+            }
+          ]
+        },
+        {
+          "title": "JetBrains IDEs"
+        },
+        {
+          "title": "Managing Discussions"
+        },
+        {
+          "title": "Issues & Pull Requests"
+        }
+      ]
+    },
+    {
+      "title": "Engaging Audience",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "The Hook"
+        },
+        {
+          "title": "Contrast Principle"
+        }
+      ]
+    },
+    {
+      "title": "APIs & SDKs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Event Participation"
+        },
+        {
+          "title": "Understanding APIs"
+        },
+        {
+          "title": "Building SDKs"
+        },
+        {
+          "title": "Writing Documentation"
+        }
+      ]
+    },
+    {
+      "title": "Handling Q&A",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Handouts"
+        },
+        {
+          "title": "Repetition & Reinforcement"
+        },
+        {
+          "title": "Active Listening"
+        },
+        {
+          "title": "Anticipate Questions"
+        },
+        {
+          "title": "Be Concise"
+        },
+        {
+          "title": "Managing Difficult Questions"
+        }
+      ]
+    },
+    {
+      "title": "Version Control",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Labelling and Cleanup"
+        },
+        {
+          "title": "Milestones & Releases"
+        },
+        {
+          "title": "Public Backlog"
+        },
+        {
+          "title": "Git"
+        },
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Code of Conduct"
+        },
+        {
+          "title": "Rules and Policies"
+        }
+      ]
+    },
+    {
+      "title": "Building a Community",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Community Building",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Feedback Collection"
+            },
+            {
+              "title": "Surveys"
+            },
+            {
+              "title": "Post Event Followup"
+            },
+            {
+              "title": "Execution"
+            },
+            {
+              "title": "Promotion"
+            }
+          ]
+        },
+        {
+          "title": "Identifying Audience"
+        },
+        {
+          "title": "Platform Selection"
+        },
+        {
+          "title": "Initial Outreach"
+        },
+        {
+          "title": "Community Guidelines"
+        }
+      ]
+    },
+    {
+      "title": "Community Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Recognition Programs"
+        },
+        {
+          "title": "Encouraging Participation"
+        },
+        {
+          "title": "Conflict Resolution"
+        },
+        {
+          "title": "Moderation"
+        },
+        {
+          "title": "Technical Setup"
+        },
+        {
+          "title": "Video"
+        },
+        {
+          "title": "Audio"
+        }
+      ]
+    },
+    {
+      "title": "Event Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Planning"
+        },
+        {
+          "title": "Animations & Graphics"
+        },
+        {
+          "title": "Editing"
+        }
+      ]
+    },
+    {
+      "title": "Blogging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Collaborations"
+        },
+        {
+          "title": "Cross-Promotion"
+        },
+        {
+          "title": "Guest Blogging"
+        },
+        {
+          "title": "SEO Basics"
+        },
+        {
+          "title": "Writing Process"
+        },
+        {
+          "title": "Topic Selection"
+        }
+      ]
+    },
+    {
+      "title": "Video Production",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Recording"
+        },
+        {
+          "title": "Scripting"
+        }
+      ]
+    },
+    {
+      "title": "Video Production (2)"
+    },
+    {
+      "title": "Live Streaming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Animations & Graphics"
+        },
+        {
+          "title": "Twitch"
+        },
+        {
+          "title": "Streamyard"
+        },
+        {
+          "title": "YouTube"
+        },
+        {
+          "title": "X"
+        },
+        {
+          "title": "Platform Selection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Facebook"
+            },
+            {
+              "title": "Instagram"
+            },
+            {
+              "title": "LinkedIn"
+            },
+            {
+              "title": "X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Documentation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tutorials"
+        },
+        {
+          "title": "API References"
+        },
+        {
+          "title": "User Guides"
+        }
+      ]
+    },
+    {
+      "title": "Social Media",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Platform Selection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Content Strategy",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Consistent Posting"
+                },
+                {
+                  "title": "Engaging Content"
+                },
+                {
+                  "title": "Creating Brand Voice"
+                }
+              ]
+            },
+            {
+              "title": "Analytics and Optimization",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Tracking Engagement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sample Projects",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code Samples"
+        },
+        {
+          "title": "Example Apps"
+        },
+        {
+          "title": "Use Case Based"
+        }
+      ]
+    },
+    {
+      "title": "Support",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Content Creation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Office Hours"
+            },
+            {
+              "title": "Webinars"
+            }
+          ]
+        },
+        {
+          "title": "Developer Onboarding",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Community Growth"
+            },
+            {
+              "title": "Engagement Rates"
+            },
+            {
+              "title": "Content Performance"
+            }
+          ]
+        },
+        {
+          "title": "Forums"
+        },
+        {
+          "title": "Issue Tracking"
+        },
+        {
+          "title": "FAQs"
+        },
+        {
+          "title": "Live Support",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Regular Reports"
+            },
+            {
+              "title": "Data Visualization"
+            },
+            {
+              "title": "Insights & Recommendations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reporting"
+    },
+    {
+      "title": "Key Metrics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Developer Satisfaction"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data-Driven Strategy Shift"
+        },
+        {
+          "title": "Platform Specific Analytics"
+        },
+        {
+          "title": "Social Media Analytics"
+        },
+        {
+          "title": "Google Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Thought Leadership",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Publishing"
+        },
+        {
+          "title": "Media Appearances"
+        },
+        {
+          "title": "Conference Speaking"
+        }
+      ]
+    },
+    {
+      "title": "Building a Personal Brand"
+    },
+    {
+      "title": "Networking Strategies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Meetups"
+        },
+        {
+          "title": "Online Communities"
+        },
+        {
+          "title": "Open-Source"
+        }
+      ]
+    },
+    {
+      "title": "Continuous Learning"
+    }
+  ]
+}

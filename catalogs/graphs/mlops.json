@@ -3,7 +3,7 @@
     "slug": "mlops",
     "title": "MLOps Roadmap",
     "description": "Step by step guide to learn MLOps in 2026",
-    "extracted_at": "2026-10-29T01:04:20.297680+00:00",
+    "extracted_at": "2026-11-05T02:15:14.904509+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/mlops",
     "total_topics": 13,
     "total_subtopics": 49
@@ -40,7 +40,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/mlops/content/what-is-mlops@IghGpwAFVB067uOosmoDC.md",
-        "subtopics_count": 9,
+        "subtopics_count": 7,
         "subtopics": [
           {
             "id": "l1xasxQy2vAY34NWaqKEe",
@@ -59,7 +59,9 @@
                 "url": "https://www.moontechnolabs.com/blog/mlops-lifecycle/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/mlops-components@l1xasxQy2vAY34NWaqKEe.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/mlops-components@l1xasxQy2vAY34NWaqKEe.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kHDSwlSq8WkLey4EJIQSR",
@@ -93,7 +95,9 @@
                 "url": "https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/version-control@kHDSwlSq8WkLey4EJIQSR.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/version-control@kHDSwlSq8WkLey4EJIQSR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "a6vawajw7BpL6plH_nuAz",
@@ -117,7 +121,9 @@
                 "url": "https://www.youtube.com/watch?v=42UP1fxi2SY"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/cicd@a6vawajw7BpL6plH_nuAz.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/cicd@a6vawajw7BpL6plH_nuAz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fes7M--Y8i08_zeP98tVV",
@@ -141,7 +147,9 @@
                 "url": "https://www.youtube.com/watch?v=iyw9puEmTrA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/orchestration@fes7M--Y8i08_zeP98tVV.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/orchestration@fes7M--Y8i08_zeP98tVV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fGGWKmAJ50Ke6wWJBEgby",
@@ -160,7 +168,9 @@
                 "url": "https://mlflow.org/docs/latest/model-registry.html"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/experiment-tracking@fGGWKmAJ50Ke6wWJBEgby.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/experiment-tracking@fGGWKmAJ50Ke6wWJBEgby.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6XgP_2NLuiw654zvTyueT",
@@ -179,7 +189,9 @@
                 "url": "https://www.snowflake.com/guides/what-feature-store-machine-learning/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/data-lineage@6XgP_2NLuiw654zvTyueT.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/data-lineage@6XgP_2NLuiw654zvTyueT.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "iTsEHVCo6KGq7H2HMgy5S",
@@ -193,8 +205,21 @@
                 "url": "https://ml-ops.org/content/mlops-principles"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/mlops-principles@iTsEHVCo6KGq7H2HMgy5S.md"
-          },
+            "file_path": "developer-roadmap/roadmaps/mlops/content/mlops-principles@iTsEHVCo6KGq7H2HMgy5S.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
+      },
+      {
+        "id": "_7uvOebQUI4xaSwtMjpEd",
+        "name": "Programming Basics",
+        "type": "topic",
+        "description": "Programming fundamentals are the basic concepts needed to write and understand code, such as variables, loops, functions, and data structures. These concepts apply across languages and form the base for writing scripts, building pipelines, and automating tasks. Without them, working with any ML or data tool becomes much harder.",
+        "resources": [],
+        "file_path": "developer-roadmap/roadmaps/mlops/content/programming-basics@_7uvOebQUI4xaSwtMjpEd.md",
+        "subtopics_count": 6,
+        "subtopics": [
           {
             "id": "zsW1NRb0dMgS-KzWsI0QU",
             "name": "Model Training & Serving",
@@ -222,71 +247,9 @@
                 "url": "https://www.youtube.com/watch?v=jcgaNrC4ElU&t=172s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/model-training--serving@zsW1NRb0dMgS-KzWsI0QU.md"
-          },
-          {
-            "id": "r4fbUwD83uYumEO1X8f09",
-            "name": "Monitoring & Observability",
-            "type": "subtopic",
-            "description": "Monitoring and observability track how a system behaves once it is running, using metrics, logs, and alerts. For ML systems, this also means watching model accuracy over time, since predictions can degrade as real-world data shifts away from the training data. Catching this early lets teams retrain or fix a model before it causes bigger problems.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "ML Monitoring vs ML Observability",
-                "url": "https://medium.com/marvelous-mlops/ml-monitoring-vs-ml-observability-understanding-the-differences-fff574a8974f"
-              },
-              {
-                "type": "article",
-                "title": "Building a Robust Data Observability Framework to Ensure Data Quality and Integrity",
-                "url": "https://towardsdatascience.com/building-a-robust-data-observability-framework-to-ensure-data-quality-and-integrity-07ff6cffdf69/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
-              },
-              {
-                "type": "video",
-                "title": "ML Observability vs ML Monitoring: What's the difference?",
-                "url": "https://www.youtube.com/watch?v=k1Reed3QIYE"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/monitoring--observability@r4fbUwD83uYumEO1X8f09.md"
-          }
-        ]
-      },
-      {
-        "id": "_7uvOebQUI4xaSwtMjpEd",
-        "name": "Programming Basics",
-        "type": "topic",
-        "description": "Programming fundamentals are the basic concepts needed to write and understand code, such as variables, loops, functions, and data structures. These concepts apply across languages and form the base for writing scripts, building pipelines, and automating tasks. Without them, working with any ML or data tool becomes much harder.",
-        "resources": [],
-        "file_path": "developer-roadmap/roadmaps/mlops/content/programming-basics@_7uvOebQUI4xaSwtMjpEd.md",
-        "subtopics_count": 4,
-        "subtopics": [
-          {
-            "id": "Vh81GnOUOZvDOlOyI5PwT",
-            "name": "Python",
-            "type": "subtopic",
-            "description": "Python is a widely used programming language known for its clear syntax and extensive libraries. It's a versatile tool that can handle many tasks, from simple scripting to complex software development. Its ease of use and the availability of specialized libraries for data analysis, machine learning, and automation make it a popular choice for building and deploying machine learning systems.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit Dedicated Python Roadmap",
-                "url": "https://roadmap.sh/python"
-              },
-              {
-                "type": "official",
-                "title": "Python",
-                "url": "https://www.python.org/"
-              },
-              {
-                "type": "article",
-                "title": "Real Python",
-                "url": "https://realpython.com/"
-              },
-              {
-                "type": "article",
-                "title": "Automate the Boring Stuff with Python",
-                "url": "https://automatetheboringstuff.com/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/python@Vh81GnOUOZvDOlOyI5PwT.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/model-training--serving@zsW1NRb0dMgS-KzWsI0QU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "mMzqJF2KQ49TDEk5F3VAI",
@@ -315,7 +278,102 @@
                 "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/bash@mMzqJF2KQ49TDEk5F3VAI.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/bash@mMzqJF2KQ49TDEk5F3VAI.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "Vh81GnOUOZvDOlOyI5PwT",
+            "name": "Python",
+            "type": "subtopic",
+            "description": "Python is a widely used programming language known for its clear syntax and extensive libraries. It's a versatile tool that can handle many tasks, from simple scripting to complex software development. Its ease of use and the availability of specialized libraries for data analysis, machine learning, and automation make it a popular choice for building and deploying machine learning systems.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit Dedicated Python Roadmap",
+                "url": "https://roadmap.sh/python"
+              },
+              {
+                "type": "official",
+                "title": "Python",
+                "url": "https://www.python.org/"
+              },
+              {
+                "type": "article",
+                "title": "Real Python",
+                "url": "https://realpython.com/"
+              },
+              {
+                "type": "article",
+                "title": "Automate the Boring Stuff with Python",
+                "url": "https://automatetheboringstuff.com/"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/mlops/content/python@Vh81GnOUOZvDOlOyI5PwT.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "r4fbUwD83uYumEO1X8f09",
+            "name": "Monitoring & Observability",
+            "type": "subtopic",
+            "description": "Monitoring and observability track how a system behaves once it is running, using metrics, logs, and alerts. For ML systems, this also means watching model accuracy over time, since predictions can degrade as real-world data shifts away from the training data. Catching this early lets teams retrain or fix a model before it causes bigger problems.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "ML Monitoring vs ML Observability",
+                "url": "https://medium.com/marvelous-mlops/ml-monitoring-vs-ml-observability-understanding-the-differences-fff574a8974f"
+              },
+              {
+                "type": "article",
+                "title": "Building a Robust Data Observability Framework to Ensure Data Quality and Integrity",
+                "url": "https://towardsdatascience.com/building-a-robust-data-observability-framework-to-ensure-data-quality-and-integrity-07ff6cffdf69/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+              },
+              {
+                "type": "video",
+                "title": "ML Observability vs ML Monitoring: What's the difference?",
+                "url": "https://www.youtube.com/watch?v=k1Reed3QIYE"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/mlops/content/monitoring--observability@r4fbUwD83uYumEO1X8f09.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "51x_5z0pHTE_yZoyvFUBy",
+            "name": "SQL",
+            "type": "subtopic",
+            "description": "SQL, or Structured Query Language, is a standard language for managing and manipulating data held in relational database management systems (RDBMS). It allows users to define, access, and control data, enabling operations like creating databases, inserting, updating, deleting, and retrieving data based on specific criteria. SQL provides a structured way to interact with databases, ensuring data integrity and consistency.",
+            "resources": [
+              {
+                "type": "course",
+                "title": "Premium SQL Course - Roadmap",
+                "url": "https://roadmap.sh/courses/sql"
+              },
+              {
+                "type": "official",
+                "title": "Visit the Dedicated SQL Roadmap",
+                "url": "https://roadmap.sh/sql"
+              },
+              {
+                "type": "article",
+                "title": "SQL Tutorial",
+                "url": "https://www.w3schools.com/sql/"
+              },
+              {
+                "type": "article",
+                "title": "How I Learned SQL In 2 Weeks (From Scratch)",
+                "url": "https://towardsdatascience.com/how-i-learned-sql-in-2-weeks-from-scratch-b78040f4e2c1/"
+              },
+              {
+                "type": "video",
+                "title": "Full SQL Crash Course - Learn SQL in 90 Minutes",
+                "url": "https://www.youtube.com/watch?v=7cIG41gjHB4"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/mlops/content/sql@51x_5z0pHTE_yZoyvFUBy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "vdVq3RQvQF3mF8PQc6DMg",
@@ -354,41 +412,9 @@
                 "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/go@vdVq3RQvQF3mF8PQc6DMg.md"
-          },
-          {
-            "id": "51x_5z0pHTE_yZoyvFUBy",
-            "name": "SQL",
-            "type": "subtopic",
-            "description": "SQL, or Structured Query Language, is a standard language for managing and manipulating data held in relational database management systems (RDBMS). It allows users to define, access, and control data, enabling operations like creating databases, inserting, updating, deleting, and retrieving data based on specific criteria. SQL provides a structured way to interact with databases, ensuring data integrity and consistency.",
-            "resources": [
-              {
-                "type": "course",
-                "title": "Premium SQL Course - Roadmap",
-                "url": "https://roadmap.sh/courses/sql"
-              },
-              {
-                "type": "official",
-                "title": "Visit the Dedicated SQL Roadmap",
-                "url": "https://roadmap.sh/sql"
-              },
-              {
-                "type": "article",
-                "title": "SQL Tutorial",
-                "url": "https://www.w3schools.com/sql/"
-              },
-              {
-                "type": "article",
-                "title": "How I Learned SQL In 2 Weeks (From Scratch)",
-                "url": "https://towardsdatascience.com/how-i-learned-sql-in-2-weeks-from-scratch-b78040f4e2c1/"
-              },
-              {
-                "type": "video",
-                "title": "Full SQL Crash Course - Learn SQL in 90 Minutes",
-                "url": "https://www.youtube.com/watch?v=7cIG41gjHB4"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/sql@51x_5z0pHTE_yZoyvFUBy.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/go@vdVq3RQvQF3mF8PQc6DMg.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -454,7 +480,9 @@
                 "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/git@06T5CbZAGJU6fJhCmqCC8.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/git@06T5CbZAGJU6fJhCmqCC8.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7t7jSb3YgyWlhgCe8Se1I",
@@ -488,7 +516,9 @@
                 "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/github@7t7jSb3YgyWlhgCe8Se1I.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/github@7t7jSb3YgyWlhgCe8Se1I.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qLKM1zGUhuyBwh_uXSyJJ",
@@ -522,7 +552,9 @@
                 "url": "https://www.youtube.com/watch?v=kLKBcPonMYw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/dvc@qLKM1zGUhuyBwh_uXSyJJ.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/dvc@qLKM1zGUhuyBwh_uXSyJJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -583,7 +615,9 @@
                 "url": "https://www.youtube.com/watch?v=bnF7f1zGpo4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/gitlab@mu56TlVkhhgVzzESDRobc.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/gitlab@mu56TlVkhhgVzzESDRobc.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "75mlW2JoUqSNFK2IDfqFP",
@@ -617,7 +651,9 @@
                 "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/jenkins@75mlW2JoUqSNFK2IDfqFP.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/jenkins@75mlW2JoUqSNFK2IDfqFP.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "SCn-6w1UEQwoLQ_dOPpL5",
@@ -646,7 +682,9 @@
                 "url": "https://www.youtube.com/watch?v=nyKZTKQS_EQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/github-actions@SCn-6w1UEQwoLQ_dOPpL5.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/github-actions@SCn-6w1UEQwoLQ_dOPpL5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MLob7b468ZgNX7-cURqmJ",
@@ -670,7 +708,9 @@
                 "url": "https://towardsdatascience.com/continuous-machine-learning-e1ffb847b8da/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/cml@MLob7b468ZgNX7-cURqmJ.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/cml@MLob7b468ZgNX7-cURqmJ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -756,7 +796,9 @@
                 "url": "https://www.youtube.com/watch?v=xxpc-HPKN28"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/maths--statistics@C4KbkZ7c8TspXa3RBOCug.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/maths--statistics@C4KbkZ7c8TspXa3RBOCug.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "6uGYeXZn5fW2qPfSb8GJb",
@@ -790,7 +832,9 @@
                 "url": "https://www.youtube.com/watch?v=PtYRUoJRE9s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/machine-learning@6uGYeXZn5fW2qPfSb8GJb.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/machine-learning@6uGYeXZn5fW2qPfSb8GJb.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "1kk8KDWH-LrPt8SjkpTcX",
@@ -824,7 +868,9 @@
                 "url": "https://www.youtube.com/watch?v=aircAruvnKk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/deep-learning@1kk8KDWH-LrPt8SjkpTcX.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/deep-learning@1kk8KDWH-LrPt8SjkpTcX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "T-pybEZVvvXopCTbDykR-",
@@ -858,7 +904,9 @@
                 "url": "https://www.youtube.com/watch?v=0B5eIE_1vpU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/scikit-learn@T-pybEZVvvXopCTbDykR-.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/scikit-learn@T-pybEZVvvXopCTbDykR-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "so5IQDxKibaZlgoCh8tpQ",
@@ -892,7 +940,9 @@
                 "url": "https://www.youtube.com/watch?v=VtRLrQ3Ev-U"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/tensorflow@so5IQDxKibaZlgoCh8tpQ.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/tensorflow@so5IQDxKibaZlgoCh8tpQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "nS4igSghzVFwamhVOwCjm",
@@ -921,7 +971,9 @@
                 "url": "https://www.youtube.com/watch?v=LbX4X71-TFI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/model-evaluation@nS4igSghzVFwamhVOwCjm.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/model-evaluation@nS4igSghzVFwamhVOwCjm.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Zh7AfH6hJ6MMXiqSnQn7G",
@@ -960,7 +1012,9 @@
                 "url": "https://www.youtube.com/watch?v=V_xro1bcAuA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/pytorch@Zh7AfH6hJ6MMXiqSnQn7G.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/pytorch@Zh7AfH6hJ6MMXiqSnQn7G.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "93MPXEulKgPnuRlp7F-Nj",
@@ -1004,7 +1058,9 @@
                 "url": "https://www.youtube.com/watch?v=5pPflDSdFLg&list=PLQqR_3C2fhUUOmaeowgv4WquvH515zVmo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/mlflow@93MPXEulKgPnuRlp7F-Nj.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/mlflow@93MPXEulKgPnuRlp7F-Nj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1080,7 +1136,9 @@
                 "url": "https://www.youtube.com/watch?v=fp9_ubiKqFU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/cloud-native-ml-services@kbfucfIO5KCsuv3jKbHTa.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/cloud-native-ml-services@kbfucfIO5KCsuv3jKbHTa.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "u3E7FGW4Iwdsu61KYFxCX",
@@ -1109,7 +1167,9 @@
                 "url": "https://cloud.google.com/training"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/aws--azure--gcp@u3E7FGW4Iwdsu61KYFxCX.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/aws--azure--gcp@u3E7FGW4Iwdsu61KYFxCX.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1175,7 +1235,9 @@
                 "url": "https://youtu.be/vP_4DlOH1G4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/docker@XIdCvT-4HyyglHJLRrHlz.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/docker@XIdCvT-4HyyglHJLRrHlz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "XQoK9l-xtN2J8ZV8dw53X",
@@ -1209,7 +1271,9 @@
                 "url": "https://www.youtube.com/watch?v=s_o8dwzRlu4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/kubernetes@XQoK9l-xtN2J8ZV8dw53X.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/kubernetes@XQoK9l-xtN2J8ZV8dw53X.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1270,7 +1334,9 @@
                 "url": "https://www.youtube.com/watch?v=oKixNpz6jNo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/data-pipelines@cOg3ejZRYE-u-M0c89IjM.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/data-pipelines@cOg3ejZRYE-u-M0c89IjM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wOogVDV4FIDLXVPwFqJ8C",
@@ -1304,7 +1370,9 @@
                 "url": "https://www.youtube.com/watch?v=w9-WoReNKHk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/data-lakes--warehouses@wOogVDV4FIDLXVPwFqJ8C.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/data-lakes--warehouses@wOogVDV4FIDLXVPwFqJ8C.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "UljuqA89_SlCSDWWMD_C_",
@@ -1338,7 +1406,9 @@
                 "url": "https://www.youtube.com/watch?v=iXVIPQEGZ9Y"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/spark@UljuqA89_SlCSDWWMD_C_.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/spark@UljuqA89_SlCSDWWMD_C_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Berd78HvnulNEGOsHCf8n",
@@ -1367,7 +1437,9 @@
                 "url": "https://www.youtube.com/watch?v=kGT4PcTEPP8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/data-ingestion-arch@Berd78HvnulNEGOsHCf8n.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/data-ingestion-arch@Berd78HvnulNEGOsHCf8n.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "fMNwzhgLgHlAZJ9NvKikR",
@@ -1396,7 +1468,9 @@
                 "url": "https://www.youtube.com/watch?v=B5j3uNBH8X4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/kafka@fMNwzhgLgHlAZJ9NvKikR.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/kafka@fMNwzhgLgHlAZJ9NvKikR.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "o6GQ3-8DgDtHzdX6yeg1w",
@@ -1425,7 +1499,9 @@
                 "url": "https://www.youtube.com/watch?v=3cg5dABA6mo&list=PLa7VYi0yPIH1UdmQcnUr8lvjbUV8JriK0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/flink@o6GQ3-8DgDtHzdX6yeg1w.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/flink@o6GQ3-8DgDtHzdX6yeg1w.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1491,7 +1567,9 @@
                 "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/terraform@dA9AE-3lTB6lN-X-_Byd2.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/terraform@dA9AE-3lTB6lN-X-_Byd2.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-_obgPIUaZ4BVpg29xG_9",
@@ -1525,13 +1603,15 @@
                 "url": "https://www.youtube.com/watch?v=GROqwFFLl3s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/ansible@-_obgPIUaZ4BVpg29xG_9.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/ansible@-_obgPIUaZ4BVpg29xG_9.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
       {
         "id": "5VuCUCfb4DEi0HKW11PIX",
-        "name": "Orchestration ",
+        "name": "Orchestration",
         "type": "topic",
         "description": "Orchestration and deployment involve automating the process of taking a trained machine learning model and making it available for use in a production environment. This includes managing the workflow of model building, testing, and releasing, as well as handling the infrastructure needed to serve the model and scale it to meet demand. It ensures that models are reliably and efficiently integrated into applications and systems.",
         "resources": [
@@ -1549,45 +1629,6 @@
         "file_path": "developer-roadmap/roadmaps/mlops/content/orchestration--deployment@5VuCUCfb4DEi0HKW11PIX.md",
         "subtopics_count": 2,
         "subtopics": [
-          {
-            "id": "QEayqA8zYsJn0rQYz-4zv",
-            "name": "KubeFlow",
-            "type": "subtopic",
-            "description": "Kubeflow is an open-source machine learning platform designed to simplify the deployment and management of ML workflows on Kubernetes. It provides tools and components for building, training, and deploying machine learning models, allowing users to create portable and scalable ML pipelines. Kubeflow aims to make it easier for data scientists and engineers to leverage Kubernetes for their machine learning projects, handling tasks like resource management, model serving, and pipeline orchestration.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Kubeflow",
-                "url": "https://www.kubeflow.org/"
-              },
-              {
-                "type": "opensource",
-                "title": "kubeflow",
-                "url": "https://github.com/kubeflow/kubeflow"
-              },
-              {
-                "type": "article",
-                "title": "What is Kubeflow?",
-                "url": "https://cloud.google.com/discover/what-is-kubeflow?hl=en"
-              },
-              {
-                "type": "article",
-                "title": "Tutorial – Basic Kubeflow Pipeline From Scratch",
-                "url": "https://towardsdatascience.com/tutorial-basic-kubeflow-pipeline-from-scratch-5f0350dc1905/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
-              },
-              {
-                "type": "video",
-                "title": "Kubeflow Explained for Beginners",
-                "url": "https://www.youtube.com/watch?v=hvzEPlRdJ2Q"
-              },
-              {
-                "type": "video",
-                "title": "Intro to Kubeflow Pipelines",
-                "url": "https://www.youtube.com/watch?v=_AY8mmbR1o4&list=PLIivdWyY5sqLS4lN75RPDEyBgTro_YX7x"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/kubeflow@QEayqA8zYsJn0rQYz-4zv.md"
-          },
           {
             "id": "AjZHJcxUY29WZbCvr3zrs",
             "name": "Airflow",
@@ -1625,7 +1666,50 @@
                 "url": "https://www.youtube.com/watch?v=y5rYZLBZ_Fw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/airflow@AjZHJcxUY29WZbCvr3zrs.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/airflow@AjZHJcxUY29WZbCvr3zrs.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "QEayqA8zYsJn0rQYz-4zv",
+            "name": "KubeFlow",
+            "type": "subtopic",
+            "description": "Kubeflow is an open-source machine learning platform designed to simplify the deployment and management of ML workflows on Kubernetes. It provides tools and components for building, training, and deploying machine learning models, allowing users to create portable and scalable ML pipelines. Kubeflow aims to make it easier for data scientists and engineers to leverage Kubernetes for their machine learning projects, handling tasks like resource management, model serving, and pipeline orchestration.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "Kubeflow",
+                "url": "https://www.kubeflow.org/"
+              },
+              {
+                "type": "opensource",
+                "title": "kubeflow",
+                "url": "https://github.com/kubeflow/kubeflow"
+              },
+              {
+                "type": "article",
+                "title": "What is Kubeflow?",
+                "url": "https://cloud.google.com/discover/what-is-kubeflow?hl=en"
+              },
+              {
+                "type": "article",
+                "title": "Tutorial – Basic Kubeflow Pipeline From Scratch",
+                "url": "https://towardsdatascience.com/tutorial-basic-kubeflow-pipeline-from-scratch-5f0350dc1905/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+              },
+              {
+                "type": "video",
+                "title": "Kubeflow Explained for Beginners",
+                "url": "https://www.youtube.com/watch?v=hvzEPlRdJ2Q"
+              },
+              {
+                "type": "video",
+                "title": "Intro to Kubeflow Pipelines",
+                "url": "https://www.youtube.com/watch?v=_AY8mmbR1o4&list=PLIivdWyY5sqLS4lN75RPDEyBgTro_YX7x"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/mlops/content/kubeflow@QEayqA8zYsJn0rQYz-4zv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1686,7 +1770,9 @@
                 "url": "https://www.youtube.com/watch?v=STVMGrYIlfg&t=16s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/prometheus@EIjo6iFrU8iDm36_ZtaW5.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/prometheus@EIjo6iFrU8iDm36_ZtaW5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YmRN43yAFF97c7MgNaiqs",
@@ -1725,7 +1811,9 @@
                 "url": "https://www.youtube.com/watch?v=TQur9GJHIIQ&list=PLDGkOdUX1Ujo27m6qiTPPCpFHVfyKq9jT"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/grafana@YmRN43yAFF97c7MgNaiqs.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/grafana@YmRN43yAFF97c7MgNaiqs.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1762,7 +1850,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/mlops/content/edge-ai@w8z91Hlqm0sPligYD3VCk.md",
-        "subtopics_count": 3,
+        "subtopics_count": 2,
         "subtopics": [
           {
             "id": "qyNOEqp7hW_P7-Isz_v4o",
@@ -1791,7 +1879,9 @@
                 "url": "https://www.youtube.com/watch?v=B-2spa3UCTU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/pytorch-mobile@qyNOEqp7hW_P7-Isz_v4o.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/pytorch-mobile@qyNOEqp7hW_P7-Isz_v4o.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Wpv_zRshtTFXNqp1S7m0F",
@@ -1815,36 +1905,9 @@
                 "url": "https://www.youtube.com/watch?v=-PjMC0gyH9s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/jetson@Wpv_zRshtTFXNqp1S7m0F.md"
-          },
-          {
-            "id": "YFo3NnwVst5EBTtLR-cJ1",
-            "name": "TFLite",
-            "type": "subtopic",
-            "description": "TFLite is a lightweight version of TensorFlow, designed for running machine learning models on mobile, embedded, and IoT devices. It enables on-device inference, meaning models can be executed directly on the device without needing a network connection or relying on cloud-based processing. This reduces latency, improves privacy, and allows for offline functionality.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "TensorFlow Lite",
-                "url": "https://www.tensorflow.org/lite/guide"
-              },
-              {
-                "type": "article",
-                "title": "TensorFlow Lite Tutorial: How to Get Up and Running",
-                "url": "https://www.influxdata.com/blog/tensorflow-lite-tutorial-how-to-get-up-and-running/"
-              },
-              {
-                "type": "video",
-                "title": "TensorFlow Lite for Edge Devices - Tutorial",
-                "url": "https://www.youtube.com/watch?v=OJnaBhCixng"
-              },
-              {
-                "type": "video",
-                "title": "TensorFlow Lite in Android with Google Play services",
-                "url": "https://www.youtube.com/watch?v=SEeEsbWZog8&list=PLQY2H8rRoyvwhLghMaygIJS0_f_blnUlJ"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/tflite@YFo3NnwVst5EBTtLR-cJ1.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/jetson@Wpv_zRshtTFXNqp1S7m0F.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1876,8 +1939,65 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/mlops/content/explainable-ai@qy37ppIWDT_we-duuHwgT.md",
-        "subtopics_count": 2,
+        "subtopics_count": 3,
         "subtopics": [
+          {
+            "id": "YFo3NnwVst5EBTtLR-cJ1",
+            "name": "TFLite",
+            "type": "subtopic",
+            "description": "TFLite is a lightweight version of TensorFlow, designed for running machine learning models on mobile, embedded, and IoT devices. It enables on-device inference, meaning models can be executed directly on the device without needing a network connection or relying on cloud-based processing. This reduces latency, improves privacy, and allows for offline functionality.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "TensorFlow Lite",
+                "url": "https://www.tensorflow.org/lite/guide"
+              },
+              {
+                "type": "article",
+                "title": "TensorFlow Lite Tutorial: How to Get Up and Running",
+                "url": "https://www.influxdata.com/blog/tensorflow-lite-tutorial-how-to-get-up-and-running/"
+              },
+              {
+                "type": "video",
+                "title": "TensorFlow Lite for Edge Devices - Tutorial",
+                "url": "https://www.youtube.com/watch?v=OJnaBhCixng"
+              },
+              {
+                "type": "video",
+                "title": "TensorFlow Lite in Android with Google Play services",
+                "url": "https://www.youtube.com/watch?v=SEeEsbWZog8&list=PLQY2H8rRoyvwhLghMaygIJS0_f_blnUlJ"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/mlops/content/tflite@YFo3NnwVst5EBTtLR-cJ1.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "pVSlVHXIap0unFxLGM-lQ",
+            "name": "LIME",
+            "type": "subtopic",
+            "description": "LIME (Local Interpretable Model-agnostic Explanations) is a technique used to understand the predictions of machine learning models by approximating them locally with a more interpretable model. It focuses on explaining individual predictions by perturbing the input data around a specific instance and observing how the model's prediction changes. This allows one to identify which features are most important for that particular prediction, even if the underlying model is complex and opaque.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "lime",
+                "url": "https://github.com/marcotcr/lime"
+              },
+              {
+                "type": "article",
+                "title": "Explainable AI - Understanding and Trusting Machine Learning Models",
+                "url": "https://www.datacamp.com/tutorial/explainable-ai-understanding-and-trusting-machine-learning-models"
+              },
+              {
+                "type": "video",
+                "title": "Understanding LIME | Explainable AI",
+                "url": "https://www.youtube.com/watch?v=CYl172IwqKs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/mlops/content/lime@pVSlVHXIap0unFxLGM-lQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
           {
             "id": "JQKEWz0-vIJoLimLKvIzz",
             "name": "SHAP",
@@ -1910,31 +2030,9 @@
                 "url": "https://www.youtube.com/watch?v=MQ6fFDwjuco"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/shap@JQKEWz0-vIJoLimLKvIzz.md"
-          },
-          {
-            "id": "pVSlVHXIap0unFxLGM-lQ",
-            "name": "LIME",
-            "type": "subtopic",
-            "description": "LIME (Local Interpretable Model-agnostic Explanations) is a technique used to understand the predictions of machine learning models by approximating them locally with a more interpretable model. It focuses on explaining individual predictions by perturbing the input data around a specific instance and observing how the model's prediction changes. This allows one to identify which features are most important for that particular prediction, even if the underlying model is complex and opaque.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "lime",
-                "url": "https://github.com/marcotcr/lime"
-              },
-              {
-                "type": "article",
-                "title": "Explainable AI - Understanding and Trusting Machine Learning Models",
-                "url": "https://www.datacamp.com/tutorial/explainable-ai-understanding-and-trusting-machine-learning-models"
-              },
-              {
-                "type": "video",
-                "title": "Understanding LIME | Explainable AI",
-                "url": "https://www.youtube.com/watch?v=CYl172IwqKs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/mlops/content/lime@pVSlVHXIap0unFxLGM-lQ.md"
+            "file_path": "developer-roadmap/roadmaps/mlops/content/shap@JQKEWz0-vIJoLimLKvIzz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2117,6 +2215,13 @@
         ]
       },
       {
+        "id": "_7uvOebQUI4xaSwtMjpEd",
+        "name": "Programming Basics",
+        "type": "topic",
+        "description": "Programming fundamentals are the basic concepts needed to write and understand code, such as variables, loops, functions, and data structures. These concepts apply across languages and form the base for writing scripts, building pipelines, and automating tasks. Without them, working with any ML or data tool becomes much harder.",
+        "resources": []
+      },
+      {
         "id": "zsW1NRb0dMgS-KzWsI0QU",
         "name": "Model Training & Serving",
         "type": "subtopic",
@@ -2145,34 +2250,32 @@
         ]
       },
       {
-        "id": "r4fbUwD83uYumEO1X8f09",
-        "name": "Monitoring & Observability",
+        "id": "mMzqJF2KQ49TDEk5F3VAI",
+        "name": "Bash",
         "type": "subtopic",
-        "description": "Monitoring and observability track how a system behaves once it is running, using metrics, logs, and alerts. For ML systems, this also means watching model accuracy over time, since predictions can degrade as real-world data shifts away from the training data. Catching this early lets teams retrain or fix a model before it causes bigger problems.",
+        "description": "Bash (Bourne Again Shell) is a Unix shell and command language used for interacting with the operating system through a terminal. It allows users to execute commands, automate tasks via scripting, and manage system operations. As the default shell for many Linux distributions, it supports command-line utilities, file manipulation, process control, and text processing. Bash scripts can include loops, conditionals, and functions, making it a powerful tool for system administration, automation, and task scheduling.",
         "resources": [
           {
-            "type": "article",
-            "title": "ML Monitoring vs ML Observability",
-            "url": "https://medium.com/marvelous-mlops/ml-monitoring-vs-ml-observability-understanding-the-differences-fff574a8974f"
+            "type": "roadmap",
+            "title": "Visit the Dedicated Shell-Bash Roadmap",
+            "url": "https://roadmap.sh/shell-bash"
+          },
+          {
+            "type": "opensource",
+            "title": "bash-guide",
+            "url": "https://github.com/Idnan/bash-guide"
           },
           {
             "type": "article",
-            "title": "Building a Robust Data Observability Framework to Ensure Data Quality and Integrity",
-            "url": "https://towardsdatascience.com/building-a-robust-data-observability-framework-to-ensure-data-quality-and-integrity-07ff6cffdf69/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+            "title": "Bash Reference Manual",
+            "url": "https://www.gnu.org/software/bash/manual/bashref.html"
           },
           {
             "type": "video",
-            "title": "ML Observability vs ML Monitoring: What's the difference?",
-            "url": "https://www.youtube.com/watch?v=k1Reed3QIYE"
+            "title": "Bash Scripting Course",
+            "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4"
           }
         ]
-      },
-      {
-        "id": "_7uvOebQUI4xaSwtMjpEd",
-        "name": "Programming Basics",
-        "type": "topic",
-        "description": "Programming fundamentals are the basic concepts needed to write and understand code, such as variables, loops, functions, and data structures. These concepts apply across languages and form the base for writing scripts, building pipelines, and automating tasks. Without them, working with any ML or data tool becomes much harder.",
-        "resources": []
       },
       {
         "id": "Vh81GnOUOZvDOlOyI5PwT",
@@ -2203,30 +2306,58 @@
         ]
       },
       {
-        "id": "mMzqJF2KQ49TDEk5F3VAI",
-        "name": "Bash",
+        "id": "r4fbUwD83uYumEO1X8f09",
+        "name": "Monitoring & Observability",
         "type": "subtopic",
-        "description": "Bash (Bourne Again Shell) is a Unix shell and command language used for interacting with the operating system through a terminal. It allows users to execute commands, automate tasks via scripting, and manage system operations. As the default shell for many Linux distributions, it supports command-line utilities, file manipulation, process control, and text processing. Bash scripts can include loops, conditionals, and functions, making it a powerful tool for system administration, automation, and task scheduling.",
+        "description": "Monitoring and observability track how a system behaves once it is running, using metrics, logs, and alerts. For ML systems, this also means watching model accuracy over time, since predictions can degrade as real-world data shifts away from the training data. Catching this early lets teams retrain or fix a model before it causes bigger problems.",
         "resources": [
           {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Shell-Bash Roadmap",
-            "url": "https://roadmap.sh/shell-bash"
-          },
-          {
-            "type": "opensource",
-            "title": "bash-guide",
-            "url": "https://github.com/Idnan/bash-guide"
+            "type": "article",
+            "title": "ML Monitoring vs ML Observability",
+            "url": "https://medium.com/marvelous-mlops/ml-monitoring-vs-ml-observability-understanding-the-differences-fff574a8974f"
           },
           {
             "type": "article",
-            "title": "Bash Reference Manual",
-            "url": "https://www.gnu.org/software/bash/manual/bashref.html"
+            "title": "Building a Robust Data Observability Framework to Ensure Data Quality and Integrity",
+            "url": "https://towardsdatascience.com/building-a-robust-data-observability-framework-to-ensure-data-quality-and-integrity-07ff6cffdf69/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
           },
           {
             "type": "video",
-            "title": "Bash Scripting Course",
-            "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4"
+            "title": "ML Observability vs ML Monitoring: What's the difference?",
+            "url": "https://www.youtube.com/watch?v=k1Reed3QIYE"
+          }
+        ]
+      },
+      {
+        "id": "51x_5z0pHTE_yZoyvFUBy",
+        "name": "SQL",
+        "type": "subtopic",
+        "description": "SQL, or Structured Query Language, is a standard language for managing and manipulating data held in relational database management systems (RDBMS). It allows users to define, access, and control data, enabling operations like creating databases, inserting, updating, deleting, and retrieving data based on specific criteria. SQL provides a structured way to interact with databases, ensuring data integrity and consistency.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Premium SQL Course - Roadmap",
+            "url": "https://roadmap.sh/courses/sql"
+          },
+          {
+            "type": "official",
+            "title": "Visit the Dedicated SQL Roadmap",
+            "url": "https://roadmap.sh/sql"
+          },
+          {
+            "type": "article",
+            "title": "SQL Tutorial",
+            "url": "https://www.w3schools.com/sql/"
+          },
+          {
+            "type": "article",
+            "title": "How I Learned SQL In 2 Weeks (From Scratch)",
+            "url": "https://towardsdatascience.com/how-i-learned-sql-in-2-weeks-from-scratch-b78040f4e2c1/"
+          },
+          {
+            "type": "video",
+            "title": "Full SQL Crash Course - Learn SQL in 90 Minutes",
+            "url": "https://www.youtube.com/watch?v=7cIG41gjHB4"
           }
         ]
       },
@@ -2265,39 +2396,6 @@
             "type": "video",
             "title": "Go Programming Course",
             "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
-          }
-        ]
-      },
-      {
-        "id": "51x_5z0pHTE_yZoyvFUBy",
-        "name": "SQL",
-        "type": "subtopic",
-        "description": "SQL, or Structured Query Language, is a standard language for managing and manipulating data held in relational database management systems (RDBMS). It allows users to define, access, and control data, enabling operations like creating databases, inserting, updating, deleting, and retrieving data based on specific criteria. SQL provides a structured way to interact with databases, ensuring data integrity and consistency.",
-        "resources": [
-          {
-            "type": "course",
-            "title": "Premium SQL Course - Roadmap",
-            "url": "https://roadmap.sh/courses/sql"
-          },
-          {
-            "type": "official",
-            "title": "Visit the Dedicated SQL Roadmap",
-            "url": "https://roadmap.sh/sql"
-          },
-          {
-            "type": "article",
-            "title": "SQL Tutorial",
-            "url": "https://www.w3schools.com/sql/"
-          },
-          {
-            "type": "article",
-            "title": "How I Learned SQL In 2 Weeks (From Scratch)",
-            "url": "https://towardsdatascience.com/how-i-learned-sql-in-2-weeks-from-scratch-b78040f4e2c1/"
-          },
-          {
-            "type": "video",
-            "title": "Full SQL Crash Course - Learn SQL in 90 Minutes",
-            "url": "https://www.youtube.com/watch?v=7cIG41gjHB4"
           }
         ]
       },
@@ -3385,7 +3483,7 @@
       },
       {
         "id": "5VuCUCfb4DEi0HKW11PIX",
-        "name": "Orchestration ",
+        "name": "Orchestration",
         "type": "topic",
         "description": "Orchestration and deployment involve automating the process of taking a trained machine learning model and making it available for use in a production environment. This includes managing the workflow of model building, testing, and releasing, as well as handling the infrastructure needed to serve the model and scale it to meet demand. It ensures that models are reliably and efficiently integrated into applications and systems.",
         "resources": [
@@ -3398,44 +3496,6 @@
             "type": "video",
             "title": "What is Data Orchestration?",
             "url": "https://www.youtube.com/watch?v=iyw9puEmTrA"
-          }
-        ]
-      },
-      {
-        "id": "QEayqA8zYsJn0rQYz-4zv",
-        "name": "KubeFlow",
-        "type": "subtopic",
-        "description": "Kubeflow is an open-source machine learning platform designed to simplify the deployment and management of ML workflows on Kubernetes. It provides tools and components for building, training, and deploying machine learning models, allowing users to create portable and scalable ML pipelines. Kubeflow aims to make it easier for data scientists and engineers to leverage Kubernetes for their machine learning projects, handling tasks like resource management, model serving, and pipeline orchestration.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Kubeflow",
-            "url": "https://www.kubeflow.org/"
-          },
-          {
-            "type": "opensource",
-            "title": "kubeflow",
-            "url": "https://github.com/kubeflow/kubeflow"
-          },
-          {
-            "type": "article",
-            "title": "What is Kubeflow?",
-            "url": "https://cloud.google.com/discover/what-is-kubeflow?hl=en"
-          },
-          {
-            "type": "article",
-            "title": "Tutorial – Basic Kubeflow Pipeline From Scratch",
-            "url": "https://towardsdatascience.com/tutorial-basic-kubeflow-pipeline-from-scratch-5f0350dc1905/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
-          },
-          {
-            "type": "video",
-            "title": "Kubeflow Explained for Beginners",
-            "url": "https://www.youtube.com/watch?v=hvzEPlRdJ2Q"
-          },
-          {
-            "type": "video",
-            "title": "Intro to Kubeflow Pipelines",
-            "url": "https://www.youtube.com/watch?v=_AY8mmbR1o4&list=PLIivdWyY5sqLS4lN75RPDEyBgTro_YX7x"
           }
         ]
       },
@@ -3474,6 +3534,44 @@
             "type": "video",
             "title": "Apache Airflow Tutorial for Data Engineers",
             "url": "https://www.youtube.com/watch?v=y5rYZLBZ_Fw"
+          }
+        ]
+      },
+      {
+        "id": "QEayqA8zYsJn0rQYz-4zv",
+        "name": "KubeFlow",
+        "type": "subtopic",
+        "description": "Kubeflow is an open-source machine learning platform designed to simplify the deployment and management of ML workflows on Kubernetes. It provides tools and components for building, training, and deploying machine learning models, allowing users to create portable and scalable ML pipelines. Kubeflow aims to make it easier for data scientists and engineers to leverage Kubernetes for their machine learning projects, handling tasks like resource management, model serving, and pipeline orchestration.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Kubeflow",
+            "url": "https://www.kubeflow.org/"
+          },
+          {
+            "type": "opensource",
+            "title": "kubeflow",
+            "url": "https://github.com/kubeflow/kubeflow"
+          },
+          {
+            "type": "article",
+            "title": "What is Kubeflow?",
+            "url": "https://cloud.google.com/discover/what-is-kubeflow?hl=en"
+          },
+          {
+            "type": "article",
+            "title": "Tutorial – Basic Kubeflow Pipeline From Scratch",
+            "url": "https://towardsdatascience.com/tutorial-basic-kubeflow-pipeline-from-scratch-5f0350dc1905/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+          },
+          {
+            "type": "video",
+            "title": "Kubeflow Explained for Beginners",
+            "url": "https://www.youtube.com/watch?v=hvzEPlRdJ2Q"
+          },
+          {
+            "type": "video",
+            "title": "Intro to Kubeflow Pipelines",
+            "url": "https://www.youtube.com/watch?v=_AY8mmbR1o4&list=PLIivdWyY5sqLS4lN75RPDEyBgTro_YX7x"
           }
         ]
       },
@@ -3656,6 +3754,34 @@
         ]
       },
       {
+        "id": "qy37ppIWDT_we-duuHwgT",
+        "name": "Explainable AI",
+        "type": "topic",
+        "description": "Explainable AI (XAI) refers to methods and techniques used to make the decisions of machine learning models understandable to humans. It aims to shed light on how a model arrives at a particular prediction, identifying the factors that influenced the outcome. This allows users to understand, trust, and effectively manage AI systems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Explainable AI (XAI)?",
+            "url": "https://www.ibm.com/think/topics/explainable-ai"
+          },
+          {
+            "type": "article",
+            "title": "Explainable AI (XAI) | Giskard",
+            "url": "https://www.giskard.ai/glossary/explainable-ai-xai"
+          },
+          {
+            "type": "article",
+            "title": "How to Leverage Explainable AI for Better Business Decisions",
+            "url": "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+          },
+          {
+            "type": "video",
+            "title": "Explainable AI: Demystifying AI Agents Decision-Making",
+            "url": "https://www.youtube.com/watch?v=yJkCuEu3K68"
+          }
+        ]
+      },
+      {
         "id": "YFo3NnwVst5EBTtLR-cJ1",
         "name": "TFLite",
         "type": "subtopic",
@@ -3684,30 +3810,25 @@
         ]
       },
       {
-        "id": "qy37ppIWDT_we-duuHwgT",
-        "name": "Explainable AI",
-        "type": "topic",
-        "description": "Explainable AI (XAI) refers to methods and techniques used to make the decisions of machine learning models understandable to humans. It aims to shed light on how a model arrives at a particular prediction, identifying the factors that influenced the outcome. This allows users to understand, trust, and effectively manage AI systems.",
+        "id": "pVSlVHXIap0unFxLGM-lQ",
+        "name": "LIME",
+        "type": "subtopic",
+        "description": "LIME (Local Interpretable Model-agnostic Explanations) is a technique used to understand the predictions of machine learning models by approximating them locally with a more interpretable model. It focuses on explaining individual predictions by perturbing the input data around a specific instance and observing how the model's prediction changes. This allows one to identify which features are most important for that particular prediction, even if the underlying model is complex and opaque.",
         "resources": [
           {
-            "type": "article",
-            "title": "What is Explainable AI (XAI)?",
-            "url": "https://www.ibm.com/think/topics/explainable-ai"
+            "type": "official",
+            "title": "lime",
+            "url": "https://github.com/marcotcr/lime"
           },
           {
             "type": "article",
-            "title": "Explainable AI (XAI) | Giskard",
-            "url": "https://www.giskard.ai/glossary/explainable-ai-xai"
-          },
-          {
-            "type": "article",
-            "title": "How to Leverage Explainable AI for Better Business Decisions",
-            "url": "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+            "title": "Explainable AI - Understanding and Trusting Machine Learning Models",
+            "url": "https://www.datacamp.com/tutorial/explainable-ai-understanding-and-trusting-machine-learning-models"
           },
           {
             "type": "video",
-            "title": "Explainable AI: Demystifying AI Agents Decision-Making",
-            "url": "https://www.youtube.com/watch?v=yJkCuEu3K68"
+            "title": "Understanding LIME | Explainable AI",
+            "url": "https://www.youtube.com/watch?v=CYl172IwqKs"
           }
         ]
       },
@@ -3743,32 +3864,254 @@
             "url": "https://www.youtube.com/watch?v=MQ6fFDwjuco"
           }
         ]
-      },
-      {
-        "id": "pVSlVHXIap0unFxLGM-lQ",
-        "name": "LIME",
-        "type": "subtopic",
-        "description": "LIME (Local Interpretable Model-agnostic Explanations) is a technique used to understand the predictions of machine learning models by approximating them locally with a more interpretable model. It focuses on explaining individual predictions by perturbing the input data around a specific instance and observing how the model's prediction changes. This allows one to identify which features are most important for that particular prediction, even if the underlying model is complex and opaque.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "lime",
-            "url": "https://github.com/marcotcr/lime"
-          },
-          {
-            "type": "article",
-            "title": "Explainable AI - Understanding and Trusting Machine Learning Models",
-            "url": "https://www.datacamp.com/tutorial/explainable-ai-understanding-and-trusting-machine-learning-models"
-          },
-          {
-            "type": "video",
-            "title": "Understanding LIME | Explainable AI",
-            "url": "https://www.youtube.com/watch?v=CYl172IwqKs"
-          }
-        ]
       }
     ],
     "edges": [
+      {
+        "source": "l1xasxQy2vAY34NWaqKEe",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kHDSwlSq8WkLey4EJIQSR",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "a6vawajw7BpL6plH_nuAz",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fes7M--Y8i08_zeP98tVV",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fGGWKmAJ50Ke6wWJBEgby",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6XgP_2NLuiw654zvTyueT",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "iTsEHVCo6KGq7H2HMgy5S",
+        "target": "IghGpwAFVB067uOosmoDC",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zsW1NRb0dMgS-KzWsI0QU",
+        "target": "_7uvOebQUI4xaSwtMjpEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mMzqJF2KQ49TDEk5F3VAI",
+        "target": "_7uvOebQUI4xaSwtMjpEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Vh81GnOUOZvDOlOyI5PwT",
+        "target": "_7uvOebQUI4xaSwtMjpEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "r4fbUwD83uYumEO1X8f09",
+        "target": "_7uvOebQUI4xaSwtMjpEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "51x_5z0pHTE_yZoyvFUBy",
+        "target": "_7uvOebQUI4xaSwtMjpEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vdVq3RQvQF3mF8PQc6DMg",
+        "target": "_7uvOebQUI4xaSwtMjpEd",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "06T5CbZAGJU6fJhCmqCC8",
+        "target": "_NPGsGEjcLekjGisdDFWt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7t7jSb3YgyWlhgCe8Se1I",
+        "target": "_NPGsGEjcLekjGisdDFWt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qLKM1zGUhuyBwh_uXSyJJ",
+        "target": "_NPGsGEjcLekjGisdDFWt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "mu56TlVkhhgVzzESDRobc",
+        "target": "oUhlUoWQQ1txx_sepD5ev",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "75mlW2JoUqSNFK2IDfqFP",
+        "target": "oUhlUoWQQ1txx_sepD5ev",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "SCn-6w1UEQwoLQ_dOPpL5",
+        "target": "oUhlUoWQQ1txx_sepD5ev",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MLob7b468ZgNX7-cURqmJ",
+        "target": "oUhlUoWQQ1txx_sepD5ev",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "C4KbkZ7c8TspXa3RBOCug",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "6uGYeXZn5fW2qPfSb8GJb",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "1kk8KDWH-LrPt8SjkpTcX",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "T-pybEZVvvXopCTbDykR-",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "so5IQDxKibaZlgoCh8tpQ",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nS4igSghzVFwamhVOwCjm",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Zh7AfH6hJ6MMXiqSnQn7G",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "93MPXEulKgPnuRlp7F-Nj",
+        "target": "ulka7VEVjz6ls5SnI6a6z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kbfucfIO5KCsuv3jKbHTa",
+        "target": "00GZcwe25QYi7rDzaOoMt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "u3E7FGW4Iwdsu61KYFxCX",
+        "target": "00GZcwe25QYi7rDzaOoMt",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XIdCvT-4HyyglHJLRrHlz",
+        "target": "tKeejLv8Q7QX40UtOjpav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "XQoK9l-xtN2J8ZV8dw53X",
+        "target": "tKeejLv8Q7QX40UtOjpav",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cOg3ejZRYE-u-M0c89IjM",
+        "target": "VykbCu7LWIx8fQpqKzoA7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wOogVDV4FIDLXVPwFqJ8C",
+        "target": "VykbCu7LWIx8fQpqKzoA7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "UljuqA89_SlCSDWWMD_C_",
+        "target": "VykbCu7LWIx8fQpqKzoA7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Berd78HvnulNEGOsHCf8n",
+        "target": "VykbCu7LWIx8fQpqKzoA7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "fMNwzhgLgHlAZJ9NvKikR",
+        "target": "VykbCu7LWIx8fQpqKzoA7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "o6GQ3-8DgDtHzdX6yeg1w",
+        "target": "VykbCu7LWIx8fQpqKzoA7",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dA9AE-3lTB6lN-X-_Byd2",
+        "target": "sf67bSL7HAx6iN7S6MYKs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-_obgPIUaZ4BVpg29xG_9",
+        "target": "sf67bSL7HAx6iN7S6MYKs",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "AjZHJcxUY29WZbCvr3zrs",
+        "target": "5VuCUCfb4DEi0HKW11PIX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "QEayqA8zYsJn0rQYz-4zv",
+        "target": "5VuCUCfb4DEi0HKW11PIX",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "EIjo6iFrU8iDm36_ZtaW5",
+        "target": "fR4Qr_ifoBLTpxdkJ50rB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YmRN43yAFF97c7MgNaiqs",
+        "target": "fR4Qr_ifoBLTpxdkJ50rB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qyNOEqp7hW_P7-Isz_v4o",
+        "target": "w8z91Hlqm0sPligYD3VCk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Wpv_zRshtTFXNqp1S7m0F",
+        "target": "w8z91Hlqm0sPligYD3VCk",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YFo3NnwVst5EBTtLR-cJ1",
+        "target": "qy37ppIWDT_we-duuHwgT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pVSlVHXIap0unFxLGM-lQ",
+        "target": "qy37ppIWDT_we-duuHwgT",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JQKEWz0-vIJoLimLKvIzz",
+        "target": "qy37ppIWDT_we-duuHwgT",
+        "type": "subtopic_of"
+      },
       {
         "source": "_7uvOebQUI4xaSwtMjpEd",
         "target": "IghGpwAFVB067uOosmoDC",
@@ -3813,251 +4156,6 @@
         "source": "qy37ppIWDT_we-duuHwgT",
         "target": "w8z91Hlqm0sPligYD3VCk",
         "type": "next_in_flow"
-      },
-      {
-        "source": "mu56TlVkhhgVzzESDRobc",
-        "target": "oUhlUoWQQ1txx_sepD5ev",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "SCn-6w1UEQwoLQ_dOPpL5",
-        "target": "oUhlUoWQQ1txx_sepD5ev",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "iTsEHVCo6KGq7H2HMgy5S",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Vh81GnOUOZvDOlOyI5PwT",
-        "target": "_7uvOebQUI4xaSwtMjpEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vdVq3RQvQF3mF8PQc6DMg",
-        "target": "_7uvOebQUI4xaSwtMjpEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "06T5CbZAGJU6fJhCmqCC8",
-        "target": "_NPGsGEjcLekjGisdDFWt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "C4KbkZ7c8TspXa3RBOCug",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6uGYeXZn5fW2qPfSb8GJb",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "1kk8KDWH-LrPt8SjkpTcX",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nS4igSghzVFwamhVOwCjm",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "T-pybEZVvvXopCTbDykR-",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Zh7AfH6hJ6MMXiqSnQn7G",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kbfucfIO5KCsuv3jKbHTa",
-        "target": "00GZcwe25QYi7rDzaOoMt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "u3E7FGW4Iwdsu61KYFxCX",
-        "target": "00GZcwe25QYi7rDzaOoMt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XIdCvT-4HyyglHJLRrHlz",
-        "target": "tKeejLv8Q7QX40UtOjpav",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cOg3ejZRYE-u-M0c89IjM",
-        "target": "VykbCu7LWIx8fQpqKzoA7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wOogVDV4FIDLXVPwFqJ8C",
-        "target": "VykbCu7LWIx8fQpqKzoA7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Berd78HvnulNEGOsHCf8n",
-        "target": "VykbCu7LWIx8fQpqKzoA7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "UljuqA89_SlCSDWWMD_C_",
-        "target": "VykbCu7LWIx8fQpqKzoA7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fMNwzhgLgHlAZJ9NvKikR",
-        "target": "VykbCu7LWIx8fQpqKzoA7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dA9AE-3lTB6lN-X-_Byd2",
-        "target": "sf67bSL7HAx6iN7S6MYKs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "EIjo6iFrU8iDm36_ZtaW5",
-        "target": "fR4Qr_ifoBLTpxdkJ50rB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "QEayqA8zYsJn0rQYz-4zv",
-        "target": "5VuCUCfb4DEi0HKW11PIX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qyNOEqp7hW_P7-Isz_v4o",
-        "target": "w8z91Hlqm0sPligYD3VCk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Wpv_zRshtTFXNqp1S7m0F",
-        "target": "w8z91Hlqm0sPligYD3VCk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JQKEWz0-vIJoLimLKvIzz",
-        "target": "qy37ppIWDT_we-duuHwgT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kHDSwlSq8WkLey4EJIQSR",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "a6vawajw7BpL6plH_nuAz",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fes7M--Y8i08_zeP98tVV",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "fGGWKmAJ50Ke6wWJBEgby",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "6XgP_2NLuiw654zvTyueT",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zsW1NRb0dMgS-KzWsI0QU",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "r4fbUwD83uYumEO1X8f09",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "mMzqJF2KQ49TDEk5F3VAI",
-        "target": "_7uvOebQUI4xaSwtMjpEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7t7jSb3YgyWlhgCe8Se1I",
-        "target": "_NPGsGEjcLekjGisdDFWt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "AjZHJcxUY29WZbCvr3zrs",
-        "target": "5VuCUCfb4DEi0HKW11PIX",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "o6GQ3-8DgDtHzdX6yeg1w",
-        "target": "VykbCu7LWIx8fQpqKzoA7",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "l1xasxQy2vAY34NWaqKEe",
-        "target": "IghGpwAFVB067uOosmoDC",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "51x_5z0pHTE_yZoyvFUBy",
-        "target": "_7uvOebQUI4xaSwtMjpEd",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qLKM1zGUhuyBwh_uXSyJJ",
-        "target": "_NPGsGEjcLekjGisdDFWt",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-_obgPIUaZ4BVpg29xG_9",
-        "target": "sf67bSL7HAx6iN7S6MYKs",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YmRN43yAFF97c7MgNaiqs",
-        "target": "fR4Qr_ifoBLTpxdkJ50rB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "so5IQDxKibaZlgoCh8tpQ",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "93MPXEulKgPnuRlp7F-Nj",
-        "target": "ulka7VEVjz6ls5SnI6a6z",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "75mlW2JoUqSNFK2IDfqFP",
-        "target": "oUhlUoWQQ1txx_sepD5ev",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YFo3NnwVst5EBTtLR-cJ1",
-        "target": "w8z91Hlqm0sPligYD3VCk",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "pVSlVHXIap0unFxLGM-lQ",
-        "target": "qy37ppIWDT_we-duuHwgT",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MLob7b468ZgNX7-cURqmJ",
-        "target": "oUhlUoWQQ1txx_sepD5ev",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XQoK9l-xtN2J8ZV8dw53X",
-        "target": "tKeejLv8Q7QX40UtOjpav",
-        "type": "subtopic_of"
       }
     ]
   }

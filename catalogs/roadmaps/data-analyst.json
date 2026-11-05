@@ -1,0 +1,434 @@
+{
+  "title": "Data Analyst Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Key Concepts of Data"
+        },
+        {
+          "title": "What is Data Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Types of Data Analytics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Collection"
+        },
+        {
+          "title": "Cleanup"
+        },
+        {
+          "title": "Descriptive Analytics"
+        },
+        {
+          "title": "Exploration"
+        },
+        {
+          "title": "Visualisation"
+        },
+        {
+          "title": "Diagnostic Analytics"
+        },
+        {
+          "title": "Statistical Analysis"
+        },
+        {
+          "title": "Predictive Analytics"
+        },
+        {
+          "title": "Prescriptive Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Excel",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Machine Learning"
+        },
+        {
+          "title": "IF"
+        },
+        {
+          "title": "DATEDIF"
+        },
+        {
+          "title": "VLOOKUP / HLOOKUP"
+        },
+        {
+          "title": "REPLACE / SUBSTITUTE"
+        },
+        {
+          "title": "Learn Common Functions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Charting"
+            },
+            {
+              "title": "Pivot Tables"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn a Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UPPER / LOWER / PROPER"
+        },
+        {
+          "title": "CONCAT"
+        },
+        {
+          "title": "TRIM"
+        },
+        {
+          "title": "AVERAGE"
+        },
+        {
+          "title": "COUNT"
+        }
+      ]
+    },
+    {
+      "title": "Data Manipulation Lib's.",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SUM"
+        },
+        {
+          "title": "MIN / MAX"
+        }
+      ]
+    },
+    {
+      "title": "Data Viz. Libraries"
+    },
+    {
+      "title": "Data Collection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CSV Files"
+        },
+        {
+          "title": "Web Scraping"
+        },
+        {
+          "title": "Databases"
+        },
+        {
+          "title": "APIs"
+        }
+      ]
+    },
+    {
+      "title": "Data Cleanup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Handling Missing Data"
+        },
+        {
+          "title": "Removing Duplicates"
+        },
+        {
+          "title": "Finding Outliers"
+        },
+        {
+          "title": "Data Transformation"
+        },
+        {
+          "title": "Pandas"
+        },
+        {
+          "title": "Dplyr"
+        }
+      ]
+    },
+    {
+      "title": "Descriptive Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Libraries for Cleanup",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Dispersion"
+            },
+            {
+              "title": "Range"
+            },
+            {
+              "title": "Variance"
+            },
+            {
+              "title": "Standard Deviation"
+            },
+            {
+              "title": "Central Tendency"
+            },
+            {
+              "title": "Mean"
+            },
+            {
+              "title": "Median"
+            },
+            {
+              "title": "Mode"
+            },
+            {
+              "title": "Distribution Shape"
+            },
+            {
+              "title": "Skewness"
+            },
+            {
+              "title": "Kurtosis"
+            }
+          ]
+        },
+        {
+          "title": "Visualizing Distributions"
+        },
+        {
+          "title": "Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Tableau"
+            }
+          ]
+        },
+        {
+          "title": "Libraries",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Matplotlib"
+            },
+            {
+              "title": "ggplot2"
+            },
+            {
+              "title": "Seaborn"
+            }
+          ]
+        },
+        {
+          "title": "Charting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bar"
+            },
+            {
+              "title": "Histograms"
+            },
+            {
+              "title": "Line"
+            },
+            {
+              "title": "Stacked"
+            },
+            {
+              "title": "Scatter"
+            },
+            {
+              "title": "Heatmap"
+            },
+            {
+              "title": "Funnel"
+            },
+            {
+              "title": "Pie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Visualisation"
+    },
+    {
+      "title": "Statistical Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hypothesis Testing"
+        },
+        {
+          "title": "Correlation Analysis"
+        },
+        {
+          "title": "Regression"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Machine Learning Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Supervised Learning"
+            },
+            {
+              "title": "Unsupervised Learning"
+            },
+            {
+              "title": "Reinforcement Learning"
+            }
+          ]
+        },
+        {
+          "title": "Big Data Concepts"
+        },
+        {
+          "title": "Data Storage Solutions"
+        },
+        {
+          "title": "Data Processing Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hadoop"
+            },
+            {
+              "title": "Spark"
+            }
+          ]
+        },
+        {
+          "title": "Data Processing Techniques",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Parallel Processing"
+            },
+            {
+              "title": "MPI"
+            },
+            {
+              "title": "MapReduce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Big Data Technologies",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Popular ML Algorithms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Decision Trees"
+            },
+            {
+              "title": "Naive Byes"
+            },
+            {
+              "title": "KNN"
+            },
+            {
+              "title": "K-Means Clustering"
+            },
+            {
+              "title": "Logistic Regression"
+            },
+            {
+              "title": "Model Evaluation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning (Optional)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Learn the Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Neural Networks"
+            },
+            {
+              "title": "CNNs"
+            },
+            {
+              "title": "RNN"
+            }
+          ]
+        },
+        {
+          "title": "Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Pytorch"
+            },
+            {
+              "title": "Tensorflow"
+            }
+          ]
+        },
+        {
+          "title": "Practice Training Models",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Image Recognition"
+            },
+            {
+              "title": "NLP"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

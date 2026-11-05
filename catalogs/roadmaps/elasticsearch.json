@@ -1,0 +1,561 @@
+{
+  "title": "Elasticsearch",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pre-requisites",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JSON"
+            },
+            {
+              "title": "REST API Basics"
+            }
+          ]
+        },
+        {
+          "title": "What is Elasticsearch",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Search Engines vs Relational DBs"
+            },
+            {
+              "title": "The ELK Stack"
+            },
+            {
+              "title": "Elasticsearch Usecases"
+            }
+          ]
+        },
+        {
+          "title": "Logical Concepts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Cluster (System)"
+            },
+            {
+              "title": "Node (Instance)"
+            },
+            {
+              "title": "Index (Database)"
+            },
+            {
+              "title": "Document (Row)"
+            },
+            {
+              "title": "ID (Primary Key)"
+            }
+          ]
+        },
+        {
+          "title": "Environment Setup",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Running with Docker"
+            },
+            {
+              "title": "Elastic Cloud"
+            },
+            {
+              "title": "Kibana Console"
+            }
+          ]
+        },
+        {
+          "title": "Physical Layout",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Master-Elegible Nodes"
+            },
+            {
+              "title": "Data Nodes"
+            },
+            {
+              "title": "Coordinating Nodes"
+            }
+          ]
+        },
+        {
+          "title": "Sharding & Scaling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Primary Shards"
+            },
+            {
+              "title": "Replica Shards"
+            },
+            {
+              "title": "The \"Split Brain\" Problem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mappings",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Explicit"
+        },
+        {
+          "title": "Dynamic"
+        },
+        {
+          "title": "Mapping Explosion"
+        }
+      ]
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Core Data Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Numeric"
+            },
+            {
+              "title": "Boolean"
+            },
+            {
+              "title": "Dates"
+            },
+            {
+              "title": "Geo Points"
+            }
+          ]
+        },
+        {
+          "title": "Text vs Keyword",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Text"
+            },
+            {
+              "title": "Keyword"
+            }
+          ]
+        },
+        {
+          "title": "Advanced Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Object"
+            },
+            {
+              "title": "Nested"
+            },
+            {
+              "title": "Flattened"
+            }
+          ]
+        },
+        {
+          "title": "CRUD Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Create Index"
+            },
+            {
+              "title": "Delete Index"
+            },
+            {
+              "title": "Index Document"
+            },
+            {
+              "title": "Get Document"
+            },
+            {
+              "title": "Update Document"
+            },
+            {
+              "title": "Delete Documents"
+            }
+          ]
+        },
+        {
+          "title": "Query Languages",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Query DSL"
+            },
+            {
+              "title": "ES|QL"
+            },
+            {
+              "title": "EQL"
+            },
+            {
+              "title": "SQL"
+            },
+            {
+              "title": "KQL"
+            },
+            {
+              "title": "Lucene"
+            }
+          ]
+        },
+        {
+          "title": "Search Contexts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Query"
+            },
+            {
+              "title": "Filter"
+            }
+          ]
+        },
+        {
+          "title": "Bulk Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bulk index"
+            },
+            {
+              "title": "Optimizing Bulk Indexing"
+            }
+          ]
+        },
+        {
+          "title": "Migrations & Repair",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Reindex API"
+            },
+            {
+              "title": "Update by Query"
+            },
+            {
+              "title": "Delete by Query"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leaf vs Compound Queries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Leaf Queries",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Match Query"
+            },
+            {
+              "title": "Term Query"
+            },
+            {
+              "title": "Range Query"
+            },
+            {
+              "title": "Exists Query"
+            },
+            {
+              "title": "ID Query"
+            },
+            {
+              "title": "Prefix Query"
+            },
+            {
+              "title": "Wildcard Query"
+            }
+          ]
+        },
+        {
+          "title": "Bool Queries (Compound Queries)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "must"
+            },
+            {
+              "title": "should"
+            },
+            {
+              "title": "filter"
+            },
+            {
+              "title": "must_not"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Controlling Search Results",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pagination"
+        },
+        {
+          "title": "Sorting"
+        },
+        {
+          "title": "Source Filtering"
+        },
+        {
+          "title": "Highlighting"
+        }
+      ]
+    },
+    {
+      "title": "How Search Works",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Metric Aggregations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Value Count"
+            },
+            {
+              "title": "Avg / Sum / Min / Max"
+            },
+            {
+              "title": "Cardinality"
+            },
+            {
+              "title": "Stats / Extended Stats"
+            }
+          ]
+        },
+        {
+          "title": "Doc values"
+        },
+        {
+          "title": "fielddata"
+        },
+        {
+          "title": "The Inverted Index"
+        },
+        {
+          "title": "Bulk Aggregations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Terms"
+            },
+            {
+              "title": "Range / Date Range"
+            },
+            {
+              "title": "Histogram"
+            },
+            {
+              "title": "Filter Aggregations"
+            }
+          ]
+        },
+        {
+          "title": "Advanced Aggregations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Nested Aggregations"
+            },
+            {
+              "title": "Pipeline Aggregations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Search Analyzer",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "The Analyze API"
+        },
+        {
+          "title": "Standard Analyzer"
+        },
+        {
+          "title": "Custom Analyzers"
+        },
+        {
+          "title": "Latest"
+        },
+        {
+          "title": "Transformations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Pivot"
+            },
+            {
+              "title": "Transform API"
+            }
+          ]
+        },
+        {
+          "title": "Document Scoring",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Understanding Similarity"
+            },
+            {
+              "title": "BM25 algorithm"
+            }
+          ]
+        },
+        {
+          "title": "Cluster Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CAT API"
+            },
+            {
+              "title": "Segment Merging"
+            },
+            {
+              "title": "Cluster Monitoring"
+            },
+            {
+              "title": "Cross-cluster Replication"
+            },
+            {
+              "title": "Autoscaling"
+            }
+          ]
+        },
+        {
+          "title": "Improve Query Precision",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Boosting Queries"
+            },
+            {
+              "title": "Function Score Query"
+            },
+            {
+              "title": "Match Phrase Query"
+            },
+            {
+              "title": "Synonyms Graph"
+            }
+          ]
+        },
+        {
+          "title": "Data Life Cycle",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ILM"
+            },
+            {
+              "title": "Rollover Policies"
+            },
+            {
+              "title": "Data Tiers"
+            }
+          ]
+        },
+        {
+          "title": "AI-Powered Search",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Vector Search"
+            },
+            {
+              "title": "Semantic Search"
+            },
+            {
+              "title": "Hybrid Search"
+            }
+          ]
+        },
+        {
+          "title": "Data Safety",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Snapshots & restore"
+            },
+            {
+              "title": "SLM"
+            }
+          ]
+        },
+        {
+          "title": "Security",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Authentication"
+            },
+            {
+              "title": "Roles & Users"
+            },
+            {
+              "title": "API Keys"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

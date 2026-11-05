@@ -3,7 +3,7 @@
     "slug": "devops-beginner",
     "title": "DevOps Beginner",
     "description": "Step by step guide for DevOps or operations role in 2026",
-    "extracted_at": "2026-10-29T01:03:58.646907+00:00",
+    "extracted_at": "2026-11-05T02:14:52.375021+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/devops-beginner",
     "total_topics": 11,
     "total_subtopics": 2
@@ -48,7 +48,9 @@
                 "url": "https://automatetheboringstuff.com/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/devops-beginner/content/python@TwVfCYMS9jSaJ6UyYmC-K.md"
+            "file_path": "developer-roadmap/roadmaps/devops-beginner/content/python@TwVfCYMS9jSaJ6UyYmC-K.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "npnMwSDEK2aLGgnuZZ4dO",
@@ -82,7 +84,9 @@
                 "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/devops-beginner/content/go@npnMwSDEK2aLGgnuZZ4dO.md"
+            "file_path": "developer-roadmap/roadmaps/devops-beginner/content/go@npnMwSDEK2aLGgnuZZ4dO.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -220,37 +224,6 @@
         "subtopics": []
       },
       {
-        "id": "ot9I_IHdnq2yAMffrSrbN",
-        "name": "GitHub",
-        "type": "topic",
-        "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit Dedicated Git & GitHub Roadmap",
-            "url": "https://roadmap.sh/git-github"
-          },
-          {
-            "type": "official",
-            "title": "GitHub",
-            "url": "https://github.com"
-          },
-          {
-            "type": "official",
-            "title": "GitHub Docs",
-            "url": "https://docs.github.com/en/get-started/quickstart"
-          },
-          {
-            "type": "video",
-            "title": "What is GitHub?",
-            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
-          }
-        ],
-        "file_path": "developer-roadmap/roadmaps/devops-beginner/content/github@ot9I_IHdnq2yAMffrSrbN.md",
-        "subtopics_count": 0,
-        "subtopics": []
-      },
-      {
         "id": "uyDm1SpOQdpHjq9zBAdck",
         "name": "Git",
         "type": "topic",
@@ -288,6 +261,37 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/devops-beginner/content/git@uyDm1SpOQdpHjq9zBAdck.md",
+        "subtopics_count": 0,
+        "subtopics": []
+      },
+      {
+        "id": "ot9I_IHdnq2yAMffrSrbN",
+        "name": "GitHub",
+        "type": "topic",
+        "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitHub Docs",
+            "url": "https://docs.github.com/en/get-started/quickstart"
+          },
+          {
+            "type": "video",
+            "title": "What is GitHub?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+          }
+        ],
+        "file_path": "developer-roadmap/roadmaps/devops-beginner/content/github@ot9I_IHdnq2yAMffrSrbN.md",
         "subtopics_count": 0,
         "subtopics": []
       },
@@ -678,34 +682,6 @@
         ]
       },
       {
-        "id": "ot9I_IHdnq2yAMffrSrbN",
-        "name": "GitHub",
-        "type": "topic",
-        "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit Dedicated Git & GitHub Roadmap",
-            "url": "https://roadmap.sh/git-github"
-          },
-          {
-            "type": "official",
-            "title": "GitHub",
-            "url": "https://github.com"
-          },
-          {
-            "type": "official",
-            "title": "GitHub Docs",
-            "url": "https://docs.github.com/en/get-started/quickstart"
-          },
-          {
-            "type": "video",
-            "title": "What is GitHub?",
-            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
-          }
-        ]
-      },
-      {
         "id": "uyDm1SpOQdpHjq9zBAdck",
         "name": "Git",
         "type": "topic",
@@ -740,6 +716,34 @@
             "type": "video",
             "title": "Git for Professionals Tutorial",
             "url": "https://www.youtube.com/watch?v=Uszj_k0DGsg"
+          }
+        ]
+      },
+      {
+        "id": "ot9I_IHdnq2yAMffrSrbN",
+        "name": "GitHub",
+        "type": "topic",
+        "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit Dedicated Git & GitHub Roadmap",
+            "url": "https://roadmap.sh/git-github"
+          },
+          {
+            "type": "official",
+            "title": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "type": "official",
+            "title": "GitHub Docs",
+            "url": "https://docs.github.com/en/get-started/quickstart"
+          },
+          {
+            "type": "video",
+            "title": "What is GitHub?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
           }
         ]
       },
@@ -921,6 +925,16 @@
     ],
     "edges": [
       {
+        "source": "TwVfCYMS9jSaJ6UyYmC-K",
+        "target": "v5FGKQc-_7NYEsWjmTEuq",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "npnMwSDEK2aLGgnuZZ4dO",
+        "target": "v5FGKQc-_7NYEsWjmTEuq",
+        "type": "subtopic_of"
+      },
+      {
         "source": "qe84v529VbCyydl0BKFk2",
         "target": "w5d24Sf8GDkLDLGUPxzS9",
         "type": "next_in_flow"
@@ -974,16 +988,6 @@
         "source": "1ieK6B_oqW8qOC6bdmiJe",
         "target": "nUBGf1rp9GK_pbagWCP9g",
         "type": "next_in_flow"
-      },
-      {
-        "source": "TwVfCYMS9jSaJ6UyYmC-K",
-        "target": "v5FGKQc-_7NYEsWjmTEuq",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "npnMwSDEK2aLGgnuZZ4dO",
-        "target": "v5FGKQc-_7NYEsWjmTEuq",
-        "type": "subtopic_of"
       }
     ]
   }

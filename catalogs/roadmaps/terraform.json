@@ -1,0 +1,436 @@
+{
+  "title": "Terraform Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Infrastructure as Code?"
+        },
+        {
+          "title": "What is Terraform?"
+        },
+        {
+          "title": "Usecases and Benefits"
+        },
+        {
+          "title": "CaC vs IaC"
+        },
+        {
+          "title": "Installing Terraform"
+        }
+      ]
+    },
+    {
+      "title": "Hashicorp Config. Language (HCL)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is HCL?"
+        },
+        {
+          "title": "Basic Syntax"
+        }
+      ]
+    },
+    {
+      "title": "Providers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Terraform Registry"
+        },
+        {
+          "title": "Configuring Providers"
+        },
+        {
+          "title": "Versions"
+        }
+      ]
+    },
+    {
+      "title": "Project Initialization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Input Variables"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Resource Behavior"
+        },
+        {
+          "title": "Resource Lifecycle"
+        },
+        {
+          "title": "Meta Arguments"
+        },
+        {
+          "title": "depends_on"
+        },
+        {
+          "title": "Sensitive Data"
+        },
+        {
+          "title": "Versioning"
+        }
+      ]
+    },
+    {
+      "title": "Outputs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Preconditions"
+        }
+      ]
+    },
+    {
+      "title": "Variables",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type Constraints"
+        },
+        {
+          "title": "Variable Definition File"
+        },
+        {
+          "title": "Local Values"
+        },
+        {
+          "title": "Environment Variables"
+        },
+        {
+          "title": "Validation Rules"
+        }
+      ]
+    },
+    {
+      "title": "Format & Validate",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "terraform fmt"
+        },
+        {
+          "title": "terraform validate"
+        },
+        {
+          "title": "TFLint"
+        }
+      ]
+    },
+    {
+      "title": "Best Practices for State",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "count"
+        },
+        {
+          "title": "for_each"
+        },
+        {
+          "title": "provider"
+        },
+        {
+          "title": "lifecycle"
+        }
+      ]
+    },
+    {
+      "title": "State",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Splitting State Files"
+        },
+        {
+          "title": "Import Existing Resources"
+        },
+        {
+          "title": "State Locking"
+        },
+        {
+          "title": "Remote State"
+        },
+        {
+          "title": "State Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Published Modules Usage"
+            },
+            {
+              "title": "Creating Local Modules"
+            },
+            {
+              "title": "Inputs / Outputs"
+            },
+            {
+              "title": "Modules Best Practices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Inspect / Modify State",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Getting Started",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Output Syntax"
+            },
+            {
+              "title": "Sensitive Outputs"
+            }
+          ]
+        },
+        {
+          "title": "graph"
+        },
+        {
+          "title": "show"
+        },
+        {
+          "title": "list"
+        },
+        {
+          "title": "output"
+        },
+        {
+          "title": "rm"
+        },
+        {
+          "title": "mv"
+        },
+        {
+          "title": "-replace option in apply"
+        },
+        {
+          "title": "state pull / push"
+        },
+        {
+          "title": "state replace-provider"
+        },
+        {
+          "title": "state force-unlock"
+        }
+      ]
+    },
+    {
+      "title": "Clean Up",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "terraform destroy"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "terraform plan"
+        },
+        {
+          "title": "terraform apply"
+        }
+      ]
+    },
+    {
+      "title": "Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Root vs Child Modules"
+        }
+      ]
+    },
+    {
+      "title": "Provisioners",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "When to Use?"
+        },
+        {
+          "title": "Creation / Destroy Time"
+        },
+        {
+          "title": "file provisioner"
+        },
+        {
+          "title": "local-exec provisioner"
+        },
+        {
+          "title": "remote-exec provisioner"
+        },
+        {
+          "title": "Custom Provisioners"
+        }
+      ]
+    },
+    {
+      "title": "Data Sources"
+    },
+    {
+      "title": "Template Files"
+    },
+    {
+      "title": "CI / CD Integration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub Actions"
+        },
+        {
+          "title": "Circle CI"
+        },
+        {
+          "title": "GitLab CI"
+        },
+        {
+          "title": "Jenkins"
+        }
+      ]
+    },
+    {
+      "title": "Workspaces"
+    },
+    {
+      "title": "Scaling Terraform",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basic / Advanced Commands",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Version Management"
+            }
+          ]
+        },
+        {
+          "title": "Splitting Large State"
+        },
+        {
+          "title": "Parallelism"
+        },
+        {
+          "title": "Deployment Workflow"
+        },
+        {
+          "title": "Terragrunt"
+        },
+        {
+          "title": "Infracost"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unit Testing"
+        },
+        {
+          "title": "Contract Testing"
+        },
+        {
+          "title": "Integration Testing"
+        },
+        {
+          "title": "End to End Testing"
+        },
+        {
+          "title": "Testing Modules"
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Secret Management"
+        },
+        {
+          "title": "Compliance / Sentinel"
+        },
+        {
+          "title": "Terrascan"
+        },
+        {
+          "title": "Checkov"
+        },
+        {
+          "title": "Trivy"
+        },
+        {
+          "title": "KICS"
+        }
+      ]
+    },
+    {
+      "title": "HCP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What and when to use HCP?"
+        },
+        {
+          "title": "Enterprise Features"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Workspaces"
+        },
+        {
+          "title": "VCS Integration"
+        },
+        {
+          "title": "Run Tasks"
+        }
+      ]
+    }
+  ]
+}

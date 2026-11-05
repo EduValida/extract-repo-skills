@@ -1,0 +1,382 @@
+{
+  "title": "Data Structures & Algorithms",
+  "topics": [
+    {
+      "title": "Pick a Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "C#"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "C++"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Ruby"
+        }
+      ]
+    },
+    {
+      "title": "Programming Fundamentals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Language Syntax"
+        },
+        {
+          "title": "Control Structures"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Pseudo Code"
+        },
+        {
+          "title": "Rust"
+        },
+        {
+          "title": "Functions"
+        },
+        {
+          "title": "OOP Basics"
+        }
+      ]
+    },
+    {
+      "title": "What are Data Structures?"
+    },
+    {
+      "title": "Why are Data Structures Important?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Common Runtimes"
+        },
+        {
+          "title": "Array"
+        }
+      ]
+    },
+    {
+      "title": "Basic Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Linked Lists"
+        },
+        {
+          "title": "Constant"
+        },
+        {
+          "title": "Queues"
+        },
+        {
+          "title": "Stacks"
+        },
+        {
+          "title": "Logarithmic"
+        },
+        {
+          "title": "Hash Tables"
+        }
+      ]
+    },
+    {
+      "title": "Algorithmic Complexity",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Time vs Space Complexity"
+        },
+        {
+          "title": "How to Calculate Complexity?"
+        },
+        {
+          "title": "Asymptotic Notation"
+        }
+      ]
+    },
+    {
+      "title": "Sorting Algorithms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Bubble Sort"
+        },
+        {
+          "title": "Merge Sort"
+        },
+        {
+          "title": "Insertion Sort"
+        },
+        {
+          "title": "Quick Sort"
+        },
+        {
+          "title": "Selection Sort"
+        },
+        {
+          "title": "Heap Sort"
+        }
+      ]
+    },
+    {
+      "title": "Search Algorithms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Linear"
+        },
+        {
+          "title": "Polynomial"
+        },
+        {
+          "title": "Exponential"
+        },
+        {
+          "title": "Factorial"
+        },
+        {
+          "title": "Binary Search"
+        },
+        {
+          "title": "Linear Search"
+        }
+      ]
+    },
+    {
+      "title": "Graph Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Big-O Notation"
+        },
+        {
+          "title": "Big-θ Notation"
+        },
+        {
+          "title": "Big-Ω Notation"
+        },
+        {
+          "title": "Directed Graph"
+        },
+        {
+          "title": "Undirected Graph"
+        },
+        {
+          "title": "Binary Trees"
+        },
+        {
+          "title": "Search Algorithms"
+        },
+        {
+          "title": "Breadth First Search"
+        },
+        {
+          "title": "Depth First Search"
+        },
+        {
+          "title": "Shortest Path Algorithms"
+        }
+      ]
+    },
+    {
+      "title": "Tree Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Search Algorithms"
+        },
+        {
+          "title": "Tree Traversal"
+        },
+        {
+          "title": "Breadth First Search"
+        },
+        {
+          "title": "In-Order Traversal"
+        },
+        {
+          "title": "Depth First Search"
+        },
+        {
+          "title": "Pre-Order Traversal"
+        },
+        {
+          "title": "Post-Order Traversal"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Binary Search Trees"
+        },
+        {
+          "title": "AVL Trees"
+        },
+        {
+          "title": "B-Trees"
+        },
+        {
+          "title": "Heap"
+        },
+        {
+          "title": "Dijkstra's Algorithm"
+        },
+        {
+          "title": "Trie"
+        },
+        {
+          "title": "Bellman-Ford Algoritm"
+        },
+        {
+          "title": "Segment Trees"
+        },
+        {
+          "title": "A* Algorithm"
+        },
+        {
+          "title": "Fenwick Trees"
+        },
+        {
+          "title": "Minimum Spanning Tree"
+        },
+        {
+          "title": "Disjoint Set (Union-Find)"
+        },
+        {
+          "title": "Prim's Algorithm"
+        },
+        {
+          "title": "Suffix Trees and Arrays"
+        },
+        {
+          "title": "Kruskal's Algorithm"
+        }
+      ]
+    },
+    {
+      "title": "Complex Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "2-3 Trees"
+        },
+        {
+          "title": "B/B+ Trees"
+        },
+        {
+          "title": "Skip List"
+        },
+        {
+          "title": "Brute Force"
+        },
+        {
+          "title": "ISAM"
+        },
+        {
+          "title": "Island traversal"
+        },
+        {
+          "title": "Multi-threaded"
+        },
+        {
+          "title": "Two Heaps"
+        },
+        {
+          "title": "Kth Element"
+        },
+        {
+          "title": "Merge Intervals"
+        },
+        {
+          "title": "Cyclic Sort"
+        },
+        {
+          "title": "Fast and Slow Pointers"
+        }
+      ]
+    },
+    {
+      "title": "Indexing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Linear"
+        },
+        {
+          "title": "Tree-Based"
+        }
+      ]
+    },
+    {
+      "title": "Problem Solving Techniques",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Backtracking"
+        },
+        {
+          "title": "Greedy Algorithms"
+        },
+        {
+          "title": "Randomised Algorithms"
+        },
+        {
+          "title": "Divide and Conquer"
+        },
+        {
+          "title": "Leetcode"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Dynamic Programming"
+        },
+        {
+          "title": "Two Pointer Technique"
+        },
+        {
+          "title": "Sliding Window Technique"
+        }
+      ]
+    },
+    {
+      "title": "Platforms to Practice",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Edabit"
+        }
+      ]
+    }
+  ]
+}

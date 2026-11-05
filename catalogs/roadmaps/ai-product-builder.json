@@ -1,0 +1,255 @@
+{
+  "title": "AI Product Builder",
+  "topics": [
+    {
+      "title": "AI Product Creation Cycle",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "App Anatomy"
+        }
+      ]
+    },
+    {
+      "title": "Definition & Scope",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Problem Definition"
+        },
+        {
+          "title": "Feature Scoping"
+        },
+        {
+          "title": "Tech Stack & Constraints"
+        }
+      ]
+    },
+    {
+      "title": "1. Prototyping",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI App Builders",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lovable"
+            },
+            {
+              "title": "Replit"
+            },
+            {
+              "title": "Claude Design"
+            },
+            {
+              "title": "v0"
+            },
+            {
+              "title": "Hope"
+            },
+            {
+              "title": "Bolt"
+            }
+          ]
+        },
+        {
+          "title": "Choose a Prototype Tool"
+        },
+        {
+          "title": "Feedback & Validation"
+        },
+        {
+          "title": "Technical but Powerful",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Gemini CLI"
+            },
+            {
+              "title": "Codex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Generation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Use AI-assisted Coding Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Codex"
+            },
+            {
+              "title": "Cursor"
+            },
+            {
+              "title": "Copilot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Refinement",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Learn by the need",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HTML / CSS / JavaScript"
+            },
+            {
+              "title": "React"
+            },
+            {
+              "title": "Browsers / DevTools"
+            },
+            {
+              "title": "Node.js"
+            }
+          ]
+        },
+        {
+          "title": "Targeted Change"
+        },
+        {
+          "title": "New Feature / Structural Change"
+        }
+      ]
+    },
+    {
+      "title": "4. Collaboration",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Testing & Feedback",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "User Testing"
+            },
+            {
+              "title": "Unit Testing"
+            },
+            {
+              "title": "Integration Testing"
+            },
+            {
+              "title": "E2E Testing"
+            }
+          ]
+        },
+        {
+          "title": "Serverless Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Cloudflare"
+            },
+            {
+              "title": "Vercel"
+            },
+            {
+              "title": "Bit Cloud"
+            }
+          ]
+        },
+        {
+          "title": "Change Management & CI",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GitHub"
+            },
+            {
+              "title": "GitLab"
+            },
+            {
+              "title": "Bit Cloud"
+            },
+            {
+              "title": "Azure DevOps"
+            }
+          ]
+        },
+        {
+          "title": "Platform as a Service (PaaS)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DigitalOcean"
+            },
+            {
+              "title": "Railway"
+            },
+            {
+              "title": "Render"
+            }
+          ]
+        },
+        {
+          "title": "Cloud Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AWS"
+            },
+            {
+              "title": "Azure"
+            },
+            {
+              "title": "GCP"
+            }
+          ]
+        },
+        {
+          "title": "Connect to a Database",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MongoDB / Atlas"
+            },
+            {
+              "title": "PostgreSQL / MySQL"
+            },
+            {
+              "title": "Supabase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Deployment"
+    }
+  ]
+}

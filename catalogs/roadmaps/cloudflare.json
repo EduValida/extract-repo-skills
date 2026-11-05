@@ -1,0 +1,415 @@
+{
+  "title": "Cloudflare",
+  "topics": [
+    {
+      "title": "Workers KV",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prerequisites",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JavaScript Fundamentals"
+            },
+            {
+              "title": "Basic Command-line Knowledge"
+            },
+            {
+              "title": "HTTP and Web Protocols"
+            },
+            {
+              "title": "Git Basics"
+            }
+          ]
+        },
+        {
+          "title": "Core Development Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Node.js and NPM"
+            },
+            {
+              "title": "TypeScript Fundamentals"
+            },
+            {
+              "title": "Understand Serverless Architecture"
+            }
+          ]
+        },
+        {
+          "title": "Workers Core Concepts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Workers Runtime Environment"
+            },
+            {
+              "title": "Edge Computing Fundamentals"
+            },
+            {
+              "title": "Request/Response Handling"
+            },
+            {
+              "title": "Fetch API and Runtime APIs"
+            },
+            {
+              "title": "Workers Lifecycle"
+            },
+            {
+              "title": "Service Bindings"
+            },
+            {
+              "title": "Caching Strategies"
+            },
+            {
+              "title": "Middleware Patterns"
+            },
+            {
+              "title": "Bindings"
+            },
+            {
+              "title": "Logging and Monitoring"
+            }
+          ]
+        },
+        {
+          "title": "Key-value Operations"
+        },
+        {
+          "title": "Metadata Handling"
+        },
+        {
+          "title": "Bulk Operations"
+        },
+        {
+          "title": "Caching Patterns"
+        }
+      ]
+    },
+    {
+      "title": "R2 Storage",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Object Storage"
+        },
+        {
+          "title": "Large File Handling"
+        },
+        {
+          "title": "Asset Management"
+        },
+        {
+          "title": "Bucket Operations"
+        },
+        {
+          "title": "Bucket Lifecycle"
+        }
+      ]
+    },
+    {
+      "title": "D1"
+    },
+    {
+      "title": "Durable Objects",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Storage Solutions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Coordination"
+            },
+            {
+              "title": "Persistence"
+            },
+            {
+              "title": "Transactional Operations"
+            }
+          ]
+        },
+        {
+          "title": "State Management"
+        }
+      ]
+    },
+    {
+      "title": "Queues",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Durable Execution",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Background Jobs"
+            },
+            {
+              "title": "Rate Limiting"
+            },
+            {
+              "title": "Dead Letter Queues"
+            }
+          ]
+        },
+        {
+          "title": "Message Processing"
+        }
+      ]
+    },
+    {
+      "title": "Workflows",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Schema Management"
+        },
+        {
+          "title": "Migrations"
+        },
+        {
+          "title": "Query Optimization"
+        },
+        {
+          "title": "Drizzle"
+        },
+        {
+          "title": "Prisma"
+        }
+      ]
+    },
+    {
+      "title": "Workers AI",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "API Routers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hono"
+            },
+            {
+              "title": "Itty Router"
+            }
+          ]
+        },
+        {
+          "title": "Frontend Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Any Frontend Framework"
+            }
+          ]
+        },
+        {
+          "title": "Building / Deploying",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Wrangler"
+            },
+            {
+              "title": "Miniflare"
+            },
+            {
+              "title": "DevTools Integration"
+            },
+            {
+              "title": "CI/CD Pipelines"
+            }
+          ]
+        },
+        {
+          "title": "Advanced Features",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Image Processing"
+            },
+            {
+              "title": "Speech Rcognition"
+            },
+            {
+              "title": "AI Model Integration"
+            }
+          ]
+        },
+        {
+          "title": "Text Generation"
+        }
+      ]
+    },
+    {
+      "title": "Vectorize",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vector Embeddings"
+        },
+        {
+          "title": "Similarity Search"
+        }
+      ]
+    },
+    {
+      "title": "Stream",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Video Delivery"
+        },
+        {
+          "title": "Live streaming"
+        }
+      ]
+    },
+    {
+      "title": "Images"
+    },
+    {
+      "title": "Calls"
+    },
+    {
+      "title": "Tunnels"
+    },
+    {
+      "title": "Browser Rendering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI-powered Search"
+        }
+      ]
+    },
+    {
+      "title": "AI Gateway",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Video Processing"
+        }
+      ]
+    },
+    {
+      "title": "Email Workers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Routing"
+        },
+        {
+          "title": "Processing"
+        }
+      ]
+    },
+    {
+      "title": "Security & Performance",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Workers Security Model"
+        },
+        {
+          "title": "Isolates Architecture"
+        },
+        {
+          "title": "Web Security Headers"
+        },
+        {
+          "title": "Rate Limiting"
+        },
+        {
+          "title": "Cache API"
+        },
+        {
+          "title": "HTML Rewriting"
+        },
+        {
+          "title": "Edge SSL/TLS"
+        },
+        {
+          "title": "Bot Management"
+        }
+      ]
+    },
+    {
+      "title": "Integration & Workflows",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pages Functions"
+        },
+        {
+          "title": "Service Bindings"
+        },
+        {
+          "title": "Inter Worker Communication"
+        },
+        {
+          "title": "External API Integration"
+        },
+        {
+          "title": "Webhook Handling"
+        },
+        {
+          "title": "Event-driven Architectures"
+        }
+      ]
+    },
+    {
+      "title": "Development Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Filtering"
+        },
+        {
+          "title": "Wrangler"
+        },
+        {
+          "title": "Miniflare"
+        },
+        {
+          "title": "DevTools"
+        },
+        {
+          "title": "Testing Frameworks"
+        },
+        {
+          "title": "Monitoring Tools"
+        },
+        {
+          "title": "Debugging Techniques"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+{
+  "title": "PostgreSQL DBA",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Relational Databases?"
+        },
+        {
+          "title": "RDBMS Benefits and Limitations"
+        },
+        {
+          "title": "PostgreSQL vs NoSQL Databases"
+        },
+        {
+          "title": "PostgreSQL vs Other RDBMS"
+        }
+      ]
+    },
+    {
+      "title": "Basic RDBMS Concepts"
+    },
+    {
+      "title": "Object Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Queries"
+        },
+        {
+          "title": "Data Types"
+        },
+        {
+          "title": "Rows"
+        },
+        {
+          "title": "Columns"
+        },
+        {
+          "title": "Tables"
+        },
+        {
+          "title": "Schemas"
+        },
+        {
+          "title": "Databases"
+        }
+      ]
+    },
+    {
+      "title": "High Level Database Concepts",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ACID"
+        },
+        {
+          "title": "MVCC"
+        },
+        {
+          "title": "Transactions"
+        },
+        {
+          "title": "Write-ahead Log"
+        },
+        {
+          "title": "Query Processing"
+        },
+        {
+          "title": "DDL Queries",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Querying Data"
+            },
+            {
+              "title": "For Schemas"
+            },
+            {
+              "title": "Filtering Data"
+            },
+            {
+              "title": "ForTables"
+            },
+            {
+              "title": "Data Types"
+            },
+            {
+              "title": "Modifying Data"
+            },
+            {
+              "title": "Joining Tables"
+            },
+            {
+              "title": "Import / Export Using `COPY`"
+            }
+          ]
+        },
+        {
+          "title": "Advanced Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CTE"
+            },
+            {
+              "title": "Transactions"
+            },
+            {
+              "title": "Lateral Join"
+            },
+            {
+              "title": "Subqueries"
+            },
+            {
+              "title": "Set Operations"
+            },
+            {
+              "title": "Grouping"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Relational Model",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Domains"
+        },
+        {
+          "title": "Attributes"
+        },
+        {
+          "title": "Tuples"
+        },
+        {
+          "title": "Relations"
+        },
+        {
+          "title": "Constraints"
+        },
+        {
+          "title": "NULL"
+        },
+        {
+          "title": "Using Docker"
+        },
+        {
+          "title": "Package Managers"
+        }
+      ]
+    },
+    {
+      "title": "Installation and Setup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Managing Postgres",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Using `systemd`"
+            },
+            {
+              "title": "Using `pg_ctl`"
+            },
+            {
+              "title": "Using `pg_ctlcluster`"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn SQL"
+    },
+    {
+      "title": "Configuring",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Connect using `psql`"
+        },
+        {
+          "title": "Deployment in Cloud"
+        },
+        {
+          "title": "Reporting Logging & Statistics"
+        },
+        {
+          "title": "Adding Extra Extensions"
+        },
+        {
+          "title": "Default Privileges"
+        },
+        {
+          "title": "Resource Usage"
+        },
+        {
+          "title": "Configuration Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Salt"
+            },
+            {
+              "title": "Ansible"
+            },
+            {
+              "title": "Chef"
+            },
+            {
+              "title": "Puppet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Grant / Revoke"
+        },
+        {
+          "title": "Write-ahead Log"
+        },
+        {
+          "title": "Object Privileges"
+        },
+        {
+          "title": "Vacuums"
+        },
+        {
+          "title": "Replication"
+        },
+        {
+          "title": "Query Planner"
+        },
+        {
+          "title": "Advanced Topics"
+        },
+        {
+          "title": "Authentication Models"
+        },
+        {
+          "title": "Checkpoints / Background Writer"
+        },
+        {
+          "title": "Row-Level Security"
+        },
+        {
+          "title": "Roles"
+        },
+        {
+          "title": "pg_hba.conf"
+        },
+        {
+          "title": "SSL Settings"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SELinux"
+        },
+        {
+          "title": "Anonymization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PostgreSQL Anonymizer"
+            }
+          ]
+        },
+        {
+          "title": "3rd Party",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "pg_dump"
+            },
+            {
+              "title": "barman"
+            },
+            {
+              "title": "WAL-G"
+            },
+            {
+              "title": "pg_restore"
+            },
+            {
+              "title": "pgbackrest"
+            },
+            {
+              "title": "pg_basebackup"
+            },
+            {
+              "title": "pg_probackup"
+            },
+            {
+              "title": "Backup Validation Procedures"
+            }
+          ]
+        },
+        {
+          "title": "Builtin Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "pg_dumpall"
+            }
+          ]
+        },
+        {
+          "title": "Upgrade Procedures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Using `pg_upgrade`"
+            },
+            {
+              "title": "Using Logical Replication"
+            }
+          ]
+        },
+        {
+          "title": "Cluster Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Patroni"
+            },
+            {
+              "title": "Patroni Alternatives"
+            }
+          ]
+        },
+        {
+          "title": "Replication",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Logical Replication"
+            },
+            {
+              "title": "Streaming Replication"
+            }
+          ]
+        },
+        {
+          "title": "Connection Pooling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PgBouncer"
+            },
+            {
+              "title": "PgBouncer Alternatives"
+            }
+          ]
+        },
+        {
+          "title": "Kubernetes Deployment",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Simple Stateful Setup"
+            },
+            {
+              "title": "Helm"
+            },
+            {
+              "title": "Operators"
+            }
+          ]
+        },
+        {
+          "title": "Monitoring",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prometheus"
+            },
+            {
+              "title": "Zabbix"
+            },
+            {
+              "title": "temBoard"
+            },
+            {
+              "title": "check_pgactivity"
+            },
+            {
+              "title": "check_pgbackrest"
+            },
+            {
+              "title": "Resource Usage / Provisioning / Capacity Planning"
+            }
+          ]
+        },
+        {
+          "title": "Load Balancing / Discovery",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Consul"
+            },
+            {
+              "title": "HAProxy"
+            },
+            {
+              "title": "KeepAlived"
+            },
+            {
+              "title": "Etcd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn to Automate",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shell Scripts"
+        },
+        {
+          "title": "Any Programming Language"
+        },
+        {
+          "title": "Data and Processing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bulk Loading / Processing Data"
+            },
+            {
+              "title": "Data Partitioning"
+            },
+            {
+              "title": "Sharding Patterns"
+            },
+            {
+              "title": "Normalization / Normal Forms"
+            }
+          ]
+        },
+        {
+          "title": "Migrations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Practical Patterns / Antipatterns"
+            },
+            {
+              "title": "Migration Related Tools"
+            }
+          ]
+        },
+        {
+          "title": "Queues",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Patterns / Antipatterns"
+            },
+            {
+              "title": "PgQ"
+            }
+          ]
+        },
+        {
+          "title": "Low Level Internals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Processes & Memory Architecture"
+            },
+            {
+              "title": "Vacuum Processing"
+            },
+            {
+              "title": "Buffer Management"
+            },
+            {
+              "title": "Lock Management"
+            },
+            {
+              "title": "Physical Storage and File Layout"
+            },
+            {
+              "title": "System Catalog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SQL Query Patterns / Anti-patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "PL/pgSQL"
+        },
+        {
+          "title": "Per-User, Per-Database Setting"
+        },
+        {
+          "title": "Procedures and Functions"
+        },
+        {
+          "title": "Storage Parameters"
+        },
+        {
+          "title": "Triggers"
+        },
+        {
+          "title": "Recursive CTE"
+        },
+        {
+          "title": "Workload-Dependant Tuning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OLTP"
+            },
+            {
+              "title": "OLAP"
+            },
+            {
+              "title": "HTAP"
+            }
+          ]
+        },
+        {
+          "title": "Aggregate and Window functions"
+        },
+        {
+          "title": "Query Analysis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "EXPLAIN"
+            },
+            {
+              "title": "Depesz"
+            },
+            {
+              "title": "PEV2"
+            },
+            {
+              "title": "Tensor"
+            }
+          ]
+        },
+        {
+          "title": "Operating System Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "sysstat"
+            },
+            {
+              "title": "iotop"
+            }
+          ]
+        },
+        {
+          "title": "Posgres System Views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "pg_stat_activity"
+            },
+            {
+              "title": "pg_stat_statements"
+            }
+          ]
+        },
+        {
+          "title": "Profiling Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "top"
+            },
+            {
+              "title": "perf-tools"
+            },
+            {
+              "title": "gdb"
+            },
+            {
+              "title": "strace"
+            },
+            {
+              "title": "Core Dumps"
+            },
+            {
+              "title": "pgCluu"
+            },
+            {
+              "title": "ebpf"
+            },
+            {
+              "title": "pgBadger"
+            },
+            {
+              "title": "awk"
+            }
+          ]
+        },
+        {
+          "title": "Log Analysis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "grep"
+            },
+            {
+              "title": "sed"
+            }
+          ]
+        },
+        {
+          "title": "Techniques",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "explain.dalibo.com"
+            },
+            {
+              "title": "USE"
+            },
+            {
+              "title": "RED"
+            },
+            {
+              "title": "pgcenter"
+            },
+            {
+              "title": "Golden Signals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Schema Design Patterns / Anti-patterns"
+    },
+    {
+      "title": "Indexes and their Usecases",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SQL Optimization Techniques",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "BRIN"
+            },
+            {
+              "title": "Hash"
+            },
+            {
+              "title": "GIN"
+            }
+          ]
+        },
+        {
+          "title": "B-Tree"
+        },
+        {
+          "title": "GiST"
+        },
+        {
+          "title": "SP-GiST"
+        }
+      ]
+    },
+    {
+      "title": "Get Involved in Development",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mailing Lists"
+        },
+        {
+          "title": "Reviewing Patches"
+        },
+        {
+          "title": "Writing Patches"
+        }
+      ]
+    }
+  ]
+}

@@ -3,10 +3,10 @@
     "slug": "forward-deployed-engineer",
     "title": "Forward Deployed Engineer",
     "description": "Step-by-step guide to becoming a Forward Deployed Engineer in 2026",
-    "extracted_at": "2026-10-29T01:04:05.214941+00:00",
+    "extracted_at": "2026-11-05T02:14:58.738998+00:00",
     "source_api": "https://roadmap.sh/api/v1-official-roadmap/forward-deployed-engineer",
     "total_topics": 21,
-    "total_subtopics": 73
+    "total_subtopics": 75
   },
   "tree": {
     "title": "Forward Deployed Engineer",
@@ -40,7 +40,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/introduction@PBtnaTE_5AMOa5mxbhoT2.md",
-        "subtopics_count": 9,
+        "subtopics_count": 4,
         "subtopics": [
           {
             "id": "XjxnVjO0fR2XNzBUSzA4L",
@@ -64,50 +64,161 @@
                 "url": "https://www.sundeepteki.org/advice/the-definitive-guide-to-forward-deployed-engineer-interviews-in-2026"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/from-x-to-fde@XjxnVjO0fR2XNzBUSzA4L.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/from-x-to-fde@XjxnVjO0fR2XNzBUSzA4L.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
-            "id": "3KTzi-jLNFLvVKtvplMgZ",
-            "name": "Delta",
-            "type": "subtopic",
-            "description": "The Delta is the original term Palantir used for what is now called an FDE. It refers to the gap between what a software product does out of the box and what a specific customer actually needs. A Delta is both a role (the engineer who closes that gap) and a concept (the custom work required to make a product work in a real environment). In FDE interviews, you may be asked to identify the Delta in a given customer scenario, meaning the specific technical or workflow gap that needs to be bridged.",
-            "resources": [
+            "id": "E9LIQBR4Dg50e4atHROEl",
+            "name": "FDE Glossary",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 6,
+            "subtopics": [
               {
-                "type": "article",
-                "title": "A Comprehensive Analysis of Palantir’s Forward Deployed Engineering Model",
-                "url": "https://medium.com/activated-thinker/a-comprehensive-analysis-of-palantirs-forward-deployed-engineering-model-4502a036b5e4"
+                "id": "3KTzi-jLNFLvVKtvplMgZ",
+                "name": "Delta",
+                "type": "subtopic",
+                "description": "The Delta is the original term Palantir used for what is now called an FDE. It refers to the gap between what a software product does out of the box and what a specific customer actually needs. A Delta is both a role (the engineer who closes that gap) and a concept (the custom work required to make a product work in a real environment). In FDE interviews, you may be asked to identify the Delta in a given customer scenario, meaning the specific technical or workflow gap that needs to be bridged.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "A Comprehensive Analysis of Palantir’s Forward Deployed Engineering Model",
+                    "url": "https://medium.com/activated-thinker/a-comprehensive-analysis-of-palantirs-forward-deployed-engineering-model-4502a036b5e4"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How Palantir Invented the Forward Deployed Engineer Model and Why AI Startups Are Adopting It",
+                    "url": "https://fde.academy/blog/how-palantir-invented-the-forward-deployed-engineer-model"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/delta@3KTzi-jLNFLvVKtvplMgZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
               },
               {
-                "type": "article",
-                "title": "How Palantir Invented the Forward Deployed Engineer Model and Why AI Startups Are Adopting It",
-                "url": "https://fde.academy/blog/how-palantir-invented-the-forward-deployed-engineer-model"
+                "id": "cpexsDyRMgtGcQqhwx3Yn",
+                "name": "UAT",
+                "type": "subtopic",
+                "description": "User Acceptance Testing (UAT) is the process by which a customer's own team validates that a system works correctly before it goes into production. It typically involves preparing test scripts, defining acceptance criteria, and supporting the customer during testing. Passing UAT is usually the formal gate before a system is considered delivered, and it is often where last-minute scope issues surface.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What is User Acceptance Testing (UAT)?",
+                    "url": "https://www.guru99.com/user-acceptance-testing.html"
+                  },
+                  {
+                    "type": "article",
+                    "title": "User Acceptance Testing (UAT): Definition, Types & Best Practices",
+                    "url": "https://www.splunk.com/en_us/blog/learn/user-acceptance-testing-uat.html"
+                  },
+                  {
+                    "type": "video",
+                    "title": "How to plan your UAT",
+                    "url": "https://www.youtube.com/watch?v=AU8SV7091-s"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/uat@cpexsDyRMgtGcQqhwx3Yn.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "bsEgOaC-vIliEoGiuJT6u",
+                "name": "Last-Mile Integration",
+                "type": "subtopic",
+                "description": "Last-mile integration refers to the final set of connections between a product and the specific systems, data sources, and workflows of a customer environment. It is called last-mile because it is often the shortest but hardest part of a deployment: the product works in general, but making it work with this particular customer's setup requires custom engineering.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What a forward deployed engineer does, and how to tell if you are ready",
+                    "url": "https://www.extendfuture.com/blog/forward-deployed-engineer/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "The Last Mile of AI: Why Forward Deployed Engineers Are Becoming the Most Critical Role in Enterprise AI Delivery",
+                    "url": "https://www.linkedin.com/pulse/last-mile-ai-why-forward-deployed-engineers-becoming-gottumukkala-7a79c/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is a Forward Deployed Engineer(FDE)? The \"Last Mile\" Special Ops of the AI Revolution",
+                    "url": "https://blog.mrprompty.com/what-is-a-forward-deployed-engineer-fde-the-last-mile-special-ops-of-the-ai-revolution/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/last-mile-integration@bsEgOaC-vIliEoGiuJT6u.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "7ftuUKj-IHxdBa5TPT_uz",
+                "name": "Day 2 Operations",
+                "type": "subtopic",
+                "description": "Day 2 Operations refers to everything that happens after a system goes live. Day 1 is the launch. Day 2 is the ongoing work of keeping the system running, monitoring for failures, handling edge cases that were not anticipated during development, and responding to feedback from real users.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What are Day-2 Operations?",
+                    "url": "https://www.cloudthinker.io/what-is-day-2-operations"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Day 2 Operations: A Practical Guide for Managing Post-Deployment Complexity",
+                    "url": "https://www.cycloid.io/blog/day-2-operations-a-practical-guide-for-managing-post-deployment-complexity/"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/day-2-operations@7ftuUKj-IHxdBa5TPT_uz.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "Ssi6dE8eDVxN6cStem3bY",
+                "name": "Productized Consulting",
+                "type": "subtopic",
+                "description": "Productized consulting refers to a model where a consulting engagement delivers not just advice or a custom solution but a repeatable, packaged system that can be redeployed with other customers. It means building in a way that abstracts customer-specific details so the core architecture can be reused across similar engagements.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "How to productize consulting services: A strategic guide",
+                    "url": "https://www.naviu.tech/blog/how-to-productize-consulting-services"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Consultant’s Guide to Productization: How To Productize Consulting Services",
+                    "url": "https://www.consultingsuccess.com/consultants-guide-to-productization"
+                  },
+                  {
+                    "type": "video",
+                    "title": "How To Productize Your Consulting Services",
+                    "url": "https://www.youtube.com/watch?v=CltfhWVp9p8"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/productized-consulting@Ssi6dE8eDVxN6cStem3bY.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "KGT-rraH93uw_e9L6Lcyy",
+                "name": "Embedded Engineering",
+                "type": "subtopic",
+                "description": "Embedded engineering describes the physical and organizational model of an FDE engagement: the engineer is embedded inside the customer's team, not working remotely or at arm's length. This means joining the customer's Slack, attending their standups, working in their codebase, and being present in the environment where the problems actually live.",
+                "resources": [
+                  {
+                    "type": "article",
+                    "title": "What Is Forward Deployment Engineering?",
+                    "url": "https://optywise.com/forward-deployment-engineering"
+                  },
+                  {
+                    "type": "article",
+                    "title": "Forward Deployed AI Engineers: What They Are and When You Need One",
+                    "url": "https://www.futureproofing.dev/resources/ai-native-team/forward-deployed-ai-engineers"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/embedded-engineering@KGT-rraH93uw_e9L6Lcyy.md",
+                "subtopics_count": 0,
+                "subtopics": []
               }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/delta@3KTzi-jLNFLvVKtvplMgZ.md"
-          },
-          {
-            "id": "cpexsDyRMgtGcQqhwx3Yn",
-            "name": "UAT",
-            "type": "subtopic",
-            "description": "User Acceptance Testing (UAT) is the process by which a customer's own team validates that a system works correctly before it goes into production. It typically involves preparing test scripts, defining acceptance criteria, and supporting the customer during testing. Passing UAT is usually the formal gate before a system is considered delivered, and it is often where last-minute scope issues surface.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is User Acceptance Testing (UAT)?",
-                "url": "https://www.guru99.com/user-acceptance-testing.html"
-              },
-              {
-                "type": "article",
-                "title": "User Acceptance Testing (UAT): Definition, Types & Best Practices",
-                "url": "https://www.splunk.com/en_us/blog/learn/user-acceptance-testing-uat.html"
-              },
-              {
-                "type": "video",
-                "title": "How to plan your UAT",
-                "url": "https://www.youtube.com/watch?v=AU8SV7091-s"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/uat@cpexsDyRMgtGcQqhwx3Yn.md"
+            ]
           },
           {
             "id": "YNaf7swqsvYaXRK6uevdv",
@@ -131,31 +242,9 @@
                 "url": "https://www.youtube.com/watch?v=AD-EmZ3v6-g"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/roles--responsabilities@YNaf7swqsvYaXRK6uevdv.md"
-          },
-          {
-            "id": "bsEgOaC-vIliEoGiuJT6u",
-            "name": "Last-Mile Integration",
-            "type": "subtopic",
-            "description": "Last-mile integration refers to the final set of connections between a product and the specific systems, data sources, and workflows of a customer environment. It is called last-mile because it is often the shortest but hardest part of a deployment: the product works in general, but making it work with this particular customer's setup requires custom engineering.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What a forward deployed engineer does, and how to tell if you are ready",
-                "url": "https://www.extendfuture.com/blog/forward-deployed-engineer/"
-              },
-              {
-                "type": "article",
-                "title": "The Last Mile of AI: Why Forward Deployed Engineers Are Becoming the Most Critical Role in Enterprise AI Delivery",
-                "url": "https://www.linkedin.com/pulse/last-mile-ai-why-forward-deployed-engineers-becoming-gottumukkala-7a79c/"
-              },
-              {
-                "type": "article",
-                "title": "What is a Forward Deployed Engineer(FDE)? The \"Last Mile\" Special Ops of the AI Revolution",
-                "url": "https://blog.mrprompty.com/what-is-a-forward-deployed-engineer-fde-the-last-mile-special-ops-of-the-ai-revolution/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/last-mile-integration@bsEgOaC-vIliEoGiuJT6u.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/roles--responsabilities@YNaf7swqsvYaXRK6uevdv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "YCgynnhFV1SBxRXiC87me",
@@ -179,69 +268,9 @@
                 "url": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/fde-tiers@YCgynnhFV1SBxRXiC87me.md"
-          },
-          {
-            "id": "7ftuUKj-IHxdBa5TPT_uz",
-            "name": "Day 2 Operations",
-            "type": "subtopic",
-            "description": "Day 2 Operations refers to everything that happens after a system goes live. Day 1 is the launch. Day 2 is the ongoing work of keeping the system running, monitoring for failures, handling edge cases that were not anticipated during development, and responding to feedback from real users.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What are Day-2 Operations?",
-                "url": "https://www.cloudthinker.io/what-is-day-2-operations"
-              },
-              {
-                "type": "article",
-                "title": "Day 2 Operations: A Practical Guide for Managing Post-Deployment Complexity",
-                "url": "https://www.cycloid.io/blog/day-2-operations-a-practical-guide-for-managing-post-deployment-complexity/"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/day-2-operations@7ftuUKj-IHxdBa5TPT_uz.md"
-          },
-          {
-            "id": "Ssi6dE8eDVxN6cStem3bY",
-            "name": "Productized Consulting",
-            "type": "subtopic",
-            "description": "Productized consulting refers to a model where a consulting engagement delivers not just advice or a custom solution but a repeatable, packaged system that can be redeployed with other customers. It means building in a way that abstracts customer-specific details so the core architecture can be reused across similar engagements.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "How to productize consulting services: A strategic guide",
-                "url": "https://www.naviu.tech/blog/how-to-productize-consulting-services"
-              },
-              {
-                "type": "article",
-                "title": "Consultant’s Guide to Productization: How To Productize Consulting Services",
-                "url": "https://www.consultingsuccess.com/consultants-guide-to-productization"
-              },
-              {
-                "type": "video",
-                "title": "How To Productize Your Consulting Services",
-                "url": "https://www.youtube.com/watch?v=CltfhWVp9p8"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/productized-consulting@Ssi6dE8eDVxN6cStem3bY.md"
-          },
-          {
-            "id": "KGT-rraH93uw_e9L6Lcyy",
-            "name": "Embedded Engineering",
-            "type": "subtopic",
-            "description": "Embedded engineering describes the physical and organizational model of an FDE engagement: the engineer is embedded inside the customer's team, not working remotely or at arm's length. This means joining the customer's Slack, attending their standups, working in their codebase, and being present in the environment where the problems actually live.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What Is Forward Deployment Engineering?",
-                "url": "https://optywise.com/forward-deployment-engineering"
-              },
-              {
-                "type": "article",
-                "title": "Forward Deployed AI Engineers: What They Are and When You Need One",
-                "url": "https://www.futureproofing.dev/resources/ai-native-team/forward-deployed-ai-engineers"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/embedded-engineering@KGT-rraH93uw_e9L6Lcyy.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/fde-tiers@YCgynnhFV1SBxRXiC87me.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -268,11 +297,11 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/learn-a-language@nRqHDTqV9C0D7JdA-zcWR.md",
-        "subtopics_count": 6,
+        "subtopics_count": 4,
         "subtopics": [
           {
             "id": "ODruinJ00ZWpBlszIZX69",
-            "name": "Python ",
+            "name": "Python",
             "type": "subtopic",
             "description": "Python is a general-purpose programming language known for its readable syntax and broad ecosystem. It is widely used in web development, data engineering, scripting, automation, and AI/ML workloads. Its large standard library and active package ecosystem make it practical for everything from quick scripts to large production systems.",
             "resources": [
@@ -297,7 +326,9 @@
                 "url": "https://www.youtube.com/watch?v=4M87qBgpafk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/python@ODruinJ00ZWpBlszIZX69.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/python@ODruinJ00ZWpBlszIZX69.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "U1yJGtIH4MgMqmbHS_wKf",
@@ -336,7 +367,9 @@
                 "url": "https://www.youtube.com/watch?v=ZvZ7gvcmPmI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/javascript--typescript@U1yJGtIH4MgMqmbHS_wKf.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/javascript--typescript@U1yJGtIH4MgMqmbHS_wKf.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "qizDxdlyDmdlatQIAKyuE",
@@ -365,7 +398,9 @@
                 "url": "https://www.youtube.com/watch?v=-xRfJcwhy7A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/java--scala@qizDxdlyDmdlatQIAKyuE.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/java--scala@qizDxdlyDmdlatQIAKyuE.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "bUJu0cW5BvXxyjM59PK2x",
@@ -394,65 +429,9 @@
                 "url": "https://www.youtube.com/watch?v=8uiZC0l4Ajw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/go@bUJu0cW5BvXxyjM59PK2x.md"
-          },
-          {
-            "id": "O5jddHR_1FuQstAzf2Fna",
-            "name": "Rust",
-            "type": "subtopic",
-            "description": "Rust is a systems programming language that focuses on safety, speed, and concurrency. It manages memory through a unique ownership model with strict compiler checks, which allows developers to prevent common bugs like null pointer dereferences and buffer overflows without needing a garbage collector. It offers high-level abstractions with the performance of low-level languages like C++, enabling the creation of efficient and reliable software for performance-critical applications.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Rust Roadmap",
-                "url": "https://roadmap.sh/rust"
-              },
-              {
-                "type": "official",
-                "title": "Rust by Example",
-                "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
-              },
-              {
-                "type": "opensource",
-                "title": "Rust Book",
-                "url": "https://edu.anarcho-copy.org/Programming%20Languages/Rust/rust-programming-language-steve-klabnik.pdf"
-              },
-              {
-                "type": "video",
-                "title": "Rust Crash Course Tutorial for Beginners",
-                "url": "https://www.youtube.com/playlist?list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/rust@O5jddHR_1FuQstAzf2Fna.md"
-          },
-          {
-            "id": "KfMUR-vU8CHyef0HQOIdg",
-            "name": "C++",
-            "type": "subtopic",
-            "description": "C++ is a high-performance, statically typed language that gives developers fine-grained control over memory and system resources. It is used in systems programming, game engines, embedded software, and performance-critical applications. It supports both procedural and object-oriented programming styles.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated C++ Developer Roadmap",
-                "url": "https://roadmap.sh/cpp"
-              },
-              {
-                "type": "article",
-                "title": "Learn C++",
-                "url": "https://www.learncpp.com/"
-              },
-              {
-                "type": "article",
-                "title": "C++ vs. C: When (and when not) to use each language",
-                "url": "https://roadmap.sh/cpp/vs-c"
-              },
-              {
-                "type": "video",
-                "title": "C++ Tutorial for Beginners - Full Course",
-                "url": "https://youtu.be/vLnPwxZdW4Y"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/c@KfMUR-vU8CHyef0HQOIdg.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/go@bUJu0cW5BvXxyjM59PK2x.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -484,8 +463,71 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/dsa--system-design@aqrK4e6B8LFvFimKoqCNF.md",
-        "subtopics_count": 0,
-        "subtopics": []
+        "subtopics_count": 2,
+        "subtopics": [
+          {
+            "id": "O5jddHR_1FuQstAzf2Fna",
+            "name": "Rust",
+            "type": "subtopic",
+            "description": "Rust is a systems programming language that focuses on safety, speed, and concurrency. It manages memory through a unique ownership model with strict compiler checks, which allows developers to prevent common bugs like null pointer dereferences and buffer overflows without needing a garbage collector. It offers high-level abstractions with the performance of low-level languages like C++, enabling the creation of efficient and reliable software for performance-critical applications.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Rust Roadmap",
+                "url": "https://roadmap.sh/rust"
+              },
+              {
+                "type": "official",
+                "title": "Rust by Example",
+                "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+              },
+              {
+                "type": "opensource",
+                "title": "Rust Book",
+                "url": "https://edu.anarcho-copy.org/Programming%20Languages/Rust/rust-programming-language-steve-klabnik.pdf"
+              },
+              {
+                "type": "video",
+                "title": "Rust Crash Course Tutorial for Beginners",
+                "url": "https://www.youtube.com/playlist?list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/rust@O5jddHR_1FuQstAzf2Fna.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "KfMUR-vU8CHyef0HQOIdg",
+            "name": "C++",
+            "type": "subtopic",
+            "description": "C++ is a high-performance, statically typed language that gives developers fine-grained control over memory and system resources. It is used in systems programming, game engines, embedded software, and performance-critical applications. It supports both procedural and object-oriented programming styles.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated C++ Developer Roadmap",
+                "url": "https://roadmap.sh/cpp"
+              },
+              {
+                "type": "article",
+                "title": "Learn C++",
+                "url": "https://www.learncpp.com/"
+              },
+              {
+                "type": "article",
+                "title": "C++ vs. C: When (and when not) to use each language",
+                "url": "https://roadmap.sh/cpp/vs-c"
+              },
+              {
+                "type": "video",
+                "title": "C++ Tutorial for Beginners - Full Course",
+                "url": "https://youtu.be/vLnPwxZdW4Y"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/c@KfMUR-vU8CHyef0HQOIdg.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          }
+        ]
       },
       {
         "id": "8101s5MaG8KQ-EIOQcHLS",
@@ -591,7 +633,9 @@
                 "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA&t=25s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/css@rF75dtVrADi7BRHwzO16V.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/css@rF75dtVrADi7BRHwzO16V.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "7KtMQnYE-0WC3gQtbgUbH",
@@ -620,7 +664,9 @@
                 "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/html@7KtMQnYE-0WC3gQtbgUbH.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/html@7KtMQnYE-0WC3gQtbgUbH.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "4Sapys7HLhU28PMQ3jkqt",
@@ -649,7 +695,9 @@
                 "url": "https://www.youtube.com/watch?v=EerdGm-ehJQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/javascript@4Sapys7HLhU28PMQ3jkqt.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/javascript@4Sapys7HLhU28PMQ3jkqt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "_eDNhYepoGg5xEtVP9vCQ",
@@ -678,7 +726,9 @@
                 "url": "https://www.youtube.com/watch?v=TtPXvEcE11E"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/react@_eDNhYepoGg5xEtVP9vCQ.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/react@_eDNhYepoGg5xEtVP9vCQ.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -708,35 +758,6 @@
         "subtopics_count": 6,
         "subtopics": [
           {
-            "id": "aOVpood08EcWfHsvg1H6n",
-            "name": "Node.js",
-            "type": "subtopic",
-            "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that lets developers run JavaScript on the server side. It uses a non-blocking, event-driven architecture that makes it efficient for I/O-heavy workloads like APIs, real-time applications, and data streaming.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Node.js Developer Roadmap",
-                "url": "https://roadmap.sh/nodejs"
-              },
-              {
-                "type": "official",
-                "title": "Node.js - Getting Started",
-                "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
-              },
-              {
-                "type": "article",
-                "title": "Node.js Introduction",
-                "url": "https://www.w3schools.com/nodejs/nodejs_intro.asp"
-              },
-              {
-                "type": "video",
-                "title": "Node.js Crash Course",
-                "url": "https://www.youtube.com/watch?v=32M1al-Y6Ag"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/nodejs@aOVpood08EcWfHsvg1H6n.md"
-          },
-          {
             "id": "KlbUf_q8hMxia5UxLOY3G",
             "name": "SQL",
             "type": "subtopic",
@@ -763,7 +784,40 @@
                 "url": "https://www.youtube.com/watch?v=p3qvj9hO_Bo"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/sql@KlbUf_q8hMxia5UxLOY3G.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/sql@KlbUf_q8hMxia5UxLOY3G.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "aOVpood08EcWfHsvg1H6n",
+            "name": "Node.js",
+            "type": "subtopic",
+            "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that lets developers run JavaScript on the server side. It uses a non-blocking, event-driven architecture that makes it efficient for I/O-heavy workloads like APIs, real-time applications, and data streaming.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated Node.js Developer Roadmap",
+                "url": "https://roadmap.sh/nodejs"
+              },
+              {
+                "type": "official",
+                "title": "Node.js - Getting Started",
+                "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+              },
+              {
+                "type": "article",
+                "title": "Node.js Introduction",
+                "url": "https://www.w3schools.com/nodejs/nodejs_intro.asp"
+              },
+              {
+                "type": "video",
+                "title": "Node.js Crash Course",
+                "url": "https://www.youtube.com/watch?v=32M1al-Y6Ag"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/nodejs@aOVpood08EcWfHsvg1H6n.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "MzzUMMuXQc-C7_9UkLV-4",
@@ -792,7 +846,9 @@
                 "url": "https://www.youtube.com/watch?v=qw--VYLpxG4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/postgresql@MzzUMMuXQc-C7_9UkLV-4.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/postgresql@MzzUMMuXQc-C7_9UkLV-4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "tEXMziuU8UFl2Er5LoJvD",
@@ -826,7 +882,35 @@
                 "url": "https://www.youtube.com/watch?v=ruz-vK8IesE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/nosql-dbs@tEXMziuU8UFl2Er5LoJvD.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/nosql-dbs@tEXMziuU8UFl2Er5LoJvD.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "3HkClnguwCyjVTRVV4c98",
+            "name": "APIs Design",
+            "type": "subtopic",
+            "description": "API design is the process of defining how services communicate with each other through well-structured interfaces. Good API design involves choosing the right protocol (REST, GraphQL, gRPC), defining clear resource models, handling errors consistently, and versioning carefully. A well-designed API is predictable, easy to use, and stable over time.",
+            "resources": [
+              {
+                "type": "roadmap",
+                "title": "Visit the Dedicated API Design Roadmap",
+                "url": "https://roadmap.sh/api-design"
+              },
+              {
+                "type": "article",
+                "title": "What is API design?",
+                "url": "https://www.ibm.com/think/topics/api-design"
+              },
+              {
+                "type": "video",
+                "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+                "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/apis-design@3HkClnguwCyjVTRVV4c98.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "NN_45roxRWVB2NYUmdZuN",
@@ -855,31 +939,9 @@
                 "url": "https://www.youtube.com/watch?v=5199E50O7SI"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/graphql@NN_45roxRWVB2NYUmdZuN.md"
-          },
-          {
-            "id": "3HkClnguwCyjVTRVV4c98",
-            "name": "APIs Design",
-            "type": "subtopic",
-            "description": "API design is the process of defining how services communicate with each other through well-structured interfaces. Good API design involves choosing the right protocol (REST, GraphQL, gRPC), defining clear resource models, handling errors consistently, and versioning carefully. A well-designed API is predictable, easy to use, and stable over time.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated API Design Roadmap",
-                "url": "https://roadmap.sh/api-design"
-              },
-              {
-                "type": "article",
-                "title": "What is API design?",
-                "url": "https://www.ibm.com/think/topics/api-design"
-              },
-              {
-                "type": "video",
-                "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
-                "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/apis-design@3HkClnguwCyjVTRVV4c98.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/graphql@NN_45roxRWVB2NYUmdZuN.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -925,7 +987,9 @@
                 "url": "https://www.youtube.com/watch?v=CUR6rKrIEGc"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-modeling@gKyndvPYk8SViQuX4x6Wl.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-modeling@gKyndvPYk8SViQuX4x6Wl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wuE44lXPOAuQcMxn45pby",
@@ -954,7 +1018,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLa7VYi0yPIH1MculjFWJxs-aENPxRHHOS"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-pipelines@wuE44lXPOAuQcMxn45pby.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-pipelines@wuE44lXPOAuQcMxn45pby.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Hh1n8Bu06WCntZqRLvGA1",
@@ -978,7 +1044,9 @@
                 "url": "https://www.youtube.com/watch?v=-bSkREem8dM"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-warehouses@Hh1n8Bu06WCntZqRLvGA1.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-warehouses@Hh1n8Bu06WCntZqRLvGA1.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "ZBqPYTyF-o4RLeuhbtCuj",
@@ -1002,7 +1070,9 @@
                 "url": "https://www.youtube.com/playlist?list=PL2IsFZBGM_IHCl9zhRVC1EXTomkEp_1zm"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/spark@ZBqPYTyF-o4RLeuhbtCuj.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/spark@ZBqPYTyF-o4RLeuhbtCuj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "WRmM6EHABFNhkcbsDs-Ho",
@@ -1031,7 +1101,9 @@
                 "url": "https://www.youtube.com/watch?v=IiczxlbQb8s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/airflow@WRmM6EHABFNhkcbsDs-Ho.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/airflow@WRmM6EHABFNhkcbsDs-Ho.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1063,7 +1135,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/ai-engineering-skills@tTTDizQfuACFUoAAsTCt1.md",
-        "subtopics_count": 7,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "aZCmG5rYJgSGnwTNouNvy",
@@ -1087,7 +1159,9 @@
                 "url": "https://www.youtube.com/watch?v=5sLYAQS9sWQ"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/llm-fundamentals@aZCmG5rYJgSGnwTNouNvy.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/llm-fundamentals@aZCmG5rYJgSGnwTNouNvy.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "GvXo2Bw1nRqSWyT96b9m_",
@@ -1111,7 +1185,9 @@
                 "url": "https://www.youtube.com/watch?v=2BpCk4d2Cc0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/prompt-engineering@GvXo2Bw1nRqSWyT96b9m_.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/prompt-engineering@GvXo2Bw1nRqSWyT96b9m_.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "h_8qnxjz9gVgCoezlHEvO",
@@ -1140,7 +1216,35 @@
                 "url": "https://www.youtube.com/watch?v=BBPQYtR7oUk"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/context-engineering@h_8qnxjz9gVgCoezlHEvO.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/context-engineering@h_8qnxjz9gVgCoezlHEvO.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "otaIXT7IDshdXJxrPZtqr",
+            "name": "RAGs",
+            "type": "subtopic",
+            "description": "Retrieval-Augmented Generation (RAG) is a pattern where relevant documents or data are fetched from a knowledge source and injected into a model's context before generating a response. This gives the model access to specific or up-to-date information without requiring fine-tuning. RAG systems typically combine a retrieval step (using embeddings or search) with a generation step (using an LLM).",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is Retrieval-Augmented Generation? - Google",
+                "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation"
+              },
+              {
+                "type": "article",
+                "title": "RAG Explained: Understanding Embeddings, Similarity, and Retrieval",
+                "url": "https://towardsdatascience.com/rag-explained-understanding-embeddings-similarity-and-retrieval/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+              },
+              {
+                "type": "video",
+                "title": "What is Retrieval-Augmented Generation? - IBM",
+                "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/rags@otaIXT7IDshdXJxrPZtqr.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wsxosek5h-zD79jIRvB3q",
@@ -1169,31 +1273,9 @@
                 "url": "https://www.youtube.com/watch?v=mHxLXzYjQRE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/vector-dbs@wsxosek5h-zD79jIRvB3q.md"
-          },
-          {
-            "id": "otaIXT7IDshdXJxrPZtqr",
-            "name": "RAGs",
-            "type": "subtopic",
-            "description": "Retrieval-Augmented Generation (RAG) is a pattern where relevant documents or data are fetched from a knowledge source and injected into a model's context before generating a response. This gives the model access to specific or up-to-date information without requiring fine-tuning. RAG systems typically combine a retrieval step (using embeddings or search) with a generation step (using an LLM).",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is Retrieval-Augmented Generation? - Google",
-                "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation"
-              },
-              {
-                "type": "article",
-                "title": "RAG Explained: Understanding Embeddings, Similarity, and Retrieval",
-                "url": "https://towardsdatascience.com/rag-explained-understanding-embeddings-similarity-and-retrieval/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
-              },
-              {
-                "type": "video",
-                "title": "What is Retrieval-Augmented Generation? - IBM",
-                "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/rags@otaIXT7IDshdXJxrPZtqr.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/vector-dbs@wsxosek5h-zD79jIRvB3q.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "71RdAONPBwnQRWa9kWeit",
@@ -1212,31 +1294,9 @@
                 "url": "https://www.youtube.com/watch?v=aqWXSShwGO0"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/choosing-model-providers@71RdAONPBwnQRWa9kWeit.md"
-          },
-          {
-            "id": "MbW7Q4Zde_b9GzW52oH5D",
-            "name": "Prompt Management",
-            "type": "subtopic",
-            "description": "Prompt management is the systematic process of creating, versioning, testing, and refining the text inputs used to guide large language models toward desired outputs. It involves maintaining a structured library of effective prompt templates, tracking how specific changes in phrasing impact model performance, and integrating these prompts into the application development lifecycle. By treating prompts as code, engineers can ensure consistency across different model versions, optimize for latency and cost, and provide a reliable interface for interacting with generative AI systems.",
-            "resources": [
-              {
-                "type": "article",
-                "title": "What is prompt management? Versioning, collaboration, and deployment for prompts",
-                "url": "https://www.braintrust.dev/articles/what-is-prompt-management"
-              },
-              {
-                "type": "article",
-                "title": "What is Prompt Management?",
-                "url": "https://humanloop.com/blog/prompt-management"
-              },
-              {
-                "type": "video",
-                "title": "Prompt Management 101 - Full Guide for AI Engineers",
-                "url": "https://www.youtube.com/watch?v=Qddc_DNo9qY"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/prompt-management@MbW7Q4Zde_b9GzW52oH5D.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/choosing-model-providers@71RdAONPBwnQRWa9kWeit.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1268,7 +1328,7 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/ai-agents@10CJpvB1Dl1SFN0jrPGpB.md",
-        "subtopics_count": 5,
+        "subtopics_count": 6,
         "subtopics": [
           {
             "id": "axvABWpvFn6jGhtVX5YIb",
@@ -1292,7 +1352,35 @@
                 "url": "https://www.youtube.com/watch?v=FwOTs4UxQS4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/agent-architectures@axvABWpvFn6jGhtVX5YIb.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/agent-architectures@axvABWpvFn6jGhtVX5YIb.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "MbW7Q4Zde_b9GzW52oH5D",
+            "name": "Prompt Management",
+            "type": "subtopic",
+            "description": "Prompt management is the systematic process of creating, versioning, testing, and refining the text inputs used to guide large language models toward desired outputs. It involves maintaining a structured library of effective prompt templates, tracking how specific changes in phrasing impact model performance, and integrating these prompts into the application development lifecycle. By treating prompts as code, engineers can ensure consistency across different model versions, optimize for latency and cost, and provide a reliable interface for interacting with generative AI systems.",
+            "resources": [
+              {
+                "type": "article",
+                "title": "What is prompt management? Versioning, collaboration, and deployment for prompts",
+                "url": "https://www.braintrust.dev/articles/what-is-prompt-management"
+              },
+              {
+                "type": "article",
+                "title": "What is Prompt Management?",
+                "url": "https://humanloop.com/blog/prompt-management"
+              },
+              {
+                "type": "video",
+                "title": "Prompt Management 101 - Full Guide for AI Engineers",
+                "url": "https://www.youtube.com/watch?v=Qddc_DNo9qY"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/prompt-management@MbW7Q4Zde_b9GzW52oH5D.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "vP-x_VlFL5ysVUVTuRXhS",
@@ -1321,7 +1409,9 @@
                 "url": "https://www.youtube.com/watch?v=h8gMhXYAv1k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/tools--functions@vP-x_VlFL5ysVUVTuRXhS.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/tools--functions@vP-x_VlFL5ysVUVTuRXhS.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "x1ssHdRyrjE09dAIGJDS3",
@@ -1350,7 +1440,9 @@
                 "url": "https://www.youtube.com/watch?v=VKPngyO0iKg"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/memory--state@x1ssHdRyrjE09dAIGJDS3.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/memory--state@x1ssHdRyrjE09dAIGJDS3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "PQCIbHisPwhqCREVsEgTI",
@@ -1379,7 +1471,9 @@
                 "url": "https://www.youtube.com/watch?v=cGuyrANVi4A"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/mcp@PQCIbHisPwhqCREVsEgTI.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/mcp@PQCIbHisPwhqCREVsEgTI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "pDB2w6qDVFY9FFoqCX66K",
@@ -1408,7 +1502,9 @@
                 "url": "https://www.youtube.com/watch?v=sWH0T4Zez6I"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/multi-agents@pDB2w6qDVFY9FFoqCX66K.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/multi-agents@pDB2w6qDVFY9FFoqCX66K.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1440,8 +1536,117 @@
           }
         ],
         "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/vibe-coding@OmVYSzwXgYlMG2xz1FsyW.md",
-        "subtopics_count": 6,
+        "subtopics_count": 4,
         "subtopics": [
+          {
+            "id": "xnOP1vdZvEi0jpD7Ux87Z",
+            "name": "AI-Assisted Coding Tools",
+            "type": "group",
+            "description": "",
+            "resources": [],
+            "file_path": null,
+            "subtopics_count": 3,
+            "subtopics": [
+              {
+                "id": "gjPK-grobmB5pB0vc_Ckj",
+                "name": "Claude Code",
+                "type": "subtopic",
+                "description": "Claude Code is an AI coding assistant built on Anthropic's Claude model. It can write, edit, explain, and debug code across a wide range of languages and frameworks, and is designed to handle complex multi-file tasks and refactoring alongside code generation.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated Claude Code Roadmap",
+                    "url": "https://roadmap.sh/claude-code"
+                  },
+                  {
+                    "type": "official",
+                    "title": "Claude Code overview",
+                    "url": "https://code.claude.com/docs/en/overview"
+                  },
+                  {
+                    "type": "official",
+                    "title": "How Claude Code works",
+                    "url": "https://code.claude.com/docs/en/how-claude-code-works"
+                  },
+                  {
+                    "type": "video",
+                    "title": "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)",
+                    "url": "https://www.youtube.com/watch?v=QoQBzR1NIqI"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/claude-code@gjPK-grobmB5pB0vc_Ckj.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "i-0fMVk1wvTcwks-9Nzq7",
+                "name": "Gemini",
+                "type": "subtopic",
+                "description": "Gemini is Google DeepMind's family of multimodal AI models, capable of processing and generating text, code, images, and more. It is available via Google AI Studio and Vertex AI in different sizes with varying tradeoffs in speed and capability.",
+                "resources": [
+                  {
+                    "type": "official",
+                    "title": "Google's Gemini Docs",
+                    "url": "https://workspace.google.com/solutions/ai/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "What is Google Gemini?",
+                    "url": "https://zapier.com/blog/google-gemini/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How To Master Google Gemini in 2026 (Free Course)",
+                    "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/gemini@i-0fMVk1wvTcwks-9Nzq7.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              },
+              {
+                "id": "zfl9PVZgX4yvf9TxCFnEZ",
+                "name": "OpenClaw",
+                "type": "subtopic",
+                "description": "OpenClaw is an AI-assisted development tool designed to automate the integration and interaction between complex software systems and large language models. It functions by providing a structured framework for developers to execute code generation, refactoring, and debugging tasks directly within their existing environment, effectively lowering the barrier for rapid prototyping.",
+                "resources": [
+                  {
+                    "type": "roadmap",
+                    "title": "Visit the Dedicated OpenClaw Roadmap",
+                    "url": "https://roadmap.sh/openclaw"
+                  },
+                  {
+                    "type": "official",
+                    "title": "OpenClaw Docs",
+                    "url": "https://docs.openclaw.ai/"
+                  },
+                  {
+                    "type": "article",
+                    "title": "How to Install OpenClaw: A Complete Setup Guide",
+                    "url": "https://roadmap.sh/openclaw/installation-guide"
+                  },
+                  {
+                    "type": "article",
+                    "title": "OpenClaw Security: 12 Best Practices From Our Experts",
+                    "url": "https://roadmap.sh/openclaw/security-best-practices"
+                  },
+                  {
+                    "type": "article",
+                    "title": "OpenClaw vs. Claude Code: Which AI agent fits your workflow?",
+                    "url": "https://roadmap.sh/openclaw/vs-claude-code"
+                  },
+                  {
+                    "type": "video",
+                    "title": "OpenClaw Tutorial for Beginners - Crash Course",
+                    "url": "https://www.youtube.com/watch?v=u4ydH-QvPeg"
+                  }
+                ],
+                "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/openclaw@zfl9PVZgX4yvf9TxCFnEZ.md",
+                "subtopics_count": 0,
+                "subtopics": []
+              }
+            ]
+          },
           {
             "id": "JTLV9lLF1fKj-8aW_R-hj",
             "name": "Codex",
@@ -1464,36 +1669,9 @@
                 "url": "ttps://www.youtube.com/playlist?list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/codex@JTLV9lLF1fKj-8aW_R-hj.md"
-          },
-          {
-            "id": "gjPK-grobmB5pB0vc_Ckj",
-            "name": "Claude Code",
-            "type": "subtopic",
-            "description": "Claude Code is an AI coding assistant built on Anthropic's Claude model. It can write, edit, explain, and debug code across a wide range of languages and frameworks, and is designed to handle complex multi-file tasks and refactoring alongside code generation.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated Claude Code Roadmap",
-                "url": "https://roadmap.sh/claude-code"
-              },
-              {
-                "type": "official",
-                "title": "Claude Code overview",
-                "url": "https://code.claude.com/docs/en/overview"
-              },
-              {
-                "type": "official",
-                "title": "How Claude Code works",
-                "url": "https://code.claude.com/docs/en/how-claude-code-works"
-              },
-              {
-                "type": "video",
-                "title": "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)",
-                "url": "https://www.youtube.com/watch?v=QoQBzR1NIqI"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/claude-code@gjPK-grobmB5pB0vc_Ckj.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/codex@JTLV9lLF1fKj-8aW_R-hj.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "5wYiyIOLCEUmAz5Sr108f",
@@ -1522,31 +1700,9 @@
                 "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/cursor@5wYiyIOLCEUmAz5Sr108f.md"
-          },
-          {
-            "id": "i-0fMVk1wvTcwks-9Nzq7",
-            "name": "Gemini",
-            "type": "subtopic",
-            "description": "Gemini is Google DeepMind's family of multimodal AI models, capable of processing and generating text, code, images, and more. It is available via Google AI Studio and Vertex AI in different sizes with varying tradeoffs in speed and capability.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "Google's Gemini Docs",
-                "url": "https://workspace.google.com/solutions/ai/"
-              },
-              {
-                "type": "article",
-                "title": "What is Google Gemini?",
-                "url": "https://zapier.com/blog/google-gemini/"
-              },
-              {
-                "type": "article",
-                "title": "How To Master Google Gemini in 2026 (Free Course)",
-                "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/gemini@i-0fMVk1wvTcwks-9Nzq7.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/cursor@5wYiyIOLCEUmAz5Sr108f.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "dDD668SrlaZzoAD0mWBcn",
@@ -1575,46 +1731,9 @@
                 "url": "https://www.youtube.com/watch?v=QzqaZshQcJI&t=91s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/opencode@dDD668SrlaZzoAD0mWBcn.md"
-          },
-          {
-            "id": "zfl9PVZgX4yvf9TxCFnEZ",
-            "name": "OpenClaw",
-            "type": "subtopic",
-            "description": "OpenClaw is an AI-assisted development tool designed to automate the integration and interaction between complex software systems and large language models. It functions by providing a structured framework for developers to execute code generation, refactoring, and debugging tasks directly within their existing environment, effectively lowering the barrier for rapid prototyping.",
-            "resources": [
-              {
-                "type": "roadmap",
-                "title": "Visit the Dedicated OpenClaw Roadmap",
-                "url": "https://roadmap.sh/openclaw"
-              },
-              {
-                "type": "official",
-                "title": "OpenClaw Docs",
-                "url": "https://docs.openclaw.ai/"
-              },
-              {
-                "type": "article",
-                "title": "How to Install OpenClaw: A Complete Setup Guide",
-                "url": "https://roadmap.sh/openclaw/installation-guide"
-              },
-              {
-                "type": "article",
-                "title": "OpenClaw Security: 12 Best Practices From Our Experts",
-                "url": "https://roadmap.sh/openclaw/security-best-practices"
-              },
-              {
-                "type": "article",
-                "title": "OpenClaw vs. Claude Code: Which AI agent fits your workflow?",
-                "url": "https://roadmap.sh/openclaw/vs-claude-code"
-              },
-              {
-                "type": "video",
-                "title": "OpenClaw Tutorial for Beginners - Crash Course",
-                "url": "https://www.youtube.com/watch?v=u4ydH-QvPeg"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/openclaw@zfl9PVZgX4yvf9TxCFnEZ.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/opencode@dDD668SrlaZzoAD0mWBcn.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1660,7 +1779,9 @@
                 "url": "https://www.youtube.com/watch?v=CKC47S92wA4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/working-with-legacy-systems@5flayikfLHbQdXQdN3acM.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/working-with-legacy-systems@5flayikfLHbQdXQdN3acM.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1690,35 +1811,6 @@
         "subtopics_count": 4,
         "subtopics": [
           {
-            "id": "zVl_tprCCMCA7DQXXoJGw",
-            "name": "Azure",
-            "type": "subtopic",
-            "description": "Microsoft Azure is Microsoft's cloud platform with particularly strong adoption in enterprise environments, especially those using Active Directory, Office 365, and .NET. It offers compute, storage, networking, databases, DevOps tooling, and AI services including Azure OpenAI Service.",
-            "resources": [
-              {
-                "type": "official",
-                "title": "What is Azure?",
-                "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
-              },
-              {
-                "type": "official",
-                "title": "Azure Docs",
-                "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
-              },
-              {
-                "type": "video",
-                "title": "Microsoft Azure",
-                "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUKihhGvJw05bU8DhoQMn_ni"
-              },
-              {
-                "type": "video",
-                "title": "Microsoft Azure Fundamentals Certification Course",
-                "url": "https://www.youtube.com/watch?v=5abffC-K40c"
-              }
-            ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/azure@zVl_tprCCMCA7DQXXoJGw.md"
-          },
-          {
             "id": "gN4BwjAFGWyraYh6PXdXv",
             "name": "AWS",
             "type": "subtopic",
@@ -1745,7 +1837,9 @@
                 "url": "https://www.youtube.com/watch?v=3hLmDS179YE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/aws@gN4BwjAFGWyraYh6PXdXv.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/aws@gN4BwjAFGWyraYh6PXdXv.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "oTiY8mTQUIxP70T-vQ1KF",
@@ -1764,7 +1858,40 @@
                 "url": "https://www.huntress.com/cybersecurity-101/topic/what-is-google-cloud-platform"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/gcp@oTiY8mTQUIxP70T-vQ1KF.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/gcp@oTiY8mTQUIxP70T-vQ1KF.md",
+            "subtopics_count": 0,
+            "subtopics": []
+          },
+          {
+            "id": "zVl_tprCCMCA7DQXXoJGw",
+            "name": "Azure",
+            "type": "subtopic",
+            "description": "Microsoft Azure is Microsoft's cloud platform with particularly strong adoption in enterprise environments, especially those using Active Directory, Office 365, and .NET. It offers compute, storage, networking, databases, DevOps tooling, and AI services including Azure OpenAI Service.",
+            "resources": [
+              {
+                "type": "official",
+                "title": "What is Azure?",
+                "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
+              },
+              {
+                "type": "official",
+                "title": "Azure Docs",
+                "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
+              },
+              {
+                "type": "video",
+                "title": "Microsoft Azure",
+                "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUKihhGvJw05bU8DhoQMn_ni"
+              },
+              {
+                "type": "video",
+                "title": "Microsoft Azure Fundamentals Certification Course",
+                "url": "https://www.youtube.com/watch?v=5abffC-K40c"
+              }
+            ],
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/azure@zVl_tprCCMCA7DQXXoJGw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "3LspdlmWTx3ApI76Askce",
@@ -1793,7 +1920,9 @@
                 "url": "https://www.youtube.com/watch?v=7xngnjfIlK4"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/terraform@3LspdlmWTx3ApI76Askce.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/terraform@3LspdlmWTx3ApI76Askce.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1839,7 +1968,9 @@
                 "url": "https://www.youtube.com/watch?v=pg19Z8LL06w"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/docker@RABrqfc3T8NjdJOabl2jV.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/docker@RABrqfc3T8NjdJOabl2jV.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "8sgdY07GymYjXQ2XWzrxl",
@@ -1868,7 +1999,9 @@
                 "url": "https://www.youtube.com/watch?v=X48VuDVv0do"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/kubernetes@8sgdY07GymYjXQ2XWzrxl.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/kubernetes@8sgdY07GymYjXQ2XWzrxl.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -1945,7 +2078,9 @@
                 "url": "https://www.youtube.com/playlist?list=PLEneLIDJFpcA"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/building-eval-pipelines@nqinppM-vkHMf2Rp9314E.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/building-eval-pipelines@nqinppM-vkHMf2Rp9314E.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "Mcpy66swu-PyPF0QOEy8t",
@@ -1969,7 +2104,9 @@
                 "url": "https://www.youtube.com/watch?v=oSjAbx67f0k"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/debugging-agent-logic@Mcpy66swu-PyPF0QOEy8t.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/debugging-agent-logic@Mcpy66swu-PyPF0QOEy8t.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KG8YieOpAPgrdilQhSZih",
@@ -1998,7 +2135,9 @@
                 "url": "https://www.youtube.com/watch?v=_xM8scs4_x4&t=54s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/inference-optimization@KG8YieOpAPgrdilQhSZih.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/inference-optimization@KG8YieOpAPgrdilQhSZih.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2054,7 +2193,9 @@
                 "url": "https://www.youtube.com/watch?v=JfiWi8RjN-8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/devsecops@aLzM7M8UKIw4Kx1nvo1Ei.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/devsecops@aLzM7M8UKIw4Kx1nvo1Ei.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "upn4b8jBWiw1zs6C7dH-i",
@@ -2068,7 +2209,9 @@
                 "url": "https://owasp.org/API-Security/editions/2023/en/0x00-toc/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/api-security@upn4b8jBWiw1zs6C7dH-i.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/api-security@upn4b8jBWiw1zs6C7dH-i.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "wcK8DCAlH0W82qKVqtIOi",
@@ -2097,7 +2240,9 @@
                 "url": "https://roadmap.sh/guides/jwt-authentication"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/authentication@wcK8DCAlH0W82qKVqtIOi.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/authentication@wcK8DCAlH0W82qKVqtIOi.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "IDXv7mdEFDvz9JZQsJONI",
@@ -2126,7 +2271,9 @@
                 "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/ai-governance@IDXv7mdEFDvz9JZQsJONI.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/ai-governance@IDXv7mdEFDvz9JZQsJONI.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "pW5xKU794I8nzrMNFFQB3",
@@ -2150,7 +2297,9 @@
                 "url": "https://www.youtube.com/watch?v=N8xEgSe5RwE"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-privacy--compliance@pW5xKU794I8nzrMNFFQB3.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/data-privacy--compliance@pW5xKU794I8nzrMNFFQB3.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2227,7 +2376,9 @@
                 "url": "https://www.youtube.com/watch?v=8EBWxW5Cn1g"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/requirements-gathering@s4Kooj99igkE02P-D-dAU.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/requirements-gathering@s4Kooj99igkE02P-D-dAU.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "KqQHfy1Z8w-v8p73QkvG5",
@@ -2251,7 +2402,9 @@
                 "url": "https://brainsensei.com/glossary/sequence-activities/"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/scoping--sequencing@KqQHfy1Z8w-v8p73QkvG5.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/scoping--sequencing@KqQHfy1Z8w-v8p73QkvG5.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "eKUy2q5cGskmcg-sAAtYW",
@@ -2270,7 +2423,9 @@
                 "url": "https://www.youtube.com/watch?v=JHSHOAfV-uw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/scope-speed-quality@eKUy2q5cGskmcg-sAAtYW.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/scope-speed-quality@eKUy2q5cGskmcg-sAAtYW.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2316,7 +2471,9 @@
                 "url": "https://www.elementum.ai/blog/workflow-automation-enterprise-guide"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/enterprise-workflow@c8dBwWaKLiW6X2HWfmVJt.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/enterprise-workflow@c8dBwWaKLiW6X2HWfmVJt.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "kyHwTMFBQxbHrGBcv3q0O",
@@ -2340,7 +2497,9 @@
                 "url": "https://miragemetrics.com/guides/forward-deployed-engineering"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/roi--ai-impact@kyHwTMFBQxbHrGBcv3q0O.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/roi--ai-impact@kyHwTMFBQxbHrGBcv3q0O.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "L76T2X7AFpVtpMF9CjBJo",
@@ -2364,7 +2523,9 @@
                 "url": "https://www.youtube.com/watch?v=-tNHplQ_-hw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/stakeholder-management@L76T2X7AFpVtpMF9CjBJo.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/stakeholder-management@L76T2X7AFpVtpMF9CjBJo.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "U2mQX5_XwmW74HFEM1Uzw",
@@ -2388,7 +2549,9 @@
                 "url": "https://formbricks.com/blog/product-feedback-loop"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/product-feedback-loop@U2mQX5_XwmW74HFEM1Uzw.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/product-feedback-loop@U2mQX5_XwmW74HFEM1Uzw.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "8uLQLnTJCWJt90ir-Nemz",
@@ -2412,7 +2575,9 @@
                 "url": "https://www.youtube.com/watch?v=Ae5-shAAU-s&t=17s"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/time-to-value@8uLQLnTJCWJt90ir-Nemz.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/time-to-value@8uLQLnTJCWJt90ir-Nemz.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       },
@@ -2473,7 +2638,9 @@
                 "url": "https://www.youtube.com/watch?v=vT5pcc30Ffw"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/technical-writing@ir0uv9E3flgBz_cHntOf4.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/technical-writing@ir0uv9E3flgBz_cHntOf4.md",
+            "subtopics_count": 0,
+            "subtopics": []
           },
           {
             "id": "-tezsr3BCn6uBq0KQYRT-",
@@ -2492,7 +2659,9 @@
                 "url": "https://planyway.com/blog/executive-reporting"
               }
             ],
-            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/executive-reporting@-tezsr3BCn6uBq0KQYRT-.md"
+            "file_path": "developer-roadmap/roadmaps/forward-deployed-engineer/content/executive-reporting@-tezsr3BCn6uBq0KQYRT-.md",
+            "subtopics_count": 0,
+            "subtopics": []
           }
         ]
       }
@@ -2552,6 +2721,13 @@
         ]
       },
       {
+        "id": "E9LIQBR4Dg50e4atHROEl",
+        "name": "FDE Glossary",
+        "type": "group",
+        "description": "",
+        "resources": []
+      },
+      {
         "id": "3KTzi-jLNFLvVKtvplMgZ",
         "name": "Delta",
         "type": "subtopic",
@@ -2593,29 +2769,6 @@
         ]
       },
       {
-        "id": "YNaf7swqsvYaXRK6uevdv",
-        "name": "Roles & Responsabilities",
-        "type": "subtopic",
-        "description": "The FDE job has three phases: audit, evals, and deployment. In the audit phase, you embed with different teams inside the customer's organization, map their workflows, identify bottlenecks, and decide where AI can create real value and where it cannot. In the evals phase, you build systems to measure whether the AI is actually working, not just whether it produces an answer, but whether it reasons through problems the way a skilled human would. In the deployment phase, you ship the system into production, starting with the smallest possible unit of autonomy and layering on capabilities only after each step is proven to work.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "Forward Deployed Engineer (FDE) : What Is It, Skills and Scope",
-            "url": "https://fde.academy/blog/forward-deployed-engineer"
-          },
-          {
-            "type": "article",
-            "title": "Forward Deployed Engineer: The Complete 2026 Report- Origin, Demand, Roles, Salary & More",
-            "url": "https://www.uplers.com/article/forward-deployed-engineer-guide/"
-          },
-          {
-            "type": "video",
-            "title": "This Is How Forward Deployed Engineering Is Actually Done",
-            "url": "https://www.youtube.com/watch?v=AD-EmZ3v6-g"
-          }
-        ]
-      },
-      {
         "id": "bsEgOaC-vIliEoGiuJT6u",
         "name": "Last-Mile Integration",
         "type": "subtopic",
@@ -2635,29 +2788,6 @@
             "type": "article",
             "title": "What is a Forward Deployed Engineer(FDE)? The \"Last Mile\" Special Ops of the AI Revolution",
             "url": "https://blog.mrprompty.com/what-is-a-forward-deployed-engineer-fde-the-last-mile-special-ops-of-the-ai-revolution/"
-          }
-        ]
-      },
-      {
-        "id": "YCgynnhFV1SBxRXiC87me",
-        "name": "FDE Tiers",
-        "type": "subtopic",
-        "description": "Not all FDE roles are the same. The job market has split into three distinct tiers with different skill requirements. AI lab FDEs need deep ML fluency, strong agent architecture skills, and the ability to help customers adopt models in production. Enterprise software FDEs need data platform depth, integration experience, and the ability to connect a vendor's product to a customer's existing data infrastructure. Consulting and staffing FDEs need broad solutions architecture skills, account management instincts, and the ability to run an end-to-end engagement independently. Knowing which tier you are targeting shapes which parts of this roadmap to prioritize.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "How AI Labs Are Solving The Last Mile Problem",
-            "url": "https://www.forbes.com/sites/gelilabekele/2026/09/04/ai-deployment-and-the-forward-deployed-engineering-model/"
-          },
-          {
-            "type": "article",
-            "title": "Forward Deployed roles: the emerging job family",
-            "url": "https://forwarddeployedcreative.com/forward-deployed-roles/"
-          },
-          {
-            "type": "article",
-            "title": "AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack.",
-            "url": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/"
           }
         ]
       },
@@ -2721,6 +2851,52 @@
         ]
       },
       {
+        "id": "YNaf7swqsvYaXRK6uevdv",
+        "name": "Roles & Responsabilities",
+        "type": "subtopic",
+        "description": "The FDE job has three phases: audit, evals, and deployment. In the audit phase, you embed with different teams inside the customer's organization, map their workflows, identify bottlenecks, and decide where AI can create real value and where it cannot. In the evals phase, you build systems to measure whether the AI is actually working, not just whether it produces an answer, but whether it reasons through problems the way a skilled human would. In the deployment phase, you ship the system into production, starting with the smallest possible unit of autonomy and layering on capabilities only after each step is proven to work.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Forward Deployed Engineer (FDE) : What Is It, Skills and Scope",
+            "url": "https://fde.academy/blog/forward-deployed-engineer"
+          },
+          {
+            "type": "article",
+            "title": "Forward Deployed Engineer: The Complete 2026 Report- Origin, Demand, Roles, Salary & More",
+            "url": "https://www.uplers.com/article/forward-deployed-engineer-guide/"
+          },
+          {
+            "type": "video",
+            "title": "This Is How Forward Deployed Engineering Is Actually Done",
+            "url": "https://www.youtube.com/watch?v=AD-EmZ3v6-g"
+          }
+        ]
+      },
+      {
+        "id": "YCgynnhFV1SBxRXiC87me",
+        "name": "FDE Tiers",
+        "type": "subtopic",
+        "description": "Not all FDE roles are the same. The job market has split into three distinct tiers with different skill requirements. AI lab FDEs need deep ML fluency, strong agent architecture skills, and the ability to help customers adopt models in production. Enterprise software FDEs need data platform depth, integration experience, and the ability to connect a vendor's product to a customer's existing data infrastructure. Consulting and staffing FDEs need broad solutions architecture skills, account management instincts, and the ability to run an end-to-end engagement independently. Knowing which tier you are targeting shapes which parts of this roadmap to prioritize.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How AI Labs Are Solving The Last Mile Problem",
+            "url": "https://www.forbes.com/sites/gelilabekele/2026/09/04/ai-deployment-and-the-forward-deployed-engineering-model/"
+          },
+          {
+            "type": "article",
+            "title": "Forward Deployed roles: the emerging job family",
+            "url": "https://forwarddeployedcreative.com/forward-deployed-roles/"
+          },
+          {
+            "type": "article",
+            "title": "AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack.",
+            "url": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/"
+          }
+        ]
+      },
+      {
         "id": "nRqHDTqV9C0D7JdA-zcWR",
         "name": "Learn a Language",
         "type": "topic",
@@ -2745,7 +2921,7 @@
       },
       {
         "id": "ODruinJ00ZWpBlszIZX69",
-        "name": "Python ",
+        "name": "Python",
         "type": "subtopic",
         "description": "Python is a general-purpose programming language known for its readable syntax and broad ecosystem. It is widely used in web development, data engineering, scripting, automation, and AI/ML workloads. Its large standard library and active package ecosystem make it practical for everything from quick scripts to large production systems.",
         "resources": [
@@ -2866,6 +3042,34 @@
         ]
       },
       {
+        "id": "aqrK4e6B8LFvFimKoqCNF",
+        "name": "DSA & System Design",
+        "type": "topic",
+        "description": "Data structures are ways of organizing data in memory, such as arrays, linked lists, trees, graphs, and hash maps. Algorithms are step-by-step procedures for solving problems, like sorting, searching, or traversal. Knowing these well means being able to evaluate performance characteristics of code, debug inefficiencies in customer systems, and reason clearly about solutions to technical problems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is System Design?",
+            "url": "https://algomaster.io/learn/system-design/what-is-system-design"
+          },
+          {
+            "type": "article",
+            "title": "Data Structures and Algorithms (DSA) Tutorial",
+            "url": "https://www.tutorialspoint.com/data_structures_algorithms/index.htm"
+          },
+          {
+            "type": "video",
+            "title": "What Are Data Structures?",
+            "url": "https://www.youtube.com/watch?v=bum_19loj9A"
+          },
+          {
+            "type": "video",
+            "title": "Learn Data Structures and Algorithms Visually – Crash Course",
+            "url": "https://www.youtube.com/watch?v=RpLnQnurpLY"
+          }
+        ]
+      },
+      {
         "id": "O5jddHR_1FuQstAzf2Fna",
         "name": "Rust",
         "type": "subtopic",
@@ -2918,34 +3122,6 @@
             "type": "video",
             "title": "C++ Tutorial for Beginners - Full Course",
             "url": "https://youtu.be/vLnPwxZdW4Y"
-          }
-        ]
-      },
-      {
-        "id": "aqrK4e6B8LFvFimKoqCNF",
-        "name": "DSA & System Design",
-        "type": "topic",
-        "description": "Data structures are ways of organizing data in memory, such as arrays, linked lists, trees, graphs, and hash maps. Algorithms are step-by-step procedures for solving problems, like sorting, searching, or traversal. Knowing these well means being able to evaluate performance characteristics of code, debug inefficiencies in customer systems, and reason clearly about solutions to technical problems.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is System Design?",
-            "url": "https://algomaster.io/learn/system-design/what-is-system-design"
-          },
-          {
-            "type": "article",
-            "title": "Data Structures and Algorithms (DSA) Tutorial",
-            "url": "https://www.tutorialspoint.com/data_structures_algorithms/index.htm"
-          },
-          {
-            "type": "video",
-            "title": "What Are Data Structures?",
-            "url": "https://www.youtube.com/watch?v=bum_19loj9A"
-          },
-          {
-            "type": "video",
-            "title": "Learn Data Structures and Algorithms Visually – Crash Course",
-            "url": "https://www.youtube.com/watch?v=RpLnQnurpLY"
           }
         ]
       },
@@ -3154,34 +3330,6 @@
         ]
       },
       {
-        "id": "aOVpood08EcWfHsvg1H6n",
-        "name": "Node.js",
-        "type": "subtopic",
-        "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that lets developers run JavaScript on the server side. It uses a non-blocking, event-driven architecture that makes it efficient for I/O-heavy workloads like APIs, real-time applications, and data streaming.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated Node.js Developer Roadmap",
-            "url": "https://roadmap.sh/nodejs"
-          },
-          {
-            "type": "official",
-            "title": "Node.js - Getting Started",
-            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
-          },
-          {
-            "type": "article",
-            "title": "Node.js Introduction",
-            "url": "https://www.w3schools.com/nodejs/nodejs_intro.asp"
-          },
-          {
-            "type": "video",
-            "title": "Node.js Crash Course",
-            "url": "https://www.youtube.com/watch?v=32M1al-Y6Ag"
-          }
-        ]
-      },
-      {
         "id": "KlbUf_q8hMxia5UxLOY3G",
         "name": "SQL",
         "type": "subtopic",
@@ -3206,6 +3354,34 @@
             "type": "video",
             "title": "Learn SQL In 60 Minutes",
             "url": "https://www.youtube.com/watch?v=p3qvj9hO_Bo"
+          }
+        ]
+      },
+      {
+        "id": "aOVpood08EcWfHsvg1H6n",
+        "name": "Node.js",
+        "type": "subtopic",
+        "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that lets developers run JavaScript on the server side. It uses a non-blocking, event-driven architecture that makes it efficient for I/O-heavy workloads like APIs, real-time applications, and data streaming.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated Node.js Developer Roadmap",
+            "url": "https://roadmap.sh/nodejs"
+          },
+          {
+            "type": "official",
+            "title": "Node.js - Getting Started",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+          },
+          {
+            "type": "article",
+            "title": "Node.js Introduction",
+            "url": "https://www.w3schools.com/nodejs/nodejs_intro.asp"
+          },
+          {
+            "type": "video",
+            "title": "Node.js Crash Course",
+            "url": "https://www.youtube.com/watch?v=32M1al-Y6Ag"
           }
         ]
       },
@@ -3271,6 +3447,29 @@
         ]
       },
       {
+        "id": "3HkClnguwCyjVTRVV4c98",
+        "name": "APIs Design",
+        "type": "subtopic",
+        "description": "API design is the process of defining how services communicate with each other through well-structured interfaces. Good API design involves choosing the right protocol (REST, GraphQL, gRPC), defining clear resource models, handling errors consistently, and versioning carefully. A well-designed API is predictable, easy to use, and stable over time.",
+        "resources": [
+          {
+            "type": "roadmap",
+            "title": "Visit the Dedicated API Design Roadmap",
+            "url": "https://roadmap.sh/api-design"
+          },
+          {
+            "type": "article",
+            "title": "What is API design?",
+            "url": "https://www.ibm.com/think/topics/api-design"
+          },
+          {
+            "type": "video",
+            "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+            "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw"
+          }
+        ]
+      },
+      {
         "id": "NN_45roxRWVB2NYUmdZuN",
         "name": "GraphQL",
         "type": "subtopic",
@@ -3295,29 +3494,6 @@
             "type": "video",
             "title": "GraphQL Course for Beginners",
             "url": "https://www.youtube.com/watch?v=5199E50O7SI"
-          }
-        ]
-      },
-      {
-        "id": "3HkClnguwCyjVTRVV4c98",
-        "name": "APIs Design",
-        "type": "subtopic",
-        "description": "API design is the process of defining how services communicate with each other through well-structured interfaces. Good API design involves choosing the right protocol (REST, GraphQL, gRPC), defining clear resource models, handling errors consistently, and versioning carefully. A well-designed API is predictable, easy to use, and stable over time.",
-        "resources": [
-          {
-            "type": "roadmap",
-            "title": "Visit the Dedicated API Design Roadmap",
-            "url": "https://roadmap.sh/api-design"
-          },
-          {
-            "type": "article",
-            "title": "What is API design?",
-            "url": "https://www.ibm.com/think/topics/api-design"
-          },
-          {
-            "type": "video",
-            "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
-            "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw"
           }
         ]
       },
@@ -3567,6 +3743,29 @@
         ]
       },
       {
+        "id": "otaIXT7IDshdXJxrPZtqr",
+        "name": "RAGs",
+        "type": "subtopic",
+        "description": "Retrieval-Augmented Generation (RAG) is a pattern where relevant documents or data are fetched from a knowledge source and injected into a model's context before generating a response. This gives the model access to specific or up-to-date information without requiring fine-tuning. RAG systems typically combine a retrieval step (using embeddings or search) with a generation step (using an LLM).",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is Retrieval-Augmented Generation? - Google",
+            "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation"
+          },
+          {
+            "type": "article",
+            "title": "RAG Explained: Understanding Embeddings, Similarity, and Retrieval",
+            "url": "https://towardsdatascience.com/rag-explained-understanding-embeddings-similarity-and-retrieval/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+          },
+          {
+            "type": "video",
+            "title": "What is Retrieval-Augmented Generation? - IBM",
+            "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+          }
+        ]
+      },
+      {
         "id": "wsxosek5h-zD79jIRvB3q",
         "name": "Vector DBs",
         "type": "subtopic",
@@ -3595,29 +3794,6 @@
         ]
       },
       {
-        "id": "otaIXT7IDshdXJxrPZtqr",
-        "name": "RAGs",
-        "type": "subtopic",
-        "description": "Retrieval-Augmented Generation (RAG) is a pattern where relevant documents or data are fetched from a knowledge source and injected into a model's context before generating a response. This gives the model access to specific or up-to-date information without requiring fine-tuning. RAG systems typically combine a retrieval step (using embeddings or search) with a generation step (using an LLM).",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is Retrieval-Augmented Generation? - Google",
-            "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation"
-          },
-          {
-            "type": "article",
-            "title": "RAG Explained: Understanding Embeddings, Similarity, and Retrieval",
-            "url": "https://towardsdatascience.com/rag-explained-understanding-embeddings-similarity-and-retrieval/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
-          },
-          {
-            "type": "video",
-            "title": "What is Retrieval-Augmented Generation? - IBM",
-            "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
-          }
-        ]
-      },
-      {
         "id": "71RdAONPBwnQRWa9kWeit",
         "name": "Choosing Model Providers",
         "type": "subtopic",
@@ -3632,29 +3808,6 @@
             "type": "video",
             "title": "Choose the right AI model for your use case",
             "url": "https://www.youtube.com/watch?v=aqWXSShwGO0"
-          }
-        ]
-      },
-      {
-        "id": "MbW7Q4Zde_b9GzW52oH5D",
-        "name": "Prompt Management",
-        "type": "subtopic",
-        "description": "Prompt management is the systematic process of creating, versioning, testing, and refining the text inputs used to guide large language models toward desired outputs. It involves maintaining a structured library of effective prompt templates, tracking how specific changes in phrasing impact model performance, and integrating these prompts into the application development lifecycle. By treating prompts as code, engineers can ensure consistency across different model versions, optimize for latency and cost, and provide a reliable interface for interacting with generative AI systems.",
-        "resources": [
-          {
-            "type": "article",
-            "title": "What is prompt management? Versioning, collaboration, and deployment for prompts",
-            "url": "https://www.braintrust.dev/articles/what-is-prompt-management"
-          },
-          {
-            "type": "article",
-            "title": "What is Prompt Management?",
-            "url": "https://humanloop.com/blog/prompt-management"
-          },
-          {
-            "type": "video",
-            "title": "Prompt Management 101 - Full Guide for AI Engineers",
-            "url": "https://www.youtube.com/watch?v=Qddc_DNo9qY"
           }
         ]
       },
@@ -3706,6 +3859,29 @@
             "type": "video",
             "title": "AI Agents, Clearly Explained",
             "url": "https://www.youtube.com/watch?v=FwOTs4UxQS4"
+          }
+        ]
+      },
+      {
+        "id": "MbW7Q4Zde_b9GzW52oH5D",
+        "name": "Prompt Management",
+        "type": "subtopic",
+        "description": "Prompt management is the systematic process of creating, versioning, testing, and refining the text inputs used to guide large language models toward desired outputs. It involves maintaining a structured library of effective prompt templates, tracking how specific changes in phrasing impact model performance, and integrating these prompts into the application development lifecycle. By treating prompts as code, engineers can ensure consistency across different model versions, optimize for latency and cost, and provide a reliable interface for interacting with generative AI systems.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What is prompt management? Versioning, collaboration, and deployment for prompts",
+            "url": "https://www.braintrust.dev/articles/what-is-prompt-management"
+          },
+          {
+            "type": "article",
+            "title": "What is Prompt Management?",
+            "url": "https://humanloop.com/blog/prompt-management"
+          },
+          {
+            "type": "video",
+            "title": "Prompt Management 101 - Full Guide for AI Engineers",
+            "url": "https://www.youtube.com/watch?v=Qddc_DNo9qY"
           }
         ]
       },
@@ -3850,27 +4026,11 @@
         ]
       },
       {
-        "id": "JTLV9lLF1fKj-8aW_R-hj",
-        "name": "Codex",
-        "type": "subtopic",
-        "description": "Codex is OpenAI's code-focused model, trained on large amounts of public code. It can generate code from natural language descriptions, complete functions, and help with documentation. It is the model that powers GitHub Copilot and one of the foundational tools that popularized AI-assisted coding as a mainstream workflow.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Codex Docs",
-            "url": "https://developers.openai.com/codex"
-          },
-          {
-            "type": "article",
-            "title": "Claude Code or Codex? How to Pick the Right AI Agent",
-            "url": "https://roadmap.sh/claude-code/vs-codex"
-          },
-          {
-            "type": "video",
-            "title": "Codex Crash Course",
-            "url": "ttps://www.youtube.com/playlist?list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG"
-          }
-        ]
+        "id": "xnOP1vdZvEi0jpD7Ux87Z",
+        "name": "AI-Assisted Coding Tools",
+        "type": "group",
+        "description": "",
+        "resources": []
       },
       {
         "id": "gjPK-grobmB5pB0vc_Ckj",
@@ -3901,34 +4061,6 @@
         ]
       },
       {
-        "id": "5wYiyIOLCEUmAz5Sr108f",
-        "name": "Cursor",
-        "type": "subtopic",
-        "description": "Cursor is an AI-powered code editor built on top of VS Code that integrates LLMs directly into the coding experience. It supports chat-based code editing, multi-file edits, codebase-aware completions, and agent-style workflows where the model can make changes across an entire project.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "Cursor Docs",
-            "url": "https://cursor.com/docs"
-          },
-          {
-            "type": "article",
-            "title": "Claude Code vs Cursor: Which AI Coding Tool To Choose in 2026?",
-            "url": "https://roadmap.sh/claude-code/vs-cursor"
-          },
-          {
-            "type": "video",
-            "title": "Cursor AI Tutorial for Beginners",
-            "url": "https://www.youtube.com/watch?v=3289vhOUdKA"
-          },
-          {
-            "type": "video",
-            "title": "Cursor Tutorial for Beginners (AI Code Editor)",
-            "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
-          }
-        ]
-      },
-      {
         "id": "i-0fMVk1wvTcwks-9Nzq7",
         "name": "Gemini",
         "type": "subtopic",
@@ -3948,34 +4080,6 @@
             "type": "article",
             "title": "How To Master Google Gemini in 2026 (Free Course)",
             "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
-          }
-        ]
-      },
-      {
-        "id": "dDD668SrlaZzoAD0mWBcn",
-        "name": "OpenCode",
-        "type": "subtopic",
-        "description": "OpenCode is an open-source AI coding agent that runs in the terminal. It works with many model providers, including Anthropic, OpenAI, Google and locally hosted models, so you are not tied to a single vendor. It can read and edit files across a project, run shell commands and work through multi-step tasks. FDEs often work in customer environments with strict rules about which models and data can be used. A provider-agnostic, open-source tool lets them keep the same workflow when a customer approves only one provider, or requires a self-hosted model.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "OpenCode Docs",
-            "url": "https://opencode.ai/v2/docs/"
-          },
-          {
-            "type": "article",
-            "title": "https://opencode.school/",
-            "url": "https://opencode.school/"
-          },
-          {
-            "type": "article",
-            "title": "Claude Code vs OpenCode: Which Coding Agent Fits You?",
-            "url": "https://roadmap.sh/claude-code/vs-opencode"
-          },
-          {
-            "type": "video",
-            "title": "OpenCode Tutorial for Beginners: Learn 90% Of OpenCode in Under 25 Minutes",
-            "url": "https://www.youtube.com/watch?v=QzqaZshQcJI&t=91s"
           }
         ]
       },
@@ -4014,6 +4118,85 @@
             "type": "video",
             "title": "OpenClaw Tutorial for Beginners - Crash Course",
             "url": "https://www.youtube.com/watch?v=u4ydH-QvPeg"
+          }
+        ]
+      },
+      {
+        "id": "JTLV9lLF1fKj-8aW_R-hj",
+        "name": "Codex",
+        "type": "subtopic",
+        "description": "Codex is OpenAI's code-focused model, trained on large amounts of public code. It can generate code from natural language descriptions, complete functions, and help with documentation. It is the model that powers GitHub Copilot and one of the foundational tools that popularized AI-assisted coding as a mainstream workflow.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Codex Docs",
+            "url": "https://developers.openai.com/codex"
+          },
+          {
+            "type": "article",
+            "title": "Claude Code or Codex? How to Pick the Right AI Agent",
+            "url": "https://roadmap.sh/claude-code/vs-codex"
+          },
+          {
+            "type": "video",
+            "title": "Codex Crash Course",
+            "url": "ttps://www.youtube.com/playlist?list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG"
+          }
+        ]
+      },
+      {
+        "id": "5wYiyIOLCEUmAz5Sr108f",
+        "name": "Cursor",
+        "type": "subtopic",
+        "description": "Cursor is an AI-powered code editor built on top of VS Code that integrates LLMs directly into the coding experience. It supports chat-based code editing, multi-file edits, codebase-aware completions, and agent-style workflows where the model can make changes across an entire project.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "Cursor Docs",
+            "url": "https://cursor.com/docs"
+          },
+          {
+            "type": "article",
+            "title": "Claude Code vs Cursor: Which AI Coding Tool To Choose in 2026?",
+            "url": "https://roadmap.sh/claude-code/vs-cursor"
+          },
+          {
+            "type": "video",
+            "title": "Cursor AI Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=3289vhOUdKA"
+          },
+          {
+            "type": "video",
+            "title": "Cursor Tutorial for Beginners (AI Code Editor)",
+            "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
+          }
+        ]
+      },
+      {
+        "id": "dDD668SrlaZzoAD0mWBcn",
+        "name": "OpenCode",
+        "type": "subtopic",
+        "description": "OpenCode is an open-source AI coding agent that runs in the terminal. It works with many model providers, including Anthropic, OpenAI, Google and locally hosted models, so you are not tied to a single vendor. It can read and edit files across a project, run shell commands and work through multi-step tasks. FDEs often work in customer environments with strict rules about which models and data can be used. A provider-agnostic, open-source tool lets them keep the same workflow when a customer approves only one provider, or requires a self-hosted model.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "OpenCode Docs",
+            "url": "https://opencode.ai/v2/docs/"
+          },
+          {
+            "type": "article",
+            "title": "https://opencode.school/",
+            "url": "https://opencode.school/"
+          },
+          {
+            "type": "article",
+            "title": "Claude Code vs OpenCode: Which Coding Agent Fits You?",
+            "url": "https://roadmap.sh/claude-code/vs-opencode"
+          },
+          {
+            "type": "video",
+            "title": "OpenCode Tutorial for Beginners: Learn 90% Of OpenCode in Under 25 Minutes",
+            "url": "https://www.youtube.com/watch?v=QzqaZshQcJI&t=91s"
           }
         ]
       },
@@ -4082,34 +4265,6 @@
         ]
       },
       {
-        "id": "zVl_tprCCMCA7DQXXoJGw",
-        "name": "Azure",
-        "type": "subtopic",
-        "description": "Microsoft Azure is Microsoft's cloud platform with particularly strong adoption in enterprise environments, especially those using Active Directory, Office 365, and .NET. It offers compute, storage, networking, databases, DevOps tooling, and AI services including Azure OpenAI Service.",
-        "resources": [
-          {
-            "type": "official",
-            "title": "What is Azure?",
-            "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
-          },
-          {
-            "type": "official",
-            "title": "Azure Docs",
-            "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
-          },
-          {
-            "type": "video",
-            "title": "Microsoft Azure",
-            "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUKihhGvJw05bU8DhoQMn_ni"
-          },
-          {
-            "type": "video",
-            "title": "Microsoft Azure Fundamentals Certification Course",
-            "url": "https://www.youtube.com/watch?v=5abffC-K40c"
-          }
-        ]
-      },
-      {
         "id": "gN4BwjAFGWyraYh6PXdXv",
         "name": "AWS",
         "type": "subtopic",
@@ -4152,6 +4307,34 @@
             "type": "article",
             "title": "What is Google Cloud Platform?",
             "url": "https://www.huntress.com/cybersecurity-101/topic/what-is-google-cloud-platform"
+          }
+        ]
+      },
+      {
+        "id": "zVl_tprCCMCA7DQXXoJGw",
+        "name": "Azure",
+        "type": "subtopic",
+        "description": "Microsoft Azure is Microsoft's cloud platform with particularly strong adoption in enterprise environments, especially those using Active Directory, Office 365, and .NET. It offers compute, storage, networking, databases, DevOps tooling, and AI services including Azure OpenAI Service.",
+        "resources": [
+          {
+            "type": "official",
+            "title": "What is Azure?",
+            "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure"
+          },
+          {
+            "type": "official",
+            "title": "Azure Docs",
+            "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
+          },
+          {
+            "type": "video",
+            "title": "Microsoft Azure",
+            "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUKihhGvJw05bU8DhoQMn_ni"
+          },
+          {
+            "type": "video",
+            "title": "Microsoft Azure Fundamentals Certification Course",
+            "url": "https://www.youtube.com/watch?v=5abffC-K40c"
           }
         ]
       },
@@ -4835,6 +5018,381 @@
     ],
     "edges": [
       {
+        "source": "XjxnVjO0fR2XNzBUSzA4L",
+        "target": "PBtnaTE_5AMOa5mxbhoT2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "E9LIQBR4Dg50e4atHROEl",
+        "target": "PBtnaTE_5AMOa5mxbhoT2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YNaf7swqsvYaXRK6uevdv",
+        "target": "PBtnaTE_5AMOa5mxbhoT2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "YCgynnhFV1SBxRXiC87me",
+        "target": "PBtnaTE_5AMOa5mxbhoT2",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3KTzi-jLNFLvVKtvplMgZ",
+        "target": "E9LIQBR4Dg50e4atHROEl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "cpexsDyRMgtGcQqhwx3Yn",
+        "target": "E9LIQBR4Dg50e4atHROEl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bsEgOaC-vIliEoGiuJT6u",
+        "target": "E9LIQBR4Dg50e4atHROEl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7ftuUKj-IHxdBa5TPT_uz",
+        "target": "E9LIQBR4Dg50e4atHROEl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Ssi6dE8eDVxN6cStem3bY",
+        "target": "E9LIQBR4Dg50e4atHROEl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KGT-rraH93uw_e9L6Lcyy",
+        "target": "E9LIQBR4Dg50e4atHROEl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ODruinJ00ZWpBlszIZX69",
+        "target": "nRqHDTqV9C0D7JdA-zcWR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U1yJGtIH4MgMqmbHS_wKf",
+        "target": "nRqHDTqV9C0D7JdA-zcWR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "qizDxdlyDmdlatQIAKyuE",
+        "target": "nRqHDTqV9C0D7JdA-zcWR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "bUJu0cW5BvXxyjM59PK2x",
+        "target": "nRqHDTqV9C0D7JdA-zcWR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "O5jddHR_1FuQstAzf2Fna",
+        "target": "aqrK4e6B8LFvFimKoqCNF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KfMUR-vU8CHyef0HQOIdg",
+        "target": "aqrK4e6B8LFvFimKoqCNF",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "rF75dtVrADi7BRHwzO16V",
+        "target": "CNTtsgHntKdMsM7FgrrB8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "7KtMQnYE-0WC3gQtbgUbH",
+        "target": "CNTtsgHntKdMsM7FgrrB8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "4Sapys7HLhU28PMQ3jkqt",
+        "target": "CNTtsgHntKdMsM7FgrrB8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "_eDNhYepoGg5xEtVP9vCQ",
+        "target": "CNTtsgHntKdMsM7FgrrB8",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KlbUf_q8hMxia5UxLOY3G",
+        "target": "kK16boEALRDQdRmFRphso",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aOVpood08EcWfHsvg1H6n",
+        "target": "kK16boEALRDQdRmFRphso",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MzzUMMuXQc-C7_9UkLV-4",
+        "target": "kK16boEALRDQdRmFRphso",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "tEXMziuU8UFl2Er5LoJvD",
+        "target": "kK16boEALRDQdRmFRphso",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3HkClnguwCyjVTRVV4c98",
+        "target": "kK16boEALRDQdRmFRphso",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "NN_45roxRWVB2NYUmdZuN",
+        "target": "kK16boEALRDQdRmFRphso",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gKyndvPYk8SViQuX4x6Wl",
+        "target": "W6pvQiVX7pxa_rRZXe-3b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wuE44lXPOAuQcMxn45pby",
+        "target": "W6pvQiVX7pxa_rRZXe-3b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Hh1n8Bu06WCntZqRLvGA1",
+        "target": "W6pvQiVX7pxa_rRZXe-3b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ZBqPYTyF-o4RLeuhbtCuj",
+        "target": "W6pvQiVX7pxa_rRZXe-3b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "WRmM6EHABFNhkcbsDs-Ho",
+        "target": "W6pvQiVX7pxa_rRZXe-3b",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aZCmG5rYJgSGnwTNouNvy",
+        "target": "tTTDizQfuACFUoAAsTCt1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "GvXo2Bw1nRqSWyT96b9m_",
+        "target": "tTTDizQfuACFUoAAsTCt1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "h_8qnxjz9gVgCoezlHEvO",
+        "target": "tTTDizQfuACFUoAAsTCt1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "otaIXT7IDshdXJxrPZtqr",
+        "target": "tTTDizQfuACFUoAAsTCt1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wsxosek5h-zD79jIRvB3q",
+        "target": "tTTDizQfuACFUoAAsTCt1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "71RdAONPBwnQRWa9kWeit",
+        "target": "tTTDizQfuACFUoAAsTCt1",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "axvABWpvFn6jGhtVX5YIb",
+        "target": "10CJpvB1Dl1SFN0jrPGpB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "MbW7Q4Zde_b9GzW52oH5D",
+        "target": "10CJpvB1Dl1SFN0jrPGpB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "vP-x_VlFL5ysVUVTuRXhS",
+        "target": "10CJpvB1Dl1SFN0jrPGpB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "x1ssHdRyrjE09dAIGJDS3",
+        "target": "10CJpvB1Dl1SFN0jrPGpB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "PQCIbHisPwhqCREVsEgTI",
+        "target": "10CJpvB1Dl1SFN0jrPGpB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pDB2w6qDVFY9FFoqCX66K",
+        "target": "10CJpvB1Dl1SFN0jrPGpB",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "xnOP1vdZvEi0jpD7Ux87Z",
+        "target": "OmVYSzwXgYlMG2xz1FsyW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "JTLV9lLF1fKj-8aW_R-hj",
+        "target": "OmVYSzwXgYlMG2xz1FsyW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5wYiyIOLCEUmAz5Sr108f",
+        "target": "OmVYSzwXgYlMG2xz1FsyW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "dDD668SrlaZzoAD0mWBcn",
+        "target": "OmVYSzwXgYlMG2xz1FsyW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gjPK-grobmB5pB0vc_Ckj",
+        "target": "xnOP1vdZvEi0jpD7Ux87Z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "i-0fMVk1wvTcwks-9Nzq7",
+        "target": "xnOP1vdZvEi0jpD7Ux87Z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zfl9PVZgX4yvf9TxCFnEZ",
+        "target": "xnOP1vdZvEi0jpD7Ux87Z",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "5flayikfLHbQdXQdN3acM",
+        "target": "65qB3vye3tbI-O3EIBvGu",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "gN4BwjAFGWyraYh6PXdXv",
+        "target": "-ewFRbnqRVqY3MLQYbwJl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "oTiY8mTQUIxP70T-vQ1KF",
+        "target": "-ewFRbnqRVqY3MLQYbwJl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "zVl_tprCCMCA7DQXXoJGw",
+        "target": "-ewFRbnqRVqY3MLQYbwJl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "3LspdlmWTx3ApI76Askce",
+        "target": "-ewFRbnqRVqY3MLQYbwJl",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "RABrqfc3T8NjdJOabl2jV",
+        "target": "iF3d4ajumcuE4g4XQMG3o",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8sgdY07GymYjXQ2XWzrxl",
+        "target": "iF3d4ajumcuE4g4XQMG3o",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "nqinppM-vkHMf2Rp9314E",
+        "target": "ioP31uEELX2wUHzh9SXBR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "Mcpy66swu-PyPF0QOEy8t",
+        "target": "ioP31uEELX2wUHzh9SXBR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KG8YieOpAPgrdilQhSZih",
+        "target": "ioP31uEELX2wUHzh9SXBR",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "aLzM7M8UKIw4Kx1nvo1Ei",
+        "target": "_jSbrQbZ6Zpi7RqiXL__X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "upn4b8jBWiw1zs6C7dH-i",
+        "target": "_jSbrQbZ6Zpi7RqiXL__X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "wcK8DCAlH0W82qKVqtIOi",
+        "target": "_jSbrQbZ6Zpi7RqiXL__X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "IDXv7mdEFDvz9JZQsJONI",
+        "target": "_jSbrQbZ6Zpi7RqiXL__X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "pW5xKU794I8nzrMNFFQB3",
+        "target": "_jSbrQbZ6Zpi7RqiXL__X",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "s4Kooj99igkE02P-D-dAU",
+        "target": "hO7BCDFmbvQVcgM7W2t9S",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "KqQHfy1Z8w-v8p73QkvG5",
+        "target": "hO7BCDFmbvQVcgM7W2t9S",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "eKUy2q5cGskmcg-sAAtYW",
+        "target": "hO7BCDFmbvQVcgM7W2t9S",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "c8dBwWaKLiW6X2HWfmVJt",
+        "target": "bE7j2U28V8Vf9OKHBqLwW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "kyHwTMFBQxbHrGBcv3q0O",
+        "target": "bE7j2U28V8Vf9OKHBqLwW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "L76T2X7AFpVtpMF9CjBJo",
+        "target": "bE7j2U28V8Vf9OKHBqLwW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "U2mQX5_XwmW74HFEM1Uzw",
+        "target": "bE7j2U28V8Vf9OKHBqLwW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "8uLQLnTJCWJt90ir-Nemz",
+        "target": "bE7j2U28V8Vf9OKHBqLwW",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "ir0uv9E3flgBz_cHntOf4",
+        "target": "iaNbLDFrEDYEKwpkGFWts",
+        "type": "subtopic_of"
+      },
+      {
+        "source": "-tezsr3BCn6uBq0KQYRT-",
+        "target": "iaNbLDFrEDYEKwpkGFWts",
+        "type": "subtopic_of"
+      },
+      {
         "source": "nRqHDTqV9C0D7JdA-zcWR",
         "target": "aqrK4e6B8LFvFimKoqCNF",
         "type": "next_in_flow"
@@ -4888,371 +5446,6 @@
         "source": "_jSbrQbZ6Zpi7RqiXL__X",
         "target": "3bAZD-MgDbLu5Tds2Jvv2",
         "type": "next_in_flow"
-      },
-      {
-        "source": "s4Kooj99igkE02P-D-dAU",
-        "target": "hO7BCDFmbvQVcgM7W2t9S",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KqQHfy1Z8w-v8p73QkvG5",
-        "target": "hO7BCDFmbvQVcgM7W2t9S",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "eKUy2q5cGskmcg-sAAtYW",
-        "target": "hO7BCDFmbvQVcgM7W2t9S",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YNaf7swqsvYaXRK6uevdv",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "c8dBwWaKLiW6X2HWfmVJt",
-        "target": "bE7j2U28V8Vf9OKHBqLwW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "kyHwTMFBQxbHrGBcv3q0O",
-        "target": "bE7j2U28V8Vf9OKHBqLwW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "L76T2X7AFpVtpMF9CjBJo",
-        "target": "bE7j2U28V8Vf9OKHBqLwW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U2mQX5_XwmW74HFEM1Uzw",
-        "target": "bE7j2U28V8Vf9OKHBqLwW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ir0uv9E3flgBz_cHntOf4",
-        "target": "iaNbLDFrEDYEKwpkGFWts",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "XjxnVjO0fR2XNzBUSzA4L",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "axvABWpvFn6jGhtVX5YIb",
-        "target": "10CJpvB1Dl1SFN0jrPGpB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "vP-x_VlFL5ysVUVTuRXhS",
-        "target": "10CJpvB1Dl1SFN0jrPGpB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "x1ssHdRyrjE09dAIGJDS3",
-        "target": "10CJpvB1Dl1SFN0jrPGpB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5flayikfLHbQdXQdN3acM",
-        "target": "65qB3vye3tbI-O3EIBvGu",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "RABrqfc3T8NjdJOabl2jV",
-        "target": "iF3d4ajumcuE4g4XQMG3o",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8sgdY07GymYjXQ2XWzrxl",
-        "target": "iF3d4ajumcuE4g4XQMG3o",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aLzM7M8UKIw4Kx1nvo1Ei",
-        "target": "_jSbrQbZ6Zpi7RqiXL__X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "upn4b8jBWiw1zs6C7dH-i",
-        "target": "_jSbrQbZ6Zpi7RqiXL__X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wcK8DCAlH0W82qKVqtIOi",
-        "target": "_jSbrQbZ6Zpi7RqiXL__X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "IDXv7mdEFDvz9JZQsJONI",
-        "target": "_jSbrQbZ6Zpi7RqiXL__X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "pW5xKU794I8nzrMNFFQB3",
-        "target": "_jSbrQbZ6Zpi7RqiXL__X",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "YCgynnhFV1SBxRXiC87me",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ODruinJ00ZWpBlszIZX69",
-        "target": "nRqHDTqV9C0D7JdA-zcWR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "U1yJGtIH4MgMqmbHS_wKf",
-        "target": "nRqHDTqV9C0D7JdA-zcWR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "qizDxdlyDmdlatQIAKyuE",
-        "target": "nRqHDTqV9C0D7JdA-zcWR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bUJu0cW5BvXxyjM59PK2x",
-        "target": "nRqHDTqV9C0D7JdA-zcWR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "rF75dtVrADi7BRHwzO16V",
-        "target": "CNTtsgHntKdMsM7FgrrB8",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "4Sapys7HLhU28PMQ3jkqt",
-        "target": "CNTtsgHntKdMsM7FgrrB8",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aOVpood08EcWfHsvg1H6n",
-        "target": "kK16boEALRDQdRmFRphso",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MzzUMMuXQc-C7_9UkLV-4",
-        "target": "kK16boEALRDQdRmFRphso",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "tEXMziuU8UFl2Er5LoJvD",
-        "target": "kK16boEALRDQdRmFRphso",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "NN_45roxRWVB2NYUmdZuN",
-        "target": "kK16boEALRDQdRmFRphso",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gKyndvPYk8SViQuX4x6Wl",
-        "target": "W6pvQiVX7pxa_rRZXe-3b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wuE44lXPOAuQcMxn45pby",
-        "target": "W6pvQiVX7pxa_rRZXe-3b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Hh1n8Bu06WCntZqRLvGA1",
-        "target": "W6pvQiVX7pxa_rRZXe-3b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "ZBqPYTyF-o4RLeuhbtCuj",
-        "target": "W6pvQiVX7pxa_rRZXe-3b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "aZCmG5rYJgSGnwTNouNvy",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "wsxosek5h-zD79jIRvB3q",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "h_8qnxjz9gVgCoezlHEvO",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "GvXo2Bw1nRqSWyT96b9m_",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "71RdAONPBwnQRWa9kWeit",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "PQCIbHisPwhqCREVsEgTI",
-        "target": "10CJpvB1Dl1SFN0jrPGpB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "JTLV9lLF1fKj-8aW_R-hj",
-        "target": "OmVYSzwXgYlMG2xz1FsyW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "5wYiyIOLCEUmAz5Sr108f",
-        "target": "OmVYSzwXgYlMG2xz1FsyW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zVl_tprCCMCA7DQXXoJGw",
-        "target": "-ewFRbnqRVqY3MLQYbwJl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3LspdlmWTx3ApI76Askce",
-        "target": "-ewFRbnqRVqY3MLQYbwJl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KG8YieOpAPgrdilQhSZih",
-        "target": "ioP31uEELX2wUHzh9SXBR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "nqinppM-vkHMf2Rp9314E",
-        "target": "ioP31uEELX2wUHzh9SXBR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Mcpy66swu-PyPF0QOEy8t",
-        "target": "ioP31uEELX2wUHzh9SXBR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "8uLQLnTJCWJt90ir-Nemz",
-        "target": "bE7j2U28V8Vf9OKHBqLwW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "-tezsr3BCn6uBq0KQYRT-",
-        "target": "iaNbLDFrEDYEKwpkGFWts",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "dDD668SrlaZzoAD0mWBcn",
-        "target": "OmVYSzwXgYlMG2xz1FsyW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3KTzi-jLNFLvVKtvplMgZ",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "bsEgOaC-vIliEoGiuJT6u",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7ftuUKj-IHxdBa5TPT_uz",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "cpexsDyRMgtGcQqhwx3Yn",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "Ssi6dE8eDVxN6cStem3bY",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KGT-rraH93uw_e9L6Lcyy",
-        "target": "PBtnaTE_5AMOa5mxbhoT2",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "_eDNhYepoGg5xEtVP9vCQ",
-        "target": "CNTtsgHntKdMsM7FgrrB8",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "7KtMQnYE-0WC3gQtbgUbH",
-        "target": "CNTtsgHntKdMsM7FgrrB8",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "3HkClnguwCyjVTRVV4c98",
-        "target": "kK16boEALRDQdRmFRphso",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "WRmM6EHABFNhkcbsDs-Ho",
-        "target": "W6pvQiVX7pxa_rRZXe-3b",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "otaIXT7IDshdXJxrPZtqr",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "pDB2w6qDVFY9FFoqCX66K",
-        "target": "10CJpvB1Dl1SFN0jrPGpB",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gjPK-grobmB5pB0vc_Ckj",
-        "target": "OmVYSzwXgYlMG2xz1FsyW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "i-0fMVk1wvTcwks-9Nzq7",
-        "target": "OmVYSzwXgYlMG2xz1FsyW",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "gN4BwjAFGWyraYh6PXdXv",
-        "target": "-ewFRbnqRVqY3MLQYbwJl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "oTiY8mTQUIxP70T-vQ1KF",
-        "target": "-ewFRbnqRVqY3MLQYbwJl",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "MbW7Q4Zde_b9GzW52oH5D",
-        "target": "tTTDizQfuACFUoAAsTCt1",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "O5jddHR_1FuQstAzf2Fna",
-        "target": "nRqHDTqV9C0D7JdA-zcWR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KfMUR-vU8CHyef0HQOIdg",
-        "target": "nRqHDTqV9C0D7JdA-zcWR",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "KlbUf_q8hMxia5UxLOY3G",
-        "target": "kK16boEALRDQdRmFRphso",
-        "type": "subtopic_of"
-      },
-      {
-        "source": "zfl9PVZgX4yvf9TxCFnEZ",
-        "target": "OmVYSzwXgYlMG2xz1FsyW",
-        "type": "subtopic_of"
       }
     ]
   }

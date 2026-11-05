@@ -1,0 +1,402 @@
+{
+  "title": "AWS Roadmap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What is Cloud Computing?"
+        },
+        {
+          "title": "IaaS vs PaaS vs SaaS"
+        },
+        {
+          "title": "Public vs Private vs Hybrid Cloud"
+        },
+        {
+          "title": "Introduction to AWS"
+        }
+      ]
+    },
+    {
+      "title": "EC2",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Start with Essential Services",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CPU Credits"
+            },
+            {
+              "title": "Storage / Volumes"
+            },
+            {
+              "title": "Keypairs"
+            },
+            {
+              "title": "Elastic IP"
+            },
+            {
+              "title": "User Data Scripts"
+            },
+            {
+              "title": "Purchasing Options"
+            }
+          ]
+        },
+        {
+          "title": "Instance Types"
+        }
+      ]
+    },
+    {
+      "title": "VPC",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AWS Global Infrastructure"
+        },
+        {
+          "title": "Shared Responsibility Model"
+        },
+        {
+          "title": "Well Architected Framework"
+        },
+        {
+          "title": "CIDR Blocks"
+        },
+        {
+          "title": "Subnets"
+        },
+        {
+          "title": "Private Subnet"
+        },
+        {
+          "title": "Public Subnet"
+        }
+      ]
+    },
+    {
+      "title": "IAM",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Route Tables"
+        },
+        {
+          "title": "Security Groups"
+        },
+        {
+          "title": "Internet Gateway"
+        },
+        {
+          "title": "NAT Gateway"
+        },
+        {
+          "title": "Policies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Identity-based"
+            },
+            {
+              "title": "Resource-based"
+            }
+          ]
+        },
+        {
+          "title": "Users / User Groups"
+        },
+        {
+          "title": "Roles",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Instance Profiles"
+            },
+            {
+              "title": "Assuming Roles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SES",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Step 4 - Serverless",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Sandbox / Sending Limits"
+            },
+            {
+              "title": "Identity Verification"
+            },
+            {
+              "title": "DKIM Setup"
+            },
+            {
+              "title": "Feedback Handling"
+            },
+            {
+              "title": "Configuration Sets"
+            },
+            {
+              "title": "Sender Reputation"
+            },
+            {
+              "title": "Dedicated IP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "S3",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Buckets / Objects"
+        }
+      ]
+    },
+    {
+      "title": "Auto-Scaling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AMIs"
+        },
+        {
+          "title": "Launch Templates"
+        },
+        {
+          "title": "Auto-Scaling Groups"
+        },
+        {
+          "title": "Scaling Policies"
+        },
+        {
+          "title": "Elastic Load Balancers"
+        }
+      ]
+    },
+    {
+      "title": "Route53",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hosted Zones"
+        },
+        {
+          "title": "Routing Policies"
+        },
+        {
+          "title": "Health Checks"
+        }
+      ]
+    },
+    {
+      "title": "Storage Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Bucket / Object Lifecycle"
+        },
+        {
+          "title": "Standard"
+        },
+        {
+          "title": "S3-IA"
+        },
+        {
+          "title": "Glacier"
+        }
+      ]
+    },
+    {
+      "title": "Cloudwatch",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Metrics"
+        },
+        {
+          "title": "Events"
+        },
+        {
+          "title": "Logs"
+        }
+      ]
+    },
+    {
+      "title": "RDS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "DB Instances"
+        },
+        {
+          "title": "Storage Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "General Purpose"
+            },
+            {
+              "title": "Provisioned IOPS"
+            },
+            {
+              "title": "Magnetic"
+            }
+          ]
+        },
+        {
+          "title": "Backup / Restore"
+        }
+      ]
+    },
+    {
+      "title": "DynamoDB",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tables / Items / Attributes"
+        },
+        {
+          "title": "Primary Keys / Secondary Indexes"
+        },
+        {
+          "title": "Data Modeling"
+        },
+        {
+          "title": "Capacity Settings"
+        },
+        {
+          "title": "Limits"
+        },
+        {
+          "title": "DynamoDB Local"
+        }
+      ]
+    },
+    {
+      "title": "ElastiCache",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Quotas"
+        }
+      ]
+    },
+    {
+      "title": "ECR",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Streams"
+        },
+        {
+          "title": "Backup / Restore"
+        }
+      ]
+    },
+    {
+      "title": "Cloudfront",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Distributions"
+        },
+        {
+          "title": "Policies"
+        },
+        {
+          "title": "Invalidations"
+        }
+      ]
+    },
+    {
+      "title": "EKS"
+    },
+    {
+      "title": "ECS",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Clusters / ECS Container Agents"
+        },
+        {
+          "title": "Tasks"
+        },
+        {
+          "title": "Services"
+        },
+        {
+          "title": "Launch Config / Autoscaling Groups"
+        },
+        {
+          "title": "Fargate"
+        }
+      ]
+    },
+    {
+      "title": "Lambda",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating / Invoking Functions"
+        },
+        {
+          "title": "Layers"
+        },
+        {
+          "title": "Custom Runtimes"
+        },
+        {
+          "title": "Versioning / Aliases"
+        },
+        {
+          "title": "Event Bridge / Scheduled Execution"
+        },
+        {
+          "title": "Cold Start and Limitations"
+        },
+        {
+          "title": "API Gateway"
+        },
+        {
+          "title": "Lambda@Edge"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "title": "Java Developer",
+  "topics": [
+    {
+      "title": "Learn the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Strings and Methods"
+        },
+        {
+          "title": "Basic Syntax"
+        },
+        {
+          "title": "Math Operations"
+        },
+        {
+          "title": "Lifecycle of a Program"
+        },
+        {
+          "title": "Arrays"
+        },
+        {
+          "title": "Data Types"
+        },
+        {
+          "title": "Conditionals"
+        },
+        {
+          "title": "Variables and Scopes"
+        },
+        {
+          "title": "Loops"
+        },
+        {
+          "title": "Type Casting"
+        },
+        {
+          "title": "Basics of OOP"
+        },
+        {
+          "title": "Basics of OOP (2)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Classes and Objects"
+            },
+            {
+              "title": "Attributes and Methods"
+            },
+            {
+              "title": "Access Specifiers"
+            },
+            {
+              "title": "Static Keyword"
+            },
+            {
+              "title": "Final Keyword"
+            },
+            {
+              "title": "Nested Classes"
+            },
+            {
+              "title": "Packages"
+            }
+          ]
+        },
+        {
+          "title": "More about OOP",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Inheritance"
+            },
+            {
+              "title": "Encapsulation"
+            },
+            {
+              "title": "Record"
+            },
+            {
+              "title": "Method Overloading / Overriding"
+            },
+            {
+              "title": "Static vs Dynamic Binding"
+            }
+          ]
+        },
+        {
+          "title": "Object Lifecycle"
+        }
+      ]
+    },
+    {
+      "title": "Exception Handling"
+    },
+    {
+      "title": "Lambda Expressions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Abstraction"
+        },
+        {
+          "title": "Interfaces"
+        }
+      ]
+    },
+    {
+      "title": "Annotations"
+    },
+    {
+      "title": "Modules"
+    },
+    {
+      "title": "Optionals"
+    },
+    {
+      "title": "Cryptography",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Method Chaining"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Initializer Block"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Injection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Collections",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Array vs ArrayList"
+            },
+            {
+              "title": "Set"
+            },
+            {
+              "title": "Map"
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Dequeue"
+            },
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Iterator"
+            },
+            {
+              "title": "Generic Collections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Date and Time"
+    },
+    {
+      "title": "Networking"
+    },
+    {
+      "title": "Regular Expressions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "High Order Functions"
+        },
+        {
+          "title": "Functional Interfaces"
+        },
+        {
+          "title": "Functional Programming",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JUnit"
+            },
+            {
+              "title": "REST Assured"
+            },
+            {
+              "title": "TestNG"
+            },
+            {
+              "title": "JMeter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "I/O Operations"
+    },
+    {
+      "title": "Concurrency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pass by Value / Pass by Reference"
+        },
+        {
+          "title": "volatile keyword"
+        },
+        {
+          "title": "Java Memory Model"
+        },
+        {
+          "title": "Virtual Threads"
+        },
+        {
+          "title": "Threads"
+        },
+        {
+          "title": "Maven"
+        }
+      ]
+    },
+    {
+      "title": "File Operations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JDBC"
+        },
+        {
+          "title": "EBean"
+        }
+      ]
+    },
+    {
+      "title": "Database Access",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hibernate"
+        },
+        {
+          "title": "Spring Data JPA"
+        }
+      ]
+    },
+    {
+      "title": "Web Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "v",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Spring (Spring Boot)"
+            },
+            {
+              "title": "Quarkus"
+            },
+            {
+              "title": "Javalin"
+            }
+          ]
+        },
+        {
+          "title": "Play Framework"
+        }
+      ]
+    },
+    {
+      "title": "Build Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gradle"
+        },
+        {
+          "title": "Functional Composition"
+        },
+        {
+          "title": "Bazel"
+        },
+        {
+          "title": "Stream API"
+        },
+        {
+          "title": "Cucumber-JVM"
+        }
+      ]
+    },
+    {
+      "title": "Documentation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Javadoc"
+        }
+      ]
+    },
+    {
+      "title": "Logging Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Logback"
+        },
+        {
+          "title": "Log4j2"
+        },
+        {
+          "title": "SLF4J"
+        },
+        {
+          "title": "TinyLog"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Integration Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Mocking > Mockito"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

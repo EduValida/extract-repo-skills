@@ -1,0 +1,446 @@
+{
+  "title": "SQL Roadmap",
+  "topics": [
+    {
+      "title": "Learn the Basics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "What are Relational Databases?"
+        },
+        {
+          "title": "RDBMS Benefits and Limitations"
+        },
+        {
+          "title": "SQL vs NoSQL Databases"
+        }
+      ]
+    },
+    {
+      "title": "Basic SQL Syntax",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SQL Keywords"
+        },
+        {
+          "title": "Data Types"
+        },
+        {
+          "title": "Operators"
+        }
+      ]
+    },
+    {
+      "title": "Data Definition Language (DDL)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Truncate Table"
+        },
+        {
+          "title": "Alter Table"
+        },
+        {
+          "title": "Create Table"
+        },
+        {
+          "title": "Drop Table"
+        },
+        {
+          "title": "Primary Key"
+        }
+      ]
+    },
+    {
+      "title": "Data Manipulation Language (DML)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Select"
+        },
+        {
+          "title": "FROM"
+        },
+        {
+          "title": "WHERE"
+        },
+        {
+          "title": "JOINs"
+        }
+      ]
+    },
+    {
+      "title": "Aggregate Queries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "SELECT"
+        },
+        {
+          "title": "INSERT"
+        },
+        {
+          "title": "DELETE"
+        },
+        {
+          "title": "UPDATE"
+        },
+        {
+          "title": "Statements",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SUM"
+            },
+            {
+              "title": "AVG"
+            }
+          ]
+        },
+        {
+          "title": "COUNT"
+        },
+        {
+          "title": "MIN"
+        },
+        {
+          "title": "GROUP BY"
+        },
+        {
+          "title": "MAX"
+        },
+        {
+          "title": "INSERT (2)"
+        },
+        {
+          "title": "GROUP BY (2)"
+        },
+        {
+          "title": "HAVING"
+        },
+        {
+          "title": "Scalar"
+        },
+        {
+          "title": "Column"
+        }
+      ]
+    },
+    {
+      "title": "Data Constraints",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ORDER BY"
+        },
+        {
+          "title": "HAVING"
+        },
+        {
+          "title": "Foreign Key"
+        },
+        {
+          "title": "UPDATE"
+        },
+        {
+          "title": "DELETE"
+        },
+        {
+          "title": "Unique"
+        },
+        {
+          "title": "NOT NULL"
+        },
+        {
+          "title": "CHECK"
+        }
+      ]
+    },
+    {
+      "title": "Subqueries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Row"
+        },
+        {
+          "title": "Different Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Table"
+            }
+          ]
+        },
+        {
+          "title": "Nested Subqueries"
+        },
+        {
+          "title": "Correlated Subqueries"
+        }
+      ]
+    },
+    {
+      "title": "JOIN Queries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "INNER JOIN"
+        },
+        {
+          "title": "LEFT JOIN"
+        },
+        {
+          "title": "RIGHT JOIN"
+        },
+        {
+          "title": "FLOOR"
+        },
+        {
+          "title": "ABS"
+        },
+        {
+          "title": "MOD"
+        },
+        {
+          "title": "FULL OUTER JOIN"
+        },
+        {
+          "title": "CEILING"
+        },
+        {
+          "title": "ROUND"
+        },
+        {
+          "title": "Conditional",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Transaction Isolation Levels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Advanced Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CONCAT"
+        },
+        {
+          "title": "LENGTH"
+        },
+        {
+          "title": "SUBSTRING"
+        },
+        {
+          "title": "REPLACE"
+        },
+        {
+          "title": "Numeric Functions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CASE"
+            },
+            {
+              "title": "NULLIF"
+            },
+            {
+              "title": "COALESCE"
+            }
+          ]
+        },
+        {
+          "title": "String Functions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DATE"
+            },
+            {
+              "title": "TIME"
+            },
+            {
+              "title": "TIMESTAMP"
+            },
+            {
+              "title": "DATEPART"
+            },
+            {
+              "title": "DATEADD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Views",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UPPER"
+        },
+        {
+          "title": "LOWER"
+        },
+        {
+          "title": "Creating Views"
+        },
+        {
+          "title": "Modifying Views"
+        },
+        {
+          "title": "Dropping Views"
+        },
+        {
+          "title": "Date and Time",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Using Indexes"
+            },
+            {
+              "title": "Optimizing Joins"
+            },
+            {
+              "title": "Reducing Subqueries"
+            },
+            {
+              "title": "Selective Projection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Indexes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Self Join"
+        },
+        {
+          "title": "Cross Join"
+        },
+        {
+          "title": "Managing Indexes"
+        },
+        {
+          "title": "Query Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Stored Procedures & Functions"
+    },
+    {
+      "title": "Data Integrity & Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Integrity Constraints"
+        },
+        {
+          "title": "GRANT and Revoke"
+        },
+        {
+          "title": "DB Security Best Practices"
+        },
+        {
+          "title": "rank"
+        },
+        {
+          "title": "dense_rank"
+        },
+        {
+          "title": "lead"
+        },
+        {
+          "title": "row_number"
+        }
+      ]
+    },
+    {
+      "title": "Transactions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ACID"
+        },
+        {
+          "title": "BEGIN"
+        },
+        {
+          "title": "COMMIT"
+        },
+        {
+          "title": "ROLLBACK"
+        },
+        {
+          "title": "SAVEPOINT"
+        },
+        {
+          "title": "lag"
+        }
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Query Analysis Techniques"
+        }
+      ]
+    },
+    {
+      "title": "Advanced SQL",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "first_value"
+        },
+        {
+          "title": "Window Functions"
+        },
+        {
+          "title": "Recursive Queries"
+        },
+        {
+          "title": "Pivot / Unpivot Operations"
+        },
+        {
+          "title": "Common Table Expressions"
+        },
+        {
+          "title": "Dynamic SQL"
+        }
+      ]
+    }
+  ]
+}

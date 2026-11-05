@@ -1,0 +1,453 @@
+{
+  "title": "OpenClaw",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Understand the Differences",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Gateway"
+            },
+            {
+              "title": "Agents"
+            },
+            {
+              "title": "Agent Loop"
+            },
+            {
+              "title": "Context Window"
+            },
+            {
+              "title": "Channels"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Memory System"
+            },
+            {
+              "title": "Proactive Core"
+            }
+          ]
+        },
+        {
+          "title": "OpenClaw vs Claude Code"
+        },
+        {
+          "title": "Use cases"
+        }
+      ]
+    },
+    {
+      "title": "How OpenClaw Works"
+    },
+    {
+      "title": "Setting up OpenClaw"
+    },
+    {
+      "title": "Local Machine",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Choose your Installation Method",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Why and Why not?"
+            },
+            {
+              "title": "Security Best Practices"
+            }
+          ]
+        },
+        {
+          "title": "Isolated Install",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Anthropic"
+            },
+            {
+              "title": "Gemini"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "VPS/Cloud",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why and Why not?"
+        },
+        {
+          "title": "Security Best Practices"
+        }
+      ]
+    },
+    {
+      "title": "Dedicated Hardware",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why and Why not?"
+        },
+        {
+          "title": "Raspberry Pi"
+        },
+        {
+          "title": "Mac Mini"
+        }
+      ]
+    },
+    {
+      "title": "Installation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pick a Provider"
+        },
+        {
+          "title": "Docker"
+        }
+      ]
+    },
+    {
+      "title": "Onboarding",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Auth & Model Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OpenAI"
+            },
+            {
+              "title": "Ollama"
+            }
+          ]
+        },
+        {
+          "title": "Adding First Channel",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Telegram"
+            },
+            {
+              "title": "iMessage"
+            },
+            {
+              "title": "Discord"
+            }
+          ]
+        },
+        {
+          "title": "Workspace Settings",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SOUL.md"
+            },
+            {
+              "title": "MEMORY.md"
+            },
+            {
+              "title": "memory/YYYY-MM-DD.md"
+            },
+            {
+              "title": "Other Workspace Files"
+            }
+          ]
+        },
+        {
+          "title": "AGENTS.md"
+        },
+        {
+          "title": "Gateway Settings"
+        },
+        {
+          "title": "USER.md"
+        }
+      ]
+    },
+    {
+      "title": "Hooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "WhatsApp"
+        },
+        {
+          "title": "Slack"
+        },
+        {
+          "title": "Signal"
+        },
+        {
+          "title": "Hook Structure"
+        }
+      ]
+    },
+    {
+      "title": "Webhooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Event Types"
+        }
+      ]
+    },
+    {
+      "title": "Usage Best Practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Adding Daemon"
+        },
+        {
+          "title": "Command Cheatsheet",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "onboard"
+            },
+            {
+              "title": "doctor"
+            },
+            {
+              "title": "doctor --deep"
+            },
+            {
+              "title": "security audit"
+            }
+          ]
+        },
+        {
+          "title": "Setup & Health",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "gateway"
+            },
+            {
+              "title": "gateway start | stop | restart"
+            }
+          ]
+        },
+        {
+          "title": "Gateway",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "channels list"
+            },
+            {
+              "title": "channels login"
+            },
+            {
+              "title": "channels add --channel"
+            },
+            {
+              "title": "channels remove --channel"
+            },
+            {
+              "title": "channels status --probe"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "models list | set | status"
+            },
+            {
+              "title": "models auth add"
+            },
+            {
+              "title": "models auth setup-token"
+            }
+          ]
+        },
+        {
+          "title": "Models",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "cron list"
+            },
+            {
+              "title": "cron add"
+            },
+            {
+              "title": "memory index --all"
+            },
+            {
+              "title": "memory search \"<query>\""
+            },
+            {
+              "title": "backup create"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heartbeats",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Securing Webhooks"
+        },
+        {
+          "title": "Interval & Active Hours"
+        }
+      ]
+    },
+    {
+      "title": "Automating Tasks"
+    },
+    {
+      "title": "Cron Jobs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "HEARTBEAT.md"
+        },
+        {
+          "title": "Managing & Disabling Jobs"
+        },
+        {
+          "title": "Creating Skills"
+        },
+        {
+          "title": "Installing from ClawHub"
+        },
+        {
+          "title": "Security Risks"
+        }
+      ]
+    },
+    {
+      "title": "Sessions"
+    },
+    {
+      "title": "Skills"
+    },
+    {
+      "title": "Plugins",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Installing Plugins"
+        },
+        {
+          "title": "Creating Plugins"
+        },
+        {
+          "title": "Security Risks"
+        }
+      ]
+    },
+    {
+      "title": "MCP"
+    },
+    {
+      "title": "Multi-Agents",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Routing Rules"
+        },
+        {
+          "title": "Slash Commands (/)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "/new"
+            },
+            {
+              "title": "/status"
+            },
+            {
+              "title": "/model"
+            },
+            {
+              "title": "/context"
+            },
+            {
+              "title": "/compact"
+            },
+            {
+              "title": "/help"
+            },
+            {
+              "title": "/stop"
+            },
+            {
+              "title": "/reset"
+            },
+            {
+              "title": "/usage"
+            },
+            {
+              "title": "/think"
+            },
+            {
+              "title": "/fast"
+            },
+            {
+              "title": "/reasoning"
+            },
+            {
+              "title": "/config"
+            },
+            {
+              "title": "/allowlist"
+            },
+            {
+              "title": "/mcp"
+            },
+            {
+              "title": "/plugins"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

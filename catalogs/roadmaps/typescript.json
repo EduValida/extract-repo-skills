@@ -1,0 +1,365 @@
+{
+  "title": "TypeScript",
+  "topics": [
+    {
+      "title": "Introduction to TypeScript",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TS Playground"
+        },
+        {
+          "title": "tsc"
+        },
+        {
+          "title": "ts-node"
+        },
+        {
+          "title": "TypeScript vs JavaScript"
+        },
+        {
+          "title": "Running TypeScript"
+        },
+        {
+          "title": "TS and JS Interoperability"
+        },
+        {
+          "title": "Installation and Configuration"
+        },
+        {
+          "title": "Primitive Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Interface"
+            },
+            {
+              "title": "boolean"
+            },
+            {
+              "title": "Class"
+            },
+            {
+              "title": "number"
+            },
+            {
+              "title": "Enum"
+            },
+            {
+              "title": "string"
+            },
+            {
+              "title": "Array"
+            },
+            {
+              "title": "void"
+            },
+            {
+              "title": "Tuple"
+            },
+            {
+              "title": "undefined"
+            },
+            {
+              "title": "null"
+            },
+            {
+              "title": "Object"
+            }
+          ]
+        },
+        {
+          "title": "Top Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "never"
+            },
+            {
+              "title": "unknown"
+            },
+            {
+              "title": "any"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Type Inference",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "tsconfig.json"
+        },
+        {
+          "title": "Compiler Options"
+        }
+      ]
+    },
+    {
+      "title": "TypeScript Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Assertions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "as [type]"
+            },
+            {
+              "title": "as any"
+            },
+            {
+              "title": "as const"
+            },
+            {
+              "title": "Non-null Assertion"
+            },
+            {
+              "title": "satisfies keyword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Type Compatibility",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Union Types"
+        },
+        {
+          "title": "Intersection Types"
+        }
+      ]
+    },
+    {
+      "title": "Combining Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type Aliases"
+        },
+        {
+          "title": "keyof Operator"
+        }
+      ]
+    },
+    {
+      "title": "TypeScript Interfaces",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Types vs Interfaces"
+        },
+        {
+          "title": "Extending Interfaces"
+        },
+        {
+          "title": "Interface Declaration"
+        },
+        {
+          "title": "Hybrid Types"
+        }
+      ]
+    },
+    {
+      "title": "Type Guards / Narrowing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "instanceof"
+        },
+        {
+          "title": "typeof"
+        },
+        {
+          "title": "Equality"
+        },
+        {
+          "title": "Truthiness"
+        },
+        {
+          "title": "Type Predicates"
+        }
+      ]
+    },
+    {
+      "title": "TypeScript Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Typing Functions"
+        },
+        {
+          "title": "Function Overloading"
+        },
+        {
+          "title": "Partial"
+        },
+        {
+          "title": "Omit"
+        },
+        {
+          "title": "Record"
+        },
+        {
+          "title": "Extract"
+        }
+      ]
+    },
+    {
+      "title": "Classes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Constructor Params"
+        },
+        {
+          "title": "Access Modifiers"
+        },
+        {
+          "title": "Abstract Classes"
+        }
+      ]
+    },
+    {
+      "title": "Generics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Generic Types"
+        },
+        {
+          "title": "Generic Constraints"
+        }
+      ]
+    },
+    {
+      "title": "Utility Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pick"
+        },
+        {
+          "title": "Readonly"
+        },
+        {
+          "title": "Exclude"
+        },
+        {
+          "title": "Awaited"
+        },
+        {
+          "title": "Parameters"
+        },
+        {
+          "title": "NonNullable"
+        },
+        {
+          "title": "ReturnType"
+        },
+        {
+          "title": "InstanceType"
+        }
+      ]
+    },
+    {
+      "title": "Decorators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Inheritance vs Polymorphism"
+        },
+        {
+          "title": "Method Overriding"
+        },
+        {
+          "title": "Constructor Overloading"
+        },
+        {
+          "title": "Namespaces"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mapped Types"
+        },
+        {
+          "title": "Conditional Types"
+        },
+        {
+          "title": "Literal Types"
+        },
+        {
+          "title": "Template Literal Types"
+        }
+      ]
+    },
+    {
+      "title": "TypeScript Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Ambient Modules"
+        },
+        {
+          "title": "External Modules"
+        },
+        {
+          "title": "Namespace Augmentation"
+        },
+        {
+          "title": "Global Augmentation"
+        }
+      ]
+    },
+    {
+      "title": "Ecosystem",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Recursive Types"
+        },
+        {
+          "title": "Formatting"
+        },
+        {
+          "title": "Linting"
+        },
+        {
+          "title": "Useful Packages"
+        },
+        {
+          "title": "Build Tools"
+        }
+      ]
+    }
+  ]
+}

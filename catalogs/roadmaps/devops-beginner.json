@@ -1,0 +1,48 @@
+{
+  "title": "DevOps Beginner",
+  "topics": [
+    {
+      "title": "Programming Language",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Go"
+        }
+      ]
+    },
+    {
+      "title": "Operating System"
+    },
+    {
+      "title": "Networking & Protocols"
+    },
+    {
+      "title": "Docker"
+    },
+    {
+      "title": "Git"
+    },
+    {
+      "title": "GitHub"
+    },
+    {
+      "title": "AWS"
+    },
+    {
+      "title": "Terraform"
+    },
+    {
+      "title": "Ansible"
+    },
+    {
+      "title": "GitHub Actions"
+    },
+    {
+      "title": "Nginx"
+    }
+  ]
+}

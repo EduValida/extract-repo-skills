@@ -1,0 +1,525 @@
+{
+  "title": "R Programming",
+  "topics": [
+    {
+      "title": "Introduction",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Package Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Installing Packages"
+            },
+            {
+              "title": "CRAN"
+            },
+            {
+              "title": "renv"
+            },
+            {
+              "title": "pak"
+            }
+          ]
+        },
+        {
+          "title": "R vs Python"
+        },
+        {
+          "title": "Installing R"
+        },
+        {
+          "title": "Your First R Script"
+        },
+        {
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RStudio"
+            },
+            {
+              "title": "Positron"
+            },
+            {
+              "title": "VS Code"
+            }
+          ]
+        },
+        {
+          "title": "Publish Your Work",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Quarto"
+            },
+            {
+              "title": "R Markdown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Setting Up"
+    },
+    {
+      "title": "Basic Syntax",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Variables"
+        },
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "Pipe"
+        },
+        {
+          "title": "Comments"
+        },
+        {
+          "title": "Conditional Statements"
+        },
+        {
+          "title": "Loops"
+        }
+      ]
+    },
+    {
+      "title": "Data Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Numeric"
+        },
+        {
+          "title": "Integer"
+        },
+        {
+          "title": "Vectors"
+        },
+        {
+          "title": "Character"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "Complex"
+        }
+      ]
+    },
+    {
+      "title": "Type Conversion",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Matrices"
+        }
+      ]
+    },
+    {
+      "title": "Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Arrays"
+        },
+        {
+          "title": "Factors"
+        },
+        {
+          "title": "Data Frames"
+        },
+        {
+          "title": "Data Tables"
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Arguments & Defaults"
+        },
+        {
+          "title": "Scopes"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Tibbles"
+        },
+        {
+          "title": "Apply Family"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Debugging"
+        },
+        {
+          "title": "tidyverse"
+        },
+        {
+          "title": "ggplot2"
+        },
+        {
+          "title": "dplyr"
+        },
+        {
+          "title": "CSV"
+        }
+      ]
+    },
+    {
+      "title": "Importing Data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Excel"
+        },
+        {
+          "title": "tidyr"
+        },
+        {
+          "title": "readr"
+        },
+        {
+          "title": "Text"
+        },
+        {
+          "title": "JSON"
+        },
+        {
+          "title": "purrr"
+        },
+        {
+          "title": "tibble"
+        },
+        {
+          "title": "APIs"
+        },
+        {
+          "title": "Web Scraping"
+        },
+        {
+          "title": "stringr"
+        },
+        {
+          "title": "forcats"
+        },
+        {
+          "title": "lubridate"
+        }
+      ]
+    },
+    {
+      "title": "Data Cleaning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Filter, Query, Arrange"
+        },
+        {
+          "title": "Group By & Summarize"
+        },
+        {
+          "title": "Mutate & Transform"
+        }
+      ]
+    },
+    {
+      "title": "Data Manipulation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Window Functions"
+        },
+        {
+          "title": "Joins"
+        },
+        {
+          "title": "Reshaping"
+        },
+        {
+          "title": "Map Functions"
+        },
+        {
+          "title": "Working with Data Tables"
+        }
+      ]
+    },
+    {
+      "title": "Strings and Dates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "String Manipulation"
+        },
+        {
+          "title": "Regular Expressions"
+        },
+        {
+          "title": "R Dates & Times"
+        }
+      ]
+    },
+    {
+      "title": "Exploratory Data Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Summary Statistics"
+        },
+        {
+          "title": "Distribution Analysis"
+        },
+        {
+          "title": "Relationship Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Base R Plotting"
+    },
+    {
+      "title": "ggplot2",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Common Plots"
+        },
+        {
+          "title": "Grammar of Graphics"
+        },
+        {
+          "title": "Aesthetic Mappings"
+        },
+        {
+          "title": "Overplotting Techniques"
+        },
+        {
+          "title": "Faceting & Themes"
+        },
+        {
+          "title": "Best Practices"
+        }
+      ]
+    },
+    {
+      "title": "Dashboards",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Power BI / Tableau"
+        },
+        {
+          "title": "Shiny"
+        }
+      ]
+    },
+    {
+      "title": "Interactive Plots",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "plotly"
+        },
+        {
+          "title": "Descriptive Statistics"
+        }
+      ]
+    },
+    {
+      "title": "Statistical Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Probability Distributions"
+        },
+        {
+          "title": "Sampling"
+        },
+        {
+          "title": "stats"
+        },
+        {
+          "title": "rstatix"
+        },
+        {
+          "title": "Correlation"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Type Conversion",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Casting Types"
+            },
+            {
+              "title": "Parsing Dates"
+            },
+            {
+              "title": "Encoding Categories"
+            }
+          ]
+        },
+        {
+          "title": "String Cleaning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "strip, replace, split"
+            }
+          ]
+        },
+        {
+          "title": "Missing Values",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "isnull, isna"
+            },
+            {
+              "title": "Dropping vs. Imputing"
+            },
+            {
+              "title": "Forward / Backward Fill"
+            }
+          ]
+        },
+        {
+          "title": "Outlier Detection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "IQR"
+            },
+            {
+              "title": "Z-score"
+            },
+            {
+              "title": "Visual Inspection"
+            }
+          ]
+        },
+        {
+          "title": "Linear Regression"
+        },
+        {
+          "title": "tidymodels"
+        },
+        {
+          "title": "Logistic Regression"
+        }
+      ]
+    },
+    {
+      "title": "NLP",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Hypothesis Testing"
+        },
+        {
+          "title": "Time Series Analysis"
+        },
+        {
+          "title": "tidytext"
+        },
+        {
+          "title": "quanteda"
+        }
+      ]
+    },
+    {
+      "title": "Network Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "igraph"
+        },
+        {
+          "title": "tidygraph"
+        },
+        {
+          "title": "sf"
+        }
+      ]
+    },
+    {
+      "title": "Geospatial Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "terra"
+        },
+        {
+          "title": "tmap"
+        },
+        {
+          "title": "leaflet"
+        }
+      ]
+    },
+    {
+      "title": "Big Data Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Parallel Computing"
+        },
+        {
+          "title": "Sparklyr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "title": "AI Agents",
+  "topics": [
+    {
+      "title": "Basic Backend Development"
+    },
+    {
+      "title": "Git and Terminal Usage"
+    },
+    {
+      "title": "Streamed vs Unstreamed Responses"
+    },
+    {
+      "title": "REST API Knowledge",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI Agents 101",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "What are AI Agents?"
+            },
+            {
+              "title": "What are Tools?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reasoning vs Standard Models"
+    },
+    {
+      "title": "Fine-tuning vs Prompt Engineering"
+    },
+    {
+      "title": "Transformer Models and LLMs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Model Mechanis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Tokenization"
+            },
+            {
+              "title": "Context Windows"
+            },
+            {
+              "title": "Token Based Pricing"
+            }
+          ]
+        },
+        {
+          "title": "Generation Controls",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Temperature"
+            },
+            {
+              "title": "Top-p"
+            },
+            {
+              "title": "Frequency Penalty"
+            },
+            {
+              "title": "Presence Penalty"
+            },
+            {
+              "title": "Stopping Criteria"
+            },
+            {
+              "title": "Max Length"
+            }
+          ]
+        },
+        {
+          "title": "Deployment Modes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Local Desktop"
+            },
+            {
+              "title": "Remote / Cloud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Embeddings and Vector Search"
+    },
+    {
+      "title": "Open Weight Models"
+    },
+    {
+      "title": "Understand the Basics of RAG"
+    },
+    {
+      "title": "Closed Weight Models"
+    },
+    {
+      "title": "Pricing of Common Models"
+    },
+    {
+      "title": "Agent Loop",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "1",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Perception / User Input"
+            }
+          ]
+        },
+        {
+          "title": "2",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Reason and Plan"
+            }
+          ]
+        },
+        {
+          "title": "3",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Acting / Tool Invocation"
+            }
+          ]
+        },
+        {
+          "title": "Observation & Reflection"
+        },
+        {
+          "title": "Example Usecases",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Personal assistant"
+            },
+            {
+              "title": "Code generation"
+            },
+            {
+              "title": "Data analysis"
+            },
+            {
+              "title": "Web Scraping / Crawling"
+            },
+            {
+              "title": "NPC / Game AI"
+            }
+          ]
+        },
+        {
+          "title": "Error & Rate-limit handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OpenAI Assistant API"
+            },
+            {
+              "title": "Gemini Function Calling"
+            },
+            {
+              "title": "Anthropic Tool Use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is Prompt Engineering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Writing Good Prompts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Be specific in what you want"
+            },
+            {
+              "title": "Provide additional context"
+            },
+            {
+              "title": "Use relevant technical terms"
+            },
+            {
+              "title": "Use Examples in your Prompt"
+            },
+            {
+              "title": "Iterate and Test your Prompts"
+            },
+            {
+              "title": "Specify Length, format etc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tree-of-Thought"
+    },
+    {
+      "title": "Chain of Thought (CoT)"
+    },
+    {
+      "title": "Tool Definition",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Examples of Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Web Search"
+            },
+            {
+              "title": "Code Execution / REPL"
+            },
+            {
+              "title": "Database Queries"
+            },
+            {
+              "title": "API Requests"
+            },
+            {
+              "title": "Email / Slack / SMS"
+            },
+            {
+              "title": "File System Access"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Model Context Protocol (MCP)",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Core Components",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MCP Hosts"
+            },
+            {
+              "title": "MCP Client"
+            },
+            {
+              "title": "MCP Servers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Creating MCP Servers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Maintaining Memory",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RAG and Vector Databases"
+            },
+            {
+              "title": "User Profile Storage"
+            },
+            {
+              "title": "Summarization / Compression"
+            },
+            {
+              "title": "Forgetting / Aging Strategies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is Agent Memory?"
+    },
+    {
+      "title": "Short Term  Memory"
+    },
+    {
+      "title": "Episodic vs Semantic Memory"
+    },
+    {
+      "title": "Long Term Memory"
+    },
+    {
+      "title": "RAG Agent",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Common Architectures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Multi-Agents"
+            },
+            {
+              "title": "Self-critique Agents"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ReAct (Reason + Act)"
+    },
+    {
+      "title": "Planner Executor"
+    },
+    {
+      "title": "DAG Agents",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Evaluation and Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Metrics to Track"
+            },
+            {
+              "title": "Unit Testing for Individual Tools"
+            },
+            {
+              "title": "Integration Testing for Flows"
+            },
+            {
+              "title": "Human in the Loop Evaluation"
+            }
+          ]
+        },
+        {
+          "title": "Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LangSmith"
+            },
+            {
+              "title": "DeepEval"
+            },
+            {
+              "title": "Ragas"
+            }
+          ]
+        },
+        {
+          "title": "Building Using Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LangChain"
+            },
+            {
+              "title": "LangGraph"
+            },
+            {
+              "title": "Haystack"
+            },
+            {
+              "title": "LlamaIndex"
+            },
+            {
+              "title": "CrewAI"
+            },
+            {
+              "title": "AutoGen"
+            },
+            {
+              "title": "Smol Depot"
+            },
+            {
+              "title": "Agno"
+            }
+          ]
+        },
+        {
+          "title": "Debugging and Monitoring",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Structured logging & tracing"
+            }
+          ]
+        },
+        {
+          "title": "Observability Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LangSmith"
+            },
+            {
+              "title": "Helicone"
+            },
+            {
+              "title": "LangFuse"
+            },
+            {
+              "title": "openllmetry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Manual (from scratch)"
+    },
+    {
+      "title": "LLM Native \"Function Calling\"",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OpenAI Functions Calling"
+        }
+      ]
+    },
+    {
+      "title": "Prompt Injection / Jailbreaks"
+    },
+    {
+      "title": "Tool sandboxing / Permissioning"
+    },
+    {
+      "title": "Data Privacy + PII Redaction"
+    },
+    {
+      "title": "Bias & Toxicity Guardrails"
+    },
+    {
+      "title": "Safety + Red Team Testing"
+    }
+  ]
+}

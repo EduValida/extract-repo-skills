@@ -1,0 +1,629 @@
+{
+  "title": "Kotlin",
+  "topics": [
+    {
+      "title": "Introduction to Kotlin",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "History of Kotlin"
+        },
+        {
+          "title": "Why use Kotlin"
+        },
+        {
+          "title": "Java Interoperability"
+        },
+        {
+          "title": "Setting up the Environment"
+        }
+      ]
+    },
+    {
+      "title": "Code Organization"
+    },
+    {
+      "title": "main  Function",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Language Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "print & println"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Variables",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "val vs var"
+        }
+      ]
+    },
+    {
+      "title": "Data types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Type Checks & Casts"
+        },
+        {
+          "title": "Basic Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers"
+            },
+            {
+              "title": "Floats"
+            },
+            {
+              "title": "Unsigned Integers"
+            },
+            {
+              "title": "Characters"
+            },
+            {
+              "title": "Strings"
+            },
+            {
+              "title": "Booleans"
+            },
+            {
+              "title": "Arrays"
+            }
+          ]
+        },
+        {
+          "title": "Type Inference"
+        }
+      ]
+    },
+    {
+      "title": "Comments"
+    },
+    {
+      "title": "Collections",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "read-only vs mutable"
+        },
+        {
+          "title": "Iterators"
+        }
+      ]
+    },
+    {
+      "title": "Ranges"
+    },
+    {
+      "title": "Progressions"
+    },
+    {
+      "title": "Printing data",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "String Templates"
+        }
+      ]
+    },
+    {
+      "title": "Sequences"
+    },
+    {
+      "title": "Conditional Expressions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "if"
+        },
+        {
+          "title": "when"
+        }
+      ]
+    },
+    {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sets"
+        },
+        {
+          "title": "Maps"
+        },
+        {
+          "title": "Label Loops"
+        },
+        {
+          "title": "break & continue"
+        },
+        {
+          "title": "for"
+        },
+        {
+          "title": "while"
+        }
+      ]
+    },
+    {
+      "title": "Exceptions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Throwing Exceptions"
+        },
+        {
+          "title": "Catching Exceptions"
+        }
+      ]
+    },
+    {
+      "title": "Standard functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "parameters"
+        },
+        {
+          "title": "return"
+        },
+        {
+          "title": "varargs"
+        }
+      ]
+    },
+    {
+      "title": "Local Functions"
+    },
+    {
+      "title": "Member Functions"
+    },
+    {
+      "title": "Tail-recursive Functions"
+    },
+    {
+      "title": "Function Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Higher-order Functions﻿"
+        },
+        {
+          "title": "Lambda Functions"
+        },
+        {
+          "title": "Anonymous Functions"
+        }
+      ]
+    },
+    {
+      "title": "Extension Functions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Control Flow",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Transformations"
+            },
+            {
+              "title": "Filtering"
+            },
+            {
+              "title": "plus & minus Operators"
+            },
+            {
+              "title": "Grouping"
+            },
+            {
+              "title": "Retrieving Collection Parts"
+            },
+            {
+              "title": "Retrieving single elements"
+            },
+            {
+              "title": "Ordering"
+            },
+            {
+              "title": "Aggregate Operations"
+            }
+          ]
+        },
+        {
+          "title": "Collection-specific Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lists"
+            },
+            {
+              "title": "Sets"
+            },
+            {
+              "title": "Maps"
+            }
+          ]
+        },
+        {
+          "title": "Properties"
+        }
+      ]
+    },
+    {
+      "title": "Defining Classess"
+    },
+    {
+      "title": "Creating Instances"
+    },
+    {
+      "title": "Class Members",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Methods"
+        },
+        {
+          "title": "Constructors"
+        },
+        {
+          "title": "Nested & Inner Classes"
+        },
+        {
+          "title": "Object Declarations"
+        }
+      ]
+    },
+    {
+      "title": "Inheritance"
+    },
+    {
+      "title": "Extension Functions (2)"
+    },
+    {
+      "title": "Visibility Modifiers"
+    },
+    {
+      "title": "Property Delegates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "More on Classes & Objects",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Abstract Class"
+            },
+            {
+              "title": "Interfaces"
+            },
+            {
+              "title": "Data Classes"
+            },
+            {
+              "title": "Sealed Class"
+            },
+            {
+              "title": "Enum Class"
+            },
+            {
+              "title": "Inline Class"
+            },
+            {
+              "title": "Class Generics"
+            },
+            {
+              "title": "Type Aliases"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Coroutines"
+    },
+    {
+      "title": "Suspending Functions"
+    },
+    {
+      "title": "Coroutines Builders"
+    },
+    {
+      "title": "Understanding Packages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Null Safety",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "What is Null Safety?"
+            },
+            {
+              "title": "Nullable vs Non-nullable"
+            },
+            {
+              "title": "Nullability Check Operators"
+            },
+            {
+              "title": "Safe Casts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Coroutines Behavior"
+    },
+    {
+      "title": "Asynchronous Flow"
+    },
+    {
+      "title": "Coroutines Best practices",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Test Library"
+        },
+        {
+          "title": "Coroutines"
+        },
+        {
+          "title": "Serialization"
+        },
+        {
+          "title": "I/O Library"
+        },
+        {
+          "title": "Date & Time"
+        }
+      ]
+    },
+    {
+      "title": "Importing Packages"
+    },
+    {
+      "title": "Kotlin Libraries"
+    },
+    {
+      "title": "Standard Library",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Default Imports"
+        },
+        {
+          "title": "Opt-in Requirements"
+        }
+      ]
+    },
+    {
+      "title": "Documentation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "KDoc"
+        },
+        {
+          "title": "Dokka"
+        }
+      ]
+    },
+    {
+      "title": "Build Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Packages & Ecosystem",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Gradle"
+            },
+            {
+              "title": "Maven"
+            },
+            {
+              "title": "Build Tool API"
+            }
+          ]
+        },
+        {
+          "title": "JVM Metadata"
+        },
+        {
+          "title": "Gradle Pluggins"
+        }
+      ]
+    },
+    {
+      "title": "CI/CD Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TeamCity"
+        }
+      ]
+    },
+    {
+      "title": "I/O",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Files"
+        },
+        {
+          "title": "Writing & Reading Files"
+        },
+        {
+          "title": "Buffered Streams"
+        }
+      ]
+    },
+    {
+      "title": "IDEs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IntelliJ IDEA"
+        },
+        {
+          "title": "Android Studio"
+        },
+        {
+          "title": "Kotline Notebook"
+        }
+      ]
+    },
+    {
+      "title": "Kotlin Multiplatform",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Compose Multiplatform"
+        }
+      ]
+    },
+    {
+      "title": "Kotlin/Java",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Java from Kotlin"
+        },
+        {
+          "title": "Kotlin from Java"
+        },
+        {
+          "title": "Spring Boot"
+        }
+      ]
+    },
+    {
+      "title": "Kotlin/Native",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C Interoperability"
+        },
+        {
+          "title": "Swift/Objective-C Interop."
+        }
+      ]
+    },
+    {
+      "title": "Kotlin/WASM"
+    },
+    {
+      "title": "Kotlin/JavaScript"
+    },
+    {
+      "title": "Kotlin Scripting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Spring"
+        },
+        {
+          "title": "Vert.x"
+        }
+      ]
+    },
+    {
+      "title": "Server-side Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Android Jetpack"
+        },
+        {
+          "title": "Ktor"
+        },
+        {
+          "title": "Android Studio"
+        },
+        {
+          "title": "Quarkus"
+        },
+        {
+          "title": "Android SDK"
+        }
+      ]
+    },
+    {
+      "title": "Data Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Kotlin Notebooks"
+        },
+        {
+          "title": "Kotlin DataFrame"
+        },
+        {
+          "title": "Kandy"
+        }
+      ]
+    },
+    {
+      "title": "Competitive Programming"
+    },
+    {
+      "title": "AI Development",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Koog"
+        }
+      ]
+    }
+  ]
+}
