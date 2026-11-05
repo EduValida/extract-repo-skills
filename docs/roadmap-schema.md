@@ -61,6 +61,38 @@ Folhas não têm `children`. Grupos podem ter `importance` e
 Títulos de irmãos devem ser únicos. Quando o grafo original repete um título, o
 gerador acrescenta um sufixo, por exemplo `Client (2)`.
 
+## Extração da hierarquia
+
+O script `scripts/extract_roadmap_graph.py` busca o roadmap no roadmap.sh e
+reconstrói a árvore usando, nesta ordem:
+
+1. arestas `dashed` entre tópicos e subtópicos;
+2. arestas entre subtópicos;
+3. `section` e seu tópico dono;
+4. `label` e `paragraph` usados como headings de grupo;
+5. posição apenas como fallback.
+
+O roadmap.sh não expõe `parentId`; por isso alguns casos ainda dependem de
+heurística e podem precisar de revisão.
+
+Para um roadmap:
+
+```bash
+uv run python scripts/extract_roadmap_graph.py --slug network-engineer
+```
+
+Para todos:
+
+```bash
+uv run python scripts/extract_roadmap_graph.py --all --force
+```
+
+Depois de regenerar os grafos, gere os roadmaps enxutos:
+
+```bash
+uv run python scripts/build_roadmaps.py --force
+```
+
 ## Geração
 
 ```bash
