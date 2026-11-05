@@ -51,22 +51,7 @@
           "title": "Drop Table"
         },
         {
-          "title": "JOINs"
-        },
-        {
           "title": "Primary Key"
-        },
-        {
-          "title": "HAVING"
-        },
-        {
-          "title": "Foreign Key"
-        },
-        {
-          "title": "DELETE"
-        },
-        {
-          "title": "Unique"
         }
       ]
     },
@@ -85,16 +70,7 @@
           "title": "WHERE"
         },
         {
-          "title": "ORDER BY"
-        },
-        {
-          "title": "GROUP BY"
-        },
-        {
-          "title": "INSERT"
-        },
-        {
-          "title": "UPDATE"
+          "title": "JOINs"
         }
       ]
     },
@@ -110,28 +86,41 @@
           "title": "INSERT"
         },
         {
+          "title": "DELETE"
+        },
+        {
           "title": "UPDATE"
         },
         {
-          "title": "DELETE"
+          "title": "Statements",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SUM"
+            },
+            {
+              "title": "AVG"
+            }
+          ]
         },
         {
           "title": "COUNT"
         },
         {
-          "title": "SUM"
-        },
-        {
           "title": "MIN"
         },
         {
-          "title": "AVG"
+          "title": "GROUP BY"
         },
         {
           "title": "MAX"
         },
         {
-          "title": "GROUP BY"
+          "title": "INSERT (2)"
+        },
+        {
+          "title": "GROUP BY (2)"
         },
         {
           "title": "HAVING"
@@ -141,12 +130,6 @@
         },
         {
           "title": "Column"
-        },
-        {
-          "title": "Row"
-        },
-        {
-          "title": "Table"
         }
       ]
     },
@@ -156,10 +139,54 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "ORDER BY"
+        },
+        {
+          "title": "HAVING"
+        },
+        {
+          "title": "Foreign Key"
+        },
+        {
+          "title": "UPDATE"
+        },
+        {
+          "title": "DELETE"
+        },
+        {
+          "title": "Unique"
+        },
+        {
           "title": "NOT NULL"
         },
         {
           "title": "CHECK"
+        }
+      ]
+    },
+    {
+      "title": "Subqueries",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Row"
+        },
+        {
+          "title": "Different Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Table"
+            }
+          ]
+        },
+        {
+          "title": "Nested Subqueries"
+        },
+        {
+          "title": "Correlated Subqueries"
         }
       ]
     },
@@ -196,35 +223,14 @@
           "title": "ROUND"
         },
         {
-          "title": "Self Join"
-        },
-        {
-          "title": "Cross Join"
-        },
-        {
-          "title": "CASE"
-        },
-        {
-          "title": "NULLIF"
-        },
-        {
-          "title": "COALESCE"
-        },
-        {
-          "title": "Managing Indexes"
-        }
-      ]
-    },
-    {
-      "title": "Subqueries",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Nested Subqueries"
-        },
-        {
-          "title": "Correlated Subqueries"
+          "title": "Conditional",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Transaction Isolation Levels"
+            }
+          ]
         }
       ]
     },
@@ -246,10 +252,42 @@
           "title": "REPLACE"
         },
         {
-          "title": "UPPER"
+          "title": "Numeric Functions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CASE"
+            },
+            {
+              "title": "NULLIF"
+            },
+            {
+              "title": "COALESCE"
+            }
+          ]
         },
         {
-          "title": "LOWER"
+          "title": "String Functions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DATE"
+            },
+            {
+              "title": "TIME"
+            },
+            {
+              "title": "TIMESTAMP"
+            },
+            {
+              "title": "DATEPART"
+            },
+            {
+              "title": "DATEADD"
+            }
+          ]
         }
       ]
     },
@@ -259,31 +297,38 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "DATE"
+          "title": "UPPER"
         },
         {
-          "title": "TIME"
+          "title": "LOWER"
         },
         {
           "title": "Creating Views"
         },
         {
-          "title": "TIMESTAMP"
-        },
-        {
           "title": "Modifying Views"
-        },
-        {
-          "title": "DATEPART"
-        },
-        {
-          "title": "DATEADD"
         },
         {
           "title": "Dropping Views"
         },
         {
-          "title": "Data Integrity Constraints"
+          "title": "Date and Time",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Using Indexes"
+            },
+            {
+              "title": "Optimizing Joins"
+            },
+            {
+              "title": "Reducing Subqueries"
+            },
+            {
+              "title": "Selective Projection"
+            }
+          ]
         }
       ]
     },
@@ -293,10 +338,47 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Query Optimization"
+          "title": "Self Join"
         },
         {
-          "title": "Transaction Isolation Levels"
+          "title": "Cross Join"
+        },
+        {
+          "title": "Managing Indexes"
+        },
+        {
+          "title": "Query Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Stored Procedures & Functions"
+    },
+    {
+      "title": "Data Integrity & Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Data Integrity Constraints"
+        },
+        {
+          "title": "GRANT and Revoke"
+        },
+        {
+          "title": "DB Security Best Practices"
+        },
+        {
+          "title": "rank"
+        },
+        {
+          "title": "dense_rank"
+        },
+        {
+          "title": "lead"
+        },
+        {
+          "title": "row_number"
         }
       ]
     },
@@ -306,55 +388,24 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "BEGIN"
+          "title": "ACID"
         },
         {
-          "title": "ACID"
+          "title": "BEGIN"
         },
         {
           "title": "COMMIT"
         },
         {
-          "title": "rank"
-        },
-        {
           "title": "ROLLBACK"
-        },
-        {
-          "title": "dense_rank"
         },
         {
           "title": "SAVEPOINT"
         },
         {
-          "title": "lead"
-        },
-        {
           "title": "lag"
-        },
-        {
-          "title": "row_number"
-        },
-        {
-          "title": "first_value"
         }
       ]
-    },
-    {
-      "title": "Data Integrity & Security",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "GRANT and Revoke"
-        },
-        {
-          "title": "DB Security Best Practices"
-        }
-      ]
-    },
-    {
-      "title": "Stored Procedures & Functions"
     },
     {
       "title": "Performance Optimization",
@@ -363,18 +414,6 @@
       "children": [
         {
           "title": "Query Analysis Techniques"
-        },
-        {
-          "title": "Using Indexes"
-        },
-        {
-          "title": "Optimizing Joins"
-        },
-        {
-          "title": "Reducing Subqueries"
-        },
-        {
-          "title": "Selective Projection"
         }
       ]
     },
@@ -383,6 +422,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "first_value"
+        },
         {
           "title": "Window Functions"
         },

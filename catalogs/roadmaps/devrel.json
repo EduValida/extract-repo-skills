@@ -22,19 +22,10 @@
           "title": "Community Support"
         },
         {
-          "title": "Developer Experience"
-        },
-        {
           "title": "Content Creation"
         },
         {
-          "title": "Developer Journey"
-        },
-        {
           "title": "Feedback Loop"
-        },
-        {
-          "title": "Developer Marketing"
         }
       ]
     },
@@ -47,19 +38,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Rules of Three"
-        },
-        {
-          "title": "PechaKucha"
-        },
-        {
-          "title": "Storytelling"
-        },
-        {
-          "title": "Mind Mapping"
-        },
-        {
-          "title": "Visualization"
+          "title": "Key Responsibilities",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Rules of Three"
+            },
+            {
+              "title": "PechaKucha"
+            },
+            {
+              "title": "Storytelling"
+            },
+            {
+              "title": "Mind Mapping"
+            },
+            {
+              "title": "Visualization"
+            }
+          ]
         }
       ]
     },
@@ -69,18 +67,38 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Communication Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Technical Documentation"
+            },
+            {
+              "title": "Blog Posts"
+            }
+          ]
+        },
+        {
           "title": "Social Media"
-        },
-        {
-          "title": "Technical Documentation"
-        },
-        {
-          "title": "Blog Posts"
         }
       ]
     },
     {
-      "title": "Basic Programming Skills"
+      "title": "Basic Programming Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Developer Experience"
+        },
+        {
+          "title": "Developer Journey"
+        },
+        {
+          "title": "Developer Marketing"
+        }
+      ]
     },
     {
       "title": "Community Engagement",
@@ -92,9 +110,6 @@
         },
         {
           "title": "Online Communities"
-        },
-        {
-          "title": "Event Participation"
         }
       ]
     },
@@ -104,25 +119,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "JetBrains IDEs"
+          "title": "Technical Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VS Code"
+            }
+          ]
         },
         {
-          "title": "VS Code"
+          "title": "JetBrains IDEs"
         },
         {
           "title": "Managing Discussions"
         },
         {
           "title": "Issues & Pull Requests"
-        },
-        {
-          "title": "Labelling and Cleanup"
-        },
-        {
-          "title": "Milestones & Releases"
-        },
-        {
-          "title": "Public Backlog"
         }
       ]
     },
@@ -136,12 +149,6 @@
         },
         {
           "title": "Contrast Principle"
-        },
-        {
-          "title": "Handouts"
-        },
-        {
-          "title": "Repetition & Reinforcement"
         }
       ]
     },
@@ -150,6 +157,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Event Participation"
+        },
         {
           "title": "Understanding APIs"
         },
@@ -166,6 +176,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Handouts"
+        },
+        {
+          "title": "Repetition & Reinforcement"
+        },
         {
           "title": "Active Listening"
         },
@@ -186,6 +202,15 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Labelling and Cleanup"
+        },
+        {
+          "title": "Milestones & Releases"
+        },
+        {
+          "title": "Public Backlog"
+        },
+        {
           "title": "Git"
         },
         {
@@ -205,6 +230,28 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Community Building",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Feedback Collection"
+            },
+            {
+              "title": "Surveys"
+            },
+            {
+              "title": "Post Event Followup"
+            },
+            {
+              "title": "Execution"
+            },
+            {
+              "title": "Promotion"
+            }
+          ]
+        },
+        {
           "title": "Identifying Audience"
         },
         {
@@ -215,18 +262,6 @@
         },
         {
           "title": "Community Guidelines"
-        },
-        {
-          "title": "Feedback Collection"
-        },
-        {
-          "title": "Surveys"
-        },
-        {
-          "title": "Post Event Followup"
-        },
-        {
-          "title": "Execution"
         }
       ]
     },
@@ -255,9 +290,6 @@
         },
         {
           "title": "Audio"
-        },
-        {
-          "title": "Animations & Graphics"
         }
       ]
     },
@@ -267,10 +299,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Promotion"
+          "title": "Planning"
         },
         {
-          "title": "Planning"
+          "title": "Animations & Graphics"
+        },
+        {
+          "title": "Editing"
         }
       ]
     },
@@ -305,12 +340,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Animations & Graphics"
-        },
-        {
-          "title": "Editing"
-        },
-        {
           "title": "Recording"
         },
         {
@@ -327,6 +356,9 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Animations & Graphics"
+        },
+        {
           "title": "Twitch"
         },
         {
@@ -337,31 +369,25 @@
         },
         {
           "title": "X"
-        }
-      ]
-    },
-    {
-      "title": "Social Media",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Facebook"
         },
         {
-          "title": "Instagram"
-        },
-        {
-          "title": "LinkedIn"
-        },
-        {
-          "title": "X"
-        },
-        {
-          "title": "Content Strategy"
-        },
-        {
-          "title": "Analytics and Optimization"
+          "title": "Platform Selection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Facebook"
+            },
+            {
+              "title": "Instagram"
+            },
+            {
+              "title": "LinkedIn"
+            },
+            {
+              "title": "X"
+            }
+          ]
         }
       ]
     },
@@ -382,6 +408,46 @@
       ]
     },
     {
+      "title": "Social Media",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Platform Selection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Content Strategy",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Consistent Posting"
+                },
+                {
+                  "title": "Engaging Content"
+                },
+                {
+                  "title": "Creating Brand Voice"
+                }
+              ]
+            },
+            {
+              "title": "Analytics and Optimization",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Tracking Engagement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Sample Projects",
       "importance": 50,
       "completion_threshold": 60,
@@ -393,16 +459,7 @@
           "title": "Example Apps"
         },
         {
-          "title": "Consistent Posting"
-        },
-        {
           "title": "Use Case Based"
-        },
-        {
-          "title": "Engaging Content"
-        },
-        {
-          "title": "Creating Brand Voice"
         }
       ]
     },
@@ -412,6 +469,35 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Content Creation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Office Hours"
+            },
+            {
+              "title": "Webinars"
+            }
+          ]
+        },
+        {
+          "title": "Developer Onboarding",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Community Growth"
+            },
+            {
+              "title": "Engagement Rates"
+            },
+            {
+              "title": "Content Performance"
+            }
+          ]
+        },
+        {
           "title": "Forums"
         },
         {
@@ -419,23 +505,33 @@
         },
         {
           "title": "FAQs"
+        },
+        {
+          "title": "Live Support",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Regular Reports"
+            },
+            {
+              "title": "Data Visualization"
+            },
+            {
+              "title": "Insights & Recommendations"
+            }
+          ]
         }
       ]
+    },
+    {
+      "title": "Reporting"
     },
     {
       "title": "Key Metrics",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Community Growth"
-        },
-        {
-          "title": "Engagement Rates"
-        },
-        {
-          "title": "Content Performance"
-        },
         {
           "title": "Developer Satisfaction"
         }
@@ -447,9 +543,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Tracking Engagement"
-        },
-        {
           "title": "Data-Driven Strategy Shift"
         },
         {
@@ -460,28 +553,6 @@
         },
         {
           "title": "Google Analytics"
-        }
-      ]
-    },
-    {
-      "title": "Reporting",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Office Hours"
-        },
-        {
-          "title": "Webinars"
-        },
-        {
-          "title": "Regular Reports"
-        },
-        {
-          "title": "Data Visualization"
-        },
-        {
-          "title": "Insights & Recommendations"
         }
       ]
     },

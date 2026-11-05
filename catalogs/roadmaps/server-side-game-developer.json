@@ -16,16 +16,20 @@
           "title": "Segment Structure"
         },
         {
-          "title": "Vulnerability"
+          "title": "Vulnerability",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Denial of Service"
+            }
+          ]
         },
         {
           "title": "Max Segment Size"
         },
         {
           "title": "Window Scaling"
-        },
-        {
-          "title": "Denial of Service"
         },
         {
           "title": "Connection"
@@ -37,28 +41,7 @@
           "title": "Resource Usage"
         },
         {
-          "title": "Veto"
-        },
-        {
           "title": "Max Segment Scaling"
-        },
-        {
-          "title": "Timestamp"
-        },
-        {
-          "title": "Congestion Control"
-        },
-        {
-          "title": "Data Transfer"
-        },
-        {
-          "title": "Reliable Transmission"
-        },
-        {
-          "title": "Out-of-Band Data"
-        },
-        {
-          "title": "Selective Ack."
         }
       ]
     },
@@ -96,6 +79,9 @@
           "title": "Heavy vs Lightweight"
         },
         {
+          "title": "Veto"
+        },
+        {
           "title": "Packet vs Datagram"
         },
         {
@@ -103,12 +89,6 @@
         },
         {
           "title": "Streaming vs Broadcast"
-        },
-        {
-          "title": "Flow Control"
-        },
-        {
-          "title": "Error Detection"
         }
       ]
     },
@@ -137,6 +117,9 @@
         },
         {
           "title": "IPv6"
+        },
+        {
+          "title": "IPv4"
         }
       ]
     },
@@ -149,34 +132,47 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "C#"
+          "title": "Timestamp"
+        },
+        {
+          "title": "Data Transfer",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Congestion Control"
+            },
+            {
+              "title": "Reliable Transmission"
+            },
+            {
+              "title": "Flow Control",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Error Detection"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Out-of-Band Data"
         },
         {
           "title": "Java"
         },
         {
-          "title": "C/C++"
+          "title": "C#"
         },
         {
           "title": "Erlang"
-        },
-        {
-          "title": "JavaScript"
-        },
-        {
-          "title": "Go"
         }
       ]
     },
     {
-      "title": "Category",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "IPv4"
-        }
-      ]
+      "title": "Category"
     },
     {
       "title": "Security",
@@ -193,6 +189,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Selective Ack."
+        },
         {
           "title": "Byte Manipulation"
         },
@@ -222,16 +221,10 @@
           "title": "Datagram Construction"
         },
         {
-          "title": "Sharding"
-        },
-        {
           "title": "IP Addressing"
         },
         {
           "title": "Routing"
-        },
-        {
-          "title": "Fiber"
         }
       ]
     },
@@ -240,6 +233,15 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "C/C++"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Go"
+        },
         {
           "title": "JSON"
         },
@@ -251,9 +253,6 @@
         },
         {
           "title": "YAML"
-        },
-        {
-          "title": "Protobuf"
         }
       ]
     },
@@ -263,19 +262,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Sharding"
+        },
+        {
+          "title": "Fiber"
+        },
+        {
           "title": "Thread Local Storage"
-        },
-        {
-          "title": "Windows"
-        },
-        {
-          "title": "pthread"
-        },
-        {
-          "title": "Redis"
-        },
-        {
-          "title": "Memcached"
         }
       ]
     },
@@ -285,7 +278,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Windows"
+        },
+        {
+          "title": "pthread"
+        },
+        {
           "title": "Condition Variable"
+        },
+        {
+          "title": "Redis"
         },
         {
           "title": "Spinlock"
@@ -294,16 +296,14 @@
           "title": "Barrier"
         },
         {
-          "title": "Future & Promises"
-        },
-        {
-          "title": "Channel"
-        },
-        {
-          "title": "Mutex"
-        },
-        {
-          "title": "Semaphore"
+          "title": "Future & Promises",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Channel"
+            }
+          ]
         }
       ]
     },
@@ -312,6 +312,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Protobuf"
+        },
         {
           "title": "Design Patterns"
         },
@@ -323,6 +326,16 @@
         },
         {
           "title": "Dump Analysis"
+        },
+        {
+          "title": "Key-Value",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Memcached"
+            }
+          ]
         },
         {
           "title": "Functional Programming"
@@ -362,10 +375,24 @@
           "title": "DAL"
         },
         {
-          "title": "Couchbase"
+          "title": "RDBMS",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Couchbase"
+            }
+          ]
         },
         {
-          "title": "SSL"
+          "title": "NoSQL",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SSL"
+            }
+          ]
         }
       ]
     },
@@ -375,16 +402,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Thread Building Block (C++)"
-        },
-        {
-          "title": "Concurrency (Java)"
-        },
-        {
           "title": "Update Process"
-        },
-        {
-          "title": "Determinism"
         }
       ]
     },
@@ -398,9 +416,6 @@
         },
         {
           "title": "gRPC"
-        },
-        {
-          "title": "FRP"
         }
       ]
     },
@@ -409,6 +424,16 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Mutex",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Semaphore"
+            }
+          ]
+        },
         {
           "title": "Apache Kafka"
         },
@@ -423,20 +448,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Thread Building Block (C++)"
+        },
+        {
+          "title": "Concurrency (Java)"
+        },
+        {
           "title": "Asnc-await (C#)"
         },
         {
           "title": "goroutine (Go)"
-        }
-      ]
-    },
-    {
-      "title": "Reactive Approach",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "OORP"
         }
       ]
     },
@@ -446,7 +467,30 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Determinism"
+        },
+        {
           "title": "Synchrony"
+        }
+      ]
+    },
+    {
+      "title": "Reactive Approach",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Maximise your skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OORP"
+            },
+            {
+              "title": "FRP"
+            }
+          ]
         }
       ]
     },
@@ -454,14 +498,7 @@
       "title": "Reactive Approach (2)"
     },
     {
-      "title": "Multithreading (2)",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Serverless"
-        }
-      ]
+      "title": "Multithreading (2)"
     },
     {
       "title": "Asynchronous"
@@ -489,15 +526,6 @@
         },
         {
           "title": "io_uring"
-        },
-        {
-          "title": "select"
-        },
-        {
-          "title": "epoll"
-        },
-        {
-          "title": "Registered IO"
         }
       ]
     },
@@ -510,7 +538,10 @@
           "title": "WSA Poll"
         },
         {
-          "title": "kqueue"
+          "title": "select"
+        },
+        {
+          "title": "epoll"
         }
       ]
     },
@@ -520,10 +551,30 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Docker"
+          "title": "kqueue"
         },
         {
-          "title": "Docker Compose"
+          "title": "Docker",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Docker Compose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Clustering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Registered IO"
+        },
+        {
+          "title": "Apache Spark"
         }
       ]
     },
@@ -532,6 +583,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Serverless"
+        },
         {
           "title": "Azure"
         },
@@ -542,19 +596,6 @@
           "title": "AWS"
         }
       ]
-    },
-    {
-      "title": "Data Clustering",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Apache Spark"
-        }
-      ]
-    },
-    {
-      "title": "AI"
     },
     {
       "title": "Cloud ML",
@@ -571,6 +612,9 @@
           "title": "Azure ML"
         }
       ]
+    },
+    {
+      "title": "AI"
     },
     {
       "title": "Deep Learning",

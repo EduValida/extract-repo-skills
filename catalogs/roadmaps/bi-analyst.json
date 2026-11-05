@@ -17,9 +17,6 @@
         },
         {
           "title": "Responsibilities"
-        },
-        {
-          "title": "Skills"
         }
       ]
     },
@@ -43,7 +40,14 @@
       "title": "Metrics and KPIs"
     },
     {
-      "title": "Stakeholder Identification"
+      "title": "Stakeholder Identification",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Marketing"
+        }
+      ]
     },
     {
       "title": "Key Business Functions",
@@ -52,9 +56,6 @@
       "children": [
         {
           "title": "Finance"
-        },
-        {
-          "title": "Marketing"
         },
         {
           "title": "Operations"
@@ -89,31 +90,10 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Skills"
+        },
+        {
           "title": "Mean"
-        },
-        {
-          "title": "Mode"
-        },
-        {
-          "title": "Median"
-        },
-        {
-          "title": "Range"
-        },
-        {
-          "title": "Variance"
-        },
-        {
-          "title": "STD"
-        },
-        {
-          "title": "IQR"
-        },
-        {
-          "title": "Skewness"
-        },
-        {
-          "title": "Kurtosis"
         }
       ]
     },
@@ -131,10 +111,26 @@
       ]
     },
     {
-      "title": "Descriptive Statistics"
+      "title": "Dispersion",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Mode"
+        },
+        {
+          "title": "Median"
+        },
+        {
+          "title": "Range"
+        },
+        {
+          "title": "Variance"
+        }
+      ]
     },
     {
-      "title": "Dispersion"
+      "title": "Descriptive Statistics"
     },
     {
       "title": "Inferential Statistics"
@@ -150,7 +146,23 @@
       ]
     },
     {
-      "title": "Distribution"
+      "title": "Distribution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "STD"
+        },
+        {
+          "title": "IQR"
+        },
+        {
+          "title": "Skewness"
+        },
+        {
+          "title": "Kurtosis"
+        }
+      ]
     },
     {
       "title": "Regression Analysis",
@@ -194,7 +206,14 @@
       "children": [
         {
           "title": "Structured"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Data Sources",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Semistructured"
         },
@@ -206,38 +225,8 @@
         },
         {
           "title": "Mobile Apps"
-        },
-        {
-          "title": "Web"
-        },
-        {
-          "title": "APIs"
-        },
-        {
-          "title": "Cloud"
-        },
-        {
-          "title": "IoT"
-        },
-        {
-          "title": "CSV"
-        },
-        {
-          "title": "Excel"
-        },
-        {
-          "title": "XML"
-        },
-        {
-          "title": "JSON"
-        },
-        {
-          "title": "Other formats"
         }
       ]
-    },
-    {
-      "title": "Data Sources"
     },
     {
       "title": "What is Data?",
@@ -269,7 +258,44 @@
       ]
     },
     {
-      "title": "Data Formats"
+      "title": "Data Formats",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "APIs"
+        },
+        {
+          "title": "Web"
+        },
+        {
+          "title": "Cloud"
+        },
+        {
+          "title": "IoT"
+        },
+        {
+          "title": "Excel"
+        },
+        {
+          "title": "CSV"
+        },
+        {
+          "title": "JSON"
+        },
+        {
+          "title": "XML"
+        },
+        {
+          "title": "Other formats"
+        },
+        {
+          "title": "SQL"
+        },
+        {
+          "title": "dplyr"
+        }
+      ]
     },
     {
       "title": "Popular Databases",
@@ -277,16 +303,16 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "PostgreSQL"
-        },
-        {
           "title": "MySQL"
         },
         {
-          "title": "Oracle"
+          "title": "PostgreSQL"
         },
         {
           "title": "SQLite"
+        },
+        {
+          "title": "Oracle"
         }
       ]
     },
@@ -302,27 +328,25 @@
           "title": "Excel"
         },
         {
-          "title": "SQL"
-        },
-        {
           "title": "Missing Values"
         },
         {
           "title": "Pandas"
         },
         {
-          "title": "dplyr"
-        },
-        {
           "title": "Outliers"
-        },
-        {
-          "title": "Duplicates"
         }
       ]
     },
     {
-      "title": "Exploratory Data Analysis"
+      "title": "Exploratory Data Analysis",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Duplicates"
+        }
+      ]
     },
     {
       "title": "Data Trans. Techniques"
@@ -336,22 +360,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Barplot"
+          "title": "Popular Plots",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lineplot"
+            },
+            {
+              "title": "Scatterplot"
+            },
+            {
+              "title": "Map"
+            }
+          ]
         },
         {
-          "title": "Lineplot"
+          "title": "Barplot"
         },
         {
           "title": "Histogram"
         },
         {
-          "title": "Scatterplot"
-        },
-        {
           "title": "Heatmap"
-        },
-        {
-          "title": "Map"
         }
       ]
     },
@@ -390,14 +421,18 @@
         },
         {
           "title": "Qlik"
-        },
-        {
-          "title": "Looker"
         }
       ]
     },
     {
-      "title": "Programming Languages"
+      "title": "Programming Languages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Looker"
+        }
+      ]
     },
     {
       "title": "Cloud Computing Basics",
@@ -497,27 +532,31 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Timeliness"
-        },
-        {
           "title": "Relevance"
         },
         {
-          "title": "Interpretability"
+          "title": "Timeliness"
         },
         {
           "title": "Accesibility"
         },
         {
-          "title": "Coherence"
-        },
-        {
-          "title": "Accuracy"
+          "title": "Interpretability"
         }
       ]
     },
     {
-      "title": "Data Lineage"
+      "title": "Data Lineage",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Accuracy"
+        },
+        {
+          "title": "Coherence"
+        }
+      ]
     },
     {
       "title": "Ethical Data Use"
@@ -541,10 +580,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "CCPA"
+          "title": "GDPR"
         },
         {
-          "title": "GDPR"
+          "title": "CCPA"
         }
       ]
     },
@@ -592,10 +631,17 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Airflow"
+          "title": "ETL Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "dbt"
+            }
+          ]
         },
         {
-          "title": "dbt"
+          "title": "Airflow"
         }
       ]
     },

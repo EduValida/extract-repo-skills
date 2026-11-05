@@ -16,37 +16,41 @@
           "title": "Angular and History"
         },
         {
-          "title": "Metadata"
-        },
-        {
           "title": "Angular Architecture"
         },
         {
           "title": "Template"
         },
         {
-          "title": "Selector"
-        },
-        {
           "title": "Setting up a New Project"
+        }
+      ]
+    },
+    {
+      "title": "Components"
+    },
+    {
+      "title": "Communication",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Metadata"
         },
         {
-          "title": "Standalone"
+          "title": "Selector"
         },
         {
           "title": "Styles"
         },
         {
-          "title": "Module Architecture"
-        },
-        {
-          "title": "Provider"
+          "title": "Standalone"
         },
         {
           "title": "Imports"
         },
         {
-          "title": "Creating Modules"
+          "title": "Provider"
         },
         {
           "title": "viewProvider"
@@ -56,30 +60,7 @@
         },
         {
           "title": "changeDetection"
-        }
-      ]
-    },
-    {
-      "title": "Components",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Feature Modules"
         },
-        {
-          "title": "Interpolation"
-        },
-        {
-          "title": "Template Statements"
-        }
-      ]
-    },
-    {
-      "title": "Communication",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
         {
           "title": "Parent-Child Interaction"
         },
@@ -88,12 +69,6 @@
         },
         {
           "title": "ContentChild"
-        },
-        {
-          "title": "Component Lifecycle"
-        },
-        {
-          "title": "Dynamic Components"
         }
       ]
     },
@@ -102,6 +77,15 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Module Architecture"
+        },
+        {
+          "title": "Creating Modules"
+        },
+        {
+          "title": "Feature Modules"
+        },
         {
           "title": "Lazy Loading Modules"
         },
@@ -116,6 +100,12 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Interpolation"
+        },
+        {
+          "title": "Template Statements"
+        },
+        {
           "title": "Data Binding"
         },
         {
@@ -129,15 +119,6 @@
         },
         {
           "title": "Two-way Binding"
-        },
-        {
-          "title": "Control Flow"
-        },
-        {
-          "title": "Template Ref Vars"
-        },
-        {
-          "title": "@Input & @Output"
         }
       ]
     },
@@ -151,9 +132,6 @@
         },
         {
           "title": "Attribute Directives"
-        },
-        {
-          "title": "Custom Directives"
         }
       ]
     },
@@ -162,6 +140,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Component Lifecycle"
+        },
+        {
+          "title": "Dynamic Components"
+        },
         {
           "title": "@else"
         },
@@ -188,15 +172,6 @@
         },
         {
           "title": "@defer"
-        },
-        {
-          "title": "Reactive Forms"
-        },
-        {
-          "title": "Typed Forms"
-        },
-        {
-          "title": "Template-driven Forms"
         }
       ]
     },
@@ -225,29 +200,10 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Custom Directives"
+        },
+        {
           "title": "Configuration"
-        },
-        {
-          "title": "Lazy Loading"
-        },
-        {
-          "title": "Router Outlets"
-        }
-      ]
-    },
-    {
-      "title": "Routing",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Router Links"
-        },
-        {
-          "title": "Router Events"
-        },
-        {
-          "title": "Guards"
         }
       ]
     },
@@ -257,7 +213,32 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Control Flow"
+        },
+        {
+          "title": "Template Ref Vars"
+        },
+        {
+          "title": "@Input & @Output"
+        },
+        {
           "title": "Dependency Injection"
+        }
+      ]
+    },
+    {
+      "title": "Routing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lazy Loading"
+        },
+        {
+          "title": "Router Outlets"
+        },
+        {
+          "title": "Router Links"
         }
       ]
     },
@@ -267,6 +248,15 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Reactive Forms"
+        },
+        {
+          "title": "Typed Forms"
+        },
+        {
+          "title": "Template-driven Forms"
+        },
+        {
           "title": "Dynamic Forms"
         },
         {
@@ -274,9 +264,6 @@
         },
         {
           "title": "Control Value Accessor"
-        },
-        {
-          "title": "Zoneless Applications"
         }
       ]
     },
@@ -290,9 +277,6 @@
         },
         {
           "title": "Making Requests"
-        },
-        {
-          "title": "Writing Interceptors"
         }
       ]
     },
@@ -302,13 +286,39 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Router Events"
+        },
+        {
+          "title": "Guards"
+        },
+        {
           "title": "Observable Pattern"
+        }
+      ]
+    },
+    {
+      "title": "Zones",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Zoneless Applications"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Writing Interceptors"
         },
         {
-          "title": "Observable Lifecycle"
+          "title": "NGXS"
         },
         {
-          "title": "RxJS vs Promises"
+          "title": "NgRx"
         }
       ]
     },
@@ -317,6 +327,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Observable Lifecycle"
+        },
+        {
+          "title": "RxJS vs Promises"
+        },
         {
           "title": "Operators"
         },
@@ -333,31 +349,9 @@
           "title": "Rate Limiting"
         },
         {
-          "title": "Queries as Signals"
-        },
-        {
           "title": "Transformation"
-        },
-        {
-          "title": "Combination"
         }
       ]
-    },
-    {
-      "title": "State Management",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "NGXS"
-        },
-        {
-          "title": "NgRx"
-        }
-      ]
-    },
-    {
-      "title": "Zones"
     },
     {
       "title": "Developer Tools",
@@ -371,13 +365,7 @@
           "title": "DevTools"
         },
         {
-          "title": "Language Service"
-        },
-        {
           "title": "Local Setup"
-        },
-        {
-          "title": "Libraries"
         },
         {
           "title": "Deployment"
@@ -392,13 +380,7 @@
           "title": "Build Environments"
         },
         {
-          "title": "Cross-site Scripting"
-        },
-        {
           "title": "CLI Builders"
-        },
-        {
-          "title": "AoT Compilation"
         }
       ]
     },
@@ -407,6 +389,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Queries as Signals"
+        },
         {
           "title": "Model Inputs"
         }
@@ -419,6 +404,12 @@
       "children": [
         {
           "title": "AnalogJS"
+        },
+        {
+          "title": "Language Service"
+        },
+        {
+          "title": "Libraries"
         }
       ]
     },
@@ -434,37 +425,28 @@
           "title": "Creating Libraries"
         },
         {
-          "title": "HTTP Vulnerabilities"
+          "title": "Cross-site Scripting"
         },
         {
-          "title": "Cross-site Request Forgery"
+          "title": "HTTP Vulnerabilities"
         },
         {
           "title": "Sanitization"
         },
         {
-          "title": "HttpClient CSRF"
+          "title": "Cross-site Request Forgery"
+        },
+        {
+          "title": "AoT Compilation"
         },
         {
           "title": "Trusting Safe Values"
         },
         {
-          "title": "XSRF protection"
+          "title": "HttpClient CSRF"
         },
         {
           "title": "Enforce Trusted Types"
-        },
-        {
-          "title": "Cross-site Script Inclusion"
-        },
-        {
-          "title": "Testing Services"
-        },
-        {
-          "title": "Testing Pipes"
-        },
-        {
-          "title": "Testing Requests"
         }
       ]
     },
@@ -473,6 +455,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Combination"
+        },
         {
           "title": "Attributes"
         },
@@ -496,7 +481,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "XSRF protection"
+        },
+        {
           "title": "Deferrable Views"
+        },
+        {
+          "title": "Cross-site Script Inclusion"
         },
         {
           "title": "Image Optimization"
@@ -506,9 +497,31 @@
         },
         {
           "title": "Slow Computations"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Localize Package"
         },
         {
-          "title": "Hydration"
+          "title": "Locales by ID"
+        },
+        {
+          "title": "Translation Files"
+        },
+        {
+          "title": "Multiple Locales"
+        },
+        {
+          "title": "Transitions & Triggers"
+        },
+        {
+          "title": "Complex Sequences"
         }
       ]
     },
@@ -517,6 +530,18 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Testing Services"
+        },
+        {
+          "title": "Testing Pipes"
+        },
+        {
+          "title": "Hydration"
+        },
+        {
+          "title": "Testing Requests"
+        },
         {
           "title": "Testing Directives"
         },
@@ -538,35 +563,10 @@
       ]
     },
     {
-      "title": "Internationalization",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Localize Package"
-        },
-        {
-          "title": "Locales by ID"
-        },
-        {
-          "title": "Translation Files"
-        },
-        {
-          "title": "Multiple Locales"
-        }
-      ]
-    },
-    {
       "title": "Animation",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Transitions & Triggers"
-        },
-        {
-          "title": "Complex Sequences"
-        },
         {
           "title": "Reusable Animations"
         },

@@ -22,19 +22,10 @@
           "title": "Testing Approaches"
         },
         {
-          "title": "Manage your Testing"
-        },
-        {
           "title": "Project Management"
         },
         {
-          "title": "White Box Testing"
-        },
-        {
-          "title": "Spiral"
-        },
-        {
-          "title": "qTest"
+          "title": "Manage your Testing"
         },
         {
           "title": "Atlassian"
@@ -43,16 +34,10 @@
           "title": "Assembla"
         },
         {
+          "title": "qTest"
+        },
+        {
           "title": "TestRail"
-        },
-        {
-          "title": "Gray Box Testing"
-        },
-        {
-          "title": "V Model"
-        },
-        {
-          "title": "TestLink"
         },
         {
           "title": "YouTrack"
@@ -61,22 +46,10 @@
           "title": "Trello"
         },
         {
+          "title": "TestLink"
+        },
+        {
           "title": "Zephyr"
-        },
-        {
-          "title": "Testing Techniques"
-        },
-        {
-          "title": "Functional Testing"
-        },
-        {
-          "title": "UAT"
-        },
-        {
-          "title": "Exploratory Testing"
-        },
-        {
-          "title": "Sanity Testing"
         }
       ]
     },
@@ -86,25 +59,35 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "White Box Testing"
+        },
+        {
+          "title": "Spiral"
+        },
+        {
+          "title": "Gray Box Testing"
+        },
+        {
+          "title": "V Model"
+        },
+        {
           "title": "Black Box Testing"
         },
         {
           "title": "Waterfall"
         },
         {
+          "title": "Testing Techniques",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Functional Testing"
+            }
+          ]
+        },
+        {
           "title": "Agile Model"
-        },
-        {
-          "title": "Kanban"
-        },
-        {
-          "title": "Scrum"
-        },
-        {
-          "title": "XP"
-        },
-        {
-          "title": "SAFe"
         }
       ]
     },
@@ -114,10 +97,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Kanban"
+        },
+        {
+          "title": "Scrum"
+        },
+        {
           "title": "Non-Functional Testing"
         },
         {
-          "title": "Regression Testing"
+          "title": "SAFe"
         },
         {
           "title": "Load Testing"
@@ -127,18 +116,78 @@
         },
         {
           "title": "BDD"
+        }
+      ]
+    },
+    {
+      "title": "Manual Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ATDD"
+        },
+        {
+          "title": "RCA"
+        },
+        {
+          "title": "Test Cases and Scenarios"
+        },
+        {
+          "title": "Compatibility"
+        },
+        {
+          "title": "Verification and Validation"
+        },
+        {
+          "title": "Test Planning"
+        }
+      ]
+    },
+    {
+      "title": "Backend Automation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "XP"
+        },
+        {
+          "title": "Karateframework"
+        },
+        {
+          "title": "Cypress"
+        },
+        {
+          "title": "Playwright"
+        },
+        {
+          "title": "Soap UI"
+        }
+      ]
+    },
+    {
+      "title": "Frontend Automation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "UAT"
+        },
+        {
+          "title": "Exploratory Testing"
+        },
+        {
+          "title": "Sanity Testing"
+        },
+        {
+          "title": "Regression Testing"
         },
         {
           "title": "Smoke Testing"
         },
         {
           "title": "Performance Testing"
-        },
-        {
-          "title": "ATDD"
-        },
-        {
-          "title": "RCA"
         },
         {
           "title": "Unit Testing"
@@ -157,108 +206,71 @@
         },
         {
           "title": "Accessibility Testing"
-        }
-      ]
-    },
-    {
-      "title": "Manual Testing",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Test Cases and Scenarios"
         },
         {
-          "title": "Compatibility"
+          "title": "Basic Introduction",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Browser / Dev Tools"
+            },
+            {
+              "title": "HTML, CSS, JavaScript"
+            },
+            {
+              "title": "Ajax"
+            },
+            {
+              "title": "Caching"
+            },
+            {
+              "title": "SWAs, PWAs, JAMStack"
+            },
+            {
+              "title": "CSR vs SSR"
+            },
+            {
+              "title": "Responsive vs Adaptive"
+            }
+          ]
         },
         {
-          "title": "Verification and Validation"
-        },
-        {
-          "title": "Test Planning"
-        }
-      ]
-    },
-    {
-      "title": "Frontend Automation",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Webdriver.io"
-        },
-        {
-          "title": "Browser / Dev Tools"
-        },
-        {
-          "title": "Playwright"
-        },
-        {
-          "title": "Jasmine"
-        },
-        {
-          "title": "HTML, CSS, JavaScript"
-        },
-        {
-          "title": "QA Wolf"
-        },
-        {
-          "title": "Robot"
-        },
-        {
-          "title": "Ajax"
-        },
-        {
-          "title": "Caching"
-        },
-        {
-          "title": "Cypress"
-        },
-        {
-          "title": "Selenium"
-        },
-        {
-          "title": "SWAs, PWAs, JAMStack"
-        },
-        {
-          "title": "Jest"
-        },
-        {
-          "title": "Nightwatch"
-        },
-        {
-          "title": "CSR vs SSR"
-        },
-        {
-          "title": "Puppeteer"
-        },
-        {
-          "title": "Responsive vs Adaptive"
-        }
-      ]
-    },
-    {
-      "title": "Backend Automation",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Karateframework"
-        },
-        {
-          "title": "Cypress"
-        },
-        {
-          "title": "Playwright"
-        },
-        {
-          "title": "Soap UI"
-        },
-        {
-          "title": "Postman / Newman"
-        },
-        {
-          "title": "REST Assured"
+          "title": "Automation Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Webdriver.io"
+            },
+            {
+              "title": "Playwright"
+            },
+            {
+              "title": "Jasmine"
+            },
+            {
+              "title": "QA Wolf"
+            },
+            {
+              "title": "Robot"
+            },
+            {
+              "title": "Selenium"
+            },
+            {
+              "title": "Cypress"
+            },
+            {
+              "title": "Jest"
+            },
+            {
+              "title": "Nightwatch"
+            },
+            {
+              "title": "Puppeteer"
+            }
+          ]
         }
       ]
     },
@@ -268,13 +280,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Wave"
-        },
-        {
-          "title": "AXE"
-        },
-        {
-          "title": "Chrome DevTools"
+          "title": "Non-Functional Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Wave"
+            },
+            {
+              "title": "AXE"
+            },
+            {
+              "title": "Detox"
+            },
+            {
+              "title": "Chrome DevTools"
+            },
+            {
+              "title": "SwiftTesting"
+            }
+          ]
         }
       ]
     },
@@ -284,16 +309,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Postman / Newman"
+        },
+        {
+          "title": "REST Assured"
+        },
+        {
           "title": "Espresso"
         },
         {
-          "title": "Detox"
-        },
-        {
           "title": "Appium"
-        },
-        {
-          "title": "SwiftTesting"
         }
       ]
     },
@@ -341,12 +366,6 @@
         },
         {
           "title": "Vulnerability Scanning"
-        },
-        {
-          "title": "OWASP 10"
-        },
-        {
-          "title": "Attack Vectors"
         }
       ]
     },
@@ -356,19 +375,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Selenium IDE"
-        },
-        {
-          "title": "Ghost Inspector"
-        },
-        {
-          "title": "BugBug"
+          "title": "Browser Addons",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Selenium IDE"
+            },
+            {
+              "title": "BugBug"
+            },
+            {
+              "title": "Ghost Inspector"
+            }
+          ]
         },
         {
           "title": "Mailinator"
-        },
-        {
-          "title": "Gmail Tester"
         }
       ]
     },
@@ -378,38 +401,10 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Gmail Tester"
+        },
+        {
           "title": "Delphix"
-        }
-      ]
-    },
-    {
-      "title": "Reporting",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "TestRail"
-        },
-        {
-          "title": "Allure"
-        },
-        {
-          "title": "jUnit"
-        },
-        {
-          "title": "Drone"
-        },
-        {
-          "title": "Jenkins"
-        },
-        {
-          "title": "GitLab CI"
-        },
-        {
-          "title": "Bamboo"
-        },
-        {
-          "title": "Circle CI"
         }
       ]
     },
@@ -418,6 +413,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "OWASP 10"
+        },
+        {
+          "title": "Attack Vectors"
+        },
         {
           "title": "New Relic"
         },
@@ -442,6 +443,25 @@
       ]
     },
     {
+      "title": "Reporting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "TestRail"
+        },
+        {
+          "title": "Allure"
+        },
+        {
+          "title": "jUnit"
+        },
+        {
+          "title": "Jenkins"
+        }
+      ]
+    },
+    {
       "title": "Version Control System",
       "importance": 50,
       "completion_threshold": 60,
@@ -456,6 +476,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Puppeteer"
+        },
         {
           "title": "GitHub"
         },
@@ -476,6 +499,18 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Drone"
+        },
+        {
+          "title": "GitLab CI"
+        },
+        {
+          "title": "Bamboo"
+        },
+        {
+          "title": "Circle CI"
+        },
+        {
           "title": "Travis CI"
         },
         {
@@ -495,13 +530,10 @@
           "title": "Zombie.js"
         },
         {
-          "title": "Puppeteer"
+          "title": "Playwright"
         },
         {
           "title": "Cypress"
-        },
-        {
-          "title": "Playwright"
         },
         {
           "title": "Headless Chrome"

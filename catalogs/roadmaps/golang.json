@@ -29,16 +29,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Language Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Zero Values"
+            },
+            {
+              "title": "const and iota"
+            },
+            {
+              "title": "Scope and Shadowing"
+            }
+          ]
+        },
+        {
           "title": "var vs :="
-        },
-        {
-          "title": "Zero Values"
-        },
-        {
-          "title": "const and iota"
-        },
-        {
-          "title": "Scope and Shadowing"
         }
       ]
     },
@@ -48,19 +55,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Integers (Signed, Unsigned)"
-        },
-        {
-          "title": "Floating Points"
-        },
-        {
-          "title": "Complex Numbers"
-        },
-        {
-          "title": "Boolean"
-        },
-        {
-          "title": "Runes"
+          "title": "Numeric Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers (Signed, Unsigned)"
+            },
+            {
+              "title": "Floating Points"
+            },
+            {
+              "title": "Complex Numbers"
+            },
+            {
+              "title": "Boolean"
+            },
+            {
+              "title": "Runes"
+            }
+          ]
         }
       ]
     },
@@ -68,20 +82,7 @@
       "title": "Commands & Docs"
     },
     {
-      "title": "Arrays",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Raw String Literals"
-        },
-        {
-          "title": "Interpreted String Literals"
-        },
-        {
-          "title": "Type Conversion"
-        }
-      ]
+      "title": "Arrays"
     },
     {
       "title": "Slices",
@@ -103,7 +104,27 @@
       ]
     },
     {
-      "title": "Strings"
+      "title": "Strings",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Strings",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Raw String Literals"
+            },
+            {
+              "title": "Interpreted String Literals"
+            },
+            {
+              "title": "Type Conversion"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Maps",
@@ -125,6 +146,31 @@
         },
         {
           "title": "Embedding Structs"
+        }
+      ]
+    },
+    {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "for loop"
+        },
+        {
+          "title": "for range"
+        },
+        {
+          "title": "Iterating Maps"
+        },
+        {
+          "title": "Iterating Strings"
+        },
+        {
+          "title": "continue"
+        },
+        {
+          "title": "goto (discouraged)"
         }
       ]
     },
@@ -159,42 +205,18 @@
         },
         {
           "title": "Named Return Values"
-        },
-        {
-          "title": "Call by Value"
         }
       ]
     },
     {
-      "title": "Loops",
+      "title": "Functions",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "for range"
-        },
-        {
-          "title": "for loop"
-        },
-        {
-          "title": "Iterating Maps"
-        },
-        {
-          "title": "Iterating Strings"
-        },
-        {
-          "title": "continue"
-        },
-        {
           "title": "break"
-        },
-        {
-          "title": "goto (discouraged)"
         }
       ]
-    },
-    {
-      "title": "Functions"
     },
     {
       "title": "Pointers",
@@ -211,10 +233,17 @@
           "title": "With Maps & Slices"
         },
         {
-          "title": "Memory Management"
-        },
-        {
-          "title": "Garbage Collection"
+          "title": "Get a Brief Overview",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Memory Management"
+            },
+            {
+              "title": "Garbage Collection"
+            }
+          ]
         }
       ]
     },
@@ -233,6 +262,9 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Call by Value"
+        },
+        {
           "title": "Why Generics?"
         },
         {
@@ -246,30 +278,6 @@
         },
         {
           "title": "Type Inference"
-        },
-        {
-          "title": "Error Handling Basics"
-        },
-        {
-          "title": "`error` interface"
-        },
-        {
-          "title": "errors.New"
-        },
-        {
-          "title": "fmt.Errorf"
-        },
-        {
-          "title": "Wrapping/Unwrapping Errors"
-        },
-        {
-          "title": "Sentinel Errors"
-        },
-        {
-          "title": "`panic` and `recover`"
-        },
-        {
-          "title": "Stack Traces & Debugging"
         }
       ]
     },
@@ -315,7 +323,21 @@
       "title": "Packages"
     },
     {
-      "title": "Package Import Rules"
+      "title": "Package Import Rules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Code Organization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Deadlines & Cancellations"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Using 3rd Party Packages"
@@ -327,17 +349,7 @@
       "title": "Publishing Modules"
     },
     {
-      "title": "Channels",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Select Statement"
-        },
-        {
-          "title": "Buffered vs Unbuffered"
-        }
-      ]
+      "title": "Channels"
     },
     {
       "title": "Worker Pools"
@@ -348,10 +360,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Deadlines & Cancellations"
+          "title": "Common Usecases"
         },
         {
-          "title": "Common Usecases"
+          "title": "Testing & Benchmarking",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "`testing` package basics"
+            },
+            {
+              "title": "Table-driven Tests"
+            },
+            {
+              "title": "Mocks and Stubs"
+            },
+            {
+              "title": "`httptest`  for HTTP Tests"
+            },
+            {
+              "title": "Coverage"
+            }
+          ]
         }
       ]
     },
@@ -360,6 +391,50 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Error Handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Error Handling Basics"
+            },
+            {
+              "title": "`error` interface"
+            },
+            {
+              "title": "errors.New"
+            },
+            {
+              "title": "fmt.Errorf"
+            },
+            {
+              "title": "Wrapping/Unwrapping Errors"
+            },
+            {
+              "title": "Sentinel Errors"
+            },
+            {
+              "title": "`panic` and `recover`"
+            },
+            {
+              "title": "Stack Traces & Debugging"
+            }
+          ]
+        },
+        {
+          "title": "Concurrency",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Select Statement"
+            },
+            {
+              "title": "Buffered vs Unbuffered"
+            }
+          ]
+        },
         {
           "title": "fan-in"
         },
@@ -383,22 +458,7 @@
           "title": "WaitGroups"
         },
         {
-          "title": "`testing` package basics"
-        },
-        {
-          "title": "Table-driven Tests"
-        },
-        {
-          "title": "Mocks and Stubs"
-        },
-        {
-          "title": "`httptest`  for HTTP Tests"
-        },
-        {
           "title": "Benchmarks"
-        },
-        {
-          "title": "Coverage"
         }
       ]
     },
@@ -445,10 +505,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "urfave/cli"
+          "title": "Cobra"
         },
         {
-          "title": "Cobra"
+          "title": "urfave/cli"
         },
         {
           "title": "bubbletea"
@@ -474,22 +534,29 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Frameworks (Optional)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "gin"
+            },
+            {
+              "title": "echo"
+            },
+            {
+              "title": "fiber"
+            },
+            {
+              "title": "beego"
+            }
+          ]
+        },
+        {
           "title": "pgx"
         },
         {
           "title": "GORM"
-        },
-        {
-          "title": "gin"
-        },
-        {
-          "title": "echo"
-        },
-        {
-          "title": "fiber"
-        },
-        {
-          "title": "beego"
         }
       ]
     },
@@ -518,94 +585,150 @@
           "title": "Centrifugo"
         },
         {
-          "title": "go vet"
+          "title": "Code Generation / Build Tags",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "go generate"
+            },
+            {
+              "title": "Build Tags"
+            }
+          ]
         },
         {
-          "title": "goimports"
+          "title": "Code Quality and Analysis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "go vet"
+            },
+            {
+              "title": "goimports"
+            }
+          ]
         },
         {
-          "title": "go generate"
+          "title": "Core Go Commands",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "go run"
+            },
+            {
+              "title": "go build"
+            },
+            {
+              "title": "go install"
+            },
+            {
+              "title": "go fmt"
+            },
+            {
+              "title": "go mod"
+            },
+            {
+              "title": "go test"
+            },
+            {
+              "title": "go clean"
+            },
+            {
+              "title": "go doc"
+            },
+            {
+              "title": "go version"
+            }
+          ]
         },
         {
-          "title": "go run"
+          "title": "Linters",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "revive"
+            },
+            {
+              "title": "staticcheck"
+            },
+            {
+              "title": "golangci-lint"
+            }
+          ]
         },
         {
-          "title": "go build"
+          "title": "Performance and Debugging",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "pprof"
+            },
+            {
+              "title": "trace"
+            },
+            {
+              "title": "Race Detector"
+            }
+          ]
         },
         {
-          "title": "Build Tags"
+          "title": "Security",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "govulncheck"
+            }
+          ]
         },
         {
-          "title": "go install"
+          "title": "Deployment & Tooling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Building Executables"
+            },
+            {
+              "title": "Cross-compilation"
+            }
+          ]
         },
         {
-          "title": "go fmt"
-        },
-        {
-          "title": "revive"
-        },
-        {
-          "title": "staticcheck"
-        },
-        {
-          "title": "go mod"
-        },
-        {
-          "title": "go test"
-        },
-        {
-          "title": "golangci-lint"
-        },
-        {
-          "title": "go clean"
-        },
-        {
-          "title": "go doc"
-        },
-        {
-          "title": "pprof"
-        },
-        {
-          "title": "trace"
-        },
-        {
-          "title": "go version"
-        },
-        {
-          "title": "Race Detector"
-        },
-        {
-          "title": "govulncheck"
-        },
-        {
-          "title": "Building Executables"
-        },
-        {
-          "title": "Memory Mgmt. in Depth"
-        },
-        {
-          "title": "Cross-compilation"
-        },
-        {
-          "title": "Escape Analysis"
-        },
-        {
-          "title": "Reflection"
-        },
-        {
-          "title": "Unsafe Package"
-        },
-        {
-          "title": "Build Constraints & Tags"
-        },
-        {
-          "title": "CGO Basics"
-        },
-        {
-          "title": "Compiler & Linker Flags"
-        },
-        {
-          "title": "Plugins & Dynamic Loading"
+          "title": "Advanced Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Memory Mgmt. in Depth"
+            },
+            {
+              "title": "Escape Analysis"
+            },
+            {
+              "title": "Reflection"
+            },
+            {
+              "title": "Unsafe Package"
+            },
+            {
+              "title": "Build Constraints & Tags"
+            },
+            {
+              "title": "CGO Basics"
+            },
+            {
+              "title": "Compiler & Linker Flags"
+            },
+            {
+              "title": "Plugins & Dynamic Loading"
+            }
+          ]
         }
       ]
     }

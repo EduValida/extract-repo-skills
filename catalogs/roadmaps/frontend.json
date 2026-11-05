@@ -51,19 +51,16 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "GitHub"
+          "title": "GitLab"
         },
         {
-          "title": "GitLab"
+          "title": "GitHub"
         },
         {
           "title": "React"
         },
         {
           "title": "Vue.js"
-        },
-        {
-          "title": "Angular"
         }
       ]
     },
@@ -73,10 +70,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "yarn"
+          "title": "npm"
         },
         {
-          "title": "npm"
+          "title": "yarn"
         },
         {
           "title": "pnpm"
@@ -102,6 +99,9 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Angular"
+        },
+        {
           "title": "Svelte"
         },
         {
@@ -116,21 +116,6 @@
       "children": [
         {
           "title": "How LLMs work"
-        },
-        {
-          "title": "AI vs Traditional Coding"
-        },
-        {
-          "title": "Applications"
-        },
-        {
-          "title": "Code Reviews"
-        },
-        {
-          "title": "Refactoring"
-        },
-        {
-          "title": "Docs Generation"
         }
       ]
     },
@@ -182,20 +167,7 @@
       ]
     },
     {
-      "title": "Linters & Formatters",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Biome"
-        },
-        {
-          "title": "Prettier"
-        },
-        {
-          "title": "ESLint"
-        }
-      ]
+      "title": "Auth Strategies"
     },
     {
       "title": "Module Bundlers",
@@ -223,7 +195,33 @@
       ]
     },
     {
-      "title": "Auth Strategies"
+      "title": "Linters & Formatters",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Refactoring"
+        },
+        {
+          "title": "Docs Generation"
+        },
+        {
+          "title": "Advanced Frontend",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prettier"
+            },
+            {
+              "title": "ESLint"
+            }
+          ]
+        },
+        {
+          "title": "Biome"
+        }
+      ]
     },
     {
       "title": "Testing",
@@ -241,15 +239,33 @@
         },
         {
           "title": "Jest"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Web APIs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
-          "title": "GitHub Pages"
-        },
-        {
-          "title": "Vercel"
-        },
-        {
-          "title": "Cloudflare"
+          "title": "AI in Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AI vs Traditional Coding"
+            },
+            {
+              "title": "Applications",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Code Reviews"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -273,16 +289,6 @@
       ]
     },
     {
-      "title": "Web APIs",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Angular"
-        }
-      ]
-    },
-    {
       "title": "React",
       "importance": 50,
       "completion_threshold": 60,
@@ -295,9 +301,6 @@
         },
         {
           "title": "Astro"
-        },
-        {
-          "title": "react-router"
         }
       ]
     },
@@ -307,7 +310,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Netlify"
+          "title": "Angular"
         },
         {
           "title": "Nuxt.js"
@@ -323,15 +326,44 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Render"
-        },
-        {
           "title": "Svelte"
         }
       ]
     },
     {
-      "title": "Type Checkers"
+      "title": "Deployment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub Pages"
+        },
+        {
+          "title": "Vercel"
+        },
+        {
+          "title": "Netlify"
+        },
+        {
+          "title": "Cloudflare"
+        },
+        {
+          "title": "Railway"
+        },
+        {
+          "title": "Render"
+        }
+      ]
+    },
+    {
+      "title": "Type Checkers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "react-router"
+        }
+      ]
     },
     {
       "title": "SSG",
@@ -346,22 +378,6 @@
         },
         {
           "title": "Vuepress"
-        },
-        {
-          "title": "Eleventy"
-        },
-        {
-          "title": "Nuxt.js"
-        }
-      ]
-    },
-    {
-      "title": "Deployment",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Railway"
         }
       ]
     },
@@ -400,6 +416,9 @@
         },
         {
           "title": "Custom Elements"
+        },
+        {
+          "title": "Shadow DOM"
         }
       ]
     },
@@ -410,17 +429,43 @@
       "children": [
         {
           "title": "Apollo"
-        },
-        {
-          "title": "Relay Modern"
         }
       ]
     },
     {
-      "title": "Accessibility"
+      "title": "Accessibility",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Eleventy"
+        },
+        {
+          "title": "Nuxt.js"
+        }
+      ]
     },
     {
       "title": "PWAs"
+    },
+    {
+      "title": "Desktop Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Relay Modern"
+        },
+        {
+          "title": "Electron"
+        },
+        {
+          "title": "Tauri"
+        },
+        {
+          "title": "Flutter"
+        }
+      ]
     },
     {
       "title": "Mobile Apps",
@@ -435,25 +480,6 @@
         },
         {
           "title": "Ionic"
-        }
-      ]
-    },
-    {
-      "title": "Desktop Apps",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Shadow DOM"
-        },
-        {
-          "title": "Electron"
-        },
-        {
-          "title": "Tauri"
-        },
-        {
-          "title": "Flutter"
         }
       ]
     }

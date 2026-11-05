@@ -13,61 +13,99 @@
           "title": "Inference vs. Training"
         },
         {
-          "title": "Shared vs. Dedicated Inf."
+          "title": "Basic Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Time to First Token"
+            },
+            {
+              "title": "Tokens Per Second"
+            },
+            {
+              "title": "Inter-Token Latency"
+            },
+            {
+              "title": "Latency vs. Throughput"
+            },
+            {
+              "title": "Latency Percentiles"
+            },
+            {
+              "title": "End-to-End Metrics"
+            },
+            {
+              "title": "Real-Time Factor"
+            }
+          ]
         },
         {
-          "title": "Time to First Token"
+          "title": "Shared vs. Dedicated Inf."
         },
         {
           "title": "The Inference Stack"
         },
         {
-          "title": "Tokens Per Second"
+          "title": "Latency Metrics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prefill & Decode Phases"
+            },
+            {
+              "title": "Online vs. Offline Inf."
+            },
+            {
+              "title": "Asynchronous Inference"
+            }
+          ]
         },
         {
-          "title": "Inter-Token Latency"
+          "title": "Inference Phases",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AI-Native Applications"
+            },
+            {
+              "title": "Consumer vs. B2B"
+            },
+            {
+              "title": "Reasoning Models"
+            }
+          ]
         },
         {
-          "title": "Latency vs. Throughput"
+          "title": "Application Context",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Model Selection"
+            },
+            {
+              "title": "Model Evaluation"
+            },
+            {
+              "title": "Fine-Tuning"
+            },
+            {
+              "title": "Distillation"
+            }
+          ]
         },
         {
-          "title": "Latency Percentiles"
-        },
-        {
-          "title": "End-to-End Metrics"
-        },
-        {
-          "title": "Real-Time Factor"
-        },
-        {
-          "title": "Prefill & Decode Phases"
-        },
-        {
-          "title": "Online vs. Offline Inf."
-        },
-        {
-          "title": "Asynchronous Inference"
-        },
-        {
-          "title": "AI-Native Applications"
-        },
-        {
-          "title": "Consumer vs. B2B"
-        },
-        {
-          "title": "Reasoning Models"
-        },
-        {
-          "title": "Model Selection"
-        },
-        {
-          "title": "Model Evaluation"
-        },
-        {
-          "title": "Fine-Tuning"
-        },
-        {
-          "title": "Distillation"
+          "title": "Model Strategy",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Compute"
+            }
+          ]
         }
       ]
     },
@@ -135,9 +173,6 @@
         },
         {
           "title": "LLM Bottlenecks"
-        },
-        {
-          "title": "Image & Video Bottlenecks"
         }
       ]
     },
@@ -146,6 +181,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Image & Video Bottlenecks"
+        },
         {
           "title": "FlashAttention"
         },
@@ -166,9 +204,6 @@
           "title": "Memory"
         },
         {
-          "title": "Compute"
-        },
-        {
           "title": "Hopper"
         },
         {
@@ -176,9 +211,6 @@
         },
         {
           "title": "Instances & Interconnects"
-        },
-        {
-          "title": "Grace & Vera"
         },
         {
           "title": "Sizing & Procurement"
@@ -191,7 +223,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "NVIDIA"
+          "title": "NVIDIA",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Grace & Vera"
+            }
+          ]
         },
         {
           "title": "Other Accelerators"
@@ -233,6 +272,9 @@
           "title": "PyTorch"
         },
         {
+          "title": "safetensors"
+        },
+        {
           "title": "Transformers & Diffusers"
         }
       ]
@@ -246,10 +288,10 @@
           "title": "TensorRT"
         },
         {
-          "title": "safetensors"
+          "title": "ONNX Runtime"
         },
         {
-          "title": "ONNX Runtime"
+          "title": "SGLang"
         }
       ]
     },
@@ -262,9 +304,6 @@
           "title": "vLLM"
         },
         {
-          "title": "SGLang"
-        },
-        {
           "title": "TensorRT-LLM"
         },
         {
@@ -275,9 +314,6 @@
         },
         {
           "title": "NVIDIA Dynamo"
-        },
-        {
-          "title": "SGLang Genai-bench"
         }
       ]
     },
@@ -287,10 +323,17 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Profiling Performance"
+          "title": "Performance Benchmarking",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SGLang Genai-bench"
+            }
+          ]
         },
         {
-          "title": "Performance Benchmarking"
+          "title": "Profiling Performance"
         }
       ]
     },
@@ -303,13 +346,17 @@
           "title": "Quantization-Aware Training"
         },
         {
-          "title": "Post-Training Quantization"
+          "title": "Post-Training Quantization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ModelOpt"
+            }
+          ]
         },
         {
           "title": "Measuring Quality Impact"
-        },
-        {
-          "title": "ModelOpt"
         }
       ]
     },
@@ -319,19 +366,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Draft-Target Decoding"
+          "title": "Speculation Algorithms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "N-gram"
+            }
+          ]
         },
         {
           "title": "Structured Outputs"
         },
         {
-          "title": "EAGLE"
+          "title": "Draft-Target Decoding"
         },
         {
           "title": "Constrained Decoding"
         },
         {
-          "title": "N-gram"
+          "title": "EAGLE"
         }
       ]
     },
@@ -393,6 +447,16 @@
         },
         {
           "title": "Omni-Modal Models"
+        },
+        {
+          "title": "Embedding Architectures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "BERT-style models"
+            }
+          ]
         }
       ]
     },
@@ -401,9 +465,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "BERT-style models"
-        },
         {
           "title": "LLM-based models"
         },
@@ -457,9 +518,6 @@
         },
         {
           "title": "NIMs"
-        },
-        {
-          "title": "Continuous Batching"
         }
       ]
     },
@@ -469,13 +527,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Continuous Batching"
+        },
+        {
           "title": "Cold Starts"
         },
         {
           "title": "Routing & Load Balancing"
-        },
-        {
-          "title": "LoRA-Aware Routing"
         }
       ]
     },
@@ -488,6 +546,9 @@
           "title": "GPU Procurement"
         },
         {
+          "title": "LoRA-Aware Routing"
+        },
+        {
           "title": "Capacity Management"
         },
         {
@@ -498,9 +559,6 @@
         },
         {
           "title": "Scale to Zero"
-        },
-        {
-          "title": "Indep. Component Scaling"
         }
       ]
     },
@@ -511,6 +569,9 @@
       "children": [
         {
           "title": "Security and Compliance"
+        },
+        {
+          "title": "Indep. Component Scaling"
         },
         {
           "title": "Zero-Downtime Deplo."

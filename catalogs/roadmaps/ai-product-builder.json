@@ -2,7 +2,14 @@
   "title": "AI Product Builder",
   "topics": [
     {
-      "title": "AI Product Creation Cycle"
+      "title": "AI Product Creation Cycle",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "App Anatomy"
+        }
+      ]
     },
     {
       "title": "Definition & Scope",
@@ -11,9 +18,6 @@
       "children": [
         {
           "title": "Problem Definition"
-        },
-        {
-          "title": "App Anatomy"
         },
         {
           "title": "Feature Scoping"
@@ -29,37 +33,51 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "AI App Builders",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lovable"
+            },
+            {
+              "title": "Replit"
+            },
+            {
+              "title": "Claude Design"
+            },
+            {
+              "title": "v0"
+            },
+            {
+              "title": "Hope"
+            },
+            {
+              "title": "Bolt"
+            }
+          ]
+        },
+        {
           "title": "Choose a Prototype Tool"
-        },
-        {
-          "title": "Lovable"
-        },
-        {
-          "title": "Replit"
         },
         {
           "title": "Feedback & Validation"
         },
         {
-          "title": "v0"
-        },
-        {
-          "title": "Claude Design"
-        },
-        {
-          "title": "Bolt"
-        },
-        {
-          "title": "Hope"
-        },
-        {
-          "title": "Claude Code"
-        },
-        {
-          "title": "Gemini CLI"
-        },
-        {
-          "title": "Codex"
+          "title": "Technical but Powerful",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Gemini CLI"
+            },
+            {
+              "title": "Codex"
+            }
+          ]
         }
       ]
     },
@@ -69,16 +87,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Codex"
-        },
-        {
-          "title": "Claude Code"
-        },
-        {
-          "title": "Cursor"
-        },
-        {
-          "title": "Copilot"
+          "title": "Use AI-assisted Coding Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Codex"
+            },
+            {
+              "title": "Cursor"
+            },
+            {
+              "title": "Copilot"
+            }
+          ]
         }
       ]
     },
@@ -88,16 +113,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "HTML / CSS / JavaScript"
+          "title": "Learn by the need",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HTML / CSS / JavaScript"
+            },
+            {
+              "title": "React"
+            },
+            {
+              "title": "Browsers / DevTools"
+            },
+            {
+              "title": "Node.js"
+            }
+          ]
         },
         {
-          "title": "React"
+          "title": "Targeted Change"
         },
         {
-          "title": "Browsers / DevTools"
-        },
-        {
-          "title": "Node.js"
+          "title": "New Feature / Structural Change"
         }
       ]
     },
@@ -107,70 +145,106 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "New Feature / Structural Change"
+          "title": "Testing & Feedback",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "User Testing"
+            },
+            {
+              "title": "Unit Testing"
+            },
+            {
+              "title": "Integration Testing"
+            },
+            {
+              "title": "E2E Testing"
+            }
+          ]
         },
         {
-          "title": "Targeted Change"
+          "title": "Serverless Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Cloudflare"
+            },
+            {
+              "title": "Vercel"
+            },
+            {
+              "title": "Bit Cloud"
+            }
+          ]
         },
         {
-          "title": "User Testing"
+          "title": "Change Management & CI",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GitHub"
+            },
+            {
+              "title": "GitLab"
+            },
+            {
+              "title": "Bit Cloud"
+            },
+            {
+              "title": "Azure DevOps"
+            }
+          ]
         },
         {
-          "title": "Unit Testing"
+          "title": "Platform as a Service (PaaS)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DigitalOcean"
+            },
+            {
+              "title": "Railway"
+            },
+            {
+              "title": "Render"
+            }
+          ]
         },
         {
-          "title": "Integration Testing"
+          "title": "Cloud Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AWS"
+            },
+            {
+              "title": "Azure"
+            },
+            {
+              "title": "GCP"
+            }
+          ]
         },
         {
-          "title": "E2E Testing"
-        },
-        {
-          "title": "Cloudflare"
-        },
-        {
-          "title": "Vercel"
-        },
-        {
-          "title": "Bit Cloud"
-        },
-        {
-          "title": "GitHub"
-        },
-        {
-          "title": "GitLab"
-        },
-        {
-          "title": "Bit Cloud (2)"
-        },
-        {
-          "title": "DigitalOcean"
-        },
-        {
-          "title": "Azure DevOps"
-        },
-        {
-          "title": "Railway"
-        },
-        {
-          "title": "Render"
-        },
-        {
-          "title": "AWS"
-        },
-        {
-          "title": "Azure"
-        },
-        {
-          "title": "GCP"
-        },
-        {
-          "title": "MongoDB / Atlas"
-        },
-        {
-          "title": "PostgreSQL / MySQL"
-        },
-        {
-          "title": "Supabase"
+          "title": "Connect to a Database",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MongoDB / Atlas"
+            },
+            {
+              "title": "PostgreSQL / MySQL"
+            },
+            {
+              "title": "Supabase"
+            }
+          ]
         }
       ]
     },

@@ -26,21 +26,6 @@
         },
         {
           "title": "Installing Git Locally"
-        },
-        {
-          "title": "Working Directory"
-        },
-        {
-          "title": "Staging Area"
-        },
-        {
-          "title": "Committing Changes"
-        },
-        {
-          "title": ".gitignore"
-        },
-        {
-          "title": "Viewing Commit History"
         }
       ]
     },
@@ -54,12 +39,6 @@
         },
         {
           "title": "Managing Remotes"
-        },
-        {
-          "title": "Pushing / Pulling Changes"
-        },
-        {
-          "title": "Fetch without Merge"
         }
       ]
     },
@@ -79,9 +58,19 @@
         },
         {
           "title": "Checkout Branch"
+        }
+      ]
+    },
+    {
+      "title": "Git Remotes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Pushing / Pulling Changes"
         },
         {
-          "title": "Merging Basics"
+          "title": "Fetch without Merge"
         }
       ]
     },
@@ -91,33 +80,51 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Basic Collaboration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GitHub Interface"
+            },
+            {
+              "title": "Setting up Profile",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Profile Readme"
+                }
+              ]
+            },
+            {
+              "title": "Creating Repositories",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Private vs Public"
+                }
+              ]
+            },
+            {
+              "title": "Commit Messages"
+            },
+            {
+              "title": "Branch Naming"
+            },
+            {
+              "title": "PR Guidelines"
+            }
+          ]
+        },
+        {
+          "title": "Merging Basics"
+        },
+        {
           "title": "Creating Account"
-        },
-        {
-          "title": "GitHub Interface"
-        },
-        {
-          "title": "Setting up Profile"
-        },
-        {
-          "title": "Creating Repositories"
-        },
-        {
-          "title": "Commit Messages"
-        },
-        {
-          "title": "Branch Naming"
-        },
-        {
-          "title": "PR Guidelines"
-        },
-        {
-          "title": "Code Reviews"
         }
       ]
-    },
-    {
-      "title": "Git Remotes"
     },
     {
       "title": "Merge Strategies",
@@ -128,10 +135,10 @@
           "title": "Fast-Forward vs Non-FF"
         },
         {
-          "title": "Squash"
+          "title": "Rebase"
         },
         {
-          "title": "Rebase"
+          "title": "Squash"
         },
         {
           "title": "Handling Conflicts"
@@ -140,10 +147,7 @@
           "title": "Cherry Picking Commits"
         },
         {
-          "title": "PR from a Fork"
-        },
-        {
-          "title": "Collaborators"
+          "title": "Forking vs Cloning"
         }
       ]
     },
@@ -153,13 +157,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Forking vs Cloning"
-        },
-        {
           "title": "Issues"
         },
         {
-          "title": "Pull Requests"
+          "title": "Pull Requests",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PR from a Fork"
+            },
+            {
+              "title": "Collaborators"
+            }
+          ]
         },
         {
           "title": "Labelling Issues / PRs"
@@ -174,7 +185,14 @@
           "title": "Reactions"
         },
         {
-          "title": "GitHub Discussions"
+          "title": "Commenting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GitHub Discussions"
+            }
+          ]
         }
       ]
     },
@@ -183,12 +201,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Profile Readme"
-        },
-        {
-          "title": "Private vs Public"
-        },
         {
           "title": "Markdown"
         },
@@ -200,9 +212,6 @@
         },
         {
           "title": "CITATION files"
-        },
-        {
-          "title": "Contribution Guidelines"
         }
       ]
     },
@@ -212,7 +221,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Clean Git History"
+          "title": "Creating PR",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "git revert"
+            }
+          ]
         }
       ]
     },
@@ -222,16 +238,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Clean Git History"
+        },
+        {
           "title": "Project Planning"
         },
         {
           "title": "Kanban Boards"
-        },
-        {
-          "title": "Roadmaps"
-        },
-        {
-          "title": "Automations"
         }
       ]
     },
@@ -267,9 +280,6 @@
         },
         {
           "title": "git log options"
-        },
-        {
-          "title": "git revert"
         }
       ]
     },
@@ -279,16 +289,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "--soft"
-        },
-        {
-          "title": "git reset"
-        },
-        {
-          "title": "--hard"
-        },
-        {
-          "title": "--mixed"
+          "title": "git reset",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "--soft"
+            },
+            {
+              "title": "--hard"
+            },
+            {
+              "title": "--mixed"
+            }
+          ]
         },
         {
           "title": "commit-msg"
@@ -298,12 +312,6 @@
         },
         {
           "title": "post-update"
-        },
-        {
-          "title": "pre-commit"
-        },
-        {
-          "title": "pre-push"
         }
       ]
     },
@@ -312,6 +320,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Roadmaps"
+        },
+        {
+          "title": "Automations"
+        },
         {
           "title": "Between Commits"
         },
@@ -359,12 +373,31 @@
       ]
     },
     {
-      "title": "Git Patch",
+      "title": "Git Patch"
+    },
+    {
+      "title": "Git hooks",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Git Reflog"
+          "title": "pre-commit"
+        },
+        {
+          "title": "pre-push"
+        },
+        {
+          "title": "Common Hooks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Client vs Server Hooks"
+            }
+          ]
+        },
+        {
+          "title": "What and Why?"
         }
       ]
     },
@@ -383,23 +416,10 @@
           "title": "Checkout Tags"
         },
         {
+          "title": "What are these?"
+        },
+        {
           "title": "GitHub Releases"
-        },
-        {
-          "title": "YAML Syntax"
-        }
-      ]
-    },
-    {
-      "title": "Git hooks",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "What and Why?"
-        },
-        {
-          "title": "Client vs Server Hooks"
         }
       ]
     },
@@ -409,10 +429,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "What are these?"
+          "title": "Usecases"
         },
         {
-          "title": "Usecases"
+          "title": "YAML Syntax"
         },
         {
           "title": "Workflow Triggers"
@@ -428,15 +448,6 @@
         },
         {
           "title": "Workflow Context"
-        },
-        {
-          "title": "Secrets and Env Vars"
-        },
-        {
-          "title": "Caching Dependencies"
-        },
-        {
-          "title": "Storing Artifacts"
         }
       ]
     },
@@ -446,44 +457,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Installation and Setup"
-        },
-        {
-          "title": "Git Bisect"
-        },
-        {
-          "title": "Repository management"
-        },
-        {
-          "title": "Git Worktree"
-        },
-        {
-          "title": "Issue Management"
-        },
-        {
-          "title": "Git Attributes"
-        },
-        {
-          "title": "Pull Requests"
-        },
-        {
-          "title": "Git LFS"
-        },
-        {
-          "title": "Use in Automation"
-        }
-      ]
-    },
-    {
-      "title": "GitHub API",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "REST API"
-        },
-        {
-          "title": "GraphQL API"
+          "title": "GitHub Workflow",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Installation and Setup"
+            },
+            {
+              "title": "Repository management"
+            },
+            {
+              "title": "Issue Management"
+            },
+            {
+              "title": "Pull Requests"
+            },
+            {
+              "title": "Use in Automation"
+            }
+          ]
         }
       ]
     },
@@ -501,10 +494,32 @@
       ]
     },
     {
+      "title": "GitHub API",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "REST API"
+        },
+        {
+          "title": "GraphQL API"
+        }
+      ]
+    },
+    {
       "title": "Webhooks",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Secrets and Env Vars"
+        },
+        {
+          "title": "Caching Dependencies"
+        },
+        {
+          "title": "Storing Artifacts"
+        },
         {
           "title": "Workflow Status"
         },
@@ -520,7 +535,62 @@
       "title": "GitHub Copilot"
     },
     {
-      "title": "GitHub Gists"
+      "title": "GitHub Gists",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Repository Initialization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Working Directory"
+            },
+            {
+              "title": "Staging Area"
+            },
+            {
+              "title": "Committing Changes"
+            }
+          ]
+        },
+        {
+          "title": "Intro and Git Commands",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": ".gitignore"
+            },
+            {
+              "title": "Viewing Commit History"
+            }
+          ]
+        },
+        {
+          "title": "Advanced Git Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Git Reflog"
+            },
+            {
+              "title": "Git Bisect"
+            },
+            {
+              "title": "Git Worktree"
+            },
+            {
+              "title": "Git Attributes"
+            },
+            {
+              "title": "Git LFS"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "GitHub Models"

@@ -54,19 +54,10 @@
           "title": "Publishing Tools"
         },
         {
-          "title": "SEO Tools"
-        },
-        {
           "title": "Plagiarism Checker"
         },
         {
-          "title": "Editing Tools"
-        },
-        {
           "title": "Git / Version Control"
-        },
-        {
-          "title": "Markdown"
         }
       ]
     },
@@ -94,6 +85,9 @@
           "title": "Crafting Great Titles"
         },
         {
+          "title": "Product Content"
+        },
+        {
           "title": "Content Objectives & Intent"
         },
         {
@@ -110,19 +104,19 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "SEO Tools"
+        },
+        {
+          "title": "Editing Tools"
+        },
+        {
+          "title": "Markdown"
+        },
+        {
           "title": "Topic Score"
         },
         {
           "title": "Keyword Volume"
-        },
-        {
-          "title": "Communities & Forums"
-        },
-        {
-          "title": "Search Trends"
-        },
-        {
-          "title": "Support Request Evaluation"
         }
       ]
     },
@@ -131,9 +125,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Product Content"
-        },
         {
           "title": "General Product Prose"
         },
@@ -151,25 +142,10 @@
           "title": "User Goals"
         },
         {
-          "title": "Docs Generation Tools"
-        },
-        {
-          "title": "Troubleshooting"
-        },
-        {
           "title": "Developer Journey"
         },
         {
-          "title": "API Definitions"
-        },
-        {
-          "title": "Developer Support"
-        },
-        {
           "title": "Docs Structure"
-        },
-        {
-          "title": "Platform Support"
         }
       ]
     },
@@ -179,15 +155,37 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Comparative Posts"
+          "title": "Communities & Forums"
         },
         {
-          "title": "Tutorials"
+          "title": "Search Trends"
+        },
+        {
+          "title": "Support Request Evaluation"
+        },
+        {
+          "title": "Docs Generation Tools"
+        },
+        {
+          "title": "API Definitions"
         }
       ]
     },
     {
-      "title": "Help Content"
+      "title": "Help Content",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Troubleshooting"
+        },
+        {
+          "title": "Developer Support"
+        },
+        {
+          "title": "Platform Support"
+        }
+      ]
     },
     {
       "title": "Technical Content Marketing",
@@ -205,17 +203,27 @@
         },
         {
           "title": "Long-Tail Keywords"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Content SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Backlinking"
         },
         {
           "title": "SEO Keywords"
+        },
+        {
+          "title": "Link Shorteners / Tracking"
+        },
+        {
+          "title": "Platform Tracking and Metrics"
         }
       ]
-    },
-    {
-      "title": "Content SEO"
     },
     {
       "title": "Top-funnel Content",
@@ -227,9 +235,6 @@
         },
         {
           "title": "Awareness Blog Posts"
-        },
-        {
-          "title": "Research Reports"
         }
       ]
     },
@@ -243,17 +248,31 @@
         },
         {
           "title": "White-papers"
-        },
-        {
-          "title": "eBook"
         }
       ]
     },
     {
-      "title": "Bottom-funnel Content"
+      "title": "Bottom-funnel Content",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Comparative Posts"
+        },
+        {
+          "title": "Tutorials"
+        }
+      ]
     },
     {
-      "title": "Release Notes / Product Announcements"
+      "title": "Release Notes / Product Announcements",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "eBook"
+        }
+      ]
     },
     {
       "title": "Customer Case-Studies"
@@ -262,19 +281,10 @@
       "title": "Technical Website Copy"
     },
     {
-      "title": "Content Optimization"
-    },
-    {
       "title": "Content Analysis",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Link Shorteners / Tracking"
-        },
-        {
-          "title": "Platform Tracking and Metrics"
-        },
         {
           "title": "Conversion Tracking"
         },
@@ -284,7 +294,24 @@
       ]
     },
     {
-      "title": "Frequently Asked Questions"
+      "title": "Content Optimization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Research Reports"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "OpenGraph Data"
+        }
+      ]
     },
     {
       "title": "Content Distribution",
@@ -293,9 +320,6 @@
       "children": [
         {
           "title": "Canonical Link"
-        },
-        {
-          "title": "OpenGraph Data"
         },
         {
           "title": "Content Distribution Channels"

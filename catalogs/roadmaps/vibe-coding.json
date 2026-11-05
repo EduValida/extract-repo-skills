@@ -7,28 +7,42 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Claude Code"
+          "title": "AI Assisted Coding Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Gemini"
+            },
+            {
+              "title": "Codex"
+            },
+            {
+              "title": "Cursor"
+            },
+            {
+              "title": "Devin"
+            },
+            {
+              "title": "Copilot"
+            }
+          ]
         },
         {
-          "title": "Gemini"
-        },
-        {
-          "title": "Cursor"
-        },
-        {
-          "title": "Codex"
-        },
-        {
-          "title": "Devin"
-        },
-        {
-          "title": "Copilot"
-        },
-        {
-          "title": "v0"
-        },
-        {
-          "title": "Lovable"
+          "title": "Frontend-Focused",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "v0"
+            },
+            {
+              "title": "Lovable"
+            }
+          ]
         }
       ]
     },

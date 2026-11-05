@@ -8,9 +8,6 @@
       "children": [
         {
           "title": "Kotlin"
-        },
-        {
-          "title": "Java"
         }
       ]
     },
@@ -38,10 +35,10 @@
           "title": "Create a Basic Hello World App"
         },
         {
-          "title": "Intent"
+          "title": "Services"
         },
         {
-          "title": "Services"
+          "title": "Intent"
         },
         {
           "title": "Content Provider"
@@ -63,48 +60,6 @@
         },
         {
           "title": "Intent Filters"
-        },
-        {
-          "title": "Tasks & Backstack"
-        },
-        {
-          "title": "Image"
-        },
-        {
-          "title": "Text"
-        },
-        {
-          "title": "Column / Row"
-        },
-        {
-          "title": "TextField"
-        },
-        {
-          "title": "Button"
-        },
-        {
-          "title": "Lazy Column / Row"
-        },
-        {
-          "title": "Box"
-        },
-        {
-          "title": "Icon"
-        },
-        {
-          "title": "Scaffold"
-        },
-        {
-          "title": "NavHost"
-        },
-        {
-          "title": "ConstraintLayout"
-        },
-        {
-          "title": "remember / State"
-        },
-        {
-          "title": "TextView"
         }
       ]
     },
@@ -113,6 +68,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Java"
+        },
         {
           "title": "Git"
         },
@@ -143,37 +101,98 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "VCS Hosting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Navigation Components"
+            }
+          ]
+        },
+        {
           "title": "Jetpack Compose"
         },
         {
-          "title": "BottomSheet"
+          "title": "Tasks & Backstack"
+        },
+        {
+          "title": "Layouts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Text"
+            },
+            {
+              "title": "Column / Row"
+            },
+            {
+              "title": "Lazy Column / Row"
+            },
+            {
+              "title": "Button"
+            },
+            {
+              "title": "Box"
+            },
+            {
+              "title": "Icon"
+            },
+            {
+              "title": "Scaffold"
+            },
+            {
+              "title": "NavHost"
+            },
+            {
+              "title": "ConstraintLayout"
+            },
+            {
+              "title": "remember / State"
+            }
+          ]
+        },
+        {
+          "title": "Elements",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Image"
+            },
+            {
+              "title": "BottomSheet"
+            },
+            {
+              "title": "TextField"
+            },
+            {
+              "title": "TabRow"
+            },
+            {
+              "title": "Card"
+            },
+            {
+              "title": "Animations"
+            }
+          ]
+        },
+        {
+          "title": "UI Patterns",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Dialog"
+            },
+            {
+              "title": "Drawer"
+            }
+          ]
         },
         {
           "title": "App Shortcuts"
-        },
-        {
-          "title": "TabRow"
-        },
-        {
-          "title": "Dialog"
-        },
-        {
-          "title": "Navigation Components"
-        },
-        {
-          "title": "Card"
-        },
-        {
-          "title": "Drawer"
-        },
-        {
-          "title": "Animations"
-        },
-        {
-          "title": "ViewModel state"
-        },
-        {
-          "title": "Side effects"
         }
       ]
     },
@@ -183,16 +202,20 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Navigation & State",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ViewModel state"
+            },
+            {
+              "title": "Side effects"
+            }
+          ]
+        },
+        {
           "title": "Constraint"
-        },
-        {
-          "title": "RecycleView"
-        },
-        {
-          "title": "Fragments"
-        },
-        {
-          "title": "ImageView"
         }
       ]
     },
@@ -231,6 +254,69 @@
       "title": "Security"
     },
     {
+      "title": "Asynchronism",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Legacy : XML Views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ImageView"
+            },
+            {
+              "title": "Fragments"
+            },
+            {
+              "title": "RecycleView"
+            }
+          ]
+        },
+        {
+          "title": "TextView"
+        },
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Crashlytics"
+        },
+        {
+          "title": "Remote Config"
+        },
+        {
+          "title": "Firebase",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Google Admob"
+            },
+            {
+              "title": "Google Play Services"
+            },
+            {
+              "title": "Google Maps"
+            }
+          ]
+        },
+        {
+          "title": "Coroutines"
+        },
+        {
+          "title": "Threads"
+        },
+        {
+          "title": "RxJava"
+        },
+        {
+          "title": "RxKotlin"
+        }
+      ]
+    },
+    {
       "title": "Network",
       "importance": 50,
       "completion_threshold": 60,
@@ -260,62 +346,10 @@
           "title": "Apollo-Android"
         },
         {
-          "title": "RxJava"
-        },
-        {
           "title": "RxKotlin"
         },
         {
-          "title": "LiveData"
-        },
-        {
-          "title": "Dependency Injection"
-        }
-      ]
-    },
-    {
-      "title": "Asynchronism",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Authentication"
-        },
-        {
-          "title": "Crashlytics"
-        },
-        {
-          "title": "Remote Config"
-        },
-        {
-          "title": "Cloud Messaging"
-        },
-        {
-          "title": "FireStore"
-        },
-        {
-          "title": "Google Admob"
-        },
-        {
-          "title": "Coroutines"
-        },
-        {
-          "title": "Threads"
-        },
-        {
-          "title": "Google Play Services"
-        },
-        {
           "title": "RxJava"
-        },
-        {
-          "title": "RxKotlin"
-        },
-        {
-          "title": "Google Maps"
-        },
-        {
-          "title": "WorkManager"
         }
       ]
     },
@@ -324,6 +358,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Cloud Messaging"
+        },
+        {
+          "title": "FireStore"
+        },
         {
           "title": "Espresso"
         },
@@ -337,6 +377,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "WorkManager"
+        },
         {
           "title": "Ktlint"
         },
@@ -357,7 +400,13 @@
           "title": "Timber"
         },
         {
+          "title": "LiveData"
+        },
+        {
           "title": "Leak Canary"
+        },
+        {
+          "title": "Dependency Injection"
         },
         {
           "title": "Chucker"
@@ -369,10 +418,10 @@
           "title": "Jetpack Benchmark"
         },
         {
-          "title": "Koin"
+          "title": "Hilt"
         },
         {
-          "title": "Hilt"
+          "title": "Koin"
         }
       ]
     },

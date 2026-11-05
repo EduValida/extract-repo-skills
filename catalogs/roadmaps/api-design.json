@@ -38,12 +38,6 @@
         },
         {
           "title": "Cookies"
-        },
-        {
-          "title": "CORS"
-        },
-        {
-          "title": "HTTP Caching"
         }
       ]
     },
@@ -53,58 +47,82 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "REST Principles"
+          "title": "HTTP Caching"
+        },
+        {
+          "title": "Design First",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "REST Principles"
+            },
+            {
+              "title": "URI Design"
+            },
+            {
+              "title": "Resource modeling"
+            },
+            {
+              "title": "Naming Conventions"
+            },
+            {
+              "title": "Versioning Strategies"
+            },
+            {
+              "title": "HATEOAS"
+            }
+          ]
         },
         {
           "title": "RESTful APIs"
         },
         {
-          "title": "URI Design"
-        },
-        {
           "title": "Simple JSON APIs"
-        },
-        {
-          "title": "Resource modeling"
         },
         {
           "title": "SOAP APIs"
         },
         {
-          "title": "Naming Conventions"
-        },
-        {
           "title": "gRPC APIs"
-        },
-        {
-          "title": "Versioning Strategies"
         },
         {
           "title": "GraphQL APIs"
         },
         {
-          "title": "HATEOAS"
+          "title": "Handling data & requests",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CRUD Operations"
+            },
+            {
+              "title": "Filtering, Sorting & Search"
+            },
+            {
+              "title": "Pagination"
+            },
+            {
+              "title": "Idempotency"
+            }
+          ]
         },
         {
-          "title": "CRUD Operations"
-        },
-        {
-          "title": "Filtering, Sorting & Search"
-        },
-        {
-          "title": "Pagination"
-        },
-        {
-          "title": "Idempotency"
-        },
-        {
-          "title": "Rate Limiting"
-        },
-        {
-          "title": "Error Handling"
-        },
-        {
-          "title": "RFC 7807 -  Problem Details"
+          "title": "Traffic control & Error handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Rate Limiting"
+            },
+            {
+              "title": "Error Handling"
+            },
+            {
+              "title": "RFC 7807 -  Problem Details"
+            }
+          ]
         }
       ]
     },
@@ -133,19 +151,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "JWT"
+          "title": "Basic Auth"
         },
         {
-          "title": "Basic Auth"
+          "title": "JWT"
         },
         {
           "title": "Token Based Auth"
         },
         {
-          "title": "OIDC"
+          "title": "OAuth 2.0"
         },
         {
-          "title": "OAuth 2.0"
+          "title": "OIDC"
         },
         {
           "title": "Session Based Auth"
@@ -222,9 +240,6 @@
         },
         {
           "title": "Performance Metrics"
-        },
-        {
-          "title": "Caching Strategies"
         }
       ]
     },
@@ -233,6 +248,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Caching Strategies"
+        },
         {
           "title": "Load Balancing"
         },
@@ -244,12 +262,6 @@
         },
         {
           "title": "Profiling and Monitoring"
-        },
-        {
-          "title": "Performance Testing"
-        },
-        {
-          "title": "Event Driven Architecture"
         }
       ]
     },
@@ -259,6 +271,12 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Performance Testing"
+        },
+        {
+          "title": "Event Driven Architecture"
+        },
+        {
           "title": "Error Handling / Retries"
         },
         {
@@ -266,9 +284,6 @@
         },
         {
           "title": "Microservices Architecture"
-        },
-        {
-          "title": "Webhooks vs Polling"
         }
       ]
     },
@@ -279,6 +294,9 @@
       "children": [
         {
           "title": "Unit Testing"
+        },
+        {
+          "title": "Webhooks vs Polling"
         },
         {
           "title": "Integration Testing"
@@ -294,15 +312,6 @@
         },
         {
           "title": "Load Testing"
-        },
-        {
-          "title": "Messaging Queues"
-        },
-        {
-          "title": "Mocking APIs"
-        },
-        {
-          "title": "Contract Testing"
         }
       ]
     },
@@ -312,15 +321,34 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Rabbit MQ"
+          "title": "Messaging Queues"
+        },
+        {
+          "title": "Mocking APIs"
+        },
+        {
+          "title": "Contract Testing"
         },
         {
           "title": "Kafka"
+        },
+        {
+          "title": "Rabbit MQ"
         }
       ]
     },
     {
-      "title": "API Lifecycle Management"
+      "title": "API Lifecycle Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GDPR"
+        },
+        {
+          "title": "CCPA"
+        }
+      ]
     },
     {
       "title": "Standards and Compliance",
@@ -331,16 +359,10 @@
           "title": "PII"
         },
         {
-          "title": "CCPA"
-        },
-        {
-          "title": "GDPR"
+          "title": "PCI DSS"
         },
         {
           "title": "HIPAA"
-        },
-        {
-          "title": "PCI DSS"
         }
       ]
     }

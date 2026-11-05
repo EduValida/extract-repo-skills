@@ -24,7 +24,21 @@
       "title": "Code Organization"
     },
     {
-      "title": "main  Function"
+      "title": "main  Function",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Language Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "print & println"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Variables",
@@ -45,28 +59,35 @@
           "title": "Type Checks & Casts"
         },
         {
+          "title": "Basic Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers"
+            },
+            {
+              "title": "Floats"
+            },
+            {
+              "title": "Unsigned Integers"
+            },
+            {
+              "title": "Characters"
+            },
+            {
+              "title": "Strings"
+            },
+            {
+              "title": "Booleans"
+            },
+            {
+              "title": "Arrays"
+            }
+          ]
+        },
+        {
           "title": "Type Inference"
-        },
-        {
-          "title": "Integers"
-        },
-        {
-          "title": "Floats"
-        },
-        {
-          "title": "Unsigned Integers"
-        },
-        {
-          "title": "Strings"
-        },
-        {
-          "title": "Characters"
-        },
-        {
-          "title": "Arrays"
-        },
-        {
-          "title": "Booleans"
         }
       ]
     },
@@ -80,12 +101,6 @@
       "children": [
         {
           "title": "Lists"
-        },
-        {
-          "title": "Sets"
-        },
-        {
-          "title": "Maps"
         },
         {
           "title": "read-only vs mutable"
@@ -107,21 +122,18 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "print & println"
-        },
-        {
           "title": "String Templates"
         }
       ]
     },
     {
-      "title": "Sequences",
+      "title": "Sequences"
+    },
+    {
+      "title": "Conditional Expressions",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Label Loops"
-        },
         {
           "title": "if"
         },
@@ -131,13 +143,19 @@
       ]
     },
     {
-      "title": "Conditional Expressions"
-    },
-    {
       "title": "Loops",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Sets"
+        },
+        {
+          "title": "Maps"
+        },
+        {
+          "title": "Label Loops"
+        },
         {
           "title": "break & continue"
         },
@@ -199,9 +217,6 @@
           "title": "Lambda Functions"
         },
         {
-          "title": "Transformations"
-        },
-        {
           "title": "Anonymous Functions"
         }
       ]
@@ -212,40 +227,54 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Filtering"
+          "title": "Control Flow",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Transformations"
+            },
+            {
+              "title": "Filtering"
+            },
+            {
+              "title": "plus & minus Operators"
+            },
+            {
+              "title": "Grouping"
+            },
+            {
+              "title": "Retrieving Collection Parts"
+            },
+            {
+              "title": "Retrieving single elements"
+            },
+            {
+              "title": "Ordering"
+            },
+            {
+              "title": "Aggregate Operations"
+            }
+          ]
         },
         {
-          "title": "plus & minus Operators"
+          "title": "Collection-specific Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lists"
+            },
+            {
+              "title": "Sets"
+            },
+            {
+              "title": "Maps"
+            }
+          ]
         },
         {
-          "title": "Grouping"
-        },
-        {
-          "title": "Retrieving Collection Parts"
-        },
-        {
-          "title": "Retrieving single elements"
-        },
-        {
-          "title": "Ordering"
-        },
-        {
-          "title": "Lists"
-        },
-        {
-          "title": "Maps"
-        },
-        {
-          "title": "Sets"
-        },
-        {
-          "title": "Aggregate Operations"
-        },
-        {
-          "title": "What is Null Safety?"
-        },
-        {
-          "title": "Nullable vs Non-nullable"
+          "title": "Properties"
         }
       ]
     },
@@ -262,9 +291,6 @@
       "children": [
         {
           "title": "Methods"
-        },
-        {
-          "title": "Properties"
         },
         {
           "title": "Constructors"
@@ -292,43 +318,40 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Abstract Class"
-        },
-        {
-          "title": "Interfaces"
-        },
-        {
-          "title": "Data Classes"
-        },
-        {
-          "title": "Sealed Class"
-        },
-        {
-          "title": "Enum Class"
-        },
-        {
-          "title": "Inline Class"
-        },
-        {
-          "title": "Class Generics"
-        },
-        {
-          "title": "Type Aliases"
+          "title": "More on Classes & Objects",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Abstract Class"
+            },
+            {
+              "title": "Interfaces"
+            },
+            {
+              "title": "Data Classes"
+            },
+            {
+              "title": "Sealed Class"
+            },
+            {
+              "title": "Enum Class"
+            },
+            {
+              "title": "Inline Class"
+            },
+            {
+              "title": "Class Generics"
+            },
+            {
+              "title": "Type Aliases"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Coroutines",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Nullability Check Operators"
-        },
-        {
-          "title": "Safe Casts"
-        }
-      ]
+      "title": "Coroutines"
     },
     {
       "title": "Suspending Functions"
@@ -337,7 +360,30 @@
       "title": "Coroutines Builders"
     },
     {
-      "title": "Understanding Packages"
+      "title": "Understanding Packages",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Null Safety",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "What is Null Safety?"
+            },
+            {
+              "title": "Nullable vs Non-nullable"
+            },
+            {
+              "title": "Nullability Check Operators"
+            },
+            {
+              "title": "Safe Casts"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Coroutines Behavior"
@@ -364,17 +410,14 @@
         },
         {
           "title": "Date & Time"
-        },
-        {
-          "title": "JVM Metadata"
-        },
-        {
-          "title": "Gradle Pluggins"
         }
       ]
     },
     {
       "title": "Importing Packages"
+    },
+    {
+      "title": "Kotlin Libraries"
     },
     {
       "title": "Standard Library",
@@ -388,9 +431,6 @@
           "title": "Opt-in Requirements"
         }
       ]
-    },
-    {
-      "title": "Kotlin Libraries"
     },
     {
       "title": "Documentation",
@@ -411,13 +451,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Gradle"
+          "title": "Packages & Ecosystem",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Gradle"
+            },
+            {
+              "title": "Maven"
+            },
+            {
+              "title": "Build Tool API"
+            }
+          ]
         },
         {
-          "title": "Maven"
+          "title": "JVM Metadata"
         },
         {
-          "title": "Build Tool API"
+          "title": "Gradle Pluggins"
         }
       ]
     },
@@ -428,22 +481,6 @@
       "children": [
         {
           "title": "TeamCity"
-        }
-      ]
-    },
-    {
-      "title": "IDEs",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "IntelliJ IDEA"
-        },
-        {
-          "title": "Android Studio"
-        },
-        {
-          "title": "Kotline Notebook"
         }
       ]
     },
@@ -460,6 +497,22 @@
         },
         {
           "title": "Buffered Streams"
+        }
+      ]
+    },
+    {
+      "title": "IDEs",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IntelliJ IDEA"
+        },
+        {
+          "title": "Android Studio"
+        },
+        {
+          "title": "Kotline Notebook"
         }
       ]
     },
@@ -509,7 +562,17 @@
       "title": "Kotlin/JavaScript"
     },
     {
-      "title": "Kotlin Scripting"
+      "title": "Kotlin Scripting",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Spring"
+        },
+        {
+          "title": "Vert.x"
+        }
+      ]
     },
     {
       "title": "Server-side Apps",
@@ -517,16 +580,19 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Android Jetpack"
+        },
+        {
           "title": "Ktor"
         },
         {
-          "title": "Spring"
+          "title": "Android Studio"
         },
         {
           "title": "Quarkus"
         },
         {
-          "title": "Vert.x"
+          "title": "Android SDK"
         }
       ]
     },
@@ -535,15 +601,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Android Jetpack"
-        },
-        {
-          "title": "Android Studio"
-        },
-        {
-          "title": "Android SDK"
-        },
         {
           "title": "Kotlin Notebooks"
         },

@@ -2,20 +2,17 @@
   "title": "Full Stack Developer",
   "topics": [
     {
-      "title": "HTML",
+      "title": "HTML"
+    },
+    {
+      "title": "CSS",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
           "title": "Checkpoint - Static Webpages"
-        },
-        {
-          "title": "Checkpoint - Collaborative Work"
         }
       ]
-    },
-    {
-      "title": "CSS"
     },
     {
       "title": "JavaScript",
@@ -23,10 +20,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Checkpoint - Interactivity"
-        },
-        {
-          "title": "Checkpoint - External Packages"
+          "title": "Project ideas and suggestions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Checkpoint - Interactivity"
+            }
+          ]
         }
       ]
     },
@@ -34,23 +35,33 @@
       "title": "npm"
     },
     {
-      "title": "Tailwind CSS"
+      "title": "React"
     },
     {
-      "title": "React",
+      "title": "Tailwind CSS",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Checkpoint - Collaborative Work"
+        },
         {
           "title": "Checkpoint - Frontend Apps"
         }
       ]
     },
     {
-      "title": "Git"
+      "title": "GitHub",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint - External Packages"
+        }
+      ]
     },
     {
-      "title": "GitHub"
+      "title": "Git"
     },
     {
       "title": "Node.js",
@@ -59,9 +70,6 @@
       "children": [
         {
           "title": "Checkpoint — CLI Apps"
-        },
-        {
-          "title": "Checkpoint — Simple CRUD Apps"
         }
       ]
     },
@@ -69,17 +77,7 @@
       "title": "PostgreSQL"
     },
     {
-      "title": "RESTful APIs",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "SES"
-        },
-        {
-          "title": "S3"
-        }
-      ]
+      "title": "Redis"
     },
     {
       "title": "JWT Auth",
@@ -87,17 +85,36 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Route53"
+          "title": "Backend Starts here",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Checkpoint — Complete App"
+            },
+            {
+              "title": "Route53"
+            },
+            {
+              "title": "SES"
+            },
+            {
+              "title": "EC2"
+            },
+            {
+              "title": "VPC"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Redis",
+      "title": "RESTful APIs",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Checkpoint — Complete App"
+          "title": "Checkpoint — Simple CRUD Apps"
         }
       ]
     },
@@ -107,7 +124,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Checkpoint — Automation"
+          "title": "DevOps starts here",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Checkpoint — Automation"
+            }
+          ]
         }
       ]
     },
@@ -117,16 +141,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "EC2"
-        },
-        {
-          "title": "VPC"
-        },
-        {
-          "title": "Checkpoint — Deployment"
-        },
-        {
-          "title": "Checkpoint — CI / CD"
+          "title": "S3"
         }
       ]
     },
@@ -134,22 +149,28 @@
       "title": "Monit"
     },
     {
-      "title": "GitHub Actions",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Checkpoint — Monitoring"
-        }
-      ]
-    },
-    {
       "title": "Ansible",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Checkpoint — CI / CD"
+        },
+        {
           "title": "Checkpoint — Infrastructure"
+        }
+      ]
+    },
+    {
+      "title": "GitHub Actions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Checkpoint — Deployment"
+        },
+        {
+          "title": "Checkpoint — Monitoring"
         }
       ]
     },

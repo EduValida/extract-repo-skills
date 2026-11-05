@@ -13,34 +13,7 @@
           "title": "What is GEO"
         },
         {
-          "title": "Search Intent"
-        },
-        {
           "title": "What is AEO"
-        },
-        {
-          "title": "Semantic Search"
-        },
-        {
-          "title": "Lexical vs Vector Search"
-        },
-        {
-          "title": "Hybrid Search"
-        },
-        {
-          "title": "SERP, Index, Crawl"
-        },
-        {
-          "title": "Backlinks & Anchor Text"
-        },
-        {
-          "title": "Canonical"
-        },
-        {
-          "title": "Nofollow, Noindex"
-        },
-        {
-          "title": "Organic vs Paid vs Direct"
         }
       ]
     },
@@ -107,12 +80,6 @@
         },
         {
           "title": "Helpful Content System"
-        },
-        {
-          "title": "Internal Linking"
-        },
-        {
-          "title": "Tracking Volatility"
         }
       ]
     },
@@ -121,6 +88,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Internal Linking"
+        },
+        {
+          "title": "Tracking Volatility"
+        },
         {
           "title": "Site Hierarchy & Depth"
         },
@@ -157,37 +130,13 @@
           "title": "Index Coverage & Bloat"
         },
         {
-          "title": "Googlebot"
-        },
-        {
-          "title": "Bingbot"
-        },
-        {
           "title": "Log File Analysis"
         },
         {
           "title": "Managing AI Crawlers"
         },
         {
-          "title": "GPTBot"
-        },
-        {
-          "title": "ClaudeBot"
-        },
-        {
           "title": "Controls & Pay-Per-Crawl"
-        },
-        {
-          "title": "Google-Extended"
-        },
-        {
-          "title": "PerplexityBot"
-        },
-        {
-          "title": "Screaming Frog"
-        },
-        {
-          "title": "Sitebulb"
         }
       ]
     },
@@ -220,15 +169,6 @@
       "children": [
         {
           "title": "Planning & Checklists"
-        },
-        {
-          "title": "Domain & Protocol Changes"
-        },
-        {
-          "title": "Redirect Mapping"
-        },
-        {
-          "title": "Post-Migration Monitoring"
         }
       ]
     },
@@ -238,12 +178,25 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Domain & Protocol Changes"
+        },
+        {
           "title": "PageSpeed Insights"
+        },
+        {
+          "title": "Redirect Mapping"
         }
       ]
     },
     {
-      "title": "Mobile Friendliness"
+      "title": "Mobile Friendliness",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Post-Migration Monitoring"
+        }
+      ]
     },
     {
       "title": "HTTPS & Security"
@@ -285,6 +238,92 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "SEO Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Search Intent"
+            },
+            {
+              "title": "Semantic Search"
+            },
+            {
+              "title": "Lexical vs Vector Search"
+            },
+            {
+              "title": "Hybrid Search"
+            }
+          ]
+        },
+        {
+          "title": "Search Intent  Semantics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SERP, Index, Crawl"
+            },
+            {
+              "title": "Backlinks & Anchor Text"
+            },
+            {
+              "title": "Canonical"
+            },
+            {
+              "title": "Nofollow, Noindex"
+            },
+            {
+              "title": "Organic vs Paid vs Direct"
+            }
+          ]
+        },
+        {
+          "title": "Search Crawlers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Googlebot"
+            },
+            {
+              "title": "Bingbot"
+            }
+          ]
+        },
+        {
+          "title": "AI Crawlers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GPTBot"
+            },
+            {
+              "title": "ClaudeBot"
+            },
+            {
+              "title": "Google-Extended"
+            },
+            {
+              "title": "PerplexityBot"
+            }
+          ]
+        },
+        {
+          "title": "Site Crawlers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Screaming Frog"
+            },
+            {
+              "title": "Sitebulb"
+            }
+          ]
+        },
+        {
           "title": "Semrush"
         },
         {
@@ -298,6 +337,57 @@
         },
         {
           "title": "SERP Analysis"
+        },
+        {
+          "title": "Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Google Business Profile"
+            },
+            {
+              "title": "NAP Consistency"
+            },
+            {
+              "title": "Local Citations"
+            },
+            {
+              "title": "Local Landing Pages"
+            }
+          ]
+        },
+        {
+          "title": "Local Search Signals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Reviews & Velocity"
+            },
+            {
+              "title": "Local Links"
+            },
+            {
+              "title": "Local Pack & Maps"
+            },
+            {
+              "title": "Multi-Location SEO"
+            }
+          ]
+        },
+        {
+          "title": "Local GEO Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "BrightLocal"
+            },
+            {
+              "title": "Whitespark"
+            }
+          ]
         }
       ]
     },
@@ -443,9 +533,6 @@
         },
         {
           "title": "Pruning & Deindexing"
-        },
-        {
-          "title": "Breadcrumb rich result"
         }
       ]
     },
@@ -454,6 +541,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Breadcrumb rich result"
+        },
         {
           "title": "Surfer SEO"
         },
@@ -467,40 +557,54 @@
           "title": "Frase"
         },
         {
-          "title": "RAG"
+          "title": "Retrieval Mechanisms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RAG"
+            },
+            {
+              "title": "Embeddings"
+            },
+            {
+              "title": "Chunking"
+            },
+            {
+              "title": "Dense Retrieval"
+            },
+            {
+              "title": "Query Fan-Out"
+            },
+            {
+              "title": "Multi-Step AI Intent"
+            }
+          ]
         },
         {
-          "title": "Embeddings"
-        },
-        {
-          "title": "Chunking"
-        },
-        {
-          "title": "Dense Retrieval"
-        },
-        {
-          "title": "Query Fan-Out"
-        },
-        {
-          "title": "Multi-Step AI Intent"
-        },
-        {
-          "title": "AI Overviews"
-        },
-        {
-          "title": "Google AI Mode"
-        },
-        {
-          "title": "ChatGPT Search"
-        },
-        {
-          "title": "Perplexity"
-        },
-        {
-          "title": "Copilot & Gemini"
-        },
-        {
-          "title": "Chat-Based Search"
+          "title": "AI Answer Surfaces",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AI Overviews"
+            },
+            {
+              "title": "Google AI Mode"
+            },
+            {
+              "title": "ChatGPT Search"
+            },
+            {
+              "title": "Perplexity"
+            },
+            {
+              "title": "Copilot & Gemini"
+            },
+            {
+              "title": "Chat-Based Search"
+            }
+          ]
         }
       ]
     },
@@ -523,33 +627,6 @@
         },
         {
           "title": "MCP & Structured Access"
-        },
-        {
-          "title": "Domain Authority"
-        },
-        {
-          "title": "Page Authority"
-        },
-        {
-          "title": "Trust Flow"
-        },
-        {
-          "title": "Citation Flow"
-        },
-        {
-          "title": "Nofollow, Sponsored, UGC"
-        },
-        {
-          "title": "Ahrefs"
-        },
-        {
-          "title": "BuzzStream"
-        },
-        {
-          "title": "Majestic"
-        },
-        {
-          "title": "Pitchbox"
         }
       ]
     },
@@ -595,36 +672,6 @@
       "children": [
         {
           "title": "Niche Forums"
-        },
-        {
-          "title": "Google Business Profile"
-        },
-        {
-          "title": "NAP Consistency"
-        },
-        {
-          "title": "Local Citations"
-        },
-        {
-          "title": "Local Landing Pages"
-        },
-        {
-          "title": "Reviews & Velocity"
-        },
-        {
-          "title": "Local Links"
-        },
-        {
-          "title": "Local Pack & Maps"
-        },
-        {
-          "title": "Multi-Location SEO"
-        },
-        {
-          "title": "BrightLocal"
-        },
-        {
-          "title": "Whitespark"
         }
       ]
     },
@@ -698,10 +745,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "AccuRanker"
+          "title": "Semrush"
         },
         {
-          "title": "Semrush"
+          "title": "AccuRanker"
         }
       ]
     },
@@ -725,7 +772,62 @@
       ]
     },
     {
-      "title": "Zero-Click Attribution"
+      "title": "Zero-Click Attribution",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Link Metrics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Domain Authority"
+            },
+            {
+              "title": "Page Authority"
+            },
+            {
+              "title": "Trust Flow"
+            },
+            {
+              "title": "Citation Flow"
+            }
+          ]
+        },
+        {
+          "title": "LInk Attributes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Nofollow, Sponsored, UGC"
+            }
+          ]
+        },
+        {
+          "title": "Link Building Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Ahrefs"
+            },
+            {
+              "title": "BuzzStream"
+            },
+            {
+              "title": "Majestic"
+            },
+            {
+              "title": "Pitchbox"
+            }
+          ]
+        },
+        {
+          "title": "Ahrefs Brand Radar"
+        }
+      ]
     },
     {
       "title": "AI Visibility Measurement",
@@ -740,9 +842,6 @@
         },
         {
           "title": "Competitive Answer Share"
-        },
-        {
-          "title": "Ahrefs Brand Radar"
         },
         {
           "title": "Entity & Sentiment"

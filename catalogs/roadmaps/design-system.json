@@ -19,6 +19,9 @@
           "title": "What is Atomic Design"
         },
         {
+          "title": "Component Library"
+        },
+        {
           "title": "Stakeholders Involved in Building"
         },
         {
@@ -35,9 +38,6 @@
           "title": "Component"
         },
         {
-          "title": "Component Library"
-        },
-        {
           "title": "Design Language"
         },
         {
@@ -48,15 +48,6 @@
         },
         {
           "title": "Pattern"
-        },
-        {
-          "title": "Pilot"
-        },
-        {
-          "title": "Token"
-        },
-        {
-          "title": "UI Kit"
         }
       ]
     },
@@ -72,10 +63,13 @@
           "title": "Making it from Existing Design"
         },
         {
-          "title": "Performing a Visual Audit"
+          "title": "Pilot"
         },
         {
-          "title": "Identify Existing Design Process"
+          "title": "Token"
+        },
+        {
+          "title": "Performing a Visual Audit"
         }
       ]
     },
@@ -85,31 +79,63 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "UI Kit"
+        },
+        {
+          "title": "Identify Existing Design Process"
+        },
+        {
+          "title": "Identify Design Elements",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Icons"
+            },
+            {
+              "title": "Sizing"
+            },
+            {
+              "title": "Visual Forms"
+            },
+            {
+              "title": "Color"
+            },
+            {
+              "title": "Spaces"
+            },
+            {
+              "title": "Typography"
+            }
+          ]
+        },
+        {
           "title": "A/B Tests & Experiments"
-        },
-        {
-          "title": "Icons"
-        },
-        {
-          "title": "Visual Forms"
-        },
-        {
-          "title": "Sizing"
         },
         {
           "title": "Regional Requirements"
         },
         {
-          "title": "Spaces"
-        },
-        {
-          "title": "Color"
-        },
-        {
-          "title": "Typography"
-        },
-        {
           "title": "Documentation"
+        },
+        {
+          "title": "Analytics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Component Analytics"
+            },
+            {
+              "title": "Logging"
+            },
+            {
+              "title": "Tooling Analytics"
+            },
+            {
+              "title": "Service and Health Metrics"
+            }
+          ]
         }
       ]
     },
@@ -119,43 +145,57 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Avatar"
+          "title": "Identify Components",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Avatar"
+            },
+            {
+              "title": "Banners"
+            },
+            {
+              "title": "Badges"
+            },
+            {
+              "title": "Cards"
+            },
+            {
+              "title": "Forms"
+            },
+            {
+              "title": "Buttons"
+            },
+            {
+              "title": "Dropdowns"
+            },
+            {
+              "title": "...other"
+            }
+          ]
         },
         {
-          "title": "Badges"
-        },
-        {
-          "title": "Banners"
-        },
-        {
-          "title": "Writing Guidelines"
-        },
-        {
-          "title": "Buttons"
-        },
-        {
-          "title": "Cards"
-        },
-        {
-          "title": "Forms"
-        },
-        {
-          "title": "Tone of Voice"
-        },
-        {
-          "title": "Dropdowns"
-        },
-        {
-          "title": "...other"
-        },
-        {
-          "title": "Terminology"
-        },
-        {
-          "title": "Design Principles"
-        },
-        {
-          "title": "Vision"
+          "title": "Brand",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Writing Guidelines"
+            },
+            {
+              "title": "Tone of Voice"
+            },
+            {
+              "title": "Terminology"
+            },
+            {
+              "title": "Design Principles"
+            },
+            {
+              "title": "Vision"
+            }
+          ]
         }
       ]
     },
@@ -165,91 +205,126 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Layout",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Units"
+            },
+            {
+              "title": "Grid"
+            },
+            {
+              "title": "Breakpoints"
+            },
+            {
+              "title": "Spacking"
+            }
+          ]
+        },
+        {
           "title": "Accessibility"
         },
         {
-          "title": "Units"
+          "title": "Logo",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Monochrome Version"
+            },
+            {
+              "title": "Small Use Guidance"
+            },
+            {
+              "title": "Placement Guidance"
+            },
+            {
+              "title": "Usage Guidance"
+            },
+            {
+              "title": "File Formats"
+            }
+          ]
         },
         {
           "title": "Functional Colors"
         },
         {
-          "title": "Grid"
-        },
-        {
-          "title": "Monochrome Version"
-        },
-        {
           "title": "Dark Mode"
-        },
-        {
-          "title": "Breakpoints"
-        },
-        {
-          "title": "Small Use Guidance"
         },
         {
           "title": "Guidelines"
         },
         {
-          "title": "Spacking"
+          "title": "Typography",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Responsiveness"
+            },
+            {
+              "title": "Grid Relation"
+            },
+            {
+              "title": "Guidelines"
+            },
+            {
+              "title": "Readability"
+            },
+            {
+              "title": "Performance"
+            }
+          ]
         },
         {
-          "title": "Placement Guidance"
+          "title": "Guidelines (2)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Accessibility"
+            },
+            {
+              "title": "User Onboarding"
+            },
+            {
+              "title": "Microcopy Guidelines"
+            }
+          ]
         },
         {
-          "title": "Usage Guidance"
-        },
-        {
-          "title": "File Formats"
-        },
-        {
-          "title": "Responsiveness"
-        },
-        {
-          "title": "Grid Relation"
-        },
-        {
-          "title": "Guidelines (2)"
-        },
-        {
-          "title": "Readability"
-        },
-        {
-          "title": "Performance"
-        },
-        {
-          "title": "Accessibility (2)"
-        },
-        {
-          "title": "User Onboarding"
-        },
-        {
-          "title": "Accessibility (3)"
-        },
-        {
-          "title": "Style"
-        },
-        {
-          "title": "Naming"
-        },
-        {
-          "title": "Microcopy Guidelines"
-        },
-        {
-          "title": "Grid Relation (2)"
-        },
-        {
-          "title": "Sizes"
-        },
-        {
-          "title": "Keywords"
-        },
-        {
-          "title": "Reserved Icons"
-        },
-        {
-          "title": "Guidelines (3)"
+          "title": "Iconography",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Accessibility"
+            },
+            {
+              "title": "Style"
+            },
+            {
+              "title": "Naming"
+            },
+            {
+              "title": "Grid Relation"
+            },
+            {
+              "title": "Sizes"
+            },
+            {
+              "title": "Keywords"
+            },
+            {
+              "title": "Reserved Icons"
+            },
+            {
+              "title": "Guidelines"
+            }
+          ]
         }
       ]
     },
@@ -259,28 +334,32 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Design",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Design Editor"
+            },
+            {
+              "title": "Plugins"
+            },
+            {
+              "title": "Version Control"
+            },
+            {
+              "title": "Contribution Guidelines"
+            }
+          ]
+        },
+        {
           "title": "Avatar"
         },
         {
           "title": "Input Text"
         },
         {
-          "title": "Design Editor"
-        },
-        {
           "title": "Banner"
-        },
-        {
-          "title": "Input Checkbox"
-        },
-        {
-          "title": "Plugins"
-        },
-        {
-          "title": "Version Control"
-        },
-        {
-          "title": "Contribution Guidelines"
         }
       ]
     },
@@ -289,6 +368,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Input Checkbox"
+        },
         {
           "title": "Badge"
         },
@@ -308,13 +390,47 @@
           "title": "List"
         },
         {
+          "title": "Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Component Catalog"
+            },
+            {
+              "title": "Documentation"
+            },
+            {
+              "title": "Code Style"
+            },
+            {
+              "title": "Unit Testing"
+            },
+            {
+              "title": "Accessibility Testing"
+            },
+            {
+              "title": "Semantic Versioning"
+            },
+            {
+              "title": "Release Strategy"
+            },
+            {
+              "title": "Commit Guidelines"
+            },
+            {
+              "title": "PR Templates"
+            },
+            {
+              "title": "Contribution Guidelines"
+            }
+          ]
+        },
+        {
           "title": "Carousel"
         },
         {
           "title": "Loading Indicator"
-        },
-        {
-          "title": "Component Catalog"
         },
         {
           "title": "Dropdown"
@@ -323,49 +439,10 @@
           "title": "Modal"
         },
         {
-          "title": "Documentation"
-        },
-        {
           "title": "Icon"
         },
         {
           "title": "Tabs"
-        },
-        {
-          "title": "Code Style"
-        },
-        {
-          "title": "Select"
-        },
-        {
-          "title": "Toast"
-        },
-        {
-          "title": "Unit Testing"
-        },
-        {
-          "title": "Textarea"
-        },
-        {
-          "title": "Tooltip"
-        },
-        {
-          "title": "Accessibility Testing"
-        },
-        {
-          "title": "Semantic Versioning"
-        },
-        {
-          "title": "Release Strategy"
-        },
-        {
-          "title": "Commit Guidelines"
-        },
-        {
-          "title": "PR Templates"
-        },
-        {
-          "title": "Contribution Guidelines"
         }
       ]
     },
@@ -375,37 +452,51 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Roadmap"
+          "title": "Select"
         },
         {
-          "title": "Milestones"
+          "title": "Toast"
         },
         {
-          "title": "Ticketing"
+          "title": "Textarea"
         },
         {
-          "title": "Component Analytics"
+          "title": "Tooltip"
         },
         {
-          "title": "Logging"
+          "title": "Task Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Roadmap"
+            },
+            {
+              "title": "Milestones"
+            },
+            {
+              "title": "Ticketing"
+            }
+          ]
         },
         {
-          "title": "Tooling Analytics"
-        },
-        {
-          "title": "Service and Health Metrics"
-        },
-        {
-          "title": "Community Meetings"
-        },
-        {
-          "title": "Communication Channel"
-        },
-        {
-          "title": "Open Hours"
-        },
-        {
-          "title": "FAQs"
+          "title": "Communications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Community Meetings"
+            },
+            {
+              "title": "Communication Channel"
+            },
+            {
+              "title": "Open Hours"
+            },
+            {
+              "title": "FAQs"
+            }
+          ]
         }
       ]
     }

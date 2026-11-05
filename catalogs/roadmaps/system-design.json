@@ -20,7 +20,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "CAP Theorem"
+          "title": "CP - Consistency + Partition Tolerance",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CAP Theorem"
+            }
+          ]
         }
       ]
     },
@@ -55,19 +62,52 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Fail-Over"
+          "title": "Active - Passive",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Fail-Over"
+            },
+            {
+              "title": "Replication"
+            }
+          ]
         },
         {
-          "title": "Replication"
+          "title": "Master - Master",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Microservices"
+            },
+            {
+              "title": "Key-Value Store"
+            },
+            {
+              "title": "Document Store"
+            },
+            {
+              "title": "Wide Column Store"
+            },
+            {
+              "title": "Graph Databases"
+            }
+          ]
         },
         {
           "title": "Event-Driven"
         },
         {
-          "title": "Schedule Driven"
-        },
-        {
-          "title": "Returning Results"
+          "title": "Schedule Driven",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Returning Results"
+            }
+          ]
         }
       ]
     },
@@ -77,19 +117,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Key-Value Store"
-        },
-        {
-          "title": "Document Store"
-        },
-        {
-          "title": "Wide Column Store"
-        },
-        {
-          "title": "Graph Databases"
-        },
-        {
-          "title": "Replication"
+          "title": "NoSQL",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Replication"
+            },
+            {
+              "title": "Sharding"
+            },
+            {
+              "title": "Federation"
+            },
+            {
+              "title": "Denormalization"
+            },
+            {
+              "title": "SQL Tuning"
+            }
+          ]
         }
       ]
     },
@@ -99,13 +146,30 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Availability in Numbers"
+          "title": "Availability in Parallel vs Sequence",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Availability in Numbers"
+            }
+          ]
         },
         {
           "title": "Pull CDNs"
         },
         {
           "title": "Push CDNs"
+        }
+      ]
+    },
+    {
+      "title": "Application Layer",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Service Discovery"
         }
       ]
     },
@@ -132,37 +196,37 @@
       ]
     },
     {
-      "title": "Application Layer",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Microservices"
-        },
-        {
-          "title": "Service Discovery"
-        }
-      ]
-    },
-    {
       "title": "Databases",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Sharding"
-        },
-        {
           "title": "SQL vs NoSQL"
         },
         {
-          "title": "Federation"
-        },
-        {
-          "title": "Denormalization"
-        },
-        {
-          "title": "SQL Tuning"
+          "title": "RDBMS",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HTTP"
+            },
+            {
+              "title": "TCP"
+            },
+            {
+              "title": "RPC"
+            },
+            {
+              "title": "gRPC"
+            },
+            {
+              "title": "REST"
+            },
+            {
+              "title": "GraphQL"
+            }
+          ]
         }
       ]
     },
@@ -178,10 +242,26 @@
           "title": "Write-behind"
         },
         {
-          "title": "Write-through"
-        },
-        {
-          "title": "Cache Aside"
+          "title": "Strategies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Client Caching"
+            },
+            {
+              "title": "CDN Caching"
+            },
+            {
+              "title": "Web Server Caching"
+            },
+            {
+              "title": "Database Caching"
+            },
+            {
+              "title": "Application Caching"
+            }
+          ]
         }
       ]
     },
@@ -194,7 +274,13 @@
           "title": "Back Pressure"
         },
         {
+          "title": "Write-through"
+        },
+        {
           "title": "Task Queues"
+        },
+        {
+          "title": "Cache Aside"
         },
         {
           "title": "Message Queues"
@@ -208,48 +294,11 @@
       "children": [
         {
           "title": "UDP"
-        },
-        {
-          "title": "HTTP"
-        },
-        {
-          "title": "TCP"
-        },
-        {
-          "title": "RPC"
-        },
-        {
-          "title": "gRPC"
-        },
-        {
-          "title": "REST"
-        },
-        {
-          "title": "GraphQL"
         }
       ]
     },
     {
-      "title": "Idempotent Operations",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Client Caching"
-        },
-        {
-          "title": "CDN Caching"
-        },
-        {
-          "title": "Web Server Caching"
-        },
-        {
-          "title": "Database Caching"
-        },
-        {
-          "title": "Application Caching"
-        }
-      ]
+      "title": "Idempotent Operations"
     },
     {
       "title": "Performance Antipatterns",
@@ -275,13 +324,7 @@
           "title": "Noisy Neighbor"
         },
         {
-          "title": "Retry Storm"
-        },
-        {
           "title": "Synchronous I/O"
-        },
-        {
-          "title": "No Caching"
         },
         {
           "title": "Extraneous Fetching"
@@ -297,7 +340,13 @@
           "title": "Health Monitoring"
         },
         {
+          "title": "Retry Storm"
+        },
+        {
           "title": "Availability Monitoring"
+        },
+        {
+          "title": "No Caching"
         },
         {
           "title": "Performance Monitoring"
@@ -353,28 +402,6 @@
         },
         {
           "title": "Gateway Aggregation"
-        },
-        {
-          "title": "External Config Store"
-        },
-        {
-          "title": "Compute Resource Consolidation"
-        },
-        {
-          "title": "Backends for Frontend"
-        },
-        {
-          "title": "Anti-Corruption Layer"
-        }
-      ]
-    },
-    {
-      "title": "Messaging",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Async Request Reply"
         }
       ]
     },
@@ -384,55 +411,47 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Sequential Convoy"
-        },
-        {
           "title": "Valet Key"
-        },
-        {
-          "title": "Scheduling Agent Supervisor"
         },
         {
           "title": "Static Content Hosting"
         },
         {
-          "title": "Queue-Based Load Leveling"
-        },
-        {
           "title": "Sharding"
-        },
-        {
-          "title": "Publisher/Subscriber"
         },
         {
           "title": "Materialized View"
         },
         {
-          "title": "Priority Queue"
-        },
-        {
           "title": "Index Table"
         },
         {
-          "title": "Pipes and Filters"
-        },
-        {
           "title": "Event Sourcing"
+        }
+      ]
+    },
+    {
+      "title": "Messaging",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sequential Convoy"
         },
         {
-          "title": "Competing Consumers"
+          "title": "Scheduling Agent Supervisor"
         },
         {
-          "title": "CQRS"
+          "title": "Queue-Based Load Leveling"
         },
         {
-          "title": "Choreography"
+          "title": "Publisher/Subscriber"
         },
         {
-          "title": "Cache-Aside"
+          "title": "Priority Queue"
         },
         {
-          "title": "Claim Check"
+          "title": "Pipes and Filters"
         }
       ]
     },
@@ -444,6 +463,18 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "External Config Store"
+        },
+        {
+          "title": "Compute Resource Consolidation"
+        },
+        {
+          "title": "Backends for Frontend"
+        },
+        {
+          "title": "Anti-Corruption Layer"
+        },
         {
           "title": "Deployment Stamps"
         },
@@ -467,6 +498,12 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "CQRS"
+        },
+        {
+          "title": "Cache-Aside"
+        },
+        {
           "title": "Deployment Stamps"
         },
         {
@@ -474,12 +511,6 @@
         },
         {
           "title": "Bulkhead"
-        },
-        {
-          "title": "Health Endpoint Monitoring"
-        },
-        {
-          "title": "Circuit Breaker"
         }
       ]
     },
@@ -488,6 +519,18 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Competing Consumers"
+        },
+        {
+          "title": "Choreography"
+        },
+        {
+          "title": "Claim Check"
+        },
+        {
+          "title": "Async Request Reply"
+        },
         {
           "title": "Bulkhead"
         },
@@ -510,6 +553,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Health Endpoint Monitoring"
+        },
+        {
+          "title": "Circuit Breaker"
+        },
         {
           "title": "Queue-Based Load Leveling"
         },

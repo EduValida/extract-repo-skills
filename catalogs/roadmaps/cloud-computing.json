@@ -7,58 +7,84 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Cloud vs On-Premises"
+          "title": "Basic Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Distributed Systems"
+            },
+            {
+              "title": "Cloud vs On-Premises"
+            },
+            {
+              "title": "Region, Availability Zone"
+            },
+            {
+              "title": "Instance"
+            },
+            {
+              "title": "Cluster"
+            },
+            {
+              "title": "Workload"
+            },
+            {
+              "title": "Multi-Tenancy"
+            },
+            {
+              "title": "Elasticity"
+            },
+            {
+              "title": "Scalability"
+            },
+            {
+              "title": "Provisioning"
+            },
+            {
+              "title": "Latency & Throughput"
+            },
+            {
+              "title": "Endpoint"
+            },
+            {
+              "title": "SLA"
+            },
+            {
+              "title": "DaaS"
+            },
+            {
+              "title": "IaaS"
+            },
+            {
+              "title": "FaaS"
+            }
+          ]
         },
         {
-          "title": "Region, Availability Zone"
-        },
-        {
-          "title": "Python"
-        },
-        {
-          "title": "Instance"
-        },
-        {
-          "title": "Cluster"
-        },
-        {
-          "title": "Linux"
-        },
-        {
-          "title": "Workload"
-        },
-        {
-          "title": "Shell / Bash"
-        },
-        {
-          "title": "Multi-Tenancy"
-        },
-        {
-          "title": "Version Control"
-        },
-        {
-          "title": "Elasticity"
-        },
-        {
-          "title": "Networking Basics"
-        },
-        {
-          "title": "Scalability"
-        },
-        {
-          "title": "Cybersecurity Basics"
-        },
-        {
-          "title": "Provisioning"
-        },
-        {
-          "title": "Latency & Throughput"
-        },
-        {
-          "title": "Endpoint"
-        },
-        {
-          "title": "SLA"
+          "title": "Pre-requisites",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Python"
+            },
+            {
+              "title": "Linux"
+            },
+            {
+              "title": "Shell / Bash"
+            },
+            {
+              "title": "Version Control"
+            },
+            {
+              "title": "Networking Basics"
+            },
+            {
+              "title": "Cybersecurity Basics"
+            }
+          ]
         }
       ]
     },
@@ -90,16 +116,7 @@
           "title": "SaaS"
         },
         {
-          "title": "DaaS"
-        },
-        {
-          "title": "IaaS"
-        },
-        {
           "title": "PaaS"
-        },
-        {
-          "title": "FaaS"
         }
       ]
     },
@@ -121,13 +138,13 @@
           "title": "Managed Kubernetes"
         },
         {
-          "title": "Azure"
-        },
-        {
           "title": "AWS"
         },
         {
           "title": "GCP"
+        },
+        {
+          "title": "Azure"
         },
         {
           "title": "Provider Lock-In"
@@ -221,9 +238,6 @@
         },
         {
           "title": "Virtual Private Cloud"
-        },
-        {
-          "title": "Subnets & Routing"
         }
       ]
     },
@@ -232,6 +246,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Subnets & Routing"
+        },
         {
           "title": "NAT & IP Management"
         },
@@ -402,10 +419,10 @@
           "title": "Shared Responsibility Model"
         },
         {
-          "title": "RBAC"
+          "title": "IAM"
         },
         {
-          "title": "IAM"
+          "title": "RBAC"
         }
       ]
     },

@@ -22,13 +22,7 @@
           "title": "Go"
         },
         {
-          "title": "Python"
-        },
-        {
           "title": "Ruby"
-        },
-        {
-          "title": "Rust"
         }
       ]
     },
@@ -44,7 +38,13 @@
           "title": "Control Structures"
         },
         {
+          "title": "Python"
+        },
+        {
           "title": "Pseudo Code"
+        },
+        {
+          "title": "Rust"
         },
         {
           "title": "Functions"
@@ -66,22 +66,7 @@
           "title": "Common Runtimes"
         },
         {
-          "title": "Constant"
-        },
-        {
-          "title": "Logarithmic"
-        },
-        {
-          "title": "Linear"
-        },
-        {
-          "title": "Polynomial"
-        },
-        {
-          "title": "Exponential"
-        },
-        {
-          "title": "Factorial"
+          "title": "Array"
         }
       ]
     },
@@ -94,13 +79,16 @@
           "title": "Linked Lists"
         },
         {
-          "title": "Array"
+          "title": "Constant"
+        },
+        {
+          "title": "Queues"
         },
         {
           "title": "Stacks"
         },
         {
-          "title": "Queues"
+          "title": "Logarithmic"
         },
         {
           "title": "Hash Tables"
@@ -120,15 +108,6 @@
         },
         {
           "title": "Asymptotic Notation"
-        },
-        {
-          "title": "Big-O Notation"
-        },
-        {
-          "title": "Big-θ Notation"
-        },
-        {
-          "title": "Big-Ω Notation"
         }
       ]
     },
@@ -163,10 +142,59 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Linear"
+        },
+        {
+          "title": "Polynomial"
+        },
+        {
+          "title": "Exponential"
+        },
+        {
+          "title": "Factorial"
+        },
+        {
           "title": "Binary Search"
         },
         {
           "title": "Linear Search"
+        }
+      ]
+    },
+    {
+      "title": "Graph Data Structures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Big-O Notation"
+        },
+        {
+          "title": "Big-θ Notation"
+        },
+        {
+          "title": "Big-Ω Notation"
+        },
+        {
+          "title": "Directed Graph"
+        },
+        {
+          "title": "Undirected Graph"
+        },
+        {
+          "title": "Binary Trees"
+        },
+        {
+          "title": "Search Algorithms"
+        },
+        {
+          "title": "Breadth First Search"
+        },
+        {
+          "title": "Depth First Search"
+        },
+        {
+          "title": "Shortest Path Algorithms"
         }
       ]
     },
@@ -182,13 +210,7 @@
           "title": "Tree Traversal"
         },
         {
-          "title": "Binary Trees"
-        },
-        {
           "title": "Breadth First Search"
-        },
-        {
-          "title": "Binary Search Trees"
         },
         {
           "title": "In-Order Traversal"
@@ -200,53 +222,7 @@
           "title": "Pre-Order Traversal"
         },
         {
-          "title": "AVL Trees"
-        },
-        {
           "title": "Post-Order Traversal"
-        },
-        {
-          "title": "B-Trees"
-        },
-        {
-          "title": "Heap"
-        }
-      ]
-    },
-    {
-      "title": "Graph Data Structures",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Directed Graph"
-        },
-        {
-          "title": "Undirected Graph"
-        },
-        {
-          "title": "Search Algorithms"
-        },
-        {
-          "title": "Breadth First Search"
-        },
-        {
-          "title": "Depth First Search"
-        },
-        {
-          "title": "Shortest Path Algorithms"
-        },
-        {
-          "title": "Dijkstra's Algorithm"
-        },
-        {
-          "title": "Bellman-Ford Algoritm"
-        },
-        {
-          "title": "A* Algorithm"
-        },
-        {
-          "title": "Minimum Spanning Tree"
         }
       ]
     },
@@ -256,13 +232,37 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Binary Search Trees"
+        },
+        {
+          "title": "AVL Trees"
+        },
+        {
+          "title": "B-Trees"
+        },
+        {
+          "title": "Heap"
+        },
+        {
+          "title": "Dijkstra's Algorithm"
+        },
+        {
           "title": "Trie"
+        },
+        {
+          "title": "Bellman-Ford Algoritm"
         },
         {
           "title": "Segment Trees"
         },
         {
+          "title": "A* Algorithm"
+        },
+        {
           "title": "Fenwick Trees"
+        },
+        {
+          "title": "Minimum Spanning Tree"
         },
         {
           "title": "Disjoint Set (Union-Find)"
@@ -293,7 +293,31 @@
           "title": "Skip List"
         },
         {
+          "title": "Brute Force"
+        },
+        {
           "title": "ISAM"
+        },
+        {
+          "title": "Island traversal"
+        },
+        {
+          "title": "Multi-threaded"
+        },
+        {
+          "title": "Two Heaps"
+        },
+        {
+          "title": "Kth Element"
+        },
+        {
+          "title": "Merge Intervals"
+        },
+        {
+          "title": "Cyclic Sort"
+        },
+        {
+          "title": "Fast and Slow Pointers"
         }
       ]
     },
@@ -319,22 +343,13 @@
           "title": "Backtracking"
         },
         {
-          "title": "Brute Force"
-        },
-        {
           "title": "Greedy Algorithms"
         },
         {
           "title": "Randomised Algorithms"
         },
         {
-          "title": "Island traversal"
-        },
-        {
           "title": "Divide and Conquer"
-        },
-        {
-          "title": "Multi-threaded"
         },
         {
           "title": "Leetcode"
@@ -343,36 +358,25 @@
           "title": "Recursion"
         },
         {
-          "title": "Kth Element"
-        },
-        {
-          "title": "Two Heaps"
-        },
-        {
-          "title": "Edabit"
-        },
-        {
           "title": "Dynamic Programming"
-        },
-        {
-          "title": "Merge Intervals"
         },
         {
           "title": "Two Pointer Technique"
         },
         {
-          "title": "Cyclic Sort"
-        },
-        {
           "title": "Sliding Window Technique"
-        },
-        {
-          "title": "Fast and Slow Pointers"
         }
       ]
     },
     {
-      "title": "Platforms to Practice"
+      "title": "Platforms to Practice",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Edabit"
+        }
+      ]
     }
   ]
 }

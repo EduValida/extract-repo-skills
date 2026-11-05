@@ -32,7 +32,14 @@
         },
         {
           "title": "Blockchain Networks"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Understanding Blockchain",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Ethereum"
         },
@@ -49,19 +56,19 @@
           "title": "Gnosis Chain"
         },
         {
-          "title": "PoS"
+          "title": "PoW"
         },
         {
-          "title": "PoW"
+          "title": "PoS"
         },
         {
           "title": "Avalanche"
         },
         {
-          "title": "BFT"
+          "title": "PoH"
         },
         {
-          "title": "PoH"
+          "title": "BFT"
         },
         {
           "title": "Fantom"
@@ -71,7 +78,14 @@
         },
         {
           "title": "Basic Blockchain Operations"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Types of Blockchains",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Blockchain Interoperability"
         },
@@ -100,53 +114,34 @@
           "title": "Cryptocurrencies"
         },
         {
-          "title": "Cryptowallets"
-        },
-        {
-          "title": "Mining & Incentive Models"
-        },
-        {
-          "title": "Environmental Considerations"
-        }
-      ]
-    },
-    {
-      "title": "Understanding Blockchain"
-    },
-    {
-      "title": "Types of Blockchains",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
           "title": "Everscale"
         },
         {
           "title": "Gosh"
         },
         {
-          "title": "TON"
+          "title": "Cryptowallets"
         },
         {
           "title": "Venom"
         },
         {
+          "title": "TON"
+        },
+        {
+          "title": "Mining & Incentive Models"
+        },
+        {
           "title": "L2 Blockchains"
+        },
+        {
+          "title": "Environmental Considerations"
         },
         {
           "title": "Optimism"
         },
         {
           "title": "Arbitrum"
-        },
-        {
-          "title": "Base"
-        },
-        {
-          "title": "Starknet"
-        },
-        {
-          "title": "Solana"
         }
       ]
     },
@@ -156,25 +151,28 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Base"
+        },
+        {
+          "title": "Starknet"
+        },
+        {
           "title": "Solidity"
         },
         {
           "title": "Rust"
         },
         {
-          "title": "Vyper"
+          "title": "Solana"
         },
         {
           "title": "Go"
         },
         {
+          "title": "Vyper"
+        },
+        {
           "title": "Unit Tests"
-        },
-        {
-          "title": "Remix"
-        },
-        {
-          "title": "VS Code"
         },
         {
           "title": "Integration Tests"
@@ -183,61 +181,32 @@
           "title": "Code Coverage"
         },
         {
-          "title": "Hardhat"
-        },
-        {
-          "title": "Foundry"
-        },
-        {
-          "title": "Brownie"
-        },
-        {
-          "title": "Truffle"
-        },
-        {
-          "title": "Deployment"
-        },
-        {
-          "title": "Monitoring"
-        },
-        {
-          "title": "OpenZeppelin"
-        },
-        {
-          "title": "Upgrades"
-        },
-        {
-          "title": "ERC Tokens"
-        },
-        {
-          "title": "Git"
-        },
-        {
-          "title": "Crypto Wallets"
-        },
-        {
-          "title": "Crypto Faucets"
-        },
-        {
-          "title": "GitHub"
-        },
-        {
-          "title": "Decentralized Storage"
-        },
-        {
-          "title": "GitLab"
-        },
-        {
-          "title": "Bitbucket"
-        },
-        {
-          "title": "Slither"
-        },
-        {
-          "title": "Echidna"
-        },
-        {
-          "title": "Diligent Fuzzing"
+          "title": "Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Deployment"
+            },
+            {
+              "title": "Monitoring"
+            },
+            {
+              "title": "Upgrades"
+            },
+            {
+              "title": "ERC Tokens"
+            },
+            {
+              "title": "Crypto Wallets"
+            },
+            {
+              "title": "Crypto Faucets"
+            },
+            {
+              "title": "Decentralized Storage"
+            }
+          ]
         }
       ]
     },
@@ -247,7 +216,122 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Programming Languages",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Remix"
+            },
+            {
+              "title": "VS Code"
+            }
+          ]
+        },
+        {
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Foundry"
+            },
+            {
+              "title": "Hardhat"
+            },
+            {
+              "title": "Truffle"
+            },
+            {
+              "title": "Brownie"
+            }
+          ]
+        },
+        {
+          "title": "Smart Contract Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OpenZeppelin"
+            }
+          ]
+        },
+        {
+          "title": "Management Platform",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Git"
+            }
+          ]
+        },
+        {
+          "title": "Version Control",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GitHub"
+            },
+            {
+              "title": "GitLab"
+            },
+            {
+              "title": "Bitbucket"
+            }
+          ]
+        },
+        {
+          "title": "Repo Hosting Services",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Slither"
+            },
+            {
+              "title": "Echidna"
+            },
+            {
+              "title": "Diligent Fuzzing"
+            }
+          ]
+        },
+        {
           "title": "Practices"
+        },
+        {
+          "title": "Security",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "State & Payment Channels"
+            },
+            {
+              "title": "Optimistic Rollups & Fraud Proofs"
+            },
+            {
+              "title": "Zk Rollups & Zero Knowledge Proof"
+            },
+            {
+              "title": "Validium"
+            },
+            {
+              "title": "Plasma"
+            },
+            {
+              "title": "Sidechains"
+            },
+            {
+              "title": "Ethereum 2.0"
+            },
+            {
+              "title": "On-Chain Scaling"
+            }
+          ]
         }
       ]
     },
@@ -296,12 +380,6 @@
       "children": [
         {
           "title": "React"
-        },
-        {
-          "title": "Angular"
-        },
-        {
-          "title": "Vue"
         }
       ]
     },
@@ -311,13 +389,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Angular"
+        },
+        {
+          "title": "Vue"
+        },
+        {
           "title": "web3.js"
         },
         {
           "title": "Moralis"
-        },
-        {
-          "title": "ethers.js"
         }
       ]
     },
@@ -340,12 +421,6 @@
         },
         {
           "title": "Security"
-        },
-        {
-          "title": "State & Payment Channels"
-        },
-        {
-          "title": "Optimistic Rollups & Fraud Proofs"
         }
       ]
     },
@@ -355,49 +430,30 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "ethers.js"
+        },
+        {
           "title": "Geth"
         },
         {
           "title": "Besu"
-        },
-        {
-          "title": "Nethermind"
-        },
-        {
-          "title": "Substrate"
         }
       ]
     },
     {
-      "title": "Building for Scale",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Zk Rollups & Zero Knowledge Proof"
-        },
-        {
-          "title": "Validium"
-        },
-        {
-          "title": "Plasma"
-        },
-        {
-          "title": "Sidechains"
-        },
-        {
-          "title": "Ethereum 2.0"
-        },
-        {
-          "title": "On-Chain Scaling"
-        }
-      ]
+      "title": "Building for Scale"
     },
     {
       "title": "Applicability",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Nethermind"
+        },
+        {
+          "title": "Substrate"
+        },
         {
           "title": "Defi"
         },
@@ -406,12 +462,6 @@
         },
         {
           "title": "NFTs"
-        },
-        {
-          "title": "Payments"
-        },
-        {
-          "title": "Insurance"
         }
       ]
     },
@@ -420,6 +470,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Payments"
+        },
+        {
+          "title": "Insurance"
+        },
         {
           "title": "Alchemy"
         },

@@ -20,9 +20,6 @@
         },
         {
           "title": "Running Node.js Code"
-        },
-        {
-          "title": "npx"
         }
       ]
     },
@@ -39,9 +36,6 @@
         },
         {
           "title": "Creating & Importing"
-        },
-        {
-          "title": "[global] keyword"
         }
       ]
     },
@@ -50,6 +44,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "npx"
+        },
         {
           "title": "Global Installation"
         },
@@ -60,43 +57,42 @@
           "title": "Semantic Versioning"
         },
         {
-          "title": "Updating Packages"
-        },
-        {
-          "title": "Event Emitter"
+          "title": "Installing Packages",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Updating Packages"
+            },
+            {
+              "title": "Running Scripts"
+            },
+            {
+              "title": "npm workspaces"
+            },
+            {
+              "title": "Creating Packages"
+            }
+          ]
         },
         {
           "title": "Promises"
         },
         {
-          "title": "Running Scripts"
-        },
-        {
-          "title": "Event Loop"
-        },
-        {
           "title": "async/await"
         },
         {
-          "title": "npm workspaces"
-        },
-        {
-          "title": "Callbacks"
-        },
-        {
-          "title": "Creating Packages"
-        },
-        {
-          "title": "setTimeout"
-        },
-        {
-          "title": "setInterval"
-        },
-        {
-          "title": "setImmediate"
-        },
-        {
-          "title": "process.nextTick"
+          "title": "Writing Async Code",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Cluster"
+            },
+            {
+              "title": "Worker Threads"
+            }
+          ]
         }
       ]
     },
@@ -105,6 +101,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "[global] keyword"
+        },
         {
           "title": "System Errors"
         },
@@ -118,16 +117,23 @@
           "title": "JavaScript Errors"
         },
         {
-          "title": "Uncaught Exceptions"
-        },
-        {
-          "title": "Handling Async Errors"
-        },
-        {
-          "title": "Callstack / Stack Trace"
-        },
-        {
-          "title": "Using Debugger"
+          "title": "Types of Errors",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Uncaught Exceptions"
+            },
+            {
+              "title": "Handling Async Errors"
+            },
+            {
+              "title": "Callstack / Stack Trace"
+            },
+            {
+              "title": "Using Debugger"
+            }
+          ]
         }
       ]
     },
@@ -137,10 +143,105 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "__dirname"
+          "title": "Event Emitter"
         },
         {
-          "title": "__filename"
+          "title": "Event Loop"
+        },
+        {
+          "title": "Callbacks"
+        },
+        {
+          "title": "setTimeout"
+        },
+        {
+          "title": "setInterval"
+        }
+      ]
+    },
+    {
+      "title": "Command Line Apps",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "process.env"
+        },
+        {
+          "title": "setImmediate"
+        },
+        {
+          "title": "dotenv package"
+        },
+        {
+          "title": "process.nextTick"
+        },
+        {
+          "title": "Environment Variables",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "process.stdin"
+            },
+            {
+              "title": "Inquirer Package"
+            },
+            {
+              "title": "prompts package"
+            }
+          ]
+        },
+        {
+          "title": "Exitting / Exit Codes"
+        },
+        {
+          "title": "Taking Input",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "stdout / stderr"
+            },
+            {
+              "title": "chalk package"
+            },
+            {
+              "title": "figlet package"
+            },
+            {
+              "title": "cli-progress"
+            }
+          ]
+        },
+        {
+          "title": "Printing Output",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "process.argv"
+            },
+            {
+              "title": "commander"
+            }
+          ]
+        },
+        {
+          "title": "Command line args",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Mongoose"
+            },
+            {
+              "title": "Prisma"
+            },
+            {
+              "title": "Native Drivers"
+            }
+          ]
         }
       ]
     },
@@ -149,6 +250,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "__dirname"
+        },
+        {
+          "title": "__filename"
+        },
         {
           "title": "process.cwd()"
         },
@@ -177,71 +284,55 @@
           "title": "passport.js"
         },
         {
-          "title": "http module"
+          "title": "Opensource Packages",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Express.js"
+            },
+            {
+              "title": "fastify"
+            },
+            {
+              "title": "NestJS"
+            },
+            {
+              "title": "Hono"
+            }
+          ]
         },
         {
-          "title": "Express.js"
+          "title": "Authentication",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "http module"
+            },
+            {
+              "title": "axios"
+            },
+            {
+              "title": "ky"
+            },
+            {
+              "title": "fetch"
+            },
+            {
+              "title": "got package"
+            }
+          ]
         },
         {
-          "title": "axios"
-        },
-        {
-          "title": "ky"
-        },
-        {
-          "title": "fastify"
-        },
-        {
-          "title": "NestJS"
-        },
-        {
-          "title": "fetch"
-        },
-        {
-          "title": "Hono"
-        },
-        {
-          "title": "got package"
-        }
-      ]
-    },
-    {
-      "title": "Command Line Apps",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "process.env"
-        },
-        {
-          "title": "dotenv package"
-        },
-        {
-          "title": "process.stdin"
-        },
-        {
-          "title": "Exitting / Exit Codes"
-        },
-        {
-          "title": "Inquirer Package"
-        },
-        {
-          "title": "prompts package"
-        },
-        {
-          "title": "stdout / stderr"
-        },
-        {
-          "title": "chalk package"
-        },
-        {
-          "title": "figlet package"
-        },
-        {
-          "title": "cli-progress"
-        },
-        {
-          "title": "process.argv"
+          "title": "Making API Calls",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Jest"
+            }
+          ]
         }
       ]
     },
@@ -258,9 +349,6 @@
         },
         {
           "title": "nodemon"
-        },
-        {
-          "title": "commander"
         }
       ]
     },
@@ -276,19 +364,32 @@
           "title": "pug"
         },
         {
-          "title": "Mongoose"
-        },
-        {
           "title": "marko"
         },
         {
-          "title": "Prisma"
-        },
-        {
-          "title": "Native Drivers"
-        },
-        {
-          "title": "Drizzle"
+          "title": "NoSQL DBs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Drizzle"
+            },
+            {
+              "title": "TypeORM"
+            },
+            {
+              "title": "Knex"
+            },
+            {
+              "title": "Sequelize"
+            },
+            {
+              "title": "Prisma"
+            },
+            {
+              "title": "Native Drivers"
+            }
+          ]
         }
       ]
     },
@@ -302,9 +403,6 @@
       "children": [
         {
           "title": "Vitest"
-        },
-        {
-          "title": "Jest"
         },
         {
           "title": "node:test"
@@ -337,21 +435,6 @@
       "children": [
         {
           "title": "pm2"
-        },
-        {
-          "title": "TypeORM"
-        },
-        {
-          "title": "Knex"
-        },
-        {
-          "title": "Sequelize"
-        },
-        {
-          "title": "Prisma"
-        },
-        {
-          "title": "Native Drivers"
         }
       ]
     },
@@ -362,24 +445,11 @@
       "children": [
         {
           "title": "Child Process"
-        },
-        {
-          "title": "Cluster"
-        },
-        {
-          "title": "Worker Threads"
         }
       ]
     },
     {
-      "title": "Streams",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Garbage Collection"
-        }
-      ]
+      "title": "Streams"
     },
     {
       "title": "Debugging",
@@ -387,7 +457,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Memory Leaks"
+          "title": "Memory Leaks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Garbage Collection"
+            }
+          ]
         },
         {
           "title": "node --inspect"

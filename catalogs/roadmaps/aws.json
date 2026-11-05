@@ -26,43 +26,32 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Start with Essential Services",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CPU Credits"
+            },
+            {
+              "title": "Storage / Volumes"
+            },
+            {
+              "title": "Keypairs"
+            },
+            {
+              "title": "Elastic IP"
+            },
+            {
+              "title": "User Data Scripts"
+            },
+            {
+              "title": "Purchasing Options"
+            }
+          ]
+        },
+        {
           "title": "Instance Types"
-        },
-        {
-          "title": "CPU Credits"
-        },
-        {
-          "title": "Storage / Volumes"
-        },
-        {
-          "title": "Keypairs"
-        },
-        {
-          "title": "Elastic IP"
-        },
-        {
-          "title": "User Data Scripts"
-        },
-        {
-          "title": "Purchasing Options"
-        },
-        {
-          "title": "Sandbox / Sending Limits"
-        },
-        {
-          "title": "Identity-based"
-        },
-        {
-          "title": "Identity Verification"
-        },
-        {
-          "title": "Resource-based"
-        },
-        {
-          "title": "DKIM Setup"
-        },
-        {
-          "title": "Instance Profiles"
         }
       ]
     },
@@ -91,7 +80,14 @@
         },
         {
           "title": "Public Subnet"
-        },
+        }
+      ]
+    },
+    {
+      "title": "IAM",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Route Tables"
         },
@@ -103,22 +99,80 @@
         },
         {
           "title": "NAT Gateway"
-        }
-      ]
-    },
-    {
-      "title": "IAM",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
+        },
         {
-          "title": "Policies"
+          "title": "Policies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Identity-based"
+            },
+            {
+              "title": "Resource-based"
+            }
+          ]
         },
         {
           "title": "Users / User Groups"
         },
         {
-          "title": "Roles"
+          "title": "Roles",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Instance Profiles"
+            },
+            {
+              "title": "Assuming Roles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SES",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Step 4 - Serverless",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Sandbox / Sending Limits"
+            },
+            {
+              "title": "Identity Verification"
+            },
+            {
+              "title": "DKIM Setup"
+            },
+            {
+              "title": "Feedback Handling"
+            },
+            {
+              "title": "Configuration Sets"
+            },
+            {
+              "title": "Sender Reputation"
+            },
+            {
+              "title": "Dedicated IP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "S3",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Buckets / Objects"
         }
       ]
     },
@@ -145,41 +199,6 @@
       ]
     },
     {
-      "title": "S3",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Assuming Roles"
-        },
-        {
-          "title": "Buckets / Objects"
-        },
-        {
-          "title": "Bucket / Object Lifecycle"
-        }
-      ]
-    },
-    {
-      "title": "SES",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Feedback Handling"
-        },
-        {
-          "title": "Configuration Sets"
-        },
-        {
-          "title": "Sender Reputation"
-        },
-        {
-          "title": "Dedicated IP"
-        }
-      ]
-    },
-    {
       "title": "Route53",
       "importance": 50,
       "completion_threshold": 60,
@@ -200,6 +219,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Bucket / Object Lifecycle"
+        },
         {
           "title": "Standard"
         },
@@ -233,19 +255,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "General Purpose"
-        },
-        {
           "title": "DB Instances"
         },
         {
-          "title": "Provisioned IOPS"
-        },
-        {
-          "title": "Storage Types"
-        },
-        {
-          "title": "Magnetic"
+          "title": "Storage Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "General Purpose"
+            },
+            {
+              "title": "Provisioned IOPS"
+            },
+            {
+              "title": "Magnetic"
+            }
+          ]
         },
         {
           "title": "Backup / Restore"
@@ -267,16 +293,10 @@
           "title": "Data Modeling"
         },
         {
-          "title": "Streams"
-        },
-        {
           "title": "Capacity Settings"
         },
         {
           "title": "Limits"
-        },
-        {
-          "title": "Backup / Restore"
         },
         {
           "title": "DynamoDB Local"
@@ -290,20 +310,21 @@
       "children": [
         {
           "title": "Quotas"
-        },
-        {
-          "title": "Clusters / ECS Container Agents"
-        },
-        {
-          "title": "Tasks"
-        },
-        {
-          "title": "Launch Config / Autoscaling Groups"
         }
       ]
     },
     {
-      "title": "ECR"
+      "title": "ECR",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Streams"
+        },
+        {
+          "title": "Backup / Restore"
+        }
+      ]
     },
     {
       "title": "Cloudfront",
@@ -322,17 +343,29 @@
       ]
     },
     {
+      "title": "EKS"
+    },
+    {
       "title": "ECS",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Clusters / ECS Container Agents"
+        },
+        {
+          "title": "Tasks"
+        },
+        {
           "title": "Services"
+        },
+        {
+          "title": "Launch Config / Autoscaling Groups"
+        },
+        {
+          "title": "Fargate"
         }
       ]
-    },
-    {
-      "title": "EKS"
     },
     {
       "title": "Lambda",
@@ -343,10 +376,10 @@
           "title": "Creating / Invoking Functions"
         },
         {
-          "title": "Custom Runtimes"
+          "title": "Layers"
         },
         {
-          "title": "Layers"
+          "title": "Custom Runtimes"
         },
         {
           "title": "Versioning / Aliases"
@@ -358,13 +391,10 @@
           "title": "Cold Start and Limitations"
         },
         {
-          "title": "Fargate"
+          "title": "API Gateway"
         },
         {
           "title": "Lambda@Edge"
-        },
-        {
-          "title": "API Gateway"
         }
       ]
     }

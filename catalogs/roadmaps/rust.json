@@ -7,118 +7,160 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Syntax and Semantics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Variables, DataTypes and Constants"
+            },
+            {
+              "title": "Control Flow and Constructs"
+            },
+            {
+              "title": "Functions and Method Syntax"
+            },
+            {
+              "title": "Pattern Matching & Destructuring"
+            }
+          ]
+        },
+        {
           "title": "What is Rust?"
         },
         {
           "title": "Why use Rust?"
         },
         {
-          "title": "Variables, DataTypes and Constants"
+          "title": "Environment Setup",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Installing Rust and Cargo"
+            },
+            {
+              "title": "IDEs and Rust Toolchains"
+            },
+            {
+              "title": "Rust REPL (Rust Playground)"
+            }
+          ]
         },
         {
-          "title": "Control Flow and Constructs"
+          "title": "Constructs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Enums"
+            },
+            {
+              "title": "Traits"
+            },
+            {
+              "title": "Structs"
+            },
+            {
+              "title": "Impl Blocks"
+            }
+          ]
         },
         {
-          "title": "Installing Rust and Cargo"
+          "title": "Data Structures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers"
+            },
+            {
+              "title": "Floats"
+            },
+            {
+              "title": "Boolean"
+            },
+            {
+              "title": "Character"
+            },
+            {
+              "title": "String"
+            },
+            {
+              "title": "Tuple"
+            },
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Vector"
+            },
+            {
+              "title": "Hashmap"
+            },
+            {
+              "title": "Hashset"
+            },
+            {
+              "title": "LinkedList"
+            },
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Binary Heap"
+            }
+          ]
         },
         {
-          "title": "IDEs and Rust Toolchains"
+          "title": "Ownsership System",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Ownsership Rules & Memory Safety"
+            },
+            {
+              "title": "Borrowing, References and Slices"
+            },
+            {
+              "title": "Deep Dive: Stack vs Heap"
+            }
+          ]
         },
         {
-          "title": "Functions and Method Syntax"
-        },
-        {
-          "title": "Rust REPL (Rust Playground)"
-        },
-        {
-          "title": "Pattern Matching & Destructuring"
-        },
-        {
-          "title": "Enums"
-        },
-        {
-          "title": "Structs"
-        },
-        {
-          "title": "Traits"
-        },
-        {
-          "title": "Impl Blocks"
-        },
-        {
-          "title": "Integers"
-        },
-        {
-          "title": "Boolean"
-        },
-        {
-          "title": "Floats"
-        },
-        {
-          "title": "Character"
-        },
-        {
-          "title": "Tuple"
-        },
-        {
-          "title": "String"
-        },
-        {
-          "title": "Array"
-        },
-        {
-          "title": "Hashmap"
-        },
-        {
-          "title": "Vector"
-        },
-        {
-          "title": "Hashset"
-        },
-        {
-          "title": "LinkedList"
-        },
-        {
-          "title": "Stack"
-        },
-        {
-          "title": "Queue"
-        },
-        {
-          "title": "Binary Heap"
-        },
-        {
-          "title": "Ownsership Rules & Memory Safety"
-        },
-        {
-          "title": "Borrowing, References and Slices"
-        },
-        {
-          "title": "Deep Dive: Stack vs Heap"
-        },
-        {
-          "title": "BTreeMap"
-        },
-        {
-          "title": "BTreeSet"
-        },
-        {
-          "title": "Mutex"
-        },
-        {
-          "title": "RwLock"
-        },
-        {
-          "title": "Channels"
-        },
-        {
-          "title": "RC"
-        },
-        {
-          "title": "Arc"
-        },
-        {
-          "title": "Box"
+          "title": "Advanced Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "BTreeMap"
+            },
+            {
+              "title": "BTreeSet"
+            },
+            {
+              "title": "Mutex"
+            },
+            {
+              "title": "RwLock"
+            },
+            {
+              "title": "Channels"
+            },
+            {
+              "title": "RC"
+            },
+            {
+              "title": "Arc"
+            },
+            {
+              "title": "Box"
+            }
+          ]
         }
       ]
     },
@@ -243,13 +285,7 @@
           "title": "Axum"
         },
         {
-          "title": "Actix"
-        },
-        {
           "title": "Leptos"
-        },
-        {
-          "title": "Loco"
         },
         {
           "title": "Rocket"
@@ -262,13 +298,17 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Tokio"
-        },
-        {
-          "title": "async-std"
-        },
-        {
-          "title": "termion"
+          "title": "Ecosystem and Libraries",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Tokio"
+            },
+            {
+              "title": "async-std"
+            }
+          ]
         }
       ]
     },
@@ -278,16 +318,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "smol"
+          "title": "Actix"
         },
         {
-          "title": "reqwest"
+          "title": "Loco"
         },
         {
-          "title": "hyper"
-        },
-        {
-          "title": "quinn"
+          "title": "Personal recommendation: Axum",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "smol"
+            },
+            {
+              "title": "reqwest"
+            },
+            {
+              "title": "hyper"
+            },
+            {
+              "title": "quinn"
+            }
+          ]
         }
       ]
     },
@@ -308,6 +361,22 @@
       ]
     },
     {
+      "title": "Cryptography",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ring"
+        },
+        {
+          "title": "rust-crypto"
+        },
+        {
+          "title": "sodiumoxide"
+        }
+      ]
+    },
+    {
       "title": "Database and ORM",
       "importance": 50,
       "completion_threshold": 60,
@@ -320,46 +389,6 @@
         },
         {
           "title": "rusqlite"
-        },
-        {
-          "title": "embedded-hal"
-        },
-        {
-          "title": "rppal"
-        },
-        {
-          "title": "nrf-hal"
-        }
-      ]
-    },
-    {
-      "title": "Cryptography",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "rust-crypto"
-        },
-        {
-          "title": "ring"
-        },
-        {
-          "title": "clap"
-        },
-        {
-          "title": "sodiumoxide"
-        },
-        {
-          "title": "tauri"
-        },
-        {
-          "title": "gtk-rs"
-        },
-        {
-          "title": "Iced"
-        },
-        {
-          "title": "GPUI"
         }
       ]
     },
@@ -368,6 +397,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "termion"
+        },
+        {
+          "title": "clap"
+        },
         {
           "title": "structopt"
         }
@@ -396,10 +431,39 @@
       ]
     },
     {
-      "title": "GUI Development"
+      "title": "GUI Development",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "tauri"
+        },
+        {
+          "title": "gtk-rs"
+        },
+        {
+          "title": "Iced"
+        },
+        {
+          "title": "GPUI"
+        }
+      ]
     },
     {
-      "title": "Embedded and Systems"
+      "title": "Embedded and Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "embedded-hal"
+        },
+        {
+          "title": "rppal"
+        },
+        {
+          "title": "nrf-hal"
+        }
+      ]
     },
     {
       "title": "WebAssembly (WASM)",
@@ -418,6 +482,19 @@
       ]
     },
     {
+      "title": "Performance and Profiling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Criterion.rs"
+        }
+      ]
+    },
+    {
+      "title": "Documenting with `rustdoc`"
+    },
+    {
       "title": "Debugging",
       "importance": 50,
       "completion_threshold": 60,
@@ -427,19 +504,6 @@
         },
         {
           "title": "rust-lldb"
-        }
-      ]
-    },
-    {
-      "title": "Documenting with `rustdoc`"
-    },
-    {
-      "title": "Performance and Profiling",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Criterion.rs"
         }
       ]
     }

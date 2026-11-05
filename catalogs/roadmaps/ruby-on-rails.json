@@ -13,52 +13,63 @@
           "title": "Why Web Frameworks?"
         },
         {
+          "title": "Your First Project",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Create an App"
+            },
+            {
+              "title": "Rails Command Line"
+            },
+            {
+              "title": "Rails Generators"
+            }
+          ]
+        },
+        {
           "title": "MVC architecture"
         },
         {
-          "title": "Create an App"
+          "title": "Rails & Frontend",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hotwire"
+            }
+          ]
         },
         {
-          "title": "Rails & Frontend"
-        },
-        {
-          "title": "Rails Command Line"
-        },
-        {
-          "title": "Rails Generators"
-        },
-        {
-          "title": "app"
-        },
-        {
-          "title": "bin"
-        },
-        {
-          "title": "config"
-        },
-        {
-          "title": "db"
-        },
-        {
-          "title": "Gemfile"
-        },
-        {
-          "title": "public"
+          "title": "Directory structure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "app"
+            },
+            {
+              "title": "bin"
+            },
+            {
+              "title": "config"
+            },
+            {
+              "title": "db"
+            },
+            {
+              "title": "Gemfile"
+            },
+            {
+              "title": "public"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Setting up Ruby on Rails",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Hotwire"
-        },
-        {
-          "title": "RESTful Routes"
-        }
-      ]
+      "title": "Setting up Ruby on Rails"
     },
     {
       "title": "Request Reponse Flow",
@@ -66,25 +77,12 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Nested Routes"
+          "title": "RESTful Routes"
         }
       ]
     },
     {
-      "title": "Routing Fundamentals",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Non-RESTful Routes"
-        },
-        {
-          "title": "Redirects"
-        },
-        {
-          "title": "Constraints"
-        }
-      ]
+      "title": "Routing Fundamentals"
     },
     {
       "title": "Controllers",
@@ -104,34 +102,13 @@
           "title": "Controller Callbacks (filters)"
         },
         {
-          "title": "Sessions"
-        },
-        {
           "title": "Cookies"
         },
         {
+          "title": "Sessions"
+        },
+        {
           "title": "Basic Queries"
-        },
-        {
-          "title": "Conditions"
-        },
-        {
-          "title": "Ordering"
-        },
-        {
-          "title": "Joins"
-        },
-        {
-          "title": "Aggregations"
-        },
-        {
-          "title": "Scopes"
-        },
-        {
-          "title": "Raw SQL"
-        },
-        {
-          "title": "Query Optimization"
         }
       ]
     },
@@ -140,6 +117,18 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Nested Routes"
+        },
+        {
+          "title": "Non-RESTful Routes"
+        },
+        {
+          "title": "Redirects"
+        },
+        {
+          "title": "Constraints"
+        },
         {
           "title": "Named Routes"
         },
@@ -170,7 +159,32 @@
       ]
     },
     {
-      "title": "Active Record"
+      "title": "Active Record",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Conditions"
+        },
+        {
+          "title": "Ordering"
+        },
+        {
+          "title": "Joins"
+        },
+        {
+          "title": "Aggregations"
+        },
+        {
+          "title": "Scopes"
+        },
+        {
+          "title": "Raw SQL"
+        },
+        {
+          "title": "Query Optimization"
+        }
+      ]
     },
     {
       "title": "Databases",
@@ -178,22 +192,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Migrations"
+          "title": "Supported DBs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SQLite"
+            },
+            {
+              "title": "MySQL"
+            }
+          ]
         },
         {
           "title": "PostgreSQL"
         },
         {
-          "title": "SQLite"
-        },
-        {
-          "title": "Transactions"
+          "title": "Migrations"
         },
         {
           "title": "MariaDB"
         },
         {
-          "title": "MySQL"
+          "title": "Transactions"
         }
       ]
     },
@@ -203,40 +224,48 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ViewComponent"
+            },
+            {
+              "title": "Phlex"
+            }
+          ]
+        },
+        {
           "title": "ERB Templates"
         },
         {
           "title": "Rendering Views"
         },
         {
-          "title": "form_for"
-        },
-        {
-          "title": "form_with"
+          "title": "Forms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "form_with"
+            },
+            {
+              "title": "form_for"
+            },
+            {
+              "title": "Form Elements"
+            },
+            {
+              "title": "Nested Forms"
+            },
+            {
+              "title": "Form Validation"
+            }
+          ]
         },
         {
           "title": "Layouts & yield"
-        },
-        {
-          "title": "Form Elements"
-        },
-        {
-          "title": "Partials"
-        },
-        {
-          "title": "Helpers"
-        },
-        {
-          "title": "ViewComponent"
-        },
-        {
-          "title": "Phlex"
-        },
-        {
-          "title": "Nested Forms"
-        },
-        {
-          "title": "Form Validation"
         }
       ]
     },
@@ -245,6 +274,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Partials"
+        },
+        {
+          "title": "Helpers"
+        },
         {
           "title": "Pagy"
         },
@@ -283,9 +318,6 @@
       "children": [
         {
           "title": "Pundit"
-        },
-        {
-          "title": "CanCanCan"
         }
       ]
     },
@@ -305,18 +337,24 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "pry"
+          "title": "debug"
         },
         {
-          "title": "debug"
+          "title": "pry"
         }
       ]
     },
     {
-      "title": "Testing",
+      "title": "Testing"
+    },
+    {
+      "title": "Plugins & Engines",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "CanCanCan"
+        },
         {
           "title": "Minitest"
         },
@@ -330,9 +368,6 @@
           "title": "Capybara"
         }
       ]
-    },
-    {
-      "title": "Plugins & Engines"
     },
     {
       "title": "Mailbox & Mailer"

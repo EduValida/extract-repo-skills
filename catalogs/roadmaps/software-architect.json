@@ -13,7 +13,30 @@
           "title": "What is a Software Architect"
         },
         {
-          "title": "Levels of Architecture"
+          "title": "Software Architect",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Design & Architecture"
+            },
+            {
+              "title": "Decision Making"
+            },
+            {
+              "title": "Simplifying Things"
+            }
+          ]
+        },
+        {
+          "title": "Levels of Architecture",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Application Architecture"
+            }
+          ]
         }
       ]
     },
@@ -23,13 +46,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Application Architecture"
-        },
-        {
           "title": "Solution Architecture"
-        },
-        {
-          "title": "Enterprise Architecture"
         }
       ]
     },
@@ -38,15 +55,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Design & Architecture"
-        },
-        {
-          "title": "Decision Making"
-        },
-        {
-          "title": "Simplifying Things"
-        },
         {
           "title": "How to Code"
         },
@@ -64,20 +72,17 @@
         },
         {
           "title": "Consult & Coach"
-        },
-        {
-          "title": "Marketing Skills"
         }
       ]
-    },
-    {
-      "title": "Technical Skills"
     },
     {
       "title": "Programming Languages",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Enterprise Architecture"
+        },
         {
           "title": "Java / Kotlin / Scala / Swift"
         },
@@ -95,6 +100,16 @@
         },
         {
           "title": ".NET Framework Based"
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "GitHub"
         }
       ]
     },
@@ -123,9 +138,6 @@
         },
         {
           "title": "TDD"
-        },
-        {
-          "title": "DDD"
         }
       ]
     },
@@ -136,9 +148,6 @@
       "children": [
         {
           "title": "Git"
-        },
-        {
-          "title": "GitHub"
         },
         {
           "title": "Slack"
@@ -166,16 +175,10 @@
           "title": "Serverless"
         },
         {
+          "title": "DDD"
+        },
+        {
           "title": "Client / Server"
-        },
-        {
-          "title": "Layered"
-        },
-        {
-          "title": "Distributed Systems"
-        },
-        {
-          "title": "Service Oriented"
         }
       ]
     },
@@ -184,6 +187,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Marketing Skills"
+        },
         {
           "title": "Hashing Algorithms"
         },
@@ -218,49 +224,24 @@
       ]
     },
     {
-      "title": "APIs & Integrations",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "gRPC"
-        },
-        {
-          "title": "Apache Spark"
-        },
-        {
-          "title": "Hadoop"
-        },
-        {
-          "title": "ESB, SOAP"
-        },
-        {
-          "title": "Datawarehouse Principles"
-        },
-        {
-          "title": "REST"
-        },
-        {
-          "title": "GraphQL"
-        },
-        {
-          "title": "BPM, BPEL"
-        },
-        {
-          "title": "Messaging Queues"
-        }
-      ]
-    },
-    {
       "title": "Web, Mobile",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Layered"
+        },
+        {
           "title": "Reactive Programming"
         },
         {
+          "title": "Distributed Systems"
+        },
+        {
           "title": "Functional Programming"
+        },
+        {
+          "title": "Service Oriented"
         },
         {
           "title": "React, Vue, Angular"
@@ -277,21 +258,50 @@
       ]
     },
     {
+      "title": "APIs & Integrations",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Analytics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache Spark"
+            },
+            {
+              "title": "Hadoop"
+            },
+            {
+              "title": "Datawarehouse Principles"
+            }
+          ]
+        },
+        {
+          "title": "gRPC"
+        },
+        {
+          "title": "ESB, SOAP"
+        },
+        {
+          "title": "GraphQL"
+        }
+      ]
+    },
+    {
       "title": "Frameworks",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
+          "title": "REST"
+        },
+        {
           "title": "BABOK"
         },
         {
           "title": "IAF"
-        },
-        {
-          "title": "UML"
-        },
-        {
-          "title": "TOGAF"
         }
       ]
     },
@@ -313,19 +323,36 @@
           "title": "Prince2"
         },
         {
-          "title": "LeSS"
+          "title": "Certifications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LeSS"
+            },
+            {
+              "title": "SaFE"
+            },
+            {
+              "title": "XP"
+            },
+            {
+              "title": "Kanban"
+            },
+            {
+              "title": "Scrum"
+            }
+          ]
         },
         {
-          "title": "SaFE"
-        },
-        {
-          "title": "XP"
-        },
-        {
-          "title": "Kanban"
-        },
-        {
-          "title": "Scrum"
+          "title": "Agile Model",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "EMC DMS"
+            }
+          ]
         }
       ]
     },
@@ -334,6 +361,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "UML"
+        },
+        {
+          "title": "TOGAF"
+        },
         {
           "title": "OSI"
         },
@@ -345,9 +378,6 @@
         },
         {
           "title": "Proxies"
-        },
-        {
-          "title": "Firewalls"
         }
       ]
     },
@@ -357,7 +387,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "BPM, BPEL"
+        },
+        {
           "title": "Infrastructure as Code"
+        },
+        {
+          "title": "Messaging Queues"
         },
         {
           "title": "Cloud Providers"
@@ -388,6 +424,9 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Firewalls"
+        },
+        {
           "title": "MS Dynamics"
         },
         {
@@ -395,9 +434,6 @@
         },
         {
           "title": "IBM BPM"
-        },
-        {
-          "title": "EMC DMS"
         },
         {
           "title": "Salesforce"

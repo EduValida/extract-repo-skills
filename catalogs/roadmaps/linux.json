@@ -26,16 +26,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Nano"
-        },
-        {
           "title": "Vim"
         },
         {
-          "title": "stdout / stdin / stderr"
-        },
-        {
-          "title": "cut"
+          "title": "Nano"
         }
       ]
     },
@@ -54,31 +48,10 @@
           "title": "paste"
         },
         {
-          "title": "sort"
-        },
-        {
-          "title": "head"
-        },
-        {
-          "title": "tr"
-        },
-        {
           "title": "Command Help"
         },
         {
-          "title": "tail"
-        },
-        {
-          "title": "join"
-        },
-        {
-          "title": "split"
-        },
-        {
           "title": "Redirects"
-        },
-        {
-          "title": "tee"
         },
         {
           "title": "Super User"
@@ -110,7 +83,34 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "stdout / stdin / stderr"
+        },
+        {
+          "title": "cut"
+        },
+        {
+          "title": "sort"
+        },
+        {
+          "title": "tr"
+        },
+        {
+          "title": "head"
+        },
+        {
+          "title": "tail"
+        },
+        {
+          "title": "join"
+        },
+        {
+          "title": "split"
+        },
+        {
           "title": "pipe"
+        },
+        {
+          "title": "tee"
         },
         {
           "title": "nl"
@@ -132,37 +132,6 @@
         },
         {
           "title": "awk"
-        }
-      ]
-    },
-    {
-      "title": "Server Review",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Uptime and Load"
-        },
-        {
-          "title": "Authentication Logs"
-        },
-        {
-          "title": "Services Running"
-        },
-        {
-          "title": "Available Memory / Disk"
-        },
-        {
-          "title": "Inodes"
-        },
-        {
-          "title": "Filesystems"
-        },
-        {
-          "title": "Mounts"
-        },
-        {
-          "title": "LVM"
         }
       ]
     },
@@ -192,6 +161,25 @@
       ]
     },
     {
+      "title": "Server Review",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Uptime and Load"
+        },
+        {
+          "title": "Authentication Logs"
+        },
+        {
+          "title": "Services Running"
+        },
+        {
+          "title": "Available Memory / Disk"
+        }
+      ]
+    },
+    {
       "title": "User Management",
       "importance": 50,
       "completion_threshold": 60,
@@ -201,9 +189,6 @@
         },
         {
           "title": "Users and Groups"
-        },
-        {
-          "title": "Managing Permissions"
         }
       ]
     },
@@ -212,6 +197,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Managing Permissions"
+        },
         {
           "title": "Creating New Services"
         },
@@ -254,10 +242,22 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Swap"
+          "title": "Inodes"
+        },
+        {
+          "title": "Filesystems"
+        },
+        {
+          "title": "Mounts"
+        },
+        {
+          "title": "LVM"
         },
         {
           "title": "Adding Disks"
+        },
+        {
+          "title": "Swap"
         }
       ]
     },
@@ -289,19 +289,16 @@
           "title": "Ethernet & arp/rarp"
         },
         {
-          "title": "IP Routing"
+          "title": "DHCP"
         },
         {
-          "title": "DHCP"
+          "title": "IP Routing"
         },
         {
           "title": "DNS Resolution"
         },
         {
           "title": "SSH"
-        },
-        {
-          "title": "Netfilter"
         },
         {
           "title": "File Transfer"
@@ -327,6 +324,9 @@
         },
         {
           "title": "Debugging"
+        },
+        {
+          "title": "Netfilter"
         }
       ]
     },
@@ -337,9 +337,6 @@
       "children": [
         {
           "title": "ICMP"
-        },
-        {
-          "title": "ping"
         },
         {
           "title": "traceroute"
@@ -357,6 +354,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "ping"
+        },
         {
           "title": "ulimits"
         },

@@ -11,18 +11,6 @@
         },
         {
           "title": "Installing Power BI"
-        },
-        {
-          "title": "Power BI Ecosystem"
-        },
-        {
-          "title": "Desktop"
-        },
-        {
-          "title": "Service"
-        },
-        {
-          "title": "Mobile"
         }
       ]
     },
@@ -32,7 +20,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Desktop",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Power BI Ecosystem"
+            }
+          ]
+        },
+        {
           "title": "Files"
+        },
+        {
+          "title": "Service"
+        },
+        {
+          "title": "Mobile"
         },
         {
           "title": "Databases"
@@ -60,52 +64,80 @@
           "title": "Direct Lake"
         },
         {
+          "title": "Data Cleaning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Data Types & Casting"
+            },
+            {
+              "title": "Removing Duplicates"
+            },
+            {
+              "title": "Handling Errors"
+            }
+          ]
+        },
+        {
           "title": "Dual Storage Mode"
         },
         {
-          "title": "Data Types & Casting"
+          "title": "Column & Value Transforms.",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Changing Text"
+            },
+            {
+              "title": "Changing Numbers"
+            },
+            {
+              "title": "Changing Dates"
+            },
+            {
+              "title": "Conditional Columns"
+            },
+            {
+              "title": "Custom Columns"
+            },
+            {
+              "title": "Splitting Columns"
+            }
+          ]
         },
         {
-          "title": "Removing Duplicates"
+          "title": "Table Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Joins"
+            },
+            {
+              "title": "Appending Tables"
+            },
+            {
+              "title": "Pivot & Transpose"
+            }
+          ]
         },
         {
-          "title": "Handling Errors"
-        },
-        {
-          "title": "Changing Text"
-        },
-        {
-          "title": "Changing Numbers"
-        },
-        {
-          "title": "Changing Dates"
-        },
-        {
-          "title": "Conditional Columns"
-        },
-        {
-          "title": "Custom Columns"
-        },
-        {
-          "title": "Splitting Columns"
-        },
-        {
-          "title": "Joins"
-        },
-        {
-          "title": "Appending Tables"
-        },
-        {
-          "title": "Pivot & Transpose"
-        },
-        {
-          "title": "Parameters & Functions"
-        },
-        {
-          "title": "Query Folding"
-        },
-        {
-          "title": "Incremental Refresh"
+          "title": "Query Performance",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Parameters & Functions"
+            },
+            {
+              "title": "Query Folding"
+            },
+            {
+              "title": "Incremental Refresh"
+            }
+          ]
         }
       ]
     },
@@ -196,31 +228,38 @@
           "title": "DAX vs. M Language"
         },
         {
-          "title": "DAX Syntax"
+          "title": "Function Families",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Aggregation Functions"
+            },
+            {
+              "title": "Logical Functions"
+            },
+            {
+              "title": "Window Functions"
+            },
+            {
+              "title": "Iterator Functions"
+            },
+            {
+              "title": "Time Intelligence"
+            },
+            {
+              "title": "Table Manipulation"
+            }
+          ]
         },
         {
-          "title": "Aggregation Functions"
+          "title": "DAX Syntax"
         },
         {
           "title": "Columns vs Measures"
         },
         {
-          "title": "Logical Functions"
-        },
-        {
           "title": "Variables in DAX"
-        },
-        {
-          "title": "Window Functions"
-        },
-        {
-          "title": "Iterator Functions"
-        },
-        {
-          "title": "Time Intelligence"
-        },
-        {
-          "title": "Table Manipulation"
         }
       ]
     },
@@ -267,13 +306,7 @@
           "title": "Calculation Groups"
         },
         {
-          "title": "Scatter & Bubble Charts"
-        },
-        {
           "title": "DAX Performance"
-        },
-        {
-          "title": "Combination Charts"
         }
       ]
     },
@@ -282,6 +315,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Scatter & Bubble Charts"
+        },
+        {
+          "title": "Combination Charts"
+        },
         {
           "title": "Gauges, Cards, & KPIs"
         },
@@ -320,9 +359,6 @@
           "title": "Conditional Formatting"
         },
         {
-          "title": "Buttons & Navigation"
-        },
-        {
           "title": "Sorting Data"
         },
         {
@@ -336,10 +372,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Explore Feature"
+          "title": "Buttons & Navigation"
         },
         {
-          "title": "Custom Tooltips"
+          "title": "Explore Feature"
         }
       ]
     },
@@ -348,6 +384,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Custom Tooltips"
+        },
         {
           "title": "Cross-filtering"
         },

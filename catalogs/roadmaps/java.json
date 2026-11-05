@@ -40,61 +40,57 @@
           "title": "Basics of OOP"
         },
         {
-          "title": "Classes and Objects"
+          "title": "Basics of OOP (2)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Classes and Objects"
+            },
+            {
+              "title": "Attributes and Methods"
+            },
+            {
+              "title": "Access Specifiers"
+            },
+            {
+              "title": "Static Keyword"
+            },
+            {
+              "title": "Final Keyword"
+            },
+            {
+              "title": "Nested Classes"
+            },
+            {
+              "title": "Packages"
+            }
+          ]
         },
         {
-          "title": "Attributes and Methods"
-        },
-        {
-          "title": "Access Specifiers"
-        },
-        {
-          "title": "Abstraction"
-        },
-        {
-          "title": "Inheritance"
+          "title": "More about OOP",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Inheritance"
+            },
+            {
+              "title": "Encapsulation"
+            },
+            {
+              "title": "Record"
+            },
+            {
+              "title": "Method Overloading / Overriding"
+            },
+            {
+              "title": "Static vs Dynamic Binding"
+            }
+          ]
         },
         {
           "title": "Object Lifecycle"
-        },
-        {
-          "title": "Static Keyword"
-        },
-        {
-          "title": "Interfaces"
-        },
-        {
-          "title": "Encapsulation"
-        },
-        {
-          "title": "Method Chaining"
-        },
-        {
-          "title": "Final Keyword"
-        },
-        {
-          "title": "Method Overloading / Overriding"
-        },
-        {
-          "title": "Record"
-        },
-        {
-          "title": "Enums"
-        },
-        {
-          "title": "Nested Classes"
-        },
-        {
-          "title": "Static vs Dynamic Binding"
-        },
-        {
-          "title": "Initializer Block"
-        },
-        {
-          "title": "Packages"
-        },
-        {
-          "title": "Pass by Value / Pass by Reference"
         }
       ]
     },
@@ -102,7 +98,17 @@
       "title": "Exception Handling"
     },
     {
-      "title": "Lambda Expressions"
+      "title": "Lambda Expressions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Abstraction"
+        },
+        {
+          "title": "Interfaces"
+        }
+      ]
     },
     {
       "title": "Annotations"
@@ -114,7 +120,20 @@
       "title": "Optionals"
     },
     {
-      "title": "Cryptography"
+      "title": "Cryptography",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Method Chaining"
+        },
+        {
+          "title": "Enums"
+        },
+        {
+          "title": "Initializer Block"
+        }
+      ]
     },
     {
       "title": "Dependency Injection",
@@ -122,28 +141,35 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Array vs ArrayList"
-        },
-        {
-          "title": "Set"
-        },
-        {
-          "title": "Map"
-        },
-        {
-          "title": "Queue"
-        },
-        {
-          "title": "Dequeue"
-        },
-        {
-          "title": "Stack"
-        },
-        {
-          "title": "Iterator"
-        },
-        {
-          "title": "Generic Collections"
+          "title": "Collections",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Array vs ArrayList"
+            },
+            {
+              "title": "Set"
+            },
+            {
+              "title": "Map"
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Dequeue"
+            },
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Iterator"
+            },
+            {
+              "title": "Generic Collections"
+            }
+          ]
         }
       ]
     },
@@ -165,10 +191,23 @@
           "title": "Functional Interfaces"
         },
         {
-          "title": "Functional Composition"
-        },
-        {
-          "title": "Stream API"
+          "title": "Functional Programming",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JUnit"
+            },
+            {
+              "title": "REST Assured"
+            },
+            {
+              "title": "TestNG"
+            },
+            {
+              "title": "JMeter"
+            }
+          ]
         }
       ]
     },
@@ -176,13 +215,13 @@
       "title": "I/O Operations"
     },
     {
-      "title": "File Operations"
-    },
-    {
       "title": "Concurrency",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Pass by Value / Pass by Reference"
+        },
         {
           "title": "volatile keyword"
         },
@@ -194,11 +233,14 @@
         },
         {
           "title": "Threads"
+        },
+        {
+          "title": "Maven"
         }
       ]
     },
     {
-      "title": "Database Access",
+      "title": "File Operations",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
@@ -207,7 +249,14 @@
         },
         {
           "title": "EBean"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Database Access",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Hibernate"
         },
@@ -222,13 +271,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Spring (Spring Boot)"
-        },
-        {
-          "title": "Quarkus"
-        },
-        {
-          "title": "Javalin"
+          "title": "v",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Spring (Spring Boot)"
+            },
+            {
+              "title": "Quarkus"
+            },
+            {
+              "title": "Javalin"
+            }
+          ]
         },
         {
           "title": "Play Framework"
@@ -241,31 +297,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Maven"
+          "title": "Gradle"
         },
         {
-          "title": "Gradle"
+          "title": "Functional Composition"
         },
         {
           "title": "Bazel"
         },
         {
-          "title": "JUnit"
-        },
-        {
-          "title": "REST Assured"
+          "title": "Stream API"
         },
         {
           "title": "Cucumber-JVM"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Documentation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
-          "title": "TestNG"
-        },
-        {
-          "title": "JMeter"
-        },
-        {
-          "title": "Mocking > Mockito"
+          "title": "Javadoc"
         }
       ]
     },
@@ -289,17 +343,21 @@
       ]
     },
     {
-      "title": "Documentation",
+      "title": "Testing",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Javadoc"
+          "title": "Integration Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Mocking > Mockito"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Testing"
     }
   ]
 }

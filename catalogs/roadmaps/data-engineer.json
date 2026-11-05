@@ -48,16 +48,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Python is recommended",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Java"
+            },
+            {
+              "title": "Go"
+            }
+          ]
+        },
+        {
           "title": "Python"
         },
         {
-          "title": "Java"
-        },
-        {
           "title": "Scala"
-        },
-        {
-          "title": "Go"
         }
       ]
     },
@@ -82,19 +89,26 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Understand Different Steps",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "APIs"
+            },
+            {
+              "title": "Mobile Apps"
+            }
+          ]
+        },
+        {
           "title": "Database"
         },
         {
           "title": "Logs"
         },
         {
-          "title": "APIs"
-        },
-        {
           "title": "IoT"
-        },
-        {
-          "title": "Mobile Apps"
         }
       ]
     },
@@ -107,31 +121,12 @@
           "title": "Learn SQL"
         },
         {
-          "title": "Indexing"
-        },
-        {
           "title": "Data Normalization"
-        },
-        {
-          "title": "Transactions"
-        },
-        {
-          "title": "Data Modelling Techniques"
         }
       ]
     },
     {
-      "title": "Database Fundamentals",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "CAP Theorem"
-        },
-        {
-          "title": "OLTP vs OLAP"
-        }
-      ]
+      "title": "Database Fundamentals"
     },
     {
       "title": "Relational Databases",
@@ -139,18 +134,59 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Slowly Changing Dimension"
+          "title": "Relational Databases",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MySQL"
+            },
+            {
+              "title": "PostgreSQL"
+            },
+            {
+              "title": "MariaDB"
+            },
+            {
+              "title": "Aurora DB"
+            },
+            {
+              "title": "Oracle"
+            },
+            {
+              "title": "MS SQL"
+            }
+          ]
+        },
+        {
+          "title": "Data and AI Regulations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ECPA"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "NoSQL Databases"
     },
     {
       "title": "Document",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Data Modelling Techniques"
+        },
+        {
+          "title": "CAP Theorem"
+        },
+        {
+          "title": "OLTP vs OLAP"
+        },
+        {
+          "title": "Slowly Changing Dimension"
+        },
         {
           "title": "Horizontal vs Vertical Scaling"
         },
@@ -162,12 +198,6 @@
         },
         {
           "title": "ElasticSearch"
-        },
-        {
-          "title": "CosmosDB"
-        },
-        {
-          "title": "CouchDB"
         }
       ]
     },
@@ -188,6 +218,9 @@
       ]
     },
     {
+      "title": "NoSQL Databases"
+    },
+    {
       "title": "Graph",
       "importance": 50,
       "completion_threshold": 60,
@@ -206,31 +239,16 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "MySQL"
+          "title": "Indexing"
         },
         {
-          "title": "PostgreSQL"
-        },
-        {
-          "title": "MariaDB"
-        },
-        {
-          "title": "Aurora DB"
-        },
-        {
-          "title": "Oracle"
-        },
-        {
-          "title": "MS SQL"
+          "title": "Transactions"
         },
         {
           "title": "Redis"
         },
         {
           "title": "Memcached"
-        },
-        {
-          "title": "DynamoDB"
         }
       ]
     },
@@ -240,58 +258,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "DynamoDB"
+        },
+        {
           "title": "Data Mart"
-        },
-        {
-          "title": "Data Fabric"
-        },
-        {
-          "title": "Data Hub"
-        },
-        {
-          "title": "Metadata-first Architecture"
-        },
-        {
-          "title": "Serverless Options"
         },
         {
           "title": "Cloud Architectures"
         },
         {
           "title": "Amazon EC2 ( Compute)"
-        },
-        {
-          "title": "S3 (Storage)"
-        },
-        {
-          "title": "Amazon RDS (Database)"
-        },
-        {
-          "title": "Glue (ETL)"
-        },
-        {
-          "title": "Azure Virtual Machines"
-        },
-        {
-          "title": "Azure Blob Storage"
-        },
-        {
-          "title": "Azure SQL Database"
-        },
-        {
-          "title": "Data Factory (ETL)"
-        },
-        {
-          "title": "Compute Engine (Compute)"
-        },
-        {
-          "title": "Google Cloud Storage"
-        },
-        {
-          "title": "Cloud SQL (Database)"
-        },
-        {
-          "title": "Dataflow"
         }
       ]
     },
@@ -301,13 +277,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "CosmosDB"
+        },
+        {
+          "title": "CouchDB"
+        },
+        {
           "title": "Google BigQuery"
         },
         {
           "title": "Snowflake"
-        },
-        {
-          "title": "Amazon Redshift"
         }
       ]
     },
@@ -315,13 +294,39 @@
       "title": "What is Data Warehouse?"
     },
     {
-      "title": "Data Warehouse Architectures"
+      "title": "Data Warehouse Architectures",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Other Data Architectures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Data Fabric"
+            },
+            {
+              "title": "Data Hub"
+            },
+            {
+              "title": "Metadata-first Architecture"
+            },
+            {
+              "title": "Serverless Options"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Data Lake",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Amazon Redshift"
+        },
         {
           "title": "Databricks Delta Lake"
         },
@@ -342,10 +347,19 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "S3 (Storage)"
+        },
+        {
           "title": "Batch"
         },
         {
+          "title": "Amazon RDS (Database)"
+        },
+        {
           "title": "Hybrid"
+        },
+        {
+          "title": "Glue (ETL)"
         },
         {
           "title": "Realtime"
@@ -358,25 +372,39 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Extract Data"
+          "title": "ETL Process",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Extract Data"
+            },
+            {
+              "title": "Transform Data"
+            },
+            {
+              "title": "Load Data"
+            }
+          ]
         },
         {
-          "title": "Transform Data"
-        },
-        {
-          "title": "Load Data"
-        },
-        {
-          "title": "Apache Airflow"
-        },
-        {
-          "title": "dbt"
-        },
-        {
-          "title": "Luigi"
-        },
-        {
-          "title": "Prefect"
+          "title": "Data Pipeline Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache Airflow"
+            },
+            {
+              "title": "dbt"
+            },
+            {
+              "title": "Luigi"
+            },
+            {
+              "title": "Prefect"
+            }
+          ]
         }
       ]
     },
@@ -393,9 +421,6 @@
         },
         {
           "title": "HDFS"
-        },
-        {
-          "title": "Job Scheduling"
         }
       ]
     },
@@ -408,22 +433,29 @@
           "title": "Apache Spark"
         },
         {
+          "title": "Job Scheduling"
+        },
+        {
+          "title": "Hadoop Ecosystem",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HDFS"
+            },
+            {
+              "title": "YARN"
+            },
+            {
+              "title": "MapReduce"
+            }
+          ]
+        },
+        {
           "title": "Cluster Management Tools"
         },
         {
-          "title": "HDFS"
-        },
-        {
-          "title": "YARN"
-        },
-        {
           "title": "Kubernetes"
-        },
-        {
-          "title": "MapReduce"
-        },
-        {
-          "title": "Apache Hadoop YARN"
         }
       ]
     },
@@ -433,10 +465,16 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Kubernetes"
+          "title": "Apache Hadoop YARN"
         },
         {
           "title": "Docker"
+        },
+        {
+          "title": "Kubernetes"
+        },
+        {
+          "title": "Circle CI"
         },
         {
           "title": "Google Cloud GKE"
@@ -453,9 +491,6 @@
       "children": [
         {
           "title": "GitHub Actions"
-        },
-        {
-          "title": "Circle CI"
         },
         {
           "title": "GitLab CI"
@@ -477,19 +512,16 @@
           "title": "Unit Testing"
         },
         {
-          "title": "Sentry"
+          "title": "Datadog"
         },
         {
-          "title": "Datadog"
+          "title": "Sentry"
         },
         {
           "title": "Integration Testing"
         },
         {
           "title": "New Relic"
-        },
-        {
-          "title": "End-to-End Testing"
         }
       ]
     },
@@ -499,13 +531,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "End-to-End Testing"
+        },
+        {
           "title": "Functional Testing"
         },
         {
           "title": "A/B Testing"
-        },
-        {
-          "title": "Load Testing"
         }
       ]
     },
@@ -519,6 +551,9 @@
         },
         {
           "title": "Async vs Sync Communication"
+        },
+        {
+          "title": "Load Testing"
         },
         {
           "title": "Messages vs Streams"
@@ -537,28 +572,73 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "AWS",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Azure Virtual Machines"
+            },
+            {
+              "title": "Azure Blob Storage"
+            },
+            {
+              "title": "Azure SQL Database"
+            },
+            {
+              "title": "Data Factory (ETL)"
+            }
+          ]
+        },
+        {
+          "title": "Azure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Compute Engine (Compute)"
+            },
+            {
+              "title": "Google Cloud Storage"
+            },
+            {
+              "title": "Cloud SQL (Database)"
+            },
+            {
+              "title": "Dataflow"
+            }
+          ]
+        },
+        {
           "title": "Declarative vs Imperative"
+        },
+        {
+          "title": "Common Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache Kafka"
+            },
+            {
+              "title": "RabbitMQ"
+            },
+            {
+              "title": "AWS SQS"
+            },
+            {
+              "title": "AWS SNS"
+            }
+          ]
         },
         {
           "title": "Idempotency"
         },
         {
-          "title": "Apache Kafka"
-        },
-        {
           "title": "Reusability"
         },
         {
-          "title": "RabbitMQ"
-        },
-        {
           "title": "Environmental Management"
-        },
-        {
-          "title": "AWS SQS"
-        },
-        {
-          "title": "AWS SNS"
         }
       ]
     },
@@ -568,16 +648,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Terraform"
-        },
-        {
-          "title": "OpenTofu"
-        },
-        {
-          "title": "AWS CDK"
-        },
-        {
-          "title": "Google Deployment  Mgr."
+          "title": "Common Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Terraform"
+            },
+            {
+              "title": "OpenTofu"
+            },
+            {
+              "title": "AWS CDK"
+            },
+            {
+              "title": "Google Deployment  Mgr."
+            }
+          ]
         }
       ]
     },
@@ -587,16 +674,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Microsoft Power BI"
-        },
-        {
-          "title": "Streamlit"
-        },
-        {
-          "title": "Tableu"
-        },
-        {
-          "title": "Looker"
+          "title": "BI Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Microsoft Power BI"
+            },
+            {
+              "title": "Streamlit"
+            },
+            {
+              "title": "Tableu"
+            },
+            {
+              "title": "Looker"
+            }
+          ]
         }
       ]
     },
@@ -619,13 +713,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Hightouch"
-        },
-        {
-          "title": "Census"
-        },
-        {
-          "title": "Segment"
+          "title": "Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hightouch"
+            },
+            {
+              "title": "Census"
+            },
+            {
+              "title": "Segment"
+            }
+          ]
         }
       ]
     },
@@ -661,19 +762,23 @@
           "title": "Metadata Management"
         },
         {
-          "title": "GDPR"
-        },
-        {
           "title": "Data Interoperability"
-        },
-        {
-          "title": "ECPA"
         },
         {
           "title": "Data Quality"
         },
         {
-          "title": "EU AI Act"
+          "title": "Data Governance & Privacy",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GDPR"
+            },
+            {
+              "title": "EU AI Act"
+            }
+          ]
         }
       ]
     }

@@ -7,16 +7,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Find Resources",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Books"
+            },
+            {
+              "title": "YouTube"
+            }
+          ]
+        },
+        {
           "title": "Docs"
         },
         {
-          "title": "Books"
-        },
-        {
           "title": "Courses"
-        },
-        {
-          "title": "YouTube"
         }
       ]
     },
@@ -26,49 +33,77 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Integers"
+          "title": "Main Data Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers"
+            },
+            {
+              "title": "Float"
+            },
+            {
+              "title": "Strings"
+            },
+            {
+              "title": "Booleans"
+            },
+            {
+              "title": "Unit"
+            },
+            {
+              "title": "Nothing"
+            }
+          ]
         },
         {
-          "title": "Float"
+          "title": "Pick your IDE",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "IntelliJ IDEA"
+            },
+            {
+              "title": "VS Code"
+            }
+          ]
         },
         {
-          "title": "IntelliJ IDEA"
+          "title": "Secondary Options",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Vim"
+            },
+            {
+              "title": "Emacs"
+            },
+            {
+              "title": "Zed"
+            },
+            {
+              "title": "Sublime"
+            }
+          ]
         },
         {
-          "title": "Strings"
-        },
-        {
-          "title": "Booleans"
-        },
-        {
-          "title": "VS Code"
-        },
-        {
-          "title": "Unit"
-        },
-        {
-          "title": "Nothing"
-        },
-        {
-          "title": "Vim"
-        },
-        {
-          "title": "Emacs"
-        },
-        {
-          "title": "Type Hierarchy"
-        },
-        {
-          "title": "Zed"
-        },
-        {
-          "title": "Sublime"
-        },
-        {
-          "title": "Type Parameters"
-        },
-        {
-          "title": "Conversions"
+          "title": "Generic Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Type Hierarchy"
+            },
+            {
+              "title": "Type Parameters"
+            },
+            {
+              "title": "Conversions"
+            }
+          ]
         }
       ]
     },
@@ -87,13 +122,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Object"
+          "title": "Class"
         },
         {
           "title": "Trait"
         },
         {
-          "title": "Class"
+          "title": "Object"
         }
       ]
     },
@@ -103,49 +138,70 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Array"
+          "title": "Collections",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Range"
+            },
+            {
+              "title": "Seq"
+            },
+            {
+              "title": "List"
+            },
+            {
+              "title": "Vector"
+            },
+            {
+              "title": "Set"
+            },
+            {
+              "title": "Map"
+            },
+            {
+              "title": "Mutable Collections"
+            }
+          ]
         },
         {
-          "title": "Range"
-        },
-        {
-          "title": "Seq"
-        },
-        {
-          "title": "List"
-        },
-        {
-          "title": "Vector"
-        },
-        {
-          "title": "Set"
-        },
-        {
-          "title": "Map"
-        },
-        {
-          "title": "Mutable Collections"
-        },
-        {
-          "title": "find"
-        },
-        {
-          "title": "filter"
-        },
-        {
-          "title": "foreach"
-        },
-        {
-          "title": "map"
-        },
-        {
-          "title": "flatMap"
-        },
-        {
-          "title": "foldLeft"
-        },
-        {
-          "title": "collect / collectFirst"
+          "title": "Common Collection Methods",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "find"
+            },
+            {
+              "title": "filter"
+            },
+            {
+              "title": "foreach"
+            },
+            {
+              "title": "map"
+            },
+            {
+              "title": "flatMap",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "for comprehension"
+                }
+              ]
+            },
+            {
+              "title": "foldLeft"
+            },
+            {
+              "title": "collect / collectFirst"
+            }
+          ]
         }
       ]
     },
@@ -155,19 +211,51 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Functions & Methods"
+          "title": "Learn the Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Case Classes"
+            },
+            {
+              "title": "Sealed Traits"
+            },
+            {
+              "title": "apply Method"
+            },
+            {
+              "title": "Enums"
+            },
+            {
+              "title": "Case Objects"
+            },
+            {
+              "title": "unapply Method"
+            }
+          ]
         },
         {
-          "title": "Method Calls"
-        },
-        {
-          "title": "Anonymous Func / Lambda"
-        },
-        {
-          "title": "Total/Partial Funcs"
-        },
-        {
-          "title": "Funcs returning Funcs"
+          "title": "Functions & Methods",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Functions & Methods"
+            },
+            {
+              "title": "Method Calls"
+            },
+            {
+              "title": "Anonymous Func / Lambda"
+            },
+            {
+              "title": "Total/Partial Funcs"
+            },
+            {
+              "title": "Funcs returning Funcs"
+            }
+          ]
         }
       ]
     },
@@ -180,37 +268,19 @@
           "title": "Regex"
         },
         {
-          "title": "-I2xIkYxxMhrTaajRQmG3"
+          "title": "What different items mean",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Topic"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Pattern Matching",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Case Classes"
-        },
-        {
-          "title": "Sealed Traits"
-        },
-        {
-          "title": "apply Method"
-        },
-        {
-          "title": "Enums"
-        },
-        {
-          "title": "Case Objects"
-        },
-        {
-          "title": "unapply Method"
-        },
-        {
-          "title": "for comprehension"
-        }
-      ]
+      "title": "Pattern Matching"
     },
     {
       "title": "Error Handling",
@@ -263,9 +333,6 @@
         },
         {
           "title": "LazyList"
-        },
-        {
-          "title": "Implicit Parameter"
         }
       ]
     },
@@ -275,10 +342,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Early returns"
+          "title": "Implicit Parameter"
         },
         {
           "title": "Tail Recursion"
+        },
+        {
+          "title": "Early returns"
         },
         {
           "title": "Trampolines"
@@ -291,19 +361,36 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "ScalaCLI"
+          "title": "ZIO"
         },
         {
-          "title": "sbt"
+          "title": "Scala-centered",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ScalaCLI"
+            },
+            {
+              "title": "sbt"
+            },
+            {
+              "title": "Mill"
+            }
+          ]
         },
         {
-          "title": "Mill"
-        },
-        {
-          "title": "Gradle"
-        },
-        {
-          "title": "Maven"
+          "title": "Common to JVM",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Gradle"
+            },
+            {
+              "title": "Maven"
+            }
+          ]
         }
       ]
     },
@@ -314,9 +401,6 @@
       "children": [
         {
           "title": "Cats"
-        },
-        {
-          "title": "ZIO"
         },
         {
           "title": "Li Haoyi"
@@ -339,9 +423,6 @@
         },
         {
           "title": "Scala Native"
-        },
-        {
-          "title": "Scala.js"
         }
       ]
     },
@@ -350,6 +431,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Scala.js"
+        },
         {
           "title": "Pure Functions"
         }
@@ -388,30 +472,6 @@
         },
         {
           "title": "Context Bounds"
-        },
-        {
-          "title": "ScalaTest"
-        },
-        {
-          "title": "JUnit"
-        },
-        {
-          "title": "mUnit"
-        },
-        {
-          "title": "uTest"
-        },
-        {
-          "title": "ZIO Test"
-        },
-        {
-          "title": "specs2"
-        },
-        {
-          "title": "ScalaTest (2)"
-        },
-        {
-          "title": "Gatling"
         }
       ]
     },
@@ -419,7 +479,55 @@
       "title": "Macros"
     },
     {
-      "title": "Testing"
+      "title": "Testing",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unit Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ScalaTest"
+            },
+            {
+              "title": "JUnit"
+            },
+            {
+              "title": "mUnit"
+            },
+            {
+              "title": "uTest"
+            },
+            {
+              "title": "ZIO Test"
+            },
+            {
+              "title": "specs2"
+            }
+          ]
+        },
+        {
+          "title": "Integration / Performance Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ScalaTest"
+            },
+            {
+              "title": "Gatling"
+            }
+          ]
+        },
+        {
+          "title": "Scalatra"
+        },
+        {
+          "title": "Tapir"
+        }
+      ]
     },
     {
       "title": "Backend",
@@ -430,13 +538,7 @@
           "title": "sttp"
         },
         {
-          "title": "Scalatra"
-        },
-        {
           "title": "Play"
-        },
-        {
-          "title": "Tapir"
         },
         {
           "title": "AkkaHTTP"
@@ -458,28 +560,60 @@
           "title": "ZIO"
         },
         {
-          "title": "Calico"
+          "title": "Web",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Laminar"
+            },
+            {
+              "title": "Calico"
+            },
+            {
+              "title": "Slinky",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "React.js"
+                }
+              ]
+            }
+          ]
         },
         {
-          "title": "Laminar"
+          "title": "Desktop",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ScalaFX"
+            },
+            {
+              "title": "JavaFX"
+            }
+          ]
         },
         {
-          "title": "Slinky"
-        },
-        {
-          "title": "React.js"
-        },
-        {
-          "title": "ScalaFX"
-        },
-        {
-          "title": "JavaFX"
-        },
-        {
-          "title": "scala-android-plugin"
-        },
-        {
-          "title": "Scala on Android"
+          "title": "Android",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "scala-android-plugin"
+            },
+            {
+              "title": "Scala on Android",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "GraalVM Native Image"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -493,7 +627,14 @@
         },
         {
           "title": "Gears"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Concurrency",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "FS2"
         },
@@ -501,15 +642,19 @@
           "title": "Kyo"
         },
         {
-          "title": "Akka & Peko Streams"
-        },
-        {
-          "title": "ZIO Streams"
+          "title": "Streaming",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Akka & Peko Streams"
+            },
+            {
+              "title": "ZIO Streams"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Concurrency"
     },
     {
       "title": "Distributed Computing",
@@ -520,10 +665,14 @@
           "title": "Spark"
         },
         {
-          "title": "Akka"
-        },
-        {
-          "title": "GraalVM Native Image"
+          "title": "Akka",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Pekko"
+            }
+          ]
         }
       ]
     },
@@ -533,31 +682,42 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Pekko"
+          "title": "Database",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Doobie"
+            },
+            {
+              "title": "ScalikeJDBC"
+            },
+            {
+              "title": "Quill"
+            },
+            {
+              "title": "Slick"
+            }
+          ]
         },
         {
-          "title": "ScalikeJDBC"
-        },
-        {
-          "title": "Doobie"
-        },
-        {
-          "title": "Slick"
-        },
-        {
-          "title": "Quill"
-        },
-        {
-          "title": "PlayJSON"
-        },
-        {
-          "title": "Circe"
-        },
-        {
-          "title": "Jsoniter"
-        },
-        {
-          "title": "uPickle"
+          "title": "JSON",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PlayJSON"
+            },
+            {
+              "title": "Circe"
+            },
+            {
+              "title": "Jsoniter"
+            },
+            {
+              "title": "uPickle"
+            }
+          ]
         }
       ]
     },
@@ -586,16 +746,16 @@
           "title": "Monocle"
         },
         {
-          "title": "Shapeless"
-        },
-        {
           "title": "Chimney"
         },
         {
-          "title": "Scalameta"
+          "title": "Shapeless"
         },
         {
           "title": "Magnolia"
+        },
+        {
+          "title": "Scalameta"
         }
       ]
     }

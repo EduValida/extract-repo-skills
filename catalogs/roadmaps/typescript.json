@@ -28,55 +28,76 @@
           "title": "Installation and Configuration"
         },
         {
-          "title": "Interface"
+          "title": "Primitive Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Interface"
+            },
+            {
+              "title": "boolean"
+            },
+            {
+              "title": "Class"
+            },
+            {
+              "title": "number"
+            },
+            {
+              "title": "Enum"
+            },
+            {
+              "title": "string"
+            },
+            {
+              "title": "Array"
+            },
+            {
+              "title": "void"
+            },
+            {
+              "title": "Tuple"
+            },
+            {
+              "title": "undefined"
+            },
+            {
+              "title": "null"
+            },
+            {
+              "title": "Object"
+            }
+          ]
         },
         {
-          "title": "boolean"
-        },
+          "title": "Top Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "never"
+            },
+            {
+              "title": "unknown"
+            },
+            {
+              "title": "any"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Type Inference",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "tsconfig.json"
         },
         {
           "title": "Compiler Options"
-        },
-        {
-          "title": "Class"
-        },
-        {
-          "title": "number"
-        },
-        {
-          "title": "Enum"
-        },
-        {
-          "title": "string"
-        },
-        {
-          "title": "Array"
-        },
-        {
-          "title": "void"
-        },
-        {
-          "title": "Tuple"
-        },
-        {
-          "title": "undefined"
-        },
-        {
-          "title": "null"
-        },
-        {
-          "title": "Object"
-        },
-        {
-          "title": "never"
-        },
-        {
-          "title": "unknown"
-        },
-        {
-          "title": "any"
         }
       ]
     },
@@ -86,24 +107,28 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "as [type]"
-        },
-        {
-          "title": "as const"
-        },
-        {
-          "title": "as any"
-        },
-        {
-          "title": "Non-null Assertion"
-        },
-        {
-          "title": "satisfies keyword"
+          "title": "Assertions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "as [type]"
+            },
+            {
+              "title": "as any"
+            },
+            {
+              "title": "as const"
+            },
+            {
+              "title": "Non-null Assertion"
+            },
+            {
+              "title": "satisfies keyword"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Type Inference"
     },
     {
       "title": "Type Compatibility",
@@ -115,7 +140,14 @@
         },
         {
           "title": "Intersection Types"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Combining Types",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Type Aliases"
         },
@@ -123,9 +155,6 @@
           "title": "keyof Operator"
         }
       ]
-    },
-    {
-      "title": "Combining Types"
     },
     {
       "title": "TypeScript Interfaces",
@@ -178,6 +207,18 @@
         },
         {
           "title": "Function Overloading"
+        },
+        {
+          "title": "Partial"
+        },
+        {
+          "title": "Omit"
+        },
+        {
+          "title": "Record"
+        },
+        {
+          "title": "Extract"
         }
       ]
     },
@@ -194,9 +235,6 @@
         },
         {
           "title": "Abstract Classes"
-        },
-        {
-          "title": "Inheritance vs Polymorphism"
         }
       ]
     },
@@ -214,19 +252,6 @@
       ]
     },
     {
-      "title": "Decorators",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Method Overriding"
-        },
-        {
-          "title": "Constructor Overloading"
-        }
-      ]
-    },
-    {
       "title": "Utility Types",
       "importance": 50,
       "completion_threshold": 60,
@@ -235,25 +260,13 @@
           "title": "Pick"
         },
         {
-          "title": "Partial"
-        },
-        {
           "title": "Readonly"
-        },
-        {
-          "title": "Omit"
         },
         {
           "title": "Exclude"
         },
         {
-          "title": "Record"
-        },
-        {
           "title": "Awaited"
-        },
-        {
-          "title": "Extract"
         },
         {
           "title": "Parameters"
@@ -266,6 +279,25 @@
         },
         {
           "title": "InstanceType"
+        }
+      ]
+    },
+    {
+      "title": "Decorators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Inheritance vs Polymorphism"
+        },
+        {
+          "title": "Method Overriding"
+        },
+        {
+          "title": "Constructor Overloading"
+        },
+        {
+          "title": "Namespaces"
         }
       ]
     },
@@ -285,9 +317,6 @@
         },
         {
           "title": "Template Literal Types"
-        },
-        {
-          "title": "Recursive Types"
         }
       ]
     },
@@ -296,9 +325,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Namespaces"
-        },
         {
           "title": "Ambient Modules"
         },
@@ -318,6 +344,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Recursive Types"
+        },
         {
           "title": "Formatting"
         },

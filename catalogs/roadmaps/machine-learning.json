@@ -7,6 +7,19 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Pre-requisites",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Derivatives, Partial Derivatives"
+            },
+            {
+              "title": "Chain rule of derivation"
+            }
+          ]
+        },
+        {
           "title": "What is an ML Engineer?"
         },
         {
@@ -14,6 +27,16 @@
         },
         {
           "title": "Skills and Responsibilities"
+        }
+      ]
+    },
+    {
+      "title": "Calculus",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Gradient, Jacobian, Hessian"
         }
       ]
     },
@@ -40,23 +63,27 @@
       ]
     },
     {
-      "title": "Calculus",
+      "title": "Discrete Mathematics",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Derivatives, Partial Derivatives"
-        },
-        {
-          "title": "Chain rule of derivation"
-        },
-        {
-          "title": "Gradient, Jacobian, Hessian"
+          "title": "Mathematical Foundations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Basics of Probability"
+            },
+            {
+              "title": "Bayes Theorem"
+            },
+            {
+              "title": "Random Variances, PDFs"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Discrete Mathematics"
     },
     {
       "title": "Python"
@@ -67,19 +94,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Basics of Probability"
-        },
-        {
-          "title": "Bayes Theorem"
-        },
-        {
-          "title": "Random Variances, PDFs"
-        },
-        {
           "title": "Types of Distribution"
-        },
-        {
-          "title": "Matplotlib"
         }
       ]
     },
@@ -99,37 +114,6 @@
         },
         {
           "title": "Inferential Statistics"
-        },
-        {
-          "title": "Databases (SQL, No-SQL)"
-        },
-        {
-          "title": "Internet"
-        }
-      ]
-    },
-    {
-      "title": "Basic Syntax",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Variables and Data Types"
-        },
-        {
-          "title": "Data Structures"
-        },
-        {
-          "title": "Loops"
-        },
-        {
-          "title": "Conditionals"
-        },
-        {
-          "title": "Exceptions"
-        },
-        {
-          "title": "Functions, Builtin Functions"
         }
       ]
     },
@@ -139,13 +123,42 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Matplotlib"
+        },
+        {
           "title": "Numpy"
+        }
+      ]
+    },
+    {
+      "title": "Basic Syntax",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Programming Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Data Structures"
+            },
+            {
+              "title": "Loops"
+            },
+            {
+              "title": "Conditionals"
+            },
+            {
+              "title": "Exceptions"
+            },
+            {
+              "title": "Functions, Builtin Functions"
+            }
+          ]
         },
         {
-          "title": "Seaborn"
-        },
-        {
-          "title": "Pandas"
+          "title": "Variables and Data Types"
         }
       ]
     },
@@ -155,7 +168,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "APIs"
+          "title": "Seaborn"
+        },
+        {
+          "title": "Pandas"
         }
       ]
     },
@@ -164,6 +180,15 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Databases (SQL, No-SQL)"
+        },
+        {
+          "title": "Internet"
+        },
+        {
+          "title": "APIs"
+        },
         {
           "title": "Mobile Apps"
         },
@@ -229,15 +254,6 @@
         },
         {
           "title": "Unsupervised Learning"
-        },
-        {
-          "title": "Semi-supervised Learning"
-        },
-        {
-          "title": "Self-supervised Learning"
-        },
-        {
-          "title": "Reinforcement Learning"
         }
       ]
     },
@@ -267,7 +283,39 @@
       ]
     },
     {
-      "title": "What is Supervised Learning?"
+      "title": "What is Supervised Learning?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Semi-supervised Learning"
+        },
+        {
+          "title": "Self-supervised Learning"
+        },
+        {
+          "title": "Reinforcement Learning"
+        },
+        {
+          "title": "Supervised Learning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Polynomial Regression"
+            },
+            {
+              "title": "Lasso"
+            },
+            {
+              "title": "Ridge"
+            },
+            {
+              "title": "ElasticNet Regularization"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Classification",
@@ -298,23 +346,34 @@
       "children": [
         {
           "title": "Linear Regression"
-        },
-        {
-          "title": "Polynomial Regression"
-        },
-        {
-          "title": "Lasso"
-        },
-        {
-          "title": "Ridge"
-        },
-        {
-          "title": "ElasticNet Regularization"
         }
       ]
     },
     {
-      "title": "What is Unsupervised Learning?"
+      "title": "What is Unsupervised Learning?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Unsupervised Learning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Exclusive"
+            },
+            {
+              "title": "Overlapping"
+            },
+            {
+              "title": "Hierarchical"
+            },
+            {
+              "title": "Probabilistic"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Clustering",
@@ -322,16 +381,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Exclusive"
-        },
-        {
-          "title": "Overlapping"
-        },
-        {
-          "title": "Hierarchical"
-        },
-        {
-          "title": "Probabilistic"
+          "title": "Precision"
         }
       ]
     },
@@ -354,16 +404,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Deep-Q Networks"
-        },
-        {
-          "title": "Policy Gradient"
-        },
-        {
-          "title": "Actor-Critic Methods"
-        },
-        {
-          "title": "Q-Learning"
+          "title": "Reinforcement Learning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Deep-Q Networks"
+            },
+            {
+              "title": "Policy Gradient"
+            },
+            {
+              "title": "Actor-Critic Methods"
+            },
+            {
+              "title": "Q-Learning"
+            }
+          ]
         }
       ]
     },
@@ -382,19 +439,10 @@
           "title": "Accuracy"
         },
         {
-          "title": "Precision"
-        },
-        {
           "title": "F1-Score"
         },
         {
-          "title": "Recall"
-        },
-        {
           "title": "ROC-AUC"
-        },
-        {
-          "title": "Log Loss"
         },
         {
           "title": "Confusion Matrix"
@@ -407,6 +455,25 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Model Evaluation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "TensorFlow"
+            },
+            {
+              "title": "Keras"
+            },
+            {
+              "title": "Scikit-learn"
+            },
+            {
+              "title": "PyTorch"
+            }
+          ]
+        },
+        {
           "title": "K-Fold Cross Validation"
         },
         {
@@ -415,46 +482,43 @@
       ]
     },
     {
-      "title": "Neural Network (NN) Basics",
+      "title": "Neural Network (NN) Basics"
+    },
+    {
+      "title": "Deep Learning Libraries"
+    },
+    {
+      "title": "Deep Learning Architectures",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Perceptron, Multi-layer Perceptrons"
+          "title": "Recall"
         },
         {
-          "title": "Forward propagation"
+          "title": "Log Loss"
         },
         {
-          "title": "Back Propagation"
-        },
-        {
-          "title": "Activation Functions"
-        },
-        {
-          "title": "Loss Functions"
-        }
-      ]
-    },
-    {
-      "title": "Deep Learning Architectures"
-    },
-    {
-      "title": "Deep Learning Libraries",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "TensorFlow"
-        },
-        {
-          "title": "Keras"
-        },
-        {
-          "title": "PyTorch"
-        },
-        {
-          "title": "Scikit-learn"
+          "title": "Deep Learning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Perceptron, Multi-layer Perceptrons"
+            },
+            {
+              "title": "Forward propagation"
+            },
+            {
+              "title": "Back Propagation"
+            },
+            {
+              "title": "Activation Functions"
+            },
+            {
+              "title": "Loss Functions"
+            }
+          ]
         }
       ]
     },
@@ -467,13 +531,29 @@
           "title": "Pooling"
         },
         {
+          "title": "Strides"
+        }
+      ]
+    },
+    {
+      "title": "Recurrent Neural Networks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
           "title": "Convolution"
         },
         {
-          "title": "Strides"
+          "title": "Padding"
         },
         {
-          "title": "Padding"
+          "title": "RNN"
+        },
+        {
+          "title": "GRU"
+        },
+        {
+          "title": "LSTM"
         }
       ]
     },
@@ -482,9 +562,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "LSTM"
-        },
         {
           "title": "Image & Video Recognition"
         },
@@ -496,19 +573,6 @@
         },
         {
           "title": "Recommendation Systems"
-        }
-      ]
-    },
-    {
-      "title": "Recurrent Neural Networks",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "RNN"
-        },
-        {
-          "title": "GRU"
         }
       ]
     },
@@ -535,29 +599,36 @@
       "title": "Generative Adversarial Networks"
     },
     {
+      "title": "Explainable AI"
+    },
+    {
       "title": "Natural Language Processing",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Tokenization"
-        },
-        {
-          "title": "Lemmatization"
-        },
-        {
-          "title": "Embeddings"
-        },
-        {
-          "title": "Attention Models"
-        },
-        {
-          "title": "Stemming"
+          "title": "Advanced Concepts in ML",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Tokenization"
+            },
+            {
+              "title": "Lemmatization"
+            },
+            {
+              "title": "Embeddings"
+            },
+            {
+              "title": "Attention Models"
+            },
+            {
+              "title": "Stemming"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Explainable AI"
     }
   ]
 }

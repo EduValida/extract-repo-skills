@@ -8,9 +8,6 @@
       "children": [
         {
           "title": "Vite"
-        },
-        {
-          "title": "Component Lifecycle"
         }
       ]
     },
@@ -19,6 +16,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Component Lifecycle"
+        },
         {
           "title": "Functional Components"
         },
@@ -33,15 +33,6 @@
         },
         {
           "title": "Props vs State"
-        },
-        {
-          "title": "Refs"
-        },
-        {
-          "title": "Conditional Rendering"
-        },
-        {
-          "title": "Composition"
         }
       ]
     },
@@ -51,7 +42,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Refs"
+        },
+        {
+          "title": "Conditional Rendering"
+        },
+        {
           "title": "Events"
+        },
+        {
+          "title": "Composition"
         },
         {
           "title": "High Order Components"
@@ -64,31 +64,51 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Basic Hooks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "useState"
+            },
+            {
+              "title": "useEffect"
+            },
+            {
+              "title": "useCallback"
+            },
+            {
+              "title": "useRef"
+            },
+            {
+              "title": "useReducer"
+            },
+            {
+              "title": "useMemo"
+            },
+            {
+              "title": "useContext"
+            }
+          ]
+        },
+        {
           "title": "Creating Custom Hooks"
-        },
-        {
-          "title": "useEffect"
-        },
-        {
-          "title": "useState"
         },
         {
           "title": "Hooks Best Practices"
         },
         {
-          "title": "useCallback"
-        },
-        {
-          "title": "useRef"
-        },
-        {
-          "title": "useMemo"
-        },
-        {
-          "title": "useReducer"
-        },
-        {
-          "title": "useContext"
+          "title": "Common Hooks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Zustand"
+            },
+            {
+              "title": "MobX"
+            }
+          ]
         }
       ]
     },
@@ -114,13 +134,7 @@
           "title": "Jotai"
         },
         {
-          "title": "Zustand"
-        },
-        {
           "title": "Context"
-        },
-        {
-          "title": "MobX"
         }
       ]
     },
@@ -168,31 +182,45 @@
           "title": "Radix UI"
         },
         {
+          "title": "GraphQL",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apollo"
+            },
+            {
+              "title": "Relay"
+            },
+            {
+              "title": "urql"
+            }
+          ]
+        },
+        {
           "title": "React Aria"
         },
         {
           "title": "Ark UI"
         },
         {
-          "title": "Apollo"
-        },
-        {
-          "title": "Relay"
-        },
-        {
-          "title": "urql"
-        },
-        {
-          "title": "Tanstack Query"
-        },
-        {
-          "title": "swr"
-        },
-        {
-          "title": "Axios"
-        },
-        {
-          "title": "rtk-query"
+          "title": "REST",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Tanstack Query"
+            },
+            {
+              "title": "Axios"
+            },
+            {
+              "title": "swr"
+            },
+            {
+              "title": "rtk-query"
+            }
+          ]
         }
       ]
     },
@@ -231,9 +259,6 @@
         },
         {
           "title": "Formish"
-        },
-        {
-          "title": "Formik"
         }
       ]
     },
@@ -244,6 +269,9 @@
       "children": [
         {
           "title": "react-router"
+        },
+        {
+          "title": "Formik"
         },
         {
           "title": "Astro"

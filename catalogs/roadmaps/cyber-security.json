@@ -7,67 +7,86 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "HackTheBox"
-        },
-        {
-          "title": "TryHackMe"
-        },
-        {
-          "title": "VulnHub"
-        },
-        {
-          "title": "picoCTF"
-        },
-        {
-          "title": "pwn.college"
+          "title": "CTFs (Capture the Flag)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HackTheBox"
+            },
+            {
+              "title": "TryHackMe"
+            },
+            {
+              "title": "VulnHub"
+            },
+            {
+              "title": "picoCTF"
+            },
+            {
+              "title": "pwn.college"
+            }
+          ]
         },
         {
           "title": "Computer Hardware Components"
         },
         {
-          "title": "NFC"
+          "title": "Certifications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CompTIA A+"
+            },
+            {
+              "title": "CompTIA Linux+"
+            },
+            {
+              "title": "CompTIA Network+"
+            },
+            {
+              "title": "CCNA"
+            },
+            {
+              "title": "CompTIA Security+"
+            }
+          ]
         },
         {
-          "title": "Bluetooth"
-        },
-        {
-          "title": "Connection Types and their function"
-        },
-        {
-          "title": "WiFi"
-        },
-        {
-          "title": "Infrared"
+          "title": "Connection Types and their function",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "NFC"
+            },
+            {
+              "title": "WiFi"
+            }
+          ]
         },
         {
           "title": "OS-Independent Troubleshooting"
         },
         {
-          "title": "CompTIA A+"
-        },
-        {
-          "title": "CompTIA Linux+"
-        },
-        {
-          "title": "Understand Basics of Popular Suites"
-        },
-        {
-          "title": "MS Office Suite"
-        },
-        {
-          "title": "CompTIA Network+"
-        },
-        {
-          "title": "CCNA"
+          "title": "Understand Basics of Popular Suites",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MS Office Suite"
+            },
+            {
+              "title": "iCloud"
+            },
+            {
+              "title": "Google Suite"
+            }
+          ]
         },
         {
           "title": "Basics of Computer Networking"
-        },
-        {
-          "title": "iCloud"
-        },
-        {
-          "title": "CompTIA Security+"
         },
         {
           "title": "CEH"
@@ -103,13 +122,26 @@
           "title": "VMWare"
         },
         {
-          "title": "VirtualBox"
-        },
-        {
           "title": "esxi"
         },
         {
-          "title": "proxmox"
+          "title": "Common Virtualization Technologies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hypervisor"
+            },
+            {
+              "title": "GuestOS"
+            },
+            {
+              "title": "HostOS"
+            },
+            {
+              "title": "VM"
+            }
+          ]
         }
       ]
     },
@@ -119,7 +151,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Google Suite"
+          "title": "Bluetooth"
+        },
+        {
+          "title": "Infrared"
         },
         {
           "title": "Windows"
@@ -137,88 +172,164 @@
           "title": "Public vs Private IP Addresses"
         },
         {
-          "title": "Installation and Configuration"
+          "title": "Learn following for each",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Installation and Configuration"
+            },
+            {
+              "title": "Different Versions and Differences"
+            },
+            {
+              "title": "Navigating using GUI and CLI"
+            },
+            {
+              "title": "Understand Permissions"
+            },
+            {
+              "title": "Installing Software and Applications"
+            },
+            {
+              "title": "VM"
+            },
+            {
+              "title": "Performing CRUD on Files"
+            },
+            {
+              "title": "IP"
+            },
+            {
+              "title": "Troubleshooting"
+            },
+            {
+              "title": "Common Commands"
+            }
+          ]
         },
         {
-          "title": "loopback"
+          "title": "IP Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "loopback"
+            },
+            {
+              "title": "CIDR"
+            },
+            {
+              "title": "localhost"
+            },
+            {
+              "title": "subnet mask"
+            },
+            {
+              "title": "default gateway"
+            }
+          ]
         },
         {
-          "title": "CIDR"
+          "title": "VirtualBox"
         },
         {
-          "title": "localhost"
+          "title": "proxmox"
         },
         {
-          "title": "Different Versions and Differences"
+          "title": "Understand the Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VLAN"
+            },
+            {
+              "title": "DMZ"
+            },
+            {
+              "title": "ARP"
+            },
+            {
+              "title": "NAT"
+            },
+            {
+              "title": "DHCP"
+            },
+            {
+              "title": "DNS"
+            },
+            {
+              "title": "Router"
+            },
+            {
+              "title": "Switch"
+            },
+            {
+              "title": "VPN"
+            },
+            {
+              "title": "arp"
+            },
+            {
+              "title": "MAN"
+            },
+            {
+              "title": "LAN"
+            },
+            {
+              "title": "WAN"
+            },
+            {
+              "title": "WLAN"
+            }
+          ]
         },
         {
-          "title": "subnet mask"
-        },
-        {
-          "title": "Navigating using GUI and CLI"
-        },
-        {
-          "title": "default gateway"
-        },
-        {
-          "title": "Understand Permissions"
-        },
-        {
-          "title": "Hypervisor"
-        },
-        {
-          "title": "GuestOS"
-        },
-        {
-          "title": "Installing Software and Applications"
-        },
-        {
-          "title": "VM"
-        },
-        {
-          "title": "HostOS"
-        },
-        {
-          "title": "VLAN"
-        },
-        {
-          "title": "DMZ"
-        },
-        {
-          "title": "ARP"
-        },
-        {
-          "title": "VM (2)"
-        },
-        {
-          "title": "Performing CRUD on Files"
-        },
-        {
-          "title": "NAT"
-        },
-        {
-          "title": "DHCP"
-        },
-        {
-          "title": "DNS"
-        },
-        {
-          "title": "IP"
-        },
-        {
-          "title": "Troubleshooting"
-        },
-        {
-          "title": "Router"
-        },
-        {
-          "title": "Switch"
-        },
-        {
-          "title": "VPN"
-        },
-        {
-          "title": "Common Commands"
+          "title": "Basics of Virtualization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "dig"
+            },
+            {
+              "title": "netstat"
+            },
+            {
+              "title": "ipconfig"
+            },
+            {
+              "title": "ping"
+            },
+            {
+              "title": "tcpdump"
+            },
+            {
+              "title": "route"
+            },
+            {
+              "title": "nmap"
+            },
+            {
+              "title": "iptables"
+            },
+            {
+              "title": "tracert"
+            },
+            {
+              "title": "nslookup"
+            },
+            {
+              "title": "Packet Sniffers"
+            },
+            {
+              "title": "Port Scanners"
+            },
+            {
+              "title": "Protocol Analyzers"
+            }
+          ]
         }
       ]
     },
@@ -228,115 +339,141 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "netstat"
+          "title": "Understand these",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DHCP"
+            },
+            {
+              "title": "DNS"
+            },
+            {
+              "title": "NTP"
+            },
+            {
+              "title": "IPAM"
+            }
+          ]
         },
         {
-          "title": "dig"
-        },
-        {
-          "title": "ipconfig"
-        },
-        {
-          "title": "ping"
-        },
-        {
-          "title": "tcpdump"
-        },
-        {
-          "title": "arp"
-        },
-        {
-          "title": "nmap"
-        },
-        {
-          "title": "route"
-        },
-        {
-          "title": "MAN"
-        },
-        {
-          "title": "LAN"
-        },
-        {
-          "title": "WAN"
-        },
-        {
-          "title": "WLAN"
-        },
-        {
-          "title": "iptables"
-        },
-        {
-          "title": "nslookup"
-        },
-        {
-          "title": "tracert"
-        },
-        {
-          "title": "Packet Sniffers"
-        },
-        {
-          "title": "DHCP"
-        },
-        {
-          "title": "DNS"
-        },
-        {
-          "title": "NTP"
-        },
-        {
-          "title": "IPAM"
-        },
-        {
-          "title": "Port Scanners"
-        },
-        {
-          "title": "Protocol Analyzers"
-        },
-        {
-          "title": "Star"
-        },
-        {
-          "title": "Ring"
-        },
-        {
-          "title": "Mesh"
-        },
-        {
-          "title": "Bus"
+          "title": "Functions of each",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Star"
+            },
+            {
+              "title": "Ring"
+            },
+            {
+              "title": "Mesh"
+            },
+            {
+              "title": "Bus"
+            }
+          ]
         },
         {
           "title": "Understand the OSI Model"
         },
         {
+          "title": "Troubleshooting Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Kerberos"
+            },
+            {
+              "title": "RADIUS"
+            },
+            {
+              "title": "LDAP"
+            },
+            {
+              "title": "Certificates"
+            },
+            {
+              "title": "Local Auth"
+            }
+          ]
+        },
+        {
+          "title": "Network Topologies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SSO"
+            },
+            {
+              "title": "SSH"
+            },
+            {
+              "title": "RDP"
+            },
+            {
+              "title": "FTP"
+            },
+            {
+              "title": "SFTP"
+            },
+            {
+              "title": "HTTP / HTTPS"
+            },
+            {
+              "title": "SSL / TLS"
+            }
+          ]
+        },
+        {
           "title": "Common Protocols and their Uses"
-        },
-        {
-          "title": "SSH"
-        },
-        {
-          "title": "RDP"
-        },
-        {
-          "title": "FTP"
-        },
-        {
-          "title": "SFTP"
         },
         {
           "title": "Common Ports and their Uses"
         },
         {
-          "title": "HTTP / HTTPS"
-        },
-        {
-          "title": "SSL / TLS"
-        },
-        {
-          "title": "SSL and TLS Basics"
-        },
-        {
-          "title": "Basics of NAS and SAN"
+          "title": "Network Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Core Concepts of Zero Trust"
+            },
+            {
+              "title": "Roles of Compliance and Auditors"
+            },
+            {
+              "title": "Understand the Definition of Risk"
+            },
+            {
+              "title": "Understand Backups and Resiliency"
+            },
+            {
+              "title": "Cyber Kill Chain"
+            },
+            {
+              "title": "MFA & 2FA"
+            },
+            {
+              "title": "Honeypots"
+            },
+            {
+              "title": "Operating System Hardening"
+            },
+            {
+              "title": "Understand Concept of Isolation"
+            },
+            {
+              "title": "Basics of IDS and IPS"
+            },
+            {
+              "title": "Authentication vs Authorization"
+            }
+          ]
         }
       ]
     },
@@ -346,136 +483,203 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Kerberos"
+          "title": "SSL and TLS Basics"
         },
         {
-          "title": "LDAP"
+          "title": "Basics of NAS and SAN"
         },
         {
-          "title": "SSO"
-        },
-        {
-          "title": "RADIUS"
-        },
-        {
-          "title": "Certificates"
-        },
-        {
-          "title": "Local Auth"
-        },
-        {
-          "title": "Core Concepts of Zero Trust"
-        },
-        {
-          "title": "Understand Common Hacking Tools"
-        },
-        {
-          "title": "Roles of Compliance and Auditors"
+          "title": "Authentication Methodologies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Understand Common Hacking Tools"
+            },
+            {
+              "title": "Understand Common Exploit Frameworks"
+            },
+            {
+              "title": "Understand Concept of Defense in Depth"
+            },
+            {
+              "title": "Understand Concept of Runbooks"
+            },
+            {
+              "title": "Understand Basics of Forensics"
+            },
+            {
+              "title": "Basics and Concepts of Threat Hunting"
+            },
+            {
+              "title": "Basics of Vulnerability Management"
+            },
+            {
+              "title": "Basics of Reverse Engineering"
+            },
+            {
+              "title": "Penetration Testing Rules of Engagement"
+            },
+            {
+              "title": "Perimiter vs DMZ vs Segmentation"
+            }
+          ]
         },
         {
           "title": "Blue / Red / Purple Teams"
         },
         {
-          "title": "Understand Common Exploit Frameworks"
-        },
-        {
-          "title": "Understand the Definition of Risk"
-        },
-        {
           "title": "False Negative / False Positive"
-        },
-        {
-          "title": "Understand Concept of Defense in Depth"
-        },
-        {
-          "title": "Understand Backups and Resiliency"
         },
         {
           "title": "True Negative / True Positive"
         },
         {
-          "title": "Understand Concept of Runbooks"
-        },
-        {
-          "title": "Cyber Kill Chain"
-        },
-        {
           "title": "Basics of Threat Intel, OSINT"
-        },
-        {
-          "title": "Understand Basics of Forensics"
-        },
-        {
-          "title": "MFA & 2FA"
-        },
-        {
-          "title": "Honeypots"
         },
         {
           "title": "Understand Handshakes"
         },
         {
-          "title": "Basics and Concepts of Threat Hunting"
-        },
-        {
-          "title": "Operating System Hardening"
-        },
-        {
           "title": "Understand CIA Triad"
-        },
-        {
-          "title": "Basics of Vulnerability Management"
-        },
-        {
-          "title": "Understand Concept of Isolation"
         },
         {
           "title": "Privilege Escalation"
         },
         {
-          "title": "Basics of Reverse Engineering"
-        },
-        {
-          "title": "Basics of IDS and IPS"
-        },
-        {
           "title": "Web Based Attacks and OWASP10"
-        },
-        {
-          "title": "Penetration Testing Rules of Engagement"
         },
         {
           "title": "Learn how Malware works and Types"
         },
         {
-          "title": "Authentication vs Authorization"
+          "title": "Basics of Cryptography",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Salting"
+            },
+            {
+              "title": "Hashing"
+            },
+            {
+              "title": "Key Exchange"
+            },
+            {
+              "title": "dd"
+            },
+            {
+              "title": "Private vs Public Keys"
+            },
+            {
+              "title": "PKI"
+            },
+            {
+              "title": "Obfuscation"
+            },
+            {
+              "title": "ipconfig"
+            }
+          ]
         },
         {
-          "title": "Perimiter vs DMZ vs Segmentation"
+          "title": "Attack Types and Differences",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Whaling"
+            },
+            {
+              "title": "Phishing"
+            },
+            {
+              "title": "Whishing"
+            },
+            {
+              "title": "Smishing"
+            },
+            {
+              "title": "Spam vs Spim"
+            },
+            {
+              "title": "Shoulder Surfing"
+            },
+            {
+              "title": "Tailgating"
+            },
+            {
+              "title": "Dumpster Diving"
+            },
+            {
+              "title": "Zero day"
+            },
+            {
+              "title": "Social Engineering"
+            },
+            {
+              "title": "Reconnaissance"
+            },
+            {
+              "title": "Impersonation"
+            },
+            {
+              "title": "Watering Hole Attack"
+            },
+            {
+              "title": "Drive by Attack"
+            },
+            {
+              "title": "Typo Squatting"
+            },
+            {
+              "title": "Brute Force vs Password Spray"
+            },
+            {
+              "title": "IPSEC"
+            }
+          ]
         },
         {
-          "title": "Whaling"
-        },
-        {
-          "title": "Phishing"
-        },
-        {
-          "title": "Whishing"
-        },
-        {
-          "title": "Salting"
-        },
-        {
-          "title": "Hashing"
-        },
-        {
-          "title": "Key Exchange"
-        },
-        {
-          "title": "nmap"
-        },
-        {
-          "title": "ping"
+          "title": "Tools for Incident Response and Discovery",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "dig"
+            },
+            {
+              "title": "nmap"
+            },
+            {
+              "title": "ping"
+            },
+            {
+              "title": "tail"
+            },
+            {
+              "title": "hping"
+            },
+            {
+              "title": "head"
+            },
+            {
+              "title": "tracert"
+            },
+            {
+              "title": "winhex"
+            },
+            {
+              "title": "curl"
+            },
+            {
+              "title": "wireshark"
+            },
+            {
+              "title": "FTK Imager"
+            }
+          ]
         },
         {
           "title": "arp"
@@ -484,250 +688,32 @@
           "title": "cat"
         },
         {
-          "title": "dd"
-        },
-        {
-          "title": "dig"
-        },
-        {
-          "title": "Smishing"
-        },
-        {
-          "title": "Spam vs Spim"
-        },
-        {
-          "title": "Private vs Public Keys"
+          "title": "grep"
         },
         {
           "title": "nslookup"
         },
         {
-          "title": "hping"
-        },
-        {
-          "title": "head"
-        },
-        {
-          "title": "grep"
-        },
-        {
-          "title": "tail"
-        },
-        {
-          "title": "Shoulder Surfing"
-        },
-        {
-          "title": "Tailgating"
-        },
-        {
-          "title": "PKI"
-        },
-        {
-          "title": "Obfuscation"
-        },
-        {
-          "title": "tracert"
-        },
-        {
-          "title": "winhex"
-        },
-        {
           "title": "autopsy"
-        },
-        {
-          "title": "ipconfig"
-        },
-        {
-          "title": "Dumpster Diving"
-        },
-        {
-          "title": "curl"
-        },
-        {
-          "title": "wireshark"
         },
         {
           "title": "memdump"
         },
         {
-          "title": "Kill Chain"
-        },
-        {
-          "title": "Diamond Model"
-        },
-        {
-          "title": "Zero day"
-        },
-        {
-          "title": "FTK Imager"
-        },
-        {
-          "title": "ATT&CK"
-        },
-        {
-          "title": "Social Engineering"
-        },
-        {
-          "title": "ISO"
-        },
-        {
-          "title": "RMF"
-        },
-        {
-          "title": "Reconnaissance"
-        },
-        {
-          "title": "Impersonation"
-        },
-        {
-          "title": "ParrotOS"
-        },
-        {
-          "title": "Kali Linux"
-        },
-        {
-          "title": "NIST"
-        },
-        {
-          "title": "CIS"
-        },
-        {
-          "title": "CSF"
-        },
-        {
-          "title": "Watering Hole Attack"
-        },
-        {
-          "title": "Drive by Attack"
-        },
-        {
-          "title": "SIEM"
-        },
-        {
-          "title": "SOAR"
-        },
-        {
-          "title": "LOLBAS"
-        },
-        {
-          "title": "GTFOBINS"
-        },
-        {
-          "title": "WADCOMS"
-        },
-        {
-          "title": "Typo Squatting"
-        },
-        {
-          "title": "Brute Force vs Password Spray"
-        },
-        {
-          "title": "FTP vs SFTP"
-        },
-        {
-          "title": "SSL vs TLS"
-        },
-        {
-          "title": "IPSEC"
-        },
-        {
-          "title": "Event Logs"
-        },
-        {
-          "title": "syslogs"
-        },
-        {
-          "title": "netflow"
-        },
-        {
-          "title": "Packet Captures"
-        },
-        {
-          "title": "Firewall Logs"
-        },
-        {
-          "title": "DNSSEC"
-        },
-        {
-          "title": "LDAPS"
-        },
-        {
-          "title": "SRTP"
-        },
-        {
-          "title": "S/MIME"
-        },
-        {
-          "title": "DoS vs DDoS"
-        },
-        {
-          "title": "MITM"
-        },
-        {
-          "title": "CSRF"
-        },
-        {
-          "title": "Spoofing"
-        },
-        {
-          "title": "XSS"
-        },
-        {
-          "title": "SQL Injection"
-        },
-        {
-          "title": "Antivirus"
-        },
-        {
-          "title": "Antimalware"
-        },
-        {
-          "title": "EDR"
-        },
-        {
-          "title": "DLP"
-        },
-        {
-          "title": "MAC-based"
-        },
-        {
-          "title": "NAC-based"
-        },
-        {
-          "title": "Evil Twin"
-        },
-        {
-          "title": "VLAN Hopping"
-        },
-        {
-          "title": "Firewall & Nextgen Firewall"
-        },
-        {
-          "title": "HIPS"
-        },
-        {
-          "title": "NIDS"
-        },
-        {
-          "title": "Port Blocking"
-        },
-        {
-          "title": "Group Policy"
-        },
-        {
-          "title": "DNS Poisoning"
-        },
-        {
-          "title": "NIPS"
-        },
-        {
-          "title": "Host Based Firewall"
-        },
-        {
-          "title": "Sandboxing"
-        },
-        {
-          "title": "Deauth Attack"
+          "title": "Understand Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Diamond Model"
+            },
+            {
+              "title": "Kill Chain"
+            },
+            {
+              "title": "ATT&CK"
+            }
+          ]
         }
       ]
     },
@@ -737,169 +723,426 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "ACLs"
+          "title": "Understand Common Standards",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ISO"
+            },
+            {
+              "title": "RMF"
+            },
+            {
+              "title": "NIST"
+            },
+            {
+              "title": "CIS"
+            }
+          ]
         },
         {
-          "title": "Sinkholes"
+          "title": "Common Distros for hacking",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ParrotOS"
+            },
+            {
+              "title": "Kali Linux"
+            }
+          ]
         },
         {
-          "title": "Patching"
+          "title": "CSF"
+        },
+        {
+          "title": "Understand the following",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SIEM"
+            },
+            {
+              "title": "SOAR"
+            }
+          ]
+        },
+        {
+          "title": "Using tools for Unintended Purposes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LOLBAS"
+            },
+            {
+              "title": "GTFOBINS"
+            }
+          ]
+        },
+        {
+          "title": "WADCOMS"
+        },
+        {
+          "title": "Secure vs Unsecure Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "FTP vs SFTP"
+            },
+            {
+              "title": "SSL vs TLS"
+            },
+            {
+              "title": "DNSSEC"
+            },
+            {
+              "title": "LDAPS"
+            },
+            {
+              "title": "SRTP"
+            }
+          ]
+        },
+        {
+          "title": "Learn how to find and use these logs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Event Logs"
+            },
+            {
+              "title": "syslogs"
+            },
+            {
+              "title": "Packet Captures"
+            },
+            {
+              "title": "Firewall Logs"
+            }
+          ]
+        },
+        {
+          "title": "netflow"
+        },
+        {
+          "title": "Common Attacks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DoS vs DDoS"
+            },
+            {
+              "title": "MITM"
+            },
+            {
+              "title": "CSRF"
+            },
+            {
+              "title": "Spoofing"
+            },
+            {
+              "title": "SQL Injection"
+            },
+            {
+              "title": "XSS"
+            },
+            {
+              "title": "DLP"
+            },
+            {
+              "title": "Evil Twin"
+            },
+            {
+              "title": "VLAN Hopping"
+            },
+            {
+              "title": "NIDS"
+            },
+            {
+              "title": "DNS Poisoning"
+            },
+            {
+              "title": "Deauth Attack"
+            },
+            {
+              "title": "Replay Attack"
+            },
+            {
+              "title": "Rogue Access Point"
+            },
+            {
+              "title": "Buffer Overflow"
+            },
+            {
+              "title": "Memory Leak"
+            },
+            {
+              "title": "Pass the Hash"
+            },
+            {
+              "title": "APT"
+            },
+            {
+              "title": "Directory Traversal"
+            }
+          ]
+        },
+        {
+          "title": "S/MIME"
+        },
+        {
+          "title": "Understand the following Terms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Antivirus"
+            },
+            {
+              "title": "Antimalware"
+            },
+            {
+              "title": "Firewall & Nextgen Firewall"
+            },
+            {
+              "title": "NIPS"
+            },
+            {
+              "title": "Host Based Firewall"
+            },
+            {
+              "title": "EAP vs PEAP"
+            },
+            {
+              "title": "WPS"
+            },
+            {
+              "title": "WPA vs WPA2 vs WPA3 vs WEP"
+            }
+          ]
+        },
+        {
+          "title": "Understand Hardening Concepts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MAC-based"
+            },
+            {
+              "title": "NAC-based"
+            },
+            {
+              "title": "Port Blocking"
+            },
+            {
+              "title": "Group Policy"
+            },
+            {
+              "title": "Sinkholes"
+            },
+            {
+              "title": "ACLs"
+            },
+            {
+              "title": "Patching"
+            },
+            {
+              "title": "Jump Server"
+            },
+            {
+              "title": "Endpoint Security"
+            }
+          ]
+        },
+        {
+          "title": "EDR"
+        },
+        {
+          "title": "HIPS"
+        },
+        {
+          "title": "Sandboxing"
         },
         {
           "title": "ACL"
         },
         {
-          "title": "EAP vs PEAP"
+          "title": "Understand Common Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VirusTotal"
+            },
+            {
+              "title": "urlscan"
+            },
+            {
+              "title": "any.run"
+            },
+            {
+              "title": "Joe Sandbox"
+            },
+            {
+              "title": "urlvoid"
+            },
+            {
+              "title": "WHOIS"
+            }
+          ]
         },
         {
-          "title": "WPS"
-        },
-        {
-          "title": "Jump Server"
-        },
-        {
-          "title": "Endpoint Security"
-        },
-        {
-          "title": "Replay Attack"
-        },
-        {
-          "title": "WPA vs WPA2 vs WPA3 vs WEP"
-        },
-        {
-          "title": "Rogue Access Point"
-        },
-        {
-          "title": "VirusTotal"
-        },
-        {
-          "title": "any.run"
-        },
-        {
-          "title": "urlscan"
-        },
-        {
-          "title": "Buffer Overflow"
-        },
-        {
-          "title": "Preparation"
-        },
-        {
-          "title": "Identification"
+          "title": "Understand the Incident Response Process",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Preparation"
+            },
+            {
+              "title": "Identification"
+            },
+            {
+              "title": "Eradication"
+            },
+            {
+              "title": "Recovery"
+            }
+          ]
         },
         {
           "title": "Containment"
         },
         {
-          "title": "Joe Sandbox"
-        },
-        {
-          "title": "urlvoid"
-        },
-        {
-          "title": "WHOIS"
-        },
-        {
-          "title": "Memory Leak"
-        },
-        {
-          "title": "Eradication"
-        },
-        {
-          "title": "Recovery"
-        },
-        {
           "title": "Lessons Learned"
         },
         {
-          "title": "Pass the Hash"
+          "title": "Understand Audience",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Stakeholders"
+            },
+            {
+              "title": "HR"
+            },
+            {
+              "title": "Legal"
+            },
+            {
+              "title": "Compliance"
+            },
+            {
+              "title": "Management"
+            }
+          ]
         },
         {
-          "title": "Stakeholders"
+          "title": "Understand Threat Classification",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Zero Day"
+            },
+            {
+              "title": "Known vs Unknown"
+            }
+          ]
         },
         {
-          "title": "HR"
-        },
-        {
-          "title": "Legal"
-        },
-        {
-          "title": "Zero Day"
-        },
-        {
-          "title": "Known vs Unknown"
-        },
-        {
-          "title": "APT"
-        },
-        {
-          "title": "Compliance"
-        },
-        {
-          "title": "Management"
-        },
-        {
-          "title": "Directory Traversal"
+          "title": "Understand Cloud Services",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SaaS"
+            },
+            {
+              "title": "PaaS"
+            },
+            {
+              "title": "IaaS"
+            }
+          ]
         },
         {
           "title": "Understand the Concept of Security in the Cloud"
         },
         {
-          "title": "SaaS"
-        },
-        {
-          "title": "PaaS"
-        },
-        {
-          "title": "IaaS"
-        },
-        {
           "title": "Understand the differences between cloud and on-premises"
+        },
+        {
+          "title": "Cloud Models",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Private"
+            },
+            {
+              "title": "Public"
+            },
+            {
+              "title": "Hybrid"
+            }
+          ]
         },
         {
           "title": "Understand the concept of Infrastructure as Code"
         },
         {
-          "title": "Private"
-        },
-        {
-          "title": "Public"
-        },
-        {
-          "title": "Hybrid"
-        },
-        {
           "title": "Understand the Concept of Serverless"
         },
         {
-          "title": "Understand the basics and general flow of deploying in the cloud"
+          "title": "Common Cloud Environments",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AWS"
+            },
+            {
+              "title": "GCP"
+            },
+            {
+              "title": "Azure"
+            }
+          ]
         },
         {
-          "title": "AWS"
-        },
-        {
-          "title": "GCP"
-        },
-        {
-          "title": "Azure"
-        },
-        {
-          "title": "S3"
-        },
-        {
-          "title": "Dropbox"
-        },
-        {
-          "title": "iCloud"
-        },
-        {
-          "title": "Box"
-        },
-        {
-          "title": "OneDrive"
-        },
-        {
-          "title": "Google Drive"
+          "title": "Common Cloud Storage",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "S3"
+            },
+            {
+              "title": "Dropbox"
+            },
+            {
+              "title": "iCloud"
+            },
+            {
+              "title": "Box"
+            },
+            {
+              "title": "OneDrive"
+            },
+            {
+              "title": "Google Drive"
+            }
+          ]
         }
       ]
     },
@@ -908,6 +1151,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Understand the basics and general flow of deploying in the cloud"
+        },
         {
           "title": "Python"
         },

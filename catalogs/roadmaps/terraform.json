@@ -53,7 +53,14 @@
       ]
     },
     {
-      "title": "Project Initialization"
+      "title": "Project Initialization",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Input Variables"
+        }
+      ]
     },
     {
       "title": "Resources",
@@ -73,16 +80,10 @@
           "title": "depends_on"
         },
         {
-          "title": "count"
+          "title": "Sensitive Data"
         },
         {
-          "title": "for_each"
-        },
-        {
-          "title": "provider"
-        },
-        {
-          "title": "lifecycle"
+          "title": "Versioning"
         }
       ]
     },
@@ -91,12 +92,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Output Syntax"
-        },
-        {
-          "title": "Sensitive Outputs"
-        },
         {
           "title": "Preconditions"
         }
@@ -107,9 +102,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Input Variables"
-        },
         {
           "title": "Type Constraints"
         },
@@ -144,16 +136,29 @@
       ]
     },
     {
-      "title": "State",
+      "title": "Best Practices for State",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Sensitive Data"
+          "title": "count"
         },
         {
-          "title": "Versioning"
+          "title": "for_each"
         },
+        {
+          "title": "provider"
+        },
+        {
+          "title": "lifecycle"
+        }
+      ]
+    },
+    {
+      "title": "State",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Splitting State Files"
         },
@@ -165,17 +170,46 @@
         },
         {
           "title": "Remote State"
+        },
+        {
+          "title": "State Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Published Modules Usage"
+            },
+            {
+              "title": "Creating Local Modules"
+            },
+            {
+              "title": "Inputs / Outputs"
+            },
+            {
+              "title": "Modules Best Practices"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Best Practices for State"
     },
     {
       "title": "Inspect / Modify State",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Getting Started",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Output Syntax"
+            },
+            {
+              "title": "Sensitive Outputs"
+            }
+          ]
+        },
         {
           "title": "graph"
         },
@@ -209,6 +243,16 @@
       ]
     },
     {
+      "title": "Clean Up",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "terraform destroy"
+        }
+      ]
+    },
+    {
       "title": "Deployment",
       "importance": 50,
       "completion_threshold": 60,
@@ -222,34 +266,12 @@
       ]
     },
     {
-      "title": "Clean Up",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "terraform destroy"
-        }
-      ]
-    },
-    {
       "title": "Modules",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
           "title": "Root vs Child Modules"
-        },
-        {
-          "title": "Published Modules Usage"
-        },
-        {
-          "title": "Creating Local Modules"
-        },
-        {
-          "title": "Inputs / Outputs"
-        },
-        {
-          "title": "Modules Best Practices"
         }
       ]
     },
@@ -285,9 +307,6 @@
       "title": "Template Files"
     },
     {
-      "title": "Workspaces"
-    },
-    {
       "title": "CI / CD Integration",
       "importance": 50,
       "completion_threshold": 60,
@@ -303,6 +322,41 @@
         },
         {
           "title": "Jenkins"
+        }
+      ]
+    },
+    {
+      "title": "Workspaces"
+    },
+    {
+      "title": "Scaling Terraform",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Basic / Advanced Commands",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Version Management"
+            }
+          ]
+        },
+        {
+          "title": "Splitting Large State"
+        },
+        {
+          "title": "Parallelism"
+        },
+        {
+          "title": "Deployment Workflow"
+        },
+        {
+          "title": "Terragrunt"
+        },
+        {
+          "title": "Infracost"
         }
       ]
     },
@@ -325,31 +379,6 @@
         },
         {
           "title": "Testing Modules"
-        }
-      ]
-    },
-    {
-      "title": "Scaling Terraform",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Splitting Large State"
-        },
-        {
-          "title": "Parallelism"
-        },
-        {
-          "title": "Deployment Workflow"
-        },
-        {
-          "title": "Version Management"
-        },
-        {
-          "title": "Terragrunt"
-        },
-        {
-          "title": "Infracost"
         }
       ]
     },

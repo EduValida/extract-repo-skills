@@ -33,6 +33,25 @@
         },
         {
           "title": "LAMP"
+        },
+        {
+          "title": "Local Server",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "if/else"
+            },
+            {
+              "title": "switch"
+            },
+            {
+              "title": "match"
+            },
+            {
+              "title": "Null Coalescing Operator"
+            }
+          ]
         }
       ]
     },
@@ -42,16 +61,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Basic PHP Syntax"
-        },
-        {
-          "title": "Variables and Scope"
-        },
-        {
-          "title": "Data Types"
-        },
-        {
-          "title": "Casting Data Types"
+          "title": "Learn the Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Basic PHP Syntax"
+            },
+            {
+              "title": "Variables and Scope"
+            },
+            {
+              "title": "Data Types"
+            },
+            {
+              "title": "Casting Data Types"
+            },
+            {
+              "title": "Associative Arrays"
+            },
+            {
+              "title": "Multi-dimensional Arrays"
+            }
+          ]
         },
         {
           "title": "echo"
@@ -60,22 +92,20 @@
           "title": "print"
         },
         {
-          "title": "var_dump"
-        },
-        {
           "title": "print_r"
         },
         {
           "title": "Indexed Arrays"
         },
         {
-          "title": "Associative Arrays"
-        },
-        {
-          "title": "Constants"
-        },
-        {
-          "title": "Multi-dimensional Arrays"
+          "title": "Output and Debugging",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Constants"
+            }
+          ]
         }
       ]
     },
@@ -85,38 +115,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "if/else"
-        },
-        {
-          "title": "switch"
-        },
-        {
-          "title": "match"
-        },
-        {
-          "title": "Null Coalescing Operator"
-        },
-        {
           "title": "Null Safe Operator"
-        }
-      ]
-    },
-    {
-      "title": "Loops",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "require"
-        },
-        {
-          "title": "require_once"
-        },
-        {
-          "title": "include"
-        },
-        {
-          "title": "include_once"
         }
       ]
     },
@@ -155,10 +154,95 @@
       ]
     },
     {
+      "title": "Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "File Handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "require"
+            },
+            {
+              "title": "require_once"
+            },
+            {
+              "title": "include"
+            },
+            {
+              "title": "include_once"
+            }
+          ]
+        },
+        {
+          "title": "Include and Require Files",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Reading Files"
+            },
+            {
+              "title": "Writing Files"
+            },
+            {
+              "title": "File Permissions"
+            }
+          ]
+        },
+        {
+          "title": "More OOP Concepts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Polymorphism"
+            },
+            {
+              "title": "Abstract classes"
+            },
+            {
+              "title": "Interfaces"
+            },
+            {
+              "title": "Traits"
+            },
+            {
+              "title": "Namespaces"
+            },
+            {
+              "title": "Magic methods"
+            },
+            {
+              "title": "Dependency injection"
+            },
+            {
+              "title": "Composer"
+            },
+            {
+              "title": "Type Declarations"
+            },
+            {
+              "title": "Packagist"
+            },
+            {
+              "title": "Autoloading"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "HTTP Methods",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "var_dump"
+        },
         {
           "title": "$_GET"
         },
@@ -182,22 +266,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Reading Files"
-        },
-        {
           "title": "CSV Processing"
-        },
-        {
-          "title": "Writing Files"
         },
         {
           "title": "JSON Processing"
         },
         {
-          "title": "File Permissions"
+          "title": "XML Processing"
         },
         {
-          "title": "XML Processing"
+          "title": "File Operations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SQL Injection"
+            },
+            {
+              "title": "CSRF Protection"
+            },
+            {
+              "title": "Auth Mechanisms"
+            }
+          ]
         },
         {
           "title": "Cookies"
@@ -209,37 +300,13 @@
           "title": "Input Validation"
         },
         {
-          "title": "SQL Injection"
-        },
-        {
-          "title": "CSRF Protection"
-        },
-        {
           "title": "XSS Prevention"
-        },
-        {
-          "title": "Object-Relational Mapping (ORM)"
-        },
-        {
-          "title": "Auth Mechanisms"
         },
         {
           "title": "Password Hashing"
         },
         {
-          "title": "Database Transactions"
-        },
-        {
           "title": "Sanitization Techniques"
-        },
-        {
-          "title": "Connection Pooling"
-        },
-        {
-          "title": "Performance Optimization"
-        },
-        {
-          "title": "Database Migrations"
         }
       ]
     },
@@ -249,10 +316,17 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "PDO"
-        },
-        {
-          "title": "MySQLi"
+          "title": "HTTP / Request Handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PDO"
+            },
+            {
+              "title": "MySQLi"
+            }
+          ]
         }
       ]
     },
@@ -261,6 +335,28 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Working with Databases",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Object-Relational Mapping (ORM)"
+            },
+            {
+              "title": "Database Transactions"
+            },
+            {
+              "title": "Connection Pooling"
+            },
+            {
+              "title": "Performance Optimization"
+            },
+            {
+              "title": "Database Migrations"
+            }
+          ]
+        },
         {
           "title": "Classes and Objects"
         },
@@ -277,31 +373,7 @@
           "title": "Static Methods and Properties"
         },
         {
-          "title": "Polymorphism"
-        },
-        {
           "title": "Inheritance"
-        },
-        {
-          "title": "Abstract classes"
-        },
-        {
-          "title": "Interfaces"
-        },
-        {
-          "title": "Traits"
-        },
-        {
-          "title": "Namespaces"
-        },
-        {
-          "title": "Magic methods"
-        },
-        {
-          "title": "Dependency injection"
-        },
-        {
-          "title": "Type Declarations"
         }
       ]
     },
@@ -314,59 +386,29 @@
           "title": "PSR Standards"
         },
         {
-          "title": "Profiling Techniques"
-        },
-        {
-          "title": "Caching Strategies"
-        },
-        {
-          "title": "Memory Management"
-        },
-        {
-          "title": "Configuration Tuning"
-        },
-        {
-          "title": "Opcode Caching"
-        },
-        {
-          "title": "PHP-FPM"
-        }
-      ]
-    },
-    {
-      "title": "Style Tools",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Yii"
-        },
-        {
-          "title": "Symfony"
-        },
-        {
-          "title": "PHPUnit"
-        },
-        {
-          "title": "Pest"
-        },
-        {
-          "title": "PHPCodeSniffer"
-        },
-        {
-          "title": "PHP CS Fixer"
-        },
-        {
-          "title": "Xdebug"
-        },
-        {
-          "title": "Zend Debugger"
-        },
-        {
-          "title": "Apache"
-        },
-        {
-          "title": "Nginx"
+          "title": "Advanced PHP Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Profiling Techniques"
+            },
+            {
+              "title": "Caching Strategies"
+            },
+            {
+              "title": "Memory Management"
+            },
+            {
+              "title": "Configuration Tuning"
+            },
+            {
+              "title": "Opcode Caching"
+            },
+            {
+              "title": "PHP-FPM"
+            }
+          ]
         }
       ]
     },
@@ -376,28 +418,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Composer"
-        },
-        {
-          "title": "Packagist"
-        },
-        {
-          "title": "Autoloading"
-        },
-        {
-          "title": "cURL"
-        },
-        {
-          "title": "Guzzle"
+          "title": "External Integrations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "cURL"
+            },
+            {
+              "title": "Guzzle"
+            }
+          ]
         },
         {
           "title": "PHPStan"
         },
         {
           "title": "Psalm"
-        },
-        {
-          "title": "Phan"
         },
         {
           "title": "Executing System Commands"
@@ -410,6 +447,74 @@
         },
         {
           "title": "Configuration Files"
+        }
+      ]
+    },
+    {
+      "title": "Style Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Frameworks & Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Yii"
+            },
+            {
+              "title": "Symfony"
+            }
+          ]
+        },
+        {
+          "title": "Popular Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PHPUnit"
+            },
+            {
+              "title": "Pest"
+            }
+          ]
+        },
+        {
+          "title": "Testing Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PHPCodeSniffer"
+            },
+            {
+              "title": "PHP CS Fixer"
+            },
+            {
+              "title": "Phan"
+            }
+          ]
+        },
+        {
+          "title": "Xdebug"
+        },
+        {
+          "title": "Zend Debugger"
+        },
+        {
+          "title": "Debugging Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Apache"
+            },
+            {
+              "title": "Nginx"
+            }
+          ]
         }
       ]
     }

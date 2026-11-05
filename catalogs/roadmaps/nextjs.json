@@ -2,6 +2,28 @@
   "title": "Next.js",
   "topics": [
     {
+      "title": "React Frameworks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Why Next.js"
+        },
+        {
+          "title": "Next.js"
+        },
+        {
+          "title": "Remix"
+        },
+        {
+          "title": "SSR"
+        },
+        {
+          "title": "SPA"
+        }
+      ]
+    },
+    {
       "title": "Introduction",
       "importance": 50,
       "completion_threshold": 60,
@@ -21,60 +43,75 @@
       ]
     },
     {
-      "title": "React Frameworks",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Why Next.js"
-        },
-        {
-          "title": "Next.js"
-        },
-        {
-          "title": "Remix"
-        },
-        {
-          "title": "SSR"
-        },
-        {
-          "title": "SPA"
-        },
-        {
-          "title": "CSR"
-        },
-        {
-          "title": "SSG"
-        }
-      ]
-    },
-    {
       "title": "create-next-app"
     },
     {
       "title": "Next.js Routing Basics"
     },
     {
-      "title": "Rendering Strategies"
-    },
-    {
-      "title": "Types of routers",
+      "title": "Rendering Strategies",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Pages"
+          "title": "CSR"
         },
         {
-          "title": "App"
+          "title": "SSG"
         },
         {
-          "title": "Why use App Router?"
+          "title": "Rendering",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Images"
+            },
+            {
+              "title": "Videos"
+            },
+            {
+              "title": "Fonts"
+            },
+            {
+              "title": "Metadata"
+            },
+            {
+              "title": "Package Bundling"
+            },
+            {
+              "title": "Lazy Loading"
+            },
+            {
+              "title": "Analytics"
+            },
+            {
+              "title": "Instrumentation"
+            },
+            {
+              "title": "OpenTelemetry"
+            },
+            {
+              "title": "Static Assets"
+            },
+            {
+              "title": "Scripts"
+            },
+            {
+              "title": "Third Party Libraries"
+            },
+            {
+              "title": "Memory Usage"
+            }
+          ]
         }
       ]
     },
     {
       "title": "Routing Terminology"
+    },
+    {
+      "title": "Types of routers"
     },
     {
       "title": "Rendering Pages"
@@ -86,13 +123,26 @@
       "title": "Loading and Streaming"
     },
     {
-      "title": "Error States"
-    },
-    {
       "title": "Routing Patterns",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Routing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Pages"
+            },
+            {
+              "title": "App"
+            },
+            {
+              "title": "Why use App Router?"
+            }
+          ]
+        },
         {
           "title": "Parallel Routes"
         },
@@ -100,6 +150,9 @@
           "title": "Intercepting Routes"
         }
       ]
+    },
+    {
+      "title": "Error States"
     },
     {
       "title": "API Endpoints",
@@ -159,6 +212,29 @@
       ]
     },
     {
+      "title": "Handling Sensitive Data"
+    },
+    {
+      "title": "Data Fetching Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Working with data",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Preloading Data"
+            }
+          ]
+        },
+        {
+          "title": "Parallel vs Sequential"
+        }
+      ]
+    },
+    {
       "title": "Caching Data",
       "importance": 50,
       "completion_threshold": 60,
@@ -168,26 +244,17 @@
         },
         {
           "title": "React Cache"
-        },
-        {
-          "title": "Revalidating Cached Data"
-        },
-        {
-          "title": "Revalidation Errors"
         }
       ]
     },
     {
-      "title": "Data Fetching Patterns",
+      "title": "Server Actions"
+    },
+    {
+      "title": "Runtimes and Types",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Parallel vs Sequential"
-        },
-        {
-          "title": "Preloading Data"
-        },
         {
           "title": "Node.js"
         },
@@ -195,15 +262,6 @@
           "title": "Edge"
         }
       ]
-    },
-    {
-      "title": "Handling Sensitive Data"
-    },
-    {
-      "title": "Server Actions"
-    },
-    {
-      "title": "Runtimes and Types"
     },
     {
       "title": "Client Rendered"
@@ -217,67 +275,34 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "CSS Modules"
+          "title": "Revalidating Cached Data"
         },
         {
-          "title": "Tailwind CSS"
+          "title": "Revalidation Errors"
         },
         {
-          "title": "Sass"
-        },
-        {
-          "title": "CSS in JS"
-        },
-        {
-          "title": "TypeScript"
+          "title": "Ways to Write CSS",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CSS Modules"
+            },
+            {
+              "title": "Tailwind CSS"
+            },
+            {
+              "title": "Sass"
+            },
+            {
+              "title": "CSS in JS"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Composition",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Images"
-        },
-        {
-          "title": "Videos"
-        },
-        {
-          "title": "Fonts"
-        },
-        {
-          "title": "Metadata"
-        },
-        {
-          "title": "Package Bundling"
-        },
-        {
-          "title": "Lazy Loading"
-        },
-        {
-          "title": "Analytics"
-        },
-        {
-          "title": "Instrumentation"
-        },
-        {
-          "title": "OpenTelemetry"
-        },
-        {
-          "title": "Static Assets"
-        },
-        {
-          "title": "Scripts"
-        },
-        {
-          "title": "Third Party Libraries"
-        },
-        {
-          "title": "Memory Usage"
-        }
-      ]
+      "title": "Composition"
     },
     {
       "title": "Setting things Up",
@@ -285,10 +310,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Prettier"
+          "title": "TypeScript"
         },
         {
           "title": "ESLint"
+        },
+        {
+          "title": "Prettier"
         }
       ]
     },
@@ -299,26 +327,33 @@
       "title": "Markdown and MDX"
     },
     {
+      "title": "Preparing for Production"
+    },
+    {
       "title": "Custom Server",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Vitest"
-        },
-        {
-          "title": "Jest"
-        },
-        {
-          "title": "Playwright"
-        },
-        {
-          "title": "Cypress"
+          "title": "Testing Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Vitest"
+            },
+            {
+              "title": "Jest"
+            },
+            {
+              "title": "Playwright"
+            },
+            {
+              "title": "Cypress"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Preparing for Production"
     },
     {
       "title": "Deployment Options",

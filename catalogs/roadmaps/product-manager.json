@@ -38,12 +38,6 @@
         },
         {
           "title": "Mind Mapping"
-        },
-        {
-          "title": "Brainwriting"
-        },
-        {
-          "title": "SCAMPER"
         }
       ]
     },
@@ -52,6 +46,25 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Brainwriting"
+        },
+        {
+          "title": "Idea Generation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "TRIZ (Theory of Inventive Problem Solving)"
+            },
+            {
+              "title": "Problem Framing"
+            }
+          ]
+        },
+        {
+          "title": "SCAMPER"
+        },
         {
           "title": "Brainstorming Techniques"
         },
@@ -68,13 +81,7 @@
           "title": "Discovery"
         },
         {
-          "title": "TRIZ (Theory of Inventive Problem Solving)"
-        },
-        {
           "title": "Validation"
-        },
-        {
-          "title": "Problem Framing"
         },
         {
           "title": "Execution"
@@ -166,9 +173,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Feature Creep"
-        },
-        {
           "title": "Finding Balance"
         }
       ]
@@ -217,16 +221,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Target"
-        },
-        {
-          "title": "Baseline"
-        },
-        {
-          "title": "Trend"
-        },
-        {
-          "title": "Timeframe"
+          "title": "Goal Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Target"
+            },
+            {
+              "title": "Baseline"
+            },
+            {
+              "title": "Trend"
+            },
+            {
+              "title": "Timeframe"
+            }
+          ]
         }
       ]
     },
@@ -235,6 +246,19 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Product Planning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prioritization Techniques"
+            },
+            {
+              "title": "Grooming Sessions"
+            }
+          ]
+        },
         {
           "title": "Writing PRDs"
         },
@@ -274,12 +298,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Prioritization Techniques"
-        },
-        {
-          "title": "Grooming Sessions"
-        },
-        {
           "title": "User Story Mapping"
         }
       ]
@@ -294,9 +312,6 @@
         },
         {
           "title": "Phased Rollouts"
-        },
-        {
-          "title": "Dark Launches"
         }
       ]
     },
@@ -328,13 +343,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Dark Launches"
+        },
+        {
           "title": "Launch Planning"
         },
         {
           "title": "Marketing Strategies"
-        },
-        {
-          "title": "Growth Hacking"
         }
       ]
     },
@@ -351,9 +366,6 @@
         },
         {
           "title": "Remote User Testing"
-        },
-        {
-          "title": "Scrum Basics"
         }
       ]
     },
@@ -362,6 +374,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Growth Hacking"
+        },
         {
           "title": "Sprint Planning"
         },
@@ -381,6 +396,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Scrum Basics"
+        },
         {
           "title": "Kanban Basics"
         }
@@ -434,7 +452,33 @@
       ]
     },
     {
-      "title": "Feedback Loops"
+      "title": "Feedback Loops",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Development and Launch",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Interpersonal"
+            },
+            {
+              "title": "Communication Techniques"
+            },
+            {
+              "title": "Difficult Conversations"
+            },
+            {
+              "title": "Active Listening"
+            },
+            {
+              "title": "Conflict Resolution"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Communication Skills",
@@ -442,19 +486,14 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Interpersonal"
-        },
-        {
-          "title": "Communication Techniques"
-        },
-        {
-          "title": "Difficult Conversations"
-        },
-        {
-          "title": "Active Listening"
-        },
-        {
-          "title": "Conflict Resolution"
+          "title": "Defining & Communicating",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Feature Creep"
+            }
+          ]
         }
       ]
     },
@@ -556,23 +595,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Risk Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Growth Strategies"
+            },
+            {
+              "title": "Internationalization"
+            }
+          ]
+        },
+        {
           "title": "Risk Identification Techniques"
         },
         {
           "title": "Risk Register"
-        }
-      ]
-    },
-    {
-      "title": "Risk Assessment",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Qualitative Risk Assessment"
-        },
-        {
-          "title": "Quantitative Risk Assessment"
         }
       ]
     },
@@ -586,6 +625,19 @@
         },
         {
           "title": "Contingency Planning"
+        }
+      ]
+    },
+    {
+      "title": "Risk Assessment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Qualitative Risk Assessment"
+        },
+        {
+          "title": "Quantitative Risk Assessment"
         }
       ]
     },
@@ -607,12 +659,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Growth Strategies"
-        },
-        {
-          "title": "Internationalization"
-        },
         {
           "title": "Platform Thinking"
         }

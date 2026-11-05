@@ -20,6 +20,16 @@
         },
         {
           "title": "JavaScript / Node.js"
+        },
+        {
+          "title": "Scripting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bash"
+            }
+          ]
         }
       ]
     },
@@ -32,22 +42,29 @@
           "title": "Windows"
         },
         {
-          "title": "FreeBSD"
-        },
-        {
-          "title": "Ubuntu / Debian"
-        },
-        {
-          "title": "OpenBSD"
-        },
-        {
-          "title": "SUSE Linux"
-        },
-        {
-          "title": "NetBSD"
-        },
-        {
-          "title": "RHEL / Derivatives"
+          "title": "Unix",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "FreeBSD"
+            },
+            {
+              "title": "Ubuntu / Debian"
+            },
+            {
+              "title": "OpenBSD"
+            },
+            {
+              "title": "SUSE Linux"
+            },
+            {
+              "title": "NetBSD"
+            },
+            {
+              "title": "RHEL / Derivatives"
+            }
+          ]
         }
       ]
     },
@@ -56,9 +73,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Bash"
-        },
         {
           "title": "Power Shell"
         },
@@ -76,15 +90,6 @@
         },
         {
           "title": "Vim / Nano /  Emacs"
-        },
-        {
-          "title": "Forward Proxy"
-        },
-        {
-          "title": "Reverse Proxy"
-        },
-        {
-          "title": "Caching Server"
         }
       ]
     },
@@ -136,15 +141,44 @@
       ]
     },
     {
+      "title": "Containers",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "LXC"
+        }
+      ]
+    },
+    {
       "title": "What is and how to setup X ?",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Firewall"
+          "title": "Editors",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Forward Proxy"
+            },
+            {
+              "title": "Caching Server"
+            },
+            {
+              "title": "Docker"
+            },
+            {
+              "title": "Load Balancer"
+            }
+          ]
         },
         {
-          "title": "Load Balancer"
+          "title": "Reverse Proxy"
+        },
+        {
+          "title": "Firewall"
         },
         {
           "title": "Nginx"
@@ -159,20 +193,29 @@
           "title": "Apache"
         },
         {
-          "title": "IIS"
-        }
-      ]
-    },
-    {
-      "title": "Containers",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Docker"
-        },
-        {
-          "title": "LXC"
+          "title": "Web Server",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "AWS Lambda"
+            },
+            {
+              "title": "Cloudflare"
+            },
+            {
+              "title": "Azure Functions"
+            },
+            {
+              "title": "Vercel"
+            },
+            {
+              "title": "Netlify"
+            },
+            {
+              "title": "GCP Functions"
+            }
+          ]
         }
       ]
     },
@@ -224,10 +267,38 @@
           "title": "Domain Keys"
         },
         {
-          "title": "Alibaba Cloud"
-        },
-        {
-          "title": "Heroku"
+          "title": "Email Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Papertrail"
+            },
+            {
+              "title": "Chef"
+            },
+            {
+              "title": "Splunk"
+            },
+            {
+              "title": "Salt"
+            },
+            {
+              "title": "Loki"
+            },
+            {
+              "title": "Elastic Stack"
+            },
+            {
+              "title": "Railway"
+            },
+            {
+              "title": "TeamCity"
+            },
+            {
+              "title": "GitLab CI"
+            }
+          ]
         }
       ]
     },
@@ -237,22 +308,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "AWS Lambda"
+          "title": "IIS"
+        }
+      ]
+    },
+    {
+      "title": "Configuration Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Alibaba Cloud"
         },
         {
-          "title": "Cloudflare"
+          "title": "Heroku"
         },
         {
-          "title": "Azure Functions"
+          "title": "Ansible"
         },
         {
-          "title": "Vercel"
-        },
-        {
-          "title": "Netlify"
-        },
-        {
-          "title": "GCP Functions"
+          "title": "Puppet"
         }
       ]
     },
@@ -269,28 +344,6 @@
         },
         {
           "title": "Pulumi"
-        },
-        {
-          "title": "Terraform"
-        }
-      ]
-    },
-    {
-      "title": "Configuration Management",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Ansible"
-        },
-        {
-          "title": "Chef"
-        },
-        {
-          "title": "Puppet"
-        },
-        {
-          "title": "Salt"
         }
       ]
     },
@@ -303,19 +356,13 @@
           "title": "Buildkite"
         },
         {
-          "title": "Railway"
-        },
-        {
           "title": "Jenkins"
-        },
-        {
-          "title": "TeamCity"
         },
         {
           "title": "Circle CI"
         },
         {
-          "title": "GitLab CI"
+          "title": "Terraform"
         },
         {
           "title": "Octopus Deploy"
@@ -331,41 +378,7 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Papertrail"
-        },
-        {
-          "title": "Splunk"
-        },
-        {
-          "title": "Loki"
-        },
-        {
-          "title": "Elastic Stack"
-        },
-        {
           "title": "Graylog"
-        }
-      ]
-    },
-    {
-      "title": "Secret Management",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Sealed Secrets"
-        },
-        {
-          "title": "ESO"
-        },
-        {
-          "title": "Vault"
-        },
-        {
-          "title": "SOPs"
-        },
-        {
-          "title": "Cloud Specific Tools"
         }
       ]
     },
@@ -379,12 +392,25 @@
         },
         {
           "title": "Grafana"
+        }
+      ]
+    },
+    {
+      "title": "Secret Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Sealed Secrets"
         },
         {
-          "title": "Zabbix"
+          "title": "Vault"
         },
         {
-          "title": "Datadog"
+          "title": "Cloud Specific Tools"
+        },
+        {
+          "title": "Artifactory"
         }
       ]
     },
@@ -411,13 +437,35 @@
       ]
     },
     {
-      "title": "Artifact Management",
+      "title": "Observability",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Artifactory"
+          "title": "Zabbix"
         },
+        {
+          "title": "Datadog"
+        },
+        {
+          "title": "Jaeger"
+        },
+        {
+          "title": "New Relic"
+        },
+        {
+          "title": "Datadog (2)"
+        },
+        {
+          "title": "Prometheus"
+        }
+      ]
+    },
+    {
+      "title": "Artifact Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Nexus"
         },
@@ -432,35 +480,16 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "ESO"
+        },
+        {
+          "title": "SOPs"
+        },
+        {
           "title": "ArgoCD"
         },
         {
           "title": "FluxCD"
-        }
-      ]
-    },
-    {
-      "title": "Observability",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Jaeger"
-        },
-        {
-          "title": "New Relic"
-        },
-        {
-          "title": "Datadog"
-        },
-        {
-          "title": "Prometheus"
-        },
-        {
-          "title": "OpenTelemetry"
-        },
-        {
-          "title": "Dynatrace"
         }
       ]
     },
@@ -488,6 +517,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "OpenTelemetry"
+        },
+        {
+          "title": "Dynatrace"
+        },
         {
           "title": "Availability"
         },

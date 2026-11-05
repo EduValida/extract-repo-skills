@@ -29,16 +29,23 @@
           "title": "CSS Basics"
         },
         {
-          "title": "Components"
-        },
-        {
-          "title": "JSX"
-        },
-        {
-          "title": "State"
-        },
-        {
-          "title": "Props"
+          "title": "React Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JSX"
+            },
+            {
+              "title": "Components"
+            },
+            {
+              "title": "State"
+            },
+            {
+              "title": "Props"
+            }
+          ]
         }
       ]
     },
@@ -55,15 +62,6 @@
         },
         {
           "title": "Expo"
-        },
-        {
-          "title": "create-expo-app"
-        },
-        {
-          "title": "Expo Snack"
-        },
-        {
-          "title": "Expo Tradeoffs"
         }
       ]
     },
@@ -73,31 +71,38 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "create-expo-app"
+        },
+        {
+          "title": "Expo Snack"
+        },
+        {
           "title": "Running on Device"
         },
         {
-          "title": "In-App Developer Menu"
+          "title": "Expo Tradeoffs"
         },
         {
-          "title": "SafeAreaView"
-        },
-        {
-          "title": "Enabling Fast Refresh"
-        },
-        {
-          "title": "View"
-        },
-        {
-          "title": "KeyboardAvoidingView"
-        },
-        {
-          "title": "LogBox"
-        },
-        {
-          "title": "Sourcemaps"
-        },
-        {
-          "title": "DevTools"
+          "title": "Debugging",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "In-App Developer Menu"
+            },
+            {
+              "title": "Enabling Fast Refresh"
+            },
+            {
+              "title": "LogBox"
+            },
+            {
+              "title": "Sourcemaps"
+            },
+            {
+              "title": "DevTools"
+            }
+          ]
         }
       ]
     },
@@ -107,13 +112,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Text Input"
+          "title": "View",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SafeAreaView"
+            },
+            {
+              "title": "KeyboardAvoidingView"
+            }
+          ]
         },
         {
           "title": "Text"
-        },
-        {
-          "title": "Image"
         },
         {
           "title": "Button"
@@ -122,22 +134,13 @@
           "title": "Listings"
         },
         {
-          "title": "Switch"
-        },
-        {
           "title": "ImageBackground"
         },
         {
           "title": "ActivityIndicator"
         },
         {
-          "title": "StatusBar"
-        },
-        {
           "title": "Modal"
-        },
-        {
-          "title": "Pressable"
         }
       ]
     },
@@ -166,9 +169,6 @@
         },
         {
           "title": "File Extensions"
-        },
-        {
-          "title": "react-native-web"
         }
       ]
     },
@@ -178,11 +178,58 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Text Input"
+        },
+        {
+          "title": "Image"
+        },
+        {
+          "title": "Switch"
+        },
+        {
+          "title": "StatusBar"
+        },
+        {
+          "title": "Pressable"
+        },
+        {
           "title": "Stylesheets"
         },
         {
           "title": "Layouts & Flexbox"
+        }
+      ]
+    },
+    {
+      "title": "Interactions",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Touchables"
         },
+        {
+          "title": "react-native-web"
+        },
+        {
+          "title": "Gesture Handling"
+        },
+        {
+          "title": "Scrolling & Swiping"
+        },
+        {
+          "title": "Screen Navigation"
+        },
+        {
+          "title": "Animations"
+        }
+      ]
+    },
+    {
+      "title": "Push Notifications",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Accessibility"
         }
@@ -201,31 +248,6 @@
         },
         {
           "title": "Fetch"
-        }
-      ]
-    },
-    {
-      "title": "Push Notifications"
-    },
-    {
-      "title": "Interactions",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Touchables"
-        },
-        {
-          "title": "Gesture Handling"
-        },
-        {
-          "title": "Scrolling & Swiping"
-        },
-        {
-          "title": "Screen Navigation"
-        },
-        {
-          "title": "Animations"
         }
       ]
     },
@@ -250,19 +272,26 @@
           "title": "Storage"
         },
         {
+          "title": "Expo Ecosystem",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "expo-secure-store"
+            },
+            {
+              "title": "expo-file-system"
+            },
+            {
+              "title": "expo-sqlite"
+            },
+            {
+              "title": "Other Storage Options"
+            }
+          ]
+        },
+        {
           "title": "Permissions"
-        },
-        {
-          "title": "expo-secure-store"
-        },
-        {
-          "title": "expo-file-system"
-        },
-        {
-          "title": "expo-sqlite"
-        },
-        {
-          "title": "Other Storage Options"
         }
       ]
     },
@@ -282,16 +311,36 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "React Native Testing Library"
+          "title": "E2E Testing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "React Native Testing Library"
+            },
+            {
+              "title": "Detox"
+            },
+            {
+              "title": "React Test Renderer"
+            },
+            {
+              "title": "Appium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Using Native Modules",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "For iOS"
         },
         {
-          "title": "Detox"
-        },
-        {
-          "title": "React Test Renderer"
-        },
-        {
-          "title": "Appium"
+          "title": "For Android"
         }
       ]
     },
@@ -317,19 +366,6 @@
         },
         {
           "title": "Profiling"
-        }
-      ]
-    },
-    {
-      "title": "Using Native Modules",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "For iOS"
-        },
-        {
-          "title": "For Android"
         }
       ]
     },

@@ -64,9 +64,6 @@
         },
         {
           "title": "Operation Name"
-        },
-        {
-          "title": "Type System"
         }
       ]
     },
@@ -75,6 +72,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Type System"
+        },
         {
           "title": "What are Subscriptions"
         },
@@ -117,10 +117,10 @@
           "title": "Root Fields"
         },
         {
-          "title": "Interfaces"
+          "title": "Lists"
         },
         {
-          "title": "Lists"
+          "title": "Interfaces"
         },
         {
           "title": "Resolvers"
@@ -130,24 +130,6 @@
         },
         {
           "title": "Arguments"
-        },
-        {
-          "title": "Synchronous"
-        },
-        {
-          "title": "Asynchronous"
-        },
-        {
-          "title": "Scalar Coercion"
-        },
-        {
-          "title": "Lists (2)"
-        },
-        {
-          "title": "Validation"
-        },
-        {
-          "title": "Producing the Result"
         }
       ]
     },
@@ -157,21 +139,47 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "GraphQL Over HTTP Spec"
+          "title": "Synchronous"
         },
         {
-          "title": "Caching"
+          "title": "Asynchronous"
         },
         {
-          "title": "Batching"
+          "title": "GraphQL Over HTTP",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL Over HTTP Spec"
+            },
+            {
+              "title": "Caching"
+            },
+            {
+              "title": "Batching"
+            },
+            {
+              "title": "Authorization"
+            }
+          ]
         },
         {
-          "title": "Authorization"
+          "title": "Scalar Coercion"
         }
       ]
     },
     {
-      "title": "Serving over Internet"
+      "title": "Serving over Internet",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Validation"
+        }
+      ]
     },
     {
       "title": "Pagination",
@@ -179,55 +187,114 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Specification"
+          "title": "Producing the Result"
         },
         {
-          "title": "Realtime"
+          "title": "GraphQL Over WebSockets",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Specification"
+            },
+            {
+              "title": "Realtime"
+            },
+            {
+              "title": "Authorization"
+            }
+          ]
         },
         {
-          "title": "Authorization"
+          "title": "Go Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL Go"
+            }
+          ]
         },
         {
-          "title": "GraphQL Go"
+          "title": "GraphQL Over SSE",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Specification"
+            },
+            {
+              "title": "Authorization"
+            }
+          ]
         },
         {
-          "title": "Specification (2)"
+          "title": "JavaScript Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL.js"
+            }
+          ]
         },
         {
-          "title": "GraphQL.js"
+          "title": "Java Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GraphQL Java"
+            }
+          ]
         },
         {
-          "title": "Authorization (2)"
+          "title": "Python Implementation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Graphene"
+            }
+          ]
         },
         {
-          "title": "GraphQL Java"
+          "title": "JavaScript",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "graphql-http"
+            },
+            {
+              "title": "GraphQL Yoga"
+            },
+            {
+              "title": "Apollo Server"
+            },
+            {
+              "title": "mercurius"
+            }
+          ]
         },
         {
-          "title": "Graphene"
-        },
-        {
-          "title": "graphql-http"
-        },
-        {
-          "title": "GraphQL Yoga"
-        },
-        {
-          "title": "Apollo Server"
-        },
-        {
-          "title": "graphql-http (2)"
-        },
-        {
-          "title": "mercurius"
-        },
-        {
-          "title": "Relay"
-        },
-        {
-          "title": "Apollo Client"
-        },
-        {
-          "title": "Urql"
+          "title": "JavaScript (2)",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "graphql-http"
+            },
+            {
+              "title": "Relay"
+            },
+            {
+              "title": "Apollo Client"
+            },
+            {
+              "title": "Urql"
+            }
+          ]
         }
       ]
     }

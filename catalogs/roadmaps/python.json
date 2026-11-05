@@ -13,9 +13,6 @@
           "title": "Tuples"
         },
         {
-          "title": "Sets"
-        },
-        {
           "title": "Basic Syntax"
         },
         {
@@ -28,10 +25,10 @@
           "title": "Type Casting"
         },
         {
-          "title": "@"
+          "title": "Operators"
         },
         {
-          "title": "Operators"
+          "title": "@"
         },
         {
           "title": "Functions, Builtin Functions"
@@ -49,9 +46,6 @@
           "title": "Comments"
         },
         {
-          "title": "Type Annot."
-        },
-        {
           "title": "Loops"
         }
       ]
@@ -62,37 +56,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "PyPI"
-        },
-        {
-          "title": "Pip"
-        },
-        {
-          "title": "Conda"
-        },
-        {
-          "title": "uv"
-        },
-        {
           "title": "Arrays and Linked Lists"
-        },
-        {
-          "title": "pdm"
         },
         {
           "title": "HashMaps"
         },
         {
           "title": "Heaps, Stacks and Queues"
-        },
-        {
-          "title": "Binary Search Tree"
-        },
-        {
-          "title": "Recursion"
-        },
-        {
-          "title": "Sorting Algorithms"
         }
       ]
     },
@@ -101,6 +71,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Sets"
+        },
+        {
+          "title": "Type Annot."
+        },
         {
           "title": "Builtin"
         },
@@ -124,7 +100,22 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "PyPI"
+        },
+        {
+          "title": "Pip"
+        },
+        {
+          "title": "Conda"
+        },
+        {
+          "title": "uv"
+        },
+        {
           "title": "Poetry"
+        },
+        {
+          "title": "pdm"
         }
       ]
     },
@@ -138,6 +129,25 @@
       "children": [
         {
           "title": "pyproject.toml"
+        },
+        {
+          "title": "Configuration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "gevent"
+            },
+            {
+              "title": "Plotly Dash"
+            },
+            {
+              "title": "Tornado"
+            },
+            {
+              "title": "Pyramid"
+            }
+          ]
         }
       ]
     },
@@ -150,13 +160,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "typing"
+        },
+        {
+          "title": "mypy"
+        },
+        {
           "title": "Pipenv"
-        },
-        {
-          "title": "virtualenv"
-        },
-        {
-          "title": "pyenv"
         }
       ]
     },
@@ -166,16 +176,19 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Binary Search Tree"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Sorting Algorithms"
+        },
+        {
           "title": "Classes"
         },
         {
           "title": "Methods"
-        },
-        {
-          "title": "Inheritance"
-        },
-        {
-          "title": "Encapsulation"
         }
       ]
     },
@@ -197,19 +210,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "typing"
-        },
-        {
-          "title": "mypy"
-        },
-        {
           "title": "pyright"
         },
         {
           "title": "pyre"
         },
         {
+          "title": "virtualenv"
+        },
+        {
           "title": "Pydantic"
+        },
+        {
+          "title": "pyenv"
         }
       ]
     },
@@ -219,28 +232,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "gevent"
-        },
-        {
           "title": "aiohttp"
-        },
-        {
-          "title": "Plotly Dash"
-        },
-        {
-          "title": "Tornado"
         },
         {
           "title": "Sanic"
         },
         {
-          "title": "Pyramid"
-        },
-        {
-          "title": "Fast API"
-        },
-        {
-          "title": "Django"
+          "title": "Synchronous + Asynchronous",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Fast API"
+            },
+            {
+              "title": "Django"
+            }
+          ]
         },
         {
           "title": "Flask"
@@ -253,6 +261,12 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Inheritance"
+        },
+        {
+          "title": "Encapsulation"
+        },
+        {
           "title": "Multiprocessing"
         },
         {
@@ -260,9 +274,6 @@
         },
         {
           "title": "GIL"
-        },
-        {
-          "title": "Threading"
         }
       ]
     },
@@ -290,6 +301,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Threading"
+        },
         {
           "title": "glob"
         }

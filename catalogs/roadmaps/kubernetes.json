@@ -54,10 +54,20 @@
           "title": "Deployments"
         },
         {
-          "title": "StatefulSets"
+          "title": "Jobs"
+        }
+      ]
+    },
+    {
+      "title": "Configuration Management",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Injecting Pod Config with ConfigMaps"
         },
         {
-          "title": "Jobs"
+          "title": "Using Secrets for Sensitive Data"
         }
       ]
     },
@@ -81,19 +91,6 @@
       ]
     },
     {
-      "title": "Configuration Management",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Injecting Pod Config with ConfigMaps"
-        },
-        {
-          "title": "Using Secrets for Sensitive Data"
-        }
-      ]
-    },
-    {
       "title": "Resource Management",
       "importance": 50,
       "completion_threshold": 60,
@@ -103,9 +100,6 @@
         },
         {
           "title": "Assigning Quotas to Namespaces"
-        },
-        {
-          "title": "Monitoring & Optimizing Resource Usage"
         }
       ]
     },
@@ -114,6 +108,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "StatefulSets"
+        },
         {
           "title": "Role Based Access Control (RBAC)"
         },
@@ -134,16 +131,51 @@
           "title": "Traces"
         },
         {
+          "title": "Resource Health"
+        },
+        {
+          "title": "Observability Engines"
+        }
+      ]
+    },
+    {
+      "title": "Storage and Volumes",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Monitoring & Optimizing Resource Usage"
+        },
+        {
+          "title": "CSI Drivers"
+        }
+      ]
+    },
+    {
+      "title": "Scheduling",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
           "title": "Logs"
         },
         {
           "title": "Metrics"
         },
         {
-          "title": "Resource Health"
+          "title": "Basics"
         },
         {
-          "title": "Observability Engines"
+          "title": "Taints and Tolerations"
+        },
+        {
+          "title": "Topology Spread Constraints"
+        },
+        {
+          "title": "Pod Priorities"
+        },
+        {
+          "title": "Evictions"
         }
       ]
     },
@@ -166,50 +198,6 @@
         },
         {
           "title": "Installing the Control Plane"
-        },
-        {
-          "title": "Adding and Managing Worker Nodes"
-        },
-        {
-          "title": "Multi-Cluster Management"
-        }
-      ]
-    },
-    {
-      "title": "Scheduling",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Basics"
-        },
-        {
-          "title": "Taints and Tolerations"
-        },
-        {
-          "title": "Topology Spread Constraints"
-        },
-        {
-          "title": "Pod Priorities"
-        },
-        {
-          "title": "Evictions"
-        },
-        {
-          "title": "Creating Custom Controllers"
-        }
-      ]
-    },
-    {
-      "title": "Storage and Volumes",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "CSI Drivers"
-        },
-        {
-          "title": "Stateful Applications"
         }
       ]
     },
@@ -219,22 +207,16 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "CI / CD Integration"
+          "title": "Stateful Applications"
         },
         {
-          "title": "Custom Schedulers and Extenders"
+          "title": "CI / CD Integration"
         },
         {
           "title": "GitOps"
         },
         {
-          "title": "Custom Resource Definitions (CRDs)"
-        },
-        {
           "title": "Helm Charts"
-        },
-        {
-          "title": "Kubernetes Extensions and APIs"
         },
         {
           "title": "Canary Deployments"
@@ -248,7 +230,29 @@
       ]
     },
     {
-      "title": "Advanced Topics"
+      "title": "Advanced Topics",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Creating Custom Controllers"
+        },
+        {
+          "title": "Custom Schedulers and Extenders"
+        },
+        {
+          "title": "Adding and Managing Worker Nodes"
+        },
+        {
+          "title": "Custom Resource Definitions (CRDs)"
+        },
+        {
+          "title": "Multi-Cluster Management"
+        },
+        {
+          "title": "Kubernetes Extensions and APIs"
+        }
+      ]
     }
   ]
 }

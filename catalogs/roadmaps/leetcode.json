@@ -2,10 +2,27 @@
   "title": "LeetCode",
   "topics": [
     {
-      "title": "What is LeetCode"
+      "title": "What is LeetCode",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Ruby"
+        }
+      ]
     },
     {
-      "title": "What are coding patterns?"
+      "title": "What are coding patterns?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "C++"
+        }
+      ]
     },
     {
       "title": "Pick a language",
@@ -16,19 +33,10 @@
           "title": "Python"
         },
         {
-          "title": "JavaScript"
-        },
-        {
           "title": "Java"
         },
         {
-          "title": "Ruby"
-        },
-        {
           "title": "C"
-        },
-        {
-          "title": "C++"
         },
         {
           "title": "Go"

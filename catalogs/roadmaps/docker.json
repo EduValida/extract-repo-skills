@@ -23,18 +23,6 @@
         },
         {
           "title": "Users / Groups Permissions"
-        },
-        {
-          "title": "Shell Commands"
-        },
-        {
-          "title": "Shell Scripting"
-        },
-        {
-          "title": "Programming Languages"
-        },
-        {
-          "title": "Application Architecture"
         }
       ]
     },
@@ -43,6 +31,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Shell Commands"
+        },
         {
           "title": "Namespaces"
         },
@@ -71,6 +62,16 @@
       "title": "Basics of Docker"
     },
     {
+      "title": "Using 3rd Party Container Images",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Shell Scripting"
+        }
+      ]
+    },
+    {
       "title": "Data Persistence",
       "importance": 50,
       "completion_threshold": 60,
@@ -80,25 +81,6 @@
         },
         {
           "title": "Volume Mounts"
-        },
-        {
-          "title": "Bind Mounts"
-        },
-        {
-          "title": "Runtime Configuration Options"
-        }
-      ]
-    },
-    {
-      "title": "Using 3rd Party Container Images",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Databases"
-        },
-        {
-          "title": "Command Line Utilities"
         }
       ]
     },
@@ -109,12 +91,6 @@
       "children": [
         {
           "title": "Dockerhub"
-        },
-        {
-          "title": "Others (ghcr, ecr, gcr, acr, etc)"
-        },
-        {
-          "title": "Image Tagging Best Practices"
         }
       ]
     },
@@ -124,16 +100,27 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "docker compose"
+          "title": "Just get the basic idea of these",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bind Mounts"
+            }
+          ]
+        },
+        {
+          "title": "docker compose",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Runtime Configuration Options"
+            }
+          ]
         },
         {
           "title": "docker run"
-        },
-        {
-          "title": "Image Security"
-        },
-        {
-          "title": "Runtime Security"
         }
       ]
     },
@@ -150,11 +137,14 @@
         },
         {
           "title": "Image Size and Security"
+        },
+        {
+          "title": "Images"
+        },
+        {
+          "title": "Volumes"
         }
       ]
-    },
-    {
-      "title": "Container Security"
     },
     {
       "title": "Docker CLI",
@@ -162,16 +152,35 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Others (ghcr, ecr, gcr, acr, etc)"
+        },
+        {
+          "title": "Image Tagging Best Practices"
+        },
+        {
           "title": "Containers"
         },
         {
-          "title": "Images"
-        },
-        {
           "title": "Networks"
+        }
+      ]
+    },
+    {
+      "title": "Container Security",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Image Security"
         },
         {
-          "title": "Volumes"
+          "title": "Runtime Security"
+        },
+        {
+          "title": "Nomad"
+        },
+        {
+          "title": "Docker Swarm"
         }
       ]
     },
@@ -183,6 +192,32 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Linux Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Programming Languages"
+            },
+            {
+              "title": "Application Architecture"
+            }
+          ]
+        },
+        {
+          "title": "Web Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Databases"
+            },
+            {
+              "title": "Command Line Utilities"
+            }
+          ]
+        },
         {
           "title": "Hot Reloading"
         },
@@ -202,12 +237,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Nomad"
-        },
-        {
-          "title": "Docker Swarm"
-        },
         {
           "title": "Kubernetes"
         },

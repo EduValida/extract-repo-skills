@@ -63,9 +63,6 @@
         },
         {
           "title": "Date"
-        },
-        {
-          "title": "Regular Expression"
         }
       ]
     },
@@ -79,6 +76,9 @@
         },
         {
           "title": "insert() and relevant"
+        },
+        {
+          "title": "Regular Expression"
         },
         {
           "title": "find() and relevant"
@@ -96,31 +96,16 @@
           "title": "Int32/Int"
         },
         {
-          "title": "Int64 / Long"
-        },
-        {
           "title": "delete() and relevant"
         },
         {
           "title": "Decimal128"
         },
         {
-          "title": "Timestamp"
-        },
-        {
           "title": "bulkWrite() and relevant"
         },
         {
-          "title": "Max Key"
-        },
-        {
-          "title": "Min Key"
-        },
-        {
           "title": "validate()"
-        },
-        {
-          "title": "Read / Write Concerns"
         }
       ]
     },
@@ -130,58 +115,92 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "$project"
+          "title": "Array Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$in"
+            },
+            {
+              "title": "$nin"
+            },
+            {
+              "title": "$all"
+            },
+            {
+              "title": "$elemMatch"
+            },
+            {
+              "title": "$size"
+            }
+          ]
         },
         {
-          "title": "$include"
+          "title": "Projection Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$project"
+            },
+            {
+              "title": "$include"
+            },
+            {
+              "title": "$exclude"
+            },
+            {
+              "title": "$slice"
+            }
+          ]
         },
         {
-          "title": "$in"
+          "title": "Comparison Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$eq"
+            },
+            {
+              "title": "$gt"
+            },
+            {
+              "title": "$lt"
+            },
+            {
+              "title": "$lte"
+            },
+            {
+              "title": "$gte"
+            },
+            {
+              "title": "$ne"
+            }
+          ]
         },
         {
-          "title": "$nin"
+          "title": "Element Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$exists"
+            },
+            {
+              "title": "$type"
+            },
+            {
+              "title": "$regex"
+            }
+          ]
         },
         {
-          "title": "$all"
+          "title": "$not"
         },
         {
-          "title": "$exclude"
-        },
-        {
-          "title": "$slice"
-        },
-        {
-          "title": "$elemMatch"
-        },
-        {
-          "title": "$size"
-        },
-        {
-          "title": "$eq"
-        },
-        {
-          "title": "$gt"
-        },
-        {
-          "title": "$lt"
-        },
-        {
-          "title": "$exists"
-        },
-        {
-          "title": "$type"
-        },
-        {
-          "title": "$lte"
-        },
-        {
-          "title": "$gte"
-        },
-        {
-          "title": "$ne"
-        },
-        {
-          "title": "$regex"
+          "title": "$nor"
         }
       ]
     },
@@ -191,10 +210,16 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Cursors"
+          "title": "Int64 / Long"
         },
         {
-          "title": "Retryable Reads / Writes"
+          "title": "Timestamp"
+        },
+        {
+          "title": "Max Key"
+        },
+        {
+          "title": "Min Key"
         },
         {
           "title": "Single Field"
@@ -207,9 +232,6 @@
         },
         {
           "title": "Expiring"
-        },
-        {
-          "title": "Geospatial Indexes"
         }
       ]
     },
@@ -218,6 +240,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Geospatial Indexes"
+        },
         {
           "title": "Atlas Search Indexes"
         },
@@ -228,13 +253,20 @@
           "title": "Language Drivers"
         },
         {
-          "title": "Kafka"
-        },
-        {
-          "title": "Spark"
-        },
-        {
-          "title": "Elastic Search"
+          "title": "MongoDB Connectors",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Kafka"
+            },
+            {
+              "title": "Spark"
+            },
+            {
+              "title": "Elastic Search"
+            }
+          ]
         }
       ]
     },
@@ -244,46 +276,54 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "$and"
-        },
-        {
           "title": "$or"
         },
         {
-          "title": "$not"
-        },
-        {
-          "title": "$nor"
+          "title": "Logical Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$and"
+            }
+          ]
         },
         {
           "title": "Pipelines, Stages and Operators"
         },
         {
-          "title": "$match"
-        },
-        {
-          "title": "$group"
-        },
-        {
-          "title": "$sort"
-        },
-        {
-          "title": "$project"
-        },
-        {
-          "title": "$skip"
-        },
-        {
-          "title": "$limit"
-        },
-        {
-          "title": "$unwind"
-        },
-        {
-          "title": "$lookup"
-        },
-        {
-          "title": "$sum"
+          "title": "Common Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "$match"
+            },
+            {
+              "title": "$group"
+            },
+            {
+              "title": "$sort"
+            },
+            {
+              "title": "$project"
+            },
+            {
+              "title": "$skip"
+            },
+            {
+              "title": "$limit"
+            },
+            {
+              "title": "$unwind"
+            },
+            {
+              "title": "$lookup"
+            },
+            {
+              "title": "$sum"
+            }
+          ]
         }
       ]
     },
@@ -302,13 +342,20 @@
           "title": "Replicasets"
         },
         {
+          "title": "Backup & Recovery",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "mongodump"
+            },
+            {
+              "title": "mongorestore"
+            }
+          ]
+        },
+        {
           "title": "Sharded Clusters"
-        },
-        {
-          "title": "mongodump"
-        },
-        {
-          "title": "mongorestore"
         },
         {
           "title": "Tuning Configuration"
@@ -333,25 +380,32 @@
           "title": "X.509 Certificate Auth"
         },
         {
-          "title": "Kerberos Authentication"
+          "title": "Encryption",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Encryption at Rest"
+            },
+            {
+              "title": "Queryable Encryption"
+            },
+            {
+              "title": "Client-Side Field Level"
+            },
+            {
+              "title": "TLS / SSL Encryption"
+            }
+          ]
         },
         {
-          "title": "Encryption at Rest"
+          "title": "Kerberos Authentication"
         },
         {
           "title": "LDAP Proxy Auth"
         },
         {
-          "title": "Queryable Encryption"
-        },
-        {
           "title": "MongoDB Audit"
-        },
-        {
-          "title": "Client-Side Field Level"
-        },
-        {
-          "title": "TLS / SSL Encryption"
         }
       ]
     }

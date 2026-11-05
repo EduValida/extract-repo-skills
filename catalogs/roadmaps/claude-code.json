@@ -13,49 +13,64 @@
           "title": "What is a Coding Agent?"
         },
         {
-          "title": "CLI"
-        },
-        {
-          "title": "Desktop"
+          "title": "Surfaces",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CLI"
+            },
+            {
+              "title": "Desktop"
+            },
+            {
+              "title": "Web"
+            },
+            {
+              "title": "Mobile"
+            },
+            {
+              "title": "Editor Extensions"
+            }
+          ]
         },
         {
           "title": "What is Agentic Loop?"
         },
         {
-          "title": "Mobile"
-        },
-        {
-          "title": "Web"
-        },
-        {
           "title": "Setting up Claude"
         },
         {
-          "title": "Editor Extensions"
+          "title": "Work from Anywhere",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Remote Control"
+            },
+            {
+              "title": "Teleport & Handoff"
+            },
+            {
+              "title": "Dispatch"
+            },
+            {
+              "title": "Channels"
+            }
+          ]
         },
         {
-          "title": "Subscription"
-        },
-        {
-          "title": "API usage"
-        },
-        {
-          "title": "Remote Control"
-        },
-        {
-          "title": "Teleport & Handoff"
-        },
-        {
-          "title": "Dispatch"
-        },
-        {
-          "title": "Channels"
-        },
-        {
-          "title": "Slack"
-        },
-        {
-          "title": "Chrome"
+          "title": "Integrations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Slack"
+            },
+            {
+              "title": "Chrome"
+            }
+          ]
         }
       ]
     },
@@ -65,49 +80,66 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "CLAUDE.md"
+          "title": "Subscription"
         },
         {
-          "title": "Skills"
+          "title": "API usage"
         },
         {
-          "title": "Context"
+          "title": "Understand the Differences",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CLAUDE.md"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Context"
+            },
+            {
+              "title": "Modes"
+            },
+            {
+              "title": "Models"
+            },
+            {
+              "title": "Tools"
+            },
+            {
+              "title": "MCP"
+            },
+            {
+              "title": "Plugins"
+            },
+            {
+              "title": "Hooks"
+            },
+            {
+              "title": "Subagents"
+            }
+          ]
         },
         {
-          "title": "Modes"
-        },
-        {
-          "title": "Tools"
-        },
-        {
-          "title": "Models"
-        },
-        {
-          "title": "MCP"
-        },
-        {
-          "title": "Plugins"
-        },
-        {
-          "title": "Hooks"
-        },
-        {
-          "title": "Subagents"
-        },
-        {
-          "title": "Common Usecases"
-        },
-        {
-          "title": "Opus"
-        },
-        {
-          "title": "Sonnet"
-        },
-        {
-          "title": "Haiku"
-        },
-        {
-          "title": "Fable"
+          "title": "When to use what model?",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Opus"
+            },
+            {
+              "title": "Sonnet"
+            },
+            {
+              "title": "Haiku"
+            },
+            {
+              "title": "Fable"
+            }
+          ]
         }
       ]
     },
@@ -117,175 +149,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Ctrl+C"
-        },
-        {
-          "title": "Ctrl+R"
-        },
-        {
-          "title": "Ctrl+O"
-        },
-        {
-          "title": "Ctrl+B"
-        },
-        {
-          "title": "Ctrl+G"
+          "title": "Common Usecases"
         },
         {
           "title": "Plan"
         },
         {
           "title": "Auto"
-        },
-        {
-          "title": "Esc"
-        },
-        {
-          "title": "Esc + Esc"
-        },
-        {
-          "title": "Shift+Tab"
-        },
-        {
-          "title": "Slash Commands (/)"
-        },
-        {
-          "title": "!"
-        },
-        {
-          "title": "\\"
-        },
-        {
-          "title": "@"
-        },
-        {
-          "title": "claude"
-        },
-        {
-          "title": "claude -r"
-        },
-        {
-          "title": "claude \"query\""
-        },
-        {
-          "title": "claude -p"
-        },
-        {
-          "title": "claude -c"
-        },
-        {
-          "title": "--add-dir"
-        },
-        {
-          "title": "--cloud"
-        },
-        {
-          "title": "--teleport"
-        },
-        {
-          "title": "--bare"
-        },
-        {
-          "title": "--permission-mode"
-        },
-        {
-          "title": "/help"
-        },
-        {
-          "title": "/usage"
-        },
-        {
-          "title": "/clear"
-        },
-        {
-          "title": "/goal"
-        },
-        {
-          "title": "/exit"
-        },
-        {
-          "title": "/export"
-        },
-        {
-          "title": "/status"
-        },
-        {
-          "title": "/rewind"
-        },
-        {
-          "title": "/doctor"
-        },
-        {
-          "title": "/plan"
-        },
-        {
-          "title": "/schedule"
-        },
-        {
-          "title": "/desktop"
-        },
-        {
-          "title": "/ultrareview"
-        },
-        {
-          "title": "/code-review"
-        },
-        {
-          "title": "/remote-control"
-        },
-        {
-          "title": "/context"
-        },
-        {
-          "title": "/compact"
-        },
-        {
-          "title": "/memory"
-        },
-        {
-          "title": "/init"
-        },
-        {
-          "title": "/config"
-        },
-        {
-          "title": "/permissions"
-        },
-        {
-          "title": "/model"
-        },
-        {
-          "title": "/agents"
-        },
-        {
-          "title": "/mcp"
-        },
-        {
-          "title": "/hooks"
-        },
-        {
-          "title": "SessionStart"
-        },
-        {
-          "title": "SessionEnd"
-        },
-        {
-          "title": "PreToolUse"
-        },
-        {
-          "title": "PostToolUse"
-        },
-        {
-          "title": "UserPromptSubmit"
-        },
-        {
-          "title": "SubagentStop"
-        },
-        {
-          "title": "Stop"
-        },
-        {
-          "title": "PermissionRequest"
         }
       ]
     },
@@ -347,6 +217,138 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Command Cheatsheet",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Ctrl+C"
+            },
+            {
+              "title": "Ctrl+R"
+            },
+            {
+              "title": "Ctrl+O"
+            },
+            {
+              "title": "Ctrl+B"
+            },
+            {
+              "title": "Ctrl+G"
+            },
+            {
+              "title": "Esc"
+            },
+            {
+              "title": "Esc + Esc"
+            },
+            {
+              "title": "Shift+Tab"
+            },
+            {
+              "title": "Slash Commands (/)"
+            },
+            {
+              "title": "!"
+            },
+            {
+              "title": "\\"
+            },
+            {
+              "title": "@"
+            }
+          ]
+        },
+        {
+          "title": "Shortcuts & Prefixes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "claude"
+            },
+            {
+              "title": "claude -r"
+            },
+            {
+              "title": "claude \"query\""
+            },
+            {
+              "title": "claude -p"
+            },
+            {
+              "title": "claude -c"
+            },
+            {
+              "title": "--add-dir"
+            },
+            {
+              "title": "--cloud"
+            },
+            {
+              "title": "--teleport"
+            },
+            {
+              "title": "--bare"
+            },
+            {
+              "title": "--permission-mode"
+            }
+          ]
+        },
+        {
+          "title": "claude Commands & Flags",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "/help"
+            },
+            {
+              "title": "/usage"
+            },
+            {
+              "title": "/clear"
+            },
+            {
+              "title": "/goal"
+            },
+            {
+              "title": "/exit"
+            },
+            {
+              "title": "/export"
+            },
+            {
+              "title": "/status"
+            },
+            {
+              "title": "/rewind"
+            },
+            {
+              "title": "/plan"
+            },
+            {
+              "title": "/doctor"
+            },
+            {
+              "title": "/schedule"
+            },
+            {
+              "title": "/desktop"
+            },
+            {
+              "title": "/code-review"
+            },
+            {
+              "title": "/ultrareview"
+            },
+            {
+              "title": "/remote-control"
+            }
+          ]
+        },
+        {
           "title": "Hook Events & Matchers"
         },
         {
@@ -354,6 +356,91 @@
         },
         {
           "title": "Hook Inputs & Outputs"
+        },
+        {
+          "title": "Session Commands",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "/context"
+            },
+            {
+              "title": "/compact"
+            },
+            {
+              "title": "/init"
+            },
+            {
+              "title": "/memory"
+            }
+          ]
+        },
+        {
+          "title": "Context & Memory",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "/config"
+            },
+            {
+              "title": "/permissions"
+            },
+            {
+              "title": "/model"
+            },
+            {
+              "title": "/agents"
+            },
+            {
+              "title": "/hooks"
+            },
+            {
+              "title": "/mcp"
+            }
+          ]
+        },
+        {
+          "title": "Configuration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SessionStart"
+            },
+            {
+              "title": "SessionEnd"
+            },
+            {
+              "title": "PreToolUse"
+            },
+            {
+              "title": "PostToolUse"
+            },
+            {
+              "title": "UserPromptSubmit"
+            },
+            {
+              "title": "SubagentStop"
+            },
+            {
+              "title": "PermissionRequest"
+            },
+            {
+              "title": "Stop"
+            }
+          ]
+        },
+        {
+          "title": "Hooks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "GitHub Actions"
+            }
+          ]
         }
       ]
     },
@@ -367,9 +454,6 @@
         },
         {
           "title": "Use /compact and /clear"
-        },
-        {
-          "title": "Be mindful of extensions"
         }
       ]
     },
@@ -378,6 +462,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Be mindful of extensions"
+        },
         {
           "title": "Use subagents and hooks"
         },
@@ -445,26 +532,21 @@
         },
         {
           "title": "Cloud Scheduled tasks"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Scaling Claude",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Git Worktrees"
         },
         {
           "title": "Subagents"
-        },
-        {
-          "title": "Agent View"
-        },
-        {
-          "title": "Agent Team"
-        },
-        {
-          "title": "Dynamic Workflows"
         }
       ]
-    },
-    {
-      "title": "Scaling Claude"
     },
     {
       "title": "CI/CD",
@@ -475,13 +557,16 @@
           "title": "Headless mode"
         },
         {
+          "title": "Agent View"
+        },
+        {
           "title": "Agent SDK"
         },
         {
-          "title": "GitLab"
+          "title": "Agent Team"
         },
         {
-          "title": "GitHub Actions"
+          "title": "GitLab"
         }
       ]
     },
@@ -491,7 +576,13 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Dynamic Workflows"
+        },
+        {
           "title": "Ultrareview"
+        },
+        {
+          "title": "Claude Code Security"
         },
         {
           "title": "Code Review on PRs"
@@ -503,9 +594,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Claude Code Security"
-        },
         {
           "title": "Sandboxing"
         }

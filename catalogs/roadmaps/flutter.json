@@ -22,19 +22,7 @@
           "title": "Built-in Types"
         },
         {
-          "title": "VS Code"
-        },
-        {
           "title": "Functions"
-        },
-        {
-          "title": "Android Studio"
-        },
-        {
-          "title": "Operators"
-        },
-        {
-          "title": "IntelliJ Idea"
         },
         {
           "title": "Control Flow Statements"
@@ -42,7 +30,27 @@
       ]
     },
     {
-      "title": "Development Environment"
+      "title": "Development Environment",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "VS Code"
+            },
+            {
+              "title": "Android Studio"
+            },
+            {
+              "title": "IntelliJ Idea"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Widgets",
@@ -59,9 +67,6 @@
           "title": "Stateless Widgets"
         },
         {
-          "title": "Git"
-        },
-        {
           "title": "Stateful Widgets"
         },
         {
@@ -75,6 +80,9 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Operators"
+        },
+        {
           "title": "Fonts"
         },
         {
@@ -86,7 +94,14 @@
       ]
     },
     {
-      "title": "Version Control Systems"
+      "title": "Version Control Systems",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Git"
+        }
+      ]
     },
     {
       "title": "Repo Hosting Services",
@@ -95,25 +110,6 @@
       "children": [
         {
           "title": "GitHub"
-        }
-      ]
-    },
-    {
-      "title": "Design Principles",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Dependency Injection"
-        },
-        {
-          "title": "Design Patterns"
-        },
-        {
-          "title": "SOLID Principles"
-        },
-        {
-          "title": "OOP"
         }
       ]
     },
@@ -137,6 +133,25 @@
       ]
     },
     {
+      "title": "Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Dependency Injection"
+        },
+        {
+          "title": "Design Patterns"
+        },
+        {
+          "title": "SOLID Principles"
+        },
+        {
+          "title": "OOP"
+        }
+      ]
+    },
+    {
       "title": "Working with APIs",
       "importance": 50,
       "completion_threshold": 60,
@@ -152,6 +167,15 @@
         },
         {
           "title": "RESTful APIs"
+        },
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Collections"
+        },
+        {
+          "title": "Isolates"
         }
       ]
     },
@@ -171,30 +195,6 @@
         },
         {
           "title": "Core Libraries"
-        },
-        {
-          "title": "Authentication"
-        },
-        {
-          "title": "Streams"
-        },
-        {
-          "title": "Storage"
-        },
-        {
-          "title": "Firestore"
-        },
-        {
-          "title": "Futures"
-        },
-        {
-          "title": "Push Notifications"
-        },
-        {
-          "title": "Remote Config"
-        },
-        {
-          "title": "Cloud Functions"
         }
       ]
     },
@@ -204,22 +204,19 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Streams"
+        },
+        {
+          "title": "Futures"
+        },
+        {
           "title": "Lambdas"
-        },
-        {
-          "title": "Lists"
-        },
-        {
-          "title": "Collections"
         },
         {
           "title": "Functional Programming"
         },
         {
           "title": "Async / Await"
-        },
-        {
-          "title": "Isolates"
         }
       ]
     },
@@ -229,25 +226,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "ValueNotifier"
+          "title": "ChangeNotifier"
         },
         {
-          "title": "ChangeNotifier"
+          "title": "ValueNotifier"
         },
         {
           "title": "Riverpod"
         },
         {
-          "title": "Redux"
-        },
-        {
           "title": "Provider"
         },
         {
-          "title": "BLoC"
-        },
-        {
-          "title": "GetX"
+          "title": "Animation Controller"
         }
       ]
     },
@@ -256,6 +247,24 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Authentication"
+        },
+        {
+          "title": "Storage"
+        },
+        {
+          "title": "Firestore"
+        },
+        {
+          "title": "Push Notifications"
+        },
+        {
+          "title": "Remote Config"
+        },
+        {
+          "title": "Cloud Functions"
+        },
         {
           "title": "RxDart"
         }
@@ -267,9 +276,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Animation Controller"
-        },
-        {
           "title": "Animated Builder"
         },
         {
@@ -280,9 +286,56 @@
         },
         {
           "title": "Opacity"
+        }
+      ]
+    },
+    {
+      "title": "Flutter Internals",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Redux"
         },
         {
+          "title": "BLoC"
+        },
+        {
+          "title": "GetX"
+        },
+        {
+          "title": "Render Objects"
+        },
+        {
+          "title": "3 Trees"
+        },
+        {
+          "title": "Immutability"
+        },
+        {
+          "title": "Fast Lane"
+        },
+        {
+          "title": "Codemagic"
+        },
+        {
+          "title": "Bitrise"
+        }
+      ]
+    },
+    {
+      "title": "Dev Tools",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
           "title": "Hero"
+        },
+        {
+          "title": "Flutter Inspector"
+        },
+        {
+          "title": "Flutter Outline"
         }
       ]
     },
@@ -305,59 +358,6 @@
         },
         {
           "title": "BDD"
-        },
-        {
-          "title": "Guidelines & Protocols"
-        }
-      ]
-    },
-    {
-      "title": "Dev Tools",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Flutter Inspector"
-        },
-        {
-          "title": "Flutter Outline"
-        },
-        {
-          "title": "Memory Allocation"
-        },
-        {
-          "title": "Segment"
-        },
-        {
-          "title": "Mix Panel"
-        }
-      ]
-    },
-    {
-      "title": "Flutter Internals",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Render Objects"
-        },
-        {
-          "title": "3 Trees"
-        },
-        {
-          "title": "Immutability"
-        },
-        {
-          "title": "Fast Lane"
-        },
-        {
-          "title": "Codemagic"
-        },
-        {
-          "title": "Bitrise"
-        },
-        {
-          "title": "GitHub Actions"
         }
       ]
     },
@@ -366,6 +366,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "GitHub Actions"
+        },
         {
           "title": "Firebase App Dist"
         }
@@ -376,6 +379,15 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Memory Allocation"
+        },
+        {
+          "title": "Segment"
+        },
+        {
+          "title": "Mix Panel"
+        },
         {
           "title": "Firebase Analytics"
         },
@@ -389,6 +401,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Guidelines & Protocols"
+        },
         {
           "title": "AppStore"
         },

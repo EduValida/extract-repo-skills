@@ -2,17 +2,7 @@
   "title": "Game Developer",
   "topics": [
     {
-      "title": "Client Side Development",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Center of Mass"
-        },
-        {
-          "title": "Moment of Inertia"
-        }
-      ]
+      "title": "Client Side Development"
     },
     {
       "title": "Game Mathematics",
@@ -26,25 +16,10 @@
           "title": "Matrix"
         },
         {
-          "title": "Vector"
-        },
-        {
           "title": "Linear Transformation"
         },
         {
-          "title": "Acceleration"
-        },
-        {
-          "title": "Joints"
-        },
-        {
           "title": "Affine Space"
-        },
-        {
-          "title": "Geometry"
-        },
-        {
-          "title": "Restitution"
         },
         {
           "title": "Affine Transformation"
@@ -52,10 +27,36 @@
       ]
     },
     {
-      "title": "Projection"
+      "title": "Projection",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Vector"
+        },
+        {
+          "title": "Geometry"
+        },
+        {
+          "title": "Perspective"
+        },
+        {
+          "title": "Orthogonal"
+        }
+      ]
     },
     {
-      "title": "Orientation"
+      "title": "Orientation",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Quaternion"
+        },
+        {
+          "title": "Euler Angle"
+        }
+      ]
     },
     {
       "title": "Curve",
@@ -73,9 +74,6 @@
         },
         {
           "title": "Catmull-Rom"
-        },
-        {
-          "title": "SAT"
         }
       ]
     },
@@ -84,6 +82,21 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Center of Mass"
+        },
+        {
+          "title": "Moment of Inertia"
+        },
+        {
+          "title": "Acceleration"
+        },
+        {
+          "title": "Joints"
+        },
+        {
+          "title": "Restitution"
+        },
         {
           "title": "Force"
         },
@@ -102,25 +115,10 @@
       ]
     },
     {
-      "title": "Game Physics"
-    },
-    {
       "title": "Game Engine",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Perspective"
-        },
-        {
-          "title": "Quaternion"
-        },
-        {
-          "title": "Orthogonal"
-        },
-        {
-          "title": "Euler Angle"
-        },
         {
           "title": "Unity 3D"
         },
@@ -132,11 +130,11 @@
         },
         {
           "title": "Godot"
-        },
-        {
-          "title": "GJK"
         }
       ]
+    },
+    {
+      "title": "Game Physics"
     },
     {
       "title": "Collision Detection",
@@ -147,85 +145,94 @@
           "title": "CCD"
         },
         {
-          "title": "Intersection"
+          "title": "Narrow Phase",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Intersection",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "SAT"
+                },
+                {
+                  "title": "GJK"
+                },
+                {
+                  "title": "EPA"
+                }
+              ]
+            },
+            {
+              "title": "Convexity",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Convex",
+                  "importance": 50,
+                  "completion_threshold": 60,
+                  "children": [
+                    {
+                      "title": "Convex Hull"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "title": "Narrow Phase"
+          "title": "Broad Phase",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bounding Volume",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "AABB"
+                }
+              ]
+            }
+          ]
         },
         {
-          "title": "Convexity"
+          "title": "Concave",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Convex Decomposition"
+            }
+          ]
         },
         {
-          "title": "Broad Phase"
-        },
-        {
-          "title": "Convex"
-        },
-        {
-          "title": "Concave"
-        },
-        {
-          "title": "AABB"
-        },
-        {
-          "title": "OBB"
-        },
-        {
-          "title": "Bounding Volume"
-        },
-        {
-          "title": "Spatial Partitioning"
-        },
-        {
-          "title": "Sort & Sweep"
-        },
-        {
-          "title": "BVH"
-        },
-        {
-          "title": "DBVT"
+          "title": "Spatial Partitioning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Sort & Sweep"
+            },
+            {
+              "title": "BVH",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "DBVT"
+                }
+              ]
+            }
+          ]
         },
         {
           "title": "Stencil Shadow"
-        },
-        {
-          "title": "Lighting and Shadow"
-        },
-        {
-          "title": "Shadow Map"
-        },
-        {
-          "title": "Light Source"
-        },
-        {
-          "title": "2D"
-        },
-        {
-          "title": "Cube"
-        },
-        {
-          "title": "Directional"
-        },
-        {
-          "title": "Spot"
-        },
-        {
-          "title": "Point"
-        },
-        {
-          "title": "Infinite"
-        },
-        {
-          "title": "Culling"
-        },
-        {
-          "title": "Clipping"
-        },
-        {
-          "title": "Polygon"
-        },
-        {
-          "title": "Polyhedron"
         }
       ]
     },
@@ -241,31 +248,16 @@
           "title": "C/C++"
         },
         {
-          "title": "EPA"
-        },
-        {
           "title": "Rust"
         },
         {
           "title": "Python"
         },
         {
-          "title": "Convex Hull"
-        },
-        {
           "title": "GDScript"
         },
         {
-          "title": "Convex Decomposition"
-        },
-        {
-          "title": "Computer Animation"
-        },
-        {
-          "title": "Color"
-        },
-        {
-          "title": "Visual Perception"
+          "title": "OBB"
         }
       ]
     },
@@ -275,10 +267,52 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Getting deeper",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Rendering Equation"
+            },
+            {
+              "title": "Mapping",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Texture"
+                }
+              ]
+            },
+            {
+              "title": "Reflection",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "Diffuse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Computer Animation"
+        },
+        {
+          "title": "Color"
+        },
+        {
           "title": "Ray Tracing"
         },
         {
+          "title": "Visual Perception"
+        },
+        {
           "title": "Rasterization"
+        },
+        {
+          "title": "Lighting and Shadow"
         },
         {
           "title": "Tone Reproduction"
@@ -287,25 +321,53 @@
           "title": "Graphics Pipeline"
         },
         {
+          "title": "Shadow Map"
+        },
+        {
+          "title": "Light Source"
+        },
+        {
           "title": "Sampling"
         },
         {
-          "title": "Shader"
+          "title": "2D"
         },
         {
-          "title": "Cascaded"
+          "title": "Cube"
+        },
+        {
+          "title": "Directional"
+        },
+        {
+          "title": "Spot"
+        },
+        {
+          "title": "Shader"
         },
         {
           "title": "HLSL"
         },
         {
           "title": "GLSL"
+        }
+      ]
+    },
+    {
+      "title": "Graphics API",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Cascaded"
+        },
+        {
+          "title": "Infinite"
+        },
+        {
+          "title": "Point"
         },
         {
           "title": "SPIR-V"
-        },
-        {
-          "title": "Rendering Equation"
         },
         {
           "title": "Visibility and Occlusion"
@@ -320,16 +382,16 @@
           "title": "Vulkan"
         },
         {
-          "title": "Mapping"
+          "title": "Occluder"
         },
         {
-          "title": "Reflection"
+          "title": "Culling"
         },
         {
-          "title": "Texture"
+          "title": "Clipping"
         },
         {
-          "title": "Diffuse"
+          "title": "Fog"
         },
         {
           "title": "Specular"
@@ -338,53 +400,16 @@
           "title": "Bump"
         },
         {
-          "title": "Parallax"
-        },
-        {
-          "title": "Horizon"
-        }
-      ]
-    },
-    {
-      "title": "Graphics API",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Occluder"
-        },
-        {
-          "title": "Fog"
-        },
-        {
-          "title": "Frustum"
-        },
-        {
-          "title": "Light"
-        },
-        {
           "title": "OpenGL ES"
         },
         {
-          "title": "WebGL"
+          "title": "Parallax"
         },
         {
           "title": "Metal"
         },
         {
-          "title": "Naive Bayes Classifier"
-        },
-        {
-          "title": "Decision Learning"
-        },
-        {
-          "title": "Reinforcements Learning"
-        },
-        {
-          "title": "Decision Tree Learning"
-        },
-        {
-          "title": "Deep Learning"
+          "title": "Horizon"
         }
       ]
     },
@@ -394,7 +419,22 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Frustum"
+        },
+        {
+          "title": "Polygon"
+        },
+        {
+          "title": "Light"
+        },
+        {
+          "title": "Polyhedron"
+        },
+        {
           "title": "Shadow"
+        },
+        {
+          "title": "WebGL"
         },
         {
           "title": "Decision Making"
@@ -403,34 +443,13 @@
           "title": "Movement"
         },
         {
+          "title": "Naive Bayes Classifier"
+        },
+        {
           "title": "Decision Tree"
         },
         {
-          "title": "Board Game"
-        },
-        {
-          "title": "State Machine"
-        },
-        {
-          "title": "Minimax"
-        },
-        {
-          "title": "Behavior Tree"
-        },
-        {
-          "title": "AB Pruning"
-        },
-        {
-          "title": "Fuzzy Logic"
-        },
-        {
-          "title": "MCTS"
-        },
-        {
-          "title": "Markov System"
-        },
-        {
-          "title": "Goal Oriented Behavior"
+          "title": "Decision Learning"
         }
       ]
     },
@@ -440,7 +459,47 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Learning"
+          "title": "Maximise your skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Learning"
+            }
+          ]
+        },
+        {
+          "title": "Board Game"
+        },
+        {
+          "title": "State Machine"
+        },
+        {
+          "title": "Reinforcements Learning"
+        },
+        {
+          "title": "Minimax"
+        },
+        {
+          "title": "Behavior Tree"
+        },
+        {
+          "title": "Decision Tree Learning"
+        },
+        {
+          "title": "AB Pruning"
+        },
+        {
+          "title": "Fuzzy Logic"
+        },
+        {
+          "title": "Deep Learning"
+        },
+        {
+          "title": "MCTS"
+        },
+        {
+          "title": "Markov System"
         },
         {
           "title": "Artificial Neural Network"
@@ -453,16 +512,27 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Real-time Ray Tracing"
+          "title": "Goal Oriented Behavior"
         },
         {
-          "title": "Physically-Based Rendering"
+          "title": "Physically-Based Rendering",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Microsurface Scattering"
+            }
+          ]
         },
         {
-          "title": "Microsurface Scattering"
-        },
-        {
-          "title": "DirectX Ray Tracing"
+          "title": "Real-time Ray Tracing",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "DirectX Ray Tracing"
+            }
+          ]
         },
         {
           "title": "Translucency & Transparency"

@@ -26,12 +26,6 @@
         },
         {
           "title": "MLOps Principles"
-        },
-        {
-          "title": "Model Training & Serving"
-        },
-        {
-          "title": "Monitoring & Observability"
         }
       ]
     },
@@ -41,16 +35,22 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Python"
+          "title": "Model Training & Serving"
         },
         {
           "title": "Bash"
         },
         {
-          "title": "Go"
+          "title": "Python"
+        },
+        {
+          "title": "Monitoring & Observability"
         },
         {
           "title": "SQL"
+        },
+        {
+          "title": "Go"
         }
       ]
     },
@@ -190,10 +190,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "KubeFlow"
+          "title": "Airflow"
         },
         {
-          "title": "Airflow"
+          "title": "KubeFlow"
         }
       ]
     },
@@ -220,9 +220,6 @@
         },
         {
           "title": "Jetson"
-        },
-        {
-          "title": "TFLite"
         }
       ]
     },
@@ -232,10 +229,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "SHAP"
+          "title": "TFLite"
         },
         {
           "title": "LIME"
+        },
+        {
+          "title": "SHAP"
         }
       ]
     }

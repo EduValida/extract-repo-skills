@@ -7,153 +7,199 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "CCNA"
+          "title": "Certifications",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CCNA"
+            },
+            {
+              "title": "CCNP"
+            },
+            {
+              "title": "CompTIA Network+"
+            },
+            {
+              "title": "CompTIA Security+"
+            },
+            {
+              "title": "Cloud Certifications"
+            }
+          ]
         },
         {
-          "title": "CCNP"
-        },
-        {
-          "title": "CompTIA Network+"
-        },
-        {
-          "title": "Client"
-        },
-        {
-          "title": "Server"
-        },
-        {
-          "title": "CompTIA Security+"
-        },
-        {
-          "title": "Host"
-        },
-        {
-          "title": "Package"
-        },
-        {
-          "title": "Cloud Certifications"
-        },
-        {
-          "title": "Frame"
-        },
-        {
-          "title": "Bandwidth"
+          "title": "Basic Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Client"
+            },
+            {
+              "title": "Server"
+            },
+            {
+              "title": "Host"
+            },
+            {
+              "title": "Package"
+            },
+            {
+              "title": "Frame"
+            },
+            {
+              "title": "Bandwidth"
+            },
+            {
+              "title": "Latency"
+            },
+            {
+              "title": "Throughput"
+            },
+            {
+              "title": "Protocol"
+            },
+            {
+              "title": "Port"
+            },
+            {
+              "title": "Socket"
+            },
+            {
+              "title": "IP Address"
+            },
+            {
+              "title": "Mac Address"
+            },
+            {
+              "title": "ARP"
+            },
+            {
+              "title": "Transmission Media Types"
+            }
+          ]
         },
         {
           "title": "How does the Internet Work?"
         },
         {
-          "title": "Latency"
+          "title": "Core Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "TCP"
+            },
+            {
+              "title": "UDP"
+            },
+            {
+              "title": "ICMP"
+            }
+          ]
         },
         {
-          "title": "Throughput"
+          "title": "Application Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "HTTP / HTTPS"
+            },
+            {
+              "title": "WebSocket"
+            },
+            {
+              "title": "SSL / TLS"
+            },
+            {
+              "title": "SSH"
+            },
+            {
+              "title": "FTP / SFTP"
+            },
+            {
+              "title": "NTP"
+            },
+            {
+              "title": "SMTP / IMAP"
+            },
+            {
+              "title": "SNTP"
+            },
+            {
+              "title": "DNS"
+            },
+            {
+              "title": "DHCP"
+            }
+          ]
         },
         {
-          "title": "Protocol"
-        },
-        {
-          "title": "Port"
-        },
-        {
-          "title": "Socket"
-        },
-        {
-          "title": "IP Address"
-        },
-        {
-          "title": "LAN"
-        },
-        {
-          "title": "WAN"
-        },
-        {
-          "title": "Mac Address"
-        },
-        {
-          "title": "ARP"
-        },
-        {
-          "title": "MAN"
-        },
-        {
-          "title": "WLAN"
-        },
-        {
-          "title": "Transmission Media Types"
-        },
-        {
-          "title": "PAN"
-        },
-        {
-          "title": "SAN"
-        },
-        {
-          "title": "VPN"
-        },
-        {
-          "title": "Cloud"
-        },
-        {
-          "title": "TCP"
-        },
-        {
-          "title": "UDP"
-        },
-        {
-          "title": "ICMP"
-        },
-        {
-          "title": "Client-Server Network"
-        },
-        {
-          "title": "Peer-to-Peer Network"
-        },
-        {
-          "title": "HTTP / HTTPS"
-        },
-        {
-          "title": "WebSocket"
-        },
-        {
-          "title": "SSL / TLS"
-        },
-        {
-          "title": "SSH"
-        },
-        {
-          "title": "FTP / SFTP"
-        },
-        {
-          "title": "NTP"
-        },
-        {
-          "title": "SNTP"
-        },
-        {
-          "title": "SMTP / IMAP"
-        },
-        {
-          "title": "DHCP"
-        },
-        {
-          "title": "DNS"
-        },
-        {
-          "title": "Cloudflare"
-        },
-        {
-          "title": "Google"
-        },
-        {
-          "title": "OpenDNS"
-        },
-        {
-          "title": "Quad9"
+          "title": "DNS Servers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Cloudflare"
+            },
+            {
+              "title": "Google"
+            },
+            {
+              "title": "OpenDNS"
+            },
+            {
+              "title": "Quad9"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "What are Networks?"
+      "title": "What are Networks?",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Network Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LAN"
+            },
+            {
+              "title": "WAN"
+            },
+            {
+              "title": "MAN"
+            },
+            {
+              "title": "WLAN"
+            },
+            {
+              "title": "PAN"
+            },
+            {
+              "title": "SAN"
+            },
+            {
+              "title": "VPN"
+            },
+            {
+              "title": "Cloud"
+            },
+            {
+              "title": "Client-Server Network"
+            },
+            {
+              "title": "Peer-to-Peer Network"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Network Devices",
@@ -174,9 +220,6 @@
         },
         {
           "title": "Access Points"
-        },
-        {
-          "title": "Physical"
         }
       ]
     },
@@ -186,19 +229,32 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Data Link"
-        },
-        {
-          "title": "Network"
-        },
-        {
-          "title": "Transport"
-        },
-        {
-          "title": "Session"
-        },
-        {
-          "title": "Presentation"
+          "title": "7 Layers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Physical"
+            },
+            {
+              "title": "Data Link"
+            },
+            {
+              "title": "Network"
+            },
+            {
+              "title": "Transport"
+            },
+            {
+              "title": "Session"
+            },
+            {
+              "title": "Presentation"
+            },
+            {
+              "title": "Application"
+            }
+          ]
         }
       ]
     },
@@ -218,9 +274,6 @@
         },
         {
           "title": "Application"
-        },
-        {
-          "title": "Application (2)"
         }
       ]
     },
@@ -256,9 +309,6 @@
         },
         {
           "title": "EVE-NG"
-        },
-        {
-          "title": "Static vs Dynamic NAT"
         }
       ]
     },
@@ -271,10 +321,10 @@
           "title": "Shell & Scripting"
         },
         {
-          "title": "PAT/NAT Overload"
+          "title": "Static vs Dynamic NAT"
         },
         {
-          "title": "NAT64"
+          "title": "PAT/NAT Overload"
         }
       ]
     },
@@ -287,7 +337,14 @@
           "title": "IPv4 vs IPv6"
         },
         {
-          "title": "NAT vs PAT"
+          "title": "NAT vs PAT",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "NAT64"
+            }
+          ]
         },
         {
           "title": "Public vs Private Addresses"
@@ -322,13 +379,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Routing Protocols",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "BGP"
+            },
+            {
+              "title": "OSPF"
+            },
+            {
+              "title": "EIGRP"
+            }
+          ]
+        },
+        {
           "title": "RIP"
-        },
-        {
-          "title": "OSPF"
-        },
-        {
-          "title": "BGP"
         },
         {
           "title": "MPLS"
@@ -337,16 +404,7 @@
           "title": "Static vs Dynamic Routing"
         },
         {
-          "title": "EIGRP"
-        },
-        {
           "title": "Default Gateway"
-        },
-        {
-          "title": "SD-WAN"
-        },
-        {
-          "title": "VRFs"
         }
       ]
     },
@@ -356,13 +414,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "STP"
+          "title": "SD-WAN"
+        },
+        {
+          "title": "VRFs"
         },
         {
           "title": "VLANs"
         },
         {
           "title": "VXLAN"
+        },
+        {
+          "title": "STP"
         },
         {
           "title": "Link Aggregation"
@@ -391,15 +455,6 @@
         },
         {
           "title": "WiFi Standards"
-        },
-        {
-          "title": "Access Points"
-        },
-        {
-          "title": "Controllers"
-        },
-        {
-          "title": "AP Placement & Coverage"
         }
       ]
     },
@@ -409,34 +464,47 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Bluetooth"
+          "title": "Access Points"
         },
         {
-          "title": "NFC"
+          "title": "Controllers"
+        },
+        {
+          "title": "Wireless Technologies",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Bluetooth"
+            },
+            {
+              "title": "NFC"
+            },
+            {
+              "title": "Zigbee & Z-Wave"
+            },
+            {
+              "title": "Mobile Networks"
+            },
+            {
+              "title": "Hotspot and Tethering"
+            },
+            {
+              "title": "LoRaWAN"
+            },
+            {
+              "title": "Satellite"
+            }
+          ]
+        },
+        {
+          "title": "AP Placement & Coverage"
         },
         {
           "title": "Roaming & Band Steering"
         },
         {
-          "title": "Zigbee & Z-Wave"
-        },
-        {
           "title": "Channel Planning"
-        },
-        {
-          "title": "Mobile Networks"
-        },
-        {
-          "title": "Wireless Site Surveys"
-        },
-        {
-          "title": "Hotspot and Tethering"
-        },
-        {
-          "title": "LoRaWAN"
-        },
-        {
-          "title": "Satellite"
         }
       ]
     },
@@ -446,10 +514,17 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Wireless Security"
+          "title": "Wireless Site Surveys"
         },
         {
-          "title": "WPA vs WPS"
+          "title": "Wireless Security",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "WPA vs WPS"
+            }
+          ]
         }
       ]
     },
@@ -468,7 +543,14 @@
           "title": "GLBP"
         },
         {
-          "title": "Load Balancer"
+          "title": "Load Balancer",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Round Robin"
+            }
+          ]
         }
       ]
     },
@@ -479,9 +561,6 @@
       "children": [
         {
           "title": "QoS (Quality of Service)"
-        },
-        {
-          "title": "Round Robin"
         },
         {
           "title": "Traffic shaping"
@@ -503,7 +582,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Packet Filtering"
+          "title": "Firewall Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Packet Filtering"
+            },
+            {
+              "title": "Stateful Inspection"
+            },
+            {
+              "title": "Next-Generation"
+            },
+            {
+              "title": "Proxy"
+            },
+            {
+              "title": "Circuit Level Gateway"
+            },
+            {
+              "title": "Web Application"
+            }
+          ]
         }
       ]
     },
@@ -513,76 +614,52 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Stateful Inspection"
-        },
-        {
           "title": "DoS & DDoS"
         }
       ]
     },
     {
-      "title": "Encryption Basics",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Next-Generation"
-        }
-      ]
+      "title": "Encryption Basics"
     },
     {
-      "title": "IDS / IPS",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Proxy"
-        }
-      ]
+      "title": "IDS / IPS"
     },
     {
-      "title": "ACLs",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Circuit Level Gateway"
-        }
-      ]
+      "title": "ACLs"
     },
     {
-      "title": "Zero Trust Architecture",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Web Application"
-        },
-        {
-          "title": "ping"
-        },
-        {
-          "title": "nslookup"
-        },
-        {
-          "title": "netstat"
-        },
-        {
-          "title": "speedtest"
-        },
-        {
-          "title": "traceroute / tracert"
-        },
-        {
-          "title": "ipconfig / ifconfig"
-        }
-      ]
+      "title": "Zero Trust Architecture"
     },
     {
       "title": "Troubleshooting",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Troubleshooting Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ping"
+            },
+            {
+              "title": "nslookup"
+            },
+            {
+              "title": "netstat"
+            },
+            {
+              "title": "speedtest"
+            },
+            {
+              "title": "traceroute / tracert"
+            },
+            {
+              "title": "ipconfig / ifconfig"
+            }
+          ]
+        },
         {
           "title": "Methdologies"
         },
@@ -610,15 +687,6 @@
         },
         {
           "title": "Virtual Networks"
-        },
-        {
-          "title": "Netmiko"
-        },
-        {
-          "title": "NAPALM"
-        },
-        {
-          "title": "Cloud Routing"
         }
       ]
     },
@@ -627,6 +695,15 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Netmiko"
+        },
+        {
+          "title": "NAPALM"
+        },
+        {
+          "title": "Cloud Routing"
+        },
         {
           "title": "Load Balancing"
         },
@@ -659,31 +736,7 @@
           "title": "Ansible"
         },
         {
-          "title": "Wireshark"
-        },
-        {
-          "title": "Nmap"
-        },
-        {
           "title": "Terraform"
-        },
-        {
-          "title": "NetFlow / sFlow"
-        },
-        {
-          "title": "SNMP"
-        },
-        {
-          "title": "Prometheus"
-        },
-        {
-          "title": "Grafana"
-        },
-        {
-          "title": "Datadog"
-        },
-        {
-          "title": "Dynatrace"
         }
       ]
     },
@@ -691,7 +744,49 @@
       "title": "Infrastructure as Code"
     },
     {
-      "title": "Observability"
+      "title": "Observability",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Network Observabiity Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Wireshark"
+            },
+            {
+              "title": "Nmap"
+            },
+            {
+              "title": "NetFlow / sFlow"
+            },
+            {
+              "title": "SNMP"
+            }
+          ]
+        },
+        {
+          "title": "Observabiity Platforms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prometheus"
+            },
+            {
+              "title": "Grafana"
+            },
+            {
+              "title": "Datadog"
+            },
+            {
+              "title": "Dynatrace"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

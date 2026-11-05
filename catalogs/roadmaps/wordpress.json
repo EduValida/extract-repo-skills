@@ -7,9 +7,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "HTML"
-        },
-        {
           "title": "CSS"
         },
         {
@@ -29,26 +26,49 @@
         },
         {
           "title": "Backend Fundamentals"
-        },
-        {
-          "title": "wordpress.com & wordpress.org"
-        },
-        {
-          "title": "SQL"
-        },
-        {
-          "title": "PHP"
         }
       ]
     },
     {
-      "title": "Installation & Setup"
+      "title": "Installation & Setup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Start with local deployment",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LocalWP"
+            },
+            {
+              "title": "XAMPP"
+            },
+            {
+              "title": "VVV"
+            },
+            {
+              "title": "Docker"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Themes",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "SQL"
+        },
+        {
+          "title": "PHP"
+        },
         {
           "title": "Block"
         },
@@ -63,6 +83,34 @@
         },
         {
           "title": "Third-Party"
+        },
+        {
+          "title": "Actions"
+        },
+        {
+          "title": "Block Themes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Theme Structure"
+            },
+            {
+              "title": "Full Site Editing (FSE)"
+            },
+            {
+              "title": "Block Patterns"
+            },
+            {
+              "title": "Template Parts"
+            },
+            {
+              "title": "Styles"
+            },
+            {
+              "title": "Overrides"
+            }
+          ]
         }
       ]
     },
@@ -72,21 +120,89 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "LocalWP"
+          "title": "wordpress.com & wordpress.org"
         },
         {
-          "title": "XAMPP"
+          "title": "Plugin Basics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Plugin Basics"
+            },
+            {
+              "title": "File Structure"
+            }
+          ]
         },
         {
-          "title": "VVV"
+          "title": "Extending Functionality",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Transients API"
+            },
+            {
+              "title": "Cron Jobs"
+            },
+            {
+              "title": "AJAX in WordPress"
+            },
+            {
+              "title": "REST API"
+            }
+          ]
         },
         {
-          "title": "Docker"
+          "title": "Advanced Plugin",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Working with Databases"
+            },
+            {
+              "title": "Custom Tables"
+            },
+            {
+              "title": "External API Integrations"
+            }
+          ]
+        },
+        {
+          "title": "Plugin Administration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Admin Menu"
+            },
+            {
+              "title": "Settings API"
+            },
+            {
+              "title": "Options API"
+            },
+            {
+              "title": "Settings Page"
+            }
+          ]
         }
       ]
     },
     {
       "title": "File Structure"
+    },
+    {
+      "title": "Hooks",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Filters"
+        }
+      ]
     },
     {
       "title": "Page Editors",
@@ -105,19 +221,6 @@
       ]
     },
     {
-      "title": "Hooks",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Filters"
-        },
-        {
-          "title": "Actions"
-        }
-      ]
-    },
-    {
       "title": "The Loop"
     },
     {
@@ -127,29 +230,7 @@
       "title": "Custom Post Types"
     },
     {
-      "title": "Style & Script Enqueueing",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Theme Structure"
-        },
-        {
-          "title": "Full Site Editing (FSE)"
-        },
-        {
-          "title": "Block Patterns"
-        },
-        {
-          "title": "Template Parts"
-        },
-        {
-          "title": "Styles"
-        },
-        {
-          "title": "Overrides"
-        }
-      ]
+      "title": "Style & Script Enqueueing"
     },
     {
       "title": "Taxonomies"
@@ -158,50 +239,7 @@
       "title": "WordPress REST API"
     },
     {
-      "title": "Coding Standards",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Plugin Basics"
-        },
-        {
-          "title": "File Structure"
-        },
-        {
-          "title": "Transients API"
-        },
-        {
-          "title": "Cron Jobs"
-        },
-        {
-          "title": "AJAX in WordPress"
-        },
-        {
-          "title": "REST API"
-        },
-        {
-          "title": "Working with Databases"
-        },
-        {
-          "title": "Custom Tables"
-        },
-        {
-          "title": "External API Integrations"
-        },
-        {
-          "title": "Admin Menu"
-        },
-        {
-          "title": "Settings API"
-        },
-        {
-          "title": "Options API"
-        },
-        {
-          "title": "Settings Page"
-        }
-      ]
+      "title": "Coding Standards"
     },
     {
       "title": "Classic vs Block Themes",
@@ -209,49 +247,59 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "style.css"
+          "title": "Classic Themes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "style.css"
+            },
+            {
+              "title": "functions.php"
+            },
+            {
+              "title": "Template Files"
+            },
+            {
+              "title": "Child Themes"
+            },
+            {
+              "title": "Template Hierarchy"
+            }
+          ]
         },
         {
-          "title": "functions.php"
-        },
-        {
-          "title": "Template Files"
-        },
-        {
-          "title": "Child Themes"
-        },
-        {
-          "title": "Template Hierarchy"
+          "title": "Theme Structure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Menus"
+            },
+            {
+              "title": "Customizer"
+            },
+            {
+              "title": "Widgets"
+            },
+            {
+              "title": "Template Tags"
+            },
+            {
+              "title": "Custom Fields"
+            },
+            {
+              "title": "ACF"
+            },
+            {
+              "title": "Metabox"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Licensing & Updates",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Menus"
-        },
-        {
-          "title": "Customizer"
-        },
-        {
-          "title": "Widgets"
-        },
-        {
-          "title": "Template Tags"
-        },
-        {
-          "title": "Custom Fields"
-        },
-        {
-          "title": "ACF"
-        },
-        {
-          "title": "Metabox"
-        }
-      ]
+      "title": "Licensing & Updates"
     },
     {
       "title": "Security & Hardening",
@@ -259,22 +307,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Assets"
-        },
-        {
-          "title": "Images"
-        },
-        {
-          "title": "Database Tuning"
-        },
-        {
-          "title": "Caching"
-        },
-        {
-          "title": "Core Web Vitals"
-        },
-        {
-          "title": "CDN Integration"
+          "title": "Optimizations",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Images"
+            },
+            {
+              "title": "Assets"
+            },
+            {
+              "title": "Database Tuning"
+            },
+            {
+              "title": "Caching"
+            },
+            {
+              "title": "Core Web Vitals"
+            },
+            {
+              "title": "CDN Integration"
+            }
+          ]
         },
         {
           "title": "Firewall & Malware Scanning"
@@ -302,25 +357,28 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "PHPUnit"
-        },
-        {
-          "title": "WP_DEBUG"
+          "title": "Testing & Debugging",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "PHPUnit"
+            },
+            {
+              "title": "WP_DEBUG"
+            },
+            {
+              "title": "Query Monitor"
+            },
+            {
+              "title": "Log Files"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Backups & Recovery",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Query Monitor"
-        },
-        {
-          "title": "Log Files"
-        }
-      ]
+      "title": "Backups & Recovery"
     },
     {
       "title": "Update Strategies"
@@ -335,12 +393,6 @@
         },
         {
           "title": "Bedrock"
-        },
-        {
-          "title": "Sage"
-        },
-        {
-          "title": "Composer"
         }
       ]
     },
@@ -350,32 +402,39 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "VPS"
-        },
-        {
           "title": "Shared"
         },
         {
+          "title": "VPS"
+        },
+        {
           "title": "Managed"
+        },
+        {
+          "title": "Hosting Options",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Boost your WordPress Career"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Workflows & Automation"
+      "title": "Automated Deployments"
     },
     {
-      "title": "Automated Deployments",
+      "title": "Workflows & Automation",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "WordPress Credit Program"
+          "title": "Sage"
         },
         {
-          "title": "Contribute to WordPress"
-        },
-        {
-          "title": "Boost your WordPress Career"
+          "title": "Composer"
         }
       ]
     },
@@ -408,7 +467,28 @@
       "title": "Headless WordPress"
     },
     {
-      "title": "Basics of SEO"
+      "title": "Basics of SEO",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Career Growth",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Contribute to WordPress",
+              "importance": 50,
+              "completion_threshold": 60,
+              "children": [
+                {
+                  "title": "WordPress Credit Program"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

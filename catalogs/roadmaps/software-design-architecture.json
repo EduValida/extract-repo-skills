@@ -7,53 +7,143 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Clean Code"
-        },
-        {
-          "title": "Programming Paradigms"
-        },
-        {
-          "title": "Object Oriented Programming"
-        },
-        {
-          "title": "Design Principles"
-        },
-        {
-          "title": "Design Patterns"
-        },
-        {
-          "title": "Architectural Principles"
+          "title": "Minimap of Topics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Clean Code"
+            },
+            {
+              "title": "Programming Paradigms"
+            },
+            {
+              "title": "Object Oriented Programming"
+            },
+            {
+              "title": "Design Principles"
+            },
+            {
+              "title": "Design Patterns"
+            },
+            {
+              "title": "Architectural Principles"
+            },
+            {
+              "title": "Architectural Styles"
+            },
+            {
+              "title": "Architectural Patterns"
+            },
+            {
+              "title": "Enterprise Patterns"
+            }
+          ]
         },
         {
           "title": "Be consistent"
         },
         {
-          "title": "Architectural Styles"
-        },
-        {
           "title": "Meaningful names over comments"
-        },
-        {
-          "title": "Architectural Patterns"
         },
         {
           "title": "Indentation and Code Style"
         },
         {
-          "title": "Enterprise Patterns"
-        },
-        {
           "title": "Keep methods / classes / files small"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Programming Paradigms",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Pure functions"
+        },
+        {
+          "title": "Structured Programming"
         },
         {
           "title": "Minimize cyclomatic complexity"
         },
         {
+          "title": "Functional Programming"
+        },
+        {
           "title": "Avoid passing nulls, booleans"
         },
+        {
+          "title": "Object Oriented Programming"
+        }
+      ]
+    },
+    {
+      "title": "Object Oriented Programming",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Primary Principles",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Polymorphism"
+            },
+            {
+              "title": "Inheritance"
+            },
+            {
+              "title": "Encapsulation"
+            },
+            {
+              "title": "Abstraction"
+            }
+          ]
+        },
+        {
+          "title": "Law of Demeter"
+        },
+        {
+          "title": "SOLID"
+        }
+      ]
+    },
+    {
+      "title": "Design Principles",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Tell, don't ask"
+        },
+        {
+          "title": "DRY"
+        },
+        {
+          "title": "Hollywood Principle"
+        },
+        {
+          "title": "YAGNI"
+        },
+        {
+          "title": "Composition over Inheritance"
+        },
+        {
+          "title": "Encapsulate what varies"
+        },
+        {
+          "title": "Program against abstractions"
+        }
+      ]
+    },
+    {
+      "title": "Design Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Keep framework code distant"
         },
@@ -71,100 +161,12 @@
         },
         {
           "title": "Keep it simple and refactor often"
-        }
-      ]
-    },
-    {
-      "title": "Programming Paradigms",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Structured Programming"
         },
-        {
-          "title": "Functional Programming"
-        },
-        {
-          "title": "Object Oriented Programming"
-        }
-      ]
-    },
-    {
-      "title": "Object Oriented Programming",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Polymorphism"
-        },
-        {
-          "title": "Inheritance"
-        },
-        {
-          "title": "Encapsulation"
-        },
-        {
-          "title": "Abstraction"
-        },
-        {
-          "title": "Law of Demeter"
-        },
-        {
-          "title": "SOLID"
-        },
-        {
-          "title": "Tell, don't ask"
-        },
-        {
-          "title": "DRY"
-        },
-        {
-          "title": "Hollywood Principle"
-        },
-        {
-          "title": "YAGNI"
-        }
-      ]
-    },
-    {
-      "title": "Design Principles",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Composition over Inheritance"
-        },
-        {
-          "title": "Encapsulate what varies"
-        },
-        {
-          "title": "Program against abstractions"
-        },
-        {
-          "title": "Event-Driven"
-        }
-      ]
-    },
-    {
-      "title": "Design Patterns",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
         {
           "title": "GoF Design Patterns"
         },
         {
           "title": "PoSA Patterns"
-        },
-        {
-          "title": "Component Principles"
-        },
-        {
-          "title": "Policy vs Detail"
-        },
-        {
-          "title": "Coupling and Cohesion"
         }
       ]
     },
@@ -174,16 +176,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Abstract Classes"
-        },
-        {
-          "title": "Concrete Classes"
-        },
-        {
-          "title": "Scope / Visibility"
-        },
-        {
-          "title": "Interfaces"
+          "title": "Paradigm Features",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Abstract Classes"
+            },
+            {
+              "title": "Concrete Classes"
+            },
+            {
+              "title": "Scope / Visibility"
+            },
+            {
+              "title": "Interfaces"
+            }
+          ]
         },
         {
           "title": "Domain Models"
@@ -196,12 +205,6 @@
         },
         {
           "title": "Class Variants"
-        },
-        {
-          "title": "Layered Architectures"
-        },
-        {
-          "title": "Component-Based"
         }
       ]
     },
@@ -210,6 +213,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Event-Driven"
+        },
         {
           "title": "Publish-Subscribe"
         }
@@ -237,6 +243,15 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Component Principles"
+        },
+        {
+          "title": "Policy vs Detail"
+        },
+        {
+          "title": "Coupling and Cohesion"
+        },
+        {
           "title": "Boundaries"
         }
       ]
@@ -246,6 +261,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Layered Architectures"
+        },
+        {
+          "title": "Component-Based"
+        },
         {
           "title": "Monolithic"
         },
@@ -285,9 +306,6 @@
         },
         {
           "title": "CQRS"
-        },
-        {
-          "title": "SOA"
         }
       ]
     },
@@ -319,6 +337,9 @@
         },
         {
           "title": "Value Objects"
+        },
+        {
+          "title": "SOA"
         },
         {
           "title": "Domain Models"

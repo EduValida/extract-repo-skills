@@ -29,40 +29,61 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "manage.py"
+          "title": "Project Structure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "manage.py"
+            },
+            {
+              "title": "settings.py"
+            },
+            {
+              "title": "urls.py"
+            }
+          ]
         },
         {
-          "title": "settings.py"
+          "title": "App Structure",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "models.py"
+            },
+            {
+              "title": "views.py"
+            },
+            {
+              "title": "tests.py"
+            },
+            {
+              "title": "admin.py"
+            },
+            {
+              "title": "migrations"
+            },
+            {
+              "title": "urls.py"
+            }
+          ]
         },
         {
-          "title": "urls.py"
-        },
-        {
-          "title": "models.py"
-        },
-        {
-          "title": "views.py"
-        },
-        {
-          "title": "tests.py"
-        },
-        {
-          "title": "admin.py"
-        },
-        {
-          "title": "migrations"
-        },
-        {
-          "title": "urls.py (2)"
-        },
-        {
-          "title": "static"
-        },
-        {
-          "title": "media"
-        },
-        {
-          "title": "templates"
+          "title": "Other Files",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "static"
+            },
+            {
+              "title": "media"
+            },
+            {
+              "title": "templates"
+            }
+          ]
         }
       ]
     },
@@ -72,22 +93,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "URL patterns"
-        },
-        {
-          "title": "Path converters"
-        },
-        {
-          "title": "Regex Paths"
-        },
-        {
-          "title": "Named URLs"
-        },
-        {
-          "title": "Reverse URL"
-        },
-        {
-          "title": "Routing Middleware"
+          "title": "Routing Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "URL patterns"
+            },
+            {
+              "title": "Path converters"
+            },
+            {
+              "title": "Regex Paths"
+            },
+            {
+              "title": "Named URLs"
+            },
+            {
+              "title": "Reverse URL"
+            },
+            {
+              "title": "Routing Middleware"
+            }
+          ]
         }
       ]
     },
@@ -103,7 +131,14 @@
           "title": "Function-based views"
         },
         {
-          "title": "Class-based views"
+          "title": "Class-based views",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Generic views"
+            }
+          ]
         }
       ]
     },
@@ -113,22 +148,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Generic views"
-        },
-        {
           "title": "ListView"
         },
         {
           "title": "DetailView"
-        },
-        {
-          "title": "CreateView"
-        },
-        {
-          "title": "UpdateView"
-        },
-        {
-          "title": "DeleteView"
         }
       ]
     },
@@ -158,7 +181,17 @@
       ]
     },
     {
-      "title": "Templates"
+      "title": "Templates",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "CreateView"
+        },
+        {
+          "title": "UpdateView"
+        }
+      ]
     },
     {
       "title": "Template Inheritance"
@@ -169,10 +202,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Fields types"
+          "title": "DeleteView"
         },
         {
-          "title": "Field options"
+          "title": "Model Fields",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Fields types"
+            },
+            {
+              "title": "Field options"
+            }
+          ]
         },
         {
           "title": "Custom fields"
@@ -184,6 +227,32 @@
     },
     {
       "title": "Model methods"
+    },
+    {
+      "title": "Setting up the Database",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Supported DBs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "SQLite"
+            },
+            {
+              "title": "PostgreSQL"
+            },
+            {
+              "title": "MySQL"
+            },
+            {
+              "title": "MariaDB"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Model inheritance",
@@ -207,17 +276,8 @@
         },
         {
           "title": "Transactions"
-        },
-        {
-          "title": "Fixtures"
-        },
-        {
-          "title": "Query Optimization"
         }
       ]
-    },
-    {
-      "title": "Setting up the Database"
     },
     {
       "title": "Migrations"
@@ -228,16 +288,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Django Forms"
-        },
-        {
-          "title": "Model Forms"
-        },
-        {
-          "title": "Form Validation"
-        },
-        {
-          "title": "CSRF"
+          "title": "Validation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Django Forms"
+            },
+            {
+              "title": "Model Forms"
+            },
+            {
+              "title": "Form Validation"
+            },
+            {
+              "title": "CSRF"
+            }
+          ]
         }
       ]
     },
@@ -246,18 +313,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "PostgreSQL"
-        },
-        {
-          "title": "SQLite"
-        },
-        {
-          "title": "MySQL"
-        },
-        {
-          "title": "MariaDB"
-        },
         {
           "title": "Whitenoise"
         }
@@ -279,6 +334,12 @@
       "children": [
         {
           "title": "Admin Customization"
+        },
+        {
+          "title": "Views & ViewSets"
+        },
+        {
+          "title": "Routers"
         }
       ]
     },
@@ -287,6 +348,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Fixtures"
+        },
+        {
+          "title": "Query Optimization"
+        },
         {
           "title": "Customization"
         }
@@ -325,36 +392,37 @@
       "children": [
         {
           "title": "Serializers"
-        },
-        {
-          "title": "Views & ViewSets"
-        },
-        {
-          "title": "Routers"
         }
       ]
     },
     {
-      "title": "Django Ninja",
+      "title": "Django Ninja"
+    },
+    {
+      "title": "Logging",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Loggers"
-        },
-        {
-          "title": "Handlers"
-        },
-        {
-          "title": "Filters"
-        },
-        {
-          "title": "Formatters"
+          "title": "Logging Framework",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Loggers"
+            },
+            {
+              "title": "Handlers"
+            },
+            {
+              "title": "Filters"
+            },
+            {
+              "title": "Formatters"
+            }
+          ]
         }
       ]
-    },
-    {
-      "title": "Logging"
     },
     {
       "title": "Debugging",
@@ -384,13 +452,17 @@
           "title": "pytest"
         },
         {
-          "title": "Celery"
-        },
-        {
           "title": "unittest & TestCase"
         },
         {
-          "title": "Asynchronous Django"
+          "title": "Asynchronous Django",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Celery"
+            }
+          ]
         },
         {
           "title": "Caching"

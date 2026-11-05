@@ -7,46 +7,64 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Data Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Integers"
+            },
+            {
+              "title": "Floats"
+            },
+            {
+              "title": "Booleans"
+            },
+            {
+              "title": "Strings"
+            },
+            {
+              "title": "Null"
+            }
+          ]
+        },
+        {
           "title": "Arithmetic"
-        },
-        {
-          "title": "Integers"
-        },
-        {
-          "title": "Floats"
         },
         {
           "title": "Comparison"
         },
         {
-          "title": "Booleans"
+          "title": "Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Logical"
+            }
+          ]
         },
         {
-          "title": "Strings"
-        },
-        {
-          "title": "Logical"
-        },
-        {
-          "title": "Null"
-        },
-        {
-          "title": "Operators"
-        },
-        {
-          "title": "Lists"
-        },
-        {
-          "title": "Tuples"
+          "title": "Data Structures",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Lists"
+            },
+            {
+              "title": "Tuples"
+            },
+            {
+              "title": "Sets"
+            },
+            {
+              "title": "Dictionaries"
+            }
+          ]
         },
         {
           "title": "Printing Variables"
-        },
-        {
-          "title": "Sets"
-        },
-        {
-          "title": "Dictionaries"
         },
         {
           "title": "Conditionals"
@@ -56,12 +74,6 @@
         },
         {
           "title": "Type Casting"
-        },
-        {
-          "title": "Working with Strings"
-        },
-        {
-          "title": "List Comprehensions"
         }
       ]
     },
@@ -71,19 +83,32 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "pip"
+          "title": "Working with Strings"
         },
         {
-          "title": "conda"
+          "title": "List Comprehensions"
         },
         {
-          "title": "uv"
+          "title": "Package Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "pip"
+            },
+            {
+              "title": "conda"
+            },
+            {
+              "title": "uv"
+            },
+            {
+              "title": "virtualenv / venv"
+            }
+          ]
         },
         {
           "title": "Built-in Functions"
-        },
-        {
-          "title": "virtualenv / venv"
         },
         {
           "title": "Defining Functions"
@@ -92,16 +117,23 @@
           "title": "args & kwargs"
         },
         {
-          "title": "JupyterLab"
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JupyterLab"
+            },
+            {
+              "title": "Google Colab"
+            },
+            {
+              "title": "VS Code"
+            }
+          ]
         },
         {
           "title": "Lambda Functions"
-        },
-        {
-          "title": "Google Colab"
-        },
-        {
-          "title": "VS Code"
         }
       ]
     },
@@ -114,16 +146,23 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Packages for SQL",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "sqlite3"
+            },
+            {
+              "title": "DuckDB"
+            }
+          ]
+        },
+        {
           "title": "SQLAlchemy"
         },
         {
-          "title": "sqlite3"
-        },
-        {
           "title": "Pandas"
-        },
-        {
-          "title": "DuckDB"
         }
       ]
     },
@@ -152,9 +191,6 @@
         },
         {
           "title": "Random Module"
-        },
-        {
-          "title": "Indexing & Slicing (2)"
         }
       ]
     },
@@ -163,6 +199,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Indexing & Slicing"
+        },
         {
           "title": "Polars"
         },
@@ -180,22 +219,29 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "File Formats",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Excel"
+            },
+            {
+              "title": "Parquet"
+            }
+          ]
+        },
+        {
           "title": "Merging & Joining"
         },
         {
           "title": "CSV"
         },
         {
-          "title": "Excel"
-        },
-        {
           "title": "Reshaping"
         },
         {
           "title": "JSON"
-        },
-        {
-          "title": "Parquet"
         }
       ]
     },
@@ -212,24 +258,6 @@
         },
         {
           "title": "scrapy"
-        },
-        {
-          "title": "isnull, isna"
-        },
-        {
-          "title": "Dropping vs. Imputing"
-        },
-        {
-          "title": "Forward / Backward Fill"
-        },
-        {
-          "title": "IQR"
-        },
-        {
-          "title": "Z-score"
-        },
-        {
-          "title": "Visual Inspection"
         }
       ]
     },
@@ -239,22 +267,68 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "strip, replace, split"
+          "title": "Missing Values",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "isnull, isna"
+            },
+            {
+              "title": "Dropping vs. Imputing"
+            },
+            {
+              "title": "Forward / Backward Fill"
+            }
+          ]
         },
         {
-          "title": "re"
+          "title": "String Cleaning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "strip, replace, split"
+            },
+            {
+              "title": "re"
+            },
+            {
+              "title": "Pandas String Methods"
+            }
+          ]
         },
         {
-          "title": "Pandas String Methods"
+          "title": "Outlier Detection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "IQR"
+            },
+            {
+              "title": "Z-score"
+            },
+            {
+              "title": "Visual Inspection"
+            }
+          ]
         },
         {
-          "title": "Casting Types"
-        },
-        {
-          "title": "Parsing Dates"
-        },
-        {
-          "title": "Encoding Categories"
+          "title": "Data Type Conversion",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Casting Types"
+            },
+            {
+              "title": "Parsing Dates"
+            },
+            {
+              "title": "Encoding Categories"
+            }
+          ]
         }
       ]
     },
@@ -264,28 +338,49 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Mean, Median, Mode"
+          "title": "Descriptive Statistics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Mean, Median, Mode"
+            },
+            {
+              "title": "Variance & Std. Deviation"
+            },
+            {
+              "title": "Correlation & Covariance"
+            }
+          ]
         },
         {
-          "title": "Variance & Std. Deviation"
+          "title": "Distribution Analysis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Histogram"
+            },
+            {
+              "title": "Boxplot"
+            }
+          ]
         },
         {
-          "title": "Correlation & Covariance"
-        },
-        {
-          "title": "Histogram"
-        },
-        {
-          "title": "Boxplot"
-        },
-        {
-          "title": "Scatterplot"
-        },
-        {
-          "title": "Correlation Matrix"
-        },
-        {
-          "title": "Cross-tabulation"
+          "title": "Relationship Analysis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Scatterplot"
+            },
+            {
+              "title": "Correlation Matrix"
+            },
+            {
+              "title": "Cross-tabulation"
+            }
+          ]
         }
       ]
     },
@@ -346,10 +441,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Dash"
+          "title": "Streamlit"
         },
         {
-          "title": "Streamlit"
+          "title": "Dash"
         },
         {
           "title": "Power BI / Tableau"

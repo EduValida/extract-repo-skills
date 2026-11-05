@@ -7,6 +7,15 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "var"
+        },
+        {
+          "title": "let"
+        },
+        {
+          "title": "const"
+        },
+        {
           "title": "What is JavaScript"
         },
         {
@@ -25,15 +34,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "var"
-        },
-        {
-          "title": "let"
-        },
-        {
-          "title": "const"
-        },
         {
           "title": "Variable Declarations"
         },
@@ -56,16 +56,7 @@
           "title": "Function"
         },
         {
-          "title": "Global"
-        },
-        {
           "title": "Prototypal Inheritance"
-        },
-        {
-          "title": "Built-in Objects"
-        },
-        {
-          "title": "JSON"
         }
       ]
     },
@@ -87,7 +78,14 @@
           "title": "bigint"
         },
         {
-          "title": "Object"
+          "title": "Object",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Built-in Objects"
+            }
+          ]
         },
         {
           "title": "boolean"
@@ -100,6 +98,22 @@
         },
         {
           "title": "Symbol"
+        },
+        {
+          "title": "Primitive Types",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "=="
+            },
+            {
+              "title": "==="
+            },
+            {
+              "title": "Object.is"
+            }
+          ]
         }
       ]
     },
@@ -125,43 +139,48 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Map"
+          "title": "Global"
+        },
+        {
+          "title": "JSON"
         },
         {
           "title": "Structured Data"
         },
         {
-          "title": "Weak Map"
+          "title": "Keyed Collections",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Map"
+            },
+            {
+              "title": "Weak Map"
+            },
+            {
+              "title": "Set"
+            },
+            {
+              "title": "Weak Set"
+            }
+          ]
         },
         {
-          "title": "Set"
-        },
-        {
-          "title": "Keyed Collections"
-        },
-        {
-          "title": "Weak Set"
-        },
-        {
-          "title": "Typed Arrays"
-        },
-        {
-          "title": "Indexed Collections"
-        },
-        {
-          "title": "Arrays"
+          "title": "Indexed Collections",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Typed Arrays"
+            },
+            {
+              "title": "Arrays"
+            }
+          ]
         },
         {
           "title": "for"
-        },
-        {
-          "title": "break / continue"
-        },
-        {
-          "title": "do...while"
-        },
-        {
-          "title": "for...of loop"
         }
       ]
     },
@@ -171,25 +190,33 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "=="
+          "title": "Value Comparison Operators",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "CommonJS"
+            }
+          ]
         },
         {
-          "title": "==="
-        },
-        {
-          "title": "Object.is"
-        },
-        {
-          "title": "isLooselyEqual"
-        },
-        {
-          "title": "isStrictlyEqual"
-        },
-        {
-          "title": "SameValueZero"
-        },
-        {
-          "title": "SameValue"
+          "title": "Equality Algorithms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "isLooselyEqual"
+            },
+            {
+              "title": "isStrictlyEqual"
+            },
+            {
+              "title": "SameValueZero"
+            },
+            {
+              "title": "SameValue"
+            }
+          ]
         }
       ]
     },
@@ -198,6 +225,15 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "break / continue"
+        },
+        {
+          "title": "do...while"
+        },
+        {
+          "title": "for...of loop"
+        },
         {
           "title": "while"
         },
@@ -209,43 +245,6 @@
         },
         {
           "title": "Switch"
-        }
-      ]
-    },
-    {
-      "title": "Control Flow",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Conditional Statements"
-        },
-        {
-          "title": "Exceptional Handling"
-        },
-        {
-          "title": "Default Params"
-        },
-        {
-          "title": "Rest"
-        },
-        {
-          "title": "throw statement"
-        },
-        {
-          "title": "try/catch/finally"
-        },
-        {
-          "title": "Error Objects"
-        },
-        {
-          "title": "Recursion"
-        },
-        {
-          "title": "Lexical Scoping"
-        },
-        {
-          "title": "Closures"
         }
       ]
     },
@@ -287,6 +286,38 @@
       ]
     },
     {
+      "title": "Control Flow",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Conditional Statements"
+        },
+        {
+          "title": "Exceptional Handling",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "throw statement"
+            }
+          ]
+        },
+        {
+          "title": "Default Params"
+        },
+        {
+          "title": "Rest"
+        },
+        {
+          "title": "try/catch/finally"
+        },
+        {
+          "title": "Error Objects"
+        }
+      ]
+    },
+    {
       "title": "Functions",
       "importance": 50,
       "completion_threshold": 60,
@@ -304,7 +335,20 @@
           "title": "arguments object"
         },
         {
-          "title": "Scope & Function Stack"
+          "title": "Scope & Function Stack",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Recursion"
+            },
+            {
+              "title": "Lexical Scoping"
+            },
+            {
+              "title": "Closures"
+            }
+          ]
         },
         {
           "title": "Built-in Functions"
@@ -342,15 +386,6 @@
         },
         {
           "title": "Explicit Binding"
-        },
-        {
-          "title": "call"
-        },
-        {
-          "title": "apply"
-        },
-        {
-          "title": "bind"
         }
       ]
     },
@@ -369,18 +404,51 @@
           "title": "Callbacks"
         },
         {
-          "title": "Promises"
+          "title": "Promises",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "async/await"
+            }
+          ]
         },
         {
           "title": "setTimeout"
         },
         {
-          "title": "async/await"
-        },
-        {
           "title": "setInterval"
         }
       ]
+    },
+    {
+      "title": "Modules in JavaScript",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "ESM"
+        }
+      ]
+    },
+    {
+      "title": "Iterators and Generators",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "call"
+        },
+        {
+          "title": "apply"
+        },
+        {
+          "title": "bind"
+        }
+      ]
+    },
+    {
+      "title": "Classes"
     },
     {
       "title": "Working with APIs",
@@ -392,25 +460,6 @@
         },
         {
           "title": "Fetch"
-        }
-      ]
-    },
-    {
-      "title": "Classes"
-    },
-    {
-      "title": "Iterators and Generators"
-    },
-    {
-      "title": "Modules in JavaScript",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "CommonJS"
-        },
-        {
-          "title": "ESM"
         }
       ]
     },

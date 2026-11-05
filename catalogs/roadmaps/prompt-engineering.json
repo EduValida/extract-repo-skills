@@ -13,37 +13,44 @@
           "title": "What is a Prompt?"
         },
         {
+          "title": "Common Terminology",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LLM"
+            },
+            {
+              "title": "Tokens"
+            },
+            {
+              "title": "Context Window"
+            },
+            {
+              "title": "Hallucination"
+            },
+            {
+              "title": "Agents"
+            },
+            {
+              "title": "Prompt Injection"
+            },
+            {
+              "title": "Model Weights / Parameters"
+            },
+            {
+              "title": "Fine-Tuning vs Prompt Engg."
+            },
+            {
+              "title": "AI vs AGI"
+            },
+            {
+              "title": "RAG"
+            }
+          ]
+        },
+        {
           "title": "What is Prompt Engineering?"
-        },
-        {
-          "title": "LLM"
-        },
-        {
-          "title": "Tokens"
-        },
-        {
-          "title": "Context Window"
-        },
-        {
-          "title": "Hallucination"
-        },
-        {
-          "title": "Agents"
-        },
-        {
-          "title": "Prompt Injection"
-        },
-        {
-          "title": "Model Weights / Parameters"
-        },
-        {
-          "title": "Fine-Tuning vs Prompt Engg."
-        },
-        {
-          "title": "RAG"
-        },
-        {
-          "title": "AI vs AGI"
         }
       ]
     },
@@ -53,13 +60,20 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Temperature"
-        },
-        {
-          "title": "Top-K"
-        },
-        {
-          "title": "Top-P"
+          "title": "LLM Configuration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Temperature"
+            },
+            {
+              "title": "Top-K"
+            },
+            {
+              "title": "Top-P"
+            }
+          ]
         }
       ]
     },
@@ -69,38 +83,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "OpenAI"
-        },
-        {
-          "title": "Google"
-        },
-        {
-          "title": "Anthropic"
-        },
-        {
-          "title": "Meta"
-        },
-        {
-          "title": "xAI"
+          "title": "Models offered by ____",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "OpenAI"
+            },
+            {
+              "title": "Google"
+            },
+            {
+              "title": "Anthropic"
+            },
+            {
+              "title": "Meta"
+            },
+            {
+              "title": "xAI"
+            }
+          ]
         },
         {
           "title": "Max Tokens"
-        },
-        {
-          "title": "Stop Sequences"
-        }
-      ]
-    },
-    {
-      "title": "Repetition Penalties",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Frequency Penalty"
-        },
-        {
-          "title": "Presence Penalty"
         }
       ]
     },
@@ -113,31 +118,32 @@
           "title": "Step-back Prompting"
         },
         {
-          "title": "Zero-Shot Prompting"
-        },
-        {
           "title": "Chain of Thought (CoT) Prompting"
-        },
-        {
-          "title": "One-Shot / Few-Shot Prompting"
         },
         {
           "title": "Self-Consistency Prompting"
         },
         {
-          "title": "System Prompting"
+          "title": "System / Role / Contextual",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "System Prompting"
+            },
+            {
+              "title": "Role Prompting"
+            },
+            {
+              "title": "Contextual Prompting"
+            }
+          ]
         },
         {
           "title": "Tree of Thoughts (ToT) Prompting"
         },
         {
-          "title": "Role Prompting"
-        },
-        {
           "title": "ReAct Prompting"
-        },
-        {
-          "title": "Contextual Prompting"
         },
         {
           "title": "Prompt Tuning"
@@ -145,7 +151,40 @@
       ]
     },
     {
-      "title": "Automatic Prompt Engineering"
+      "title": "Repetition Penalties",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Stop Sequences"
+        },
+        {
+          "title": "Frequency Penalty"
+        },
+        {
+          "title": "Presence Penalty"
+        }
+      ]
+    },
+    {
+      "title": "Automatic Prompt Engineering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Prompting Techniques",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Zero-Shot Prompting"
+            },
+            {
+              "title": "One-Shot / Few-Shot Prompting"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "AI Red Teaming",
@@ -153,16 +192,23 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Prompt Debiasing"
-        },
-        {
-          "title": "Prompt Ensembling"
-        },
-        {
-          "title": "LLM Self Evaluation"
-        },
-        {
-          "title": "Calibrating LLMs"
+          "title": "Improving Reliability",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Prompt Debiasing"
+            },
+            {
+              "title": "Prompt Ensembling"
+            },
+            {
+              "title": "LLM Self Evaluation"
+            },
+            {
+              "title": "Calibrating LLMs"
+            }
+          ]
         }
       ]
     }

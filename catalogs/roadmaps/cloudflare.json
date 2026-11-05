@@ -7,55 +7,76 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "JavaScript Fundamentals"
+          "title": "Prerequisites",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "JavaScript Fundamentals"
+            },
+            {
+              "title": "Basic Command-line Knowledge"
+            },
+            {
+              "title": "HTTP and Web Protocols"
+            },
+            {
+              "title": "Git Basics"
+            }
+          ]
         },
         {
-          "title": "Node.js and NPM"
+          "title": "Core Development Skills",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Node.js and NPM"
+            },
+            {
+              "title": "TypeScript Fundamentals"
+            },
+            {
+              "title": "Understand Serverless Architecture"
+            }
+          ]
         },
         {
-          "title": "Basic Command-line Knowledge"
-        },
-        {
-          "title": "TypeScript Fundamentals"
-        },
-        {
-          "title": "Workers Runtime Environment"
-        },
-        {
-          "title": "HTTP and Web Protocols"
-        },
-        {
-          "title": "Understand Serverless Architecture"
-        },
-        {
-          "title": "Edge Computing Fundamentals"
-        },
-        {
-          "title": "Git Basics"
-        },
-        {
-          "title": "Request/Response Handling"
-        },
-        {
-          "title": "Fetch API and Runtime APIs"
-        },
-        {
-          "title": "Workers Lifecycle"
-        },
-        {
-          "title": "Service Bindings"
-        },
-        {
-          "title": "Caching Strategies"
-        },
-        {
-          "title": "Middleware Patterns"
-        },
-        {
-          "title": "Bindings"
-        },
-        {
-          "title": "Logging and Monitoring"
+          "title": "Workers Core Concepts",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Workers Runtime Environment"
+            },
+            {
+              "title": "Edge Computing Fundamentals"
+            },
+            {
+              "title": "Request/Response Handling"
+            },
+            {
+              "title": "Fetch API and Runtime APIs"
+            },
+            {
+              "title": "Workers Lifecycle"
+            },
+            {
+              "title": "Service Bindings"
+            },
+            {
+              "title": "Caching Strategies"
+            },
+            {
+              "title": "Middleware Patterns"
+            },
+            {
+              "title": "Bindings"
+            },
+            {
+              "title": "Logging and Monitoring"
+            }
+          ]
         },
         {
           "title": "Key-value Operations"
@@ -77,27 +98,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Hono"
-        },
-        {
-          "title": "Itty Router"
-        },
-        {
-          "title": "Any Frontend Framework"
-        },
-        {
-          "title": "Wrangler"
-        },
-        {
-          "title": "Miniflare"
-        },
-        {
-          "title": "DevTools Integration"
-        },
-        {
-          "title": "CI/CD Pipelines"
-        },
-        {
           "title": "Object Storage"
         },
         {
@@ -118,40 +118,54 @@
       "title": "D1"
     },
     {
-      "title": "Queues",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Message Processing"
-        },
-        {
-          "title": "Background Jobs"
-        },
-        {
-          "title": "Rate Limiting"
-        },
-        {
-          "title": "Dead Letter Queues"
-        }
-      ]
-    },
-    {
       "title": "Durable Objects",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Storage Solutions",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Coordination"
+            },
+            {
+              "title": "Persistence"
+            },
+            {
+              "title": "Transactional Operations"
+            }
+          ]
+        },
+        {
           "title": "State Management"
+        }
+      ]
+    },
+    {
+      "title": "Queues",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Durable Execution",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Background Jobs"
+            },
+            {
+              "title": "Rate Limiting"
+            },
+            {
+              "title": "Dead Letter Queues"
+            }
+          ]
         },
         {
-          "title": "Coordination"
-        },
-        {
-          "title": "Persistence"
-        },
-        {
-          "title": "Transactional Operations"
+          "title": "Message Processing"
         }
       ]
     },
@@ -183,16 +197,65 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "API Routers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Hono"
+            },
+            {
+              "title": "Itty Router"
+            }
+          ]
+        },
+        {
+          "title": "Frontend Frameworks",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Any Frontend Framework"
+            }
+          ]
+        },
+        {
+          "title": "Building / Deploying",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Wrangler"
+            },
+            {
+              "title": "Miniflare"
+            },
+            {
+              "title": "DevTools Integration"
+            },
+            {
+              "title": "CI/CD Pipelines"
+            }
+          ]
+        },
+        {
+          "title": "Advanced Features",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Image Processing"
+            },
+            {
+              "title": "Speech Rcognition"
+            },
+            {
+              "title": "AI Model Integration"
+            }
+          ]
+        },
+        {
           "title": "Text Generation"
-        },
-        {
-          "title": "Image Processing"
-        },
-        {
-          "title": "Speech Rcognition"
-        },
-        {
-          "title": "AI Model Integration"
         }
       ]
     },
@@ -206,9 +269,6 @@
         },
         {
           "title": "Similarity Search"
-        },
-        {
-          "title": "AI-powered Search"
         }
       ]
     },
@@ -222,9 +282,6 @@
         },
         {
           "title": "Live streaming"
-        },
-        {
-          "title": "Video Processing"
         }
       ]
     },
@@ -238,6 +295,26 @@
       "title": "Tunnels"
     },
     {
+      "title": "Browser Rendering",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "AI-powered Search"
+        }
+      ]
+    },
+    {
+      "title": "AI Gateway",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Video Processing"
+        }
+      ]
+    },
+    {
       "title": "Email Workers",
       "importance": 50,
       "completion_threshold": 60,
@@ -247,17 +324,8 @@
         },
         {
           "title": "Processing"
-        },
-        {
-          "title": "Filtering"
         }
       ]
-    },
-    {
-      "title": "AI Gateway"
-    },
-    {
-      "title": "Browser Rendering"
     },
     {
       "title": "Security & Performance",
@@ -320,6 +388,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Filtering"
+        },
         {
           "title": "Wrangler"
         },

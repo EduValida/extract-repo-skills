@@ -10,7 +10,13 @@
           "title": "What is Bash?"
         },
         {
+          "title": "dash"
+        },
+        {
           "title": "CLI vs GUI"
+        },
+        {
+          "title": "zsh"
         },
         {
           "title": "What is scripting?"
@@ -26,25 +32,19 @@
           "title": "bash"
         },
         {
-          "title": "dash"
-        },
-        {
           "title": "fish"
-        },
-        {
-          "title": "zsh"
-        },
-        {
-          "title": "ksh"
         },
         {
           "title": "tcsh"
         },
         {
-          "title": "PowerShell"
+          "title": "ksh"
         },
         {
           "title": "cmd"
+        },
+        {
+          "title": "PowerShell"
         }
       ]
     },
@@ -57,43 +57,50 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "pwd"
+          "title": "Shell Fundamentals",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "pwd"
+            },
+            {
+              "title": "ls"
+            },
+            {
+              "title": "cd"
+            },
+            {
+              "title": "mkdir"
+            },
+            {
+              "title": "touch"
+            },
+            {
+              "title": "rm"
+            },
+            {
+              "title": "mv"
+            },
+            {
+              "title": "cp"
+            },
+            {
+              "title": "cat"
+            },
+            {
+              "title": "Navigate between dirs"
+            }
+          ]
         },
         {
           "title": "echo"
         },
         {
-          "title": "ls"
-        },
-        {
-          "title": "cd"
-        },
-        {
-          "title": "touch"
-        },
-        {
-          "title": "rm"
-        },
-        {
-          "title": "mkdir"
-        },
-        {
           "title": "rmdir"
         },
         {
-          "title": "cp"
-        },
-        {
-          "title": "mv"
-        },
-        {
-          "title": "cat"
-        },
-        {
           "title": "find"
-        },
-        {
-          "title": "Navigate between dirs"
         },
         {
           "title": "*"
@@ -102,10 +109,26 @@
           "title": "?"
         },
         {
-          "title": "[...]"
-        },
-        {
-          "title": "{...}"
+          "title": "Wildcards",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Arithmetic expansion"
+            },
+            {
+              "title": "expr"
+            },
+            {
+              "title": "bc"
+            },
+            {
+              "title": "let"
+            },
+            {
+              "title": "awk"
+            }
+          ]
         }
       ]
     },
@@ -127,43 +150,45 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "wc"
-        },
-        {
-          "title": "grep"
+          "title": "Working with Text",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "grep"
+            },
+            {
+              "title": "less, more"
+            },
+            {
+              "title": "head, tail"
+            },
+            {
+              "title": "find"
+            }
+          ]
         },
         {
           "title": "cut, paste"
         },
         {
-          "title": "sort"
+          "title": "wc"
         },
         {
-          "title": "less, more"
-        },
-        {
-          "title": "join, split"
-        },
-        {
-          "title": "uniq"
-        },
-        {
-          "title": "head, tail"
-        },
-        {
-          "title": "tr"
-        },
-        {
-          "title": "nl"
-        },
-        {
-          "title": "find"
-        },
-        {
-          "title": "sed"
-        },
-        {
-          "title": "awk"
+          "title": "Analysis",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Read user input"
+            },
+            {
+              "title": "printf formatting"
+            },
+            {
+              "title": "Here documents"
+            }
+          ]
         }
       ]
     },
@@ -196,35 +221,95 @@
       ]
     },
     {
-      "title": "Basic Editor Ops."
+      "title": "Text Editors"
     },
     {
-      "title": "Text Editors",
+      "title": "Basic Editor Ops.",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Nano"
+          "title": "join, split"
         },
         {
-          "title": "Vim"
+          "title": "sort"
         },
         {
-          "title": "Emacs"
+          "title": "tr"
         },
         {
-          "title": "Vi"
+          "title": "uniq"
+        },
+        {
+          "title": "[...]"
+        },
+        {
+          "title": "sed"
+        },
+        {
+          "title": "awk"
+        },
+        {
+          "title": "nl"
+        },
+        {
+          "title": "{...}"
         }
       ]
     },
     {
-      "title": "Bash Script Anatomy"
+      "title": "Bash Script Anatomy",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Advanced Scripting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "set -e"
+            },
+            {
+              "title": "set -o"
+            },
+            {
+              "title": "set -u"
+            },
+            {
+              "title": "trap"
+            },
+            {
+              "title": "Error logging"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Running Shell Scripts",
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Bash Scripting",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Nano"
+            },
+            {
+              "title": "Vim"
+            },
+            {
+              "title": "Emacs"
+            },
+            {
+              "title": "Vi"
+            }
+          ]
+        },
         {
           "title": "Direct Execution"
         },
@@ -235,19 +320,26 @@
           "title": "Running with Source"
         },
         {
-          "title": "Environment vs Shell vars."
-        },
-        {
-          "title": "Create, Print, Modify"
-        },
-        {
-          "title": "Variable Scopes"
-        },
-        {
-          "title": "Special variables"
-        },
-        {
-          "title": "Variables best practices"
+          "title": "Variables",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Environment vs Shell vars."
+            },
+            {
+              "title": "Create, Print, Modify"
+            },
+            {
+              "title": "Variable Scopes"
+            },
+            {
+              "title": "Special variables"
+            },
+            {
+              "title": "Variables best practices"
+            }
+          ]
         }
       ]
     },
@@ -276,31 +368,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Read user input"
-        },
-        {
-          "title": "printf formatting"
-        },
-        {
-          "title": "Here documents"
-        },
-        {
           "title": "Here strings"
         },
         {
-          "title": "Arithmetic expansion"
-        },
-        {
-          "title": "expr"
-        },
-        {
-          "title": "bc"
-        },
-        {
-          "title": "let"
-        },
-        {
-          "title": "awk"
+          "title": "Working with Numerics",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Substring extraction"
+            },
+            {
+              "title": "Pattern replacement"
+            },
+            {
+              "title": "Case conversion"
+            },
+            {
+              "title": "Function Scopes"
+            }
+          ]
         }
       ]
     },
@@ -314,18 +401,6 @@
         },
         {
           "title": "$0"
-        },
-        {
-          "title": "$*"
-        },
-        {
-          "title": "$@"
-        },
-        {
-          "title": "$#"
-        },
-        {
-          "title": "shift"
         }
       ]
     },
@@ -339,15 +414,25 @@
         },
         {
           "title": "Comparison"
+        }
+      ]
+    },
+    {
+      "title": "Script Arguments",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "$@"
         },
         {
-          "title": "String operators"
+          "title": "$*"
         },
         {
-          "title": "Logical"
+          "title": "$#"
         },
         {
-          "title": "File test"
+          "title": "shift"
         }
       ]
     },
@@ -358,20 +443,8 @@
       "children": [
         {
           "title": "String length"
-        },
-        {
-          "title": "Substring extraction"
-        },
-        {
-          "title": "Pattern replacement"
-        },
-        {
-          "title": "Case conversion"
         }
       ]
-    },
-    {
-      "title": "Script Arguments"
     },
     {
       "title": "Exit Codes",
@@ -379,10 +452,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "exit"
+          "title": "String operators"
+        },
+        {
+          "title": "Logical"
+        },
+        {
+          "title": "File test"
         },
         {
           "title": "$?"
+        },
+        {
+          "title": "exit"
         },
         {
           "title": "Success vs failure"
@@ -437,6 +519,15 @@
         },
         {
           "title": "break, continue"
+        },
+        {
+          "title": "set -x"
+        },
+        {
+          "title": "bash -n"
+        },
+        {
+          "title": "shellcheck"
         }
       ]
     },
@@ -445,9 +536,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Function Scopes"
-        },
         {
           "title": "Recursive Functions"
         }
@@ -459,15 +547,6 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "set -x"
-        },
-        {
-          "title": "bash -n"
-        },
-        {
-          "title": "shellcheck"
-        },
-        {
           "title": "Bash Debug"
         }
       ]
@@ -478,34 +557,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "set -e"
-        },
-        {
-          "title": "set -o"
-        },
-        {
-          "title": "set -u"
-        },
-        {
-          "title": "trap"
-        },
-        {
-          "title": "Error logging"
-        },
-        {
-          "title": "ping"
-        },
-        {
           "title": "curl"
         },
         {
-          "title": "wget"
-        },
-        {
           "title": "ssh"
-        },
-        {
-          "title": "scp"
         },
         {
           "title": "rsync"
@@ -514,13 +569,23 @@
           "title": "ifconfig, ip"
         },
         {
-          "title": "netstat, ss"
-        },
-        {
-          "title": "tar"
-        },
-        {
-          "title": "zip, unzip"
+          "title": "Networking",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "tar"
+            },
+            {
+              "title": "zip, unzip"
+            },
+            {
+              "title": "gzip, gunzip"
+            },
+            {
+              "title": "bzip2, xz"
+            }
+          ]
         }
       ]
     },
@@ -543,49 +608,69 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "nohup"
+          "title": "System Admin.",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "ps"
+            },
+            {
+              "title": "top, htop"
+            },
+            {
+              "title": "free"
+            },
+            {
+              "title": "df, du"
+            },
+            {
+              "title": "uptime"
+            },
+            {
+              "title": "iostat, vmstat"
+            }
+          ]
         },
         {
           "title": "jobs"
         },
         {
-          "title": "disown"
+          "title": "nohup"
+        },
+        {
+          "title": "ping"
         },
         {
           "title": "fg, bg"
         },
         {
-          "title": "ps"
+          "title": "disown"
         },
         {
-          "title": "top, htop"
+          "title": "wget"
         },
         {
           "title": "Process substitution"
         },
         {
-          "title": "free"
+          "title": "scp"
         },
         {
-          "title": "df, du"
-        },
-        {
-          "title": "uptime"
-        },
-        {
-          "title": "iostat, vmstat"
-        },
-        {
-          "title": "brew"
-        },
-        {
-          "title": "apt"
-        },
-        {
-          "title": "cron, crontab"
-        },
-        {
-          "title": "at"
+          "title": "System Monitoring",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "cron, crontab"
+            },
+            {
+              "title": "at"
+            },
+            {
+              "title": "systemd timers"
+            }
+          ]
         }
       ]
     },
@@ -595,19 +680,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "dnf"
+          "title": "netstat, ss"
+        },
+        {
+          "title": "apt"
+        },
+        {
+          "title": "brew"
         },
         {
           "title": "yum"
         },
         {
-          "title": "gzip, gunzip"
-        },
-        {
-          "title": "bzip2, xz"
-        },
-        {
-          "title": "systemd timers"
+          "title": "dnf"
         }
       ]
     }

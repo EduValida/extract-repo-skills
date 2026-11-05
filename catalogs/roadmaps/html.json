@@ -11,15 +11,6 @@
         },
         {
           "title": "Frontend Development"
-        },
-        {
-          "title": "HTML"
-        },
-        {
-          "title": "CSS"
-        },
-        {
-          "title": "JavaScript"
         }
       ]
     },
@@ -38,25 +29,22 @@
           "title": "Hosting"
         },
         {
-          "title": "DNS"
+          "title": "HTML"
         },
         {
-          "title": "Tags and Attributes"
+          "title": "CSS"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "DNS"
         },
         {
           "title": "Browsers"
         },
         {
-          "title": "Case Insensitivity"
-        },
-        {
           "title": "What is SEO?"
-        },
-        {
-          "title": "HTML Entities"
-        },
-        {
-          "title": "HTML Comments"
         }
       ]
     },
@@ -66,22 +54,41 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "!DOCTYPE"
+          "title": "Your First HTML FIle",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Tags and Attributes"
+            },
+            {
+              "title": "Case Insensitivity"
+            },
+            {
+              "title": "HTML Entities"
+            },
+            {
+              "title": "HTML Comments"
+            },
+            {
+              "title": "Whitespaces"
+            },
+            {
+              "title": "id"
+            }
+          ]
         },
         {
-          "title": "Whitespaces"
+          "title": "!DOCTYPE"
         },
         {
           "title": "html"
         },
         {
-          "title": "body"
-        },
-        {
           "title": "head"
         },
         {
-          "title": "meta"
+          "title": "title"
         }
       ]
     },
@@ -97,31 +104,28 @@
           "title": "p"
         },
         {
-          "title": "title"
+          "title": "hr"
         },
         {
           "title": "br"
         },
         {
-          "title": "hr"
+          "title": "b / strong"
         },
         {
           "title": "pre"
         },
         {
-          "title": "b / strong"
+          "title": "i / em"
         },
         {
           "title": "mark"
         },
         {
-          "title": "i / em"
+          "title": "sub"
         },
         {
           "title": "sup"
-        },
-        {
-          "title": "sub"
         },
         {
           "title": "Links"
@@ -133,6 +137,12 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "body"
+        },
+        {
+          "title": "meta"
+        },
         {
           "title": "div"
         },
@@ -148,9 +158,6 @@
       "children": [
         {
           "title": "class"
-        },
-        {
-          "title": "id"
         },
         {
           "title": "Data Attributes"
@@ -186,9 +193,6 @@
       "children": [
         {
           "title": "Priority Hints"
-        },
-        {
-          "title": "img vs figure"
         }
       ]
     },
@@ -198,19 +202,26 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Images"
-        },
-        {
-          "title": "Video"
+          "title": "Images",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "img vs figure"
+            }
+          ]
         },
         {
           "title": "Audio"
         },
         {
-          "title": "iframe"
+          "title": "Video"
         },
         {
           "title": "CSP"
+        },
+        {
+          "title": "iframe"
         }
       ]
     },
@@ -223,45 +234,63 @@
           "title": "Labels and Inputs"
         },
         {
+          "title": "Highlighting Changes",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "del"
+            },
+            {
+              "title": "s"
+            },
+            {
+              "title": "ins"
+            }
+          ]
+        },
+        {
           "title": "File Uploads"
-        },
-        {
-          "title": "del"
-        },
-        {
-          "title": "s"
-        },
-        {
-          "title": "ins"
         },
         {
           "title": "Form Validation"
         },
         {
           "title": "Limitations"
-        },
-        {
-          "title": "cite"
-        },
-        {
-          "title": "abbr"
-        },
-        {
-          "title": "dfn"
-        },
-        {
-          "title": "address"
-        },
-        {
-          "title": "blockquote"
-        },
-        {
-          "title": "q"
         }
       ]
     },
     {
-      "title": "Semantic Markup"
+      "title": "Semantic Markup",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Qutotation / Citation",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "abbr"
+            },
+            {
+              "title": "cite"
+            },
+            {
+              "title": "dfn"
+            },
+            {
+              "title": "address"
+            },
+            {
+              "title": "blockquote"
+            },
+            {
+              "title": "q"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Styling Basics",
@@ -269,31 +298,38 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "header"
-        },
-        {
-          "title": "nav"
-        },
-        {
-          "title": "main"
+          "title": "Layout tags",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "header"
+            },
+            {
+              "title": "nav"
+            },
+            {
+              "title": "main"
+            },
+            {
+              "title": "section"
+            },
+            {
+              "title": "article"
+            },
+            {
+              "title": "aside"
+            },
+            {
+              "title": "footer"
+            }
+          ]
         },
         {
           "title": "Inline CSS"
         },
         {
-          "title": "article"
-        },
-        {
-          "title": "section"
-        },
-        {
           "title": "Internal CSS"
-        },
-        {
-          "title": "aside"
-        },
-        {
-          "title": "footer"
         },
         {
           "title": "External CSS"

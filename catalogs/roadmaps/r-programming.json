@@ -7,40 +7,61 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Installing Packages"
+          "title": "Package Management",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Installing Packages"
+            },
+            {
+              "title": "CRAN"
+            },
+            {
+              "title": "renv"
+            },
+            {
+              "title": "pak"
+            }
+          ]
         },
         {
           "title": "R vs Python"
         },
         {
-          "title": "CRAN"
-        },
-        {
           "title": "Installing R"
-        },
-        {
-          "title": "renv"
-        },
-        {
-          "title": "pak"
         },
         {
           "title": "Your First R Script"
         },
         {
-          "title": "RStudio"
+          "title": "IDEs",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "RStudio"
+            },
+            {
+              "title": "Positron"
+            },
+            {
+              "title": "VS Code"
+            }
+          ]
         },
         {
-          "title": "Positron"
-        },
-        {
-          "title": "VS Code"
-        },
-        {
-          "title": "Quarto"
-        },
-        {
-          "title": "R Markdown"
+          "title": "Publish Your Work",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Quarto"
+            },
+            {
+              "title": "R Markdown"
+            }
+          ]
         }
       ]
     },
@@ -56,10 +77,10 @@
           "title": "Creating Variables"
         },
         {
-          "title": "Pipe"
+          "title": "Operators"
         },
         {
-          "title": "Operators"
+          "title": "Pipe"
         },
         {
           "title": "Comments"
@@ -84,6 +105,9 @@
           "title": "Integer"
         },
         {
+          "title": "Vectors"
+        },
+        {
           "title": "Character"
         },
         {
@@ -95,7 +119,14 @@
       ]
     },
     {
-      "title": "Type Conversion"
+      "title": "Type Conversion",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Matrices"
+        }
+      ]
     },
     {
       "title": "Data Structures",
@@ -106,13 +137,7 @@
           "title": "Lists"
         },
         {
-          "title": "Vectors"
-        },
-        {
           "title": "Arrays"
-        },
-        {
-          "title": "Matrices"
         },
         {
           "title": "Factors"
@@ -122,9 +147,6 @@
         },
         {
           "title": "Data Tables"
-        },
-        {
-          "title": "Tibbles"
         }
       ]
     },
@@ -141,6 +163,9 @@
         },
         {
           "title": "Recursion"
+        },
+        {
+          "title": "Tibbles"
         },
         {
           "title": "Apply Family"
@@ -165,25 +190,7 @@
           "title": "dplyr"
         },
         {
-          "title": "tidyr"
-        },
-        {
-          "title": "readr"
-        },
-        {
-          "title": "purrr"
-        },
-        {
-          "title": "tibble"
-        },
-        {
-          "title": "stringr"
-        },
-        {
-          "title": "forcats"
-        },
-        {
-          "title": "lubridate"
+          "title": "CSV"
         }
       ]
     },
@@ -196,49 +203,37 @@
           "title": "Excel"
         },
         {
-          "title": "CSV"
+          "title": "tidyr"
         },
         {
-          "title": "JSON"
+          "title": "readr"
         },
         {
           "title": "Text"
         },
         {
-          "title": "Web Scraping"
+          "title": "JSON"
+        },
+        {
+          "title": "purrr"
+        },
+        {
+          "title": "tibble"
         },
         {
           "title": "APIs"
         },
         {
-          "title": "Casting Types"
+          "title": "Web Scraping"
         },
         {
-          "title": "Parsing Dates"
+          "title": "stringr"
         },
         {
-          "title": "Encoding Categories"
+          "title": "forcats"
         },
         {
-          "title": "strip, replace, split"
-        },
-        {
-          "title": "isnull, isna"
-        },
-        {
-          "title": "Dropping vs. Imputing"
-        },
-        {
-          "title": "Forward / Backward Fill"
-        },
-        {
-          "title": "IQR"
-        },
-        {
-          "title": "Z-score"
-        },
-        {
-          "title": "Visual Inspection"
+          "title": "lubridate"
         }
       ]
     },
@@ -255,9 +250,6 @@
         },
         {
           "title": "Mutate & Transform"
-        },
-        {
-          "title": "Window Functions"
         }
       ]
     },
@@ -266,6 +258,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Window Functions"
+        },
         {
           "title": "Joins"
         },
@@ -363,9 +358,6 @@
         },
         {
           "title": "Descriptive Statistics"
-        },
-        {
-          "title": "Probability Distributions"
         }
       ]
     },
@@ -374,6 +366,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Probability Distributions"
+        },
         {
           "title": "Sampling"
         },
@@ -394,6 +389,64 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "Data Type Conversion",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Casting Types"
+            },
+            {
+              "title": "Parsing Dates"
+            },
+            {
+              "title": "Encoding Categories"
+            }
+          ]
+        },
+        {
+          "title": "String Cleaning",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "strip, replace, split"
+            }
+          ]
+        },
+        {
+          "title": "Missing Values",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "isnull, isna"
+            },
+            {
+              "title": "Dropping vs. Imputing"
+            },
+            {
+              "title": "Forward / Backward Fill"
+            }
+          ]
+        },
+        {
+          "title": "Outlier Detection",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "IQR"
+            },
+            {
+              "title": "Z-score"
+            },
+            {
+              "title": "Visual Inspection"
+            }
+          ]
+        },
+        {
           "title": "Linear Regression"
         },
         {
@@ -401,9 +454,6 @@
         },
         {
           "title": "Logistic Regression"
-        },
-        {
-          "title": "Hypothesis Testing"
         }
       ]
     },
@@ -412,6 +462,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "Hypothesis Testing"
+        },
         {
           "title": "Time Series Analysis"
         },
@@ -433,6 +486,9 @@
         },
         {
           "title": "tidygraph"
+        },
+        {
+          "title": "sf"
         }
       ]
     },
@@ -445,13 +501,10 @@
           "title": "terra"
         },
         {
-          "title": "sf"
+          "title": "tmap"
         },
         {
           "title": "leaflet"
-        },
-        {
-          "title": "tmap"
         }
       ]
     },

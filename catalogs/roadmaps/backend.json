@@ -10,19 +10,7 @@
           "title": "How does the internet work?"
         },
         {
-          "title": "Go"
-        },
-        {
-          "title": "JavaScript"
-        },
-        {
           "title": "What is HTTP?"
-        },
-        {
-          "title": "Python"
-        },
-        {
-          "title": "Ruby"
         },
         {
           "title": "What is Domain Name?"
@@ -44,16 +32,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "C#"
-        },
-        {
           "title": "HTML"
         },
         {
           "title": "CSS"
-        },
-        {
-          "title": "JavaScript"
         }
       ]
     },
@@ -63,13 +45,37 @@
       "completion_threshold": 60,
       "children": [
         {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Go"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Ruby"
+        },
+        {
           "title": "Java"
+        },
+        {
+          "title": "C#"
+        },
+        {
+          "title": "PHP"
         },
         {
           "title": "Rust"
         },
         {
-          "title": "PHP"
+          "title": "MySQL"
+        },
+        {
+          "title": "MariaDB"
+        },
+        {
+          "title": "MS SQL"
         }
       ]
     },
@@ -78,6 +84,9 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
+        {
+          "title": "JavaScript"
+        },
         {
           "title": "Git"
         }
@@ -93,9 +102,6 @@
         },
         {
           "title": "GitLab"
-        },
-        {
-          "title": "Migrations"
         }
       ]
     },
@@ -105,40 +111,19 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "MySQL"
+          "title": "Migrations"
         },
         {
           "title": "PostgreSQL"
         },
         {
-          "title": "JSON APIs"
-        },
-        {
-          "title": "REST"
-        },
-        {
           "title": "SQLite"
-        },
-        {
-          "title": "MariaDB"
-        },
-        {
-          "title": "SOAP"
-        },
-        {
-          "title": "gRPC"
         },
         {
           "title": "Oracle"
         },
         {
-          "title": "MS SQL"
-        },
-        {
           "title": "N+1 Problem"
-        },
-        {
-          "title": "GraphQL"
         }
       ]
     },
@@ -154,6 +139,42 @@
           "title": "Authentication"
         },
         {
+          "title": "AI in Development",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Refactoring"
+            },
+            {
+              "title": "Documentation Generation"
+            }
+          ]
+        },
+        {
+          "title": "AI Providers",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Gemini"
+            },
+            {
+              "title": "OpenAI"
+            },
+            {
+              "title": "Anthropic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
           "title": "JWT"
         },
         {
@@ -161,6 +182,22 @@
         },
         {
           "title": "Basic Authentication"
+        },
+        {
+          "title": "Server Side",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Redis"
+            },
+            {
+              "title": "Memcached"
+            },
+            {
+              "title": "HTTP Caching"
+            }
+          ]
         },
         {
           "title": "Token Authentication"
@@ -176,40 +213,43 @@
         },
         {
           "title": "Web Security"
-        }
-      ]
-    },
-    {
-      "title": "Caching",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Apache"
         },
         {
-          "title": "Redis"
-        },
-        {
-          "title": "Memcached"
-        },
-        {
-          "title": "MD5"
-        },
-        {
-          "title": "SHA"
-        },
-        {
-          "title": "scrypt"
-        },
-        {
-          "title": "bcrypt"
-        },
-        {
-          "title": "OWASP Risks"
-        },
-        {
-          "title": "HTTPS"
+          "title": "Hashing Algorithms",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "MD5"
+            },
+            {
+              "title": "SHA"
+            },
+            {
+              "title": "scrypt"
+            },
+            {
+              "title": "bcrypt"
+            },
+            {
+              "title": "OWASP Risks"
+            },
+            {
+              "title": "HTTPS"
+            },
+            {
+              "title": "SSL/TLS"
+            },
+            {
+              "title": "CORS"
+            },
+            {
+              "title": "Server Security"
+            },
+            {
+              "title": "CSP"
+            }
+          ]
         }
       ]
     },
@@ -222,13 +262,13 @@
           "title": "Nginx"
         },
         {
+          "title": "Apache"
+        },
+        {
           "title": "Caddy"
         },
         {
           "title": "MS IIS"
-        },
-        {
-          "title": "HTTP Caching"
         }
       ]
     },
@@ -248,12 +288,16 @@
         },
         {
           "title": "Vectors"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Applications",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
-          "title": "RAGs"
-        },
-        {
-          "title": "Claude Code"
+          "title": "Code Reviews"
         }
       ]
     },
@@ -263,19 +307,35 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "SSL/TLS"
+          "title": "API Styles",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "REST"
+            },
+            {
+              "title": "JSON APIs"
+            },
+            {
+              "title": "SOAP"
+            },
+            {
+              "title": "gRPC"
+            },
+            {
+              "title": "GraphQL"
+            }
+          ]
         },
         {
-          "title": "CORS"
+          "title": "RAGs"
+        },
+        {
+          "title": "Claude Code"
         },
         {
           "title": "Cursor"
-        },
-        {
-          "title": "Server Security"
-        },
-        {
-          "title": "CSP"
         },
         {
           "title": "Copilot"
@@ -287,26 +347,13 @@
           "title": "Prompting Techniques"
         },
         {
+          "title": "Agents"
+        },
+        {
           "title": "MCP"
         },
         {
           "title": "Skills"
-        },
-        {
-          "title": "Agents"
-        }
-      ]
-    },
-    {
-      "title": "Applications",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Code Reviews"
-        },
-        {
-          "title": "Refactoring"
         }
       ]
     },
@@ -316,22 +363,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Documentation Generation"
-        },
-        {
-          "title": "Gemini"
-        },
-        {
           "title": "Streaming"
         },
         {
-          "title": "OpenAI"
-        },
-        {
           "title": "Structured Outputs"
-        },
-        {
-          "title": "Anthropic"
         },
         {
           "title": "Function Calling"
@@ -363,6 +398,9 @@
         },
         {
           "title": "Profiling Performance"
+        },
+        {
+          "title": "Monolith"
         }
       ]
     },
@@ -381,7 +419,30 @@
           "title": "Functional Testing"
         },
         {
-          "title": "LXC"
+          "title": "Containerization",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "LXC"
+            }
+          ]
+        },
+        {
+          "title": "Container Orchestration",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Redis"
+            },
+            {
+              "title": "Observability"
+            },
+            {
+              "title": "DynamoDB"
+            }
+          ]
         }
       ]
     },
@@ -391,10 +452,32 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "RabbitMQ"
+          "title": "Kafka"
         },
         {
-          "title": "Kafka"
+          "title": "RabbitMQ"
+        }
+      ]
+    },
+    {
+      "title": "Architectural Patterns",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
+        {
+          "title": "Microservices"
+        },
+        {
+          "title": "SOA"
+        },
+        {
+          "title": "Serverless"
+        },
+        {
+          "title": "Service Mesh"
+        },
+        {
+          "title": "Twelve Factor Apps"
         }
       ]
     },
@@ -408,31 +491,9 @@
         },
         {
           "title": "Solr"
-        }
-      ]
-    },
-    {
-      "title": "Architectural Patterns",
-      "importance": 50,
-      "completion_threshold": 60,
-      "children": [
-        {
-          "title": "Microservices"
         },
         {
-          "title": "Monolith"
-        },
-        {
-          "title": "Serverless"
-        },
-        {
-          "title": "SOA"
-        },
-        {
-          "title": "Service Mesh"
-        },
-        {
-          "title": "Twelve Factor Apps"
+          "title": "Server Sent Events"
         }
       ]
     },
@@ -441,9 +502,6 @@
       "importance": 50,
       "completion_threshold": 60,
       "children": [
-        {
-          "title": "Server Sent Events"
-        },
         {
           "title": "WebSockets"
         },
@@ -477,19 +535,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Redis"
-        },
-        {
           "title": "MongoDB"
         },
         {
           "title": "Firebase"
-        },
-        {
-          "title": "Observability"
-        },
-        {
-          "title": "DynamoDB"
         },
         {
           "title": "CouchDB"
@@ -529,28 +578,35 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Graceful Degradation"
+          "title": "Click to visit the roadmap",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Graceful Degradation"
+            },
+            {
+              "title": "Throttling"
+            },
+            {
+              "title": "Backpressure"
+            },
+            {
+              "title": "Loadshifting"
+            },
+            {
+              "title": "Circuit Breaker"
+            }
+          ]
         },
         {
           "title": "Instrumentation"
         },
         {
-          "title": "Throttling"
-        },
-        {
           "title": "Monitoring"
         },
         {
-          "title": "Backpressure"
-        },
-        {
-          "title": "Loadshifting"
-        },
-        {
           "title": "Telemetry"
-        },
-        {
-          "title": "Circuit Breaker"
         }
       ]
     }

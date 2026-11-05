@@ -10,28 +10,35 @@
           "title": "From X to FDE"
         },
         {
-          "title": "Delta"
-        },
-        {
-          "title": "UAT"
+          "title": "FDE Glossary",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Delta"
+            },
+            {
+              "title": "UAT"
+            },
+            {
+              "title": "Last-Mile Integration"
+            },
+            {
+              "title": "Day 2 Operations"
+            },
+            {
+              "title": "Productized Consulting"
+            },
+            {
+              "title": "Embedded Engineering"
+            }
+          ]
         },
         {
           "title": "Roles & Responsabilities"
         },
         {
-          "title": "Last-Mile Integration"
-        },
-        {
           "title": "FDE Tiers"
-        },
-        {
-          "title": "Day 2 Operations"
-        },
-        {
-          "title": "Productized Consulting"
-        },
-        {
-          "title": "Embedded Engineering"
         }
       ]
     },
@@ -51,7 +58,14 @@
         },
         {
           "title": "Go"
-        },
+        }
+      ]
+    },
+    {
+      "title": "DSA & System Design",
+      "importance": 50,
+      "completion_threshold": 60,
+      "children": [
         {
           "title": "Rust"
         },
@@ -59,9 +73,6 @@
           "title": "C++"
         }
       ]
-    },
-    {
-      "title": "DSA & System Design"
     },
     {
       "title": "Git & GitHub"
@@ -94,10 +105,10 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Node.js"
+          "title": "SQL"
         },
         {
-          "title": "SQL"
+          "title": "Node.js"
         },
         {
           "title": "PostgreSQL"
@@ -106,10 +117,10 @@
           "title": "NoSQL DBs"
         },
         {
-          "title": "GraphQL"
+          "title": "APIs Design"
         },
         {
-          "title": "APIs Design"
+          "title": "GraphQL"
         }
       ]
     },
@@ -150,16 +161,13 @@
           "title": "Context Engineering"
         },
         {
-          "title": "Vector DBs"
-        },
-        {
           "title": "RAGs"
         },
         {
-          "title": "Choosing Model Providers"
+          "title": "Vector DBs"
         },
         {
-          "title": "Prompt Management"
+          "title": "Choosing Model Providers"
         }
       ]
     },
@@ -170,6 +178,9 @@
       "children": [
         {
           "title": "Agent Architectures"
+        },
+        {
+          "title": "Prompt Management"
         },
         {
           "title": "Tools & Functions"
@@ -191,22 +202,29 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Codex"
+          "title": "AI-Assisted Coding Tools",
+          "importance": 50,
+          "completion_threshold": 60,
+          "children": [
+            {
+              "title": "Claude Code"
+            },
+            {
+              "title": "Gemini"
+            },
+            {
+              "title": "OpenClaw"
+            }
+          ]
         },
         {
-          "title": "Claude Code"
+          "title": "Codex"
         },
         {
           "title": "Cursor"
         },
         {
-          "title": "Gemini"
-        },
-        {
           "title": "OpenCode"
-        },
-        {
-          "title": "OpenClaw"
         }
       ]
     },
@@ -226,13 +244,13 @@
       "completion_threshold": 60,
       "children": [
         {
-          "title": "Azure"
-        },
-        {
           "title": "AWS"
         },
         {
           "title": "GCP"
+        },
+        {
+          "title": "Azure"
         },
         {
           "title": "Terraform"
