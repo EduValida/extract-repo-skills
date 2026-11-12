@@ -366,7 +366,10 @@ Tool coverage gaps and no functions detected do not establish missing skills.
     }
 
 
-def verify_repository_evidence(report: dict, catalog: dict, reader) -> int:
+def verify_repository_evidence(
+    report: dict, catalog: dict, reader, limits: CollectionLimits | None = None
+) -> int:
+    active_limits = limits or CollectionLimits()
     validate_report(report, catalog)
     selection = report["selection"]["selected"]
     recorded = {item["commit"]: item["author_email"] for item in selection}
@@ -417,7 +420,7 @@ def verify_repository_evidence(report: dict, catalog: dict, reader) -> int:
             if commit not in recorded:
                 raise ValidationError("Citation is outside the analyzed selection")
             if commit not in patches:
-                files, _ = collect_change(reader, cache[commit], CollectionLimits())
+                files, _ = collect_change(reader, cache[commit], active_limits)
                 patches[commit] = {
                     item["path"]: item["changed_lines"] for item in files
                 }
@@ -434,12 +437,16 @@ def verify_repository_evidence(report: dict, catalog: dict, reader) -> int:
 
 
 def validate_repository_assessment(
-    output: dict, prepared: dict, catalog: dict, reader
+    output: dict,
+    prepared: dict,
+    catalog: dict,
+    reader,
+    limits: CollectionLimits | None = None,
 ) -> dict:
     if not isinstance(output, dict) or set(output) != {"assessments"}:
         raise ValidationError("Model output must contain exactly an assessments array")
     report = {**prepared["report_context"], "assessments": output["assessments"]}
-    verify_repository_evidence(report, catalog, reader)
+    verify_repository_evidence(report, catalog, reader, limits=limits)
     return report
 
 
@@ -503,7 +510,9 @@ def analyze_repository(
             output, run = provider(
                 prepared, settings.model, max_output_tokens=settings.max_output_tokens
             )
-            report = validate_repository_assessment(output, prepared, catalog, reader)
+            report = validate_repository_assessment(
+                output, prepared, catalog, reader, limits=settings.limits
+            )
         except ValidationError as exc:
             raise AnalysisError(
                 "assessment_rejected",
